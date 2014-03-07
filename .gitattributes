@@ -5,6 +5,14 @@ Jedro/Makefile -text
 /MSI.js -text svneol=unset#text/javascript
 /MSI.wsf -text svneol=unset#text/xml
 /MSM.mak -text
+MSM/Microsoft_VC100_CRT_x64.lst -text
+MSM/Microsoft_VC100_CRT_x64.msm -text
+MSM/Microsoft_VC100_CRT_x86.lst -text
+MSM/Microsoft_VC100_CRT_x86.msm -text
+MSM/Microsoft_VC100_DebugCRT_x64.lst -text
+MSM/Microsoft_VC100_DebugCRT_x64.msm -text
+MSM/Microsoft_VC100_DebugCRT_x86.lst -text
+MSM/Microsoft_VC100_DebugCRT_x86.msm -text
 /Makefile -text
 UI/Binary/UIMapaGor.ico -text svneol=unset#image/x-icon
 UI/Binary/UIMapaNova.ico -text svneol=unset#image/x-icon
