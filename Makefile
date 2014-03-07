@@ -1,3 +1,7 @@
+######################################################################
+# Parameter validation
+######################################################################
+
 !IFNDEF MSIBUILD_OUTPUT_DIR
 !ERROR Parameter MSIBUILD_OUTPUT_DIR is undefined.
 !ENDIF
@@ -59,6 +63,10 @@ MSIBUILD_PLAT=Intel
 MSIBUILD_PLAT=$(PLAT)
 !ENDIF
 
+######################################################################
+# Target stubs
+######################################################################
+
 All ::
 
 Clean ::
@@ -72,7 +80,7 @@ Clean ::
 
 All :: \
 	"$(MSIBUILD_ROOT)\Version\Version.mak" \
-	"$(MSIBUILD_OUTPUT_DIR)\GUIDPaketa.mak"
+	"$(MSIBUILD_OUTPUT_DIR)\PackageGUID.mak"
 	$(MAKE) /f "Makefile" /$(MAKEFLAGS) MSIBUILD_PHASE=1 All
 
 Clean ::
@@ -83,10 +91,10 @@ Clean ::
 	$(MAKE) /f "Makefile" /$(MAKEFLAGS) Version
 	cd "$(MAKEDIR)"
 
-"$(MSIBUILD_OUTPUT_DIR)\GUIDPaketa.mak" ::
+"$(MSIBUILD_OUTPUT_DIR)\PackageGUID.mak" ::
 	-if exist $@ del /f /q $@
 	-if exist "$(@:"=).tmp" del /f /q "$(@:"=).tmp"
-	novguid.exe MSI_GUID_PAKETA | sed.exe -e "s/set //i" >> "$(@:"=).tmp"
+	novguid.exe MSIBUILD_PACKAGE_GUID | sed.exe -e "s/set //i" >> "$(@:"=).tmp"
 	move /y "$(@:"=).tmp" $@ > NUL
 
 !ELSEIF $(MSIBUILD_PHASE) == 1
@@ -98,7 +106,7 @@ Clean ::
 ######################################################################
 
 !INCLUDE "$(MSIBUILD_ROOT)\Version\Version.mak"
-!INCLUDE "$(MSIBUILD_OUTPUT_DIR)\GUIDPaketa.mak"
+!INCLUDE "$(MSIBUILD_OUTPUT_DIR)\PackageGUID.mak"
 
 All :: \
 	"$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).1.msi" \
@@ -109,7 +117,7 @@ All :: \
 	-if exist $@ del /f /q $@
 	copy /y "$(MSIBUILD_ROOT)\Empty.msi" "$(@:"=).tmp" > NUL
 	!if not exist "$(**R:"=).msmcfg" msidb.exe -d "$(@:"=).tmp" -m $**
-	msiinfo.exe "$(@:"=).tmp" /nologo /C $(MSIBUILD_CODEPAGE) /T "$(MSIBUILD_PRODUCT_NAME) $(MSIBUILD_VERSION_STR) ($(PLAT))" /J "$(MSIBUILD_PRODUCT_DESC)" /A "$(MSIBUILD_VENDOR_NAME)" /P "$(MSIBUILD_PLAT);$(MSIBUILD_LANGID)" /G $(MSIBUILD_MSI_VERSION_MIN) /V $(MSI_GUID_PAKETA) /W 0 /O ""
+	msiinfo.exe "$(@:"=).tmp" /nologo /C $(MSIBUILD_CODEPAGE) /T "$(MSIBUILD_PRODUCT_NAME) $(MSIBUILD_VERSION_STR) ($(PLAT))" /J "$(MSIBUILD_PRODUCT_DESC)" /A "$(MSIBUILD_VENDOR_NAME)" /P "$(MSIBUILD_PLAT);$(MSIBUILD_LANGID)" /G $(MSIBUILD_MSI_VERSION_MIN) /V $(MSIBUILD_PACKAGE_GUID) /W 0 /O ""
 	!if exist "$(**R:"=).msmcfg" msimsm.exe "$(@:"=).tmp" $** /N "$(**R:"=).msmcfg" /D "$(**R:"=).log" /Sd "$(MSIBUILD_OUTPUT_DIR)" /F
 	move /y "$(@:"=).tmp" $@ > NUL
 
@@ -205,7 +213,7 @@ Clean :: $(MSIBUILD_MODULES) $(MSIBUILD_MODULES_PRECOMPILED)
 	cd "$(MSIBUILD_ROOT)\Version"
 	$(MAKE) /f "Makefile" /$(MAKEFLAGS) Clean
 	cd "$(MAKEDIR)"
-	-if exist "$(MSIBUILD_OUTPUT_DIR)\GUIDPaketa.mak"    del /f /q "$(MSIBUILD_OUTPUT_DIR)\GUIDPaketa.mak"
+	-if exist "$(MSIBUILD_OUTPUT_DIR)\PackageGUID.mak"          del /f /q "$(MSIBUILD_OUTPUT_DIR)\PackageGUID.mak"
 	-if exist "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).1.msi" del /f /q "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).1.msi"
 	-if exist "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).2.dep" del /f /q "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).2.dep"
 	-if exist "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).2.msi" del /f /q "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).2.msi"
