@@ -1,0 +1,501 @@
+﻿<?xml version="1.0"?>
+<package>
+	<job id="NarediDDF">
+		<runtime>
+			<description>Ta skripta iz vhodnih datotek MSI pripravi datoteko DDF za skupni arhiv CAB.</description>
+			<unnamed name="&lt;izhodna datoteka&gt;" helpstring="Datoteka DDF" required="true"/>
+			<unnamed name="&lt;vhodne datoteke ...&gt;" helpstring="Vhodne datoteke MSI" required="true"/>
+			<named name="I" helpstring="Mapa z izvornimi datotekami" type="string" required="false"/>
+			<named name="O" helpstring="Osnova za ime arhiva CAB (privzeto &quot;Dat&quot;)" type="string" required="false"/>
+			<named name="K" helpstring="Kompresija (privzeto &quot;MSZIP&quot;)" type="string" required="false"/>
+		</runtime>
+		<script language="JScript" src="ANapake.js"/>
+		<script language="JScript" src="AOsn.js"/>
+		<script language="JScript" src="L10N.js"/>
+		<script language="JScript" src="MSI.js"/>
+		<script language="JScript" src="String.js"/>
+		<script language="JScript"><![CDATA[
+			if (WScript.Arguments.Unnamed.Length < 2) {
+				WScript.Arguments.ShowUsage();
+				WScript.Quit(1);
+			}
+
+			try {
+				var
+					installer  = VrniNovObjekt("WindowsInstaller.Installer"),
+					fso        = VrniNovObjekt("Scripting.FileSystemObject"),
+					pot_izvor  = WScript.Arguments.Named.Exists("I") ? WScript.Arguments.Named("I") : null,
+					osnova     = WScript.Arguments.Named.Exists("O") ? WScript.Arguments.Named("O") : "Dat",
+					kompresija = WScript.Arguments.Named.Exists("K") ? WScript.Arguments.Named("K") : "MSZIP",
+					pot_ddf    = WScript.Arguments.Unnamed(0),
+					datoteke   = new Array(),
+					i, n = WScript.Arguments.Unnamed.length;
+
+				// Ne želimo interakcije z uporabnikom.
+				installer.UILevel = msiUILevelNone;
+
+				for (i = 1; i < n; i++) {
+					var
+						pot_msi = WScript.Arguments.Unnamed(i),
+						d;
+
+					d = MSIVrniDatoteke(installer, pot_msi, pot_izvor);
+					MSIZlijDatoteke(datoteke, d);
+
+					// Force JScript engine to free database and session objects, otherwise opening of another session will fail.
+					CollectGarbage();
+				}
+
+				// Create DDF file and write header properties.
+				var
+					dat = fso.CreateTextFile(pot_ddf, true, false);
+
+				try {
+					dat.WriteLine(".Set CabinetNameTemplate=" + osnova + "*.cab");
+					dat.WriteLine(".Set CabinetName1=" + osnova + ".cab");
+					dat.WriteLine(".Set InfFileName=" + osnova + ".inf");
+					dat.WriteLine(".Set RptFileName=" + osnova + ".rpt");
+					dat.WriteLine(".Set ReservePerCabinetSize=8");
+					dat.WriteLine(".Set MaxDiskSize=0");
+					dat.WriteLine(".Set CompressionType=" + kompresija);
+					dat.WriteLine(".Set InfFileLineFormat=(*disk#*) *file#*: *file* = *Size*");
+					dat.WriteLine(".Set InfHeader=");
+					dat.WriteLine(".Set InfFooter=");
+					dat.WriteLine(".Set InfDateFormat=yyyy-mm-dd");
+					dat.WriteLine(".Set DiskDirectoryTemplate=");
+					dat.WriteLine(".Set Compress=ON");
+					dat.WriteLine(".Set Cabinet=ON");
+					//if (pot_izvor)
+					//	dat.WriteLine(".Set SourceDir=" + pot_izvor);
+					for (fileKey in datoteke) {
+						var
+							f = fso.GetFile(datoteke[fileKey]),
+							d = new Date(f.DateLastModified);
+
+						// Sekunde morajo biti sode. Taka je omejitev orodja MAKECAB.
+						d.setSeconds(Math.round(d.getSeconds() / 2) * 2);
+
+						dat.WriteLine("\"" + datoteke[fileKey] + "\" /Date=" + d.getFullYear() + "-" + (d.getMonth() + 1) + "-" + d.getDate() + " /Time=" + Time2Str(d) + " " + fileKey);
+					}
+				} finally {
+					dat.Close();
+				}
+			} catch (err) {
+				// Če izdelava ni uspela, izbrišemo izhodno datoteko.
+				if (fso.FileExists(pot_ddf))
+					fso.DeleteFile(pot_ddf);
+
+				throw err;
+			}
+
+			WScript.Quit(0);
+		]]></script>
+	</job>
+	<job id="NarediDEP">
+		<runtime>
+			<description>Ta skripta iz vhodnih datotek MSI pripravi datoteko odvisnosti DEP.</description>
+			<unnamed name="&lt;izhodna datoteka&gt;" helpstring="Datoteka DEP" required="true"/>
+			<unnamed name="&lt;ciljna datoteka&gt;" helpstring="Ciljna datoteka, ki bo odvisna od vhodnih" required="true"/>
+			<unnamed name="&lt;vhodne datoteke ...&gt;" helpstring="Vhodne datoteke MSI" required="true"/>
+			<named name="I" helpstring="Mapa z izvornimi datotekami" type="string" required="false"/>
+		</runtime>
+		<script language="JScript" src="ANapake.js"/>
+		<script language="JScript" src="AOsn.js"/>
+		<script language="JScript" src="L10N.js"/>
+		<script language="JScript" src="MSI.js"/>
+		<script language="JScript" src="String.js"/>
+		<script language="JScript"><![CDATA[
+			if (WScript.Arguments.Unnamed.Length < 3) {
+				WScript.Arguments.ShowUsage();
+				WScript.Quit(1);
+			}
+
+			try {
+				var
+					installer  = VrniNovObjekt("WindowsInstaller.Installer"),
+					fso        = VrniNovObjekt("Scripting.FileSystemObject"),
+					pot_izvor  = WScript.Arguments.Named.Exists("I") ? WScript.Arguments.Named("I") : null,
+					pot_dep    = WScript.Arguments.Unnamed(0),
+					pot_cilj   = WScript.Arguments.Unnamed(1),
+					datoteke   = new Array(),
+					i, n = WScript.Arguments.Unnamed.length;
+
+				// Ne želimo interakcije z uporabnikom.
+				installer.UILevel = msiUILevelNone;
+
+				for (i = 2; i < n; i++) {
+					var
+						pot_msi = WScript.Arguments.Unnamed(i),
+						d;
+
+					d = MSIVrniDatoteke(installer, pot_msi, pot_izvor);
+					MSIZlijDatoteke(datoteke, d);
+
+					// Force JScript engine to free database and session objects, otherwise opening of another session will fail.
+					CollectGarbage();
+				}
+
+				var
+					dat = fso.CreateTextFile(pot_dep, true, false);
+
+				try {
+					dat.Write("\"" + pot_cilj + "\" :");
+					for (fileKey in datoteke)
+						dat.Write(" \\\r\n\t\"" + datoteke[fileKey] + "\"");
+					dat.WriteLine();
+					dat.WriteLine();
+				} finally {
+					dat.Close();
+				}
+			} catch (err) {
+				// Če izdelava ni uspela, izbrišemo izhodno datoteko.
+				if (fso.FileExists(pot_dep))
+					fso.DeleteFile(pot_dep);
+
+				throw err;
+			}
+
+			WScript.Quit(0);
+		]]></script>
+	</job>
+	<job id="NastaviCAB">
+		<runtime>
+			<description>Ta skripta nastavi namestitveni paket MSI na zunanjo datoteko CAB.</description>
+			<unnamed name="&lt;izhodna datoteka&gt;" helpstring="Izhodna datoteka MSI" required="true"/>
+			<unnamed name="&lt;vhodna datoteka INF&gt;" helpstring="Vhodna datoteka INF" required="true"/>
+			<named name="I" helpstring="Mapa z izvornimi datotekami" type="string" required="false"/>
+			<named name="V" helpstring="Vgradi datoteko CAB" type="simple" required="false"/>
+		</runtime>
+		<script language="JScript" src="ANapake.js"/>
+		<script language="JScript" src="AOsn.js"/>
+		<script language="JScript" src="L10N.js"/>
+		<script language="JScript" src="MSI.js"/>
+		<script language="JScript" src="String.js"/>
+		<script language="JScript"><![CDATA[
+			if (WScript.Arguments.Unnamed.Length < 2) {
+				WScript.Arguments.ShowUsage();
+				WScript.Quit(1);
+			}
+
+			var
+				installer = VrniNovObjekt("WindowsInstaller.Installer"),
+				fso       = VrniNovObjekt("Scripting.FileSystemObject"),
+				pot_izvor = WScript.Arguments.Named.Exists("I") ? WScript.Arguments.Named("I") : "",
+				vgradi    = WScript.Arguments.Named.Exists("V") ? true : false,
+				pot_msi   = WScript.Arguments.Unnamed(0),
+				pot_inf   = WScript.Arguments.Unnamed(1),
+				pot_cab   = null,
+				ime_cab;
+
+			// Ne želimo interakcije z uporabnikom.
+			installer.UILevel = msiUILevelNone;
+
+			var
+				database     = installer.OpenDatabase(pot_msi, msiOpenDatabaseModeTransact),
+				session      = installer.OpenPackage(database, 1),
+				shortNames   = session.Mode(msiRunModeSourceShortNames),
+				lastSequence = 0,
+				stat,
+				view,
+				record,
+				updateMode,
+				sumInfo,
+				danes = new Date();
+
+			if (pot_izvor)
+				session.Property("OriginalDatabase") = pot_izvor;
+
+			stat = session.DoAction("CostInitialize");
+			if (stat != 1)
+				throw new Error(MSI_NAPAKA_COST_INITIALIZE, Format(__("Pri klicu funkcije CostInitialize je prišlo do napake (koda %1)."), stat));
+
+			var
+				dat = fso.OpenTextFile(pot_inf, 1);
+
+			try {
+				var
+					section         = null,
+					re_section      = new RegExp("^\\s*\\[([^\\]]*)\\]\\s*$", "i"),
+					re_file_list    = new RegExp("^\\s*\\((\\d+)\\)\\s*(\\d+)\\s*[:]([^=]+)[=]\\s*(\\d+)\\s*$", "i"),
+					re_cabinet_list = new RegExp("^\\s*(\\d+)\\s*[,]\\s*(\\d+)\\s*[,](.*)$", "i");
+
+				while (!dat.AtEndOfStream) {
+					var
+						s = new String(dat.ReadLine()),
+						m;
+
+					if (m = s.match(re_section)) {
+						// Našli smo sekcijo.
+						section = new String(m[1]);
+					} else if (section.toLowerCase() == "file list") {
+						if (m = s.match(re_file_list)) {
+							var
+								fileNum = parseInt(m[2], 10),
+								fileId  = Trim(m[3]);
+
+							// Nastavimo sekvenco datoteke v bazi.
+							view = database.OpenView("SELECT Sequence,Attributes FROM File WHERE File='" + _S(fileId) + "'");
+							view.Execute();
+							record = view.Fetch();
+							if (record) {
+								record.IntegerData(1) = fileNum;
+								// record.IntegerData(2) = (record.IntegerData(2) & ~msidbFileAttributesNoncompressed) | msidbFileAttributesCompressed;
+								view.Modify(msiViewModifyUpdate, record);
+							}
+							view.Close();
+
+							if (fileNum > lastSequence)
+								lastSequence = fileNum;
+						}
+					} else if (section.toLowerCase() == "cabinet list") {
+						if (m = s.match(re_cabinet_list)) {
+							if (pot_cab)
+								throw new Error(MSI_NAPAKA_PODVOJEN_ARHIV, __("Datoteka INF lahko vsebuje natanko en arhiv CAB."));
+
+							// Preberemo ime datoteke arhiva.
+							pot_cab = Trim(m[3]);
+							ime_cab = pot_cab.split("\\");
+							ime_cab = ime_cab[ime_cab.length - 1];
+						}
+					}
+				}
+			} finally {
+				dat.Close();
+			}
+
+			view = database.OpenView("SELECT DiskId,LastSequence,Cabinet FROM Media ORDER BY DiskId");
+			view.Execute();
+			record = view.Fetch();
+			updateMode = msiViewModifyUpdate;
+			if (!record) {
+				// Media table empty
+				record = installer.CreateRecord(3);
+				record.IntegerData(1) = 1;
+				updateMode = msiViewModifyInsert;
+			}
+			record.IntegerData(2) = lastSequence;
+			record.StringData(3)  = (vgradi ? "#" : "") + ime_cab;
+			view.Modify(updateMode, record);
+
+			sumInfo = database.SummaryInformation(3);
+			sumInfo.Property(PID_LASTPRINTED)  = danes.getVarDate();
+			sumInfo.Property(PID_LASTSAVE_DTM) = danes.getVarDate();
+			sumInfo.Property(PID_WORDCOUNT)    = (shortNames ? 1 : 0) | 2;
+			sumInfo.Persist();
+
+			if (vgradi) {
+				view = database.OpenView("SELECT Name,Data FROM _Streams");
+				view.Execute();
+				record = installer.CreateRecord(2);
+				record.StringData(1) = ime_cab;
+				record.SetStream(2, pot_cab);
+				view.Modify(msiViewModifyAssign, record);
+			}
+
+			// Commit database
+			database.Commit();
+
+			WScript.Quit(0);
+		]]></script>
+	</job>
+
+<signature>
+** SIG ** MIIZVwYJKoZIhvcNAQcCoIIZSDCCGUQCAQExDjAMBggq
+** SIG ** hkiG9w0CBQUAMGYGCisGAQQBgjcCAQSgWDBWMDIGCisG
+** SIG ** AQQBgjcCAR4wJAIBAQQQcAVhGs441BGiowAQS9NQkAIB
+** SIG ** AAIBAAIBAAIBAAIBADAgMAwGCCqGSIb3DQIFBQAEEBS1
+** SIG ** 0mup/h8B8BYPLED66lKgghQlMIID7jCCA1egAwIBAgIQ
+** SIG ** fpPr+3zGTlnqS5p31Ab8OzANBgkqhkiG9w0BAQUFADCB
+** SIG ** izELMAkGA1UEBhMCWkExFTATBgNVBAgTDFdlc3Rlcm4g
+** SIG ** Q2FwZTEUMBIGA1UEBxMLRHVyYmFudmlsbGUxDzANBgNV
+** SIG ** BAoTBlRoYXd0ZTEdMBsGA1UECxMUVGhhd3RlIENlcnRp
+** SIG ** ZmljYXRpb24xHzAdBgNVBAMTFlRoYXd0ZSBUaW1lc3Rh
+** SIG ** bXBpbmcgQ0EwHhcNMTIxMjIxMDAwMDAwWhcNMjAxMjMw
+** SIG ** MjM1OTU5WjBeMQswCQYDVQQGEwJVUzEdMBsGA1UEChMU
+** SIG ** U3ltYW50ZWMgQ29ycG9yYXRpb24xMDAuBgNVBAMTJ1N5
+** SIG ** bWFudGVjIFRpbWUgU3RhbXBpbmcgU2VydmljZXMgQ0Eg
+** SIG ** LSBHMjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+** SIG ** ggEBALGss0lUS5ccEgrYJXmRIlcqb9y4JsRDc2vCvy5Q
+** SIG ** WvsUwnaOQwElQ7Sh4kX06Ld7w3TMIte0lAAC903tv7S3
+** SIG ** RCRrzV9FO9FEzkMScxeCi2m0K8uZHqxyGyZNcR+xMd37
+** SIG ** UWECU6aq9UksBXhFpS+JzueZ5/6M4lc/PcaS3Er4ezPk
+** SIG ** eQr78HWIQZz/xQNRmarXbJ+TaYdlKYOFwmAUxMjJOxTa
+** SIG ** wIHwHw103pIiq8r3+3R8J+b3Sht/p8OeLa6K6qbmqicW
+** SIG ** fWH3mHERvOJQoUvlXfrlDqcsn6plINPYlujIfKVOSET/
+** SIG ** GeJEB5IL12iEgF1qeGRFzWBGflTBE3zFefHJwXECAwEA
+** SIG ** AaOB+jCB9zAdBgNVHQ4EFgQUX5r1blzMzHSa1N197z/b
+** SIG ** 7EyALt0wMgYIKwYBBQUHAQEEJjAkMCIGCCsGAQUFBzAB
+** SIG ** hhZodHRwOi8vb2NzcC50aGF3dGUuY29tMBIGA1UdEwEB
+** SIG ** /wQIMAYBAf8CAQAwPwYDVR0fBDgwNjA0oDKgMIYuaHR0
+** SIG ** cDovL2NybC50aGF3dGUuY29tL1RoYXd0ZVRpbWVzdGFt
+** SIG ** cGluZ0NBLmNybDATBgNVHSUEDDAKBggrBgEFBQcDCDAO
+** SIG ** BgNVHQ8BAf8EBAMCAQYwKAYDVR0RBCEwH6QdMBsxGTAX
+** SIG ** BgNVBAMTEFRpbWVTdGFtcC0yMDQ4LTEwDQYJKoZIhvcN
+** SIG ** AQEFBQADgYEAAwmbj3nvf1kwqu9otfrjCR27T4IGXTdf
+** SIG ** plKfFo3qHJIJRG71betYfDDo+WmNI3MLEm9Hqa45Efgq
+** SIG ** sZuwGsOO61mWAK3ODE2y0DGmCFwqevzieh1XTKhlGOl5
+** SIG ** QGIllm7HxzdqgyEIjkHq3dlXPx13SYcqFgZepjhqIhKj
+** SIG ** URmDfrYwggSjMIIDi6ADAgECAhAOz/Q4yP6/NW4E2GqY
+** SIG ** GxpQMA0GCSqGSIb3DQEBBQUAMF4xCzAJBgNVBAYTAlVT
+** SIG ** MR0wGwYDVQQKExRTeW1hbnRlYyBDb3Jwb3JhdGlvbjEw
+** SIG ** MC4GA1UEAxMnU3ltYW50ZWMgVGltZSBTdGFtcGluZyBT
+** SIG ** ZXJ2aWNlcyBDQSAtIEcyMB4XDTEyMTAxODAwMDAwMFoX
+** SIG ** DTIwMTIyOTIzNTk1OVowYjELMAkGA1UEBhMCVVMxHTAb
+** SIG ** BgNVBAoTFFN5bWFudGVjIENvcnBvcmF0aW9uMTQwMgYD
+** SIG ** VQQDEytTeW1hbnRlYyBUaW1lIFN0YW1waW5nIFNlcnZp
+** SIG ** Y2VzIFNpZ25lciAtIEc0MIIBIjANBgkqhkiG9w0BAQEF
+** SIG ** AAOCAQ8AMIIBCgKCAQEAomMLOUS4uyOnREm7Dv+h8GEK
+** SIG ** U5OwmNutLA9KxW7/hjxTVQ8VzgQ/K/2plpbZvmF5C1vJ
+** SIG ** TIZ25eBDSyKV7sIrQ8Gf2Gi0jkBP7oU4uRHFI/JkWPAV
+** SIG ** Mm9OV6GuiKQC1yoezUvh3WPVF4kyW7BemVqonShQDhfu
+** SIG ** ltthO0VRHc8SVguSR/yrrvZmPUescHLnkudfzRC5xINk
+** SIG ** lBm9JYDh6NIipdC6Anqhd5NbZcPuF3S8QYYq3AhMjJKM
+** SIG ** kS2ed0QfaNaodHfbDlsyi1aLM73ZY8hJnTrFxeozC9Lx
+** SIG ** oxv0i77Zs1eLO94Ep3oisiSuLsdwxb5OgyYI+wu9qU+Z
+** SIG ** COEQKHKqzQIDAQABo4IBVzCCAVMwDAYDVR0TAQH/BAIw
+** SIG ** ADAWBgNVHSUBAf8EDDAKBggrBgEFBQcDCDAOBgNVHQ8B
+** SIG ** Af8EBAMCB4AwcwYIKwYBBQUHAQEEZzBlMCoGCCsGAQUF
+** SIG ** BzABhh5odHRwOi8vdHMtb2NzcC53cy5zeW1hbnRlYy5j
+** SIG ** b20wNwYIKwYBBQUHMAKGK2h0dHA6Ly90cy1haWEud3Mu
+** SIG ** c3ltYW50ZWMuY29tL3Rzcy1jYS1nMi5jZXIwPAYDVR0f
+** SIG ** BDUwMzAxoC+gLYYraHR0cDovL3RzLWNybC53cy5zeW1h
+** SIG ** bnRlYy5jb20vdHNzLWNhLWcyLmNybDAoBgNVHREEITAf
+** SIG ** pB0wGzEZMBcGA1UEAxMQVGltZVN0YW1wLTIwNDgtMjAd
+** SIG ** BgNVHQ4EFgQURsZpow5KFB7VTNpSYxc/Xja8DeYwHwYD
+** SIG ** VR0jBBgwFoAUX5r1blzMzHSa1N197z/b7EyALt0wDQYJ
+** SIG ** KoZIhvcNAQEFBQADggEBAHg7tJEqAEzwj2IwN3ijhCcH
+** SIG ** bxiy3iXcoNSUA6qGTiWfmkADHN3O43nLIWgG2rYytG2/
+** SIG ** 9CwmYzPkSWRtDebDZw73BaQ1bHyJFsbpst+y6d0gxnEP
+** SIG ** zZV03LZc3r03H0N45ni1zSgEIKOq8UvEiCmRDoDREfzd
+** SIG ** XHZuT14ORUZBbg2w6jiasTraCXEQ/Bx5tIB7rGn0/Zy2
+** SIG ** DBYr8X9bCT2bW+IWyhOBbQAuOA2oKY8s4bL0WqkBrxWc
+** SIG ** LC9JG9siu8P+eJRRw4axgohd8D20UaF5Mysue7ncIAkT
+** SIG ** cetqGVvP6KUwVyyJST+5z3/Jvz4iaGNTmr1pdKzFHTx/
+** SIG ** kuDDvBzYBHUwggV6MIIEYqADAgECAhBAh4tnZ5CllwQo
+** SIG ** npQDAhobMA0GCSqGSIb3DQEBBQUAMIG0MQswCQYDVQQG
+** SIG ** EwJVUzEXMBUGA1UEChMOVmVyaVNpZ24sIEluYy4xHzAd
+** SIG ** BgNVBAsTFlZlcmlTaWduIFRydXN0IE5ldHdvcmsxOzA5
+** SIG ** BgNVBAsTMlRlcm1zIG9mIHVzZSBhdCBodHRwczovL3d3
+** SIG ** dy52ZXJpc2lnbi5jb20vcnBhIChjKTEwMS4wLAYDVQQD
+** SIG ** EyVWZXJpU2lnbiBDbGFzcyAzIENvZGUgU2lnbmluZyAy
+** SIG ** MDEwIENBMB4XDTEyMDkyNjAwMDAwMFoXDTE1MTAxMTIz
+** SIG ** NTk1OVowgb0xCzAJBgNVBAYTAlNJMREwDwYDVQQIEwhT
+** SIG ** bG92ZW5pYTEPMA0GA1UEBxMGS2FtbmlrMRYwFAYDVQQK
+** SIG ** FA1BbWViaXMgZC5vLm8uMT4wPAYDVQQLEzVEaWdpdGFs
+** SIG ** IElEIENsYXNzIDMgLSBNaWNyb3NvZnQgU29mdHdhcmUg
+** SIG ** VmFsaWRhdGlvbiB2MjEaMBgGA1UECxQRcHJvZ3JhbXNr
+** SIG ** YSBvcHJlbWExFjAUBgNVBAMUDUFtZWJpcyBkLm8uby4w
+** SIG ** ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD1
+** SIG ** BkVDOxxbnXL8SuZvvb6CRZQnoTF85LVQe80Bx59Z0Wbj
+** SIG ** JVfCqLxNFP4/lzNf5SMpuHvt3TQLE4NArut0tvz4SArJ
+** SIG ** sVP9tV9PbLxEy0R0bSojzhlLCHY85rMPQ/KIdv1c5E3b
+** SIG ** IofKSouI77pwm9leN82kap/8vGRdUm/LFp6Y3VdNH3Wi
+** SIG ** GFz3ts3IYI/Qzw80pFnoevm4qVnKvtAtihgCRoQ1h1ce
+** SIG ** s5yXkKYEAgvno2Bzy8iUsXaUs+YNh/Wpas+knJd+Pune
+** SIG ** JR8B7C0SlsLkV+EJp4fCCDjU1/GFFYJcQFN7AsdAm2lK
+** SIG ** jaSbC/lDVm5YwNSM964dncX+h8GglMTjAgMBAAGjggF7
+** SIG ** MIIBdzAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIHgDBA
+** SIG ** BgNVHR8EOTA3MDWgM6Axhi9odHRwOi8vY3NjMy0yMDEw
+** SIG ** LWNybC52ZXJpc2lnbi5jb20vQ1NDMy0yMDEwLmNybDBE
+** SIG ** BgNVHSAEPTA7MDkGC2CGSAGG+EUBBxcDMCowKAYIKwYB
+** SIG ** BQUHAgEWHGh0dHBzOi8vd3d3LnZlcmlzaWduLmNvbS9y
+** SIG ** cGEwEwYDVR0lBAwwCgYIKwYBBQUHAwMwcQYIKwYBBQUH
+** SIG ** AQEEZTBjMCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC52
+** SIG ** ZXJpc2lnbi5jb20wOwYIKwYBBQUHMAKGL2h0dHA6Ly9j
+** SIG ** c2MzLTIwMTAtYWlhLnZlcmlzaWduLmNvbS9DU0MzLTIw
+** SIG ** MTAuY2VyMB8GA1UdIwQYMBaAFM+Zqep7JvRLyY6P1/AF
+** SIG ** Ju/j0qedMBEGCWCGSAGG+EIBAQQEAwIEEDAWBgorBgEE
+** SIG ** AYI3AgEbBAgwBgEBAAEB/zANBgkqhkiG9w0BAQUFAAOC
+** SIG ** AQEA4w69Fkalsa4uIgBqqnbavZYA7PGKcul7Q7+kkKYG
+** SIG ** hTSUr8Sz8nJzhj3RDK++GhJUqhnaExDZjo3uhKSEeMqj
+** SIG ** +fxYhDA29qpm7gmk70iAfVaR+olaelVxpUY8DS4eG4OE
+** SIG ** 972AfpnojccLkYvuxz7PifSTPLV/cDIP4OKFCEPQn+L+
+** SIG ** yAWIRoWbDCUkcy/pvjGYREx9/TnTLXmTzvlx1Gl4W9KM
+** SIG ** eSghRtjZt8+We+FZ3/h6J2RPcpjkumbhypQ7bTXrqnYK
+** SIG ** PF+L2QQa4M9gRiJf3iFCaNbBl8hjF1h0P1/6BVzI+mIy
+** SIG ** ymqflDAoc56fB6KwboHBezgfmrjlIvHWgn09RDCCBgow
+** SIG ** ggTyoAMCAQICEFIA5aolVvwahu2WydRLM8cwDQYJKoZI
+** SIG ** hvcNAQEFBQAwgcoxCzAJBgNVBAYTAlVTMRcwFQYDVQQK
+** SIG ** Ew5WZXJpU2lnbiwgSW5jLjEfMB0GA1UECxMWVmVyaVNp
+** SIG ** Z24gVHJ1c3QgTmV0d29yazE6MDgGA1UECxMxKGMpIDIw
+** SIG ** MDYgVmVyaVNpZ24sIEluYy4gLSBGb3IgYXV0aG9yaXpl
+** SIG ** ZCB1c2Ugb25seTFFMEMGA1UEAxM8VmVyaVNpZ24gQ2xh
+** SIG ** c3MgMyBQdWJsaWMgUHJpbWFyeSBDZXJ0aWZpY2F0aW9u
+** SIG ** IEF1dGhvcml0eSAtIEc1MB4XDTEwMDIwODAwMDAwMFoX
+** SIG ** DTIwMDIwNzIzNTk1OVowgbQxCzAJBgNVBAYTAlVTMRcw
+** SIG ** FQYDVQQKEw5WZXJpU2lnbiwgSW5jLjEfMB0GA1UECxMW
+** SIG ** VmVyaVNpZ24gVHJ1c3QgTmV0d29yazE7MDkGA1UECxMy
+** SIG ** VGVybXMgb2YgdXNlIGF0IGh0dHBzOi8vd3d3LnZlcmlz
+** SIG ** aWduLmNvbS9ycGEgKGMpMTAxLjAsBgNVBAMTJVZlcmlT
+** SIG ** aWduIENsYXNzIDMgQ29kZSBTaWduaW5nIDIwMTAgQ0Ew
+** SIG ** ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD1
+** SIG ** I0tepdeKuzLp1Ff37+THJn6tGZj+qJ19lPY2axDXdYEw
+** SIG ** fwRof8srdR7NHQiM32mUpzejnHuA4Jnh7jdNX847FO6G
+** SIG ** 1ND1JzW8JQs4p4xjnRejCKWrsPvNamKCTNUh2hvZ8eOE
+** SIG ** O4oqT4VbkAFPyad2EH8nA3y+rn59wd35BbwbSJxp58Ck
+** SIG ** PDxBAD7fluXF5JRx1lUBxwAmSkA8taEmqQynbYCOkCV7
+** SIG ** z78/HOsvlvrlh3fGtVayejtUMFMb32I0/x7R9FqTKIXl
+** SIG ** TBdOflv9pJOZf9/N76R17+8V9kfn+Bly2C40Gqa0p0x+
+** SIG ** vbtPDD1X8TDWpjaO1oB21xkupc1+NC2JAgMBAAGjggH+
+** SIG ** MIIB+jASBgNVHRMBAf8ECDAGAQH/AgEAMHAGA1UdIARp
+** SIG ** MGcwZQYLYIZIAYb4RQEHFwMwVjAoBggrBgEFBQcCARYc
+** SIG ** aHR0cHM6Ly93d3cudmVyaXNpZ24uY29tL2NwczAqBggr
+** SIG ** BgEFBQcCAjAeGhxodHRwczovL3d3dy52ZXJpc2lnbi5j
+** SIG ** b20vcnBhMA4GA1UdDwEB/wQEAwIBBjBtBggrBgEFBQcB
+** SIG ** DARhMF+hXaBbMFkwVzBVFglpbWFnZS9naWYwITAfMAcG
+** SIG ** BSsOAwIaBBSP5dMahqyNjmvDz4Bq1EgYLHsZLjAlFiNo
+** SIG ** dHRwOi8vbG9nby52ZXJpc2lnbi5jb20vdnNsb2dvLmdp
+** SIG ** ZjA0BgNVHR8ELTArMCmgJ6AlhiNodHRwOi8vY3JsLnZl
+** SIG ** cmlzaWduLmNvbS9wY2EzLWc1LmNybDA0BggrBgEFBQcB
+** SIG ** AQQoMCYwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLnZl
+** SIG ** cmlzaWduLmNvbTAdBgNVHSUEFjAUBggrBgEFBQcDAgYI
+** SIG ** KwYBBQUHAwMwKAYDVR0RBCEwH6QdMBsxGTAXBgNVBAMT
+** SIG ** EFZlcmlTaWduTVBLSS0yLTgwHQYDVR0OBBYEFM+Zqep7
+** SIG ** JvRLyY6P1/AFJu/j0qedMB8GA1UdIwQYMBaAFH/TZafC
+** SIG ** 3ey78DAJ80M5+gKvMzEzMA0GCSqGSIb3DQEBBQUAA4IB
+** SIG ** AQBWIuY0pMRhy0i5Aa1WqGQP2YyRxLvMDOWteqAif99H
+** SIG ** OEotbNF/cRp87HCpsfBP5A8MU/oVXv50mEkkhYEmHJEU
+** SIG ** R7BMY4y7oTTUxkXoDYUmcwPQqYxkbdxxkuZFBWAVWVE5
+** SIG ** /FgUa/7UpO15awgMQXLnNyIGCb4j6T9Emh7pYZ3MsZBc
+** SIG ** /D3SjaxCPWU21LQ9QCiPmxDPIybMSyDLkB9djEw0yjzY
+** SIG ** 5TfWb6UgvTTrJtmuDefFmvehtCGRM2+G6Fi7JXx0Dlj+
+** SIG ** dRtjP84xfJuPG5aexVN2hFucrZH6rO2Tul3IIVPCglNj
+** SIG ** rxINUIcRGz1UUpaKLJw9khoImgUux5OlSJHTMYIEnDCC
+** SIG ** BJgCAQEwgckwgbQxCzAJBgNVBAYTAlVTMRcwFQYDVQQK
+** SIG ** Ew5WZXJpU2lnbiwgSW5jLjEfMB0GA1UECxMWVmVyaVNp
+** SIG ** Z24gVHJ1c3QgTmV0d29yazE7MDkGA1UECxMyVGVybXMg
+** SIG ** b2YgdXNlIGF0IGh0dHBzOi8vd3d3LnZlcmlzaWduLmNv
+** SIG ** bS9ycGEgKGMpMTAxLjAsBgNVBAMTJVZlcmlTaWduIENs
+** SIG ** YXNzIDMgQ29kZSBTaWduaW5nIDIwMTAgQ0ECEECHi2dn
+** SIG ** kKWXBCielAMCGhswDAYIKoZIhvcNAgUFAKCBljAZBgkq
+** SIG ** hkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3
+** SIG ** AgELMQ4wDAYKKwYBBAGCNwIBFTAfBgkqhkiG9w0BCQQx
+** SIG ** EgQQFbJWR6tIDr4iCJphIEQIfzA6BgorBgEEAYI3AgEM
+** SIG ** MSwwKqAQgA4ATQBTAEkALgB3AHMAZqEWgBRodHRwOi8v
+** SIG ** d3d3LmFtZWJpcy5zaTANBgkqhkiG9w0BAQEFAASCAQAd
+** SIG ** EwXumLGjPzxpt/sbcCR9+2W/B673P3xNAn8A+Gbd359n
+** SIG ** XKn9h04cbehzmpjI0lmsz9lfQ+Ro1ftPJazPNoDLYCY7
+** SIG ** +Hl0iWaE0RqRAR6ePabCqrqmt21knZWrL+71UqvfGp3W
+** SIG ** fnqOcx2U4wW5+0HEvlsax1ljdbfErv39q3vMRLrw3VkR
+** SIG ** AMP6Bb3+6F56NxCTdoB4RgjWnBHGL/vxZD1LRVf18XFA
+** SIG ** OCddKnhDCXbYy5mIn1nH9mJNn0/O2knM3DMSN5MAE3iz
+** SIG ** unwt3FjHOALHb8858IlsGqzv1AXGLVkOon04LRX1To1i
+** SIG ** wSg5nRWOhzCw43biYqk8UED2YEL0CvuwoYICCzCCAgcG
+** SIG ** CSqGSIb3DQEJBjGCAfgwggH0AgEBMHIwXjELMAkGA1UE
+** SIG ** BhMCVVMxHTAbBgNVBAoTFFN5bWFudGVjIENvcnBvcmF0
+** SIG ** aW9uMTAwLgYDVQQDEydTeW1hbnRlYyBUaW1lIFN0YW1w
+** SIG ** aW5nIFNlcnZpY2VzIENBIC0gRzICEA7P9DjI/r81bgTY
+** SIG ** apgbGlAwCQYFKw4DAhoFAKBdMBgGCSqGSIb3DQEJAzEL
+** SIG ** BgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE0MDIy
+** SIG ** NzA3MTA0OFowIwYJKoZIhvcNAQkEMRYEFMj1Tvaz63NU
+** SIG ** X1E40uFvbimgbAh1MA0GCSqGSIb3DQEBAQUABIIBAAuP
+** SIG ** 8t9Mg70nQ/62zAcQ7zVXhrgP17/jfnwyhYEkN0HKCmlc
+** SIG ** t6aRKtQn4bKXZkASr0fgzKgvQXoXQu7jJ1Ag05q7immx
+** SIG ** XPnQJOHhUigGbVxOAyiUHhelAjoNHAgiSxzH+06CiRiO
+** SIG ** UQ4WWQj3To1PssM7kyDslwrMZaBpXlUOvRr9gk5aBmuy
+** SIG ** IZK1ySNjGO+pvSYHC+OySMyoHmyrnk0XNqBt9CLA743Z
+** SIG ** FU784gP8bKXuEduvuD1/6cZQL8+7x1dJpzCu2SKv7v1E
+** SIG ** Vh4uvNcYe6+tLOe6PorCyt1k+rsxeKpnO4WKMlnL6Z51
+** SIG ** 3RB8GsXzGERZBdUlfxsbG9J26cK7ir0=
+</signature>
+</package>
