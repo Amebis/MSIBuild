@@ -6,6 +6,7 @@ Core/Makefile -text
 /MSI.wsf -text svneol=unset#text/xml
 /MSM.mak -text
 /Makefile -text
+/String.js -text svneol=unset#text/javascript
 UI/Binary/UIFolderNew.ico -text svneol=unset#image/x-icon
 UI/Binary/UIFolderUp.ico -text svneol=unset#image/x-icon
 UI/Binary/UIInfo.ico -text svneol=unset#image/x-icon

@@ -86,7 +86,7 @@ Clean ::
 "$(MSIBUILD_OUTPUT_DIR)\GUIDPaketa.mak" ::
 	-if exist $@ del /f /q $@
 	-if exist "$(@:"=).tmp" del /f /q "$(@:"=).tmp"
-	novguid.exe MSI_GUID_PAKETA | sed -e "s/set //i" >> "$(@:"=).tmp"
+	novguid.exe MSI_GUID_PAKETA | sed.exe -e "s/set //i" >> "$(@:"=).tmp"
 	move /y "$(@:"=).tmp" $@ > NUL
 
 !ELSEIF $(MSIBUILD_PHASE) == 1
