@@ -1,53 +1,53 @@
-!IFNDEF MSI_IMENIK_CILJ
-!ERROR Spremenljivka MSI_IMENIK_CILJ ni definirana!
+!IFNDEF MSIBUILD_OUTPUT_DIR
+!ERROR Spremenljivka MSIBUILD_OUTPUT_DIR ni definirana!
 !ENDIF
 
-!IFNDEF MSI_IMENIK_MSM
-!ERROR Spremenljivka MSI_IMENIK_MSM ni definirana!
+!IFNDEF MSIBUILD_ROOT
+!ERROR Spremenljivka MSIBUILD_ROOT ni definirana!
 !ENDIF
 
-!IFNDEF MSI_CILJ
-!ERROR Spremenljivka MSI_CILJ ni definirana!
+!IFNDEF MSIBUILD_TARGET
+!ERROR Spremenljivka MSIBUILD_TARGET ni definirana!
 !ENDIF
 
-!IFNDEF MSI_AVTOR
-!ERROR Spremenljivka MSI_AVTOR ni definirana!
+!IFNDEF MSIBUILD_VENDOR_NAME
+!ERROR Spremenljivka MSIBUILD_VENDOR_NAME ni definirana!
 !ENDIF
 
-!IFNDEF MSI_URL_AVTORJA
-!ERROR Spremenljivka MSI_URL_AVTORJA ni definirana!
+!IFNDEF MSIBUILD_VENDOR_URL
+!ERROR Spremenljivka MSIBUILD_VENDOR_URL ni definirana!
 !ENDIF
 
-!IFNDEF MSI_IME_IZDELKA
-!ERROR Spremenljivka MSI_IME_IZDELKA ni definirana!
+!IFNDEF MSIBUILD_PRODUCT_NAME
+!ERROR Spremenljivka MSIBUILD_PRODUCT_NAME ni definirana!
 !ENDIF
 
-!IFNDEF MSI_OPIS_IZDELKA
-!ERROR Spremenljivka MSI_OPIS_IZDELKA ni definirana!
+!IFNDEF MSIBUILD_PRODUCT_DESC
+!ERROR Spremenljivka MSIBUILD_PRODUCT_DESC ni definirana!
 !ENDIF
 
-!IFNDEF MSI_KODNA_TABELA
-!ERROR Spremenljivka MSI_KODNA_TABELA ni definirana!
+!IFNDEF MSIBUILD_CODEPAGE
+!ERROR Spremenljivka MSIBUILD_CODEPAGE ni definirana!
 !ENDIF
 
-!IFNDEF MSI_PLATFORMA
-MSI_PLATFORMA=Win32
+!IFNDEF PLAT
+PLAT=Win32
 !ENDIF
 
-!IFNDEF MSI_KODA_JEZIKA
-!ERROR Spremenljivka MSI_KODA_JEZIKA ni definirana!
+!IFNDEF MSIBUILD_LANGID
+!ERROR Spremenljivka MSIBUILD_LANGID ni definirana!
 !ENDIF
 
-!IFNDEF MSI_VERZIJA
-!ERROR Spremenljivka MSI_VERZIJA ni definirana!
+!IFNDEF MSIBUILD_MSI_VERSION_MIN
+!ERROR Spremenljivka MSIBUILD_MSI_VERSION_MIN ni definirana!
 !ENDIF
 
-!IFNDEF MSI_TIP_ID
-!ERROR Spremenljivka MSI_TIP_ID ni definirana!
+!IFNDEF MSIBUILD_LENGTH_ID
+!ERROR Spremenljivka MSIBUILD_LENGTH_ID ni definirana!
 !ENDIF
 
-!IFNDEF MSI_TIP_POMOC
-!ERROR Spremenljivka MSI_TIP_POMOC ni definirana!
+!IFNDEF MSIBUILD_LENGTH_HELP
+!ERROR Spremenljivka MSIBUILD_LENGTH_HELP ni definirana!
 !ENDIF
 
 !IFNDEF MSI_FAZA
@@ -58,10 +58,10 @@ MSI_FAZA=0
 IMENIK_ASKUPNO=C:\Inetpub\spletne-skripte\ASkupno
 !ENDIF
 
-!IF "$(MSI_PLATFORMA)" == "Win32"
+!IF "$(PLAT)" == "Win32"
 MSI_PLATFORMA2=Intel
 !ELSE
-MSI_PLATFORMA2=$(MSI_PLATFORMA)
+MSI_PLATFORMA2=$(PLAT)
 !ENDIF
 
 Vse ::
@@ -76,19 +76,19 @@ Pocisti ::
 ######################################################################
 
 Vse :: \
-	"$(MSI_IMENIK_MSM)\Verzija\Verzija.mak" \
-	"$(MSI_IMENIK_CILJ)\GUIDPaketa.mak"
+	"$(MSIBUILD_ROOT)\Verzija\Verzija.mak" \
+	"$(MSIBUILD_OUTPUT_DIR)\GUIDPaketa.mak"
 	$(MAKE) /f "Makefile" /$(MAKEFLAGS) MSI_FAZA=1 Vse
 
 Pocisti ::
 	$(MAKE) /f "Makefile" /$(MAKEFLAGS) MSI_FAZA=100 Pocisti
 
-"$(MSI_IMENIK_MSM)\Verzija\Verzija.mak" ::
+"$(MSIBUILD_ROOT)\Verzija\Verzija.mak" ::
 	cd $(@D)
 	$(MAKE) /f "Makefile" /$(MAKEFLAGS) Verzija
 	cd "$(MAKEDIR)"
 	
-"$(MSI_IMENIK_CILJ)\GUIDPaketa.mak" ::
+"$(MSIBUILD_OUTPUT_DIR)\GUIDPaketa.mak" ::
 	-if exist $@ del /f /q $@
 	-if exist "$(@:"=).tmp" del /f /q "$(@:"=).tmp"
 	novguid.exe MSI_GUID_PAKETA | sed -e "s/set //i" >> "$(@:"=).tmp"
@@ -102,29 +102,29 @@ Pocisti ::
 #   namestitvenega paketa.
 ######################################################################
 
-!INCLUDE "$(MSI_IMENIK_MSM)\Verzija\Verzija.mak"
-!INCLUDE "$(MSI_IMENIK_CILJ)\GUIDPaketa.mak"
+!INCLUDE "$(MSIBUILD_ROOT)\Verzija\Verzija.mak"
+!INCLUDE "$(MSIBUILD_OUTPUT_DIR)\GUIDPaketa.mak"
 
 Vse :: \
-	"$(MSI_IMENIK_CILJ)\$(MSI_CILJ).1.msi" \
-	"$(MSI_IMENIK_CILJ)\$(MSI_CILJ).2.dep"
+	"$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).1.msi" \
+	"$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).2.dep"
 	$(MAKE) /f "Makefile" /$(MAKEFLAGS) MSI_FAZA=2 Vse
 
-"$(MSI_IMENIK_CILJ)\$(MSI_CILJ).1.msi" : $(MSI_MODULI) $(MSI_MODULI_DODATNI)
+"$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).1.msi" : $(MSIBUILD_MODULES) $(MSIBUILD_MODULES_PRECOMPILED)
 	-if exist $@ del /f /q $@
-	copy /y "$(MSI_IMENIK_MSM)\Empty.msi" "$(@:"=).tmp" > NUL
+	copy /y "$(MSIBUILD_ROOT)\Empty.msi" "$(@:"=).tmp" > NUL
 	!if not exist "$(**R:"=).msmcfg" msidb.exe -d "$(@:"=).tmp" -m $**
-	msiinfo.exe "$(@:"=).tmp" /nologo /C $(MSI_KODNA_TABELA) /T "$(MSI_IME_IZDELKA) $(MSI_VERZIJA_STR) ($(MSI_PLATFORMA))" /J "$(MSI_OPIS_IZDELKA)" /A "$(MSI_AVTOR)" /P "$(MSI_PLATFORMA2);$(MSI_KODA_JEZIKA)" /G $(MSI_VERZIJA) /V $(MSI_GUID_PAKETA) /W 0 /O ""
-	!if exist "$(**R:"=).msmcfg" msimsm.exe "$(@:"=).tmp" $** /N "$(**R:"=).msmcfg" /D "$(**R:"=).log" /Sd "$(MSI_IMENIK_CILJ)" /F
+	msiinfo.exe "$(@:"=).tmp" /nologo /C $(MSIBUILD_CODEPAGE) /T "$(MSIBUILD_PRODUCT_NAME) $(MSI_VERZIJA_STR) ($(PLAT))" /J "$(MSIBUILD_PRODUCT_DESC)" /A "$(MSIBUILD_VENDOR_NAME)" /P "$(MSI_PLATFORMA2);$(MSIBUILD_LANGID)" /G $(MSIBUILD_MSI_VERSION_MIN) /V $(MSI_GUID_PAKETA) /W 0 /O ""
+	!if exist "$(**R:"=).msmcfg" msimsm.exe "$(@:"=).tmp" $** /N "$(**R:"=).msmcfg" /D "$(**R:"=).log" /Sd "$(MSIBUILD_OUTPUT_DIR)" /F
 	move /y "$(@:"=).tmp" $@ > NUL
 
-"$(MSI_IMENIK_CILJ)\$(MSI_CILJ).2.dep" : "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).1.msi"
+"$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).2.dep" : "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).1.msi"
 	-if exist $@ del /f /q $@
 	-if exist "$(@:"=).tmp" del /f /q "$(@:"=).tmp"
-	cscript.exe "$(IMENIK_ASKUPNO)\MSI.wsf" //Job:NarediDEP //Nologo "$(@:"=).tmp" "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).2.msi" $**
+	cscript.exe "$(IMENIK_ASKUPNO)\MSI.wsf" //Job:NarediDEP //Nologo "$(@:"=).tmp" "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).2.msi" $**
 	move /y "$(@:"=).tmp" $@ > NUL
 
-$(MSI_MODULI) ::
+$(MSIBUILD_MODULES) ::
 	cd $(@D)
 	$(MAKE) /f "Makefile" /$(MAKEFLAGS) MSM_IMA_VERZIJO=1
 	cd "$(MAKEDIR)"
@@ -136,29 +136,29 @@ $(MSI_MODULI) ::
 # - Dopolnitev namestitvenega paketa z verzijami in dolžinami datotek.
 ######################################################################
 
-!INCLUDE "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).2.dep"
-!INCLUDE "$(MSI_IMENIK_MSM)\Verzija\Verzija.mak"
+!INCLUDE "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).2.dep"
+!INCLUDE "$(MSIBUILD_ROOT)\Verzija\Verzija.mak"
 
 Vse :: \
-!IFDEF MSI_STISNI
-	"$(MSI_IMENIK_CILJ)\$(MSI_CILJ).3.dep" \
+!IFDEF MSIBUILD_COMPRESS
+	"$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).3.dep" \
 !ENDIF
-	"$(MSI_IMENIK_CILJ)\$(MSI_CILJ).2.msi"
-!IFDEF MSI_STISNI
+	"$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).2.msi"
+!IFDEF MSIBUILD_COMPRESS
 	$(MAKE) /f "Makefile" /$(MAKEFLAGS) MSI_FAZA=3 Vse
 !ENDIF
 
-"$(MSI_IMENIK_CILJ)\$(MSI_CILJ).2.msi" : "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).1.msi"
+"$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).2.msi" : "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).1.msi"
 	-if exist $@ del /f /q $@
 	-if exist "$(*:"=).out" del /f /q "$(*:"=).out"
-	copy /y "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).1.msi" "$(@:"=).tmp" > NUL
+	copy /y "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).1.msi" "$(@:"=).tmp" > NUL
 	msifiler.exe -v -h -d "$(@:"=).tmp" >> "$(*:"=).out"
 	move /y "$(@:"=).tmp" $@ > NUL
 
-"$(MSI_IMENIK_CILJ)\$(MSI_CILJ).3.dep" : "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).1.msi"
+"$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).3.dep" : "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).1.msi"
 	-if exist $@ del /f /q $@
 	-if exist "$(@:"=).tmp" del /f /q "$(@:"=).tmp"
-	cscript.exe "$(IMENIK_ASKUPNO)\MSI.wsf" //Job:NarediDEP //Nologo "$(@:"=).tmp" "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).cab" $**
+	cscript.exe "$(IMENIK_ASKUPNO)\MSI.wsf" //Job:NarediDEP //Nologo "$(@:"=).tmp" "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).cab" $**
 	move /y "$(@:"=).tmp" $@ > NUL
 
 !ELSEIF $(MSI_FAZA) == 3
@@ -168,33 +168,33 @@ Vse :: \
 # - Kompresija namestitvenega paketa
 ######################################################################
 
-!INCLUDE "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).3.dep"
-!INCLUDE "$(MSI_IMENIK_MSM)\Verzija\Verzija.mak"
+!INCLUDE "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).3.dep"
+!INCLUDE "$(MSIBUILD_ROOT)\Verzija\Verzija.mak"
 
 Vse :: \
-	"$(MSI_IMENIK_CILJ)\$(MSI_CILJ).3.msi"
+	"$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).3.msi"
 
-"$(MSI_IMENIK_CILJ)\$(MSI_CILJ).3.ddf" : "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).2.msi"
+"$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).3.ddf" : "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).2.msi"
 	-if exist $@ del /f /q $@
 	-if exist "$(@:"=).tmp" del /f /q "$(@:"=).tmp"
-	cscript.exe "$(IMENIK_ASKUPNO)\MSI.wsf" //Job:NarediDDF //Nologo "$(@:"=).tmp" $** /O:"$(MSI_IMENIK_CILJ)\$(MSI_CILJ)" /K:LZX
+	cscript.exe "$(IMENIK_ASKUPNO)\MSI.wsf" //Job:NarediDDF //Nologo "$(@:"=).tmp" $** /O:"$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET)" /K:LZX
 	move /y "$(@:"=).tmp" $@ > NUL
 
-"$(MSI_IMENIK_CILJ)\$(MSI_CILJ).cab" \
-"$(MSI_IMENIK_CILJ)\$(MSI_CILJ).inf" \
-"$(MSI_IMENIK_CILJ)\$(MSI_CILJ).rpt" : "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).3.ddf"
-	makecab.exe /F "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).3.ddf"
+"$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).cab" \
+"$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).inf" \
+"$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).rpt" : "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).3.ddf"
+	makecab.exe /F "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).3.ddf"
 
-"$(MSI_IMENIK_CILJ)\$(MSI_CILJ).3.msi" : \
-	"$(MSI_IMENIK_CILJ)\$(MSI_CILJ).2.msi" \
-	"$(MSI_IMENIK_CILJ)\$(MSI_CILJ).cab" \
-	"$(MSI_IMENIK_CILJ)\$(MSI_CILJ).inf"
+"$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).3.msi" : \
+	"$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).2.msi" \
+	"$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).cab" \
+	"$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).inf"
 	-if exist $@ del /f /q $@
-	copy /y "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).2.msi" "$(@:"=).tmp" > NUL
-	cscript.exe "$(IMENIK_ASKUPNO)\MSI.wsf" //Job:NastaviCAB //Nologo "$(@:"=).tmp" "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).inf" /V
+	copy /y "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).2.msi" "$(@:"=).tmp" > NUL
+	cscript.exe "$(IMENIK_ASKUPNO)\MSI.wsf" //Job:NastaviCAB //Nologo "$(@:"=).tmp" "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).inf" /V
 	msiinfo.exe "$(@:"=).tmp" /nologo /U 4
 !IFDEF MANIFESTCERTIFICATETHUMBPRINT
-	signcode.exe -i "$(MSI_URL_AVTORJA)" -sha1 "$(MANIFESTCERTIFICATETHUMBPRINT)" -t "$(MANIFESTTIMESTAMPURL)" -n "$(MSI_IME_IZDELKA)" "$(@:"=).tmp" > NUL
+	signcode.exe -i "$(MSIBUILD_VENDOR_URL)" -sha1 "$(MANIFESTCERTIFICATETHUMBPRINT)" -t "$(MANIFESTTIMESTAMPURL)" -n "$(MSIBUILD_PRODUCT_NAME)" "$(@:"=).tmp" > NUL
 !ENDIF
 	attrib.exe +r "$(@:"=).tmp"
 	move /y "$(@:"=).tmp" $@ > NUL
@@ -206,30 +206,30 @@ Vse :: \
 # - Èišèenje modulov
 ######################################################################
 
-Pocisti :: $(MSI_MODULI) $(MSI_MODULI_DODATNI)
-	cd "$(MSI_IMENIK_MSM)\Verzija"
+Pocisti :: $(MSIBUILD_MODULES) $(MSIBUILD_MODULES_PRECOMPILED)
+	cd "$(MSIBUILD_ROOT)\Verzija"
 	$(MAKE) /f "Makefile" /$(MAKEFLAGS) Pocisti
 	cd "$(MAKEDIR)"
-	-if exist "$(MSI_IMENIK_CILJ)\GUIDPaketa.mak"    del /f /q "$(MSI_IMENIK_CILJ)\GUIDPaketa.mak"
-	-if exist "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).1.msi" del /f /q "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).1.msi"
-	-if exist "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).2.dep" del /f /q "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).2.dep"
-	-if exist "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).2.msi" del /f /q "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).2.msi"
-	-if exist "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).2.out" del /f /q "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).2.out"
-	-if exist "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).3.dep" del /f /q "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).3.dep"
-	-if exist "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).3.ddf" del /f /q "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).3.ddf"
-	-if exist "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).3.msi" del /f /q "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).3.msi"
-	-if exist "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).3.out" del /f /q "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).3.out"
-	-if exist "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).cab"   del /f /q "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).cab"
-	-if exist "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).inf"   del /f /q "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).inf"
-	-if exist "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).rpt"   del /f /q "$(MSI_IMENIK_CILJ)\$(MSI_CILJ).rpt"
+	-if exist "$(MSIBUILD_OUTPUT_DIR)\GUIDPaketa.mak"    del /f /q "$(MSIBUILD_OUTPUT_DIR)\GUIDPaketa.mak"
+	-if exist "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).1.msi" del /f /q "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).1.msi"
+	-if exist "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).2.dep" del /f /q "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).2.dep"
+	-if exist "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).2.msi" del /f /q "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).2.msi"
+	-if exist "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).2.out" del /f /q "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).2.out"
+	-if exist "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).3.dep" del /f /q "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).3.dep"
+	-if exist "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).3.ddf" del /f /q "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).3.ddf"
+	-if exist "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).3.msi" del /f /q "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).3.msi"
+	-if exist "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).3.out" del /f /q "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).3.out"
+	-if exist "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).cab"   del /f /q "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).cab"
+	-if exist "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).inf"   del /f /q "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).inf"
+	-if exist "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).rpt"   del /f /q "$(MSIBUILD_OUTPUT_DIR)\$(MSIBUILD_TARGET).rpt"
 
-$(MSI_MODULI) ::
+$(MSIBUILD_MODULES) ::
 	cd $(@D)
 	$(MAKE) /f "Makefile" /$(MAKEFLAGS) Pocisti
 	cd "$(MAKEDIR)"
 
-!IFDEF MSI_MODULI_DODATNI
-$(MSI_MODULI_DODATNI) ::
+!IFDEF MSIBUILD_MODULES_PRECOMPILED
+$(MSIBUILD_MODULES_PRECOMPILED) ::
 	cd $(@D)
 	-if exist "*.log" del /f /q "*.log"
 	cd "$(MAKEDIR)"

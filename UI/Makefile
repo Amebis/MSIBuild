@@ -1,21 +1,21 @@
-!INCLUDE "..\..\..\include\MSINast.mak"
+!INCLUDE "..\..\..\include\MSIBuildCfg.mak"
 !IFDEF MSM_IMA_VERZIJO
 !INCLUDE "..\Verzija\Verzija.mak"
 !ENDIF
 
-MSM_IMA_LOKALIZACIJO=1
+MSIBUILD_IS_LOCALIZEABLE=1
 
 
 ######################################################################
 # AdminUISequence
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).AdminUISequence-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).AdminUISequence-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).AdminUISequence-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).AdminUISequence-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Condition	Sequence
-s$(MSI_TIP_ID)	S255	I2
+s$(MSIBUILD_LENGTH_ID)	S255	I2
 AdminUISequence	Action
 dlgFailed		-3
 dlgUserExit		-2
@@ -38,18 +38,18 @@ ExecuteAction		1300
 # Binary
 
 Vse :: \
-	"$(JEZIK).$(CFG).$(PLAT).Binary-1" \
-	"$(JEZIK).$(CFG).$(PLAT).Binary-1\UIOpozorilo.ico" \
-	"$(JEZIK).$(CFG).$(PLAT).Binary-1\UIObvestilo.ico" \
-	"$(JEZIK).$(CFG).$(PLAT).Binary-1\UIMapaNova.ico" \
-	"$(JEZIK).$(CFG).$(PLAT).Binary-1\UIMapaGor.ico" \
-	"$(JEZIK).$(CFG).$(PLAT).Binary-1.idt"
+	"$(LANG).$(CFG).$(PLAT).Binary-1" \
+	"$(LANG).$(CFG).$(PLAT).Binary-1\UIOpozorilo.ico" \
+	"$(LANG).$(CFG).$(PLAT).Binary-1\UIObvestilo.ico" \
+	"$(LANG).$(CFG).$(PLAT).Binary-1\UIMapaNova.ico" \
+	"$(LANG).$(CFG).$(PLAT).Binary-1\UIMapaGor.ico" \
+	"$(LANG).$(CFG).$(PLAT).Binary-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).Binary-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).Binary-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Name	Data
-s$(MSI_TIP_ID)	v0
+s$(MSIBUILD_LENGTH_ID)	v0
 Binary	Name
 binUIOpozorilo.ico	UIOpozorilo.ico
 binUIObvestilo.ico	UIObvestilo.ico
@@ -57,29 +57,29 @@ binUIMapaNova.ico	UIMapaNova.ico
 binUIMapaGor.ico	UIMapaGor.ico
 <<NOKEEP
 
-"$(JEZIK).$(CFG).$(PLAT).Binary-1\UIOpozorilo.ico" : "Binary\UIOpozorilo.ico"
+"$(LANG).$(CFG).$(PLAT).Binary-1\UIOpozorilo.ico" : "Binary\UIOpozorilo.ico"
 	copy /y $** $@ > NUL
 
-"$(JEZIK).$(CFG).$(PLAT).Binary-1\UIObvestilo.ico" : "Binary\UIObvestilo.ico"
+"$(LANG).$(CFG).$(PLAT).Binary-1\UIObvestilo.ico" : "Binary\UIObvestilo.ico"
 	copy /y $** $@ > NUL
 
-"$(JEZIK).$(CFG).$(PLAT).Binary-1\UIMapaNova.ico" : "Binary\UIMapaNova.ico"
+"$(LANG).$(CFG).$(PLAT).Binary-1\UIMapaNova.ico" : "Binary\UIMapaNova.ico"
 	copy /y $** $@ > NUL
 
-"$(JEZIK).$(CFG).$(PLAT).Binary-1\UIMapaGor.ico" : "Binary\UIMapaGor.ico"
+"$(LANG).$(CFG).$(PLAT).Binary-1\UIMapaGor.ico" : "Binary\UIMapaGor.ico"
 	copy /y $** $@ > NUL
 
 
 ######################################################################
 # CheckBox
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).CheckBox-2.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).CheckBox-2.idt"
 
-"Sl.$(CFG).$(PLAT).CheckBox-2.idtx" : "Makefile" "..\..\..\include\MSINast.mak"
+"Sl.$(CFG).$(PLAT).CheckBox-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Value
-s$(MSI_TIP_ID)	S64
+s$(MSIBUILD_LENGTH_ID)	S64
 1250	CheckBox	Property
 <<NOKEEP
 
@@ -99,13 +99,13 @@ s$(MSI_TIP_ID)	S64
 ######################################################################
 # Control
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).Control-2.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).Control-2.idt"
 
-"Sl.$(CFG).$(PLAT).Control-2.idtx" : "Makefile" "..\..\..\include\MSINast.mak"
+"Sl.$(CFG).$(PLAT).Control-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control	Type	X	Y	Width	Height	Attributes	Property	Text	Control_Next	Help
-s$(MSI_TIP_ID)	s50	s20	i2	i2	i2	i2	I4	S50	L0	S50	L$(MSI_TIP_POMOC)
+s$(MSIBUILD_LENGTH_ID)	s50	s20	i2	i2	i2	i2	I4	S50	L0	S50	L$(MSIBUILD_LENGTH_HELP)
 1250	Control	Dialog_	Control
 dlgPrepare	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIGlava.bmp	ctlTitle	
 dlgPrepare	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Namestitev programa [SimpleProductName] se pripravlja. Prosimo, poèakajte ...	ctlProgressBar	
@@ -119,7 +119,7 @@ dlgTypeSetup	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIGlava.bmp	ctlTitle
 dlgTypeSetup	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Izberite vrsto namestitve.	ctlInstall	
 dlgTypeSetup	ctlInstall	PushButton	140	130	120	40	3		[DlgTitleFont][ButtonTextInstall] 	ctlCustomize	Namesti najbolj obièajne dele programa. Primerno za veèino uporabnikov.|
 dlgTypeSetup	ctlCustomize	PushButton	165	190	70	25	3		Po &meri	ctlBannerBitmap	Omogoèa, da sami izberete, kateri deli bodo namešèeni in kam.|
-!IFDEF MSI_IMA_TUDI_X64
+!IFDEF MSIBUILD_HAS_X64
 !IF "$(PLAT)" == "Win32"
 dlgTypeSetup	ctlWoW64Icon	Icon	15	234	24	24	5242880		binUIOpozorilo.ico		Opozorilo|
 dlgTypeSetup	ctlWoW64Label	Text	44	234	341	15	196610		[DlgStrongFont]Namestili boste 32-bitno razlièico na 64-bitni operacijski sistem.		
@@ -248,17 +248,17 @@ dlgFailed	ctlClose	PushButton	325	265	60	20	3		&Zapri	ctlBannerBitmap
 ######################################################################
 # ControlCondition
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).ControlCondition-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).ControlCondition-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).ControlCondition-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).ControlCondition-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control_	Action	Condition
-s$(MSI_TIP_ID)	s50	s50	s255
+s$(MSIBUILD_LENGTH_ID)	s50	s50	s255
 ControlCondition	Dialog_	Control_	Action	Condition
 dlgLicenseAgreement	ctlContinue	Disable	NOT IAgree
 dlgLicenseAgreement	ctlContinue	Enable	IAgree
-!IFDEF MSI_IMA_TUDI_X64
+!IFDEF MSIBUILD_HAS_X64
 !IF "$(PLAT)" == "Win32"
 dlgTypeSetup	ctlWoW64Icon	Show	VersionNT64
 dlgTypeSetup	ctlWoW64Label	Show	VersionNT64
@@ -275,14 +275,14 @@ dlgCustomize	ctlBrowse	Disable	Installed
 # ControlEvent
 
 Vse :: \
-	"$(JEZIK).$(CFG).$(PLAT).ControlEvent-1.idt" \
-	"$(JEZIK).$(CFG).$(PLAT).ControlEvent-2.idt"
+	"$(LANG).$(CFG).$(PLAT).ControlEvent-1.idt" \
+	"$(LANG).$(CFG).$(PLAT).ControlEvent-2.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).ControlEvent-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).ControlEvent-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control_	Event	Argument	Condition	Ordering
-s$(MSI_TIP_ID)	s50	s50	s255	S255	I2
+s$(MSIBUILD_LENGTH_ID)	s50	s50	s255	S255	I2
 ControlEvent	Dialog_	Control_	Event	Argument	Condition
 dlgPrepare	ctlBannerBitmap	SpawnDialog	dlgCancel	1	1000
 dlgLicenseAgreement	ctlBannerBitmap	SpawnDialog	dlgCancel	1	1000
@@ -374,11 +374,11 @@ dlgUserExit	ctlClose	EndDialog	Exit	1	1000
 dlgFailed	ctlClose	EndDialog	Exit	1	1000
 <<NOKEEP
 
-"Sl.$(CFG).$(PLAT).ControlEvent-2.idtx" : "Makefile" "..\..\..\include\MSINast.mak"
+"Sl.$(CFG).$(PLAT).ControlEvent-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control_	Event	Argument	Condition	Ordering
-s$(MSI_TIP_ID)	s50	s50	s255	S255	I2
+s$(MSIBUILD_LENGTH_ID)	s50	s50	s255	S255	I2
 1250	ControlEvent	Dialog_	Control_	Event	Argument	Condition
 dlgLicenseAgreement	ctlContinue	[WaitMessage]	Ugotavljanje potrebnega prostora za namestitev ...	1	99
 dlgResume	ctlContinue	[WaitMessage]	Ugotavljanje potrebnega prostora za namestitev ...	1	99
@@ -408,13 +408,13 @@ dlgTypeMaintenance	ctlContinue	[Progress2]	Odstranitev	InstallMode="Remove"	507
 ######################################################################
 # CustomAction
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).CustomAction-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).CustomAction-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).CustomAction-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).CustomAction-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Type	Source	Target
-s$(MSI_TIP_ID)	i2	S$(MSI_TIP_ID)	S255
+s$(MSIBUILD_LENGTH_ID)	i2	S$(MSIBUILD_LENGTH_ID)	S255
 CustomAction	Action
 caSetDefaultUIFontVista	51	DefaultUIFont	tsDlgVista
 caSetDlgStrongFontVista	51	DlgStrongFont	{\tsStrongVista}
@@ -427,14 +427,14 @@ caSetInstallModeAdmin	51	InstallMode	Server Image
 # Dialog
 
 Vse :: \
-	"$(JEZIK).$(CFG).$(PLAT).Dialog-1.idt" \
-	"$(JEZIK).$(CFG).$(PLAT).Dialog-2.idt"
+	"$(LANG).$(CFG).$(PLAT).Dialog-1.idt" \
+	"$(LANG).$(CFG).$(PLAT).Dialog-2.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).Dialog-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).Dialog-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog	HCentering	VCentering	Width	Height	Attributes	Title	Control_First	Control_Default	Control_Cancel
-s$(MSI_TIP_ID)	i2	i2	i2	i2	I4	L128	s50	S50	S50
+s$(MSIBUILD_LENGTH_ID)	i2	i2	i2	i2	I4	L128	s50	S50	S50
 Dialog	Dialog
 dlgPrepare	50	50	400	300	1	[Setup] [SimpleProductName] [DisplayVersion]	ctlTitle	ctlBannerBitmap	ctlBannerBitmap
 dlgLicenseAgreement	50	50	400	300	3	[Setup] [SimpleProductName] [DisplayVersion]	ctlTitle	ctlContinue	ctlBannerBitmap
@@ -457,11 +457,11 @@ dlgUserExit	50	50	400	300	3	[Setup] [SimpleProductName] [DisplayVersion]	ctlTitl
 dlgFailed	50	50	400	300	3	[Setup] [SimpleProductName] [DisplayVersion]	ctlTitle	ctlClose	ctlClose
 <<NOKEEP
 
-"Sl.$(CFG).$(PLAT).Dialog-2.idtx" : "Makefile" "..\..\..\include\MSINast.mak"
+"Sl.$(CFG).$(PLAT).Dialog-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog	HCentering	VCentering	Width	Height	Attributes	Title	Control_First	Control_Default	Control_Cancel
-s$(MSI_TIP_ID)	i2	i2	i2	i2	I4	L128	s50	S50	S50
+s$(MSIBUILD_LENGTH_ID)	i2	i2	i2	i2	I4	L128	s50	S50	S50
 1250	Dialog	Dialog
 dlgError	50	50	260	120	65539	Napaka	ErrorText		
 <<NOKEEP
@@ -482,13 +482,13 @@ dlgError	50	50	260	120	65539	Napaka	ErrorText
 ######################################################################
 # EventMapping
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).EventMapping-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).EventMapping-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).EventMapping-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).EventMapping-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control_	Event	Attribute
-s$(MSI_TIP_ID)	s50	s50	s50
+s$(MSIBUILD_LENGTH_ID)	s50	s50	s50
 EventMapping	Dialog_	Control_	Event
 dlgPrepare	ctlActionText	ActionText	Text
 dlgPrepare	ctlProgressBar	SetProgress	Progress
@@ -510,13 +510,13 @@ dlgBrowseAdmin	ctlDirectoryCombo	IgnoreChange	IgnoreChange
 ######################################################################
 # InstallUISequence
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).InstallUISequence-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).InstallUISequence-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).InstallUISequence-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).InstallUISequence-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Condition	Sequence
-s$(MSI_TIP_ID)	S255	I2
+s$(MSIBUILD_LENGTH_ID)	S255	I2
 InstallUISequence	Action
 dlgFailed		-3
 dlgUserExit		-2
@@ -537,14 +537,14 @@ dlgProgress		1280
 # Property
 
 Vse :: \
-	"$(JEZIK).$(CFG).$(PLAT).Property-1.idt" \
-	"$(JEZIK).$(CFG).$(PLAT).Property-2.idt"
+	"$(LANG).$(CFG).$(PLAT).Property-1.idt" \
+	"$(LANG).$(CFG).$(PLAT).Property-2.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).Property-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).Property-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Value
-s$(MSI_TIP_ID)	l0
+s$(MSIBUILD_LENGTH_ID)	l0
 Property	Property
 DefaultUIFont	tsDlgXP
 DlgStrongFont	{\tsStrongXP}
@@ -553,11 +553,11 @@ ErrorDialog	dlgError
 InstallModeRB	Change
 <<NOKEEP
 
-"Sl.$(CFG).$(PLAT).Property-2.idtx" : "Makefile" "..\..\..\include\MSINast.mak"
+"Sl.$(CFG).$(PLAT).Property-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Value
-s$(MSI_TIP_ID)	l0
+s$(MSIBUILD_LENGTH_ID)	l0
 1250	Property	Property
 Progress1	Namešèam
 Progress2	Namestitev
@@ -583,13 +583,13 @@ ButtonTextInstall	&Namesti zdaj
 ######################################################################
 # RadioButton
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).RadioButton-2.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).RadioButton-2.idt"
 
-"Sl.$(CFG).$(PLAT).RadioButton-2.idtx" : "Makefile" "..\..\..\include\MSINast.mak"
+"Sl.$(CFG).$(PLAT).RadioButton-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Order	Value	X	Y	Width	Height	Text	Help
-s$(MSI_TIP_ID)	i2	s64	i2	i2	i2	i2	L64	L$(MSI_TIP_POMOC)
+s$(MSIBUILD_LENGTH_ID)	i2	s64	i2	i2	i2	i2	L64	L$(MSIBUILD_LENGTH_HELP)
 1250	RadioButton	Property	Order
 InstallModeRB	1	Change	0	0	370	15	&Spremeni	Omogoèa, da sami izberete, kateri deli programa so namešèeni.|
 InstallModeRB	2	Repair	0	20	370	15	Ob&novi	Odpravi napake pri namestitvi programa - popravi pokvarjene ali manjkajoèe datoteke, bližnjice in zapise v registru.|
@@ -612,13 +612,13 @@ InstallModeRB	3	Remove	0	40	370	15	&Odstrani	Odstrani program z vašega raèunalni
 ######################################################################
 # TextStyle
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).TextStyle-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).TextStyle-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).TextStyle-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).TextStyle-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 TextStyle	FaceName	Size	Color	StyleBits
-s$(MSI_TIP_ID)	s32	i2	I4	I2
+s$(MSIBUILD_LENGTH_ID)	s32	i2	I4	I2
 TextStyle	TextStyle
 tsDlgXP	Tahoma	8		0
 tsStrongXP	Tahoma	8		1

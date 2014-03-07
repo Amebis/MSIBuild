@@ -16,12 +16,12 @@ MSI_NASTAVI_CAB_STIKALA=/V
 MSI_NASTAVI_CAB_STIKALA=
 !ENDIF
 
-!IFNDEF MSI_URL_AVTORJA
-!ERROR Spremenljivka MSI_URL_AVTORJA ni definirana!
+!IFNDEF MSIBUILD_VENDOR_URL
+!ERROR Spremenljivka MSIBUILD_VENDOR_URL ni definirana!
 !ENDIF
 
-!IFNDEF MSI_IME_IZDELKA
-!ERROR Spremenljivka MSI_IME_IZDELKA ni definirana!
+!IFNDEF MSIBUILD_PRODUCT_NAME
+!ERROR Spremenljivka MSIBUILD_PRODUCT_NAME ni definirana!
 !ENDIF
 
 !IFNDEF IMENIK_ASKUPNO
@@ -43,7 +43,7 @@ Vse : \
 	cscript.exe "$(IMENIK_ASKUPNO)\MSI.wsf" //Job:NastaviCAB //Nologo "$(@:"=).tmp" "$(MSI_DATOTEKA_INF)" $(MSI_NASTAVI_CAB_STIKALA)
 	msiinfo.exe "$(@:"=).tmp" /nologo /U 4
 !IFDEF MANIFESTCERTIFICATETHUMBPRINT
-	signcode.exe -i "$(MSI_URL_AVTORJA)" -sha1 "$(MANIFESTCERTIFICATETHUMBPRINT)" -t "$(MANIFESTTIMESTAMPURL)" -n "$(MSI_IME_IZDELKA)" "$(@:"=).tmp" > NUL
+	signcode.exe -i "$(MSIBUILD_VENDOR_URL)" -sha1 "$(MANIFESTCERTIFICATETHUMBPRINT)" -t "$(MANIFESTTIMESTAMPURL)" -n "$(MSIBUILD_PRODUCT_NAME)" "$(@:"=).tmp" > NUL
 !ENDIF
 	attrib.exe +r "$(@:"=).tmp"
 	move /y "$(@:"=).tmp" $@ > NUL

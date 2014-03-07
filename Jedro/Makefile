@@ -1,17 +1,17 @@
-!INCLUDE "..\..\..\include\MSINast.mak"
+!INCLUDE "..\..\..\include\MSIBuildCfg.mak"
 !IFDEF MSM_IMA_VERZIJO
 !INCLUDE "..\Verzija\Verzija.mak"
 !ENDIF
 
-MSM_IMA_LOKALIZACIJO=1
+MSIBUILD_IS_LOCALIZEABLE=1
 
-MSI_POLNO_IME_IZDELKA=$(MSI_IME_IZDELKA) $(MSI_VERZIJA_STR)
+MSI_POLNO_IME_IZDELKA=$(MSIBUILD_PRODUCT_NAME) $(MSI_VERZIJA_STR)
 !IF "$(CFG)" == "Debug"
 MSI_POLNO_IME_IZDELKA=$(MSI_POLNO_IME_IZDELKA) Diag
 !ENDIF
-!IFDEF MSI_IMA_TUDI_X64
-!IFDEF MSI_PLATFORMA
-MSI_POLNO_IME_IZDELKA=$(MSI_POLNO_IME_IZDELKA) $(MSI_PLATFORMA)
+!IFDEF MSIBUILD_HAS_X64
+!IFDEF PLAT
+MSI_POLNO_IME_IZDELKA=$(MSI_POLNO_IME_IZDELKA) $(PLAT)
 !ENDIF
 !ENDIF
 
@@ -26,9 +26,9 @@ MSI_POLNO_IME_IZDELKA=$(MSI_POLNO_IME_IZDELKA) $(MSI_PLATFORMA)
 ######################################################################
 # ___
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).___-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).___-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).___-1.idt" : "Makefile" "..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).___-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 <<NOKEEP
@@ -38,15 +38,15 @@ Vse :: "$(JEZIK).$(CFG).$(PLAT).___-1.idt"
 # ___
 
 Vse :: \
-	"$(JEZIK).$(CFG).$(PLAT).___-1.idt" \
-	"$(JEZIK).$(CFG).$(PLAT).___-2.idt"
+	"$(LANG).$(CFG).$(PLAT).___-1.idt" \
+	"$(LANG).$(CFG).$(PLAT).___-2.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).___-1.idt" : "Makefile" "..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).___-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 <<NOKEEP
 
-"Sl.$(CFG).$(PLAT).___-2.idtx" : "Makefile" "..\..\include\MSINast.mak"
+"Sl.$(CFG).$(PLAT).___-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 <<NOKEEP
@@ -69,9 +69,9 @@ Vse :: \
 ######################################################################
 # _Validation
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT)._Validation-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT)._Validation-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT)._Validation-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT)._Validation-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Table	Column	Nullable	MinValue	MaxValue	KeyTable	KeyColumn	Category	Set	Description
@@ -510,13 +510,13 @@ Verb	Verb	N					Text		The verb for the command.
 ######################################################################
 # ActionText
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).ActionText-2.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).ActionText-2.idt"
 
-"Sl.$(CFG).$(PLAT).ActionText-2.idtx" : "Makefile" "..\..\..\include\MSINast.mak"
+"Sl.$(CFG).$(PLAT).ActionText-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Description	Template
-s$(MSI_TIP_ID)	L0	L0
+s$(MSIBUILD_LENGTH_ID)	L0	L0
 1250	ActionText	Action
 Advertise	Program za oglaševanje	
 AllocateRegistrySpace	Rezervacija prostora v sistemskem registru	Nezaseden prostor: [1]
@@ -606,13 +606,13 @@ WriteRegistryValues	Zapisovanje vrednosti v sistemski register	Kljuè: [1], ime: 
 ######################################################################
 # AdminExecuteSequence
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).AdminExecuteSequence-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).AdminExecuteSequence-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).AdminExecuteSequence-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).AdminExecuteSequence-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Condition	Sequence
-s$(MSI_TIP_ID)	S255	I2
+s$(MSIBUILD_LENGTH_ID)	S255	I2
 AdminExecuteSequence	Action
 CostInitialize		800
 FileCost		900
@@ -628,13 +628,13 @@ InstallFinalize		6600
 ######################################################################
 # AdvtExecuteSequence
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).AdvtExecuteSequence-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).AdvtExecuteSequence-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).AdvtExecuteSequence-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).AdvtExecuteSequence-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Condition	Sequence
-s$(MSI_TIP_ID)	S255	I2
+s$(MSIBUILD_LENGTH_ID)	S255	I2
 AdvtExecuteSequence	Action
 CostInitialize		800
 CostFinalize		1000
@@ -655,13 +655,13 @@ InstallFinalize		6600
 ######################################################################
 # AppSearch
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).AppSearch-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).AppSearch-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).AppSearch-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).AppSearch-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Signature_
-s$(MSI_TIP_ID)	s$(MSI_TIP_ID)
+s$(MSIBUILD_LENGTH_ID)	s$(MSIBUILD_LENGTH_ID)
 AppSearch	Property	Signature_
 <<NOKEEP
 
@@ -669,9 +669,9 @@ AppSearch	Property	Signature_
 ######################################################################
 # BBControl
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).BBControl-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).BBControl-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).BBControl-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).BBControl-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Billboard_	BBControl	Type	X	Y	Width	Height	Attributes	Text
@@ -683,13 +683,13 @@ BBControl	Billboard_	BBControl
 ######################################################################
 # Billboard
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).Billboard-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).Billboard-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).Billboard-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).Billboard-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Billboard	Feature_	Action	Ordering
-s50	s$(MSI_TIP_ID)	S50	I2
+s50	s$(MSIBUILD_LENGTH_ID)	S50	I2
 Billboard	Billboard
 <<NOKEEP
 
@@ -698,14 +698,14 @@ Billboard	Billboard
 # Binary
 
 Vse :: \
-	"$(JEZIK).$(CFG).$(PLAT).Binary-1" \
-	"$(JEZIK).$(CFG).$(PLAT).Binary-1.idt"
+	"$(LANG).$(CFG).$(PLAT).Binary-1" \
+	"$(LANG).$(CFG).$(PLAT).Binary-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).Binary-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).Binary-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Name	Data
-s$(MSI_TIP_ID)	v0
+s$(MSIBUILD_LENGTH_ID)	v0
 Binary	Name
 <<NOKEEP
 
@@ -713,13 +713,13 @@ Binary	Name
 ######################################################################
 # CheckBox
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).CheckBox-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).CheckBox-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).CheckBox-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).CheckBox-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Value
-s$(MSI_TIP_ID)	S64
+s$(MSIBUILD_LENGTH_ID)	S64
 CheckBox	Property
 <<NOKEEP
 
@@ -727,13 +727,13 @@ CheckBox	Property
 ######################################################################
 # ComboBox
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).ComboBox-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).ComboBox-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).ComboBox-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).ComboBox-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Order	Value	Text
-s$(MSI_TIP_ID)	i2	s64	L64
+s$(MSIBUILD_LENGTH_ID)	i2	s64	L64
 ComboBox	Property	Order
 <<NOKEEP
 
@@ -741,13 +741,13 @@ ComboBox	Property	Order
 ######################################################################
 # Control
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).Control-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).Control-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).Control-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).Control-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control	Type	X	Y	Width	Height	Attributes	Property	Text	Control_Next	Help
-s$(MSI_TIP_ID)	s50	s20	i2	i2	i2	i2	I4	S50	L0	S50	L$(MSI_TIP_POMOC)
+s$(MSIBUILD_LENGTH_ID)	s50	s20	i2	i2	i2	i2	I4	S50	L0	S50	L$(MSIBUILD_LENGTH_HELP)
 Control	Dialog_	Control
 <<NOKEEP
 
@@ -755,13 +755,13 @@ Control	Dialog_	Control
 ######################################################################
 # ControlCondition
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).ControlCondition-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).ControlCondition-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).ControlCondition-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).ControlCondition-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control_	Action	Condition
-s$(MSI_TIP_ID)	s50	s50	s255
+s$(MSIBUILD_LENGTH_ID)	s50	s50	s255
 ControlCondition	Dialog_	Control_	Action	Condition
 <<NOKEEP
 
@@ -769,13 +769,13 @@ ControlCondition	Dialog_	Control_	Action	Condition
 ######################################################################
 # ControlEvent
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).ControlEvent-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).ControlEvent-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).ControlEvent-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).ControlEvent-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control_	Event	Argument	Condition	Ordering
-s$(MSI_TIP_ID)	s50	s50	s255	S255	I2
+s$(MSIBUILD_LENGTH_ID)	s50	s50	s255	S255	I2
 ControlEvent	Dialog_	Control_	Event	Argument	Condition
 <<NOKEEP
 
@@ -783,13 +783,13 @@ ControlEvent	Dialog_	Control_	Event	Argument	Condition
 ######################################################################
 # CreateFolder
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).CreateFolder-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).CreateFolder-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).CreateFolder-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).CreateFolder-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Directory_	Component_
-s$(MSI_TIP_ID)	s$(MSI_TIP_ID)
+s$(MSIBUILD_LENGTH_ID)	s$(MSIBUILD_LENGTH_ID)
 CreateFolder	Directory_	Component_
 <<NOKEEP
 
@@ -797,13 +797,13 @@ CreateFolder	Directory_	Component_
 ######################################################################
 # CustomAction
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).CustomAction-2.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).CustomAction-2.idt"
 
-"Sl.$(CFG).$(PLAT).CustomAction-2.idtx" : "Makefile" "..\..\..\include\MSINast.mak"
+"Sl.$(CFG).$(PLAT).CustomAction-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Type	Source	Target
-s$(MSI_TIP_ID)	i2	S$(MSI_TIP_ID)	S255
+s$(MSIBUILD_LENGTH_ID)	i2	S$(MSIBUILD_LENGTH_ID)	S255
 1250	CustomAction	Action
 caNewerProductFound	19		Novejša verzija programskega paketa [SimpleProductName] je že namešèena.
 caFaultyProductFound	19		Ta namestitveni paket ne more nadgraditi trenutno namešèenega programskega paketa [SimpleProductName]. Prosimo, najprej odstranite namešèeni programski paket in nato poskusite ponovno.
@@ -825,13 +825,13 @@ caFaultyProductFound	19		Ta namestitveni paket ne more nadgraditi trenutno nameš
 ######################################################################
 # Dialog
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).Dialog-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).Dialog-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).Dialog-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).Dialog-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog	HCentering	VCentering	Width	Height	Attributes	Title	Control_First	Control_Default	Control_Cancel
-s$(MSI_TIP_ID)	i2	i2	i2	i2	I4	L128	s50	S50	S50
+s$(MSIBUILD_LENGTH_ID)	i2	i2	i2	i2	I4	L128	s50	S50	S50
 Dialog	Dialog
 <<NOKEEP
 
@@ -839,9 +839,9 @@ Dialog	Dialog
 ######################################################################
 # Error
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).Error-2.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).Error-2.idt"
 
-"Sl.$(CFG).$(PLAT).Error-2.idtx" : "Makefile" "..\..\..\include\MSINast.mak"
+"Sl.$(CFG).$(PLAT).Error-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Error	Message
@@ -1026,13 +1026,13 @@ i2	L0
 ######################################################################
 # EventMapping
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).EventMapping-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).EventMapping-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).EventMapping-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).EventMapping-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control_	Event	Attribute
-s$(MSI_TIP_ID)	s50	s50	s50
+s$(MSIBUILD_LENGTH_ID)	s50	s50	s50
 EventMapping	Dialog_	Control_	Event
 <<NOKEEP
 
@@ -1040,13 +1040,13 @@ EventMapping	Dialog_	Control_	Event
 ######################################################################
 # Extension
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).Extension-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).Extension-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).Extension-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).Extension-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Extension	Component_	ProgId_	MIME_	Feature_
-s255	s$(MSI_TIP_ID)	S255	S$(MSI_TIP_ID)	s$(MSI_TIP_ID)
+s255	s$(MSIBUILD_LENGTH_ID)	S255	S$(MSIBUILD_LENGTH_ID)	s$(MSIBUILD_LENGTH_ID)
 Extension	Extension	Component_
 <<NOKEEP
 
@@ -1054,13 +1054,13 @@ Extension	Extension	Component_
 ######################################################################
 # InstallExecuteSequence
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).InstallExecuteSequence-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).InstallExecuteSequence-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).InstallExecuteSequence-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).InstallExecuteSequence-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Condition	Sequence
-s$(MSI_TIP_ID)	S255	I2
+s$(MSIBUILD_LENGTH_ID)	S255	I2
 InstallExecuteSequence	Action
 LaunchConditions	NOT Installed	100
 FindRelatedProducts		200
@@ -1132,13 +1132,13 @@ RemoveExistingProducts		6700
 ######################################################################
 # InstallUISequence
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).InstallUISequence-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).InstallUISequence-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).InstallUISequence-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).InstallUISequence-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Condition	Sequence
-s$(MSI_TIP_ID)	S255	I2
+s$(MSIBUILD_LENGTH_ID)	S255	I2
 InstallUISequence	Action
 LaunchConditions	NOT Installed	100
 FindRelatedProducts		200
@@ -1158,9 +1158,9 @@ ExecuteAction		1300
 ######################################################################
 # LaunchCondition
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).LaunchCondition-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).LaunchCondition-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).LaunchCondition-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).LaunchCondition-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Condition	Description
@@ -1172,13 +1172,13 @@ LaunchCondition	Condition
 ######################################################################
 # ListBox
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).ListBox-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).ListBox-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).ListBox-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).ListBox-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Order	Value	Text
-s$(MSI_TIP_ID)	i2	s64	L64
+s$(MSIBUILD_LENGTH_ID)	i2	s64	L64
 ListBox	Property	Order
 <<NOKEEP
 
@@ -1186,13 +1186,13 @@ ListBox	Property	Order
 ######################################################################
 # ListView
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).ListView-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).ListView-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).ListView-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).ListView-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Order	Value	Text	Binary_
-s$(MSI_TIP_ID)	i2	s64	L64	S$(MSI_TIP_ID)
+s$(MSIBUILD_LENGTH_ID)	i2	s64	L64	S$(MSIBUILD_LENGTH_ID)
 ListView	Property	Order
 <<NOKEEP
 
@@ -1200,13 +1200,13 @@ ListView	Property	Order
 ######################################################################
 # LockPermissions
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).LockPermissions-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).LockPermissions-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).LockPermissions-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).LockPermissions-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 LockObject	Table	Domain	User	Permission
-s$(MSI_TIP_ID)	s32	S255	s255	I4
+s$(MSIBUILD_LENGTH_ID)	s32	S255	s255	I4
 LockPermissions	LockObject	Table	Domain	User
 <<NOKEEP
 
@@ -1214,13 +1214,13 @@ LockPermissions	LockObject	Table	Domain	User
 ######################################################################
 # ModuleComponents
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).ModuleComponents-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).ModuleComponents-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).ModuleComponents-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).ModuleComponents-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Component	ModuleID	Language
-s$(MSI_TIP_ID)	s$(MSI_TIP_ID)	i2
+s$(MSIBUILD_LENGTH_ID)	s$(MSIBUILD_LENGTH_ID)	i2
 ModuleComponents	Component	ModuleID	Language
 <<NOKEEP
 
@@ -1228,13 +1228,13 @@ ModuleComponents	Component	ModuleID	Language
 ######################################################################
 # ModuleDependency
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).ModuleDependency-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).ModuleDependency-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).ModuleDependency-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).ModuleDependency-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 ModuleID	ModuleLanguage	RequiredID	RequiredLanguage	RequiredVersion
-s$(MSI_TIP_ID)	i2	s$(MSI_TIP_ID)	i2	S32
+s$(MSIBUILD_LENGTH_ID)	i2	s$(MSIBUILD_LENGTH_ID)	i2	S32
 ModuleDependency	ModuleID	ModuleLanguage	RequiredID	RequiredLanguage
 <<NOKEEP
 
@@ -1242,13 +1242,13 @@ ModuleDependency	ModuleID	ModuleLanguage	RequiredID	RequiredLanguage
 ######################################################################
 # ModuleSignature
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).ModuleSignature-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).ModuleSignature-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).ModuleSignature-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).ModuleSignature-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 ModuleID	Language	Version
-s$(MSI_TIP_ID)	i2	s20
+s$(MSIBUILD_LENGTH_ID)	i2	s20
 ModuleSignature	ModuleID	Language
 <<NOKEEP
 
@@ -1256,13 +1256,13 @@ ModuleSignature	ModuleID	Language
 ######################################################################
 # MsiAssembly
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).MsiAssembly-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).MsiAssembly-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).MsiAssembly-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).MsiAssembly-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Component_	Feature_	File_Manifest	File_Application	Attributes
-s$(MSI_TIP_ID)	s$(MSI_TIP_ID)	S$(MSI_TIP_ID)	S$(MSI_TIP_ID)	I2
+s$(MSIBUILD_LENGTH_ID)	s$(MSIBUILD_LENGTH_ID)	S$(MSIBUILD_LENGTH_ID)	S$(MSIBUILD_LENGTH_ID)	I2
 MsiAssembly	Component_
 <<NOKEEP
 
@@ -1270,13 +1270,13 @@ MsiAssembly	Component_
 ######################################################################
 # MsiAssemblyName
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).MsiAssemblyName-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).MsiAssemblyName-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).MsiAssemblyName-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).MsiAssemblyName-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Component_	Name	Value
-s$(MSI_TIP_ID)	s255	s255
+s$(MSIBUILD_LENGTH_ID)	s255	s255
 MsiAssemblyName	Component_	Name
 <<NOKEEP
 
@@ -1284,13 +1284,13 @@ MsiAssemblyName	Component_	Name
 ######################################################################
 # MsiFileHash
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).MsiFileHash-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).MsiFileHash-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).MsiFileHash-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).MsiFileHash-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 File_	Options	HashPart1	HashPart2	HashPart3	HashPart4
-s$(MSI_TIP_ID)	i2	i4	i4	i4	i4
+s$(MSIBUILD_LENGTH_ID)	i2	i4	i4	i4	i4
 MsiFileHash	File_
 <<NOKEEP
 
@@ -1298,13 +1298,13 @@ MsiFileHash	File_
 ######################################################################
 # MsiSFCBypass
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).MsiSFCBypass-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).MsiSFCBypass-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).MsiSFCBypass-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).MsiSFCBypass-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 File_
-s$(MSI_TIP_ID)
+s$(MSIBUILD_LENGTH_ID)
 MsiSFCBypass	File_
 <<NOKEEP
 
@@ -1313,43 +1313,43 @@ MsiSFCBypass	File_
 # Property
 
 Vse :: \
-	"$(JEZIK).$(CFG).$(PLAT).Property-1.idt" \
-	"$(JEZIK).$(CFG).$(PLAT).Property-2.idt"
+	"$(LANG).$(CFG).$(PLAT).Property-1.idt" \
+	"$(LANG).$(CFG).$(PLAT).Property-2.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).Property-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).Property-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Value
-s$(MSI_TIP_ID)	l0
+s$(MSIBUILD_LENGTH_ID)	l0
 Property	Property
-!IFDEF MSI_URL_AVTORJA
-ARPURLINFOABOUT	$(MSI_URL_AVTORJA)
+!IFDEF MSIBUILD_VENDOR_URL
+ARPURLINFOABOUT	$(MSIBUILD_VENDOR_URL)
 !ENDIF
-!IFDEF MSI_NASLOV_AVTORJA
-ARPCONTACT	$(MSI_NASLOV_AVTORJA)
+!IFDEF MSIBUILD_VENDOR_ADDRESS
+ARPCONTACT	$(MSIBUILD_VENDOR_ADDRESS)
 !ENDIF
-!IFDEF MSI_TEL_AVTORJA
-ARPHELPTELEPHONE	$(MSI_TEL_AVTORJA)
+!IFDEF MSIBUILD_VENDOR_PHONE
+ARPHELPTELEPHONE	$(MSIBUILD_VENDOR_PHONE)
 !ENDIF
-!IFDEF MSI_URL_IZDELKA
-ARPHELPLINK	$(MSI_URL_IZDELKA)
+!IFDEF MSIBUILD_PRODUCT_URL
+ARPHELPLINK	$(MSIBUILD_PRODUCT_URL)
 !ENDIF
-!IFDEF MSI_URL_NADGRADNJE
-ARPURLUPDATEINFO	$(MSI_URL_NADGRADNJE)
+!IFDEF MSIBUILD_PRODUCT_UPGRADE_URL
+ARPURLUPDATEINFO	$(MSIBUILD_PRODUCT_UPGRADE_URL)
 !ENDIF
-Manufacturer	$(MSI_AVTOR)
+Manufacturer	$(MSIBUILD_VENDOR_NAME)
 MSICHECKCRCS	1
 ProductID	none
 ProductName	$(MSI_POLNO_IME_IZDELKA)
-SimpleProductName	$(MSI_IME_IZDELKA)
+SimpleProductName	$(MSIBUILD_PRODUCT_NAME)
 PROMPTROLLBACKCOST	P
 <<NOKEEP
 
-"Sl.$(CFG).$(PLAT).Property-2.idtx" : "Makefile" "..\..\..\include\MSINast.mak"
+"Sl.$(CFG).$(PLAT).Property-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Value
-s$(MSI_TIP_ID)	l0
+s$(MSIBUILD_LENGTH_ID)	l0
 1250	Property	Property
 ProductLanguage	1060
 <<NOKEEP
@@ -1370,13 +1370,13 @@ ProductLanguage	1060
 ######################################################################
 # RadioButton
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).RadioButton-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).RadioButton-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).RadioButton-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).RadioButton-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Order	Value	X	Y	Width	Height	Text	Help
-s$(MSI_TIP_ID)	i2	s64	i2	i2	i2	i2	L64	L$(MSI_TIP_POMOC)
+s$(MSIBUILD_LENGTH_ID)	i2	s64	i2	i2	i2	i2	L64	L$(MSIBUILD_LENGTH_HELP)
 RadioButton	Property	Order
 <<NOKEEP
 
@@ -1384,13 +1384,13 @@ RadioButton	Property	Order
 ######################################################################
 # RegLocator
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).RegLocator-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).RegLocator-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).RegLocator-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).RegLocator-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Signature_	Root	Key	Name	Type
-s$(MSI_TIP_ID)	i2	s255	S255	I2
+s$(MSIBUILD_LENGTH_ID)	i2	s255	S255	I2
 RegLocator	Signature_
 <<NOKEEP
 
@@ -1398,13 +1398,13 @@ RegLocator	Signature_
 ######################################################################
 # Signature
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).Signature-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).Signature-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).Signature-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).Signature-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Signature	FileName	MinVersion	MaxVersion	MinSize	MaxSize	MinDate	MaxDate	Languages
-s$(MSI_TIP_ID)	s255	S20	S20	I4	I4	I4	I4	S255
+s$(MSIBUILD_LENGTH_ID)	s255	S20	S20	I4	I4	I4	I4	S255
 Signature	Signature
 <<NOKEEP
 
@@ -1412,13 +1412,13 @@ Signature	Signature
 ######################################################################
 # SxsMsmGenComponents
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).SxsMsmGenComponents-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).SxsMsmGenComponents-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).SxsMsmGenComponents-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).SxsMsmGenComponents-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Component_	Guid
-s$(MSI_TIP_ID)	s38
+s$(MSIBUILD_LENGTH_ID)	s38
 SxsMsmGenComponents	Component_
 <<NOKEEP
 
@@ -1426,13 +1426,13 @@ SxsMsmGenComponents	Component_
 ######################################################################
 # TextStyle
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).TextStyle-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).TextStyle-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).TextStyle-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).TextStyle-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 TextStyle	FaceName	Size	Color	StyleBits
-s$(MSI_TIP_ID)	s32	i2	I4	I2
+s$(MSIBUILD_LENGTH_ID)	s32	i2	I4	I2
 TextStyle	TextStyle
 <<NOKEEP
 
@@ -1440,13 +1440,13 @@ TextStyle	TextStyle
 ######################################################################
 # TypeLib
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).TypeLib-1.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).TypeLib-1.idt"
 
-"$(JEZIK).$(CFG).$(PLAT).TypeLib-1.idt" : "Makefile" "..\..\..\include\MSINast.mak"
+"$(LANG).$(CFG).$(PLAT).TypeLib-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 LibID	Language	Component_	Version	Description	Directory_	Feature_	Cost
-s38	i2	s$(MSI_TIP_ID)	I2	L128	S$(MSI_TIP_ID)	s$(MSI_TIP_ID)	I4
+s38	i2	s$(MSIBUILD_LENGTH_ID)	I2	L128	S$(MSIBUILD_LENGTH_ID)	s$(MSIBUILD_LENGTH_ID)	I4
 TypeLib	LibID	Language	Component_
 <<NOKEEP
 
@@ -1454,13 +1454,13 @@ TypeLib	LibID	Language	Component_
 ######################################################################
 # UIText
 
-Vse :: "$(JEZIK).$(CFG).$(PLAT).UIText-2.idt"
+Vse :: "$(LANG).$(CFG).$(PLAT).UIText-2.idt"
 
-"Sl.$(CFG).$(PLAT).UIText-2.idtx" : "Makefile" "..\..\..\include\MSINast.mak"
+"Sl.$(CFG).$(PLAT).UIText-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Key	Text
-s$(MSI_TIP_ID)	L255
+s$(MSIBUILD_LENGTH_ID)	L255
 1250	UIText	Key
 AbsentPath	
 bytes	 bajtov
