@@ -1,6 +1,6 @@
-!INCLUDE "..\..\..\include\MSIBuildCfg.mak"
-!IFDEF MSM_IMA_VERZIJO
-!INCLUDE "..\Verzija\Verzija.mak"
+!INCLUDE "..\..\include\MSIBuildCfg.mak"
+!IFDEF MSIBUILD_HAS_VERSION
+!INCLUDE "..\Version\Version.mak"
 !ENDIF
 
 MSIBUILD_IS_LOCALIZEABLE=1
@@ -9,9 +9,9 @@ MSIBUILD_IS_LOCALIZEABLE=1
 ######################################################################
 # AdminUISequence
 
-Vse :: "$(LANG).$(CFG).$(PLAT).AdminUISequence-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).AdminUISequence-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).AdminUISequence-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).AdminUISequence-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Condition	Sequence
@@ -37,45 +37,45 @@ ExecuteAction		1300
 ######################################################################
 # Binary
 
-Vse :: \
-	"$(LANG).$(CFG).$(PLAT).Binary-1" \
-	"$(LANG).$(CFG).$(PLAT).Binary-1\UIOpozorilo.ico" \
-	"$(LANG).$(CFG).$(PLAT).Binary-1\UIObvestilo.ico" \
-	"$(LANG).$(CFG).$(PLAT).Binary-1\UIMapaNova.ico" \
-	"$(LANG).$(CFG).$(PLAT).Binary-1\UIMapaGor.ico" \
-	"$(LANG).$(CFG).$(PLAT).Binary-1.idt"
+All :: \
+	"$(LANG).$(PLAT).$(CFG).Binary-1" \
+	"$(LANG).$(PLAT).$(CFG).Binary-1\UIWarning.ico" \
+	"$(LANG).$(PLAT).$(CFG).Binary-1\UIInfo.ico" \
+	"$(LANG).$(PLAT).$(CFG).Binary-1\UIFolderNew.ico" \
+	"$(LANG).$(PLAT).$(CFG).Binary-1\UIFolderUp.ico" \
+	"$(LANG).$(PLAT).$(CFG).Binary-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).Binary-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).Binary-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Name	Data
 s$(MSIBUILD_LENGTH_ID)	v0
 Binary	Name
-binUIOpozorilo.ico	UIOpozorilo.ico
-binUIObvestilo.ico	UIObvestilo.ico
-binUIMapaNova.ico	UIMapaNova.ico
-binUIMapaGor.ico	UIMapaGor.ico
+binUIOpozorilo.ico	UIWarning.ico
+binUIObvestilo.ico	UIInfo.ico
+binUIMapaNova.ico	UIFolderNew.ico
+binUIMapaGor.ico	UIFolderUp.ico
 <<NOKEEP
 
-"$(LANG).$(CFG).$(PLAT).Binary-1\UIOpozorilo.ico" : "Binary\UIOpozorilo.ico"
+"$(LANG).$(PLAT).$(CFG).Binary-1\UIWarning.ico" : "Binary\UIWarning.ico"
 	copy /y $** $@ > NUL
 
-"$(LANG).$(CFG).$(PLAT).Binary-1\UIObvestilo.ico" : "Binary\UIObvestilo.ico"
+"$(LANG).$(PLAT).$(CFG).Binary-1\UIInfo.ico" : "Binary\UIInfo.ico"
 	copy /y $** $@ > NUL
 
-"$(LANG).$(CFG).$(PLAT).Binary-1\UIMapaNova.ico" : "Binary\UIMapaNova.ico"
+"$(LANG).$(PLAT).$(CFG).Binary-1\UIFolderNew.ico" : "Binary\UIFolderNew.ico"
 	copy /y $** $@ > NUL
 
-"$(LANG).$(CFG).$(PLAT).Binary-1\UIMapaGor.ico" : "Binary\UIMapaGor.ico"
+"$(LANG).$(PLAT).$(CFG).Binary-1\UIFolderUp.ico" : "Binary\UIFolderUp.ico"
 	copy /y $** $@ > NUL
 
 
 ######################################################################
 # CheckBox
 
-Vse :: "$(LANG).$(CFG).$(PLAT).CheckBox-2.idt"
+All :: "$(LANG).$(PLAT).$(CFG).CheckBox-2.idt"
 
-"Sl.$(CFG).$(PLAT).CheckBox-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"Sl.$(PLAT).$(CFG).CheckBox-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Value
@@ -83,25 +83,25 @@ s$(MSIBUILD_LENGTH_ID)	S64
 1250	CheckBox	Property
 <<NOKEEP
 
-"De.$(CFG).$(PLAT).CheckBox-2.idt" : "Sl.$(CFG).$(PLAT).CheckBox-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).CheckBox-2.idt" : "Sl.$(PLAT).$(CFG).CheckBox-2.idtx" "..\res\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(CFG).$(PLAT).CheckBox-2.idt" : "Sl.$(CFG).$(PLAT).CheckBox-2.idtx" "..\res\en_GB.po"
+"En.$(PLAT).$(CFG).CheckBox-2.idt" : "Sl.$(PLAT).$(CFG).CheckBox-2.idtx" "..\res\en_GB.po"
 	rcxgettext.exe idtp $@ $**
 
-"It.$(CFG).$(PLAT).CheckBox-2.idt" : "Sl.$(CFG).$(PLAT).CheckBox-2.idtx" "..\res\it_IT.po"
+"It.$(PLAT).$(CFG).CheckBox-2.idt" : "Sl.$(PLAT).$(CFG).CheckBox-2.idtx" "..\res\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(CFG).$(PLAT).CheckBox-2.idt" : "Sl.$(CFG).$(PLAT).CheckBox-2.idtx"
+"Sl.$(PLAT).$(CFG).CheckBox-2.idt" : "Sl.$(PLAT).$(CFG).CheckBox-2.idtx"
 	copy /y $** $@ > NUL
 
 
 ######################################################################
 # Control
 
-Vse :: "$(LANG).$(CFG).$(PLAT).Control-2.idt"
+All :: "$(LANG).$(PLAT).$(CFG).Control-2.idt"
 
-"Sl.$(CFG).$(PLAT).Control-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"Sl.$(PLAT).$(CFG).Control-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control	Type	X	Y	Width	Height	Attributes	Property	Text	Control_Next	Help
@@ -232,25 +232,25 @@ dlgFailed	ctlText2	Text	15	89	370	24	196611		Prosimo, poskusite ponovno ali se o
 dlgFailed	ctlClose	PushButton	325	265	60	20	3		&Zapri	ctlBannerBitmap	
 <<NOKEEP
 
-"De.$(CFG).$(PLAT).Control-2.idt" : "Sl.$(CFG).$(PLAT).Control-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).Control-2.idt" : "Sl.$(PLAT).$(CFG).Control-2.idtx" "..\res\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(CFG).$(PLAT).Control-2.idt" : "Sl.$(CFG).$(PLAT).Control-2.idtx" "..\res\en_GB.po"
+"En.$(PLAT).$(CFG).Control-2.idt" : "Sl.$(PLAT).$(CFG).Control-2.idtx" "..\res\en_GB.po"
 	rcxgettext.exe idtp $@ $**
 
-"It.$(CFG).$(PLAT).Control-2.idt" : "Sl.$(CFG).$(PLAT).Control-2.idtx" "..\res\it_IT.po"
+"It.$(PLAT).$(CFG).Control-2.idt" : "Sl.$(PLAT).$(CFG).Control-2.idtx" "..\res\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(CFG).$(PLAT).Control-2.idt" : "Sl.$(CFG).$(PLAT).Control-2.idtx"
+"Sl.$(PLAT).$(CFG).Control-2.idt" : "Sl.$(PLAT).$(CFG).Control-2.idtx"
 	copy /y $** $@ > NUL
 
 
 ######################################################################
 # ControlCondition
 
-Vse :: "$(LANG).$(CFG).$(PLAT).ControlCondition-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).ControlCondition-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).ControlCondition-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).ControlCondition-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control_	Action	Condition
@@ -274,11 +274,11 @@ dlgCustomize	ctlBrowse	Disable	Installed
 ######################################################################
 # ControlEvent
 
-Vse :: \
-	"$(LANG).$(CFG).$(PLAT).ControlEvent-1.idt" \
-	"$(LANG).$(CFG).$(PLAT).ControlEvent-2.idt"
+All :: \
+	"$(LANG).$(PLAT).$(CFG).ControlEvent-1.idt" \
+	"$(LANG).$(PLAT).$(CFG).ControlEvent-2.idt"
 
-"$(LANG).$(CFG).$(PLAT).ControlEvent-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).ControlEvent-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control_	Event	Argument	Condition	Ordering
@@ -374,7 +374,7 @@ dlgUserExit	ctlClose	EndDialog	Exit	1	1000
 dlgFailed	ctlClose	EndDialog	Exit	1	1000
 <<NOKEEP
 
-"Sl.$(CFG).$(PLAT).ControlEvent-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"Sl.$(PLAT).$(CFG).ControlEvent-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control_	Event	Argument	Condition	Ordering
@@ -392,25 +392,25 @@ dlgTypeMaintenance	ctlContinue	[Progress1]	Odstranjujem	InstallMode="Remove"	506
 dlgTypeMaintenance	ctlContinue	[Progress2]	Odstranitev	InstallMode="Remove"	507
 <<NOKEEP
 
-"De.$(CFG).$(PLAT).ControlEvent-2.idt" : "Sl.$(CFG).$(PLAT).ControlEvent-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).ControlEvent-2.idt" : "Sl.$(PLAT).$(CFG).ControlEvent-2.idtx" "..\res\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(CFG).$(PLAT).ControlEvent-2.idt" : "Sl.$(CFG).$(PLAT).ControlEvent-2.idtx" "..\res\en_GB.po"
+"En.$(PLAT).$(CFG).ControlEvent-2.idt" : "Sl.$(PLAT).$(CFG).ControlEvent-2.idtx" "..\res\en_GB.po"
 	rcxgettext.exe idtp $@ $**
 
-"It.$(CFG).$(PLAT).ControlEvent-2.idt" : "Sl.$(CFG).$(PLAT).ControlEvent-2.idtx" "..\res\it_IT.po"
+"It.$(PLAT).$(CFG).ControlEvent-2.idt" : "Sl.$(PLAT).$(CFG).ControlEvent-2.idtx" "..\res\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(CFG).$(PLAT).ControlEvent-2.idt" : "Sl.$(CFG).$(PLAT).ControlEvent-2.idtx"
+"Sl.$(PLAT).$(CFG).ControlEvent-2.idt" : "Sl.$(PLAT).$(CFG).ControlEvent-2.idtx"
 	copy /y $** $@ > NUL
 
 
 ######################################################################
 # CustomAction
 
-Vse :: "$(LANG).$(CFG).$(PLAT).CustomAction-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).CustomAction-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).CustomAction-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).CustomAction-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Type	Source	Target
@@ -426,11 +426,11 @@ caSetInstallModeAdmin	51	InstallMode	Server Image
 ######################################################################
 # Dialog
 
-Vse :: \
-	"$(LANG).$(CFG).$(PLAT).Dialog-1.idt" \
-	"$(LANG).$(CFG).$(PLAT).Dialog-2.idt"
+All :: \
+	"$(LANG).$(PLAT).$(CFG).Dialog-1.idt" \
+	"$(LANG).$(PLAT).$(CFG).Dialog-2.idt"
 
-"$(LANG).$(CFG).$(PLAT).Dialog-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).Dialog-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog	HCentering	VCentering	Width	Height	Attributes	Title	Control_First	Control_Default	Control_Cancel
@@ -457,7 +457,7 @@ dlgUserExit	50	50	400	300	3	[Setup] [SimpleProductName] [DisplayVersion]	ctlTitl
 dlgFailed	50	50	400	300	3	[Setup] [SimpleProductName] [DisplayVersion]	ctlTitle	ctlClose	ctlClose
 <<NOKEEP
 
-"Sl.$(CFG).$(PLAT).Dialog-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"Sl.$(PLAT).$(CFG).Dialog-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog	HCentering	VCentering	Width	Height	Attributes	Title	Control_First	Control_Default	Control_Cancel
@@ -466,25 +466,25 @@ s$(MSIBUILD_LENGTH_ID)	i2	i2	i2	i2	I4	L128	s50	S50	S50
 dlgError	50	50	260	120	65539	Napaka	ErrorText		
 <<NOKEEP
 
-"De.$(CFG).$(PLAT).Dialog-2.idt" : "Sl.$(CFG).$(PLAT).Dialog-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).Dialog-2.idt" : "Sl.$(PLAT).$(CFG).Dialog-2.idtx" "..\res\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(CFG).$(PLAT).Dialog-2.idt" : "Sl.$(CFG).$(PLAT).Dialog-2.idtx" "..\res\en_GB.po"
+"En.$(PLAT).$(CFG).Dialog-2.idt" : "Sl.$(PLAT).$(CFG).Dialog-2.idtx" "..\res\en_GB.po"
 	rcxgettext.exe idtp $@ $**
 
-"It.$(CFG).$(PLAT).Dialog-2.idt" : "Sl.$(CFG).$(PLAT).Dialog-2.idtx" "..\res\it_IT.po"
+"It.$(PLAT).$(CFG).Dialog-2.idt" : "Sl.$(PLAT).$(CFG).Dialog-2.idtx" "..\res\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(CFG).$(PLAT).Dialog-2.idt" : "Sl.$(CFG).$(PLAT).Dialog-2.idtx"
+"Sl.$(PLAT).$(CFG).Dialog-2.idt" : "Sl.$(PLAT).$(CFG).Dialog-2.idtx"
 	copy /y $** $@ > NUL
 
 
 ######################################################################
 # EventMapping
 
-Vse :: "$(LANG).$(CFG).$(PLAT).EventMapping-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).EventMapping-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).EventMapping-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).EventMapping-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control_	Event	Attribute
@@ -510,9 +510,9 @@ dlgBrowseAdmin	ctlDirectoryCombo	IgnoreChange	IgnoreChange
 ######################################################################
 # InstallUISequence
 
-Vse :: "$(LANG).$(CFG).$(PLAT).InstallUISequence-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).InstallUISequence-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).InstallUISequence-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).InstallUISequence-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Condition	Sequence
@@ -536,11 +536,11 @@ dlgProgress		1280
 ######################################################################
 # Property
 
-Vse :: \
-	"$(LANG).$(CFG).$(PLAT).Property-1.idt" \
-	"$(LANG).$(CFG).$(PLAT).Property-2.idt"
+All :: \
+	"$(LANG).$(PLAT).$(CFG).Property-1.idt" \
+	"$(LANG).$(PLAT).$(CFG).Property-2.idt"
 
-"$(LANG).$(CFG).$(PLAT).Property-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).Property-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Value
@@ -553,7 +553,7 @@ ErrorDialog	dlgError
 InstallModeRB	Change
 <<NOKEEP
 
-"Sl.$(CFG).$(PLAT).Property-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"Sl.$(PLAT).$(CFG).Property-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Value
@@ -567,25 +567,25 @@ TitleCustomize	Namestitev po meri
 ButtonTextInstall	&Namesti zdaj
 <<NOKEEP
 
-"De.$(CFG).$(PLAT).Property-2.idt" : "Sl.$(CFG).$(PLAT).Property-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).Property-2.idt" : "Sl.$(PLAT).$(CFG).Property-2.idtx" "..\res\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(CFG).$(PLAT).Property-2.idt" : "Sl.$(CFG).$(PLAT).Property-2.idtx" "..\res\en_GB.po"
+"En.$(PLAT).$(CFG).Property-2.idt" : "Sl.$(PLAT).$(CFG).Property-2.idtx" "..\res\en_GB.po"
 	rcxgettext.exe idtp $@ $**
 
-"It.$(CFG).$(PLAT).Property-2.idt" : "Sl.$(CFG).$(PLAT).Property-2.idtx" "..\res\it_IT.po"
+"It.$(PLAT).$(CFG).Property-2.idt" : "Sl.$(PLAT).$(CFG).Property-2.idtx" "..\res\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(CFG).$(PLAT).Property-2.idt" : "Sl.$(CFG).$(PLAT).Property-2.idtx"
+"Sl.$(PLAT).$(CFG).Property-2.idt" : "Sl.$(PLAT).$(CFG).Property-2.idtx"
 	copy /y $** $@ > NUL
 
 
 ######################################################################
 # RadioButton
 
-Vse :: "$(LANG).$(CFG).$(PLAT).RadioButton-2.idt"
+All :: "$(LANG).$(PLAT).$(CFG).RadioButton-2.idt"
 
-"Sl.$(CFG).$(PLAT).RadioButton-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"Sl.$(PLAT).$(CFG).RadioButton-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Order	Value	X	Y	Width	Height	Text	Help
@@ -596,25 +596,25 @@ InstallModeRB	2	Repair	0	20	370	15	Ob&novi	Odpravi napake pri namestitvi program
 InstallModeRB	3	Remove	0	40	370	15	&Odstrani	Odstrani program z vašega raèunalnika.|
 <<NOKEEP
 
-"De.$(CFG).$(PLAT).RadioButton-2.idt" : "Sl.$(CFG).$(PLAT).RadioButton-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).RadioButton-2.idt" : "Sl.$(PLAT).$(CFG).RadioButton-2.idtx" "..\res\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(CFG).$(PLAT).RadioButton-2.idt" : "Sl.$(CFG).$(PLAT).RadioButton-2.idtx" "..\res\en_GB.po"
+"En.$(PLAT).$(CFG).RadioButton-2.idt" : "Sl.$(PLAT).$(CFG).RadioButton-2.idtx" "..\res\en_GB.po"
 	rcxgettext.exe idtp $@ $**
 
-"It.$(CFG).$(PLAT).RadioButton-2.idt" : "Sl.$(CFG).$(PLAT).RadioButton-2.idtx" "..\res\it_IT.po"
+"It.$(PLAT).$(CFG).RadioButton-2.idt" : "Sl.$(PLAT).$(CFG).RadioButton-2.idtx" "..\res\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(CFG).$(PLAT).RadioButton-2.idt" : "Sl.$(CFG).$(PLAT).RadioButton-2.idtx"
+"Sl.$(PLAT).$(CFG).RadioButton-2.idt" : "Sl.$(PLAT).$(CFG).RadioButton-2.idtx"
 	copy /y $** $@ > NUL
 
 
 ######################################################################
 # TextStyle
 
-Vse :: "$(LANG).$(CFG).$(PLAT).TextStyle-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).TextStyle-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).TextStyle-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).TextStyle-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 TextStyle	FaceName	Size	Color	StyleBits
@@ -630,7 +630,7 @@ tsTitleVista	Segoe UI	11		1
 
 
 ######################################################################
-# Izdelava modula MSM
+# Build MSM module!
 ######################################################################
 
 !INCLUDE "..\MSM.mak"

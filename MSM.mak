@@ -1,35 +1,35 @@
-Vse :: "$(LANG).$(CFG).$(PLAT).msm"
+All :: "$(LANG).$(PLAT).$(CFG).msm"
 
-Pocisti ::
-	-if exist "$(LANG).$(CFG).$(PLAT).*-1.idt"      del /f /q "$(LANG).$(CFG).$(PLAT).*-1.idt"
-	-if exist "$(LANG).$(CFG).$(PLAT).Binary-1\*.*" del /f /q "$(LANG).$(CFG).$(PLAT).Binary-1\*.*"
-	-if exist "$(LANG).$(CFG).$(PLAT).Icon-1\*.*"   del /f /q "$(LANG).$(CFG).$(PLAT).Icon-1\*.*"
+Clean ::
+	-if exist "$(LANG).$(PLAT).$(CFG).*-1.idt"      del /f /q "$(LANG).$(PLAT).$(CFG).*-1.idt"
+	-if exist "$(LANG).$(PLAT).$(CFG).Binary-1\*.*" del /f /q "$(LANG).$(PLAT).$(CFG).Binary-1\*.*"
+	-if exist "$(LANG).$(PLAT).$(CFG).Icon-1\*.*"   del /f /q "$(LANG).$(PLAT).$(CFG).Icon-1\*.*"
 !IFDEF MSIBUILD_IS_LOCALIZEABLE
-	-if exist "$(LANG).$(CFG).$(PLAT).*-2.idt"      del /f /q "$(LANG).$(CFG).$(PLAT).*-2.idt"
-	-if exist "$(LANG).$(CFG).$(PLAT).*-2.idtx"     del /f /q "$(LANG).$(CFG).$(PLAT).*-2.idtx"
-	-if exist "$(LANG).$(CFG).$(PLAT).Binary-2\*.*" del /f /q "$(LANG).$(CFG).$(PLAT).Binary-2\*.*"
-	-if exist "$(LANG).$(CFG).$(PLAT).Icon-2\*.*"   del /f /q "$(LANG).$(CFG).$(PLAT).Icon-2\*.*"
+	-if exist "$(LANG).$(PLAT).$(CFG).*-2.idt"      del /f /q "$(LANG).$(PLAT).$(CFG).*-2.idt"
+	-if exist "$(LANG).$(PLAT).$(CFG).*-2.idtx"     del /f /q "$(LANG).$(PLAT).$(CFG).*-2.idtx"
+	-if exist "$(LANG).$(PLAT).$(CFG).Binary-2\*.*" del /f /q "$(LANG).$(PLAT).$(CFG).Binary-2\*.*"
+	-if exist "$(LANG).$(PLAT).$(CFG).Icon-2\*.*"   del /f /q "$(LANG).$(PLAT).$(CFG).Icon-2\*.*"
 !ENDIF
-	-if exist "$(LANG).$(CFG).$(PLAT).lst"          del /f /q "$(LANG).$(CFG).$(PLAT).lst"
-	-if exist "$(LANG).$(CFG).$(PLAT).msm"          del /f /q "$(LANG).$(CFG).$(PLAT).msm"
+	-if exist "$(LANG).$(PLAT).$(CFG).lst"          del /f /q "$(LANG).$(PLAT).$(CFG).lst"
+	-if exist "$(LANG).$(PLAT).$(CFG).msm"          del /f /q "$(LANG).$(PLAT).$(CFG).msm"
 
 
 ######################################################################
-# Izdelava modula
+# Module compilation
 ######################################################################
 
 !IFDEF MSIBUILD_IS_LOCALIZEABLE
 
 ######################################################################
-# Ker orodje msidb ne zna pravilno prilepiti v modul tabel iz datotek
-# IDL, naredimo loèeno dva modula in jih nato zlepimo.
+# Since msidb utility doesn't append tables from IDL files to MSM
+# module correctly, create separate MSM modules and merge.
 
-"$(LANG).$(CFG).$(PLAT).msm" : $(LANG).$(CFG).$(PLAT).*-1.idt $(LANG).$(CFG).$(PLAT).*-2.idt
+"$(LANG).$(PLAT).$(CFG).msm" : $(LANG).$(PLAT).$(CFG).*-1.idt $(LANG).$(PLAT).$(CFG).*-2.idt
 	-if exist $@ del /f /q $@
 	-if exist "$(@:"=)-1.tmp" del /f /q "$(@:"=)-1.tmp"
 	-if exist "$(@:"=)-2.tmp" del /f /q "$(@:"=)-2.tmp"
-	msidb.exe -c -d "$(@:"=)-1.tmp" -f "$(MAKEDIR)" -i $(LANG).$(CFG).$(PLAT).*-1.idt
-	msidb.exe -c -d "$(@:"=)-2.tmp" -f "$(MAKEDIR)" -i $(LANG).$(CFG).$(PLAT).*-2.idt
+	msidb.exe -c -d "$(@:"=)-1.tmp" -f "$(MAKEDIR)" -i $(LANG).$(PLAT).$(CFG).*-1.idt
+	msidb.exe -c -d "$(@:"=)-2.tmp" -f "$(MAKEDIR)" -i $(LANG).$(PLAT).$(CFG).*-2.idt
 	msidb.exe -d "$(@:"=)-1.tmp" -m "$(@:"=)-2.tmp"
 	del /f /q "$(@:"=)-2.tmp"
 	move /y "$(@:"=)-1.tmp" $@ > NUL
@@ -37,46 +37,46 @@ Pocisti ::
 !ELSE
 
 ######################################################################
-# Modul ni lokaliziran, zato je njegova izdelava trivialna.
+# Module is not localizeable => the compilation is trivial.
 
-"$(LANG).$(CFG).$(PLAT).msm" : $(LANG).$(CFG).$(PLAT).*-1.idt
+"$(LANG).$(PLAT).$(CFG).msm" : $(LANG).$(PLAT).$(CFG).*-1.idt
 	-if exist $@ del /f /q $@
 	-if exist "$(@:"=)-1.tmp" del /f /q "$(@:"=)-1.tmp"
-	msidb.exe -c -d "$(@:"=)-1.tmp" -f "$(MAKEDIR)" -i $(LANG).$(CFG).$(PLAT).*-1.idt
+	msidb.exe -c -d "$(@:"=)-1.tmp" -f "$(MAKEDIR)" -i $(LANG).$(PLAT).$(CFG).*-1.idt
 	move /y "$(@:"=)-1.tmp" $@ > NUL
 
 !ENDIF
 
 
 ######################################################################
-# Odvisnosti
+# Dependencies
 ######################################################################
 
-"$(LANG).$(CFG).$(PLAT).Binary-1.idt" : $(LANG).$(CFG).$(PLAT).Binary-1\*.*
+"$(LANG).$(PLAT).$(CFG).Binary-1.idt" : $(LANG).$(PLAT).$(CFG).Binary-1\*.*
 
-"$(LANG).$(CFG).$(PLAT).Binary-2.idt" : $(LANG).$(CFG).$(PLAT).Binary-2\*.*
+"$(LANG).$(PLAT).$(CFG).Binary-2.idt" : $(LANG).$(PLAT).$(CFG).Binary-2\*.*
 
-"$(LANG).$(CFG).$(PLAT).Icon-1.idt" : $(LANG).$(CFG).$(PLAT).Icon-1\*.*
+"$(LANG).$(PLAT).$(CFG).Icon-1.idt" : $(LANG).$(PLAT).$(CFG).Icon-1\*.*
 
-"$(LANG).$(CFG).$(PLAT).Icon-2.idt" : $(LANG).$(CFG).$(PLAT).Icon-2\*.*
+"$(LANG).$(PLAT).$(CFG).Icon-2.idt" : $(LANG).$(PLAT).$(CFG).Icon-2\*.*
 
 
 ######################################################################
-# Ustvarjanje imenikov
+# Folder creation
 ######################################################################
 
-"$(LANG).$(CFG).$(PLAT).Binary-1" :
+"$(LANG).$(PLAT).$(CFG).Binary-1" :
 	if not exist $@ md $@
 
-"$(LANG).$(CFG).$(PLAT).Icon-1" :
+"$(LANG).$(PLAT).$(CFG).Icon-1" :
 	if not exist $@ md $@
 
 !IFDEF MSIBUILD_IS_LOCALIZEABLE
 
-"$(LANG).$(CFG).$(PLAT).Binary-2" :
+"$(LANG).$(PLAT).$(CFG).Binary-2" :
 	if not exist $@ md $@
 
-"$(LANG).$(CFG).$(PLAT).Icon-2" :
+"$(LANG).$(PLAT).$(CFG).Icon-2" :
 	if not exist $@ md $@
 
 !ENDIF

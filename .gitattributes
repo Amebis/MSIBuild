@@ -1,14 +1,14 @@
 * text=auto !eol
 /CAB.mak -text
+Core/Makefile -text
 /Empty.msi -text
-Jedro/Makefile -text
 /MSI.js -text svneol=unset#text/javascript
 /MSI.wsf -text svneol=unset#text/xml
 /MSM.mak -text
 /Makefile -text
-UI/Binary/UIMapaGor.ico -text svneol=unset#image/x-icon
-UI/Binary/UIMapaNova.ico -text svneol=unset#image/x-icon
-UI/Binary/UIObvestilo.ico -text svneol=unset#image/x-icon
-UI/Binary/UIOpozorilo.ico -text svneol=unset#image/x-icon
+UI/Binary/UIFolderNew.ico -text svneol=unset#image/x-icon
+UI/Binary/UIFolderUp.ico -text svneol=unset#image/x-icon
+UI/Binary/UIInfo.ico -text svneol=unset#image/x-icon
+UI/Binary/UIWarning.ico -text svneol=unset#image/x-icon
 UI/Makefile -text
-Verzija/Makefile -text
+Version/Makefile -text

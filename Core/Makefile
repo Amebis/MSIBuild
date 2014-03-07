@@ -1,17 +1,17 @@
-!INCLUDE "..\..\..\include\MSIBuildCfg.mak"
-!IFDEF MSM_IMA_VERZIJO
-!INCLUDE "..\Verzija\Verzija.mak"
+!INCLUDE "..\..\include\MSIBuildCfg.mak"
+!IFDEF MSIBUILD_HAS_VERSION
+!INCLUDE "..\Version\Version.mak"
 !ENDIF
 
 MSIBUILD_IS_LOCALIZEABLE=1
 
-MSI_POLNO_IME_IZDELKA=$(MSIBUILD_PRODUCT_NAME) $(MSI_VERZIJA_STR)
+MSIBUILD_PRODUCT_NAME_FULL=$(MSIBUILD_PRODUCT_NAME) $(MSIBUILD_VERSION_STR)
 !IF "$(CFG)" == "Debug"
-MSI_POLNO_IME_IZDELKA=$(MSI_POLNO_IME_IZDELKA) Diag
+MSIBUILD_PRODUCT_NAME_FULL=$(MSIBUILD_PRODUCT_NAME_FULL) Diag
 !ENDIF
 !IFDEF MSIBUILD_HAS_X64
 !IFDEF PLAT
-MSI_POLNO_IME_IZDELKA=$(MSI_POLNO_IME_IZDELKA) $(PLAT)
+MSIBUILD_PRODUCT_NAME_FULL=$(MSIBUILD_PRODUCT_NAME_FULL) $(PLAT)
 !ENDIF
 !ENDIF
 
@@ -19,48 +19,43 @@ MSI_POLNO_IME_IZDELKA=$(MSI_POLNO_IME_IZDELKA) $(PLAT)
 !IFDEF UI_DUMMY
 
 ######################################################################
-# Primer parametra MSI_PID_TEMPLATE:
-# MSI_PID_TEMPLATE=12345<###-%%%%%%%>@@@@@
+# ___ (stub for creating new tables)
 
+All :: "$(LANG).$(PLAT).$(CFG).___-1.idt"
 
-######################################################################
-# ___
-
-Vse :: "$(LANG).$(CFG).$(PLAT).___-1.idt"
-
-"$(LANG).$(CFG).$(PLAT).___-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).___-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 <<NOKEEP
 
 
 ######################################################################
-# ___
+# ___ (stub for creating new localizable tables)
 
-Vse :: \
-	"$(LANG).$(CFG).$(PLAT).___-1.idt" \
-	"$(LANG).$(CFG).$(PLAT).___-2.idt"
+All :: \
+	"$(LANG).$(PLAT).$(CFG).___-1.idt" \
+	"$(LANG).$(PLAT).$(CFG).___-2.idt"
 
-"$(LANG).$(CFG).$(PLAT).___-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).___-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 <<NOKEEP
 
-"Sl.$(CFG).$(PLAT).___-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"Sl.$(PLAT).$(CFG).___-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 <<NOKEEP
 
-"De.$(CFG).$(PLAT).___-2.idt" : "Sl.$(CFG).$(PLAT).___-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).___-2.idt" : "Sl.$(PLAT).$(CFG).___-2.idtx" "..\res\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(CFG).$(PLAT).___-2.idt" : "Sl.$(CFG).$(PLAT).___-2.idtx" "..\res\en_GB.po"
+"En.$(PLAT).$(CFG).___-2.idt" : "Sl.$(PLAT).$(CFG).___-2.idtx" "..\res\en_GB.po"
 	rcxgettext.exe idtp $@ $**
 
-"It.$(CFG).$(PLAT).___-2.idt" : "Sl.$(CFG).$(PLAT).___-2.idtx" "..\res\it_IT.po"
+"It.$(PLAT).$(CFG).___-2.idt" : "Sl.$(PLAT).$(CFG).___-2.idtx" "..\res\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(CFG).$(PLAT).___-2.idt" : "Sl.$(CFG).$(PLAT).___-2.idtx"
+"Sl.$(PLAT).$(CFG).___-2.idt" : "Sl.$(PLAT).$(CFG).___-2.idtx"
 	copy /y $** $@ > NUL
 
 !ENDIF
@@ -69,9 +64,9 @@ Vse :: \
 ######################################################################
 # _Validation
 
-Vse :: "$(LANG).$(CFG).$(PLAT)._Validation-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG)._Validation-1.idt"
 
-"$(LANG).$(CFG).$(PLAT)._Validation-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG)._Validation-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Table	Column	Nullable	MinValue	MaxValue	KeyTable	KeyColumn	Category	Set	Description
@@ -510,9 +505,9 @@ Verb	Verb	N					Text		The verb for the command.
 ######################################################################
 # ActionText
 
-Vse :: "$(LANG).$(CFG).$(PLAT).ActionText-2.idt"
+All :: "$(LANG).$(PLAT).$(CFG).ActionText-2.idt"
 
-"Sl.$(CFG).$(PLAT).ActionText-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"Sl.$(PLAT).$(CFG).ActionText-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Description	Template
@@ -590,25 +585,25 @@ WriteIniValues	Zapisovanje vrednosti datotek INI	Datoteka: [1], razdelek: [2], k
 WriteRegistryValues	Zapisovanje vrednosti v sistemski register	Kljuè: [1], ime: [2], vrednost: [3]
 <<NOKEEP
 
-"De.$(CFG).$(PLAT).ActionText-2.idt" : "Sl.$(CFG).$(PLAT).ActionText-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).ActionText-2.idt" : "Sl.$(PLAT).$(CFG).ActionText-2.idtx" "..\res\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(CFG).$(PLAT).ActionText-2.idt" : "Sl.$(CFG).$(PLAT).ActionText-2.idtx" "..\res\en_GB.po"
+"En.$(PLAT).$(CFG).ActionText-2.idt" : "Sl.$(PLAT).$(CFG).ActionText-2.idtx" "..\res\en_GB.po"
 	rcxgettext.exe idtp $@ $**
 
-"It.$(CFG).$(PLAT).ActionText-2.idt" : "Sl.$(CFG).$(PLAT).ActionText-2.idtx" "..\res\it_IT.po"
+"It.$(PLAT).$(CFG).ActionText-2.idt" : "Sl.$(PLAT).$(CFG).ActionText-2.idtx" "..\res\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(CFG).$(PLAT).ActionText-2.idt" : "Sl.$(CFG).$(PLAT).ActionText-2.idtx"
+"Sl.$(PLAT).$(CFG).ActionText-2.idt" : "Sl.$(PLAT).$(CFG).ActionText-2.idtx"
 	copy /y $** $@ > NUL
 
 
 ######################################################################
 # AdminExecuteSequence
 
-Vse :: "$(LANG).$(CFG).$(PLAT).AdminExecuteSequence-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).AdminExecuteSequence-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).AdminExecuteSequence-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).AdminExecuteSequence-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Condition	Sequence
@@ -628,9 +623,9 @@ InstallFinalize		6600
 ######################################################################
 # AdvtExecuteSequence
 
-Vse :: "$(LANG).$(CFG).$(PLAT).AdvtExecuteSequence-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).AdvtExecuteSequence-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).AdvtExecuteSequence-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).AdvtExecuteSequence-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Condition	Sequence
@@ -655,9 +650,9 @@ InstallFinalize		6600
 ######################################################################
 # AppSearch
 
-Vse :: "$(LANG).$(CFG).$(PLAT).AppSearch-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).AppSearch-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).AppSearch-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).AppSearch-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Signature_
@@ -669,9 +664,9 @@ AppSearch	Property	Signature_
 ######################################################################
 # BBControl
 
-Vse :: "$(LANG).$(CFG).$(PLAT).BBControl-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).BBControl-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).BBControl-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).BBControl-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Billboard_	BBControl	Type	X	Y	Width	Height	Attributes	Text
@@ -683,9 +678,9 @@ BBControl	Billboard_	BBControl
 ######################################################################
 # Billboard
 
-Vse :: "$(LANG).$(CFG).$(PLAT).Billboard-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).Billboard-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).Billboard-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).Billboard-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Billboard	Feature_	Action	Ordering
@@ -697,11 +692,11 @@ Billboard	Billboard
 ######################################################################
 # Binary
 
-Vse :: \
-	"$(LANG).$(CFG).$(PLAT).Binary-1" \
-	"$(LANG).$(CFG).$(PLAT).Binary-1.idt"
+All :: \
+	"$(LANG).$(PLAT).$(CFG).Binary-1" \
+	"$(LANG).$(PLAT).$(CFG).Binary-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).Binary-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).Binary-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Name	Data
@@ -713,9 +708,9 @@ Binary	Name
 ######################################################################
 # CheckBox
 
-Vse :: "$(LANG).$(CFG).$(PLAT).CheckBox-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).CheckBox-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).CheckBox-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).CheckBox-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Value
@@ -727,9 +722,9 @@ CheckBox	Property
 ######################################################################
 # ComboBox
 
-Vse :: "$(LANG).$(CFG).$(PLAT).ComboBox-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).ComboBox-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).ComboBox-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).ComboBox-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Order	Value	Text
@@ -741,9 +736,9 @@ ComboBox	Property	Order
 ######################################################################
 # Control
 
-Vse :: "$(LANG).$(CFG).$(PLAT).Control-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).Control-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).Control-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).Control-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control	Type	X	Y	Width	Height	Attributes	Property	Text	Control_Next	Help
@@ -755,9 +750,9 @@ Control	Dialog_	Control
 ######################################################################
 # ControlCondition
 
-Vse :: "$(LANG).$(CFG).$(PLAT).ControlCondition-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).ControlCondition-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).ControlCondition-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).ControlCondition-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control_	Action	Condition
@@ -769,9 +764,9 @@ ControlCondition	Dialog_	Control_	Action	Condition
 ######################################################################
 # ControlEvent
 
-Vse :: "$(LANG).$(CFG).$(PLAT).ControlEvent-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).ControlEvent-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).ControlEvent-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).ControlEvent-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control_	Event	Argument	Condition	Ordering
@@ -783,9 +778,9 @@ ControlEvent	Dialog_	Control_	Event	Argument	Condition
 ######################################################################
 # CreateFolder
 
-Vse :: "$(LANG).$(CFG).$(PLAT).CreateFolder-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).CreateFolder-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).CreateFolder-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).CreateFolder-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Directory_	Component_
@@ -797,9 +792,9 @@ CreateFolder	Directory_	Component_
 ######################################################################
 # CustomAction
 
-Vse :: "$(LANG).$(CFG).$(PLAT).CustomAction-2.idt"
+All :: "$(LANG).$(PLAT).$(CFG).CustomAction-2.idt"
 
-"Sl.$(CFG).$(PLAT).CustomAction-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"Sl.$(PLAT).$(CFG).CustomAction-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Type	Source	Target
@@ -809,25 +804,25 @@ caNewerProductFound	19		Novejša verzija programskega paketa [SimpleProductName] 
 caFaultyProductFound	19		Ta namestitveni paket ne more nadgraditi trenutno namešèenega programskega paketa [SimpleProductName]. Prosimo, najprej odstranite namešèeni programski paket in nato poskusite ponovno.
 <<NOKEEP
 
-"De.$(CFG).$(PLAT).CustomAction-2.idt" : "Sl.$(CFG).$(PLAT).CustomAction-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).CustomAction-2.idt" : "Sl.$(PLAT).$(CFG).CustomAction-2.idtx" "..\res\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(CFG).$(PLAT).CustomAction-2.idt" : "Sl.$(CFG).$(PLAT).CustomAction-2.idtx" "..\res\en_GB.po"
+"En.$(PLAT).$(CFG).CustomAction-2.idt" : "Sl.$(PLAT).$(CFG).CustomAction-2.idtx" "..\res\en_GB.po"
 	rcxgettext.exe idtp $@ $**
 
-"It.$(CFG).$(PLAT).CustomAction-2.idt" : "Sl.$(CFG).$(PLAT).CustomAction-2.idtx" "..\res\it_IT.po"
+"It.$(PLAT).$(CFG).CustomAction-2.idt" : "Sl.$(PLAT).$(CFG).CustomAction-2.idtx" "..\res\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(CFG).$(PLAT).CustomAction-2.idt" : "Sl.$(CFG).$(PLAT).CustomAction-2.idtx"
+"Sl.$(PLAT).$(CFG).CustomAction-2.idt" : "Sl.$(PLAT).$(CFG).CustomAction-2.idtx"
 	copy /y $** $@ > NUL
 
 
 ######################################################################
 # Dialog
 
-Vse :: "$(LANG).$(CFG).$(PLAT).Dialog-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).Dialog-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).Dialog-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).Dialog-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog	HCentering	VCentering	Width	Height	Attributes	Title	Control_First	Control_Default	Control_Cancel
@@ -839,9 +834,9 @@ Dialog	Dialog
 ######################################################################
 # Error
 
-Vse :: "$(LANG).$(CFG).$(PLAT).Error-2.idt"
+All :: "$(LANG).$(PLAT).$(CFG).Error-2.idt"
 
-"Sl.$(CFG).$(PLAT).Error-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"Sl.$(PLAT).$(CFG).Error-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Error	Message
@@ -1010,25 +1005,25 @@ i2	L0
 2943	Ta verzija operacijskega sistema Windows ne omogoèa distribucije 64-bitnih namestitvenih paketov. Skripta »[2]« so namenjena 64-bitnim namestitvenim paketom.
 <<NOKEEP
 
-"De.$(CFG).$(PLAT).Error-2.idt" : "Sl.$(CFG).$(PLAT).Error-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).Error-2.idt" : "Sl.$(PLAT).$(CFG).Error-2.idtx" "..\res\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(CFG).$(PLAT).Error-2.idt" : "Sl.$(CFG).$(PLAT).Error-2.idtx" "..\res\en_GB.po"
+"En.$(PLAT).$(CFG).Error-2.idt" : "Sl.$(PLAT).$(CFG).Error-2.idtx" "..\res\en_GB.po"
 	rcxgettext.exe idtp $@ $**
 
-"It.$(CFG).$(PLAT).Error-2.idt" : "Sl.$(CFG).$(PLAT).Error-2.idtx" "..\res\it_IT.po"
+"It.$(PLAT).$(CFG).Error-2.idt" : "Sl.$(PLAT).$(CFG).Error-2.idtx" "..\res\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(CFG).$(PLAT).Error-2.idt" : "Sl.$(CFG).$(PLAT).Error-2.idtx"
+"Sl.$(PLAT).$(CFG).Error-2.idt" : "Sl.$(PLAT).$(CFG).Error-2.idtx"
 	copy /y $** $@ > NUL
 
 
 ######################################################################
 # EventMapping
 
-Vse :: "$(LANG).$(CFG).$(PLAT).EventMapping-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).EventMapping-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).EventMapping-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).EventMapping-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control_	Event	Attribute
@@ -1040,9 +1035,9 @@ EventMapping	Dialog_	Control_	Event
 ######################################################################
 # Extension
 
-Vse :: "$(LANG).$(CFG).$(PLAT).Extension-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).Extension-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).Extension-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).Extension-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Extension	Component_	ProgId_	MIME_	Feature_
@@ -1054,9 +1049,9 @@ Extension	Extension	Component_
 ######################################################################
 # InstallExecuteSequence
 
-Vse :: "$(LANG).$(CFG).$(PLAT).InstallExecuteSequence-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).InstallExecuteSequence-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).InstallExecuteSequence-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).InstallExecuteSequence-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Condition	Sequence
@@ -1132,9 +1127,9 @@ RemoveExistingProducts		6700
 ######################################################################
 # InstallUISequence
 
-Vse :: "$(LANG).$(CFG).$(PLAT).InstallUISequence-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).InstallUISequence-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).InstallUISequence-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).InstallUISequence-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Condition	Sequence
@@ -1158,9 +1153,9 @@ ExecuteAction		1300
 ######################################################################
 # LaunchCondition
 
-Vse :: "$(LANG).$(CFG).$(PLAT).LaunchCondition-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).LaunchCondition-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).LaunchCondition-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).LaunchCondition-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Condition	Description
@@ -1172,9 +1167,9 @@ LaunchCondition	Condition
 ######################################################################
 # ListBox
 
-Vse :: "$(LANG).$(CFG).$(PLAT).ListBox-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).ListBox-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).ListBox-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).ListBox-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Order	Value	Text
@@ -1186,9 +1181,9 @@ ListBox	Property	Order
 ######################################################################
 # ListView
 
-Vse :: "$(LANG).$(CFG).$(PLAT).ListView-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).ListView-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).ListView-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).ListView-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Order	Value	Text	Binary_
@@ -1200,9 +1195,9 @@ ListView	Property	Order
 ######################################################################
 # LockPermissions
 
-Vse :: "$(LANG).$(CFG).$(PLAT).LockPermissions-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).LockPermissions-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).LockPermissions-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).LockPermissions-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 LockObject	Table	Domain	User	Permission
@@ -1214,9 +1209,9 @@ LockPermissions	LockObject	Table	Domain	User
 ######################################################################
 # ModuleComponents
 
-Vse :: "$(LANG).$(CFG).$(PLAT).ModuleComponents-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).ModuleComponents-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).ModuleComponents-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).ModuleComponents-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Component	ModuleID	Language
@@ -1228,9 +1223,9 @@ ModuleComponents	Component	ModuleID	Language
 ######################################################################
 # ModuleDependency
 
-Vse :: "$(LANG).$(CFG).$(PLAT).ModuleDependency-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).ModuleDependency-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).ModuleDependency-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).ModuleDependency-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 ModuleID	ModuleLanguage	RequiredID	RequiredLanguage	RequiredVersion
@@ -1242,9 +1237,9 @@ ModuleDependency	ModuleID	ModuleLanguage	RequiredID	RequiredLanguage
 ######################################################################
 # ModuleSignature
 
-Vse :: "$(LANG).$(CFG).$(PLAT).ModuleSignature-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).ModuleSignature-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).ModuleSignature-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).ModuleSignature-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 ModuleID	Language	Version
@@ -1256,9 +1251,9 @@ ModuleSignature	ModuleID	Language
 ######################################################################
 # MsiAssembly
 
-Vse :: "$(LANG).$(CFG).$(PLAT).MsiAssembly-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).MsiAssembly-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).MsiAssembly-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).MsiAssembly-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Component_	Feature_	File_Manifest	File_Application	Attributes
@@ -1270,9 +1265,9 @@ MsiAssembly	Component_
 ######################################################################
 # MsiAssemblyName
 
-Vse :: "$(LANG).$(CFG).$(PLAT).MsiAssemblyName-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).MsiAssemblyName-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).MsiAssemblyName-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).MsiAssemblyName-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Component_	Name	Value
@@ -1284,9 +1279,9 @@ MsiAssemblyName	Component_	Name
 ######################################################################
 # MsiFileHash
 
-Vse :: "$(LANG).$(CFG).$(PLAT).MsiFileHash-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).MsiFileHash-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).MsiFileHash-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).MsiFileHash-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 File_	Options	HashPart1	HashPart2	HashPart3	HashPart4
@@ -1298,9 +1293,9 @@ MsiFileHash	File_
 ######################################################################
 # MsiSFCBypass
 
-Vse :: "$(LANG).$(CFG).$(PLAT).MsiSFCBypass-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).MsiSFCBypass-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).MsiSFCBypass-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).MsiSFCBypass-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 File_
@@ -1312,11 +1307,11 @@ MsiSFCBypass	File_
 ######################################################################
 # Property
 
-Vse :: \
-	"$(LANG).$(CFG).$(PLAT).Property-1.idt" \
-	"$(LANG).$(CFG).$(PLAT).Property-2.idt"
+All :: \
+	"$(LANG).$(PLAT).$(CFG).Property-1.idt" \
+	"$(LANG).$(PLAT).$(CFG).Property-2.idt"
 
-"$(LANG).$(CFG).$(PLAT).Property-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).Property-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Value
@@ -1340,12 +1335,12 @@ ARPURLUPDATEINFO	$(MSIBUILD_PRODUCT_UPGRADE_URL)
 Manufacturer	$(MSIBUILD_VENDOR_NAME)
 MSICHECKCRCS	1
 ProductID	none
-ProductName	$(MSI_POLNO_IME_IZDELKA)
+ProductName	$(MSIBUILD_PRODUCT_NAME_FULL)
 SimpleProductName	$(MSIBUILD_PRODUCT_NAME)
 PROMPTROLLBACKCOST	P
 <<NOKEEP
 
-"Sl.$(CFG).$(PLAT).Property-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"Sl.$(PLAT).$(CFG).Property-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Value
@@ -1354,25 +1349,25 @@ s$(MSIBUILD_LENGTH_ID)	l0
 ProductLanguage	1060
 <<NOKEEP
 
-"De.$(CFG).$(PLAT).Property-2.idt" : "Sl.$(CFG).$(PLAT).Property-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).Property-2.idt" : "Sl.$(PLAT).$(CFG).Property-2.idtx" "..\res\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(CFG).$(PLAT).Property-2.idt" : "Sl.$(CFG).$(PLAT).Property-2.idtx" "..\res\en_GB.po"
+"En.$(PLAT).$(CFG).Property-2.idt" : "Sl.$(PLAT).$(CFG).Property-2.idtx" "..\res\en_GB.po"
 	rcxgettext.exe idtp $@ $**
 
-"It.$(CFG).$(PLAT).Property-2.idt" : "Sl.$(CFG).$(PLAT).Property-2.idtx" "..\res\it_IT.po"
+"It.$(PLAT).$(CFG).Property-2.idt" : "Sl.$(PLAT).$(CFG).Property-2.idtx" "..\res\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(CFG).$(PLAT).Property-2.idt" : "Sl.$(CFG).$(PLAT).Property-2.idtx"
+"Sl.$(PLAT).$(CFG).Property-2.idt" : "Sl.$(PLAT).$(CFG).Property-2.idtx"
 	copy /y $** $@ > NUL
 
 
 ######################################################################
 # RadioButton
 
-Vse :: "$(LANG).$(CFG).$(PLAT).RadioButton-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).RadioButton-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).RadioButton-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).RadioButton-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Order	Value	X	Y	Width	Height	Text	Help
@@ -1384,9 +1379,9 @@ RadioButton	Property	Order
 ######################################################################
 # RegLocator
 
-Vse :: "$(LANG).$(CFG).$(PLAT).RegLocator-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).RegLocator-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).RegLocator-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).RegLocator-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Signature_	Root	Key	Name	Type
@@ -1398,9 +1393,9 @@ RegLocator	Signature_
 ######################################################################
 # Signature
 
-Vse :: "$(LANG).$(CFG).$(PLAT).Signature-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).Signature-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).Signature-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).Signature-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Signature	FileName	MinVersion	MaxVersion	MinSize	MaxSize	MinDate	MaxDate	Languages
@@ -1412,9 +1407,9 @@ Signature	Signature
 ######################################################################
 # SxsMsmGenComponents
 
-Vse :: "$(LANG).$(CFG).$(PLAT).SxsMsmGenComponents-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).SxsMsmGenComponents-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).SxsMsmGenComponents-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).SxsMsmGenComponents-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Component_	Guid
@@ -1426,9 +1421,9 @@ SxsMsmGenComponents	Component_
 ######################################################################
 # TextStyle
 
-Vse :: "$(LANG).$(CFG).$(PLAT).TextStyle-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).TextStyle-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).TextStyle-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).TextStyle-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 TextStyle	FaceName	Size	Color	StyleBits
@@ -1440,9 +1435,9 @@ TextStyle	TextStyle
 ######################################################################
 # TypeLib
 
-Vse :: "$(LANG).$(CFG).$(PLAT).TypeLib-1.idt"
+All :: "$(LANG).$(PLAT).$(CFG).TypeLib-1.idt"
 
-"$(LANG).$(CFG).$(PLAT).TypeLib-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).TypeLib-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 LibID	Language	Component_	Version	Description	Directory_	Feature_	Cost
@@ -1454,9 +1449,9 @@ TypeLib	LibID	Language	Component_
 ######################################################################
 # UIText
 
-Vse :: "$(LANG).$(CFG).$(PLAT).UIText-2.idt"
+All :: "$(LANG).$(PLAT).$(CFG).UIText-2.idt"
 
-"Sl.$(CFG).$(PLAT).UIText-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+"Sl.$(PLAT).$(CFG).UIText-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Key	Text
@@ -1515,21 +1510,21 @@ VolumeCostSize	Velikost
 VolumeCostVolume	Pogon
 <<NOKEEP
 
-"De.$(CFG).$(PLAT).UIText-2.idt" : "Sl.$(CFG).$(PLAT).UIText-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).UIText-2.idt" : "Sl.$(PLAT).$(CFG).UIText-2.idtx" "..\res\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(CFG).$(PLAT).UIText-2.idt" : "Sl.$(CFG).$(PLAT).UIText-2.idtx" "..\res\en_GB.po"
+"En.$(PLAT).$(CFG).UIText-2.idt" : "Sl.$(PLAT).$(CFG).UIText-2.idtx" "..\res\en_GB.po"
 	rcxgettext.exe idtp $@ $**
 
-"It.$(CFG).$(PLAT).UIText-2.idt" : "Sl.$(CFG).$(PLAT).UIText-2.idtx" "..\res\it_IT.po"
+"It.$(PLAT).$(CFG).UIText-2.idt" : "Sl.$(PLAT).$(CFG).UIText-2.idtx" "..\res\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(CFG).$(PLAT).UIText-2.idt" : "Sl.$(CFG).$(PLAT).UIText-2.idtx"
+"Sl.$(PLAT).$(CFG).UIText-2.idt" : "Sl.$(PLAT).$(CFG).UIText-2.idtx"
 	copy /y $** $@ > NUL
 
 
 ######################################################################
-# Izdelava modula MSM
+# Build MSM module!
 ######################################################################
 
 !INCLUDE "..\MSM.mak"
