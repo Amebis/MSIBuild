@@ -105,7 +105,7 @@ msgstr "=== Konec pisanja dnevnika: [Date] [Time] ==="
 msgid "1033"
 msgstr "1060"
 
-# Default Windows charset for this language (decimal)
+# Windows charset for this language (decimal)
 #: Core/En.Win32.Debug.ActionText-2.idtx:3
 #: Core/En.Win32.Debug.CustomAction-2.idtx:3
 #: Core/En.Win32.Debug.Error-2.idtx:3 Core/En.Win32.Debug.Property-2.idtx:3
