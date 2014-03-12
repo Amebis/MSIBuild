@@ -26,3 +26,4 @@ Version/*.Icon-2
 Version/*.lst
 Version/*.msm
 Version/Version.mak
+res/*.mo

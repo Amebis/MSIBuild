@@ -13,3 +13,5 @@ UI/Binary/UIInfo.ico -text svneol=unset#image/x-icon
 UI/Binary/UIWarning.ico -text svneol=unset#image/x-icon
 UI/Makefile -text
 Version/Makefile -text
+res/it_IT.po -text
+res/sl_SI.po -text
