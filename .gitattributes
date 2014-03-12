@@ -1,7 +1,11 @@
 * text=auto !eol
 /CAB.mak -text
 Core/Makefile -text
+Core/build_all.bat -text
+Core/clean_all.bat -text
 /Empty.msi -text
+L10N/it_IT.po -text
+L10N/sl_SI.po -text
 /MSI.js -text svneol=unset#text/javascript
 /MSI.wsf -text svneol=unset#text/xml
 /MSM.mak -text
@@ -12,6 +16,6 @@ UI/Binary/UIFolderUp.ico -text svneol=unset#image/x-icon
 UI/Binary/UIInfo.ico -text svneol=unset#image/x-icon
 UI/Binary/UIWarning.ico -text svneol=unset#image/x-icon
 UI/Makefile -text
+UI/build_all.bat -text
+UI/clean_all.bat -text
 Version/Makefile -text
-res/it_IT.po -text
-res/sl_SI.po -text

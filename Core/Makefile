@@ -41,22 +41,22 @@ All :: \
 	move /y << $@ > NUL
 <<NOKEEP
 
-"Sl.$(PLAT).$(CFG).___-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"En.$(PLAT).$(CFG).___-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).___-2.idt" : "Sl.$(PLAT).$(CFG).___-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).___-2.idt" : "En.$(PLAT).$(CFG).___-2.idtx" "..\L10N\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(PLAT).$(CFG).___-2.idt" : "Sl.$(PLAT).$(CFG).___-2.idtx" "..\res\en_GB.po"
-	rcxgettext.exe idtp $@ $**
-
-"It.$(PLAT).$(CFG).___-2.idt" : "Sl.$(PLAT).$(CFG).___-2.idtx" "..\res\it_IT.po"
-	rcxgettext.exe idtp $@ $**
-
-"Sl.$(PLAT).$(CFG).___-2.idt" : "Sl.$(PLAT).$(CFG).___-2.idtx"
+"En.$(PLAT).$(CFG).___-2.idt" : "En.$(PLAT).$(CFG).___-2.idtx"
 	copy /y $** $@ > NUL
+
+"It.$(PLAT).$(CFG).___-2.idt" : "En.$(PLAT).$(CFG).___-2.idtx" "..\L10N\it_IT.po"
+	rcxgettext.exe idtp $@ $**
+
+"Sl.$(PLAT).$(CFG).___-2.idt" : "En.$(PLAT).$(CFG).___-2.idtx" "..\L10N\sl_SI.po"
+	rcxgettext.exe idtp $@ $**
 
 !ENDIF
 
@@ -139,7 +139,7 @@ Class	FileTypeMask	Y					Text		Optional string containing information for the HK
 Class	Icon_	Y			Icon	1	Identifier		Optional foreign key into the Icon Table, specifying the icon file associated with this CLSID. Will be written under the DefaultIcon key.
 Class	IconIndex	Y	-32767	32767					Optional icon index.
 Class	ProgId_Default	Y			ProgId	1	Text		Optional ProgId associated with this CLSID.
-ComboBox	Order	N	1	32767					A positive integer used to determine the ordering of the items within one list.The integers do not have to be consecutive.
+ComboBox	Order	N	1	32767					A positive integer used to determine the ordering of the items within one list. The integers do not have to be consecutive.
 ComboBox	Property	N					Identifier		A named property to be tied to this item. All the items tied to the same property become part of the same combobox.
 ComboBox	Text	Y					Formatted		The visible text to be assigned to the item. Optional. If this entry or the entire column is missing, the text is the same as the value.
 ComboBox	Value	N					Formatted		The value string associated with this item. Selecting the line will set the associated property to this value.
@@ -507,95 +507,95 @@ Verb	Verb	N					Text		The verb for the command.
 
 All :: "$(LANG).$(PLAT).$(CFG).ActionText-2.idt"
 
-"Sl.$(PLAT).$(CFG).ActionText-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"En.$(PLAT).$(CFG).ActionText-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Description	Template
 s$(MSIBUILD_LENGTH_ID)	L0	L0
-1250	ActionText	Action
-Advertise	Program za oglaševanje	
-AllocateRegistrySpace	Rezervacija prostora v sistemskem registru	Nezaseden prostor: [1]
-AppSearch	Iskanje namešèenih programov	Lastnost: [1], podpis: [2]
-BindImage	Povezovanje izvedljivih datotek	Datoteka: [1]
-CCPSearch	Iskanje ustreznih izdelkov	
-CostFinalize	Raèunanje potrebnega prostora	
-CostInitialize	Raèunanje potrebnega prostora	
-CreateFolders	Ustvarjanje map	Mapa: [1]
-CreateShortcuts	Ustvarjanje bližnjic	Bližnjica: [1]
-DeleteServices	Brisanje storitev	Storitev: [1]
-DuplicateFiles	Ustvarjanje kopij datotek	Datoteka: [1], mapa: [9], velikost: [6]
-FileCost	Raèunanje potrebnega prostora	
-FindRelatedProducts	Iskanje sorodnih programov	Najden program: [1]
-GenerateScript	Generiranje skriptnih operacij za dejanje:	[1]
-InstallAdminPackage	Kopiranje datotek za omrežno namestitev	Datoteka: [1], mapa: [9], velikost: [6]
-InstallFiles	Kopiranje novih datotek	Datoteka: [1], mapa: [9], velikost: [6]
-InstallODBC	Namešèanje komponent ODBC	
-InstallServices	Namešèanje novih storitev	Storitev: [2]
-InstallSFPCatalogFile	Namešèanje sistemskega kataloga	Datoteka: [1], odvisnosti: [2]
-InstallValidate	Preverjanje veljavnosti namestitve	
-LaunchConditions	Ocenjevanje zagonskih pogojev	
-MigrateFeatureStates	Preseljevanje stanja funkcij iz sorodnih programov	Program: [1]
-MoveFiles	Premikanje datotek	Datoteka: [1], mapa: [9], velikost: [6]
-MsiPublishAssemblies	Objava informacij o izgradnji	Kontekst programa:[1], ime izgradnje:[2]
-MsiUnpublishAssemblies	Umik objave informacij o izgradnji	Kontekst programa:[1], ime izgradnje:[2]
-PatchFiles	Popravljanje datotek	Datoteka: [1], mapa: [2], velikost: [3]
-ProcessComponents	Posodabljanje registracije komponent	
-PublishComponents	Objava ustreznih komponent	ID komponente: [1], kvalifikator: [2]
-PublishFeatures	Objava funkcij izdelka	Funkcija: [1]
-PublishProduct	Objava informacij o izdelku	
-RegisterClassInfo	Registracija strežnikov za razrede	Class Id: [1]
-RegisterComPlus	Registracija programov in komponent COM+	IdApl: [1]{{, TipApl: [2], Uporabniki: [3], RSN: [4]}}
-RegisterExtensionInfo	Registracija strežnikov za dodatke	Dodatek: [1]
-RegisterFonts	Registracija pisav	Pisava: [1]
-RegisterMIMEInfo	Registracija informacij MIME	Vrsta vsebine MIME: [1], dodatek: [2]
-RegisterProduct	Registracija izdelka	[1]
-RegisterProgIdInfo	Registracija identifikatorjev programa	ProgId: [1]
-RegisterTypeLibraries	Registriranje knjižnic tipov	LibID: [1]
-RegisterUser	Registracija uporabnika	[1]
-RemoveDuplicateFiles	Odstranjevanje podvojenih datotek	Datoteka: [1], mapa: [9]
-RemoveEnvironmentStrings	Posodabljanje nizov okolja	Ime: [1], vrednost: [2], dejanje [3]
-RemoveExistingProducts	Odstranjevanje programov	Program: [1], Ukazna vrstica: [2]
-RemoveFiles	Odstranjevanje datotek	Datoteka: [1], mapa: [9]
-RemoveFolders	Odstranjevanje map	Mapa: [1]
-RemoveIniValues	Odstranjevanje vnosov datotek INI	Datoteka: [1], razdelek: [2], kljuè: [3], vrednost: [4]
-RemoveODBC	Odstranjevanje komponent ODBC	
-RemoveRegistryValues	Odstranjevanje vrednosti iz sistemskega registra	Kljuè: [1], ime: [2]
-RemoveShortcuts	Odstranjevanje bližnjic	Bližnjica: [1]
-RMCCPSearch	Iskanje ustreznih izdelkov	
-Rollback	Povrnitveno dejanje:	[1]
-RollbackCleanup	Odstranjevanje varnostnih kopij datotek	Datoteka: [1]
-SelfRegModules	Registracija modulov	Datoteka: [1], mapa: [2]
-SelfUnregModules	Brisanje registracije modulov	Datoteka: [1], mapa: [2]
-SetODBCFolders	Inicializacija imenikov ODBC	
-StartServices	Zagon storitev	Storitev: [1]
-StopServices	Ustavitev storitev	Storitev: [1]
-UnmoveFiles	Odstranjevanje premaknjenih datotek	Datoteka: [1], mapa: [9]
-UnpublishComponents	Umik objave ustreznih komponent	ID komponente: [1], kvalifikator: [2]
-UnpublishFeatures	Umik objave možnosti izdelka	Funkcija: [1]
-UnpublishProduct	Umik objave podatkov o izdelku	
-UnregisterClassInfo	Brisanje registracije strežnikov razreda	Class Id: [1]
-UnregisterComPlus	Brisanje registracije programov in komponent COM+	IdApl: [1]{{, TipApl: [2]}}
-UnregisterExtensionInfo	Brisanje registracije strežnikov za dodatke	Dodatek: [1]
-UnregisterFonts	Brisanje registracije pisav	Pisava: [1]
-UnregisterMIMEInfo	Brisanje registracije informacij MIME	Vrsta vsebine MIME: [1], dodatek: [2]
-UnregisterProgIdInfo	Brisanje registracije identifikatorjev programa	ProgId: [1]
-UnregisterTypeLibraries	Brisanje registracije knjižnic tipov	LibID: [1]
-WriteEnvironmentStrings	Posodabljanje nizov okolja	Ime: [1], vrednost: [2], dejanje [3]
-WriteIniValues	Zapisovanje vrednosti datotek INI	Datoteka: [1], razdelek: [2], kljuè: [3], vrednost: [4]
-WriteRegistryValues	Zapisovanje vrednosti v sistemski register	Kljuè: [1], ime: [2], vrednost: [3]
+1252	ActionText	Action
+Advertise	Advertising application	
+AllocateRegistrySpace	Allocating registry space	Free space: [1]
+AppSearch	Searching for installed applications	Property: [1], Signature: [2]
+BindImage	Binding executables	File: [1]
+CCPSearch	Searching for qualifying products	
+CostFinalize	Computing space requirements	
+CostInitialize	Computing space requirements	
+CreateFolders	Creating folders	Folder: [1]
+CreateShortcuts	Creating shortcuts	Shortcut: [1]
+DeleteServices	Deleting services	Service: [1]
+DuplicateFiles	Creating duplicate files	File: [1], Folder: [9], Size: [6]
+FileCost	Computing space requirements	
+FindRelatedProducts	Searching for related applications	Found application: [1]
+GenerateScript	Generating script operations for action:	[1]
+InstallAdminPackage	Copying network install files	File: [1], Folder: [9], Size: [6]
+InstallFiles	Copying new files	File: [1], Folder: [9], Size: [6]
+InstallODBC	Installing ODBC components	
+InstallServices	Installing new services	Service: [2]
+InstallSFPCatalogFile	Installing system catalog	File: [1], Dependencies: [2]
+InstallValidate	Validating install	
+LaunchConditions	Evaluating launch conditions	
+MigrateFeatureStates	Migrating feature states from related applications	Application: [1]
+MoveFiles	Moving files	File: [1], Folder: [9], Size: [6]
+MsiPublishAssemblies	Publishing assembly information	Application Context:[1], Assembly Name:[2]
+MsiUnpublishAssemblies	Unpublishing assembly information	Application Context:[1], Assembly Name:[2]
+PatchFiles	Patching files	File: [1], Folder: [2], Size: [3]
+ProcessComponents	Updating component registration	
+PublishComponents	Publishing Qualified Components	Component ID: [1], Qualifier: [2]
+PublishFeatures	Publishing Product Features	Feature: [1]
+PublishProduct	Publishing product information	
+RegisterClassInfo	Registering Class servers	Class Id: [1]
+RegisterComPlus	Registering COM+ Applications and Components	AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}
+RegisterExtensionInfo	Registering extension servers	Extension: [1]
+RegisterFonts	Registering fonts	Font: [1]
+RegisterMIMEInfo	Registering MIME info	MIME Content Type: [1], Extension: [2]
+RegisterProduct	Registering product	[1]
+RegisterProgIdInfo	Registering programme identifiers	ProgId: [1]
+RegisterTypeLibraries	Registering type libraries	LibID: [1]
+RegisterUser	Registering user	[1]
+RemoveDuplicateFiles	Removing duplicated files	File: [1], Folder: [9]
+RemoveEnvironmentStrings	Updating environment strings	Name: [1], Value: [2], Action [3]
+RemoveExistingProducts	Removing applications	Application: [1], Command line: [2]
+RemoveFiles	Removing files	File: [1], Folder: [9]
+RemoveFolders	Removing folders	Folder: [1]
+RemoveIniValues	Removing INI files entries	File: [1], Section: [2], Key: [3], Value: [4]
+RemoveODBC	Removing ODBC components	
+RemoveRegistryValues	Removing system registry values	Key: [1], Name: [2]
+RemoveShortcuts	Removing shortcuts	Shortcut: [1]
+RMCCPSearch	Searching for qualifying products	
+Rollback	Rolling back action:	[1]
+RollbackCleanup	Removing backup files	File: [1]
+SelfRegModules	Registering modules	File: [1], Folder: [2]
+SelfUnregModules	Unregistering modules	File: [1], Folder: [2]
+SetODBCFolders	Initializing ODBC directories	
+StartServices	Starting services	Service: [1]
+StopServices	Stopping services	Service: [1]
+UnmoveFiles	Removing moved files	File: [1], Folder: [9]
+UnpublishComponents	Unpublishing Qualified Components	Component ID: [1], Qualifier: [2]
+UnpublishFeatures	Unpublishing Product Features	Feature: [1]
+UnpublishProduct	Unpublishing product information	
+UnregisterClassInfo	Unregister Class servers	Class Id: [1]
+UnregisterComPlus	Unregistering COM+ Applications and Components	AppId: [1]{{, AppType: [2]}}
+UnregisterExtensionInfo	Unregistering extension servers	Extension: [1]
+UnregisterFonts	Unregistering fonts	Font: [1]
+UnregisterMIMEInfo	Unregistering MIME info	MIME Content Type: [1], Extension: [2]
+UnregisterProgIdInfo	Unregistering programme identifiers	ProgId: [1]
+UnregisterTypeLibraries	Unregistering type libraries	LibID: [1]
+WriteEnvironmentStrings	Updating environment strings	Name: [1], Value: [2], Action [3]
+WriteIniValues	Writing INI files values	File: [1], Section: [2], Key: [3], Value: [4]
+WriteRegistryValues	Writing system registry values	Key: [1], Name: [2], Value: [3]
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).ActionText-2.idt" : "Sl.$(PLAT).$(CFG).ActionText-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).ActionText-2.idt" : "En.$(PLAT).$(CFG).ActionText-2.idtx" "..\L10N\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(PLAT).$(CFG).ActionText-2.idt" : "Sl.$(PLAT).$(CFG).ActionText-2.idtx" "..\res\en_GB.po"
-	rcxgettext.exe idtp $@ $**
-
-"It.$(PLAT).$(CFG).ActionText-2.idt" : "Sl.$(PLAT).$(CFG).ActionText-2.idtx" "..\res\it_IT.po"
-	rcxgettext.exe idtp $@ $**
-
-"Sl.$(PLAT).$(CFG).ActionText-2.idt" : "Sl.$(PLAT).$(CFG).ActionText-2.idtx"
+"En.$(PLAT).$(CFG).ActionText-2.idt" : "En.$(PLAT).$(CFG).ActionText-2.idtx"
 	copy /y $** $@ > NUL
+
+"It.$(PLAT).$(CFG).ActionText-2.idt" : "En.$(PLAT).$(CFG).ActionText-2.idtx" "..\L10N\it_IT.po"
+	rcxgettext.exe idtp $@ $**
+
+"Sl.$(PLAT).$(CFG).ActionText-2.idt" : "En.$(PLAT).$(CFG).ActionText-2.idtx" "..\L10N\sl_SI.po"
+	rcxgettext.exe idtp $@ $**
 
 
 ######################################################################
@@ -794,27 +794,27 @@ CreateFolder	Directory_	Component_
 
 All :: "$(LANG).$(PLAT).$(CFG).CustomAction-2.idt"
 
-"Sl.$(PLAT).$(CFG).CustomAction-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"En.$(PLAT).$(CFG).CustomAction-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Type	Source	Target
 s$(MSIBUILD_LENGTH_ID)	i2	S$(MSIBUILD_LENGTH_ID)	S255
-1250	CustomAction	Action
-caNewerProductFound	19		Novejša verzija programskega paketa [SimpleProductName] je že namešèena.
-caFaultyProductFound	19		Ta namestitveni paket ne more nadgraditi trenutno namešèenega programskega paketa [SimpleProductName]. Prosimo, najprej odstranite namešèeni programski paket in nato poskusite ponovno.
+1252	CustomAction	Action
+caNewerProductFound	19		A newer version of [SimpleProductName] is already installed.
+caFaultyProductFound	19		This package cannot upgrade the currently installed [SimpleProductName]. Please remove the old package first and retry.
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).CustomAction-2.idt" : "Sl.$(PLAT).$(CFG).CustomAction-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).CustomAction-2.idt" : "En.$(PLAT).$(CFG).CustomAction-2.idtx" "..\L10N\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(PLAT).$(CFG).CustomAction-2.idt" : "Sl.$(PLAT).$(CFG).CustomAction-2.idtx" "..\res\en_GB.po"
-	rcxgettext.exe idtp $@ $**
-
-"It.$(PLAT).$(CFG).CustomAction-2.idt" : "Sl.$(PLAT).$(CFG).CustomAction-2.idtx" "..\res\it_IT.po"
-	rcxgettext.exe idtp $@ $**
-
-"Sl.$(PLAT).$(CFG).CustomAction-2.idt" : "Sl.$(PLAT).$(CFG).CustomAction-2.idtx"
+"En.$(PLAT).$(CFG).CustomAction-2.idt" : "En.$(PLAT).$(CFG).CustomAction-2.idtx"
 	copy /y $** $@ > NUL
+
+"It.$(PLAT).$(CFG).CustomAction-2.idt" : "En.$(PLAT).$(CFG).CustomAction-2.idtx" "..\L10N\it_IT.po"
+	rcxgettext.exe idtp $@ $**
+
+"Sl.$(PLAT).$(CFG).CustomAction-2.idt" : "En.$(PLAT).$(CFG).CustomAction-2.idtx" "..\L10N\sl_SI.po"
+	rcxgettext.exe idtp $@ $**
 
 
 ######################################################################
@@ -836,186 +836,186 @@ Dialog	Dialog
 
 All :: "$(LANG).$(PLAT).$(CFG).Error-2.idt"
 
-"Sl.$(PLAT).$(CFG).Error-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"En.$(PLAT).$(CFG).Error-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Error	Message
 i2	L0
-1250	Error	Error
-0	{{Usodna napaka: }}
-1	{{Napaka [1]. }}
-2	Opozorilo [1]. 
+1252	Error	Error
+0	{{Fatal error: }}
+1	{{Error [1]. }}
+2	Warning [1]. 
 3	
-4	Informacije [1]. 
-5	Namestitveni program je med namešèanjem paketa odkril neprièakovano napako. To lahko pomeni težave s paketom. Koda napake je [1]. {{Argumenti so: [2], [3], [4]}}
+4	Info [1]. 
+5	The installer has encountered an unexpected error installing this package. This may indicate a problem with this package. The error code is [1]. {{The arguments are: [2], [3], [4]}}
 6	
-7	{{Disk je poln: }}
-8	Dejanje [Time]: [1]. [2]
+7	{{Disk full: }}
+8	Action [Time]: [1]. [2]
 9	[SimpleProductName]
 10	{[2]}{, [3]}{, [4]}
-11	Vrsta sporoèila: [1], argument: [2]
-12	=== Zaèetek pisanja dnevnika: [Date] [Time] ===
-13	=== Konec pisanja dnevnika: [Date] [Time] ===
-14	Zaèetek dejanja [Time]: [1].
-15	Konec dejanja [Time]: [1]. Vrnjena vrednost [2].
-16	Preostali èas: {[1] min }{[2] s}
-17	Zmanjkalo je pomnilnika. Zaprite druge programe in nato poskusite znova.
-18	Namestitveni program se ne odziva veè.
-19	Namestitveni program se je konèal prezgodaj.
-20	Poèakajte, da Windows vzpostavi [SimpleProductName]
-21	Zbiranje potrebnih informacij ...
-22	Odstranjevanje starih razlièic tega programa ...
-23	Priprava na odstranitev starih razlièic tega programa ...
-32	Namestitev izdelka [SimpleProductName] je bila uspešno dokonèana.
-33	Namestitev izdelka [SimpleProductName] ni uspela.
-1101	Prišlo je do napake pri branju iz datoteke: [2]. {{ Sistemska napaka [3].}} Preverite, ali datoteka obstaja in ali imate dostop do nje.
-1301	Datoteke »[2]« ni mogoèe ustvariti. Mapa s tem imenom že obstaja. Prekinite namestitev in poskusite namestiti znova v drugo mapo.
-1302	Vstavite disk: [2]
-1303	Namestitveni program nima zadostnih pravic za dostop do mape: [2]. Namestitve ni mogoèe nadaljevati. Prijavite se kot skrbnik ali pa se obrnite na skrbnika sistema.
-1304	Pri pisanju v datoteko je prišlo do napake: [2]. Preverite, ali imate dostop do te mape.
-1305	Pri branju iz datoteke je prišlo do napake: [2]. {{Sistemska napaka [3].}} Preverite, ali datoteka obstaja in ali imate dostop do nje.
-1306	Drug program ima izkljuèni dostop do datoteke »[2]«. Zaprite vse druge programe in kliknite »Ponovi«.
-1307	Na disku ni dovolj prostora za namestitev te datoteke: [2]. Sprostite nekaj prostora na disku in kliknite »Ponovi«. Èe želite namestitev preklicati, kliknite »Prekini«.
-1308	Izvorne datoteke: [2] ni bilo mogoèe najti. Preverite, ali datoteka obstaja in ali imate dostop do nje.
-1309	Prišlo je do napake pri branju iz datoteke: [3]. {{ Sistemska napaka [2].}} Preverite, ali datoteka obstaja in ali imate dostop do nje.
-1310	Prišlo je do napake pri pisanju v datoteko: [3]. {{ Sistemska napaka [2].}} Preverite, ali imate dostop do te mape.
-1311	Izvorne datoteke{{(kabinetna datoteka)}}: [2] ni bilo mogoèe najti. Preverite, ali datoteka obstaja in ali imate dostop do nje.
-1312	Mape »[2]« ni mogoèe ustvariti. Datoteka s tem imenom že obstaja. Preimenujte ali odstranite jo in nato kliknite »Ponovi«. Èe želite operacijo prekiniti, kliknite »Prekini«.
-1313	Nosilec [2] trenutno ni na voljo. Izberite drugega.
-1314	Navedena pot »[2]« ni na voljo.
-1315	V navedeno mapo »[2]« ni mogoèe pisati.
-1316	Prišlo je do omrežne napake med poskusom branja iz datoteke: [2]
-1317	Prišlo je do napake med poskusom ustvarjanja mape: [2]
-1318	Prišlo je do omrežne napake med poskusom ustvarjanja mape: [2]
-1319	Prišlo je do omrežne napake med poskusom odpiranja kabinetne datoteke z izvornimi datotekami: [2]
-1320	Navedena pot je predolga: [2]
-1321	Namestitveni program nima ustreznih pravic za spreminjanje te datoteke: [2].
-1322	Del poti do mape »[2]« je neveljaven. Ali je prazen ali pa presega dolžino, ki jo dovoljuje sistem.
-1323	Pot do mape »[2]« vsebuje besede, ki v poteh niso veljavne.
-1324	Pot do mape »[2]« vsebuje neveljaven znak.
-1325	»[2]« ni veljavno kratko ime datoteke.
-1326	Napaka pri pridobivanju varnosti datoteke: [3] GetLastError: [2]
-1327	Neveljaven pogon: [2]
-1328	Napaka pri uporabi popravka za datoteko [2]. Mogoèe je bila posodobljena kako drugaèe in je ta popravek ne more veè spremeniti. Za dodatne informacije se obrnite na svojega dobavitelja popravka. {{Sistemska napaka: [3]}}
-1329	Zahtevane datoteke ni mogoèe namestiti, ker kabinetna datoteka [2] ni digitalno podpisana. To lahko pomeni, da je kabinetna datoteka poškodovana.
-1330	Zahtevane datoteke ni mogoèe namestiti, ker je digitalni podpis kabinetne datoteke [2] neveljaven. To lahko pomeni, da je kabinetna datoteka poškodovana.{{ Napako [3] je vrnil WinVerifyTrust.}}
-1331	Datoteke [2] ni bilo mogoèe pravilno prekopirati: napaka CRC.
-1332	Datoteke [2] ni bilo mogoèe pravilno premakniti: napaka CRC.
-1333	Datoteke [2] ni bilo mogoèe pravilno pravilno popraviti: napaka CRC.
-1334	Datoteke »[2]« ni mogoèe namestiti, ker je ni mogoèe najti v kabinetni datoteki »[3]«. To lahko pomeni, da je prišlo do omrežne napake, do napake pri branju s CD-ROM-a ali do težav v paketu.
-1335	Kabinetna datoteka »[2]«, ki je potrebna za to namestitev, je poškodovana in je ni mogoèe uporabiti. To lahko pomeni, da je prišlo do omrežne napake, do napake pri branju s CD-ROM-a ali do težav v paketu.
-1336	Pri ustvarjanju zaèasne datoteke, ki je potrebna za dokonèanje namestitve, je prišlo do napake.{{ Mapa: [3]. Koda sistemske napake: [2]}}
-1401	Kljuèa: [2] ni bilo mogoèe ustvariti. {{ Sistemska napaka [3].}} Preverite, ali imate pravice za dostop do tega kljuèa ali pa se obrnite na svojo tehnièno službo. 
-1402	Kljuèa: [2] ni bilo mogoèe odpreti. {{ Sistemska napaka [3].}} Preverite, ali imate pravice za dostop do tega kljuèa ali pa se obrnite na svojo tehnièno službo. 
-1403	Vrednosti [2] ni bilo mogoèe izbrisati iz kljuèa [3]. {{ Sistemska napaka [4].}} Preverite, ali imate pravice za dostop do tega kljuèa ali pa se obrnite na svojo tehnièno službo. 
-1404	Kljuèa [2] ni bilo mogoèe izbrisati. {{ Sistemska napaka [3].}} Preverite, ali imate pravice za dostop do tega kljuèa ali pa se obrnite na svojo tehnièno službo. 
-1405	Vrednosti [2] ni bilo mogoèe prebrati iz kljuèa [3]. {{ Sistemska napaka [4].}} Preverite, ali imate pravice za dostop do tega kljuèa ali pa se obrnite na svojo tehnièno službo. 
-1406	Vrednosti [2] ni bilo mogoèe zapisati v kljuè [3]. {{ Sistemska napaka [4].}} Preverite, ali imate pravice za dostop do tega kljuèa ali pa se obrnite na svojo tehnièno službo.
-1407	Imen vrednosti za kljuè [2] ni bilo mogoèe dobiti. {{ Sistemska napaka [3].}} Preverite, ali imate pravice za dostop do tega kljuèa ali pa se obrnite na svojo tehnièno službo.
-1408	Imen podkljuèev za kljuè [2] ni bilo mogoèe dobiti. {{ Sistemska napaka [3].}} Preverite, ali imate pravice za dostop do tega kljuèa ali pa se obrnite na svojo tehnièno službo.
-1409	Varnostnih informacij za kljuè [2] ni bilo mogoèe prebrati. {{ Sistemska napaka [3].}} Preverite, ali imate pravice za dostop do tega kljuèa ali pa se obrnite na svojo tehnièno službo.
-1410	Prostora, ki je na voljo za register, ni bilo mogoèe poveèati. Namestitev tega programa zahteva [2] KB prostega prostora za register.
-1500	Izvaja se še ena namestitev. Dokonèati morate prvo namestitev, preden nadaljujete s to namestitvijo.
-1501	Napaka pri dostopu do varnih podatkov. Preverite, ali je Windows Installer pravilno konfiguriran, in poskusite znova.
-1502	Uporabnik »[2]« je prej že sprožil namestitev izdelka »[3]«. Omenjeni uporabnik bo moral ponovno zagnati namestitev, da bi lahko uporabljal ta izdelek. Trenutna namestitev se bo nadaljevala.
-1503	Uporabnik »[2]« je prej že sprožil namestitev izdelka »[3]«. Omenjeni uporabnik bo moral ponovno zagnati namestitev, da bi lahko uporabljal ta izdelek.
-1601	Zmanjkalo je prostora na disku -- nosilec: »[2]«; potreben prostor: [3] KB; prostor na voljo: [4] KB. Sprostite nekaj prostora na disku in poskusite znova.
-1602	Ali ste preprièani, da želite preklicati?
-1603	Datoteko [2][3] uporablja{ ta proces: ime: [4], ID: [5], naslov okna: »[6]«}. Zaprite ta program in poskusite znova.
-1604	Izdelek »[2]« je že namešèen in prepreèuje namešèanje tega izdelka. Izdelka nista združljiva.
-1605	Na nosilcu »[2]« trdega diska ni dovolj prostora za nadaljevanje namestitve z omogoèeno obnovitvijo. Na voljo je le [4] KB prostora, potrebujete pa ga [3] KB. Kliknite »Prezri«, èe želite nadaljevati namestitev brez shranjevanja informacij o obnovitvi, »Ponovi«, èe želite ponovno preveriti prostor na disku, ali »Prekini«, èe želite konèati namestitev.
-1606	Do omrežnega mesta [2] ni bilo mogoèe priti.
-1607	Preden nadaljujete z namestitvijo, morate zapreti te programe:
-1608	V raèunalniku ni bilo mogoèe najti ustreznih, prej namešèenih izdelkov, potrebnih za to namestitev.
-1609	Pri uporabi varnostnih nastavitev je prišlo do napake. [2] ni veljaven uporabnik skupine. Razlog za napako so lahko težave s paketom ali pri povezavi s kontrolnikom domene v omrežju. Preverite omrežno povezavo in kliknite »Ponovi« oziroma »Prekini«, èe želite konèati namestitev. {{Uporabnikovega SID-a ni bilo mogoèe najti, sistemska napaka [3]}}
-1633	Ta namestitveni paket ni podprt na tej platformi. Obrnite se na proizvajalca programske opreme.
-1701	Kljuè [2] ni veljaven. Preverite, ali ste vnesli pravi kljuè.
-1702	Pred nadaljevanjem konfiguracije za [2] mora namestitveni program ponovno zagnati sistem. Èe želite ponovni zagon zdaj, kliknite »Da«. Èe želite sistem sami ponovno zagnati pozneje, kliknite »Ne«.
-1703	Èe želite uveljaviti spremembe konfiguracije za [2], morate sistem ponovno zagnati. Kliknite »Da«, èe ga želite ponovno zagnati zdaj, oziroma »Ne«, èe ga nameravate sami zagnati pozneje.
-1704	Namestitev za [2] je trenutno ustavljena. Èe želite nadaljevati, morate razveljaviti spremembe, ki jih je naredila. Ali jih želite razveljaviti?
-1705	Prejšnja namestitev tega izdelka se še izvaja. Èe želite nadaljevati, morate razveljaviti spremembe, ki jih je naredila omenjena namestitev. Ali želite razveljaviti spremembe?
-1706	Veljavnega namestitvenega paketa izdelka [2] ni bilo mogoèe najti. Poskusite ponoviti namestitev z veljavnim namestitvenim paketom »[3]«.
-1707	Namestitev je bila uspešno dokonèana.
-1708	Namestitev ni uspela.
-1709	Izdelek: [2] -- [3]
-1710	Raèunalnik lahko povrnete v prejšnje stanje ali pa nadaljujete z namestitvijo pozneje. Ali želite obnoviti prejšnje stanje?
-1711	Med pisanjem namestitvenih informacij na disk je prišlo do napake. Poskrbite, da bo na disku dovolj prostora in kliknite »Ponovi«. Èe želite namestitev prekiniti, kliknite »Prekini«.
-1712	Ene ali veè datotek, potrebnih za obnovitev prejšnjega stanja raèunalnika, ni bilo mogoèe najti. Obnovitev ne bo mogoèa.
-1713	[2] ne more namestiti enega od zahtevanih izdelkov. Obrnite se na svojo tehnièno službo. {{Sistemska napaka: [3].}}
-1714	Starejše razlièice [2] ni mogoèe odstraniti. Obrnite se na svojo tehnièno službo. {{Sistemska napaka [3].}}
-1715	Namešèeno [2]
-1716	Konfigurirano [2]
-1717	Odstranjeno [2]
-1718	Datoteka [2] je bila zavrnjena zaradi neskladnosti s politiko o digitalnih podpisih.
-1719	Storitev Windows Installer ni dostopna. Morda program Windows izvajate v varnem naèinu ali pa Windows Installer ni pravilno namešèen. Obrnite se na svojo tehnièno službo.
-1720	Težave s paketom Windows Installer. Skript, ki so potrebni za dokonèanje namestitve, ni mogoèe izvesti. Obrnite se na svojo tehnièno službo ali na proizvajalca paketa. {{Dejanje po meri [2] napaka v skriptih [3], [4]: [5] vrstica [6], stolpec [7], [8] }}
-1721	Težave s paketom Windows Installer. Programa, ki je potreben za dokonèanje namestitve, ni mogoèe zagnati. Obrnite se na svojo tehnièno službo ali na proizvajalca paketa. {{Dejanje: [2], mesto: [3], ukaz: [4] }}
-1722	Težave s paketom Windows Installer. Program, ki se izvaja kot del namestitve, ni bil dokonèan po prièakovanjih. Obrnite se na svojo tehnièno službo ali na proizvajalca paketa. {{Dejanje [2], mesto: [3], ukaz: [4] }}
-1723	Težave s paketom Windows Installer. Knjižnice DLL, ki je potrebna za dokonèanje namestitve, ni mogoèe izvesti. Obrnite se na svojo tehnièno službo ali na proizvajalca paketa. {{Dejanje [2], vnos: [3], knjižnica: [4] }}
-1724	Odstranitev je bila uspešno dokonèana.
-1725	Odstranitev ni uspela.
-1726	Oglaševanje je bilo uspešno dokonèano.
-1727	Oglaševanje ni uspelo.
-1728	Konfiguracija je bila uspešno dokonèana.
-1729	Konfiguriracija ni uspela.
-1730	Ta program lahko odstrani le skrbnik. Èe ga želite odstraniti, se prijavite kot skrbnik ali pa se za pomoè obrnite na svojo tehnièno službo.
-1801	Pot [2] ni veljavna. Navedite veljavno pot.
-1802	Zmanjkalo je pomnilnika. Zaprite druge programe in nato poskusite znova.
-1803	V pogonu [2] ni diska. Vstavite disk in kliknite »Ponovi« ali pa kliknite »Prekini«, èe se želite vrniti na prej izbrani nosilec.
-1804	V pogonu [2] ni diska. Vstavite disk in kliknite »Ponovi« ali pa kliknite »Prekini«, èe se želite vrniti v pogovorno okno za brskanje in izbrati drug nosilec.
-1805	Mapa [2] ne obstaja. Vnesite pot do obstojeèe mape.
-1806	Nimate zadostnih pravic za branje te mape.
-1807	Veljavne ciljne mape za namestitev ni bilo mogoèe doloèiti.
-1901	Pri poskusu branja iz izvorne namestitvene zbirke podatkov je prišlo do napake: [2].
-1902	Razporejanje ponovnega zagona: preimenovanje datoteke [2] v [3]. Za dokonèanje operacije je potreben ponovni zagon.
-1903	Razporejanje ponovnega zagona: brisanje datoteke [2]. Za dokonèanje operacije je potreben ponovni zagon.
-1904	Registracija modula [2] ni uspela. HRESULT [3]. Obrnite se na svojo tehnièno službo.
-1905	Brisanje registracije modula [2] ni uspelo. HRESULT [3]. Obrnite se na svojo tehnièno službo.
-1906	Paketa [2] ni bilo mogoèe shraniti v predpomnilnik. Napaka: [3]. Obrnite se na svojo tehnièno službo.
-1907	Pisave [2] ni bilo mogoèe registrirati. Preverite, ali imate zadostne pravice za namešèanje pisav in ali sistem podpira to pisavo.
-1908	Registracije pisave [2] ni bilo mogoèe izbrisati. Preverite, ali imate zadostne pravice za odstranjevanje pisav.
-1909	Bližnjice [2] ni bilo mogoèe ustvariti. Preverite, ali ciljna mapa obstaja in ali imate dostop do nje.
-1910	Bližnjice [2] ni bilo mogoèe odstraniti. Preverite, ali datoteka z bližnjico obstaja in ali imate dostop do nje.
-1911	Knjižnice tipov za datoteko [2] ni bilo mogoèe registrirati. Obrnite se na svojo tehnièno službo.
-1912	Registracije knjižnice tipov za datoteko [2] ni bilo mogoèe izbrisati. Obrnite se na svojo tehnièno službo.
-1913	Datoteke INI [2][3] ni bilo mogoèe posodobiti. Preverite, ali datoteka obstaja in ali imate dostop do nje.
-1914	Datoteke [2] ni bilo mogoèe razporediti tako, da bi ob zagonu zamenjala datoteko [3]. Preverite, ali imate dovoljenje za pisanje v datoteko [3].
-1915	Prišlo je do napake pri odstranjevanju upravitelja ODBC gonilnikov, napaka ODBC [2]: [3]. Obrnite se na svojo tehnièno službo.
-1916	Prišlo je do napake pri namešèanju upravitelja ODBC gonilnikov, napaka ODBC [2]: [3]. Obrnite se na svojo tehnièno službo.
-1917	Prišlo je do napake pri odstranjevanju gonilnika ODBC: [4], napaka ODBC [2]: [3]. Preverite, ali imate ustrezne pravice za odstranjevanje ODBC gonilnikov.
-1918	Prišlo je do napake pri namešèanju gonilnika ODBC: [4], napaka ODBC [2]: [3]. Preverite, ali datoteka [4] obstaja in ali imate dostop do nje.
-1919	Prišlo je do napake pri konfiguriranju vira podatkov ODBC: [4], napaka ODBC [2]: [3]. Preverite, ali datoteka [4] obstaja in ali imate dostop do nje.
-1920	Zagon storitve »[2]« ([3]) ni uspel. Preverite, ali imate ustrezne pravice za zaganjanje sistemskih storitev.
-1921	Storitve »[2]« ([3]) ni bilo mogoèe ustaviti. Preverite, ali imate ustrezne pravice za ustavljanje sistemskih storitev.
-1922	Storitve »[2]« ([3]) ni bilo mogoèe izbrisati. Preverite, ali imate ustrezne pravice za odstranjevanje sistemskih storitev.
-1923	Storitve »[2]« ([3]) ni bilo mogoèe namestiti. Preverite, ali imate ustrezne pravice za namešèanje sistemskih storitev.
-1924	Spremenljivke okolja »[2]« ni bilo mogoèe posodobiti. Preverite, ali imate ustrezne pravice za spreminjanje spremenljivk okolja.
-1925	Nimate ustreznih pravic za dokonèanje te namestitve za vse uporabnike tega raèunalnika. Prijavite se kot skrbnik in nato ponovite namestitev.
-1926	Za datoteko »[3]« ni bilo mogoèe nastaviti varnosti. Napaka: [2]. Preverite, ali imate ustrezne pravice za spreminjanje varnostnih dovoljenj za to datoteko.
-1927	Komponentne storitve (COM+ 1.0) v tem raèunalniku niso namešèene. Potrebujete jih za uspešno dokonèanje te namestitve. Najdete jih v Windows 2000.
-1928	Napaka pri registraciji programa COM+. Èe želite veè informacij, se obrnite na svojo tehnièno službo.
-1929	Napaka pri brisanju registracije programa COM+. Èe želite veè informacij, se obrnite na svojo tehnièno službo.
-1930	Ni mogoèe spremeniti opisa storitve »[2]« ([3]).
-1931	Storitev Windows Installer ne more posodobiti sistemske datoteke »[2]«, ker je program Windows datoteko zašèitil. Èe želite, da ta program deluje pravilno, boste morda morali posodobiti operacijski sistem. {{Razlièica paketa: [3], Razlièica zašèitenega OS: [4]}}
-1932	Storitev Windows Installer ne more posodobiti zašèitene datoteke programa Windows »[2]«. {{Razlièica paketa: [3], Razlièica zašèitenega OS: [4], Napaka SFP: [5]}}
-1933	Storitev Windows Installer ne more posodobiti ene ali veè zašèitenih datotek programa Windows. {{SFP-napaka: [2]. Seznam zašèitenih datotek:\r\n[3]}}
-1934	Uporabniške namestitve so s pravili za ta raèunalnik onemogoèene.
-1935	Med namestitvijo izgradne komponente [2] je prišlo do napake. HRESULT: [3]. {{izgradni vmesnik: [4], funkcija: [5], ime izgradnje: [6]}}
-2401	Poskus 64-bitne operacije v registru na 32-bitnem operacijskem sistemu za kljuè »[2]«.
-2943	Ta verzija operacijskega sistema Windows ne omogoèa distribucije 64-bitnih namestitvenih paketov. Skripta »[2]« so namenjena 64-bitnim namestitvenim paketom.
+11	Message type: [1], Argument: [2]
+12	=== Logging started: [Date] [Time] ===
+13	=== Logging stopped: [Date] [Time] ===
+14	Action start [Time]: [1].
+15	Action ended [Time]: [1]. Return value [2].
+16	Time remaining: {[1] minutes }{[2] seconds}
+17	Out of memory. Shut down other applications before retrying.
+18	Installer is no longer responding.
+19	Installer stopped prematurely.
+20	Please wait while Windows configures [SimpleProductName]
+21	Gathering required information...
+22	Removing older versions of this application...
+23	Preparing to remove older versions of this application...
+32	[SimpleProductName] Setup completed successfully.
+33	{[SimpleProductName] }Setup failed.
+1101	Error reading from file: [2]. {{ System error [3].}} Verify that the file exists and that you can access it.
+1301	Cannot create the file '[2]'. A folder with this name already exists. Cancel the install and try installing to a different location.
+1302	Please insert the disk: [2]
+1303	The installer has insufficient privileges to access this folder: [2]. The installation cannot continue. Log on as administrator or contact your system administrator.
+1304	Error writing to file: [2]. Verify that you have access to that folder.
+1305	Error reading from file [2]. {{ System error [3].}} Verify that the file exists and that you can access it.
+1306	Another application has exclusive access to the file '[2]'. Please shut down all other applications, then click Retry.
+1307	There is not enough disk space to install this file: [2]. Free some disk space and click Retry, or click Cancel to exit.
+1308	Source file not found: [2]. Verify that the file exists and that you can access it.
+1309	Error reading from file: [3]. {{ System error [2].}} Verify that the file exists and that you can access it.
+1310	Error writing to file: [3]. {{ System error [2].}} Verify that you have access to that folder.
+1311	Source file not found{{(cabinet)}}: [2]. Verify that the file exists and that you can access it.
+1312	Cannot create the folder '[2]'. A file with this name already exists. Please rename or remove the file and click retry, or click Cancel to exit.
+1313	The volume [2] is currently unavailable. Please select another.
+1314	The specified path '[2]' is unavailable.
+1315	Unable to write to the specified folder: [2].
+1316	A network error occurred while attempting to read from the file: [2]
+1317	An error occurred while attempting to create the folder: [2]
+1318	A network error occurred while attempting to create the folder: [2]
+1319	A network error occurred while attempting to open the source file cabinet: [2]
+1320	The specified path is too long: [2]
+1321	The Installer has insufficient privileges to modify this file: [2].
+1322	A portion of the folder path '[2]' is invalid. It is either empty or exceeds the length allowed by the system.
+1323	The folder path '[2]' contains words that are not valid in folder paths.
+1324	The folder path '[2]' contains an invalid character.
+1325	'[2]' is not a valid short file name.
+1326	Error getting file security: [3] GetLastError: [2]
+1327	Invalid Drive: [2]
+1328	Error applying patch to file [2]. It has probably been updated by other means, and can no longer be modified by this patch. For more information contact your patch vendor. {{System Error: [3]}}
+1329	A file that is required cannot be installed because the cabinet file [2] is not digitally signed. This may indicate that the cabinet file is corrupt.
+1330	A file that is required cannot be installed because the cabinet file [2] has an invalid digital signature. This may indicate that the cabinet file is corrupt.{{ Error [3] was returned by WinVerifyTrust.}}
+1331	Failed to correctly copy [2] file: CRC error.
+1332	Failed to correctly move [2] file: CRC error.
+1333	Failed to correctly patch [2] file: CRC error.
+1334	The file '[2]' cannot be installed because the file cannot be found in cabinet file '[3]'. This could indicate a network error, an error reading from the CD-ROM, or a problem with this package.
+1335	The cabinet file '[2]' required for this installation is corrupt and cannot be used. This could indicate a network error, an error reading from the CD-ROM, or a problem with this package.
+1336	There was an error creating a temporary file that is needed to complete this installation.{{ Folder: [3]. System error code: [2]}}
+1401	Could not create key: [2]. {{ System error [3].}} Verify that you have sufficient access to that key, or contact your support personnel. 
+1402	Could not open key: [2]. {{ System error [3].}} Verify that you have sufficient access to that key, or contact your support personnel. 
+1403	Could not delete value [2] from key [3]. {{ System error [4].}} Verify that you have sufficient access to that key, or contact your support personnel. 
+1404	Could not delete key [2]. {{ System error [3].}} Verify that you have sufficient access to that key, or contact your support personnel. 
+1405	Could not read value [2] from key [3]. {{ System error [4].}} Verify that you have sufficient access to that key, or contact your support personnel. 
+1406	Could not write value [2] to key [3]. {{ System error [4].}} Verify that you have sufficient access to that key, or contact your support personnel.
+1407	Could not get value names for key [2]. {{ System error [3].}} Verify that you have sufficient access to that key, or contact your support personnel.
+1408	Could not get sub key names for key [2]. {{ System error [3].}} Verify that you have sufficient access to that key, or contact your support personnel.
+1409	Could not read security information for key [2]. {{ System error [3].}} Verify that you have sufficient access to that key, or contact your support personnel.
+1410	Could not increase the available registry space. [2] KB of free registry space is required for the installation of this application.
+1500	Another installation is in progress. You must complete that installation before continuing this one.
+1501	Error accessing secured data. Please make sure the Windows Installer is configured properly and try the install again.
+1502	User '[2]' has previously initiated an install for product '[3]'. That user will need to run that install again before they can use that product. Your current install will now continue.
+1503	User '[2]' has previously initiated an install for product '[3]'. That user will need to run that install again before they can use that product.
+1601	Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: [4] KB. Free some disk space and retry.
+1602	Are you sure you want to cancel?
+1603	The file [2][3] is being held in use{ by the following process: Name: [4], Id: [5], Window Title: '[6]'}. Close that application and retry.
+1604	The product '[2]' is already installed, preventing the installation of this product. The two products are incompatible.
+1605	There is not enough disk space on the volume '[2]' to continue the install with recovery enabled. [3] KB are required, but only [4] KB are available. Click Ignore to continue the install without saving recovery information, click Retry to check for available space again, or click Cancel to quit the installation.
+1606	Could not access network location [2].
+1607	The following applications should be closed before continuing the install:
+1608	Could not find any previously installed compliant products on the machine for installing this product.
+1609	An error occurred while applying security settings. [2] is not a valid user or group. This could be a problem with the package, or a problem connecting to a domain controller on the network. Check your network connection and click Retry, or Cancel to end the install. {{Unable to locate the user's SID, system error [3]}}
+1633	This installation package is not supported on this platform. Contact your application vendor.
+1701	The key [2] is not valid. Verify that you entered the correct key.
+1702	The installer must restart your system before configuration of [2] can continue. Click Yes to restart now or No if you plan to manually restart later.
+1703	You must restart your system for the configuration changes made to [2] to take effect. Click Yes to restart now or No if you plan to manually restart later.
+1704	An installation for [2] is currently suspended. You must undo the changes made by that installation to continue. Do you want to undo those changes?
+1705	A previous installation for this product is in progress. You must undo the changes made by that installation to continue. Do you want to undo those changes?
+1706	An installation package for the product [2] cannot be found. Try the installation again using a valid copy of the installation package '[3]'.
+1707	Installation completed successfully.
+1708	Installation failed.
+1709	Product: [2] -- [3]
+1710	You may either restore your computer to its previous state or continue the install later. Would you like to restore?
+1711	An error occurred while writing installation information to disk. Check to make sure enough disk space is available, and click Retry, or Cancel to end the install.
+1712	One or more of the files required to restore your computer to its previous state could not be found. Restoration will not be possible.
+1713	[2] cannot install one of its required products. Contact your technical support group. {{System Error: [3].}}
+1714	The older version of [2] cannot be removed. Contact your technical support group. {{System Error [3].}}
+1715	Installed [2]
+1716	Configured [2]
+1717	Removed [2]
+1718	File [2] was rejected by digital signature policy.
+1719	The Windows Installer Service could not be accessed. This can occur if you are running Windows in safe mode, or if the Windows Installer is not correctly installed. Contact your support personnel for assistance.
+1720	There is a problem with this Windows Installer package. A script required for this install to complete could not be run. Contact your support personnel or package vendor. {{Custom action [2] script error [3], [4]: [5] Line [6], Column [7], [8] }}
+1721	There is a problem with this Windows Installer package. A programme required for this install to complete could not be run. Contact your support personnel or package vendor. {{Action: [2], location: [3], command: [4] }}
+1722	There is a problem with this Windows Installer package. A programme run as part of the setup did not finish as expected. Contact your support personnel or package vendor. {{Action [2], location: [3], command: [4] }}
+1723	There is a problem with this Windows Installer package. A DLL required for this install to complete could not be run. Contact your support personnel or package vendor. {{Action [2], entry: [3], library: [4] }}
+1724	Removal completed successfully.
+1725	Removal failed.
+1726	Advertisement completed successfully.
+1727	Advertisement failed.
+1728	Configuration completed successfully.
+1729	Configuration failed.
+1730	You must be an Administrator to remove this application. To remove this application, you can log on as an Administrator, or contact your technical support group for assistance.
+1801	The path [2] is not valid. Please specify a valid path.
+1802	Out of memory. Shut down other applications before retrying.
+1803	There is no disk in drive [2]. Please insert one and click Retry, or click Cancel to go back to the previously selected volume.
+1804	There is no disk in drive [2]. Please insert one and click Retry, or click Cancel to return to the browse dialog and select a different volume.
+1805	The folder [2] does not exist. Please enter a path to an existing folder.
+1806	You have insufficient privileges to read this folder.
+1807	A valid destination folder for the install could not be determined.
+1901	Error attempting to read from the source install database: [2].
+1902	Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to complete operation.
+1903	Scheduling reboot operation: Deleting file [2]. Must reboot to complete operation.
+1904	Module [2] failed to register. HRESULT [3]. Contact your support personnel.
+1905	Module [2] failed to unregister. HRESULT [3]. Contact your support personnel.
+1906	Failed to cache package [2]. Error: [3]. Contact your support personnel.
+1907	Could not register font [2]. Verify that you have sufficient permissions to install fonts, and that the system supports this font.
+1908	Could not unregister font [2]. Verify that you that you have sufficient permissions to remove fonts.
+1909	Could not create Shortcut [2]. Verify that the destination folder exists and that you can access it.
+1910	Could not remove Shortcut [2]. Verify that the shortcut file exists and that you can access it.
+1911	Could not register type library for file [2]. Contact your support personnel.
+1912	Could not unregister type library for file [2]. Contact your support personnel.
+1913	Could not update the ini file [2][3]. Verify that the file exists and that you can access it.
+1914	Could not schedule file [2] to replace file [3] on reboot. Verify that you have write permissions to file [3].
+1915	Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your support personnel.
+1916	Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your support personnel.
+1917	Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you have sufficient privileges to remove ODBC drivers.
+1918	Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file [4] exists and that you can access it.
+1919	Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that the file [4] exists and that you can access it.
+1920	Service '[2]' ([3]) failed to start. Verify that you have sufficient privileges to start system services.
+1921	Service '[2]' ([3]) could not be stopped. Verify that you have sufficient privileges to stop system services.
+1922	Service '[2]' ([3]) could not be deleted. Verify that you have sufficient privileges to remove system services.
+1923	Service '[2]' ([3]) could not be installed. Verify that you have sufficient privileges to install system services.
+1924	Could not update environment variable '[2]'. Verify that you have sufficient privileges to modify environment variables.
+1925	You do not have sufficient privileges to complete this installation for all users of the machine. Log on as administrator and then retry this installation.
+1926	Could not set file security for file '[3]'. Error: [2]. Verify that you have sufficient privileges to modify the security permissions for this file.
+1927	Component Services (COM+ 1.0) are not installed on this computer. This installation requires Component Services in order to complete successfully. Component Services are available on Windows 2000.
+1928	Error registering COM+ Application. Contact your support personnel for more information.
+1929	Error unregistering COM+ Application. Contact your support personnel for more information.
+1930	The description for service '[2]' ([3]) could not be changed.
+1931	The Windows Installer service cannot update the system file [2] because the file is protected by Windows. You may need to update your operating system for this programme to work correctly. {{Package version: [3], OS Protected version: [4]}}
+1932	The Windows Installer service cannot update the protected Windows file [2]. {{Package version: [3], OS Protected version: [4], SFP Error: [5]}}
+1933	The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2]. List of protected files:\r\n[3]}}
+1934	User installations are disabled via policy on the machine.
+1935	An error occured during the installation of assembly component [2]. HRESULT: [3]. {{assembly interface: [4], function: [5], assembly name: [6]}}
+2401	64-bit registry operation attempted on 32-bit operating system for key [2].
+2943	This version of Windows does not support deploying 64-bit packages. The script [2] is for a 64-bit package.
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).Error-2.idt" : "Sl.$(PLAT).$(CFG).Error-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).Error-2.idt" : "En.$(PLAT).$(CFG).Error-2.idtx" "..\L10N\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(PLAT).$(CFG).Error-2.idt" : "Sl.$(PLAT).$(CFG).Error-2.idtx" "..\res\en_GB.po"
-	rcxgettext.exe idtp $@ $**
-
-"It.$(PLAT).$(CFG).Error-2.idt" : "Sl.$(PLAT).$(CFG).Error-2.idtx" "..\res\it_IT.po"
-	rcxgettext.exe idtp $@ $**
-
-"Sl.$(PLAT).$(CFG).Error-2.idt" : "Sl.$(PLAT).$(CFG).Error-2.idtx"
+"En.$(PLAT).$(CFG).Error-2.idt" : "En.$(PLAT).$(CFG).Error-2.idtx"
 	copy /y $** $@ > NUL
+
+"It.$(PLAT).$(CFG).Error-2.idt" : "En.$(PLAT).$(CFG).Error-2.idtx" "..\L10N\it_IT.po"
+	rcxgettext.exe idtp $@ $**
+
+"Sl.$(PLAT).$(CFG).Error-2.idt" : "En.$(PLAT).$(CFG).Error-2.idtx" "..\L10N\sl_SI.po"
+	rcxgettext.exe idtp $@ $**
 
 
 ######################################################################
@@ -1340,26 +1340,26 @@ SimpleProductName	$(MSIBUILD_PRODUCT_NAME)
 PROMPTROLLBACKCOST	P
 <<NOKEEP
 
-"Sl.$(PLAT).$(CFG).Property-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"En.$(PLAT).$(CFG).Property-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Value
 s$(MSIBUILD_LENGTH_ID)	l0
-1250	Property	Property
-ProductLanguage	1060
+1252	Property	Property
+ProductLanguage	1033
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).Property-2.idt" : "Sl.$(PLAT).$(CFG).Property-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx" "..\L10N\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(PLAT).$(CFG).Property-2.idt" : "Sl.$(PLAT).$(CFG).Property-2.idtx" "..\res\en_GB.po"
-	rcxgettext.exe idtp $@ $**
-
-"It.$(PLAT).$(CFG).Property-2.idt" : "Sl.$(PLAT).$(CFG).Property-2.idtx" "..\res\it_IT.po"
-	rcxgettext.exe idtp $@ $**
-
-"Sl.$(PLAT).$(CFG).Property-2.idt" : "Sl.$(PLAT).$(CFG).Property-2.idtx"
+"En.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx"
 	copy /y $** $@ > NUL
+
+"It.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx" "..\L10N\it_IT.po"
+	rcxgettext.exe idtp $@ $**
+
+"Sl.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx" "..\L10N\sl_SI.po"
+	rcxgettext.exe idtp $@ $**
 
 
 ######################################################################
@@ -1451,76 +1451,76 @@ TypeLib	LibID	Language	Component_
 
 All :: "$(LANG).$(PLAT).$(CFG).UIText-2.idt"
 
-"Sl.$(PLAT).$(CFG).UIText-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"En.$(PLAT).$(CFG).UIText-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Key	Text
 s$(MSIBUILD_LENGTH_ID)	L255
-1250	UIText	Key
+1252	UIText	Key
 AbsentPath	
-bytes	 bajtov
-GB	 GB
-KB	 KB
-MB	 MB
-MenuAbsent	Ta del ne bo namešèen
-MenuAdvertise	Del bo namešèen ob prvi uporabi
-MenuAllCD	Celotna komponenta bo namešèena na plošèi CD
-MenuAllLocal	Celotna komponenta bo namešèena na lokalni disk
-MenuAllNetwork	Celotna komponenta bo namešèena za zagon iz omrežja
-MenuCD	Namešèeno za zagon iz plošèe CD
-MenuLocal	Namešèeno za zagon iz lokalnega diska
-MenuNetwork	Namešèeno za zagon iz omrežja
-NewFolder	Mapa|Nova mapa
-ScriptInProgress	Zbiranje potrebnih informacij ...
-SelAbsentAbsent	Ta del bo še vedno odstranjen
-SelAbsentAdvertise	Ta del bo ponastavljen za zagon ob prvi uporabi
-SelAbsentCD	Ta del bo ponastavljen za zagon iz plošèe CD
-SelAbsentLocal	Ta del bo namešèen na lokalni disk
-SelAbsentNetwork	Ta del bo ponastavljen za zagon iz omrežja
-SelAdvertiseAbsent	Ta del bo odstranjen
-SelAdvertiseAdvertise	Ta del bo namešèen ob prvi uporabi
-SelAdvertiseCD	Ta del bo ponastavljen za zagon iz plošèe CD
-SelAdvertiseLocal	Ta del bo namešèen na lokalni disk
-SelAdvertiseNetwork	Ta del bo ponastavljen za zagon iz omrežja
-SelCDAbsent	Ta del bo odstranjen, ne boste ga mogli zagnati niti iz plošèe CD
-SelCDAdvertise	Ta del bo ponastavljen za zagon ob prvi uporabi
-SelCDCD	Ta del bo še vedno namešèen za zagon iz plošèe CD
-SelCDLocal	Ta del bo namešèen na lokalni disk
-SelChildCostNeg	Ta del bo sprostil [1] na vašem disku.
-SelChildCostPos	Ta del zahteva [1] na vašem disku.
-SelCostPending	Raèunam potreben prostor za ta del ...
-SelLocalAbsent	Ta del bo odstranjen
-SelLocalAdvertise	Ta del bo odstranjen iz vašega lokalnega diska, vendar bo ponastavljen za zagon ob prvi uporabi
-SelLocalCD	Ta del bo odstranjen iz vašega lokalnega diska, vendar bo ponastavljen za zagon iz plošèe CD
-SelLocalLocal	Ta del bo še vedno namešèen na vašem lokalnem disku
-SelLocalNetwork	Ta del bo odstranjen iz vašega lokalnega diska, vendar bo ponastavljen za zagon iz omrežja
-SelNetworkAbsent	Ta del bo odstranjen, ne boste ga mogli zagnati niti iz omrežja
-SelNetworkAdvertise	Ta del bo ponastavljen za zagon ob prvi uporabi
-SelNetworkLocal	Ta del bo namešèen na lokalni disk
-SelNetworkNetwork	Ta del bo še vedno namešèen za zagon iz omrežja
-SelParentCostNegNeg	Ta komponenta zaseda [1] na vašem lokalnem disku. Ima izbranih [2] od [3] delov. Deli zasedajo [4] na vašem lokalnem disku.
-SelParentCostNegPos	Ta komponenta zaseda [1] na vašem lokalnem disku. Ima izbranih [2] od [3] delov. Deli zasedajo [4] na vašem lokalnem disku.
-SelParentCostPosNeg	Ta komponenta zaseda [1] na vašem lokalnem disku. Ima izbranih [2] od [3] delov. Deli zasedajo [4] na vašem lokalnem disku.
-SelParentCostPosPos	Ta komponenta zaseda [1] na vašem lokalnem disku. Ima izbranih [2] od [3] delov. Deli zasedajo [4] na vašem lokalnem disku.
-TimeRemaining	Preostalo èasa: {[1] min }{[2] sek}
-VolumeCostAvailable	Na voljo
-VolumeCostDifference	Razlika
-VolumeCostRequired	Potrebno
-VolumeCostSize	Velikost
-VolumeCostVolume	Pogon
+bytes	bytes
+GB	GB
+KB	KB
+MB	MB
+MenuAbsent	Entire feature will be unavailable
+MenuAdvertise	Feature will be installed when required
+MenuAllCD	Entire feature will be installed to run from CD
+MenuAllLocal	Entire feature will be installed on local hard drive
+MenuAllNetwork	Entire feature will be installed to run from network
+MenuCD	Will be installed to run from CD
+MenuLocal	Will be installed on local hard drive
+MenuNetwork	Will be installed to run from network
+NewFolder	Folder|New Folder
+ScriptInProgress	Gathering required information...
+SelAbsentAbsent	This feature will remain uninstalled
+SelAbsentAdvertise	This feature will be set to be installed when required
+SelAbsentCD	This feature will be installed to run from CD
+SelAbsentLocal	This feature will be installed on the local hard drive
+SelAbsentNetwork	This feature will be installed to run from the network
+SelAdvertiseAbsent	This feature will become unavailable
+SelAdvertiseAdvertise	Will be installed when required
+SelAdvertiseCD	This feature will be installed to run from CD
+SelAdvertiseLocal	This feature will be installed on the local hard drive
+SelAdvertiseNetwork	This feature will be installed to run from the network
+SelCDAbsent	This feature will be uninstalled completely, you won't be able to run it from CD
+SelCDAdvertise	This feature will be set to be installed when required
+SelCDCD	This feature will remain to be run from CD
+SelCDLocal	This feature will be installed on the local hard drive
+SelChildCostNeg	This feature frees up [1] on your hard drive.
+SelChildCostPos	This feature requires [1] on your hard drive.
+SelCostPending	Compiling cost for this feature...
+SelLocalAbsent	This feature will become unavailable
+SelLocalAdvertise	This feature will be removed from your local hard drive, but will be set to be installed when required
+SelLocalCD	This feature will be removed from your local hard drive, but will be still available to run from CD
+SelLocalLocal	This feature will remain on you local hard drive
+SelLocalNetwork	This feature will be removed from your local hard drive, but will be still available to run from the network
+SelNetworkAbsent	This feature will be uninstalled completely, you won't be able to run it from the network
+SelNetworkAdvertise	This feature will be set to be installed when required
+SelNetworkLocal	This feature will be installed on the local hard drive
+SelNetworkNetwork	This feature will remain to be run from the network
+SelParentCostNegNeg	This feature requires [1] on your hard drive. It has [2] of [3] subfeatures selected. The subfeatures require [4] on your hard drive.
+SelParentCostNegPos	This feature requires [1] on your hard drive. It has [2] of [3] subfeatures selected. The subfeatures require [4] on your hard drive.
+SelParentCostPosNeg	This feature requires [1] on your hard drive. It has [2] of [3] subfeatures selected. The subfeatures require [4] on your hard drive.
+SelParentCostPosPos	This feature requires [1] on your hard drive. It has [2] of [3] subfeatures selected. The subfeatures require [4] on your hard drive.
+TimeRemaining	Time remaining: {[1] minutes }{[2] seconds}
+VolumeCostAvailable	Available
+VolumeCostDifference	Difference
+VolumeCostRequired	Required
+VolumeCostSize	Disk Size
+VolumeCostVolume	Volume
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).UIText-2.idt" : "Sl.$(PLAT).$(CFG).UIText-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).UIText-2.idt" : "En.$(PLAT).$(CFG).UIText-2.idtx" "..\L10N\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(PLAT).$(CFG).UIText-2.idt" : "Sl.$(PLAT).$(CFG).UIText-2.idtx" "..\res\en_GB.po"
-	rcxgettext.exe idtp $@ $**
-
-"It.$(PLAT).$(CFG).UIText-2.idt" : "Sl.$(PLAT).$(CFG).UIText-2.idtx" "..\res\it_IT.po"
-	rcxgettext.exe idtp $@ $**
-
-"Sl.$(PLAT).$(CFG).UIText-2.idt" : "Sl.$(PLAT).$(CFG).UIText-2.idtx"
+"En.$(PLAT).$(CFG).UIText-2.idt" : "En.$(PLAT).$(CFG).UIText-2.idtx"
 	copy /y $** $@ > NUL
+
+"It.$(PLAT).$(CFG).UIText-2.idt" : "En.$(PLAT).$(CFG).UIText-2.idtx" "..\L10N\it_IT.po"
+	rcxgettext.exe idtp $@ $**
+
+"Sl.$(PLAT).$(CFG).UIText-2.idt" : "En.$(PLAT).$(CFG).UIText-2.idtx" "..\L10N\sl_SI.po"
+	rcxgettext.exe idtp $@ $**
 
 
 ######################################################################

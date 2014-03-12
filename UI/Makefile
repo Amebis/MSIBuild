@@ -51,10 +51,10 @@ All :: \
 Name	Data
 s$(MSIBUILD_LENGTH_ID)	v0
 Binary	Name
-binUIOpozorilo.ico	UIWarning.ico
-binUIObvestilo.ico	UIInfo.ico
-binUIMapaNova.ico	UIFolderNew.ico
-binUIMapaGor.ico	UIFolderUp.ico
+binUIWarning.ico	UIWarning.ico
+binUIInfo.ico	UIInfo.ico
+binUIFolderNew.ico	UIFolderNew.ico
+binUIFolderUp.ico	UIFolderUp.ico
 <<NOKEEP
 
 "$(LANG).$(PLAT).$(CFG).Binary-1\UIWarning.ico" : "Binary\UIWarning.ico"
@@ -75,25 +75,25 @@ binUIMapaGor.ico	UIFolderUp.ico
 
 All :: "$(LANG).$(PLAT).$(CFG).CheckBox-2.idt"
 
-"Sl.$(PLAT).$(CFG).CheckBox-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"En.$(PLAT).$(CFG).CheckBox-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Value
 s$(MSIBUILD_LENGTH_ID)	S64
-1250	CheckBox	Property
+1252	CheckBox	Property
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).CheckBox-2.idt" : "Sl.$(PLAT).$(CFG).CheckBox-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).CheckBox-2.idt" : "En.$(PLAT).$(CFG).CheckBox-2.idtx" "..\L10N\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(PLAT).$(CFG).CheckBox-2.idt" : "Sl.$(PLAT).$(CFG).CheckBox-2.idtx" "..\res\en_GB.po"
-	rcxgettext.exe idtp $@ $**
-
-"It.$(PLAT).$(CFG).CheckBox-2.idt" : "Sl.$(PLAT).$(CFG).CheckBox-2.idtx" "..\res\it_IT.po"
-	rcxgettext.exe idtp $@ $**
-
-"Sl.$(PLAT).$(CFG).CheckBox-2.idt" : "Sl.$(PLAT).$(CFG).CheckBox-2.idtx"
+"En.$(PLAT).$(CFG).CheckBox-2.idt" : "En.$(PLAT).$(CFG).CheckBox-2.idtx"
 	copy /y $** $@ > NUL
+
+"It.$(PLAT).$(CFG).CheckBox-2.idt" : "En.$(PLAT).$(CFG).CheckBox-2.idtx" "..\L10N\it_IT.po"
+	rcxgettext.exe idtp $@ $**
+
+"Sl.$(PLAT).$(CFG).CheckBox-2.idt" : "En.$(PLAT).$(CFG).CheckBox-2.idtx" "..\L10N\sl_SI.po"
+	rcxgettext.exe idtp $@ $**
 
 
 ######################################################################
@@ -101,148 +101,148 @@ s$(MSIBUILD_LENGTH_ID)	S64
 
 All :: "$(LANG).$(PLAT).$(CFG).Control-2.idt"
 
-"Sl.$(PLAT).$(CFG).Control-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"En.$(PLAT).$(CFG).Control-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control	Type	X	Y	Width	Height	Attributes	Property	Text	Control_Next	Help
 s$(MSIBUILD_LENGTH_ID)	s50	s20	i2	i2	i2	i2	I4	S50	L0	S50	L$(MSIBUILD_LENGTH_HELP)
-1250	Control	Dialog_	Control
-dlgPrepare	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIGlava.bmp	ctlTitle	
-dlgPrepare	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Namestitev programa [SimpleProductName] se pripravlja. Prosimo, poèakajte ...	ctlProgressBar	
-dlgPrepare	ctlProgressBar	ProgressBar	30	155	340	15	65537		Konèano	ctlActionText	
+1252	Control	Dialog_	Control
+dlgPrepare	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIHeader.bmp	ctlTitle	
+dlgPrepare	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Preparing [SimpleProductName] installation. Please wait...	ctlProgressBar	
+dlgPrepare	ctlProgressBar	ProgressBar	30	155	340	15	65537		Progress done	ctlActionText	
 dlgPrepare	ctlActionText	Text	30	175	340	15	196611			ctlBannerBitmap	
-dlgLicenseAgreement	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIGlava.bmp	ctlTitle	
-dlgLicenseAgreement	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Prosimo, da pazljivo preberete splošne pogoje.	ctlAgreementText	
-dlgLicenseAgreement	ctlIAgree	CheckBox	15	265	300	15	19	IAgree	&Strinjam se s splošnimi pogoji.	ctlContinue	
-dlgLicenseAgreement	ctlContinue	PushButton	325	265	60	20	3		&Nadaljuj	ctlBannerBitmap	
-dlgTypeSetup	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIGlava.bmp	ctlTitle	
-dlgTypeSetup	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Izberite vrsto namestitve.	ctlInstall	
-dlgTypeSetup	ctlInstall	PushButton	140	130	120	40	3		[DlgTitleFont][ButtonTextInstall] 	ctlCustomize	Namesti najbolj obièajne dele programa. Primerno za veèino uporabnikov.|
-dlgTypeSetup	ctlCustomize	PushButton	165	190	70	25	3		Po &meri	ctlBannerBitmap	Omogoèa, da sami izberete, kateri deli bodo namešèeni in kam.|
+dlgLicenseAgreement	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIHeader.bmp	ctlTitle	
+dlgLicenseAgreement	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Please read the following general terms carefully.	ctlAgreementText	
+dlgLicenseAgreement	ctlIAgree	CheckBox	15	265	300	15	19	IAgree	I &accept the General Terms.	ctlContinue	
+dlgLicenseAgreement	ctlContinue	PushButton	325	265	60	20	3		&Continue	ctlBannerBitmap	
+dlgTypeSetup	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIHeader.bmp	ctlTitle	
+dlgTypeSetup	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Choose setup type.	ctlInstall	
+dlgTypeSetup	ctlInstall	PushButton	140	130	120	40	3		[DlgTitleFont][ButtonTextInstall] 	ctlCustomize	Installs the most common programme features. Recommended for most users.|
+dlgTypeSetup	ctlCustomize	PushButton	165	190	70	25	3		C&ustomize	ctlBannerBitmap	Allows users to change the way features are installed.|
 !IFDEF MSIBUILD_HAS_X64
 !IF "$(PLAT)" == "Win32"
-dlgTypeSetup	ctlWoW64Icon	Icon	15	234	24	24	5242880		binUIOpozorilo.ico		Opozorilo|
-dlgTypeSetup	ctlWoW64Label	Text	44	234	341	15	196610		[DlgStrongFont]Namestili boste 32-bitno razlièico na 64-bitni operacijski sistem.		
-dlgTypeSetup	ctlWoW64Text	Text	44	249	341	36	196610		32-bitna razlièica programa bo sicer delovala na vašem operacijskem sistemu, toda ta program je na voljo tudi v 64-bitni razlièici, ki je primernejša za vaš operacijski sistem. Priporoèamo, da namestite raje 64-bitno razlièico tega programa.		
+dlgTypeSetup	ctlWoW64Icon	Icon	15	234	24	24	5242880		binUIWarning.ico		Exclamation icon|
+dlgTypeSetup	ctlWoW64Label	Text	44	234	341	15	196610		[DlgStrongFont]You are about to install the 32-bit variant on the 64-bit operating system.		
+dlgTypeSetup	ctlWoW64Text	Text	44	249	341	36	196610		Although, 32-bit variant should work with your operating system, this programme is also available as 64-bit variant, which is more appropriate for your operating system. The installation of the 64-bit variant is recommended.		
 !ENDIF
 !ENDIF
-dlgResume	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIGlava.bmp	ctlTitle	
-dlgResume	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Kliknite »Nadaljuj« za nadaljevanje namestitve programa [SimpleProductName].	ctlContinue	
-dlgResume	ctlContinue	PushButton	325	265	60	20	3		&Nadaljuj	ctlBannerBitmap	
-dlgTypeMaintenance	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIGlava.bmp	ctlTitle	
-dlgTypeMaintenance	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Vzdrževanje programa [SimpleProductName] 	ctlText	
-dlgTypeMaintenance	ctlText	Text	15	60	370	24	196611		Vzdrževanje vam omogoèa, da spremenite, kateri deli so namešèeni na vašem raèunalniku, ali celo odstranite program [SimpleProductName].	ctlButtons	
+dlgResume	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIHeader.bmp	ctlTitle	
+dlgResume	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Click "Next" to resume [SimpleProductName] installation.	ctlContinue	
+dlgResume	ctlContinue	PushButton	325	265	60	20	3		&Continue	ctlBannerBitmap	
+dlgTypeMaintenance	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIHeader.bmp	ctlTitle	
+dlgTypeMaintenance	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont][SimpleProductName] Maintenance	ctlText	
+dlgTypeMaintenance	ctlText	Text	15	60	370	24	196611		Maintenance allows you to change the way features are installed on your computer or even to remove [SimpleProductName] from your computer.	ctlButtons	
 dlgTypeMaintenance	ctlButtons	RadioButtonGroup	45	99	310	117	3	InstallModeRB		ctlContinue	
-dlgTypeMaintenance	ctlContinue	PushButton	325	265	60	20	3		&Nadaljuj	ctlBannerBitmap	
-dlgAdminInstallPoint	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIGlava.bmp	ctlTitle	
-dlgAdminInstallPoint	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Priprava namestitvene podobe programa [SimpleProductName] 	ctlText	
-dlgAdminInstallPoint	ctlText	Text	15	60	370	24	3		Za program [SimpleProductName] boste pripravili namestitveno podobo, ki olajšuje preprostejše skupinsko namešèanje.	ctlPathEditLabel	
-dlgAdminInstallPoint	ctlPathEditLabel	Text	15	94	370	12	3		&Vpišite želeno mapo ali pritisnite »Prebrskaj«:	ctlPathEdit	
+dlgTypeMaintenance	ctlContinue	PushButton	325	265	60	20	3		&Continue	ctlBannerBitmap	
+dlgAdminInstallPoint	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIHeader.bmp	ctlTitle	
+dlgAdminInstallPoint	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont][SimpleProductName] Administrative Install Image Preparation	ctlText	
+dlgAdminInstallPoint	ctlText	Text	15	60	370	24	3		You are about to prepare installation image for [SimpleProductName], to allow easier group deployment.	ctlPathEditLabel	
+dlgAdminInstallPoint	ctlPathEditLabel	Text	15	94	370	12	3		&Enter desired folder or click "Browse":	ctlPathEdit	
 dlgAdminInstallPoint	ctlPathEdit	PathEdit	15	106	370	18	3	TARGETDIR		ctlBrowse	
-dlgAdminInstallPoint	ctlBrowse	PushButton	325	129	60	20	3		Prebrskaj	ctlPrepare	
-dlgAdminInstallPoint	ctlPrepare	PushButton	140	245	120	40	3		[DlgStrongFont]&Pripravi zdaj	ctlBannerBitmap	
-dlgCustomize	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIGlava.bmp	ctlTitle	
+dlgAdminInstallPoint	ctlBrowse	PushButton	325	129	60	20	3		Br&owse	ctlPrepare	
+dlgAdminInstallPoint	ctlPrepare	PushButton	140	245	120	40	3		[DlgStrongFont]&Prepare Now	ctlBannerBitmap	
+dlgCustomize	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIHeader.bmp	ctlTitle	
 dlgCustomize	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont][TitleCustomize] 	ctlTreeLabel	
-dlgCustomize	ctlTreeLabel	Text	15	60	370	15	3		Kliknite na ikone v drevesu spodaj, da izberete dele, ki jih želite namestiti:	ctlTree	
-dlgCustomize	ctlTree	SelectionTree	15	75	370	93	7	_BrowseProperty	Drevo izbire	ctlBox	
+dlgCustomize	ctlTreeLabel	Text	15	60	370	15	3		Click on the icons in the tree below to change the features to be installed:	ctlTree	
+dlgCustomize	ctlTree	SelectionTree	15	75	370	93	7	_BrowseProperty	Tree of selections	ctlBox	
 dlgCustomize	ctlBox	GroupBox	15	173	370	82	1			ctlItemDescription	
-dlgCustomize	ctlItemDescription	Text	20	182	360	24	131075		Opis trenutno izbranega elementa	ctlItemSize	
-dlgCustomize	ctlItemSize	Text	20	206	360	24	131075		Velikost trenutno izbranega elementa	ctlLocationLabel	
-dlgCustomize	ctlLocationLabel	Text	20	235	40	15	3		Mapa:	ctlLocation	
+dlgCustomize	ctlItemDescription	Text	20	182	360	24	131075		Multiline description of the currently selected item.	ctlItemSize	
+dlgCustomize	ctlItemSize	Text	20	206	360	24	131075		The size of the currently selected item.	ctlLocationLabel	
+dlgCustomize	ctlLocationLabel	Text	20	235	40	15	3		Folder:	ctlLocation	
 dlgCustomize	ctlLocation	Text	60	235	255	15	131075			ctlBrowse	
-dlgCustomize	ctlBrowse	PushButton	320	230	60	20	3		Prebrskaj	ctlReset	
-dlgCustomize	ctlReset	PushButton	15	265	60	20	3		&Povrni	ctlDiskCost	Vrne izbiro delov za namestitev v prvotno stanje.|
-dlgCustomize	ctlDiskCost	PushButton	80	265	60	20	3		&Poraba	ctlInstall	Prikaže porabo prostora po pogonih glede na trenutno izbiro delov.|
+dlgCustomize	ctlBrowse	PushButton	320	230	60	20	3		Br&owse	ctlReset	
+dlgCustomize	ctlReset	PushButton	15	265	60	20	3		&Reset	ctlDiskCost	Resets feature selection to initial state.|
+dlgCustomize	ctlDiskCost	PushButton	80	265	60	20	3		Disk &Usage	ctlInstall	Shows space requirement by volumes, according to current feature selection.|
 dlgCustomize	ctlInstall	PushButton	305	265	80	20	3		[ButtonTextInstall] 	ctlBannerBitmap	
-dlgBrowse	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIGlava.bmp	ctlTitle	
-dlgBrowse	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Izberite mapo za namestitev.	ctlDirectoryComboLabel	
-dlgBrowse	ctlDirectoryComboLabel	Text	15	60	40	15	3		&Glej v:	ctlDirectoryCombo	
+dlgBrowse	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIHeader.bmp	ctlTitle	
+dlgBrowse	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Change current destination folder.	ctlDirectoryComboLabel	
+dlgBrowse	ctlDirectoryComboLabel	Text	15	60	40	15	3		&Look in:	ctlDirectoryCombo	
 dlgBrowse	ctlDirectoryCombo	DirectoryCombo	55	60	280	80	393227	_BrowseProperty		ctlUp	
-dlgBrowse	ctlUp	PushButton	340	60	18	18	3670019		binUIMapaGor.ico	ctlNewFolder	V nadrejeno mapo|
-dlgBrowse	ctlNewFolder	PushButton	365	60	18	18	3670019		binUIMapaNova.ico	ctlDirectoryList	Ustvari novo mapo|
+dlgBrowse	ctlUp	PushButton	340	60	18	18	3670019		binUIFolderUp.ico	ctlNewFolder	Up One Level|
+dlgBrowse	ctlNewFolder	PushButton	365	60	18	18	3670019		binUIFolderNew.ico	ctlDirectoryList	Create A New Folder|
 dlgBrowse	ctlDirectoryList	DirectoryList	15	83	370	149	15	_BrowseProperty		ctlPathEditLabel	
-dlgBrowse	ctlPathEditLabel	Text	15	237	50	15	3		&Ime mape:	ctlPathEdit	
+dlgBrowse	ctlPathEditLabel	Text	15	237	50	15	3		&Folder:	ctlPathEdit	
 dlgBrowse	ctlPathEdit	PathEdit	65	237	320	18	11	_BrowseProperty		ctlOK	
-dlgBrowse	ctlOK	PushButton	260	265	60	20	3		&V redu	ctlCancel	
-dlgBrowse	ctlCancel	PushButton	325	265	60	20	3		Prekini	ctlBannerBitmap	
-dlgBrowseAdmin	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIGlava.bmp	ctlTitle	
-dlgBrowseAdmin	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Izberite mapo za namestitveno podobo.	ctlDirectoryComboLabel	
-dlgBrowseAdmin	ctlDirectoryComboLabel	Text	15	60	40	15	3		&Glej v:	ctlDirectoryCombo	
+dlgBrowse	ctlOK	PushButton	260	265	60	20	3		OK	ctlCancel	
+dlgBrowse	ctlCancel	PushButton	325	265	60	20	3		Cancel	ctlBannerBitmap	
+dlgBrowseAdmin	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIHeader.bmp	ctlTitle	
+dlgBrowseAdmin	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Change current administrative installation folder.	ctlDirectoryComboLabel	
+dlgBrowseAdmin	ctlDirectoryComboLabel	Text	15	60	40	15	3		&Look in:	ctlDirectoryCombo	
 dlgBrowseAdmin	ctlDirectoryCombo	DirectoryCombo	55	60	280	80	458755	TARGETDIR		ctlUp	
-dlgBrowseAdmin	ctlUp	PushButton	340	60	18	18	3670019		binUIMapaGor.ico	ctlNewFolder	V nadrejeno mapo|
-dlgBrowseAdmin	ctlNewFolder	PushButton	365	60	18	18	3670019		binUIMapaNova.ico	ctlDirectoryList	Ustvari novo mapo|
+dlgBrowseAdmin	ctlUp	PushButton	340	60	18	18	3670019		binUIFolderUp.ico	ctlNewFolder	Up One Level|
+dlgBrowseAdmin	ctlNewFolder	PushButton	365	60	18	18	3670019		binUIFolderNew.ico	ctlDirectoryList	Create A New Folder|
 dlgBrowseAdmin	ctlDirectoryList	DirectoryList	15	83	370	149	7	TARGETDIR		ctlPathEditLabel	
-dlgBrowseAdmin	ctlPathEditLabel	Text	15	237	50	15	3		&Ime mape:	ctlPathEdit	
+dlgBrowseAdmin	ctlPathEditLabel	Text	15	237	50	15	3		&Folder:	ctlPathEdit	
 dlgBrowseAdmin	ctlPathEdit	PathEdit	65	237	320	18	3	TARGETDIR		ctlOK	
-dlgBrowseAdmin	ctlOK	PushButton	260	265	60	20	3		&V redu	ctlCancel	
-dlgBrowseAdmin	ctlCancel	PushButton	325	265	60	20	3		Prekini	ctlBannerBitmap	
-dlgDiskCost	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIGlava.bmp	ctlTitle	
-dlgDiskCost	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Prostorske zahteve	ctlVolumeList	
+dlgBrowseAdmin	ctlOK	PushButton	260	265	60	20	3		OK	ctlCancel	
+dlgBrowseAdmin	ctlCancel	PushButton	325	265	60	20	3		Cancel	ctlBannerBitmap	
+dlgDiskCost	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIHeader.bmp	ctlTitle	
+dlgDiskCost	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Disk Space Requirements	ctlVolumeList	
 dlgDiskCost	ctlVolumeList	VolumeCostList	15	60	370	195	393223		{60}{60}{60}{60}{60}	ctlClose	
-dlgDiskCost	ctlClose	PushButton	325	265	60	20	3		&Zapri	ctlBannerBitmap	
-dlgOutOfDisk	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIGlava.bmp	ctlTitle	
-dlgOutOfDisk	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Premalo prostora	ctlVolumeListLabel	
-dlgOutOfDisk	ctlVolumeListLabel	Text	15	60	370	36	3		Oznaèeni pogoni (èe obstajajo) nimajo dovolj prostora za trenutno izbrane dele. Lahko sprostite nekaj prostora na izbranih pogonih, izberete manj delov za namestitev ali pa izberete druge pogone za namestitev.	ctlVolumeList	
+dlgDiskCost	ctlClose	PushButton	325	265	60	20	3		&Close	ctlBannerBitmap	
+dlgOutOfDisk	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIHeader.bmp	ctlTitle	
+dlgOutOfDisk	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Out of Disk Space	ctlVolumeListLabel	
+dlgOutOfDisk	ctlVolumeListLabel	Text	15	60	370	36	3		The highlighted volumes (if any) do not have enough disk space available for the currently selected features. You can either remove some files from the highlighted volumes, or choose to install less features onto local drive(s), or select different destination drive(s).	ctlVolumeList	
 dlgOutOfDisk	ctlVolumeList	VolumeCostList	15	96	370	159	393223		{60}{60}{60}{60}{60}	ctlClose	
-dlgOutOfDisk	ctlClose	PushButton	325	265	60	20	3		&Zapri	ctlBannerBitmap	
-dlgOutOfDiskRB	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIGlava.bmp	ctlTitle	
-dlgOutOfDiskRB	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Premalo prostora	ctlVolumeListLabel	
-dlgOutOfDiskRB	ctlVolumeListLabel	Text	15	60	370	36	3		Oznaèeni pogoni (èe obstajajo) nimajo dovolj prostora za trenutno izbrane dele. Lahko sprostite nekaj prostora na izbranih pogonih, izberete manj delov za namestitev ali pa izberete druge pogone za namestitev.	ctlVolumeList	
+dlgOutOfDisk	ctlClose	PushButton	325	265	60	20	3		&Close	ctlBannerBitmap	
+dlgOutOfDiskRB	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIHeader.bmp	ctlTitle	
+dlgOutOfDiskRB	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Out of Disk Space	ctlVolumeListLabel	
+dlgOutOfDiskRB	ctlVolumeListLabel	Text	15	60	370	36	3		The highlighted volumes (if any) do not have enough disk space available for the currently selected features. You can either remove some files from the highlighted volumes, or choose to install less features onto local drive(s), or select different destination drive(s).	ctlVolumeList	
 dlgOutOfDiskRB	ctlVolumeList	VolumeCostList	15	96	370	118	4587527		{60}{60}{60}{60}{60}	ctlText	
-dlgOutOfDiskRB	ctlText	Text	15	219	370	36	3		Lahko se odloèite, da onemogoèite možnost obnovitve prvotnega stanja. Obnovitev prvotnega stanja omogoèa namestitvi ponovno vrnitev v stanje raèunalnika pred namestitvijo, èe namestitev ne uspe. Kliknite »Da«, èe želite tvegati, da vrnitev v prvotno stanje ne bo možna.	ctlYes	
-dlgOutOfDiskRB	ctlYes	PushButton	260	265	60	20	3		&Da	ctlNo	
-dlgOutOfDiskRB	ctlNo	PushButton	325	265	60	20	3		&Ne	ctlBannerBitmap	
-dlgProgress	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIGlava.bmp	ctlTitle	
-dlgProgress	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont][Progress1] [SimpleProductName] ...	ctlProgressBar	
-dlgProgress	ctlProgressBar	ProgressBar	30	155	340	15	65537		Konèano	ctlActionText	
+dlgOutOfDiskRB	ctlText	Text	15	219	370	36	3		Alternatively, you may choose to disable the installer's rollback functionality. This allows the installer to restore your computer's original state should the installation be interrupted in any way. Click Yes if you wish to take the risk to disable rollback.	ctlYes	
+dlgOutOfDiskRB	ctlYes	PushButton	260	265	60	20	3		&Yes	ctlNo	
+dlgOutOfDiskRB	ctlNo	PushButton	325	265	60	20	3		&No	ctlBannerBitmap	
+dlgProgress	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIHeader.bmp	ctlTitle	
+dlgProgress	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont][Progress1] [SimpleProductName]...	ctlProgressBar	
+dlgProgress	ctlProgressBar	ProgressBar	30	155	340	15	65537		Progress done	ctlActionText	
 dlgProgress	ctlActionText	Text	30	175	340	15	196611			ctlBannerBitmap	
 dlgWait	ctlText	Text	15	15	230	12	3		[WaitMessage] 		
-dlgCancel	ctlIcon	Icon	15	15	24	24	5242881		binUIObvestilo.ico	ctlText	Obvestilo|
-dlgCancel	ctlText	Text	44	15	201	24	3		Ali ste preprièani, da želite prekiniti namestitev programa [SimpleProductName]?	ctlYes	
-dlgCancel	ctlYes	PushButton	67	49	60	20	3		&Da	ctlNo	
-dlgCancel	ctlNo	PushButton	132	49	60	20	3		&Ne	ctlIcon	
-dlgError	ErrorIcon	Icon	15	15	24	24	5242881		binUIObvestilo.ico		Obvestilo|
-dlgError	ErrorText	Text	44	15	201	60	3		Besedilo		
-dlgError	O	PushButton	100	85	60	20	3		&V redu		
-dlgError	C	PushButton	100	85	60	20	3		Prekini		
-dlgError	Y	PushButton	100	85	60	20	3		&Da		
-dlgError	N	PushButton	100	85	60	20	3		&Ne		
-dlgError	A	PushButton	100	85	60	20	3		Prekini		
-dlgError	R	PushButton	100	85	60	20	3		&Ponovi		
-dlgError	I	PushButton	100	85	60	20	3		P&rezri		
-FilesInUse	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIGlava.bmp	ctlTitle	
-FilesInUse	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Datoteke v uporabi	ctlText	
-FilesInUse	ctlText	Text	15	60	370	24	3		Naslednji programi uporabljajo datoteke, ki jih mora ta namestitev posodobiti. Prosimo, zaprite te programe in nato kliknite gumb »Ponovi« za nadaljevanje ali »Prekini« za konèanje:	ctlList	
+dlgCancel	ctlIcon	Icon	15	15	24	24	5242881		binUIInfo.ico	ctlText	Information icon|
+dlgCancel	ctlText	Text	44	15	201	24	3		Are you sure you want to cancel [SimpleProductName] installation?	ctlYes	
+dlgCancel	ctlYes	PushButton	67	49	60	20	3		&Yes	ctlNo	
+dlgCancel	ctlNo	PushButton	132	49	60	20	3		&No	ctlIcon	
+dlgError	ErrorIcon	Icon	15	15	24	24	5242881		binUIInfo.ico		Information icon|
+dlgError	ErrorText	Text	44	15	201	60	3		Information text		
+dlgError	O	PushButton	100	85	60	20	3		OK		
+dlgError	C	PushButton	100	85	60	20	3		Cancel		
+dlgError	Y	PushButton	100	85	60	20	3		&Yes		
+dlgError	N	PushButton	100	85	60	20	3		&No		
+dlgError	A	PushButton	100	85	60	20	3		Cancel		
+dlgError	R	PushButton	100	85	60	20	3		&Retry		
+dlgError	I	PushButton	100	85	60	20	3		&Ignore		
+FilesInUse	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIHeader.bmp	ctlTitle	
+FilesInUse	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont]Files in Use	ctlText	
+FilesInUse	ctlText	Text	15	60	370	24	3		The following applications are using files that need to be updated by this setup. Close these applications and then click Retry to continue the installation or Cancel to exit it.	ctlList	
 FilesInUse	ctlList	ListBox	15	84	370	171	3	FileInUseProcess		ctlRetry	
-FilesInUse	ctlRetry	PushButton	195	265	60	20	3		&Ponovi	ctlIgnore	
-FilesInUse	ctlIgnore	PushButton	260	265	60	20	3		P&rezri	ctlAbort	
-FilesInUse	ctlAbort	PushButton	325	265	60	20	3		Prekini	ctlBannerBitmap	
-dlgFinished	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIGlava.bmp	ctlTitle	
-dlgFinished	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont][Progress2] programa [SimpleProductName] je konèana.	ctlClose	
-dlgFinished	ctlClose	PushButton	325	265	60	20	3		&Zapri	ctlBannerBitmap	
-dlgUserExit	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIGlava.bmp	ctlTitle	
-dlgUserExit	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont][Progress2] programa [SimpleProductName] je bila prekinjena.	ctlText1	
-dlgUserExit	ctlText1	Text	15	60	370	24	196611		Namestitev programa [SimpleProductName] je bila prekinjena na vašo zahtevo, zato program ni bil namešèen. Vaš sistem je v stanju, kot je bil pred zaèetkom namestitve.	ctlText2	
-dlgUserExit	ctlText2	Text	15	89	370	12	196611		Èe ste namestitev prekinili pomotoma, jo ponovno poženite.	ctlClose	
-dlgUserExit	ctlClose	PushButton	325	265	60	20	3		&Zapri	ctlBannerBitmap	
-dlgFailed	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIGlava.bmp	ctlTitle	
-dlgFailed	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont][Progress2] programa [SimpleProductName] se je zakljuèila predèasno.	ctlText1	
-dlgFailed	ctlText1	Text	15	60	370	24	196611		Namestitev programa [SimpleProductName] se je zakljuèila predèasno zaradi napake, zato program ni bil namešèen. Vaš sistem je v stanju, kot je bil pred zaèetkom namestitve.	ctlText2	
-dlgFailed	ctlText2	Text	15	89	370	24	196611		Prosimo, poskusite ponovno ali se obrnite na [Manufacturer] (tel. [ARPHELPTELEPHONE]).	ctlClose	
-dlgFailed	ctlClose	PushButton	325	265	60	20	3		&Zapri	ctlBannerBitmap	
+FilesInUse	ctlRetry	PushButton	195	265	60	20	3		&Retry	ctlIgnore	
+FilesInUse	ctlIgnore	PushButton	260	265	60	20	3		&Ignore	ctlAbort	
+FilesInUse	ctlAbort	PushButton	325	265	60	20	3		Cancel	ctlBannerBitmap	
+dlgFinished	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIHeader.bmp	ctlTitle	
+dlgFinished	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont][SimpleProductName] [Progress1] Completed	ctlClose	
+dlgFinished	ctlClose	PushButton	325	265	60	20	3		&Close	ctlBannerBitmap	
+dlgUserExit	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIHeader.bmp	ctlTitle	
+dlgUserExit	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont][SimpleProductName] [Progress2] Interrupted	ctlText1	
+dlgUserExit	ctlText1	Text	15	60	370	24	196611		[SimpleProductName] setup was interrupted on your request. Therefore, the programme was not installed. Your system has not been modified.	ctlText2	
+dlgUserExit	ctlText2	Text	15	89	370	12	196611		If you interrupted the installation by accident, please run the installation again.	ctlClose	
+dlgUserExit	ctlClose	PushButton	325	265	60	20	3		&Close	ctlBannerBitmap	
+dlgFailed	ctlBannerBitmap	Bitmap	0	0	400	45	1		binUIHeader.bmp	ctlTitle	
+dlgFailed	ctlTitle	Text	15	15	320	15	196611		[DlgTitleFont][SimpleProductName] [Progress2] Ended Prematurely	ctlText1	
+dlgFailed	ctlText1	Text	15	60	370	24	196611		[SimpleProductName] setup ended prematurely because of an error. Therefore, the programme was not installed. Your system has not been modified.	ctlText2	
+dlgFailed	ctlText2	Text	15	89	370	24	196611		Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE]).	ctlClose	
+dlgFailed	ctlClose	PushButton	325	265	60	20	3		&Close	ctlBannerBitmap	
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).Control-2.idt" : "Sl.$(PLAT).$(CFG).Control-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).Control-2.idt" : "En.$(PLAT).$(CFG).Control-2.idtx" "..\L10N\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(PLAT).$(CFG).Control-2.idt" : "Sl.$(PLAT).$(CFG).Control-2.idtx" "..\res\en_GB.po"
-	rcxgettext.exe idtp $@ $**
-
-"It.$(PLAT).$(CFG).Control-2.idt" : "Sl.$(PLAT).$(CFG).Control-2.idtx" "..\res\it_IT.po"
-	rcxgettext.exe idtp $@ $**
-
-"Sl.$(PLAT).$(CFG).Control-2.idt" : "Sl.$(PLAT).$(CFG).Control-2.idtx"
+"En.$(PLAT).$(CFG).Control-2.idt" : "En.$(PLAT).$(CFG).Control-2.idtx"
 	copy /y $** $@ > NUL
+
+"It.$(PLAT).$(CFG).Control-2.idt" : "En.$(PLAT).$(CFG).Control-2.idtx" "..\L10N\it_IT.po"
+	rcxgettext.exe idtp $@ $**
+
+"Sl.$(PLAT).$(CFG).Control-2.idt" : "En.$(PLAT).$(CFG).Control-2.idtx" "..\L10N\sl_SI.po"
+	rcxgettext.exe idtp $@ $**
 
 
 ######################################################################
@@ -374,35 +374,35 @@ dlgUserExit	ctlClose	EndDialog	Exit	1	1000
 dlgFailed	ctlClose	EndDialog	Exit	1	1000
 <<NOKEEP
 
-"Sl.$(PLAT).$(CFG).ControlEvent-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"En.$(PLAT).$(CFG).ControlEvent-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control_	Event	Argument	Condition	Ordering
 s$(MSIBUILD_LENGTH_ID)	s50	s50	s255	S255	I2
-1250	ControlEvent	Dialog_	Control_	Event	Argument	Condition
-dlgLicenseAgreement	ctlContinue	[WaitMessage]	Ugotavljanje potrebnega prostora za namestitev ...	1	99
-dlgResume	ctlContinue	[WaitMessage]	Ugotavljanje potrebnega prostora za namestitev ...	1	99
-dlgTypeMaintenance	ctlContinue	[ButtonTextInstall]	&Spremeni zdaj	InstallMode="Change"	500
-dlgTypeMaintenance	ctlContinue	[TitleCustomize]	Sprememba namešèenih delov	InstallMode="Change"	501
-dlgTypeMaintenance	ctlContinue	[Progress1]	Spreminjam	InstallMode="Change"	502
-dlgTypeMaintenance	ctlContinue	[Progress2]	Sprememba	InstallMode="Change"	503
-dlgTypeMaintenance	ctlContinue	[Progress1]	Obnavljam	InstallMode="Repair"	504
-dlgTypeMaintenance	ctlContinue	[Progress2]	Obnova	InstallMode="Repair"	505
-dlgTypeMaintenance	ctlContinue	[Progress1]	Odstranjujem	InstallMode="Remove"	506
-dlgTypeMaintenance	ctlContinue	[Progress2]	Odstranitev	InstallMode="Remove"	507
+1252	ControlEvent	Dialog_	Control_	Event	Argument	Condition
+dlgLicenseAgreement	ctlContinue	[WaitMessage]	Determining required space for installation...	1	99
+dlgResume	ctlContinue	[WaitMessage]	Determining required space for installation...	1	99
+dlgTypeMaintenance	ctlContinue	[ButtonTextInstall]	&Modify now	InstallMode="Change"	500
+dlgTypeMaintenance	ctlContinue	[TitleCustomize]	Installed Features Selection	InstallMode="Change"	501
+dlgTypeMaintenance	ctlContinue	[Progress1]	Modifying	InstallMode="Change"	502
+dlgTypeMaintenance	ctlContinue	[Progress2]	Modification	InstallMode="Change"	503
+dlgTypeMaintenance	ctlContinue	[Progress1]	Repairing	InstallMode="Repair"	504
+dlgTypeMaintenance	ctlContinue	[Progress2]	Repair	InstallMode="Repair"	505
+dlgTypeMaintenance	ctlContinue	[Progress1]	Removing	InstallMode="Remove"	506
+dlgTypeMaintenance	ctlContinue	[Progress2]	Removal	InstallMode="Remove"	507
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).ControlEvent-2.idt" : "Sl.$(PLAT).$(CFG).ControlEvent-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).ControlEvent-2.idt" : "En.$(PLAT).$(CFG).ControlEvent-2.idtx" "..\L10N\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(PLAT).$(CFG).ControlEvent-2.idt" : "Sl.$(PLAT).$(CFG).ControlEvent-2.idtx" "..\res\en_GB.po"
-	rcxgettext.exe idtp $@ $**
-
-"It.$(PLAT).$(CFG).ControlEvent-2.idt" : "Sl.$(PLAT).$(CFG).ControlEvent-2.idtx" "..\res\it_IT.po"
-	rcxgettext.exe idtp $@ $**
-
-"Sl.$(PLAT).$(CFG).ControlEvent-2.idt" : "Sl.$(PLAT).$(CFG).ControlEvent-2.idtx"
+"En.$(PLAT).$(CFG).ControlEvent-2.idt" : "En.$(PLAT).$(CFG).ControlEvent-2.idtx"
 	copy /y $** $@ > NUL
+
+"It.$(PLAT).$(CFG).ControlEvent-2.idt" : "En.$(PLAT).$(CFG).ControlEvent-2.idtx" "..\L10N\it_IT.po"
+	rcxgettext.exe idtp $@ $**
+
+"Sl.$(PLAT).$(CFG).ControlEvent-2.idt" : "En.$(PLAT).$(CFG).ControlEvent-2.idtx" "..\L10N\sl_SI.po"
+	rcxgettext.exe idtp $@ $**
 
 
 ######################################################################
@@ -457,26 +457,26 @@ dlgUserExit	50	50	400	300	3	[Setup] [SimpleProductName] [DisplayVersion]	ctlTitl
 dlgFailed	50	50	400	300	3	[Setup] [SimpleProductName] [DisplayVersion]	ctlTitle	ctlClose	ctlClose
 <<NOKEEP
 
-"Sl.$(PLAT).$(CFG).Dialog-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"En.$(PLAT).$(CFG).Dialog-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog	HCentering	VCentering	Width	Height	Attributes	Title	Control_First	Control_Default	Control_Cancel
 s$(MSIBUILD_LENGTH_ID)	i2	i2	i2	i2	I4	L128	s50	S50	S50
-1250	Dialog	Dialog
-dlgError	50	50	260	120	65539	Napaka	ErrorText		
+1252	Dialog	Dialog
+dlgError	50	50	260	120	65539	Installer Information	ErrorText		
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).Dialog-2.idt" : "Sl.$(PLAT).$(CFG).Dialog-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).Dialog-2.idt" : "En.$(PLAT).$(CFG).Dialog-2.idtx" "..\L10N\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(PLAT).$(CFG).Dialog-2.idt" : "Sl.$(PLAT).$(CFG).Dialog-2.idtx" "..\res\en_GB.po"
-	rcxgettext.exe idtp $@ $**
-
-"It.$(PLAT).$(CFG).Dialog-2.idt" : "Sl.$(PLAT).$(CFG).Dialog-2.idtx" "..\res\it_IT.po"
-	rcxgettext.exe idtp $@ $**
-
-"Sl.$(PLAT).$(CFG).Dialog-2.idt" : "Sl.$(PLAT).$(CFG).Dialog-2.idtx"
+"En.$(PLAT).$(CFG).Dialog-2.idt" : "En.$(PLAT).$(CFG).Dialog-2.idtx"
 	copy /y $** $@ > NUL
+
+"It.$(PLAT).$(CFG).Dialog-2.idt" : "En.$(PLAT).$(CFG).Dialog-2.idtx" "..\L10N\it_IT.po"
+	rcxgettext.exe idtp $@ $**
+
+"Sl.$(PLAT).$(CFG).Dialog-2.idt" : "En.$(PLAT).$(CFG).Dialog-2.idtx" "..\L10N\sl_SI.po"
+	rcxgettext.exe idtp $@ $**
 
 
 ######################################################################
@@ -553,31 +553,31 @@ ErrorDialog	dlgError
 InstallModeRB	Change
 <<NOKEEP
 
-"Sl.$(PLAT).$(CFG).Property-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"En.$(PLAT).$(CFG).Property-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Value
 s$(MSIBUILD_LENGTH_ID)	l0
-1250	Property	Property
-Progress1	Namešèam
-Progress2	Namestitev
-Setup	Namestitev
-Wizard	Èarovnik za namestitev
-TitleCustomize	Namestitev po meri
-ButtonTextInstall	&Namesti zdaj
+1252	Property	Property
+Progress1	Installing
+Progress2	Setup
+Setup	Setup
+Wizard	Setup Wizard
+TitleCustomize	Custom Installation
+ButtonTextInstall	&Install Now
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).Property-2.idt" : "Sl.$(PLAT).$(CFG).Property-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx" "..\L10N\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(PLAT).$(CFG).Property-2.idt" : "Sl.$(PLAT).$(CFG).Property-2.idtx" "..\res\en_GB.po"
-	rcxgettext.exe idtp $@ $**
-
-"It.$(PLAT).$(CFG).Property-2.idt" : "Sl.$(PLAT).$(CFG).Property-2.idtx" "..\res\it_IT.po"
-	rcxgettext.exe idtp $@ $**
-
-"Sl.$(PLAT).$(CFG).Property-2.idt" : "Sl.$(PLAT).$(CFG).Property-2.idtx"
+"En.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx"
 	copy /y $** $@ > NUL
+
+"It.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx" "..\L10N\it_IT.po"
+	rcxgettext.exe idtp $@ $**
+
+"Sl.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx" "..\L10N\sl_SI.po"
+	rcxgettext.exe idtp $@ $**
 
 
 ######################################################################
@@ -585,28 +585,28 @@ ButtonTextInstall	&Namesti zdaj
 
 All :: "$(LANG).$(PLAT).$(CFG).RadioButton-2.idt"
 
-"Sl.$(PLAT).$(CFG).RadioButton-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"En.$(PLAT).$(CFG).RadioButton-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Order	Value	X	Y	Width	Height	Text	Help
 s$(MSIBUILD_LENGTH_ID)	i2	s64	i2	i2	i2	i2	L64	L$(MSIBUILD_LENGTH_HELP)
-1250	RadioButton	Property	Order
-InstallModeRB	1	Change	0	0	370	15	&Spremeni	Omogoèa, da sami izberete, kateri deli programa so namešèeni.|
-InstallModeRB	2	Repair	0	20	370	15	Ob&novi	Odpravi napake pri namestitvi programa - popravi pokvarjene ali manjkajoèe datoteke, bližnjice in zapise v registru.|
-InstallModeRB	3	Remove	0	40	370	15	&Odstrani	Odstrani program z vašega raèunalnika.|
+1252	RadioButton	Property	Order
+InstallModeRB	1	Change	0	0	370	15	&Modify	Allows you to change the which features are installed.|
+InstallModeRB	2	Repair	0	20	370	15	&Repair	Repairs errors in the most recent installation state - fixes missing or corrupt files, shortcuts and registry entries.|
+InstallModeRB	3	Remove	0	40	370	15	&Remove	Removes the programme from your computer.|
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).RadioButton-2.idt" : "Sl.$(PLAT).$(CFG).RadioButton-2.idtx" "..\res\de_DE.po"
+"De.$(PLAT).$(CFG).RadioButton-2.idt" : "En.$(PLAT).$(CFG).RadioButton-2.idtx" "..\L10N\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
-"En.$(PLAT).$(CFG).RadioButton-2.idt" : "Sl.$(PLAT).$(CFG).RadioButton-2.idtx" "..\res\en_GB.po"
-	rcxgettext.exe idtp $@ $**
-
-"It.$(PLAT).$(CFG).RadioButton-2.idt" : "Sl.$(PLAT).$(CFG).RadioButton-2.idtx" "..\res\it_IT.po"
-	rcxgettext.exe idtp $@ $**
-
-"Sl.$(PLAT).$(CFG).RadioButton-2.idt" : "Sl.$(PLAT).$(CFG).RadioButton-2.idtx"
+"En.$(PLAT).$(CFG).RadioButton-2.idt" : "En.$(PLAT).$(CFG).RadioButton-2.idtx"
 	copy /y $** $@ > NUL
+
+"It.$(PLAT).$(CFG).RadioButton-2.idt" : "En.$(PLAT).$(CFG).RadioButton-2.idtx" "..\L10N\it_IT.po"
+	rcxgettext.exe idtp $@ $**
+
+"Sl.$(PLAT).$(CFG).RadioButton-2.idt" : "En.$(PLAT).$(CFG).RadioButton-2.idtx" "..\L10N\sl_SI.po"
+	rcxgettext.exe idtp $@ $**
 
 
 ######################################################################
