@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSMBuild\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-12 11:14+0100\n"
+"POT-Creation-Date: 2014-03-17 14:30+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
 "Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
@@ -2665,6 +2665,20 @@ msgstr ""
 "Ali ste prepričani, da želite prekiniti namestitev programa "
 "[SimpleProductName]?"
 
+#: UI/En.Win32.Debug.Control-2.idtx:52 UI/En.Win32.Debug.Control-2.idtx:63
+#: UI/En.Win32.Release.Control-2.idtx:52 UI/En.Win32.Release.Control-2.idtx:63
+#: UI/En.x64.Debug.Control-2.idtx:49 UI/En.x64.Debug.Control-2.idtx:60
+#: UI/En.x64.Release.Control-2.idtx:49 UI/En.x64.Release.Control-2.idtx:60
+msgid "binUIFolderNew.ico"
+msgstr "binUIFolderNew.ico"
+
+#: UI/En.Win32.Debug.Control-2.idtx:51 UI/En.Win32.Debug.Control-2.idtx:62
+#: UI/En.Win32.Release.Control-2.idtx:51 UI/En.Win32.Release.Control-2.idtx:62
+#: UI/En.x64.Debug.Control-2.idtx:48 UI/En.x64.Debug.Control-2.idtx:59
+#: UI/En.x64.Release.Control-2.idtx:48 UI/En.x64.Release.Control-2.idtx:59
+msgid "binUIFolderUp.ico"
+msgstr "binUIFolderUp.ico"
+
 #: UI/En.Win32.Debug.Control-2.idtx:103 UI/En.Win32.Debug.Control-2.idtx:110
 #: UI/En.Win32.Debug.Control-2.idtx:113 UI/En.Win32.Debug.Control-2.idtx:118
 #: UI/En.Win32.Debug.Control-2.idtx:12 UI/En.Win32.Debug.Control-2.idtx:19
@@ -2701,33 +2715,19 @@ msgstr ""
 #: UI/En.x64.Release.Control-2.idtx:66 UI/En.x64.Release.Control-2.idtx:70
 #: UI/En.x64.Release.Control-2.idtx:75 UI/En.x64.Release.Control-2.idtx:8
 #: UI/En.x64.Release.Control-2.idtx:82
-msgid "binUIGlava.bmp"
-msgstr "binUIGlava.bmp"
-
-#: UI/En.Win32.Debug.Control-2.idtx:51 UI/En.Win32.Debug.Control-2.idtx:62
-#: UI/En.Win32.Release.Control-2.idtx:51 UI/En.Win32.Release.Control-2.idtx:62
-#: UI/En.x64.Debug.Control-2.idtx:48 UI/En.x64.Debug.Control-2.idtx:59
-#: UI/En.x64.Release.Control-2.idtx:48 UI/En.x64.Release.Control-2.idtx:59
-msgid "binUIMapaGor.ico"
-msgstr "binUIMapaGor.ico"
-
-#: UI/En.Win32.Debug.Control-2.idtx:52 UI/En.Win32.Debug.Control-2.idtx:63
-#: UI/En.Win32.Release.Control-2.idtx:52 UI/En.Win32.Release.Control-2.idtx:63
-#: UI/En.x64.Debug.Control-2.idtx:49 UI/En.x64.Debug.Control-2.idtx:60
-#: UI/En.x64.Release.Control-2.idtx:49 UI/En.x64.Release.Control-2.idtx:60
-msgid "binUIMapaNova.ico"
-msgstr "binUIMapaNova.ico"
+msgid "binUIHeader.bmp"
+msgstr "binUIHeader.bmp"
 
 #: UI/En.Win32.Debug.Control-2.idtx:90 UI/En.Win32.Debug.Control-2.idtx:94
 #: UI/En.Win32.Release.Control-2.idtx:90 UI/En.Win32.Release.Control-2.idtx:94
 #: UI/En.x64.Debug.Control-2.idtx:87 UI/En.x64.Debug.Control-2.idtx:91
 #: UI/En.x64.Release.Control-2.idtx:87 UI/En.x64.Release.Control-2.idtx:91
-msgid "binUIObvestilo.ico"
-msgstr "binUIObvestilo.ico"
+msgid "binUIInfo.ico"
+msgstr "binUIInfo.ico"
 
 #: UI/En.Win32.Debug.Control-2.idtx:16 UI/En.Win32.Release.Control-2.idtx:16
-msgid "binUIOpozorilo.ico"
-msgstr "binUIOpozorilo.ico"
+msgid "binUIWarning.ico"
+msgstr "binUIWarning.ico"
 
 #: UI/En.Win32.Debug.Control-2.idtx:32 UI/En.Win32.Debug.Control-2.idtx:43
 #: UI/En.Win32.Release.Control-2.idtx:32 UI/En.Win32.Release.Control-2.idtx:43
@@ -3019,3 +3019,12 @@ msgid ""
 msgstr ""
 "Za program [SimpleProductName] boste pripravili namestitveno podobo, ki "
 "olajšuje preprostejše skupinsko nameščanje."
+
+#~ msgid "binUIMapaNova.ico"
+#~ msgstr "binUIMapaNova.ico"
+
+#~ msgid "binUIObvestilo.ico"
+#~ msgstr "binUIObvestilo.ico"
+
+#~ msgid "binUIOpozorilo.ico"
+#~ msgstr "binUIOpozorilo.ico"
