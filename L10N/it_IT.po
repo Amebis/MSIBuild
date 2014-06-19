@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSMBuild\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-21 18:36+0100\n"
+"POT-Creation-Date: 2014-06-19 10:56+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
 "Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-Basepath: ..\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 1.6.5\n"
 "X-Poedit-SearchPath-0: Core\n"
 "X-Poedit-SearchPath-1: UI\n"
 "X-Poedit-SearchPath-2: Version\n"
@@ -184,8 +184,8 @@ msgstr ""
 msgid "A network error occurred while attempting to read from the file: [2]"
 msgstr "Errore di rete durante il tentativo di lettura dal file: [2]"
 
-#: Core/En.Win32.Debug.CustomAction-2.idtx:4
-#: Core/En.Win32.Release.CustomAction-2.idtx:4
+#: Core/En.Win32.Debug.CustomAction-2.idtx:5
+#: Core/En.Win32.Release.CustomAction-2.idtx:5
 #: Core/En.x64.Debug.CustomAction-2.idtx:4
 #: Core/En.x64.Release.CustomAction-2.idtx:4
 msgid "A newer version of [SimpleProductName] is already installed."
@@ -2131,8 +2131,8 @@ msgstr ""
 "Questo pacchetto di installazione non è supportato su questa piattaforma. "
 "Rivolgersi al produttore del software."
 
-#: Core/En.Win32.Debug.CustomAction-2.idtx:5
-#: Core/En.Win32.Release.CustomAction-2.idtx:5
+#: Core/En.Win32.Debug.CustomAction-2.idtx:6
+#: Core/En.Win32.Release.CustomAction-2.idtx:6
 #: Core/En.x64.Debug.CustomAction-2.idtx:5
 #: Core/En.x64.Release.CustomAction-2.idtx:5
 msgid ""
@@ -2347,6 +2347,19 @@ msgstr "Scrittura dei valori dei file INI"
 msgid "Writing system registry values"
 msgstr "Scrittura dei valori del registro di sistema"
 
+#: Core/En.Win32.Debug.CustomAction-2.idtx:4
+#: Core/En.Win32.Release.CustomAction-2.idtx:4
+#, fuzzy
+msgid ""
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
+"64-bit operating system. 32-bit variant will not work with your operating "
+"system. The installation of the 64-bit variant is recommended."
+msgstr ""
+"È possibile utilizzare una versione a 32 bit sul computer; tuttavia, il "
+"programma è disponibile anche in una versione a 64 bit più adatta al sistema "
+"operativo in uso. Si consiglia di installare la versione a 64 bit del "
+"programma."
+
 #: Core/En.Win32.Debug.Error-2.idtx:152 Core/En.Win32.Release.Error-2.idtx:152
 #: Core/En.x64.Debug.Error-2.idtx:152 Core/En.x64.Release.Error-2.idtx:152
 msgid ""
@@ -2405,8 +2418,12 @@ msgstr ""
 #: UI/En.x64.Debug.Control-2.idtx:74 UI/En.x64.Release.Control-2.idtx:109
 #: UI/En.x64.Release.Control-2.idtx:114 UI/En.x64.Release.Control-2.idtx:119
 #: UI/En.x64.Release.Control-2.idtx:69 UI/En.x64.Release.Control-2.idtx:74
+#, fuzzy
 msgid "&Close"
 msgstr ""
+"Le seguenti applicazioni stanno utilizzando file che devono essere "
+"aggiornati da questa installazione. Chiudere le applicazioni e scegliere "
+"Riprova per continuare o Annulla per concludere:"
 
 #: UI/En.Win32.Debug.Control-2.idtx:11 UI/En.Win32.Debug.Control-2.idtx:21
 #: UI/En.Win32.Debug.Control-2.idtx:26 UI/En.Win32.Release.Control-2.idtx:11
@@ -2441,7 +2458,10 @@ msgstr "&Ignora"
 #: UI/En.x64.Debug.Property-2.idtx:9 UI/En.x64.Release.Property-2.idtx:9
 #, fuzzy
 msgid "&Install Now"
-msgstr "[2] installato"
+msgstr ""
+"L'utente \"[2]\" ha avviato in precedenza l'installazione del prodotto "
+"\"[3]\". Prima di utilizzare il prodotto, tale utente dovrà ripeterne "
+"l'installazione."
 
 #: UI/En.Win32.Debug.Control-2.idtx:49 UI/En.Win32.Debug.Control-2.idtx:60
 #: UI/En.Win32.Release.Control-2.idtx:49 UI/En.Win32.Release.Control-2.idtx:60
@@ -2527,18 +2547,21 @@ msgstr ""
 
 #: UI/En.Win32.Debug.Control-2.idtx:14 UI/En.Win32.Release.Control-2.idtx:14
 #: UI/En.x64.Debug.Control-2.idtx:14 UI/En.x64.Release.Control-2.idtx:14
+#, fuzzy
 msgid "[DlgTitleFont][ButtonTextInstall] "
-msgstr ""
+msgstr "[DlgTitleFont]Spazio richiesto"
 
 #: UI/En.Win32.Debug.Control-2.idtx:86 UI/En.Win32.Release.Control-2.idtx:86
 #: UI/En.x64.Debug.Control-2.idtx:83 UI/En.x64.Release.Control-2.idtx:83
+#, fuzzy
 msgid "[DlgTitleFont][Progress1] [SimpleProductName]..."
-msgstr ""
+msgstr "[SimpleProductName]"
 
 #: UI/En.Win32.Debug.Control-2.idtx:111 UI/En.Win32.Release.Control-2.idtx:111
 #: UI/En.x64.Debug.Control-2.idtx:108 UI/En.x64.Release.Control-2.idtx:108
+#, fuzzy
 msgid "[DlgTitleFont][SimpleProductName] [Progress1] Completed"
-msgstr ""
+msgstr "Installazione di [SimpleProductName] completata."
 
 #: UI/En.Win32.Debug.Control-2.idtx:119 UI/En.Win32.Release.Control-2.idtx:119
 #: UI/En.x64.Debug.Control-2.idtx:116 UI/En.x64.Release.Control-2.idtx:116
@@ -2558,14 +2581,15 @@ msgstr ""
 
 #: UI/En.Win32.Debug.Control-2.idtx:23 UI/En.Win32.Release.Control-2.idtx:23
 #: UI/En.x64.Debug.Control-2.idtx:20 UI/En.x64.Release.Control-2.idtx:20
+#, fuzzy
 msgid "[DlgTitleFont][SimpleProductName] Maintenance"
-msgstr ""
+msgstr "[SimpleProductName]"
 
 #: UI/En.Win32.Debug.Control-2.idtx:35 UI/En.Win32.Release.Control-2.idtx:35
 #: UI/En.x64.Debug.Control-2.idtx:32 UI/En.x64.Release.Control-2.idtx:32
 #, fuzzy
 msgid "[DlgTitleFont][TitleCustomize] "
-msgstr "[DlgTitleFont]File in uso"
+msgstr "[DlgTitleFont]Spazio richiesto"
 
 #: UI/En.Win32.Debug.Control-2.idtx:59 UI/En.Win32.Release.Control-2.idtx:59
 #: UI/En.x64.Debug.Control-2.idtx:56 UI/En.x64.Release.Control-2.idtx:56
@@ -2796,7 +2820,7 @@ msgstr "Crea nuova cartella|"
 #: UI/En.x64.Debug.Property-2.idtx:8 UI/En.x64.Release.Property-2.idtx:8
 #, fuzzy
 msgid "Custom Installation"
-msgstr "Installazione di"
+msgstr "Impossibile completare l'installazione."
 
 #: UI/En.Win32.Debug.ControlEvent-2.idtx:4
 #: UI/En.Win32.Debug.ControlEvent-2.idtx:5
@@ -2856,8 +2880,9 @@ msgstr ""
 
 #: UI/En.Win32.Debug.Dialog-2.idtx:4 UI/En.Win32.Release.Dialog-2.idtx:4
 #: UI/En.x64.Debug.Dialog-2.idtx:4 UI/En.x64.Release.Dialog-2.idtx:4
+#, fuzzy
 msgid "Installer Information"
-msgstr ""
+msgstr "Icona Informazioni|"
 
 # This text will be a replacement for [Progress1].
 #: UI/En.Win32.Debug.Property-2.idtx:4 UI/En.Win32.Release.Property-2.idtx:4
@@ -2927,7 +2952,7 @@ msgstr "Fine"
 #: UI/En.x64.Release.ControlEvent-2.idtx:13
 #, fuzzy
 msgid "Removal"
-msgstr "&Rimuovi"
+msgstr "Rimozione non riuscita."
 
 #: UI/En.Win32.Debug.RadioButton-2.idtx:6
 #: UI/En.Win32.Release.RadioButton-2.idtx:6

@@ -800,6 +800,11 @@ All :: "$(LANG).$(PLAT).$(CFG).CustomAction-2.idt"
 Action	Type	Source	Target
 s$(MSIBUILD_LENGTH_ID)	i2	S$(MSIBUILD_LENGTH_ID)	S255
 1252	CustomAction	Action
+!IFDEF MSIBUILD_NO_WOW64
+!IF "$(PLAT)" == "Win32"
+caWoW64Unsupported	19		You are attempting to install the 32-bit variant of [SimpleProductName] on a 64-bit operating system. 32-bit variant will not work with your operating system. The installation of the 64-bit variant is recommended.
+!ENDIF
+!ENDIF
 caNewerProductFound	19		A newer version of [SimpleProductName] is already installed.
 caFaultyProductFound	19		This package cannot upgrade the currently installed [SimpleProductName]. Please remove the old package first and retry.
 <<NOKEEP
@@ -1058,6 +1063,11 @@ Action	Condition	Sequence
 s$(MSIBUILD_LENGTH_ID)	S255	I2
 InstallExecuteSequence	Action
 LaunchConditions	NOT Installed	100
+!IFDEF MSIBUILD_NO_WOW64
+!IF "$(PLAT)" == "Win32"
+caWoW64Unsupported	VersionNT64	101
+!ENDIF
+!ENDIF
 FindRelatedProducts		200
 caNewerProductFound	NEWPRODUCTFOUND	201
 AppSearch		400
@@ -1136,6 +1146,11 @@ Action	Condition	Sequence
 s$(MSIBUILD_LENGTH_ID)	S255	I2
 InstallUISequence	Action
 LaunchConditions	NOT Installed	100
+!IFDEF MSIBUILD_NO_WOW64
+!IF "$(PLAT)" == "Win32"
+caWoW64Unsupported	VersionNT64	101
+!ENDIF
+!ENDIF
 FindRelatedProducts		200
 caNewerProductFound	NEWPRODUCTFOUND	201
 AppSearch		400

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSMBuild\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-21 18:36+0100\n"
+"POT-Creation-Date: 2014-06-19 10:55+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
 "Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-Basepath: ..\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 1.6.5\n"
 "X-Poedit-SearchPath-0: Core\n"
 "X-Poedit-SearchPath-1: UI\n"
 "X-Poedit-SearchPath-2: Version\n"
@@ -184,8 +184,8 @@ msgstr ""
 msgid "A network error occurred while attempting to read from the file: [2]"
 msgstr "Prišlo je do omrežne napake med poskusom branja iz datoteke: [2]"
 
-#: Core/En.Win32.Debug.CustomAction-2.idtx:4
-#: Core/En.Win32.Release.CustomAction-2.idtx:4
+#: Core/En.Win32.Debug.CustomAction-2.idtx:5
+#: Core/En.Win32.Release.CustomAction-2.idtx:5
 #: Core/En.x64.Debug.CustomAction-2.idtx:4
 #: Core/En.x64.Release.CustomAction-2.idtx:4
 msgid "A newer version of [SimpleProductName] is already installed."
@@ -2103,8 +2103,8 @@ msgstr ""
 "Ta namestitveni paket ni podprt na tej platformi. Obrnite se na proizvajalca "
 "programske opreme."
 
-#: Core/En.Win32.Debug.CustomAction-2.idtx:5
-#: Core/En.Win32.Release.CustomAction-2.idtx:5
+#: Core/En.Win32.Debug.CustomAction-2.idtx:6
+#: Core/En.Win32.Release.CustomAction-2.idtx:6
 #: Core/En.x64.Debug.CustomAction-2.idtx:5
 #: Core/En.x64.Release.CustomAction-2.idtx:5
 msgid ""
@@ -2316,6 +2316,18 @@ msgstr "Zapisovanje vrednosti datotek INI"
 #: Core/En.x64.Release.ActionText-2.idtx:73
 msgid "Writing system registry values"
 msgstr "Zapisovanje vrednosti v sistemski register"
+
+#: Core/En.Win32.Debug.CustomAction-2.idtx:4
+#: Core/En.Win32.Release.CustomAction-2.idtx:4
+msgid ""
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
+"64-bit operating system. 32-bit variant will not work with your operating "
+"system. The installation of the 64-bit variant is recommended."
+msgstr ""
+"Namestiti poskušate 32-bitno različico programa [SimpleProductName] na 64-"
+"bitni operacijski sistem. 32-bitna različica ne bo delovala na vašem "
+"operacijskem sistemu. Priporočamo, da namestite 64-bitno različico tega "
+"programa."
 
 #: Core/En.Win32.Debug.Error-2.idtx:152 Core/En.Win32.Release.Error-2.idtx:152
 #: Core/En.x64.Debug.Error-2.idtx:152 Core/En.x64.Release.Error-2.idtx:152
