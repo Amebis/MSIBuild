@@ -1,24 +1,21 @@
 ﻿<?xml version="1.0"?>
 <!--
-    MSIBuild, Copyright (C) Amebis, Slovenia
+    Copyright ("1991-2015") Amebis
 
-    This program is free software; you can redistribute it and/or modify
+    This file is part of MSIBuild.
+
+    MSIBuild is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; either version 2 of the License, or
+    the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    This program is distributed in the hope that it will be useful,
+    MSIBuild is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
-    See the GNU General Public License for more details, included in the file
-    LICENSE.rtf which you should have received along with this program.
-
-    If you did not receive a copy of the GNU General Public License,
-    write to the Free Software Foundation, Inc., 675 Mass Ave,
-    Cambridge, MA 02139, USA.
-
-    Amebis can be contacted at http://www.amebis.si
+    You should have received a copy of the GNU General Public License
+    along with MSIBuild. If not, see <http://www.gnu.org/licenses/>.
 -->
 <package>
 	<job id="MakeDDF">
@@ -314,8 +311,8 @@
 ** SIG ** MIIZKwYJKoZIhvcNAQcCoIIZHDCCGRgCAQExCzAJBgUr
 ** SIG ** DgMCGgUAMGcGCisGAQQBgjcCAQSgWTBXMDIGCisGAQQB
 ** SIG ** gjcCAR4wJAIBAQQQcAVhGs441BGiowAQS9NQkAIBAAIB
-** SIG ** AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFAhFf223lUqN
-** SIG ** 1ofOmCjMWGcEmn2WoIIUJTCCA+4wggNXoAMCAQICEH6T
+** SIG ** AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFBnfkiLAQPNe
+** SIG ** uduo8tkY1bErzpB+oIIUJTCCA+4wggNXoAMCAQICEH6T
 ** SIG ** 6/t8xk5Z6kuad9QG/DswDQYJKoZIhvcNAQEFBQAwgYsx
 ** SIG ** CzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxXZXN0ZXJuIENh
 ** SIG ** cGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQK
@@ -481,31 +478,31 @@
 ** SIG ** lwQonpQDAhobMAkGBSsOAwIaBQCgcDAQBgorBgEEAYI3
 ** SIG ** AgEMMQIwADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIB
 ** SIG ** BDAcBgorBgEEAYI3AgELMQ4wDAYKKwYBBAGCNwIBFTAj
-** SIG ** BgkqhkiG9w0BCQQxFgQUHnKYZ6Q9LLDo8Fv/B6KTWSAD
-** SIG ** xdUwDQYJKoZIhvcNAQEBBQAEggEA9NZmXISH72fAQqzX
-** SIG ** LVVCtg7okiNdnkXVR2vuklkG7elRuQ1fw06+sb/0l9H+
-** SIG ** ocd9PQ2Ozy3WxQzJfueaNitzTNj6jSVApQkSwywi66sq
-** SIG ** zxO7riR20I5Yqp3lZ7SwJ5y92ocS2D2K/T4CVJlQAfm3
-** SIG ** AaFB60AGlZHcwt/FcXanM+WjYbdda6Wan6yZtEPqb/4B
-** SIG ** GjBVNw19bFQMKgtvF5nEuuv1zZyEPlviaO3iw6nWIUdQ
-** SIG ** 8N3GlQxOI9m46G2bPol4KOoG9QDLiWuzlUOgKPxa7rFn
-** SIG ** FoT3ngCwkahlhMf1CGNNX0Gsb1gIAkYUomQrKP5Q9UGW
-** SIG ** tyP0URNIMq27eTeWW6GCAgswggIHBgkqhkiG9w0BCQYx
+** SIG ** BgkqhkiG9w0BCQQxFgQUfhQKopLeSNSTwZv49hF8tPkg
+** SIG ** CNcwDQYJKoZIhvcNAQEBBQAEggEA79g8h4xAMeQ1GWYE
+** SIG ** WlA1e4npvSH+BW9kgEJ7NY441JuTK43amIbH8v8fh87J
+** SIG ** BSv1/QO7wVAlk77PtP0KMuy3vE+l35JsSZ7nFgoxLBaR
+** SIG ** JHhLCNRxaS6Iwy6nvN0tWwHst4nTYt4ybLUXJN/o1jxH
+** SIG ** IvudmLh8oM/Meq6zoAbAzuS0EVbM2qu6URep4+HWg0pT
+** SIG ** MhWK4hIjPKfaHx+0cAB/nipE1OyeVxi8XjxZhWLdRNk5
+** SIG ** uKvOZf7qSyF2FHSWv99/B2txKrPNLCUEYp8020bWd2Nm
+** SIG ** aS2ecje0GSh1QWKd+UR/JiW6CTtaVdg+o0HJtAAABGTN
+** SIG ** jbe6AIMb6TstlZ9HGqGCAgswggIHBgkqhkiG9w0BCQYx
 ** SIG ** ggH4MIIB9AIBATByMF4xCzAJBgNVBAYTAlVTMR0wGwYD
 ** SIG ** VQQKExRTeW1hbnRlYyBDb3Jwb3JhdGlvbjEwMC4GA1UE
 ** SIG ** AxMnU3ltYW50ZWMgVGltZSBTdGFtcGluZyBTZXJ2aWNl
 ** SIG ** cyBDQSAtIEcyAhAOz/Q4yP6/NW4E2GqYGxpQMAkGBSsO
 ** SIG ** AwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcB
-** SIG ** MBwGCSqGSIb3DQEJBTEPFw0xNTAyMjQxMTI4NTVaMCMG
-** SIG ** CSqGSIb3DQEJBDEWBBR0gU9uVcCf4tR9qfeVwcc7GtT/
-** SIG ** CjANBgkqhkiG9w0BAQEFAASCAQCLx64CQArM2v6qSTeB
-** SIG ** t6PfwN3+S1iNtgyYhpE4y3W02fEI5g8nBbYzeeUDo6Fi
-** SIG ** mA+bU3zDfHTKhpRv3AeKITyyIegwN83iWCG+WTOPRKFe
-** SIG ** EyOx2AiWSNxugTrRALGuv1P+4glVWdawjlJ5LFpHXK4c
-** SIG ** 8wJeNIKRDfp+OjDWuEjLMZkFaSfaODTL/bl6/CUzSAb3
-** SIG ** v5IVtN8srdk8HHM+H0fEOQB6CN2A6nhSD85xJysGmuSQ
-** SIG ** XmwUjomYKh+lvok1OHRnIeXdqdLkQlT98VFsmrSNvjG0
-** SIG ** JOF0ORsSGwm7jXTf/bQgKT9D0rYFNj4E1J35TLYJspYY
-** SIG ** NhqRa5nx0IdhBMNk
+** SIG ** MBwGCSqGSIb3DQEJBTEPFw0xNTAyMjQxMzE5MzJaMCMG
+** SIG ** CSqGSIb3DQEJBDEWBBT5S8CWnmvT5wuWKZ9rM45mbLPZ
+** SIG ** LjANBgkqhkiG9w0BAQEFAASCAQCS69l0LanfxRKQEZfQ
+** SIG ** Nzhe97Fm+I+LCxkzPZCGa7M07iwQZCGll8FhyYA57IgT
+** SIG ** gjvZ6MlknYn6gd4l0rtmzpbcIFQMDk1+la5XXFy02CdA
+** SIG ** ufHcR1HYTDDDoGlpH5XGE+ZiwyoamfFhPypzrI4SiENC
+** SIG ** IUvlcNN9OWITlmritKYIBDPYZDAs4H+YOzsmqbr4ImAb
+** SIG ** SEOuPG1wWEUKPHqcfws/WjM/rMAmXuPkpsL9IsEkWaEa
+** SIG ** N/hVbAaz+Ojy2mDgqPLGdonI2lNmFZp+PLdwFxLsxA7H
+** SIG ** 7mg5wYrNIVRRBYnGgdHokMswP+kteKRPtmJiUclXpzje
+** SIG ** 9YLvDAYv3AAj35Zh
 </signature>
 </package>
