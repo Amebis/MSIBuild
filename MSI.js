@@ -1,5 +1,5 @@
 ﻿/*
-    MSIBuild, Copyright (C) Amebis
+    MSIBuild, Copyright (C) Amebis, Slovenia
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -186,8 +186,8 @@ function MSIMergeFiles(files, d)
 // SIG // MIIZKwYJKoZIhvcNAQcCoIIZHDCCGRgCAQExCzAJBgUr
 // SIG // DgMCGgUAMGcGCisGAQQBgjcCAQSgWTBXMDIGCisGAQQB
 // SIG // gjcCAR4wJAIBAQQQEODJBs441BGiowAQS9NQkAIBAAIB
-// SIG // AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFEk0s3ByzPMW
-// SIG // EtC0lpd6eRtWOPAIoIIUJTCCA+4wggNXoAMCAQICEH6T
+// SIG // AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFOx6K+gdDy1D
+// SIG // W9Kl8NIKhAppxkyboIIUJTCCA+4wggNXoAMCAQICEH6T
 // SIG // 6/t8xk5Z6kuad9QG/DswDQYJKoZIhvcNAQEFBQAwgYsx
 // SIG // CzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxXZXN0ZXJuIENh
 // SIG // cGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQK
@@ -353,30 +353,30 @@ function MSIMergeFiles(files, d)
 // SIG // lwQonpQDAhobMAkGBSsOAwIaBQCgcDAQBgorBgEEAYI3
 // SIG // AgEMMQIwADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIB
 // SIG // BDAcBgorBgEEAYI3AgELMQ4wDAYKKwYBBAGCNwIBFTAj
-// SIG // BgkqhkiG9w0BCQQxFgQUUp1hP3vwoi1yEQW6k26uiNns
-// SIG // hh4wDQYJKoZIhvcNAQEBBQAEggEAyDoWiXukCE/vbpOw
-// SIG // fJvnDG3ZgqUJ5ESGtKb3reYxGpPWeUfHoGKxux+jfuaI
-// SIG // IpNc555qzPC0eq6Qj0PbaRqtzZZBk8D3LCPd1xc8cq4Y
-// SIG // 2u0k3c7r0UFHWOeB/v0PAPqYdWO+dZcJqw+gqmKWHCHr
-// SIG // FQT5qjKsA1OIWr4wvpwpSzUw+DIIA4dBlvDsqkoy4AeW
-// SIG // kxVaTMv+xvdcAt6sTqQ4pvJW61GUQSqKO4mBZjNkEyi7
-// SIG // NRjZldBAbuXYKiZvX3LdHHErlsFgOdeQM28bmZsCDL9a
-// SIG // p0QZIwnIyUtSuwLDxm9WC/d6mzYicqXhcHVuPvE6epbm
-// SIG // v2IkwKdJghSpIbr6v6GCAgswggIHBgkqhkiG9w0BCQYx
+// SIG // BgkqhkiG9w0BCQQxFgQURtYjxRggLss8yAsrQC9lrvNH
+// SIG // m3UwDQYJKoZIhvcNAQEBBQAEggEAijCj9dE91/JVXdc/
+// SIG // 67+8fr+u+cituHZ8M0gqY03kTOJ7V5OoMsmXAvWgpwUO
+// SIG // RxqfOIqvyXoUPuZ/bAVvUJwwxkk/if2J97iNQKxH+8s3
+// SIG // soqdDxBQRVouF09+u71RkdigheFvF2U/nwVzxD9E5RQ7
+// SIG // woNEWaRNBIYzT+zDlBslw7Kzvx0nmiEOVXXPG4tfweig
+// SIG // 80GDTPKVTG1ovJcRkwaOsPDUV0mevVm5zzyaGSU5a+LY
+// SIG // cXnOLCaiVIS040CnMLBzzud/KouFPf13HKoywFbNZUaA
+// SIG // XjiugjCGiBfW4WrW9GIupGxfNPBqAkTD76EVLmN2Y+TJ
+// SIG // zTZMeWca27TFXXIxr6GCAgswggIHBgkqhkiG9w0BCQYx
 // SIG // ggH4MIIB9AIBATByMF4xCzAJBgNVBAYTAlVTMR0wGwYD
 // SIG // VQQKExRTeW1hbnRlYyBDb3Jwb3JhdGlvbjEwMC4GA1UE
 // SIG // AxMnU3ltYW50ZWMgVGltZSBTdGFtcGluZyBTZXJ2aWNl
 // SIG // cyBDQSAtIEcyAhAOz/Q4yP6/NW4E2GqYGxpQMAkGBSsO
 // SIG // AwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcB
-// SIG // MBwGCSqGSIb3DQEJBTEPFw0xNTAyMjQxMTE1MzNaMCMG
-// SIG // CSqGSIb3DQEJBDEWBBTLbzPO4c5Fu6GMRyN3D6RIJNId
-// SIG // 1jANBgkqhkiG9w0BAQEFAASCAQAqFV1k2fG2LZOLIuxX
-// SIG // l7Hkp++hkhchu0MAxw9I88e1e9bdhqux3uJ2COccqBpf
-// SIG // D+m32SCokJ/8uSoF46XgkPy17TMUNaKFIZj+KfTb/5iw
-// SIG // Y9eW1ts9cfMcyryKWcKVe57edP/WWlQoZ/02D7l7rUAq
-// SIG // Ne7J+MccntTe9TNgnwr48jfSft+wff/GjKZ3ooAyNgJ2
-// SIG // 3KLWl1S4qqgZOUSUiD2v6vNjd1ztK5bKXL60lR0Q7W3C
-// SIG // FXKERV3lts1zWhdFF5IwkaZ11PWG4nlqFTQAnJUL8agm
-// SIG // CzdD7fbDGT0FjPw9iKmiD2wpB9IUkGrDm9OfWKE6vYtz
-// SIG // 0KLPRkUboycke+nN
+// SIG // MBwGCSqGSIb3DQEJBTEPFw0xNTAyMjQxMTI4NDVaMCMG
+// SIG // CSqGSIb3DQEJBDEWBBSAsLkX/ftk9AEQDSSKDR2hyiav
+// SIG // iTANBgkqhkiG9w0BAQEFAASCAQCd1Mkuc4pq+vWZUiZU
+// SIG // hjZEVVupIxUB/tmh7uzL8m3Ayyuy3KbceWtLGsvKR76X
+// SIG // vEQefxtK3D6P9u3uDMXg4aNeCG75j9FSRQ6+uGa3m+eG
+// SIG // 35xwbi2J3dLEnN+ZZN1kPGsGswDvI/sBpuBfZ2CIuNX2
+// SIG // r/rYqPHQF+gAkfUYALCadZI2nhx/Zg88JiBJfk1G6oQU
+// SIG // QG4akVGB4y52SS2wS2CxQpGE0PMcARXXADIgYGHet+lB
+// SIG // aeh95tu4qGfBZZoLJWHbi4And5YR8hJkp4YJHRRat7jq
+// SIG // 82kPy7mL61g5KEBxElIuQuihgT/ew/8qyUpm1QXmcu6e
+// SIG // Ihs2VQeBHJy8voE5
 // SIG // End signature block
