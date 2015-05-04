@@ -34,7 +34,7 @@
 !ENDIF
 
 !IFDEF MSIBUILD_CAB
-MSIBUILD_SETCAB_SWITCH=/V
+MSIBUILD_SETCAB_SWITCH=/E
 !ELSE
 MSIBUILD_SETCAB_SWITCH=
 !ENDIF
@@ -62,7 +62,7 @@ All : \
 	cscript.exe "$(MSIBUILD_ROOT)\MSI.wsf" //Job:SetCAB //Nologo "$(@:"=).tmp" "$(MSIBUILD_INF)" $(MSIBUILD_SETCAB_SWITCH)
 	msiinfo.exe "$(@:"=).tmp" /nologo /U 4
 !IFDEF MANIFESTCERTIFICATETHUMBPRINT
-	signtool.exe /sha1 "$(MANIFESTCERTIFICATETHUMBPRINT)" /t "$(MANIFESTTIMESTAMPURL)" /d "$(MSIBUILD_PRODUCT_NAME)" /du "$(MSIBUILD_VENDOR_URL)" /q "$(@:"=).tmp"
+	signtool.exe sign /sha1 "$(MANIFESTCERTIFICATETHUMBPRINT)" /t "$(MANIFESTTIMESTAMPURL)" /d "$(MSIBUILD_PRODUCT_NAME)" /du "$(MSIBUILD_VENDOR_URL)" /q "$(@:"=).tmp"
 !ENDIF
 	attrib.exe +r "$(@:"=).tmp"
 	move /y "$(@:"=).tmp" $@ > NUL
