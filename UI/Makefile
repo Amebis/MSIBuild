@@ -102,16 +102,16 @@ s$(MSIBUILD_LENGTH_ID)	S64
 1252	CheckBox	Property
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).CheckBox-2.idt" : "En.$(PLAT).$(CFG).CheckBox-2.idtx" "..\L10N\de_DE.po"
+"De.$(PLAT).$(CFG).CheckBox-2.idt" : "En.$(PLAT).$(CFG).CheckBox-2.idtx" "..\locale\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
 "En.$(PLAT).$(CFG).CheckBox-2.idt" : "En.$(PLAT).$(CFG).CheckBox-2.idtx"
 	copy /y $** $@ > NUL
 
-"It.$(PLAT).$(CFG).CheckBox-2.idt" : "En.$(PLAT).$(CFG).CheckBox-2.idtx" "..\L10N\it_IT.po"
+"It.$(PLAT).$(CFG).CheckBox-2.idt" : "En.$(PLAT).$(CFG).CheckBox-2.idtx" "..\locale\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(PLAT).$(CFG).CheckBox-2.idt" : "En.$(PLAT).$(CFG).CheckBox-2.idtx" "..\L10N\sl_SI.po"
+"Sl.$(PLAT).$(CFG).CheckBox-2.idt" : "En.$(PLAT).$(CFG).CheckBox-2.idtx" "..\locale\sl_SI.po"
 	rcxgettext.exe idtp $@ $**
 
 
@@ -251,16 +251,16 @@ dlgFailed	ctlText2	Text	15	89	370	24	196611		Please try again, or contact [Manuf
 dlgFailed	ctlClose	PushButton	325	265	60	20	3		&Close	ctlBannerBitmap	
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).Control-2.idt" : "En.$(PLAT).$(CFG).Control-2.idtx" "..\L10N\de_DE.po"
+"De.$(PLAT).$(CFG).Control-2.idt" : "En.$(PLAT).$(CFG).Control-2.idtx" "..\locale\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
 "En.$(PLAT).$(CFG).Control-2.idt" : "En.$(PLAT).$(CFG).Control-2.idtx"
 	copy /y $** $@ > NUL
 
-"It.$(PLAT).$(CFG).Control-2.idt" : "En.$(PLAT).$(CFG).Control-2.idtx" "..\L10N\it_IT.po"
+"It.$(PLAT).$(CFG).Control-2.idt" : "En.$(PLAT).$(CFG).Control-2.idtx" "..\locale\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(PLAT).$(CFG).Control-2.idt" : "En.$(PLAT).$(CFG).Control-2.idtx" "..\L10N\sl_SI.po"
+"Sl.$(PLAT).$(CFG).Control-2.idt" : "En.$(PLAT).$(CFG).Control-2.idtx" "..\locale\sl_SI.po"
 	rcxgettext.exe idtp $@ $**
 
 
@@ -411,16 +411,16 @@ dlgTypeMaintenance	ctlContinue	[Progress1]	Removing	InstallMode="Remove"	506
 dlgTypeMaintenance	ctlContinue	[Progress2]	Removal	InstallMode="Remove"	507
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).ControlEvent-2.idt" : "En.$(PLAT).$(CFG).ControlEvent-2.idtx" "..\L10N\de_DE.po"
+"De.$(PLAT).$(CFG).ControlEvent-2.idt" : "En.$(PLAT).$(CFG).ControlEvent-2.idtx" "..\locale\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
 "En.$(PLAT).$(CFG).ControlEvent-2.idt" : "En.$(PLAT).$(CFG).ControlEvent-2.idtx"
 	copy /y $** $@ > NUL
 
-"It.$(PLAT).$(CFG).ControlEvent-2.idt" : "En.$(PLAT).$(CFG).ControlEvent-2.idtx" "..\L10N\it_IT.po"
+"It.$(PLAT).$(CFG).ControlEvent-2.idt" : "En.$(PLAT).$(CFG).ControlEvent-2.idtx" "..\locale\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(PLAT).$(CFG).ControlEvent-2.idt" : "En.$(PLAT).$(CFG).ControlEvent-2.idtx" "..\L10N\sl_SI.po"
+"Sl.$(PLAT).$(CFG).ControlEvent-2.idt" : "En.$(PLAT).$(CFG).ControlEvent-2.idtx" "..\locale\sl_SI.po"
 	rcxgettext.exe idtp $@ $**
 
 
@@ -485,16 +485,16 @@ s$(MSIBUILD_LENGTH_ID)	i2	i2	i2	i2	I4	L128	s50	S50	S50
 dlgError	50	50	260	120	65539	Installer Information	ErrorText		
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).Dialog-2.idt" : "En.$(PLAT).$(CFG).Dialog-2.idtx" "..\L10N\de_DE.po"
+"De.$(PLAT).$(CFG).Dialog-2.idt" : "En.$(PLAT).$(CFG).Dialog-2.idtx" "..\locale\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
 "En.$(PLAT).$(CFG).Dialog-2.idt" : "En.$(PLAT).$(CFG).Dialog-2.idtx"
 	copy /y $** $@ > NUL
 
-"It.$(PLAT).$(CFG).Dialog-2.idt" : "En.$(PLAT).$(CFG).Dialog-2.idtx" "..\L10N\it_IT.po"
+"It.$(PLAT).$(CFG).Dialog-2.idt" : "En.$(PLAT).$(CFG).Dialog-2.idtx" "..\locale\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(PLAT).$(CFG).Dialog-2.idt" : "En.$(PLAT).$(CFG).Dialog-2.idtx" "..\L10N\sl_SI.po"
+"Sl.$(PLAT).$(CFG).Dialog-2.idt" : "En.$(PLAT).$(CFG).Dialog-2.idtx" "..\locale\sl_SI.po"
 	rcxgettext.exe idtp $@ $**
 
 
@@ -586,16 +586,16 @@ TitleCustomize	Custom Installation
 ButtonTextInstall	&Install Now
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx" "..\L10N\de_DE.po"
+"De.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx" "..\locale\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
 "En.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx"
 	copy /y $** $@ > NUL
 
-"It.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx" "..\L10N\it_IT.po"
+"It.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx" "..\locale\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx" "..\L10N\sl_SI.po"
+"Sl.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx" "..\locale\sl_SI.po"
 	rcxgettext.exe idtp $@ $**
 
 
@@ -615,16 +615,16 @@ InstallModeRB	2	Repair	0	20	370	15	&Repair	Repairs errors in the most recent ins
 InstallModeRB	3	Remove	0	40	370	15	&Remove	Removes the programme from your computer.|
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).RadioButton-2.idt" : "En.$(PLAT).$(CFG).RadioButton-2.idtx" "..\L10N\de_DE.po"
+"De.$(PLAT).$(CFG).RadioButton-2.idt" : "En.$(PLAT).$(CFG).RadioButton-2.idtx" "..\locale\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
 "En.$(PLAT).$(CFG).RadioButton-2.idt" : "En.$(PLAT).$(CFG).RadioButton-2.idtx"
 	copy /y $** $@ > NUL
 
-"It.$(PLAT).$(CFG).RadioButton-2.idt" : "En.$(PLAT).$(CFG).RadioButton-2.idtx" "..\L10N\it_IT.po"
+"It.$(PLAT).$(CFG).RadioButton-2.idt" : "En.$(PLAT).$(CFG).RadioButton-2.idtx" "..\locale\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(PLAT).$(CFG).RadioButton-2.idt" : "En.$(PLAT).$(CFG).RadioButton-2.idtx" "..\L10N\sl_SI.po"
+"Sl.$(PLAT).$(CFG).RadioButton-2.idt" : "En.$(PLAT).$(CFG).RadioButton-2.idtx" "..\locale\sl_SI.po"
 	rcxgettext.exe idtp $@ $**
 
 

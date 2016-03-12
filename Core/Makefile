@@ -65,16 +65,16 @@ All :: \
 	move /y << $@ > NUL
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).___-2.idt" : "En.$(PLAT).$(CFG).___-2.idtx" "..\L10N\de_DE.po"
+"De.$(PLAT).$(CFG).___-2.idt" : "En.$(PLAT).$(CFG).___-2.idtx" "..\locale\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
 "En.$(PLAT).$(CFG).___-2.idt" : "En.$(PLAT).$(CFG).___-2.idtx"
 	copy /y $** $@ > NUL
 
-"It.$(PLAT).$(CFG).___-2.idt" : "En.$(PLAT).$(CFG).___-2.idtx" "..\L10N\it_IT.po"
+"It.$(PLAT).$(CFG).___-2.idt" : "En.$(PLAT).$(CFG).___-2.idtx" "..\locale\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(PLAT).$(CFG).___-2.idt" : "En.$(PLAT).$(CFG).___-2.idtx" "..\L10N\sl_SI.po"
+"Sl.$(PLAT).$(CFG).___-2.idt" : "En.$(PLAT).$(CFG).___-2.idtx" "..\locale\sl_SI.po"
 	rcxgettext.exe idtp $@ $**
 
 !ENDIF
@@ -604,16 +604,16 @@ WriteIniValues	Writing INI files values	File: [1], Section: [2], Key: [3], Value
 WriteRegistryValues	Writing system registry values	Key: [1], Name: [2], Value: [3]
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).ActionText-2.idt" : "En.$(PLAT).$(CFG).ActionText-2.idtx" "..\L10N\de_DE.po"
+"De.$(PLAT).$(CFG).ActionText-2.idt" : "En.$(PLAT).$(CFG).ActionText-2.idtx" "..\locale\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
 "En.$(PLAT).$(CFG).ActionText-2.idt" : "En.$(PLAT).$(CFG).ActionText-2.idtx"
 	copy /y $** $@ > NUL
 
-"It.$(PLAT).$(CFG).ActionText-2.idt" : "En.$(PLAT).$(CFG).ActionText-2.idtx" "..\L10N\it_IT.po"
+"It.$(PLAT).$(CFG).ActionText-2.idt" : "En.$(PLAT).$(CFG).ActionText-2.idtx" "..\locale\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(PLAT).$(CFG).ActionText-2.idt" : "En.$(PLAT).$(CFG).ActionText-2.idtx" "..\L10N\sl_SI.po"
+"Sl.$(PLAT).$(CFG).ActionText-2.idt" : "En.$(PLAT).$(CFG).ActionText-2.idtx" "..\locale\sl_SI.po"
 	rcxgettext.exe idtp $@ $**
 
 
@@ -828,16 +828,16 @@ caNewerProductFound	19		A newer version of [SimpleProductName] is already instal
 caFaultyProductFound	19		This package cannot upgrade the currently installed [SimpleProductName]. Please remove the old package first and retry.
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).CustomAction-2.idt" : "En.$(PLAT).$(CFG).CustomAction-2.idtx" "..\L10N\de_DE.po"
+"De.$(PLAT).$(CFG).CustomAction-2.idt" : "En.$(PLAT).$(CFG).CustomAction-2.idtx" "..\locale\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
 "En.$(PLAT).$(CFG).CustomAction-2.idt" : "En.$(PLAT).$(CFG).CustomAction-2.idtx"
 	copy /y $** $@ > NUL
 
-"It.$(PLAT).$(CFG).CustomAction-2.idt" : "En.$(PLAT).$(CFG).CustomAction-2.idtx" "..\L10N\it_IT.po"
+"It.$(PLAT).$(CFG).CustomAction-2.idt" : "En.$(PLAT).$(CFG).CustomAction-2.idtx" "..\locale\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(PLAT).$(CFG).CustomAction-2.idt" : "En.$(PLAT).$(CFG).CustomAction-2.idtx" "..\L10N\sl_SI.po"
+"Sl.$(PLAT).$(CFG).CustomAction-2.idt" : "En.$(PLAT).$(CFG).CustomAction-2.idtx" "..\locale\sl_SI.po"
 	rcxgettext.exe idtp $@ $**
 
 
@@ -1029,16 +1029,16 @@ i2	L0
 2943	This version of Windows does not support deploying 64-bit packages. The script [2] is for a 64-bit package.
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).Error-2.idt" : "En.$(PLAT).$(CFG).Error-2.idtx" "..\L10N\de_DE.po"
+"De.$(PLAT).$(CFG).Error-2.idt" : "En.$(PLAT).$(CFG).Error-2.idtx" "..\locale\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
 "En.$(PLAT).$(CFG).Error-2.idt" : "En.$(PLAT).$(CFG).Error-2.idtx"
 	copy /y $** $@ > NUL
 
-"It.$(PLAT).$(CFG).Error-2.idt" : "En.$(PLAT).$(CFG).Error-2.idtx" "..\L10N\it_IT.po"
+"It.$(PLAT).$(CFG).Error-2.idt" : "En.$(PLAT).$(CFG).Error-2.idtx" "..\locale\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(PLAT).$(CFG).Error-2.idt" : "En.$(PLAT).$(CFG).Error-2.idtx" "..\L10N\sl_SI.po"
+"Sl.$(PLAT).$(CFG).Error-2.idt" : "En.$(PLAT).$(CFG).Error-2.idtx" "..\locale\sl_SI.po"
 	rcxgettext.exe idtp $@ $**
 
 
@@ -1383,16 +1383,16 @@ s$(MSIBUILD_LENGTH_ID)	l0
 ProductLanguage	1033
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx" "..\L10N\de_DE.po"
+"De.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx" "..\locale\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
 "En.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx"
 	copy /y $** $@ > NUL
 
-"It.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx" "..\L10N\it_IT.po"
+"It.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx" "..\locale\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx" "..\L10N\sl_SI.po"
+"Sl.$(PLAT).$(CFG).Property-2.idt" : "En.$(PLAT).$(CFG).Property-2.idtx" "..\locale\sl_SI.po"
 	rcxgettext.exe idtp $@ $**
 
 
@@ -1544,16 +1544,16 @@ VolumeCostSize	Disk Size
 VolumeCostVolume	Volume
 <<NOKEEP
 
-"De.$(PLAT).$(CFG).UIText-2.idt" : "En.$(PLAT).$(CFG).UIText-2.idtx" "..\L10N\de_DE.po"
+"De.$(PLAT).$(CFG).UIText-2.idt" : "En.$(PLAT).$(CFG).UIText-2.idtx" "..\locale\de_DE.po"
 	rcxgettext.exe idtp $@ $**
 
 "En.$(PLAT).$(CFG).UIText-2.idt" : "En.$(PLAT).$(CFG).UIText-2.idtx"
 	copy /y $** $@ > NUL
 
-"It.$(PLAT).$(CFG).UIText-2.idt" : "En.$(PLAT).$(CFG).UIText-2.idtx" "..\L10N\it_IT.po"
+"It.$(PLAT).$(CFG).UIText-2.idt" : "En.$(PLAT).$(CFG).UIText-2.idtx" "..\locale\it_IT.po"
 	rcxgettext.exe idtp $@ $**
 
-"Sl.$(PLAT).$(CFG).UIText-2.idt" : "En.$(PLAT).$(CFG).UIText-2.idtx" "..\L10N\sl_SI.po"
+"Sl.$(PLAT).$(CFG).UIText-2.idt" : "En.$(PLAT).$(CFG).UIText-2.idtx" "..\locale\sl_SI.po"
 	rcxgettext.exe idtp $@ $**
 
 
