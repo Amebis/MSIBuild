@@ -81,9 +81,14 @@ MSIBUILD_PLAT=Intel
 !ELSE
 MSIBUILD_PLAT=$(PLAT)
 !ENDIF
+!IF "$(PROCESSOR_ARCHITECTURE)" == "AMD64"
+MSIBUILD_MSM_MS_REPO=$(PROGRAMW6432) (x86)\Common Files\Merge Modules
+!ELSE
+MSIBUILD_MSM_MS_REPO=$(COMMONPROGRAMFILES)\Merge Modules
+!ENDIF
 
 ######################################################################
-# Target stubs
+# Target Stubs
 ######################################################################
 
 All ::
@@ -150,6 +155,9 @@ $(MSIBUILD_MODULES) ::
 	cd $(@D)
 	$(MAKE) /f "Makefile" /$(MAKEFLAGS) MSIBUILD_HAS_VERSION=1
 	cd "$(MAKEDIR)"
+
+$(MSIBUILD_MODULES_PRECOMPILED) ::
+	if exist "$(MSIBUILD_MSM_MS_REPO)\$(@F:"=)" $(MAKE) /f "Makefile" /$(MAKEFLAGS) MSIBUILD_PHASE=90 MSIBUILD_MSM_SRC="$(MSIBUILD_MSM_MS_REPO)\$(@F:"=)" MSIBUILD_MSM_DST=$@ All
 
 !ELSEIF $(MSIBUILD_PHASE) == 2
 
@@ -221,10 +229,21 @@ All :: \
 	attrib.exe +r "$(@:"=).tmp"
 	move /y "$(@:"=).tmp" $@ > NUL
 
+!ELSEIF $(MSIBUILD_PHASE) == 90
+
+######################################################################
+# MSM Copy from Repository Phase
+######################################################################
+
+All :: "$(MSIBUILD_MSM_DST)"
+
+"$(MSIBUILD_MSM_DST)" : "$(MSIBUILD_MSM_SRC)"
+	copy /y $** $@ > NUL
+
 !ELSE
 
 ######################################################################
-# Cleanup phase
+# Cleanup Phase
 # - Cleaning modules
 ######################################################################
 
