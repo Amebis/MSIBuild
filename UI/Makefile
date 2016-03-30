@@ -17,7 +17,7 @@
 #    along with MSIBuild. If not, see <http://www.gnu.org/licenses/>.
 #
 
-!INCLUDE "..\..\include\MSIBuildCfg.mak"
+!INCLUDE "..\..\..\include\MSIBuildCfg.mak"
 !IFDEF MSIBUILD_HAS_VERSION
 !INCLUDE "..\Version\Version.mak"
 !ENDIF
@@ -30,7 +30,7 @@ MSIBUILD_IS_LOCALIZEABLE=1
 
 All :: "$(LANG).$(PLAT).$(CFG).AdminUISequence-1.idt"
 
-"$(LANG).$(PLAT).$(CFG).AdminUISequence-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).AdminUISequence-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Condition	Sequence
@@ -64,7 +64,7 @@ All :: \
 	"$(LANG).$(PLAT).$(CFG).Binary-1\UIFolderUp.ico" \
 	"$(LANG).$(PLAT).$(CFG).Binary-1.idt"
 
-"$(LANG).$(PLAT).$(CFG).Binary-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).Binary-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Name	Data
@@ -94,7 +94,7 @@ binUIFolderUp.ico	UIFolderUp.ico
 
 All :: "$(LANG).$(PLAT).$(CFG).CheckBox-2.idt"
 
-"En.$(PLAT).$(CFG).CheckBox-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"En.$(PLAT).$(CFG).CheckBox-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Value
@@ -120,7 +120,7 @@ s$(MSIBUILD_LENGTH_ID)	S64
 
 All :: "$(LANG).$(PLAT).$(CFG).Control-2.idt"
 
-"En.$(PLAT).$(CFG).Control-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"En.$(PLAT).$(CFG).Control-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control	Type	X	Y	Width	Height	Attributes	Property	Text	Control_Next	Help
@@ -269,7 +269,7 @@ dlgFailed	ctlClose	PushButton	325	265	60	20	3		&Close	ctlBannerBitmap
 
 All :: "$(LANG).$(PLAT).$(CFG).ControlCondition-1.idt"
 
-"$(LANG).$(PLAT).$(CFG).ControlCondition-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).ControlCondition-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control_	Action	Condition
@@ -297,7 +297,7 @@ All :: \
 	"$(LANG).$(PLAT).$(CFG).ControlEvent-1.idt" \
 	"$(LANG).$(PLAT).$(CFG).ControlEvent-2.idt"
 
-"$(LANG).$(PLAT).$(CFG).ControlEvent-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).ControlEvent-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control_	Event	Argument	Condition	Ordering
@@ -393,7 +393,7 @@ dlgUserExit	ctlClose	EndDialog	Exit	1	1000
 dlgFailed	ctlClose	EndDialog	Exit	1	1000
 <<NOKEEP
 
-"En.$(PLAT).$(CFG).ControlEvent-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"En.$(PLAT).$(CFG).ControlEvent-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control_	Event	Argument	Condition	Ordering
@@ -429,7 +429,7 @@ dlgTypeMaintenance	ctlContinue	[Progress2]	Removal	InstallMode="Remove"	507
 
 All :: "$(LANG).$(PLAT).$(CFG).CustomAction-1.idt"
 
-"$(LANG).$(PLAT).$(CFG).CustomAction-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).CustomAction-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Type	Source	Target
@@ -449,7 +449,7 @@ All :: \
 	"$(LANG).$(PLAT).$(CFG).Dialog-1.idt" \
 	"$(LANG).$(PLAT).$(CFG).Dialog-2.idt"
 
-"$(LANG).$(PLAT).$(CFG).Dialog-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).Dialog-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog	HCentering	VCentering	Width	Height	Attributes	Title	Control_First	Control_Default	Control_Cancel
@@ -476,7 +476,7 @@ dlgUserExit	50	50	400	300	3	[Setup] [SimpleProductName] [DisplayVersion]	ctlTitl
 dlgFailed	50	50	400	300	3	[Setup] [SimpleProductName] [DisplayVersion]	ctlTitle	ctlClose	ctlClose
 <<NOKEEP
 
-"En.$(PLAT).$(CFG).Dialog-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"En.$(PLAT).$(CFG).Dialog-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog	HCentering	VCentering	Width	Height	Attributes	Title	Control_First	Control_Default	Control_Cancel
@@ -503,7 +503,7 @@ dlgError	50	50	260	120	65539	Installer Information	ErrorText
 
 All :: "$(LANG).$(PLAT).$(CFG).EventMapping-1.idt"
 
-"$(LANG).$(PLAT).$(CFG).EventMapping-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).EventMapping-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Dialog_	Control_	Event	Attribute
@@ -531,7 +531,7 @@ dlgBrowseAdmin	ctlDirectoryCombo	IgnoreChange	IgnoreChange
 
 All :: "$(LANG).$(PLAT).$(CFG).InstallUISequence-1.idt"
 
-"$(LANG).$(PLAT).$(CFG).InstallUISequence-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).InstallUISequence-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Action	Condition	Sequence
@@ -559,7 +559,7 @@ All :: \
 	"$(LANG).$(PLAT).$(CFG).Property-1.idt" \
 	"$(LANG).$(PLAT).$(CFG).Property-2.idt"
 
-"$(LANG).$(PLAT).$(CFG).Property-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).Property-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Value
@@ -572,7 +572,7 @@ ErrorDialog	dlgError
 InstallModeRB	Change
 <<NOKEEP
 
-"En.$(PLAT).$(CFG).Property-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"En.$(PLAT).$(CFG).Property-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Value
@@ -604,7 +604,7 @@ ButtonTextInstall	&Install Now
 
 All :: "$(LANG).$(PLAT).$(CFG).RadioButton-2.idt"
 
-"En.$(PLAT).$(CFG).RadioButton-2.idtx" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"En.$(PLAT).$(CFG).RadioButton-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Order	Value	X	Y	Width	Height	Text	Help
@@ -633,7 +633,7 @@ InstallModeRB	3	Remove	0	40	370	15	&Remove	Removes the programme from your compu
 
 All :: "$(LANG).$(PLAT).$(CFG).TextStyle-1.idt"
 
-"$(LANG).$(PLAT).$(CFG).TextStyle-1.idt" : "Makefile" "..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).TextStyle-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 TextStyle	FaceName	Size	Color	StyleBits

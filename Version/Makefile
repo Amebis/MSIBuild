@@ -17,7 +17,7 @@
 #    along with MSIBuild. If not, see <http://www.gnu.org/licenses/>.
 #
 
-!INCLUDE "..\..\include\MSIBuildCfg.mak"
+!INCLUDE "..\..\..\include\MSIBuildCfg.mak"
 
 !IFNDEF MSIBUILD_VERSION_FILE
 !ERROR Parameter MSIBUILD_VERSION_FILE is undefined.
@@ -79,7 +79,7 @@ Version :: "Version.mak"
 
 All :: "$(LANG).$(PLAT).$(CFG).Property-1.idt"
 
-"$(LANG).$(PLAT).$(CFG).Property-1.idt" : "Makefile" "Version.mak" "..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).Property-1.idt" : "Makefile" "Version.mak" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 Property	Value
@@ -97,7 +97,7 @@ UpgradeCode	$(MSIBUILD_UPGRADE_GUID)
 
 All :: "$(LANG).$(PLAT).$(CFG).Upgrade-1.idt"
 
-"$(LANG).$(PLAT).$(CFG).Upgrade-1.idt" : "Makefile" "Version.mak" "..\..\include\MSIBuildCfg.mak"
+"$(LANG).$(PLAT).$(CFG).Upgrade-1.idt" : "Makefile" "Version.mak" "..\..\..\include\MSIBuildCfg.mak"
 	-if exist $@ del /f /q $@
 	move /y << $@ > NUL
 UpgradeCode	VersionMin	VersionMax	Language	Attributes	Remove	ActionProperty
