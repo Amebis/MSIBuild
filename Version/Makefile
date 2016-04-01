@@ -43,6 +43,7 @@ Version :: "Version.mak"
 "Version.mak" : "$(MSIBUILD_VERSION_FILE)"
 	-if exist $@ del /f /q $@
 	-if exist "$(@:"=).tmp" del /f /q "$(@:"=).tmp"
+	grep.exe -e "#define[[:space:]]*.*_VERSION[[:space:]]*0x"   "$(MSIBUILD_VERSION_FILE)" | sed.exe -e "s/.*0x\(.*\)/MSIBUILD_VERSION_INT=\1/g"            >> "$(@:"=).tmp"
 	grep.exe -e "#define[[:space:]]*.*_VERSION_STR[[:space:]]"  "$(MSIBUILD_VERSION_FILE)" | sed.exe -e "s/[^\"]*\"\([^\"]*\)\"/MSIBUILD_VERSION_STR=\1/g"  >> "$(@:"=).tmp"
 	grep.exe -e "#define[[:space:]]*.*_VERSION_INST[[:space:]]" "$(MSIBUILD_VERSION_FILE)" | sed.exe -e "s/[^\"]*\"\([^\"]*\)\"/MSIBUILD_VERSION_INST=\1/g" >> "$(@:"=).tmp"
 	grep.exe -e "#define[[:space:]]*.*_VERSION_GUID[[:space:]]" "$(MSIBUILD_VERSION_FILE)" | sed.exe -e "s/[^\"]*\"\([^\"]*\)\"/MSIBUILD_VERSION_GUID=\1/g" >> "$(@:"=).tmp"
