@@ -26,6 +26,219 @@ MSIBUILD_IS_LOCALIZEABLE=1
 
 
 ######################################################################
+# _Validation
+
+All :: "$(LANG).$(PLAT).$(CFG)._Validation-1.idt"
+
+"$(LANG).$(PLAT).$(CFG)._Validation-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+	-if exist $@ del /f /q $@
+	move /y << $@ > NUL
+Table	Column	Nullable	MinValue	MaxValue	KeyTable	KeyColumn	Category	Set	Description
+s32	s32	s4	I4	I4	S255	I2	S32	S255	S255
+_Validation	Table	Column
+ActionText	Action	N					Identifier		Name of action to be described.
+ActionText	Description	Y					Text		Localized description displayed in progress dialog and log when action is executing.
+ActionText	Template	Y					Template		Optional localized format template used to format action data records for display during action execution.
+AdminExecuteSequence	Action	N					Identifier		Name of action to invoke, either in the engine or the handler DLL.
+AdminExecuteSequence	Condition	Y					Condition		Optional expression which skips the action if evaluates to expFalse.If the expression syntax is invalid, the engine will terminate, returning iesBadActionData.
+AdminExecuteSequence	Sequence	Y	-4	32767					Number that determines the sort order in which the actions are to be executed. Leave blank to suppress action.
+BBControl	Attributes	Y	0	2147483647					A 32-bit word that specifies the attribute flags to be applied to this control.
+BBControl	BBControl	N					Identifier		Name of the control. This name must be unique within a billboard, but can repeat on different billboard.
+BBControl	Billboard_	N			Billboard	1	Identifier		External key to the Billboard table, name of the billboard.
+BBControl	Height	N	0	32767					Height of the bounding rectangle of the control.
+BBControl	Text	Y					Text		A string used to set the initial text contained within a control (if appropriate).
+BBControl	Type	N					Identifier		The type of the control.
+BBControl	Width	N	0	32767					Width of the bounding rectangle of the control.
+BBControl	X	N	0	32767					Horizontal coordinate of the upper left corner of the bounding rectangle of the control.
+BBControl	Y	N	0	32767					Vertical coordinate of the upper left corner of the bounding rectangle of the control.
+Billboard	Action	Y					Identifier		The name of an action. The billboard is displayed during the progress messages received from this action.
+Billboard	Billboard	N					Identifier		Name of the billboard.
+Billboard	Feature_	N			Feature	1	Identifier		An external key to the Feature Table. The billboard is shown only if this feature is being installed.
+Billboard	Ordering	Y	0	32767					A positive integer. If there is more than one billboard corresponding to an action they will be shown in the order defined by this column.
+CheckBox	Property	N					Identifier		A named property to be tied to the item.
+CheckBox	Value	Y					Formatted		The value string associated with the item.
+Control	Attributes	Y	0	2147483647					A 32-bit word that specifies the attribute flags to be applied to this control.
+Control	Control	N					Identifier		Name of the control. This name must be unique within a dialog, but can repeat on different dialogs. 
+Control	Control_Next	Y			Control	2	Identifier		The name of an other control on the same dialog. This link defines the tab order of the controls. The links have to form one or more cycles!
+Control	Dialog_	N			Dialog	1	Identifier		External key to the Dialog table, name of the dialog.
+Control	Height	N	0	32767					Height of the bounding rectangle of the control.
+Control	Help	Y					Text		The help strings used with the button. The text is optional. 
+Control	Property	Y					Identifier		The name of a defined property to be linked to this control. 
+Control	Text	Y					Formatted		A string used to set the initial text contained within a control (if appropriate).
+Control	Type	N					Identifier		The type of the control.
+Control	Width	N	0	32767					Width of the bounding rectangle of the control.
+Control	X	N	0	32767					Horizontal coordinate of the upper left corner of the bounding rectangle of the control.
+Control	Y	N	0	32767					Vertical coordinate of the upper left corner of the bounding rectangle of the control.
+ControlCondition	Action	N						Default;Disable;Enable;Hide;Show	The desired action to be taken on the specified control.
+ControlCondition	Condition	N					Condition		A standard conditional statement that specifies under which conditions the action should be triggered.
+ControlCondition	Control_	N			Control	2	Identifier		A foreign key to the Control table, name of the control.
+ControlCondition	Dialog_	N			Dialog	1	Identifier		A foreign key to the Dialog table, name of the dialog.
+ControlEvent	Argument	N					Formatted		A value to be used as a modifier when triggering a particular event.
+ControlEvent	Condition	Y					Condition		A standard conditional statement that specifies under which conditions an event should be triggered.
+ControlEvent	Control_	N			Control	2	Identifier		A foreign key to the Control table, name of the control
+ControlEvent	Dialog_	N			Dialog	1	Identifier		A foreign key to the Dialog table, name of the dialog.
+ControlEvent	Event	N					Formatted		An identifier that specifies the type of the event that should take place when the user interacts with control specified by the first two entries.
+ControlEvent	Ordering	Y	0	2147483647					An integer used to order several events tied to the same control. Can be left blank.
+Dialog	Attributes	Y	0	2147483647					A 32-bit word that specifies the attribute flags to be applied to this dialog.
+Dialog	Control_Cancel	Y			Control	2	Identifier		Defines the cancel control. Hitting escape or clicking on the close icon on the dialog is equivalent to pushing this button.
+Dialog	Control_Default	Y			Control	2	Identifier		Defines the default control. Hitting return is equivalent to pushing this button.
+Dialog	Control_First	N			Control	2	Identifier		Defines the control that has the focus when the dialog is created.
+Dialog	Dialog	N					Identifier		Name of the dialog.
+Dialog	HCentering	N	0	100					Horizontal position of the dialog on a 0-100 scale. 0 means left end, 100 means right end of the screen, 50 center.
+Dialog	Height	N	0	32767					Height of the bounding rectangle of the dialog.
+Dialog	Title	Y					Formatted		A text string specifying the title to be displayed in the title bar of the dialog's window.
+Dialog	VCentering	N	0	100					Vertical position of the dialog on a 0-100 scale. 0 means top end, 100 means bottom end of the screen, 50 center.
+Dialog	Width	N	0	32767					Width of the bounding rectangle of the dialog.
+InstallUISequence	Action	N					Identifier		Name of action to invoke, either in the engine or the handler DLL.
+InstallUISequence	Condition	Y					Condition		Optional expression which skips the action if evaluates to expFalse.If the expression syntax is invalid, the engine will terminate, returning iesBadActionData.
+InstallUISequence	Sequence	Y	-4	32767					Number that determines the sort order in which the actions are to be executed. Leave blank to suppress action.
+ListBox	Order	N	1	32767					A positive integer used to determine the ordering of the items within one list..The integers do not have to be consecutive.
+ListBox	Property	N					Identifier		A named property to be tied to this item. All the items tied to the same property become part of the same listbox.
+ListBox	Text	Y					Text		The visible text to be assigned to the item. Optional. If this entry or the entire column is missing, the text is the same as the value.
+ListBox	Value	N					Formatted		The value string associated with this item. Selecting the line will set the associated property to this value.
+ListView	Binary_	Y			Binary	1	Identifier		The name of the icon to be displayed with the icon. The binary information is looked up from the Binary Table.
+ListView	Order	N	1	32767					A positive integer used to determine the ordering of the items within one list..The integers do not have to be consecutive.
+ListView	Property	N					Identifier		A named property to be tied to this item. All the items tied to the same property become part of the same listview.
+ListView	Text	Y					Text		The visible text to be assigned to the item. Optional. If this entry or the entire column is missing, the text is the same as the value.
+ListView	Value	N					Identifier		The value string associated with this item. Selecting the line will set the associated property to this value.
+RadioButton	Height	N	0	32767					The height of the button.
+RadioButton	Help	Y					Text		The help strings used with the button. The text is optional.
+RadioButton	Order	N	1	32767					A positive integer used to determine the ordering of the items within one list..The integers do not have to be consecutive.
+RadioButton	Property	N					Identifier		A named property to be tied to this radio button. All the buttons tied to the same property become part of the same group.
+RadioButton	Text	Y					Text		The visible title to be assigned to the radio button.
+RadioButton	Value	N					Formatted		The value string associated with this button. Selecting the button will set the associated property to this value.
+RadioButton	Width	N	0	32767					The width of the button.
+RadioButton	X	N	0	32767					The horizontal coordinate of the upper left corner of the bounding rectangle of the radio button.
+RadioButton	Y	N	0	32767					The vertical coordinate of the upper left corner of the bounding rectangle of the radio button.
+TextStyle	Color	Y	0	16777215					A long integer indicating the color of the string in the RGB format (Red, Green, Blue each 0-255, RGB = R + 256*G + 256^2*B).
+TextStyle	FaceName	N					Text		A string indicating the name of the font used. Required. The string must be at most 31 characters long.
+TextStyle	Size	N	0	32767					The size of the font used. This size is given in our units (1/12 of the system font height). Assuming that the system font is set to 12 point size, this is equivalent to the point size.
+TextStyle	StyleBits	Y	0	15					A combination of style bits.
+TextStyle	TextStyle	N					Identifier		Name of the style. The primary key of this table. This name is embedded in the texts to indicate a style change.
+UIText	Key	N					Identifier		A unique key that identifies the particular string.
+UIText	Text	Y					Text		The localized version of the string.
+<<NOKEEP
+
+
+######################################################################
+# ActionText
+
+All :: "$(LANG).$(PLAT).$(CFG).ActionText-2.idt"
+
+"En.$(PLAT).$(CFG).ActionText-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+	-if exist $@ del /f /q $@
+	move /y << $@ > NUL
+Action	Description	Template
+s$(MSIBUILD_LENGTH_ID)	L0	L0
+1252	ActionText	Action
+Advertise	Advertising application	
+AllocateRegistrySpace	Allocating registry space	Free space: [1]
+AppSearch	Searching for installed applications	Property: [1], Signature: [2]
+BindImage	Binding executables	File: [1]
+CCPSearch	Searching for qualifying products	
+CostFinalize	Computing space requirements	
+CostInitialize	Computing space requirements	
+CreateFolders	Creating folders	Folder: [1]
+CreateShortcuts	Creating shortcuts	Shortcut: [1]
+DeleteServices	Deleting services	Service: [1]
+DuplicateFiles	Creating duplicate files	File: [1], Folder: [9], Size: [6]
+FileCost	Computing space requirements	
+FindRelatedProducts	Searching for related applications	Found application: [1]
+GenerateScript	Generating script operations for action:	[1]
+InstallAdminPackage	Copying network install files	File: [1], Folder: [9], Size: [6]
+InstallFiles	Copying new files	File: [1], Folder: [9], Size: [6]
+InstallODBC	Installing ODBC components	
+InstallServices	Installing new services	Service: [2]
+InstallSFPCatalogFile	Installing system catalog	File: [1], Dependencies: [2]
+InstallValidate	Validating install	
+LaunchConditions	Evaluating launch conditions	
+MigrateFeatureStates	Migrating feature states from related applications	Application: [1]
+MoveFiles	Moving files	File: [1], Folder: [9], Size: [6]
+MsiPublishAssemblies	Publishing assembly information	Application Context:[1], Assembly Name:[2]
+MsiUnpublishAssemblies	Unpublishing assembly information	Application Context:[1], Assembly Name:[2]
+PatchFiles	Patching files	File: [1], Folder: [2], Size: [3]
+ProcessComponents	Updating component registration	
+PublishComponents	Publishing Qualified Components	Component ID: [1], Qualifier: [2]
+PublishFeatures	Publishing Product Features	Feature: [1]
+PublishProduct	Publishing product information	
+RegisterClassInfo	Registering Class servers	Class Id: [1]
+RegisterComPlus	Registering COM+ Applications and Components	AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}
+RegisterExtensionInfo	Registering extension servers	Extension: [1]
+RegisterFonts	Registering fonts	Font: [1]
+RegisterMIMEInfo	Registering MIME info	MIME Content Type: [1], Extension: [2]
+RegisterProduct	Registering product	[1]
+RegisterProgIdInfo	Registering programme identifiers	ProgId: [1]
+RegisterTypeLibraries	Registering type libraries	LibID: [1]
+RegisterUser	Registering user	[1]
+RemoveDuplicateFiles	Removing duplicated files	File: [1], Folder: [9]
+RemoveEnvironmentStrings	Updating environment strings	Name: [1], Value: [2], Action [3]
+RemoveExistingProducts	Removing applications	Application: [1], Command line: [2]
+RemoveFiles	Removing files	File: [1], Folder: [9]
+RemoveFolders	Removing folders	Folder: [1]
+RemoveIniValues	Removing INI files entries	File: [1], Section: [2], Key: [3], Value: [4]
+RemoveODBC	Removing ODBC components	
+RemoveRegistryValues	Removing system registry values	Key: [1], Name: [2]
+RemoveShortcuts	Removing shortcuts	Shortcut: [1]
+RMCCPSearch	Searching for qualifying products	
+Rollback	Rolling back action:	[1]
+RollbackCleanup	Removing backup files	File: [1]
+SelfRegModules	Registering modules	File: [1], Folder: [2]
+SelfUnregModules	Unregistering modules	File: [1], Folder: [2]
+SetODBCFolders	Initializing ODBC directories	
+StartServices	Starting services	Service: [1]
+StopServices	Stopping services	Service: [1]
+UnmoveFiles	Removing moved files	File: [1], Folder: [9]
+UnpublishComponents	Unpublishing Qualified Components	Component ID: [1], Qualifier: [2]
+UnpublishFeatures	Unpublishing Product Features	Feature: [1]
+UnpublishProduct	Unpublishing product information	
+UnregisterClassInfo	Unregister Class servers	Class Id: [1]
+UnregisterComPlus	Unregistering COM+ Applications and Components	AppId: [1]{{, AppType: [2]}}
+UnregisterExtensionInfo	Unregistering extension servers	Extension: [1]
+UnregisterFonts	Unregistering fonts	Font: [1]
+UnregisterMIMEInfo	Unregistering MIME info	MIME Content Type: [1], Extension: [2]
+UnregisterProgIdInfo	Unregistering programme identifiers	ProgId: [1]
+UnregisterTypeLibraries	Unregistering type libraries	LibID: [1]
+WriteEnvironmentStrings	Updating environment strings	Name: [1], Value: [2], Action [3]
+WriteIniValues	Writing INI files values	File: [1], Section: [2], Key: [3], Value: [4]
+WriteRegistryValues	Writing system registry values	Key: [1], Name: [2], Value: [3]
+<<NOKEEP
+
+"De.$(PLAT).$(CFG).ActionText-2.idt" : "En.$(PLAT).$(CFG).ActionText-2.idtx" "..\locale\de_DE.po"
+	rcxgettext.exe idtp $@ $**
+
+"En.$(PLAT).$(CFG).ActionText-2.idt" : "En.$(PLAT).$(CFG).ActionText-2.idtx"
+	copy /y $** $@ > NUL
+
+"It.$(PLAT).$(CFG).ActionText-2.idt" : "En.$(PLAT).$(CFG).ActionText-2.idtx" "..\locale\it_IT.po"
+	rcxgettext.exe idtp $@ $**
+
+"Sl.$(PLAT).$(CFG).ActionText-2.idt" : "En.$(PLAT).$(CFG).ActionText-2.idtx" "..\locale\sl_SI.po"
+	rcxgettext.exe idtp $@ $**
+
+
+######################################################################
+# AdminExecuteSequence
+
+All :: "$(LANG).$(PLAT).$(CFG).AdminExecuteSequence-1.idt"
+
+"$(LANG).$(PLAT).$(CFG).AdminExecuteSequence-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+	-if exist $@ del /f /q $@
+	move /y << $@ > NUL
+Action	Condition	Sequence
+s$(MSIBUILD_LENGTH_ID)	S255	I2
+AdminExecuteSequence	Action
+CostInitialize		800
+FileCost		900
+CostFinalize		1000
+InstallValidate		1400
+InstallInitialize		1500
+InstallAdminPackage		3900
+InstallFiles		4000
+InstallFinalize		6600
+<<NOKEEP
+
+
+######################################################################
 # AdminUISequence
 
 All :: "$(LANG).$(PLAT).$(CFG).AdminUISequence-1.idt"
@@ -51,6 +264,34 @@ dlgAdminInstallPoint		1230
 dlgProgress		1280
 ExecuteAction		1300
 <<NOKEEP
+
+
+#######################################################################
+## BBControl
+#
+#All :: "$(LANG).$(PLAT).$(CFG).BBControl-1.idt"
+#
+#"$(LANG).$(PLAT).$(CFG).BBControl-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+#	-if exist $@ del /f /q $@
+#	move /y << $@ > NUL
+#Billboard_	BBControl	Type	X	Y	Width	Height	Attributes	Text
+#s50	s50	s50	i2	i2	i2	i2	I4	L50
+#BBControl	Billboard_	BBControl
+#<<NOKEEP
+
+
+#######################################################################
+## Billboard
+#
+#All :: "$(LANG).$(PLAT).$(CFG).Billboard-1.idt"
+#
+#"$(LANG).$(PLAT).$(CFG).Billboard-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+#	-if exist $@ del /f /q $@
+#	move /y << $@ > NUL
+#Billboard	Feature_	Action	Ordering
+#s50	s$(MSIBUILD_LENGTH_ID)	S50	I2
+#Billboard	Billboard
+#<<NOKEEP
 
 
 ######################################################################
@@ -89,30 +330,56 @@ binUIFolderUp.ico	UIFolderUp.ico
 	copy /y $** $@ > NUL
 
 
-######################################################################
-# CheckBox
+#######################################################################
+## CheckBox
+#
+#All :: "$(LANG).$(PLAT).$(CFG).CheckBox-2.idt"
+#
+#"En.$(PLAT).$(CFG).CheckBox-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+#	-if exist $@ del /f /q $@
+#	move /y << $@ > NUL
+#Property	Value
+#s$(MSIBUILD_LENGTH_ID)	S64
+#1252	CheckBox	Property
+#<<NOKEEP
+#
+#"De.$(PLAT).$(CFG).CheckBox-2.idt" : "En.$(PLAT).$(CFG).CheckBox-2.idtx" "..\locale\de_DE.po"
+#	rcxgettext.exe idtp $@ $**
+#
+#"En.$(PLAT).$(CFG).CheckBox-2.idt" : "En.$(PLAT).$(CFG).CheckBox-2.idtx"
+#	copy /y $** $@ > NUL
+#
+#"It.$(PLAT).$(CFG).CheckBox-2.idt" : "En.$(PLAT).$(CFG).CheckBox-2.idtx" "..\locale\it_IT.po"
+#	rcxgettext.exe idtp $@ $**
+#
+#"Sl.$(PLAT).$(CFG).CheckBox-2.idt" : "En.$(PLAT).$(CFG).CheckBox-2.idtx" "..\locale\sl_SI.po"
+#	rcxgettext.exe idtp $@ $**
 
-All :: "$(LANG).$(PLAT).$(CFG).CheckBox-2.idt"
 
-"En.$(PLAT).$(CFG).CheckBox-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
-	-if exist $@ del /f /q $@
-	move /y << $@ > NUL
-Property	Value
-s$(MSIBUILD_LENGTH_ID)	S64
-1252	CheckBox	Property
-<<NOKEEP
-
-"De.$(PLAT).$(CFG).CheckBox-2.idt" : "En.$(PLAT).$(CFG).CheckBox-2.idtx" "..\locale\de_DE.po"
-	rcxgettext.exe idtp $@ $**
-
-"En.$(PLAT).$(CFG).CheckBox-2.idt" : "En.$(PLAT).$(CFG).CheckBox-2.idtx"
-	copy /y $** $@ > NUL
-
-"It.$(PLAT).$(CFG).CheckBox-2.idt" : "En.$(PLAT).$(CFG).CheckBox-2.idtx" "..\locale\it_IT.po"
-	rcxgettext.exe idtp $@ $**
-
-"Sl.$(PLAT).$(CFG).CheckBox-2.idt" : "En.$(PLAT).$(CFG).CheckBox-2.idtx" "..\locale\sl_SI.po"
-	rcxgettext.exe idtp $@ $**
+#######################################################################
+## ComboBox
+#
+#All :: "$(LANG).$(PLAT).$(CFG).ComboBox-2.idt"
+#
+#"En.$(PLAT).$(CFG).ComboBox-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+#	-if exist $@ del /f /q $@
+#	move /y << $@ > NUL
+#Property	Order	Value	Text
+#s$(MSIBUILD_LENGTH_ID)	i2	s64	L64
+#1252	ComboBox	Property	Order
+#<<NOKEEP
+#
+#"De.$(PLAT).$(CFG).ComboBox-2.idt" : "En.$(PLAT).$(CFG).ComboBox-2.idtx" "..\locale\de_DE.po"
+#	rcxgettext.exe idtp $@ $**
+#
+#"En.$(PLAT).$(CFG).ComboBox-2.idt" : "En.$(PLAT).$(CFG).ComboBox-2.idtx"
+#	copy /y $** $@ > NUL
+#
+#"It.$(PLAT).$(CFG).ComboBox-2.idt" : "En.$(PLAT).$(CFG).ComboBox-2.idtx" "..\locale\it_IT.po"
+#	rcxgettext.exe idtp $@ $**
+#
+#"Sl.$(PLAT).$(CFG).ComboBox-2.idt" : "En.$(PLAT).$(CFG).ComboBox-2.idtx" "..\locale\sl_SI.po"
+#	rcxgettext.exe idtp $@ $**
 
 
 ######################################################################
@@ -543,13 +810,58 @@ dlgFinished		-1
 caSetDefaultUIFontVista	VersionNT>=600	50
 caSetDlgStrongFontVista	VersionNT>=600	51
 caSetDlgTitleFontVista	VersionNT>=600	52
+LaunchConditions	NOT Installed	100
+!IFDEF MSIBUILD_NO_WOW64
+!IF "$(PLAT)" == "Win32"
+caWoW64Unsupported	VersionNT64	101
+!ENDIF
+!ENDIF
 dlgPrepare		140
+FindRelatedProducts		200
+caNewerProductFound	NEWPRODUCTFOUND	201
+AppSearch		400
+CCPSearch	NOT Installed	500
+RMCCPSearch	NOT Installed	600
+ValidateProductID		700
+CostInitialize		800
+FileCost		900
+CostFinalize		1000
+MigrateFeatureStates		1200
 dlgLicenseAgreement	NOT Installed	1210
 dlgTypeSetup	NOT Installed	1250
 dlgResume	Installed AND (RESUME OR Preselected)	1251
 dlgTypeMaintenance	Installed AND NOT RESUME AND NOT Preselected	1252
 dlgProgress		1280
+ExecuteAction		1300
 <<NOKEEP
+
+
+#######################################################################
+## ListBox
+#
+#All :: "$(LANG).$(PLAT).$(CFG).ListBox-1.idt"
+#
+#"$(LANG).$(PLAT).$(CFG).ListBox-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+#	-if exist $@ del /f /q $@
+#	move /y << $@ > NUL
+#Property	Order	Value	Text
+#s$(MSIBUILD_LENGTH_ID)	i2	s64	L64
+#ListBox	Property	Order
+#<<NOKEEP
+
+
+#######################################################################
+## ListView
+#
+#All :: "$(LANG).$(PLAT).$(CFG).ListView-1.idt"
+#
+#"$(LANG).$(PLAT).$(CFG).ListView-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+#	-if exist $@ del /f /q $@
+#	move /y << $@ > NUL
+#Property	Order	Value	Text	Binary_
+#s$(MSIBUILD_LENGTH_ID)	i2	s64	L64	S$(MSIBUILD_LENGTH_ID)
+#ListView	Property	Order
+#<<NOKEEP
 
 
 ######################################################################
@@ -646,6 +958,83 @@ tsDlgVista	Segoe UI	9		0
 tsStrongVista	Segoe UI	9		1
 tsTitleVista	Segoe UI	11		1
 <<NOKEEP
+
+
+######################################################################
+# UIText
+
+All :: "$(LANG).$(PLAT).$(CFG).UIText-2.idt"
+
+"En.$(PLAT).$(CFG).UIText-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+	-if exist $@ del /f /q $@
+	move /y << $@ > NUL
+Key	Text
+s$(MSIBUILD_LENGTH_ID)	L255
+1252	UIText	Key
+AbsentPath	
+bytes	bytes
+GB	GB
+KB	KB
+MB	MB
+MenuAbsent	Entire feature will be unavailable
+MenuAdvertise	Feature will be installed when required
+MenuAllCD	Entire feature will be installed to run from CD
+MenuAllLocal	Entire feature will be installed on local hard drive
+MenuAllNetwork	Entire feature will be installed to run from network
+MenuCD	Will be installed to run from CD
+MenuLocal	Will be installed on local hard drive
+MenuNetwork	Will be installed to run from network
+NewFolder	Folder|New Folder
+ScriptInProgress	Gathering required information...
+SelAbsentAbsent	This feature will remain uninstalled
+SelAbsentAdvertise	This feature will be set to be installed when required
+SelAbsentCD	This feature will be installed to run from CD
+SelAbsentLocal	This feature will be installed on the local hard drive
+SelAbsentNetwork	This feature will be installed to run from the network
+SelAdvertiseAbsent	This feature will become unavailable
+SelAdvertiseAdvertise	Will be installed when required
+SelAdvertiseCD	This feature will be installed to run from CD
+SelAdvertiseLocal	This feature will be installed on the local hard drive
+SelAdvertiseNetwork	This feature will be installed to run from the network
+SelCDAbsent	This feature will be uninstalled completely, you won't be able to run it from CD
+SelCDAdvertise	This feature will be set to be installed when required
+SelCDCD	This feature will remain to be run from CD
+SelCDLocal	This feature will be installed on the local hard drive
+SelChildCostNeg	This feature frees up [1] on your hard drive.
+SelChildCostPos	This feature requires [1] on your hard drive.
+SelCostPending	Compiling cost for this feature...
+SelLocalAbsent	This feature will become unavailable
+SelLocalAdvertise	This feature will be removed from your local hard drive, but will be set to be installed when required
+SelLocalCD	This feature will be removed from your local hard drive, but will be still available to run from CD
+SelLocalLocal	This feature will remain on you local hard drive
+SelLocalNetwork	This feature will be removed from your local hard drive, but will be still available to run from the network
+SelNetworkAbsent	This feature will be uninstalled completely, you won't be able to run it from the network
+SelNetworkAdvertise	This feature will be set to be installed when required
+SelNetworkLocal	This feature will be installed on the local hard drive
+SelNetworkNetwork	This feature will remain to be run from the network
+SelParentCostNegNeg	This feature requires [1] on your hard drive. It has [2] of [3] subfeatures selected. The subfeatures require [4] on your hard drive.
+SelParentCostNegPos	This feature requires [1] on your hard drive. It has [2] of [3] subfeatures selected. The subfeatures require [4] on your hard drive.
+SelParentCostPosNeg	This feature requires [1] on your hard drive. It has [2] of [3] subfeatures selected. The subfeatures require [4] on your hard drive.
+SelParentCostPosPos	This feature requires [1] on your hard drive. It has [2] of [3] subfeatures selected. The subfeatures require [4] on your hard drive.
+TimeRemaining	Time remaining: {[1] minutes }{[2] seconds}
+VolumeCostAvailable	Available
+VolumeCostDifference	Difference
+VolumeCostRequired	Required
+VolumeCostSize	Disk Size
+VolumeCostVolume	Volume
+<<NOKEEP
+
+"De.$(PLAT).$(CFG).UIText-2.idt" : "En.$(PLAT).$(CFG).UIText-2.idtx" "..\locale\de_DE.po"
+	rcxgettext.exe idtp $@ $**
+
+"En.$(PLAT).$(CFG).UIText-2.idt" : "En.$(PLAT).$(CFG).UIText-2.idtx"
+	copy /y $** $@ > NUL
+
+"It.$(PLAT).$(CFG).UIText-2.idt" : "En.$(PLAT).$(CFG).UIText-2.idtx" "..\locale\it_IT.po"
+	rcxgettext.exe idtp $@ $**
+
+"Sl.$(PLAT).$(CFG).UIText-2.idt" : "En.$(PLAT).$(CFG).UIText-2.idtx" "..\locale\sl_SI.po"
+	rcxgettext.exe idtp $@ $**
 
 
 ######################################################################
