@@ -836,18 +836,18 @@ ExecuteAction		1300
 <<NOKEEP
 
 
-#######################################################################
-## ListBox
-#
-#All :: "$(LANG).$(PLAT).$(CFG).ListBox-1.idt"
-#
-#"$(LANG).$(PLAT).$(CFG).ListBox-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
-#	-if exist $@ del /f /q $@
-#	move /y << $@ > NUL
-#Property	Order	Value	Text
-#s$(MSIBUILD_LENGTH_ID)	i2	s64	L64
-#ListBox	Property	Order
-#<<NOKEEP
+######################################################################
+# ListBox
+
+All :: "$(LANG).$(PLAT).$(CFG).ListBox-1.idt"
+
+"$(LANG).$(PLAT).$(CFG).ListBox-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+	-if exist $@ del /f /q $@
+	move /y << $@ > NUL
+Property	Order	Value	Text
+s$(MSIBUILD_LENGTH_ID)	i2	s64	L64
+ListBox	Property	Order
+<<NOKEEP
 
 
 #######################################################################
