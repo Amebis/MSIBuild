@@ -831,15 +831,27 @@ RemoveExistingProducts		6700
 #######################################################################
 ## LaunchCondition
 #
-#All :: "$(LANG).$(PLAT).$(CFG).LaunchCondition-1.idt"
+#All :: "$(LANG).$(PLAT).$(CFG).LaunchCondition-2.idt"
 #
-#"$(LANG).$(PLAT).$(CFG).LaunchCondition-1.idt" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
+#"En.$(PLAT).$(CFG).LaunchCondition-2.idtx" : "Makefile" "..\..\..\include\MSIBuildCfg.mak"
 #	-if exist $@ del /f /q $@
 #	move /y << $@ > NUL
 #Condition	Description
 #s255	l255
 #LaunchCondition	Condition
 #<<NOKEEP
+#
+#"De.$(PLAT).$(CFG).LaunchCondition-2.idt" : "En.$(PLAT).$(CFG).LaunchCondition-2.idtx" "..\locale\de_DE.po"
+#	rcxgettext.exe idtp $@ $**
+#
+#"En.$(PLAT).$(CFG).LaunchCondition-2.idt" : "En.$(PLAT).$(CFG).LaunchCondition-2.idtx"
+#	copy /y $** $@ > NUL
+#
+#"It.$(PLAT).$(CFG).LaunchCondition-2.idt" : "En.$(PLAT).$(CFG).LaunchCondition-2.idtx" "..\locale\it_IT.po"
+#	rcxgettext.exe idtp $@ $**
+#
+#"Sl.$(PLAT).$(CFG).LaunchCondition-2.idt" : "En.$(PLAT).$(CFG).LaunchCondition-2.idtx" "..\locale\sl_SI.po"
+#	rcxgettext.exe idtp $@ $**
 
 
 #######################################################################
