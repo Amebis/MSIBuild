@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSMBuild\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-12 13:11+0200\n"
+"POT-Creation-Date: 2016-08-12 13:14+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
 "Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: de_DE\n"
+"Language: hu_HU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,9 +27,8 @@ msgstr ""
 #: UI/En.x64.Release.Control-2.idtx:109 UI/En.x64.Release.Control-2.idtx:114
 #: UI/En.x64.Release.Control-2.idtx:119 UI/En.x64.Release.Control-2.idtx:69
 #: UI/En.x64.Release.Control-2.idtx:74
-#, fuzzy
 msgid "&Close"
-msgstr "&Schließen"
+msgstr ""
 
 #: UI/En.Win32.Debug.Control-2.idtx:11 UI/En.Win32.Debug.Control-2.idtx:21
 #: UI/En.Win32.Debug.Control-2.idtx:26 UI/En.Win32.Release.Control-2.idtx:11
@@ -40,12 +39,11 @@ msgstr "&Schließen"
 #, fuzzy
 msgid "&Continue"
 msgstr ""
-"Auf Volume \"[2]\" steht nicht genügend Speicherplatz für die Installation "
-"bei aktivierter Wiederherstellungsoption zur Verfügung. [3] KB sind "
-"erforderlich, aber nur [4] KB sind verfügbar. Klicken Sie auf \"Ignorieren"
-"\", um die Installation ohne Speicherung von Wiederherstellungsinformationen "
-"fortzusetzen, klicken Sie auf \"Wiederholen\", um den verfügbaren Speicher "
-"erneut zu überprüfen oder auf \"Abbrechen\", um die Installation abzubrechen."
+"Nincs elég hely a köteten ('[2]') a visszaállítási lehetőséggel való "
+"telepítés folytatásához. [3] kilobájtra van szükség, de csak [4] KB áll "
+"rendelkezésre. A visszaállítási információk mentése nélküli telepítés "
+"folytatásához kattintson a Kihagyás gombra, a szabad hely ellenőrzéséhez az "
+"Ismét, valamint a telepítésből való kilépéshez kattintson a Mégse gombra."
 
 #: UI/En.Win32.Debug.Control-2.idtx:30 UI/En.Win32.Release.Control-2.idtx:30
 #: UI/En.x64.Debug.Control-2.idtx:27 UI/En.x64.Release.Control-2.idtx:27
@@ -58,7 +56,7 @@ msgstr ""
 #: UI/En.x64.Release.Control-2.idtx:51 UI/En.x64.Release.Control-2.idtx:62
 #, fuzzy
 msgid "&Folder:"
-msgstr "Datei: [1], Ordner: [2]"
+msgstr "Fájl: [1], Mappa: [2]"
 
 #: UI/En.Win32.Debug.Control-2.idtx:102 UI/En.Win32.Debug.Control-2.idtx:108
 #: UI/En.Win32.Release.Control-2.idtx:102
@@ -104,10 +102,9 @@ msgstr ""
 #, fuzzy
 msgid "&Retry"
 msgstr ""
-"Beim Versuch, Installationsinformationen auf die Festplatte zu schreiben, "
-"ist ein Fehler aufgetreten. Überprüfen Sie, ob genügend Plattenspeicher "
-"verfügbar ist, und klicken Sie auf \"Wiederholen\". Oder klicken Sie auf "
-"\"Abbrechen\", um die Installation zu abzubrechen."
+"Hiba történt a telepítési adatok lemezre írásakor. Ellenőrizze, hogy a "
+"lemezen van-e elég hely, és kattintson az Ismét gombra, vagy kattintson a "
+"Mégse gombra a telepítés befejezéséhez."
 
 #: UI/En.Win32.Debug.Control-2.idtx:83 UI/En.Win32.Debug.Control-2.idtx:92
 #: UI/En.Win32.Debug.Control-2.idtx:98 UI/En.Win32.Release.Control-2.idtx:83
@@ -115,9 +112,8 @@ msgstr ""
 #: UI/En.x64.Debug.Control-2.idtx:80 UI/En.x64.Debug.Control-2.idtx:89
 #: UI/En.x64.Debug.Control-2.idtx:95 UI/En.x64.Release.Control-2.idtx:80
 #: UI/En.x64.Release.Control-2.idtx:89 UI/En.x64.Release.Control-2.idtx:95
-#, fuzzy
 msgid "&Yes"
-msgstr "&Ja"
+msgstr ""
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:17
 #: UI/En.Win32.Debug.ActionText-2.idtx:39
@@ -142,14 +138,13 @@ msgid ""
 "[2] cannot install one of its required products. Contact your technical "
 "support group. {{System Error: [3].}}"
 msgstr ""
-"[2] kann eines seiner erforderlichen Produkte nicht installieren. Setzen Sie "
-"sich mit dem technischen Supportpersonal in Verbindung. {{Systemfehler: "
-"[3].}}"
+"A(z) [2] nem tudja telepíteni az egyik szükséges terméket. Forduljon a "
+"technikusokhoz. {{Rendszerhiba: [3].}}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:55 Core/En.Win32.Release.Error-2.idtx:55
 #: Core/En.x64.Debug.Error-2.idtx:55 Core/En.x64.Release.Error-2.idtx:55
 msgid "'[2]' is not a valid short file name."
-msgstr "\"[2]\" ist kein gültiger kurzer Dateiname."
+msgstr "A(z) '[2]' rövid fájlnév nem érvényes."
 
 #: UI/En.Win32.Debug.Control-2.idtx:46 UI/En.Win32.Release.Control-2.idtx:46
 #: UI/En.x64.Debug.Control-2.idtx:43 UI/En.x64.Release.Control-2.idtx:43
@@ -233,7 +228,7 @@ msgstr ""
 #: UI/En.x64.Debug.Control-2.idtx:67 UI/En.x64.Release.Control-2.idtx:67
 #, fuzzy
 msgid "[DlgTitleFont]Disk Space Requirements"
-msgstr "Speicherbedarf wird berechnet"
+msgstr "A szükséges terület kiszámítása"
 
 #: UI/En.Win32.Debug.Control-2.idtx:104 UI/En.Win32.Release.Control-2.idtx:104
 #: UI/En.x64.Debug.Control-2.idtx:101 UI/En.x64.Release.Control-2.idtx:101
@@ -266,7 +261,7 @@ msgstr "[SimpleProductName]"
 #: Core/En.Win32.Debug.Error-2.idtx:28 Core/En.Win32.Release.Error-2.idtx:28
 #: Core/En.x64.Debug.Error-2.idtx:28 Core/En.x64.Release.Error-2.idtx:28
 msgid "[SimpleProductName] Setup completed successfully."
-msgstr "{[SimpleProductName]-}Setup erfolgreich abgeschlossen."
+msgstr "A [SimpleProductName] telepítés sikeresen befejeződött."
 
 #: UI/En.Win32.Debug.Control-2.idtx:120 UI/En.Win32.Release.Control-2.idtx:120
 #: UI/En.x64.Debug.Control-2.idtx:117 UI/En.x64.Release.Control-2.idtx:117
@@ -278,7 +273,7 @@ msgstr ""
 #: Core/En.Win32.Debug.Error-2.idtx:29 Core/En.Win32.Release.Error-2.idtx:29
 #: Core/En.x64.Debug.Error-2.idtx:29 Core/En.x64.Release.Error-2.idtx:29
 msgid "[SimpleProductName] Setup failed."
-msgstr "{[SimpleProductName]-}Setup fehlgeschlagen."
+msgstr "A [SimpleProductName] telepítés nem sikerült."
 
 #: UI/En.Win32.Debug.Control-2.idtx:115 UI/En.Win32.Release.Control-2.idtx:115
 #: UI/En.x64.Debug.Control-2.idtx:112 UI/En.x64.Release.Control-2.idtx:112
@@ -300,17 +295,17 @@ msgstr "{[2]}{, [3]}{, [4]}"
 #: Core/En.Win32.Debug.Error-2.idtx:11 Core/En.Win32.Release.Error-2.idtx:11
 #: Core/En.x64.Debug.Error-2.idtx:11 Core/En.x64.Release.Error-2.idtx:11
 msgid "{{Disk full: }}"
-msgstr "{{Festplatte voll: }}"
+msgstr "{{A lemez megtelt: }}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:5 Core/En.Win32.Release.Error-2.idtx:5
 #: Core/En.x64.Debug.Error-2.idtx:5 Core/En.x64.Release.Error-2.idtx:5
 msgid "{{Error [1]. }}"
-msgstr "{{Fehler [1]. }}"
+msgstr "{{Hiba: [1]. }}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:4 Core/En.Win32.Release.Error-2.idtx:4
 #: Core/En.x64.Debug.Error-2.idtx:4 Core/En.x64.Release.Error-2.idtx:4
 msgid "{{Fatal error: }}"
-msgstr "{{Schwerwiegender Fehler: }}"
+msgstr "{{Súlyos hiba: }}"
 
 #: UI/En.Win32.Debug.Control-2.idtx:71 UI/En.Win32.Debug.Control-2.idtx:76
 #: UI/En.Win32.Debug.Control-2.idtx:81 UI/En.Win32.Release.Control-2.idtx:71
@@ -324,19 +319,18 @@ msgstr ""
 #: Core/En.Win32.Debug.Error-2.idtx:16 Core/En.Win32.Release.Error-2.idtx:16
 #: Core/En.x64.Debug.Error-2.idtx:16 Core/En.x64.Release.Error-2.idtx:16
 msgid "=== Logging started: [Date] [Time] ==="
-msgstr "=== Protokollierung gestartet: [Date] [Time] ==="
+msgstr "=== Naplózás kezdete: [Date] [Time] ==="
 
 #: Core/En.Win32.Debug.Error-2.idtx:17 Core/En.Win32.Release.Error-2.idtx:17
 #: Core/En.x64.Debug.Error-2.idtx:17 Core/En.x64.Release.Error-2.idtx:17
 msgid "=== Logging stopped: [Date] [Time] ==="
-msgstr "=== Protokollierung beendet: [Date] [Time] ==="
+msgstr "=== Naplózás vége: [Date] [Time] ==="
 
 #: Core/En.Win32.Debug.Property-2.idtx:4
 #: Core/En.Win32.Release.Property-2.idtx:4 Core/En.x64.Debug.Property-2.idtx:4
 #: Core/En.x64.Release.Property-2.idtx:4
-#, fuzzy
 msgid "1033"
-msgstr "1031"
+msgstr ""
 
 #: Core/En.Win32.Debug.CustomAction-2.idtx:3 Core/En.Win32.Debug.Error-2.idtx:3
 #: Core/En.Win32.Debug.Property-2.idtx:3
@@ -360,9 +354,8 @@ msgstr "1031"
 #: UI/En.x64.Release.Control-2.idtx:3 UI/En.x64.Release.ControlEvent-2.idtx:3
 #: UI/En.x64.Release.Dialog-2.idtx:3 UI/En.x64.Release.Property-2.idtx:3
 #: UI/En.x64.Release.RadioButton-2.idtx:3 UI/En.x64.Release.UIText-2.idtx:3
-#, fuzzy
 msgid "1252"
-msgstr "1252"
+msgstr ""
 
 #: Core/En.Win32.Debug.Error-2.idtx:163 Core/En.Win32.Release.Error-2.idtx:163
 #: Core/En.x64.Debug.Error-2.idtx:163 Core/En.x64.Release.Error-2.idtx:163
@@ -377,10 +370,9 @@ msgid ""
 "an invalid digital signature. This may indicate that the cabinet file is "
 "corrupt.{{ Error [3] was returned by WinVerifyTrust.}}"
 msgstr ""
-"Eine erforderliche Datei kann nicht installiert werden, da die Kabinettdatei "
-"[2] eine ungültige digitale Signatur hat. Dies kann darauf hindeuten, dass "
-"die Kabinettdatei beschädigt ist.{{ Der Fehler [3] wurde von WinVerifyTrust "
-"zurückgeliefert.}}"
+"Egy szükséges fájlt nem lehetett telepíteni, mert a kabinetfájl ([2]) "
+"digitális aláírása érvénytelen. Ez azt jelentheti, hogy a fájl sérült. {{ A "
+"WinVerifyTrust által visszaadott hiba: [3].}}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:59 Core/En.Win32.Release.Error-2.idtx:59
 #: Core/En.x64.Debug.Error-2.idtx:59 Core/En.x64.Release.Error-2.idtx:59
@@ -388,16 +380,13 @@ msgid ""
 "A file that is required cannot be installed because the cabinet file [2] is "
 "not digitally signed. This may indicate that the cabinet file is corrupt."
 msgstr ""
-"Eine erforderliche Datei kann nicht installiert werden, da die Kabinettdatei "
-"[2] nicht digital signiert wurde. Dies kann darauf hindeuten, dass die "
-"Kabinettdatei beschädigt ist."
+"Egy szükséges fájlt nem lehetett telepíteni, mert a kabinetfájl ([2]) nincs "
+"digitálisan aláírva. Ez azt jelentheti, hogy a fájl sérült."
 
 #: Core/En.Win32.Debug.Error-2.idtx:48 Core/En.Win32.Release.Error-2.idtx:48
 #: Core/En.x64.Debug.Error-2.idtx:48 Core/En.x64.Release.Error-2.idtx:48
 msgid "A network error occurred while attempting to create the folder: [2]"
-msgstr ""
-"Beim Versuch, den Ordner [2] zu erstellen, ist ein Netzwerkfehler "
-"aufgetreten."
+msgstr "Hálózati hiba történt a következő könyvtár létrehozásakor: [2]"
 
 #: Core/En.Win32.Debug.Error-2.idtx:49 Core/En.Win32.Release.Error-2.idtx:49
 #: Core/En.x64.Debug.Error-2.idtx:49 Core/En.x64.Release.Error-2.idtx:49
@@ -405,14 +394,12 @@ msgid ""
 "A network error occurred while attempting to open the source file cabinet: "
 "[2]"
 msgstr ""
-"Beim Versuch, die Quelldatei (CAB-Datei) [2] zu öffnen, ist ein "
-"Netzwerkfehler aufgetreten."
+"Hálózati hiba történt a forrásként szolgáló gyűjtőfájl megnyitásakor: [2]"
 
 #: Core/En.Win32.Debug.Error-2.idtx:46 Core/En.Win32.Release.Error-2.idtx:46
 #: Core/En.x64.Debug.Error-2.idtx:46 Core/En.x64.Release.Error-2.idtx:46
 msgid "A network error occurred while attempting to read from the file: [2]"
-msgstr ""
-"Beim Versuch, die Datei [2] zu lesen, ist ein Netzwerkfehler aufgetreten."
+msgstr "A(z) [2] fájl olvasásakor hálózati hiba történt."
 
 #: Core/En.Win32.Debug.CustomAction-2.idtx:5
 #: Core/En.Win32.Release.CustomAction-2.idtx:5
@@ -427,8 +414,8 @@ msgid ""
 "A portion of the folder path '[2]' is invalid. It is either empty or exceeds "
 "the length allowed by the system."
 msgstr ""
-"Ein Teil des Ordnerpfads \"[2]\" ist ungültig. Er ist entweder leer, oder er "
-"überschreitet die vom System zugelassene Länge."
+"A mappa elérési útjának ('[2]') az egyik része érvénytelen. Üres, vagy "
+"meghaladja a rendszer által engedélyezett hosszúságot."
 
 #: Core/En.Win32.Debug.Error-2.idtx:95 Core/En.Win32.Release.Error-2.idtx:95
 #: Core/En.x64.Debug.Error-2.idtx:95 Core/En.x64.Release.Error-2.idtx:95
@@ -437,53 +424,51 @@ msgid ""
 "changes made by that installation to continue. Do you want to undo those "
 "changes?"
 msgstr ""
-"Im Augenblick wird eine weitere Installation dieses Produkts durchgeführt. "
-"Sie müssen die von dieser Installation vorgenommenen Änderungen rückgängig "
-"machen, bevor Sie den Vorgang fortsetzen können. Möchten Sie diese "
-"Änderungen rückgängig machen?"
+"A termék egy korábbi telepítése már folyamatban van. A folytatáshoz vissza "
+"kell vonnia azokat a változtatásokat, amelyek a másik telepítés alatt "
+"történtek. Kívánja visszavonni a változtatásokat?"
 
 #: Core/En.Win32.Debug.Error-2.idtx:127 Core/En.Win32.Release.Error-2.idtx:127
 #: Core/En.x64.Debug.Error-2.idtx:127 Core/En.x64.Release.Error-2.idtx:127
 msgid "A valid destination folder for the install could not be determined."
-msgstr ""
-"Es konnte kein gültiger Zielordner für die Installation bestimmt werden."
+msgstr "A telepítéshez nem sikerült érvényes célmappát meghatározni."
 
 #: Core/En.Win32.Debug.Error-2.idtx:12 Core/En.Win32.Release.Error-2.idtx:12
 #: Core/En.x64.Debug.Error-2.idtx:12 Core/En.x64.Release.Error-2.idtx:12
 msgid "Action [Time]: [1]. [2]"
-msgstr "Aktion [Time]: [1]. [2]"
+msgstr "Művelet [Time]: [1]. [2]"
 
 #: Core/En.Win32.Debug.Error-2.idtx:19 Core/En.Win32.Release.Error-2.idtx:19
 #: Core/En.x64.Debug.Error-2.idtx:19 Core/En.x64.Release.Error-2.idtx:19
 msgid "Action ended [Time]: [1]. Return value [2]."
-msgstr "Aktion beendet um [Time]: [1]. Rückgabewert [2]."
+msgstr "A művelet befejeződött: [Time]: [1]. Visszatérési érték: [2]."
 
 #: Core/En.Win32.Debug.Error-2.idtx:18 Core/En.Win32.Release.Error-2.idtx:18
 #: Core/En.x64.Debug.Error-2.idtx:18 Core/En.x64.Release.Error-2.idtx:18
 msgid "Action start [Time]: [1]."
-msgstr "Aktion gestartet um [Time]: [1]."
+msgstr "A művelet elkezdődött: [Time]: [1]."
 
 #: Core/En.Win32.Debug.Error-2.idtx:116 Core/En.Win32.Release.Error-2.idtx:116
 #: Core/En.x64.Debug.Error-2.idtx:116 Core/En.x64.Release.Error-2.idtx:116
 msgid "Advertisement completed successfully."
-msgstr "Die Ankündigung wurde erfolgreich abgeschlossen."
+msgstr "A közzététel sikeresen megtörtént."
 
 #: Core/En.Win32.Debug.Error-2.idtx:117 Core/En.Win32.Release.Error-2.idtx:117
 #: Core/En.x64.Debug.Error-2.idtx:117 Core/En.x64.Release.Error-2.idtx:117
 msgid "Advertisement failed."
-msgstr "Die Ankündigung ist fehlgeschlagen."
+msgstr "A közzététel nem sikerült."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:4
 #: UI/En.Win32.Release.ActionText-2.idtx:4 UI/En.x64.Debug.ActionText-2.idtx:4
 #: UI/En.x64.Release.ActionText-2.idtx:4
 msgid "Advertising application"
-msgstr "Anwendungsprogramm wird angeboten"
+msgstr "Alkalmazás közzététele"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:5
 #: UI/En.Win32.Release.ActionText-2.idtx:5 UI/En.x64.Debug.ActionText-2.idtx:5
 #: UI/En.x64.Release.ActionText-2.idtx:5
 msgid "Allocating registry space"
-msgstr "In der Registrierung wird Speicherplatz reserviert"
+msgstr "Rendszerleíró adatbázis helyének kiosztása"
 
 #: UI/En.Win32.Debug.Control-2.idtx:15 UI/En.Win32.Release.Control-2.idtx:15
 #: UI/En.x64.Debug.Control-2.idtx:15 UI/En.x64.Release.Control-2.idtx:15
@@ -512,9 +497,8 @@ msgid ""
 "An error occured during the installation of assembly component [2]. HRESULT: "
 "[3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
 msgstr ""
-"Während der Installation der Assemblierungskomponente [2] ist ein Fehler "
-"aufgetreten. HRESULT: [3]. {{Assemblierungsschnittstelle: [4], Funktion: "
-"[5], Assemblierungsname: [6]}}"
+"Hiba történt az összetevő ([2]) telepítése közben. HRESULT: [3]. {{felület: "
+"[4], függvény: [5], összeállítás neve: [6]}}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:89 Core/En.Win32.Release.Error-2.idtx:89
 #: Core/En.x64.Debug.Error-2.idtx:89 Core/En.x64.Release.Error-2.idtx:89
@@ -525,18 +509,16 @@ msgid ""
 "click Retry, or Cancel to end the install. {{Unable to locate the user's "
 "SID, system error [3]}}"
 msgstr ""
-"Beim Übernehmen der Sicherheitseinstellungen ist ein Fehler aufgetreten. [2] "
-"ist kein gültiger Benutzer bzw. keine gültige Gruppe. Dies kann ein das "
-"Paket betreffendes Problem oder ein bei Herstellung der Netzwerkverbindung "
-"mit dem Domänencontroller aufgetretenes Problem sein. Überprüfen Sie die "
-"Netzwerkverbindung und klicken Sie auf \"Wiederholen\" oder \"Abbrechen\", "
-"um die Installation abzubrechen. {{Die SID des Benutzers wurde nicht "
-"gefunden, Systemfehler [3]}}"
+"Hiba történt a biztonsági beállítások alkalmazása közben. [2] nem érvényes "
+"felhasználó vagy csoport. Ez lehet a csomag hibája, vagy probléma a hálózati "
+"tartományvezérlőhöz való kapcsolódással. Ellenőrizze a hálózati kapcsolatot, "
+"majd kattintson az Ismét gombra, vagy, a telepítés befejezéséhez, a Mégse "
+"gombra. {{A felhasználó helyazonosítója nem található, rendszerhiba: [3]}}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:47 Core/En.Win32.Release.Error-2.idtx:47
 #: Core/En.x64.Debug.Error-2.idtx:47 Core/En.x64.Release.Error-2.idtx:47
 msgid "An error occurred while attempting to create the folder: [2]"
-msgstr "Beim Versuch, den Ordner [2] zu erstellen, ist ein Fehler aufgetreten."
+msgstr "Hiba történt a következő könyvtár létrehozásakor: [2]"
 
 #: Core/En.Win32.Debug.Error-2.idtx:101 Core/En.Win32.Release.Error-2.idtx:101
 #: Core/En.x64.Debug.Error-2.idtx:101 Core/En.x64.Release.Error-2.idtx:101
@@ -545,10 +527,9 @@ msgid ""
 "make sure enough disk space is available, and click Retry, or Cancel to end "
 "the install."
 msgstr ""
-"Beim Versuch, Installationsinformationen auf die Festplatte zu schreiben, "
-"ist ein Fehler aufgetreten. Überprüfen Sie, ob genügend Plattenspeicher "
-"verfügbar ist, und klicken Sie auf \"Wiederholen\". Oder klicken Sie auf "
-"\"Abbrechen\", um die Installation zu abzubrechen."
+"Hiba történt a telepítési adatok lemezre írásakor. Ellenőrizze, hogy a "
+"lemezen van-e elég hely, és kattintson az Ismét gombra, vagy kattintson a "
+"Mégse gombra a telepítés befejezéséhez."
 
 #: Core/En.Win32.Debug.Error-2.idtx:94 Core/En.Win32.Release.Error-2.idtx:94
 #: Core/En.x64.Debug.Error-2.idtx:94 Core/En.x64.Release.Error-2.idtx:94
@@ -556,10 +537,9 @@ msgid ""
 "An installation for [2] is currently suspended. You must undo the changes "
 "made by that installation to continue. Do you want to undo those changes?"
 msgstr ""
-"Eine Installation von [2] ist im Augenblick unterbrochen. Sie müssen die von "
-"dieser Installation vorgenommenen Änderungen rückgängig machen, bevor Sie "
-"den Vorgang fortsetzen können. Möchten Sie diese Änderungen rückgängig "
-"machen?"
+"A(z) [2] telepítése jelenleg fel van függesztve. A folytatáshoz vissza kell "
+"vonnia a telepítés alatt tett változtatásokat. Kívánja visszavonni a "
+"változtatásokat?"
 
 #: Core/En.Win32.Debug.Error-2.idtx:96 Core/En.Win32.Release.Error-2.idtx:96
 #: Core/En.x64.Debug.Error-2.idtx:96 Core/En.x64.Release.Error-2.idtx:96
@@ -567,9 +547,8 @@ msgid ""
 "An installation package for the product [2] cannot be found. Try the "
 "installation again using a valid copy of the installation package '[3]'."
 msgstr ""
-"Für das Produkt [2] wurde kein Installationspaket gefunden. Wiederholen Sie "
-"die Installation und verwenden Sie dabei eine gültige Kopie des "
-"Installationspakets \"[3]\"."
+"A(z) [2] termék telepítéséhez nem sikerült telepítőcsomagot találni. "
+"Próbálja meg újra lefuttatni a telepítést érvényes [3] telepítőcsomaggal."
 
 #: Core/En.Win32.Debug.Error-2.idtx:36 Core/En.Win32.Release.Error-2.idtx:36
 #: Core/En.x64.Debug.Error-2.idtx:36 Core/En.x64.Release.Error-2.idtx:36
@@ -577,8 +556,8 @@ msgid ""
 "Another application has exclusive access to the file '[2]'. Please shut down "
 "all other applications, then click Retry."
 msgstr ""
-"Eine andere Anwendung hat exklusiven Zugriff auf die Datei \"[2]\". Beenden "
-"Sie alle anderen Anwendungen. Klicken Sie danach auf \"Wiederholen\"."
+"Egy másik alkalmazásnak kizárólagos hozzáférése van a(z) '[2]' fájlhoz. "
+"Zárjon be minden más alkalmazást, és kattintson az Ismét gombra."
 
 #: Core/En.Win32.Debug.Error-2.idtx:77 Core/En.Win32.Release.Error-2.idtx:77
 #: Core/En.x64.Debug.Error-2.idtx:77 Core/En.x64.Release.Error-2.idtx:77
@@ -586,22 +565,20 @@ msgid ""
 "Another installation is in progress. You must complete that installation "
 "before continuing this one."
 msgstr ""
-"Im Augenblick wird eine weitere Installation ausgeführt. Sie müssen erst die "
-"zweite Installation abschließen, bevor Sie diese Installation fortsetzen "
-"können."
+"Egy másik telepítés folyamatban van. Előbb be kell fejezni a másik "
+"telepítést, mielőtt az új telepítést folytatná."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:35
 #: UI/En.Win32.Release.ActionText-2.idtx:35
 #: UI/En.x64.Debug.ActionText-2.idtx:35 UI/En.x64.Release.ActionText-2.idtx:35
 msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-msgstr ""
-"Anwendungskennung: [1]{{, Anwendungstyp: [2], Benutzer: [3], RSN: [4]}}"
+msgstr "Alk.: [1]{{, Alk. típus: [2], Felhasználók: [3], Sorozatsz.: [4]}}"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:65
 #: UI/En.Win32.Release.ActionText-2.idtx:65
 #: UI/En.x64.Debug.ActionText-2.idtx:65 UI/En.x64.Release.ActionText-2.idtx:65
 msgid "AppId: [1]{{, AppType: [2]}}"
-msgstr "Anwendungskennung: [1]{{, Anwendungstyp: [2]}}"
+msgstr "Alk.: [1]{{, Alk. típus: [2]}}"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:27
 #: UI/En.Win32.Debug.ActionText-2.idtx:28
@@ -611,36 +588,36 @@ msgstr "Anwendungskennung: [1]{{, Anwendungstyp: [2]}}"
 #: UI/En.x64.Release.ActionText-2.idtx:27
 #: UI/En.x64.Release.ActionText-2.idtx:28
 msgid "Application Context:[1], Assembly Name:[2]"
-msgstr "Anwendungskontext:[1], Assemblierungsname:[2]"
+msgstr "Alkalmazás kontextusa:[1], összeállítás neve:[2]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:25
 #: UI/En.Win32.Release.ActionText-2.idtx:25
 #: UI/En.x64.Debug.ActionText-2.idtx:25 UI/En.x64.Release.ActionText-2.idtx:25
 msgid "Application: [1]"
-msgstr "Anwendung: [1]"
+msgstr "Alkalmazás: [1]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:45
 #: UI/En.Win32.Release.ActionText-2.idtx:45
 #: UI/En.x64.Debug.ActionText-2.idtx:45 UI/En.x64.Release.ActionText-2.idtx:45
 msgid "Application: [1], Command line: [2]"
-msgstr "Anwendung: [1], Befehlszeile: [2]"
+msgstr "Alkalmazás: [1], Parancssor: [2]"
 
 #: UI/En.Win32.Debug.Control-2.idtx:91 UI/En.Win32.Release.Control-2.idtx:91
 #: UI/En.x64.Debug.Control-2.idtx:88 UI/En.x64.Release.Control-2.idtx:88
 #, fuzzy
 msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-msgstr "Sind Sie sicher, dass Sie abbrechen möchten?"
+msgstr "Biztos, hogy megszakítja a telepítést?"
 
 #: Core/En.Win32.Debug.Error-2.idtx:82 Core/En.Win32.Release.Error-2.idtx:82
 #: Core/En.x64.Debug.Error-2.idtx:82 Core/En.x64.Release.Error-2.idtx:82
 msgid "Are you sure you want to cancel?"
-msgstr "Sind Sie sicher, dass Sie abbrechen möchten?"
+msgstr "Biztos, hogy megszakítja a telepítést?"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:7
 #: UI/En.Win32.Release.ActionText-2.idtx:7 UI/En.x64.Debug.ActionText-2.idtx:7
 #: UI/En.x64.Release.ActionText-2.idtx:7
 msgid "Binding executables"
-msgstr "Ausführbare Dateien werden gebunden"
+msgstr "Programok kötése"
 
 #: UI/En.Win32.Debug.Control-2.idtx:52 UI/En.Win32.Debug.Control-2.idtx:63
 #: UI/En.Win32.Release.Control-2.idtx:52 UI/En.Win32.Release.Control-2.idtx:63
@@ -691,9 +668,8 @@ msgstr ""
 #: UI/En.x64.Release.Control-2.idtx:55 UI/En.x64.Release.Control-2.idtx:66
 #: UI/En.x64.Release.Control-2.idtx:70 UI/En.x64.Release.Control-2.idtx:75
 #: UI/En.x64.Release.Control-2.idtx:8 UI/En.x64.Release.Control-2.idtx:82
-#, fuzzy
 msgid "binUIHeader.bmp"
-msgstr "binUIHeader.bmp"
+msgstr ""
 
 #: UI/En.Win32.Debug.Control-2.idtx:90 UI/En.Win32.Debug.Control-2.idtx:94
 #: UI/En.Win32.Release.Control-2.idtx:90 UI/En.Win32.Release.Control-2.idtx:94
@@ -730,7 +706,9 @@ msgstr ""
 #: UI/En.x64.Release.Control-2.idtx:94 UI/En.x64.Release.Control-2.idtx:97
 #, fuzzy
 msgid "Cancel"
-msgstr "Abbrechen"
+msgstr ""
+"A(z) '[2]' fájlt nem lehet létrehozni, mert ilyen nevű könyvtár már létezik. "
+"Szakítsa meg a telepítést, és próbáljon meg egy másik helyre telepíteni."
 
 #: Core/En.Win32.Debug.Error-2.idtx:31 Core/En.Win32.Release.Error-2.idtx:31
 #: Core/En.x64.Debug.Error-2.idtx:31 Core/En.x64.Release.Error-2.idtx:31
@@ -738,9 +716,8 @@ msgid ""
 "Cannot create the file '[2]'. A folder with this name already exists. Cancel "
 "the install and try installing to a different location."
 msgstr ""
-"Datei \"[2]\" kann nicht erstellt werden. Es existiert bereits ein Ordner "
-"mit dem gleichen Namen. Brechen Sie die Installation ab und versuchen Sie, "
-"in einen anderen Ordner zu installieren."
+"A(z) '[2]' fájlt nem lehet létrehozni, mert ilyen nevű könyvtár már létezik. "
+"Szakítsa meg a telepítést, és próbáljon meg egy másik helyre telepíteni."
 
 #: Core/En.Win32.Debug.Error-2.idtx:42 Core/En.Win32.Release.Error-2.idtx:42
 #: Core/En.x64.Debug.Error-2.idtx:42 Core/En.x64.Release.Error-2.idtx:42
@@ -748,10 +725,9 @@ msgid ""
 "Cannot create the folder '[2]'. A file with this name already exists. Please "
 "rename or remove the file and click retry, or click Cancel to exit."
 msgstr ""
-"Ordner \"[2]\" kann nicht erstellt werden. Eine Datei mit diesem Namen "
-"existiert bereits. Benennen Sie die Datei um oder entfernen Sie die Datei, "
-"und klicken Sie dann auf \"Wiederholen\". Oder klicken Sie auf \"Abbrechen"
-"\", um das Programm zu beenden."
+"A(z) '[2]' könyvtárat nem lehet létrehozni. Ezzel a névvel már létezik egy "
+"fájl. Törölje vagy nevezze át a fájlt, és kattintson az Ismét gombra, vagy "
+"kattintson a Mégse gombra a kilépéshez."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:34
 #: UI/En.Win32.Debug.ActionText-2.idtx:64
@@ -761,7 +737,7 @@ msgstr ""
 #: UI/En.x64.Release.ActionText-2.idtx:34
 #: UI/En.x64.Release.ActionText-2.idtx:64
 msgid "Class Id: [1]"
-msgstr "Klassenkennung: [1]"
+msgstr "Class Id: [1]"
 
 #: UI/En.Win32.Debug.Control-2.idtx:36 UI/En.Win32.Release.Control-2.idtx:36
 #: UI/En.x64.Debug.Control-2.idtx:33 UI/En.x64.Release.Control-2.idtx:33
@@ -777,7 +753,7 @@ msgstr ""
 #: UI/En.x64.Release.ActionText-2.idtx:31
 #: UI/En.x64.Release.ActionText-2.idtx:61
 msgid "Component ID: [1], Qualifier: [2]"
-msgstr "Komponentenkennung: [1], Kennzeichner: [2]"
+msgstr "Összetevőazonosító: [1], Minősítésjelző: [2]"
 
 #: Core/En.Win32.Debug.Error-2.idtx:154 Core/En.Win32.Release.Error-2.idtx:154
 #: Core/En.x64.Debug.Error-2.idtx:154 Core/En.x64.Release.Error-2.idtx:154
@@ -786,9 +762,9 @@ msgid ""
 "installation requires Component Services in order to complete successfully. "
 "Component Services are available on Windows 2000."
 msgstr ""
-"Komponentendienste (COM+ 1.0) sind auf diesem Computer nicht installiert. Um "
-"diese Installation erfolgreich abzuschließen, müssen Komponentendienste "
-"installiert sein. Komponentendienste stehen unter Windows 2000 zur Verfügung."
+"A Component Services (COM+ 1.0) nincs telepítve a számítógépen. A sikeres "
+"telepítéshez szükséges a Component Services. A Component Services "
+"szolgáltatások Windows 2000 rendszeren érhetők el."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:10
 #: UI/En.Win32.Debug.ActionText-2.idtx:15 UI/En.Win32.Debug.ActionText-2.idtx:9
@@ -799,39 +775,39 @@ msgstr ""
 #: UI/En.x64.Release.ActionText-2.idtx:10
 #: UI/En.x64.Release.ActionText-2.idtx:15 UI/En.x64.Release.ActionText-2.idtx:9
 msgid "Computing space requirements"
-msgstr "Speicherbedarf wird berechnet"
+msgstr "A szükséges terület kiszámítása"
 
 #: Core/En.Win32.Debug.Error-2.idtx:118 Core/En.Win32.Release.Error-2.idtx:118
 #: Core/En.x64.Debug.Error-2.idtx:118 Core/En.x64.Release.Error-2.idtx:118
 msgid "Configuration completed successfully."
-msgstr "Die Konfiguration wurde erfolgreich abgeschlossen."
+msgstr "A konfigurálás sikeresen megtörtént."
 
 #: Core/En.Win32.Debug.Error-2.idtx:119 Core/En.Win32.Release.Error-2.idtx:119
 #: Core/En.x64.Debug.Error-2.idtx:119 Core/En.x64.Release.Error-2.idtx:119
 msgid "Configuration failed."
-msgstr "Die Konfiguration ist fehlgeschlagen."
+msgstr "A konfigurálás nem sikerült."
 
 #: Core/En.Win32.Debug.Error-2.idtx:106 Core/En.Win32.Release.Error-2.idtx:106
 #: Core/En.x64.Debug.Error-2.idtx:106 Core/En.x64.Release.Error-2.idtx:106
 msgid "Configured [2]"
-msgstr "[2] wird konfiguriert"
+msgstr "Konfigurálva: [2]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:18
 #: UI/En.Win32.Release.ActionText-2.idtx:18
 #: UI/En.x64.Debug.ActionText-2.idtx:18 UI/En.x64.Release.ActionText-2.idtx:18
 msgid "Copying network install files"
-msgstr "Netzwerkinstallationsdateien werden kopiert"
+msgstr "Hálózati telepítőfájlok másolása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:19
 #: UI/En.Win32.Release.ActionText-2.idtx:19
 #: UI/En.x64.Debug.ActionText-2.idtx:19 UI/En.x64.Release.ActionText-2.idtx:19
 msgid "Copying new files"
-msgstr "Neue Dateien werden kopiert"
+msgstr "Új fájlok másolása"
 
 #: Core/En.Win32.Debug.Error-2.idtx:86 Core/En.Win32.Release.Error-2.idtx:86
 #: Core/En.x64.Debug.Error-2.idtx:86 Core/En.x64.Release.Error-2.idtx:86
 msgid "Could not access network location [2]."
-msgstr "Zugriff auf die Netzwerkadresse [2] war nicht möglich."
+msgstr "A következő hálózati helyet nem sikerült elérni: [2]."
 
 #: Core/En.Win32.Debug.Error-2.idtx:67 Core/En.Win32.Release.Error-2.idtx:67
 #: Core/En.x64.Debug.Error-2.idtx:67 Core/En.x64.Release.Error-2.idtx:67
@@ -839,9 +815,9 @@ msgid ""
 "Could not create key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Schlüssel konnte nicht erstellt werden: [2]. {{ Systemfehler [3].}} "
-"Überprüfen Sie, ob Sie ausreichende Zugriffsrechte auf diesen Schlüssel "
-"besitzen, oder setzen Sie sich mit dem Supportpersonal in Verbindung. "
+"A következő kulcsot nem lehet létrehozni: [2]. {{ Rendszerhiba [3].}} "
+"Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési joggal a kulcshoz, vagy "
+"forduljon a technikusokhoz. "
 
 #: Core/En.Win32.Debug.Error-2.idtx:136 Core/En.Win32.Release.Error-2.idtx:136
 #: Core/En.x64.Debug.Error-2.idtx:136 Core/En.x64.Release.Error-2.idtx:136
@@ -849,8 +825,8 @@ msgid ""
 "Could not create Shortcut [2]. Verify that the destination folder exists and "
 "that you can access it."
 msgstr ""
-"Verknüpfung [2] konnte nicht erstellt werden. Überprüfen Sie, ob der "
-"Zielordner vorhanden ist und ob Sie Zugriff darauf haben."
+"A(z) [2] parancsikon létrehozása nem sikerült. Ellenőrizze, hogy a célmappa "
+"létezik-e, és hogy el tudja-e érni."
 
 #: Core/En.Win32.Debug.Error-2.idtx:70 Core/En.Win32.Release.Error-2.idtx:70
 #: Core/En.x64.Debug.Error-2.idtx:70 Core/En.x64.Release.Error-2.idtx:70
@@ -858,9 +834,9 @@ msgid ""
 "Could not delete key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Schlüssel konnte nicht gelöscht werden: [2]. {{ Systemfehler [3].}} "
-"Überprüfen Sie, ob Sie ausreichende Zugriffsrechte auf diesen Schlüssel "
-"besitzen, oder setzen Sie sich mit dem Supportpersonal in Verbindung. "
+"A(z) [2] kulcsot nem sikerült törölni. {{ Rendszerhiba [3].}} Ellenőrizze, "
+"hogy rendelkezik-e elegendő hozzáférési joggal a kulcshoz, vagy forduljon a "
+"technikusokhoz. "
 
 #: Core/En.Win32.Debug.Error-2.idtx:69 Core/En.Win32.Release.Error-2.idtx:69
 #: Core/En.x64.Debug.Error-2.idtx:69 Core/En.x64.Release.Error-2.idtx:69
@@ -868,10 +844,9 @@ msgid ""
 "Could not delete value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Wert [2] konnte nicht aus Schlüssel [3] gelöscht werden. {{ Systemfehler "
-"[4].}} Überprüfen Sie, ob Sie ausreichende Zugriffsrechte auf diesen "
-"Schlüssel besitzen, oder setzen Sie sich mit dem Supportpersonal in "
-"Verbindung. "
+"A(z) [3] kulcsból nem sikerült törölni a(z) [2] értéket. {{ Rendszerhiba "
+"[4].}} Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési joggal a "
+"kulcshoz, vagy forduljon a technikusokhoz. "
 
 #: Core/En.Win32.Debug.Error-2.idtx:88 Core/En.Win32.Release.Error-2.idtx:88
 #: Core/En.x64.Debug.Error-2.idtx:88 Core/En.x64.Release.Error-2.idtx:88
@@ -879,8 +854,8 @@ msgid ""
 "Could not find any previously installed compliant products on the machine "
 "for installing this product."
 msgstr ""
-"Es wurde keine Installation eines der zur Installation dieses Produkts "
-"erforderlichen passenden Produkte auf diesem Computer gefunden."
+"A gépen nem található olyan, korábban már telepített egyéb termék, amely "
+"ennek a terméknek a telepítéséhez szükséges."
 
 #: Core/En.Win32.Debug.Error-2.idtx:74 Core/En.Win32.Release.Error-2.idtx:74
 #: Core/En.x64.Debug.Error-2.idtx:74 Core/En.x64.Release.Error-2.idtx:74
@@ -888,10 +863,9 @@ msgid ""
 "Could not get sub key names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
-"Die Namen der untergeordneten Schlüssel des Schlüssels [2] konnten nicht "
-"bestimmt werden. {{ Systemfehler [3].}} Überprüfen Sie, ob Sie ausreichende "
-"Zugriffsrechte auf diesen Schlüssel besitzen, oder setzen Sie sich mit dem "
-"Supportpersonal in Verbindung. "
+"Nem sikerült a(z) [2] kulcshoz tartozó alkulcsokat betölteni. "
+"{{ Rendszerhiba [3].}} Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési "
+"joggal a kulcshoz, vagy forduljon a technikusokhoz."
 
 #: Core/En.Win32.Debug.Error-2.idtx:73 Core/En.Win32.Release.Error-2.idtx:73
 #: Core/En.x64.Debug.Error-2.idtx:73 Core/En.x64.Release.Error-2.idtx:73
@@ -899,10 +873,9 @@ msgid ""
 "Could not get value names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
-"Die Schlüsselnamen für den Schlüssel [2] konnten nicht gelesen werden. "
-"{{ Systemfehler [3].}} Überprüfen Sie, ob Sie ausreichende Zugriffsrechte "
-"auf diesen Schlüssel besitzen, oder setzen Sie sich mit dem Supportpersonal "
-"in Verbindung."
+"Nem sikerült a(z) [2] kulcshoz tartozó értékneveket betölteni. "
+"{{ Rendszerhiba [3].}} Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési "
+"joggal a kulcshoz, vagy forduljon a technikusokhoz."
 
 #: Core/En.Win32.Debug.Error-2.idtx:76 Core/En.Win32.Release.Error-2.idtx:76
 #: Core/En.x64.Debug.Error-2.idtx:76 Core/En.x64.Release.Error-2.idtx:76
@@ -910,9 +883,8 @@ msgid ""
 "Could not increase the available registry space. [2] KB of free registry "
 "space is required for the installation of this application."
 msgstr ""
-"Der verfügbare Registrierungsspeicher konnte nicht vergrößert werden. [2] KB "
-"freier Registrierungsspeicher sind zum Installieren dieser Anwendung "
-"erforderlich."
+"Nem sikerült növelni a regisztrációs helyet. Ennek az alkalmazásnak a "
+"telepítéséhez [2] KB szabad regisztrációs hely szükséges."
 
 #: Core/En.Win32.Debug.Error-2.idtx:68 Core/En.Win32.Release.Error-2.idtx:68
 #: Core/En.x64.Debug.Error-2.idtx:68 Core/En.x64.Release.Error-2.idtx:68
@@ -920,9 +892,9 @@ msgid ""
 "Could not open key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Schlüssel konnte nicht geöffnet werden: [2]. {{ Systemfehler [3].}} "
-"Überprüfen Sie, ob Sie ausreichende Zugriffsrechte auf diesen Schlüssel "
-"besitzen, oder setzen Sie sich mit dem Supportpersonal in Verbindung. "
+"A következő kulcsot nem sikerült megnyitni: [2]. {{ Rendszerhiba [3].}} "
+"Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési joggal a kulcshoz, vagy "
+"forduljon a technikusokhoz. "
 
 #: Core/En.Win32.Debug.Error-2.idtx:75 Core/En.Win32.Release.Error-2.idtx:75
 #: Core/En.x64.Debug.Error-2.idtx:75 Core/En.x64.Release.Error-2.idtx:75
@@ -931,10 +903,9 @@ msgid ""
 "Verify that you have sufficient access to that key, or contact your support "
 "personnel."
 msgstr ""
-"Die Sicherheitsinformation für den Schlüssel [2] konnte nicht gelesen "
-"werden. {{ Systemfehler [3].}} Überprüfen Sie, ob Sie über ausreichende "
-"Zugriffsrechte auf diesen Schlüssel verfügen, oder setzen Sie sich mit dem "
-"Supportpersonal in Verbindung."
+"A(z) [2] kulcshoz tartozó adatbiztonsági információ beolvasása nem sikerült. "
+"{{ Rendszerhiba [3].}} Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési "
+"joggal a kulcshoz, vagy forduljon a technikusokhoz."
 
 #: Core/En.Win32.Debug.Error-2.idtx:71 Core/En.Win32.Release.Error-2.idtx:71
 #: Core/En.x64.Debug.Error-2.idtx:71 Core/En.x64.Release.Error-2.idtx:71
@@ -942,10 +913,9 @@ msgid ""
 "Could not read value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Wert [2] konnte nicht aus Schlüssel [3] gelesen werden. {{ Systemfehler "
-"[4].}} Überprüfen Sie, ob Sie ausreichende Zugriffsrechte auf diesen "
-"Schlüssel besitzen, oder setzen Sie sich mit dem Supportpersonal in "
-"Verbindung. "
+"A(z) [3] kulcsban a(z) [2] érték nem olvasható. {{ Rendszerhiba [4].}} "
+"Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési joggal a kulcshoz, vagy "
+"forduljon a technikusokhoz. "
 
 #: Core/En.Win32.Debug.Error-2.idtx:134 Core/En.Win32.Release.Error-2.idtx:134
 #: Core/En.x64.Debug.Error-2.idtx:134 Core/En.x64.Release.Error-2.idtx:134
@@ -953,17 +923,17 @@ msgid ""
 "Could not register font [2]. Verify that you have sufficient permissions to "
 "install fonts, and that the system supports this font."
 msgstr ""
-"Schriftart [2] konnte nicht registriert werden. Überprüfen Sie, ob Sie "
-"ausreichende Zugriffsrechte zum Installieren von Schriftarten besitzen und "
-"ob das System diese Schriftart unterstützt."
+"A(z) [2] betűkészlet regisztrációja nem sikerült. Ellenőrizze, hogy "
+"rendelkezik-e a betűkészletek telepítéséhez szükséges engedélyekkel, és hogy "
+"a rendszer támogatja-e ezt a betűkészletet."
 
 #: Core/En.Win32.Debug.Error-2.idtx:138 Core/En.Win32.Release.Error-2.idtx:138
 #: Core/En.x64.Debug.Error-2.idtx:138 Core/En.x64.Release.Error-2.idtx:138
 msgid ""
 "Could not register type library for file [2]. Contact your support personnel."
 msgstr ""
-"Typbibliothek für Datei [2] konnte nicht registriert werden. Setzen Sie sich "
-"mit dem Supportpersonal in Verbindung."
+"Nem sikerült a(z) [2] fájl típustárának a regisztrációja. Forduljon a "
+"technikusokhoz."
 
 #: Core/En.Win32.Debug.Error-2.idtx:137 Core/En.Win32.Release.Error-2.idtx:137
 #: Core/En.x64.Debug.Error-2.idtx:137 Core/En.x64.Release.Error-2.idtx:137
@@ -971,8 +941,8 @@ msgid ""
 "Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
 "you can access it."
 msgstr ""
-"Verknüpfung [2] konnte nicht entfernt werden. Überprüfen Sie, ob die "
-"Verknüpfungsdatei vorhanden ist und ob Sie darauf Zugriff haben."
+"A(z) [2] parancsikont nem sikerült eltávolítani. Ellenőrizze, hogy a "
+"hivatkozott fájl létezik-e, és hogy el tudja-e érni."
 
 #: Core/En.Win32.Debug.Error-2.idtx:141 Core/En.Win32.Release.Error-2.idtx:141
 #: Core/En.x64.Debug.Error-2.idtx:141 Core/En.x64.Release.Error-2.idtx:141
@@ -980,9 +950,9 @@ msgid ""
 "Could not schedule file [2] to replace file [3] on reboot. Verify that you "
 "have write permissions to file [3]."
 msgstr ""
-"Es war nicht möglich festzulegen, dass Datei [3] beim Neustart des Computers "
-"durch Datei [2] ersetzt wird. Überprüfen Sie, ob Sie Schreibzugriff auf "
-"Datei [3] haben."
+"Nem sikerült beütemezni, hogy újraindításkor a(z) [3] fájl felváltsa a(z) "
+"[2] fájlt. Ellenőrizze, hogy rendelkezik-e a(z) [3] fájl írásához szükséges "
+"engedélyekkel."
 
 #: Core/En.Win32.Debug.Error-2.idtx:153 Core/En.Win32.Release.Error-2.idtx:153
 #: Core/En.x64.Debug.Error-2.idtx:153 Core/En.x64.Release.Error-2.idtx:153
@@ -990,9 +960,9 @@ msgid ""
 "Could not set file security for file '[3]'. Error: [2]. Verify that you have "
 "sufficient privileges to modify the security permissions for this file."
 msgstr ""
-"Dateisicherheit für Datei \"[3]\" konnte nicht eingestellt werden. Fehler: "
-"[2]. Überprüfen Sie, ob Sie ausreichende Berechtigungen zum Ändern der "
-"Sicherheitsrechte für diese Datei besitzen."
+"A(z) '[3]' fájl biztonsági tulajdonságait nem sikerült beállítani. Hiba: "
+"[2]. Ellenőrizze, hogy rendelkezik-e elegendő jogosultsággal a fájl "
+"biztonsági engedélyeinek módosításához."
 
 #: Core/En.Win32.Debug.Error-2.idtx:135 Core/En.Win32.Release.Error-2.idtx:135
 #: Core/En.x64.Debug.Error-2.idtx:135 Core/En.x64.Release.Error-2.idtx:135
@@ -1000,9 +970,9 @@ msgid ""
 "Could not unregister font [2]. Verify that you that you have sufficient "
 "permissions to remove fonts."
 msgstr ""
-"Schriftart [2] konnte nicht aus der Registrierung entfernt werden. "
-"Überprüfen Sie, ob Sie ausreichende Berechtigungen zum Entfernen von "
-"Schriftarten besitzen."
+"A(z) [2] betűkészlet rendszerleíró bejegyzéseit nem sikerült törölni. "
+"Ellenőrizze, hogy rendelkezik-e a betűkészletek eltávolításához szükséges "
+"engedélyekkel."
 
 #: Core/En.Win32.Debug.Error-2.idtx:139 Core/En.Win32.Release.Error-2.idtx:139
 #: Core/En.x64.Debug.Error-2.idtx:139 Core/En.x64.Release.Error-2.idtx:139
@@ -1010,8 +980,8 @@ msgid ""
 "Could not unregister type library for file [2]. Contact your support "
 "personnel."
 msgstr ""
-"Typbibliothek für Datei [2] konnte nicht aus der Registrierung entfernt "
-"werden. Setzen Sie sich mit dem Supportpersonal in Verbindung."
+"Nem sikerült a(z) [2] fájlhoz tartozó típustár regisztrációjának törlése. "
+"Forduljon a technikusokhoz."
 
 #: Core/En.Win32.Debug.Error-2.idtx:151 Core/En.Win32.Release.Error-2.idtx:151
 #: Core/En.x64.Debug.Error-2.idtx:151 Core/En.x64.Release.Error-2.idtx:151
@@ -1019,9 +989,8 @@ msgid ""
 "Could not update environment variable '[2]'. Verify that you have sufficient "
 "privileges to modify environment variables."
 msgstr ""
-"Umgebungsvariable \"[2]\" konnte nicht aktualisiert werden. Überprüfen Sie, "
-"ob Sie ausreichende Berechtigungen zum Ändern von Umgebungsvariablen "
-"besitzen."
+"A környezeti változó ([2]) frissítése nem sikerült. Ellenőrizze, hogy "
+"rendelkezik-e elegendő jogosultsággal környezeti változók módosításához."
 
 #: Core/En.Win32.Debug.Error-2.idtx:140 Core/En.Win32.Release.Error-2.idtx:140
 #: Core/En.x64.Debug.Error-2.idtx:140 Core/En.x64.Release.Error-2.idtx:140
@@ -1029,8 +998,8 @@ msgid ""
 "Could not update the ini file [2][3]. Verify that the file exists and that "
 "you can access it."
 msgstr ""
-"Aktualisieren der INI-Datei war nicht möglich: [2][3]. Überprüfen Sie, ob "
-"die Datei vorhanden ist und ob Sie darauf Zugriff haben."
+"Az .ini fájl ([2][3]) frissítése nem sikerült. Ellenőrizze, hogy a fájl "
+"létezik-e, és hogy van-e hozzáférési engedélye."
 
 #: Core/En.Win32.Debug.Error-2.idtx:72 Core/En.Win32.Release.Error-2.idtx:72
 #: Core/En.x64.Debug.Error-2.idtx:72 Core/En.x64.Release.Error-2.idtx:72
@@ -1038,10 +1007,9 @@ msgid ""
 "Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
 "have sufficient access to that key, or contact your support personnel."
 msgstr ""
-"Wert [2] konnte nicht unter den Schlüssel [3] geschrieben werden. "
-"{{ Systemfehler [4].}} Überprüfen Sie, ob Sie ausreichende Zugriffsrechte "
-"auf diesen Schlüssel besitzen, oder setzen Sie sich mit dem Supportpersonal "
-"in Verbindung."
+"A(z) [2] értéket nem sikerült beírni a(z) [3] kulcsba. {{ Rendszerhiba "
+"[4].}} Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési joggal a "
+"kulcshoz, vagy forduljon a technikusokhoz."
 
 #: UI/En.Win32.Debug.Control-2.idtx:52 UI/En.Win32.Debug.Control-2.idtx:63
 #: UI/En.Win32.Release.Control-2.idtx:52 UI/En.Win32.Release.Control-2.idtx:63
@@ -1049,31 +1017,31 @@ msgstr ""
 #: UI/En.x64.Release.Control-2.idtx:49 UI/En.x64.Release.Control-2.idtx:60
 #, fuzzy
 msgid "Create A New Folder|"
-msgstr "Ordner werden erstellt"
+msgstr "Mappák létrehozása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:14
 #: UI/En.Win32.Release.ActionText-2.idtx:14
 #: UI/En.x64.Debug.ActionText-2.idtx:14 UI/En.x64.Release.ActionText-2.idtx:14
 msgid "Creating duplicate files"
-msgstr "Dateien werden dupliziert"
+msgstr "Másolatfájlok létrehozása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:11
 #: UI/En.Win32.Release.ActionText-2.idtx:11
 #: UI/En.x64.Debug.ActionText-2.idtx:11 UI/En.x64.Release.ActionText-2.idtx:11
 msgid "Creating folders"
-msgstr "Ordner werden erstellt"
+msgstr "Mappák létrehozása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:12
 #: UI/En.Win32.Release.ActionText-2.idtx:12
 #: UI/En.x64.Debug.ActionText-2.idtx:12 UI/En.x64.Release.ActionText-2.idtx:12
 msgid "Creating shortcuts"
-msgstr "Verknüpfungen werden erstellt"
+msgstr "Parancsikonok létrehozása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:13
 #: UI/En.Win32.Release.ActionText-2.idtx:13
 #: UI/En.x64.Debug.ActionText-2.idtx:13 UI/En.x64.Release.ActionText-2.idtx:13
 msgid "Deleting services"
-msgstr "Dienste werden gelöscht"
+msgstr "Szolgáltatások törlése"
 
 #: UI/En.Win32.Debug.ControlEvent-2.idtx:4
 #: UI/En.Win32.Debug.ControlEvent-2.idtx:5
@@ -1084,7 +1052,7 @@ msgstr "Dienste werden gelöscht"
 #: UI/En.x64.Release.ControlEvent-2.idtx:5
 #, fuzzy
 msgid "Determining required space for installation..."
-msgstr "Erforderliche Daten werden ermittelt..."
+msgstr "A kért adatok összegyűjtése..."
 
 #: UI/En.Win32.Debug.Control-2.idtx:45 UI/En.Win32.Release.Control-2.idtx:45
 #: UI/En.x64.Debug.Control-2.idtx:42 UI/En.x64.Release.Control-2.idtx:42
@@ -1097,8 +1065,8 @@ msgid ""
 "Error accessing secured data. Please make sure the Windows Installer is "
 "configured properly and try the install again."
 msgstr ""
-"Fehler beim Zugriff auf gesicherte Daten. Stellen Sie sicher, dass Windows "
-"Installer korrekt konfiguriert ist und wiederholen Sie die Installation."
+"Hiba a biztonságos adat elérésekor. Ellenőrizze, hogy a Windows Installer "
+"megfelelően van-e telepítve, és próbálkozzon újra a telepítéssel."
 
 #: Core/En.Win32.Debug.Error-2.idtx:58 Core/En.Win32.Release.Error-2.idtx:58
 #: Core/En.x64.Debug.Error-2.idtx:58 Core/En.x64.Release.Error-2.idtx:58
@@ -1107,16 +1075,15 @@ msgid ""
 "means, and can no longer be modified by this patch. For more information "
 "contact your patch vendor. {{System Error: [3]}}"
 msgstr ""
-"Fehler bei der Anwendung des Patch auf Datei [2]. Die Datei wurde "
-"wahrscheinlich bereits auf andere Weise aktualisiert und kann von diesem "
-"Patch nicht mehr verändert werden. Wenden Sie sich mit Fragen an den "
-"Patchhersteller. {{Systemfehler: [3]}}"
+"Hiba a fájlra ([2]) alkalmazott javítás során. Valószínűleg már frissítve "
+"lett valamilyen módon, így már nem frissíthető ezzel a javítócsomaggal. "
+"További információért forduljon a javítócsomag forgalmazójához. "
+"{{Rendszerhiba: [3]}}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:128 Core/En.Win32.Release.Error-2.idtx:128
 #: Core/En.x64.Debug.Error-2.idtx:128 Core/En.x64.Release.Error-2.idtx:128
 msgid "Error attempting to read from the source install database: [2]."
-msgstr ""
-"Fehler beim Versuch, von der Quellinstallationsdatenbank zu lesen: [2]."
+msgstr "Hiba történt a telepítési adatbázis olvasásakor: [2]."
 
 #: Core/En.Win32.Debug.Error-2.idtx:146 Core/En.Win32.Release.Error-2.idtx:146
 #: Core/En.x64.Debug.Error-2.idtx:146 Core/En.x64.Release.Error-2.idtx:146
@@ -1124,14 +1091,14 @@ msgid ""
 "Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that "
 "the file [4] exists and that you can access it."
 msgstr ""
-"Fehler beim Konfigurieren der ODBC-Datenquelle: [4], ODBC-Fehler [2]: [3]. "
-"Überprüfen Sie, ob die Datei [4] vorhanden ist und ob Sie darauf Zugriff "
-"haben."
+"Az ODBC adatforrás konfigurálásakor hiba történt: [4]. ODBC hiba [2]: [3]. "
+"Ellenőrizze, hogy a(z) [4] fájl létezik-e, és hogy van-e hozzáférési "
+"engedélye."
 
 #: Core/En.Win32.Debug.Error-2.idtx:56 Core/En.Win32.Release.Error-2.idtx:56
 #: Core/En.x64.Debug.Error-2.idtx:56 Core/En.x64.Release.Error-2.idtx:56
 msgid "Error getting file security: [3] GetLastError: [2]"
-msgstr "Fehler beim Abrufen der Dateisicherheit: [3] GetLastError: [2]"
+msgstr "Hiba a fájl adatvédelmi adatainak fogadásakor: [3]. GetLastError: [2]"
 
 #: Core/En.Win32.Debug.Error-2.idtx:143 Core/En.Win32.Release.Error-2.idtx:143
 #: Core/En.x64.Debug.Error-2.idtx:143 Core/En.x64.Release.Error-2.idtx:143
@@ -1139,8 +1106,8 @@ msgid ""
 "Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
 msgstr ""
-"Fehler bei der Installation des ODBC-Treibermanagers. ODBC-Fehler [2]: [3]. "
-"Setzen Sie sich mit dem Supportpersonal in Verbindung."
+"Az ODBC illesztőprogram-kezelő telepítésekor hiba történt. ODBC hiba [2]: "
+"[3]. Forduljon a technikusokhoz."
 
 #: Core/En.Win32.Debug.Error-2.idtx:145 Core/En.Win32.Release.Error-2.idtx:145
 #: Core/En.x64.Debug.Error-2.idtx:145 Core/En.x64.Release.Error-2.idtx:145
@@ -1148,9 +1115,9 @@ msgid ""
 "Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
 "[4] exists and that you can access it."
 msgstr ""
-"Fehler beim Installieren des ODBC-Treibers: [4], ODBC-Fehler [2]: [3]. "
-"Überprüfen Sie, ob die Datei [4] vorhanden ist und ob Sie darauf Zugriff "
-"haben."
+"Az ODBC illesztőprogram telepítésekor hiba történt: [4]. ODBC hiba [2]: [3]. "
+"Ellenőrizze, hogy a(z) [4] fájl létezik-e, és hogy van-e hozzáférési "
+"engedélye."
 
 #: Core/En.Win32.Debug.Error-2.idtx:35 Core/En.Win32.Release.Error-2.idtx:35
 #: Core/En.x64.Debug.Error-2.idtx:35 Core/En.x64.Release.Error-2.idtx:35
@@ -1158,8 +1125,8 @@ msgid ""
 "Error reading from file [2]. {{ System error [3].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
-"Fehler beim Lesen von Datei: [2] {{ Systemfehler [3].}} Überprüfen Sie, ob "
-"die Datei existiert und ob Sie darauf zugreifen können."
+"Hiba a(z) [2] fájl olvasásakor. {{ Rendszerhiba: [3].}} Ellenőrizze, hogy a "
+"fájl létezik-e, és hogy van-e hozzáférési engedélye."
 
 #: Core/En.Win32.Debug.Error-2.idtx:30 Core/En.Win32.Release.Error-2.idtx:30
 #: Core/En.x64.Debug.Error-2.idtx:30 Core/En.x64.Release.Error-2.idtx:30
@@ -1167,8 +1134,8 @@ msgid ""
 "Error reading from file: [2]. {{ System error [3].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
-"Fehler beim Lesen von Datei: [2]. {{ Systemfehler [3].}} Überprüfen Sie, ob "
-"die Datei existiert und ob Sie darauf zugreifen können."
+"Hiba a fájl olvasásakor ([2]). {{ Rendszerhiba [3].}} Ellenőrizze, hogy a "
+"fájl létezik-e, és hogy van-e hozzáférési engedélye."
 
 #: Core/En.Win32.Debug.Error-2.idtx:39 Core/En.Win32.Release.Error-2.idtx:39
 #: Core/En.x64.Debug.Error-2.idtx:39 Core/En.x64.Release.Error-2.idtx:39
@@ -1176,8 +1143,8 @@ msgid ""
 "Error reading from file: [3]. {{ System error [2].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
-"Fehler beim Lesen von Datei: [3]. {{ Systemfehler [2].}} Überprüfen Sie, ob "
-"die Datei existiert und ob Sie darauf zugreifen können."
+"Hiba a(z) [3] fájl olvasásakor. {{ Rendszerhiba [2].}} Ellenőrizze, hogy a "
+"fájl létezik-e, és hogy van-e hozzáférési engedélye."
 
 #: Core/En.Win32.Debug.Error-2.idtx:155 Core/En.Win32.Release.Error-2.idtx:155
 #: Core/En.x64.Debug.Error-2.idtx:155 Core/En.x64.Release.Error-2.idtx:155
@@ -1185,8 +1152,8 @@ msgid ""
 "Error registering COM+ Application. Contact your support personnel for more "
 "information."
 msgstr ""
-"Fehler beim Registrieren einer COM+-Anwendung. Setzen Sie sich mit dem "
-"Supportpersonal in Verbindung."
+"Hiba a COM+ alkalmazás regisztrálása során. Forduljon a technikusokhoz "
+"további információért."
 
 #: Core/En.Win32.Debug.Error-2.idtx:142 Core/En.Win32.Release.Error-2.idtx:142
 #: Core/En.x64.Debug.Error-2.idtx:142 Core/En.x64.Release.Error-2.idtx:142
@@ -1194,8 +1161,8 @@ msgid ""
 "Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
 msgstr ""
-"Fehler beim Entfernen des ODBC-Treibermanagers, ODBC-Fehler [2]: [3]. Setzen "
-"Sie sich mit dem Supportpersonal in Verbindung."
+"Az ODBC illesztőprogram-kezelő eltávolításakor hiba történt. ODBC hiba [2]: "
+"[3]. Forduljon a technikusokhoz."
 
 #: Core/En.Win32.Debug.Error-2.idtx:144 Core/En.Win32.Release.Error-2.idtx:144
 #: Core/En.x64.Debug.Error-2.idtx:144 Core/En.x64.Release.Error-2.idtx:144
@@ -1203,9 +1170,9 @@ msgid ""
 "Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you have "
 "sufficient privileges to remove ODBC drivers."
 msgstr ""
-"Fehler beim Entfernen des ODBC-Treibers: [4], ODBC-Fehler [2]: [3]. "
-"Überprüfen Sie, ob Sie ausreichende Berechtigungen zum Entfernen von ODBC-"
-"Treibern besitzen."
+"Az ODBC illesztőprogram eltávolításakor hiba történt: [4]. ODBC hiba [2]: "
+"[3]. Ellenőrizze, hogy rendelkezik-e az ODBC illesztőprogramok "
+"eltávolításához szükséges jogosultságokkal."
 
 #: Core/En.Win32.Debug.Error-2.idtx:156 Core/En.Win32.Release.Error-2.idtx:156
 #: Core/En.x64.Debug.Error-2.idtx:156 Core/En.x64.Release.Error-2.idtx:156
@@ -1213,15 +1180,15 @@ msgid ""
 "Error unregistering COM+ Application. Contact your support personnel for "
 "more information."
 msgstr ""
-"Fehler beim Entfernen einer COM+-Anwendung aus der Registrierung. Setzen Sie "
-"sich mit dem Supportpersonal in Verbindung."
+"Hiba a COM+ alkalmazás regisztrációjának megszüntetése során. Forduljon a "
+"technikusokhoz további információért."
 
 #: Core/En.Win32.Debug.Error-2.idtx:34 Core/En.Win32.Release.Error-2.idtx:34
 #: Core/En.x64.Debug.Error-2.idtx:34 Core/En.x64.Release.Error-2.idtx:34
 msgid "Error writing to file: [2]. Verify that you have access to that folder."
 msgstr ""
-"Fehler beim Schreiben in Datei: [2]. Überprüfen Sie, ob Sie auf den Ordner "
-"zugreifen können."
+"Hiba a(z) [2] fájl írásakor. Ellenőrizze, hogy van-e hozzáférési engedélye a "
+"könyvtárhoz."
 
 #: Core/En.Win32.Debug.Error-2.idtx:40 Core/En.Win32.Release.Error-2.idtx:40
 #: Core/En.x64.Debug.Error-2.idtx:40 Core/En.x64.Release.Error-2.idtx:40
@@ -1229,14 +1196,14 @@ msgid ""
 "Error writing to file: [3]. {{ System error [2].}} Verify that you have "
 "access to that folder."
 msgstr ""
-"Fehler beim Schreiben in Datei: [3]. {{ Systemfehler [2].}} Überprüfen Sie, "
-"ob Sie auf den Ordner zugreifen können."
+"Hiba a(z) [3] fájl írásakor. {{ Rendszerhiba [2].}} Ellenőrizze, hogy van-e "
+"hozzáférési engedélye a könyvtárhoz."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:24
 #: UI/En.Win32.Release.ActionText-2.idtx:24
 #: UI/En.x64.Debug.ActionText-2.idtx:24 UI/En.x64.Release.ActionText-2.idtx:24
 msgid "Evaluating launch conditions"
-msgstr "Die Startbedingungen werden überprüft"
+msgstr "Az indítási feltételek értékelése"
 
 #: UI/En.Win32.Debug.Control-2.idtx:16 UI/En.Win32.Release.Control-2.idtx:16
 msgid "Exclamation icon|"
@@ -1250,30 +1217,30 @@ msgstr ""
 #: UI/En.x64.Release.ActionText-2.idtx:36
 #: UI/En.x64.Release.ActionText-2.idtx:66
 msgid "Extension: [1]"
-msgstr "Erweiterung: [1]"
+msgstr "Kiterjesztés: [1]"
 
 #: Core/En.Win32.Debug.Error-2.idtx:133 Core/En.Win32.Release.Error-2.idtx:133
 #: Core/En.x64.Debug.Error-2.idtx:133 Core/En.x64.Release.Error-2.idtx:133
 msgid ""
 "Failed to cache package [2]. Error: [3]. Contact your support personnel."
 msgstr ""
-"Fehler beim Zwischenspeichern von Paket [2]. Fehler: [3]. Wenden Sie sich an "
-"den Support."
+"A csomagot ([2]) nem sikerült a gyorsítótárba írni. Hiba: [3]. Forduljon a "
+"technikusokhoz. "
 
 #: Core/En.Win32.Debug.Error-2.idtx:61 Core/En.Win32.Release.Error-2.idtx:61
 #: Core/En.x64.Debug.Error-2.idtx:61 Core/En.x64.Release.Error-2.idtx:61
 msgid "Failed to correctly copy [2] file: CRC error."
-msgstr "Die Datei [2] konnte nicht kopiert werden: CRC-Fehler."
+msgstr "Nem lehetett másolni a fájlt ([2]): CRC-hiba."
 
 #: Core/En.Win32.Debug.Error-2.idtx:62 Core/En.Win32.Release.Error-2.idtx:62
 #: Core/En.x64.Debug.Error-2.idtx:62 Core/En.x64.Release.Error-2.idtx:62
 msgid "Failed to correctly move [2] file: CRC error."
-msgstr "Die Datei [2] konnte nicht verschoben werden: CRC-Fehler."
+msgstr "Nem lehetett áthelyezni a fájlt ([2]): CRC-hiba."
 
 #: Core/En.Win32.Debug.Error-2.idtx:63 Core/En.Win32.Release.Error-2.idtx:63
 #: Core/En.x64.Debug.Error-2.idtx:63 Core/En.x64.Release.Error-2.idtx:63
 msgid "Failed to correctly patch [2] file: CRC error."
-msgstr "Die Datei [2] konnte nicht gepatcht werden: CRC-Fehler."
+msgstr "Nem lehetett javítani a fájlt ([2]): CRC-hiba."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:32
 #: UI/En.Win32.Debug.ActionText-2.idtx:62
@@ -1283,13 +1250,12 @@ msgstr "Die Datei [2] konnte nicht gepatcht werden: CRC-Fehler."
 #: UI/En.x64.Release.ActionText-2.idtx:32
 #: UI/En.x64.Release.ActionText-2.idtx:62
 msgid "Feature: [1]"
-msgstr "Funktion: [1]"
+msgstr "Szolgáltatás: [1]"
 
 #: Core/En.Win32.Debug.Error-2.idtx:108 Core/En.Win32.Release.Error-2.idtx:108
 #: Core/En.x64.Debug.Error-2.idtx:108 Core/En.x64.Release.Error-2.idtx:108
 msgid "File [2] was rejected by digital signature policy."
-msgstr ""
-"Die Datei [2] wurde von Richtlinie für die digitale Signatur zurückgewiesen."
+msgstr "A fájlt ([2]) a digitális aláírás házirendje visszautasította."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:54 UI/En.Win32.Debug.ActionText-2.idtx:7
 #: UI/En.Win32.Release.ActionText-2.idtx:54
@@ -1297,13 +1263,13 @@ msgstr ""
 #: UI/En.x64.Debug.ActionText-2.idtx:7 UI/En.x64.Release.ActionText-2.idtx:54
 #: UI/En.x64.Release.ActionText-2.idtx:7
 msgid "File: [1]"
-msgstr "Datei: [1]"
+msgstr "Fájl: [1]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:22
 #: UI/En.Win32.Release.ActionText-2.idtx:22
 #: UI/En.x64.Debug.ActionText-2.idtx:22 UI/En.x64.Release.ActionText-2.idtx:22
 msgid "File: [1], Dependencies: [2]"
-msgstr "Datei: [1], Abhängigkeiten: [2]"
+msgstr "Fájl: [1], függőségek: [2]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:55
 #: UI/En.Win32.Debug.ActionText-2.idtx:56
@@ -1313,13 +1279,13 @@ msgstr "Datei: [1], Abhängigkeiten: [2]"
 #: UI/En.x64.Release.ActionText-2.idtx:55
 #: UI/En.x64.Release.ActionText-2.idtx:56
 msgid "File: [1], Folder: [2]"
-msgstr "Datei: [1], Ordner: [2]"
+msgstr "Fájl: [1], Mappa: [2]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:29
 #: UI/En.Win32.Release.ActionText-2.idtx:29
 #: UI/En.x64.Debug.ActionText-2.idtx:29 UI/En.x64.Release.ActionText-2.idtx:29
 msgid "File: [1], Folder: [2], Size: [3]"
-msgstr "Datei: [1], Ordner: [2], Größe: [3]"
+msgstr "Fájl: [1], Könyvtár: [2], Méret: [3]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:43
 #: UI/En.Win32.Debug.ActionText-2.idtx:46
@@ -1332,7 +1298,7 @@ msgstr "Datei: [1], Ordner: [2], Größe: [3]"
 #: UI/En.x64.Release.ActionText-2.idtx:46
 #: UI/En.x64.Release.ActionText-2.idtx:60
 msgid "File: [1], Folder: [9]"
-msgstr "Datei: [1], Ordner: [9]"
+msgstr "Fájl: [1], Könyvtár: [9]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:14
 #: UI/En.Win32.Debug.ActionText-2.idtx:18
@@ -1349,7 +1315,7 @@ msgstr "Datei: [1], Ordner: [9]"
 #: UI/En.x64.Release.ActionText-2.idtx:19
 #: UI/En.x64.Release.ActionText-2.idtx:26
 msgid "File: [1], Folder: [9], Size: [6]"
-msgstr "Datei: [1], Ordner: [9], Größe: [6]"
+msgstr "Fájl: [1], Könyvtár: [9], Méret: [6]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:48
 #: UI/En.Win32.Debug.ActionText-2.idtx:72
@@ -1359,13 +1325,13 @@ msgstr "Datei: [1], Ordner: [9], Größe: [6]"
 #: UI/En.x64.Release.ActionText-2.idtx:48
 #: UI/En.x64.Release.ActionText-2.idtx:72
 msgid "File: [1], Section: [2], Key: [3], Value: [4]"
-msgstr "Datei: [1], Abschnitt: [2], Schlüssel: [3], Wert: [4]"
+msgstr "Fájl: [1], Szakasz: [2], Kulcs: [3], Érték: [4]"
 
 #: UI/En.Win32.Debug.Control-2.idtx:41 UI/En.Win32.Release.Control-2.idtx:41
 #: UI/En.x64.Debug.Control-2.idtx:38 UI/En.x64.Release.Control-2.idtx:38
 #, fuzzy
 msgid "Folder:"
-msgstr "Datei: [1], Ordner: [2]"
+msgstr "Fájl: [1], Mappa: [2]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:11
 #: UI/En.Win32.Debug.ActionText-2.idtx:47
@@ -1375,7 +1341,7 @@ msgstr "Datei: [1], Ordner: [2]"
 #: UI/En.x64.Release.ActionText-2.idtx:11
 #: UI/En.x64.Release.ActionText-2.idtx:47
 msgid "Folder: [1]"
-msgstr "Ordner: [1]"
+msgstr "Mappa: [1]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:37
 #: UI/En.Win32.Debug.ActionText-2.idtx:67
@@ -1385,32 +1351,32 @@ msgstr "Ordner: [1]"
 #: UI/En.x64.Release.ActionText-2.idtx:37
 #: UI/En.x64.Release.ActionText-2.idtx:67
 msgid "Font: [1]"
-msgstr "Schriftart: [1]"
+msgstr "Betűtípus: [1]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:16
 #: UI/En.Win32.Release.ActionText-2.idtx:16
 #: UI/En.x64.Debug.ActionText-2.idtx:16 UI/En.x64.Release.ActionText-2.idtx:16
 msgid "Found application: [1]"
-msgstr "Anwendung gefunden: [1]"
+msgstr "Talált alkalmazás: [1]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:5
 #: UI/En.Win32.Release.ActionText-2.idtx:5 UI/En.x64.Debug.ActionText-2.idtx:5
 #: UI/En.x64.Release.ActionText-2.idtx:5
 msgid "Free space: [1]"
-msgstr "Freier Speicherplatz: [1]"
+msgstr "Szabad lemezterület: [1]"
 
 #: Core/En.Win32.Debug.Error-2.idtx:25 Core/En.Win32.Release.Error-2.idtx:25
 #: Core/En.x64.Debug.Error-2.idtx:25 Core/En.x64.Release.Error-2.idtx:25
 #: UI/En.Win32.Debug.UIText-2.idtx:18 UI/En.Win32.Release.UIText-2.idtx:18
 #: UI/En.x64.Debug.UIText-2.idtx:18 UI/En.x64.Release.UIText-2.idtx:18
 msgid "Gathering required information..."
-msgstr "Erforderliche Daten werden ermittelt..."
+msgstr "A kért adatok összegyűjtése..."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:17
 #: UI/En.Win32.Release.ActionText-2.idtx:17
 #: UI/En.x64.Debug.ActionText-2.idtx:17 UI/En.x64.Release.ActionText-2.idtx:17
 msgid "Generating script operations for action:"
-msgstr "Skriptoperationen werden generiert für Aktion:"
+msgstr "Parancsfájlműveletek generálása a következő művelethez:"
 
 #: UI/En.Win32.Debug.Control-2.idtx:10 UI/En.Win32.Release.Control-2.idtx:10
 #: UI/En.x64.Debug.Control-2.idtx:10 UI/En.x64.Release.Control-2.idtx:10
@@ -1427,7 +1393,7 @@ msgstr ""
 #: Core/En.Win32.Debug.Error-2.idtx:8 Core/En.Win32.Release.Error-2.idtx:8
 #: Core/En.x64.Debug.Error-2.idtx:8 Core/En.x64.Release.Error-2.idtx:8
 msgid "Info [1]. "
-msgstr "Information [1]. "
+msgstr "Információ: [1]. "
 
 #: UI/En.Win32.Debug.Control-2.idtx:90 UI/En.Win32.Debug.Control-2.idtx:94
 #: UI/En.Win32.Release.Control-2.idtx:90 UI/En.Win32.Release.Control-2.idtx:94
@@ -1445,22 +1411,22 @@ msgstr ""
 #: UI/En.Win32.Release.ActionText-2.idtx:57
 #: UI/En.x64.Debug.ActionText-2.idtx:57 UI/En.x64.Release.ActionText-2.idtx:57
 msgid "Initializing ODBC folders"
-msgstr "ODBC-Ordner werden initialisiert"
+msgstr "Az ODBC-könyvtárak inicializálása"
 
 #: Core/En.Win32.Debug.Error-2.idtx:97 Core/En.Win32.Release.Error-2.idtx:97
 #: Core/En.x64.Debug.Error-2.idtx:97 Core/En.x64.Release.Error-2.idtx:97
 msgid "Installation completed successfully."
-msgstr "Die Installation wurde erfolgreich abgeschlossen."
+msgstr "A telepítés sikeresen befejeződött."
 
 #: Core/En.Win32.Debug.Error-2.idtx:98 Core/En.Win32.Release.Error-2.idtx:98
 #: Core/En.x64.Debug.Error-2.idtx:98 Core/En.x64.Release.Error-2.idtx:98
 msgid "Installation failed."
-msgstr "Die Installation ist fehlgeschlagen."
+msgstr "A telepítés nem sikerült."
 
 #: Core/En.Win32.Debug.Error-2.idtx:105 Core/En.Win32.Release.Error-2.idtx:105
 #: Core/En.x64.Debug.Error-2.idtx:105 Core/En.x64.Release.Error-2.idtx:105
 msgid "Installed [2]"
-msgstr "[2] wird installiert"
+msgstr "Telepítve: [2]"
 
 #: UI/En.Win32.Debug.ControlEvent-2.idtx:7
 #: UI/En.Win32.Release.ControlEvent-2.idtx:7
@@ -1477,30 +1443,30 @@ msgstr ""
 #: Core/En.Win32.Debug.Error-2.idtx:22 Core/En.Win32.Release.Error-2.idtx:22
 #: Core/En.x64.Debug.Error-2.idtx:22 Core/En.x64.Release.Error-2.idtx:22
 msgid "Installer is no longer responding."
-msgstr "Installer antwortet nicht mehr."
+msgstr "A telepítő nem válaszol."
 
 #: Core/En.Win32.Debug.Error-2.idtx:23 Core/En.Win32.Release.Error-2.idtx:23
 #: Core/En.x64.Debug.Error-2.idtx:23 Core/En.x64.Release.Error-2.idtx:23
 msgid "Installer stopped prematurely."
-msgstr "Installer wurde vorzeitig angehalten."
+msgstr "A Telepítő futása a vártnál korábban állt le."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:21
 #: UI/En.Win32.Release.ActionText-2.idtx:21
 #: UI/En.x64.Debug.ActionText-2.idtx:21 UI/En.x64.Release.ActionText-2.idtx:21
 msgid "Installing new services"
-msgstr "Neue Dienste werden installiert"
+msgstr "Új szolgáltatások telepítése"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:20
 #: UI/En.Win32.Release.ActionText-2.idtx:20
 #: UI/En.x64.Debug.ActionText-2.idtx:20 UI/En.x64.Release.ActionText-2.idtx:20
 msgid "Installing ODBC components"
-msgstr "ODBC-Komponenten werden installiert"
+msgstr "Az ODBC összetevőinek telepítése"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:22
 #: UI/En.Win32.Release.ActionText-2.idtx:22
 #: UI/En.x64.Debug.ActionText-2.idtx:22 UI/En.x64.Release.ActionText-2.idtx:22
 msgid "Installing system catalog"
-msgstr "Systemkatalog wird installiert"
+msgstr "A rendszerkatalógus telepítéste"
 
 #: UI/En.Win32.Debug.Control-2.idtx:14 UI/En.Win32.Release.Control-2.idtx:14
 #: UI/En.x64.Debug.Control-2.idtx:14 UI/En.x64.Release.Control-2.idtx:14
@@ -1511,19 +1477,19 @@ msgstr ""
 #: Core/En.Win32.Debug.Error-2.idtx:57 Core/En.Win32.Release.Error-2.idtx:57
 #: Core/En.x64.Debug.Error-2.idtx:57 Core/En.x64.Release.Error-2.idtx:57
 msgid "Invalid Drive: [2]"
-msgstr "Ungültiges Laufwerk: [2]"
+msgstr "A következő meghajtó érvénytelen: [2]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:50
 #: UI/En.Win32.Release.ActionText-2.idtx:50
 #: UI/En.x64.Debug.ActionText-2.idtx:50 UI/En.x64.Release.ActionText-2.idtx:50
 msgid "Key: [1], Name: [2]"
-msgstr "Schlüssel: [1], Name: [2]"
+msgstr "Kulcs: [1], Név: [2]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:73
 #: UI/En.Win32.Release.ActionText-2.idtx:73
 #: UI/En.x64.Debug.ActionText-2.idtx:73 UI/En.x64.Release.ActionText-2.idtx:73
 msgid "Key: [1], Name: [2], Value: [3]"
-msgstr "Schlüssel: [1], Name: [2], Wert: [3]"
+msgstr "Kulcs: [1], Név: [2], Érték: [3]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:41
 #: UI/En.Win32.Debug.ActionText-2.idtx:70
@@ -1533,7 +1499,7 @@ msgstr "Schlüssel: [1], Name: [2], Wert: [3]"
 #: UI/En.x64.Release.ActionText-2.idtx:41
 #: UI/En.x64.Release.ActionText-2.idtx:70
 msgid "LibID: [1]"
-msgstr "Bibliothekenkennung: [1]"
+msgstr "LibID: [1]"
 
 #: UI/En.Win32.Debug.Control-2.idtx:24 UI/En.Win32.Release.Control-2.idtx:24
 #: UI/En.x64.Debug.Control-2.idtx:21 UI/En.x64.Release.Control-2.idtx:21
@@ -1545,13 +1511,13 @@ msgstr ""
 #: Core/En.Win32.Debug.Error-2.idtx:15 Core/En.Win32.Release.Error-2.idtx:15
 #: Core/En.x64.Debug.Error-2.idtx:15 Core/En.x64.Release.Error-2.idtx:15
 msgid "Message type: [1], Argument: [2]"
-msgstr "Art der Nachricht: [1], Argument: [2]"
+msgstr "Üzenet típusa: [1], Argumentum: [2]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:25
 #: UI/En.Win32.Release.ActionText-2.idtx:25
 #: UI/En.x64.Debug.ActionText-2.idtx:25 UI/En.x64.Release.ActionText-2.idtx:25
 msgid "Migrating feature states from related applications"
-msgstr "Funktionszustände verwandter Anwendungen werden migriert"
+msgstr "Szolgáltatások áttelepítése kapcsolódó alkalmazásokból."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:38
 #: UI/En.Win32.Debug.ActionText-2.idtx:68
@@ -1561,7 +1527,7 @@ msgstr "Funktionszustände verwandter Anwendungen werden migriert"
 #: UI/En.x64.Release.ActionText-2.idtx:38
 #: UI/En.x64.Release.ActionText-2.idtx:68
 msgid "MIME Content Type: [1], Extension: [2]"
-msgstr "MIME-Inhaltstyp: [1], Erweiterung: [2]"
+msgstr "A MIME tartalom típusa: [1], Kiterjesztés: [2]"
 
 #: UI/En.Win32.Debug.ControlEvent-2.idtx:9
 #: UI/En.Win32.Release.ControlEvent-2.idtx:9
@@ -1582,22 +1548,22 @@ msgstr ""
 msgid ""
 "Module [2] failed to register. HRESULT [3]. Contact your support personnel."
 msgstr ""
-"Fehler beim Registrieren von Modul [2]. HRESULT [3]. Wenden Sie sich an den "
-"Support."
+"A modult ([2]) nem sikerült regisztrálni. HRESULT [3]. Forduljon a "
+"technikusokhoz. "
 
 #: Core/En.Win32.Debug.Error-2.idtx:132 Core/En.Win32.Release.Error-2.idtx:132
 #: Core/En.x64.Debug.Error-2.idtx:132 Core/En.x64.Release.Error-2.idtx:132
 msgid ""
 "Module [2] failed to unregister. HRESULT [3]. Contact your support personnel."
 msgstr ""
-"Fehler beim Entfernen von Modul [2] aus der Registrierung. HRESULT [3]. "
-"Wenden Sie sich an den Support."
+"A modul ([2]) rendszerleíró bejegyzéseit nem sikerült törölni. HRESULT [3]. "
+"Forduljon a technikusokhoz."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:26
 #: UI/En.Win32.Release.ActionText-2.idtx:26
 #: UI/En.x64.Debug.ActionText-2.idtx:26 UI/En.x64.Release.ActionText-2.idtx:26
 msgid "Moving files"
-msgstr "Dateien werden verschoben"
+msgstr "Fájlok áthelyezése"
 
 #: UI/En.Win32.Debug.Control-2.idtx:39 UI/En.Win32.Release.Control-2.idtx:39
 #: UI/En.x64.Debug.Control-2.idtx:36 UI/En.x64.Release.Control-2.idtx:36
@@ -1612,7 +1578,7 @@ msgstr ""
 #: UI/En.x64.Release.ActionText-2.idtx:44
 #: UI/En.x64.Release.ActionText-2.idtx:71
 msgid "Name: [1], Value: [2], Action [3]"
-msgstr "Name: [1], Wert: [2], Aktion [3]"
+msgstr "Név: [1], Érték: [2], Művelet [3]"
 
 #: UI/En.Win32.Debug.Control-2.idtx:56 UI/En.Win32.Debug.Control-2.idtx:67
 #: UI/En.Win32.Debug.Control-2.idtx:96 UI/En.Win32.Release.Control-2.idtx:56
@@ -1620,9 +1586,8 @@ msgstr "Name: [1], Wert: [2], Aktion [3]"
 #: UI/En.x64.Debug.Control-2.idtx:53 UI/En.x64.Debug.Control-2.idtx:64
 #: UI/En.x64.Debug.Control-2.idtx:93 UI/En.x64.Release.Control-2.idtx:53
 #: UI/En.x64.Release.Control-2.idtx:64 UI/En.x64.Release.Control-2.idtx:93
-#, fuzzy
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 #: Core/En.Win32.Debug.Error-2.idtx:102 Core/En.Win32.Release.Error-2.idtx:102
 #: Core/En.x64.Debug.Error-2.idtx:102 Core/En.x64.Release.Error-2.idtx:102
@@ -1630,9 +1595,8 @@ msgid ""
 "One or more of the files required to restore your computer to its previous "
 "state could not be found. Restoration will not be possible."
 msgstr ""
-"Eine oder mehrere Datei(en), die zum Wiederherstellen des ursprünglichen "
-"Zustands des Computers erforderlich sind, wurden nicht gefunden. "
-"Wiederherstellen nicht möglich."
+"A számítógép előző állapotának visszaállításához szükséges fájlok közül egy "
+"vagy több nem található. A visszaállítás nem lehetséges."
 
 #: Core/En.Win32.Debug.Error-2.idtx:81 Core/En.Win32.Release.Error-2.idtx:81
 #: Core/En.x64.Debug.Error-2.idtx:81 Core/En.x64.Release.Error-2.idtx:81
@@ -1640,9 +1604,9 @@ msgid ""
 "Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
 "[4] KB. Free some disk space and retry."
 msgstr ""
-"Nicht genügend freier Speicherplatz -- Volume: \"[2]\"; erforderlicher "
-"Speicher: [3] KB; verfügbarer Speicher: [4] KB. Geben Sie einigen "
-"Festplattenspeicher frei und wiederholen Sie den Vorgang."
+"Nincs elég hely a lemezen -- Kötet: '[2]'; szükséges hely: [3] KB; "
+"rendelkezésre álló hely: [4] KB. Tegyen szabaddá több helyet a lemezen, és "
+"próbálkozzon újra."
 
 #: Core/En.Win32.Debug.Error-2.idtx:122 Core/En.Win32.Debug.Error-2.idtx:21
 #: Core/En.Win32.Release.Error-2.idtx:122 Core/En.Win32.Release.Error-2.idtx:21
@@ -1650,19 +1614,18 @@ msgstr ""
 #: Core/En.x64.Release.Error-2.idtx:122 Core/En.x64.Release.Error-2.idtx:21
 msgid "Out of memory. Shut down other applications before retrying."
 msgstr ""
-"Nicht genügend Arbeitsspeicher. Beenden Sie andere Anwendungen und "
-"wiederholen Sie den Vorgang."
+"Kevés a memória. Mielőtt újrapróbálkozna, zárjon be minden más alkalmazást."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:29
 #: UI/En.Win32.Release.ActionText-2.idtx:29
 #: UI/En.x64.Debug.ActionText-2.idtx:29 UI/En.x64.Release.ActionText-2.idtx:29
 msgid "Patching files"
-msgstr "Dateien werden gepatcht"
+msgstr "Fájlok javítása"
 
 #: Core/En.Win32.Debug.Error-2.idtx:32 Core/En.Win32.Release.Error-2.idtx:32
 #: Core/En.x64.Debug.Error-2.idtx:32 Core/En.x64.Release.Error-2.idtx:32
 msgid "Please insert the disk: [2]"
-msgstr "Legen Sie den Datenträger ein: [2]"
+msgstr "Helyezze be a következő lemezt: [2]"
 
 #: UI/En.Win32.Debug.Control-2.idtx:121 UI/En.Win32.Release.Control-2.idtx:121
 #: UI/En.x64.Debug.Control-2.idtx:118 UI/En.x64.Release.Control-2.idtx:118
@@ -1672,17 +1635,17 @@ msgstr ""
 #: Core/En.Win32.Debug.Error-2.idtx:24 Core/En.Win32.Release.Error-2.idtx:24
 #: Core/En.x64.Debug.Error-2.idtx:24 Core/En.x64.Release.Error-2.idtx:24
 msgid "Please wait while Windows configures [SimpleProductName]"
-msgstr "Warten Sie, während Windows [SimpleProductName] konfiguriert."
+msgstr "Kis türelmet, a Windows a(z) [SimpleProductName] konfigurálását végzi."
 
 #: Core/En.Win32.Debug.Error-2.idtx:27 Core/En.Win32.Release.Error-2.idtx:27
 #: Core/En.x64.Debug.Error-2.idtx:27 Core/En.x64.Release.Error-2.idtx:27
 msgid "Preparing to remove older versions of this application..."
-msgstr "Entfernen älterer Versionen dieser Anwendung wird vorbereitet..."
+msgstr "Felkészülés az alkalmazás régebbi verzióinak eltávolítására..."
 
 #: Core/En.Win32.Debug.Error-2.idtx:99 Core/En.Win32.Release.Error-2.idtx:99
 #: Core/En.x64.Debug.Error-2.idtx:99 Core/En.x64.Release.Error-2.idtx:99
 msgid "Product: [2] -- [3]"
-msgstr "Produkt: [2] -- [3]"
+msgstr "Termék: [2] -- [3]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:40
 #: UI/En.Win32.Debug.ActionText-2.idtx:69
@@ -1692,7 +1655,7 @@ msgstr "Produkt: [2] -- [3]"
 #: UI/En.x64.Release.ActionText-2.idtx:40
 #: UI/En.x64.Release.ActionText-2.idtx:69
 msgid "ProgId: [1]"
-msgstr "Programmkennung: [1]"
+msgstr "ProgId: [1]"
 
 #: UI/En.Win32.Debug.Control-2.idtx:6 UI/En.Win32.Debug.Control-2.idtx:87
 #: UI/En.Win32.Release.Control-2.idtx:6 UI/En.Win32.Release.Control-2.idtx:87
@@ -1705,91 +1668,91 @@ msgstr ""
 #: UI/En.Win32.Release.ActionText-2.idtx:6 UI/En.x64.Debug.ActionText-2.idtx:6
 #: UI/En.x64.Release.ActionText-2.idtx:6
 msgid "Property: [1], Signature: [2]"
-msgstr "Eigenschaft: [1], Signatur: [2]"
+msgstr "Tulajdonság: [1], Aláírás: [2]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:27
 #: UI/En.Win32.Release.ActionText-2.idtx:27
 #: UI/En.x64.Debug.ActionText-2.idtx:27 UI/En.x64.Release.ActionText-2.idtx:27
 msgid "Publishing assembly information"
-msgstr "Assemblierungsinformationen werden veröffentlicht"
+msgstr "Az összeállítási információk közzététele"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:32
 #: UI/En.Win32.Release.ActionText-2.idtx:32
 #: UI/En.x64.Debug.ActionText-2.idtx:32 UI/En.x64.Release.ActionText-2.idtx:32
 msgid "Publishing Product Features"
-msgstr "Produktfunktionen werden veröffentlicht"
+msgstr "A termék szolgáltatásainak közzététele"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:33
 #: UI/En.Win32.Release.ActionText-2.idtx:33
 #: UI/En.x64.Debug.ActionText-2.idtx:33 UI/En.x64.Release.ActionText-2.idtx:33
 msgid "Publishing product information"
-msgstr "Produktinformation wird veröffentlicht"
+msgstr "A termék adatainak közzététele"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:31
 #: UI/En.Win32.Release.ActionText-2.idtx:31
 #: UI/En.x64.Debug.ActionText-2.idtx:31 UI/En.x64.Release.ActionText-2.idtx:31
 msgid "Publishing Qualified Components"
-msgstr "Qualifizierte Komponenten werden veröffentlicht"
+msgstr "Minősített összetevők közzététele"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:34
 #: UI/En.Win32.Release.ActionText-2.idtx:34
 #: UI/En.x64.Debug.ActionText-2.idtx:34 UI/En.x64.Release.ActionText-2.idtx:34
 msgid "Registering Class servers"
-msgstr "Klassenserver werden registriert"
+msgstr "Az osztálykiszolgálók regisztrációja"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:35
 #: UI/En.Win32.Release.ActionText-2.idtx:35
 #: UI/En.x64.Debug.ActionText-2.idtx:35 UI/En.x64.Release.ActionText-2.idtx:35
 msgid "Registering COM+ Applications and Components"
-msgstr "COM+-Anwendungen und Komponenten werden registriert"
+msgstr "COM+ alkalmazások és összetevők regisztrálása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:36
 #: UI/En.Win32.Release.ActionText-2.idtx:36
 #: UI/En.x64.Debug.ActionText-2.idtx:36 UI/En.x64.Release.ActionText-2.idtx:36
 msgid "Registering extension servers"
-msgstr "Erweiterungsserver werden registriert"
+msgstr "A kiterjesztéskiszolgálók regisztrációja"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:37
 #: UI/En.Win32.Release.ActionText-2.idtx:37
 #: UI/En.x64.Debug.ActionText-2.idtx:37 UI/En.x64.Release.ActionText-2.idtx:37
 msgid "Registering fonts"
-msgstr "Schriftarten werden registriert"
+msgstr "Betűtípusok regisztrációja"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:38
 #: UI/En.Win32.Release.ActionText-2.idtx:38
 #: UI/En.x64.Debug.ActionText-2.idtx:38 UI/En.x64.Release.ActionText-2.idtx:38
 msgid "Registering MIME info"
-msgstr "MIME-Informationen werden registriert"
+msgstr "A MIME információ regisztrálása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:55
 #: UI/En.Win32.Release.ActionText-2.idtx:55
 #: UI/En.x64.Debug.ActionText-2.idtx:55 UI/En.x64.Release.ActionText-2.idtx:55
 msgid "Registering modules"
-msgstr "Module werden registriert"
+msgstr "A modulok regisztrálása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:39
 #: UI/En.Win32.Release.ActionText-2.idtx:39
 #: UI/En.x64.Debug.ActionText-2.idtx:39 UI/En.x64.Release.ActionText-2.idtx:39
 msgid "Registering product"
-msgstr "Produkt wird registriert"
+msgstr "A termék regisztrálása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:40
 #: UI/En.Win32.Release.ActionText-2.idtx:40
 #: UI/En.x64.Debug.ActionText-2.idtx:40 UI/En.x64.Release.ActionText-2.idtx:40
 msgid "Registering programme identifiers"
-msgstr "Programmidentifikatoren werden registriert"
+msgstr "Programazonosítók regisztrációja"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:41
 #: UI/En.Win32.Release.ActionText-2.idtx:41
 #: UI/En.x64.Debug.ActionText-2.idtx:41 UI/En.x64.Release.ActionText-2.idtx:41
 msgid "Registering type libraries"
-msgstr "Typbibliotheken werden registriert"
+msgstr "A típustárak regisztrációja"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:42
 #: UI/En.Win32.Release.ActionText-2.idtx:42
 #: UI/En.x64.Debug.ActionText-2.idtx:42 UI/En.x64.Release.ActionText-2.idtx:42
 msgid "Registering user"
-msgstr "Benutzer wird registriert"
+msgstr "A felhasználó regisztrációja"
 
 #: UI/En.Win32.Debug.ControlEvent-2.idtx:13
 #: UI/En.Win32.Release.ControlEvent-2.idtx:13
@@ -1797,22 +1760,22 @@ msgstr "Benutzer wird registriert"
 #: UI/En.x64.Release.ControlEvent-2.idtx:13
 #, fuzzy
 msgid "Removal"
-msgstr "Das Entfernen wurde erfolgreich abgeschlossen."
+msgstr "Az eltávolítás sikeresen megtörtént."
 
 #: Core/En.Win32.Debug.Error-2.idtx:114 Core/En.Win32.Release.Error-2.idtx:114
 #: Core/En.x64.Debug.Error-2.idtx:114 Core/En.x64.Release.Error-2.idtx:114
 msgid "Removal completed successfully."
-msgstr "Das Entfernen wurde erfolgreich abgeschlossen."
+msgstr "Az eltávolítás sikeresen megtörtént."
 
 #: Core/En.Win32.Debug.Error-2.idtx:115 Core/En.Win32.Release.Error-2.idtx:115
 #: Core/En.x64.Debug.Error-2.idtx:115 Core/En.x64.Release.Error-2.idtx:115
 msgid "Removal failed."
-msgstr "Das Entfernen ist fehlgeschlagen."
+msgstr "Az eltávolítás nem sikerült."
 
 #: Core/En.Win32.Debug.Error-2.idtx:107 Core/En.Win32.Release.Error-2.idtx:107
 #: Core/En.x64.Debug.Error-2.idtx:107 Core/En.x64.Release.Error-2.idtx:107
 msgid "Removed [2]"
-msgstr "[2] wird entfernt"
+msgstr "Eltávolítva: [2]"
 
 #: UI/En.Win32.Debug.ControlEvent-2.idtx:12
 #: UI/En.Win32.Release.ControlEvent-2.idtx:12
@@ -1820,72 +1783,72 @@ msgstr "[2] wird entfernt"
 #: UI/En.x64.Release.ControlEvent-2.idtx:12
 #, fuzzy
 msgid "Removing"
-msgstr "Sicherungsdateien werden entfernt"
+msgstr "Az INI fájlok elemeinek eltávolítása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:45
 #: UI/En.Win32.Release.ActionText-2.idtx:45
 #: UI/En.x64.Debug.ActionText-2.idtx:45 UI/En.x64.Release.ActionText-2.idtx:45
 msgid "Removing applications"
-msgstr "Anwendungen werden entfernt"
+msgstr "Alkalmazások eltávolítása."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:54
 #: UI/En.Win32.Release.ActionText-2.idtx:54
 #: UI/En.x64.Debug.ActionText-2.idtx:54 UI/En.x64.Release.ActionText-2.idtx:54
 msgid "Removing backup files"
-msgstr "Sicherungsdateien werden entfernt"
+msgstr "A biztonsági másolatok eltávolítása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:43
 #: UI/En.Win32.Release.ActionText-2.idtx:43
 #: UI/En.x64.Debug.ActionText-2.idtx:43 UI/En.x64.Release.ActionText-2.idtx:43
 msgid "Removing duplicated files"
-msgstr "Duplizierte Dateien werden entfernt"
+msgstr "A fájlok másodpéldányainak eltávolítása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:46
 #: UI/En.Win32.Release.ActionText-2.idtx:46
 #: UI/En.x64.Debug.ActionText-2.idtx:46 UI/En.x64.Release.ActionText-2.idtx:46
 msgid "Removing files"
-msgstr "Dateien werden entfernt"
+msgstr "Fájlok eltávolítása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:47
 #: UI/En.Win32.Release.ActionText-2.idtx:47
 #: UI/En.x64.Debug.ActionText-2.idtx:47 UI/En.x64.Release.ActionText-2.idtx:47
 msgid "Removing folders"
-msgstr "Ordner werden entfernt"
+msgstr "Mappák eltávolítása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:48
 #: UI/En.Win32.Release.ActionText-2.idtx:48
 #: UI/En.x64.Debug.ActionText-2.idtx:48 UI/En.x64.Release.ActionText-2.idtx:48
 msgid "Removing INI files entries"
-msgstr "INI-Dateieinträge werden entfernt"
+msgstr "Az INI fájlok elemeinek eltávolítása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:60
 #: UI/En.Win32.Release.ActionText-2.idtx:60
 #: UI/En.x64.Debug.ActionText-2.idtx:60 UI/En.x64.Release.ActionText-2.idtx:60
 msgid "Removing moved files"
-msgstr "Verschobene Dateien werden entfernt"
+msgstr "Az áthelyezett fájlok eltávolítása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:49
 #: UI/En.Win32.Release.ActionText-2.idtx:49
 #: UI/En.x64.Debug.ActionText-2.idtx:49 UI/En.x64.Release.ActionText-2.idtx:49
 msgid "Removing ODBC components"
-msgstr "ODBC-Komponenten werden entfernt"
+msgstr "Az ODBC-összetevők eltávolítása"
 
 #: Core/En.Win32.Debug.Error-2.idtx:26 Core/En.Win32.Release.Error-2.idtx:26
 #: Core/En.x64.Debug.Error-2.idtx:26 Core/En.x64.Release.Error-2.idtx:26
 msgid "Removing older versions of this application..."
-msgstr "Ältere Versionen dieser Anwendung werden entfernt..."
+msgstr "Az alkalmazás régebbi verzióinak eltávolítása..."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:51
 #: UI/En.Win32.Release.ActionText-2.idtx:51
 #: UI/En.x64.Debug.ActionText-2.idtx:51 UI/En.x64.Release.ActionText-2.idtx:51
 msgid "Removing shortcuts"
-msgstr "Verknüpfungen werden entfernt"
+msgstr "Parancsikonok eltávolítása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:50
 #: UI/En.Win32.Release.ActionText-2.idtx:50
 #: UI/En.x64.Debug.ActionText-2.idtx:50 UI/En.x64.Release.ActionText-2.idtx:50
 msgid "Removing system registry values"
-msgstr "Werte werden aus der Systemregistrierung entfernt"
+msgstr "Értékek eltávolítása a rendszerleíró adatbázisból"
 
 #: UI/En.Win32.Debug.ControlEvent-2.idtx:11
 #: UI/En.Win32.Release.ControlEvent-2.idtx:11
@@ -1910,7 +1873,7 @@ msgstr ""
 #: UI/En.Win32.Release.ActionText-2.idtx:53
 #: UI/En.x64.Debug.ActionText-2.idtx:53 UI/En.x64.Release.ActionText-2.idtx:53
 msgid "Rolling back action:"
-msgstr "Aktion wird rückgängig gemacht:"
+msgstr "Visszaállítás:"
 
 #: Core/En.Win32.Debug.Error-2.idtx:130 Core/En.Win32.Release.Error-2.idtx:130
 #: Core/En.x64.Debug.Error-2.idtx:130 Core/En.x64.Release.Error-2.idtx:130
@@ -1918,8 +1881,8 @@ msgid ""
 "Scheduling reboot operation: Deleting file [2]. Must reboot to complete "
 "operation."
 msgstr ""
-"Planung des Computerneustarts: Die Datei [2] wird gelöscht. Der Computer "
-"muss neu gestartet werden, um den Vorgang abzuschließen."
+"Újraindítási művelet ütemezése: A(z) [2] fájl törlése. A művelet "
+"befejezéséhez újraindítás szükséges."
 
 #: Core/En.Win32.Debug.Error-2.idtx:129 Core/En.Win32.Release.Error-2.idtx:129
 #: Core/En.x64.Debug.Error-2.idtx:129 Core/En.x64.Release.Error-2.idtx:129
@@ -1927,14 +1890,14 @@ msgid ""
 "Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to "
 "complete operation."
 msgstr ""
-"Planung des Computerneustarts: Die Datei [2] wird in [3] umbenannt. Der "
-"Computer muss neu gestartet werden, um den Vorgang abzuschließen."
+"Újraindítási művelet ütemezése: Fájl átnevezése [2] névről [3] névre. A "
+"művelet befejezéséhez újraindítás szükséges."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:6
 #: UI/En.Win32.Release.ActionText-2.idtx:6 UI/En.x64.Debug.ActionText-2.idtx:6
 #: UI/En.x64.Release.ActionText-2.idtx:6
 msgid "Searching for installed applications"
-msgstr "Installierte Anwendungsprogramme werden gesucht"
+msgstr "Telepített alkalmazások keresése"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:52 UI/En.Win32.Debug.ActionText-2.idtx:8
 #: UI/En.Win32.Release.ActionText-2.idtx:52
@@ -1942,13 +1905,13 @@ msgstr "Installierte Anwendungsprogramme werden gesucht"
 #: UI/En.x64.Debug.ActionText-2.idtx:8 UI/En.x64.Release.ActionText-2.idtx:52
 #: UI/En.x64.Release.ActionText-2.idtx:8
 msgid "Searching for qualifying products"
-msgstr "Kompatible Produkte werden gesucht"
+msgstr "Minősítő termékek keresése"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:16
 #: UI/En.Win32.Release.ActionText-2.idtx:16
 #: UI/En.x64.Debug.ActionText-2.idtx:16 UI/En.x64.Release.ActionText-2.idtx:16
 msgid "Searching for related applications"
-msgstr "Verwandte Anwendungen werden gesucht"
+msgstr "Kapcsolódó alkalmazások keresése."
 
 #: Core/En.Win32.Debug.Error-2.idtx:149 Core/En.Win32.Release.Error-2.idtx:149
 #: Core/En.x64.Debug.Error-2.idtx:149 Core/En.x64.Release.Error-2.idtx:149
@@ -1956,8 +1919,8 @@ msgid ""
 "Service '[2]' ([3]) could not be deleted. Verify that you have sufficient "
 "privileges to remove system services."
 msgstr ""
-"Dienst \"[2]\" ([3]) konnte nicht gelöscht werden. Überprüfen Sie, ob Sie "
-"ausreichende Berechtigungen zum Entfernen von Systemdiensten besitzen."
+"A(z) '[2]' szolgáltatást ([3]) nem sikerült eltávolítani. Ellenőrizze, hogy "
+"rendelkezik-e elegendő jogosultsággal rendszerszolgáltatások eltávolításához."
 
 #: Core/En.Win32.Debug.Error-2.idtx:150 Core/En.Win32.Release.Error-2.idtx:150
 #: Core/En.x64.Debug.Error-2.idtx:150 Core/En.x64.Release.Error-2.idtx:150
@@ -1965,8 +1928,8 @@ msgid ""
 "Service '[2]' ([3]) could not be installed. Verify that you have sufficient "
 "privileges to install system services."
 msgstr ""
-"Dienst \"[2]\" ([3]) konnte nicht installiert werden. Überprüfen Sie, ob Sie "
-"ausreichende Berechtigungen zum Installieren von Systemdiensten besitzen."
+"A(z) '[2]' szolgáltatást ([3]) nem sikerült telepíteni. Ellenőrizze, hogy "
+"rendelkezik-e elegendő jogosultsággal rendszerszolgáltatások telepítéséhez."
 
 #: Core/En.Win32.Debug.Error-2.idtx:148 Core/En.Win32.Release.Error-2.idtx:148
 #: Core/En.x64.Debug.Error-2.idtx:148 Core/En.x64.Release.Error-2.idtx:148
@@ -1974,8 +1937,8 @@ msgid ""
 "Service '[2]' ([3]) could not be stopped. Verify that you have sufficient "
 "privileges to stop system services."
 msgstr ""
-"Dienst \"[2]\" ([3]) konnte nicht angehalten werden. Überprüfen Sie, ob Sie "
-"ausreichende Berechtigungen zum Anhalten von Systemdiensten besitzen."
+"A(z) '[2]' szolgáltatást ([3]) nem sikerült leállítani. Ellenőrizze, hogy "
+"rendelkezik-e elegendő jogosultsággal rendszerszolgáltatások leállításához."
 
 #: Core/En.Win32.Debug.Error-2.idtx:147 Core/En.Win32.Release.Error-2.idtx:147
 #: Core/En.x64.Debug.Error-2.idtx:147 Core/En.x64.Release.Error-2.idtx:147
@@ -1983,8 +1946,8 @@ msgid ""
 "Service '[2]' ([3]) failed to start. Verify that you have sufficient "
 "privileges to start system services."
 msgstr ""
-"Dienst \"[2]\" ([3]) konnte nicht gestartet werden. Überprüfen Sie, ob Sie "
-"ausreichende Berechtigungen zum Starten von Systemdiensten besitzen."
+"A(z) '[2]' szolgáltatás ([3]) nem indult el. Ellenőrizze, hogy rendelkezik-e "
+"elegendő jogosultsággal rendszerszolgáltatások indításához."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:13
 #: UI/En.Win32.Debug.ActionText-2.idtx:58
@@ -1997,13 +1960,13 @@ msgstr ""
 #: UI/En.x64.Release.ActionText-2.idtx:58
 #: UI/En.x64.Release.ActionText-2.idtx:59
 msgid "Service: [1]"
-msgstr "Dienst: [1]"
+msgstr "Szolgáltatás: [1]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:21
 #: UI/En.Win32.Release.ActionText-2.idtx:21
 #: UI/En.x64.Debug.ActionText-2.idtx:21 UI/En.x64.Release.ActionText-2.idtx:21
 msgid "Service: [2]"
-msgstr "Dienst: [2]"
+msgstr "Szolgáltatás: [2]"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:12
 #: UI/En.Win32.Debug.ActionText-2.idtx:51
@@ -2013,7 +1976,7 @@ msgstr "Dienst: [2]"
 #: UI/En.x64.Release.ActionText-2.idtx:12
 #: UI/En.x64.Release.ActionText-2.idtx:51
 msgid "Shortcut: [1]"
-msgstr "Verknüpfung: [1]"
+msgstr "Parancsikon: [1]"
 
 #: UI/En.Win32.Debug.Control-2.idtx:45 UI/En.Win32.Release.Control-2.idtx:45
 #: UI/En.x64.Debug.Control-2.idtx:42 UI/En.x64.Release.Control-2.idtx:42
@@ -2027,8 +1990,8 @@ msgid ""
 "Source file not found: [2]. Verify that the file exists and that you can "
 "access it."
 msgstr ""
-"Die Quelldatei wurde nicht gefunden: [2]. Überprüfen Sie, ob die Datei "
-"existiert und ob Sie darauf zugreifen können."
+"A(z) [2] forrásfájl nem található. Ellenőrizze, hogy a fájl létezik-e, és "
+"hogy van-e hozzáférési engedélye."
 
 #: Core/En.Win32.Debug.Error-2.idtx:41 Core/En.Win32.Release.Error-2.idtx:41
 #: Core/En.x64.Debug.Error-2.idtx:41 Core/En.x64.Release.Error-2.idtx:41
@@ -2036,20 +1999,20 @@ msgid ""
 "Source file not found{{(cabinet)}}: [2]. Verify that the file exists and "
 "that you can access it."
 msgstr ""
-"Die Quelldatei{{ (CAB-Datei)}} wurde nicht gefunden: [2]. Überprüfen Sie, ob "
-"die Datei existiert und ob Sie darauf zugreifen können."
+"A(z) [2] forrásfájl {{(gyűjtőfájl)}} nem található. Ellenőrizze, hogy a fájl "
+"létezik-e, és hogy van-e hozzáférési engedélye."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:58
 #: UI/En.Win32.Release.ActionText-2.idtx:58
 #: UI/En.x64.Debug.ActionText-2.idtx:58 UI/En.x64.Release.ActionText-2.idtx:58
 msgid "Starting services"
-msgstr "Dienste werden gestartet"
+msgstr "Szolgáltatások elindítása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:59
 #: UI/En.Win32.Release.ActionText-2.idtx:59
 #: UI/En.x64.Debug.ActionText-2.idtx:59 UI/En.x64.Release.ActionText-2.idtx:59
 msgid "Stopping services"
-msgstr "Dienst werden angehalten"
+msgstr "Szolgáltatások leállítása"
 
 #: Core/En.Win32.Debug.Error-2.idtx:65 Core/En.Win32.Release.Error-2.idtx:65
 #: Core/En.x64.Debug.Error-2.idtx:65 Core/En.x64.Release.Error-2.idtx:65
@@ -2058,15 +2021,13 @@ msgid ""
 "be used. This could indicate a network error, an error reading from the CD-"
 "ROM, or a problem with this package."
 msgstr ""
-"Die für die Installation erforderliche Datei \"[2]\" ist beschädigt und kann "
-"nicht verwendet werden. Dies deutet auf einen Netzwerkfehler, einen CD-ROM-"
-"Lesefehler oder auf ein das Paket betreffendes Problem hin."
+"A telepítéshez szükséges kabinetfájl ('[2]') sérült és használhatatlan. Ez "
+"hálózati hibát, CD-ROM-olvasási hibát vagy a csomag hibáját jelentheti."
 
 #: Core/En.Win32.Debug.Error-2.idtx:157 Core/En.Win32.Release.Error-2.idtx:157
 #: Core/En.x64.Debug.Error-2.idtx:157 Core/En.x64.Release.Error-2.idtx:157
 msgid "The description for service '[2]' ([3]) could not be changed."
-msgstr ""
-"Die Beschreibung für Dienst \"[2]\" ([3]) konnte nicht geändert werden."
+msgstr "A következő szolgáltatás leírása nem módosítható: '[2]' ([3])."
 
 #: Core/En.Win32.Debug.Error-2.idtx:64 Core/En.Win32.Release.Error-2.idtx:64
 #: Core/En.x64.Debug.Error-2.idtx:64 Core/En.x64.Release.Error-2.idtx:64
@@ -2075,10 +2036,9 @@ msgid ""
 "cabinet file '[3]'. This could indicate a network error, an error reading "
 "from the CD-ROM, or a problem with this package."
 msgstr ""
-"Die Datei \"[2]\" kann nicht installiert werden, da die Datei in der "
-"Kabinettdatei \"[3]\" nicht gefunden wurde. Dies deutet auf einen "
-"Netzwerkfehler, einen CD-ROM-Lesefehler oder auf ein das Paket betreffendes "
-"Problem hin."
+"A fájlt ('[2]') nem lehet telepíteni, mert a fájl nem található a következő "
+"kabinetfájlban: '[3]'. Ez hálózati hibát, CD-ROM-olvasási hibát vagy a "
+"csomag hibáját jelentheti."
 
 #: Core/En.Win32.Debug.Error-2.idtx:83 Core/En.Win32.Release.Error-2.idtx:83
 #: Core/En.x64.Debug.Error-2.idtx:83 Core/En.x64.Release.Error-2.idtx:83
@@ -2086,29 +2046,30 @@ msgid ""
 "The file [2][3] is being held in use{ by the following process: Name: [4], "
 "Id: [5], Window Title: '[6]'}. Close that application and retry."
 msgstr ""
-"Die Datei [2][3] wird im Augenblick verwendet{ vom folgenden Prozess: Name: "
-"[4], Kennung: [5], Fenstertitel: \"[6]\"}. Schließen Sie diese Anwendung und "
-"wiederholen Sie den Vorgang."
+"A(z) [2][3] fájl éppen használatban van{, a következő alkalmazás használja: "
+"Név: [4], Azonosító: [5], Ablak neve: '[6]'}. Zárja be az alkalmazást, és "
+"próbálkozzon újra."
 
 #: Core/En.Win32.Debug.Error-2.idtx:125 Core/En.Win32.Release.Error-2.idtx:125
 #: Core/En.x64.Debug.Error-2.idtx:125 Core/En.x64.Release.Error-2.idtx:125
 msgid ""
 "The folder [2] does not exist. Please enter a path to an existing folder."
 msgstr ""
-"Der Ordner [2] existiert nicht. Geben Sie den Pfad für einen existierenden "
-"Ordner ein."
+"A(z) [2] mappa nem létezik. Adjon meg olyan elérési utat, amely egy valóban "
+"létező mappához tartozik."
 
 #: Core/En.Win32.Debug.Error-2.idtx:54 Core/En.Win32.Release.Error-2.idtx:54
 #: Core/En.x64.Debug.Error-2.idtx:54 Core/En.x64.Release.Error-2.idtx:54
 msgid "The folder path '[2]' contains an invalid character."
-msgstr "Der Ordnerpfad \"[2]\" enthält ein ungültiges Zeichen."
+msgstr "A mappa elérési útja ('[2]') érvénytelen karaktert tartalmaz."
 
 #: Core/En.Win32.Debug.Error-2.idtx:53 Core/En.Win32.Release.Error-2.idtx:53
 #: Core/En.x64.Debug.Error-2.idtx:53 Core/En.x64.Release.Error-2.idtx:53
 msgid ""
 "The folder path '[2]' contains words that are not valid in folder paths."
 msgstr ""
-"Der Ordnerpfad \"[2]\" enthält Wörter, die in Ordnerpfaden ungültig sind."
+"A mappa elérési útja ('[2]') olyan szavakat tartalmaz, amelyek nem "
+"érvényesek a mappák elérési útjaiban."
 
 #: UI/En.Win32.Debug.Control-2.idtx:105 UI/En.Win32.Release.Control-2.idtx:105
 #: UI/En.x64.Debug.Control-2.idtx:102 UI/En.x64.Release.Control-2.idtx:102
@@ -2122,9 +2083,7 @@ msgstr ""
 #: Core/En.x64.Debug.Error-2.idtx:87 Core/En.x64.Release.Error-2.idtx:87
 msgid ""
 "The following applications should be closed before continuing the install:"
-msgstr ""
-"Die folgenden Anwendungen sollten geschlossen werden, bevor Sie die "
-"Installationen fortsetzen:"
+msgstr "A telepítés folytatásához be kell zárni a következő alkalmazást:"
 
 #: UI/En.Win32.Debug.Control-2.idtx:75 UI/En.Win32.Debug.Control-2.idtx:80
 #: UI/En.Win32.Release.Control-2.idtx:75 UI/En.Win32.Release.Control-2.idtx:80
@@ -2144,9 +2103,9 @@ msgid ""
 "This may indicate a problem with this package. The error code is [1]. {{The "
 "arguments are: [2], [3], [4]}}"
 msgstr ""
-"Bei der Installation dieses Pakets ist ein unerwarteter Fehler aufgetreten. "
-"Es liegt eventuell ein das Paket betreffendes Problem vor. Der Fehlercode "
-"ist [1]. {{Argumente: [2], [3], [4]}}"
+"A Telepítő váratlan hibába ütközött a csomag telepítése közben. Ez lehet, "
+"hogy egy hibát jelez a csomagban. A hibakód: [1]. {{A paraméterek: [2], [3], "
+"[4]}}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:33 Core/En.Win32.Release.Error-2.idtx:33
 #: Core/En.x64.Debug.Error-2.idtx:33 Core/En.x64.Release.Error-2.idtx:33
@@ -2155,16 +2114,16 @@ msgid ""
 "installation cannot continue. Log on as administrator or contact your system "
 "administrator."
 msgstr ""
-"Die Rechte von Installer reichen nicht aus, um auf diesen Ordner "
-"zuzugreifen: [2]. Die Installation kann nicht fortgesetzt werden. Melden Sie "
-"sich als Administrator an oder wenden Sie sich an den Systemadministrator."
+"A Telepítő nem rendelkezik elegendő jogosultsággal a következő könyvtár "
+"megnyitásához: [2]. A telepítés nem folytatható. Jelentkezzen be "
+"rendszergazdaként, vagy forduljon a rendszergazdához."
 
 #: Core/En.Win32.Debug.Error-2.idtx:51 Core/En.Win32.Release.Error-2.idtx:51
 #: Core/En.x64.Debug.Error-2.idtx:51 Core/En.x64.Release.Error-2.idtx:51
 msgid "The Installer has insufficient privileges to modify this file: [2]."
 msgstr ""
-"Installer besitzt keine ausreichenden Berechtigungen, um diese Datei zu "
-"verändern: [2]."
+"A Telepítő nem rendelkezik elegendő jogosultsággal a következő fájl "
+"módosításához: [2]."
 
 #: Core/En.Win32.Debug.Error-2.idtx:92 Core/En.Win32.Release.Error-2.idtx:92
 #: Core/En.x64.Debug.Error-2.idtx:92 Core/En.x64.Release.Error-2.idtx:92
@@ -2173,16 +2132,16 @@ msgid ""
 "continue. Click Yes to restart now or No if you plan to manually restart "
 "later."
 msgstr ""
-"Installer muss den Computer neu starten, bevor die Konfiguration von [2] "
-"fortgesetzt werden kann. Klicken Sie auf \"Ja\", um den Computer jetzt neu "
-"zu starten, oder auf \"Nein\", um den Computer später manuell neu zu starten."
+"A Telepítőnek újra kell indítania a rendszert, mielőtt a [2] konfigurálása "
+"folytatódik. Kattintson az Igen gombra, ha most akarja újraindítani a "
+"rendszert, vagy a Nem gombra, ha később."
 
 #: Core/En.Win32.Debug.Error-2.idtx:91 Core/En.Win32.Release.Error-2.idtx:91
 #: Core/En.x64.Debug.Error-2.idtx:91 Core/En.x64.Release.Error-2.idtx:91
 msgid "The key [2] is not valid. Verify that you entered the correct key."
 msgstr ""
-"Der Schlüssel [2] ist ungültig. Überprüfen Sie, ob Sie den korrekten "
-"Schlüssel eingegeben haben."
+"A(z) [2] kulcs nem érvényes. Ellenőrizze, hogy a megfelelő kulcsot adta-e "
+"meg."
 
 #: Core/En.Win32.Debug.Error-2.idtx:104 Core/En.Win32.Release.Error-2.idtx:104
 #: Core/En.x64.Debug.Error-2.idtx:104 Core/En.x64.Release.Error-2.idtx:104
@@ -2190,13 +2149,13 @@ msgid ""
 "The older version of [2] cannot be removed. Contact your technical support "
 "group. {{System Error [3].}}"
 msgstr ""
-"Die ältere Version von [2] kann nicht entfernt werden. Setzen Sie sich mit "
-"dem technischen Supportpersonal in Verbindung. {{Systemfehler: [3].}}"
+"Nem lehet eltávolítani a(z) [2] régebbi verzióját. Forduljon a "
+"technikusokhoz. {{Rendszerhiba: [3].}}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:121 Core/En.Win32.Release.Error-2.idtx:121
 #: Core/En.x64.Debug.Error-2.idtx:121 Core/En.x64.Release.Error-2.idtx:121
 msgid "The path [2] is not valid. Please specify a valid path."
-msgstr "Der Pfad [2] ist ungültig. Geben Sie einen gültigen Pfad an."
+msgstr "Az elérési út ([2]) nem érvényes. Adjon meg másik elérési utat."
 
 #: Core/En.Win32.Debug.Error-2.idtx:84 Core/En.Win32.Release.Error-2.idtx:84
 #: Core/En.x64.Debug.Error-2.idtx:84 Core/En.x64.Release.Error-2.idtx:84
@@ -2204,8 +2163,8 @@ msgid ""
 "The product '[2]' is already installed, preventing the installation of this "
 "product. The two products are incompatible."
 msgstr ""
-"Das Produkt \"[2]\" ist bereits installiert und verhindert die Installation "
-"dieses Produkts. Die beiden Produkte sind inkompatibel."
+"Az előzőleg már telepített '[2]' termék megakadályozza ennek a terméknek a "
+"telepítését. A két termék nem kompatíbilis."
 
 #: UI/En.Win32.Debug.Control-2.idtx:40 UI/En.Win32.Release.Control-2.idtx:40
 #: UI/En.x64.Debug.Control-2.idtx:37 UI/En.x64.Release.Control-2.idtx:37
@@ -2215,19 +2174,17 @@ msgstr ""
 #: Core/En.Win32.Debug.Error-2.idtx:44 Core/En.Win32.Release.Error-2.idtx:44
 #: Core/En.x64.Debug.Error-2.idtx:44 Core/En.x64.Release.Error-2.idtx:44
 msgid "The specified path '[2]' is unavailable."
-msgstr "Der angegebene Pfad \"[2]\" ist nicht verfügbar."
+msgstr "A megadott elérési út ('[2]') nem érhető el."
 
 #: Core/En.Win32.Debug.Error-2.idtx:50 Core/En.Win32.Release.Error-2.idtx:50
 #: Core/En.x64.Debug.Error-2.idtx:50 Core/En.x64.Release.Error-2.idtx:50
 msgid "The specified path is too long: [2]"
-msgstr "Der angegebene Pfad ist zu lang: [2]"
+msgstr "A megadott elérési út túl hosszú: [2]"
 
 #: Core/En.Win32.Debug.Error-2.idtx:43 Core/En.Win32.Release.Error-2.idtx:43
 #: Core/En.x64.Debug.Error-2.idtx:43 Core/En.x64.Release.Error-2.idtx:43
 msgid "The volume [2] is currently unavailable. Please select another."
-msgstr ""
-"Das Volume [2] steht im Augenblick nicht zur Verfügung. Wählen Sie ein "
-"anderes Volume aus."
+msgstr "A(z) [2] kötet jelenleg nem érhető el. Válasszon másik kötetet."
 
 #: Core/En.Win32.Debug.Error-2.idtx:160 Core/En.Win32.Release.Error-2.idtx:160
 #: Core/En.x64.Debug.Error-2.idtx:160 Core/En.x64.Release.Error-2.idtx:160
@@ -2236,8 +2193,8 @@ msgid ""
 "files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
 msgstr ""
-"Einige geschützte Windows-Dateien konnten nicht aktualisiert werden. {{SFP-"
-"Fehler: [2]. Liste der geschützten Dateien:\n"
+"A Windows Installer szolgáltatás nem tud frissíteni egy vagy több védett "
+"Windows-fájlt. {{SFP-hiba: [2]. A védett fájlok listája:\n"
 "[3]}}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:159 Core/En.Win32.Release.Error-2.idtx:159
@@ -2246,9 +2203,9 @@ msgid ""
 "The Windows Installer service cannot update the protected Windows file [2]. "
 "{{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
 msgstr ""
-"Der Windows Installer-Dienst kann die geschützte Windows-Datei [2] nicht "
-"aktualisieren. {{Paketversion: [3], vom System geschützte Version: [4], SFP-"
-"Fehler: [5]}}"
+"A Windows Installer nem tudja frissíteni a védett Windows fájlt: [2]. "
+"{{Csomag verziószáma: [3], Op. rendszer védte verziószám: [4], SFP-hiba: "
+"[5]}}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:158 Core/En.Win32.Release.Error-2.idtx:158
 #: Core/En.x64.Debug.Error-2.idtx:158 Core/En.x64.Release.Error-2.idtx:158
@@ -2258,10 +2215,9 @@ msgid ""
 "for this programme to work correctly. {{Package version: [3], OS Protected "
 "version: [4]}}"
 msgstr ""
-"Der Windows Installer-Dienst kann die Systemdatei [2] nicht aktualisieren, "
-"weil die Datei von Windows geschützt wird. Sie müssen möglicherweise das "
-"Betriebssystem aktualisieren, damit dieses Programm korrekt funktionieren "
-"kann. {{Paketversion: [3], vom System geschützte Version: [4]}}"
+"A Windows Installer nem tudja frissíteni a rendszerfájlt ([2]), mert azt a "
+"Windows védi. A program megfelelő működéséhez frissítenie kell az operációs "
+"rendszert. {{Csomag verziószáma: [3], Op. rendszer védte verziószám: [4]}}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:109 Core/En.Win32.Release.Error-2.idtx:109
 #: Core/En.x64.Debug.Error-2.idtx:109 Core/En.x64.Release.Error-2.idtx:109
@@ -2270,10 +2226,10 @@ msgid ""
 "are running Windows in safe mode, or if the Windows Installer is not "
 "correctly installed. Contact your support personnel for assistance."
 msgstr ""
-"Auf den Windows Installer-Dienst konnte nicht zugegriffen werden. Dies kann "
-"auftreten, wenn Windows im abgesicherten Modus ausgeführt wird oder wenn der "
-"Windows Installer nicht korrekt installiert wurde. Setzen Sie sich mit dem "
-"Supportpersonal in Verbindung, um weitere Unterstützung zu erhalten."
+"Nem lehetett hozzáférni a Windows Installer szolgáltatáshoz. Ez akkor "
+"fordulhat elő, ha a Windowst csökkentett üzemmódban futtatja, vagy, ha a "
+"Windows Installer nincs helyesen telepítve. Segítségért lépjen kapcsolatba a "
+"támogató technikusokkal."
 
 #: Core/En.Win32.Debug.Error-2.idtx:113 Core/En.Win32.Release.Error-2.idtx:113
 #: Core/En.x64.Debug.Error-2.idtx:113 Core/En.x64.Release.Error-2.idtx:113
@@ -2282,10 +2238,9 @@ msgid ""
 "this install to complete could not be run. Contact your support personnel or "
 "package vendor. {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
-"Es liegt ein dieses Windows Installer-Paket betreffendes Problem vor. Eine "
-"für den Abschluss der Installation erforderliche DLL konnte nicht ausgeführt "
-"werden. Wenden Sie sich an das Supportpersonal oder den Hersteller des "
-"Pakets. {{Aktion: [2], Eintrag: [3], Bibliothek: [4] }}"
+"Probléma van a Windows Installer csomaggal. A telepítéshez szükséges egyik "
+"DLL nem futtatható. Lépjen kapcsolatba a támogató személyzettel vagy a "
+"csomag eladójával. {{ művelet [2], bejegyzés: [3], függvénytár: [4] }}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:111 Core/En.Win32.Release.Error-2.idtx:111
 #: Core/En.x64.Debug.Error-2.idtx:111 Core/En.x64.Release.Error-2.idtx:111
@@ -2294,10 +2249,9 @@ msgid ""
 "for this install to complete could not be run. Contact your support "
 "personnel or package vendor. {{Action: [2], location: [3], command: [4] }}"
 msgstr ""
-"Es liegt ein dieses Windows Installer-Paket betreffendes Problem vor. Ein "
-"für den Abschluss der Installation erforderliches Programm konnte nicht "
-"ausgeführt werden. Wenden Sie sich an das Supportpersonal oder den "
-"Hersteller des Pakets. {{Aktion: [2], Pfad: [3], Befehl: [4] }}"
+"Probléma van a Windows Installer csomaggal. A telepítéshez szükséges egyik "
+"program nem futtatható. Lépjen kapcsolatba a támogató személyzettel vagy a "
+"csomag eladójával. {{művelet: [2], hely: [3], parancs: [4] }}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:112 Core/En.Win32.Release.Error-2.idtx:112
 #: Core/En.x64.Debug.Error-2.idtx:112 Core/En.x64.Release.Error-2.idtx:112
@@ -2306,10 +2260,10 @@ msgid ""
 "part of the setup did not finish as expected. Contact your support personnel "
 "or package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
-"Es liegt ein dieses Windows Installer-Paket betreffendes Problem vor. Ein "
-"Programm, das im Rahmen der Installation ausgeführt wurde, wurde nicht "
-"erfolgreich abgeschlossen. Wenden Sie sich an das Supportpersonal oder den "
-"Hersteller des Pakets. {{Aktion: [2], Pfad: [3], Befehl: [4] }}"
+"Probléma van a Windows Installer csomaggal. A telepítés egyik részeként futó "
+"program nem az elvárásoknak megfelelően ért véget. Lépjen kapcsolatba a "
+"támogató személyzettel vagy a csomag eladójával. {{ művelet [2], hely: [3], "
+"parancs: [4] }}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:110 Core/En.Win32.Release.Error-2.idtx:110
 #: Core/En.x64.Debug.Error-2.idtx:110 Core/En.x64.Release.Error-2.idtx:110
@@ -2319,11 +2273,10 @@ msgid ""
 "personnel or package vendor. {{Custom action [2] script error [3], [4]: [5] "
 "Line [6], Column [7], [8] }}"
 msgstr ""
-"Es liegt ein dieses Windows Installer-Paket betreffendes Problem vor. Ein "
-"für den Abschluss der Installation erforderliches Skript konnte nicht "
-"ausgeführt werden. Wenden Sie sich an das Supportpersonal oder den "
-"Hersteller des Pakets. {{Benutzerdefinierte Aktion: [2] Skriptfehler [3], "
-"[4]: [5] Zeile[6], Spalte [7], [8] }}"
+"Probléma van a Windows Installer csomaggal. A telepítéshez szükséges egyik "
+"parancsfájl nem futtatható. Lépjen kapcsolatba a támogató személyzettel vagy "
+"a csomag eladójával. {{Egyéni művelet: [2], parancsfájlhiba: [3], [4]: [5] "
+"sor: [6], oszlop: [7], [8] }}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:123 Core/En.Win32.Release.Error-2.idtx:123
 #: Core/En.x64.Debug.Error-2.idtx:123 Core/En.x64.Release.Error-2.idtx:123
@@ -2331,9 +2284,9 @@ msgid ""
 "There is no disk in drive [2]. Please insert one and click Retry, or click "
 "Cancel to go back to the previously selected volume."
 msgstr ""
-"In Laufwerk [2] ist kein Datenträger eingelegt. Legen Sie einen Datenträger "
-"ein und klicken Sie auf \"Wiederholen\". Oder klicken Sie auf \"Abbrechen\", "
-"um zu dem zuvor ausgewählten Volume zurückzukehren."
+"A(z) [2] meghajtóban nincs lemez. Tegyen be egyet, és kattintson az Ismét "
+"gombra, vagy kattintson a Mégse gombra, ha vissza akar térni az előzőleg "
+"kijelölt kötethez."
 
 #: Core/En.Win32.Debug.Error-2.idtx:124 Core/En.Win32.Release.Error-2.idtx:124
 #: Core/En.x64.Debug.Error-2.idtx:124 Core/En.x64.Release.Error-2.idtx:124
@@ -2341,10 +2294,9 @@ msgid ""
 "There is no disk in drive [2]. Please insert one and click Retry, or click "
 "Cancel to return to the browse dialog and select a different volume."
 msgstr ""
-"In Laufwerk [2] ist kein Datenträger eingelegt. Legen Sie einen Datenträger "
-"ein und klicken Sie auf \"Wiederholen\". Oder klicken Sie auf \"Abbrechen\", "
-"um zum Dialog \"Durchsuchen\" zurückzukehren und ein anderes Volume "
-"auszuwählen."
+"A(z) [2] meghajtóban nincs lemez. Tegyen be egyet, és kattintson az Ismét "
+"gombra, vagy kattintson a Mégse gombra, ha vissza akar térni a tallózás "
+"párbeszédpanelhez, és másik kötetet akar kiválasztani."
 
 #: Core/En.Win32.Debug.Error-2.idtx:85 Core/En.Win32.Release.Error-2.idtx:85
 #: Core/En.x64.Debug.Error-2.idtx:85 Core/En.x64.Release.Error-2.idtx:85
@@ -2355,12 +2307,11 @@ msgid ""
 "click Retry to check for available space again, or click Cancel to quit the "
 "installation."
 msgstr ""
-"Auf Volume \"[2]\" steht nicht genügend Speicherplatz für die Installation "
-"bei aktivierter Wiederherstellungsoption zur Verfügung. [3] KB sind "
-"erforderlich, aber nur [4] KB sind verfügbar. Klicken Sie auf \"Ignorieren"
-"\", um die Installation ohne Speicherung von Wiederherstellungsinformationen "
-"fortzusetzen, klicken Sie auf \"Wiederholen\", um den verfügbaren Speicher "
-"erneut zu überprüfen oder auf \"Abbrechen\", um die Installation abzubrechen."
+"Nincs elég hely a köteten ('[2]') a visszaállítási lehetőséggel való "
+"telepítés folytatásához. [3] kilobájtra van szükség, de csak [4] KB áll "
+"rendelkezésre. A visszaállítási információk mentése nélküli telepítés "
+"folytatásához kattintson a Kihagyás gombra, a szabad hely ellenőrzéséhez az "
+"Ismét, valamint a telepítésből való kilépéshez kattintson a Mégse gombra."
 
 #: Core/En.Win32.Debug.Error-2.idtx:37 Core/En.Win32.Release.Error-2.idtx:37
 #: Core/En.x64.Debug.Error-2.idtx:37 Core/En.x64.Release.Error-2.idtx:37
@@ -2368,10 +2319,9 @@ msgid ""
 "There is not enough disk space to install this file: [2]. Free some disk "
 "space and click Retry, or click Cancel to exit."
 msgstr ""
-"Auf der Festplatte ist nicht genügend freier Speicherplatz vorhanden, um "
-"diese Datei zu installieren: [2]. Sorgen Sie für zusätzlichen freien "
-"Speicher und klicken Sie auf \"Wiederholen\", oder klicken Sie auf "
-"\"Abbrechen\", um Installer zu beenden."
+"A lemezen nincs elég hely a(z) [2] fájl telepítéséhez. Tegyen szabaddá több "
+"helyet a lemezen, és kattintson az Ismét gombra, vagy kattintson a Mégse "
+"gombra a kilépéshez."
 
 #: Core/En.Win32.Debug.Error-2.idtx:66 Core/En.Win32.Release.Error-2.idtx:66
 #: Core/En.x64.Debug.Error-2.idtx:66 Core/En.x64.Release.Error-2.idtx:66
@@ -2379,8 +2329,8 @@ msgid ""
 "There was an error creating a temporary file that is needed to complete this "
 "installation.{{ Folder: [3]. System error code: [2]}}"
 msgstr ""
-"Beim Erstellen der für die Installation erforderlichen temporären Datei ist "
-"ein Fehler aufgetreten.{{ Ordner: [3]. Systemfehlercode: [2]}}"
+"Hiba történt a telepítés befejezéséhez szükséges ideiglenes fájl létrehozása "
+"közben.{{ Mappa: [3]. A rendszerhiba kódja: [2]}}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:90 Core/En.Win32.Release.Error-2.idtx:90
 #: Core/En.x64.Debug.Error-2.idtx:90 Core/En.x64.Release.Error-2.idtx:90
@@ -2410,7 +2360,7 @@ msgstr ""
 #: UI/En.Win32.Debug.UIText-2.idtx:49 UI/En.Win32.Release.UIText-2.idtx:49
 #: UI/En.x64.Debug.UIText-2.idtx:49 UI/En.x64.Release.UIText-2.idtx:49
 msgid "Time remaining: {[1] minutes }{[2] seconds}"
-msgstr "Verbleibende Zeit: {[1] Minute(n) }{[2] Sekunde(n)}"
+msgstr "Hátralévő idő: {[1] perc }{[2] másodperc}"
 
 #: UI/En.Win32.Debug.Control-2.idtx:37 UI/En.Win32.Release.Control-2.idtx:37
 #: UI/En.x64.Debug.Control-2.idtx:34 UI/En.x64.Release.Control-2.idtx:34
@@ -2420,79 +2370,79 @@ msgstr ""
 #: Core/En.Win32.Debug.Error-2.idtx:45 Core/En.Win32.Release.Error-2.idtx:45
 #: Core/En.x64.Debug.Error-2.idtx:45 Core/En.x64.Release.Error-2.idtx:45
 msgid "Unable to write to the specified folder: [2]."
-msgstr "Schreibzugriff auf den angegebenen Ordner \"[2]\" ist nicht möglich."
+msgstr "Nem sikerült írni a megadott mappába ('[2]')."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:28
 #: UI/En.Win32.Release.ActionText-2.idtx:28
 #: UI/En.x64.Debug.ActionText-2.idtx:28 UI/En.x64.Release.ActionText-2.idtx:28
 msgid "Unpublishing assembly information"
-msgstr "Veröffentlichung der Assemblierungsinformationen wird aufgehoben"
+msgstr "Az összeállítási információk közzétételének megszüntetése"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:62
 #: UI/En.Win32.Release.ActionText-2.idtx:62
 #: UI/En.x64.Debug.ActionText-2.idtx:62 UI/En.x64.Release.ActionText-2.idtx:62
 msgid "Unpublishing Product Features"
-msgstr "Veröffentlichung von Produktfunktionen wird rückgängig gemacht"
+msgstr "A termékszolgáltatások közzétételének visszavonása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:63
 #: UI/En.Win32.Release.ActionText-2.idtx:63
 #: UI/En.x64.Debug.ActionText-2.idtx:63 UI/En.x64.Release.ActionText-2.idtx:63
 msgid "Unpublishing product information"
-msgstr "Veröffentlichung von Produktinformation wird rückgängig gemacht"
+msgstr "A termékadatok közzétételének visszavonása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:61
 #: UI/En.Win32.Release.ActionText-2.idtx:61
 #: UI/En.x64.Debug.ActionText-2.idtx:61 UI/En.x64.Release.ActionText-2.idtx:61
 msgid "Unpublishing Qualified Components"
-msgstr "Veröffentlichung qualifizierter Komponenten wird rückgängig gemacht"
+msgstr "A minősített összetevők közzétételének visszavonása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:64
 #: UI/En.Win32.Release.ActionText-2.idtx:64
 #: UI/En.x64.Debug.ActionText-2.idtx:64 UI/En.x64.Release.ActionText-2.idtx:64
 msgid "Unregister Class servers"
-msgstr "Klassenserver werden aus der Registrierung entfernt"
+msgstr "Az osztálykiszolgálók regisztrációjának törlése "
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:65
 #: UI/En.Win32.Release.ActionText-2.idtx:65
 #: UI/En.x64.Debug.ActionText-2.idtx:65 UI/En.x64.Release.ActionText-2.idtx:65
 msgid "Unregistering COM+ Applications and Components"
-msgstr "COM+-Anwendungen und Komponenten werden aus der Registrierung entfernt"
+msgstr "A COM+ alkalmazások és összetevők regisztrációjának törlése"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:66
 #: UI/En.Win32.Release.ActionText-2.idtx:66
 #: UI/En.x64.Debug.ActionText-2.idtx:66 UI/En.x64.Release.ActionText-2.idtx:66
 msgid "Unregistering extension servers"
-msgstr "Erweiterungsserver werden aus der Registrierung entfernt"
+msgstr "A kiterjesztéskiszolgálók regisztrációjának törlése"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:67
 #: UI/En.Win32.Release.ActionText-2.idtx:67
 #: UI/En.x64.Debug.ActionText-2.idtx:67 UI/En.x64.Release.ActionText-2.idtx:67
 msgid "Unregistering fonts"
-msgstr "Schriftarten werden aus der Registrierung entfernt"
+msgstr "A betűtípusok regisztrációjának visszavonása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:68
 #: UI/En.Win32.Release.ActionText-2.idtx:68
 #: UI/En.x64.Debug.ActionText-2.idtx:68 UI/En.x64.Release.ActionText-2.idtx:68
 msgid "Unregistering MIME info"
-msgstr "MIME-Informationen werden aus der Registrierung entfernt"
+msgstr "A MIME információ regisztrációjának visszavonása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:56
 #: UI/En.Win32.Release.ActionText-2.idtx:56
 #: UI/En.x64.Debug.ActionText-2.idtx:56 UI/En.x64.Release.ActionText-2.idtx:56
 msgid "Unregistering modules"
-msgstr "Module werden aus der Registrierung entfernt"
+msgstr "A modulok regisztrációjának törlése"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:69
 #: UI/En.Win32.Release.ActionText-2.idtx:69
 #: UI/En.x64.Debug.ActionText-2.idtx:69 UI/En.x64.Release.ActionText-2.idtx:69
 msgid "Unregistering programme identifiers"
-msgstr "Programmidentifikatoren werden aus der Registrierung entfernt"
+msgstr "A programazonosítók regisztrációjának törlése"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:70
 #: UI/En.Win32.Release.ActionText-2.idtx:70
 #: UI/En.x64.Debug.ActionText-2.idtx:70 UI/En.x64.Release.ActionText-2.idtx:70
 msgid "Unregistering type libraries"
-msgstr "Typbibliotheken werden aus der Registrierung entfernt"
+msgstr "A típustárak regisztrációjának visszavonása"
 
 #: UI/En.Win32.Debug.Control-2.idtx:51 UI/En.Win32.Debug.Control-2.idtx:62
 #: UI/En.Win32.Release.Control-2.idtx:51 UI/En.Win32.Release.Control-2.idtx:62
@@ -2505,7 +2455,7 @@ msgstr ""
 #: UI/En.Win32.Release.ActionText-2.idtx:30
 #: UI/En.x64.Debug.ActionText-2.idtx:30 UI/En.x64.Release.ActionText-2.idtx:30
 msgid "Updating component registration"
-msgstr "Registrierung der Komponente(n) wird aktualisiert"
+msgstr "Összetevők regisztrációjának frissítése"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:44
 #: UI/En.Win32.Debug.ActionText-2.idtx:71
@@ -2515,7 +2465,7 @@ msgstr "Registrierung der Komponente(n) wird aktualisiert"
 #: UI/En.x64.Release.ActionText-2.idtx:44
 #: UI/En.x64.Release.ActionText-2.idtx:71
 msgid "Updating environment strings"
-msgstr "Umgebungsstrings werden aktualisiert"
+msgstr "A környezeti karakterláncok frissítése"
 
 #: Core/En.Win32.Debug.Error-2.idtx:80 Core/En.Win32.Release.Error-2.idtx:80
 #: Core/En.x64.Debug.Error-2.idtx:80 Core/En.x64.Release.Error-2.idtx:80
@@ -2523,9 +2473,9 @@ msgid ""
 "User '[2]' has previously initiated an install for product '[3]'. That user "
 "will need to run that install again before they can use that product."
 msgstr ""
-"Benutzer \"[2]\" hat die Installation des Produkts \"[3]\" bereits "
-"initialisiert. Dieser Benutzer muss die Installation wiederholen, bevor "
-"dieses Produkt verwendet werden kann."
+"Egy másik felhasználó ([2]) korábban már elindította a(z) '[3]' termék "
+"telepítését. Neki a termék használatához újra kell majd indítani a "
+"telepítést."
 
 #: Core/En.Win32.Debug.Error-2.idtx:79 Core/En.Win32.Release.Error-2.idtx:79
 #: Core/En.x64.Debug.Error-2.idtx:79 Core/En.x64.Release.Error-2.idtx:79
@@ -2534,38 +2484,37 @@ msgid ""
 "will need to run that install again before they can use that product. Your "
 "current install will now continue."
 msgstr ""
-"Benutzer \"[2]\" hat die Installation des Produkts \"[3]\" bereits "
-"initialisiert. Dieser Benutzer muss die Installation wiederholen, bevor "
-"dieses Produkt verwendet werden kann. Die aktuelle Installation wird jetzt "
-"fortgesetzt."
+"Egy másik felhasználó ([2]) korábban már elindította a(z) '[3]' termék "
+"telepítését. Neki a termék használatához újra kell majd indítani a "
+"telepítést. A jelenlegi telepítés most folytatódni fog."
 
 #: Core/En.Win32.Debug.Error-2.idtx:161 Core/En.Win32.Release.Error-2.idtx:161
 #: Core/En.x64.Debug.Error-2.idtx:161 Core/En.x64.Release.Error-2.idtx:161
 msgid "User installations are disabled via policy on the machine."
-msgstr "Benutzerinstallationen sind über die Computerrichtlinie deaktiviert."
+msgstr "A felhasználó telepítések a számítógép házirendjében le vannak tiltva."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:23
 #: UI/En.Win32.Release.ActionText-2.idtx:23
 #: UI/En.x64.Debug.ActionText-2.idtx:23 UI/En.x64.Release.ActionText-2.idtx:23
 msgid "Validating install"
-msgstr "Die Installation wird überprüft"
+msgstr "A telepítés érvényesítése"
 
 #: Core/En.Win32.Debug.Error-2.idtx:6 Core/En.Win32.Release.Error-2.idtx:6
 #: Core/En.x64.Debug.Error-2.idtx:6 Core/En.x64.Release.Error-2.idtx:6
 msgid "Warning [1]. "
-msgstr "Warnung [1]. "
+msgstr "Figyelmeztetés: [1]. "
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:72
 #: UI/En.Win32.Release.ActionText-2.idtx:72
 #: UI/En.x64.Debug.ActionText-2.idtx:72 UI/En.x64.Release.ActionText-2.idtx:72
 msgid "Writing INI files values"
-msgstr "INI-Dateiwerte werden geschrieben"
+msgstr "Az INI fájlok értékeinek írása"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:73
 #: UI/En.Win32.Release.ActionText-2.idtx:73
 #: UI/En.x64.Debug.ActionText-2.idtx:73 UI/En.x64.Release.ActionText-2.idtx:73
 msgid "Writing system registry values"
-msgstr "Werte werden in die Systemregistrierung geschrieben"
+msgstr "A rendszerleíró értékek írása"
 
 #: UI/En.Win32.Debug.Control-2.idtx:29 UI/En.Win32.Release.Control-2.idtx:29
 #: UI/En.x64.Debug.Control-2.idtx:26 UI/En.x64.Release.Control-2.idtx:26
@@ -2589,14 +2538,14 @@ msgid ""
 "users of the machine. Log on as administrator and then retry this "
 "installation."
 msgstr ""
-"Sie besitzen keine ausreichenden Berechtigungen, um diese Installation für "
-"alle Benutzer dieses Computers auszuführen. Melden Sie sich als "
-"Administrator an, und wiederholen Sie diese Installation."
+"Nincs elegendő jogosultsága, hogy a telepítést a gép összes felhasználója "
+"számára elvégezze. Jelentkezzen be rendszergazdaként, és próbálkozzon újra a "
+"telepítéssel."
 
 #: Core/En.Win32.Debug.Error-2.idtx:126 Core/En.Win32.Release.Error-2.idtx:126
 #: Core/En.x64.Debug.Error-2.idtx:126 Core/En.x64.Release.Error-2.idtx:126
 msgid "You have insufficient privileges to read this folder."
-msgstr "Die Zugriffsrechte reichen nicht aus, um diesen Ordner zu lesen."
+msgstr "A mappa olvasásához nincs elég jogosultsága."
 
 #: Core/En.Win32.Debug.Error-2.idtx:100 Core/En.Win32.Release.Error-2.idtx:100
 #: Core/En.x64.Debug.Error-2.idtx:100 Core/En.x64.Release.Error-2.idtx:100
@@ -2604,9 +2553,8 @@ msgid ""
 "You may either restore your computer to its previous state or continue the "
 "install later. Would you like to restore?"
 msgstr ""
-"Sie können entweder den ursprünglichen Zustand des Computers "
-"wiederherstellen oder die Installation später fortsetzen. Möchten Sie "
-"wiederherstellen?"
+"Visszaállíthatja a számítógép előző állapotát, vagy később folytathatja is a "
+"telepítést. Kívánja visszaállítani az előző állapotot?"
 
 #: Core/En.Win32.Debug.Error-2.idtx:120 Core/En.Win32.Release.Error-2.idtx:120
 #: Core/En.x64.Debug.Error-2.idtx:120 Core/En.x64.Release.Error-2.idtx:120
@@ -2615,9 +2563,9 @@ msgid ""
 "application, you can log on as an Administrator, or contact your technical "
 "support group for assistance."
 msgstr ""
-"Sie müssen über Administratorrechte verfügen, um diese Anwendung entfernen "
-"zu können. Melden Sie sich als Administrator an oder wenden Sie sich an den "
-"technischen Support, um Unterstützung zu erhalten."
+"Az alkalmazás eltávolításához rendszergazdának kell lennie. Az alkalmazás "
+"eltávolításához rendszergazdaként kell bejelentkeznie, vagy kapcsolatba kell "
+"lépnie a technikai tanácsadással."
 
 #: Core/En.Win32.Debug.Error-2.idtx:93 Core/En.Win32.Release.Error-2.idtx:93
 #: Core/En.x64.Debug.Error-2.idtx:93 Core/En.x64.Release.Error-2.idtx:93
@@ -2626,15 +2574,15 @@ msgid ""
 "take effect. Click Yes to restart now or No if you plan to manually restart "
 "later."
 msgstr ""
-"Sie müssen den Computer neu starten, damit die geänderte Konfiguration von "
-"[2] wirksam wird. Klicken Sie auf \"Ja\", um den Computer jetzt neu zu "
-"starten, oder auf \"Nein\", um den Computer später manuell neu zu starten."
+"Újra kell indítania a rendszert, hogy a(z) [2] konfigurálásának változásai "
+"életbe lépjenek. Kattintson az Igen gombra, ha most akarja újraindítani a "
+"rendszert, vagy a Nem gombra, ha később."
 
 #: UI/En.Win32.Debug.Property-2.idtx:9 UI/En.Win32.Release.Property-2.idtx:9
 #: UI/En.x64.Debug.Property-2.idtx:9 UI/En.x64.Release.Property-2.idtx:9
 #, fuzzy
 msgid "&Install Now"
-msgstr "[2] wird installiert"
+msgstr "Telepítve: [2]"
 
 #: UI/En.Win32.Debug.RadioButton-2.idtx:4
 #: UI/En.Win32.Release.RadioButton-2.idtx:4
@@ -2642,15 +2590,18 @@ msgstr "[2] wird installiert"
 #, fuzzy
 msgid "&Modify"
 msgstr ""
-"Installer besitzt keine ausreichenden Berechtigungen, um diese Datei zu "
-"verändern: [2]."
+"A környezeti változó ([2]) frissítése nem sikerült. Ellenőrizze, hogy "
+"rendelkezik-e elegendő jogosultsággal környezeti változók módosításához."
 
 #: UI/En.Win32.Debug.RadioButton-2.idtx:6
 #: UI/En.Win32.Release.RadioButton-2.idtx:6
 #: UI/En.x64.Debug.RadioButton-2.idtx:6 UI/En.x64.Release.RadioButton-2.idtx:6
 #, fuzzy
 msgid "&Remove"
-msgstr "Entferne"
+msgstr ""
+"Az alkalmazás eltávolításához rendszergazdának kell lennie. Az alkalmazás "
+"eltávolításához rendszergazdaként kell bejelentkeznie, vagy kapcsolatba kell "
+"lépnie a technikai tanácsadással."
 
 #: UI/En.Win32.Debug.RadioButton-2.idtx:5
 #: UI/En.Win32.Release.RadioButton-2.idtx:5
@@ -2668,7 +2619,12 @@ msgstr ""
 #: UI/En.x64.Debug.UIText-2.idtx:50 UI/En.x64.Release.UIText-2.idtx:50
 #, fuzzy
 msgid "Available"
-msgstr "Nicht verfügbar"
+msgstr ""
+"Nincs elég hely a köteten ('[2]') a visszaállítási lehetőséggel való "
+"telepítés folytatásához. [3] kilobájtra van szükség, de csak [4] KB áll "
+"rendelkezésre. A visszaállítási információk mentése nélküli telepítés "
+"folytatásához kattintson a Kihagyás gombra, a szabad hely ellenőrzéséhez az "
+"Ismét, valamint a telepítésből való kilépéshez kattintson a Mégse gombra."
 
 #: UI/En.Win32.Debug.UIText-2.idtx:5 UI/En.Win32.Release.UIText-2.idtx:5
 #: UI/En.x64.Debug.UIText-2.idtx:5 UI/En.x64.Release.UIText-2.idtx:5
@@ -2684,7 +2640,7 @@ msgstr ""
 #: UI/En.x64.Debug.Property-2.idtx:8 UI/En.x64.Release.Property-2.idtx:8
 #, fuzzy
 msgid "Custom Installation"
-msgstr "Die Installation ist fehlgeschlagen."
+msgstr "A telepítés nem sikerült."
 
 #: UI/En.Win32.Debug.UIText-2.idtx:51 UI/En.Win32.Release.UIText-2.idtx:51
 #: UI/En.x64.Debug.UIText-2.idtx:51 UI/En.x64.Release.UIText-2.idtx:51
@@ -2735,16 +2691,17 @@ msgstr ""
 #: UI/En.x64.Debug.Property-2.idtx:4 UI/En.x64.Release.Property-2.idtx:4
 #, fuzzy
 msgid "Installing"
-msgstr "[2] wird installiert"
+msgstr ""
+"A gépen nem található olyan, korábban már telepített egyéb termék, amely "
+"ennek a terméknek a telepítéséhez szükséges."
 
 #: UI/En.Win32.Debug.UIText-2.idtx:7 UI/En.Win32.Release.UIText-2.idtx:7
 #: UI/En.x64.Debug.UIText-2.idtx:7 UI/En.x64.Release.UIText-2.idtx:7
 #, fuzzy
 msgid "KB"
 msgstr ""
-"Der verfügbare Registrierungsspeicher konnte nicht vergrößert werden. [2] KB "
-"freier Registrierungsspeicher sind zum Installieren dieser Anwendung "
-"erforderlich."
+"Nem sikerült növelni a regisztrációs helyet. Ennek az alkalmazásnak a "
+"telepítéséhez [2] KB szabad regisztrációs hely szükséges."
 
 #: UI/En.Win32.Debug.UIText-2.idtx:8 UI/En.Win32.Release.UIText-2.idtx:8
 #: UI/En.x64.Debug.UIText-2.idtx:8 UI/En.x64.Release.UIText-2.idtx:8
@@ -2769,15 +2726,16 @@ msgstr ""
 #: UI/En.x64.Debug.UIText-2.idtx:52 UI/En.x64.Release.UIText-2.idtx:52
 #, fuzzy
 msgid "Required"
-msgstr "Erforderliche Daten werden ermittelt..."
+msgstr ""
+"A(z) [2] nem tudja telepíteni az egyik szükséges terméket. Forduljon a "
+"technikusokhoz. {{Rendszerhiba: [3].}}"
 
 #: UI/En.Win32.Debug.Property-2.idtx:5 UI/En.Win32.Debug.Property-2.idtx:6
 #: UI/En.Win32.Release.Property-2.idtx:5 UI/En.Win32.Release.Property-2.idtx:6
 #: UI/En.x64.Debug.Property-2.idtx:5 UI/En.x64.Debug.Property-2.idtx:6
 #: UI/En.x64.Release.Property-2.idtx:5 UI/En.x64.Release.Property-2.idtx:6
-#, fuzzy
 msgid "Setup"
-msgstr "Einstellungen..."
+msgstr ""
 
 #: UI/En.Win32.Debug.Property-2.idtx:7 UI/En.Win32.Release.Property-2.idtx:7
 #: UI/En.x64.Debug.Property-2.idtx:7 UI/En.x64.Release.Property-2.idtx:7
@@ -2905,8 +2863,12 @@ msgstr ""
 
 #: UI/En.Win32.Debug.UIText-2.idtx:54 UI/En.Win32.Release.UIText-2.idtx:54
 #: UI/En.x64.Debug.UIText-2.idtx:54 UI/En.x64.Release.UIText-2.idtx:54
+#, fuzzy
 msgid "Volume"
 msgstr ""
+"A(z) [2] meghajtóban nincs lemez. Tegyen be egyet, és kattintson az Ismét "
+"gombra, vagy kattintson a Mégse gombra, ha vissza akar térni az előzőleg "
+"kijelölt kötethez."
 
 #: UI/En.Win32.Debug.UIText-2.idtx:15 UI/En.Win32.Release.UIText-2.idtx:15
 #: UI/En.x64.Debug.UIText-2.idtx:15 UI/En.x64.Release.UIText-2.idtx:15

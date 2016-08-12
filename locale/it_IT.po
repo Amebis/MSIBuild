@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSMBuild\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-16 12:21+0200\n"
+"POT-Creation-Date: 2016-08-12 13:14+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
 "Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-Basepath: .\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: UI/En.Win32.Debug.Control-2.idtx:112 UI/En.Win32.Debug.Control-2.idtx:117
@@ -271,6 +271,11 @@ msgid ""
 "the programme was not installed. Your system has not been modified."
 msgstr ""
 
+#: Core/En.Win32.Debug.Error-2.idtx:29 Core/En.Win32.Release.Error-2.idtx:29
+#: Core/En.x64.Debug.Error-2.idtx:29 Core/En.x64.Release.Error-2.idtx:29
+msgid "[SimpleProductName] Setup failed."
+msgstr "Installazione di [SimpleProductName] non riuscita."
+
 #: UI/En.Win32.Debug.Control-2.idtx:115 UI/En.Win32.Release.Control-2.idtx:115
 #: UI/En.x64.Debug.Control-2.idtx:112 UI/En.x64.Release.Control-2.idtx:112
 msgid ""
@@ -287,11 +292,6 @@ msgstr ""
 #: Core/En.x64.Debug.Error-2.idtx:14 Core/En.x64.Release.Error-2.idtx:14
 msgid "{[2]}{, [3]}{, [4]}"
 msgstr "{[2]}{, [3]}{, [4]}"
-
-#: Core/En.Win32.Debug.Error-2.idtx:29 Core/En.Win32.Release.Error-2.idtx:29
-#: Core/En.x64.Debug.Error-2.idtx:29 Core/En.x64.Release.Error-2.idtx:29
-msgid "{[SimpleProductName] }Setup failed."
-msgstr "Installazione di [SimpleProductName] non riuscita."
 
 #: Core/En.Win32.Debug.Error-2.idtx:11 Core/En.Win32.Release.Error-2.idtx:11
 #: Core/En.x64.Debug.Error-2.idtx:11 Core/En.x64.Release.Error-2.idtx:11
@@ -1435,7 +1435,7 @@ msgstr "Testo"
 #: UI/En.Win32.Debug.ActionText-2.idtx:57
 #: UI/En.Win32.Release.ActionText-2.idtx:57
 #: UI/En.x64.Debug.ActionText-2.idtx:57 UI/En.x64.Release.ActionText-2.idtx:57
-msgid "Initializing ODBC directories"
+msgid "Initializing ODBC folders"
 msgstr "Inizializzazione delle directory ODBC"
 
 #: Core/En.Win32.Debug.Error-2.idtx:97 Core/En.Win32.Release.Error-2.idtx:97
@@ -2229,11 +2229,11 @@ msgstr ""
 #: Core/En.x64.Debug.Error-2.idtx:160 Core/En.x64.Release.Error-2.idtx:160
 msgid ""
 "The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2]. List of protected files:\\r\n"
+"files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
 msgstr ""
 "Impossibile aggiornare uno o più file protetti di Windows. {{Errore SFP: "
-"[2]. Elenco dei file protetti:\\r\n"
+"[2]. Elenco dei file protetti:\n"
 "[3]}}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:159 Core/En.Win32.Release.Error-2.idtx:159
@@ -2638,9 +2638,9 @@ msgstr ""
 #, fuzzy
 msgid "&Install Now"
 msgstr ""
-"L'utente \"[2]\" ha avviato in precedenza l'installazione del prodotto "
-"\"[3]\". Prima di utilizzare il prodotto, tale utente dovrà ripeterne "
-"l'installazione."
+"Questo tipo di installazione richiede il pacchetto di programmi '%1'. Vuoi "
+"installare questo pacchetto di programmi subito?\n"
+"Se il pacchetto di programmi '%1' è già installato, puoi scegliere 'No'."
 
 #: UI/En.Win32.Debug.RadioButton-2.idtx:4
 #: UI/En.Win32.Release.RadioButton-2.idtx:4

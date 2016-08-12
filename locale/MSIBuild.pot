@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSMBuild\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-16 12:21+0200\n"
+"POT-Creation-Date: 2016-08-12 13:18+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
 "Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-Basepath: ..\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.8\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3);\n"
 "X-Poedit-SearchPath-0: Core\n"
@@ -184,7 +184,7 @@ msgstr "[DlgTitleFont][ButtonTextInstall] "
 #: UI/En.x64.Debug.Control-2.idtx:83 UI/En.x64.Release.Control-2.idtx:83
 #, fuzzy
 msgid "[DlgTitleFont][Progress1] [SimpleProductName]..."
-msgstr "[DlgTitleFont][Progress1] [SimpleProductName] ..."
+msgstr "[DlgTitleFont][Progress1] program [SimpleProductName] ..."
 
 #: UI/En.Win32.Debug.Control-2.idtx:111 UI/En.Win32.Release.Control-2.idtx:111
 #: UI/En.x64.Debug.Control-2.idtx:108 UI/En.x64.Release.Control-2.idtx:108
@@ -312,6 +312,12 @@ msgstr ""
 "napake, zato program ni bil nameščen. Vaš sistem je v stanju, kot je bil "
 "pred začetkom namestitve."
 
+#: Core/En.Win32.Debug.Error-2.idtx:29 Core/En.Win32.Release.Error-2.idtx:29
+#: Core/En.x64.Debug.Error-2.idtx:29 Core/En.x64.Release.Error-2.idtx:29
+#, fuzzy
+msgid "[SimpleProductName] Setup failed."
+msgstr "Namestitev izdelka [SimpleProductName] ni uspela."
+
 #: UI/En.Win32.Debug.Control-2.idtx:115 UI/En.Win32.Release.Control-2.idtx:115
 #: UI/En.x64.Debug.Control-2.idtx:112 UI/En.x64.Release.Control-2.idtx:112
 #, fuzzy
@@ -334,12 +340,6 @@ msgstr "[WaitMessage] "
 #, fuzzy
 msgid "{[2]}{, [3]}{, [4]}"
 msgstr "{[2]}{, [3]}{, [4]}"
-
-#: Core/En.Win32.Debug.Error-2.idtx:29 Core/En.Win32.Release.Error-2.idtx:29
-#: Core/En.x64.Debug.Error-2.idtx:29 Core/En.x64.Release.Error-2.idtx:29
-#, fuzzy
-msgid "{[SimpleProductName] }Setup failed."
-msgstr "Namestitev izdelka [SimpleProductName] ni uspela."
 
 #: Core/En.Win32.Debug.Error-2.idtx:11 Core/En.Win32.Release.Error-2.idtx:11
 #: Core/En.x64.Debug.Error-2.idtx:11 Core/En.x64.Release.Error-2.idtx:11
@@ -1603,7 +1603,7 @@ msgstr "Besedilo"
 #: UI/En.Win32.Release.ActionText-2.idtx:57
 #: UI/En.x64.Debug.ActionText-2.idtx:57 UI/En.x64.Release.ActionText-2.idtx:57
 #, fuzzy
-msgid "Initializing ODBC directories"
+msgid "Initializing ODBC folders"
 msgstr "Inicializacija imenikov ODBC"
 
 #: Core/En.Win32.Debug.Error-2.idtx:97 Core/En.Win32.Release.Error-2.idtx:97
@@ -2498,11 +2498,11 @@ msgstr "Nosilec [2] trenutno ni na voljo. Izberite drugega."
 #, fuzzy
 msgid ""
 "The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2]. List of protected files:\\r\n"
+"files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
 msgstr ""
 "Storitev Windows Installer ne more posodobiti ene ali več zaščitenih datotek "
-"programa Windows. {{SFP-napaka: [2]. Seznam zaščitenih datotek:\\r\n"
+"programa Windows. {{SFP-napaka: [2]. Seznam zaščitenih datotek:\n"
 "[3]}}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:159 Core/En.Win32.Release.Error-2.idtx:159
