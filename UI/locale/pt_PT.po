@@ -1,0 +1,2371 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MSMBuild\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-28 13:21+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
+"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: En.Win32.Debug.Control-2.idtx:112 En.Win32.Debug.Control-2.idtx:117
+#: En.Win32.Debug.Control-2.idtx:122 En.Win32.Debug.Control-2.idtx:72
+#: En.Win32.Debug.Control-2.idtx:77 En.Win32.Release.Control-2.idtx:112
+#: En.Win32.Release.Control-2.idtx:117 En.Win32.Release.Control-2.idtx:122
+#: En.Win32.Release.Control-2.idtx:72 En.Win32.Release.Control-2.idtx:77
+#: En.x64.Debug.Control-2.idtx:109 En.x64.Debug.Control-2.idtx:114
+#: En.x64.Debug.Control-2.idtx:119 En.x64.Debug.Control-2.idtx:69
+#: En.x64.Debug.Control-2.idtx:74 En.x64.Release.Control-2.idtx:109
+#: En.x64.Release.Control-2.idtx:114 En.x64.Release.Control-2.idtx:119
+#: En.x64.Release.Control-2.idtx:69 En.x64.Release.Control-2.idtx:74
+msgid "&Close"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:11 En.Win32.Debug.Control-2.idtx:21
+#: En.Win32.Debug.Control-2.idtx:26 En.Win32.Release.Control-2.idtx:11
+#: En.Win32.Release.Control-2.idtx:21 En.Win32.Release.Control-2.idtx:26
+#: En.x64.Debug.Control-2.idtx:11 En.x64.Debug.Control-2.idtx:18
+#: En.x64.Debug.Control-2.idtx:23 En.x64.Release.Control-2.idtx:11
+#: En.x64.Release.Control-2.idtx:18 En.x64.Release.Control-2.idtx:23
+#, fuzzy
+msgid "&Continue"
+msgstr ""
+"Não existe espaço em disco suficiente no volume: '[2]' para continuar a "
+"instalação com a recuperação activada. São necessários [3] KB, mas apenas "
+"estão disponíveis [4] KB. Clique em 'Ignorar' para continuar a instalação "
+"sem guardar a informação de recuperação, clique em 'Repetir' para voltar a "
+"verificar o espaço em disco disponível ou clique em 'Cancelar' para sair da "
+"instalação."
+
+#: En.Win32.Debug.Control-2.idtx:30 En.Win32.Release.Control-2.idtx:30
+#: En.x64.Debug.Control-2.idtx:27 En.x64.Release.Control-2.idtx:27
+msgid "&Enter desired folder or click \"Browse\":"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:54 En.Win32.Debug.Control-2.idtx:65
+#: En.Win32.Release.Control-2.idtx:54 En.Win32.Release.Control-2.idtx:65
+#: En.x64.Debug.Control-2.idtx:51 En.x64.Debug.Control-2.idtx:62
+#: En.x64.Release.Control-2.idtx:51 En.x64.Release.Control-2.idtx:62
+#, fuzzy
+msgid "&Folder:"
+msgstr "Ficheiro: [1], Pasta: [2]"
+
+#: En.Win32.Debug.Control-2.idtx:102 En.Win32.Debug.Control-2.idtx:108
+#: En.Win32.Release.Control-2.idtx:102 En.Win32.Release.Control-2.idtx:108
+#: En.x64.Debug.Control-2.idtx:105 En.x64.Debug.Control-2.idtx:99
+#: En.x64.Release.Control-2.idtx:105 En.x64.Release.Control-2.idtx:99
+msgid "&Ignore"
+msgstr ""
+
+#: En.Win32.Debug.Property-2.idtx:9 En.Win32.Release.Property-2.idtx:9
+#: En.x64.Debug.Property-2.idtx:9 En.x64.Release.Property-2.idtx:9
+#, fuzzy
+msgid "&Install Now"
+msgstr "Instalado [2]"
+
+#: En.Win32.Debug.Control-2.idtx:49 En.Win32.Debug.Control-2.idtx:60
+#: En.Win32.Release.Control-2.idtx:49 En.Win32.Release.Control-2.idtx:60
+#: En.x64.Debug.Control-2.idtx:46 En.x64.Debug.Control-2.idtx:57
+#: En.x64.Release.Control-2.idtx:46 En.x64.Release.Control-2.idtx:57
+msgid "&Look in:"
+msgstr ""
+
+#: En.Win32.Debug.RadioButton-2.idtx:4 En.Win32.Release.RadioButton-2.idtx:4
+#: En.x64.Debug.RadioButton-2.idtx:4 En.x64.Release.RadioButton-2.idtx:4
+#, fuzzy
+msgid "&Modify"
+msgstr ""
+"Não foi possível actualizar a variável de ambiente '[2]'. Verifique se tem "
+"privilégios suficientes para modificar variáveis de ambiente."
+
+#: En.Win32.Debug.ControlEvent-2.idtx:6 En.Win32.Release.ControlEvent-2.idtx:6
+#: En.x64.Debug.ControlEvent-2.idtx:6 En.x64.Release.ControlEvent-2.idtx:6
+msgid "&Modify now"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:84 En.Win32.Debug.Control-2.idtx:93
+#: En.Win32.Debug.Control-2.idtx:99 En.Win32.Release.Control-2.idtx:84
+#: En.Win32.Release.Control-2.idtx:93 En.Win32.Release.Control-2.idtx:99
+#: En.x64.Debug.Control-2.idtx:81 En.x64.Debug.Control-2.idtx:90
+#: En.x64.Debug.Control-2.idtx:96 En.x64.Release.Control-2.idtx:81
+#: En.x64.Release.Control-2.idtx:90 En.x64.Release.Control-2.idtx:96
+msgid "&No"
+msgstr ""
+
+#: En.Win32.Debug.RadioButton-2.idtx:6 En.Win32.Release.RadioButton-2.idtx:6
+#: En.x64.Debug.RadioButton-2.idtx:6 En.x64.Release.RadioButton-2.idtx:6
+#, fuzzy
+msgid "&Remove"
+msgstr ""
+"Tem que ser um 'Administrador'para remover esta aplicação. Para remover esta "
+"aplicação, pode iniciar uma sessão como 'Administrador', ou contacte o grupo "
+"de suporte técnico para assistência."
+
+#: En.Win32.Debug.RadioButton-2.idtx:5 En.Win32.Release.RadioButton-2.idtx:5
+#: En.x64.Debug.RadioButton-2.idtx:5 En.x64.Release.RadioButton-2.idtx:5
+msgid "&Repair"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:44 En.Win32.Release.Control-2.idtx:44
+#: En.x64.Debug.Control-2.idtx:41 En.x64.Release.Control-2.idtx:41
+msgid "&Reset"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:101 En.Win32.Debug.Control-2.idtx:107
+#: En.Win32.Release.Control-2.idtx:101 En.Win32.Release.Control-2.idtx:107
+#: En.x64.Debug.Control-2.idtx:104 En.x64.Debug.Control-2.idtx:98
+#: En.x64.Release.Control-2.idtx:104 En.x64.Release.Control-2.idtx:98
+#, fuzzy
+msgid "&Retry"
+msgstr ""
+"Ocorreu um erro ao escrever as informações de instalação no disco. "
+"Certifique-se de que o espaço disponível em disco é suficiente e faça clique "
+"sobre Repetir ou faça clique sobre Cancelar para terminar a instalação."
+
+#: En.Win32.Debug.Control-2.idtx:83 En.Win32.Debug.Control-2.idtx:92
+#: En.Win32.Debug.Control-2.idtx:98 En.Win32.Release.Control-2.idtx:83
+#: En.Win32.Release.Control-2.idtx:92 En.Win32.Release.Control-2.idtx:98
+#: En.x64.Debug.Control-2.idtx:80 En.x64.Debug.Control-2.idtx:89
+#: En.x64.Debug.Control-2.idtx:95 En.x64.Release.Control-2.idtx:80
+#: En.x64.Release.Control-2.idtx:89 En.x64.Release.Control-2.idtx:95
+msgid "&Yes"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Debug.ActionText-2.idtx:39
+#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Debug.ActionText-2.idtx:53
+#: En.Win32.Release.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:39
+#: En.Win32.Release.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:53
+#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Debug.ActionText-2.idtx:39
+#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Debug.ActionText-2.idtx:53
+#: En.x64.Release.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:39
+#: En.x64.Release.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:53
+msgid "[1]"
+msgstr "[1]"
+
+#: En.Win32.Debug.Control-2.idtx:46 En.Win32.Release.Control-2.idtx:46
+#: En.x64.Debug.Control-2.idtx:43 En.x64.Release.Control-2.idtx:43
+msgid "[ButtonTextInstall] "
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:33 En.Win32.Release.Control-2.idtx:33
+#: En.x64.Debug.Control-2.idtx:30 En.x64.Release.Control-2.idtx:30
+msgid "[DlgStrongFont]&Prepare Now"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:17 En.Win32.Release.Control-2.idtx:17
+msgid ""
+"[DlgStrongFont]You are about to install the 32-bit variant on the 64-bit "
+"operating system."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:14 En.Win32.Release.Control-2.idtx:14
+#: En.x64.Debug.Control-2.idtx:14 En.x64.Release.Control-2.idtx:14
+msgid "[DlgTitleFont][ButtonTextInstall] "
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:86 En.Win32.Release.Control-2.idtx:86
+#: En.x64.Debug.Control-2.idtx:83 En.x64.Release.Control-2.idtx:83
+msgid "[DlgTitleFont][Progress1] [SimpleProductName]..."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:111 En.Win32.Release.Control-2.idtx:111
+#: En.x64.Debug.Control-2.idtx:108 En.x64.Release.Control-2.idtx:108
+msgid "[DlgTitleFont][SimpleProductName] [Progress1] Completed"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:119 En.Win32.Release.Control-2.idtx:119
+#: En.x64.Debug.Control-2.idtx:116 En.x64.Release.Control-2.idtx:116
+msgid "[DlgTitleFont][SimpleProductName] [Progress2] Ended Prematurely"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:114 En.Win32.Release.Control-2.idtx:114
+#: En.x64.Debug.Control-2.idtx:111 En.x64.Release.Control-2.idtx:111
+msgid "[DlgTitleFont][SimpleProductName] [Progress2] Interrupted"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:28 En.Win32.Release.Control-2.idtx:28
+#: En.x64.Debug.Control-2.idtx:25 En.x64.Release.Control-2.idtx:25
+msgid ""
+"[DlgTitleFont][SimpleProductName] Administrative Install Image Preparation"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:23 En.Win32.Release.Control-2.idtx:23
+#: En.x64.Debug.Control-2.idtx:20 En.x64.Release.Control-2.idtx:20
+msgid "[DlgTitleFont][SimpleProductName] Maintenance"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:35 En.Win32.Release.Control-2.idtx:35
+#: En.x64.Debug.Control-2.idtx:32 En.x64.Release.Control-2.idtx:32
+msgid "[DlgTitleFont][TitleCustomize] "
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:59 En.Win32.Release.Control-2.idtx:59
+#: En.x64.Debug.Control-2.idtx:56 En.x64.Release.Control-2.idtx:56
+msgid "[DlgTitleFont]Change current administrative installation folder."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:48 En.Win32.Release.Control-2.idtx:48
+#: En.x64.Debug.Control-2.idtx:45 En.x64.Release.Control-2.idtx:45
+msgid "[DlgTitleFont]Change current destination folder."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:13 En.Win32.Release.Control-2.idtx:13
+#: En.x64.Debug.Control-2.idtx:13 En.x64.Release.Control-2.idtx:13
+msgid "[DlgTitleFont]Choose setup type."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:20 En.Win32.Release.Control-2.idtx:20
+#: En.x64.Debug.Control-2.idtx:17 En.x64.Release.Control-2.idtx:17
+msgid ""
+"[DlgTitleFont]Click \"Next\" to resume [SimpleProductName] installation."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:70 En.Win32.Release.Control-2.idtx:70
+#: En.x64.Debug.Control-2.idtx:67 En.x64.Release.Control-2.idtx:67
+#, fuzzy
+msgid "[DlgTitleFont]Disk Space Requirements"
+msgstr "A determinar o espaço necessário"
+
+#: En.Win32.Debug.Control-2.idtx:104 En.Win32.Release.Control-2.idtx:104
+#: En.x64.Debug.Control-2.idtx:101 En.x64.Release.Control-2.idtx:101
+msgid "[DlgTitleFont]Files in Use"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:74 En.Win32.Debug.Control-2.idtx:79
+#: En.Win32.Release.Control-2.idtx:74 En.Win32.Release.Control-2.idtx:79
+#: En.x64.Debug.Control-2.idtx:71 En.x64.Debug.Control-2.idtx:76
+#: En.x64.Release.Control-2.idtx:71 En.x64.Release.Control-2.idtx:76
+msgid "[DlgTitleFont]Out of Disk Space"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:9 En.Win32.Release.Control-2.idtx:9
+#: En.x64.Debug.Control-2.idtx:9 En.x64.Release.Control-2.idtx:9
+msgid "[DlgTitleFont]Please read the following general terms carefully."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:5 En.Win32.Release.Control-2.idtx:5
+#: En.x64.Debug.Control-2.idtx:5 En.x64.Release.Control-2.idtx:5
+msgid ""
+"[DlgTitleFont]Preparing [SimpleProductName] installation. Please wait..."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:120 En.Win32.Release.Control-2.idtx:120
+#: En.x64.Debug.Control-2.idtx:117 En.x64.Release.Control-2.idtx:117
+msgid ""
+"[SimpleProductName] setup ended prematurely because of an error. Therefore, "
+"the program was not installed. Your system has not been modified."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:115 En.Win32.Release.Control-2.idtx:115
+#: En.x64.Debug.Control-2.idtx:112 En.x64.Release.Control-2.idtx:112
+msgid ""
+"[SimpleProductName] setup was interrupted on your request. Therefore, the "
+"program was not installed. Your system has not been modified."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:89 En.Win32.Release.Control-2.idtx:89
+#: En.x64.Debug.Control-2.idtx:86 En.x64.Release.Control-2.idtx:86
+msgid "[WaitMessage] "
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:71 En.Win32.Debug.Control-2.idtx:76
+#: En.Win32.Debug.Control-2.idtx:81 En.Win32.Release.Control-2.idtx:71
+#: En.Win32.Release.Control-2.idtx:76 En.Win32.Release.Control-2.idtx:81
+#: En.x64.Debug.Control-2.idtx:68 En.x64.Debug.Control-2.idtx:73
+#: En.x64.Debug.Control-2.idtx:78 En.x64.Release.Control-2.idtx:68
+#: En.x64.Release.Control-2.idtx:73 En.x64.Release.Control-2.idtx:78
+msgid "{60}{60}{60}{60}{60}"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:3 En.Win32.Debug.Control-2.idtx:3
+#: En.Win32.Debug.ControlEvent-2.idtx:3 En.Win32.Debug.Dialog-2.idtx:3
+#: En.Win32.Debug.Property-2.idtx:3 En.Win32.Debug.RadioButton-2.idtx:3
+#: En.Win32.Debug.UIText-2.idtx:3 En.Win32.Release.ActionText-2.idtx:3
+#: En.Win32.Release.Control-2.idtx:3 En.Win32.Release.ControlEvent-2.idtx:3
+#: En.Win32.Release.Dialog-2.idtx:3 En.Win32.Release.Property-2.idtx:3
+#: En.Win32.Release.RadioButton-2.idtx:3 En.Win32.Release.UIText-2.idtx:3
+#: En.x64.Debug.ActionText-2.idtx:3 En.x64.Debug.Control-2.idtx:3
+#: En.x64.Debug.ControlEvent-2.idtx:3 En.x64.Debug.Dialog-2.idtx:3
+#: En.x64.Debug.Property-2.idtx:3 En.x64.Debug.RadioButton-2.idtx:3
+#: En.x64.Debug.UIText-2.idtx:3 En.x64.Release.ActionText-2.idtx:3
+#: En.x64.Release.Control-2.idtx:3 En.x64.Release.ControlEvent-2.idtx:3
+#: En.x64.Release.Dialog-2.idtx:3 En.x64.Release.Property-2.idtx:3
+#: En.x64.Release.RadioButton-2.idtx:3 En.x64.Release.UIText-2.idtx:3
+msgid "1252"
+msgstr "1252"
+
+#: En.Win32.Debug.ActionText-2.idtx:4 En.Win32.Release.ActionText-2.idtx:4
+#: En.x64.Debug.ActionText-2.idtx:4 En.x64.Release.ActionText-2.idtx:4
+msgid "Advertising application"
+msgstr "A publicitar a aplicação"
+
+#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
+#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+msgid "Allocating registry space"
+msgstr "A atribuir espaço no Registo"
+
+#: En.Win32.Debug.Control-2.idtx:15 En.Win32.Release.Control-2.idtx:15
+#: En.x64.Debug.Control-2.idtx:15 En.x64.Release.Control-2.idtx:15
+msgid "Allows users to change the way features are installed.|"
+msgstr ""
+
+#: En.Win32.Debug.RadioButton-2.idtx:4 En.Win32.Release.RadioButton-2.idtx:4
+#: En.x64.Debug.RadioButton-2.idtx:4 En.x64.Release.RadioButton-2.idtx:4
+msgid "Allows you to change the which features are installed.|"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:82 En.Win32.Release.Control-2.idtx:82
+#: En.x64.Debug.Control-2.idtx:79 En.x64.Release.Control-2.idtx:79
+msgid ""
+"Alternatively, you may choose to disable the installer's rollback "
+"functionality. This allows the installer to restore your computer's original "
+"state should the installation be interrupted in any way. Click Yes if you "
+"wish to take the risk to disable rollback."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:18 En.Win32.Release.Control-2.idtx:18
+msgid ""
+"Although, 32-bit variant should work with your operating system, this "
+"program is also available as 64-bit variant, which is more appropriate for "
+"your operating system. The installation of the 64-bit variant is recommended."
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
+#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
+msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
+msgstr "IdAp: [1]{{, TipoAp: [2], Utilizadores: [3], RSN: [4]}}"
+
+#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
+#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
+msgid "AppId: [1]{{, AppType: [2]}}"
+msgstr "IdAp: [1]{{, TipoAp: [2]}}"
+
+#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Debug.ActionText-2.idtx:28
+#: En.Win32.Release.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:28
+#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Debug.ActionText-2.idtx:28
+#: En.x64.Release.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:28
+msgid "Application Context:[1], Assembly Name:[2]"
+msgstr "Contexto da aplicação:[1], Nome da montagem:[2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
+#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
+msgid "Application: [1]"
+msgstr "Aplicação: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
+#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
+msgid "Application: [1], Command line: [2]"
+msgstr "Aplicação: [1], Linha de comandos: [2]"
+
+#: En.Win32.Debug.Control-2.idtx:91 En.Win32.Release.Control-2.idtx:91
+#: En.x64.Debug.Control-2.idtx:88 En.x64.Release.Control-2.idtx:88
+#, fuzzy
+msgid "Are you sure you want to cancel [SimpleProductName] installation?"
+msgstr "Tem a certeza de que deseja cancelar?"
+
+#: En.Win32.Debug.UIText-2.idtx:50 En.Win32.Release.UIText-2.idtx:50
+#: En.x64.Debug.UIText-2.idtx:50 En.x64.Release.UIText-2.idtx:50
+#, fuzzy
+msgid "Available"
+msgstr ""
+"Não existe espaço em disco suficiente no volume: '[2]' para continuar a "
+"instalação com a recuperação activada. São necessários [3] KB, mas apenas "
+"estão disponíveis [4] KB. Clique em 'Ignorar' para continuar a instalação "
+"sem guardar a informação de recuperação, clique em 'Repetir' para voltar a "
+"verificar o espaço em disco disponível ou clique em 'Cancelar' para sair da "
+"instalação."
+
+#: En.Win32.Debug.ActionText-2.idtx:7 En.Win32.Release.ActionText-2.idtx:7
+#: En.x64.Debug.ActionText-2.idtx:7 En.x64.Release.ActionText-2.idtx:7
+msgid "Binding executables"
+msgstr "A arquivar ficheiros executáveis"
+
+#: En.Win32.Debug.Control-2.idtx:52 En.Win32.Debug.Control-2.idtx:63
+#: En.Win32.Release.Control-2.idtx:52 En.Win32.Release.Control-2.idtx:63
+#: En.x64.Debug.Control-2.idtx:49 En.x64.Debug.Control-2.idtx:60
+#: En.x64.Release.Control-2.idtx:49 En.x64.Release.Control-2.idtx:60
+msgid "binUIFolderNew.ico"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:51 En.Win32.Debug.Control-2.idtx:62
+#: En.Win32.Release.Control-2.idtx:51 En.Win32.Release.Control-2.idtx:62
+#: En.x64.Debug.Control-2.idtx:48 En.x64.Debug.Control-2.idtx:59
+#: En.x64.Release.Control-2.idtx:48 En.x64.Release.Control-2.idtx:59
+msgid "binUIFolderUp.ico"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:103 En.Win32.Debug.Control-2.idtx:110
+#: En.Win32.Debug.Control-2.idtx:113 En.Win32.Debug.Control-2.idtx:118
+#: En.Win32.Debug.Control-2.idtx:12 En.Win32.Debug.Control-2.idtx:19
+#: En.Win32.Debug.Control-2.idtx:22 En.Win32.Debug.Control-2.idtx:27
+#: En.Win32.Debug.Control-2.idtx:34 En.Win32.Debug.Control-2.idtx:4
+#: En.Win32.Debug.Control-2.idtx:47 En.Win32.Debug.Control-2.idtx:58
+#: En.Win32.Debug.Control-2.idtx:69 En.Win32.Debug.Control-2.idtx:73
+#: En.Win32.Debug.Control-2.idtx:78 En.Win32.Debug.Control-2.idtx:8
+#: En.Win32.Debug.Control-2.idtx:85 En.Win32.Release.Control-2.idtx:103
+#: En.Win32.Release.Control-2.idtx:110 En.Win32.Release.Control-2.idtx:113
+#: En.Win32.Release.Control-2.idtx:118 En.Win32.Release.Control-2.idtx:12
+#: En.Win32.Release.Control-2.idtx:19 En.Win32.Release.Control-2.idtx:22
+#: En.Win32.Release.Control-2.idtx:27 En.Win32.Release.Control-2.idtx:34
+#: En.Win32.Release.Control-2.idtx:4 En.Win32.Release.Control-2.idtx:47
+#: En.Win32.Release.Control-2.idtx:58 En.Win32.Release.Control-2.idtx:69
+#: En.Win32.Release.Control-2.idtx:73 En.Win32.Release.Control-2.idtx:78
+#: En.Win32.Release.Control-2.idtx:8 En.Win32.Release.Control-2.idtx:85
+#: En.x64.Debug.Control-2.idtx:100 En.x64.Debug.Control-2.idtx:107
+#: En.x64.Debug.Control-2.idtx:110 En.x64.Debug.Control-2.idtx:115
+#: En.x64.Debug.Control-2.idtx:12 En.x64.Debug.Control-2.idtx:16
+#: En.x64.Debug.Control-2.idtx:19 En.x64.Debug.Control-2.idtx:24
+#: En.x64.Debug.Control-2.idtx:31 En.x64.Debug.Control-2.idtx:4
+#: En.x64.Debug.Control-2.idtx:44 En.x64.Debug.Control-2.idtx:55
+#: En.x64.Debug.Control-2.idtx:66 En.x64.Debug.Control-2.idtx:70
+#: En.x64.Debug.Control-2.idtx:75 En.x64.Debug.Control-2.idtx:8
+#: En.x64.Debug.Control-2.idtx:82 En.x64.Release.Control-2.idtx:100
+#: En.x64.Release.Control-2.idtx:107 En.x64.Release.Control-2.idtx:110
+#: En.x64.Release.Control-2.idtx:115 En.x64.Release.Control-2.idtx:12
+#: En.x64.Release.Control-2.idtx:16 En.x64.Release.Control-2.idtx:19
+#: En.x64.Release.Control-2.idtx:24 En.x64.Release.Control-2.idtx:31
+#: En.x64.Release.Control-2.idtx:4 En.x64.Release.Control-2.idtx:44
+#: En.x64.Release.Control-2.idtx:55 En.x64.Release.Control-2.idtx:66
+#: En.x64.Release.Control-2.idtx:70 En.x64.Release.Control-2.idtx:75
+#: En.x64.Release.Control-2.idtx:8 En.x64.Release.Control-2.idtx:82
+msgid "binUIHeader.bmp"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:90 En.Win32.Debug.Control-2.idtx:94
+#: En.Win32.Release.Control-2.idtx:90 En.Win32.Release.Control-2.idtx:94
+#: En.x64.Debug.Control-2.idtx:87 En.x64.Debug.Control-2.idtx:91
+#: En.x64.Release.Control-2.idtx:87 En.x64.Release.Control-2.idtx:91
+msgid "binUIInfo.ico"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:16 En.Win32.Release.Control-2.idtx:16
+msgid "binUIWarning.ico"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:32 En.Win32.Debug.Control-2.idtx:43
+#: En.Win32.Release.Control-2.idtx:32 En.Win32.Release.Control-2.idtx:43
+#: En.x64.Debug.Control-2.idtx:29 En.x64.Debug.Control-2.idtx:40
+#: En.x64.Release.Control-2.idtx:29 En.x64.Release.Control-2.idtx:40
+msgid "Br&owse"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:5 En.Win32.Release.UIText-2.idtx:5
+#: En.x64.Debug.UIText-2.idtx:5 En.x64.Release.UIText-2.idtx:5
+msgid "bytes"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:15 En.Win32.Release.Control-2.idtx:15
+#: En.x64.Debug.Control-2.idtx:15 En.x64.Release.Control-2.idtx:15
+msgid "C&ustomize"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:100 En.Win32.Debug.Control-2.idtx:109
+#: En.Win32.Debug.Control-2.idtx:57 En.Win32.Debug.Control-2.idtx:68
+#: En.Win32.Debug.Control-2.idtx:97 En.Win32.Release.Control-2.idtx:100
+#: En.Win32.Release.Control-2.idtx:109 En.Win32.Release.Control-2.idtx:57
+#: En.Win32.Release.Control-2.idtx:68 En.Win32.Release.Control-2.idtx:97
+#: En.x64.Debug.Control-2.idtx:106 En.x64.Debug.Control-2.idtx:54
+#: En.x64.Debug.Control-2.idtx:65 En.x64.Debug.Control-2.idtx:94
+#: En.x64.Debug.Control-2.idtx:97 En.x64.Release.Control-2.idtx:106
+#: En.x64.Release.Control-2.idtx:54 En.x64.Release.Control-2.idtx:65
+#: En.x64.Release.Control-2.idtx:94 En.x64.Release.Control-2.idtx:97
+#, fuzzy
+msgid "Cancel"
+msgstr ""
+"Não foi possível criar o ficheiro '[2]'. Já existe um directório com este "
+"nome. Cancele a instalação e tente instalar num local diferente."
+
+#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Debug.ActionText-2.idtx:64
+#: En.Win32.Release.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:64
+#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Debug.ActionText-2.idtx:64
+#: En.x64.Release.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:64
+msgid "Class Id: [1]"
+msgstr "Id de classe: [1]"
+
+#: En.Win32.Debug.Control-2.idtx:36 En.Win32.Release.Control-2.idtx:36
+#: En.x64.Debug.Control-2.idtx:33 En.x64.Release.Control-2.idtx:33
+msgid ""
+"Click on the icons in the tree below to change the features to be installed:"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:35 En.Win32.Release.UIText-2.idtx:35
+#: En.x64.Debug.UIText-2.idtx:35 En.x64.Release.UIText-2.idtx:35
+msgid "Compiling cost for this feature..."
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Debug.ActionText-2.idtx:61
+#: En.Win32.Release.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:61
+#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Debug.ActionText-2.idtx:61
+#: En.x64.Release.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:61
+msgid "Component ID: [1], Qualifier: [2]"
+msgstr "ID do componente: [1], Qualificador: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:10 En.Win32.Debug.ActionText-2.idtx:15
+#: En.Win32.Debug.ActionText-2.idtx:9 En.Win32.Release.ActionText-2.idtx:10
+#: En.Win32.Release.ActionText-2.idtx:15 En.Win32.Release.ActionText-2.idtx:9
+#: En.x64.Debug.ActionText-2.idtx:10 En.x64.Debug.ActionText-2.idtx:15
+#: En.x64.Debug.ActionText-2.idtx:9 En.x64.Release.ActionText-2.idtx:10
+#: En.x64.Release.ActionText-2.idtx:15 En.x64.Release.ActionText-2.idtx:9
+msgid "Computing space requirements"
+msgstr "A determinar o espaço necessário"
+
+#: En.Win32.Debug.ActionText-2.idtx:18 En.Win32.Release.ActionText-2.idtx:18
+#: En.x64.Debug.ActionText-2.idtx:18 En.x64.Release.ActionText-2.idtx:18
+msgid "Copying network install files"
+msgstr "A copiar ficheiros de instalação na rede"
+
+#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:19
+#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:19
+msgid "Copying new files"
+msgstr "A copiar novos ficheiros"
+
+#: En.Win32.Debug.Control-2.idtx:52 En.Win32.Debug.Control-2.idtx:63
+#: En.Win32.Release.Control-2.idtx:52 En.Win32.Release.Control-2.idtx:63
+#: En.x64.Debug.Control-2.idtx:49 En.x64.Debug.Control-2.idtx:60
+#: En.x64.Release.Control-2.idtx:49 En.x64.Release.Control-2.idtx:60
+#, fuzzy
+msgid "Create A New Folder|"
+msgstr "A criar pastas"
+
+#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:14
+#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:14
+msgid "Creating duplicate files"
+msgstr "A criar ficheiros duplicados"
+
+#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:11
+#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:11
+msgid "Creating folders"
+msgstr "A criar pastas"
+
+#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:12
+#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:12
+msgid "Creating shortcuts"
+msgstr "A criar atalhos"
+
+#: En.Win32.Debug.Property-2.idtx:8 En.Win32.Release.Property-2.idtx:8
+#: En.x64.Debug.Property-2.idtx:8 En.x64.Release.Property-2.idtx:8
+#, fuzzy
+msgid "Custom Installation"
+msgstr "A instalação falhou."
+
+#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Release.ActionText-2.idtx:13
+#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Release.ActionText-2.idtx:13
+msgid "Deleting services"
+msgstr "A eliminar serviços"
+
+#: En.Win32.Debug.ControlEvent-2.idtx:4 En.Win32.Debug.ControlEvent-2.idtx:5
+#: En.Win32.Release.ControlEvent-2.idtx:4
+#: En.Win32.Release.ControlEvent-2.idtx:5 En.x64.Debug.ControlEvent-2.idtx:4
+#: En.x64.Debug.ControlEvent-2.idtx:5 En.x64.Release.ControlEvent-2.idtx:4
+#: En.x64.Release.ControlEvent-2.idtx:5
+#, fuzzy
+msgid "Determining required space for installation..."
+msgstr "A reunir as informações necessárias..."
+
+#: En.Win32.Debug.UIText-2.idtx:51 En.Win32.Release.UIText-2.idtx:51
+#: En.x64.Debug.UIText-2.idtx:51 En.x64.Release.UIText-2.idtx:51
+msgid "Difference"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:45 En.Win32.Release.Control-2.idtx:45
+#: En.x64.Debug.Control-2.idtx:42 En.x64.Release.Control-2.idtx:42
+msgid "Disk &Usage"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:53 En.Win32.Release.UIText-2.idtx:53
+#: En.x64.Debug.UIText-2.idtx:53 En.x64.Release.UIText-2.idtx:53
+msgid "Disk Size"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:12 En.Win32.Release.UIText-2.idtx:12
+#: En.x64.Debug.UIText-2.idtx:12 En.x64.Release.UIText-2.idtx:12
+msgid "Entire feature will be installed on local hard drive"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:11 En.Win32.Release.UIText-2.idtx:11
+#: En.x64.Debug.UIText-2.idtx:11 En.x64.Release.UIText-2.idtx:11
+msgid "Entire feature will be installed to run from CD"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:13 En.Win32.Release.UIText-2.idtx:13
+#: En.x64.Debug.UIText-2.idtx:13 En.x64.Release.UIText-2.idtx:13
+msgid "Entire feature will be installed to run from network"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:9 En.Win32.Release.UIText-2.idtx:9
+#: En.x64.Debug.UIText-2.idtx:9 En.x64.Release.UIText-2.idtx:9
+msgid "Entire feature will be unavailable"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:24 En.Win32.Release.ActionText-2.idtx:24
+#: En.x64.Debug.ActionText-2.idtx:24 En.x64.Release.ActionText-2.idtx:24
+msgid "Evaluating launch conditions"
+msgstr "A avaliar as condições de iniciação"
+
+#: En.Win32.Debug.Control-2.idtx:16 En.Win32.Release.Control-2.idtx:16
+msgid "Exclamation icon|"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Debug.ActionText-2.idtx:66
+#: En.Win32.Release.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:66
+#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Debug.ActionText-2.idtx:66
+#: En.x64.Release.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:66
+msgid "Extension: [1]"
+msgstr "Extensão: [1]"
+
+#: En.Win32.Debug.UIText-2.idtx:10 En.Win32.Release.UIText-2.idtx:10
+#: En.x64.Debug.UIText-2.idtx:10 En.x64.Release.UIText-2.idtx:10
+msgid "Feature will be installed when required"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Debug.ActionText-2.idtx:62
+#: En.Win32.Release.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:62
+#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Debug.ActionText-2.idtx:62
+#: En.x64.Release.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:62
+msgid "Feature: [1]"
+msgstr "Funcionalidade: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Debug.ActionText-2.idtx:7
+#: En.Win32.Release.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:7
+#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Debug.ActionText-2.idtx:7
+#: En.x64.Release.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:7
+msgid "File: [1]"
+msgstr "Ficheiro: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
+#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
+msgid "File: [1], Dependencies: [2]"
+msgstr "Ficheiro: [1], Dependências: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Debug.ActionText-2.idtx:56
+#: En.Win32.Release.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:56
+#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Debug.ActionText-2.idtx:56
+#: En.x64.Release.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:56
+msgid "File: [1], Folder: [2]"
+msgstr "Ficheiro: [1], Pasta: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
+#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
+msgid "File: [1], Folder: [2], Size: [3]"
+msgstr "Ficheiro: [1], Directório: [2], Tamanho: [3]"
+
+#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Debug.ActionText-2.idtx:46
+#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:43
+#: En.Win32.Release.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:60
+#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Debug.ActionText-2.idtx:46
+#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:43
+#: En.x64.Release.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:60
+msgid "File: [1], Folder: [9]"
+msgstr "Ficheiro: [1], Directório: [9]"
+
+#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Debug.ActionText-2.idtx:18
+#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Debug.ActionText-2.idtx:26
+#: En.Win32.Release.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:18
+#: En.Win32.Release.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:26
+#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Debug.ActionText-2.idtx:18
+#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Debug.ActionText-2.idtx:26
+#: En.x64.Release.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:18
+#: En.x64.Release.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:26
+msgid "File: [1], Folder: [9], Size: [6]"
+msgstr "Ficheiro: [1], Directório: [9], Tamanho: [6]"
+
+#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Debug.ActionText-2.idtx:72
+#: En.Win32.Release.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:72
+#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Debug.ActionText-2.idtx:72
+#: En.x64.Release.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:72
+msgid "File: [1], Section: [2], Key: [3], Value: [4]"
+msgstr "Ficheiro: [1], Secção: [2], Chave: [3], Valor: [4]"
+
+#: En.Win32.Debug.Control-2.idtx:41 En.Win32.Release.Control-2.idtx:41
+#: En.x64.Debug.Control-2.idtx:38 En.x64.Release.Control-2.idtx:38
+#, fuzzy
+msgid "Folder:"
+msgstr "Ficheiro: [1], Pasta: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Debug.ActionText-2.idtx:47
+#: En.Win32.Release.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:47
+#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Debug.ActionText-2.idtx:47
+#: En.x64.Release.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:47
+msgid "Folder: [1]"
+msgstr "Pasta: [1]"
+
+#: En.Win32.Debug.UIText-2.idtx:17 En.Win32.Release.UIText-2.idtx:17
+#: En.x64.Debug.UIText-2.idtx:17 En.x64.Release.UIText-2.idtx:17
+msgid "Folder|New Folder"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Debug.ActionText-2.idtx:67
+#: En.Win32.Release.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:67
+#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Debug.ActionText-2.idtx:67
+#: En.x64.Release.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:67
+msgid "Font: [1]"
+msgstr "Tipo de letra: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
+#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
+msgid "Found application: [1]"
+msgstr "Aplicação encontrada: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
+#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+msgid "Free space: [1]"
+msgstr "Libertar espaço: [1]"
+
+#: En.Win32.Debug.UIText-2.idtx:18 En.Win32.Release.UIText-2.idtx:18
+#: En.x64.Debug.UIText-2.idtx:18 En.x64.Release.UIText-2.idtx:18
+msgid "Gathering required information..."
+msgstr "A reunir as informações necessárias..."
+
+#: En.Win32.Debug.UIText-2.idtx:6 En.Win32.Release.UIText-2.idtx:6
+#: En.x64.Debug.UIText-2.idtx:6 En.x64.Release.UIText-2.idtx:6
+msgid "GB"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:17
+#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:17
+msgid "Generating script operations for action:"
+msgstr "A gerar operações de script para acção:"
+
+#: En.Win32.Debug.Control-2.idtx:10 En.Win32.Release.Control-2.idtx:10
+#: En.x64.Debug.Control-2.idtx:10 En.x64.Release.Control-2.idtx:10
+msgid "I &accept the General Terms."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:116 En.Win32.Release.Control-2.idtx:116
+#: En.x64.Debug.Control-2.idtx:113 En.x64.Release.Control-2.idtx:113
+msgid ""
+"If you interrupted the installation by accident, please run the installation "
+"again."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:90 En.Win32.Debug.Control-2.idtx:94
+#: En.Win32.Release.Control-2.idtx:90 En.Win32.Release.Control-2.idtx:94
+#: En.x64.Debug.Control-2.idtx:87 En.x64.Debug.Control-2.idtx:91
+#: En.x64.Release.Control-2.idtx:87 En.x64.Release.Control-2.idtx:91
+msgid "Information icon|"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:95 En.Win32.Release.Control-2.idtx:95
+#: En.x64.Debug.Control-2.idtx:92 En.x64.Release.Control-2.idtx:92
+msgid "Information text"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:57 En.Win32.Release.ActionText-2.idtx:57
+#: En.x64.Debug.ActionText-2.idtx:57 En.x64.Release.ActionText-2.idtx:57
+msgid "Initializing ODBC folders"
+msgstr "A inicializar directórios ODBC"
+
+#: En.Win32.Debug.ControlEvent-2.idtx:7 En.Win32.Release.ControlEvent-2.idtx:7
+#: En.x64.Debug.ControlEvent-2.idtx:7 En.x64.Release.ControlEvent-2.idtx:7
+msgid "Installed Features Selection"
+msgstr ""
+
+#: En.Win32.Debug.Dialog-2.idtx:4 En.Win32.Release.Dialog-2.idtx:4
+#: En.x64.Debug.Dialog-2.idtx:4 En.x64.Release.Dialog-2.idtx:4
+msgid "Installer Information"
+msgstr ""
+
+#: En.Win32.Debug.Property-2.idtx:4 En.Win32.Release.Property-2.idtx:4
+#: En.x64.Debug.Property-2.idtx:4 En.x64.Release.Property-2.idtx:4
+#, fuzzy
+msgid "Installing"
+msgstr ""
+"Não foi possível encontrar nenhum produto compatível previamente instalado "
+"na máquina para a instalação deste produto."
+
+#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
+#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
+msgid "Installing new services"
+msgstr "A instalar novos serviços"
+
+#: En.Win32.Debug.ActionText-2.idtx:20 En.Win32.Release.ActionText-2.idtx:20
+#: En.x64.Debug.ActionText-2.idtx:20 En.x64.Release.ActionText-2.idtx:20
+msgid "Installing ODBC components"
+msgstr "A instalar componentes ODBC"
+
+#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
+#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
+msgid "Installing system catalog"
+msgstr "A instalar o catálogo de sistema"
+
+#: En.Win32.Debug.Control-2.idtx:14 En.Win32.Release.Control-2.idtx:14
+#: En.x64.Debug.Control-2.idtx:14 En.x64.Release.Control-2.idtx:14
+msgid "Installs the most common program features. Recommended for most users.|"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:7 En.Win32.Release.UIText-2.idtx:7
+#: En.x64.Debug.UIText-2.idtx:7 En.x64.Release.UIText-2.idtx:7
+#, fuzzy
+msgid "KB"
+msgstr ""
+"Não foi possível aumentar o espaço de registo disponível. São necessários "
+"[2] KB de espaço de registo livre para instalar esta aplicação."
+
+#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
+#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
+msgid "Key: [1], Name: [2]"
+msgstr "Chave: [1], Nome: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
+#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
+msgid "Key: [1], Name: [2], Value: [3]"
+msgstr "Chave: [1], Nome: [2], Valor [3]"
+
+#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Debug.ActionText-2.idtx:70
+#: En.Win32.Release.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:70
+#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Debug.ActionText-2.idtx:70
+#: En.x64.Release.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:70
+msgid "LibID: [1]"
+msgstr "ID da biblioteca: [1]"
+
+#: En.Win32.Debug.Control-2.idtx:24 En.Win32.Release.Control-2.idtx:24
+#: En.x64.Debug.Control-2.idtx:21 En.x64.Release.Control-2.idtx:21
+msgid ""
+"Maintenance allows you to change the way features are installed on your "
+"computer or even to remove [SimpleProductName] from your computer."
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:8 En.Win32.Release.UIText-2.idtx:8
+#: En.x64.Debug.UIText-2.idtx:8 En.x64.Release.UIText-2.idtx:8
+msgid "MB"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
+#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
+msgid "Migrating feature states from related applications"
+msgstr ""
+"Funcionalidades migratórias têm o mesmo significado que aplicações "
+"relacionadas"
+
+#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Debug.ActionText-2.idtx:68
+#: En.Win32.Release.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:68
+#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Debug.ActionText-2.idtx:68
+#: En.x64.Release.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:68
+msgid "MIME Content Type: [1], Extension: [2]"
+msgstr "Tipo de conteúdo MIME: [1], Extensão: [2]"
+
+#: En.Win32.Debug.ControlEvent-2.idtx:9 En.Win32.Release.ControlEvent-2.idtx:9
+#: En.x64.Debug.ControlEvent-2.idtx:9 En.x64.Release.ControlEvent-2.idtx:9
+msgid "Modification"
+msgstr ""
+
+#: En.Win32.Debug.ControlEvent-2.idtx:8 En.Win32.Release.ControlEvent-2.idtx:8
+#: En.x64.Debug.ControlEvent-2.idtx:8 En.x64.Release.ControlEvent-2.idtx:8
+msgid "Modifying"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:26 En.Win32.Release.ActionText-2.idtx:26
+#: En.x64.Debug.ActionText-2.idtx:26 En.x64.Release.ActionText-2.idtx:26
+msgid "Moving files"
+msgstr "A mover ficheiros"
+
+#: En.Win32.Debug.Control-2.idtx:39 En.Win32.Release.Control-2.idtx:39
+#: En.x64.Debug.Control-2.idtx:36 En.x64.Release.Control-2.idtx:36
+msgid "Multiline description of the currently selected item."
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
+#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
+#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
+#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
+msgid "Name: [1], Value: [2], Action [3]"
+msgstr "Nome: [1], Valor: [2], Acção [3]"
+
+#: En.Win32.Debug.Control-2.idtx:56 En.Win32.Debug.Control-2.idtx:67
+#: En.Win32.Debug.Control-2.idtx:96 En.Win32.Release.Control-2.idtx:56
+#: En.Win32.Release.Control-2.idtx:67 En.Win32.Release.Control-2.idtx:96
+#: En.x64.Debug.Control-2.idtx:53 En.x64.Debug.Control-2.idtx:64
+#: En.x64.Debug.Control-2.idtx:93 En.x64.Release.Control-2.idtx:53
+#: En.x64.Release.Control-2.idtx:64 En.x64.Release.Control-2.idtx:93
+msgid "OK"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
+#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
+msgid "Patching files"
+msgstr "A fazer patches de ficheiros"
+
+#: En.Win32.Debug.Control-2.idtx:121 En.Win32.Release.Control-2.idtx:121
+#: En.x64.Debug.Control-2.idtx:118 En.x64.Release.Control-2.idtx:118
+msgid "Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Debug.ActionText-2.idtx:69
+#: En.Win32.Release.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:69
+#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Debug.ActionText-2.idtx:69
+#: En.x64.Release.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:69
+msgid "ProgId: [1]"
+msgstr "IdProg: [1]"
+
+#: En.Win32.Debug.Control-2.idtx:6 En.Win32.Debug.Control-2.idtx:87
+#: En.Win32.Release.Control-2.idtx:6 En.Win32.Release.Control-2.idtx:87
+#: En.x64.Debug.Control-2.idtx:6 En.x64.Debug.Control-2.idtx:84
+#: En.x64.Release.Control-2.idtx:6 En.x64.Release.Control-2.idtx:84
+msgid "Progress done"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
+#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
+msgid "Property: [1], Signature: [2]"
+msgstr "Propriedade: [1], Assinatura: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:27
+#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:27
+msgid "Publishing assembly information"
+msgstr "A publicar informação de montagem"
+
+#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:32
+#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:32
+msgid "Publishing Product Features"
+msgstr "A publicar funcionalidades do produto"
+
+#: En.Win32.Debug.ActionText-2.idtx:33 En.Win32.Release.ActionText-2.idtx:33
+#: En.x64.Debug.ActionText-2.idtx:33 En.x64.Release.ActionText-2.idtx:33
+msgid "Publishing product information"
+msgstr "A publicar informações do produto"
+
+#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:31
+#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:31
+msgid "Publishing Qualified Components"
+msgstr "A publicar componentes qualificados"
+
+#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:34
+#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:34
+msgid "Registering Class servers"
+msgstr "A registar servidores de classes"
+
+#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
+#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
+msgid "Registering COM+ Applications and Components"
+msgstr "A registar aplicações COM+ e componentes"
+
+#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:36
+#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:36
+msgid "Registering extension servers"
+msgstr "A registar servidores de extensões"
+
+#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:37
+#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:37
+msgid "Registering fonts"
+msgstr "A registar tipos de letras"
+
+#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:38
+#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:38
+msgid "Registering MIME info"
+msgstr "A registar informações MIME"
+
+#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:55
+#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:55
+msgid "Registering modules"
+msgstr "A registar módulos"
+
+#: En.Win32.Debug.ActionText-2.idtx:39 En.Win32.Release.ActionText-2.idtx:39
+#: En.x64.Debug.ActionText-2.idtx:39 En.x64.Release.ActionText-2.idtx:39
+msgid "Registering product"
+msgstr "A registar o produto"
+
+#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:40
+#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:40
+msgid "Registering program identifiers"
+msgstr "A registar os identificadores de programas"
+
+#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:41
+#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:41
+msgid "Registering type libraries"
+msgstr "A registar bibliotecas de tipos"
+
+#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:42
+#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:42
+msgid "Registering user"
+msgstr "A registar o utilizador"
+
+#: En.Win32.Debug.ControlEvent-2.idtx:13
+#: En.Win32.Release.ControlEvent-2.idtx:13 En.x64.Debug.ControlEvent-2.idtx:13
+#: En.x64.Release.ControlEvent-2.idtx:13
+#, fuzzy
+msgid "Removal"
+msgstr "A remoção foi concluída com êxito."
+
+#: En.Win32.Debug.RadioButton-2.idtx:6 En.Win32.Release.RadioButton-2.idtx:6
+#: En.x64.Debug.RadioButton-2.idtx:6 En.x64.Release.RadioButton-2.idtx:6
+msgid "Removes the program from your computer.|"
+msgstr ""
+
+#: En.Win32.Debug.ControlEvent-2.idtx:12
+#: En.Win32.Release.ControlEvent-2.idtx:12 En.x64.Debug.ControlEvent-2.idtx:12
+#: En.x64.Release.ControlEvent-2.idtx:12
+#, fuzzy
+msgid "Removing"
+msgstr "A remover entradas de ficheiros INI"
+
+#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
+#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
+msgid "Removing applications"
+msgstr "A remover aplicações"
+
+#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:54
+#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:54
+msgid "Removing backup files"
+msgstr "A remover ficheiros de cópias de segurança"
+
+#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Release.ActionText-2.idtx:43
+#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Release.ActionText-2.idtx:43
+msgid "Removing duplicated files"
+msgstr "A remover ficheiros duplicados"
+
+#: En.Win32.Debug.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:46
+#: En.x64.Debug.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:46
+msgid "Removing files"
+msgstr "A remover ficheiros"
+
+#: En.Win32.Debug.ActionText-2.idtx:47 En.Win32.Release.ActionText-2.idtx:47
+#: En.x64.Debug.ActionText-2.idtx:47 En.x64.Release.ActionText-2.idtx:47
+msgid "Removing folders"
+msgstr "A remover pastas"
+
+#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:48
+#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:48
+msgid "Removing INI files entries"
+msgstr "A remover entradas de ficheiros INI"
+
+#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:60
+#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:60
+msgid "Removing moved files"
+msgstr "A remover ficheiros movidos"
+
+#: En.Win32.Debug.ActionText-2.idtx:49 En.Win32.Release.ActionText-2.idtx:49
+#: En.x64.Debug.ActionText-2.idtx:49 En.x64.Release.ActionText-2.idtx:49
+msgid "Removing ODBC components"
+msgstr "A remover componentes ODBC"
+
+#: En.Win32.Debug.ActionText-2.idtx:51 En.Win32.Release.ActionText-2.idtx:51
+#: En.x64.Debug.ActionText-2.idtx:51 En.x64.Release.ActionText-2.idtx:51
+msgid "Removing shortcuts"
+msgstr "A remover atalhos"
+
+#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
+#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
+msgid "Removing system registry values"
+msgstr "A remover valores do Registo do sistema"
+
+#: En.Win32.Debug.ControlEvent-2.idtx:11
+#: En.Win32.Release.ControlEvent-2.idtx:11 En.x64.Debug.ControlEvent-2.idtx:11
+#: En.x64.Release.ControlEvent-2.idtx:11
+msgid "Repair"
+msgstr ""
+
+#: En.Win32.Debug.ControlEvent-2.idtx:10
+#: En.Win32.Release.ControlEvent-2.idtx:10 En.x64.Debug.ControlEvent-2.idtx:10
+#: En.x64.Release.ControlEvent-2.idtx:10
+msgid "Repairing"
+msgstr ""
+
+#: En.Win32.Debug.RadioButton-2.idtx:5 En.Win32.Release.RadioButton-2.idtx:5
+#: En.x64.Debug.RadioButton-2.idtx:5 En.x64.Release.RadioButton-2.idtx:5
+msgid ""
+"Repairs errors in the most recent installation state - fixes missing or "
+"corrupt files, shortcuts and registry entries.|"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:52 En.Win32.Release.UIText-2.idtx:52
+#: En.x64.Debug.UIText-2.idtx:52 En.x64.Release.UIText-2.idtx:52
+#, fuzzy
+msgid "Required"
+msgstr ""
+"Um ficheiro que é necessário não pode ser instalado porque o ficheiro cab "
+"[2] não está assinado digitalmente. Isto pode indicar que o ficheiro cab "
+"está corrompido."
+
+#: En.Win32.Debug.Control-2.idtx:44 En.Win32.Release.Control-2.idtx:44
+#: En.x64.Debug.Control-2.idtx:41 En.x64.Release.Control-2.idtx:41
+msgid "Resets feature selection to initial state.|"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:53 En.Win32.Release.ActionText-2.idtx:53
+#: En.x64.Debug.ActionText-2.idtx:53 En.x64.Release.ActionText-2.idtx:53
+msgid "Rolling back action:"
+msgstr "A anular a acção:"
+
+#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
+#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
+msgid "Searching for installed applications"
+msgstr "Ȁ procura de aplicações instaladas"
+
+#: En.Win32.Debug.ActionText-2.idtx:52 En.Win32.Debug.ActionText-2.idtx:8
+#: En.Win32.Release.ActionText-2.idtx:52 En.Win32.Release.ActionText-2.idtx:8
+#: En.x64.Debug.ActionText-2.idtx:52 En.x64.Debug.ActionText-2.idtx:8
+#: En.x64.Release.ActionText-2.idtx:52 En.x64.Release.ActionText-2.idtx:8
+msgid "Searching for qualifying products"
+msgstr "Ȁ procura de produtos adequados"
+
+#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
+#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
+msgid "Searching for related applications"
+msgstr "Ȁ procura de aplicações relacionadas"
+
+#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Debug.ActionText-2.idtx:58
+#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:13
+#: En.Win32.Release.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:59
+#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Debug.ActionText-2.idtx:58
+#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:13
+#: En.x64.Release.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:59
+msgid "Service: [1]"
+msgstr "Serviço: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
+#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
+msgid "Service: [2]"
+msgstr "Serviço: [2]"
+
+#: En.Win32.Debug.Property-2.idtx:5 En.Win32.Debug.Property-2.idtx:6
+#: En.Win32.Release.Property-2.idtx:5 En.Win32.Release.Property-2.idtx:6
+#: En.x64.Debug.Property-2.idtx:5 En.x64.Debug.Property-2.idtx:6
+#: En.x64.Release.Property-2.idtx:5 En.x64.Release.Property-2.idtx:6
+msgid "Setup"
+msgstr ""
+
+#: En.Win32.Debug.Property-2.idtx:7 En.Win32.Release.Property-2.idtx:7
+#: En.x64.Debug.Property-2.idtx:7 En.x64.Release.Property-2.idtx:7
+msgid "Setup Wizard"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Debug.ActionText-2.idtx:51
+#: En.Win32.Release.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:51
+#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Debug.ActionText-2.idtx:51
+#: En.x64.Release.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:51
+msgid "Shortcut: [1]"
+msgstr "Atalho: [1]"
+
+#: En.Win32.Debug.Control-2.idtx:45 En.Win32.Release.Control-2.idtx:45
+#: En.x64.Debug.Control-2.idtx:42 En.x64.Release.Control-2.idtx:42
+msgid ""
+"Shows space requirement by volumes, according to current feature selection.|"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:58
+#: En.x64.Debug.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:58
+msgid "Starting services"
+msgstr "A iniciar serviços"
+
+#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:59
+#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:59
+msgid "Stopping services"
+msgstr "A parar serviços"
+
+#: En.Win32.Debug.Control-2.idtx:105 En.Win32.Release.Control-2.idtx:105
+#: En.x64.Debug.Control-2.idtx:102 En.x64.Release.Control-2.idtx:102
+msgid ""
+"The following applications are using files that need to be updated by this "
+"setup. Close these applications and then click Retry to continue the "
+"installation or Cancel to exit it."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:75 En.Win32.Debug.Control-2.idtx:80
+#: En.Win32.Release.Control-2.idtx:75 En.Win32.Release.Control-2.idtx:80
+#: En.x64.Debug.Control-2.idtx:72 En.x64.Debug.Control-2.idtx:77
+#: En.x64.Release.Control-2.idtx:72 En.x64.Release.Control-2.idtx:77
+msgid ""
+"The highlighted volumes (if any) do not have enough disk space available for "
+"the currently selected features. You can either remove some files from the "
+"highlighted volumes, or choose to install less features onto local drive(s), "
+"or select different destination drive(s)."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:40 En.Win32.Release.Control-2.idtx:40
+#: En.x64.Debug.Control-2.idtx:37 En.x64.Release.Control-2.idtx:37
+msgid "The size of the currently selected item."
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:33 En.Win32.Release.UIText-2.idtx:33
+#: En.x64.Debug.UIText-2.idtx:33 En.x64.Release.UIText-2.idtx:33
+msgid "This feature frees up [1] on your hard drive."
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:34 En.Win32.Release.UIText-2.idtx:34
+#: En.x64.Debug.UIText-2.idtx:34 En.x64.Release.UIText-2.idtx:34
+msgid "This feature requires [1] on your hard drive."
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:45 En.Win32.Debug.UIText-2.idtx:46
+#: En.Win32.Debug.UIText-2.idtx:47 En.Win32.Debug.UIText-2.idtx:48
+#: En.Win32.Release.UIText-2.idtx:45 En.Win32.Release.UIText-2.idtx:46
+#: En.Win32.Release.UIText-2.idtx:47 En.Win32.Release.UIText-2.idtx:48
+#: En.x64.Debug.UIText-2.idtx:45 En.x64.Debug.UIText-2.idtx:46
+#: En.x64.Debug.UIText-2.idtx:47 En.x64.Debug.UIText-2.idtx:48
+#: En.x64.Release.UIText-2.idtx:45 En.x64.Release.UIText-2.idtx:46
+#: En.x64.Release.UIText-2.idtx:47 En.x64.Release.UIText-2.idtx:48
+msgid ""
+"This feature requires [1] on your hard drive. It has [2] of [3] subfeatures "
+"selected. The subfeatures require [4] on your hard drive."
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:22 En.Win32.Debug.UIText-2.idtx:27
+#: En.Win32.Debug.UIText-2.idtx:32 En.Win32.Debug.UIText-2.idtx:43
+#: En.Win32.Release.UIText-2.idtx:22 En.Win32.Release.UIText-2.idtx:27
+#: En.Win32.Release.UIText-2.idtx:32 En.Win32.Release.UIText-2.idtx:43
+#: En.x64.Debug.UIText-2.idtx:22 En.x64.Debug.UIText-2.idtx:27
+#: En.x64.Debug.UIText-2.idtx:32 En.x64.Debug.UIText-2.idtx:43
+#: En.x64.Release.UIText-2.idtx:22 En.x64.Release.UIText-2.idtx:27
+#: En.x64.Release.UIText-2.idtx:32 En.x64.Release.UIText-2.idtx:43
+msgid "This feature will be installed on the local hard drive"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:21 En.Win32.Debug.UIText-2.idtx:26
+#: En.Win32.Release.UIText-2.idtx:21 En.Win32.Release.UIText-2.idtx:26
+#: En.x64.Debug.UIText-2.idtx:21 En.x64.Debug.UIText-2.idtx:26
+#: En.x64.Release.UIText-2.idtx:21 En.x64.Release.UIText-2.idtx:26
+msgid "This feature will be installed to run from CD"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:23 En.Win32.Debug.UIText-2.idtx:28
+#: En.Win32.Release.UIText-2.idtx:23 En.Win32.Release.UIText-2.idtx:28
+#: En.x64.Debug.UIText-2.idtx:23 En.x64.Debug.UIText-2.idtx:28
+#: En.x64.Release.UIText-2.idtx:23 En.x64.Release.UIText-2.idtx:28
+msgid "This feature will be installed to run from the network"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:37 En.Win32.Release.UIText-2.idtx:37
+#: En.x64.Debug.UIText-2.idtx:37 En.x64.Release.UIText-2.idtx:37
+msgid ""
+"This feature will be removed from your local hard drive, but will be set to "
+"be installed when required"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:38 En.Win32.Release.UIText-2.idtx:38
+#: En.x64.Debug.UIText-2.idtx:38 En.x64.Release.UIText-2.idtx:38
+msgid ""
+"This feature will be removed from your local hard drive, but will be still "
+"available to run from CD"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:40 En.Win32.Release.UIText-2.idtx:40
+#: En.x64.Debug.UIText-2.idtx:40 En.x64.Release.UIText-2.idtx:40
+msgid ""
+"This feature will be removed from your local hard drive, but will be still "
+"available to run from the network"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:20 En.Win32.Debug.UIText-2.idtx:30
+#: En.Win32.Debug.UIText-2.idtx:42 En.Win32.Release.UIText-2.idtx:20
+#: En.Win32.Release.UIText-2.idtx:30 En.Win32.Release.UIText-2.idtx:42
+#: En.x64.Debug.UIText-2.idtx:20 En.x64.Debug.UIText-2.idtx:30
+#: En.x64.Debug.UIText-2.idtx:42 En.x64.Release.UIText-2.idtx:20
+#: En.x64.Release.UIText-2.idtx:30 En.x64.Release.UIText-2.idtx:42
+msgid "This feature will be set to be installed when required"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:29 En.Win32.Release.UIText-2.idtx:29
+#: En.x64.Debug.UIText-2.idtx:29 En.x64.Release.UIText-2.idtx:29
+msgid ""
+"This feature will be uninstalled completely, you won't be able to run it "
+"from CD"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:41 En.Win32.Release.UIText-2.idtx:41
+#: En.x64.Debug.UIText-2.idtx:41 En.x64.Release.UIText-2.idtx:41
+msgid ""
+"This feature will be uninstalled completely, you won't be able to run it "
+"from the network"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:24 En.Win32.Debug.UIText-2.idtx:36
+#: En.Win32.Release.UIText-2.idtx:24 En.Win32.Release.UIText-2.idtx:36
+#: En.x64.Debug.UIText-2.idtx:24 En.x64.Debug.UIText-2.idtx:36
+#: En.x64.Release.UIText-2.idtx:24 En.x64.Release.UIText-2.idtx:36
+msgid "This feature will become unavailable"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:39 En.Win32.Release.UIText-2.idtx:39
+#: En.x64.Debug.UIText-2.idtx:39 En.x64.Release.UIText-2.idtx:39
+msgid "This feature will remain on you local hard drive"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:31 En.Win32.Release.UIText-2.idtx:31
+#: En.x64.Debug.UIText-2.idtx:31 En.x64.Release.UIText-2.idtx:31
+msgid "This feature will remain to be run from CD"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:44 En.Win32.Release.UIText-2.idtx:44
+#: En.x64.Debug.UIText-2.idtx:44 En.x64.Release.UIText-2.idtx:44
+msgid "This feature will remain to be run from the network"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:19 En.Win32.Release.UIText-2.idtx:19
+#: En.x64.Debug.UIText-2.idtx:19 En.x64.Release.UIText-2.idtx:19
+msgid "This feature will remain uninstalled"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:49 En.Win32.Release.UIText-2.idtx:49
+#: En.x64.Debug.UIText-2.idtx:49 En.x64.Release.UIText-2.idtx:49
+msgid "Time remaining: {[1] minutes }{[2] seconds}"
+msgstr "Tempo restante: {[1] minutos }{[2] segundos}"
+
+#: En.Win32.Debug.Control-2.idtx:37 En.Win32.Release.Control-2.idtx:37
+#: En.x64.Debug.Control-2.idtx:34 En.x64.Release.Control-2.idtx:34
+msgid "Tree of selections"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:28 En.Win32.Release.ActionText-2.idtx:28
+#: En.x64.Debug.ActionText-2.idtx:28 En.x64.Release.ActionText-2.idtx:28
+msgid "Unpublishing assembly information"
+msgstr "A retirar a informação de montagem"
+
+#: En.Win32.Debug.ActionText-2.idtx:62 En.Win32.Release.ActionText-2.idtx:62
+#: En.x64.Debug.ActionText-2.idtx:62 En.x64.Release.ActionText-2.idtx:62
+msgid "Unpublishing Product Features"
+msgstr "A anular a publicação de funcionalidades do produto"
+
+#: En.Win32.Debug.ActionText-2.idtx:63 En.Win32.Release.ActionText-2.idtx:63
+#: En.x64.Debug.ActionText-2.idtx:63 En.x64.Release.ActionText-2.idtx:63
+msgid "Unpublishing product information"
+msgstr "A anular a publicação de informações do produto"
+
+#: En.Win32.Debug.ActionText-2.idtx:61 En.Win32.Release.ActionText-2.idtx:61
+#: En.x64.Debug.ActionText-2.idtx:61 En.x64.Release.ActionText-2.idtx:61
+msgid "Unpublishing Qualified Components"
+msgstr "A anular a publicação de componentes qualificados"
+
+#: En.Win32.Debug.ActionText-2.idtx:64 En.Win32.Release.ActionText-2.idtx:64
+#: En.x64.Debug.ActionText-2.idtx:64 En.x64.Release.ActionText-2.idtx:64
+msgid "Unregister Class servers"
+msgstr "A anular o registo de servidores de classes"
+
+#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
+#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
+msgid "Unregistering COM+ Applications and Components"
+msgstr "A anular o registo de aplicações COM+ e componentes"
+
+#: En.Win32.Debug.ActionText-2.idtx:66 En.Win32.Release.ActionText-2.idtx:66
+#: En.x64.Debug.ActionText-2.idtx:66 En.x64.Release.ActionText-2.idtx:66
+msgid "Unregistering extension servers"
+msgstr "A anular o registo de servidores de extensões"
+
+#: En.Win32.Debug.ActionText-2.idtx:67 En.Win32.Release.ActionText-2.idtx:67
+#: En.x64.Debug.ActionText-2.idtx:67 En.x64.Release.ActionText-2.idtx:67
+msgid "Unregistering fonts"
+msgstr "A anular o registo de tipos de letras"
+
+#: En.Win32.Debug.ActionText-2.idtx:68 En.Win32.Release.ActionText-2.idtx:68
+#: En.x64.Debug.ActionText-2.idtx:68 En.x64.Release.ActionText-2.idtx:68
+msgid "Unregistering MIME info"
+msgstr "A anular o registo de informações MIME"
+
+#: En.Win32.Debug.ActionText-2.idtx:56 En.Win32.Release.ActionText-2.idtx:56
+#: En.x64.Debug.ActionText-2.idtx:56 En.x64.Release.ActionText-2.idtx:56
+msgid "Unregistering modules"
+msgstr "A anular o registo de módulos"
+
+#: En.Win32.Debug.ActionText-2.idtx:69 En.Win32.Release.ActionText-2.idtx:69
+#: En.x64.Debug.ActionText-2.idtx:69 En.x64.Release.ActionText-2.idtx:69
+msgid "Unregistering program identifiers"
+msgstr "A anular o registo de identificadores de programas"
+
+#: En.Win32.Debug.ActionText-2.idtx:70 En.Win32.Release.ActionText-2.idtx:70
+#: En.x64.Debug.ActionText-2.idtx:70 En.x64.Release.ActionText-2.idtx:70
+msgid "Unregistering type libraries"
+msgstr "A anular o registo de bibliotecas de tipos"
+
+#: En.Win32.Debug.Control-2.idtx:51 En.Win32.Debug.Control-2.idtx:62
+#: En.Win32.Release.Control-2.idtx:51 En.Win32.Release.Control-2.idtx:62
+#: En.x64.Debug.Control-2.idtx:48 En.x64.Debug.Control-2.idtx:59
+#: En.x64.Release.Control-2.idtx:48 En.x64.Release.Control-2.idtx:59
+msgid "Up One Level|"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:30 En.Win32.Release.ActionText-2.idtx:30
+#: En.x64.Debug.ActionText-2.idtx:30 En.x64.Release.ActionText-2.idtx:30
+msgid "Updating component registration"
+msgstr "A actualizar o registo do componente"
+
+#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
+#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
+#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
+#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
+msgid "Updating environment strings"
+msgstr "A actualizar cadeias de ambiente"
+
+#: En.Win32.Debug.ActionText-2.idtx:23 En.Win32.Release.ActionText-2.idtx:23
+#: En.x64.Debug.ActionText-2.idtx:23 En.x64.Release.ActionText-2.idtx:23
+msgid "Validating install"
+msgstr "A validar a instalação"
+
+#: En.Win32.Debug.UIText-2.idtx:54 En.Win32.Release.UIText-2.idtx:54
+#: En.x64.Debug.UIText-2.idtx:54 En.x64.Release.UIText-2.idtx:54
+#, fuzzy
+msgid "Volume"
+msgstr ""
+"Não existe nenhum disco na unidade [2]. Introduza um e faça clique sobre "
+"Repetir ou faça clique sobre Cancelar para voltar ao volume previamente "
+"seleccionado."
+
+#: En.Win32.Debug.UIText-2.idtx:15 En.Win32.Release.UIText-2.idtx:15
+#: En.x64.Debug.UIText-2.idtx:15 En.x64.Release.UIText-2.idtx:15
+msgid "Will be installed on local hard drive"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:14 En.Win32.Release.UIText-2.idtx:14
+#: En.x64.Debug.UIText-2.idtx:14 En.x64.Release.UIText-2.idtx:14
+msgid "Will be installed to run from CD"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:16 En.Win32.Release.UIText-2.idtx:16
+#: En.x64.Debug.UIText-2.idtx:16 En.x64.Release.UIText-2.idtx:16
+msgid "Will be installed to run from network"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:25 En.Win32.Release.UIText-2.idtx:25
+#: En.x64.Debug.UIText-2.idtx:25 En.x64.Release.UIText-2.idtx:25
+msgid "Will be installed when required"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:72 En.Win32.Release.ActionText-2.idtx:72
+#: En.x64.Debug.ActionText-2.idtx:72 En.x64.Release.ActionText-2.idtx:72
+msgid "Writing INI files values"
+msgstr "A escrever valores nos ficheiros INI"
+
+#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
+#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
+msgid "Writing system registry values"
+msgstr "A escrever valores no Registo do sistema"
+
+#: En.Win32.Debug.Control-2.idtx:29 En.Win32.Release.Control-2.idtx:29
+#: En.x64.Debug.Control-2.idtx:26 En.x64.Release.Control-2.idtx:26
+msgid ""
+"You are about to prepare installation image for [SimpleProductName], to "
+"allow easier group deployment."
+msgstr ""
+
+#~ msgid ""
+#~ "[2] cannot install one of its required products. Contact your technical "
+#~ "support group. {{System Error: [3].}}"
+#~ msgstr ""
+#~ "[2] não foi possível instalar um dos produtos requeridos. Contacte o "
+#~ "grupo de suporte técnico. {{Erro do sistema: [3].}}"
+
+#~ msgid "'[2]' is not a valid short file name."
+#~ msgstr "'[2]' não é um nome válido para ficheiros de nome curto."
+
+#~ msgid "[SimpleProductName]"
+#~ msgstr "[SimpleProductName]"
+
+#~ msgid "[SimpleProductName] Setup completed successfully."
+#~ msgstr "A configuração do [SimpleProductName] foi concluída com êxito."
+
+#~ msgid "[SimpleProductName] Setup failed."
+#~ msgstr "A configuração do [SimpleProductName] falhou."
+
+#~ msgid "{[2]}{, [3]}{, [4]}"
+#~ msgstr "{[2]}{, [3]}{, [4]}"
+
+#~ msgid "{{Disk full: }}"
+#~ msgstr "{{Disco cheio: }}"
+
+#~ msgid "{{Error [1]. }}"
+#~ msgstr "{{Erro [1]. }}"
+
+#~ msgid "{{Fatal error: }}"
+#~ msgstr "{{Erro fatal: }}"
+
+#~ msgid "=== Logging started: [Date] [Time] ==="
+#~ msgstr "=== Início do registo: [Date] [Time] ==="
+
+#~ msgid "=== Logging stopped: [Date] [Time] ==="
+#~ msgstr "=== Conclusão do registo: [Date] [Time] ==="
+
+#~ msgid ""
+#~ "A file that is required cannot be installed because the cabinet file [2] "
+#~ "has an invalid digital signature. This may indicate that the cabinet file "
+#~ "is corrupt.{{ Error [3] was returned by WinVerifyTrust.}}"
+#~ msgstr ""
+#~ "Um ficheiro que é necessário não pode ser instalado porque o ficheiro cab "
+#~ "[2] não está assinado digitalmente. Isto pode indicar que o ficheiro cab "
+#~ "está corrompido..{{ Foi devolvido o erro [3] por WinVerifyTrust.}}"
+
+#~ msgid ""
+#~ "A file that is required cannot be installed because the cabinet file [2] "
+#~ "is not digitally signed. This may indicate that the cabinet file is "
+#~ "corrupt."
+#~ msgstr ""
+#~ "Um ficheiro que é necessário não pode ser instalado porque o ficheiro cab "
+#~ "[2] não está assinado digitalmente. Isto pode indicar que o ficheiro cab "
+#~ "está corrompido."
+
+#~ msgid "A network error occurred while attempting to create the folder: [2]"
+#~ msgstr "Ocorreu um erro de rede ao tentar criar o directório: [2]"
+
+#~ msgid ""
+#~ "A network error occurred while attempting to open the source file "
+#~ "cabinet: [2]"
+#~ msgstr ""
+#~ "Ocorreu um erro de rede ao tentar abrir o ficheiro .CAB de origem: [2]"
+
+#~ msgid "A network error occurred while attempting to read from the file: [2]"
+#~ msgstr "Ocorreu um erro de rede ao tentar ler o ficheiro: [2]"
+
+#~ msgid ""
+#~ "A portion of the folder path '[2]' is invalid. It is either empty or "
+#~ "exceeds the length allowed by the system."
+#~ msgstr ""
+#~ "Uma parte do caminho da pasta '[2]' não é válida; está em branco ou "
+#~ "excede o comprimento permitido pelo sistema."
+
+#~ msgid ""
+#~ "A previous installation for this product is in progress. You must undo "
+#~ "the changes made by that installation to continue. Do you want to undo "
+#~ "those changes?"
+#~ msgstr ""
+#~ "Está em curso uma anterior instalação deste produto. Para continuar, tem "
+#~ "de anular as alterações feitas por essa instalação. Deseja anular essas "
+#~ "alterações?"
+
+#~ msgid "A valid destination folder for the install could not be determined."
+#~ msgstr ""
+#~ "Não foi possível determinar uma pasta de destino válida para a instalação."
+
+#~ msgid "Action [Time]: [1]. [2]"
+#~ msgstr "Acção [Time]: [1]. [2]"
+
+#~ msgid "Action ended [Time]: [1]. Return value [2]."
+#~ msgstr "Fim da acção [Time]: [1]. Valor devolvido [2]."
+
+#~ msgid "Action start [Time]: [1]."
+#~ msgstr "Início da acção [Time]: [1]."
+
+#~ msgid "Advertisement completed successfully."
+#~ msgstr "Concluído o anúncio com êxito."
+
+#~ msgid "Advertisement failed."
+#~ msgstr "O anúncio falhou."
+
+#~ msgid ""
+#~ "An error occured during the installation of assembly component [2]. "
+#~ "HRESULT: [3]. {{assembly interface: [4], function: [5], assembly name: "
+#~ "[6]}}"
+#~ msgstr ""
+#~ "Ocorreu um erro durante a instalação de um componente montado [2]. "
+#~ "HRESULT: [3]. {{interface de montagem: [4], função: [5], nome de "
+#~ "montagem: [6]}}"
+
+#~ msgid ""
+#~ "An error occurred while applying security settings. [2] is not a valid "
+#~ "user or group. This could be a problem with the package, or a problem "
+#~ "connecting to a domain controller on the network. Check your network "
+#~ "connection and click Retry, or Cancel to end the install. {{Unable to "
+#~ "locate the user's SID, system error [3]}}"
+#~ msgstr ""
+#~ "Ocorreu um erro ao aplicar as definições de segurança. [2] não é um "
+#~ "utilizador ou grupo válido. Isto pode acontecer devido a um erro com o "
+#~ "pacote ou a um problema ao ligar a um controlador de domínio na rede. "
+#~ "Verifique a sua ligação de rede e clique em 'Repetir' ou em 'Cancelar' "
+#~ "para terminar a instalação. {{Não é possível localizar o SID do "
+#~ "utilizador, erro de sistema [3]}}"
+
+#~ msgid "An error occurred while attempting to create the folder: [2]"
+#~ msgstr "Ocorreu um erro ao tentar criar o directório: [2]"
+
+#~ msgid ""
+#~ "An error occurred while writing installation information to disk. Check "
+#~ "to make sure enough disk space is available, and click Retry, or Cancel "
+#~ "to end the install."
+#~ msgstr ""
+#~ "Ocorreu um erro ao escrever as informações de instalação no disco. "
+#~ "Certifique-se de que o espaço disponível em disco é suficiente e faça "
+#~ "clique sobre Repetir ou faça clique sobre Cancelar para terminar a "
+#~ "instalação."
+
+#~ msgid ""
+#~ "An installation for [2] is currently suspended. You must undo the changes "
+#~ "made by that installation to continue. Do you want to undo those changes?"
+#~ msgstr ""
+#~ "A instalação de [2] está actualmente suspensa. Para continuar, tem de "
+#~ "anular as alterações feitas por essa instalação. Deseja anular essas "
+#~ "alterações?"
+
+#~ msgid ""
+#~ "An installation package for the product [2] cannot be found. Try the "
+#~ "installation again using a valid copy of the installation package '[3]'."
+#~ msgstr ""
+#~ "Não foi possível localizar um pacote de instalação para o produto [2]. "
+#~ "Tente fazer a instalação novamente com uma cópia válida do pacote de "
+#~ "instalação '[3]'."
+
+#~ msgid ""
+#~ "Another application has exclusive access to the file '[2]'. Please shut "
+#~ "down all other applications, then click Retry."
+#~ msgstr ""
+#~ "Há outra aplicação com acesso exclusivo ao ficheiro '[2]'. Encerre todas "
+#~ "as outras aplicações e depois faça clique sobre Repetir."
+
+#~ msgid ""
+#~ "Another installation is in progress. You must complete that installation "
+#~ "before continuing this one."
+#~ msgstr ""
+#~ "Está outra instalação em curso. Tem de concluir essa instalação antes de "
+#~ "continuar com esta."
+
+#~ msgid "Are you sure you want to cancel?"
+#~ msgstr "Tem a certeza de que deseja cancelar?"
+
+#~ msgid ""
+#~ "Cannot create the file '[2]'. A folder with this name already exists. "
+#~ "Cancel the install and try installing to a different location."
+#~ msgstr ""
+#~ "Não foi possível criar o ficheiro '[2]'. Já existe um directório com este "
+#~ "nome. Cancele a instalação e tente instalar num local diferente."
+
+#~ msgid ""
+#~ "Cannot create the folder '[2]'. A file with this name already exists. "
+#~ "Please rename or remove the file and click retry, or click Cancel to exit."
+#~ msgstr ""
+#~ "Não foi possível criar o directório '[2]'. Já existe um ficheiro com este "
+#~ "nome. Mude o nome do ficheiro ou remova-o e faça clique sobre Repetir, ou "
+#~ "faça clique sobre Cancelar para sair."
+
+#~ msgid ""
+#~ "Component Services (COM+ 1.0) are not installed on this computer. This "
+#~ "installation requires Component Services in order to complete "
+#~ "successfully. Component Services are available on Windows 2000."
+#~ msgstr ""
+#~ "Component Services (COM+ 1.0) não foram instalados neste computador. Para "
+#~ "ser concluída com êxito, esta instalação requer Component Services. "
+#~ "Component Services estão disponíveis no Windows 2000."
+
+#~ msgid "Configuration completed successfully."
+#~ msgstr "Concluída a configuração com êxito."
+
+#~ msgid "Configuration failed."
+#~ msgstr "A configuração falhou."
+
+#~ msgid "Configured [2]"
+#~ msgstr "Configurado [2]"
+
+#~ msgid "Could not access network location [2]."
+#~ msgstr "Não foi possível aceder ȁ localização na rede [2]."
+
+#~ msgid ""
+#~ "Could not create key: [2]. {{ System error [3].}} Verify that you have "
+#~ "sufficient access to that key, or contact your support personnel. "
+#~ msgstr ""
+#~ "Não foi possível criar a chave: [2]. {{ Erro do sistema [3].}} Verifique "
+#~ "se tem acesso suficiente a essa chave ou contacte o suporte técnico. "
+
+#~ msgid ""
+#~ "Could not create Shortcut [2]. Verify that the destination folder exists "
+#~ "and that you can access it."
+#~ msgstr ""
+#~ "Não foi possível criar o atalho [2]. Verifique se a pasta de destino "
+#~ "existe e se pode acedê-la."
+
+#~ msgid ""
+#~ "Could not delete key [2]. {{ System error [3].}} Verify that you have "
+#~ "sufficient access to that key, or contact your support personnel. "
+#~ msgstr ""
+#~ "Não foi possível eliminar a chave [2]. {{ Erro do sistema [3].}} "
+#~ "Verifique se tem acesso suficiente a essa chave ou contacte o suporte "
+#~ "técnico. "
+
+#~ msgid ""
+#~ "Could not delete value [2] from key [3]. {{ System error [4].}} Verify "
+#~ "that you have sufficient access to that key, or contact your support "
+#~ "personnel. "
+#~ msgstr ""
+#~ "Não foi possível eliminar o valor [2] da chave [3]. {{ Erro do sistema "
+#~ "[4].}} Verifique se tem acesso suficiente a essa chave ou contacte o "
+#~ "suporte técnico. "
+
+#~ msgid ""
+#~ "Could not find any previously installed compliant products on the machine "
+#~ "for installing this product."
+#~ msgstr ""
+#~ "Não foi possível encontrar nenhum produto compatível previamente "
+#~ "instalado na máquina para a instalação deste produto."
+
+#~ msgid ""
+#~ "Could not get sub key names for key [2]. {{ System error [3].}} Verify "
+#~ "that you have sufficient access to that key, or contact your support "
+#~ "personnel."
+#~ msgstr ""
+#~ "Não foi possível obter os nomes das subchaves para a chave [2]. {{ Erro "
+#~ "de sistema [3].}} Verifique se tem direitos de acesso suficientes para "
+#~ "aceder a essa chave ou contacte o suporte técnico."
+
+#~ msgid ""
+#~ "Could not get value names for key [2]. {{ System error [3].}} Verify that "
+#~ "you have sufficient access to that key, or contact your support personnel."
+#~ msgstr ""
+#~ "Não foi possível obter nomes de valores para a chave [2]. {{ Erro do "
+#~ "sistema [3].}} Verifique se tem acesso suficiente a essa chave ou "
+#~ "contacte o suporte técnico."
+
+#~ msgid ""
+#~ "Could not increase the available registry space. [2] KB of free registry "
+#~ "space is required for the installation of this application."
+#~ msgstr ""
+#~ "Não foi possível aumentar o espaço de registo disponível. São necessários "
+#~ "[2] KB de espaço de registo livre para instalar esta aplicação."
+
+#~ msgid ""
+#~ "Could not open key: [2]. {{ System error [3].}} Verify that you have "
+#~ "sufficient access to that key, or contact your support personnel. "
+#~ msgstr ""
+#~ "Não foi possível abrir a chave: [2]. {{ Erro do sistema [3].}} Verifique "
+#~ "se tem acesso suficiente a essa chave ou contacte o suporte técnico. "
+
+#~ msgid ""
+#~ "Could not read security information for key [2]. {{ System error [3].}} "
+#~ "Verify that you have sufficient access to that key, or contact your "
+#~ "support personnel."
+#~ msgstr ""
+#~ "Não foi possível ler as informações de segurança da chave [2]. {{ Erro do "
+#~ "sistema [3].}} Verifique se tem acesso suficiente a essa chave ou "
+#~ "contacte o suporte técnico."
+
+#~ msgid ""
+#~ "Could not read value [2] from key [3]. {{ System error [4].}} Verify that "
+#~ "you have sufficient access to that key, or contact your support "
+#~ "personnel. "
+#~ msgstr ""
+#~ "Não foi possível ler o valor [2] da chave [3]. {{ Erro do sistema [4].}} "
+#~ "Verifique se tem acesso suficiente a essa chave ou contacte o suporte "
+#~ "técnico. "
+
+#~ msgid ""
+#~ "Could not register font [2]. Verify that you have sufficient permissions "
+#~ "to install fonts, and that the system supports this font."
+#~ msgstr ""
+#~ "Não foi possível registar o tipo de letra [2]. Verifique se tem "
+#~ "permissões suficientes para instalar tipos de letra e se o sistema "
+#~ "suporta este tipo de letra."
+
+#~ msgid ""
+#~ "Could not register type library for file [2]. Contact your support "
+#~ "personnel."
+#~ msgstr ""
+#~ "Não foi possível registar biblioteca de tipos para o ficheiro [2]. "
+#~ "Contacte o suporte técnico."
+
+#~ msgid ""
+#~ "Could not remove Shortcut [2]. Verify that the shortcut file exists and "
+#~ "that you can access it."
+#~ msgstr ""
+#~ "Não foi possível remover o atalho [2]. Verifique se o ficheiro de atalho "
+#~ "existe e se pode acedê-lo."
+
+#~ msgid ""
+#~ "Could not schedule file [2] to replace file [3] on reboot. Verify that "
+#~ "you have write permissions to file [3]."
+#~ msgstr ""
+#~ "Não foi possível programar o ficheiro [2] para substituir o ficheiro [3] "
+#~ "durante a operação de reiniciar o computador. Verifique se tem permissões "
+#~ "de escrita para o ficheiro [3]."
+
+#~ msgid ""
+#~ "Could not set file security for file '[3]'. Error: [2]. Verify that you "
+#~ "have sufficient privileges to modify the security permissions for this "
+#~ "file."
+#~ msgstr ""
+#~ "Não foi possível definir a segurança de ficheiro para o ficheiro '[3]'. "
+#~ "Erro: [2]. Verifique se tem privilégios suficientes para modificar as "
+#~ "permissões de segurança deste ficheiro."
+
+#~ msgid ""
+#~ "Could not unregister font [2]. Verify that you that you have sufficient "
+#~ "permissions to remove fonts."
+#~ msgstr ""
+#~ "Não foi possível anular o registo do tipo de letra [2]. Verifique se tem "
+#~ "permissões suficientes para remover tipos de letra."
+
+#~ msgid ""
+#~ "Could not unregister type library for file [2]. Contact your support "
+#~ "personnel."
+#~ msgstr ""
+#~ "Não foi possível anular o registo da biblioteca de tipos para o ficheiro "
+#~ "[2]. Contacte o suporte técnico."
+
+#~ msgid ""
+#~ "Could not update environment variable '[2]'. Verify that you have "
+#~ "sufficient privileges to modify environment variables."
+#~ msgstr ""
+#~ "Não foi possível actualizar a variável de ambiente '[2]'. Verifique se "
+#~ "tem privilégios suficientes para modificar variáveis de ambiente."
+
+#~ msgid ""
+#~ "Could not update the ini file [2][3]. Verify that the file exists and "
+#~ "that you can access it."
+#~ msgstr ""
+#~ "Não foi possível actualizar o ficheiro ini [2][3]. Verifique se o "
+#~ "ficheiro existe e se pode acedê-lo."
+
+#~ msgid ""
+#~ "Could not write value [2] to key [3]. {{ System error [4].}} Verify that "
+#~ "you have sufficient access to that key, or contact your support personnel."
+#~ msgstr ""
+#~ "Não foi possível escrever o valor [2] para a chave [3]. {{ Erro do "
+#~ "sistema [4].}} Verifique se tem acesso suficiente a essa chave ou "
+#~ "contacte o suporte técnico."
+
+#~ msgid ""
+#~ "Error accessing secured data. Please make sure the Windows Installer is "
+#~ "configured properly and try the install again."
+#~ msgstr ""
+#~ "Erro ao aceder a dados protegidos. Certifique-se de que o Windows "
+#~ "Installer está correctamente configurado e volte a tentar a instalação."
+
+#~ msgid ""
+#~ "Error applying patch to file [2]. It has probably been updated by other "
+#~ "means, and can no longer be modified by this patch. For more information "
+#~ "contact your patch vendor. {{System Error: [3]}}"
+#~ msgstr ""
+#~ "Erro ao aplicar o patch ao ficheiro [2]. Foi provavelmente actualizado de "
+#~ "outro modo e já não pode ser modificado por este patch. Para mais "
+#~ "informações, contacte o fornecedor do patch. {{Erro do sistema: [3]}}"
+
+#~ msgid "Error attempting to read from the source install database: [2]."
+#~ msgstr "Erro ao tentar ler a base de dados de instalação de origem: [2]."
+
+#~ msgid ""
+#~ "Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that "
+#~ "the file [4] exists and that you can access it."
+#~ msgstr ""
+#~ "Erro ao configurar a origem de dados ODBC: [4], erro ODBC [2]: [3]. "
+#~ "Verifique se o ficheiro [4] existe e se pode acedê-lo."
+
+#~ msgid "Error getting file security: [3] GetLastError: [2]"
+#~ msgstr "Erro ao obter a segurança do ficheiro: [3] GetLastError: [2]"
+
+#~ msgid ""
+#~ "Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your "
+#~ "support personnel."
+#~ msgstr ""
+#~ "Erro ao instalar o gestor de controladores ODBC - erro ODBC [2]: [3]. "
+#~ "Contacte o suporte técnico."
+
+#~ msgid ""
+#~ "Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the "
+#~ "file [4] exists and that you can access it."
+#~ msgstr ""
+#~ "Erro ao instalar o controlador ODBC: [4], erro ODBC [2]: [3]. Verifique "
+#~ "se o ficheiro [4] existe e se pode acedê-lo."
+
+#~ msgid ""
+#~ "Error reading from file [2]. {{ System error [3].}} Verify that the file "
+#~ "exists and that you can access it."
+#~ msgstr ""
+#~ "Erro ao ler o ficheiro: [2]. {{ Erro do sistema [3].}} Verifique se o "
+#~ "ficheiro existe e se pode aceder-lhe."
+
+#~ msgid ""
+#~ "Error reading from file: [2]. {{ System error [3].}} Verify that the file "
+#~ "exists and that you can access it."
+#~ msgstr ""
+#~ "Erro ao ler o ficheiro: [2]. {{ Erro do sistema [3].}} Verifique se o "
+#~ "ficheiro existe e se pode acedê-lo."
+
+#~ msgid ""
+#~ "Error reading from file: [3]. {{ System error [2].}} Verify that the file "
+#~ "exists and that you can access it."
+#~ msgstr ""
+#~ "Erro ao ler o ficheiro: [3]. {{ Erro do sistema [2].}} Verifique se o "
+#~ "ficheiro existe e se pode acedê-lo."
+
+#~ msgid ""
+#~ "Error registering COM+ Application. Contact your support personnel for "
+#~ "more information."
+#~ msgstr ""
+#~ "Erro ao registar a aplicação COM+. Para mais informações, contacte o "
+#~ "suporte técnico."
+
+#~ msgid ""
+#~ "Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your "
+#~ "support personnel."
+#~ msgstr ""
+#~ "Erro ao remover o gestor do controlador ODBC, erro ODBC [2]: [3]. "
+#~ "Contacte o suporte técnico."
+
+#~ msgid ""
+#~ "Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you "
+#~ "have sufficient privileges to remove ODBC drivers."
+#~ msgstr ""
+#~ "Erro ao remover o controlador ODBC: [4], erro ODBC [2]: [3]. Verifique se "
+#~ "tem privilégios suficientes para remover controladores ODBC."
+
+#~ msgid ""
+#~ "Error unregistering COM+ Application. Contact your support personnel for "
+#~ "more information."
+#~ msgstr ""
+#~ "Erro ao anular o registo da aplicação COM+. Para mais informações, "
+#~ "contacte o suporte técnico."
+
+#~ msgid ""
+#~ "Error writing to file: [2]. Verify that you have access to that folder."
+#~ msgstr ""
+#~ "Erro ao escrever no ficheiro: [2]. Verifique se tem acesso a esse "
+#~ "directório."
+
+#~ msgid ""
+#~ "Error writing to file: [3]. {{ System error [2].}} Verify that you have "
+#~ "access to that folder."
+#~ msgstr ""
+#~ "Erro ao escrever no ficheiro: [3]. {{ Erro do sistema [2].}} Verifique se "
+#~ "tem acesso a esse directório."
+
+#~ msgid ""
+#~ "Failed to cache package [2]. Error: [3]. Contact your support personnel."
+#~ msgstr ""
+#~ "Falhou a colocação na cache do pacote [2]. Erro: [3]. Contacte o suporte "
+#~ "técnico."
+
+#~ msgid "Failed to correctly copy [2] file: CRC error."
+#~ msgstr "Falha ao copiar correctamente o ficheiro [2]: Erro de CRC."
+
+#~ msgid "Failed to correctly move [2] file: CRC error."
+#~ msgstr "Falha ao mover correctamente o ficheiro [2]: Erro de CRC."
+
+#~ msgid "Failed to correctly patch [2] file: CRC error."
+#~ msgstr ""
+#~ "Falha ao aplicar o patch correctamente ao ficheiro [2]: Erro de CRC."
+
+#~ msgid "File [2] was rejected by digital signature policy."
+#~ msgstr "O ficheiro [2] foi rejeitado pela política de assinatura digital."
+
+#~ msgid "Info [1]. "
+#~ msgstr "Informações [1]. "
+
+#~ msgid "Installation completed successfully."
+#~ msgstr "Instalação concluída com êxito."
+
+#~ msgid "Installation failed."
+#~ msgstr "A instalação falhou."
+
+#~ msgid "Installed [2]"
+#~ msgstr "Instalado [2]"
+
+#~ msgid "Installer is no longer responding."
+#~ msgstr "O Installer deixou de responder."
+
+#~ msgid "Installer stopped prematurely."
+#~ msgstr "O Installer foi interrompido prematuramente."
+
+#~ msgid "Invalid Drive: [2]"
+#~ msgstr "Unidade inválida: [2]"
+
+#~ msgid "Message type: [1], Argument: [2]"
+#~ msgstr "Tipo de mensagem: [1], Argumento: [2]"
+
+#~ msgid ""
+#~ "Module [2] failed to register. HRESULT [3]. Contact your support "
+#~ "personnel."
+#~ msgstr ""
+#~ "O módulo [2] falhou ao registar. HRESULT [3]. Contacte o suporte técnico."
+
+#~ msgid ""
+#~ "Module [2] failed to unregister. HRESULT [3]. Contact your support "
+#~ "personnel."
+#~ msgstr ""
+#~ "O módulo [2] falhou ao anular o registo. HRESULT [3]. Contacte o suporte "
+#~ "técnico."
+
+#~ msgid ""
+#~ "One or more of the files required to restore your computer to its "
+#~ "previous state could not be found. Restoration will not be possible."
+#~ msgstr ""
+#~ "Não foi possível encontrar um ou mais dos ficheiros necessários para "
+#~ "restaurar o computador para o respectivo estado anterior. O restauro não "
+#~ "será possível."
+
+#~ msgid ""
+#~ "Out of disk space -- Volume: '[2]'; required space: [3] KB; available "
+#~ "space: [4] KB. Free some disk space and retry."
+#~ msgstr ""
+#~ "Sem espaço em disco -- Volume: '[2]'; espaço necessário: [3] KB; espaço "
+#~ "disponível: [4] KB. Liberte algum espaço em disco e repita a operação."
+
+#~ msgid "Out of memory. Shut down other applications before retrying."
+#~ msgstr "Sem memória. Encerre outras aplicações antes de repetir a operação."
+
+#~ msgid "Please insert the disk: [2]"
+#~ msgstr "Introduza o disco: [2]"
+
+#~ msgid "Please wait while Windows configures [SimpleProductName]"
+#~ msgstr "Aguarde enquanto o Windows configura o [SimpleProductName]"
+
+#~ msgid "Preparing to remove older versions of this application..."
+#~ msgstr "A preparar-se para remover versões anteriores desta aplicação..."
+
+#~ msgid "Product: [2] -- [3]"
+#~ msgstr "Produto: [2] -- [3]"
+
+#~ msgid "Removal completed successfully."
+#~ msgstr "A remoção foi concluída com êxito."
+
+#~ msgid "Removal failed."
+#~ msgstr "A remoção falhou."
+
+#~ msgid "Removed [2]"
+#~ msgstr "Removido [2]"
+
+#~ msgid "Removing older versions of this application..."
+#~ msgstr "A remover versões anteriores desta aplicação..."
+
+#~ msgid ""
+#~ "Scheduling reboot operation: Deleting file [2]. Must reboot to complete "
+#~ "operation."
+#~ msgstr ""
+#~ "Programar a operação de reiniciar o computador: Eliminar o ficheiro [2]. "
+#~ "Tem de reiniciar o computador para concluir a operação."
+
+#~ msgid ""
+#~ "Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to "
+#~ "complete operation."
+#~ msgstr ""
+#~ "Programar operação de reiniciar o computador: Mudar o nome do ficheiro de "
+#~ "[2] para [3]. Tem de reiniciar o computador para concluir a operação."
+
+#~ msgid ""
+#~ "Service '[2]' ([3]) could not be deleted. Verify that you have sufficient "
+#~ "privileges to remove system services."
+#~ msgstr ""
+#~ "Não foi possível eliminar o serviço '[2]' ([3]). Verifique se tem "
+#~ "privilégios suficientes para remover serviços do sistema."
+
+#~ msgid ""
+#~ "Service '[2]' ([3]) could not be installed. Verify that you have "
+#~ "sufficient privileges to install system services."
+#~ msgstr ""
+#~ "Não foi possível instalar o serviço '[2]' ([3]). Verifique se tem "
+#~ "privilégios suficientes para instalar serviços do sistema."
+
+#~ msgid ""
+#~ "Service '[2]' ([3]) could not be stopped. Verify that you have sufficient "
+#~ "privileges to stop system services."
+#~ msgstr ""
+#~ "Não foi possível interromper o serviço '[2]' ([3]). Verifique se tem "
+#~ "privilégios suficientes para interromper serviços do sistema."
+
+#~ msgid ""
+#~ "Service '[2]' ([3]) failed to start. Verify that you have sufficient "
+#~ "privileges to start system services."
+#~ msgstr ""
+#~ "O serviço '[2]' ([3]) falhou ao iniciar. Verifique se tem privilégios "
+#~ "suficientes para iniciar serviços do sistema."
+
+#~ msgid ""
+#~ "Source file not found: [2]. Verify that the file exists and that you can "
+#~ "access it."
+#~ msgstr ""
+#~ "O ficheiro de origem não foi encontrado: [2]. Verifique se o ficheiro "
+#~ "existe e se pode acedê-lo."
+
+#~ msgid ""
+#~ "Source file not found{{(cabinet)}}: [2]. Verify that the file exists and "
+#~ "that you can access it."
+#~ msgstr ""
+#~ "Não foi localizado o ficheiro de origem{{(ficheiro .CAB)}}: [2]. "
+#~ "Verifique se o ficheiro existe e se lhe pode aceder."
+
+#~ msgid ""
+#~ "The cabinet file '[2]' required for this installation is corrupt and "
+#~ "cannot be used. This could indicate a network error, an error reading "
+#~ "from the CD-ROM, or a problem with this package."
+#~ msgstr ""
+#~ "O ficheiro cab '[2]' requerido para esta instalação está corrompido e não "
+#~ "pode ser utilizado. Isto pode indicar um erro de rede, um erro a ler a "
+#~ "partir do CD-ROM ou um problema com este pacote."
+
+#~ msgid "The description for service '[2]' ([3]) could not be changed."
+#~ msgstr "Não foi possível alterar a descrição do serviço '[2]' ([3])."
+
+#~ msgid ""
+#~ "The file '[2]' cannot be installed because the file cannot be found in "
+#~ "cabinet file '[3]'. This could indicate a network error, an error reading "
+#~ "from the CD-ROM, or a problem with this package."
+#~ msgstr ""
+#~ "O ficheiro '[2]' não pode ser instalado porque não é possível encontrar o "
+#~ "ficheiro no ficheiro cab '[3]'. Isto pode indicar um erro de rede, um "
+#~ "erro a ler a partir do CD-ROM ou um problema com este pacote."
+
+#~ msgid ""
+#~ "The file [2][3] is being held in use{ by the following process: Name: "
+#~ "[4], Id: [5], Window Title: '[6]'}. Close that application and retry."
+#~ msgstr ""
+#~ "O ficheiro [2][3] está a ser utilizado{ pelo seguinte processo: Nome: "
+#~ "[4], Identificação: [5], Título da janela: '[6]'}. Encerre essa aplicação "
+#~ "e repita a operação."
+
+#~ msgid ""
+#~ "The folder [2] does not exist. Please enter a path to an existing folder."
+#~ msgstr "A pasta [2] não existe. Introduza o caminho de uma pasta existente."
+
+#~ msgid "The folder path '[2]' contains an invalid character."
+#~ msgstr "O caminho da pasta '[2]' contém um carácter inválido."
+
+#~ msgid ""
+#~ "The folder path '[2]' contains words that are not valid in folder paths."
+#~ msgstr ""
+#~ "O caminho da pasta '[2]' contém palavras que não são válidas em caminhos "
+#~ "de pastas."
+
+#~ msgid ""
+#~ "The following applications should be closed before continuing the install:"
+#~ msgstr ""
+#~ "Tem de encerrar as seguintes aplicações antes de continuar a instalação:"
+
+#~ msgid ""
+#~ "The installer has encountered an unexpected error installing this "
+#~ "package. This may indicate a problem with this package. The error code is "
+#~ "[1]. {{The arguments are: [2], [3], [4]}}"
+#~ msgstr ""
+#~ "O instalador encontrou um erro inesperado ao instalar este pacote. Isto "
+#~ "pode indicar um problema com este pacote. O código de erro é [1]. {{Os "
+#~ "argumentos são: [2], [3], [4]}}"
+
+#~ msgid ""
+#~ "The installer has insufficient privileges to access this folder: [2]. The "
+#~ "installation cannot continue. Log on as administrator or contact your "
+#~ "system administrator."
+#~ msgstr ""
+#~ "O Installer não tem privilégios suficientes para aceder a este "
+#~ "directório: [2]. Não é possível continuar a instalação. Inicie a sessão "
+#~ "como administrador ou contacte o administrador do sistema."
+
+#~ msgid "The Installer has insufficient privileges to modify this file: [2]."
+#~ msgstr ""
+#~ "O Installer não tem privilégios suficientes para modificar este ficheiro: "
+#~ "[2]."
+
+#~ msgid ""
+#~ "The installer must restart your system before configuration of [2] can "
+#~ "continue. Click Yes to restart now or No if you plan to manually restart "
+#~ "later."
+#~ msgstr ""
+#~ "O Installer tem de reiniciar o sistema antes de poder continuar a "
+#~ "configuração de [2]. Faça clique sobre Sim para reiniciar já ou sobre Não "
+#~ "se pretende reiniciar manualmente o sistema mais tarde."
+
+#~ msgid "The key [2] is not valid. Verify that you entered the correct key."
+#~ msgstr "A chave [2] não é válida. Verifique se introduziu a chave correcta."
+
+#~ msgid ""
+#~ "The older version of [2] cannot be removed. Contact your technical "
+#~ "support group. {{System Error [3].}}"
+#~ msgstr ""
+#~ "Não foi possível remover a versão anterior de [2]. Contacte o grupo de "
+#~ "suporte técnico. {{Erro do sistema [3].}}"
+
+#~ msgid "The path [2] is not valid. Please specify a valid path."
+#~ msgstr "O caminho [2] não é válido. Especifique um caminho válido."
+
+#~ msgid ""
+#~ "The product '[2]' is already installed, preventing the installation of "
+#~ "this product. The two products are incompatible."
+#~ msgstr ""
+#~ "O produto '[2]' já está instalado, impedindo a instalação deste produto. "
+#~ "Os dois produtos são incompatíveis."
+
+#~ msgid "The specified path '[2]' is unavailable."
+#~ msgstr "O caminho especificado '[2]' não está disponível."
+
+#~ msgid "The specified path is too long: [2]"
+#~ msgstr "O caminho especificado é demasiado longo: [2]"
+
+#~ msgid "The volume [2] is currently unavailable. Please select another."
+#~ msgstr "O volume [2] não está disponível actualmente. Seleccione outro."
+
+#~ msgid ""
+#~ "The Windows Installer service cannot update one or more protected Windows "
+#~ "files. {{SFP Error: [2]. List of protected files:\n"
+#~ "[3]}}"
+#~ msgstr ""
+#~ "O serviço Windows Installer não consegue actualizar um ou mais ficheiros "
+#~ "protegidos do Windows. {{Erro de SFP: [2]. Lista de ficheiros "
+#~ "protegidos:\n"
+#~ "[3]}}"
+
+#~ msgid ""
+#~ "The Windows Installer service cannot update the protected Windows file "
+#~ "[2]. {{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
+#~ msgstr ""
+#~ "O serviço Windows Installer não consegue actualizar o ficheiro de Windows "
+#~ "protegido [2]. {{Versão do pacote: [3], Versão protegida OS: [4], Erro "
+#~ "SFP: [5]}}"
+
+#~ msgid ""
+#~ "The Windows Installer service cannot update the system file [2] because "
+#~ "the file is protected by Windows. You may need to update your operating "
+#~ "system for this program to work correctly. {{Package version: [3], OS "
+#~ "Protected version: [4]}}"
+#~ msgstr ""
+#~ "O serviço Windows Installer não consegue actualizar o ficheiro de sistema "
+#~ "[2] porque o ficheiro está protegido pelo Windows. Para que este programa "
+#~ "funcione correctamente, pode ser necessário actualizar o sistema "
+#~ "operativo. {{Versão do pacote: [3], Versão protegida OS: [4]}}"
+
+#~ msgid ""
+#~ "The Windows Installer Service could not be accessed. This can occur if "
+#~ "you are running Windows in safe mode, or if the Windows Installer is not "
+#~ "correctly installed. Contact your support personnel for assistance."
+#~ msgstr ""
+#~ "Não foi possível aceder ao serviço Windows Installer. Isto pode acontecer "
+#~ "se estiver a executar o Windows em modo seguro ou se o Windows Installer "
+#~ "não estiver instalado correctamente. Contacte o suporte técnico para "
+#~ "obter ajuda."
+
+#~ msgid ""
+#~ "There is a problem with this Windows Installer package. A DLL required "
+#~ "for this install to complete could not be run. Contact your support "
+#~ "personnel or package vendor. {{Action [2], entry: [3], library: [4] }}"
+#~ msgstr ""
+#~ "Existe um problema com este pacote Windows Installer. Uma DLL necessário "
+#~ "para concluir esta instalação não pode ser executada. Contacte o pessoal "
+#~ "de suporte ou a empresa do pacote. {{Acção: [2], localização: [3], "
+#~ "comando: [4] }}"
+
+#~ msgid ""
+#~ "There is a problem with this Windows Installer package. A program "
+#~ "required for this install to complete could not be run. Contact your "
+#~ "support personnel or package vendor. {{Action: [2], location: [3], "
+#~ "command: [4] }}"
+#~ msgstr ""
+#~ "Existe um problema com este pacote Windows Installer. Um programa "
+#~ "necessário para concluir esta instalação não pode ser executado. Contacte "
+#~ "o pessoal de suporte ou a empresa do pacote. {{Acção: [2], localização: "
+#~ "[3], comando: [4] }}"
+
+#~ msgid ""
+#~ "There is a problem with this Windows Installer package. A program run as "
+#~ "part of the setup did not finish as expected. Contact your support "
+#~ "personnel or package vendor. {{Action [2], location: [3], command: [4] }}"
+#~ msgstr ""
+#~ "Existe um problema com este pacote Windows Installer. Um programa "
+#~ "executado como parte da configuração não foi concluído tal como era "
+#~ "esperado. Contacte o pessoal de suporte ou a empresa do pacote. {{Acção: "
+#~ "[2], localização: [3], comando: [4] }}"
+
+#~ msgid ""
+#~ "There is a problem with this Windows Installer package. A script required "
+#~ "for this install to complete could not be run. Contact your support "
+#~ "personnel or package vendor. {{Custom action [2] script error [3], [4]: "
+#~ "[5] Line [6], Column [7], [8] }}"
+#~ msgstr ""
+#~ "Existe um problema com este pacote Windows Installer. Um script "
+#~ "necessário para concluir esta instalação não pode ser executado. Contacte "
+#~ "o pessoal de suporte ou a empresa do pacote. {{Acção personalizada [2] "
+#~ "erro de script [3], [4]: [5] Linha [6], Coluna [7], [8] }}"
+
+#~ msgid ""
+#~ "There is no disk in drive [2]. Please insert one and click Retry, or "
+#~ "click Cancel to go back to the previously selected volume."
+#~ msgstr ""
+#~ "Não existe nenhum disco na unidade [2]. Introduza um e faça clique sobre "
+#~ "Repetir ou faça clique sobre Cancelar para voltar ao volume previamente "
+#~ "seleccionado."
+
+#~ msgid ""
+#~ "There is no disk in drive [2]. Please insert one and click Retry, or "
+#~ "click Cancel to return to the browse dialog and select a different volume."
+#~ msgstr ""
+#~ "Não existe nenhum disco na unidade [2]. Introduza um e faça clique sobre "
+#~ "Repetir ou faça clique sobre Cancelar para voltar ao volume previamente "
+#~ "seleccionado."
+
+#~ msgid ""
+#~ "There is not enough disk space on the volume '[2]' to continue the "
+#~ "install with recovery enabled. [3] KB are required, but only [4] KB are "
+#~ "available. Click Ignore to continue the install without saving recovery "
+#~ "information, click Retry to check for available space again, or click "
+#~ "Cancel to quit the installation."
+#~ msgstr ""
+#~ "Não existe espaço em disco suficiente no volume: '[2]' para continuar a "
+#~ "instalação com a recuperação activada. São necessários [3] KB, mas apenas "
+#~ "estão disponíveis [4] KB. Clique em 'Ignorar' para continuar a instalação "
+#~ "sem guardar a informação de recuperação, clique em 'Repetir' para voltar "
+#~ "a verificar o espaço em disco disponível ou clique em 'Cancelar' para "
+#~ "sair da instalação."
+
+#~ msgid ""
+#~ "There is not enough disk space to install this file: [2]. Free some disk "
+#~ "space and click Retry, or click Cancel to exit."
+#~ msgstr ""
+#~ "Não há espaço em disco suficiente para instalar este ficheiro: [2]. "
+#~ "Liberte algum espaço em disco e faça clique sobre Repetir ou faça clique "
+#~ "sobre Cancelar para sair."
+
+#~ msgid ""
+#~ "There was an error creating a temporary file that is needed to complete "
+#~ "this installation.{{ Folder: [3]. System error code: [2]}}"
+#~ msgstr ""
+#~ "Ocorreu um erro ao criar um ficheiro temporário que é necessário para "
+#~ "concluir esta instalação.{{ Pasta: [3]. Código de erro de sistema: [2]}}"
+
+#~ msgid "Unable to write to the specified folder: [2]."
+#~ msgstr "Não foi possível escrever na pasta especificada : [2]."
+
+#~ msgid ""
+#~ "User '[2]' has previously initiated an install for product '[3]'. That "
+#~ "user will need to run that install again before they can use that product."
+#~ msgstr ""
+#~ "O utilizador '[2]' iniciou previamente uma instalação do produto '[3]'. "
+#~ "Esse utilizador tem de voltar a executar essa instalação antes do produto "
+#~ "poder ser utilizado."
+
+#~ msgid ""
+#~ "User '[2]' has previously initiated an install for product '[3]'. That "
+#~ "user will need to run that install again before they can use that "
+#~ "product. Your current install will now continue."
+#~ msgstr ""
+#~ "O utilizador '[2]' iniciou previamente uma instalação do produto '[3]'. "
+#~ "Esse utilizador tem de voltar a executar essa instalação antes do produto "
+#~ "poder ser utilizado. A instalação actual continua."
+
+#~ msgid "User installations are disabled via policy on the machine."
+#~ msgstr ""
+#~ "As instalações de utilizadores estão desactivadas por políticas deste "
+#~ "computador."
+
+#~ msgid "Warning [1]. "
+#~ msgstr "Aviso [1]. "
+
+#~ msgid ""
+#~ "You do not have sufficient privileges to complete this installation for "
+#~ "all users of the machine. Log on as administrator and then retry this "
+#~ "installation."
+#~ msgstr ""
+#~ "Não tem privilégios suficientes para concluir esta instalação para todos "
+#~ "os utilizadores da máquina. Inicie a sessão como administrador e depois "
+#~ "repita esta instalação."
+
+#~ msgid "You have insufficient privileges to read this folder."
+#~ msgstr "Não tem privilégios suficientes para ler esta pasta."
+
+#~ msgid ""
+#~ "You may either restore your computer to its previous state or continue "
+#~ "the install later. Would you like to restore?"
+#~ msgstr ""
+#~ "Pode restaurar o computador para o respectivo estado anterior ou "
+#~ "continuar a instalação mais tarde. Deseja restaurar?"
+
+#~ msgid ""
+#~ "You must be an Administrator to remove this application. To remove this "
+#~ "application, you can log on as an Administrator, or contact your "
+#~ "technical support group for assistance."
+#~ msgstr ""
+#~ "Tem que ser um 'Administrador'para remover esta aplicação. Para remover "
+#~ "esta aplicação, pode iniciar uma sessão como 'Administrador', ou contacte "
+#~ "o grupo de suporte técnico para assistência."
+
+#~ msgid ""
+#~ "You must restart your system for the configuration changes made to [2] to "
+#~ "take effect. Click Yes to restart now or No if you plan to manually "
+#~ "restart later."
+#~ msgstr ""
+#~ "Tem de reiniciar o sistema para que entrem em vigor as alterações de "
+#~ "configuração feitas em [2]. Faça clique sobre Sim para reiniciar já ou "
+#~ "sobre Não se pretender reiniciar manualmente mais tarde."

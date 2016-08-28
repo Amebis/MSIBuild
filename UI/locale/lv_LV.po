@@ -1,0 +1,2355 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MSMBuild\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-28 13:16+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
+"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
+"Language: lv_LV\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+
+#: En.Win32.Debug.Control-2.idtx:112 En.Win32.Debug.Control-2.idtx:117
+#: En.Win32.Debug.Control-2.idtx:122 En.Win32.Debug.Control-2.idtx:72
+#: En.Win32.Debug.Control-2.idtx:77 En.Win32.Release.Control-2.idtx:112
+#: En.Win32.Release.Control-2.idtx:117 En.Win32.Release.Control-2.idtx:122
+#: En.Win32.Release.Control-2.idtx:72 En.Win32.Release.Control-2.idtx:77
+#: En.x64.Debug.Control-2.idtx:109 En.x64.Debug.Control-2.idtx:114
+#: En.x64.Debug.Control-2.idtx:119 En.x64.Debug.Control-2.idtx:69
+#: En.x64.Debug.Control-2.idtx:74 En.x64.Release.Control-2.idtx:109
+#: En.x64.Release.Control-2.idtx:114 En.x64.Release.Control-2.idtx:119
+#: En.x64.Release.Control-2.idtx:69 En.x64.Release.Control-2.idtx:74
+msgid "&Close"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:11 En.Win32.Debug.Control-2.idtx:21
+#: En.Win32.Debug.Control-2.idtx:26 En.Win32.Release.Control-2.idtx:11
+#: En.Win32.Release.Control-2.idtx:21 En.Win32.Release.Control-2.idtx:26
+#: En.x64.Debug.Control-2.idtx:11 En.x64.Debug.Control-2.idtx:18
+#: En.x64.Debug.Control-2.idtx:23 En.x64.Release.Control-2.idtx:11
+#: En.x64.Release.Control-2.idtx:18 En.x64.Release.Control-2.idtx:23
+#, fuzzy
+msgid "&Continue"
+msgstr ""
+"Sējumā '[2]' nepietiek diska vietas, lai turpinātu instalēšanu, saglabājot "
+"iespējotu atkopšanu. Nepieciešami [3] KB, bet pieejami tikai [4] KB. "
+"Noklikšķiniet uz Ignorēt, lai turpinātu instalēšanu, nesaglabājot atkopšanas "
+"informāciju, uz Mēģināt vēlreiz, lai vēlreiz pārbaudītu pieejamo diska "
+"vietu, vai uz Atcelt, lai pārtrauktu instalēšanu."
+
+#: En.Win32.Debug.Control-2.idtx:30 En.Win32.Release.Control-2.idtx:30
+#: En.x64.Debug.Control-2.idtx:27 En.x64.Release.Control-2.idtx:27
+msgid "&Enter desired folder or click \"Browse\":"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:54 En.Win32.Debug.Control-2.idtx:65
+#: En.Win32.Release.Control-2.idtx:54 En.Win32.Release.Control-2.idtx:65
+#: En.x64.Debug.Control-2.idtx:51 En.x64.Debug.Control-2.idtx:62
+#: En.x64.Release.Control-2.idtx:51 En.x64.Release.Control-2.idtx:62
+#, fuzzy
+msgid "&Folder:"
+msgstr "Fails: [1], mape: [2]"
+
+#: En.Win32.Debug.Control-2.idtx:102 En.Win32.Debug.Control-2.idtx:108
+#: En.Win32.Release.Control-2.idtx:102 En.Win32.Release.Control-2.idtx:108
+#: En.x64.Debug.Control-2.idtx:105 En.x64.Debug.Control-2.idtx:99
+#: En.x64.Release.Control-2.idtx:105 En.x64.Release.Control-2.idtx:99
+msgid "&Ignore"
+msgstr ""
+
+#: En.Win32.Debug.Property-2.idtx:9 En.Win32.Release.Property-2.idtx:9
+#: En.x64.Debug.Property-2.idtx:9 En.x64.Release.Property-2.idtx:9
+#, fuzzy
+msgid "&Install Now"
+msgstr "[2] instalēta."
+
+#: En.Win32.Debug.Control-2.idtx:49 En.Win32.Debug.Control-2.idtx:60
+#: En.Win32.Release.Control-2.idtx:49 En.Win32.Release.Control-2.idtx:60
+#: En.x64.Debug.Control-2.idtx:46 En.x64.Debug.Control-2.idtx:57
+#: En.x64.Release.Control-2.idtx:46 En.x64.Release.Control-2.idtx:57
+msgid "&Look in:"
+msgstr ""
+
+#: En.Win32.Debug.RadioButton-2.idtx:4 En.Win32.Release.RadioButton-2.idtx:4
+#: En.x64.Debug.RadioButton-2.idtx:4 En.x64.Release.RadioButton-2.idtx:4
+#, fuzzy
+msgid "&Modify"
+msgstr ""
+"Nevarēja atjaunināt vides mainīgo '[2]'. Pārbaudiet, vai jums ir "
+"nepieciešamās privilēģijas, lai modificētu vides mainīgos."
+
+#: En.Win32.Debug.ControlEvent-2.idtx:6 En.Win32.Release.ControlEvent-2.idtx:6
+#: En.x64.Debug.ControlEvent-2.idtx:6 En.x64.Release.ControlEvent-2.idtx:6
+msgid "&Modify now"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:84 En.Win32.Debug.Control-2.idtx:93
+#: En.Win32.Debug.Control-2.idtx:99 En.Win32.Release.Control-2.idtx:84
+#: En.Win32.Release.Control-2.idtx:93 En.Win32.Release.Control-2.idtx:99
+#: En.x64.Debug.Control-2.idtx:81 En.x64.Debug.Control-2.idtx:90
+#: En.x64.Debug.Control-2.idtx:96 En.x64.Release.Control-2.idtx:81
+#: En.x64.Release.Control-2.idtx:90 En.x64.Release.Control-2.idtx:96
+msgid "&No"
+msgstr ""
+
+#: En.Win32.Debug.RadioButton-2.idtx:6 En.Win32.Release.RadioButton-2.idtx:6
+#: En.x64.Debug.RadioButton-2.idtx:6 En.x64.Release.RadioButton-2.idtx:6
+#, fuzzy
+msgid "&Remove"
+msgstr ""
+"Lai noņemtu šo lietojumprogrammu, jums jābūt administratoram. Lai noņemtu "
+"lietojumprogrammu, piesakieties kā administrators, vai sazinieties ar "
+"tehniskā atbalsta grupu, lai saņemtu palīdzību."
+
+#: En.Win32.Debug.RadioButton-2.idtx:5 En.Win32.Release.RadioButton-2.idtx:5
+#: En.x64.Debug.RadioButton-2.idtx:5 En.x64.Release.RadioButton-2.idtx:5
+msgid "&Repair"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:44 En.Win32.Release.Control-2.idtx:44
+#: En.x64.Debug.Control-2.idtx:41 En.x64.Release.Control-2.idtx:41
+msgid "&Reset"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:101 En.Win32.Debug.Control-2.idtx:107
+#: En.Win32.Release.Control-2.idtx:101 En.Win32.Release.Control-2.idtx:107
+#: En.x64.Debug.Control-2.idtx:104 En.x64.Debug.Control-2.idtx:98
+#: En.x64.Release.Control-2.idtx:104 En.x64.Release.Control-2.idtx:98
+#, fuzzy
+msgid "&Retry"
+msgstr ""
+"Rakstot instalācijas informāciju diskā, radās kļūda. Pārliecinieties, vai uz "
+"diska pietiek vietas, un noklikšķiniet uz pogas Mēģināt vēlreiz, vai "
+"noklikšķiniet uz pogas Atcelt, lai beigtu instalēšanu."
+
+#: En.Win32.Debug.Control-2.idtx:83 En.Win32.Debug.Control-2.idtx:92
+#: En.Win32.Debug.Control-2.idtx:98 En.Win32.Release.Control-2.idtx:83
+#: En.Win32.Release.Control-2.idtx:92 En.Win32.Release.Control-2.idtx:98
+#: En.x64.Debug.Control-2.idtx:80 En.x64.Debug.Control-2.idtx:89
+#: En.x64.Debug.Control-2.idtx:95 En.x64.Release.Control-2.idtx:80
+#: En.x64.Release.Control-2.idtx:89 En.x64.Release.Control-2.idtx:95
+msgid "&Yes"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Debug.ActionText-2.idtx:39
+#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Debug.ActionText-2.idtx:53
+#: En.Win32.Release.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:39
+#: En.Win32.Release.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:53
+#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Debug.ActionText-2.idtx:39
+#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Debug.ActionText-2.idtx:53
+#: En.x64.Release.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:39
+#: En.x64.Release.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:53
+msgid "[1]"
+msgstr "[1]"
+
+#: En.Win32.Debug.Control-2.idtx:46 En.Win32.Release.Control-2.idtx:46
+#: En.x64.Debug.Control-2.idtx:43 En.x64.Release.Control-2.idtx:43
+msgid "[ButtonTextInstall] "
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:33 En.Win32.Release.Control-2.idtx:33
+#: En.x64.Debug.Control-2.idtx:30 En.x64.Release.Control-2.idtx:30
+msgid "[DlgStrongFont]&Prepare Now"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:17 En.Win32.Release.Control-2.idtx:17
+msgid ""
+"[DlgStrongFont]You are about to install the 32-bit variant on the 64-bit "
+"operating system."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:14 En.Win32.Release.Control-2.idtx:14
+#: En.x64.Debug.Control-2.idtx:14 En.x64.Release.Control-2.idtx:14
+msgid "[DlgTitleFont][ButtonTextInstall] "
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:86 En.Win32.Release.Control-2.idtx:86
+#: En.x64.Debug.Control-2.idtx:83 En.x64.Release.Control-2.idtx:83
+msgid "[DlgTitleFont][Progress1] [SimpleProductName]..."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:111 En.Win32.Release.Control-2.idtx:111
+#: En.x64.Debug.Control-2.idtx:108 En.x64.Release.Control-2.idtx:108
+msgid "[DlgTitleFont][SimpleProductName] [Progress1] Completed"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:119 En.Win32.Release.Control-2.idtx:119
+#: En.x64.Debug.Control-2.idtx:116 En.x64.Release.Control-2.idtx:116
+msgid "[DlgTitleFont][SimpleProductName] [Progress2] Ended Prematurely"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:114 En.Win32.Release.Control-2.idtx:114
+#: En.x64.Debug.Control-2.idtx:111 En.x64.Release.Control-2.idtx:111
+msgid "[DlgTitleFont][SimpleProductName] [Progress2] Interrupted"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:28 En.Win32.Release.Control-2.idtx:28
+#: En.x64.Debug.Control-2.idtx:25 En.x64.Release.Control-2.idtx:25
+msgid ""
+"[DlgTitleFont][SimpleProductName] Administrative Install Image Preparation"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:23 En.Win32.Release.Control-2.idtx:23
+#: En.x64.Debug.Control-2.idtx:20 En.x64.Release.Control-2.idtx:20
+msgid "[DlgTitleFont][SimpleProductName] Maintenance"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:35 En.Win32.Release.Control-2.idtx:35
+#: En.x64.Debug.Control-2.idtx:32 En.x64.Release.Control-2.idtx:32
+msgid "[DlgTitleFont][TitleCustomize] "
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:59 En.Win32.Release.Control-2.idtx:59
+#: En.x64.Debug.Control-2.idtx:56 En.x64.Release.Control-2.idtx:56
+msgid "[DlgTitleFont]Change current administrative installation folder."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:48 En.Win32.Release.Control-2.idtx:48
+#: En.x64.Debug.Control-2.idtx:45 En.x64.Release.Control-2.idtx:45
+msgid "[DlgTitleFont]Change current destination folder."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:13 En.Win32.Release.Control-2.idtx:13
+#: En.x64.Debug.Control-2.idtx:13 En.x64.Release.Control-2.idtx:13
+msgid "[DlgTitleFont]Choose setup type."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:20 En.Win32.Release.Control-2.idtx:20
+#: En.x64.Debug.Control-2.idtx:17 En.x64.Release.Control-2.idtx:17
+msgid ""
+"[DlgTitleFont]Click \"Next\" to resume [SimpleProductName] installation."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:70 En.Win32.Release.Control-2.idtx:70
+#: En.x64.Debug.Control-2.idtx:67 En.x64.Release.Control-2.idtx:67
+#, fuzzy
+msgid "[DlgTitleFont]Disk Space Requirements"
+msgstr "Notiek nepiecieðamâs vietas aprçíinâðana"
+
+#: En.Win32.Debug.Control-2.idtx:104 En.Win32.Release.Control-2.idtx:104
+#: En.x64.Debug.Control-2.idtx:101 En.x64.Release.Control-2.idtx:101
+msgid "[DlgTitleFont]Files in Use"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:74 En.Win32.Debug.Control-2.idtx:79
+#: En.Win32.Release.Control-2.idtx:74 En.Win32.Release.Control-2.idtx:79
+#: En.x64.Debug.Control-2.idtx:71 En.x64.Debug.Control-2.idtx:76
+#: En.x64.Release.Control-2.idtx:71 En.x64.Release.Control-2.idtx:76
+msgid "[DlgTitleFont]Out of Disk Space"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:9 En.Win32.Release.Control-2.idtx:9
+#: En.x64.Debug.Control-2.idtx:9 En.x64.Release.Control-2.idtx:9
+msgid "[DlgTitleFont]Please read the following general terms carefully."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:5 En.Win32.Release.Control-2.idtx:5
+#: En.x64.Debug.Control-2.idtx:5 En.x64.Release.Control-2.idtx:5
+msgid ""
+"[DlgTitleFont]Preparing [SimpleProductName] installation. Please wait..."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:120 En.Win32.Release.Control-2.idtx:120
+#: En.x64.Debug.Control-2.idtx:117 En.x64.Release.Control-2.idtx:117
+msgid ""
+"[SimpleProductName] setup ended prematurely because of an error. Therefore, "
+"the program was not installed. Your system has not been modified."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:115 En.Win32.Release.Control-2.idtx:115
+#: En.x64.Debug.Control-2.idtx:112 En.x64.Release.Control-2.idtx:112
+msgid ""
+"[SimpleProductName] setup was interrupted on your request. Therefore, the "
+"program was not installed. Your system has not been modified."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:89 En.Win32.Release.Control-2.idtx:89
+#: En.x64.Debug.Control-2.idtx:86 En.x64.Release.Control-2.idtx:86
+msgid "[WaitMessage] "
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:71 En.Win32.Debug.Control-2.idtx:76
+#: En.Win32.Debug.Control-2.idtx:81 En.Win32.Release.Control-2.idtx:71
+#: En.Win32.Release.Control-2.idtx:76 En.Win32.Release.Control-2.idtx:81
+#: En.x64.Debug.Control-2.idtx:68 En.x64.Debug.Control-2.idtx:73
+#: En.x64.Debug.Control-2.idtx:78 En.x64.Release.Control-2.idtx:68
+#: En.x64.Release.Control-2.idtx:73 En.x64.Release.Control-2.idtx:78
+msgid "{60}{60}{60}{60}{60}"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:3 En.Win32.Debug.Control-2.idtx:3
+#: En.Win32.Debug.ControlEvent-2.idtx:3 En.Win32.Debug.Dialog-2.idtx:3
+#: En.Win32.Debug.Property-2.idtx:3 En.Win32.Debug.RadioButton-2.idtx:3
+#: En.Win32.Debug.UIText-2.idtx:3 En.Win32.Release.ActionText-2.idtx:3
+#: En.Win32.Release.Control-2.idtx:3 En.Win32.Release.ControlEvent-2.idtx:3
+#: En.Win32.Release.Dialog-2.idtx:3 En.Win32.Release.Property-2.idtx:3
+#: En.Win32.Release.RadioButton-2.idtx:3 En.Win32.Release.UIText-2.idtx:3
+#: En.x64.Debug.ActionText-2.idtx:3 En.x64.Debug.Control-2.idtx:3
+#: En.x64.Debug.ControlEvent-2.idtx:3 En.x64.Debug.Dialog-2.idtx:3
+#: En.x64.Debug.Property-2.idtx:3 En.x64.Debug.RadioButton-2.idtx:3
+#: En.x64.Debug.UIText-2.idtx:3 En.x64.Release.ActionText-2.idtx:3
+#: En.x64.Release.Control-2.idtx:3 En.x64.Release.ControlEvent-2.idtx:3
+#: En.x64.Release.Dialog-2.idtx:3 En.x64.Release.Property-2.idtx:3
+#: En.x64.Release.RadioButton-2.idtx:3 En.x64.Release.UIText-2.idtx:3
+msgid "1252"
+msgstr "1257"
+
+#: En.Win32.Debug.ActionText-2.idtx:4 En.Win32.Release.ActionText-2.idtx:4
+#: En.x64.Debug.ActionText-2.idtx:4 En.x64.Release.ActionText-2.idtx:4
+msgid "Advertising application"
+msgstr "Reklâmas lietojumprogramma"
+
+#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
+#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+msgid "Allocating registry space"
+msgstr "Notiek reȉistra vietas iedalîðana"
+
+#: En.Win32.Debug.Control-2.idtx:15 En.Win32.Release.Control-2.idtx:15
+#: En.x64.Debug.Control-2.idtx:15 En.x64.Release.Control-2.idtx:15
+msgid "Allows users to change the way features are installed.|"
+msgstr ""
+
+#: En.Win32.Debug.RadioButton-2.idtx:4 En.Win32.Release.RadioButton-2.idtx:4
+#: En.x64.Debug.RadioButton-2.idtx:4 En.x64.Release.RadioButton-2.idtx:4
+msgid "Allows you to change the which features are installed.|"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:82 En.Win32.Release.Control-2.idtx:82
+#: En.x64.Debug.Control-2.idtx:79 En.x64.Release.Control-2.idtx:79
+msgid ""
+"Alternatively, you may choose to disable the installer's rollback "
+"functionality. This allows the installer to restore your computer's original "
+"state should the installation be interrupted in any way. Click Yes if you "
+"wish to take the risk to disable rollback."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:18 En.Win32.Release.Control-2.idtx:18
+msgid ""
+"Although, 32-bit variant should work with your operating system, this "
+"program is also available as 64-bit variant, which is more appropriate for "
+"your operating system. The installation of the 64-bit variant is recommended."
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
+#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
+msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
+msgstr "AppId: [1]{{, AppType: [2], lietotâji: [3], RSN: [4]}}"
+
+#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
+#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
+msgid "AppId: [1]{{, AppType: [2]}}"
+msgstr "AppId: [1]{{, AppType: [2]}}"
+
+#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Debug.ActionText-2.idtx:28
+#: En.Win32.Release.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:28
+#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Debug.ActionText-2.idtx:28
+#: En.x64.Release.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:28
+msgid "Application Context:[1], Assembly Name:[2]"
+msgstr "Lietojumprogrammas konteksts:[1], montâþas nosaukums:[2]."
+
+#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
+#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
+msgid "Application: [1]"
+msgstr "Lietojumprogramma: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
+#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
+msgid "Application: [1], Command line: [2]"
+msgstr "Lietojumprogramma: [1], komandrinda: [2]"
+
+#: En.Win32.Debug.Control-2.idtx:91 En.Win32.Release.Control-2.idtx:91
+#: En.x64.Debug.Control-2.idtx:88 En.x64.Release.Control-2.idtx:88
+#, fuzzy
+msgid "Are you sure you want to cancel [SimpleProductName] installation?"
+msgstr "Vai tiešām vēlaties atcelt?"
+
+#: En.Win32.Debug.UIText-2.idtx:50 En.Win32.Release.UIText-2.idtx:50
+#: En.x64.Debug.UIText-2.idtx:50 En.x64.Release.UIText-2.idtx:50
+#, fuzzy
+msgid "Available"
+msgstr ""
+"Sējumā '[2]' nepietiek diska vietas, lai turpinātu instalēšanu, saglabājot "
+"iespējotu atkopšanu. Nepieciešami [3] KB, bet pieejami tikai [4] KB. "
+"Noklikšķiniet uz Ignorēt, lai turpinātu instalēšanu, nesaglabājot atkopšanas "
+"informāciju, uz Mēģināt vēlreiz, lai vēlreiz pārbaudītu pieejamo diska "
+"vietu, vai uz Atcelt, lai pārtrauktu instalēšanu."
+
+#: En.Win32.Debug.ActionText-2.idtx:7 En.Win32.Release.ActionText-2.idtx:7
+#: En.x64.Debug.ActionText-2.idtx:7 En.x64.Release.ActionText-2.idtx:7
+msgid "Binding executables"
+msgstr "Notiek izpildâmo programmu saistîðana"
+
+#: En.Win32.Debug.Control-2.idtx:52 En.Win32.Debug.Control-2.idtx:63
+#: En.Win32.Release.Control-2.idtx:52 En.Win32.Release.Control-2.idtx:63
+#: En.x64.Debug.Control-2.idtx:49 En.x64.Debug.Control-2.idtx:60
+#: En.x64.Release.Control-2.idtx:49 En.x64.Release.Control-2.idtx:60
+msgid "binUIFolderNew.ico"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:51 En.Win32.Debug.Control-2.idtx:62
+#: En.Win32.Release.Control-2.idtx:51 En.Win32.Release.Control-2.idtx:62
+#: En.x64.Debug.Control-2.idtx:48 En.x64.Debug.Control-2.idtx:59
+#: En.x64.Release.Control-2.idtx:48 En.x64.Release.Control-2.idtx:59
+msgid "binUIFolderUp.ico"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:103 En.Win32.Debug.Control-2.idtx:110
+#: En.Win32.Debug.Control-2.idtx:113 En.Win32.Debug.Control-2.idtx:118
+#: En.Win32.Debug.Control-2.idtx:12 En.Win32.Debug.Control-2.idtx:19
+#: En.Win32.Debug.Control-2.idtx:22 En.Win32.Debug.Control-2.idtx:27
+#: En.Win32.Debug.Control-2.idtx:34 En.Win32.Debug.Control-2.idtx:4
+#: En.Win32.Debug.Control-2.idtx:47 En.Win32.Debug.Control-2.idtx:58
+#: En.Win32.Debug.Control-2.idtx:69 En.Win32.Debug.Control-2.idtx:73
+#: En.Win32.Debug.Control-2.idtx:78 En.Win32.Debug.Control-2.idtx:8
+#: En.Win32.Debug.Control-2.idtx:85 En.Win32.Release.Control-2.idtx:103
+#: En.Win32.Release.Control-2.idtx:110 En.Win32.Release.Control-2.idtx:113
+#: En.Win32.Release.Control-2.idtx:118 En.Win32.Release.Control-2.idtx:12
+#: En.Win32.Release.Control-2.idtx:19 En.Win32.Release.Control-2.idtx:22
+#: En.Win32.Release.Control-2.idtx:27 En.Win32.Release.Control-2.idtx:34
+#: En.Win32.Release.Control-2.idtx:4 En.Win32.Release.Control-2.idtx:47
+#: En.Win32.Release.Control-2.idtx:58 En.Win32.Release.Control-2.idtx:69
+#: En.Win32.Release.Control-2.idtx:73 En.Win32.Release.Control-2.idtx:78
+#: En.Win32.Release.Control-2.idtx:8 En.Win32.Release.Control-2.idtx:85
+#: En.x64.Debug.Control-2.idtx:100 En.x64.Debug.Control-2.idtx:107
+#: En.x64.Debug.Control-2.idtx:110 En.x64.Debug.Control-2.idtx:115
+#: En.x64.Debug.Control-2.idtx:12 En.x64.Debug.Control-2.idtx:16
+#: En.x64.Debug.Control-2.idtx:19 En.x64.Debug.Control-2.idtx:24
+#: En.x64.Debug.Control-2.idtx:31 En.x64.Debug.Control-2.idtx:4
+#: En.x64.Debug.Control-2.idtx:44 En.x64.Debug.Control-2.idtx:55
+#: En.x64.Debug.Control-2.idtx:66 En.x64.Debug.Control-2.idtx:70
+#: En.x64.Debug.Control-2.idtx:75 En.x64.Debug.Control-2.idtx:8
+#: En.x64.Debug.Control-2.idtx:82 En.x64.Release.Control-2.idtx:100
+#: En.x64.Release.Control-2.idtx:107 En.x64.Release.Control-2.idtx:110
+#: En.x64.Release.Control-2.idtx:115 En.x64.Release.Control-2.idtx:12
+#: En.x64.Release.Control-2.idtx:16 En.x64.Release.Control-2.idtx:19
+#: En.x64.Release.Control-2.idtx:24 En.x64.Release.Control-2.idtx:31
+#: En.x64.Release.Control-2.idtx:4 En.x64.Release.Control-2.idtx:44
+#: En.x64.Release.Control-2.idtx:55 En.x64.Release.Control-2.idtx:66
+#: En.x64.Release.Control-2.idtx:70 En.x64.Release.Control-2.idtx:75
+#: En.x64.Release.Control-2.idtx:8 En.x64.Release.Control-2.idtx:82
+msgid "binUIHeader.bmp"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:90 En.Win32.Debug.Control-2.idtx:94
+#: En.Win32.Release.Control-2.idtx:90 En.Win32.Release.Control-2.idtx:94
+#: En.x64.Debug.Control-2.idtx:87 En.x64.Debug.Control-2.idtx:91
+#: En.x64.Release.Control-2.idtx:87 En.x64.Release.Control-2.idtx:91
+msgid "binUIInfo.ico"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:16 En.Win32.Release.Control-2.idtx:16
+msgid "binUIWarning.ico"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:32 En.Win32.Debug.Control-2.idtx:43
+#: En.Win32.Release.Control-2.idtx:32 En.Win32.Release.Control-2.idtx:43
+#: En.x64.Debug.Control-2.idtx:29 En.x64.Debug.Control-2.idtx:40
+#: En.x64.Release.Control-2.idtx:29 En.x64.Release.Control-2.idtx:40
+msgid "Br&owse"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:5 En.Win32.Release.UIText-2.idtx:5
+#: En.x64.Debug.UIText-2.idtx:5 En.x64.Release.UIText-2.idtx:5
+msgid "bytes"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:15 En.Win32.Release.Control-2.idtx:15
+#: En.x64.Debug.Control-2.idtx:15 En.x64.Release.Control-2.idtx:15
+msgid "C&ustomize"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:100 En.Win32.Debug.Control-2.idtx:109
+#: En.Win32.Debug.Control-2.idtx:57 En.Win32.Debug.Control-2.idtx:68
+#: En.Win32.Debug.Control-2.idtx:97 En.Win32.Release.Control-2.idtx:100
+#: En.Win32.Release.Control-2.idtx:109 En.Win32.Release.Control-2.idtx:57
+#: En.Win32.Release.Control-2.idtx:68 En.Win32.Release.Control-2.idtx:97
+#: En.x64.Debug.Control-2.idtx:106 En.x64.Debug.Control-2.idtx:54
+#: En.x64.Debug.Control-2.idtx:65 En.x64.Debug.Control-2.idtx:94
+#: En.x64.Debug.Control-2.idtx:97 En.x64.Release.Control-2.idtx:106
+#: En.x64.Release.Control-2.idtx:54 En.x64.Release.Control-2.idtx:65
+#: En.x64.Release.Control-2.idtx:94 En.x64.Release.Control-2.idtx:97
+#, fuzzy
+msgid "Cancel"
+msgstr ""
+"Nevar izveidot failu '[2]'. Jau pastāv direktorijs ar tādu pašu nosaukumu. "
+"Atceliet instalēšanu un mēģiniet instalēt citur."
+
+#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Debug.ActionText-2.idtx:64
+#: En.Win32.Release.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:64
+#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Debug.ActionText-2.idtx:64
+#: En.x64.Release.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:64
+msgid "Class Id: [1]"
+msgstr "Klases ID: [1]"
+
+#: En.Win32.Debug.Control-2.idtx:36 En.Win32.Release.Control-2.idtx:36
+#: En.x64.Debug.Control-2.idtx:33 En.x64.Release.Control-2.idtx:33
+msgid ""
+"Click on the icons in the tree below to change the features to be installed:"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:35 En.Win32.Release.UIText-2.idtx:35
+#: En.x64.Debug.UIText-2.idtx:35 En.x64.Release.UIText-2.idtx:35
+msgid "Compiling cost for this feature..."
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Debug.ActionText-2.idtx:61
+#: En.Win32.Release.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:61
+#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Debug.ActionText-2.idtx:61
+#: En.x64.Release.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:61
+msgid "Component ID: [1], Qualifier: [2]"
+msgstr "Komponenta ID: [1], atbilstîbas uzdevçjs: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:10 En.Win32.Debug.ActionText-2.idtx:15
+#: En.Win32.Debug.ActionText-2.idtx:9 En.Win32.Release.ActionText-2.idtx:10
+#: En.Win32.Release.ActionText-2.idtx:15 En.Win32.Release.ActionText-2.idtx:9
+#: En.x64.Debug.ActionText-2.idtx:10 En.x64.Debug.ActionText-2.idtx:15
+#: En.x64.Debug.ActionText-2.idtx:9 En.x64.Release.ActionText-2.idtx:10
+#: En.x64.Release.ActionText-2.idtx:15 En.x64.Release.ActionText-2.idtx:9
+msgid "Computing space requirements"
+msgstr "Notiek nepiecieðamâs vietas aprçíinâðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:18 En.Win32.Release.ActionText-2.idtx:18
+#: En.x64.Debug.ActionText-2.idtx:18 En.x64.Release.ActionText-2.idtx:18
+msgid "Copying network install files"
+msgstr "Notiek tîkla instalâcijas failu kopçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:19
+#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:19
+msgid "Copying new files"
+msgstr "Notiek jauno failu kopçðana"
+
+#: En.Win32.Debug.Control-2.idtx:52 En.Win32.Debug.Control-2.idtx:63
+#: En.Win32.Release.Control-2.idtx:52 En.Win32.Release.Control-2.idtx:63
+#: En.x64.Debug.Control-2.idtx:49 En.x64.Debug.Control-2.idtx:60
+#: En.x64.Release.Control-2.idtx:49 En.x64.Release.Control-2.idtx:60
+#, fuzzy
+msgid "Create A New Folder|"
+msgstr "Notiek mapju izveide"
+
+#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:14
+#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:14
+msgid "Creating duplicate files"
+msgstr "Notiek dublikâtfailu izveide"
+
+#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:11
+#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:11
+msgid "Creating folders"
+msgstr "Notiek mapju izveide"
+
+#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:12
+#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:12
+msgid "Creating shortcuts"
+msgstr "Notiek saîðȍu izveide"
+
+#: En.Win32.Debug.Property-2.idtx:8 En.Win32.Release.Property-2.idtx:8
+#: En.x64.Debug.Property-2.idtx:8 En.x64.Release.Property-2.idtx:8
+#, fuzzy
+msgid "Custom Installation"
+msgstr "Instalēšana neizdevās."
+
+#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Release.ActionText-2.idtx:13
+#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Release.ActionText-2.idtx:13
+msgid "Deleting services"
+msgstr "Notiek servisu dzçðana"
+
+#: En.Win32.Debug.ControlEvent-2.idtx:4 En.Win32.Debug.ControlEvent-2.idtx:5
+#: En.Win32.Release.ControlEvent-2.idtx:4
+#: En.Win32.Release.ControlEvent-2.idtx:5 En.x64.Debug.ControlEvent-2.idtx:4
+#: En.x64.Debug.ControlEvent-2.idtx:5 En.x64.Release.ControlEvent-2.idtx:4
+#: En.x64.Release.ControlEvent-2.idtx:5
+#, fuzzy
+msgid "Determining required space for installation..."
+msgstr "Notiek nepieciešamās informācijas iegūšana..."
+
+#: En.Win32.Debug.UIText-2.idtx:51 En.Win32.Release.UIText-2.idtx:51
+#: En.x64.Debug.UIText-2.idtx:51 En.x64.Release.UIText-2.idtx:51
+msgid "Difference"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:45 En.Win32.Release.Control-2.idtx:45
+#: En.x64.Debug.Control-2.idtx:42 En.x64.Release.Control-2.idtx:42
+msgid "Disk &Usage"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:53 En.Win32.Release.UIText-2.idtx:53
+#: En.x64.Debug.UIText-2.idtx:53 En.x64.Release.UIText-2.idtx:53
+msgid "Disk Size"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:12 En.Win32.Release.UIText-2.idtx:12
+#: En.x64.Debug.UIText-2.idtx:12 En.x64.Release.UIText-2.idtx:12
+msgid "Entire feature will be installed on local hard drive"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:11 En.Win32.Release.UIText-2.idtx:11
+#: En.x64.Debug.UIText-2.idtx:11 En.x64.Release.UIText-2.idtx:11
+msgid "Entire feature will be installed to run from CD"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:13 En.Win32.Release.UIText-2.idtx:13
+#: En.x64.Debug.UIText-2.idtx:13 En.x64.Release.UIText-2.idtx:13
+msgid "Entire feature will be installed to run from network"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:9 En.Win32.Release.UIText-2.idtx:9
+#: En.x64.Debug.UIText-2.idtx:9 En.x64.Release.UIText-2.idtx:9
+msgid "Entire feature will be unavailable"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:24 En.Win32.Release.ActionText-2.idtx:24
+#: En.x64.Debug.ActionText-2.idtx:24 En.x64.Release.ActionText-2.idtx:24
+msgid "Evaluating launch conditions"
+msgstr "Notiek palaiðanas apstâkïu novçrtçðana"
+
+#: En.Win32.Debug.Control-2.idtx:16 En.Win32.Release.Control-2.idtx:16
+msgid "Exclamation icon|"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Debug.ActionText-2.idtx:66
+#: En.Win32.Release.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:66
+#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Debug.ActionText-2.idtx:66
+#: En.x64.Release.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:66
+msgid "Extension: [1]"
+msgstr "Paplaðinâjums: [1]"
+
+#: En.Win32.Debug.UIText-2.idtx:10 En.Win32.Release.UIText-2.idtx:10
+#: En.x64.Debug.UIText-2.idtx:10 En.x64.Release.UIText-2.idtx:10
+msgid "Feature will be installed when required"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Debug.ActionText-2.idtx:62
+#: En.Win32.Release.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:62
+#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Debug.ActionText-2.idtx:62
+#: En.x64.Release.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:62
+msgid "Feature: [1]"
+msgstr "Lîdzeklis: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Debug.ActionText-2.idtx:7
+#: En.Win32.Release.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:7
+#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Debug.ActionText-2.idtx:7
+#: En.x64.Release.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:7
+msgid "File: [1]"
+msgstr "Fails: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
+#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
+msgid "File: [1], Dependencies: [2]"
+msgstr "Fails: [1], atkarîbas: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Debug.ActionText-2.idtx:56
+#: En.Win32.Release.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:56
+#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Debug.ActionText-2.idtx:56
+#: En.x64.Release.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:56
+msgid "File: [1], Folder: [2]"
+msgstr "Fails: [1], mape: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
+#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
+msgid "File: [1], Folder: [2], Size: [3]"
+msgstr "Fails: [1], direktorijs: [2], lielums: [3]"
+
+#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Debug.ActionText-2.idtx:46
+#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:43
+#: En.Win32.Release.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:60
+#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Debug.ActionText-2.idtx:46
+#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:43
+#: En.x64.Release.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:60
+msgid "File: [1], Folder: [9]"
+msgstr "Fails: [1], direktorijs: [9]"
+
+#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Debug.ActionText-2.idtx:18
+#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Debug.ActionText-2.idtx:26
+#: En.Win32.Release.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:18
+#: En.Win32.Release.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:26
+#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Debug.ActionText-2.idtx:18
+#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Debug.ActionText-2.idtx:26
+#: En.x64.Release.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:18
+#: En.x64.Release.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:26
+msgid "File: [1], Folder: [9], Size: [6]"
+msgstr "Fails: [1], direktorijs: [9], lielums: [6]"
+
+#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Debug.ActionText-2.idtx:72
+#: En.Win32.Release.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:72
+#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Debug.ActionText-2.idtx:72
+#: En.x64.Release.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:72
+msgid "File: [1], Section: [2], Key: [3], Value: [4]"
+msgstr "Fails: [1], sekcija: [2], atslçga: [3], vçrtîba: [4]"
+
+#: En.Win32.Debug.Control-2.idtx:41 En.Win32.Release.Control-2.idtx:41
+#: En.x64.Debug.Control-2.idtx:38 En.x64.Release.Control-2.idtx:38
+#, fuzzy
+msgid "Folder:"
+msgstr "Fails: [1], mape: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Debug.ActionText-2.idtx:47
+#: En.Win32.Release.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:47
+#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Debug.ActionText-2.idtx:47
+#: En.x64.Release.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:47
+msgid "Folder: [1]"
+msgstr "Mape: [1]"
+
+#: En.Win32.Debug.UIText-2.idtx:17 En.Win32.Release.UIText-2.idtx:17
+#: En.x64.Debug.UIText-2.idtx:17 En.x64.Release.UIText-2.idtx:17
+msgid "Folder|New Folder"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Debug.ActionText-2.idtx:67
+#: En.Win32.Release.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:67
+#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Debug.ActionText-2.idtx:67
+#: En.x64.Release.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:67
+msgid "Font: [1]"
+msgstr "Fonts: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
+#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
+msgid "Found application: [1]"
+msgstr "Atrasta lietojumprogramma: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
+#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+msgid "Free space: [1]"
+msgstr "Brîvâ vieta: [1]"
+
+#: En.Win32.Debug.UIText-2.idtx:18 En.Win32.Release.UIText-2.idtx:18
+#: En.x64.Debug.UIText-2.idtx:18 En.x64.Release.UIText-2.idtx:18
+msgid "Gathering required information..."
+msgstr "Notiek nepieciešamās informācijas iegūšana..."
+
+#: En.Win32.Debug.UIText-2.idtx:6 En.Win32.Release.UIText-2.idtx:6
+#: En.x64.Debug.UIText-2.idtx:6 En.x64.Release.UIText-2.idtx:6
+msgid "GB"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:17
+#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:17
+msgid "Generating script operations for action:"
+msgstr "Notiek skriptu operâciju ȉenerçðana darbîbai:"
+
+#: En.Win32.Debug.Control-2.idtx:10 En.Win32.Release.Control-2.idtx:10
+#: En.x64.Debug.Control-2.idtx:10 En.x64.Release.Control-2.idtx:10
+msgid "I &accept the General Terms."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:116 En.Win32.Release.Control-2.idtx:116
+#: En.x64.Debug.Control-2.idtx:113 En.x64.Release.Control-2.idtx:113
+msgid ""
+"If you interrupted the installation by accident, please run the installation "
+"again."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:90 En.Win32.Debug.Control-2.idtx:94
+#: En.Win32.Release.Control-2.idtx:90 En.Win32.Release.Control-2.idtx:94
+#: En.x64.Debug.Control-2.idtx:87 En.x64.Debug.Control-2.idtx:91
+#: En.x64.Release.Control-2.idtx:87 En.x64.Release.Control-2.idtx:91
+msgid "Information icon|"
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:95 En.Win32.Release.Control-2.idtx:95
+#: En.x64.Debug.Control-2.idtx:92 En.x64.Release.Control-2.idtx:92
+msgid "Information text"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:57 En.Win32.Release.ActionText-2.idtx:57
+#: En.x64.Debug.ActionText-2.idtx:57 En.x64.Release.ActionText-2.idtx:57
+msgid "Initializing ODBC folders"
+msgstr "Notiek ODBC direktoriju inicializçðana"
+
+#: En.Win32.Debug.ControlEvent-2.idtx:7 En.Win32.Release.ControlEvent-2.idtx:7
+#: En.x64.Debug.ControlEvent-2.idtx:7 En.x64.Release.ControlEvent-2.idtx:7
+msgid "Installed Features Selection"
+msgstr ""
+
+#: En.Win32.Debug.Dialog-2.idtx:4 En.Win32.Release.Dialog-2.idtx:4
+#: En.x64.Debug.Dialog-2.idtx:4 En.x64.Release.Dialog-2.idtx:4
+msgid "Installer Information"
+msgstr ""
+
+#: En.Win32.Debug.Property-2.idtx:4 En.Win32.Release.Property-2.idtx:4
+#: En.x64.Debug.Property-2.idtx:4 En.x64.Release.Property-2.idtx:4
+#, fuzzy
+msgid "Installing"
+msgstr ""
+"Datorā, kurā paredzēta instalēšana, nevarēja atrast nevienu agrāk instalētu "
+"atbilstošu produktu."
+
+#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
+#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
+msgid "Installing new services"
+msgstr "Notiek jauno servisu instalçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:20 En.Win32.Release.ActionText-2.idtx:20
+#: En.x64.Debug.ActionText-2.idtx:20 En.x64.Release.ActionText-2.idtx:20
+msgid "Installing ODBC components"
+msgstr "Notiek ODBC komponentu instalçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
+#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
+msgid "Installing system catalog"
+msgstr "Notiek sistçmas kataloga instalçðana"
+
+#: En.Win32.Debug.Control-2.idtx:14 En.Win32.Release.Control-2.idtx:14
+#: En.x64.Debug.Control-2.idtx:14 En.x64.Release.Control-2.idtx:14
+msgid "Installs the most common program features. Recommended for most users.|"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:7 En.Win32.Release.UIText-2.idtx:7
+#: En.x64.Debug.UIText-2.idtx:7 En.x64.Release.UIText-2.idtx:7
+#, fuzzy
+msgid "KB"
+msgstr ""
+"Nevarēja palielināt pieejamo reģistra vietu. Šīs lietojumprogrammas "
+"instalēšanai ir nepieciešams [2] KB brīvas vietas reģistrā."
+
+#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
+#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
+msgid "Key: [1], Name: [2]"
+msgstr "Atslçga: [1], Nosaukums: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
+#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
+msgid "Key: [1], Name: [2], Value: [3]"
+msgstr "Atslçga: [1], nosaukums: [2], vçrtîba: [3]"
+
+#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Debug.ActionText-2.idtx:70
+#: En.Win32.Release.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:70
+#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Debug.ActionText-2.idtx:70
+#: En.x64.Release.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:70
+msgid "LibID: [1]"
+msgstr "LibID: [1]"
+
+#: En.Win32.Debug.Control-2.idtx:24 En.Win32.Release.Control-2.idtx:24
+#: En.x64.Debug.Control-2.idtx:21 En.x64.Release.Control-2.idtx:21
+msgid ""
+"Maintenance allows you to change the way features are installed on your "
+"computer or even to remove [SimpleProductName] from your computer."
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:8 En.Win32.Release.UIText-2.idtx:8
+#: En.x64.Debug.UIText-2.idtx:8 En.x64.Release.UIText-2.idtx:8
+msgid "MB"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
+#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
+msgid "Migrating feature states from related applications"
+msgstr "Notiek lîdzekïu stâvokïu migrâcija no saistîtajâm lietojumprogrammâm"
+
+#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Debug.ActionText-2.idtx:68
+#: En.Win32.Release.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:68
+#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Debug.ActionText-2.idtx:68
+#: En.x64.Release.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:68
+msgid "MIME Content Type: [1], Extension: [2]"
+msgstr "MIME satura tips: [1], paplaðinâjums: [2]"
+
+#: En.Win32.Debug.ControlEvent-2.idtx:9 En.Win32.Release.ControlEvent-2.idtx:9
+#: En.x64.Debug.ControlEvent-2.idtx:9 En.x64.Release.ControlEvent-2.idtx:9
+msgid "Modification"
+msgstr ""
+
+#: En.Win32.Debug.ControlEvent-2.idtx:8 En.Win32.Release.ControlEvent-2.idtx:8
+#: En.x64.Debug.ControlEvent-2.idtx:8 En.x64.Release.ControlEvent-2.idtx:8
+msgid "Modifying"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:26 En.Win32.Release.ActionText-2.idtx:26
+#: En.x64.Debug.ActionText-2.idtx:26 En.x64.Release.ActionText-2.idtx:26
+msgid "Moving files"
+msgstr "Notiek failu pârvietoðana"
+
+#: En.Win32.Debug.Control-2.idtx:39 En.Win32.Release.Control-2.idtx:39
+#: En.x64.Debug.Control-2.idtx:36 En.x64.Release.Control-2.idtx:36
+msgid "Multiline description of the currently selected item."
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
+#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
+#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
+#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
+msgid "Name: [1], Value: [2], Action [3]"
+msgstr "Nosaukums: [1], vçrtîba: [2], darbîba: [3]"
+
+#: En.Win32.Debug.Control-2.idtx:56 En.Win32.Debug.Control-2.idtx:67
+#: En.Win32.Debug.Control-2.idtx:96 En.Win32.Release.Control-2.idtx:56
+#: En.Win32.Release.Control-2.idtx:67 En.Win32.Release.Control-2.idtx:96
+#: En.x64.Debug.Control-2.idtx:53 En.x64.Debug.Control-2.idtx:64
+#: En.x64.Debug.Control-2.idtx:93 En.x64.Release.Control-2.idtx:53
+#: En.x64.Release.Control-2.idtx:64 En.x64.Release.Control-2.idtx:93
+msgid "OK"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
+#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
+msgid "Patching files"
+msgstr "Notiek failu ielâpoðana"
+
+#: En.Win32.Debug.Control-2.idtx:121 En.Win32.Release.Control-2.idtx:121
+#: En.x64.Debug.Control-2.idtx:118 En.x64.Release.Control-2.idtx:118
+msgid "Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Debug.ActionText-2.idtx:69
+#: En.Win32.Release.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:69
+#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Debug.ActionText-2.idtx:69
+#: En.x64.Release.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:69
+msgid "ProgId: [1]"
+msgstr "ProgID: [1]"
+
+#: En.Win32.Debug.Control-2.idtx:6 En.Win32.Debug.Control-2.idtx:87
+#: En.Win32.Release.Control-2.idtx:6 En.Win32.Release.Control-2.idtx:87
+#: En.x64.Debug.Control-2.idtx:6 En.x64.Debug.Control-2.idtx:84
+#: En.x64.Release.Control-2.idtx:6 En.x64.Release.Control-2.idtx:84
+msgid "Progress done"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
+#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
+msgid "Property: [1], Signature: [2]"
+msgstr "Rekvizîts: [1], paraksts: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:27
+#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:27
+msgid "Publishing assembly information"
+msgstr "Notiek montâþas informâcijas publicçðana."
+
+#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:32
+#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:32
+msgid "Publishing Product Features"
+msgstr "Notiek produkta lîdzekïu publicçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:33 En.Win32.Release.ActionText-2.idtx:33
+#: En.x64.Debug.ActionText-2.idtx:33 En.x64.Release.ActionText-2.idtx:33
+msgid "Publishing product information"
+msgstr "Notiek produkta informâcijas publicçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:31
+#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:31
+msgid "Publishing Qualified Components"
+msgstr "Notiek atbilstoðo komponentu publicçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:34
+#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:34
+msgid "Registering Class servers"
+msgstr "Notiek klaðu serveru reȉistrçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
+#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
+msgid "Registering COM+ Applications and Components"
+msgstr "Notiek COM+ lietojumprogrammu un komponentu reȉistrçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:36
+#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:36
+msgid "Registering extension servers"
+msgstr "Notiek paplaðinâjumu serveru reȉistrçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:37
+#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:37
+msgid "Registering fonts"
+msgstr "Notiek fontu reȉistrçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:38
+#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:38
+msgid "Registering MIME info"
+msgstr "Notiek MIME informâcijas reȉistrçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:55
+#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:55
+msgid "Registering modules"
+msgstr "Notiek moduïu reȉistrçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:39 En.Win32.Release.ActionText-2.idtx:39
+#: En.x64.Debug.ActionText-2.idtx:39 En.x64.Release.ActionText-2.idtx:39
+msgid "Registering product"
+msgstr "Notiek produkta reȉistrçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:40
+#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:40
+msgid "Registering program identifiers"
+msgstr "Notiek programmu identifikatoru reȉistrçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:41
+#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:41
+msgid "Registering type libraries"
+msgstr "Notiek tipu bibliotçku reȉistrçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:42
+#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:42
+msgid "Registering user"
+msgstr "Notiek lietotâja reȉistrçðana"
+
+#: En.Win32.Debug.ControlEvent-2.idtx:13
+#: En.Win32.Release.ControlEvent-2.idtx:13 En.x64.Debug.ControlEvent-2.idtx:13
+#: En.x64.Release.ControlEvent-2.idtx:13
+#, fuzzy
+msgid "Removal"
+msgstr "Noņemšana veiksmīgi pabeigta."
+
+#: En.Win32.Debug.RadioButton-2.idtx:6 En.Win32.Release.RadioButton-2.idtx:6
+#: En.x64.Debug.RadioButton-2.idtx:6 En.x64.Release.RadioButton-2.idtx:6
+msgid "Removes the program from your computer.|"
+msgstr ""
+
+#: En.Win32.Debug.ControlEvent-2.idtx:12
+#: En.Win32.Release.ControlEvent-2.idtx:12 En.x64.Debug.ControlEvent-2.idtx:12
+#: En.x64.Release.ControlEvent-2.idtx:12
+#, fuzzy
+msgid "Removing"
+msgstr "Notiek INI failu ievadȍu dzçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
+#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
+msgid "Removing applications"
+msgstr "Notiek lietojumprogrammu dzçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:54
+#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:54
+msgid "Removing backup files"
+msgstr "Notiek dublçjuma failu dzçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Release.ActionText-2.idtx:43
+#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Release.ActionText-2.idtx:43
+msgid "Removing duplicated files"
+msgstr "Notiek failu dublikâtu dzçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:46
+#: En.x64.Debug.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:46
+msgid "Removing files"
+msgstr "Notiek failu dzçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:47 En.Win32.Release.ActionText-2.idtx:47
+#: En.x64.Debug.ActionText-2.idtx:47 En.x64.Release.ActionText-2.idtx:47
+msgid "Removing folders"
+msgstr "Notiek mapju dzçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:48
+#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:48
+msgid "Removing INI files entries"
+msgstr "Notiek INI failu ievadȍu dzçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:60
+#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:60
+msgid "Removing moved files"
+msgstr "Notiek pârvietoto failu dzçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:49 En.Win32.Release.ActionText-2.idtx:49
+#: En.x64.Debug.ActionText-2.idtx:49 En.x64.Release.ActionText-2.idtx:49
+msgid "Removing ODBC components"
+msgstr "Notiek ODBC komponentu dzçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:51 En.Win32.Release.ActionText-2.idtx:51
+#: En.x64.Debug.ActionText-2.idtx:51 En.x64.Release.ActionText-2.idtx:51
+msgid "Removing shortcuts"
+msgstr "Notiek saîðȍu dzçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
+#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
+msgid "Removing system registry values"
+msgstr "Notiek sistçmas reȉistra vçrtîbu dzçðana"
+
+#: En.Win32.Debug.ControlEvent-2.idtx:11
+#: En.Win32.Release.ControlEvent-2.idtx:11 En.x64.Debug.ControlEvent-2.idtx:11
+#: En.x64.Release.ControlEvent-2.idtx:11
+msgid "Repair"
+msgstr ""
+
+#: En.Win32.Debug.ControlEvent-2.idtx:10
+#: En.Win32.Release.ControlEvent-2.idtx:10 En.x64.Debug.ControlEvent-2.idtx:10
+#: En.x64.Release.ControlEvent-2.idtx:10
+msgid "Repairing"
+msgstr ""
+
+#: En.Win32.Debug.RadioButton-2.idtx:5 En.Win32.Release.RadioButton-2.idtx:5
+#: En.x64.Debug.RadioButton-2.idtx:5 En.x64.Release.RadioButton-2.idtx:5
+msgid ""
+"Repairs errors in the most recent installation state - fixes missing or "
+"corrupt files, shortcuts and registry entries.|"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:52 En.Win32.Release.UIText-2.idtx:52
+#: En.x64.Debug.UIText-2.idtx:52 En.x64.Release.UIText-2.idtx:52
+#, fuzzy
+msgid "Required"
+msgstr ""
+"Failu, kas ir nepieciešams, nevar instalēt, jo kabinetfailam [2] nav "
+"ciparparaksta. Iespējams, ka kabinetfails ir bojāts."
+
+#: En.Win32.Debug.Control-2.idtx:44 En.Win32.Release.Control-2.idtx:44
+#: En.x64.Debug.Control-2.idtx:41 En.x64.Release.Control-2.idtx:41
+msgid "Resets feature selection to initial state.|"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:53 En.Win32.Release.ActionText-2.idtx:53
+#: En.x64.Debug.ActionText-2.idtx:53 En.x64.Release.ActionText-2.idtx:53
+msgid "Rolling back action:"
+msgstr "Notiek ðâdas darbîbas atritinâðana:"
+
+#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
+#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
+msgid "Searching for installed applications"
+msgstr "Notiek instalçto lietojumprogrammu meklçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:52 En.Win32.Debug.ActionText-2.idtx:8
+#: En.Win32.Release.ActionText-2.idtx:52 En.Win32.Release.ActionText-2.idtx:8
+#: En.x64.Debug.ActionText-2.idtx:52 En.x64.Debug.ActionText-2.idtx:8
+#: En.x64.Release.ActionText-2.idtx:52 En.x64.Release.ActionText-2.idtx:8
+msgid "Searching for qualifying products"
+msgstr "Notiek atbilstoðu produktu meklçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
+#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
+msgid "Searching for related applications"
+msgstr "Notiek saistîto lietojumprogrammu meklçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Debug.ActionText-2.idtx:58
+#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:13
+#: En.Win32.Release.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:59
+#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Debug.ActionText-2.idtx:58
+#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:13
+#: En.x64.Release.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:59
+msgid "Service: [1]"
+msgstr "Serviss: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
+#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
+msgid "Service: [2]"
+msgstr "Serviss: [2]"
+
+#: En.Win32.Debug.Property-2.idtx:5 En.Win32.Debug.Property-2.idtx:6
+#: En.Win32.Release.Property-2.idtx:5 En.Win32.Release.Property-2.idtx:6
+#: En.x64.Debug.Property-2.idtx:5 En.x64.Debug.Property-2.idtx:6
+#: En.x64.Release.Property-2.idtx:5 En.x64.Release.Property-2.idtx:6
+msgid "Setup"
+msgstr ""
+
+#: En.Win32.Debug.Property-2.idtx:7 En.Win32.Release.Property-2.idtx:7
+#: En.x64.Debug.Property-2.idtx:7 En.x64.Release.Property-2.idtx:7
+msgid "Setup Wizard"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Debug.ActionText-2.idtx:51
+#: En.Win32.Release.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:51
+#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Debug.ActionText-2.idtx:51
+#: En.x64.Release.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:51
+msgid "Shortcut: [1]"
+msgstr "Saîsne: [1]"
+
+#: En.Win32.Debug.Control-2.idtx:45 En.Win32.Release.Control-2.idtx:45
+#: En.x64.Debug.Control-2.idtx:42 En.x64.Release.Control-2.idtx:42
+msgid ""
+"Shows space requirement by volumes, according to current feature selection.|"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:58
+#: En.x64.Debug.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:58
+msgid "Starting services"
+msgstr "Notiek servisu startçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:59
+#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:59
+msgid "Stopping services"
+msgstr "Notiek servisu apturçðana"
+
+#: En.Win32.Debug.Control-2.idtx:105 En.Win32.Release.Control-2.idtx:105
+#: En.x64.Debug.Control-2.idtx:102 En.x64.Release.Control-2.idtx:102
+msgid ""
+"The following applications are using files that need to be updated by this "
+"setup. Close these applications and then click Retry to continue the "
+"installation or Cancel to exit it."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:75 En.Win32.Debug.Control-2.idtx:80
+#: En.Win32.Release.Control-2.idtx:75 En.Win32.Release.Control-2.idtx:80
+#: En.x64.Debug.Control-2.idtx:72 En.x64.Debug.Control-2.idtx:77
+#: En.x64.Release.Control-2.idtx:72 En.x64.Release.Control-2.idtx:77
+msgid ""
+"The highlighted volumes (if any) do not have enough disk space available for "
+"the currently selected features. You can either remove some files from the "
+"highlighted volumes, or choose to install less features onto local drive(s), "
+"or select different destination drive(s)."
+msgstr ""
+
+#: En.Win32.Debug.Control-2.idtx:40 En.Win32.Release.Control-2.idtx:40
+#: En.x64.Debug.Control-2.idtx:37 En.x64.Release.Control-2.idtx:37
+msgid "The size of the currently selected item."
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:33 En.Win32.Release.UIText-2.idtx:33
+#: En.x64.Debug.UIText-2.idtx:33 En.x64.Release.UIText-2.idtx:33
+msgid "This feature frees up [1] on your hard drive."
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:34 En.Win32.Release.UIText-2.idtx:34
+#: En.x64.Debug.UIText-2.idtx:34 En.x64.Release.UIText-2.idtx:34
+msgid "This feature requires [1] on your hard drive."
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:45 En.Win32.Debug.UIText-2.idtx:46
+#: En.Win32.Debug.UIText-2.idtx:47 En.Win32.Debug.UIText-2.idtx:48
+#: En.Win32.Release.UIText-2.idtx:45 En.Win32.Release.UIText-2.idtx:46
+#: En.Win32.Release.UIText-2.idtx:47 En.Win32.Release.UIText-2.idtx:48
+#: En.x64.Debug.UIText-2.idtx:45 En.x64.Debug.UIText-2.idtx:46
+#: En.x64.Debug.UIText-2.idtx:47 En.x64.Debug.UIText-2.idtx:48
+#: En.x64.Release.UIText-2.idtx:45 En.x64.Release.UIText-2.idtx:46
+#: En.x64.Release.UIText-2.idtx:47 En.x64.Release.UIText-2.idtx:48
+msgid ""
+"This feature requires [1] on your hard drive. It has [2] of [3] subfeatures "
+"selected. The subfeatures require [4] on your hard drive."
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:22 En.Win32.Debug.UIText-2.idtx:27
+#: En.Win32.Debug.UIText-2.idtx:32 En.Win32.Debug.UIText-2.idtx:43
+#: En.Win32.Release.UIText-2.idtx:22 En.Win32.Release.UIText-2.idtx:27
+#: En.Win32.Release.UIText-2.idtx:32 En.Win32.Release.UIText-2.idtx:43
+#: En.x64.Debug.UIText-2.idtx:22 En.x64.Debug.UIText-2.idtx:27
+#: En.x64.Debug.UIText-2.idtx:32 En.x64.Debug.UIText-2.idtx:43
+#: En.x64.Release.UIText-2.idtx:22 En.x64.Release.UIText-2.idtx:27
+#: En.x64.Release.UIText-2.idtx:32 En.x64.Release.UIText-2.idtx:43
+msgid "This feature will be installed on the local hard drive"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:21 En.Win32.Debug.UIText-2.idtx:26
+#: En.Win32.Release.UIText-2.idtx:21 En.Win32.Release.UIText-2.idtx:26
+#: En.x64.Debug.UIText-2.idtx:21 En.x64.Debug.UIText-2.idtx:26
+#: En.x64.Release.UIText-2.idtx:21 En.x64.Release.UIText-2.idtx:26
+msgid "This feature will be installed to run from CD"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:23 En.Win32.Debug.UIText-2.idtx:28
+#: En.Win32.Release.UIText-2.idtx:23 En.Win32.Release.UIText-2.idtx:28
+#: En.x64.Debug.UIText-2.idtx:23 En.x64.Debug.UIText-2.idtx:28
+#: En.x64.Release.UIText-2.idtx:23 En.x64.Release.UIText-2.idtx:28
+msgid "This feature will be installed to run from the network"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:37 En.Win32.Release.UIText-2.idtx:37
+#: En.x64.Debug.UIText-2.idtx:37 En.x64.Release.UIText-2.idtx:37
+msgid ""
+"This feature will be removed from your local hard drive, but will be set to "
+"be installed when required"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:38 En.Win32.Release.UIText-2.idtx:38
+#: En.x64.Debug.UIText-2.idtx:38 En.x64.Release.UIText-2.idtx:38
+msgid ""
+"This feature will be removed from your local hard drive, but will be still "
+"available to run from CD"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:40 En.Win32.Release.UIText-2.idtx:40
+#: En.x64.Debug.UIText-2.idtx:40 En.x64.Release.UIText-2.idtx:40
+msgid ""
+"This feature will be removed from your local hard drive, but will be still "
+"available to run from the network"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:20 En.Win32.Debug.UIText-2.idtx:30
+#: En.Win32.Debug.UIText-2.idtx:42 En.Win32.Release.UIText-2.idtx:20
+#: En.Win32.Release.UIText-2.idtx:30 En.Win32.Release.UIText-2.idtx:42
+#: En.x64.Debug.UIText-2.idtx:20 En.x64.Debug.UIText-2.idtx:30
+#: En.x64.Debug.UIText-2.idtx:42 En.x64.Release.UIText-2.idtx:20
+#: En.x64.Release.UIText-2.idtx:30 En.x64.Release.UIText-2.idtx:42
+msgid "This feature will be set to be installed when required"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:29 En.Win32.Release.UIText-2.idtx:29
+#: En.x64.Debug.UIText-2.idtx:29 En.x64.Release.UIText-2.idtx:29
+msgid ""
+"This feature will be uninstalled completely, you won't be able to run it "
+"from CD"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:41 En.Win32.Release.UIText-2.idtx:41
+#: En.x64.Debug.UIText-2.idtx:41 En.x64.Release.UIText-2.idtx:41
+msgid ""
+"This feature will be uninstalled completely, you won't be able to run it "
+"from the network"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:24 En.Win32.Debug.UIText-2.idtx:36
+#: En.Win32.Release.UIText-2.idtx:24 En.Win32.Release.UIText-2.idtx:36
+#: En.x64.Debug.UIText-2.idtx:24 En.x64.Debug.UIText-2.idtx:36
+#: En.x64.Release.UIText-2.idtx:24 En.x64.Release.UIText-2.idtx:36
+msgid "This feature will become unavailable"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:39 En.Win32.Release.UIText-2.idtx:39
+#: En.x64.Debug.UIText-2.idtx:39 En.x64.Release.UIText-2.idtx:39
+msgid "This feature will remain on you local hard drive"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:31 En.Win32.Release.UIText-2.idtx:31
+#: En.x64.Debug.UIText-2.idtx:31 En.x64.Release.UIText-2.idtx:31
+msgid "This feature will remain to be run from CD"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:44 En.Win32.Release.UIText-2.idtx:44
+#: En.x64.Debug.UIText-2.idtx:44 En.x64.Release.UIText-2.idtx:44
+msgid "This feature will remain to be run from the network"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:19 En.Win32.Release.UIText-2.idtx:19
+#: En.x64.Debug.UIText-2.idtx:19 En.x64.Release.UIText-2.idtx:19
+msgid "This feature will remain uninstalled"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:49 En.Win32.Release.UIText-2.idtx:49
+#: En.x64.Debug.UIText-2.idtx:49 En.x64.Release.UIText-2.idtx:49
+msgid "Time remaining: {[1] minutes }{[2] seconds}"
+msgstr "Atlikušais laiks: {minūtes: [1], }{sekundes: [2]}"
+
+#: En.Win32.Debug.Control-2.idtx:37 En.Win32.Release.Control-2.idtx:37
+#: En.x64.Debug.Control-2.idtx:34 En.x64.Release.Control-2.idtx:34
+msgid "Tree of selections"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:28 En.Win32.Release.ActionText-2.idtx:28
+#: En.x64.Debug.ActionText-2.idtx:28 En.x64.Release.ActionText-2.idtx:28
+msgid "Unpublishing assembly information"
+msgstr "Notiek montâþas informâcijas publicçjuma noȍemðana."
+
+#: En.Win32.Debug.ActionText-2.idtx:62 En.Win32.Release.ActionText-2.idtx:62
+#: En.x64.Debug.ActionText-2.idtx:62 En.x64.Release.ActionText-2.idtx:62
+msgid "Unpublishing Product Features"
+msgstr "Notiek produkta lîdzekïu publicçjumu dzçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:63 En.Win32.Release.ActionText-2.idtx:63
+#: En.x64.Debug.ActionText-2.idtx:63 En.x64.Release.ActionText-2.idtx:63
+msgid "Unpublishing product information"
+msgstr "Notiek produkta informâcijas publicçjumu noȍemðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:61 En.Win32.Release.ActionText-2.idtx:61
+#: En.x64.Debug.ActionText-2.idtx:61 En.x64.Release.ActionText-2.idtx:61
+msgid "Unpublishing Qualified Components"
+msgstr "Notiek atbilstoðo komponentu publicçjumu dzçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:64 En.Win32.Release.ActionText-2.idtx:64
+#: En.x64.Debug.ActionText-2.idtx:64 En.x64.Release.ActionText-2.idtx:64
+msgid "Unregister Class servers"
+msgstr "Notiek klaðu serveru reȉistrâcijas dzçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
+#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
+msgid "Unregistering COM+ Applications and Components"
+msgstr "Notiek COM+ lietojumprogrammu un komponentu reȉistrâcijas dzçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:66 En.Win32.Release.ActionText-2.idtx:66
+#: En.x64.Debug.ActionText-2.idtx:66 En.x64.Release.ActionText-2.idtx:66
+msgid "Unregistering extension servers"
+msgstr "Notiek paplaðinâjumu serveru reȉistrâcijas dzçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:67 En.Win32.Release.ActionText-2.idtx:67
+#: En.x64.Debug.ActionText-2.idtx:67 En.x64.Release.ActionText-2.idtx:67
+msgid "Unregistering fonts"
+msgstr "Notiek fontu reȉistrâcijas dzçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:68 En.Win32.Release.ActionText-2.idtx:68
+#: En.x64.Debug.ActionText-2.idtx:68 En.x64.Release.ActionText-2.idtx:68
+msgid "Unregistering MIME info"
+msgstr "Notiek MIME informâcijas reȉistrâcijas dzçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:56 En.Win32.Release.ActionText-2.idtx:56
+#: En.x64.Debug.ActionText-2.idtx:56 En.x64.Release.ActionText-2.idtx:56
+msgid "Unregistering modules"
+msgstr "Notiek moduïu reȉistrâcijas dzçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:69 En.Win32.Release.ActionText-2.idtx:69
+#: En.x64.Debug.ActionText-2.idtx:69 En.x64.Release.ActionText-2.idtx:69
+msgid "Unregistering program identifiers"
+msgstr "Notiek programmu identifikatoru reȉistrâcijas dzçðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:70 En.Win32.Release.ActionText-2.idtx:70
+#: En.x64.Debug.ActionText-2.idtx:70 En.x64.Release.ActionText-2.idtx:70
+msgid "Unregistering type libraries"
+msgstr "Notiek tipu bibliotçku reȉistrâcijas dzçðana"
+
+#: En.Win32.Debug.Control-2.idtx:51 En.Win32.Debug.Control-2.idtx:62
+#: En.Win32.Release.Control-2.idtx:51 En.Win32.Release.Control-2.idtx:62
+#: En.x64.Debug.Control-2.idtx:48 En.x64.Debug.Control-2.idtx:59
+#: En.x64.Release.Control-2.idtx:48 En.x64.Release.Control-2.idtx:59
+msgid "Up One Level|"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:30 En.Win32.Release.ActionText-2.idtx:30
+#: En.x64.Debug.ActionText-2.idtx:30 En.x64.Release.ActionText-2.idtx:30
+msgid "Updating component registration"
+msgstr "Notiek komponenta reȉistrâcijas atjauninâðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
+#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
+#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
+#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
+msgid "Updating environment strings"
+msgstr "Notiek vides virkȍu atjauninâðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:23 En.Win32.Release.ActionText-2.idtx:23
+#: En.x64.Debug.ActionText-2.idtx:23 En.x64.Release.ActionText-2.idtx:23
+msgid "Validating install"
+msgstr "Notiek instalâcijas validâcija"
+
+#: En.Win32.Debug.UIText-2.idtx:54 En.Win32.Release.UIText-2.idtx:54
+#: En.x64.Debug.UIText-2.idtx:54 En.x64.Release.UIText-2.idtx:54
+#, fuzzy
+msgid "Volume"
+msgstr ""
+"Diskdzinī [2] nav diska. Lūdzu, ievietojiet disku un noklikšķiniet uz "
+"Mēģināt vēlreiz vai noklikšķiniet uz Atcelt, lai atgrieztos pie iepriekš "
+"atlasītā sējuma."
+
+#: En.Win32.Debug.UIText-2.idtx:15 En.Win32.Release.UIText-2.idtx:15
+#: En.x64.Debug.UIText-2.idtx:15 En.x64.Release.UIText-2.idtx:15
+msgid "Will be installed on local hard drive"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:14 En.Win32.Release.UIText-2.idtx:14
+#: En.x64.Debug.UIText-2.idtx:14 En.x64.Release.UIText-2.idtx:14
+msgid "Will be installed to run from CD"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:16 En.Win32.Release.UIText-2.idtx:16
+#: En.x64.Debug.UIText-2.idtx:16 En.x64.Release.UIText-2.idtx:16
+msgid "Will be installed to run from network"
+msgstr ""
+
+#: En.Win32.Debug.UIText-2.idtx:25 En.Win32.Release.UIText-2.idtx:25
+#: En.x64.Debug.UIText-2.idtx:25 En.x64.Release.UIText-2.idtx:25
+msgid "Will be installed when required"
+msgstr ""
+
+#: En.Win32.Debug.ActionText-2.idtx:72 En.Win32.Release.ActionText-2.idtx:72
+#: En.x64.Debug.ActionText-2.idtx:72 En.x64.Release.ActionText-2.idtx:72
+msgid "Writing INI files values"
+msgstr "Notiek INI failu vçrtîbu rakstîðana"
+
+#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
+#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
+msgid "Writing system registry values"
+msgstr "Notiek sistçmas reȉistra vçrtîbu rakstîðana"
+
+#: En.Win32.Debug.Control-2.idtx:29 En.Win32.Release.Control-2.idtx:29
+#: En.x64.Debug.Control-2.idtx:26 En.x64.Release.Control-2.idtx:26
+msgid ""
+"You are about to prepare installation image for [SimpleProductName], to "
+"allow easier group deployment."
+msgstr ""
+
+#~ msgid ""
+#~ "[2] cannot install one of its required products. Contact your technical "
+#~ "support group. {{System Error: [3].}}"
+#~ msgstr ""
+#~ "[2] nevar instalēt vienu no tai nepieciešamajiem produktiem. Sazinieties "
+#~ "ar tehniskā atbalsta grupu. {{Sistēmas kļūda: [3].}}"
+
+#~ msgid "'[2]' is not a valid short file name."
+#~ msgstr "'[2]' nav derīgs kā īsais faila nosaukums."
+
+#~ msgid "[SimpleProductName]"
+#~ msgstr "[SimpleProductName]"
+
+#~ msgid "[SimpleProductName] Setup completed successfully."
+#~ msgstr "[SimpleProductName] uzstādīšana ir sekmīgi pabeigta."
+
+#~ msgid "[SimpleProductName] Setup failed."
+#~ msgstr "[SimpleProductName] uzstādīšana neizdevās."
+
+#~ msgid "{[2]}{, [3]}{, [4]}"
+#~ msgstr "{[2]}{, [3]}{, [4]}"
+
+#~ msgid "{{Disk full: }}"
+#~ msgstr "{{Disks ir pilns: }}"
+
+#~ msgid "{{Error [1]. }}"
+#~ msgstr "{{Kļūda [1]. }}"
+
+#~ msgid "{{Fatal error: }}"
+#~ msgstr "{{Fatāla kļūda: }}"
+
+#~ msgid "=== Logging started: [Date] [Time] ==="
+#~ msgstr "=== Reģistrēšana žurnālā sākta: [Date] [Time] ==="
+
+#~ msgid "=== Logging stopped: [Date] [Time] ==="
+#~ msgstr "=== Reģistrēšana žurnālā apturēta: [Date] [Time] ==="
+
+#~ msgid ""
+#~ "A file that is required cannot be installed because the cabinet file [2] "
+#~ "has an invalid digital signature. This may indicate that the cabinet file "
+#~ "is corrupt.{{ Error [3] was returned by WinVerifyTrust.}}"
+#~ msgstr ""
+#~ "Failu, kas ir nepieciešams, nevar instalēt, jo kabinetfailam [2] ir "
+#~ "nederīgs ciparparaksts. Iespējams, ka kabinetfails ir bojāts."
+#~ "{{ WinVerifyTrust atgrieza kļūdu [3].}}"
+
+#~ msgid ""
+#~ "A file that is required cannot be installed because the cabinet file [2] "
+#~ "is not digitally signed. This may indicate that the cabinet file is "
+#~ "corrupt."
+#~ msgstr ""
+#~ "Failu, kas ir nepieciešams, nevar instalēt, jo kabinetfailam [2] nav "
+#~ "ciparparaksta. Iespējams, ka kabinetfails ir bojāts."
+
+#~ msgid "A network error occurred while attempting to create the folder: [2]"
+#~ msgstr "Mēģinot izveidot direktoriju [2], radās tīkla kļūda."
+
+#~ msgid ""
+#~ "A network error occurred while attempting to open the source file "
+#~ "cabinet: [2]"
+#~ msgstr "Mēģinot atvērt avota kabinetfailu [2], radās tīkla kļūda."
+
+#~ msgid "A network error occurred while attempting to read from the file: [2]"
+#~ msgstr "Mēģinot lasīt no faila [2], radās tīkla kļūda."
+
+#~ msgid ""
+#~ "A portion of the folder path '[2]' is invalid. It is either empty or "
+#~ "exceeds the length allowed by the system."
+#~ msgstr ""
+#~ "Daļa no mapes ceļa '[2]' nav derīga. Šis ceļš ir tukšs vai tā garums "
+#~ "pārsniedz sistēmas atļauto garumu."
+
+#~ msgid ""
+#~ "A previous installation for this product is in progress. You must undo "
+#~ "the changes made by that installation to continue. Do you want to undo "
+#~ "those changes?"
+#~ msgstr ""
+#~ "Turpinās iepriekšēja šī produkta instalēšana. Lai turpinātu, ir jāatsauc "
+#~ "šīs instalēšanas laikā veiktās izmaiņas. Vai vēlaties atsaukt šīs "
+#~ "izmaiņas?"
+
+#~ msgid "A valid destination folder for the install could not be determined."
+#~ msgstr "Nevarēja noteikt derīgu instalācijas adresāta mapi."
+
+#~ msgid "Action [Time]: [1]. [2]"
+#~ msgstr "Darbība [Time]: [1]. [2]"
+
+#~ msgid "Action ended [Time]: [1]. Return value [2]."
+#~ msgstr "Darbība beigusies [Time]: [1]. Atgrieztā vērtība [2]."
+
+#~ msgid "Action start [Time]: [1]."
+#~ msgstr "Darbības sākums [Time]: [1]."
+
+#~ msgid "Advertisement completed successfully."
+#~ msgstr "Reklāmas izvietošana veiksmīgi pabeigta."
+
+#~ msgid "Advertisement failed."
+#~ msgstr "Reklāmas izvietošana neizdevās."
+
+#~ msgid ""
+#~ "An error occured during the installation of assembly component [2]. "
+#~ "HRESULT: [3]. {{assembly interface: [4], function: [5], assembly name: "
+#~ "[6]}}"
+#~ msgstr ""
+#~ "Instalējot montāžas komponentu [2], radās kļūda. HRESULT: [3]. {{montāžas "
+#~ "interfeiss: [4], funkcija: [5], montāžas nosaukums: [6]}}"
+
+#~ msgid ""
+#~ "An error occurred while applying security settings. [2] is not a valid "
+#~ "user or group. This could be a problem with the package, or a problem "
+#~ "connecting to a domain controller on the network. Check your network "
+#~ "connection and click Retry, or Cancel to end the install. {{Unable to "
+#~ "locate the user's SID, system error [3]}}"
+#~ msgstr ""
+#~ "Lietojot drošības iestatījumus, radās kļūda. [2] nav derīgs lietotājs vai "
+#~ "grupa. Iespējams, ka pastāv problēma pakotnē vai nevar izveidot "
+#~ "savienojumu ar tīkla domēnu kontrolleri. Pārbaudiet tīkla savienojumu un "
+#~ "noklikšķiniet uz Mēģināt vēlreiz, vai noklikšķiniet uz Atcelt, lai beigtu "
+#~ "instalēšanu. {{Nevar atrast lietotāja SID, sistēmas kļūda [3]}}"
+
+#~ msgid "An error occurred while attempting to create the folder: [2]"
+#~ msgstr "Mēģinot izveidot direktoriju [2], radās kļūda."
+
+#~ msgid ""
+#~ "An error occurred while writing installation information to disk. Check "
+#~ "to make sure enough disk space is available, and click Retry, or Cancel "
+#~ "to end the install."
+#~ msgstr ""
+#~ "Rakstot instalācijas informāciju diskā, radās kļūda. Pārliecinieties, vai "
+#~ "uz diska pietiek vietas, un noklikšķiniet uz pogas Mēģināt vēlreiz, vai "
+#~ "noklikšķiniet uz pogas Atcelt, lai beigtu instalēšanu."
+
+#~ msgid ""
+#~ "An installation for [2] is currently suspended. You must undo the changes "
+#~ "made by that installation to continue. Do you want to undo those changes?"
+#~ msgstr ""
+#~ "[2] instalēšana pašlaik ir aizturēta. Lai turpinātu, ir jāatsauc šīs "
+#~ "instalēšanas laikā veiktās izmaiņas. Vai vēlaties atsaukt šīs izmaiņas?"
+
+#~ msgid ""
+#~ "An installation package for the product [2] cannot be found. Try the "
+#~ "installation again using a valid copy of the installation package '[3]'."
+#~ msgstr ""
+#~ "Nevar atrast produkta [2] instalācijas pakotni. Mēģiniet instalēt "
+#~ "vēlreiz, izmantojot derīgu instalācijas pakotnes '[3]' eksemplāru."
+
+#~ msgid ""
+#~ "Another application has exclusive access to the file '[2]'. Please shut "
+#~ "down all other applications, then click Retry."
+#~ msgstr ""
+#~ "Citai lietojumprogrammai ir ekskluzīva pieeja failam '[2]'. Lūdzu, "
+#~ "aizveriet visas pārējās lietojumprogrammas, pēc tam noklikšķiniet uz "
+#~ "Mēģināt vēlreiz."
+
+#~ msgid ""
+#~ "Another installation is in progress. You must complete that installation "
+#~ "before continuing this one."
+#~ msgstr ""
+#~ "Notiek cits instalēšanas process. Tas ir jāpabeidz, pirms turpināt šo "
+#~ "instalēšanu."
+
+#~ msgid "Are you sure you want to cancel?"
+#~ msgstr "Vai tiešām vēlaties atcelt?"
+
+#~ msgid ""
+#~ "Cannot create the file '[2]'. A folder with this name already exists. "
+#~ "Cancel the install and try installing to a different location."
+#~ msgstr ""
+#~ "Nevar izveidot failu '[2]'. Jau pastāv direktorijs ar tādu pašu "
+#~ "nosaukumu. Atceliet instalēšanu un mēģiniet instalēt citur."
+
+#~ msgid ""
+#~ "Cannot create the folder '[2]'. A file with this name already exists. "
+#~ "Please rename or remove the file and click retry, or click Cancel to exit."
+#~ msgstr ""
+#~ "Nevar izveidot mapi '[2]'. Jau pastāv fails ar tādu pašu nosaukumu. "
+#~ "Lūdzu, pārdēvējiet vai nodzēsiet failu un noklikšķiniet uz Mēģināt "
+#~ "vēlreiz, vai noklikšķiniet uz Atcelt, lai izietu."
+
+#~ msgid ""
+#~ "Component Services (COM+ 1.0) are not installed on this computer. This "
+#~ "installation requires Component Services in order to complete "
+#~ "successfully. Component Services are available on Windows 2000."
+#~ msgstr ""
+#~ "Šajā datorā nav instalēti Komponentu servisi (Component Services) (COM+ "
+#~ "1.0). Lai sekmīgi pabeigtu šo instalāciju, ir nepieciešami Komponentu "
+#~ "servisi. Komponentu servisi ir pieejami sistēmā Windows 2000."
+
+#~ msgid "Configuration completed successfully."
+#~ msgstr "Konfigurēšana veiksmīgi pabeigta."
+
+#~ msgid "Configuration failed."
+#~ msgstr "Konfigurēšana neizdevās."
+
+#~ msgid "Configured [2]"
+#~ msgstr "[2] konfigurēta."
+
+#~ msgid "Could not access network location [2]."
+#~ msgstr "Nevarēja piekļūt tīkla vietai [2]."
+
+#~ msgid ""
+#~ "Could not create key: [2]. {{ System error [3].}} Verify that you have "
+#~ "sufficient access to that key, or contact your support personnel. "
+#~ msgstr ""
+#~ "Nevarēja izveidot atslēgu: [2]. {{Sistēmas kļūda [3].}} Pārbaudiet, vai "
+#~ "jums ir nepieciešamā pieeja šai atslēgai, vai sazinieties ar tehniskā "
+#~ "atbalsta personālu. "
+
+#~ msgid ""
+#~ "Could not create Shortcut [2]. Verify that the destination folder exists "
+#~ "and that you can access it."
+#~ msgstr ""
+#~ "Nevarēja izveidot saīsni [2]. Pārbaudiet, vai pastāv adresāta mape un vai "
+#~ "jūs tai varat piekļūt."
+
+#~ msgid ""
+#~ "Could not delete key [2]. {{ System error [3].}} Verify that you have "
+#~ "sufficient access to that key, or contact your support personnel. "
+#~ msgstr ""
+#~ "Nevarēja dzēst atslēgu: [2]. {{Sistēmas kļūda [3].}} Pārbaudiet, vai jums "
+#~ "ir nepieciešamā pieeja šai atslēgai, vai sazinieties ar tehniskā atbalsta "
+#~ "personālu."
+
+#~ msgid ""
+#~ "Could not delete value [2] from key [3]. {{ System error [4].}} Verify "
+#~ "that you have sufficient access to that key, or contact your support "
+#~ "personnel. "
+#~ msgstr ""
+#~ "Nevarēja dzēst atslēgas [3] vērtību [2]. {{Sistēmas kļūda [4].}} "
+#~ "Pārbaudiet, vai jums ir nepieciešamā pieeja šai atslēgai, vai sazinieties "
+#~ "ar tehniskā atbalsta personālu."
+
+#~ msgid ""
+#~ "Could not find any previously installed compliant products on the machine "
+#~ "for installing this product."
+#~ msgstr ""
+#~ "Datorā, kurā paredzēta instalēšana, nevarēja atrast nevienu agrāk "
+#~ "instalētu atbilstošu produktu."
+
+#~ msgid ""
+#~ "Could not get sub key names for key [2]. {{ System error [3].}} Verify "
+#~ "that you have sufficient access to that key, or contact your support "
+#~ "personnel."
+#~ msgstr ""
+#~ "Nevarēja iegūt atslēgas [2] apakšatslēgu nosaukumus. {{Sistēmas kļūda "
+#~ "[3].}} Pārbaudiet, vai jums ir nepieciešamā pieeja šai atslēgai, vai "
+#~ "sazinieties ar tehniskā atbalsta personālu."
+
+#~ msgid ""
+#~ "Could not get value names for key [2]. {{ System error [3].}} Verify that "
+#~ "you have sufficient access to that key, or contact your support personnel."
+#~ msgstr ""
+#~ "Nevarēja iegūt atslēgas [2] vērtību nosaukumus. {{Sistēmas kļūda [3].}} "
+#~ "Pārbaudiet, vai jums ir nepieciešamā pieeja šai atslēgai, vai sazinieties "
+#~ "ar tehniskā atbalsta personālu."
+
+#~ msgid ""
+#~ "Could not increase the available registry space. [2] KB of free registry "
+#~ "space is required for the installation of this application."
+#~ msgstr ""
+#~ "Nevarēja palielināt pieejamo reģistra vietu. Šīs lietojumprogrammas "
+#~ "instalēšanai ir nepieciešams [2] KB brīvas vietas reģistrā."
+
+#~ msgid ""
+#~ "Could not open key: [2]. {{ System error [3].}} Verify that you have "
+#~ "sufficient access to that key, or contact your support personnel. "
+#~ msgstr ""
+#~ "Nevarēja atvērt atslēgu: [2]. {{Sistēmas kļūda [3].}} Pārbaudiet, vai "
+#~ "jums ir nepieciešamā pieeja šai atslēgai, vai sazinieties ar tehniskā "
+#~ "atbalsta personālu. "
+
+#~ msgid ""
+#~ "Could not read security information for key [2]. {{ System error [3].}} "
+#~ "Verify that you have sufficient access to that key, or contact your "
+#~ "support personnel."
+#~ msgstr ""
+#~ "Nevarēja izlasīt atslēgas [2] drošības informāciju. {{Sistēmas kļūda "
+#~ "[3].}} Pārbaudiet, vai jums ir nepieciešamā pieeja šai atslēgai, vai "
+#~ "sazinieties ar tehniskā atbalsta personālu."
+
+#~ msgid ""
+#~ "Could not read value [2] from key [3]. {{ System error [4].}} Verify that "
+#~ "you have sufficient access to that key, or contact your support "
+#~ "personnel. "
+#~ msgstr ""
+#~ "Nevarēja nolasīt atslēgas [3] vērtību [2]. {{Sistēmas kļūda [4].}} "
+#~ "Pārbaudiet, vai jums ir nepieciešamā pieeja šai atslēgai, vai sazinieties "
+#~ "ar tehniskā atbalsta personālu. "
+
+#~ msgid ""
+#~ "Could not register font [2]. Verify that you have sufficient permissions "
+#~ "to install fonts, and that the system supports this font."
+#~ msgstr ""
+#~ "Nevarēja reģistrēt fontu [2]. Pārbaudiet, vai jums ir nepieciešamās "
+#~ "atļaujas, lai instalētu fontus, un vai sistēma atbalsta šo fontu."
+
+#~ msgid ""
+#~ "Could not register type library for file [2]. Contact your support "
+#~ "personnel."
+#~ msgstr ""
+#~ "Nevarēja reģistrēt faila [2] tipu bibliotēku. Sazinieties ar tehniskā "
+#~ "atbalsta personālu."
+
+#~ msgid ""
+#~ "Could not remove Shortcut [2]. Verify that the shortcut file exists and "
+#~ "that you can access it."
+#~ msgstr ""
+#~ "Nevarēja nodzēst saīsni [2]. Pārbaudiet, vai pastāv šīs saīsnes fails un "
+#~ "vai jūs varat tam piekļūt."
+
+#~ msgid ""
+#~ "Could not schedule file [2] to replace file [3] on reboot. Verify that "
+#~ "you have write permissions to file [3]."
+#~ msgstr ""
+#~ "Nevarēja ieplānot, lai atsāknēšanas laikā fails [3] tiktu nomainīts ar "
+#~ "failu [2]. Pārbaudiet, vai jums ir rakstīšanas atļauja failam [3]."
+
+#~ msgid ""
+#~ "Could not set file security for file '[3]'. Error: [2]. Verify that you "
+#~ "have sufficient privileges to modify the security permissions for this "
+#~ "file."
+#~ msgstr ""
+#~ "Failam '[3]' nevarēja uzstādīt faila drošību. Kļūda: [2]. Pārbaudiet, vai "
+#~ "jums ir nepieciešamās privilēģijas, lai šim failam modificētu drošības "
+#~ "atļaujas."
+
+#~ msgid ""
+#~ "Could not unregister font [2]. Verify that you that you have sufficient "
+#~ "permissions to remove fonts."
+#~ msgstr ""
+#~ "Nevarēja noņemt fonta [2] reģistrāciju. Pārbaudiet, vai jums ir "
+#~ "nepieciešamās atļaujas, lai noņemtu fontus."
+
+#~ msgid ""
+#~ "Could not unregister type library for file [2]. Contact your support "
+#~ "personnel."
+#~ msgstr ""
+#~ "Nevarēja reģistrēt faila [2] tipu bibliotēku. Sazinieties ar tehniskā "
+#~ "atbalsta personālu."
+
+#~ msgid ""
+#~ "Could not update environment variable '[2]'. Verify that you have "
+#~ "sufficient privileges to modify environment variables."
+#~ msgstr ""
+#~ "Nevarēja atjaunināt vides mainīgo '[2]'. Pārbaudiet, vai jums ir "
+#~ "nepieciešamās privilēģijas, lai modificētu vides mainīgos."
+
+#~ msgid ""
+#~ "Could not update the ini file [2][3]. Verify that the file exists and "
+#~ "that you can access it."
+#~ msgstr ""
+#~ "Nevarēja atjaunināt INI failu [2][3]. Pārbaudiet, vai šis fails pastāv un "
+#~ "vai varat tam piekļūt."
+
+#~ msgid ""
+#~ "Could not write value [2] to key [3]. {{ System error [4].}} Verify that "
+#~ "you have sufficient access to that key, or contact your support personnel."
+#~ msgstr ""
+#~ "Atslēgā [3] nevarēja ierakstīt vērtību [2]. {{Sistēmas kļūda [4].}} "
+#~ "Pārbaudiet, vai jums ir nepieciešamā pieeja šai atslēgai, vai sazinieties "
+#~ "ar tehniskā atbalsta personālu."
+
+#~ msgid ""
+#~ "Error accessing secured data. Please make sure the Windows Installer is "
+#~ "configured properly and try the install again."
+#~ msgstr ""
+#~ "Piekļūstot nodrošinātiem datiem, radās kļūda. Lūdzu, pārliecinieties, vai "
+#~ "programma Windows Installer ir pareizi konfigurēta, un mēģiniet instalēt "
+#~ "vēlreiz."
+
+#~ msgid ""
+#~ "Error applying patch to file [2]. It has probably been updated by other "
+#~ "means, and can no longer be modified by this patch. For more information "
+#~ "contact your patch vendor. {{System Error: [3]}}"
+#~ msgstr ""
+#~ "Lietojot ielāpu failam [2], radās kļūda. Iespējams, ka šis fails ir "
+#~ "atjaunināts ar citiem paņēmieniem, un to vairs nevar modificēt, lietojot "
+#~ "šo ielāpu. Lai iegūtu papildinformāciju, sazinieties ar ielāpa "
+#~ "piegādātāju. {{Sistēmas kļūda: [3].}}"
+
+#~ msgid "Error attempting to read from the source install database: [2]."
+#~ msgstr "Mēģinot lasīt no avota instalācijas datu bāzes [2], radās kļūda."
+
+#~ msgid ""
+#~ "Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that "
+#~ "the file [4] exists and that you can access it."
+#~ msgstr ""
+#~ "Radās kļūda, konfigurējot ODBC datu avotu: [4], ODBC kļūda [2]: [3]. "
+#~ "Pārbaudiet, vai pastāv fails [4] un vai varat tam piekļūt."
+
+#~ msgid "Error getting file security: [3] GetLastError: [2]"
+#~ msgstr ""
+#~ "Radās kļūda, izgūstot faila drošības informāciju: [3] GetLastError: [2]."
+
+#~ msgid ""
+#~ "Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your "
+#~ "support personnel."
+#~ msgstr ""
+#~ "Instalējot ODBC draivera pārvaldnieku, radās ODBC kļūda [2]: [3]. "
+#~ "Sazinieties ar tehniskā atbalsta personālu."
+
+#~ msgid ""
+#~ "Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the "
+#~ "file [4] exists and that you can access it."
+#~ msgstr ""
+#~ "Radās kļūda, instalējot ODBC draiveri: [4], ODBC kļūda [2]: [3]. "
+#~ "Pārbaudiet, vai pastāv fails [4] un vai varat tam piekļūt."
+
+#~ msgid ""
+#~ "Error reading from file [2]. {{ System error [3].}} Verify that the file "
+#~ "exists and that you can access it."
+#~ msgstr ""
+#~ "Radās kļūda, lasot no faila [2]. {{ Sistēmas kļūda [3].}} Pārbaudiet, vai "
+#~ "šis fails pastāv un vai varat tam piekļūt."
+
+#~ msgid ""
+#~ "Error reading from file: [2]. {{ System error [3].}} Verify that the file "
+#~ "exists and that you can access it."
+#~ msgstr ""
+#~ "Radās kļūda, lasot no faila: [2]. {{ Sistēmas kļūda [3].}} Pārbaudiet, "
+#~ "vai šis fails pastāv un vai varat tam piekļūt."
+
+#~ msgid ""
+#~ "Error reading from file: [3]. {{ System error [2].}} Verify that the file "
+#~ "exists and that you can access it."
+#~ msgstr ""
+#~ "Radās kļūda, lasot no faila: [3]. {{ Sistēmas kļūda [2].}} Pārbaudiet, "
+#~ "vai šis fails pastāv un vai varat tam piekļūt."
+
+#~ msgid ""
+#~ "Error registering COM+ Application. Contact your support personnel for "
+#~ "more information."
+#~ msgstr ""
+#~ "Reģistrējot COM+ lietojumprogrammu, radās kļūda. Lai iegūtu "
+#~ "papildinformāciju, sazinieties ar tehniskā atbalsta personālu."
+
+#~ msgid ""
+#~ "Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your "
+#~ "support personnel."
+#~ msgstr ""
+#~ "Noņemot ODBC draivera pārvaldnieku, radās ODBC kļūda [2]: [3]. "
+#~ "Sazinieties ar tehniskā atbalsta personālu."
+
+#~ msgid ""
+#~ "Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you "
+#~ "have sufficient privileges to remove ODBC drivers."
+#~ msgstr ""
+#~ "Radās kļūda, noņemot ODBC draiveri: [4], ODBC kļūda [2]: [3]. Pārbaudiet, "
+#~ "vai jums ir nepieciešamās privilēģijas, lai noņemtu ODBC draiverus."
+
+#~ msgid ""
+#~ "Error unregistering COM+ Application. Contact your support personnel for "
+#~ "more information."
+#~ msgstr ""
+#~ "Noņemot COM+ lietojumprogrammas reģistrāciju, radās kļūda. Lai iegūtu "
+#~ "papildinformāciju, sazinieties ar tehniskā atbalsta personālu."
+
+#~ msgid ""
+#~ "Error writing to file: [2]. Verify that you have access to that folder."
+#~ msgstr ""
+#~ "Radās kļūda, rakstot failā: [2]. Pārbaudiet, vai jums ir pieeja šim "
+#~ "direktorijam."
+
+#~ msgid ""
+#~ "Error writing to file: [3]. {{ System error [2].}} Verify that you have "
+#~ "access to that folder."
+#~ msgstr ""
+#~ "Radās kļūda, rakstot failā: [3]. {{ Sistēmas kļūda [2].}} Pārbaudiet, vai "
+#~ "jums ir pieeja šim direktorijam."
+
+#~ msgid ""
+#~ "Failed to cache package [2]. Error: [3]. Contact your support personnel."
+#~ msgstr ""
+#~ "Pakotni [2] neizdevās ierakstīt kešatmiņā. Kļūda: [3]. Sazinieties ar "
+#~ "tehniskā atbalsta personālu."
+
+#~ msgid "Failed to correctly copy [2] file: CRC error."
+#~ msgstr "Neizdevās pareizi nokopēt failu [2]: CRC kļūda."
+
+#~ msgid "Failed to correctly move [2] file: CRC error."
+#~ msgstr "Neizdevās pareizi pārvietot failu [2]: CRC kļūda."
+
+#~ msgid "Failed to correctly patch [2] file: CRC error."
+#~ msgstr "Neizdevās pareizi ielāpot failu [2]: CRC kļūda."
+
+#~ msgid "File [2] was rejected by digital signature policy."
+#~ msgstr "Ciparparaksta politika noraidīja failu [2]."
+
+#~ msgid "Info [1]. "
+#~ msgstr "Informācija [1]. "
+
+#~ msgid "Installation completed successfully."
+#~ msgstr "Instalēšana sekmīgi pabeigta."
+
+#~ msgid "Installation failed."
+#~ msgstr "Instalēšana neizdevās."
+
+#~ msgid "Installed [2]"
+#~ msgstr "[2] instalēta."
+
+#~ msgid "Installer is no longer responding."
+#~ msgstr "Instalēšanas programma vairs neatbild."
+
+#~ msgid "Installer stopped prematurely."
+#~ msgstr "Programma Installer apstājās priekšlaicīgi."
+
+#~ msgid "Invalid Drive: [2]"
+#~ msgstr "Nederīgs diskdzinis: [2]."
+
+#~ msgid "Message type: [1], Argument: [2]"
+#~ msgstr "Ziņojuma tips: [1], arguments: [2]"
+
+#~ msgid ""
+#~ "Module [2] failed to register. HRESULT [3]. Contact your support "
+#~ "personnel."
+#~ msgstr ""
+#~ "Neizdevās reģistrēt moduli [2]. HRESULT [3]. Sazinieties ar tehniskā "
+#~ "atbalsta personālu."
+
+#~ msgid ""
+#~ "Module [2] failed to unregister. HRESULT [3]. Contact your support "
+#~ "personnel."
+#~ msgstr ""
+#~ "Neizdevās noņemt moduļa [2] reģistrāciju. HRESULT [3]. Sazinieties ar "
+#~ "tehniskā atbalsta personālu."
+
+#~ msgid ""
+#~ "One or more of the files required to restore your computer to its "
+#~ "previous state could not be found. Restoration will not be possible."
+#~ msgstr ""
+#~ "Nevarēja atrast vienu vai vairākus failus, kas ir nepieciešami, lai jūsu "
+#~ "datoru atjaunotu iepriekšējā stāvoklī. Atjaunošana nebūs iespējama."
+
+#~ msgid ""
+#~ "Out of disk space -- Volume: '[2]'; required space: [3] KB; available "
+#~ "space: [4] KB. Free some disk space and retry."
+#~ msgstr ""
+#~ "Nepietiek diska vietas -- sējums: '[2]'; nepieciešamā vieta: [3] KB; "
+#~ "pieejamā vieta: [4] KB. Atbrīvojiet diska vietu un mēģiniet vēlreiz."
+
+#~ msgid "Out of memory. Shut down other applications before retrying."
+#~ msgstr ""
+#~ "Nepietiek atmiņas. Aizveriet pārējās lietojumprogrammas un tad mēģiniet "
+#~ "vēlreiz."
+
+#~ msgid "Please insert the disk: [2]"
+#~ msgstr "Lūdzu, ievietojiet disku: [2]"
+
+#~ msgid "Please wait while Windows configures [SimpleProductName]"
+#~ msgstr "Lūdzu, gaidiet, kamēr sistēma Windows konfigurē [SimpleProductName]"
+
+#~ msgid "Preparing to remove older versions of this application..."
+#~ msgstr "Gatavojas dzēst šīs lietojumprogrammas iepriekšējās versijas..."
+
+#~ msgid "Product: [2] -- [3]"
+#~ msgstr "Produkts: [2] -- [3]"
+
+#~ msgid "Removal completed successfully."
+#~ msgstr "Noņemšana veiksmīgi pabeigta."
+
+#~ msgid "Removal failed."
+#~ msgstr "Noņemšana neizdevās."
+
+#~ msgid "Removed [2]"
+#~ msgstr "[2] nodzēsta."
+
+#~ msgid "Removing older versions of this application..."
+#~ msgstr "Notiek šīs lietojumprogrammas iepriekšējo versiju dzēšana..."
+
+#~ msgid ""
+#~ "Scheduling reboot operation: Deleting file [2]. Must reboot to complete "
+#~ "operation."
+#~ msgstr ""
+#~ "Notiek atsāknēšanas operācijas ieplānošana: dzēš failu [2]. Lai pabeigtu "
+#~ "operāciju, nepieciešams atsāknēt."
+
+#~ msgid ""
+#~ "Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to "
+#~ "complete operation."
+#~ msgstr ""
+#~ "Notiek atsāknēšanas operācijas ieplānošana: failu [2] pārdēvē par [3]. "
+#~ "Lai pabeigtu operāciju, nepieciešams atsāknēt."
+
+#~ msgid ""
+#~ "Service '[2]' ([3]) could not be deleted. Verify that you have sufficient "
+#~ "privileges to remove system services."
+#~ msgstr ""
+#~ "Servisu '[2]' ([3]) neizdevās izdzēst. Pārbaudiet, vai jums ir "
+#~ "nepieciešamās privilēģijas, lai noņemtu sistēmas servisus."
+
+#~ msgid ""
+#~ "Service '[2]' ([3]) could not be installed. Verify that you have "
+#~ "sufficient privileges to install system services."
+#~ msgstr ""
+#~ "Servisu '[2]' ([3]) neizdevās instalēt. Pārbaudiet, vai jums ir "
+#~ "nepieciešamās privilēģijas, lai instalētu sistēmas servisus."
+
+#~ msgid ""
+#~ "Service '[2]' ([3]) could not be stopped. Verify that you have sufficient "
+#~ "privileges to stop system services."
+#~ msgstr ""
+#~ "Servisu '[2]' ([3]) neizdevās apturēt. Pārbaudiet, vai jums ir "
+#~ "nepieciešamās privilēģijas, lai apturētu sistēmas servisus."
+
+#~ msgid ""
+#~ "Service '[2]' ([3]) failed to start. Verify that you have sufficient "
+#~ "privileges to start system services."
+#~ msgstr ""
+#~ "Servisa '[2]' ([3]) startēšana neizdevās. Pārbaudiet, vai jums ir "
+#~ "nepieciešamās privilēģijas, lai startētu sistēmas servisus."
+
+#~ msgid ""
+#~ "Source file not found: [2]. Verify that the file exists and that you can "
+#~ "access it."
+#~ msgstr ""
+#~ "Avota fails nav atrasts: [2]. Pārbaudiet, vai šis fails pastāv un vai jūs "
+#~ "varat tam piekļūt."
+
+#~ msgid ""
+#~ "Source file not found{{(cabinet)}}: [2]. Verify that the file exists and "
+#~ "that you can access it."
+#~ msgstr ""
+#~ "Avota fails nav atrasts{{(kabinetfails)}}: [2]. Pārbaudiet, vai šis fails "
+#~ "pastāv un vai jūs varat tam piekļūt."
+
+#~ msgid ""
+#~ "The cabinet file '[2]' required for this installation is corrupt and "
+#~ "cannot be used. This could indicate a network error, an error reading "
+#~ "from the CD-ROM, or a problem with this package."
+#~ msgstr ""
+#~ "Šai instalācijai nepieciešamais kabinetfails '[2]' ir bojāts, un to nevar "
+#~ "izmantot. Iespējams, ka tā ir tīkla kļūda, kompaktdiska lasīšanas kļūda "
+#~ "vai problēma pakotnē."
+
+#~ msgid "The description for service '[2]' ([3]) could not be changed."
+#~ msgstr "Servisa '[2]' ([3]) aprakstu nevarēja mainīt."
+
+#~ msgid ""
+#~ "The file '[2]' cannot be installed because the file cannot be found in "
+#~ "cabinet file '[3]'. This could indicate a network error, an error reading "
+#~ "from the CD-ROM, or a problem with this package."
+#~ msgstr ""
+#~ "Failu '[2]' nevar instalēt, jo tas nav atrodams kabinetfailā '[3]'. "
+#~ "Iespējams, ka tā ir tīkla kļūda, kompaktdiska lasīšanas kļūda vai "
+#~ "problēma pakotnē."
+
+#~ msgid ""
+#~ "The file [2][3] is being held in use{ by the following process: Name: "
+#~ "[4], Id: [5], Window Title: '[6]'}. Close that application and retry."
+#~ msgstr ""
+#~ "Failu [2][3] jau izmanto{ šāds process: nosaukums: [4], ID: [5], loga "
+#~ "nosaukums: '[6]'}. Aizveriet šo lietojumprogrammu un mēģiniet vēlreiz."
+
+#~ msgid ""
+#~ "The folder [2] does not exist. Please enter a path to an existing folder."
+#~ msgstr "Mape [2] nepastāv. Lūdzu, ievadiet ceļu uz esošu mapi."
+
+#~ msgid "The folder path '[2]' contains an invalid character."
+#~ msgstr "Mapes ceļš '[2]' satur nederīgu rakstzīmi."
+
+#~ msgid ""
+#~ "The folder path '[2]' contains words that are not valid in folder paths."
+#~ msgstr "Mapes ceļš '[2]' satur vārdus, kas neder mapju ceļiem."
+
+#~ msgid ""
+#~ "The following applications should be closed before continuing the install:"
+#~ msgstr "Pirms turpināt instalēšanu, ir jāaizver šādas lietojumprogrammas:"
+
+#~ msgid ""
+#~ "The installer has encountered an unexpected error installing this "
+#~ "package. This may indicate a problem with this package. The error code is "
+#~ "[1]. {{The arguments are: [2], [3], [4]}}"
+#~ msgstr ""
+#~ "Instalējot šo pakotni, instalēšanas programma atklāja neparedzētu kļūdu. "
+#~ "Iespējams, ka problēma ir pakotnē. Kļūdas kods: [1]. {{Argumenti: [2], "
+#~ "[3], [4]}}"
+
+#~ msgid ""
+#~ "The installer has insufficient privileges to access this folder: [2]. The "
+#~ "installation cannot continue. Log on as administrator or contact your "
+#~ "system administrator."
+#~ msgstr ""
+#~ "Instalēšanas programmai nav pietiekamu privilēģiju, lai piekļūtu šim "
+#~ "direktorijam: [2]. Instalēšana nevar turpināties. Piesakieties sistēmā kā "
+#~ "administrators vai sazinieties ar sistēmas administratoru."
+
+#~ msgid "The Installer has insufficient privileges to modify this file: [2]."
+#~ msgstr ""
+#~ "Programmai Installer nav nepieciešamo privilēģiju, lai modificētu šo "
+#~ "failu: [2]."
+
+#~ msgid ""
+#~ "The installer must restart your system before configuration of [2] can "
+#~ "continue. Click Yes to restart now or No if you plan to manually restart "
+#~ "later."
+#~ msgstr ""
+#~ "Lai turpinātu [2] konfigurēšanu, instalēšanas programmai ir jārestartē "
+#~ "jūsu sistēma. Noklikšķiniet uz pogas Jā, lai restartētu uzreiz, vai uz "
+#~ "pogas Nē, ja domājat manuāli restartēt vēlāk."
+
+#~ msgid "The key [2] is not valid. Verify that you entered the correct key."
+#~ msgstr "Atslēga [2] nav derīga. Pārbaudiet, vai ievadījāt pareizo atslēgu."
+
+#~ msgid ""
+#~ "The older version of [2] cannot be removed. Contact your technical "
+#~ "support group. {{System Error [3].}}"
+#~ msgstr ""
+#~ "Nevar nodzēst vecāku [2] versiju. Sazinieties ar tehniskā atbalsta grupu. "
+#~ "{{Sistēmas kļūda [3].}}"
+
+#~ msgid "The path [2] is not valid. Please specify a valid path."
+#~ msgstr "Ceļš [2] nav derīgs. Lūdzu, norādiet derīgu ceļu."
+
+#~ msgid ""
+#~ "The product '[2]' is already installed, preventing the installation of "
+#~ "this product. The two products are incompatible."
+#~ msgstr ""
+#~ "Jau instalēts produkts '[2]', un tas neļauj instalēt šo produktu. Šie "
+#~ "divi produkti nav saderīgi."
+
+#~ msgid "The specified path '[2]' is unavailable."
+#~ msgstr "Norādītais ceļš '[2]' nav pieejams."
+
+#~ msgid "The specified path is too long: [2]"
+#~ msgstr "Norādītais ceļš ir pārāk garš: [2]"
+
+#~ msgid "The volume [2] is currently unavailable. Please select another."
+#~ msgstr "Sējums [2] pašreiz nav pieejams. Lūdzu, atlasiet citu."
+
+#~ msgid ""
+#~ "The Windows Installer service cannot update one or more protected Windows "
+#~ "files. {{SFP Error: [2]. List of protected files:\n"
+#~ "[3]}}"
+#~ msgstr ""
+#~ "Windows Installer serviss nevar atjaunināt vienu vai vairākus sistēmas "
+#~ "Windows aizsargātos failus. {{SFP kļūda: [2]. Aizsargāto failu saraksts:\n"
+#~ "[3]}}"
+
+#~ msgid ""
+#~ "The Windows Installer service cannot update the protected Windows file "
+#~ "[2]. {{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
+#~ msgstr ""
+#~ "Windows Installer serviss nevar atjaunināt aizsargātu sistēmas Windows "
+#~ "failu [2]. {{Pakotnes versija: [3], OS aizsargātā faila versija: [4], SFP "
+#~ "kļūda: [5].}}"
+
+#~ msgid ""
+#~ "The Windows Installer service cannot update the system file [2] because "
+#~ "the file is protected by Windows. You may need to update your operating "
+#~ "system for this program to work correctly. {{Package version: [3], OS "
+#~ "Protected version: [4]}}"
+#~ msgstr ""
+#~ "Windows Installer serviss nevar atjaunināt sistēmas failu [2], jo šis ir "
+#~ "sistēmas Windows aizsargāts fails. Lai šī programma darbotos pareizi, "
+#~ "iespējams, ka būs jāatjaunina operētājsistēma. {{Pakotnes versija: [3], "
+#~ "OS aizsargātā faila versija: [4].}}"
+
+#~ msgid ""
+#~ "The Windows Installer Service could not be accessed. This can occur if "
+#~ "you are running Windows in safe mode, or if the Windows Installer is not "
+#~ "correctly installed. Contact your support personnel for assistance."
+#~ msgstr ""
+#~ "Nevarēja piekļūt Windows Installer servisam. Tā var gadīties, ja sistēma "
+#~ "Windows darbojas drošajā režīmā vai Windows Installer nav pareizi "
+#~ "instalēts. Lai saņemtu palīdzību, sazinieties ar atbalsta personālu."
+
+#~ msgid ""
+#~ "There is a problem with this Windows Installer package. A DLL required "
+#~ "for this install to complete could not be run. Contact your support "
+#~ "personnel or package vendor. {{Action [2], entry: [3], library: [4] }}"
+#~ msgstr ""
+#~ "Radušās problēmas ar Windows Installer pakotni. Nevarēja palaist šīs "
+#~ "instalācijas pabeigšanai nepieciešamo DLL. Sazinieties ar atbalsta "
+#~ "personālu vai pakotnes piegādātāju. {{Darbība [2], ievadne: [3], "
+#~ "bibliotēka: [4]}}"
+
+#~ msgid ""
+#~ "There is a problem with this Windows Installer package. A program "
+#~ "required for this install to complete could not be run. Contact your "
+#~ "support personnel or package vendor. {{Action: [2], location: [3], "
+#~ "command: [4] }}"
+#~ msgstr ""
+#~ "Radušās problēmas ar Windows Installer pakotni. Nevarēja palaist šīs "
+#~ "instalācijas pabeigšanai nepieciešamo programmu. Sazinieties ar atbalsta "
+#~ "personālu vai pakotnes piegādātāju. {{Darbība: [2], atrašanās vieta: [3], "
+#~ "komanda: [4]}}"
+
+#~ msgid ""
+#~ "There is a problem with this Windows Installer package. A program run as "
+#~ "part of the setup did not finish as expected. Contact your support "
+#~ "personnel or package vendor. {{Action [2], location: [3], command: [4] }}"
+#~ msgstr ""
+#~ "Radušās problēmas ar Windows Installer pakotni. Programma, kas tika "
+#~ "izpildīta kā šīs uzstādīšanas daļa, netika pabeigta, kā paredzēts. "
+#~ "Sazinieties ar atbalsta personālu vai pakotnes piegādātāju. {{Darbība "
+#~ "[2], atrašanās vieta: [3], komanda: [4]}}"
+
+#~ msgid ""
+#~ "There is a problem with this Windows Installer package. A script required "
+#~ "for this install to complete could not be run. Contact your support "
+#~ "personnel or package vendor. {{Custom action [2] script error [3], [4]: "
+#~ "[5] Line [6], Column [7], [8] }}"
+#~ msgstr ""
+#~ "Radušās problēmas ar Windows Installer pakotni. Nevarēja palaist šīs "
+#~ "instalācijas pabeigšanai nepieciešamu skriptu. Sazinieties ar atbalsta "
+#~ "personālu vai pakotnes piegādātāju. {{Pielāgotas darbības [2] skripta "
+#~ "kļūda [3], [4]: [5] rinda [6], kolonna [7], [8]}}"
+
+#~ msgid ""
+#~ "There is no disk in drive [2]. Please insert one and click Retry, or "
+#~ "click Cancel to go back to the previously selected volume."
+#~ msgstr ""
+#~ "Diskdzinī [2] nav diska. Lūdzu, ievietojiet disku un noklikšķiniet uz "
+#~ "Mēģināt vēlreiz vai noklikšķiniet uz Atcelt, lai atgrieztos pie iepriekš "
+#~ "atlasītā sējuma."
+
+#~ msgid ""
+#~ "There is no disk in drive [2]. Please insert one and click Retry, or "
+#~ "click Cancel to return to the browse dialog and select a different volume."
+#~ msgstr ""
+#~ "Diskdzinī [2] nav diska. Lūdzu, ievietojiet disku un noklikšķiniet uz "
+#~ "Mēģināt vēlreiz, vai noklikšķiniet uz Atcelt, lai atgrieztos pārlūkošanas "
+#~ "dialogā un atlasītu citu sējumu."
+
+#~ msgid ""
+#~ "There is not enough disk space on the volume '[2]' to continue the "
+#~ "install with recovery enabled. [3] KB are required, but only [4] KB are "
+#~ "available. Click Ignore to continue the install without saving recovery "
+#~ "information, click Retry to check for available space again, or click "
+#~ "Cancel to quit the installation."
+#~ msgstr ""
+#~ "Sējumā '[2]' nepietiek diska vietas, lai turpinātu instalēšanu, "
+#~ "saglabājot iespējotu atkopšanu. Nepieciešami [3] KB, bet pieejami tikai "
+#~ "[4] KB. Noklikšķiniet uz Ignorēt, lai turpinātu instalēšanu, nesaglabājot "
+#~ "atkopšanas informāciju, uz Mēģināt vēlreiz, lai vēlreiz pārbaudītu "
+#~ "pieejamo diska vietu, vai uz Atcelt, lai pārtrauktu instalēšanu."
+
+#~ msgid ""
+#~ "There is not enough disk space to install this file: [2]. Free some disk "
+#~ "space and click Retry, or click Cancel to exit."
+#~ msgstr ""
+#~ "Nepietiek diska vietas, lai instalētu šo failu: [2]. Atbrīvojiet nedaudz "
+#~ "diska vietas un noklikšķiniet uz Mēģināt vēlreiz, vai noklikšķiniet uz "
+#~ "Atcelt, lai izietu."
+
+#~ msgid ""
+#~ "There was an error creating a temporary file that is needed to complete "
+#~ "this installation.{{ Folder: [3]. System error code: [2]}}"
+#~ msgstr ""
+#~ "Veidojot instalācijas pabeigšanai nepieciešamo pagaidu failu, radās "
+#~ "kļūda. {{Mape: [3]. Sistēmas kļūdas kods: [2]}}"
+
+#~ msgid "Unable to write to the specified folder: [2]."
+#~ msgstr "Nav iespējams rakstīt norādītajā mapē: [2]."
+
+#~ msgid ""
+#~ "User '[2]' has previously initiated an install for product '[3]'. That "
+#~ "user will need to run that install again before they can use that product."
+#~ msgstr ""
+#~ "Produkta '[3]' instalēšanu uzsāka lietotājs '[2]'. Šim lietotājam "
+#~ "instalācija būs jāveic vēlreiz, un tad viņš varēs lietot šo produktu."
+
+#~ msgid ""
+#~ "User '[2]' has previously initiated an install for product '[3]'. That "
+#~ "user will need to run that install again before they can use that "
+#~ "product. Your current install will now continue."
+#~ msgstr ""
+#~ "Produkta '[3]' instalēšanu uzsāka lietotājs '[2]'. Šim lietotājam "
+#~ "instalācija būs jāveic vēlreiz, un tad viņš varēs lietot šo produktu. "
+#~ "Tagad turpināsies pašreizējais instalēšanas process."
+
+#~ msgid "User installations are disabled via policy on the machine."
+#~ msgstr ""
+#~ "Lietotāju instalācijas ir atspējotas, izmantojot datorā esošo politiku."
+
+#~ msgid "Warning [1]. "
+#~ msgstr "Brīdinājums [1]. "
+
+#~ msgid ""
+#~ "You do not have sufficient privileges to complete this installation for "
+#~ "all users of the machine. Log on as administrator and then retry this "
+#~ "installation."
+#~ msgstr ""
+#~ "Jums nav nepieciešamo privilēģiju, lai pabeigtu šo instalēšanu visiem "
+#~ "datora lietotājiem. Piesakieties sistēmā kā administrators un mēģiniet "
+#~ "veikt šo instalēšanu vēlreiz."
+
+#~ msgid "You have insufficient privileges to read this folder."
+#~ msgstr "Jums nav nepieciešamo privilēģiju, lai lasītu šo mapi."
+
+#~ msgid ""
+#~ "You may either restore your computer to its previous state or continue "
+#~ "the install later. Would you like to restore?"
+#~ msgstr ""
+#~ "Jūs varat vai nu atjaunot datora iepriekšējo stāvokli, vai turpināt "
+#~ "instalēšanu vēlāk. Vai vēlaties atjaunot?"
+
+#~ msgid ""
+#~ "You must be an Administrator to remove this application. To remove this "
+#~ "application, you can log on as an Administrator, or contact your "
+#~ "technical support group for assistance."
+#~ msgstr ""
+#~ "Lai noņemtu šo lietojumprogrammu, jums jābūt administratoram. Lai noņemtu "
+#~ "lietojumprogrammu, piesakieties kā administrators, vai sazinieties ar "
+#~ "tehniskā atbalsta grupu, lai saņemtu palīdzību."
+
+#~ msgid ""
+#~ "You must restart your system for the configuration changes made to [2] to "
+#~ "take effect. Click Yes to restart now or No if you plan to manually "
+#~ "restart later."
+#~ msgstr ""
+#~ "Lai stātos spēkā veiktās programmas [2] konfigurācijas izmaiņas, ir "
+#~ "jārestartē jūsu sistēma. Noklikšķiniet uz pogas Jā, lai restartētu "
+#~ "uzreiz, vai uz pogas Nē, ja domājat manuāli restartēt vēlāk."
