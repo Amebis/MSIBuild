@@ -105,7 +105,7 @@ msgstr ""
 "Der opstod en fejl ved skrivning af installationsoplysninger til disken. "
 "Kontroller, at der er tilstrækkelig diskplads til rådighed, og klik på "
 "Fors{__o /}g igen, eller klik på Annuller for at afbryde "
-"installationsprogrammet."
+"installationsprogramt."
 
 #: UI/En.Win32.Debug.Control-2.idtx:83 UI/En.Win32.Debug.Control-2.idtx:92
 #: UI/En.Win32.Debug.Control-2.idtx:98 UI/En.Win32.Release.Control-2.idtx:83
@@ -268,7 +268,7 @@ msgstr "[SimpleProductName] Installationen er gennemf{__o /}rt."
 #: UI/En.x64.Debug.Control-2.idtx:117 UI/En.x64.Release.Control-2.idtx:117
 msgid ""
 "[SimpleProductName] setup ended prematurely because of an error. Therefore, "
-"the programme was not installed. Your system has not been modified."
+"the program was not installed. Your system has not been modified."
 msgstr ""
 
 #: Core/En.Win32.Debug.Error-2.idtx:29 Core/En.Win32.Release.Error-2.idtx:29
@@ -280,7 +280,7 @@ msgstr "[SimpleProductName] Installationen mislykkedes."
 #: UI/En.x64.Debug.Control-2.idtx:112 UI/En.x64.Release.Control-2.idtx:112
 msgid ""
 "[SimpleProductName] setup was interrupted on your request. Therefore, the "
-"programme was not installed. Your system has not been modified."
+"program was not installed. Your system has not been modified."
 msgstr ""
 
 #: UI/En.Win32.Debug.Control-2.idtx:89 UI/En.Win32.Release.Control-2.idtx:89
@@ -424,7 +424,7 @@ msgid ""
 "changes?"
 msgstr ""
 "En tidligere installation af dette produkt er i gang. Du skal annullere "
-"ændringerne foretaget af installationsprogrammet for at fortsætte. Vil du "
+"ændringerne foretaget af installationsprogramt for at fortsætte. Vil du "
 "annullere disse ændringer?"
 
 #: Core/En.Win32.Debug.Error-2.idtx:127 Core/En.Win32.Release.Error-2.idtx:127
@@ -486,7 +486,7 @@ msgstr ""
 #: UI/En.Win32.Debug.Control-2.idtx:18 UI/En.Win32.Release.Control-2.idtx:18
 msgid ""
 "Although, 32-bit variant should work with your operating system, this "
-"programme is also available as 64-bit variant, which is more appropriate for "
+"program is also available as 64-bit variant, which is more appropriate for "
 "your operating system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
@@ -530,7 +530,7 @@ msgstr ""
 "Der opstod en fejl ved skrivning af installationsoplysninger til disken. "
 "Kontroller, at der er tilstrækkelig diskplads til rådighed, og klik på "
 "Fors{__o /}g igen, eller klik på Annuller for at afbryde "
-"installationsprogrammet."
+"installationsprogramt."
 
 #: Core/En.Win32.Debug.Error-2.idtx:94 Core/En.Win32.Release.Error-2.idtx:94
 #: Core/En.x64.Debug.Error-2.idtx:94 Core/En.x64.Release.Error-2.idtx:94
@@ -539,7 +539,7 @@ msgid ""
 "made by that installation to continue. Do you want to undo those changes?"
 msgstr ""
 "En installation for [2] er for {__o /}jeblikket sat ud af kraft. Du skal "
-"annullere ændringerne foretaget af installationsprogrammet for at fortsætte. "
+"annullere ændringerne foretaget af installationsprogramt for at fortsætte. "
 "Vil du annullere disse ændringer?"
 
 #: Core/En.Win32.Debug.Error-2.idtx:96 Core/En.Win32.Release.Error-2.idtx:96
@@ -549,7 +549,7 @@ msgid ""
 "installation again using a valid copy of the installation package '[3]'."
 msgstr ""
 "Installationspakken til produktet [2] kunne ikke findes. Pr{__o /}v at "
-"starte installationsprogrammet igen ved hjælp af et gyldigt eksemplar af "
+"starte installationsprogramt igen ved hjælp af et gyldigt eksemplar af "
 "installationspakken '[3]'."
 
 #: Core/En.Win32.Debug.Error-2.idtx:36 Core/En.Win32.Release.Error-2.idtx:36
@@ -559,7 +559,7 @@ msgid ""
 "all other applications, then click Retry."
 msgstr ""
 "Et andet program har udelt adgang til filen '[2]'. Afslut alle andre "
-"programmer, og klik på Fors{__o /}g igen."
+"programr, og klik på Fors{__o /}g igen."
 
 #: Core/En.Win32.Debug.Error-2.idtx:77 Core/En.Win32.Release.Error-2.idtx:77
 #: Core/En.x64.Debug.Error-2.idtx:77 Core/En.x64.Release.Error-2.idtx:77
@@ -884,7 +884,7 @@ msgid ""
 "space is required for the installation of this application."
 msgstr ""
 "Der kunne ikke skaffes mere plads i registreringsdatabasen. [2] KB ledig "
-"registreringsplads er n{__o /}dvendig for installationen af programmet."
+"registreringsplads er n{__o /}dvendig for installationen af programt."
 
 #: Core/En.Win32.Debug.Error-2.idtx:68 Core/En.Win32.Release.Error-2.idtx:68
 #: Core/En.x64.Debug.Error-2.idtx:68 Core/En.x64.Release.Error-2.idtx:68
@@ -1038,7 +1038,7 @@ msgstr "Opretter genveje"
 #: UI/En.Win32.Release.ActionText-2.idtx:13
 #: UI/En.x64.Debug.ActionText-2.idtx:13 UI/En.x64.Release.ActionText-2.idtx:13
 msgid "Deleting services"
-msgstr "Sletter serviceprogrammer"
+msgstr "Sletter serviceprogramr"
 
 #: UI/En.Win32.Debug.ControlEvent-2.idtx:4
 #: UI/En.Win32.Debug.ControlEvent-2.idtx:5
@@ -1148,7 +1148,7 @@ msgid ""
 "Error registering COM+ Application. Contact your support personnel for more "
 "information."
 msgstr ""
-"Der opstod en fejl under registreringen af programmet til COM+. Kontakt "
+"Der opstod en fejl under registreringen af programt til COM+. Kontakt "
 "supportteknikerne."
 
 #: Core/En.Win32.Debug.Error-2.idtx:142 Core/En.Win32.Release.Error-2.idtx:142
@@ -1176,7 +1176,7 @@ msgid ""
 "more information."
 msgstr ""
 "Der opstod en fejl under fjernelsen af registreringsoplysninger om "
-"programmet til COM+. Kontakt supportteknikerne."
+"programt til COM+. Kontakt supportteknikerne."
 
 #: Core/En.Win32.Debug.Error-2.idtx:34 Core/En.Win32.Release.Error-2.idtx:34
 #: Core/En.x64.Debug.Error-2.idtx:34 Core/En.x64.Release.Error-2.idtx:34
@@ -1436,18 +1436,18 @@ msgstr ""
 #: Core/En.Win32.Debug.Error-2.idtx:22 Core/En.Win32.Release.Error-2.idtx:22
 #: Core/En.x64.Debug.Error-2.idtx:22 Core/En.x64.Release.Error-2.idtx:22
 msgid "Installer is no longer responding."
-msgstr "Installationsprogrammet svarer ikke mere."
+msgstr "Installationsprogramt svarer ikke mere."
 
 #: Core/En.Win32.Debug.Error-2.idtx:23 Core/En.Win32.Release.Error-2.idtx:23
 #: Core/En.x64.Debug.Error-2.idtx:23 Core/En.x64.Release.Error-2.idtx:23
 msgid "Installer stopped prematurely."
-msgstr "Installationsprogrammet stoppede f{__o /}r tid."
+msgstr "Installationsprogramt stoppede f{__o /}r tid."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:21
 #: UI/En.Win32.Release.ActionText-2.idtx:21
 #: UI/En.x64.Debug.ActionText-2.idtx:21 UI/En.x64.Release.ActionText-2.idtx:21
 msgid "Installing new services"
-msgstr "Installerer nye serviceprogrammer"
+msgstr "Installerer nye serviceprogramr"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:20
 #: UI/En.Win32.Release.ActionText-2.idtx:20
@@ -1464,7 +1464,7 @@ msgstr "Systemkataloget installeres"
 #: UI/En.Win32.Debug.Control-2.idtx:14 UI/En.Win32.Release.Control-2.idtx:14
 #: UI/En.x64.Debug.Control-2.idtx:14 UI/En.x64.Release.Control-2.idtx:14
 msgid ""
-"Installs the most common programme features. Recommended for most users.|"
+"Installs the most common program features. Recommended for most users.|"
 msgstr ""
 
 #: Core/En.Win32.Debug.Error-2.idtx:57 Core/En.Win32.Release.Error-2.idtx:57
@@ -1510,7 +1510,7 @@ msgstr "Meddelelsestype: [1], Argument: [2]"
 #: UI/En.Win32.Release.ActionText-2.idtx:25
 #: UI/En.x64.Debug.ActionText-2.idtx:25 UI/En.x64.Release.ActionText-2.idtx:25
 msgid "Migrating feature states from related applications"
-msgstr "Overf{__o /}rer funktionsindstillinger fra relaterede programmer"
+msgstr "Overf{__o /}rer funktionsindstillinger fra relaterede programr"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:38
 #: UI/En.Win32.Debug.ActionText-2.idtx:68
@@ -1605,7 +1605,7 @@ msgstr ""
 #: Core/En.x64.Release.Error-2.idtx:122 Core/En.x64.Release.Error-2.idtx:21
 msgid "Out of memory. Shut down other applications before retrying."
 msgstr ""
-"Der er ikke mere hukommelse. Luk de andre programmer, f{__o /}r du pr{__o /}"
+"Der er ikke mere hukommelse. Luk de andre programr, f{__o /}r du pr{__o /}"
 "ver igen."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:29
@@ -1632,7 +1632,7 @@ msgstr "Vent, mens Windows konfigurerer [SimpleProductName]"
 #: Core/En.Win32.Debug.Error-2.idtx:27 Core/En.Win32.Release.Error-2.idtx:27
 #: Core/En.x64.Debug.Error-2.idtx:27 Core/En.x64.Release.Error-2.idtx:27
 msgid "Preparing to remove older versions of this application..."
-msgstr "Forbereder afinstallationen af ældre versioner af programmet..."
+msgstr "Forbereder afinstallationen af ældre versioner af programt..."
 
 #: Core/En.Win32.Debug.Error-2.idtx:99 Core/En.Win32.Release.Error-2.idtx:99
 #: Core/En.x64.Debug.Error-2.idtx:99 Core/En.x64.Release.Error-2.idtx:99
@@ -1696,7 +1696,7 @@ msgstr "Registrerer klasseservere"
 #: UI/En.Win32.Release.ActionText-2.idtx:35
 #: UI/En.x64.Debug.ActionText-2.idtx:35 UI/En.x64.Release.ActionText-2.idtx:35
 msgid "Registering COM+ Applications and Components"
-msgstr "Registrerer programmer og komponenter til COM+"
+msgstr "Registrerer programr og komponenter til COM+"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:36
 #: UI/En.Win32.Release.ActionText-2.idtx:36
@@ -1731,7 +1731,7 @@ msgstr "Registrerer produkt"
 #: UI/En.Win32.Debug.ActionText-2.idtx:40
 #: UI/En.Win32.Release.ActionText-2.idtx:40
 #: UI/En.x64.Debug.ActionText-2.idtx:40 UI/En.x64.Release.ActionText-2.idtx:40
-msgid "Registering programme identifiers"
+msgid "Registering program identifiers"
 msgstr "Registrerer program-id'er."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:41
@@ -1781,7 +1781,7 @@ msgstr "Fjerner poster for INI-filer"
 #: UI/En.Win32.Release.ActionText-2.idtx:45
 #: UI/En.x64.Debug.ActionText-2.idtx:45 UI/En.x64.Release.ActionText-2.idtx:45
 msgid "Removing applications"
-msgstr "Fjerner programmer"
+msgstr "Fjerner programr"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:54
 #: UI/En.Win32.Release.ActionText-2.idtx:54
@@ -1828,7 +1828,7 @@ msgstr "Fjerner ODBC-komponenter"
 #: Core/En.Win32.Debug.Error-2.idtx:26 Core/En.Win32.Release.Error-2.idtx:26
 #: Core/En.x64.Debug.Error-2.idtx:26 Core/En.x64.Release.Error-2.idtx:26
 msgid "Removing older versions of this application..."
-msgstr "Fjerner ældre versioner af programmet..."
+msgstr "Fjerner ældre versioner af programt..."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:51
 #: UI/En.Win32.Release.ActionText-2.idtx:51
@@ -1889,7 +1889,7 @@ msgstr ""
 #: UI/En.Win32.Release.ActionText-2.idtx:6 UI/En.x64.Debug.ActionText-2.idtx:6
 #: UI/En.x64.Release.ActionText-2.idtx:6
 msgid "Searching for installed applications"
-msgstr "S{__o /}ger efter allerede installerede programmer"
+msgstr "S{__o /}ger efter allerede installerede programr"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:52 UI/En.Win32.Debug.ActionText-2.idtx:8
 #: UI/En.Win32.Release.ActionText-2.idtx:52
@@ -1903,7 +1903,7 @@ msgstr "S{__o /}ger efter godkendte produkter, der berettiger til opgradering"
 #: UI/En.Win32.Release.ActionText-2.idtx:16
 #: UI/En.x64.Debug.ActionText-2.idtx:16 UI/En.x64.Release.ActionText-2.idtx:16
 msgid "Searching for related applications"
-msgstr "S{__o /}ger efter relaterede programmer"
+msgstr "S{__o /}ger efter relaterede programr"
 
 #: Core/En.Win32.Debug.Error-2.idtx:149 Core/En.Win32.Release.Error-2.idtx:149
 #: Core/En.x64.Debug.Error-2.idtx:149 Core/En.x64.Release.Error-2.idtx:149
@@ -1911,8 +1911,8 @@ msgid ""
 "Service '[2]' ([3]) could not be deleted. Verify that you have sufficient "
 "privileges to remove system services."
 msgstr ""
-"Serviceprogrammet '[2]' ([3]) kunne ikke slettes. Kontroller, at du har de "
-"n{__o /}dvendige rettigheder til at fjerne systemserviceprogrammer."
+"Serviceprogramt '[2]' ([3]) kunne ikke slettes. Kontroller, at du har de "
+"n{__o /}dvendige rettigheder til at fjerne systemserviceprogramr."
 
 #: Core/En.Win32.Debug.Error-2.idtx:150 Core/En.Win32.Release.Error-2.idtx:150
 #: Core/En.x64.Debug.Error-2.idtx:150 Core/En.x64.Release.Error-2.idtx:150
@@ -1920,8 +1920,8 @@ msgid ""
 "Service '[2]' ([3]) could not be installed. Verify that you have sufficient "
 "privileges to install system services."
 msgstr ""
-"Serviceprogrammet '[2]' ([3]) kunne ikke installeres. Kontroller, at du har "
-"de n{__o /}dvendige rettigheder til at installere systemserviceprogrammer."
+"Serviceprogramt '[2]' ([3]) kunne ikke installeres. Kontroller, at du har "
+"de n{__o /}dvendige rettigheder til at installere systemserviceprogramr."
 
 #: Core/En.Win32.Debug.Error-2.idtx:148 Core/En.Win32.Release.Error-2.idtx:148
 #: Core/En.x64.Debug.Error-2.idtx:148 Core/En.x64.Release.Error-2.idtx:148
@@ -1929,8 +1929,8 @@ msgid ""
 "Service '[2]' ([3]) could not be stopped. Verify that you have sufficient "
 "privileges to stop system services."
 msgstr ""
-"Serviceprogrammet '[2]' ([3]) kunne ikke afsluttes. Kontroller, at du har de "
-"n{__o /}dvendige rettigheder til at afslutte systemserviceprogrammer."
+"Serviceprogramt '[2]' ([3]) kunne ikke afsluttes. Kontroller, at du har de "
+"n{__o /}dvendige rettigheder til at afslutte systemserviceprogramr."
 
 #: Core/En.Win32.Debug.Error-2.idtx:147 Core/En.Win32.Release.Error-2.idtx:147
 #: Core/En.x64.Debug.Error-2.idtx:147 Core/En.x64.Release.Error-2.idtx:147
@@ -1938,8 +1938,8 @@ msgid ""
 "Service '[2]' ([3]) failed to start. Verify that you have sufficient "
 "privileges to start system services."
 msgstr ""
-"Serviceprogrammet '[2]' ([3]) kunne ikke starte. Kontroller, at du har de "
-"n{__o /}dvendige rettigheder til at starte systemserviceprogrammer."
+"Serviceprogramt '[2]' ([3]) kunne ikke starte. Kontroller, at du har de "
+"n{__o /}dvendige rettigheder til at starte systemserviceprogramr."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:13
 #: UI/En.Win32.Debug.ActionText-2.idtx:58
@@ -1998,13 +1998,13 @@ msgstr ""
 #: UI/En.Win32.Release.ActionText-2.idtx:58
 #: UI/En.x64.Debug.ActionText-2.idtx:58 UI/En.x64.Release.ActionText-2.idtx:58
 msgid "Starting services"
-msgstr "Starter serviceprogrammer"
+msgstr "Starter serviceprogramr"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:59
 #: UI/En.Win32.Release.ActionText-2.idtx:59
 #: UI/En.x64.Debug.ActionText-2.idtx:59 UI/En.x64.Release.ActionText-2.idtx:59
 msgid "Stopping services"
-msgstr "Stopper serviceprogrammer"
+msgstr "Stopper serviceprogramr"
 
 #: Core/En.Win32.Debug.Error-2.idtx:65 Core/En.Win32.Release.Error-2.idtx:65
 #: Core/En.x64.Debug.Error-2.idtx:65 Core/En.x64.Release.Error-2.idtx:65
@@ -2020,7 +2020,7 @@ msgstr ""
 #: Core/En.Win32.Debug.Error-2.idtx:157 Core/En.Win32.Release.Error-2.idtx:157
 #: Core/En.x64.Debug.Error-2.idtx:157 Core/En.x64.Release.Error-2.idtx:157
 msgid "The description for service '[2]' ([3]) could not be changed."
-msgstr "Beskrivelsen af serviceprogrammet '[2]' ([3]) kunne ikke ændres."
+msgstr "Beskrivelsen af serviceprogramt '[2]' ([3]) kunne ikke ændres."
 
 #: Core/En.Win32.Debug.Error-2.idtx:64 Core/En.Win32.Release.Error-2.idtx:64
 #: Core/En.x64.Debug.Error-2.idtx:64 Core/En.x64.Release.Error-2.idtx:64
@@ -2040,7 +2040,7 @@ msgid ""
 "Id: [5], Window Title: '[6]'}. Close that application and retry."
 msgstr ""
 "Filen [2][3] holdes i brug{ af f{__o /}lgende proces: navn: [4], id: [5], "
-"vinduestitel: '[6]'}. Luk programmet, og pr{__o /}v igen."
+"vinduestitel: '[6]'}. Luk programt, og pr{__o /}v igen."
 
 #: Core/En.Win32.Debug.Error-2.idtx:125 Core/En.Win32.Release.Error-2.idtx:125
 #: Core/En.x64.Debug.Error-2.idtx:125 Core/En.x64.Release.Error-2.idtx:125
@@ -2073,7 +2073,7 @@ msgstr ""
 msgid ""
 "The following applications should be closed before continuing the install:"
 msgstr ""
-"F{__o /}lgende programmer skal lukkes, f{__o /}r du fortsætter "
+"F{__o /}lgende programr skal lukkes, f{__o /}r du fortsætter "
 "installationen:"
 
 #: UI/En.Win32.Debug.Control-2.idtx:75 UI/En.Win32.Debug.Control-2.idtx:80
@@ -2105,15 +2105,15 @@ msgid ""
 "installation cannot continue. Log on as administrator or contact your system "
 "administrator."
 msgstr ""
-"Installationsprogrammet har ikke de n{__o /}dvendige rettigheder til at åbne "
-"denne mappe: [2]. Installationsprogrammet kan ikke fortsætte. Log på som "
+"Installationsprogramt har ikke de n{__o /}dvendige rettigheder til at åbne "
+"denne mappe: [2]. Installationsprogramt kan ikke fortsætte. Log på som "
 "administrator, eller kontakt systemadministratoren."
 
 #: Core/En.Win32.Debug.Error-2.idtx:51 Core/En.Win32.Release.Error-2.idtx:51
 #: Core/En.x64.Debug.Error-2.idtx:51 Core/En.x64.Release.Error-2.idtx:51
 msgid "The Installer has insufficient privileges to modify this file: [2]."
 msgstr ""
-"Installationsprogrammet har ikke de n{__o /}dvendige rettigheder til at "
+"Installationsprogramt har ikke de n{__o /}dvendige rettigheder til at "
 "ændre filen: [2]."
 
 #: Core/En.Win32.Debug.Error-2.idtx:92 Core/En.Win32.Release.Error-2.idtx:92
@@ -2123,7 +2123,7 @@ msgid ""
 "continue. Click Yes to restart now or No if you plan to manually restart "
 "later."
 msgstr ""
-"Installationsprogrammet skal genstarte dit system, f{__o /}r konfiguration "
+"Installationsprogramt skal genstarte dit system, f{__o /}r konfiguration "
 "af [2] kan fortsætte. Klik på Ja for at genstarte nu eller Nej, hvis du vil "
 "genstarte manuelt senere."
 
@@ -2203,7 +2203,7 @@ msgstr ""
 msgid ""
 "The Windows Installer service cannot update the system file [2] because the "
 "file is protected by Windows. You may need to update your operating system "
-"for this programme to work correctly. {{Package version: [3], OS Protected "
+"for this program to work correctly. {{Package version: [3], OS Protected "
 "version: [4]}}"
 msgstr ""
 "Windows Installer kan ikke opgradere systemfilen [2], fordi filen er "
@@ -2238,7 +2238,7 @@ msgstr ""
 #: Core/En.Win32.Debug.Error-2.idtx:111 Core/En.Win32.Release.Error-2.idtx:111
 #: Core/En.x64.Debug.Error-2.idtx:111 Core/En.x64.Release.Error-2.idtx:111
 msgid ""
-"There is a problem with this Windows Installer package. A programme required "
+"There is a problem with this Windows Installer package. A program required "
 "for this install to complete could not be run. Contact your support "
 "personnel or package vendor. {{Action: [2], location: [3], command: [4] }}"
 msgstr ""
@@ -2250,7 +2250,7 @@ msgstr ""
 #: Core/En.Win32.Debug.Error-2.idtx:112 Core/En.Win32.Release.Error-2.idtx:112
 #: Core/En.x64.Debug.Error-2.idtx:112 Core/En.x64.Release.Error-2.idtx:112
 msgid ""
-"There is a problem with this Windows Installer package. A programme run as "
+"There is a problem with this Windows Installer package. A program run as "
 "part of the setup did not finish as expected. Contact your support personnel "
 "or package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
@@ -2400,7 +2400,7 @@ msgstr "Fjerner registreringen af klasseservere"
 #: UI/En.Win32.Release.ActionText-2.idtx:65
 #: UI/En.x64.Debug.ActionText-2.idtx:65 UI/En.x64.Release.ActionText-2.idtx:65
 msgid "Unregistering COM+ Applications and Components"
-msgstr "Fjerner registrering af programmer og komponenter til COM+"
+msgstr "Fjerner registrering af programr og komponenter til COM+"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:66
 #: UI/En.Win32.Release.ActionText-2.idtx:66
@@ -2429,7 +2429,7 @@ msgstr "Fjerner registreringen af moduler"
 #: UI/En.Win32.Debug.ActionText-2.idtx:69
 #: UI/En.Win32.Release.ActionText-2.idtx:69
 #: UI/En.x64.Debug.ActionText-2.idtx:69 UI/En.x64.Release.ActionText-2.idtx:69
-msgid "Unregistering programme identifiers"
+msgid "Unregistering program identifiers"
 msgstr "Fjerner registreringen af program-id'er"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:70
@@ -2697,7 +2697,7 @@ msgstr ""
 msgid "KB"
 msgstr ""
 "Der kunne ikke skaffes mere plads i registreringsdatabasen. [2] KB ledig "
-"registreringsplads er n{__o /}dvendig for installationen af programmet."
+"registreringsplads er n{__o /}dvendig for installationen af programt."
 
 #: UI/En.Win32.Debug.UIText-2.idtx:8 UI/En.Win32.Release.UIText-2.idtx:8
 #: UI/En.x64.Debug.UIText-2.idtx:8 UI/En.x64.Release.UIText-2.idtx:8
@@ -2707,7 +2707,7 @@ msgstr ""
 #: UI/En.Win32.Debug.RadioButton-2.idtx:6
 #: UI/En.Win32.Release.RadioButton-2.idtx:6
 #: UI/En.x64.Debug.RadioButton-2.idtx:6 UI/En.x64.Release.RadioButton-2.idtx:6
-msgid "Removes the programme from your computer.|"
+msgid "Removes the program from your computer.|"
 msgstr ""
 
 #: UI/En.Win32.Debug.RadioButton-2.idtx:5

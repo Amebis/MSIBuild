@@ -268,7 +268,7 @@ msgstr "Installazione di [SimpleProductName] completata."
 #: UI/En.x64.Debug.Control-2.idtx:117 UI/En.x64.Release.Control-2.idtx:117
 msgid ""
 "[SimpleProductName] setup ended prematurely because of an error. Therefore, "
-"the programme was not installed. Your system has not been modified."
+"the program was not installed. Your system has not been modified."
 msgstr ""
 
 #: Core/En.Win32.Debug.Error-2.idtx:29 Core/En.Win32.Release.Error-2.idtx:29
@@ -280,7 +280,7 @@ msgstr "Installazione di [SimpleProductName] non riuscita."
 #: UI/En.x64.Debug.Control-2.idtx:112 UI/En.x64.Release.Control-2.idtx:112
 msgid ""
 "[SimpleProductName] setup was interrupted on your request. Therefore, the "
-"programme was not installed. Your system has not been modified."
+"program was not installed. Your system has not been modified."
 msgstr ""
 
 #: UI/En.Win32.Debug.Control-2.idtx:89 UI/En.Win32.Release.Control-2.idtx:89
@@ -504,7 +504,7 @@ msgstr ""
 #: UI/En.Win32.Debug.Control-2.idtx:18 UI/En.Win32.Release.Control-2.idtx:18
 msgid ""
 "Although, 32-bit variant should work with your operating system, this "
-"programme is also available as 64-bit variant, which is more appropriate for "
+"program is also available as 64-bit variant, which is more appropriate for "
 "your operating system. The installation of the 64-bit variant is recommended."
 msgstr ""
 "È possibile utilizzare una versione a 32 bit sul computer; tuttavia, il "
@@ -1497,7 +1497,7 @@ msgstr "Installazione catalogo di sistema"
 #: UI/En.Win32.Debug.Control-2.idtx:14 UI/En.Win32.Release.Control-2.idtx:14
 #: UI/En.x64.Debug.Control-2.idtx:14 UI/En.x64.Release.Control-2.idtx:14
 msgid ""
-"Installs the most common programme features. Recommended for most users.|"
+"Installs the most common program features. Recommended for most users.|"
 msgstr ""
 "Installa solo le funzionalità più semplici. Adatto per la maggior parte di "
 "utenti.|"
@@ -1769,7 +1769,7 @@ msgstr "Registrazione del prodotto"
 #: UI/En.Win32.Debug.ActionText-2.idtx:40
 #: UI/En.Win32.Release.ActionText-2.idtx:40
 #: UI/En.x64.Debug.ActionText-2.idtx:40 UI/En.x64.Release.ActionText-2.idtx:40
-msgid "Registering programme identifiers"
+msgid "Registering program identifiers"
 msgstr "Registrazione degli identificatori di programma"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:41
@@ -2251,7 +2251,7 @@ msgstr ""
 msgid ""
 "The Windows Installer service cannot update the system file [2] because the "
 "file is protected by Windows. You may need to update your operating system "
-"for this programme to work correctly. {{Package version: [3], OS Protected "
+"for this program to work correctly. {{Package version: [3], OS Protected "
 "version: [4]}}"
 msgstr ""
 "Windows Installer non è in grado di aggiornare il file di sistema \"[2]\" "
@@ -2285,7 +2285,7 @@ msgstr ""
 #: Core/En.Win32.Debug.Error-2.idtx:111 Core/En.Win32.Release.Error-2.idtx:111
 #: Core/En.x64.Debug.Error-2.idtx:111 Core/En.x64.Release.Error-2.idtx:111
 msgid ""
-"There is a problem with this Windows Installer package. A programme required "
+"There is a problem with this Windows Installer package. A program required "
 "for this install to complete could not be run. Contact your support "
 "personnel or package vendor. {{Action: [2], location: [3], command: [4] }}"
 msgstr ""
@@ -2297,7 +2297,7 @@ msgstr ""
 #: Core/En.Win32.Debug.Error-2.idtx:112 Core/En.Win32.Release.Error-2.idtx:112
 #: Core/En.x64.Debug.Error-2.idtx:112 Core/En.x64.Release.Error-2.idtx:112
 msgid ""
-"There is a problem with this Windows Installer package. A programme run as "
+"There is a problem with this Windows Installer package. A program run as "
 "part of the setup did not finish as expected. Contact your support personnel "
 "or package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
@@ -2483,7 +2483,7 @@ msgstr "Annullamento della registrazione dei moduli"
 #: UI/En.Win32.Debug.ActionText-2.idtx:69
 #: UI/En.Win32.Release.ActionText-2.idtx:69
 #: UI/En.x64.Debug.ActionText-2.idtx:69 UI/En.x64.Release.ActionText-2.idtx:69
-msgid "Unregistering programme identifiers"
+msgid "Unregistering program identifiers"
 msgstr "Annullamento della registrazione degli ID di programma"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:70
@@ -2752,7 +2752,7 @@ msgstr "MB"
 #: UI/En.Win32.Debug.RadioButton-2.idtx:6
 #: UI/En.Win32.Release.RadioButton-2.idtx:6
 #: UI/En.x64.Debug.RadioButton-2.idtx:6 UI/En.x64.Release.RadioButton-2.idtx:6
-msgid "Removes the programme from your computer.|"
+msgid "Removes the program from your computer.|"
 msgstr ""
 
 #: UI/En.Win32.Debug.RadioButton-2.idtx:5

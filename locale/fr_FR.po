@@ -269,7 +269,7 @@ msgstr "Installation de [SimpleProductName] terminée."
 #: UI/En.x64.Debug.Control-2.idtx:117 UI/En.x64.Release.Control-2.idtx:117
 msgid ""
 "[SimpleProductName] setup ended prematurely because of an error. Therefore, "
-"the programme was not installed. Your system has not been modified."
+"the program was not installed. Your system has not been modified."
 msgstr ""
 
 #: Core/En.Win32.Debug.Error-2.idtx:29 Core/En.Win32.Release.Error-2.idtx:29
@@ -281,7 +281,7 @@ msgstr "Échec de l'installation de {[SimpleProductName]}."
 #: UI/En.x64.Debug.Control-2.idtx:112 UI/En.x64.Release.Control-2.idtx:112
 msgid ""
 "[SimpleProductName] setup was interrupted on your request. Therefore, the "
-"programme was not installed. Your system has not been modified."
+"program was not installed. Your system has not been modified."
 msgstr ""
 
 #: UI/En.Win32.Debug.Control-2.idtx:89 UI/En.Win32.Release.Control-2.idtx:89
@@ -493,7 +493,7 @@ msgstr ""
 #: UI/En.Win32.Debug.Control-2.idtx:18 UI/En.Win32.Release.Control-2.idtx:18
 msgid ""
 "Although, 32-bit variant should work with your operating system, this "
-"programme is also available as 64-bit variant, which is more appropriate for "
+"program is also available as 64-bit variant, which is more appropriate for "
 "your operating system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
@@ -737,7 +737,7 @@ msgid ""
 msgstr ""
 "Impossible de créer le répertoire [2]. Un répertoire du même nom existe "
 "déjȁ. Renommez ce répertoire ou supprimez-le et cliquez sur Réessayer, ou "
-"cliquez sur Annuler pour quitter le programme d'installation."
+"cliquez sur Annuler pour quitter le program d'installation."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:34
 #: UI/En.Win32.Debug.ActionText-2.idtx:64
@@ -1086,10 +1086,10 @@ msgid ""
 "means, and can no longer be modified by this patch. For more information "
 "contact your patch vendor. {{System Error: [3]}}"
 msgstr ""
-"Erreur lors de l'application du programme correctif au fichier [2]. Il a "
+"Erreur lors de l'application du program correctif au fichier [2]. Il a "
 "sans doute été mis ȁ jour de maniȅre différente et ne peut plus être modifié "
-"par ce programme correctif. Pour obtenir des informations complémentaires, "
-"contactez le revendeur de votre programme correctif. {{Erreur systȅme : [3]}}"
+"par ce program correctif. Pour obtenir des informations complémentaires, "
+"contactez le revendeur de votre program correctif. {{Erreur systȅme : [3]}}"
 
 #: Core/En.Win32.Debug.Error-2.idtx:128 Core/En.Win32.Release.Error-2.idtx:128
 #: Core/En.x64.Debug.Error-2.idtx:128 Core/En.x64.Release.Error-2.idtx:128
@@ -1458,12 +1458,12 @@ msgstr ""
 #: Core/En.Win32.Debug.Error-2.idtx:22 Core/En.Win32.Release.Error-2.idtx:22
 #: Core/En.x64.Debug.Error-2.idtx:22 Core/En.x64.Release.Error-2.idtx:22
 msgid "Installer is no longer responding."
-msgstr "Le programme d'installation ne répond plus."
+msgstr "Le program d'installation ne répond plus."
 
 #: Core/En.Win32.Debug.Error-2.idtx:23 Core/En.Win32.Release.Error-2.idtx:23
 #: Core/En.x64.Debug.Error-2.idtx:23 Core/En.x64.Release.Error-2.idtx:23
 msgid "Installer stopped prematurely."
-msgstr "L'exécution du programme d'installation a pris fin prématurément."
+msgstr "L'exécution du program d'installation a pris fin prématurément."
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:21
 #: UI/En.Win32.Release.ActionText-2.idtx:21
@@ -1486,7 +1486,7 @@ msgstr "Installation du catalogue systȅme"
 #: UI/En.Win32.Debug.Control-2.idtx:14 UI/En.Win32.Release.Control-2.idtx:14
 #: UI/En.x64.Debug.Control-2.idtx:14 UI/En.x64.Release.Control-2.idtx:14
 msgid ""
-"Installs the most common programme features. Recommended for most users.|"
+"Installs the most common program features. Recommended for most users.|"
 msgstr ""
 
 #: Core/En.Win32.Debug.Error-2.idtx:57 Core/En.Win32.Release.Error-2.idtx:57
@@ -1672,7 +1672,7 @@ msgstr "Produit : [2] -- [3]"
 #: UI/En.x64.Release.ActionText-2.idtx:40
 #: UI/En.x64.Release.ActionText-2.idtx:69
 msgid "ProgId: [1]"
-msgstr "Identificateur du programme : [1]"
+msgstr "Identificateur du program : [1]"
 
 #: UI/En.Win32.Debug.Control-2.idtx:6 UI/En.Win32.Debug.Control-2.idtx:87
 #: UI/En.Win32.Release.Control-2.idtx:6 UI/En.Win32.Release.Control-2.idtx:87
@@ -1756,8 +1756,8 @@ msgstr "Inscription du produit"
 #: UI/En.Win32.Debug.ActionText-2.idtx:40
 #: UI/En.Win32.Release.ActionText-2.idtx:40
 #: UI/En.x64.Debug.ActionText-2.idtx:40 UI/En.x64.Release.ActionText-2.idtx:40
-msgid "Registering programme identifiers"
-msgstr "Inscription des identificateurs de programme"
+msgid "Registering program identifiers"
+msgstr "Inscription des identificateurs de program"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:41
 #: UI/En.Win32.Release.ActionText-2.idtx:41
@@ -2129,7 +2129,7 @@ msgid ""
 "installation cannot continue. Log on as administrator or contact your system "
 "administrator."
 msgstr ""
-"Le programme d'installation ne dispose pas des privilȅges suffisants pour "
+"Le program d'installation ne dispose pas des privilȅges suffisants pour "
 "accéder au répertoire [2]. Impossible de poursuivre l'installation. Ouvrez "
 "une session en tant qu'administrateur ou contactez votre administrateur "
 "systȅme."
@@ -2138,7 +2138,7 @@ msgstr ""
 #: Core/En.x64.Debug.Error-2.idtx:51 Core/En.x64.Release.Error-2.idtx:51
 msgid "The Installer has insufficient privileges to modify this file: [2]."
 msgstr ""
-"Le programme d'installation ne dispose pas des privilȅges suffisants pour "
+"Le program d'installation ne dispose pas des privilȅges suffisants pour "
 "modifier le fichier [2]."
 
 #: Core/En.Win32.Debug.Error-2.idtx:92 Core/En.Win32.Release.Error-2.idtx:92
@@ -2148,7 +2148,7 @@ msgid ""
 "continue. Click Yes to restart now or No if you plan to manually restart "
 "later."
 msgstr ""
-"Le programme d'installation doit redémarrer votre systȅme avant que la "
+"Le program d'installation doit redémarrer votre systȅme avant que la "
 "configuration de [2] puisse continuer. Cliquez sur Oui pour redémarrer "
 "maintenant, ou sur Non si vous voulez redémarrer manuellement ultérieurement."
 
@@ -2227,12 +2227,12 @@ msgstr ""
 msgid ""
 "The Windows Installer service cannot update the system file [2] because the "
 "file is protected by Windows. You may need to update your operating system "
-"for this programme to work correctly. {{Package version: [3], OS Protected "
+"for this program to work correctly. {{Package version: [3], OS Protected "
 "version: [4]}}"
 msgstr ""
 "Le service Windows Installer ne peut pas mettre ȁ jour le fichier systȅme "
 "[2] car le fichier est protégé par Windows. Vous devrez peut-être mettre ȁ "
-"jour votre systȅme d'exploitation pour que le programme fonctionne "
+"jour votre systȅme d'exploitation pour que le program fonctionne "
 "correctement. {{Version : [3], Version protégée du systȅme d'exploitation : "
 "[4]}}"
 
@@ -2263,11 +2263,11 @@ msgstr ""
 #: Core/En.Win32.Debug.Error-2.idtx:111 Core/En.Win32.Release.Error-2.idtx:111
 #: Core/En.x64.Debug.Error-2.idtx:111 Core/En.x64.Release.Error-2.idtx:111
 msgid ""
-"There is a problem with this Windows Installer package. A programme required "
+"There is a problem with this Windows Installer package. A program required "
 "for this install to complete could not be run. Contact your support "
 "personnel or package vendor. {{Action: [2], location: [3], command: [4] }}"
 msgstr ""
-"Un problȅme s'est produit sur ce package Windows Installer. Un programme "
+"Un problȅme s'est produit sur ce package Windows Installer. Un program "
 "nécessaire pour que cette installation puisse se terminer n'a pas pu être "
 "exécuté. Contactez votre service de support ou le distributeur du package. "
 "{{Action : [2], emplacement : [3], commande : [4] }}"
@@ -2275,11 +2275,11 @@ msgstr ""
 #: Core/En.Win32.Debug.Error-2.idtx:112 Core/En.Win32.Release.Error-2.idtx:112
 #: Core/En.x64.Debug.Error-2.idtx:112 Core/En.x64.Release.Error-2.idtx:112
 msgid ""
-"There is a problem with this Windows Installer package. A programme run as "
+"There is a problem with this Windows Installer package. A program run as "
 "part of the setup did not finish as expected. Contact your support personnel "
 "or package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
-"Un problȅme s'est produit sur ce package Windows Installer. Un programme "
+"Un problȅme s'est produit sur ce package Windows Installer. Un program "
 "exécuté dans le cadre de l'installation ne s'est pas terminé correctement. "
 "Contactez votre service de support ou le distributeur du package. {{Action "
 "[2], emplacement : [3], commande : [4] }}"
@@ -2340,7 +2340,7 @@ msgid ""
 "space and click Retry, or click Cancel to exit."
 msgstr ""
 "Espace disque insuffisant pour installer le fichier [2]. Libérez de l'espace "
-"et cliquez sur Réessayer, ou cliquez sur Annuler pour quitter le programme "
+"et cliquez sur Réessayer, ou cliquez sur Annuler pour quitter le program "
 "d'installation."
 
 #: Core/En.Win32.Debug.Error-2.idtx:66 Core/En.Win32.Release.Error-2.idtx:66
@@ -2456,8 +2456,8 @@ msgstr "Annulation de l'inscription des modules"
 #: UI/En.Win32.Debug.ActionText-2.idtx:69
 #: UI/En.Win32.Release.ActionText-2.idtx:69
 #: UI/En.x64.Debug.ActionText-2.idtx:69 UI/En.x64.Release.ActionText-2.idtx:69
-msgid "Unregistering programme identifiers"
-msgstr "Annulation de l'inscription des identificateurs de programme"
+msgid "Unregistering program identifiers"
+msgstr "Annulation de l'inscription des identificateurs de program"
 
 #: UI/En.Win32.Debug.ActionText-2.idtx:70
 #: UI/En.Win32.Release.ActionText-2.idtx:70
@@ -2741,7 +2741,7 @@ msgstr ""
 #: UI/En.Win32.Debug.RadioButton-2.idtx:6
 #: UI/En.Win32.Release.RadioButton-2.idtx:6
 #: UI/En.x64.Debug.RadioButton-2.idtx:6 UI/En.x64.Release.RadioButton-2.idtx:6
-msgid "Removes the programme from your computer.|"
+msgid "Removes the program from your computer.|"
 msgstr ""
 
 #: UI/En.Win32.Debug.RadioButton-2.idtx:5
