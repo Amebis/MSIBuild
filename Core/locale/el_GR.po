@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSMBuild\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-28 12:58+0200\n"
+"POT-Creation-Date: 2016-08-29 07:44+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
 "Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
@@ -75,17 +75,10 @@ msgstr "=== Έναρξη καταγραφής: [Date] [Time] ==="
 msgid "=== Logging stopped: [Date] [Time] ==="
 msgstr "=== Διακοπή καταγραφής: [Date] [Time] ==="
 
-#: En.Win32.Debug.Property-2.idtx:4 En.Win32.Release.Property-2.idtx:4
-#: En.x64.Debug.Property-2.idtx:4 En.x64.Release.Property-2.idtx:4
-msgid "1033"
-msgstr "1032"
-
 #: En.Win32.Debug.CustomAction-2.idtx:3 En.Win32.Debug.Error-2.idtx:3
-#: En.Win32.Debug.Property-2.idtx:3 En.Win32.Release.CustomAction-2.idtx:3
-#: En.Win32.Release.Error-2.idtx:3 En.Win32.Release.Property-2.idtx:3
+#: En.Win32.Release.CustomAction-2.idtx:3 En.Win32.Release.Error-2.idtx:3
 #: En.x64.Debug.CustomAction-2.idtx:3 En.x64.Debug.Error-2.idtx:3
-#: En.x64.Debug.Property-2.idtx:3 En.x64.Release.CustomAction-2.idtx:3
-#: En.x64.Release.Error-2.idtx:3 En.x64.Release.Property-2.idtx:3
+#: En.x64.Release.CustomAction-2.idtx:3 En.x64.Release.Error-2.idtx:3
 msgid "1252"
 msgstr "1253"
 
@@ -1342,6 +1335,9 @@ msgstr ""
 "αλλαγές που έγιναν στις ρυθμίσεις των παραμέτρων του [2]. Κάντε κλικ στο "
 "κουμπί \"Ναι\" για να γίνει επανεκκίνηση τώρα ή στο κουμπί \"Όχι\" εάν "
 "θέλετε να κάνετε επανεκκίνηση αργότερα."
+
+#~ msgid "1033"
+#~ msgstr "1032"
 
 #, fuzzy
 #~ msgid "&Continue"

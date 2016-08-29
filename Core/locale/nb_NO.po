@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSMBuild\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-28 13:17+0200\n"
+"POT-Creation-Date: 2016-08-29 07:46+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
 "Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
@@ -75,17 +75,10 @@ msgstr "=== Logg startet: [Date] [Time] ==="
 msgid "=== Logging stopped: [Date] [Time] ==="
 msgstr "=== Logg stanset: [Date] [Time] ==="
 
-#: En.Win32.Debug.Property-2.idtx:4 En.Win32.Release.Property-2.idtx:4
-#: En.x64.Debug.Property-2.idtx:4 En.x64.Release.Property-2.idtx:4
-msgid "1033"
-msgstr "1044"
-
 #: En.Win32.Debug.CustomAction-2.idtx:3 En.Win32.Debug.Error-2.idtx:3
-#: En.Win32.Debug.Property-2.idtx:3 En.Win32.Release.CustomAction-2.idtx:3
-#: En.Win32.Release.Error-2.idtx:3 En.Win32.Release.Property-2.idtx:3
+#: En.Win32.Release.CustomAction-2.idtx:3 En.Win32.Release.Error-2.idtx:3
 #: En.x64.Debug.CustomAction-2.idtx:3 En.x64.Debug.Error-2.idtx:3
-#: En.x64.Debug.Property-2.idtx:3 En.x64.Release.CustomAction-2.idtx:3
-#: En.x64.Release.Error-2.idtx:3 En.x64.Release.Property-2.idtx:3
+#: En.x64.Release.CustomAction-2.idtx:3 En.x64.Release.Error-2.idtx:3
 msgid "1252"
 msgstr "1252"
 
@@ -1293,6 +1286,9 @@ msgstr ""
 "Du må starte systemet på nytt for at konfigurasjonsendringene som ble gjort "
 "i [2] skal tre i kraft. Velg Ja hvis du vil starte på nytt nå, eller Nei "
 "hvis du vil starte på nytt manuelt senere."
+
+#~ msgid "1033"
+#~ msgstr "1044"
 
 #, fuzzy
 #~ msgid "&Continue"

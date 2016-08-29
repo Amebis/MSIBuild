@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSMBuild\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-28 13:12+0200\n"
+"POT-Creation-Date: 2016-08-29 07:46+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
 "Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
@@ -75,17 +75,10 @@ msgstr "=== 기록 시작: [Date] [Time] ==="
 msgid "=== Logging stopped: [Date] [Time] ==="
 msgstr "=== 기록 시작: [Date] [Time] ==="
 
-#: En.Win32.Debug.Property-2.idtx:4 En.Win32.Release.Property-2.idtx:4
-#: En.x64.Debug.Property-2.idtx:4 En.x64.Release.Property-2.idtx:4
-msgid "1033"
-msgstr "1042"
-
 #: En.Win32.Debug.CustomAction-2.idtx:3 En.Win32.Debug.Error-2.idtx:3
-#: En.Win32.Debug.Property-2.idtx:3 En.Win32.Release.CustomAction-2.idtx:3
-#: En.Win32.Release.Error-2.idtx:3 En.Win32.Release.Property-2.idtx:3
+#: En.Win32.Release.CustomAction-2.idtx:3 En.Win32.Release.Error-2.idtx:3
 #: En.x64.Debug.CustomAction-2.idtx:3 En.x64.Debug.Error-2.idtx:3
-#: En.x64.Debug.Property-2.idtx:3 En.x64.Release.CustomAction-2.idtx:3
-#: En.x64.Release.Error-2.idtx:3 En.x64.Release.Property-2.idtx:3
+#: En.x64.Release.CustomAction-2.idtx:3 En.x64.Release.Error-2.idtx:3
 msgid "1252"
 msgstr "949"
 
@@ -1255,6 +1248,9 @@ msgstr ""
 "변경된 구성 설정을 [2]에 적용하려면 시스템을 다시 시작해야 합니다. 지금 다시 "
 "시작하려면 \"예\"를 누르고, 나중에 수동으로 다시 시작하려면 \"아니오\"를 누르"
 "십시오."
+
+#~ msgid "1033"
+#~ msgstr "1042"
 
 #, fuzzy
 #~ msgid "&Continue"

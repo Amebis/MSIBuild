@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSMBuild\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-28 13:16+0200\n"
+"POT-Creation-Date: 2016-08-29 07:46+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
 "Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
@@ -76,17 +76,10 @@ msgstr "=== Reģistrēšana žurnālā sākta: [Date] [Time] ==="
 msgid "=== Logging stopped: [Date] [Time] ==="
 msgstr "=== Reģistrēšana žurnālā apturēta: [Date] [Time] ==="
 
-#: En.Win32.Debug.Property-2.idtx:4 En.Win32.Release.Property-2.idtx:4
-#: En.x64.Debug.Property-2.idtx:4 En.x64.Release.Property-2.idtx:4
-msgid "1033"
-msgstr "1062"
-
 #: En.Win32.Debug.CustomAction-2.idtx:3 En.Win32.Debug.Error-2.idtx:3
-#: En.Win32.Debug.Property-2.idtx:3 En.Win32.Release.CustomAction-2.idtx:3
-#: En.Win32.Release.Error-2.idtx:3 En.Win32.Release.Property-2.idtx:3
+#: En.Win32.Release.CustomAction-2.idtx:3 En.Win32.Release.Error-2.idtx:3
 #: En.x64.Debug.CustomAction-2.idtx:3 En.x64.Debug.Error-2.idtx:3
-#: En.x64.Debug.Property-2.idtx:3 En.x64.Release.CustomAction-2.idtx:3
-#: En.x64.Release.Error-2.idtx:3 En.x64.Release.Property-2.idtx:3
+#: En.x64.Release.CustomAction-2.idtx:3 En.x64.Release.Error-2.idtx:3
 msgid "1252"
 msgstr "1257"
 
@@ -1288,6 +1281,9 @@ msgstr ""
 "Lai stātos spēkā veiktās programmas [2] konfigurācijas izmaiņas, ir "
 "jārestartē jūsu sistēma. Noklikšķiniet uz pogas Jā, lai restartētu uzreiz, "
 "vai uz pogas Nē, ja domājat manuāli restartēt vēlāk."
+
+#~ msgid "1033"
+#~ msgstr "1062"
 
 #, fuzzy
 #~ msgid "&Continue"

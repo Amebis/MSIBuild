@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSMBuild\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-28 13:10+0200\n"
+"POT-Creation-Date: 2016-08-29 07:46+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
 "Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
@@ -75,21 +75,11 @@ msgstr "=== Inizio registrazione: [Date] [Time] ==="
 msgid "=== Logging stopped: [Date] [Time] ==="
 msgstr "=== Fine registrazione: [Date] [Time] ==="
 
-# Language Code (decimal)
-# If we do not intend to provide different localization of same base language (like merging Portugal Portugeese and Brasil Portugese into the same Portugeese), use the code of Microsoft defined default sublanguage.
-# For example: Use LANG_PORTUGUESE + SUBLANG_DEFAULT = 1046, although 1046 represents Brasil Portugese (too).
-#: En.Win32.Debug.Property-2.idtx:4 En.Win32.Release.Property-2.idtx:4
-#: En.x64.Debug.Property-2.idtx:4 En.x64.Release.Property-2.idtx:4
-msgid "1033"
-msgstr "1040"
-
 # Windows charset for this language (decimal)
 #: En.Win32.Debug.CustomAction-2.idtx:3 En.Win32.Debug.Error-2.idtx:3
-#: En.Win32.Debug.Property-2.idtx:3 En.Win32.Release.CustomAction-2.idtx:3
-#: En.Win32.Release.Error-2.idtx:3 En.Win32.Release.Property-2.idtx:3
+#: En.Win32.Release.CustomAction-2.idtx:3 En.Win32.Release.Error-2.idtx:3
 #: En.x64.Debug.CustomAction-2.idtx:3 En.x64.Debug.Error-2.idtx:3
-#: En.x64.Debug.Property-2.idtx:3 En.x64.Release.CustomAction-2.idtx:3
-#: En.x64.Release.Error-2.idtx:3 En.x64.Release.Property-2.idtx:3
+#: En.x64.Release.CustomAction-2.idtx:3 En.x64.Release.Error-2.idtx:3
 msgid "1252"
 msgstr "1252"
 
@@ -1332,6 +1322,12 @@ msgstr ""
 "Affinché le modifiche apportate alla configurazione di [2] abbiano effetto, "
 "è necessario riavviare il sistema. Scegliere Sì per riavviarlo ora o "
 "scegliere No se si desidera riavviarlo in seguito."
+
+# Language Code (decimal)
+# If we do not intend to provide different localization of same base language (like merging Portugal Portugeese and Brasil Portugese into the same Portugeese), use the code of Microsoft defined default sublanguage.
+# For example: Use LANG_PORTUGUESE + SUBLANG_DEFAULT = 1046, although 1046 represents Brasil Portugese (too).
+#~ msgid "1033"
+#~ msgstr "1040"
 
 #, fuzzy
 #~ msgid "&Close"

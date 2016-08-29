@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSMBuild\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-28 13:37+0200\n"
+"POT-Creation-Date: 2016-08-29 07:48+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
 "Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
@@ -75,17 +75,10 @@ msgstr "=== ｡ﾒﾃ爍郤ｻﾃﾐﾇﾑｵﾔ狹ﾔ霖: [Date] [Time] ==="
 msgid "=== Logging stopped: [Date] [Time] ==="
 msgstr "=== ｡ﾒﾃ爍郤ｻﾃﾐﾇﾑｵﾔﾋﾂﾘｴ: [Date] [Time] ==="
 
-#: En.Win32.Debug.Property-2.idtx:4 En.Win32.Release.Property-2.idtx:4
-#: En.x64.Debug.Property-2.idtx:4 En.x64.Release.Property-2.idtx:4
-msgid "1033"
-msgstr "1054"
-
 #: En.Win32.Debug.CustomAction-2.idtx:3 En.Win32.Debug.Error-2.idtx:3
-#: En.Win32.Debug.Property-2.idtx:3 En.Win32.Release.CustomAction-2.idtx:3
-#: En.Win32.Release.Error-2.idtx:3 En.Win32.Release.Property-2.idtx:3
+#: En.Win32.Release.CustomAction-2.idtx:3 En.Win32.Release.Error-2.idtx:3
 #: En.x64.Debug.CustomAction-2.idtx:3 En.x64.Debug.Error-2.idtx:3
-#: En.x64.Debug.Property-2.idtx:3 En.x64.Release.CustomAction-2.idtx:3
-#: En.x64.Release.Error-2.idtx:3 En.x64.Release.Property-2.idtx:3
+#: En.x64.Release.CustomAction-2.idtx:3 En.x64.Release.Error-2.idtx:3
 msgid "1252"
 msgstr "874"
 
@@ -1255,6 +1248,9 @@ msgstr ""
 "､ﾘｳｵ鯱ｧ狹ﾔ霖ｵ鮖ﾃﾐｺｺ｢ﾍｧ､ﾘｳ耆ﾁ・狎ﾗ靉ｷﾓ耆鬘ﾒﾃ狃ﾅﾕ霙ｹ盻ﾅｧ｡ﾒﾃ｡ﾓﾋｹｴ､靨ｷﾕ隍ﾘｳｷﾓ｡ﾑｺ "
 "[2] ﾁﾕｼﾅ 耆鬢ﾅﾔ｡罨・狎ﾗ靉狹ﾔ霖耆ﾁ鞨ｴﾕ・ﾇｹﾕ・ﾋﾃﾗﾍ菽鞳ｪ・ｶ鰓､ﾘｳｵ鯱ｧ｡ﾒﾃ狹ﾔ霖耆ﾁ"
 "雍鯢ﾂｵｹ猩ｧﾀﾒﾂﾋﾅﾑｧ"
+
+#~ msgid "1033"
+#~ msgstr "1054"
 
 #, fuzzy
 #~ msgid "&Continue"
