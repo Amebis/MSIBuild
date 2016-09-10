@@ -22,10 +22,6 @@
 /*@set @__MSI_JS__ = true @*/
 
 var
-	msiOpenDatabaseModeReadOnly = 0,
-	msiOpenDatabaseModeTransact = 1;
-
-var
 	msiOpenDatabaseModeReadOnly     = 0,  // Opens a database read-only, no persistent changes.
 	msiOpenDatabaseModeTransact     = 1,  // Opens a database read/write in transaction mode.
 	msiOpenDatabaseModeDirect       = 2,  // Opens a database direct read/write without transaction.
@@ -88,6 +84,29 @@ var
 	msiDoActionStatusFailure  = 3, // Unrecoverable error. Returned if there is an error during parsing or execution of the Jscript or VBScript.
 	msiDoActionStatusSuspend  = 4, // Suspended sequence to be resumed later.
 	msiDoActionStatusFinished = 5; // Skip remaining actions. Not an error.
+
+var
+	msiTransformValidationNone           =    0, // No validation done.
+	msiTransformValidationLanguage       =    1, // Default language must match base database.
+	msiTransformValidationProduct        =    2, // Product must match base database.
+	msiTransformValidationMajorVer       =    8, // Checks major version only.
+	msiTransformValidationMinorVer       =   16, // Checks major and minor version only.
+	msiTransformValidationUpdateVer      =   32, // Checks major, minor, and update versions.
+	msiTransformValidationLess           =   64, // Applied version < base version
+	msiTransformValidationLessOrEqual    =  128, // Applied version <= base version
+	msiTransformValidationEqual          =  256, // Applied version = base version
+	msiTransformValidationGreaterOrEqual =  512, // Applied version >= base version
+	msiTransformValidationGreater        = 1024, // Applied version > base version
+	msiTransformValidationUpgradeCode    = 2048; // Validates that the transform is the appropriate UpgradeCode.
+
+var
+	msiTransformErrorNone                   =  0, // None of the following conditions.
+	msiTransformErrorAddExistingRow         =  1, // Adds a row that already exists.
+	msiTransformErrorDeleteNonExistingRow   =  2, // Deletes a row that does not exist.
+	msiTransformErrorAddExistingTable       =  4, // Adds a table that already exists.
+	msiTransformErrorDeleteNonExistingTable =  8, // Deletes a table that does not exist.
+	msiTransformErrorUpdateNonExistingRow   = 16, // Updates a row that does not exist.
+	msiTransformErrorChangeCodepage         = 32; // Transform and database code pages do not match and neither code page is neutral.
 
 var
 	PID_DICTIONARY   = 0,  // Special format, not support by SummaryInfo object
@@ -180,11 +199,11 @@ function MSIMergeFiles(files, d)
 /*@end @*/
 
 // SIG // Begin signature block
-// SIG // MIIZKwYJKoZIhvcNAQcCoIIZHDCCGRgCAQExCzAJBgUr
+// SIG // MIIXmAYJKoZIhvcNAQcCoIIXiTCCF4UCAQExCzAJBgUr
 // SIG // DgMCGgUAMGcGCisGAQQBgjcCAQSgWTBXMDIGCisGAQQB
 // SIG // gjcCAR4wJAIBAQQQEODJBs441BGiowAQS9NQkAIBAAIB
-// SIG // AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFIXx99l9UFzb
-// SIG // eb1bjuISTLNHG38UoIIUJTCCA+4wggNXoAMCAQICEH6T
+// SIG // AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFAoNsMUS4zuI
+// SIG // eyMR+0yL/DcliaIvoIISyDCCA+4wggNXoAMCAQICEH6T
 // SIG // 6/t8xk5Z6kuad9QG/DswDQYJKoZIhvcNAQEFBQAwgYsx
 // SIG // CzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxXZXN0ZXJuIENh
 // SIG // cGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQK
@@ -251,129 +270,117 @@ function MSIMergeFiles(files, d)
 // SIG // K/F/Wwk9m1viFsoTgW0ALjgNqCmPLOGy9FqpAa8VnCwv
 // SIG // SRvbIrvD/niUUcOGsYKIXfA9tFGheTMrLnu53CAJE3Hr
 // SIG // ahlbz+ilMFcsiUk/uc9/yb8+ImhjU5q9aXSsxR08f5Lg
-// SIG // w7wc2AR1MIIFejCCBGKgAwIBAgIQQIeLZ2eQpZcEKJ6U
-// SIG // AwIaGzANBgkqhkiG9w0BAQUFADCBtDELMAkGA1UEBhMC
-// SIG // VVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYD
-// SIG // VQQLExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMTswOQYD
-// SIG // VQQLEzJUZXJtcyBvZiB1c2UgYXQgaHR0cHM6Ly93d3cu
-// SIG // dmVyaXNpZ24uY29tL3JwYSAoYykxMDEuMCwGA1UEAxMl
-// SIG // VmVyaVNpZ24gQ2xhc3MgMyBDb2RlIFNpZ25pbmcgMjAx
-// SIG // MCBDQTAeFw0xMjA5MjYwMDAwMDBaFw0xNTEwMTEyMzU5
-// SIG // NTlaMIG9MQswCQYDVQQGEwJTSTERMA8GA1UECBMIU2xv
-// SIG // dmVuaWExDzANBgNVBAcTBkthbW5pazEWMBQGA1UEChQN
-// SIG // QW1lYmlzIGQuby5vLjE+MDwGA1UECxM1RGlnaXRhbCBJ
-// SIG // RCBDbGFzcyAzIC0gTWljcm9zb2Z0IFNvZnR3YXJlIFZh
-// SIG // bGlkYXRpb24gdjIxGjAYBgNVBAsUEXByb2dyYW1za2Eg
-// SIG // b3ByZW1hMRYwFAYDVQQDFA1BbWViaXMgZC5vLm8uMIIB
-// SIG // IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9QZF
-// SIG // QzscW51y/Ermb72+gkWUJ6ExfOS1UHvNAcefWdFm4yVX
-// SIG // wqi8TRT+P5czX+UjKbh77d00CxODQK7rdLb8+EgKybFT
-// SIG // /bVfT2y8RMtEdG0qI84ZSwh2POazD0PyiHb9XORN2yKH
-// SIG // ykqLiO+6cJvZXjfNpGqf/LxkXVJvyxaemN1XTR91ohhc
-// SIG // 97bNyGCP0M8PNKRZ6Hr5uKlZyr7QLYoYAkaENYdXHrOc
-// SIG // l5CmBAIL56Ngc8vIlLF2lLPmDYf1qWrPpJyXfj7p3iUf
-// SIG // AewtEpbC5FfhCaeHwgg41NfxhRWCXEBTewLHQJtpSo2k
-// SIG // mwv5Q1ZuWMDUjPeuHZ3F/ofBoJTE4wIDAQABo4IBezCC
-// SIG // AXcwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCB4AwQAYD
-// SIG // VR0fBDkwNzA1oDOgMYYvaHR0cDovL2NzYzMtMjAxMC1j
-// SIG // cmwudmVyaXNpZ24uY29tL0NTQzMtMjAxMC5jcmwwRAYD
-// SIG // VR0gBD0wOzA5BgtghkgBhvhFAQcXAzAqMCgGCCsGAQUF
-// SIG // BwIBFhxodHRwczovL3d3dy52ZXJpc2lnbi5jb20vcnBh
-// SIG // MBMGA1UdJQQMMAoGCCsGAQUFBwMDMHEGCCsGAQUFBwEB
-// SIG // BGUwYzAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AudmVy
-// SIG // aXNpZ24uY29tMDsGCCsGAQUFBzAChi9odHRwOi8vY3Nj
-// SIG // My0yMDEwLWFpYS52ZXJpc2lnbi5jb20vQ1NDMy0yMDEw
-// SIG // LmNlcjAfBgNVHSMEGDAWgBTPmanqeyb0S8mOj9fwBSbv
-// SIG // 49KnnTARBglghkgBhvhCAQEEBAMCBBAwFgYKKwYBBAGC
-// SIG // NwIBGwQIMAYBAQABAf8wDQYJKoZIhvcNAQEFBQADggEB
-// SIG // AOMOvRZGpbGuLiIAaqp22r2WAOzxinLpe0O/pJCmBoU0
-// SIG // lK/Es/Jyc4Y90QyvvhoSVKoZ2hMQ2Y6N7oSkhHjKo/n8
-// SIG // WIQwNvaqZu4JpO9IgH1WkfqJWnpVcaVGPA0uHhuDhPe9
-// SIG // gH6Z6I3HC5GL7sc+z4n0kzy1f3AyD+DihQhD0J/i/sgF
-// SIG // iEaFmwwlJHMv6b4xmERMff050y15k875cdRpeFvSjHko
-// SIG // IUbY2bfPlnvhWd/4eidkT3KY5Lpm4cqUO20166p2Cjxf
-// SIG // i9kEGuDPYEYiX94hQmjWwZfIYxdYdD9f+gVcyPpiMspq
-// SIG // n5QwKHOenweisG6BwXs4H5q45SLx1oJ9PUQwggYKMIIE
-// SIG // 8qADAgECAhBSAOWqJVb8GobtlsnUSzPHMA0GCSqGSIb3
-// SIG // DQEBBQUAMIHKMQswCQYDVQQGEwJVUzEXMBUGA1UEChMO
-// SIG // VmVyaVNpZ24sIEluYy4xHzAdBgNVBAsTFlZlcmlTaWdu
-// SIG // IFRydXN0IE5ldHdvcmsxOjA4BgNVBAsTMShjKSAyMDA2
-// SIG // IFZlcmlTaWduLCBJbmMuIC0gRm9yIGF1dGhvcml6ZWQg
-// SIG // dXNlIG9ubHkxRTBDBgNVBAMTPFZlcmlTaWduIENsYXNz
-// SIG // IDMgUHVibGljIFByaW1hcnkgQ2VydGlmaWNhdGlvbiBB
-// SIG // dXRob3JpdHkgLSBHNTAeFw0xMDAyMDgwMDAwMDBaFw0y
-// SIG // MDAyMDcyMzU5NTlaMIG0MQswCQYDVQQGEwJVUzEXMBUG
-// SIG // A1UEChMOVmVyaVNpZ24sIEluYy4xHzAdBgNVBAsTFlZl
-// SIG // cmlTaWduIFRydXN0IE5ldHdvcmsxOzA5BgNVBAsTMlRl
-// SIG // cm1zIG9mIHVzZSBhdCBodHRwczovL3d3dy52ZXJpc2ln
-// SIG // bi5jb20vcnBhIChjKTEwMS4wLAYDVQQDEyVWZXJpU2ln
-// SIG // biBDbGFzcyAzIENvZGUgU2lnbmluZyAyMDEwIENBMIIB
-// SIG // IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9SNL
-// SIG // XqXXirsy6dRX9+/kxyZ+rRmY/qidfZT2NmsQ13WBMH8E
-// SIG // aH/LK3UezR0IjN9plKc3o5x7gOCZ4e43TV/OOxTuhtTQ
-// SIG // 9Sc1vCULOKeMY50Xowilq7D7zWpigkzVIdob2fHjhDuK
-// SIG // Kk+FW5ABT8mndhB/JwN8vq5+fcHd+QW8G0icaefApDw8
-// SIG // QQA+35blxeSUcdZVAccAJkpAPLWhJqkMp22AjpAle8+/
-// SIG // PxzrL5b65Yd3xrVWsno7VDBTG99iNP8e0fRakyiF5UwX
-// SIG // Tn5b/aSTmX/fze+kde/vFfZH5/gZctguNBqmtKdMfr27
-// SIG // Tww9V/Ew1qY2jtaAdtcZLqXNfjQtiQIDAQABo4IB/jCC
-// SIG // AfowEgYDVR0TAQH/BAgwBgEB/wIBADBwBgNVHSAEaTBn
-// SIG // MGUGC2CGSAGG+EUBBxcDMFYwKAYIKwYBBQUHAgEWHGh0
-// SIG // dHBzOi8vd3d3LnZlcmlzaWduLmNvbS9jcHMwKgYIKwYB
-// SIG // BQUHAgIwHhocaHR0cHM6Ly93d3cudmVyaXNpZ24uY29t
-// SIG // L3JwYTAOBgNVHQ8BAf8EBAMCAQYwbQYIKwYBBQUHAQwE
-// SIG // YTBfoV2gWzBZMFcwVRYJaW1hZ2UvZ2lmMCEwHzAHBgUr
-// SIG // DgMCGgQUj+XTGoasjY5rw8+AatRIGCx7GS4wJRYjaHR0
-// SIG // cDovL2xvZ28udmVyaXNpZ24uY29tL3ZzbG9nby5naWYw
-// SIG // NAYDVR0fBC0wKzApoCegJYYjaHR0cDovL2NybC52ZXJp
-// SIG // c2lnbi5jb20vcGNhMy1nNS5jcmwwNAYIKwYBBQUHAQEE
-// SIG // KDAmMCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC52ZXJp
-// SIG // c2lnbi5jb20wHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsG
-// SIG // AQUFBwMDMCgGA1UdEQQhMB+kHTAbMRkwFwYDVQQDExBW
-// SIG // ZXJpU2lnbk1QS0ktMi04MB0GA1UdDgQWBBTPmanqeyb0
-// SIG // S8mOj9fwBSbv49KnnTAfBgNVHSMEGDAWgBR/02Wnwt3s
-// SIG // u/AwCfNDOfoCrzMxMzANBgkqhkiG9w0BAQUFAAOCAQEA
-// SIG // ViLmNKTEYctIuQGtVqhkD9mMkcS7zAzlrXqgIn/fRzhK
-// SIG // LWzRf3EafOxwqbHwT+QPDFP6FV7+dJhJJIWBJhyRFEew
-// SIG // TGOMu6E01MZF6A2FJnMD0KmMZG3ccZLmRQVgFVlROfxY
-// SIG // FGv+1KTteWsIDEFy5zciBgm+I+k/RJoe6WGdzLGQXPw9
-// SIG // 0o2sQj1lNtS0PUAoj5sQzyMmzEsgy5AfXYxMNMo82OU3
-// SIG // 1m+lIL006ybZrg3nxZr3obQhkTNvhuhYuyV8dA5Y/nUb
-// SIG // Yz/OMXybjxuWnsVTdoRbnK2R+qztk7pdyCFTwoJTY68S
-// SIG // DVCHERs9VFKWiiycPZIaCJoFLseTpUiR0zGCBHIwggRu
-// SIG // AgEBMIHJMIG0MQswCQYDVQQGEwJVUzEXMBUGA1UEChMO
-// SIG // VmVyaVNpZ24sIEluYy4xHzAdBgNVBAsTFlZlcmlTaWdu
-// SIG // IFRydXN0IE5ldHdvcmsxOzA5BgNVBAsTMlRlcm1zIG9m
-// SIG // IHVzZSBhdCBodHRwczovL3d3dy52ZXJpc2lnbi5jb20v
-// SIG // cnBhIChjKTEwMS4wLAYDVQQDEyVWZXJpU2lnbiBDbGFz
-// SIG // cyAzIENvZGUgU2lnbmluZyAyMDEwIENBAhBAh4tnZ5Cl
-// SIG // lwQonpQDAhobMAkGBSsOAwIaBQCgcDAQBgorBgEEAYI3
-// SIG // AgEMMQIwADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIB
-// SIG // BDAcBgorBgEEAYI3AgELMQ4wDAYKKwYBBAGCNwIBFTAj
-// SIG // BgkqhkiG9w0BCQQxFgQUwYmpYbRY+hIuvr9tde4y3QVu
-// SIG // Jk0wDQYJKoZIhvcNAQEBBQAEggEA4awQwBfLE+/CMUcy
-// SIG // 6Z2QjocSM9X561AM0tV61qC1KkVWExgbJl5A11IRVk0c
-// SIG // l2765kS3BAdvNLkndnvyWtOwAx4EB1TPKxzc70+VNhMk
-// SIG // 9ei04L34lqOvnZEPKj492hrsnZ+Vv2ogUGl7yJgpmFcr
-// SIG // xUJYnXoAF6UPe8H2/qOQwlyovEO0UEqM++ZDCxH+1Nmk
-// SIG // r/EJ23Q45B27KJvvLeqP7X+h39cq2Gg87MOL2gGThTLO
-// SIG // 3EsK+jSaY9J75EKZWktLoXFA3wadFtDmWm4+ETZRgS3W
-// SIG // yTGeWFWadQeT+juMJ+dYuvPp8tF78lT0QpUDifQpassi
-// SIG // bAjQhslJzXO79eq5FaGCAgswggIHBgkqhkiG9w0BCQYx
-// SIG // ggH4MIIB9AIBATByMF4xCzAJBgNVBAYTAlVTMR0wGwYD
-// SIG // VQQKExRTeW1hbnRlYyBDb3Jwb3JhdGlvbjEwMC4GA1UE
-// SIG // AxMnU3ltYW50ZWMgVGltZSBTdGFtcGluZyBTZXJ2aWNl
-// SIG // cyBDQSAtIEcyAhAOz/Q4yP6/NW4E2GqYGxpQMAkGBSsO
-// SIG // AwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcB
-// SIG // MBwGCSqGSIb3DQEJBTEPFw0xNTAyMjUwODA3MTVaMCMG
-// SIG // CSqGSIb3DQEJBDEWBBRse8MZoWLG1sFme+Yk1wupYmMY
-// SIG // WTANBgkqhkiG9w0BAQEFAASCAQCKIG8PB44uTtJRi1AX
-// SIG // YWuWrwnq8Zrs5SXJcRTaXi3chvP44chNQcwOifKjzlTF
-// SIG // W+tV6NfV1fnkPp2FB/XIATHPUuZtDBr72BmGkIiL1bxE
-// SIG // 9YGlslvtngLGCN0oXX3P2aFHKT7V3HFiEKooFRWY7Zgl
-// SIG // EWiZSZk4lEvtYDHu4SiubAKMGHojClYRcMXKoTvuBJe5
-// SIG // zuVnbCOfi1c7Wy+PmycqRpxJ4WYpv5t58fhM7pA/N8DN
-// SIG // g/s08s5e4w0Tf9v6FIaQyagMCbXWFu6/BmrMb1VOC5kU
-// SIG // QOT5iOjnJBphPpo1A+EovYPbcETTyvv4bkkfmTg2pX0c
-// SIG // 5PHCG+suLWPMM177
+// SIG // w7wc2AR1MIIEzjCCA7agAwIBAgIQMHo2eqo+aIGm+U8I
+// SIG // yzs5ZDANBgkqhkiG9w0BAQsFADB/MQswCQYDVQQGEwJV
+// SIG // UzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24x
+// SIG // HzAdBgNVBAsTFlN5bWFudGVjIFRydXN0IE5ldHdvcmsx
+// SIG // MDAuBgNVBAMTJ1N5bWFudGVjIENsYXNzIDMgU0hBMjU2
+// SIG // IENvZGUgU2lnbmluZyBDQTAeFw0xNTEwMDkwMDAwMDBa
+// SIG // Fw0xODExMDcyMzU5NTlaMGExCzAJBgNVBAYTAlNJMREw
+// SIG // DwYDVQQIEwhTbG92ZW5pYTEPMA0GA1UEBxMGS2Ftbmlr
+// SIG // MRYwFAYDVQQKFA1BbWViaXMgZC5vLm8uMRYwFAYDVQQD
+// SIG // FA1BbWViaXMgZC5vLm8uMIIBIjANBgkqhkiG9w0BAQEF
+// SIG // AAOCAQ8AMIIBCgKCAQEAl/LoF3DHaSrIaG1pgBmBwDyl
+// SIG // Yt7sRvIuoEdGr/yMhV9RfUIft+xsTPVQOAirvgG+KUbc
+// SIG // E3KMnGH+VuK7Y+vYzRp3dYTLinSQz1NKYAELyTdVzmmY
+// SIG // mU3LX764yk3ABtSZsZwPoiCy+TXE9ZsCkugB2c7Qp9N/
+// SIG // O9EjjQDRwZlUa3nLoY96Y3qNPwkCn04ppYiqPeIXTRz8
+// SIG // XBLs4Nl/bD9wymEuNSV75vzobJ7BUYQwRU7lmNL2SwRY
+// SIG // ENaf0DpdiyFLBsNafHjGYiXQHgNxZUBpj7OoRDNBvMQY
+// SIG // L+LM8OrjhGIK1uGL5CqBD/p81ebeFsAZVxg9hrgnkPVQ
+// SIG // w77U0LZw8wIDAQABo4IBYjCCAV4wCQYDVR0TBAIwADAO
+// SIG // BgNVHQ8BAf8EBAMCB4AwKwYDVR0fBCQwIjAgoB6gHIYa
+// SIG // aHR0cDovL3N2LnN5bWNiLmNvbS9zdi5jcmwwZgYDVR0g
+// SIG // BF8wXTBbBgtghkgBhvhFAQcXAzBMMCMGCCsGAQUFBwIB
+// SIG // FhdodHRwczovL2Quc3ltY2IuY29tL2NwczAlBggrBgEF
+// SIG // BQcCAjAZDBdodHRwczovL2Quc3ltY2IuY29tL3JwYTAT
+// SIG // BgNVHSUEDDAKBggrBgEFBQcDAzBXBggrBgEFBQcBAQRL
+// SIG // MEkwHwYIKwYBBQUHMAGGE2h0dHA6Ly9zdi5zeW1jZC5j
+// SIG // b20wJgYIKwYBBQUHMAKGGmh0dHA6Ly9zdi5zeW1jYi5j
+// SIG // b20vc3YuY3J0MB8GA1UdIwQYMBaAFJY7U/B5M5evfYPv
+// SIG // LivMyreGHnJmMB0GA1UdDgQWBBT3B72WgJotdMR/DD09
+// SIG // J93UkAqfzDANBgkqhkiG9w0BAQsFAAOCAQEAinEvQC+1
+// SIG // yttKEsqAjt2YufpYlul3OQH17YKbUy4AAiKiAsUXWfTu
+// SIG // XRVdkT6CrEYcHyOLaHfe36jVHw8vLIiR2cyEcB3vweyr
+// SIG // JnNpt+Za4I/XZMoG/vvCJmSltOj8C/7PRKWklGgynPNe
+// SIG // HI8+0d1vLzRtK77hFeV7CIMIfnpoYThJKTSLxdr0kn+j
+// SIG // M8otfdLN2aDonnxe0Mf+2rkrX8AFIIHPpIXZj2X2VEmk
+// SIG // ZdyFINgI+KlJVQY/RY9BFMM2htLAIkNcDP1QVzFajhGH
+// SIG // yj+C+UtZQf5PceGYtJHNeq3cm6omjnEfyzi8/NwYFlkW
+// SIG // hvzJEH3woPqKgUramNFFLD0W5zCCBVkwggRBoAMCAQIC
+// SIG // ED141/l2SWCyYX308B7KhiowDQYJKoZIhvcNAQELBQAw
+// SIG // gcoxCzAJBgNVBAYTAlVTMRcwFQYDVQQKEw5WZXJpU2ln
+// SIG // biwgSW5jLjEfMB0GA1UECxMWVmVyaVNpZ24gVHJ1c3Qg
+// SIG // TmV0d29yazE6MDgGA1UECxMxKGMpIDIwMDYgVmVyaVNp
+// SIG // Z24sIEluYy4gLSBGb3IgYXV0aG9yaXplZCB1c2Ugb25s
+// SIG // eTFFMEMGA1UEAxM8VmVyaVNpZ24gQ2xhc3MgMyBQdWJs
+// SIG // aWMgUHJpbWFyeSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0
+// SIG // eSAtIEc1MB4XDTEzMTIxMDAwMDAwMFoXDTIzMTIwOTIz
+// SIG // NTk1OVowfzELMAkGA1UEBhMCVVMxHTAbBgNVBAoTFFN5
+// SIG // bWFudGVjIENvcnBvcmF0aW9uMR8wHQYDVQQLExZTeW1h
+// SIG // bnRlYyBUcnVzdCBOZXR3b3JrMTAwLgYDVQQDEydTeW1h
+// SIG // bnRlYyBDbGFzcyAzIFNIQTI1NiBDb2RlIFNpZ25pbmcg
+// SIG // Q0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+// SIG // AQCXgx4AFq8ssdIIxNdok1FgHnH24ke021hNI2JqtL9a
+// SIG // G1H3ow0Yd2i72DarLyFQ2p7z518nTgvCl8gJcJOp2lwN
+// SIG // TqQNkaC07BTOkXJULs6j20TpUhs/QTzKSuSqwOg5q1PM
+// SIG // IdDMz3+b5sLMWGqCFe49Ns8cxZcHJI7xe74xLT1u3LWZ
+// SIG // Qp9LYZVfHHDuF33bi+VhiXjHaBuvEXgamK7EVUdT2bMy
+// SIG // 1qEORkDFl5KK0VOnmVuFNVfT6pNiYSAKxzB3JBFNYoO2
+// SIG // untogjHuZcrf+dWNsjXcjCtvanJcYISc8gyUXsBWUgBI
+// SIG // zNP4pX3eL9cT5DiohNVGuBOGwhud6lo43ZvbAgMBAAGj
+// SIG // ggGDMIIBfzAvBggrBgEFBQcBAQQjMCEwHwYIKwYBBQUH
+// SIG // MAGGE2h0dHA6Ly9zMi5zeW1jYi5jb20wEgYDVR0TAQH/
+// SIG // BAgwBgEB/wIBADBsBgNVHSAEZTBjMGEGC2CGSAGG+EUB
+// SIG // BxcDMFIwJgYIKwYBBQUHAgEWGmh0dHA6Ly93d3cuc3lt
+// SIG // YXV0aC5jb20vY3BzMCgGCCsGAQUFBwICMBwaGmh0dHA6
+// SIG // Ly93d3cuc3ltYXV0aC5jb20vcnBhMDAGA1UdHwQpMCcw
+// SIG // JaAjoCGGH2h0dHA6Ly9zMS5zeW1jYi5jb20vcGNhMy1n
+// SIG // NS5jcmwwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+// SIG // BwMDMA4GA1UdDwEB/wQEAwIBBjApBgNVHREEIjAgpB4w
+// SIG // HDEaMBgGA1UEAxMRU3ltYW50ZWNQS0ktMS01NjcwHQYD
+// SIG // VR0OBBYEFJY7U/B5M5evfYPvLivMyreGHnJmMB8GA1Ud
+// SIG // IwQYMBaAFH/TZafC3ey78DAJ80M5+gKvMzEzMA0GCSqG
+// SIG // SIb3DQEBCwUAA4IBAQAThRoeaak396C9pK9+HWFT/p2M
+// SIG // XgymdR54FyPd/ewaA1U5+3GVx2Vap44w0kRaYdtwb9oh
+// SIG // BcIuc7pJ8dGT/l3JzV4D4ImeP3Qe1/c4i6nWz7s1LzNY
+// SIG // qJJW0chNO4LmeYQW/CiwsUfzHaI+7ofZpn+kVqU/rYQu
+// SIG // Kd58vKiqoz0EAeq6k6IOUCIpF0yH5DoRX9akJYmbBWsv
+// SIG // tMkBTCd7C6wZBSKgYBU/2sn7TUyP+3Jnd/0nlMe6NQ6I
+// SIG // Sf6N/SivShK9DbOXBd5EDBX6NisD3MFQAfGhEV0U5eK9
+// SIG // J0tUviuEXg+mw3QFCu+Xw4kisR93873NQ9TxTKk/tYuE
+// SIG // r2Ty0BQhMYIEPDCCBDgCAQEwgZMwfzELMAkGA1UEBhMC
+// SIG // VVMxHTAbBgNVBAoTFFN5bWFudGVjIENvcnBvcmF0aW9u
+// SIG // MR8wHQYDVQQLExZTeW1hbnRlYyBUcnVzdCBOZXR3b3Jr
+// SIG // MTAwLgYDVQQDEydTeW1hbnRlYyBDbGFzcyAzIFNIQTI1
+// SIG // NiBDb2RlIFNpZ25pbmcgQ0ECEDB6NnqqPmiBpvlPCMs7
+// SIG // OWQwCQYFKw4DAhoFAKBwMBAGCisGAQQBgjcCAQwxAjAA
+// SIG // MBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEEMBwGCisG
+// SIG // AQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3
+// SIG // DQEJBDEWBBQyQeou6RKrLMp4mrNXV997hbZA3DANBgkq
+// SIG // hkiG9w0BAQEFAASCAQACRUzU5AoLUzbLCl+xiP7KdhVL
+// SIG // gKf/hqViMxvzaNNND8m/dmWKCD1jThKt1FTjwlG70bNo
+// SIG // YNwq5OgJpGU8nApjvk4JKPcLM9KveUcDLWP4Ays70Ane
+// SIG // /keu4Z3hX+HtgyW3EVKs2BeAjQxE4dCtoA69FHSSr6cn
+// SIG // 5n1oIgkPQMnJhuhthDcNWKwOHh0tNMk/9uuKrFaTuEvd
+// SIG // lI8MhuOUd7lxS6qDOd4V3UTyPphbqwfaQlWP3ULwMjmB
+// SIG // YfB70BFkNOb+lHfEfe6yfkPbpW3iovrFQgK7UHyilpkM
+// SIG // xYfLnEHVtcYYbA4Km25RfLZysWary5Si3l6Py1A0NWgl
+// SIG // 7EClueMEoYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
+// SIG // AgEBMHIwXjELMAkGA1UEBhMCVVMxHTAbBgNVBAoTFFN5
+// SIG // bWFudGVjIENvcnBvcmF0aW9uMTAwLgYDVQQDEydTeW1h
+// SIG // bnRlYyBUaW1lIFN0YW1waW5nIFNlcnZpY2VzIENBIC0g
+// SIG // RzICEA7P9DjI/r81bgTYapgbGlAwCQYFKw4DAhoFAKBd
+// SIG // MBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZI
+// SIG // hvcNAQkFMQ8XDTE2MDkxMDA1MTEzM1owIwYJKoZIhvcN
+// SIG // AQkEMRYEFDF7MGxDlBmojWCnW+gG5zTydO62MA0GCSqG
+// SIG // SIb3DQEBAQUABIIBAEcYUfnQavkbIbufS9X6+Dif2ed1
+// SIG // pcDq/PTxw+yG0UFkfDxM4IMSfty2UStzi/YMhgu5zse2
+// SIG // Lk00lWINNxfBsmwuhIZdWOaH8AoHQeIdAe/pp6igYfZF
+// SIG // q3MiiGPPjCPjAtVDHoQbn6wXBMpsYLrriShJKJiFKCKm
+// SIG // S7nEc/HOGcigUTb7VVDsbEsZ9K3i5HV91h6WiVvGY1je
+// SIG // mogqF3iOumHAW5h4P/ypbvMKFfPXOev3UEmpOnn3gbQd
+// SIG // XZwkZKyl36IJ5JqnBtH+tBTSlg915BH8YrleQOOpo864
+// SIG // tcVfj3d7p2ZPsCIVSczXu8ak07D47XoEVN5XPpVMNHCC
+// SIG // dJFAmKk=
 // SIG // End signature block
