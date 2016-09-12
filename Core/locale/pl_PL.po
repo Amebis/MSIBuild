@@ -25,12 +25,12 @@ msgid ""
 "[2] cannot install one of its required products. Contact your technical "
 "support group. {{System Error: [3].}}"
 msgstr ""
-"[2] nie może zainstalować jednego z wymaganych produktów. Skontaktuj się z "
-"grupš pomocy technicznej. {{Błšd systemu: [3].}}"
+"[2] nie może zainstalowaś jednego z wymaganych produktów. Skontaktuj się z "
+"grupą pomocy technicznej. {{Błąd systemu: [3].}}"
 
 #: En.Win32.Release.Error-2.idtx:55 En.x64.Release.Error-2.idtx:55
 msgid "'[2]' is not a valid short file name."
-msgstr "[2] nie jest prawidłowš krótkš nazwš pliku."
+msgstr "[2] nie jest prawidłową krótką nazwą pliku."
 
 #: En.Win32.Release.Error-2.idtx:13 En.x64.Release.Error-2.idtx:13
 msgid "[SimpleProductName]"
@@ -54,11 +54,11 @@ msgstr "{{Dysk pełny: }}"
 
 #: En.Win32.Release.Error-2.idtx:5 En.x64.Release.Error-2.idtx:5
 msgid "{{Error [1]. }}"
-msgstr "{{Błšd [1]. }}"
+msgstr "{{Błąd [1]. }}"
 
 #: En.Win32.Release.Error-2.idtx:4 En.x64.Release.Error-2.idtx:4
 msgid "{{Fatal error: }}"
-msgstr "{{Błšd krytyczny: }}"
+msgstr "{{Błąd krytyczny: }}"
 
 #: En.Win32.Release.Error-2.idtx:16 En.x64.Release.Error-2.idtx:16
 msgid "=== Logging started: [Date] [Time] ==="
@@ -84,32 +84,32 @@ msgid ""
 "an invalid digital signature. This may indicate that the cabinet file is "
 "corrupt.{{ Error [3] was returned by WinVerifyTrust.}}"
 msgstr ""
-"Nie można zainstalować wymaganego pliku, ponieważ plik cabinet [2] ma "
-"nieprawidłowy podpis cyfrowy. Może to wskazywać, że plik cabinet jest "
-"uszkodzony. {{Moduł WinVerifyTrust zwrócił błšd [3].}}"
+"Nie można zainstalowaś wymaganego pliku, ponieważ plik cabinet [2] ma "
+"nieprawidłowy podpis cyfrowy. Może to wskazywaś, że plik cabinet jest "
+"uszkodzony. {{Moduł WinVerifyTrust zwrócił błąd [3].}}"
 
 #: En.Win32.Release.Error-2.idtx:59 En.x64.Release.Error-2.idtx:59
 msgid ""
 "A file that is required cannot be installed because the cabinet file [2] is "
 "not digitally signed. This may indicate that the cabinet file is corrupt."
 msgstr ""
-"Nie można zainstalować wymaganego pliku, ponieważ plik cabinet [2] nie jest "
-"podpisany cyfrowo. Może to wskazywać, że plik cabinet jest uszkodzony."
+"Nie można zainstalowaś wymaganego pliku, ponieważ plik cabinet [2] nie jest "
+"podpisany cyfrowo. Może to wskazywaś, że plik cabinet jest uszkodzony."
 
 #: En.Win32.Release.Error-2.idtx:48 En.x64.Release.Error-2.idtx:48
 msgid "A network error occurred while attempting to create the folder: [2]"
-msgstr "Wystšpił błšd sieciowy podczas próby utworzenia katalogu: [2]"
+msgstr "Wystąpił błąd sieciowy podczas próby utworzenia katalogu: [2]"
 
 #: En.Win32.Release.Error-2.idtx:49 En.x64.Release.Error-2.idtx:49
 msgid ""
 "A network error occurred while attempting to open the source file cabinet: [2]"
 msgstr ""
-"Wystšpił błšd sieciowy podczas próby otwarcia pliku ródłowego z pliku cabinet: "
+"Wystąpił błąd sieciowy podczas próby otwarcia pliku ródłowego z pliku cabinet: "
 "[2]"
 
 #: En.Win32.Release.Error-2.idtx:46 En.x64.Release.Error-2.idtx:46
 msgid "A network error occurred while attempting to read from the file: [2]"
-msgstr "Wystšpił błšd sieciowy podczas próby odczytu z pliku: [2]"
+msgstr "Wystąpił błąd sieciowy podczas próby odczytu z pliku: [2]"
 
 #: En.Win32.Release.CustomAction-2.idtx:5 En.x64.Release.CustomAction-2.idtx:4
 msgid "A newer version of [SimpleProductName] is already installed."
@@ -120,8 +120,8 @@ msgid ""
 "A portion of the folder path '[2]' is invalid. It is either empty or exceeds "
 "the length allowed by the system."
 msgstr ""
-"Częć cieżki folderu [2] jest nieprawidłowa. Jest ona pusta lub przekracza "
-"długoć dopuszczalnš przez system."
+"Częś cieżki folderu [2] jest nieprawidłowa. Jest ona pusta lub przekracza "
+"długoś dopuszczalną przez system."
 
 #: En.Win32.Release.Error-2.idtx:95 En.x64.Release.Error-2.idtx:95
 msgid ""
@@ -130,12 +130,12 @@ msgid ""
 "changes?"
 msgstr ""
 "Poprzednia instalacja tego produktu jest w tej chwili w toku. Przed "
-"kontynuacjš musisz cofnšć zmiany dokonane przez tę instalację. Chcesz cofnšć "
+"kontynuacją musisz cofnąś zmiany dokonane przez tę instalację. Chcesz cofnąś "
 "zmiany?"
 
 #: En.Win32.Release.Error-2.idtx:127 En.x64.Release.Error-2.idtx:127
 msgid "A valid destination folder for the install could not be determined."
-msgstr "Nie można ustalić prawidłowego folderu docelowego instalacji."
+msgstr "Nie można ustaliś prawidłowego folderu docelowego instalacji."
 
 #: En.Win32.Release.Error-2.idtx:12 En.x64.Release.Error-2.idtx:12
 msgid "Action [Time]: [1]. [2]"
@@ -143,11 +143,11 @@ msgstr "Akcja [Time]: [1]. [2]"
 
 #: En.Win32.Release.Error-2.idtx:19 En.x64.Release.Error-2.idtx:19
 msgid "Action ended [Time]: [1]. Return value [2]."
-msgstr "Koniec akcji [Time]: [1]. Zwrócona wartoć [2]."
+msgstr "Koniec akcji [Time]: [1]. Zwrócona wartoś [2]."
 
 #: En.Win32.Release.Error-2.idtx:18 En.x64.Release.Error-2.idtx:18
 msgid "Action start [Time]: [1]."
-msgstr "Poczštek akcji [Time]: [1]."
+msgstr "Początek akcji [Time]: [1]."
 
 #: En.Win32.Release.Error-2.idtx:116 En.x64.Release.Error-2.idtx:116
 msgid "Advertisement completed successfully."
@@ -162,7 +162,7 @@ msgid ""
 "An error occured during the installation of assembly component [2]. HRESULT: "
 "[3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
 msgstr ""
-"Wystšpił błšd podczas instalowania składniku asemblacji [2]. HRESULT: [3]. "
+"Wystąpił błąd podczas instalowania składniku asemblacji [2]. HRESULT: [3]. "
 "{{interfejs asemblacji: [4], funkcja: [5], nazwa asemblacji: [6]}}"
 
 #: En.Win32.Release.Error-2.idtx:89 En.x64.Release.Error-2.idtx:89
@@ -173,15 +173,15 @@ msgid ""
 "Retry, or Cancel to end the install. {{Unable to locate the user's SID, system "
 "error [3]}}"
 msgstr ""
-"Wystšpił błšd podczas stosowania ustawień zabezpieczeń. [2] nie jest "
-"prawidłowym użytkownikiem ani grupš. Mógł wystšpić problem z pakietem lub z "
-"połšczeniem z kontrolerem domeny w sieci. Sprawd połšczenie sieciowe i kliknij "
-"przycisk Ponów próbę lub kliknij przycisk Anuluj, aby zakończyć instalację. "
-"{{Nie można zlokalizować identyfikatora SID użytkownika, błšd systemu [3]}}"
+"Wystąpił błąd podczas stosowania ustawień zabezpieczeń. [2] nie jest "
+"prawidłowym użytkownikiem ani grupą. Mógł wystąpiś problem z pakietem lub z "
+"połączeniem z kontrolerem domeny w sieci. Sprawd połączenie sieciowe i kliknij "
+"przycisk Ponów próbę lub kliknij przycisk Anuluj, aby zakończyś instalację. "
+"{{Nie można zlokalizowaś identyfikatora SID użytkownika, błąd systemu [3]}}"
 
 #: En.Win32.Release.Error-2.idtx:47 En.x64.Release.Error-2.idtx:47
 msgid "An error occurred while attempting to create the folder: [2]"
-msgstr "Wystšpił błšd podczas próby utworzenia katalogu: [2]"
+msgstr "Wystąpił błąd podczas próby utworzenia katalogu: [2]"
 
 #: En.Win32.Release.Error-2.idtx:101 En.x64.Release.Error-2.idtx:101
 msgid ""
@@ -189,24 +189,24 @@ msgid ""
 "make sure enough disk space is available, and click Retry, or Cancel to end "
 "the install."
 msgstr ""
-"Podczas zapisywania informacji o instalacji na dysk, wystšpił błšd. Upewnij "
-"się, czy jest wystarczajšca iloć miejsca na dysku i kliknij przycisk Ponów "
-"próbę lub przycisk Anuluj, aby zakończyć instalację."
+"Podczas zapisywania informacji o instalacji na dysk, wystąpił błąd. Upewnij "
+"się, czy jest wystarczająca iloś miejsca na dysku i kliknij przycisk Ponów "
+"próbę lub przycisk Anuluj, aby zakończyś instalację."
 
 #: En.Win32.Release.Error-2.idtx:94 En.x64.Release.Error-2.idtx:94
 msgid ""
 "An installation for [2] is currently suspended. You must undo the changes made "
 "by that installation to continue. Do you want to undo those changes?"
 msgstr ""
-"Instalacja [2] jest w tej chwili wstrzymana. Przed kontynuacjš musisz cofnšć "
-"zmiany dokonane przez tę instalację. Chcesz cofnšć zmiany?"
+"Instalacja [2] jest w tej chwili wstrzymana. Przed kontynuacją musisz cofnąś "
+"zmiany dokonane przez tę instalację. Chcesz cofnąś zmiany?"
 
 #: En.Win32.Release.Error-2.idtx:96 En.x64.Release.Error-2.idtx:96
 msgid ""
 "An installation package for the product [2] cannot be found. Try the "
 "installation again using a valid copy of the installation package '[3]'."
 msgstr ""
-"Pakiet instalacyjny dla produktu [2] nie został odnaleziony. Spróbuj uruchomić "
+"Pakiet instalacyjny dla produktu [2] nie został odnaleziony. Spróbuj uruchomiś "
 "instalację ponownie przy użyciu aktualnej kopii pakietu instalacyjnego [3]."
 
 #: En.Win32.Release.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
@@ -214,7 +214,7 @@ msgid ""
 "Another application has exclusive access to the file '[2]'. Please shut down "
 "all other applications, then click Retry."
 msgstr ""
-"Inna aplikacja ma już wyłšczny dostęp do pliku [2]. Zamknij wszystkie inne "
+"Inna aplikacja ma już wyłączny dostęp do pliku [2]. Zamknij wszystkie inne "
 "aplikacje, a następnie kliknij przycisk Ponów próbę."
 
 #: En.Win32.Release.Error-2.idtx:77 En.x64.Release.Error-2.idtx:77
@@ -222,28 +222,28 @@ msgid ""
 "Another installation is in progress. You must complete that installation "
 "before continuing this one."
 msgstr ""
-"Inna instalacja jest w toku. Przed kontynuowanie tej instalacji, dokończ tamtš."
+"Inna instalacja jest w toku. Przed kontynuowanie tej instalacji, dokończ tamtą."
 
 #: En.Win32.Release.Error-2.idtx:82 En.x64.Release.Error-2.idtx:82
 msgid "Are you sure you want to cancel?"
-msgstr "Czy na pewno chcesz anulować?"
+msgstr "Czy na pewno chcesz anulowaś?"
 
 #: En.Win32.Release.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
 msgid ""
 "Cannot create the file '[2]'. A folder with this name already exists. Cancel "
 "the install and try installing to a different location."
 msgstr ""
-"Nie można utworzyć pliku [2]. Istnieje już katalog o tej nazwie. Anuluj "
-"instalację i spróbuj zainstalować w innej lokalizacji."
+"Nie można utworzyś pliku [2]. Istnieje już katalog o tej nazwie. Anuluj "
+"instalację i spróbuj zainstalowaś w innej lokalizacji."
 
 #: En.Win32.Release.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
 msgid ""
 "Cannot create the folder '[2]'. A file with this name already exists. Please "
 "rename or remove the file and click retry, or click Cancel to exit."
 msgstr ""
-"Nie można utworzyć katalogu [2]. Istnieje już plik o tej nazwie. Zmień nazwę "
+"Nie można utworzyś katalogu [2]. Istnieje już plik o tej nazwie. Zmień nazwę "
 "pliku lub usuń plik i kliknij przycisk Ponów próbę lub kliknij przycisk "
-"Anuluj, aby zakończyć."
+"Anuluj, aby zakończyś."
 
 #: En.Win32.Release.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
 msgid ""
@@ -251,9 +251,9 @@ msgid ""
 "installation requires Component Services in order to complete successfully. "
 "Component Services are available on Windows 2000."
 msgstr ""
-"Usługi składników (COM+ 1.0) nie sš zainstalowane na tym komputerze. "
-"Instalacja wymaga usług składników, aby pomylnie jš zakończyć. Usługi "
-"składników sš dostępne w systemie Windows 2000."
+"Usługi składników (COM+ 1.0) nie są zainstalowane na tym komputerze. "
+"Instalacja wymaga usług składników, aby pomylnie ją zakończyś. Usługi "
+"składników są dostępne w systemie Windows 2000."
 
 #: En.Win32.Release.Error-2.idtx:118 En.x64.Release.Error-2.idtx:118
 msgid "Configuration completed successfully."
@@ -269,14 +269,14 @@ msgstr "Skonfigurowano: [2]"
 
 #: En.Win32.Release.Error-2.idtx:86 En.x64.Release.Error-2.idtx:86
 msgid "Could not access network location [2]."
-msgstr "Nie można uzyskać dostępu do lokalizacji w sieci [2]."
+msgstr "Nie można uzyskaś dostępu do lokalizacji w sieci [2]."
 
 #: En.Win32.Release.Error-2.idtx:67 En.x64.Release.Error-2.idtx:67
 msgid ""
 "Could not create key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Nie można utworzyć klucza: [2]. {{Błšd systemu [3].}} Zweryfikuj, czy masz "
+"Nie można utworzyś klucza: [2]. {{Błąd systemu [3].}} Zweryfikuj, czy masz "
 "odpowiednie prawa dostępu do klucza lub skontaktuj się z personelem pomocy "
 "technicznej. "
 
@@ -285,7 +285,7 @@ msgid ""
 "Could not create Shortcut [2]. Verify that the destination folder exists and "
 "that you can access it."
 msgstr ""
-"Nie można utworzyć skrótu [2]. Zweryfikuj, czy folder docelowy istnieje i czy "
+"Nie można utworzyś skrótu [2]. Zweryfikuj, czy folder docelowy istnieje i czy "
 "masz do niego dostęp."
 
 #: En.Win32.Release.Error-2.idtx:70 En.x64.Release.Error-2.idtx:70
@@ -293,7 +293,7 @@ msgid ""
 "Could not delete key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Nie można usunšć klucza: [2]. {{Błšd systemu [3].}} Zweryfikuj, czy masz "
+"Nie można usunąś klucza: [2]. {{Błąd systemu [3].}} Zweryfikuj, czy masz "
 "odpowiednie prawa dostępu do klucza lub skontaktuj się z personelem pomocy "
 "technicznej. "
 
@@ -302,7 +302,7 @@ msgid ""
 "Could not delete value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Nie można usunšć wartoci [2] z klucza [3]. {{ Błšd systemu [4].}} Zweryfikuj, "
+"Nie można usunąś wartoci [2] z klucza [3]. {{ Błąd systemu [4].}} Zweryfikuj, "
 "czy masz odpowiednie prawa dostępu do klucza lub skontaktuj się z personelem "
 "pomocy technicznej. "
 
@@ -311,7 +311,7 @@ msgid ""
 "Could not find any previously installed compliant products on the machine for "
 "installing this product."
 msgstr ""
-"Nie można odnaleć wczeniej zainstalowanych produktów zależnych od instalacji "
+"Nie można odnaleś wczeniej zainstalowanych produktów zależnych od instalacji "
 "tego produktu."
 
 #: En.Win32.Release.Error-2.idtx:74 En.x64.Release.Error-2.idtx:74
@@ -319,7 +319,7 @@ msgid ""
 "Could not get sub key names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
-"Nie można pobrać nazw podklucza [2]. {{Błšd systemu [3].}} Zweryfikuj, czy "
+"Nie można pobraś nazw podklucza [2]. {{Błąd systemu [3].}} Zweryfikuj, czy "
 "masz odpowiednie prawa dostępu do klucza lub skontaktuj się z personelem "
 "pomocy technicznej."
 
@@ -328,7 +328,7 @@ msgid ""
 "Could not get value names for key [2]. {{ System error [3].}} Verify that you "
 "have sufficient access to that key, or contact your support personnel."
 msgstr ""
-"Nie można pobrać nazw wartoci klucza [2]. {{Błšd systemu [3].}} Zweryfikuj, "
+"Nie można pobraś nazw wartoci klucza [2]. {{Błąd systemu [3].}} Zweryfikuj, "
 "czy masz odpowiednie prawa dostępu do klucza lub skontaktuj się z personelem "
 "pomocy technicznej."
 
@@ -337,7 +337,7 @@ msgid ""
 "Could not increase the available registry space. [2] KB of free registry space "
 "is required for the installation of this application."
 msgstr ""
-"Nie można zwiększyć dostępnej przestrzeni rejestru. Do instalacji tej "
+"Nie można zwiększyś dostępnej przestrzeni rejestru. Do instalacji tej "
 "aplikacji wymagane jest [2] KB wolnego miejsca dla rejestru."
 
 #: En.Win32.Release.Error-2.idtx:68 En.x64.Release.Error-2.idtx:68
@@ -345,7 +345,7 @@ msgid ""
 "Could not open key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Nie można otworzyć klucza: [2]. {{Błšd systemu [3].}} Zweryfikuj, czy masz "
+"Nie można otworzyś klucza: [2]. {{Błąd systemu [3].}} Zweryfikuj, czy masz "
 "odpowiednie prawa dostępu do klucza lub skontaktuj się z personelem pomocy "
 "technicznej. "
 
@@ -354,7 +354,7 @@ msgid ""
 "Could not read security information for key [2]. {{ System error [3].}} Verify "
 "that you have sufficient access to that key, or contact your support personnel."
 msgstr ""
-"Nie można odczytać informacji o zabezpieczeniach dla klucza [2]. {{Błšd "
+"Nie można odczytaś informacji o zabezpieczeniach dla klucza [2]. {{Błąd "
 "systemu [3].}} Zweryfikuj, czy masz odpowiednie prawa dostępu do klucza lub "
 "skontaktuj się z personelem pomocy technicznej."
 
@@ -363,7 +363,7 @@ msgid ""
 "Could not read value [2] from key [3]. {{ System error [4].}} Verify that you "
 "have sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Nie można odczytać wartoci [2] z klucza [3]. {{Błšd systemu [4].}} Zweryfikuj, "
+"Nie można odczytaś wartoci [2] z klucza [3]. {{Błąd systemu [4].}} Zweryfikuj, "
 "czy masz odpowiednie prawa dostępu do klucza lub skontaktuj się z personelem "
 "pomocy technicznej. "
 
@@ -372,14 +372,14 @@ msgid ""
 "Could not register font [2]. Verify that you have sufficient permissions to "
 "install fonts, and that the system supports this font."
 msgstr ""
-"Nie można zarejestrować czcionki [2]. Zweryfikuj, czy masz wystarczajšce "
+"Nie można zarejestrowaś czcionki [2]. Zweryfikuj, czy masz wystarczające "
 "uprawnienia do instalowania czcionek i czy system obsługuje tę czcionkę."
 
 #: En.Win32.Release.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
 msgid ""
 "Could not register type library for file [2]. Contact your support personnel."
 msgstr ""
-"Nie można zarejestrować biblioteki typów dla pliku [2]. Skontaktuj się z "
+"Nie można zarejestrowaś biblioteki typów dla pliku [2]. Skontaktuj się z "
 "personelem pomocy technicznej."
 
 #: En.Win32.Release.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
@@ -387,7 +387,7 @@ msgid ""
 "Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
 "you can access it."
 msgstr ""
-"Nie można usunšć skrótu [2]. Zweryfikuj, czy plik skrótu istnieje i czy masz "
+"Nie można usunąś skrótu [2]. Zweryfikuj, czy plik skrótu istnieje i czy masz "
 "do niego dostęp."
 
 #: En.Win32.Release.Error-2.idtx:141 En.x64.Release.Error-2.idtx:141
@@ -395,7 +395,7 @@ msgid ""
 "Could not schedule file [2] to replace file [3] on reboot. Verify that you "
 "have write permissions to file [3]."
 msgstr ""
-"Nie można zaplanować pliku [2] do zamiany pliku [3] przy ponownym rozruchu. "
+"Nie można zaplanowaś pliku [2] do zamiany pliku [3] przy ponownym rozruchu. "
 "Zweryfikuj, czy masz uprawnienia do zapisu do pliku [3]."
 
 #: En.Win32.Release.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
@@ -403,7 +403,7 @@ msgid ""
 "Could not set file security for file '[3]'. Error: [2]. Verify that you have "
 "sufficient privileges to modify the security permissions for this file."
 msgstr ""
-"Nie można ustawić pliku zabezpieczeń dla pliku [3]. Błšd: [2]. Zweryfikuj, czy "
+"Nie można ustawiś pliku zabezpieczeń dla pliku [3]. Błąd: [2]. Zweryfikuj, czy "
 "masz odpowiednie uprawnienia do modyfikacji uprawnień zabezpieczeń dla tego "
 "pliku."
 
@@ -412,14 +412,14 @@ msgid ""
 "Could not unregister font [2]. Verify that you that you have sufficient "
 "permissions to remove fonts."
 msgstr ""
-"Nie można wyrejestrować czcionki [2]. Zweryfikuj, czy masz wystarczajšce "
+"Nie można wyrejestrowaś czcionki [2]. Zweryfikuj, czy masz wystarczające "
 "uprawnienia do usuwania czcionek ."
 
 #: En.Win32.Release.Error-2.idtx:139 En.x64.Release.Error-2.idtx:139
 msgid ""
 "Could not unregister type library for file [2]. Contact your support personnel."
 msgstr ""
-"Nie można wyrejestrować biblioteki typów dla pliku [2]. Skontaktuj się z "
+"Nie można wyrejestrowaś biblioteki typów dla pliku [2]. Skontaktuj się z "
 "personelem pomocy technicznej."
 
 #: En.Win32.Release.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
@@ -427,7 +427,7 @@ msgid ""
 "Could not update environment variable '[2]'. Verify that you have sufficient "
 "privileges to modify environment variables."
 msgstr ""
-"Nie można zaktualizować zmiennej rodowiskowej [2]. Zweryfikuj, czy masz "
+"Nie można zaktualizowaś zmiennej rodowiskowej [2]. Zweryfikuj, czy masz "
 "odpowiednie uprawnienia do modyfikacji zmiennych rodowiskowych."
 
 #: En.Win32.Release.Error-2.idtx:140 En.x64.Release.Error-2.idtx:140
@@ -435,7 +435,7 @@ msgid ""
 "Could not update the ini file [2][3]. Verify that the file exists and that you "
 "can access it."
 msgstr ""
-"Nie można zaktualizować pliku ini [2][3]. Zweryfikuj, czy plik istnieje i czy "
+"Nie można zaktualizowaś pliku ini [2][3]. Zweryfikuj, czy plik istnieje i czy "
 "masz do niego dostęp."
 
 #: En.Win32.Release.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
@@ -443,7 +443,7 @@ msgid ""
 "Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
 "have sufficient access to that key, or contact your support personnel."
 msgstr ""
-"Nie można zapisać wartoci [2] do klucza [3]. {{Błšd systemu [4].}} Zweryfikuj, "
+"Nie można zapisaś wartoci [2] do klucza [3]. {{Błąd systemu [4].}} Zweryfikuj, "
 "czy masz odpowiednie prawa dostępu do klucza lub skontaktuj się z personelem "
 "pomocy technicznej."
 
@@ -452,8 +452,8 @@ msgid ""
 "Error accessing secured data. Please make sure the Windows Installer is "
 "configured properly and try the install again."
 msgstr ""
-"Błšd dostępu do bezpiecznych danych. Upewnij się, że Instalator Windows jest "
-"prawidłowo skonfigurowany i spróbuj ponownie zainstalować."
+"Błąd dostępu do bezpiecznych danych. Upewnij się, że Instalator Windows jest "
+"prawidłowo skonfigurowany i spróbuj ponownie zainstalowaś."
 
 #: En.Win32.Release.Error-2.idtx:58 En.x64.Release.Error-2.idtx:58
 msgid ""
@@ -461,33 +461,33 @@ msgid ""
 "and can no longer be modified by this patch. For more information contact your "
 "patch vendor. {{System Error: [3]}}"
 msgstr ""
-"Podczas stosowania poprawki do pliku [2] wystšpił błšd. Prawdopodobnie plik "
-"został zaktualizowany w inny sposób i nie może być modyfikowany przez tę "
-"poprawkę. Aby uzyskać więcej informacji, skontaktuj się z dostawcš poprawki. "
-"{{Błšd systemu: [3]}}"
+"Podczas stosowania poprawki do pliku [2] wystąpił błąd. Prawdopodobnie plik "
+"został zaktualizowany w inny sposób i nie może byś modyfikowany przez tę "
+"poprawkę. Aby uzyskaś więcej informacji, skontaktuj się z dostawcą poprawki. "
+"{{Błąd systemu: [3]}}"
 
 #: En.Win32.Release.Error-2.idtx:128 En.x64.Release.Error-2.idtx:128
 msgid "Error attempting to read from the source install database: [2]."
-msgstr "Błšd podczas próby odczytu bazy danych ródła instalacji: [2]."
+msgstr "Błąd podczas próby odczytu bazy danych ródła instalacji: [2]."
 
 #: En.Win32.Release.Error-2.idtx:146 En.x64.Release.Error-2.idtx:146
 msgid ""
 "Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that the "
 "file [4] exists and that you can access it."
 msgstr ""
-"Błšd konfigurowania ródła danych ODBC: [4], błšd ODBC [2]: [3]. Zweryfikuj, "
+"Błąd konfigurowania ródła danych ODBC: [4], błąd ODBC [2]: [3]. Zweryfikuj, "
 "czy plik [4] istnieje i czy masz do niego dostęp."
 
 #: En.Win32.Release.Error-2.idtx:56 En.x64.Release.Error-2.idtx:56
 msgid "Error getting file security: [3] GetLastError: [2]"
-msgstr "Błšd pobierania zabezpieczeń pliku: [3] GetLastError: [2]"
+msgstr "Błąd pobierania zabezpieczeń pliku: [3] GetLastError: [2]"
 
 #: En.Win32.Release.Error-2.idtx:143 En.x64.Release.Error-2.idtx:143
 msgid ""
 "Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
 msgstr ""
-"Błšd instalowania menedżera sterownika ODBC, błšd ODBC [2]: [3]. Skontaktuj "
+"Błąd instalowania menedżera sterownika ODBC, błąd ODBC [2]: [3]. Skontaktuj "
 "się z personelem pomocy technicznej."
 
 #: En.Win32.Release.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
@@ -495,7 +495,7 @@ msgid ""
 "Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
 "[4] exists and that you can access it."
 msgstr ""
-"Błšd instalowania sterownika ODBC: [4], błšd ODBC [2]: [3]. Zweryfikuj, czy "
+"Błąd instalowania sterownika ODBC: [4], błąd ODBC [2]: [3]. Zweryfikuj, czy "
 "plik [4] istnieje i czy masz do niego dostęp."
 
 #: En.Win32.Release.Error-2.idtx:35 En.x64.Release.Error-2.idtx:35
@@ -503,7 +503,7 @@ msgid ""
 "Error reading from file [2]. {{ System error [3].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
-"Błšd odczytu z pliku: [2]. {{Błšd systemu [3].}} Zweryfikuj, czy plik istnieje "
+"Błąd odczytu z pliku: [2]. {{Błąd systemu [3].}} Zweryfikuj, czy plik istnieje "
 "i czy masz do niego dostęp."
 
 #: En.Win32.Release.Error-2.idtx:30 En.x64.Release.Error-2.idtx:30
@@ -511,7 +511,7 @@ msgid ""
 "Error reading from file: [2]. {{ System error [3].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
-"Wystšpił błšd podczas odczytu pliku: [2]. {{Błšd systemu [3].}} Zweryfikuj, "
+"Wystąpił błąd podczas odczytu pliku: [2]. {{Błąd systemu [3].}} Zweryfikuj, "
 "czy plik istnieje i czy masz do niego dostęp."
 
 #: En.Win32.Release.Error-2.idtx:39 En.x64.Release.Error-2.idtx:39
@@ -519,7 +519,7 @@ msgid ""
 "Error reading from file: [3]. {{ System error [2].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
-"Błšd odczytu z pliku: [3]. {{Błšd systemu [2].}} Zweryfikuj, czy plik istnieje "
+"Błąd odczytu z pliku: [3]. {{Błąd systemu [2].}} Zweryfikuj, czy plik istnieje "
 "i czy masz do niego dostęp."
 
 #: En.Win32.Release.Error-2.idtx:155 En.x64.Release.Error-2.idtx:155
@@ -527,15 +527,15 @@ msgid ""
 "Error registering COM+ Application. Contact your support personnel for more "
 "information."
 msgstr ""
-"Podczas rejestrowania aplikacji COM+ wystšpiła błšd. Skontaktuj się z "
-"personelem pomocy technicznej, aby uzyskać więcej informacji."
+"Podczas rejestrowania aplikacji COM+ wystąpiła błąd. Skontaktuj się z "
+"personelem pomocy technicznej, aby uzyskaś więcej informacji."
 
 #: En.Win32.Release.Error-2.idtx:142 En.x64.Release.Error-2.idtx:142
 msgid ""
 "Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your support "
 "personnel."
 msgstr ""
-"Błšd usuwania menedżera sterownika ODBC, błšd ODBC [2]: [3]. Skontaktuj się z "
+"Błąd usuwania menedżera sterownika ODBC, błąd ODBC [2]: [3]. Skontaktuj się z "
 "personelem pomocy technicznej."
 
 #: En.Win32.Release.Error-2.idtx:144 En.x64.Release.Error-2.idtx:144
@@ -543,7 +543,7 @@ msgid ""
 "Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you have "
 "sufficient privileges to remove ODBC drivers."
 msgstr ""
-"Błšd usuwania menedżera sterownika ODBC: [4], błšd ODBC [2]: [3]. Zweryfikuj, "
+"Błąd usuwania menedżera sterownika ODBC: [4], błąd ODBC [2]: [3]. Zweryfikuj, "
 "czy masz odpowiednie uprawnienia do usuwania sterowników ODBC."
 
 #: En.Win32.Release.Error-2.idtx:156 En.x64.Release.Error-2.idtx:156
@@ -551,38 +551,38 @@ msgid ""
 "Error unregistering COM+ Application. Contact your support personnel for more "
 "information."
 msgstr ""
-"Podczas wyrejestrowywania aplikacji COM+ wystšpił błšd. Skontaktuj się z "
-"personelem pomocy technicznej, aby uzyskać więcej informacji."
+"Podczas wyrejestrowywania aplikacji COM+ wystąpił błąd. Skontaktuj się z "
+"personelem pomocy technicznej, aby uzyskaś więcej informacji."
 
 #: En.Win32.Release.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
 msgid "Error writing to file: [2]. Verify that you have access to that folder."
-msgstr "Błšd zapisu do pliku: [2]. Zweryfikuj, czy masz dostęp do tego katalogu."
+msgstr "Błąd zapisu do pliku: [2]. Zweryfikuj, czy masz dostęp do tego katalogu."
 
 #: En.Win32.Release.Error-2.idtx:40 En.x64.Release.Error-2.idtx:40
 msgid ""
 "Error writing to file: [3]. {{ System error [2].}} Verify that you have access "
 "to that folder."
 msgstr ""
-"Błšd zapisu do pliku: [3]. {{Błšd systemu [2].}} Zweryfikuj, czy masz dostęp "
+"Błąd zapisu do pliku: [3]. {{Błąd systemu [2].}} Zweryfikuj, czy masz dostęp "
 "do tego katalogu."
 
 #: En.Win32.Release.Error-2.idtx:133 En.x64.Release.Error-2.idtx:133
 msgid "Failed to cache package [2]. Error: [3]. Contact your support personnel."
 msgstr ""
-"Nie można umiecić w buforze pakietu [2]. Błšd: [3]. Skontaktuj się z "
+"Nie można umieciś w buforze pakietu [2]. Błąd: [3]. Skontaktuj się z "
 "personelem pomocy technicznej."
 
 #: En.Win32.Release.Error-2.idtx:61 En.x64.Release.Error-2.idtx:61
 msgid "Failed to correctly copy [2] file: CRC error."
-msgstr "Nie można poprawnie skopiować pliku [2]: błšd CRC."
+msgstr "Nie można poprawnie skopiowaś pliku [2]: błąd CRC."
 
 #: En.Win32.Release.Error-2.idtx:62 En.x64.Release.Error-2.idtx:62
 msgid "Failed to correctly move [2] file: CRC error."
-msgstr "Nie można poprawnie przenieć pliku [2]: błšd CRC."
+msgstr "Nie można poprawnie przenieś pliku [2]: błąd CRC."
 
 #: En.Win32.Release.Error-2.idtx:63 En.x64.Release.Error-2.idtx:63
 msgid "Failed to correctly patch [2] file: CRC error."
-msgstr "Nie można poprawnie zastosować poprawki do pliku [2]: błšd CRC."
+msgstr "Nie można poprawnie zastosowaś poprawki do pliku [2]: błąd CRC."
 
 #: En.Win32.Release.Error-2.idtx:108 En.x64.Release.Error-2.idtx:108
 msgid "File [2] was rejected by digital signature policy."
@@ -628,14 +628,14 @@ msgstr "Typ wiadomoci: [1], Argument: [2]"
 msgid ""
 "Module [2] failed to register. HRESULT [3]. Contact your support personnel."
 msgstr ""
-"Nie można zarejestrować modułu [2]. HRESULT [3]. Skontaktuj się z personelem "
+"Nie można zarejestrowaś modułu [2]. HRESULT [3]. Skontaktuj się z personelem "
 "pomocy technicznej."
 
 #: En.Win32.Release.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
 msgid ""
 "Module [2] failed to unregister. HRESULT [3]. Contact your support personnel."
 msgstr ""
-"Nie można wyrejestrować modułu [2]. HRESULT [3]. Skontaktuj się z personelem "
+"Nie można wyrejestrowaś modułu [2]. HRESULT [3]. Skontaktuj się z personelem "
 "pomocy technicznej."
 
 #: En.Win32.Release.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
@@ -643,7 +643,7 @@ msgid ""
 "One or more of the files required to restore your computer to its previous "
 "state could not be found. Restoration will not be possible."
 msgstr ""
-"Nie można znaleć jednego lub więcej plików wymaganych do przywrócenia "
+"Nie można znaleś jednego lub więcej plików wymaganych do przywrócenia "
 "komputera do poprzedniego stanu. Przywrócenie nie jest możliwe."
 
 #: En.Win32.Release.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
@@ -696,8 +696,8 @@ msgid ""
 "Scheduling reboot operation: Deleting file [2]. Must reboot to complete "
 "operation."
 msgstr ""
-"Planowanie operacji ponownego rozruchu: Usuwanie pliku [2]. Aby ukończyć "
-"operację, należy dokonać ponownego rozruchu."
+"Planowanie operacji ponownego rozruchu: Usuwanie pliku [2]. Aby ukończyś "
+"operację, należy dokonaś ponownego rozruchu."
 
 #: En.Win32.Release.Error-2.idtx:129 En.x64.Release.Error-2.idtx:129
 msgid ""
@@ -705,14 +705,14 @@ msgid ""
 "operation."
 msgstr ""
 "Planowanie operacji ponownego rozruchu: Zmiana nazwy pliku [2] na [3]. Aby "
-"ukończyć operację, należy dokonać ponownego rozruchu."
+"ukończyś operację, należy dokonaś ponownego rozruchu."
 
 #: En.Win32.Release.Error-2.idtx:149 En.x64.Release.Error-2.idtx:149
 msgid ""
 "Service '[2]' ([3]) could not be deleted. Verify that you have sufficient "
 "privileges to remove system services."
 msgstr ""
-"Nie można usunšć usługi [2] ([3]). Zweryfikuj, czy masz odpowiednie "
+"Nie można usunąś usługi [2] ([3]). Zweryfikuj, czy masz odpowiednie "
 "uprawnienia do usuwania usług systemu."
 
 #: En.Win32.Release.Error-2.idtx:150 En.x64.Release.Error-2.idtx:150
@@ -720,7 +720,7 @@ msgid ""
 "Service '[2]' ([3]) could not be installed. Verify that you have sufficient "
 "privileges to install system services."
 msgstr ""
-"Nie można zainstalować usługi [2] ([3]). Zweryfikuj, czy masz odpowiednie "
+"Nie można zainstalowaś usługi [2] ([3]). Zweryfikuj, czy masz odpowiednie "
 "uprawnienia do instalowania usług systemu."
 
 #: En.Win32.Release.Error-2.idtx:148 En.x64.Release.Error-2.idtx:148
@@ -728,7 +728,7 @@ msgid ""
 "Service '[2]' ([3]) could not be stopped. Verify that you have sufficient "
 "privileges to stop system services."
 msgstr ""
-"Nie można zatrzymać usługi [2] ([3]). Zweryfikuj, czy masz odpowiednie "
+"Nie można zatrzymaś usługi [2] ([3]). Zweryfikuj, czy masz odpowiednie "
 "uprawnienia do zatrzymywania usług systemu."
 
 #: En.Win32.Release.Error-2.idtx:147 En.x64.Release.Error-2.idtx:147
@@ -736,7 +736,7 @@ msgid ""
 "Service '[2]' ([3]) failed to start. Verify that you have sufficient "
 "privileges to start system services."
 msgstr ""
-"Nie można uruchomić usługi [2] ([3]). Zweryfikuj, czy masz odpowiednie "
+"Nie można uruchomiś usługi [2] ([3]). Zweryfikuj, czy masz odpowiednie "
 "uprawnienia do uruchamiania usług systemu."
 
 #: En.Win32.Release.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
@@ -762,12 +762,12 @@ msgid ""
 "or a problem with this package."
 msgstr ""
 "Plik cabinet [2] wymagany dla tej instalacji jest uszkodzony i nie można go "
-"użyć. Może to wskazywać błšd sieciowy, błšd odczytu ze stacji dysków CD-ROM "
+"użyś. Może to wskazywaś błąd sieciowy, błąd odczytu ze stacji dysków CD-ROM "
 "lub problem z tym pakietem."
 
 #: En.Win32.Release.Error-2.idtx:157 En.x64.Release.Error-2.idtx:157
 msgid "The description for service '[2]' ([3]) could not be changed."
-msgstr "Nie można zmienić opisu usługi [2] ([3])."
+msgstr "Nie można zmieniś opisu usługi [2] ([3])."
 
 #: En.Win32.Release.Error-2.idtx:64 En.x64.Release.Error-2.idtx:64
 msgid ""
@@ -775,8 +775,8 @@ msgid ""
 "file '[3]'. This could indicate a network error, an error reading from the CD-"
 "ROM, or a problem with this package."
 msgstr ""
-"Nie można zainstalować pliku [2], ponieważ nie można znaleć go w pliku cabinet "
-"[3]. Może to wskazywać błšd sieciowy, błšd odczytu ze stacji dysków CD-ROM lub "
+"Nie można zainstalowaś pliku [2], ponieważ nie można znaleś go w pliku cabinet "
+"[3]. Może to wskazywaś błąd sieciowy, błąd odczytu ze stacji dysków CD-ROM lub "
 "problem z tym pakietem."
 
 #: En.Win32.Release.Error-2.idtx:83 En.x64.Release.Error-2.idtx:83
@@ -784,12 +784,12 @@ msgid ""
 "The file [2][3] is being held in use{ by the following process: Name: [4], Id: "
 "[5], Window Title: '[6]'}. Close that application and retry."
 msgstr ""
-"Plik [2][3] jest zablokowany przez{ następujšcy proces: nazwa: [4], "
+"Plik [2][3] jest zablokowany przez{ następujący proces: nazwa: [4], "
 "identyfikator: [5], tytuł okna: [6]}. Zamknij tę aplikację i ponów próbę."
 
 #: En.Win32.Release.Error-2.idtx:125 En.x64.Release.Error-2.idtx:125
 msgid "The folder [2] does not exist. Please enter a path to an existing folder."
-msgstr "Folder [2] nie istnieje. Wpisz cieżkę do istniejšcego folderu."
+msgstr "Folder [2] nie istnieje. Wpisz cieżkę do istniejącego folderu."
 
 #: En.Win32.Release.Error-2.idtx:54 En.x64.Release.Error-2.idtx:54
 msgid "The folder path '[2]' contains an invalid character."
@@ -798,13 +798,13 @@ msgstr "cieżka folderu [2] zawiera nieprawidłowe znaki."
 #: En.Win32.Release.Error-2.idtx:53 En.x64.Release.Error-2.idtx:53
 msgid "The folder path '[2]' contains words that are not valid in folder paths."
 msgstr ""
-"cieżka folderu [2] zawiera wyrazy, które nie sš prawidłowe w cieżkach folderów."
+"cieżka folderu [2] zawiera wyrazy, które nie są prawidłowe w cieżkach folderów."
 
 #: En.Win32.Release.Error-2.idtx:87 En.x64.Release.Error-2.idtx:87
 msgid ""
 "The following applications should be closed before continuing the install:"
 msgstr ""
-"Przed kontynuacjš instalacji, następujšce aplikacje powinny zostać zamknięte:"
+"Przed kontynuacją instalacji, następujące aplikacje powinny zostaś zamknięte:"
 
 #: En.Win32.Release.Error-2.idtx:9 En.x64.Release.Error-2.idtx:9
 msgid ""
@@ -812,8 +812,8 @@ msgid ""
 "This may indicate a problem with this package. The error code is [1]. {{The "
 "arguments are: [2], [3], [4]}}"
 msgstr ""
-"Instalator napotkał nieoczekiwany błšd podczas instalowania tego pakietu. Może "
-"to wskazywać na problem z pakietem. Kod błędu to [1]. {{Argumentami sš: [2], "
+"Instalator napotkał nieoczekiwany błąd podczas instalowania tego pakietu. Może "
+"to wskazywaś na problem z pakietem. Kod błędu to [1]. {{Argumentami są: [2], "
 "[3], [4]}}"
 
 #: En.Win32.Release.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
@@ -822,22 +822,22 @@ msgid ""
 "installation cannot continue. Log on as administrator or contact your system "
 "administrator."
 msgstr ""
-"Instalator ma niewystarczajšce uprawnienia do dostępu do katalogu: [2]. Nie "
-"można kontynuować instalacji. Zaloguj się jako administrator lub skontaktuj "
+"Instalator ma niewystarczające uprawnienia do dostępu do katalogu: [2]. Nie "
+"można kontynuowaś instalacji. Zaloguj się jako administrator lub skontaktuj "
 "się z administratorem systemu."
 
 #: En.Win32.Release.Error-2.idtx:51 En.x64.Release.Error-2.idtx:51
 msgid "The Installer has insufficient privileges to modify this file: [2]."
-msgstr "Instalator ma niewystarczajšce uprawnienia do zmodyfikowania pliku: [2]."
+msgstr "Instalator ma niewystarczające uprawnienia do zmodyfikowania pliku: [2]."
 
 #: En.Win32.Release.Error-2.idtx:92 En.x64.Release.Error-2.idtx:92
 msgid ""
 "The installer must restart your system before configuration of [2] can "
 "continue. Click Yes to restart now or No if you plan to manually restart later."
 msgstr ""
-"Przed kontynuacjš konfiguracji [2] Instalator musi ponownie uruchomić system. "
-"Kliknij przycisk Tak, aby ponownie uruchomić teraz lub przycisk Nie, aby "
-"zrobić to póniej."
+"Przed kontynuacją konfiguracji [2] Instalator musi ponownie uruchomiś system. "
+"Kliknij przycisk Tak, aby ponownie uruchomiś teraz lub przycisk Nie, aby "
+"zrobiś to póniej."
 
 #: En.Win32.Release.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
 msgid "The key [2] is not valid. Verify that you entered the correct key."
@@ -849,12 +849,12 @@ msgid ""
 "The older version of [2] cannot be removed. Contact your technical support "
 "group. {{System Error [3].}}"
 msgstr ""
-"Starsza wersja programu [2] nie może być usunięta. Skontaktuj się z grupš "
-"pomocy technicznej. {{Błšd systemu [3].}}"
+"Starsza wersja programu [2] nie może byś usunięta. Skontaktuj się z grupą "
+"pomocy technicznej. {{Błąd systemu [3].}}"
 
 #: En.Win32.Release.Error-2.idtx:121 En.x64.Release.Error-2.idtx:121
 msgid "The path [2] is not valid. Please specify a valid path."
-msgstr "cieżka [2] nie jest prawidłowa. Podaj prawidłowš cieżkę."
+msgstr "cieżka [2] nie jest prawidłowa. Podaj prawidłową cieżkę."
 
 #: En.Win32.Release.Error-2.idtx:84 En.x64.Release.Error-2.idtx:84
 msgid ""
@@ -862,7 +862,7 @@ msgid ""
 "product. The two products are incompatible."
 msgstr ""
 "Produkt [2] jest już zainstalowany i instalacja tego produktu nie jest "
-"możliwa. Te dwa produkty nie sš zgodne."
+"możliwa. Te dwa produkty nie są zgodne."
 
 #: En.Win32.Release.Error-2.idtx:44 En.x64.Release.Error-2.idtx:44
 msgid "The specified path '[2]' is unavailable."
@@ -882,8 +882,8 @@ msgid ""
 "files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
 msgstr ""
-"Usługa Instalatora Windows nie może zaktualizować jednego lub więcej "
-"chronionych plików systemu Windows. {{Błšd SFP: [2]. Lista chronionych "
+"Usługa Instalatora Windows nie może zaktualizowaś jednego lub więcej "
+"chronionych plików systemu Windows. {{Błąd SFP: [2]. Lista chronionych "
 "plików:\n"
 "[3]}}"
 
@@ -892,8 +892,8 @@ msgid ""
 "The Windows Installer service cannot update the protected Windows file [2]. "
 "{{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
 msgstr ""
-"Usługa Instalator Windows nie może zaktualizować chronionego pliku Windows "
-"[2]. {{Wersja pakietu: [3], wersja OS Protected: [4], błšd SFP: [5]}}"
+"Usługa Instalator Windows nie może zaktualizowaś chronionego pliku Windows "
+"[2]. {{Wersja pakietu: [3], wersja OS Protected: [4], błąd SFP: [5]}}"
 
 #: En.Win32.Release.Error-2.idtx:158 En.x64.Release.Error-2.idtx:158
 msgid ""
@@ -902,9 +902,9 @@ msgid ""
 "this program to work correctly. {{Package version: [3], OS Protected version: "
 "[4]}}"
 msgstr ""
-"Usługa Instalator Windows nie może zaktualizować pliku systemowego [2], "
+"Usługa Instalator Windows nie może zaktualizowaś pliku systemowego [2], "
 "ponieważ jest on zabezpieczony przez system Windows. Aby ten program działał "
-"poprawnie, może zajć potrzeba zaktualizowania systemu operacyjnego. {{Wersja "
+"poprawnie, może zajś potrzeba zaktualizowania systemu operacyjnego. {{Wersja "
 "pakietu: [3], wersja OS Protected: [4]}}"
 
 #: En.Win32.Release.Error-2.idtx:109 En.x64.Release.Error-2.idtx:109
@@ -913,7 +913,7 @@ msgid ""
 "running Windows in safe mode, or if the Windows Installer is not correctly "
 "installed. Contact your support personnel for assistance."
 msgstr ""
-"Nie można uzyskać dostępu do usługi Instalatora Windows. Może się to zdarzyć, "
+"Nie można uzyskaś dostępu do usługi Instalatora Windows. Może się to zdarzyś, "
 "jeli system Windows działa w trybie awaryjnym lub jeli Instalator Windows nie "
 "jest poprawnie zainstalowany. Skontaktuj się z personelem pomocy technicznej."
 
@@ -923,9 +923,9 @@ msgid ""
 "this install to complete could not be run. Contact your support personnel or "
 "package vendor. {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
-"Wystšpił problem z tym pakietem Instalatora Windows. Nie można uruchomić "
+"Wystąpił problem z tym pakietem Instalatora Windows. Nie można uruchomiś "
 "biblioteki DLL wymaganej do dokończenia tej instalacji. Skontaktuj się z "
-"personelem pomocy technicznej lub dostawcš pakietu. {{Akcja: [2], wpis: [3], "
+"personelem pomocy technicznej lub dostawcą pakietu. {{Akcja: [2], wpis: [3], "
 "biblioteka: [4] }}"
 
 #: En.Win32.Release.Error-2.idtx:111 En.x64.Release.Error-2.idtx:111
@@ -934,9 +934,9 @@ msgid ""
 "this install to complete could not be run. Contact your support personnel or "
 "package vendor. {{Action: [2], location: [3], command: [4] }}"
 msgstr ""
-"Wystšpił problem z tym pakietem Instalatora Windows. Nie można uruchomić "
+"Wystąpił problem z tym pakietem Instalatora Windows. Nie można uruchomiś "
 "programu wymaganego do dokończenia tej instalacji. Skontaktuj się z personelem "
-"pomocy technicznej lub dostawcš pakietu. {{Akcja: [2], lokalizacja: [3], "
+"pomocy technicznej lub dostawcą pakietu. {{Akcja: [2], lokalizacja: [3], "
 "polecenie: [4] }}"
 
 #: En.Win32.Release.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
@@ -945,9 +945,9 @@ msgid ""
 "of the setup did not finish as expected. Contact your support personnel or "
 "package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
-"Wystšpił problem z tym pakietem Instalatora Windows. Program uruchamiany jako "
+"Wystąpił problem z tym pakietem Instalatora Windows. Program uruchamiany jako "
 "fragment instalacji nie zakończył się zgodnie z oczekiwaniami. Skontaktuj się "
-"z personelem pomocy technicznej lub dostawcš pakietu. {{Akcja: [2], "
+"z personelem pomocy technicznej lub dostawcą pakietu. {{Akcja: [2], "
 "lokalizacja: [3], polecenie: [4] }}"
 
 #: En.Win32.Release.Error-2.idtx:110 En.x64.Release.Error-2.idtx:110
@@ -957,9 +957,9 @@ msgid ""
 "package vendor. {{Custom action [2] script error [3], [4]: [5] Line [6], "
 "Column [7], [8] }}"
 msgstr ""
-"Wystšpił problem z tym pakietem Instalatora Windows. Nie można uruchomić "
+"Wystąpił problem z tym pakietem Instalatora Windows. Nie można uruchomiś "
 "skryptu wymaganego do dokończenia tej instalacji. Skontaktuj się z personelem "
-"pomocy technicznej lub dostawcš pakietu. {{Błšd skryptu [2] akcji "
+"pomocy technicznej lub dostawcą pakietu. {{Błąd skryptu [2] akcji "
 "niestandardowej [3], [4]: [5] wiersz [6], kolumna [7], [8] }}"
 
 #: En.Win32.Release.Error-2.idtx:123 En.x64.Release.Error-2.idtx:123
@@ -968,7 +968,7 @@ msgid ""
 "Cancel to go back to the previously selected volume."
 msgstr ""
 "W stacji [2] nie ma dysku. Włóż dysk i kliknij przycisk Ponów próbę lub "
-"kliknij przycisk Anuluj aby zmienić na poprzednio wybrany wolumin."
+"kliknij przycisk Anuluj aby zmieniś na poprzednio wybrany wolumin."
 
 #: En.Win32.Release.Error-2.idtx:124 En.x64.Release.Error-2.idtx:124
 msgid ""
@@ -976,7 +976,7 @@ msgid ""
 "Cancel to return to the browse dialog and select a different volume."
 msgstr ""
 "W stacji [2] nie ma dysku. Włóż dysk i kliknij przycisk Ponów próbę lub "
-"kliknij przycisk Anuluj aby powrócić do okna dialogowego przeglšdania i wybrać "
+"kliknij przycisk Anuluj aby powróciś do okna dialogowego przeglądania i wybraś "
 "inny wolumin."
 
 #: En.Win32.Release.Error-2.idtx:85 En.x64.Release.Error-2.idtx:85
@@ -988,10 +988,10 @@ msgid ""
 "installation."
 msgstr ""
 "Na woluminie [2] jest za mało miejsca na dysku do kontynuowania instalacji z "
-"włšczonš opcjš odzyskiwania. Wymagane jest [3] KB, ale dostępnych jest tylko "
-"[4] KB. Kliknij przycisk Ignoruj, aby kontynuować instalację bez zapisywania "
+"włączoną opcją odzyskiwania. Wymagane jest [3] KB, ale dostępnych jest tylko "
+"[4] KB. Kliknij przycisk Ignoruj, aby kontynuowaś instalację bez zapisywania "
 "informacji potrzebnych do odzyskania, przycisk Ponów próbę, aby ponownie "
-"sprawdzić iloć wolnego miejsca na dysku, lub przycisk Anuluj, aby zakończyć "
+"sprawdziś iloś wolnego miejsca na dysku, lub przycisk Anuluj, aby zakończyś "
 "instalację."
 
 #: En.Win32.Release.Error-2.idtx:37 En.x64.Release.Error-2.idtx:37
@@ -999,16 +999,16 @@ msgid ""
 "There is not enough disk space to install this file: [2]. Free some disk space "
 "and click Retry, or click Cancel to exit."
 msgstr ""
-"Za mało miejsca na dysku, aby zainstalować plik: [2]. Zwolnij trochę miejsca "
+"Za mało miejsca na dysku, aby zainstalowaś plik: [2]. Zwolnij trochę miejsca "
 "na dysku i kliknij przycisk Ponów próbę lub kliknij przycisk Anuluj, aby "
-"zakończyć."
+"zakończyś."
 
 #: En.Win32.Release.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
 msgid ""
 "There was an error creating a temporary file that is needed to complete this "
 "installation.{{ Folder: [3]. System error code: [2]}}"
 msgstr ""
-"Wystšpił błšd podczas tworzenia pliku tymczasowego wymaganego do dokończenia "
+"Wystąpił błąd podczas tworzenia pliku tymczasowego wymaganego do dokończenia "
 "tej instalacji. {{Folder: [3]. Kod błędu systemu: [2]}}"
 
 #: En.Win32.Release.Error-2.idtx:90 En.x64.Release.Error-2.idtx:90
@@ -1035,15 +1035,15 @@ msgstr "Pozostały czas: {[1] min }{[2] s}"
 
 #: En.Win32.Release.Error-2.idtx:45 En.x64.Release.Error-2.idtx:45
 msgid "Unable to write to the specified folder: [2]."
-msgstr "Nie można zapisać w podanym folderze: [2]."
+msgstr "Nie można zapisaś w podanym folderze: [2]."
 
 #: En.Win32.Release.Error-2.idtx:80 En.x64.Release.Error-2.idtx:80
 msgid ""
 "User '[2]' has previously initiated an install for product '[3]'. That user "
 "will need to run that install again before they can use that product."
 msgstr ""
-"Użytkownik [2] zaczšł wczeniej instalację produktu [3]. Aby używać tego "
-"produktu, użytkownik będzie musiał ponownie uruchomić instalację."
+"Użytkownik [2] zaczął wczeniej instalację produktu [3]. Aby używaś tego "
+"produktu, użytkownik będzie musiał ponownie uruchomiś instalację."
 
 #: En.Win32.Release.Error-2.idtx:79 En.x64.Release.Error-2.idtx:79
 msgid ""
@@ -1051,13 +1051,13 @@ msgid ""
 "will need to run that install again before they can use that product. Your "
 "current install will now continue."
 msgstr ""
-"Użytkownik [2] zaczšł wczeniej instalację produktu [3]. Aby używać tego "
-"produktu, użytkownik będzie musiał ponownie uruchomić instalację. Bieżšca "
+"Użytkownik [2] zaczął wczeniej instalację produktu [3]. Aby używaś tego "
+"produktu, użytkownik będzie musiał ponownie uruchomiś instalację. Bieżąca "
 "instalacja będzie kontynuowana."
 
 #: En.Win32.Release.Error-2.idtx:161 En.x64.Release.Error-2.idtx:161
 msgid "User installations are disabled via policy on the machine."
-msgstr "Instalacje użytkownika sš wyłšczone przez zasady na tym komputerze."
+msgstr "Instalacje użytkownika są wyłączone przez zasady na tym komputerze."
 
 #: En.Win32.Release.Error-2.idtx:6 En.x64.Release.Error-2.idtx:6
 msgid "Warning [1]. "
@@ -1081,15 +1081,15 @@ msgstr ""
 
 #: En.Win32.Release.Error-2.idtx:126 En.x64.Release.Error-2.idtx:126
 msgid "You have insufficient privileges to read this folder."
-msgstr "Masz niewystarczajšce uprawnienia do czytania tego foldera."
+msgstr "Masz niewystarczające uprawnienia do czytania tego foldera."
 
 #: En.Win32.Release.Error-2.idtx:100 En.x64.Release.Error-2.idtx:100
 msgid ""
 "You may either restore your computer to its previous state or continue the "
 "install later. Would you like to restore?"
 msgstr ""
-"Możesz przywrócić komputer do poprzedniego stanu lub kontynuować instalację "
-"póniej. Chcesz przewrócić do poprzedniego stanu?"
+"Możesz przywróciś komputer do poprzedniego stanu lub kontynuowaś instalację "
+"póniej. Chcesz przewróciś do poprzedniego stanu?"
 
 #: En.Win32.Release.Error-2.idtx:120 En.x64.Release.Error-2.idtx:120
 msgid ""
@@ -1097,8 +1097,8 @@ msgid ""
 "application, you can log on as an Administrator, or contact your technical "
 "support group for assistance."
 msgstr ""
-"Aby usunšć tę aplikację, musisz być administratorem. W celu usunięcia tej "
-"aplikacji zaloguj się jako administrator lub skontaktuj się z grupš pomocy "
+"Aby usunąś tę aplikację, musisz byś administratorem. W celu usunięcia tej "
+"aplikacji zaloguj się jako administrator lub skontaktuj się z grupą pomocy "
 "technicznej w celu uzyskania pomocy."
 
 #: En.Win32.Release.Error-2.idtx:93 En.x64.Release.Error-2.idtx:93
@@ -1106,6 +1106,6 @@ msgid ""
 "You must restart your system for the configuration changes made to [2] to take "
 "effect. Click Yes to restart now or No if you plan to manually restart later."
 msgstr ""
-"Przed kontynuacjš konfiguracji [2] Instalator musi ponownie uruchomić system. "
-"Kliknij przycisk Tak, aby ponownie uruchomić teraz lub przycisk Nie, aby "
-"zrobić to póniej."
+"Przed kontynuacją konfiguracji [2] Instalator musi ponownie uruchomiś system. "
+"Kliknij przycisk Tak, aby ponownie uruchomiś teraz lub przycisk Nie, aby "
+"zrobiś to póniej."
