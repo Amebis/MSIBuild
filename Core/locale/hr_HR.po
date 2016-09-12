@@ -1,20 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-29 07:45+0200\n"
+"POT-Creation-Date: 2016-08-29 07:44+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: hr_HR\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
+"Language-Team: Croatian (Croatia) (https://www.transifex.com/eduroam_devel/teams/11799/hr_HR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
+"Language: hr_HR\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Poedit 1.8.8\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
@@ -91,8 +94,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
 #: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
 msgid ""
-"A file that is required cannot be installed because the cabinet file [2] has "
-"an invalid digital signature. This may indicate that the cabinet file is "
+"A file that is required cannot be installed because the cabinet file [2] has"
+" an invalid digital signature. This may indicate that the cabinet file is "
 "corrupt.{{ Error [3] was returned by WinVerifyTrust.}}"
 msgstr ""
 "Traženu datoteku nije moguće instalirati jer kabinet datoteka [2] ima "
@@ -135,8 +138,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
 #: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
 msgid ""
-"A portion of the folder path '[2]' is invalid. It is either empty or exceeds "
-"the length allowed by the system."
+"A portion of the folder path '[2]' is invalid. It is either empty or exceeds"
+" the length allowed by the system."
 msgstr ""
 "Dio puta do mape '[2]' nije ispravan. Ili je prazan ili premašuje duljinu "
 "koju dopušta sustav."
@@ -185,11 +188,12 @@ msgstr "Objava nije uspjela."
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
-"An error occured during the installation of assembly component [2]. HRESULT: "
-"[3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
+"An error occured during the installation of assembly component [2]. HRESULT:"
+" [3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
 msgstr ""
 "Dogodila se pogreška tijekom instalacije komponente [2]. HRESULT: [3]. "
-"{{sučelje skupa komponenti: [4], funkcija: [5], naziv skupa komponenti: [6]}}"
+"{{sučelje skupa komponenti: [4], funkcija: [5], naziv skupa komponenti: "
+"[6]}}"
 
 #: En.Win32.Debug.Error-2.idtx:89 En.Win32.Release.Error-2.idtx:89
 #: En.x64.Debug.Error-2.idtx:89 En.x64.Release.Error-2.idtx:89
@@ -229,8 +233,8 @@ msgid ""
 "made by that installation to continue. Do you want to undo those changes?"
 msgstr ""
 "Instalacija [2] trenutačno je obustavljena. Morate poništiti promjene koje "
-"je učinila ta instalacija kako biste omogućili nastavak. Želite li poništiti "
-"te promjene?"
+"je učinila ta instalacija kako biste omogućili nastavak. Želite li poništiti"
+" te promjene?"
 
 #: En.Win32.Debug.Error-2.idtx:96 En.Win32.Release.Error-2.idtx:96
 #: En.x64.Debug.Error-2.idtx:96 En.x64.Release.Error-2.idtx:96
@@ -244,11 +248,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
 #: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
 msgid ""
-"Another application has exclusive access to the file '[2]'. Please shut down "
-"all other applications, then click Retry."
+"Another application has exclusive access to the file '[2]'. Please shut down"
+" all other applications, then click Retry."
 msgstr ""
-"Drugi program ima isključivi pristup do datoteke '[2]'. Zatvorite sve ostale "
-"programe, a zatim pritisnite Ponovi."
+"Drugi program ima isključivi pristup do datoteke '[2]'. Zatvorite sve ostale"
+" programe, a zatim pritisnite Ponovi."
 
 #: En.Win32.Debug.Error-2.idtx:77 En.Win32.Release.Error-2.idtx:77
 #: En.x64.Debug.Error-2.idtx:77 En.x64.Release.Error-2.idtx:77
@@ -267,8 +271,8 @@ msgstr "Želite li zaista odustati?"
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
 msgid ""
-"Cannot create the file '[2]'. A folder with this name already exists. Cancel "
-"the install and try installing to a different location."
+"Cannot create the file '[2]'. A folder with this name already exists. Cancel"
+" the install and try installing to a different location."
 msgstr ""
 "Nije moguće napraviti datoteku '[2]'. Imenik tog naziva već postoji. "
 "Prekinite instalaciju i pokušajte instaliranje na drugo mjesto."
@@ -276,8 +280,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
 #: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
 msgid ""
-"Cannot create the folder '[2]'. A file with this name already exists. Please "
-"rename or remove the file and click retry, or click Cancel to exit."
+"Cannot create the folder '[2]'. A file with this name already exists. Please"
+" rename or remove the file and click retry, or click Cancel to exit."
 msgstr ""
 "Nije moguće napraviti imenik '[2]'. Datoteka tog naziva već postoji. Molimo "
 "preimenujte ili uklonite datoteku i pritisnite Ponovi, ili pritisnite "
@@ -321,14 +325,14 @@ msgid ""
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
 "Nije moguće napraviti ključ: [2]. {{ Pogreška sustava [3].}} Provjerite "
-"imate li dovoljno prava pristupa do tog ključa, ili kontaktirajte osoblje za "
-"podršku. "
+"imate li dovoljno prava pristupa do tog ključa, ili kontaktirajte osoblje za"
+" podršku. "
 
 #: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
 #: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
 msgid ""
-"Could not create Shortcut [2]. Verify that the destination folder exists and "
-"that you can access it."
+"Could not create Shortcut [2]. Verify that the destination folder exists and"
+" that you can access it."
 msgstr ""
 "Nije moguće napraviti prečac [2]. Provjerite postoji li odredišna mapa te "
 "možete li joj pristupiti."
@@ -339,8 +343,8 @@ msgid ""
 "Could not delete key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Nije moguće brisanje ključa [2]. {{ Pogreška sustava [3].}} Provjerite imate "
-"li dovoljna prava pristupa do tog ključa, ili kontaktirajte osoblje za "
+"Nije moguće brisanje ključa [2]. {{ Pogreška sustava [3].}} Provjerite imate"
+" li dovoljna prava pristupa do tog ključa, ili kontaktirajte osoblje za "
 "podršku. "
 
 #: En.Win32.Debug.Error-2.idtx:69 En.Win32.Release.Error-2.idtx:69
@@ -397,8 +401,8 @@ msgid ""
 "Could not open key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Nije moguće otvoriti ključ: [2]. {{ Pogreška sustava [3].}} Provjerite imate "
-"li dovoljno prava pristupa do tog ključa, ili kontaktirajte osoblje za "
+"Nije moguće otvoriti ključ: [2]. {{ Pogreška sustava [3].}} Provjerite imate"
+" li dovoljno prava pristupa do tog ključa, ili kontaktirajte osoblje za "
 "podršku. "
 
 #: En.Win32.Debug.Error-2.idtx:75 En.Win32.Release.Error-2.idtx:75
@@ -434,7 +438,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
 #: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
 msgid ""
-"Could not register type library for file [2]. Contact your support personnel."
+"Could not register type library for file [2]. Contact your support "
+"personnel."
 msgstr ""
 "Nije moguća prijava vrste biblioteke za datoteku [2]. Kontaktirajte svoje "
 "osoblje za podršku."
@@ -442,8 +447,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
 #: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
 msgid ""
-"Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
-"you can access it."
+"Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
+" you can access it."
 msgstr ""
 "Nije moguće uklanjanje prečaca [2]. Provjerite postoji li datoteka prečaca "
 "te možete li joj pristupiti."
@@ -461,8 +466,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
 #: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
 msgid ""
-"Could not set file security for file '[3]'. Error: [2]. Verify that you have "
-"sufficient privileges to modify the security permissions for this file."
+"Could not set file security for file '[3]'. Error: [2]. Verify that you have"
+" sufficient privileges to modify the security permissions for this file."
 msgstr ""
 "Nije moguće postaviti sigurnost datoteke za datoteku '[3]'. Pogreška: [2]. "
 "Provjerite imate li dovoljno prava za izmjenu sigurnosnih dozvola za ovu "
@@ -489,8 +494,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
 #: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
 msgid ""
-"Could not update environment variable '[2]'. Verify that you have sufficient "
-"privileges to modify environment variables."
+"Could not update environment variable '[2]'. Verify that you have sufficient"
+" privileges to modify environment variables."
 msgstr ""
 "Nije moguće ažurirati varijablu okoline '[2]'. Provjerite imate li dovoljno "
 "prava za izmjenu varijabli okoline."
@@ -507,12 +512,12 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
 #: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
 msgid ""
-"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
-"have sufficient access to that key, or contact your support personnel."
+"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you"
+" have sufficient access to that key, or contact your support personnel."
 msgstr ""
 "Nije moguće pisanje vrijednosti [2] u ključ [3]. {{ Pogreška sustava [4].}} "
-"Provjerite imate li dovoljno prava pristupa do tog ključa, ili kontaktirajte "
-"osoblje za podršku."
+"Provjerite imate li dovoljno prava pristupa do tog ključa, ili kontaktirajte"
+" osoblje za podršku."
 
 #: En.Win32.Debug.Error-2.idtx:78 En.Win32.Release.Error-2.idtx:78
 #: En.x64.Debug.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
@@ -531,8 +536,8 @@ msgid ""
 "contact your patch vendor. {{System Error: [3]}}"
 msgstr ""
 "Pogreška prilikom primjene ispravka na datoteku [2]. Ona je vjerojatno "
-"ažurirana nekim drugim načinom, pa se više ne može mijenjati ovim ispravkom. "
-"Želite li više obavijesti kontaktirajte svojeg prodavača ispravke. "
+"ažurirana nekim drugim načinom, pa se više ne može mijenjati ovim ispravkom."
+" Želite li više obavijesti kontaktirajte svojeg prodavača ispravke. "
 "{{Pogreška sustava: [3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:128 En.Win32.Release.Error-2.idtx:128
@@ -569,8 +574,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
 #: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
 msgid ""
-"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
-"[4] exists and that you can access it."
+"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
+" [4] exists and that you can access it."
 msgstr ""
 "Pogreška pri instaliranju ODBC upravljačkog programa: [4], ODBC-pogreška "
 "[2]: [3]. Provjerite postoji li datoteka [4] te možete li joj pristupiti."
@@ -581,8 +586,8 @@ msgid ""
 "Error reading from file [2]. {{ System error [3].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
-"Pogreška pri čitanju iz datoteke: [2]. {{ Pogreška sustava [3].}} Provjerite "
-"postoji li datoteka te imate li pristup do nje."
+"Pogreška pri čitanju iz datoteke: [2]. {{ Pogreška sustava [3].}} Provjerite"
+" postoji li datoteka te imate li pristup do nje."
 
 #: En.Win32.Debug.Error-2.idtx:30 En.Win32.Release.Error-2.idtx:30
 #: En.x64.Debug.Error-2.idtx:30 En.x64.Release.Error-2.idtx:30
@@ -590,8 +595,8 @@ msgid ""
 "Error reading from file: [2]. {{ System error [3].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
-"Pogreška pri čitanju iz datoteke: [2]. {{ Pogreška sustava [3].}} Provjerite "
-"postoji li datoteka te možete li joj pristupiti."
+"Pogreška pri čitanju iz datoteke: [2]. {{ Pogreška sustava [3].}} Provjerite"
+" postoji li datoteka te možete li joj pristupiti."
 
 #: En.Win32.Debug.Error-2.idtx:39 En.Win32.Release.Error-2.idtx:39
 #: En.x64.Debug.Error-2.idtx:39 En.x64.Release.Error-2.idtx:39
@@ -599,8 +604,8 @@ msgid ""
 "Error reading from file: [3]. {{ System error [2].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
-"Pogreška pri čitanju iz datoteke: [3]. {{ Pogreška sustava [2].}} Provjerite "
-"postoji li datoteka te možete li joj pristupiti."
+"Pogreška pri čitanju iz datoteke: [3]. {{ Pogreška sustava [2].}} Provjerite"
+" postoji li datoteka te možete li joj pristupiti."
 
 #: En.Win32.Debug.Error-2.idtx:155 En.Win32.Release.Error-2.idtx:155
 #: En.x64.Debug.Error-2.idtx:155 En.x64.Release.Error-2.idtx:155
@@ -641,7 +646,8 @@ msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
 #: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
-msgid "Error writing to file: [2]. Verify that you have access to that folder."
+msgid ""
+"Error writing to file: [2]. Verify that you have access to that folder."
 msgstr ""
 "Pogreška pri pisanju u datoteku: [2]. Provjerite imate li pristup do tog "
 "imenika."
@@ -739,7 +745,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
 #: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
 msgid ""
-"Module [2] failed to unregister. HRESULT [3]. Contact your support personnel."
+"Module [2] failed to unregister. HRESULT [3]. Contact your support "
+"personnel."
 msgstr ""
 "Odjava modula [2] nije uspjela. HRESULT [3]. Obratite se svom osoblju za "
 "podršku."
@@ -750,14 +757,14 @@ msgid ""
 "One or more of the files required to restore your computer to its previous "
 "state could not be found. Restoration will not be possible."
 msgstr ""
-"Nije moguće pronaći jednu ili više datoteka potrebnih za vraćanje računala u "
-"prethodno stanje. Vraćanje neće biti moguće."
+"Nije moguće pronaći jednu ili više datoteka potrebnih za vraćanje računala u"
+" prethodno stanje. Vraćanje neće biti moguće."
 
 #: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
 #: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
 msgid ""
-"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
-"[4] KB. Free some disk space and retry."
+"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
+" [4] KB. Free some disk space and retry."
 msgstr ""
 "Nedovoljno diskovnog prostora -- Disk: '[2]'; potreban prostor: [3] KB; "
 "dostupan prostor: [4] KB. Oslobodite nešto diskovnog prostora i pokušajte "
@@ -835,8 +842,8 @@ msgid ""
 "Service '[2]' ([3]) could not be deleted. Verify that you have sufficient "
 "privileges to remove system services."
 msgstr ""
-"Servis '[2]' ([3]) nije moguće izbrisati. Provjerite imate li dovoljno prava "
-"za uklanjanje servisa sustava."
+"Servis '[2]' ([3]) nije moguće izbrisati. Provjerite imate li dovoljno prava"
+" za uklanjanje servisa sustava."
 
 #: En.Win32.Debug.Error-2.idtx:150 En.Win32.Release.Error-2.idtx:150
 #: En.x64.Debug.Error-2.idtx:150 En.x64.Release.Error-2.idtx:150
@@ -907,8 +914,8 @@ msgid ""
 "from the CD-ROM, or a problem with this package."
 msgstr ""
 "Datoteka '[2]' ne može biti instalirana, jer ju nije moguće naći u kabinet "
-"datoteci '[3]'. To može ukazivati na mrežnu pogrešku, pogrešku pri čitanju s "
-"CD-ROM-a, ili problem s ovim paketom."
+"datoteci '[3]'. To može ukazivati na mrežnu pogrešku, pogrešku pri čitanju s"
+" CD-ROM-a, ili problem s ovim paketom."
 
 #: En.Win32.Debug.Error-2.idtx:83 En.Win32.Release.Error-2.idtx:83
 #: En.x64.Debug.Error-2.idtx:83 En.x64.Release.Error-2.idtx:83
@@ -949,19 +956,19 @@ msgid ""
 "This may indicate a problem with this package. The error code is [1]. {{The "
 "arguments are: [2], [3], [4]}}"
 msgstr ""
-"Instalacijski program naišao je na neočekivanu pogrešku pri instalaciji ovog "
-"paketa . To možda ukazuje na problem s ovim paketom. Kod pogreške je [1]. "
+"Instalacijski program naišao je na neočekivanu pogrešku pri instalaciji ovog"
+" paketa . To možda ukazuje na problem s ovim paketom. Kod pogreške je [1]. "
 "{{Argumenti su: [2], [3], [4]}}"
 
 #: En.Win32.Debug.Error-2.idtx:33 En.Win32.Release.Error-2.idtx:33
 #: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
 msgid ""
 "The installer has insufficient privileges to access this folder: [2]. The "
-"installation cannot continue. Log on as administrator or contact your system "
-"administrator."
+"installation cannot continue. Log on as administrator or contact your system"
+" administrator."
 msgstr ""
-"Installer nema dovoljno prava pristupa do tog imenika: [2]. Instalaciju nije "
-"moguće nastaviti. Uključite se kao administrator ili kontaktirajte svog "
+"Installer nema dovoljno prava pristupa do tog imenika: [2]. Instalaciju nije"
+" moguće nastaviti. Uključite se kao administrator ili kontaktirajte svog "
 "administratora sustava."
 
 #: En.Win32.Debug.Error-2.idtx:51 En.Win32.Release.Error-2.idtx:51
@@ -1026,12 +1033,10 @@ msgstr "Disk [2] trenutno je nedostupan. Odaberite drugi."
 #: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
 #: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2]. List of protected files:\n"
+"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
 msgstr ""
-"Servis Windows Installer ne može ažurirati jednu ili više zaštićenih Windows "
-"datoteka. {{SFP pogreška: [2]. Popis zaštićenih datoteka:\n"
+"Servis Windows Installer ne može ažurirati jednu ili više zaštićenih Windows datoteka. {{SFP pogreška: [2]. Popis zaštićenih datoteka:\n"
 "[3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:159 En.Win32.Release.Error-2.idtx:159
@@ -1062,20 +1067,20 @@ msgid ""
 "are running Windows in safe mode, or if the Windows Installer is not "
 "correctly installed. Contact your support personnel for assistance."
 msgstr ""
-"Nije moguće pristupiti do Windows Installer Service. To se može dogoditi ako "
-"izvodite Windows u sigurnom načinu rada, ili ako Windows Installer nije "
+"Nije moguće pristupiti do Windows Installer Service. To se može dogoditi ako"
+" izvodite Windows u sigurnom načinu rada, ili ako Windows Installer nije "
 "ispravno instaliran. Za pomoć se obratite svom osoblju za podršku."
 
 #: En.Win32.Debug.Error-2.idtx:113 En.Win32.Release.Error-2.idtx:113
 #: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
 msgid ""
 "There is a problem with this Windows Installer package. A DLL required for "
-"this install to complete could not be run. Contact your support personnel or "
-"package vendor. {{Action [2], entry: [3], library: [4] }}"
+"this install to complete could not be run. Contact your support personnel or"
+" package vendor. {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
 "Ima problema s ovim Windows Installer paketom. DLL potreban za dovršenje "
-"instalacije nije mogao biti izveden. Obratite se svom osoblju za podršku ili "
-"prodavaču paketa. {{Akcija: [2], stavka: [3], biblioteka: [4] }}"
+"instalacije nije mogao biti izveden. Obratite se svom osoblju za podršku ili"
+" prodavaču paketa. {{Akcija: [2], stavka: [3], biblioteka: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:111 En.Win32.Release.Error-2.idtx:111
 #: En.x64.Debug.Error-2.idtx:111 En.x64.Release.Error-2.idtx:111
@@ -1092,12 +1097,12 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
 msgid ""
 "There is a problem with this Windows Installer package. A program run as "
-"part of the setup did not finish as expected. Contact your support personnel "
-"or package vendor. {{Action [2], location: [3], command: [4] }}"
+"part of the setup did not finish as expected. Contact your support personnel"
+" or package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
 "Ima problema s ovim Windows Installer paketom. Program koji se izvodi kao "
-"dio instalacije nije završio na očekivani način. Obratite se svom osoblju za "
-"podršku ili prodavaču paketa. {{Akcija: [2], mjesto: [3], naredba: [4] }}"
+"dio instalacije nije završio na očekivani način. Obratite se svom osoblju za"
+" podršku ili prodavaču paketa. {{Akcija: [2], mjesto: [3], naredba: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:110 En.Win32.Release.Error-2.idtx:110
 #: En.x64.Debug.Error-2.idtx:110 En.x64.Release.Error-2.idtx:110
@@ -1158,11 +1163,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
 #: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
 msgid ""
-"There was an error creating a temporary file that is needed to complete this "
-"installation.{{ Folder: [3]. System error code: [2]}}"
+"There was an error creating a temporary file that is needed to complete this"
+" installation.{{ Folder: [3]. System error code: [2]}}"
 msgstr ""
-"Dogodila se pogreška pri stvaranju privremene datoteke potrebne za dovršetak "
-"ove instalacije.{{ Mapa: [3]. Kod pogreške sustava: [2]}}"
+"Dogodila se pogreška pri stvaranju privremene datoteke potrebne za dovršetak"
+" ove instalacije.{{ Mapa: [3]. Kod pogreške sustava: [2]}}"
 
 #: En.Win32.Debug.Error-2.idtx:90 En.Win32.Release.Error-2.idtx:90
 #: En.x64.Debug.Error-2.idtx:90 En.x64.Release.Error-2.idtx:90
@@ -1202,7 +1207,8 @@ msgid ""
 "will need to run that install again before they can use that product."
 msgstr ""
 "Korisnik '[2]' prethodno je započeo instalaciju proizvoda '[3]'. Taj će "
-"korisnik morati ponovo izvesti tu instalaciju prije korištenja tog proizvoda."
+"korisnik morati ponovo izvesti tu instalaciju prije korištenja tog "
+"proizvoda."
 
 #: En.Win32.Debug.Error-2.idtx:79 En.Win32.Release.Error-2.idtx:79
 #: En.x64.Debug.Error-2.idtx:79 En.x64.Release.Error-2.idtx:79
@@ -1227,8 +1233,8 @@ msgstr "Upozorenje [1]. "
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
 msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
-"64-bit operating system. 32-bit variant will not work with your operating "
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
 "system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
@@ -1239,8 +1245,8 @@ msgid ""
 "users of the machine. Log on as administrator and then retry this "
 "installation."
 msgstr ""
-"Nemate dovoljno prava za dovršenje te instalacije za sve korisnike računala. "
-"Prijavite se kao administrator i zatim ponovno pokušajte tu instalaciju."
+"Nemate dovoljno prava za dovršenje te instalacije za sve korisnike računala."
+" Prijavite se kao administrator i zatim ponovno pokušajte tu instalaciju."
 
 #: En.Win32.Debug.Error-2.idtx:126 En.Win32.Release.Error-2.idtx:126
 #: En.x64.Debug.Error-2.idtx:126 En.x64.Release.Error-2.idtx:126
@@ -1275,407 +1281,5 @@ msgid ""
 "later."
 msgstr ""
 "Morate ponovo pokrenuti svoj sustav kako bi promjene konfiguracije objekta "
-"[2] postale važeće. Pritisnite Da želite li ga ponovo pokrenuti sada, ili Ne "
-"ako ćete to poslije učiniti sami."
-
-#~ msgid "1033"
-#~ msgstr "1050"
-
-#, fuzzy
-#~ msgid "&Continue"
-#~ msgstr ""
-#~ "Nema dovoljno diskovnog prostora na dijelu diska '[2]' za nastavak "
-#~ "instalacije s omogućenim oporavkom . Potrebno je [3] KB, ali dostupno je "
-#~ "samo [4] KB. Pritisnite Zanemari za nastavak instalacije bez spremanja "
-#~ "podataka za oporavak, pritisnite Pokušaj ponovo za ponovnu provjeru "
-#~ "dostupnog prostora, ili pritisnite Odustani za izlaz iz instalacije."
-
-#, fuzzy
-#~ msgid "&Folder:"
-#~ msgstr "Datoteka: [1], Mapa: [2]"
-
-#, fuzzy
-#~ msgid "&Retry"
-#~ msgstr ""
-#~ "Pojavila se pogreška za vrijeme pisanja informacija o instalaciji na "
-#~ "disk. Provjerite imate li dovoljno dostupnog diskovnog prostora, a zatim "
-#~ "pritisnite Ponovi, ili Odustani za završetak instalacije."
-
-#~ msgid "[1]"
-#~ msgstr "[1]"
-
-#, fuzzy
-#~ msgid "[DlgTitleFont]Disk Space Requirements"
-#~ msgstr "Zahtjevi za prostor računanja"
-
-#~ msgid "Advertising application"
-#~ msgstr "Oglašavanje programa"
-
-#~ msgid "Allocating registry space"
-#~ msgstr "Dodjela prostora registra"
-
-#~ msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-#~ msgstr "AppId: [1]{{, VrstaProg: [2], Korisnici: [3], RSN: [4]}}"
-
-#~ msgid "AppId: [1]{{, AppType: [2]}}"
-#~ msgstr "AppId: [1]{{, VrstaProg: [2]}}"
-
-#~ msgid "Application Context:[1], Assembly Name:[2]"
-#~ msgstr "Kontekst aplikacije:[1], Naziv skupa komponenti:[2]"
-
-#~ msgid "Application: [1]"
-#~ msgstr "Program: [1]"
-
-#~ msgid "Application: [1], Command line: [2]"
-#~ msgstr "Program: [1], Redak naredbe: [2]"
-
-#, fuzzy
-#~ msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-#~ msgstr "Želite li zaista odustati?"
-
-#~ msgid "Binding executables"
-#~ msgstr "Spajanje izvršnih datoteka"
-
-#, fuzzy
-#~ msgid "Cancel"
-#~ msgstr ""
-#~ "Nije moguće napraviti datoteku '[2]'. Imenik tog naziva već postoji. "
-#~ "Prekinite instalaciju i pokušajte instaliranje na drugo mjesto."
-
-#~ msgid "Class Id: [1]"
-#~ msgstr "Class Id: [1]"
-
-#~ msgid "Component ID: [1], Qualifier: [2]"
-#~ msgstr "ID komponente: [1], Kvalifikator: [2]"
-
-#~ msgid "Computing space requirements"
-#~ msgstr "Zahtjevi za prostor računanja"
-
-#~ msgid "Copying network install files"
-#~ msgstr "Kopiranje mrežnih instalacijskih datoteka"
-
-#~ msgid "Copying new files"
-#~ msgstr "Kopiranje novih datoteka"
-
-#, fuzzy
-#~ msgid "Create A New Folder|"
-#~ msgstr "Stvaranje mapa"
-
-#~ msgid "Creating duplicate files"
-#~ msgstr "Stvaranje dupliciranih datoteka"
-
-#~ msgid "Creating folders"
-#~ msgstr "Stvaranje mapa"
-
-#~ msgid "Creating shortcuts"
-#~ msgstr "Stvaranje prečaca"
-
-#~ msgid "Deleting services"
-#~ msgstr "Brisanje servisa"
-
-#, fuzzy
-#~ msgid "Determining required space for installation..."
-#~ msgstr "Prikupljanje potrebnih informacija..."
-
-#~ msgid "Evaluating launch conditions"
-#~ msgstr "Vrednovanje uvjeta za pokretanje"
-
-#~ msgid "Extension: [1]"
-#~ msgstr "Extension: [1]"
-
-#~ msgid "Feature: [1]"
-#~ msgstr "Osobina: [1]"
-
-#~ msgid "File: [1]"
-#~ msgstr "Datoteka: [1]"
-
-#~ msgid "File: [1], Dependencies: [2]"
-#~ msgstr "Datoteka: [1], Zavisnosti: [2]"
-
-#~ msgid "File: [1], Folder: [2]"
-#~ msgstr "Datoteka: [1], Mapa: [2]"
-
-#~ msgid "File: [1], Folder: [2], Size: [3]"
-#~ msgstr "Datoteka: [1], Imenik: [2], Veličina: [3]"
-
-#~ msgid "File: [1], Folder: [9]"
-#~ msgstr "Datoteka: [1], Imenik: [9]"
-
-#~ msgid "File: [1], Folder: [9], Size: [6]"
-#~ msgstr "Datoteka: [1], Imenik: [9], Veličina: [6]"
-
-#~ msgid "File: [1], Section: [2], Key: [3], Value: [4]"
-#~ msgstr "Datoteka: [1], Sekcija: [2], Ključ: [3], Vrijednost: [4]"
-
-#, fuzzy
-#~ msgid "Folder:"
-#~ msgstr "Datoteka: [1], Mapa: [2]"
-
-#~ msgid "Folder: [1]"
-#~ msgstr "Mapa: [1]"
-
-#~ msgid "Font: [1]"
-#~ msgstr "Font: [1]"
-
-#~ msgid "Found application: [1]"
-#~ msgstr "Pronađen program: [1]"
-
-#~ msgid "Free space: [1]"
-#~ msgstr "Slobodan prostor: [1]"
-
-#~ msgid "Generating script operations for action:"
-#~ msgstr "Generiranje operacija skripta za akciju:"
-
-#~ msgid "Initializing ODBC folders"
-#~ msgstr "Inicijalizacija ODBC-imenika"
-
-#~ msgid "Installing new services"
-#~ msgstr "Instaliranje novih servisa"
-
-#~ msgid "Installing ODBC components"
-#~ msgstr "Instaliranje ODBC-komponenata"
-
-#~ msgid "Installing system catalog"
-#~ msgstr "Instaliranje kataloga sustava"
-
-#~ msgid "Key: [1], Name: [2]"
-#~ msgstr "Ključ: [1], Naziv: [2]"
-
-#~ msgid "Key: [1], Name: [2], Value: [3]"
-#~ msgstr "Ključ: [1], Naziv: [2], Vrijednost: [3]"
-
-#~ msgid "LibID: [1]"
-#~ msgstr "BiblD: [1]"
-
-#~ msgid "Migrating feature states from related applications"
-#~ msgstr "Prijenos stanja osobina iz povezanih programa"
-
-#~ msgid "MIME Content Type: [1], Extension: [2]"
-#~ msgstr "Sadržaj tipa MIME : [1], Nastavak: [2]"
-
-#~ msgid "Moving files"
-#~ msgstr "Premještanje datoteka"
-
-#~ msgid "Name: [1], Value: [2], Action [3]"
-#~ msgstr "Naziv: [1], Vrijednost: [2], Akcija [3]"
-
-#~ msgid "Patching files"
-#~ msgstr "Datoteke ispravka"
-
-#~ msgid "ProgId: [1]"
-#~ msgstr "ProgId: [1]"
-
-#~ msgid "Property: [1], Signature: [2]"
-#~ msgstr "Svojstvo: [1], Potpis: [2]"
-
-#~ msgid "Publishing assembly information"
-#~ msgstr "Objavljivanje podataka skupa komponenti"
-
-#~ msgid "Publishing Product Features"
-#~ msgstr "Osobine proizvoda za objavu"
-
-#~ msgid "Publishing product information"
-#~ msgstr "Objava informacija o proizvodu"
-
-#~ msgid "Publishing Qualified Components"
-#~ msgstr "Objava odgovarajućih komponenti"
-
-#~ msgid "Registering Class servers"
-#~ msgstr "Prijava Class-poslužitelja"
-
-#~ msgid "Registering COM+ Applications and Components"
-#~ msgstr "Prijava COM+ programa i komponenti"
-
-#~ msgid "Registering extension servers"
-#~ msgstr "Prijava extensions-poslužitelja"
-
-#~ msgid "Registering fonts"
-#~ msgstr "Prijava fontova"
-
-#~ msgid "Registering MIME info"
-#~ msgstr "Prijava MIME info"
-
-#~ msgid "Registering modules"
-#~ msgstr "Prijava modula"
-
-#~ msgid "Registering product"
-#~ msgstr "Prijava proizvoda"
-
-#~ msgid "Registering program identifiers"
-#~ msgstr "Registriranje programskih identifikatora"
-
-#~ msgid "Registering type libraries"
-#~ msgstr "Prijava vrsta biblioteke"
-
-#~ msgid "Registering user"
-#~ msgstr "Prijava korisnika"
-
-#, fuzzy
-#~ msgid "Removal"
-#~ msgstr "Uklanjanje je uspješno završeno."
-
-#, fuzzy
-#~ msgid "Removing"
-#~ msgstr "Uklanjanje stavki INI-datoteka"
-
-#~ msgid "Removing applications"
-#~ msgstr "Uklanjanje programa"
-
-#~ msgid "Removing backup files"
-#~ msgstr "Uklanjanje datoteka sigurnosne kopije"
-
-#~ msgid "Removing duplicated files"
-#~ msgstr "Uklanjanje dupliciranih datoteka"
-
-#~ msgid "Removing files"
-#~ msgstr "Uklanjanje datoteka"
-
-#~ msgid "Removing folders"
-#~ msgstr "Uklanjanje mapa"
-
-#~ msgid "Removing INI files entries"
-#~ msgstr "Uklanjanje stavki INI-datoteka"
-
-#~ msgid "Removing moved files"
-#~ msgstr "Uklanjanje premještenih datoteka"
-
-#~ msgid "Removing ODBC components"
-#~ msgstr "Uklanjanje ODBC-komponenata"
-
-#~ msgid "Removing shortcuts"
-#~ msgstr "Uklanjanje prečaca"
-
-#~ msgid "Removing system registry values"
-#~ msgstr "Uklanjanje vrijednosti iz registra sustava"
-
-#~ msgid "Rolling back action:"
-#~ msgstr "Akcija vraćanja prethodnog stanja:"
-
-#~ msgid "Searching for installed applications"
-#~ msgstr "Traženje instaliranih programa"
-
-#~ msgid "Searching for qualifying products"
-#~ msgstr "Traženje odgovarajućih proizvoda"
-
-#~ msgid "Searching for related applications"
-#~ msgstr "Traženje povezanih programa"
-
-#~ msgid "Service: [1]"
-#~ msgstr "Servis: [1]"
-
-#~ msgid "Service: [2]"
-#~ msgstr "Servis: [2]"
-
-#~ msgid "Shortcut: [1]"
-#~ msgstr "Prečac: [1]"
-
-#~ msgid "Starting services"
-#~ msgstr "Započinjanje servisa"
-
-#~ msgid "Stopping services"
-#~ msgstr "Zaustavljanje servisa"
-
-#~ msgid "Unpublishing assembly information"
-#~ msgstr "Neobjavljivanje podataka skupa komponenti"
-
-#~ msgid "Unpublishing Product Features"
-#~ msgstr "Neobjavljivanje osobina proizvoda"
-
-#~ msgid "Unpublishing product information"
-#~ msgstr "Neobjavljivanje informacija o proizvodu"
-
-#~ msgid "Unpublishing Qualified Components"
-#~ msgstr "Neobjavljivanje odgovarajućih komponenti"
-
-#~ msgid "Unregister Class servers"
-#~ msgstr "Odjava Class-poslužitelja"
-
-#~ msgid "Unregistering COM+ Applications and Components"
-#~ msgstr "Odjava COM+ programa i komponenti"
-
-#~ msgid "Unregistering extension servers"
-#~ msgstr "Odjava extension-poslužitelja"
-
-#~ msgid "Unregistering fonts"
-#~ msgstr "Odjava fontova"
-
-#~ msgid "Unregistering MIME info"
-#~ msgstr "Odjava MIME info"
-
-#~ msgid "Unregistering modules"
-#~ msgstr "Odjava modula"
-
-#~ msgid "Unregistering program identifiers"
-#~ msgstr "Odjava identifikatora programa"
-
-#~ msgid "Unregistering type libraries"
-#~ msgstr "Odjava vrsta biblioteka"
-
-#~ msgid "Updating component registration"
-#~ msgstr "Ažuriranje prijave komponenti"
-
-#~ msgid "Updating environment strings"
-#~ msgstr "Ažuriranje nizova okoline"
-
-#~ msgid "Validating install"
-#~ msgstr "Provjera valjanosti instalacije"
-
-#~ msgid "Writing INI files values"
-#~ msgstr "Upis vrijednosti INI-datoteka"
-
-#~ msgid "Writing system registry values"
-#~ msgstr "Upis vrijednosti registra sustava"
-
-#, fuzzy
-#~ msgid "&Install Now"
-#~ msgstr "Instalirano [2]"
-
-#, fuzzy
-#~ msgid "&Modify"
-#~ msgstr ""
-#~ "Nije moguće ažurirati varijablu okoline '[2]'. Provjerite imate li "
-#~ "dovoljno prava za izmjenu varijabli okoline."
-
-#, fuzzy
-#~ msgid "&Remove"
-#~ msgstr ""
-#~ "Morate biti Administrator za uklanjanje ove aplikacije. Za uklanjanje ove "
-#~ "aplikacije možete se prijaviti kao Administrator, ili se za pomoć "
-#~ "obratite grupi za tehničku podršku."
-
-#, fuzzy
-#~ msgid "Available"
-#~ msgstr ""
-#~ "Nema dovoljno diskovnog prostora na dijelu diska '[2]' za nastavak "
-#~ "instalacije s omogućenim oporavkom . Potrebno je [3] KB, ali dostupno je "
-#~ "samo [4] KB. Pritisnite Zanemari za nastavak instalacije bez spremanja "
-#~ "podataka za oporavak, pritisnite Pokušaj ponovo za ponovnu provjeru "
-#~ "dostupnog prostora, ili pritisnite Odustani za izlaz iz instalacije."
-
-#, fuzzy
-#~ msgid "Custom Installation"
-#~ msgstr "Instaliranje nije uspjelo."
-
-#, fuzzy
-#~ msgid "Installing"
-#~ msgstr ""
-#~ "Za instaliranje ovog proizvoda na računalu nije moguće pronaći nijedan "
-#~ "prethodno instaliran uskladivi program."
-
-#, fuzzy
-#~ msgid "KB"
-#~ msgstr ""
-#~ "Nije moguće povećati dostupan prostor registra. [2] KB slobodnog prostora "
-#~ "registra potrebno je za instalaciju ovog programa."
-
-#, fuzzy
-#~ msgid "Required"
-#~ msgstr ""
-#~ "Traženu datoteku nije moguće instalirati jer kabinet datoteka [2] nije "
-#~ "digitalno potpisana. To može ukazivati da je kabinet datoteka oštećena."
-
-#, fuzzy
-#~ msgid "Volume"
-#~ msgstr ""
-#~ "Nema diskete u jedinici [2]. Umetnite je i pritisnite Ponovi, a za "
-#~ "povratak na prethodno odabrani disk pritisnite Odustani."
+"[2] postale važeće. Pritisnite Da želite li ga ponovo pokrenuti sada, ili Ne"
+" ako ćete to poslije učiniti sami."

@@ -1,19 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-29 07:45+0200\n"
+"POT-Creation-Date: 2016-08-29 07:44+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: fi_FI\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
+"Language-Team: Finnish (Finland) (https://www.transifex.com/eduroam_devel/teams/11799/fi_FI/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
-"X-Generator: Poedit 1.8.8\n"
+"Language: fi_FI\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
@@ -90,13 +94,13 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
 #: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
 msgid ""
-"A file that is required cannot be installed because the cabinet file [2] has "
-"an invalid digital signature. This may indicate that the cabinet file is "
+"A file that is required cannot be installed because the cabinet file [2] has"
+" an invalid digital signature. This may indicate that the cabinet file is "
 "corrupt.{{ Error [3] was returned by WinVerifyTrust.}}"
 msgstr ""
 "Tarvittua tiedostoa ei voida asentaa, koska cab-tiedostolla [2] on "
-"kelpaamaton digitaalinen allekirjoitus. Cab-tiedosto saattaa olla viallinen."
-"{{ WinVerifyTrust palautti virheen [3].}}"
+"kelpaamaton digitaalinen allekirjoitus. Cab-tiedosto saattaa olla "
+"viallinen.{{ WinVerifyTrust palautti virheen [3].}}"
 
 #: En.Win32.Debug.Error-2.idtx:59 En.Win32.Release.Error-2.idtx:59
 #: En.x64.Debug.Error-2.idtx:59 En.x64.Release.Error-2.idtx:59
@@ -132,8 +136,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
 #: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
 msgid ""
-"A portion of the folder path '[2]' is invalid. It is either empty or exceeds "
-"the length allowed by the system."
+"A portion of the folder path '[2]' is invalid. It is either empty or exceeds"
+" the length allowed by the system."
 msgstr ""
 "Kansion polku [2] ei kelpaa. Se on tyhjä tai pituus ylittää järjestelmän "
 "salliman enimmäispituuden."
@@ -181,8 +185,8 @@ msgstr "Mainostaminen epäonnistui."
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
-"An error occured during the installation of assembly component [2]. HRESULT: "
-"[3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
+"An error occured during the installation of assembly component [2]. HRESULT:"
+" [3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
 msgstr ""
 "Assembly-osan asennuksessa tapahtui virhe [2]. HRESULT: [3]. {{assembly-"
 "liittymä: [4], funktio: [5], assembly-nimi: [6]}}"
@@ -239,8 +243,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
 #: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
 msgid ""
-"Another application has exclusive access to the file '[2]'. Please shut down "
-"all other applications, then click Retry."
+"Another application has exclusive access to the file '[2]'. Please shut down"
+" all other applications, then click Retry."
 msgstr ""
 "Tiedosto [2] on toisen sovelluksen yksityiskäytössä. Sulje muut sovellukset "
 "ja valitse Uudelleen."
@@ -262,8 +266,8 @@ msgstr "Haluatko varmasti peruuttaa?"
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
 msgid ""
-"Cannot create the file '[2]'. A folder with this name already exists. Cancel "
-"the install and try installing to a different location."
+"Cannot create the file '[2]'. A folder with this name already exists. Cancel"
+" the install and try installing to a different location."
 msgstr ""
 "Tiedoston [2] luominen ei onnistu. Samanniminen kansio on jo olemassa. "
 "Peruuta asennus ja yritä asentaa toiseen paikkaan."
@@ -271,8 +275,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
 #: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
 msgid ""
-"Cannot create the folder '[2]'. A file with this name already exists. Please "
-"rename or remove the file and click retry, or click Cancel to exit."
+"Cannot create the folder '[2]'. A file with this name already exists. Please"
+" rename or remove the file and click retry, or click Cancel to exit."
 msgstr ""
 "Kansion [2] luominen ei onnistu. Samanniminen tiedosto on jo olemassa. Anna "
 "kansiolle toinen nimi tai poista tiedosto ja valitse Uudelleen tai poistu "
@@ -286,8 +290,9 @@ msgid ""
 "Component Services are available on Windows 2000."
 msgstr ""
 "Component Services (COM+ 1.0) -palveluja ei ole asennettu tietokoneeseen. "
-"Jotta tämä asennus toimisi oikein, Component Services -palveluiden on oltava "
-"asennettuna. Component Services -palvelut toimitetaan Windows 2000:n mukana."
+"Jotta tämä asennus toimisi oikein, Component Services -palveluiden on oltava"
+" asennettuna. Component Services -palvelut toimitetaan Windows 2000:n "
+"mukana."
 
 #: En.Win32.Debug.Error-2.idtx:118 En.Win32.Release.Error-2.idtx:118
 #: En.x64.Debug.Error-2.idtx:118 En.x64.Release.Error-2.idtx:118
@@ -315,14 +320,14 @@ msgid ""
 "Could not create key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Avaimen luominen epäonnistui: [2]. {{ Järjestelmävirhe [3].}} Varmista, että "
-"sinulla on riittävät oikeudet avaimeen, tai ota yhteys tukihenkilöihin. "
+"Avaimen luominen epäonnistui: [2]. {{ Järjestelmävirhe [3].}} Varmista, että"
+" sinulla on riittävät oikeudet avaimeen, tai ota yhteys tukihenkilöihin. "
 
 #: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
 #: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
 msgid ""
-"Could not create Shortcut [2]. Verify that the destination folder exists and "
-"that you can access it."
+"Could not create Shortcut [2]. Verify that the destination folder exists and"
+" that you can access it."
 msgstr ""
 "Pikakuvakkeen [2] luominen epäonnistui. Varmista, että kohdekansio on "
 "olemassa ja että voit käyttää sitä."
@@ -334,7 +339,8 @@ msgid ""
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
 "Avaimen [2] poistaminen epäonnistui. {{ Järjestelmävirhe [3].}} Varmista, "
-"että sinulla on riittävät oikeudet avaimeen, tai ota yhteys tukihenkilöihin. "
+"että sinulla on riittävät oikeudet avaimeen, tai ota yhteys tukihenkilöihin."
+" "
 
 #: En.Win32.Debug.Error-2.idtx:69 En.Win32.Release.Error-2.idtx:69
 #: En.x64.Debug.Error-2.idtx:69 En.x64.Release.Error-2.idtx:69
@@ -391,7 +397,8 @@ msgid ""
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
 "Avaimen avaaminen epäonnistui: [2]. {{ Järjestelmävirhe [3].}} Varmista, "
-"että sinulla on riittävät oikeudet avaimeen, tai ota yhteys tukihenkilöihin. "
+"että sinulla on riittävät oikeudet avaimeen, tai ota yhteys tukihenkilöihin."
+" "
 
 #: En.Win32.Debug.Error-2.idtx:75 En.Win32.Release.Error-2.idtx:75
 #: En.x64.Debug.Error-2.idtx:75 En.x64.Release.Error-2.idtx:75
@@ -411,7 +418,8 @@ msgid ""
 "you have sufficient access to that key, or contact your support personnel. "
 msgstr ""
 "Arvoa [2] ei voi lukea avaimesta [3]. {{ Järjestelmävirhe [4].}} Varmista, "
-"että sinulla on riittävät oikeudet avaimeen, tai ota yhteys tukihenkilöihin. "
+"että sinulla on riittävät oikeudet avaimeen, tai ota yhteys tukihenkilöihin."
+" "
 
 #: En.Win32.Debug.Error-2.idtx:134 En.Win32.Release.Error-2.idtx:134
 #: En.x64.Debug.Error-2.idtx:134 En.x64.Release.Error-2.idtx:134
@@ -425,7 +433,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
 #: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
 msgid ""
-"Could not register type library for file [2]. Contact your support personnel."
+"Could not register type library for file [2]. Contact your support "
+"personnel."
 msgstr ""
 "Tiedoston [2] tyyppikirjaston rekisteröiminen epäonnistui. Ota yhteys "
 "tukihenkilöihin."
@@ -433,11 +442,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
 #: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
 msgid ""
-"Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
-"you can access it."
+"Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
+" you can access it."
 msgstr ""
-"Pikakuvakkeen [2] poistaminen epäonnistui. Varmista, että pikakuvaketiedosto "
-"on olemassa ja että voi käyttää sitä."
+"Pikakuvakkeen [2] poistaminen epäonnistui. Varmista, että pikakuvaketiedosto"
+" on olemassa ja että voi käyttää sitä."
 
 #: En.Win32.Debug.Error-2.idtx:141 En.Win32.Release.Error-2.idtx:141
 #: En.x64.Debug.Error-2.idtx:141 En.x64.Release.Error-2.idtx:141
@@ -451,11 +460,12 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
 #: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
 msgid ""
-"Could not set file security for file '[3]'. Error: [2]. Verify that you have "
-"sufficient privileges to modify the security permissions for this file."
+"Could not set file security for file '[3]'. Error: [2]. Verify that you have"
+" sufficient privileges to modify the security permissions for this file."
 msgstr ""
-"Tiedoston [3] suojausten asettaminen epäonnistui. Virhe: [2]. Varmista, että "
-"sinulla on riittävät oikeudet tämän tiedoston käyttöoikeuksien muokkaamiseen."
+"Tiedoston [3] suojausten asettaminen epäonnistui. Virhe: [2]. Varmista, että"
+" sinulla on riittävät oikeudet tämän tiedoston käyttöoikeuksien "
+"muokkaamiseen."
 
 #: En.Win32.Debug.Error-2.idtx:135 En.Win32.Release.Error-2.idtx:135
 #: En.x64.Debug.Error-2.idtx:135 En.x64.Release.Error-2.idtx:135
@@ -463,8 +473,8 @@ msgid ""
 "Could not unregister font [2]. Verify that you that you have sufficient "
 "permissions to remove fonts."
 msgstr ""
-"Fontin [2] rekisteröinnin poistaminen epäonnistui. Varmista, että sinulla on "
-"oikeus poistaa fontteja."
+"Fontin [2] rekisteröinnin poistaminen epäonnistui. Varmista, että sinulla on"
+" oikeus poistaa fontteja."
 
 #: En.Win32.Debug.Error-2.idtx:139 En.Win32.Release.Error-2.idtx:139
 #: En.x64.Debug.Error-2.idtx:139 En.x64.Release.Error-2.idtx:139
@@ -478,8 +488,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
 #: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
 msgid ""
-"Could not update environment variable '[2]'. Verify that you have sufficient "
-"privileges to modify environment variables."
+"Could not update environment variable '[2]'. Verify that you have sufficient"
+" privileges to modify environment variables."
 msgstr ""
 "Ympäristömuuttujan [2] päivittäminen epäonnistui. Varmista, että sinulla on "
 "riittävät oikeudet ympäristömuuttujien muokkaamiseen."
@@ -496,8 +506,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
 #: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
 msgid ""
-"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
-"have sufficient access to that key, or contact your support personnel."
+"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you"
+" have sufficient access to that key, or contact your support personnel."
 msgstr ""
 "Arvoa [2] ei voi kirjoittaa avaimeen [3]. {{ Järjestelmävirhe [4].}} "
 "Varmista, että sinulla on riittävät oikeudet avaimeen, tai ota yhteys "
@@ -509,8 +519,8 @@ msgid ""
 "Error accessing secured data. Please make sure the Windows Installer is "
 "configured properly and try the install again."
 msgstr ""
-"Virhe käsiteltäessä suojattuja tietoja. Varmista, että Windows Installer -"
-"ohjelma on määritetty oikein, ja yritä asennusta uudelleen."
+"Virhe käsiteltäessä suojattuja tietoja. Varmista, että Windows Installer "
+"-ohjelma on määritetty oikein, ja yritä asennusta uudelleen."
 
 #: En.Win32.Debug.Error-2.idtx:58 En.Win32.Release.Error-2.idtx:58
 #: En.x64.Debug.Error-2.idtx:58 En.x64.Release.Error-2.idtx:58
@@ -548,14 +558,14 @@ msgid ""
 "Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
 msgstr ""
-"Virhe asennettaessa ODBC-ohjaimen hallintaohjelmaa, ODBC-virhe [2]: [3]. Ota "
-"yhteys tukihenkilöihin."
+"Virhe asennettaessa ODBC-ohjaimen hallintaohjelmaa, ODBC-virhe [2]: [3]. Ota"
+" yhteys tukihenkilöihin."
 
 #: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
 #: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
 msgid ""
-"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
-"[4] exists and that you can access it."
+"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
+" [4] exists and that you can access it."
 msgstr ""
 "Virhe asennettaessa ODBC-ohjainta: [4], ODBC-virhe [2]: [3]. Varmista, että "
 "tiedosto [4] on olemassa ja että voit käyttää sitä."
@@ -592,7 +602,8 @@ msgstr ""
 msgid ""
 "Error registering COM+ Application. Contact your support personnel for more "
 "information."
-msgstr "Virhe COM+-sovelluksen rekisteröimisessä. Ota yhteys tekniseen tukeen."
+msgstr ""
+"Virhe COM+-sovelluksen rekisteröimisessä. Ota yhteys tekniseen tukeen."
 
 #: En.Win32.Debug.Error-2.idtx:142 En.Win32.Release.Error-2.idtx:142
 #: En.x64.Debug.Error-2.idtx:142 En.x64.Release.Error-2.idtx:142
@@ -600,8 +611,8 @@ msgid ""
 "Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
 msgstr ""
-"Virhe poistettaessa ODBC-ohjaimen hallintaohjelmaa, ODBC-virhe [2]: [3]. Ota "
-"yhteys tukihenkilöihin."
+"Virhe poistettaessa ODBC-ohjaimen hallintaohjelmaa, ODBC-virhe [2]: [3]. Ota"
+" yhteys tukihenkilöihin."
 
 #: En.Win32.Debug.Error-2.idtx:144 En.Win32.Release.Error-2.idtx:144
 #: En.x64.Debug.Error-2.idtx:144 En.x64.Release.Error-2.idtx:144
@@ -623,7 +634,8 @@ msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
 #: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
-msgid "Error writing to file: [2]. Verify that you have access to that folder."
+msgid ""
+"Error writing to file: [2]. Verify that you have access to that folder."
 msgstr ""
 "Virhe kirjoitettaessa tiedostoon: [2]. Varmista, että voit käyttää tätä "
 "kansiota."
@@ -721,7 +733,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
 #: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
 msgid ""
-"Module [2] failed to unregister. HRESULT [3]. Contact your support personnel."
+"Module [2] failed to unregister. HRESULT [3]. Contact your support "
+"personnel."
 msgstr ""
 "Moduulin [2] rekisteröinnin peruuttaminen epäonnistui. HRESULT [3]. Ota "
 "yhteys tukihenkilöihin."
@@ -738,8 +751,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
 #: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
 msgid ""
-"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
-"[4] KB. Free some disk space and retry."
+"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
+" [4] KB. Free some disk space and retry."
 msgstr ""
 "Levytila on lopussa -- Levy: [2]; tilavaatimus: [3] kt; käytettävissä oleva "
 "tila: [4] kt. Vapauta levytilaa ja yritä uudelleen."
@@ -896,8 +909,8 @@ msgid ""
 "The file [2][3] is being held in use{ by the following process: Name: [4], "
 "Id: [5], Window Title: '[6]'}. Close that application and retry."
 msgstr ""
-"Tiedostoa [2][3] käyttää{ seuraava prosessi: Nimi: [4], tunnus: [5], ikkunan "
-"otsikko: [6]}. Sulje sovellus ja yritä uudelleen."
+"Tiedostoa [2][3] käyttää{ seuraava prosessi: Nimi: [4], tunnus: [5], ikkunan"
+" otsikko: [6]}. Sulje sovellus ja yritä uudelleen."
 
 #: En.Win32.Debug.Error-2.idtx:125 En.Win32.Release.Error-2.idtx:125
 #: En.x64.Debug.Error-2.idtx:125 En.x64.Release.Error-2.idtx:125
@@ -938,8 +951,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
 msgid ""
 "The installer has insufficient privileges to access this folder: [2]. The "
-"installation cannot continue. Log on as administrator or contact your system "
-"administrator."
+"installation cannot continue. Log on as administrator or contact your system"
+" administrator."
 msgstr ""
 "Asennusohjelmalla ei ole kansion käsittelyyn tarvittavia oikeuksia: [2]. "
 "Asennus ei voi jatkua. Kirjaudu sisään järjestelmänvalvojana tai ota yhteys "
@@ -988,8 +1001,8 @@ msgid ""
 "The product '[2]' is already installed, preventing the installation of this "
 "product. The two products are incompatible."
 msgstr ""
-"Tuote [2] on jo asennettu ja estää tämän tuotteen asennuksen. Tuotteet eivät "
-"ole yhteensopivia."
+"Tuote [2] on jo asennettu ja estää tämän tuotteen asennuksen. Tuotteet eivät"
+" ole yhteensopivia."
 
 #: En.Win32.Debug.Error-2.idtx:44 En.Win32.Release.Error-2.idtx:44
 #: En.x64.Debug.Error-2.idtx:44 En.x64.Release.Error-2.idtx:44
@@ -1009,12 +1022,10 @@ msgstr "Levy [2] ei ole tällä hetkellä käytettävissä. Valitse toinen levy.
 #: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
 #: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2]. List of protected files:\n"
+"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
 msgstr ""
-"Windows Installer -palvelu ei voi päivittää vähintään yhtä suojattua Windows-"
-"tiedostoa. {{SFP-virhe: [2]. Suojatut tiedostot:\n"
+"Windows Installer -palvelu ei voi päivittää vähintään yhtä suojattua Windows-tiedostoa. {{SFP-virhe: [2]. Suojatut tiedostot:\n"
 "[3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:159 En.Win32.Release.Error-2.idtx:159
@@ -1023,8 +1034,8 @@ msgid ""
 "The Windows Installer service cannot update the protected Windows file [2]. "
 "{{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
 msgstr ""
-"Windows Installer -palvelu ei voi päivittää suojattua Windows-tiedostoa [2]. "
-"{{Pakkauksen versio: [3], käyttöjärjestelmän suojaama versio: [4], SFP-"
+"Windows Installer -palvelu ei voi päivittää suojattua Windows-tiedostoa [2]."
+" {{Pakkauksen versio: [3], käyttöjärjestelmän suojaama versio: [4], SFP-"
 "virhe: [5]}}"
 
 #: En.Win32.Debug.Error-2.idtx:158 En.Win32.Release.Error-2.idtx:158
@@ -1055,8 +1066,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
 msgid ""
 "There is a problem with this Windows Installer package. A DLL required for "
-"this install to complete could not be run. Contact your support personnel or "
-"package vendor. {{Action [2], entry: [3], library: [4] }}"
+"this install to complete could not be run. Contact your support personnel or"
+" package vendor. {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
 "Ongelma Windows Installer -paketissa. Asennukseen tarvittavaa DLL-tiedostoa "
 "ei voitu suorittaa. Ota yhteys tukihenkilöön tai paketin toimittajaan. "
@@ -1077,11 +1088,11 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
 msgid ""
 "There is a problem with this Windows Installer package. A program run as "
-"part of the setup did not finish as expected. Contact your support personnel "
-"or package vendor. {{Action [2], location: [3], command: [4] }}"
+"part of the setup did not finish as expected. Contact your support personnel"
+" or package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
-"Ongelma Windows Installer -paketissa. Asennuksen osana suoritettu ohjelma ei "
-"päättänyt osaansa odotetusti. Ota yhteys tukihenkilöön tai paketin "
+"Ongelma Windows Installer -paketissa. Asennuksen osana suoritettu ohjelma ei"
+" päättänyt osaansa odotetusti. Ota yhteys tukihenkilöön tai paketin "
 "toimittajaan. {{Toiminto [2], sijainti: [3], komento: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:110 En.Win32.Release.Error-2.idtx:110
@@ -1103,8 +1114,8 @@ msgid ""
 "There is no disk in drive [2]. Please insert one and click Retry, or click "
 "Cancel to go back to the previously selected volume."
 msgstr ""
-"Asemassa [2] ei ole levyä. Aseta asemaan levy ja valitse Uudelleen tai palaa "
-"edelliseen valittuun levyyn valitsemalla Peruuta."
+"Asemassa [2] ei ole levyä. Aseta asemaan levy ja valitse Uudelleen tai palaa"
+" edelliseen valittuun levyyn valitsemalla Peruuta."
 
 #: En.Win32.Debug.Error-2.idtx:124 En.Win32.Release.Error-2.idtx:124
 #: En.x64.Debug.Error-2.idtx:124 En.x64.Release.Error-2.idtx:124
@@ -1125,8 +1136,8 @@ msgid ""
 "installation."
 msgstr ""
 "Asemassa [2] ei ole tarpeeksi vapaata levytilaa asennuksen jatkamiseen "
-"palautusmahdollisuuden ollessa käytössä. [3] kilotavua vaaditaan, mutta vain "
-"[4] kilotavua on vapaana. Jatka asentamista ilman palautusmahdollisuutta "
+"palautusmahdollisuuden ollessa käytössä. [3] kilotavua vaaditaan, mutta vain"
+" [4] kilotavua on vapaana. Jatka asentamista ilman palautusmahdollisuutta "
 "valitsemalla Ohita, tarkista käytettävissä oleva levytila uudelleen "
 "valitsemalla Uudelleen tai keskeytä asentaminen valitsemalla Peruuta."
 
@@ -1142,8 +1153,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
 #: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
 msgid ""
-"There was an error creating a temporary file that is needed to complete this "
-"installation.{{ Folder: [3]. System error code: [2]}}"
+"There was an error creating a temporary file that is needed to complete this"
+" installation.{{ Folder: [3]. System error code: [2]}}"
 msgstr ""
 "Virhe asennukseen tarvittavan tilapäistiedoston luomisessa.{{ Folder: [3]. "
 "Järjestelmän virhekoodi: [2]}}"
@@ -1185,8 +1196,8 @@ msgid ""
 "User '[2]' has previously initiated an install for product '[3]'. That user "
 "will need to run that install again before they can use that product."
 msgstr ""
-"Käyttäjä [2] on aiemmin aloittanut tuotteen [3] asennuksen. Tämä käyttäjä ei "
-"voi käyttää tuotetta, ennen kuin hän on suorittanut asennusohjelman "
+"Käyttäjä [2] on aiemmin aloittanut tuotteen [3] asennuksen. Tämä käyttäjä ei"
+" voi käyttää tuotetta, ennen kuin hän on suorittanut asennusohjelman "
 "uudelleen."
 
 #: En.Win32.Debug.Error-2.idtx:79 En.Win32.Release.Error-2.idtx:79
@@ -1196,8 +1207,8 @@ msgid ""
 "will need to run that install again before they can use that product. Your "
 "current install will now continue."
 msgstr ""
-"Käyttäjä [2] on aiemmin aloittanut tuotteen [3] asennuksen. Tämä käyttäjä ei "
-"voi käyttää tuotetta, ennen kuin hän on suorittanut asennusohjelman "
+"Käyttäjä [2] on aiemmin aloittanut tuotteen [3] asennuksen. Tämä käyttäjä ei"
+" voi käyttää tuotetta, ennen kuin hän on suorittanut asennusohjelman "
 "uudelleen. Nykyinen asennus jatkuu."
 
 #: En.Win32.Debug.Error-2.idtx:161 En.Win32.Release.Error-2.idtx:161
@@ -1212,8 +1223,8 @@ msgstr "Varoitus [1]. "
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
 msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
-"64-bit operating system. 32-bit variant will not work with your operating "
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
 "system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
@@ -1264,407 +1275,3 @@ msgstr ""
 "kokoonpanomäärityksiin tehdyt muutokset tulevat voimaan. Valitse Kyllä, jos "
 "haluat käynnistää järjestelmän uudelleen, ja valitse Ei, jos haluat tehdä "
 "uudelleenkäynnistyksen myöhemmin manuaalisesti."
-
-#~ msgid "1033"
-#~ msgstr "1035"
-
-#, fuzzy
-#~ msgid "&Continue"
-#~ msgstr ""
-#~ "Asemassa [2] ei ole tarpeeksi vapaata levytilaa asennuksen jatkamiseen "
-#~ "palautusmahdollisuuden ollessa käytössä. [3] kilotavua vaaditaan, mutta "
-#~ "vain [4] kilotavua on vapaana. Jatka asentamista ilman "
-#~ "palautusmahdollisuutta valitsemalla Ohita, tarkista käytettävissä oleva "
-#~ "levytila uudelleen valitsemalla Uudelleen tai keskeytä asentaminen "
-#~ "valitsemalla Peruuta."
-
-#, fuzzy
-#~ msgid "&Folder:"
-#~ msgstr "Tiedosto: [1], kansio: [2]"
-
-#, fuzzy
-#~ msgid "&Retry"
-#~ msgstr ""
-#~ "Levytila on lopussa -- Levy: [2]; tilavaatimus: [3] kt; käytettävissä "
-#~ "oleva tila: [4] kt. Vapauta levytilaa ja yritä uudelleen."
-
-#~ msgid "[1]"
-#~ msgstr "[1]"
-
-#, fuzzy
-#~ msgid "[DlgTitleFont]Disk Space Requirements"
-#~ msgstr "Lasketaan tilavaatimuksia"
-
-#~ msgid "Advertising application"
-#~ msgstr "Ilmoitetaan sovelluksesta"
-
-#~ msgid "Allocating registry space"
-#~ msgstr "Varataan rekisteritilaa"
-
-#~ msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-#~ msgstr ""
-#~ "Sovelluksen tunnus: [1]{{, sovellustyyppi: [2], käyttäjät: [3], RSN: [4]}}"
-
-#~ msgid "AppId: [1]{{, AppType: [2]}}"
-#~ msgstr "Sovelluksen tunnus: [1]{{, sovellustyyppi: [2]}}"
-
-#~ msgid "Application Context:[1], Assembly Name:[2]"
-#~ msgstr "Sovellusyhteys:[1], Assembly-nimi:[2]"
-
-#~ msgid "Application: [1]"
-#~ msgstr "Sovellus: [1]"
-
-#~ msgid "Application: [1], Command line: [2]"
-#~ msgstr "Sovellus: [1], komentorivi: [2]"
-
-#, fuzzy
-#~ msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-#~ msgstr "Haluatko varmasti peruuttaa?"
-
-#~ msgid "Binding executables"
-#~ msgstr "Sidotaan suoritettavia tiedostoja"
-
-#, fuzzy
-#~ msgid "Cancel"
-#~ msgstr ""
-#~ "Asemassa [2] ei ole levyä. Aseta asemaan levy ja valitse Uudelleen tai "
-#~ "palaa edelliseen valittuun levyyn valitsemalla Peruuta."
-
-#~ msgid "Class Id: [1]"
-#~ msgstr "Class Id: [1]"
-
-#~ msgid "Component ID: [1], Qualifier: [2]"
-#~ msgstr "Komponentin tunnus: [1], valitsin: [2]"
-
-#~ msgid "Computing space requirements"
-#~ msgstr "Lasketaan tilavaatimuksia"
-
-#~ msgid "Copying network install files"
-#~ msgstr "Kopioidaan verkkoasennustiedostoja"
-
-#~ msgid "Copying new files"
-#~ msgstr "Kopioidaan uusia tiedostoja"
-
-#, fuzzy
-#~ msgid "Create A New Folder|"
-#~ msgstr "Luodaan kansioita"
-
-#~ msgid "Creating duplicate files"
-#~ msgstr "Luodaan tiedostojen kopioita"
-
-#~ msgid "Creating folders"
-#~ msgstr "Luodaan kansioita"
-
-#~ msgid "Creating shortcuts"
-#~ msgstr "Luodaan pikakuvakkeita"
-
-#~ msgid "Deleting services"
-#~ msgstr "Poistetaan palveluita"
-
-#, fuzzy
-#~ msgid "Determining required space for installation..."
-#~ msgstr "Kerätään tietoja..."
-
-#~ msgid "Evaluating launch conditions"
-#~ msgstr "Arvioidaan käynnistysehtoja"
-
-#~ msgid "Extension: [1]"
-#~ msgstr "Laajennus: [1]"
-
-#~ msgid "Feature: [1]"
-#~ msgstr "Ominaisuus: [1]"
-
-#~ msgid "File: [1]"
-#~ msgstr "Tiedosto: [1]"
-
-#~ msgid "File: [1], Dependencies: [2]"
-#~ msgstr "Tiedosto: [1], riippuvuudet: [2]"
-
-#~ msgid "File: [1], Folder: [2]"
-#~ msgstr "Tiedosto: [1], kansio: [2]"
-
-#~ msgid "File: [1], Folder: [2], Size: [3]"
-#~ msgstr "Tiedosto: [1], kansio: [2], koko: [3]"
-
-#~ msgid "File: [1], Folder: [9]"
-#~ msgstr "Tiedosto: [1], kansio: [9]"
-
-#~ msgid "File: [1], Folder: [9], Size: [6]"
-#~ msgstr "Tiedosto: [1], kansio: [9], koko: [6]"
-
-#~ msgid "File: [1], Section: [2], Key: [3], Value: [4]"
-#~ msgstr "Tiedosto: [1], osa: [2], avain: [3], arvo: [4]"
-
-#, fuzzy
-#~ msgid "Folder:"
-#~ msgstr "Tiedosto: [1], kansio: [2]"
-
-#~ msgid "Folder: [1]"
-#~ msgstr "Kansio: [1]"
-
-#~ msgid "Font: [1]"
-#~ msgstr "Fontti: [1]"
-
-#~ msgid "Found application: [1]"
-#~ msgstr "Löydetty sovellus: [1]"
-
-#~ msgid "Free space: [1]"
-#~ msgstr "Vapaata tilaa: [1]"
-
-#~ msgid "Generating script operations for action:"
-#~ msgstr "Luodaan komentosarjatoimintoja toiminnolle:"
-
-#~ msgid "Initializing ODBC folders"
-#~ msgstr "Alustetaan ODBC-kansioita"
-
-#~ msgid "Installing new services"
-#~ msgstr "Asennetaan uusia palveluja"
-
-#~ msgid "Installing ODBC components"
-#~ msgstr "Asennetaan ODBC-komponentteja"
-
-#~ msgid "Installing system catalog"
-#~ msgstr "Asennetaan järjestelmäluetteloa"
-
-#~ msgid "Key: [1], Name: [2]"
-#~ msgstr "Avain: [1], nimi: [2]"
-
-#~ msgid "Key: [1], Name: [2], Value: [3]"
-#~ msgstr "Avain: [1], nimi: [2], arvo: [3]"
-
-#~ msgid "LibID: [1]"
-#~ msgstr "Kirjaston tunnus: [1]"
-
-#~ msgid "Migrating feature states from related applications"
-#~ msgstr "Päivitetään ominaisuuksien tiloja muista sovelluksista"
-
-#~ msgid "MIME Content Type: [1], Extension: [2]"
-#~ msgstr "MIME-sisältötyyppi: [1], laajennus: [2]"
-
-#~ msgid "Moving files"
-#~ msgstr "Siirretään tiedostoja"
-
-#~ msgid "Name: [1], Value: [2], Action [3]"
-#~ msgstr "Nimi: [1], arvo: [2], toiminto [3]"
-
-#~ msgid "Patching files"
-#~ msgstr "Korjataan tiedostoja"
-
-#~ msgid "ProgId: [1]"
-#~ msgstr "ProgId: [1]"
-
-#~ msgid "Property: [1], Signature: [2]"
-#~ msgstr "Ominaisuus: [1], allekirjoitus: [2]"
-
-#~ msgid "Publishing assembly information"
-#~ msgstr "Julkaistaan Assembly-tietoja"
-
-#~ msgid "Publishing Product Features"
-#~ msgstr "Julkaistaan tuotteen ominaisuuksia"
-
-#~ msgid "Publishing product information"
-#~ msgstr "Julkaistaan tuotetietoja"
-
-#~ msgid "Publishing Qualified Components"
-#~ msgstr "Julkaistaan valittuja komponentteja"
-
-#~ msgid "Registering Class servers"
-#~ msgstr "Rekisteröidään luokkapalvelimia"
-
-#~ msgid "Registering COM+ Applications and Components"
-#~ msgstr "Rekisteröidään COM+-sovelluksia ja -komponentteja"
-
-#~ msgid "Registering extension servers"
-#~ msgstr "Rekisteröidään laajennuspalvelimia"
-
-#~ msgid "Registering fonts"
-#~ msgstr "Rekisteröidään fontteja"
-
-#~ msgid "Registering MIME info"
-#~ msgstr "Rekisteröidään MIME-tietoja"
-
-#~ msgid "Registering modules"
-#~ msgstr "Rekisteröidään moduuleita"
-
-#~ msgid "Registering product"
-#~ msgstr "Rekisteröidään tuotetta"
-
-#~ msgid "Registering program identifiers"
-#~ msgstr "Rekisteröidään ohjelmatunnuksia"
-
-#~ msgid "Registering type libraries"
-#~ msgstr "Rekisteröidään tyyppikirjastoja"
-
-#~ msgid "Registering user"
-#~ msgstr "Rekisteröidään käyttäjää"
-
-#, fuzzy
-#~ msgid "Removal"
-#~ msgstr "Poistaminen tehtiin onnistuneesti."
-
-#, fuzzy
-#~ msgid "Removing"
-#~ msgstr "Poistetaan Ini-tiedostojen tietoja"
-
-#~ msgid "Removing applications"
-#~ msgstr "Poistetaan sovelluksia"
-
-#~ msgid "Removing backup files"
-#~ msgstr "Poistetaan varmuuskopiotiedostoja"
-
-#~ msgid "Removing duplicated files"
-#~ msgstr "Poistetaan tiedostojen kopioita"
-
-#~ msgid "Removing files"
-#~ msgstr "Poistetaan tiedostoja"
-
-#~ msgid "Removing folders"
-#~ msgstr "Poistetaan kansioita"
-
-#~ msgid "Removing INI files entries"
-#~ msgstr "Poistetaan Ini-tiedostojen tietoja"
-
-#~ msgid "Removing moved files"
-#~ msgstr "Poistetaan siirrettyjä tiedostoja"
-
-#~ msgid "Removing ODBC components"
-#~ msgstr "Poistetaan ODBC-komponentteja"
-
-#~ msgid "Removing shortcuts"
-#~ msgstr "Poistetaan pikakuvakkeita"
-
-#~ msgid "Removing system registry values"
-#~ msgstr "Poistetaan järjestelmän rekisteriarvoja"
-
-#~ msgid "Rolling back action:"
-#~ msgstr "Peruutetaan toimintoa:"
-
-#~ msgid "Searching for installed applications"
-#~ msgstr "Etsitään asennettuja sovelluksia"
-
-#~ msgid "Searching for qualifying products"
-#~ msgstr "Etsitään vaatimukset täyttäviä tuotteita"
-
-#~ msgid "Searching for related applications"
-#~ msgstr "Etsitään tähän liittyviä sovelluksia"
-
-#~ msgid "Service: [1]"
-#~ msgstr "Palvelu: [1]"
-
-#~ msgid "Service: [2]"
-#~ msgstr "Palvelu: [2]"
-
-#~ msgid "Shortcut: [1]"
-#~ msgstr "Pikakuvake: [1]"
-
-#~ msgid "Starting services"
-#~ msgstr "Aloitetaan palveluita"
-
-#~ msgid "Stopping services"
-#~ msgstr "Lopetetaan palveluita"
-
-#~ msgid "Unpublishing assembly information"
-#~ msgstr "Peruutetaan Assembly-tietojen julkaisemista"
-
-#~ msgid "Unpublishing Product Features"
-#~ msgstr "Peruutetaan tuoteominaisuuksien julkaisemista"
-
-#~ msgid "Unpublishing product information"
-#~ msgstr "Peruutetaan tuotetietojen julkaisemista"
-
-#~ msgid "Unpublishing Qualified Components"
-#~ msgstr "Peruutetaan valittujen komponenttien julkaisemista"
-
-#~ msgid "Unregister Class servers"
-#~ msgstr "Poistetaan luokkapalvelinten reskisteröintiä"
-
-#~ msgid "Unregistering COM+ Applications and Components"
-#~ msgstr "Poistetaan COM+-sovellusten ja -komponenttien rekisteröintiä"
-
-#~ msgid "Unregistering extension servers"
-#~ msgstr "Poistetaan laajennuspalvelinten rekisteröintiä"
-
-#~ msgid "Unregistering fonts"
-#~ msgstr "Poistetaan fonttien rekisteröintejä"
-
-#~ msgid "Unregistering MIME info"
-#~ msgstr "Poistetaan MIME-tietojen rekisteröintiä"
-
-#~ msgid "Unregistering modules"
-#~ msgstr "Poistetaan moduulin rekisteröintejä"
-
-#~ msgid "Unregistering program identifiers"
-#~ msgstr "Poistetaan ohjelmatunnusten rekisteröintejä"
-
-#~ msgid "Unregistering type libraries"
-#~ msgstr "Poistetaan tyyppikirjastoiden rekisteröintejä"
-
-#~ msgid "Updating component registration"
-#~ msgstr "Päivitetään komponenttien rekisteröintiä"
-
-#~ msgid "Updating environment strings"
-#~ msgstr "Päivitetään ympäristömerkkijonoja"
-
-#~ msgid "Validating install"
-#~ msgstr "Tarkistetaan asennuksen kelpoisuutta"
-
-#~ msgid "Writing INI files values"
-#~ msgstr "Kirjoitetaan Ini-tiedostojen arvoja"
-
-#~ msgid "Writing system registry values"
-#~ msgstr "Kirjoitetaan järjestelmän rekisteriarvoja"
-
-#, fuzzy
-#~ msgid "&Install Now"
-#~ msgstr "Asennettu [2]"
-
-#, fuzzy
-#~ msgid "&Modify"
-#~ msgstr ""
-#~ "Ympäristömuuttujan [2] päivittäminen epäonnistui. Varmista, että sinulla "
-#~ "on riittävät oikeudet ympäristömuuttujien muokkaamiseen."
-
-#, fuzzy
-#~ msgid "&Remove"
-#~ msgstr ""
-#~ "Sovelluksen poistamiseen tarvitaan Järjestelmänvalvoja-oikeudet. Voit "
-#~ "poistaa sovelluksen kirjautumalla Järjestelmänvalvojana tai ottamalla "
-#~ "yhteyden tukihenkilöön."
-
-#, fuzzy
-#~ msgid "Available"
-#~ msgstr ""
-#~ "Asemassa [2] ei ole tarpeeksi vapaata levytilaa asennuksen jatkamiseen "
-#~ "palautusmahdollisuuden ollessa käytössä. [3] kilotavua vaaditaan, mutta "
-#~ "vain [4] kilotavua on vapaana. Jatka asentamista ilman "
-#~ "palautusmahdollisuutta valitsemalla Ohita, tarkista käytettävissä oleva "
-#~ "levytila uudelleen valitsemalla Uudelleen tai keskeytä asentaminen "
-#~ "valitsemalla Peruuta."
-
-#, fuzzy
-#~ msgid "Custom Installation"
-#~ msgstr "Asennus epäonnistui."
-
-#, fuzzy
-#~ msgid "Installing"
-#~ msgstr ""
-#~ "Tietokoneesta ei löytynyt tämän tuotteen asennukseen käytettäviä aiemmin "
-#~ "asennettuja yhteensopivia tuotteita."
-
-#, fuzzy
-#~ msgid "KB"
-#~ msgstr ""
-#~ "Rekisteritilan lisääminen ei onnistu. Tämän sovelluksen asentaminen "
-#~ "vaatii [2] kt vapaata rekisteritilaa."
-
-#, fuzzy
-#~ msgid "Required"
-#~ msgstr ""
-#~ "Rekisteritilan lisääminen ei onnistu. Tämän sovelluksen asentaminen "
-#~ "vaatii [2] kt vapaata rekisteritilaa."
-
-#, fuzzy
-#~ msgid "Volume"
-#~ msgstr ""
-#~ "Asemassa [2] ei ole levyä. Aseta asemaan levy ja valitse Uudelleen tai "
-#~ "palaa edelliseen valittuun levyyn valitsemalla Peruuta."

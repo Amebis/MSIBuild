@@ -1,20 +1,22 @@
-#
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: EventMonitor\n"
+"Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-10 06:23+0200\n"
-"PO-Revision-Date: 2016-09-10 06:23+0200\n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Icelandic (https://www.transifex.com/eduroam_devel/"
-"teams/11799/is/)\n"
-"Language: is\n"
+"POT-Creation-Date: 2016-08-29 07:44+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
+"Language-Team: Icelandic (https://www.transifex.com/eduroam_devel/teams/11799/is/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: is\n"
 "Plural-Forms: nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);\n"
 "X-Generator: Poedit 1.8.8\n"
-"X-Poedit-KeywordsList: _\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
@@ -90,8 +92,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
 #: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
 msgid ""
-"A file that is required cannot be installed because the cabinet file [2] has "
-"an invalid digital signature. This may indicate that the cabinet file is "
+"A file that is required cannot be installed because the cabinet file [2] has"
+" an invalid digital signature. This may indicate that the cabinet file is "
 "corrupt.{{ Error [3] was returned by WinVerifyTrust.}}"
 msgstr ""
 
@@ -127,8 +129,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
 #: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
 msgid ""
-"A portion of the folder path '[2]' is invalid. It is either empty or exceeds "
-"the length allowed by the system."
+"A portion of the folder path '[2]' is invalid. It is either empty or exceeds"
+" the length allowed by the system."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:95 En.Win32.Release.Error-2.idtx:95
@@ -172,8 +174,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
-"An error occured during the installation of assembly component [2]. HRESULT: "
-"[3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
+"An error occured during the installation of assembly component [2]. HRESULT:"
+" [3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:89 En.Win32.Release.Error-2.idtx:89
@@ -216,8 +218,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
 #: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
 msgid ""
-"Another application has exclusive access to the file '[2]'. Please shut down "
-"all other applications, then click Retry."
+"Another application has exclusive access to the file '[2]'. Please shut down"
+" all other applications, then click Retry."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:77 En.Win32.Release.Error-2.idtx:77
@@ -235,15 +237,15 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
 msgid ""
-"Cannot create the file '[2]'. A folder with this name already exists. Cancel "
-"the install and try installing to a different location."
+"Cannot create the file '[2]'. A folder with this name already exists. Cancel"
+" the install and try installing to a different location."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
 #: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
 msgid ""
-"Cannot create the folder '[2]'. A file with this name already exists. Please "
-"rename or remove the file and click retry, or click Cancel to exit."
+"Cannot create the folder '[2]'. A file with this name already exists. Please"
+" rename or remove the file and click retry, or click Cancel to exit."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:154 En.Win32.Release.Error-2.idtx:154
@@ -284,8 +286,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
 #: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
 msgid ""
-"Could not create Shortcut [2]. Verify that the destination folder exists and "
-"that you can access it."
+"Could not create Shortcut [2]. Verify that the destination folder exists and"
+" that you can access it."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:70 En.Win32.Release.Error-2.idtx:70
@@ -362,14 +364,15 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
 #: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
 msgid ""
-"Could not register type library for file [2]. Contact your support personnel."
+"Could not register type library for file [2]. Contact your support "
+"personnel."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
 #: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
 msgid ""
-"Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
-"you can access it."
+"Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
+" you can access it."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:141 En.Win32.Release.Error-2.idtx:141
@@ -382,8 +385,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
 #: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
 msgid ""
-"Could not set file security for file '[3]'. Error: [2]. Verify that you have "
-"sufficient privileges to modify the security permissions for this file."
+"Could not set file security for file '[3]'. Error: [2]. Verify that you have"
+" sufficient privileges to modify the security permissions for this file."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:135 En.Win32.Release.Error-2.idtx:135
@@ -403,8 +406,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
 #: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
 msgid ""
-"Could not update environment variable '[2]'. Verify that you have sufficient "
-"privileges to modify environment variables."
+"Could not update environment variable '[2]'. Verify that you have sufficient"
+" privileges to modify environment variables."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:140 En.Win32.Release.Error-2.idtx:140
@@ -417,8 +420,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
 #: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
 msgid ""
-"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
-"have sufficient access to that key, or contact your support personnel."
+"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you"
+" have sufficient access to that key, or contact your support personnel."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:78 En.Win32.Release.Error-2.idtx:78
@@ -463,8 +466,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
 #: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
 msgid ""
-"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
-"[4] exists and that you can access it."
+"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
+" [4] exists and that you can access it."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:35 En.Win32.Release.Error-2.idtx:35
@@ -518,7 +521,8 @@ msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
 #: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
-msgid "Error writing to file: [2]. Verify that you have access to that folder."
+msgid ""
+"Error writing to file: [2]. Verify that you have access to that folder."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:40 En.Win32.Release.Error-2.idtx:40
@@ -608,7 +612,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
 #: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
 msgid ""
-"Module [2] failed to unregister. HRESULT [3]. Contact your support personnel."
+"Module [2] failed to unregister. HRESULT [3]. Contact your support "
+"personnel."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:102 En.Win32.Release.Error-2.idtx:102
@@ -621,8 +626,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
 #: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
 msgid ""
-"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
-"[4] KB. Free some disk space and retry."
+"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
+" [4] KB. Free some disk space and retry."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:122 En.Win32.Debug.Error-2.idtx:21
@@ -791,8 +796,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
 msgid ""
 "The installer has insufficient privileges to access this folder: [2]. The "
-"installation cannot continue. Log on as administrator or contact your system "
-"administrator."
+"installation cannot continue. Log on as administrator or contact your system"
+" administrator."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:51 En.Win32.Release.Error-2.idtx:51
@@ -850,8 +855,7 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
 #: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2]. List of protected files:\n"
+"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
 msgstr ""
 
@@ -883,8 +887,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
 msgid ""
 "There is a problem with this Windows Installer package. A DLL required for "
-"this install to complete could not be run. Contact your support personnel or "
-"package vendor. {{Action [2], entry: [3], library: [4] }}"
+"this install to complete could not be run. Contact your support personnel or"
+" package vendor. {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:111 En.Win32.Release.Error-2.idtx:111
@@ -899,8 +903,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
 msgid ""
 "There is a problem with this Windows Installer package. A program run as "
-"part of the setup did not finish as expected. Contact your support personnel "
-"or package vendor. {{Action [2], location: [3], command: [4] }}"
+"part of the setup did not finish as expected. Contact your support personnel"
+" or package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:110 En.Win32.Release.Error-2.idtx:110
@@ -946,8 +950,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
 #: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
 msgid ""
-"There was an error creating a temporary file that is needed to complete this "
-"installation.{{ Folder: [3]. System error code: [2]}}"
+"There was an error creating a temporary file that is needed to complete this"
+" installation.{{ Folder: [3]. System error code: [2]}}"
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:90 En.Win32.Release.Error-2.idtx:90
@@ -1008,8 +1012,8 @@ msgstr ""
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
 msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
-"64-bit operating system. 32-bit variant will not work with your operating "
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
 "system. The installation of the 64-bit variant is recommended."
 msgstr ""
 

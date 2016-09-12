@@ -1,19 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-29 07:48+0200\n"
+"POT-Creation-Date: 2016-08-29 07:44+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: sv_SE\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
+"Language-Team: Swedish (https://www.transifex.com/eduroam_devel/teams/11799/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
-"X-Generator: Poedit 1.8.8\n"
+"Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
@@ -90,12 +94,12 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
 #: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
 msgid ""
-"A file that is required cannot be installed because the cabinet file [2] has "
-"an invalid digital signature. This may indicate that the cabinet file is "
+"A file that is required cannot be installed because the cabinet file [2] has"
+" an invalid digital signature. This may indicate that the cabinet file is "
 "corrupt.{{ Error [3] was returned by WinVerifyTrust.}}"
 msgstr ""
-"En fil som krävs kan inte installeras eftersom CAB-filen [2] har en felaktig "
-"digital signatur. Detta kan tyda på att CAB-filen är skadad.{{ Felet [3] "
+"En fil som krävs kan inte installeras eftersom CAB-filen [2] har en felaktig"
+" digital signatur. Detta kan tyda på att CAB-filen är skadad.{{ Felet [3] "
 "returnerades av WinVerifyTrust.}}"
 
 #: En.Win32.Debug.Error-2.idtx:59 En.Win32.Release.Error-2.idtx:59
@@ -132,8 +136,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
 #: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
 msgid ""
-"A portion of the folder path '[2]' is invalid. It is either empty or exceeds "
-"the length allowed by the system."
+"A portion of the folder path '[2]' is invalid. It is either empty or exceeds"
+" the length allowed by the system."
 msgstr ""
 "En del av mappsökvägen [2] är ogiltig. Den är tom eller överskrider längden "
 "som systemet tillåter."
@@ -182,8 +186,8 @@ msgstr "Annonseringen misslyckades."
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
-"An error occured during the installation of assembly component [2]. HRESULT: "
-"[3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
+"An error occured during the installation of assembly component [2]. HRESULT:"
+" [3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
 msgstr ""
 "Ett fel uppstod när paketkomponenten [2] skulle installeras. HRESULT: [3]. "
 "{{paketets gränssnitt: [4], funktion: [5], paketets namn: [6]}}"
@@ -217,8 +221,8 @@ msgid ""
 "the install."
 msgstr ""
 "Det uppstod ett fel när information skrevs till disken. Kontrollera att det "
-"finns tillräckligt med ledigt utrymme och klicka på Försök igen eller klicka "
-"på Avbryt om du vill avbryta installationen."
+"finns tillräckligt med ledigt utrymme och klicka på Försök igen eller klicka"
+" på Avbryt om du vill avbryta installationen."
 
 #: En.Win32.Debug.Error-2.idtx:94 En.Win32.Release.Error-2.idtx:94
 #: En.x64.Debug.Error-2.idtx:94 En.x64.Release.Error-2.idtx:94
@@ -242,8 +246,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
 #: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
 msgid ""
-"Another application has exclusive access to the file '[2]'. Please shut down "
-"all other applications, then click Retry."
+"Another application has exclusive access to the file '[2]'. Please shut down"
+" all other applications, then click Retry."
 msgstr ""
 "Ett annat program har exklusiv åtkomst till filen [2]. Stäng alla andra "
 "program och klicka sedan på Försök igen."
@@ -265,8 +269,8 @@ msgstr "Vill du avbryta?"
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
 msgid ""
-"Cannot create the file '[2]'. A folder with this name already exists. Cancel "
-"the install and try installing to a different location."
+"Cannot create the file '[2]'. A folder with this name already exists. Cancel"
+" the install and try installing to a different location."
 msgstr ""
 "Det går inte att skapa filen [2]. En katalog med det namnet finns redan. "
 "Avbryt installationen och försök installera på en annan plats."
@@ -274,12 +278,12 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
 #: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
 msgid ""
-"Cannot create the folder '[2]'. A file with this name already exists. Please "
-"rename or remove the file and click retry, or click Cancel to exit."
+"Cannot create the folder '[2]'. A file with this name already exists. Please"
+" rename or remove the file and click retry, or click Cancel to exit."
 msgstr ""
-"Det går inte att skapa katalogen [2]. En fil med det namnet finns redan. Byt "
-"namn eller ta bort filen och klicka på Försök igen eller klicka på Avbryt om "
-"du vill avbryta."
+"Det går inte att skapa katalogen [2]. En fil med det namnet finns redan. Byt"
+" namn eller ta bort filen och klicka på Försök igen eller klicka på Avbryt "
+"om du vill avbryta."
 
 #: En.Win32.Debug.Error-2.idtx:154 En.Win32.Release.Error-2.idtx:154
 #: En.x64.Debug.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
@@ -318,14 +322,14 @@ msgid ""
 "Could not create key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Det gick inte att skapa nyckel: [2]. {{ Systemfel [3].}} Bekräfta att du har "
-"tillräcklig åtkomst till nyckeln eller kontakta supportpersonalen. "
+"Det gick inte att skapa nyckel: [2]. {{ Systemfel [3].}} Bekräfta att du har"
+" tillräcklig åtkomst till nyckeln eller kontakta supportpersonalen. "
 
 #: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
 #: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
 msgid ""
-"Could not create Shortcut [2]. Verify that the destination folder exists and "
-"that you can access it."
+"Could not create Shortcut [2]. Verify that the destination folder exists and"
+" that you can access it."
 msgstr ""
 "Det gick inte att skapa Genväg [2]. Bekräfta att målmappen finns och att du "
 "kan komma åt den."
@@ -336,8 +340,8 @@ msgid ""
 "Could not delete key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Det gick inte att skapa nyckel: [2]. {{ Systemfel [3].}} Bekräfta att du har "
-"tillräcklig åtkomst till nyckeln eller kontakta supportpersonalen. "
+"Det gick inte att skapa nyckel: [2]. {{ Systemfel [3].}} Bekräfta att du har"
+" tillräcklig åtkomst till nyckeln eller kontakta supportpersonalen. "
 
 #: En.Win32.Debug.Error-2.idtx:69 En.Win32.Release.Error-2.idtx:69
 #: En.x64.Debug.Error-2.idtx:69 En.x64.Release.Error-2.idtx:69
@@ -364,8 +368,8 @@ msgid ""
 "Could not get sub key names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
-"Det gick inte att hämta undernyckelnamn för nyckeln [2]. {{ Systemfel [3].}} "
-"Bekräfta att du har tillräcklig åtkomst till nyckeln eller kontakta "
+"Det gick inte att hämta undernyckelnamn för nyckeln [2]. {{ Systemfel [3].}}"
+" Bekräfta att du har tillräcklig åtkomst till nyckeln eller kontakta "
 "supportpersonalen. "
 
 #: En.Win32.Debug.Error-2.idtx:73 En.Win32.Release.Error-2.idtx:73
@@ -429,7 +433,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
 #: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
 msgid ""
-"Could not register type library for file [2]. Contact your support personnel."
+"Could not register type library for file [2]. Contact your support "
+"personnel."
 msgstr ""
 "Det gick inte att registrera typbibliotek för filen [2]. Kontakta "
 "supportpersonalen."
@@ -437,8 +442,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
 #: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
 msgid ""
-"Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
-"you can access it."
+"Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
+" you can access it."
 msgstr ""
 "Det gick inte att ta bort genvägen [2]. Bekräfta att genvägsfilen finns och "
 "att du kan komma åt den."
@@ -449,14 +454,14 @@ msgid ""
 "Could not schedule file [2] to replace file [3] on reboot. Verify that you "
 "have write permissions to file [3]."
 msgstr ""
-"Det gick inte att schemalägga att filen [2] ska ersättas av [3] när systemet "
-"startas om. Bekräfta att du har skrivrättigheter till filen [3]."
+"Det gick inte att schemalägga att filen [2] ska ersättas av [3] när systemet"
+" startas om. Bekräfta att du har skrivrättigheter till filen [3]."
 
 #: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
 #: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
 msgid ""
-"Could not set file security for file '[3]'. Error: [2]. Verify that you have "
-"sufficient privileges to modify the security permissions for this file."
+"Could not set file security for file '[3]'. Error: [2]. Verify that you have"
+" sufficient privileges to modify the security permissions for this file."
 msgstr ""
 "Det gick inte att ställa in filsäkerhet för filen [3]. Fel: [2]. Bekräfta "
 "att du har tillräcklig behörighet för att ändra säkerhetsbehörigheten för "
@@ -483,8 +488,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
 #: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
 msgid ""
-"Could not update environment variable '[2]'. Verify that you have sufficient "
-"privileges to modify environment variables."
+"Could not update environment variable '[2]'. Verify that you have sufficient"
+" privileges to modify environment variables."
 msgstr ""
 "Det gick inte att uppdatera systemvariabeln [2]. Bekräfta att du har "
 "tillräcklig behörighet för att ändra systemvariabler."
@@ -501,8 +506,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
 #: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
 msgid ""
-"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
-"have sufficient access to that key, or contact your support personnel."
+"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you"
+" have sufficient access to that key, or contact your support personnel."
 msgstr ""
 "Det gick inte att skriva värdet [2] på nyckeln [3]. {{ Systemfel [4].}} "
 "Bekräfta att du har tillräcklig åtkomst till nyckeln eller kontakta "
@@ -563,8 +568,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
 #: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
 msgid ""
-"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
-"[4] exists and that you can access it."
+"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
+" [4] exists and that you can access it."
 msgstr ""
 "Det uppstod ett fel vid installation av ODBC-drivrutin: [4], ODBC-fel [2]: "
 "[3]. Bekräfta att filen [4] finns och att du kan komma åt den."
@@ -575,8 +580,8 @@ msgid ""
 "Error reading from file [2]. {{ System error [3].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
-"Det uppstod ett fel vid läsning från filen [2]. {{ Systemfel [3].}} Bekräfta "
-"att filen finns och att du kan komma åt den."
+"Det uppstod ett fel vid läsning från filen [2]. {{ Systemfel [3].}} Bekräfta"
+" att filen finns och att du kan komma åt den."
 
 #: En.Win32.Debug.Error-2.idtx:30 En.Win32.Release.Error-2.idtx:30
 #: En.x64.Debug.Error-2.idtx:30 En.x64.Release.Error-2.idtx:30
@@ -602,8 +607,8 @@ msgid ""
 "Error registering COM+ Application. Contact your support personnel for more "
 "information."
 msgstr ""
-"Det gick inte att registrera en COM+-tillämpning. Kontakta supportpersonalen "
-"om du vill ha mer information."
+"Det gick inte att registrera en COM+-tillämpning. Kontakta supportpersonalen"
+" om du vill ha mer information."
 
 #: En.Win32.Debug.Error-2.idtx:142 En.Win32.Release.Error-2.idtx:142
 #: En.x64.Debug.Error-2.idtx:142 En.x64.Release.Error-2.idtx:142
@@ -634,7 +639,8 @@ msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
 #: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
-msgid "Error writing to file: [2]. Verify that you have access to that folder."
+msgid ""
+"Error writing to file: [2]. Verify that you have access to that folder."
 msgstr ""
 "Det gick inte att skriva till filen: [2]. Bekräfta att du kan komma åt den "
 "katalogen."
@@ -730,7 +736,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
 #: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
 msgid ""
-"Module [2] failed to unregister. HRESULT [3]. Contact your support personnel."
+"Module [2] failed to unregister. HRESULT [3]. Contact your support "
+"personnel."
 msgstr ""
 "Modulen [2] kunde inte registreras. HRESULT [3]. Kontakta supportpersonalen."
 
@@ -746,8 +753,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
 #: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
 msgid ""
-"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
-"[4] KB. Free some disk space and retry."
+"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
+" [4] KB. Free some disk space and retry."
 msgstr ""
 "Diskutrymmet är slut -- Volym: [2]; Utrymme som krävs: [3] kB; tillgängligt "
 "utrymme: [4] kB. Frigör diskutrymme och försök igen."
@@ -824,8 +831,8 @@ msgid ""
 "Service '[2]' ([3]) could not be deleted. Verify that you have sufficient "
 "privileges to remove system services."
 msgstr ""
-"Det gick inte att ta bort tjänsten [2] ([3]). Bekräfta att du har behörighet "
-"att ta bort systemtjänster."
+"Det gick inte att ta bort tjänsten [2] ([3]). Bekräfta att du har behörighet"
+" att ta bort systemtjänster."
 
 #: En.Win32.Debug.Error-2.idtx:150 En.Win32.Release.Error-2.idtx:150
 #: En.x64.Debug.Error-2.idtx:150 En.x64.Release.Error-2.idtx:150
@@ -945,12 +952,12 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
 msgid ""
 "The installer has insufficient privileges to access this folder: [2]. The "
-"installation cannot continue. Log on as administrator or contact your system "
-"administrator."
+"installation cannot continue. Log on as administrator or contact your system"
+" administrator."
 msgstr ""
 "Installer har inte behörighet att komma åt den här katalogen: [2]. "
-"Installationen kan inte fortsätta. Logga in som administratör eller kontakta "
-"systemadministratören."
+"Installationen kan inte fortsätta. Logga in som administratör eller kontakta"
+" systemadministratören."
 
 #: En.Win32.Debug.Error-2.idtx:51 En.Win32.Release.Error-2.idtx:51
 #: En.x64.Debug.Error-2.idtx:51 En.x64.Release.Error-2.idtx:51
@@ -1014,12 +1021,10 @@ msgstr "Volymen [2] är inte tillgänglig för tillfället. Välj en annan."
 #: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
 #: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2]. List of protected files:\n"
+"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
 msgstr ""
-"Tjänsten Windows Installer kunde inte uppdatera en eller fler skyddade "
-"Windows-filer. {{SFP-fel: [2]. Skyddade filer:\n"
+"Tjänsten Windows Installer kunde inte uppdatera en eller fler skyddade Windows-filer. {{SFP-fel: [2]. Skyddade filer:\n"
 "[3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:159 En.Win32.Release.Error-2.idtx:159
@@ -1059,12 +1064,12 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
 msgid ""
 "There is a problem with this Windows Installer package. A DLL required for "
-"this install to complete could not be run. Contact your support personnel or "
-"package vendor. {{Action [2], entry: [3], library: [4] }}"
+"this install to complete could not be run. Contact your support personnel or"
+" package vendor. {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
-"Ett problem har uppstått med Windows Installer-paketet. En DLL-fil som krävs "
-"för den här installationen kunde inte köras. Kontakta supportpersonal eller "
-"paketets leverantör. {{Åtgärd: [2], post: [3], bibliotek: [4] }}"
+"Ett problem har uppstått med Windows Installer-paketet. En DLL-fil som krävs"
+" för den här installationen kunde inte köras. Kontakta supportpersonal eller"
+" paketets leverantör. {{Åtgärd: [2], post: [3], bibliotek: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:111 En.Win32.Release.Error-2.idtx:111
 #: En.x64.Debug.Error-2.idtx:111 En.x64.Release.Error-2.idtx:111
@@ -1081,12 +1086,13 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
 msgid ""
 "There is a problem with this Windows Installer package. A program run as "
-"part of the setup did not finish as expected. Contact your support personnel "
-"or package vendor. {{Action [2], location: [3], command: [4] }}"
+"part of the setup did not finish as expected. Contact your support personnel"
+" or package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
-"Ett problem har uppstått med Windows Installer-paketet. Ett program som körs "
-"under installationen slutfördes inte som förväntat. Kontakta supportpersonal "
-"eller paketets leverantör. {{Åtgärd: [2], plats: [3], kommando: [4] }}"
+"Ett problem har uppstått med Windows Installer-paketet. Ett program som körs"
+" under installationen slutfördes inte som förväntat. Kontakta "
+"supportpersonal eller paketets leverantör. {{Åtgärd: [2], plats: [3], "
+"kommando: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:110 En.Win32.Release.Error-2.idtx:110
 #: En.x64.Debug.Error-2.idtx:110 En.x64.Release.Error-2.idtx:110
@@ -1096,9 +1102,9 @@ msgid ""
 "personnel or package vendor. {{Custom action [2] script error [3], [4]: [5] "
 "Line [6], Column [7], [8] }}"
 msgstr ""
-"Ett problem har uppstått med Windows Installer-paketet. Ett skript som krävs "
-"för den här installationen kunde inte köras. Kontakta supportpersonal eller "
-"paketets leverantör. {{Egen åtgärd: [2] skriptfel: [3], [4]: [5] Rad: [6], "
+"Ett problem har uppstått med Windows Installer-paketet. Ett skript som krävs"
+" för den här installationen kunde inte köras. Kontakta supportpersonal eller"
+" paketets leverantör. {{Egen åtgärd: [2] skriptfel: [3], [4]: [5] Rad: [6], "
 "Kolumn: [7], [8] }}"
 
 #: En.Win32.Debug.Error-2.idtx:123 En.Win32.Release.Error-2.idtx:123
@@ -1108,8 +1114,8 @@ msgid ""
 "Cancel to go back to the previously selected volume."
 msgstr ""
 "Det finns ingen diskett i enhet [2]. Sätt i en diskett och klicka på Försök "
-"igen eller klicka på Avbryt om du vill återvända till den tidigare markerade "
-"volymen."
+"igen eller klicka på Avbryt om du vill återvända till den tidigare markerade"
+" volymen."
 
 #: En.Win32.Debug.Error-2.idtx:124 En.Win32.Release.Error-2.idtx:124
 #: En.x64.Debug.Error-2.idtx:124 En.x64.Release.Error-2.idtx:124
@@ -1130,8 +1136,8 @@ msgid ""
 "click Retry to check for available space again, or click Cancel to quit the "
 "installation."
 msgstr ""
-"Det finns inte tillräckligt mycket ledigt diskutrymme på volymen [2] för att "
-"fortsätta installera med återställning aktiverat. [3] kB krävs, men endast "
+"Det finns inte tillräckligt mycket ledigt diskutrymme på volymen [2] för att"
+" fortsätta installera med återställning aktiverat. [3] kB krävs, men endast "
 "[4] kB är tillgängligt. Klicka på Ignorera om du vill fortsätta installera "
 "utan att spara återställningsinformation, klicka på Försök igen om du vill "
 "kontrollera diskutrymme igen, eller klicka på Avbryt om du vill avbryta "
@@ -1150,8 +1156,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
 #: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
 msgid ""
-"There was an error creating a temporary file that is needed to complete this "
-"installation.{{ Folder: [3]. System error code: [2]}}"
+"There was an error creating a temporary file that is needed to complete this"
+" installation.{{ Folder: [3]. System error code: [2]}}"
 msgstr ""
 "Ett fel uppstod när en temporär fil som krävs för att slutföra "
 "installationen skulle skapas.{{ Mapp: [3]. Felkod: [2]}}"
@@ -1219,8 +1225,8 @@ msgstr "Varning [1]. "
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
 msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
-"64-bit operating system. 32-bit variant will not work with your operating "
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
 "system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
@@ -1232,7 +1238,8 @@ msgid ""
 "installation."
 msgstr ""
 "Du har inte tillräcklig behörighet för att slutföra installationen för alla "
-"användare av maskinen. Logga in som administratör och försök installera igen."
+"användare av maskinen. Logga in som administratör och försök installera "
+"igen."
 
 #: En.Win32.Debug.Error-2.idtx:126 En.Win32.Release.Error-2.idtx:126
 #: En.x64.Debug.Error-2.idtx:126 En.x64.Release.Error-2.idtx:126
@@ -1267,411 +1274,5 @@ msgid ""
 "later."
 msgstr ""
 "Du måste starta om systemet för att konfigureringsändringarna i [2] ska "
-"gälla. Klicka på Ja om du vill starta om datorn nu eller klicka på Nej om du "
-"vill starta om manuellt senare."
-
-#~ msgid "1033"
-#~ msgstr "1053"
-
-#, fuzzy
-#~ msgid "&Continue"
-#~ msgstr ""
-#~ "Det finns inte tillräckligt mycket ledigt diskutrymme på volymen [2] för "
-#~ "att fortsätta installera med återställning aktiverat. [3] kB krävs, men "
-#~ "endast [4] kB är tillgängligt. Klicka på Ignorera om du vill fortsätta "
-#~ "installera utan att spara återställningsinformation, klicka på Försök "
-#~ "igen om du vill kontrollera diskutrymme igen, eller klicka på Avbryt om "
-#~ "du vill avbryta installationen."
-
-#, fuzzy
-#~ msgid "&Folder:"
-#~ msgstr "Fil: [1], Mapp: [2]"
-
-#, fuzzy
-#~ msgid "&Retry"
-#~ msgstr ""
-#~ "Det uppstod ett fel när information skrevs till disken. Kontrollera att "
-#~ "det finns tillräckligt med ledigt utrymme och klicka på Försök igen eller "
-#~ "klicka på Avbryt om du vill avbryta installationen."
-
-#~ msgid "[1]"
-#~ msgstr "[1]"
-
-#, fuzzy
-#~ msgid "[DlgTitleFont]Disk Space Requirements"
-#~ msgstr "Beräknar hur mycket utrymme som krävs"
-
-#~ msgid "Advertising application"
-#~ msgstr "Annonserar program"
-
-#~ msgid "Allocating registry space"
-#~ msgstr "Allokerar registerutrymme"
-
-#~ msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-#~ msgstr ""
-#~ "Tillämpnings-ID: [1]{{, Tillämpningstyp: [2], Användare: [3], RSN: [4]}}"
-
-#~ msgid "AppId: [1]{{, AppType: [2]}}"
-#~ msgstr "Tillämpnings-ID: [1]{{, Tillämpningstyp: [2]}}"
-
-#~ msgid "Application Context:[1], Assembly Name:[2]"
-#~ msgstr "Programkontext: [1], paketnamn: [2]"
-
-#~ msgid "Application: [1]"
-#~ msgstr "Tillämpning: [1]"
-
-#~ msgid "Application: [1], Command line: [2]"
-#~ msgstr "Tillämpning: [1], Kommandorad: [2]"
-
-#, fuzzy
-#~ msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-#~ msgstr "Vill du avbryta?"
-
-#~ msgid "Binding executables"
-#~ msgstr "Binder körbara"
-
-#, fuzzy
-#~ msgid "Cancel"
-#~ msgstr ""
-#~ "Det går inte att skapa filen [2]. En katalog med det namnet finns redan. "
-#~ "Avbryt installationen och försök installera på en annan plats."
-
-#~ msgid "Class Id: [1]"
-#~ msgstr "Class Id: [1]"
-
-#~ msgid "Component ID: [1], Qualifier: [2]"
-#~ msgstr "Komponent-ID: [1], Bestämning: [2]"
-
-#~ msgid "Computing space requirements"
-#~ msgstr "Beräknar hur mycket utrymme som krävs"
-
-#~ msgid "Copying network install files"
-#~ msgstr "Kopierar installationsfiler för nätverk"
-
-#~ msgid "Copying new files"
-#~ msgstr "Kopierar nya filer"
-
-#, fuzzy
-#~ msgid "Create A New Folder|"
-#~ msgstr "Skapar mappar"
-
-#~ msgid "Creating duplicate files"
-#~ msgstr "Skapar dubblettfiler"
-
-#~ msgid "Creating folders"
-#~ msgstr "Skapar mappar"
-
-#~ msgid "Creating shortcuts"
-#~ msgstr "Skapar genvägar"
-
-#~ msgid "Deleting services"
-#~ msgstr "Tar bort tjänster"
-
-#, fuzzy
-#~ msgid "Determining required space for installation..."
-#~ msgstr "Samlar den information som krävs..."
-
-#~ msgid "Evaluating launch conditions"
-#~ msgstr "Utvärderar startvillkor"
-
-#~ msgid "Extension: [1]"
-#~ msgstr "Filtillägg: [1]"
-
-#~ msgid "Feature: [1]"
-#~ msgstr "Funktion: [1]"
-
-#~ msgid "File: [1]"
-#~ msgstr "Fil: [1]"
-
-#~ msgid "File: [1], Dependencies: [2]"
-#~ msgstr "Fil: [1], Beroenden: [2]"
-
-#~ msgid "File: [1], Folder: [2]"
-#~ msgstr "Fil: [1], Mapp: [2]"
-
-#~ msgid "File: [1], Folder: [2], Size: [3]"
-#~ msgstr "Fil: [1], Katalog: [2], Storlek: [3]"
-
-#~ msgid "File: [1], Folder: [9]"
-#~ msgstr "Fil: [1], Katalog: [9]"
-
-#~ msgid "File: [1], Folder: [9], Size: [6]"
-#~ msgstr "Fil: [1], Katalog: [9], Storlek: [6]"
-
-#~ msgid "File: [1], Section: [2], Key: [3], Value: [4]"
-#~ msgstr "Fil: [1], Sektion: [2], Nyckel: [3], Värde: [4]"
-
-#, fuzzy
-#~ msgid "Folder:"
-#~ msgstr "Fil: [1], Mapp: [2]"
-
-#~ msgid "Folder: [1]"
-#~ msgstr "Mapp: [1]"
-
-#~ msgid "Font: [1]"
-#~ msgstr "Teckensnitt: [1]"
-
-#~ msgid "Found application: [1]"
-#~ msgstr "Hittade tillämpning: [1]"
-
-#~ msgid "Free space: [1]"
-#~ msgstr "Ledigt utrymme: [1]"
-
-#~ msgid "Generating script operations for action:"
-#~ msgstr "Genererar skriptoperationer för åtgärden:"
-
-#~ msgid "Initializing ODBC folders"
-#~ msgstr "Initierar ODBC-kataloger"
-
-#~ msgid "Installing new services"
-#~ msgstr "Installerar nya tjänster"
-
-#~ msgid "Installing ODBC components"
-#~ msgstr "Installerar ODBC-komponenter"
-
-#~ msgid "Installing system catalog"
-#~ msgstr "Installerar systemkatalog"
-
-#~ msgid "Key: [1], Name: [2]"
-#~ msgstr "Nyckel: [1], Namn: [2]"
-
-#~ msgid "Key: [1], Name: [2], Value: [3]"
-#~ msgstr "Nyckel: [1], Namn: [2], Värde: [3]"
-
-#~ msgid "LibID: [1]"
-#~ msgstr "BiblID: [1]"
-
-#~ msgid "Migrating feature states from related applications"
-#~ msgstr "Flyttar funktionsstatus från relaterade tillämpningar"
-
-#~ msgid "MIME Content Type: [1], Extension: [2]"
-#~ msgstr "MIME-innehållstyp: [1],Filtillägg: [2]"
-
-#~ msgid "Moving files"
-#~ msgstr "Flyttar filer"
-
-#~ msgid "Name: [1], Value: [2], Action [3]"
-#~ msgstr "Namn: [1], Värde: [2], Åtgärd [3]"
-
-#~ msgid "Patching files"
-#~ msgstr "Korrigerar filer"
-
-#~ msgid "ProgId: [1]"
-#~ msgstr "ProgId: [1]"
-
-#~ msgid "Property: [1], Signature: [2]"
-#~ msgstr "Egenskap: [1], Signatur: [2]"
-
-#~ msgid "Publishing assembly information"
-#~ msgstr "Paketinformation publiceras"
-
-#~ msgid "Publishing Product Features"
-#~ msgstr "Publicerar produktfunktioner"
-
-#~ msgid "Publishing product information"
-#~ msgstr "Publicerar produktinformation"
-
-#~ msgid "Publishing Qualified Components"
-#~ msgstr "Publicerar kvalificerade komponenter"
-
-#~ msgid "Registering Class servers"
-#~ msgstr "Registrerar klasservrar"
-
-#~ msgid "Registering COM+ Applications and Components"
-#~ msgstr "Registrerar COM+-tillämpningar och -komponenter"
-
-#~ msgid "Registering extension servers"
-#~ msgstr "Registrerar tilläggsservrar"
-
-#~ msgid "Registering fonts"
-#~ msgstr "Registrerar teckensnitt"
-
-#~ msgid "Registering MIME info"
-#~ msgstr "Registrerar MIME-information"
-
-#~ msgid "Registering modules"
-#~ msgstr "Registrerar moduler"
-
-#~ msgid "Registering product"
-#~ msgstr "Registrerar produkt"
-
-#~ msgid "Registering program identifiers"
-#~ msgstr "Registrerar programidentifierare"
-
-#~ msgid "Registering type libraries"
-#~ msgstr "Registrerar typbibliotek"
-
-#~ msgid "Registering user"
-#~ msgstr "Registrerar användare"
-
-#, fuzzy
-#~ msgid "Removal"
-#~ msgstr "Borttagningen har slutförts."
-
-#, fuzzy
-#~ msgid "Removing"
-#~ msgstr "Tar bort INI-filposter"
-
-#~ msgid "Removing applications"
-#~ msgstr "Tar bort tillämpningar"
-
-#~ msgid "Removing backup files"
-#~ msgstr "Tar bort säkerhetskopieringar"
-
-#~ msgid "Removing duplicated files"
-#~ msgstr "Tar bort dubblerade filer"
-
-#~ msgid "Removing files"
-#~ msgstr "Tar bort filer"
-
-#~ msgid "Removing folders"
-#~ msgstr "Tar bort mappar"
-
-#~ msgid "Removing INI files entries"
-#~ msgstr "Tar bort INI-filposter"
-
-#~ msgid "Removing moved files"
-#~ msgstr "Tar bort flyttade filer"
-
-#~ msgid "Removing ODBC components"
-#~ msgstr "Tar bort ODBC-komponenter"
-
-#~ msgid "Removing shortcuts"
-#~ msgstr "Tar bort genvägar"
-
-#~ msgid "Removing system registry values"
-#~ msgstr "Tar bort systemregistervärden"
-
-#~ msgid "Rolling back action:"
-#~ msgstr "Åtgärden Rollback:"
-
-#~ msgid "Searching for installed applications"
-#~ msgstr "Söker efter installerade program"
-
-#~ msgid "Searching for qualifying products"
-#~ msgstr "Söker efter kvalificeringsprodukter"
-
-#~ msgid "Searching for related applications"
-#~ msgstr "Söker efter relaterade tillämpningar"
-
-#~ msgid "Service: [1]"
-#~ msgstr "Tjänsten: [1]"
-
-#~ msgid "Service: [2]"
-#~ msgstr "Tjänst: [2]"
-
-#~ msgid "Shortcut: [1]"
-#~ msgstr "Genvägen: [1]"
-
-#~ msgid "Starting services"
-#~ msgstr "Startar tjänster"
-
-#~ msgid "Stopping services"
-#~ msgstr "Stoppar tjänster"
-
-#~ msgid "Unpublishing assembly information"
-#~ msgstr "Paketinformation avpubliceras"
-
-#~ msgid "Unpublishing Product Features"
-#~ msgstr "Avpublicerar produktfunktioner"
-
-#~ msgid "Unpublishing product information"
-#~ msgstr "Avpublicerar produktinformation"
-
-#~ msgid "Unpublishing Qualified Components"
-#~ msgstr "Avpublicerar kvalificeringskomponenter"
-
-#~ msgid "Unregister Class servers"
-#~ msgstr "Avregistrera klasservrar"
-
-#~ msgid "Unregistering COM+ Applications and Components"
-#~ msgstr "Avregistrerar COM+-tillämpningar och -komponenter"
-
-#~ msgid "Unregistering extension servers"
-#~ msgstr "Avregistrerar tilläggsservrar"
-
-#~ msgid "Unregistering fonts"
-#~ msgstr "Avregistrerar teckensnitt"
-
-#~ msgid "Unregistering MIME info"
-#~ msgstr "Avregistrerar MIME-information"
-
-#~ msgid "Unregistering modules"
-#~ msgstr "Avregistrerar moduler"
-
-#~ msgid "Unregistering program identifiers"
-#~ msgstr "Avregistrerar programidentifierare"
-
-#~ msgid "Unregistering type libraries"
-#~ msgstr "Avregistrerar typbibliotek"
-
-#~ msgid "Updating component registration"
-#~ msgstr "Uppdaterar komponentregistrering"
-
-#~ msgid "Updating environment strings"
-#~ msgstr "Uppdaterar systemsträngar"
-
-#~ msgid "Validating install"
-#~ msgstr "Bekräftar installation"
-
-#~ msgid "Writing INI files values"
-#~ msgstr "Skriver INI-filvärden"
-
-#~ msgid "Writing system registry values"
-#~ msgstr "Skriver systermregistervärden"
-
-#, fuzzy
-#~ msgid "&Install Now"
-#~ msgstr "[2] installerades"
-
-#, fuzzy
-#~ msgid "&Modify"
-#~ msgstr ""
-#~ "Det gick inte att uppdatera systemvariabeln [2]. Bekräfta att du har "
-#~ "tillräcklig behörighet för att ändra systemvariabler."
-
-#, fuzzy
-#~ msgid "&Remove"
-#~ msgstr ""
-#~ "Du måste vara administratör för att kunna ta bort det här programt. Om du "
-#~ "vill ta bort det här programt kan du logga in som Administratör eller "
-#~ "kontakta din supportavdelning för närmare hjälp."
-
-#, fuzzy
-#~ msgid "Available"
-#~ msgstr ""
-#~ "Det finns inte tillräckligt mycket ledigt diskutrymme på volymen [2] för "
-#~ "att fortsätta installera med återställning aktiverat. [3] kB krävs, men "
-#~ "endast [4] kB är tillgängligt. Klicka på Ignorera om du vill fortsätta "
-#~ "installera utan att spara återställningsinformation, klicka på Försök "
-#~ "igen om du vill kontrollera diskutrymme igen, eller klicka på Avbryt om "
-#~ "du vill avbryta installationen."
-
-#, fuzzy
-#~ msgid "Custom Installation"
-#~ msgstr "Installationen misslyckades."
-
-#, fuzzy
-#~ msgid "Installing"
-#~ msgstr ""
-#~ "Det går inte att hitta några tidigare installerade kompatibla produkter "
-#~ "på datorn för installation av den här produkten."
-
-#, fuzzy
-#~ msgid "KB"
-#~ msgstr ""
-#~ "Det gick inte att öka det tillgängliga registerutrymmet. [2] kB av det "
-#~ "lediga registerutrymmet krävs för att installera det här programt."
-
-#, fuzzy
-#~ msgid "Required"
-#~ msgstr ""
-#~ "En fil som krävs kan inte installeras eftersom CAB-filen [2] inte "
-#~ "signerats digitalt. Detta kan tyda på att CAB-filen är skadad."
-
-#, fuzzy
-#~ msgid "Volume"
-#~ msgstr ""
-#~ "Det finns ingen diskett i enhet [2]. Sätt i en diskett och klicka på "
-#~ "Försök igen eller klicka på Avbryt om du vill återvända till den tidigare "
-#~ "markerade volymen."
+"gälla. Klicka på Ja om du vill starta om datorn nu eller klicka på Nej om du"
+" vill starta om manuellt senare."

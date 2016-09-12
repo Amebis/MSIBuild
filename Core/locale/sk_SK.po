@@ -1,19 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-29 07:47+0200\n"
+"POT-Creation-Date: 2016-08-29 07:44+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: sk_SK\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
+"Language-Team: Slovak (Slovakia) (https://www.transifex.com/eduroam_devel/teams/11799/sk_SK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
-"X-Generator: Poedit 1.8.8\n"
+"Language: sk_SK\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
@@ -90,8 +94,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
 #: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
 msgid ""
-"A file that is required cannot be installed because the cabinet file [2] has "
-"an invalid digital signature. This may indicate that the cabinet file is "
+"A file that is required cannot be installed because the cabinet file [2] has"
+" an invalid digital signature. This may indicate that the cabinet file is "
 "corrupt.{{ Error [3] was returned by WinVerifyTrust.}}"
 msgstr ""
 "Požadovaný súbor nemožno nainštalovať, pretože na súbore kabinetu [2] je "
@@ -134,8 +138,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
 #: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
 msgid ""
-"A portion of the folder path '[2]' is invalid. It is either empty or exceeds "
-"the length allowed by the system."
+"A portion of the folder path '[2]' is invalid. It is either empty or exceeds"
+" the length allowed by the system."
 msgstr ""
 "Časť cesty k priečinku '[2]' je neplatná. Cesta je prázdna alebo prekračuje "
 "dĺžku povolenú systémom."
@@ -148,7 +152,8 @@ msgid ""
 "changes?"
 msgstr ""
 "Prebieha predchádzajúca inštalácia tohto produktu. Ak chcete pokračovať, "
-"musíte vrátiť zmeny vykonané dotyčnou inštaláciou. Chcete vrátiť tieto zmeny?"
+"musíte vrátiť zmeny vykonané dotyčnou inštaláciou. Chcete vrátiť tieto "
+"zmeny?"
 
 #: En.Win32.Debug.Error-2.idtx:127 En.Win32.Release.Error-2.idtx:127
 #: En.x64.Debug.Error-2.idtx:127 En.x64.Release.Error-2.idtx:127
@@ -183,8 +188,8 @@ msgstr "Inzercia zlyhala."
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
-"An error occured during the installation of assembly component [2]. HRESULT: "
-"[3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
+"An error occured during the installation of assembly component [2]. HRESULT:"
+" [3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
 msgstr ""
 "Počas inštalácie súčasti zostavy [2] sa vyskytla chyba. HRESULT: [3]. "
 "{{rozhranie zostavy: [4], funkcia: [5], názov zostavy: [6]}}"
@@ -200,8 +205,8 @@ msgid ""
 msgstr ""
 "Pri použití nastavenia zabezpečenia sa vyskytla chyba. [2] nie je platný "
 "používateľ ani platná skupina. Mohlo by ísť o problém s balíkom alebo "
-"problém s pripojením na doménový kontrolér na sieti. Skontrolujte pripojenie "
-"na sieť a kliknite na tlačidlo Znova, alebo kliknutím na tlačidlo Zrušiť "
+"problém s pripojením na doménový kontrolér na sieti. Skontrolujte pripojenie"
+" na sieť a kliknite na tlačidlo Znova, alebo kliknutím na tlačidlo Zrušiť "
 "zrušte inštaláciu. {{Identifikátor SID používateľa sa nepodarilo nájsť, "
 "systémová chyba [3]}}"
 
@@ -228,7 +233,8 @@ msgid ""
 "made by that installation to continue. Do you want to undo those changes?"
 msgstr ""
 "Inštalácia produktu [2] je momentálne pozastavená. Ak chcete pokračovať, "
-"musíte vrátiť zmeny vykonané dotyčnou inštaláciou. Chcete vrátiť tieto zmeny?"
+"musíte vrátiť zmeny vykonané dotyčnou inštaláciou. Chcete vrátiť tieto "
+"zmeny?"
 
 #: En.Win32.Debug.Error-2.idtx:96 En.Win32.Release.Error-2.idtx:96
 #: En.x64.Debug.Error-2.idtx:96 En.x64.Release.Error-2.idtx:96
@@ -242,11 +248,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
 #: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
 msgid ""
-"Another application has exclusive access to the file '[2]'. Please shut down "
-"all other applications, then click Retry."
+"Another application has exclusive access to the file '[2]'. Please shut down"
+" all other applications, then click Retry."
 msgstr ""
-"K súboru '[2]' má už výhradný prístup iná aplikácia. Ukončite všetky ostatné "
-"aplikácie a kliknite na tlačidlo Znova."
+"K súboru '[2]' má už výhradný prístup iná aplikácia. Ukončite všetky ostatné"
+" aplikácie a kliknite na tlačidlo Znova."
 
 #: En.Win32.Debug.Error-2.idtx:77 En.Win32.Release.Error-2.idtx:77
 #: En.x64.Debug.Error-2.idtx:77 En.x64.Release.Error-2.idtx:77
@@ -265,8 +271,8 @@ msgstr "Naozaj chcete skončiť?"
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
 msgid ""
-"Cannot create the file '[2]'. A folder with this name already exists. Cancel "
-"the install and try installing to a different location."
+"Cannot create the file '[2]'. A folder with this name already exists. Cancel"
+" the install and try installing to a different location."
 msgstr ""
 "Súbor '[2]' sa nedá vytvoriť. Adresár s týmto názvom už existuje. Zrušte "
 "inštaláciu a pokúste sa inštalovať na iné miesto."
@@ -274,8 +280,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
 #: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
 msgid ""
-"Cannot create the folder '[2]'. A file with this name already exists. Please "
-"rename or remove the file and click retry, or click Cancel to exit."
+"Cannot create the folder '[2]'. A file with this name already exists. Please"
+" rename or remove the file and click retry, or click Cancel to exit."
 msgstr ""
 "Nie je možné vytvoriť adresár '[2]'. Súbor s týmto názvom už existuje. "
 "Premenujte alebo odstráňte súbor a kliknite na tlačidlo Znova, alebo "
@@ -324,8 +330,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
 #: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
 msgid ""
-"Could not create Shortcut [2]. Verify that the destination folder exists and "
-"that you can access it."
+"Could not create Shortcut [2]. Verify that the destination folder exists and"
+" that you can access it."
 msgstr ""
 "Nie je možné vytvoriť odkaz [2]. Skontrolujte, či cieľový priečinok "
 "existuje, a či máte k nemu prístup."
@@ -355,8 +361,8 @@ msgid ""
 "Could not find any previously installed compliant products on the machine "
 "for installing this product."
 msgstr ""
-"Na tomto počítači nie je možné nájsť žiadne nainštalované produkty spĺňajúce "
-"podmienky na inštaláciu tohto produktu."
+"Na tomto počítači nie je možné nájsť žiadne nainštalované produkty spĺňajúce"
+" podmienky na inštaláciu tohto produktu."
 
 #: En.Win32.Debug.Error-2.idtx:74 En.Win32.Release.Error-2.idtx:74
 #: En.x64.Debug.Error-2.idtx:74 En.x64.Release.Error-2.idtx:74
@@ -429,7 +435,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
 #: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
 msgid ""
-"Could not register type library for file [2]. Contact your support personnel."
+"Could not register type library for file [2]. Contact your support "
+"personnel."
 msgstr ""
 "Knižnica typov pre súbor [2] sa nedala zaregistrovať. Obráťte sa na "
 "pracovníka technickej podpory."
@@ -437,8 +444,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
 #: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
 msgid ""
-"Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
-"you can access it."
+"Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
+" you can access it."
 msgstr ""
 "Nie je možné odstrániť odkaz [2]. Skontrolujte, či súbor odkazu existuje, a "
 "či k nemu máte prístup."
@@ -455,8 +462,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
 #: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
 msgid ""
-"Could not set file security for file '[3]'. Error: [2]. Verify that you have "
-"sufficient privileges to modify the security permissions for this file."
+"Could not set file security for file '[3]'. Error: [2]. Verify that you have"
+" sufficient privileges to modify the security permissions for this file."
 msgstr ""
 "Bezpečnosť súboru '[3]' sa nedala nastaviť. Chyba: [2]. Overte, či máte "
 "dostatočné práva na zmenu bezpečnostných oprávnení pre tento súbor."
@@ -482,8 +489,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
 #: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
 msgid ""
-"Could not update environment variable '[2]'. Verify that you have sufficient "
-"privileges to modify environment variables."
+"Could not update environment variable '[2]'. Verify that you have sufficient"
+" privileges to modify environment variables."
 msgstr ""
 "Nie je možné aktualizovať systémovú premennú '[2]'. Skontrolujte, či máte "
 "dostatočné oprávnenia na zmenu systémových premenných."
@@ -494,14 +501,14 @@ msgid ""
 "Could not update the ini file [2][3]. Verify that the file exists and that "
 "you can access it."
 msgstr ""
-"Súbor ini [2][3] sa nedal aktualizovať. Overte, či súbor existuje, a či máte "
-"k nemu prístup."
+"Súbor ini [2][3] sa nedal aktualizovať. Overte, či súbor existuje, a či máte"
+" k nemu prístup."
 
 #: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
 #: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
 msgid ""
-"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
-"have sufficient access to that key, or contact your support personnel."
+"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you"
+" have sufficient access to that key, or contact your support personnel."
 msgstr ""
 "Nie je možné zapísať hodnotu [2] do kľúča [3]. {{ Systémová chyba [4].}} "
 "Skontrolujte, či máte ku kľúču dostatočný prístup, alebo sa obráťte na "
@@ -561,8 +568,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
 #: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
 msgid ""
-"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
-"[4] exists and that you can access it."
+"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
+" [4] exists and that you can access it."
 msgstr ""
 "Chyba pri inštalácii ovládača ODBC: [4], chyba ODBC [2]: [3]. Skontrolujte, "
 "či súbor [4] existuje, a či k nemu máte prístup."
@@ -633,7 +640,8 @@ msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
 #: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
-msgid "Error writing to file: [2]. Verify that you have access to that folder."
+msgid ""
+"Error writing to file: [2]. Verify that you have access to that folder."
 msgstr ""
 "Chyba pri zápise do súboru: [2]. Skontrolujte, či máte prístup do "
 "príslušného adresára."
@@ -729,7 +737,8 @@ msgstr "Registrácia modulu [2] zlyhala. HRESULT [3]. Obráťte sa na technika."
 #: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
 #: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
 msgid ""
-"Module [2] failed to unregister. HRESULT [3]. Contact your support personnel."
+"Module [2] failed to unregister. HRESULT [3]. Contact your support "
+"personnel."
 msgstr ""
 "Odstránenie registrácie modulu [2] zlyhalo. HRESULT [3]. Obráťte sa na "
 "technika."
@@ -740,14 +749,14 @@ msgid ""
 "One or more of the files required to restore your computer to its previous "
 "state could not be found. Restoration will not be possible."
 msgstr ""
-"Jeden alebo viacero súborov požadovaných na obnovenie predchádzajúceho stavu "
-"počítača sa nedá nájsť. Obnovenie nebude možné."
+"Jeden alebo viacero súborov požadovaných na obnovenie predchádzajúceho stavu"
+" počítača sa nedá nájsť. Obnovenie nebude možné."
 
 #: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
 #: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
 msgid ""
-"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
-"[4] KB. Free some disk space and retry."
+"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
+" [4] KB. Free some disk space and retry."
 msgstr ""
 "Nedostatok miesta na pevnom disku -- Zväzok: '[2]'; požadované miesto: [3] "
 "kB; dostupné miesto: [4] kB. Uvoľnite nejaké miesto na disku a skúste to "
@@ -817,8 +826,8 @@ msgid ""
 "Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to "
 "complete operation."
 msgstr ""
-"Plánuje sa operácia reštartu: Súbor [2] sa premenováva na [3]. Na dokončenie "
-"tejto operácie je nutný reštart."
+"Plánuje sa operácia reštartu: Súbor [2] sa premenováva na [3]. Na dokončenie"
+" tejto operácie je nutný reštart."
 
 #: En.Win32.Debug.Error-2.idtx:149 En.Win32.Release.Error-2.idtx:149
 #: En.x64.Debug.Error-2.idtx:149 En.x64.Release.Error-2.idtx:149
@@ -926,8 +935,8 @@ msgstr "Cesta k priečinku '[2]' obsahuje neplatný znak."
 msgid ""
 "The folder path '[2]' contains words that are not valid in folder paths."
 msgstr ""
-"Cesta k priečinku '[2]' obsahuje slová, ktoré nemôžu byť použité v cestách k "
-"priečinkom."
+"Cesta k priečinku '[2]' obsahuje slová, ktoré nemôžu byť použité v cestách k"
+" priečinkom."
 
 #: En.Win32.Debug.Error-2.idtx:87 En.Win32.Release.Error-2.idtx:87
 #: En.x64.Debug.Error-2.idtx:87 En.x64.Release.Error-2.idtx:87
@@ -951,8 +960,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
 msgid ""
 "The installer has insufficient privileges to access this folder: [2]. The "
-"installation cannot continue. Log on as administrator or contact your system "
-"administrator."
+"installation cannot continue. Log on as administrator or contact your system"
+" administrator."
 msgstr ""
 "Inštalátor nemá na prístup do priečinka [2] dostatočné oprávnenia. "
 "Inštalácia nemôže pokračovať. Prihláste sa ako správca alebo sa obráťte na "
@@ -1020,12 +1029,10 @@ msgstr "Zväzok [2] je momentálne nedostupný. Vyberte iný zväzok."
 #: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
 #: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2]. List of protected files:\n"
+"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
 msgstr ""
-"Služba Windows Installer nemôže aktualizovať niektoré zabezpečené súbory "
-"systému Windows. {{Chyba SFP: [2]. Zoznam zabezpečených súborov:\n"
+"Služba Windows Installer nemôže aktualizovať niektoré zabezpečené súbory systému Windows. {{Chyba SFP: [2]. Zoznam zabezpečených súborov:\n"
 "[3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:159 En.Win32.Release.Error-2.idtx:159
@@ -1047,8 +1054,8 @@ msgid ""
 "version: [4]}}"
 msgstr ""
 "Služba programu Windows Installer nemôže aktualizovať systémový súbor [2], "
-"pretože je zabezpečený systémom Windows. Aby tento program pracoval správne, "
-"musíte aktualizovať operačný systém. {{Verzia balíka: [3], Verzia "
+"pretože je zabezpečený systémom Windows. Aby tento program pracoval správne,"
+" musíte aktualizovať operačný systém. {{Verzia balíka: [3], Verzia "
 "zabezpečená systémom: [4]}}"
 
 #: En.Win32.Debug.Error-2.idtx:109 En.Win32.Release.Error-2.idtx:109
@@ -1058,8 +1065,8 @@ msgid ""
 "are running Windows in safe mode, or if the Windows Installer is not "
 "correctly installed. Contact your support personnel for assistance."
 msgstr ""
-"Nedá sa získať prístup k službe programu Windows Installer. Tento problém sa "
-"môže vyskytnúť pri spustení systému Windows v núdzovom režime alebo v "
+"Nedá sa získať prístup k službe programu Windows Installer. Tento problém sa"
+" môže vyskytnúť pri spustení systému Windows v núdzovom režime alebo v "
 "prípade, že program Windows Installer nie je nainštalovaný správne. Obráťte "
 "sa na pracovníka technickej podpory."
 
@@ -1067,8 +1074,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
 msgid ""
 "There is a problem with this Windows Installer package. A DLL required for "
-"this install to complete could not be run. Contact your support personnel or "
-"package vendor. {{Action [2], entry: [3], library: [4] }}"
+"this install to complete could not be run. Contact your support personnel or"
+" package vendor. {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
 "Vyskytol sa problém s týmto balíkom programu Windows Installer. Knižnica "
 "DLL, ktorá je potrebná na dokončenie tejto inštalácie, sa nemohla spustiť. "
@@ -1091,8 +1098,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
 msgid ""
 "There is a problem with this Windows Installer package. A program run as "
-"part of the setup did not finish as expected. Contact your support personnel "
-"or package vendor. {{Action [2], location: [3], command: [4] }}"
+"part of the setup did not finish as expected. Contact your support personnel"
+" or package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
 "Vyskytol sa problém s týmto balíkom programu Windows Installer. Program, "
 "ktorý sa spúšťa ako súčasť inštalácie, sa nedokončil tak, ako sa očakávalo. "
@@ -1110,8 +1117,8 @@ msgstr ""
 "Vyskytol sa problém s týmto balíkom programu Windows Installer. Skript, "
 "ktorý je potrebný na dokončenie tejto inštalácie, sa nemohol spustiť. "
 "Obráťte sa na pracovníka technickej podpory alebo na dodávateľa balíka. "
-"{{Vlastná akcia [2], chyba skriptu [3], [4]: [5] riadok [6], stĺpec [7], "
-"[8] }}"
+"{{Vlastná akcia [2], chyba skriptu [3], [4]: [5] riadok [6], stĺpec [7], [8]"
+" }}"
 
 #: En.Win32.Debug.Error-2.idtx:123 En.Win32.Release.Error-2.idtx:123
 #: En.x64.Debug.Error-2.idtx:123 En.x64.Release.Error-2.idtx:123
@@ -1162,8 +1169,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
 #: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
 msgid ""
-"There was an error creating a temporary file that is needed to complete this "
-"installation.{{ Folder: [3]. System error code: [2]}}"
+"There was an error creating a temporary file that is needed to complete this"
+" installation.{{ Folder: [3]. System error code: [2]}}"
 msgstr ""
 "Pri vytváraní dočasného súboru potrebného na dokončenie tejto inštalácie sa "
 "vyskytla chyba. {{Priečinok: [3]. Kód systémovej chyby: [2]}}"
@@ -1205,8 +1212,8 @@ msgid ""
 "User '[2]' has previously initiated an install for product '[3]'. That user "
 "will need to run that install again before they can use that product."
 msgstr ""
-"Používateľ '[2]' už spustil inštaláciu produktu '[3]'. Tento používateľ bude "
-"musieť pred použitím produktu spustiť inštaláciu znova."
+"Používateľ '[2]' už spustil inštaláciu produktu '[3]'. Tento používateľ bude"
+" musieť pred použitím produktu spustiť inštaláciu znova."
 
 #: En.Win32.Debug.Error-2.idtx:79 En.Win32.Release.Error-2.idtx:79
 #: En.x64.Debug.Error-2.idtx:79 En.x64.Release.Error-2.idtx:79
@@ -1215,8 +1222,8 @@ msgid ""
 "will need to run that install again before they can use that product. Your "
 "current install will now continue."
 msgstr ""
-"Používateľ '[2]' už spustil inštaláciu produktu '[3]'. Tento používateľ bude "
-"musieť pred použitím produktu spustiť inštaláciu znova. Vaša aktuálna "
+"Používateľ '[2]' už spustil inštaláciu produktu '[3]'. Tento používateľ bude"
+" musieť pred použitím produktu spustiť inštaláciu znova. Vaša aktuálna "
 "inštalácia bude teraz pokračovať."
 
 #: En.Win32.Debug.Error-2.idtx:161 En.Win32.Release.Error-2.idtx:161
@@ -1231,8 +1238,8 @@ msgstr "Upozornenie: [1]. "
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
 msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
-"64-bit operating system. 32-bit variant will not work with your operating "
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
 "system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
@@ -1282,403 +1289,3 @@ msgstr ""
 "Aby sa uplatnili zmeny v konfigurácii vykonané na produkte [2], musíte "
 "počítač reštartovať. Ak chcete reštartovať teraz, kliknite na tlačidlo Áno, "
 "ak chcete neskôr systém reštartovať manuálne, kliknite na tlačidlo Nie."
-
-#~ msgid "1033"
-#~ msgstr "1051"
-
-#, fuzzy
-#~ msgid "&Continue"
-#~ msgstr ""
-#~ "Na disku v zväzku [2] nie je dostatok miesta na inštaláciu so zapnutým "
-#~ "obnovením. Požadovaná veľkosť miesta je [3] kB, ale k dispozícii je iba "
-#~ "miesto s veľkosťou [4] kB. Ak chcete pokračovať v inštalácii bez možnosti "
-#~ "uloženia informácií obnovenia, kliknite na tlačidlo Ignorovať. Ak chcete "
-#~ "znova skontrolovať veľkosť miesta, ktoré je k dispozícii, kliknite na "
-#~ "tlačidlo Znova. Ak chcete inštaláciu ukončiť, kliknite na tlačidlo Zrušiť."
-
-#, fuzzy
-#~ msgid "&Folder:"
-#~ msgstr "Súbor: [1], Prieȅinok: [2]"
-
-#, fuzzy
-#~ msgid "&Retry"
-#~ msgstr ""
-#~ "Pri zápise inštalačných informácií na disk nastala chyba. Skontrolujte, "
-#~ "či je na disku dostatok voľného miesta a kliknite na tlačidlo Znova, "
-#~ "alebo kliknite na tlačidlo Zrušiť, čím inštaláciu ukončíte."
-
-#~ msgid "[1]"
-#~ msgstr "[1]"
-
-#, fuzzy
-#~ msgid "[DlgTitleFont]Disk Space Requirements"
-#~ msgstr "Kalkuluje sa potrebné miesto"
-
-#~ msgid "Advertising application"
-#~ msgstr "Prebieha pseudoinštalácia aplikácie"
-
-#~ msgid "Allocating registry space"
-#~ msgstr "Vyhradzuje sa miesto v databáze Registry"
-
-#~ msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-#~ msgstr ""
-#~ "ID aplikácie: [1]{{,Typ aplikácie: [2], Používatelia: [3], RSN: [4]}}"
-
-#~ msgid "AppId: [1]{{, AppType: [2]}}"
-#~ msgstr "ID aplikácie: [1]{{, Typ aplikácie: [2]}}"
-
-#~ msgid "Application Context:[1], Assembly Name:[2]"
-#~ msgstr "Kontext aplikácie: [1], názov zostavy: [2]"
-
-#~ msgid "Application: [1]"
-#~ msgstr "Aplikácia: [1]"
-
-#~ msgid "Application: [1], Command line: [2]"
-#~ msgstr "Aplikácia: [1], Príkazový riadok: [2]"
-
-#, fuzzy
-#~ msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-#~ msgstr "Naozaj chcete skončiť?"
-
-#~ msgid "Binding executables"
-#~ msgstr "Viazanie spustite¾ných súborov"
-
-#, fuzzy
-#~ msgid "Cancel"
-#~ msgstr ""
-#~ "Súbor '[2]' sa nedá vytvoriť. Adresár s týmto názvom už existuje. Zrušte "
-#~ "inštaláciu a pokúste sa inštalovať na iné miesto."
-
-#~ msgid "Class Id: [1]"
-#~ msgstr "Class Id: [1]"
-
-#~ msgid "Component ID: [1], Qualifier: [2]"
-#~ msgstr "ID súȅasti: [1], Kvalifikátor: [2]"
-
-#~ msgid "Computing space requirements"
-#~ msgstr "Kalkuluje sa potrebné miesto"
-
-#~ msgid "Copying network install files"
-#~ msgstr "Kopírujú sa sieové inštalaȅné súbory"
-
-#~ msgid "Copying new files"
-#~ msgstr "Kopírujú sa nové súbory"
-
-#, fuzzy
-#~ msgid "Create A New Folder|"
-#~ msgstr "Vytvárajú sa prieȅinky"
-
-#~ msgid "Creating duplicate files"
-#~ msgstr "Vytvárajú sa duplikované súbory"
-
-#~ msgid "Creating folders"
-#~ msgstr "Vytvárajú sa prieȅinky"
-
-#~ msgid "Creating shortcuts"
-#~ msgstr "Vytvárajú sa odkazy"
-
-#~ msgid "Deleting services"
-#~ msgstr "Odstraȍujú sa služby"
-
-#, fuzzy
-#~ msgid "Determining required space for installation..."
-#~ msgstr "Získavajú sa potrebné informácie..."
-
-#~ msgid "Evaluating launch conditions"
-#~ msgstr "Vyhodnocujú sa podmienky spustenia"
-
-#~ msgid "Extension: [1]"
-#~ msgstr "Rozšírenie: [1]"
-
-#~ msgid "Feature: [1]"
-#~ msgstr "Súȅas: [1]"
-
-#~ msgid "File: [1]"
-#~ msgstr "Súbor: [1]"
-
-#~ msgid "File: [1], Dependencies: [2]"
-#~ msgstr "Súbor: [1], Závislosti: [2]"
-
-#~ msgid "File: [1], Folder: [2]"
-#~ msgstr "Súbor: [1], Prieȅinok: [2]"
-
-#~ msgid "File: [1], Folder: [2], Size: [3]"
-#~ msgstr "Súbor: [1], Adresár: [2], Ve¾kos: [3]"
-
-#~ msgid "File: [1], Folder: [9]"
-#~ msgstr "Súbor: [1], Adresár: [9]"
-
-#~ msgid "File: [1], Folder: [9], Size: [6]"
-#~ msgstr "Súbor: [1], Adresár: [9], Ve¾kos: [6]"
-
-#~ msgid "File: [1], Section: [2], Key: [3], Value: [4]"
-#~ msgstr "Súbor: [1], Oddiel: [2], K¾úȅ: [3], Hodnota: [4]"
-
-#, fuzzy
-#~ msgid "Folder:"
-#~ msgstr "Súbor: [1], Prieȅinok: [2]"
-
-#~ msgid "Folder: [1]"
-#~ msgstr "Prieȅinok: [1]"
-
-#~ msgid "Font: [1]"
-#~ msgstr "Písmo: [1]"
-
-#~ msgid "Found application: [1]"
-#~ msgstr "Našla sa aplikácia: [1]"
-
-#~ msgid "Free space: [1]"
-#~ msgstr "Vo¾né miesto: [1]"
-
-#~ msgid "Generating script operations for action:"
-#~ msgstr "Generujú sa skriptové operácie pre akciu:"
-
-#~ msgid "Initializing ODBC folders"
-#~ msgstr "Inicializujú sa adresáre ODBC"
-
-#~ msgid "Installing new services"
-#~ msgstr "Inštalujú sa nové služby"
-
-#~ msgid "Installing ODBC components"
-#~ msgstr "Inštalujú sa súȅasti ODBC"
-
-#~ msgid "Installing system catalog"
-#~ msgstr "Inštaluje sa systémový katalóg"
-
-#~ msgid "Key: [1], Name: [2]"
-#~ msgstr "K¾úȅ: [1], Názov: [2]"
-
-#~ msgid "Key: [1], Name: [2], Value: [3]"
-#~ msgstr "K¾úȅ: [1], Názov: [2], Hodnota: [3]"
-
-#~ msgid "LibID: [1]"
-#~ msgstr "LibID: [1]"
-
-#~ msgid "Migrating feature states from related applications"
-#~ msgstr "Migrujú stavy funkcií zo súvisiacich aplikácií"
-
-#~ msgid "MIME Content Type: [1], Extension: [2]"
-#~ msgstr "Typ obsahu MIME: [1], Rozšírenie: [2]"
-
-#~ msgid "Moving files"
-#~ msgstr "Premiestȍujú sa súbory"
-
-#~ msgid "Name: [1], Value: [2], Action [3]"
-#~ msgstr "Názov: [1], Hodnota: [2], Akcia [3]"
-
-#~ msgid "Patching files"
-#~ msgstr "Opravujú sa súbory"
-
-#~ msgid "ProgId: [1]"
-#~ msgstr "ProgId: [1]"
-
-#~ msgid "Property: [1], Signature: [2]"
-#~ msgstr "Vlastnos: [1], Podpis: [2]"
-
-#~ msgid "Publishing assembly information"
-#~ msgstr "Publikujú sa informácie o zostave"
-
-#~ msgid "Publishing Product Features"
-#~ msgstr "Publikujú sa súȅasti produktu"
-
-#~ msgid "Publishing product information"
-#~ msgstr "Publikuje sa informácia o produkte"
-
-#~ msgid "Publishing Qualified Components"
-#~ msgstr "Publikujú sa oprávȍujúce súȅasti"
-
-#~ msgid "Registering Class servers"
-#~ msgstr "Registrujú sa servery triedy"
-
-#~ msgid "Registering COM+ Applications and Components"
-#~ msgstr "Registrujú sa aplikácie a komponenty architektúry COM+"
-
-#~ msgid "Registering extension servers"
-#~ msgstr "Registrujú sa servery rozšírení"
-
-#~ msgid "Registering fonts"
-#~ msgstr "Registrujú sa písma"
-
-#~ msgid "Registering MIME info"
-#~ msgstr "Registruje sa informácia typu MIME"
-
-#~ msgid "Registering modules"
-#~ msgstr "Registrujú sa moduly"
-
-#~ msgid "Registering product"
-#~ msgstr "Registruje sa produkt"
-
-#~ msgid "Registering program identifiers"
-#~ msgstr "Registrujú sa programové identifikátory"
-
-#~ msgid "Registering type libraries"
-#~ msgstr "Registrujú sa knižnice typov"
-
-#~ msgid "Registering user"
-#~ msgstr "Registruje sa používate¾"
-
-#, fuzzy
-#~ msgid "Removal"
-#~ msgstr "Odstránenie sa úspešne dokončilo."
-
-#, fuzzy
-#~ msgid "Removing"
-#~ msgstr "Odstraȍujú sa záznamy v súboroch INI"
-
-#~ msgid "Removing applications"
-#~ msgstr "Odstraȍujú sa aplikácie"
-
-#~ msgid "Removing backup files"
-#~ msgstr "Odstraȍujú sa záložné súbory"
-
-#~ msgid "Removing duplicated files"
-#~ msgstr "Odstraȍujú sa duplikované súbory"
-
-#~ msgid "Removing files"
-#~ msgstr "Odstraȍujú sa súbory"
-
-#~ msgid "Removing folders"
-#~ msgstr "Odstraȍujú sa prieȅinky"
-
-#~ msgid "Removing INI files entries"
-#~ msgstr "Odstraȍujú sa záznamy v súboroch INI"
-
-#~ msgid "Removing moved files"
-#~ msgstr "Odstraȍujú sa premiestnené súbory"
-
-#~ msgid "Removing ODBC components"
-#~ msgstr "Odstraȍujú sa súȅasti ODBC"
-
-#~ msgid "Removing shortcuts"
-#~ msgstr "Odstraȍujú sa odkazy"
-
-#~ msgid "Removing system registry values"
-#~ msgstr "Odstraȍujú sa hodnoty zo systémovej databázy Registry"
-
-#~ msgid "Rolling back action:"
-#~ msgstr "Vracia sa akcia:"
-
-#~ msgid "Searching for installed applications"
-#~ msgstr "H¾adajú sa nainštalované aplikácie"
-
-#~ msgid "Searching for qualifying products"
-#~ msgstr "H¾adajú sa oprávȍujúce produkty"
-
-#~ msgid "Searching for related applications"
-#~ msgstr "Vyh¾adávajú sa súvisiace aplikácie"
-
-#~ msgid "Service: [1]"
-#~ msgstr "Služba: [1]"
-
-#~ msgid "Service: [2]"
-#~ msgstr "Služba: [2]"
-
-#~ msgid "Shortcut: [1]"
-#~ msgstr "Odkaz: [1]"
-
-#~ msgid "Starting services"
-#~ msgstr "Spúšajú sa služby"
-
-#~ msgid "Stopping services"
-#~ msgstr "Zastavujú sa služby"
-
-#~ msgid "Unpublishing assembly information"
-#~ msgstr "Ruší sa publikovanie informácií o zostave"
-
-#~ msgid "Unpublishing Product Features"
-#~ msgstr "Ruší sa publikovanie súȅastí produktu"
-
-#~ msgid "Unpublishing product information"
-#~ msgstr "Ruší sa publikovanie informácií o produkte"
-
-#~ msgid "Unpublishing Qualified Components"
-#~ msgstr "Ruší sa publikovanie oprávȍujúcich súȅastí"
-
-#~ msgid "Unregister Class servers"
-#~ msgstr "Ruší sa registrácia serverov triedy"
-
-#~ msgid "Unregistering COM+ Applications and Components"
-#~ msgstr "Ruší sa registrácia aplikácií a komponentov architektúry COM+"
-
-#~ msgid "Unregistering extension servers"
-#~ msgstr "Ruší sa registrácia rozširujúcich serverov"
-
-#~ msgid "Unregistering fonts"
-#~ msgstr "Ruší sa registrácia písiem"
-
-#~ msgid "Unregistering MIME info"
-#~ msgstr "Ruší sa registrácia informácie typu MIME"
-
-#~ msgid "Unregistering modules"
-#~ msgstr "Ruší sa registrácia modulov"
-
-#~ msgid "Unregistering program identifiers"
-#~ msgstr "Ruší sa registrácia programových identifikátorov"
-
-#~ msgid "Unregistering type libraries"
-#~ msgstr "Ruší sa registrácia knižníc typov"
-
-#~ msgid "Updating component registration"
-#~ msgstr "Aktualizuje sa registrácia súȅastí"
-
-#~ msgid "Updating environment strings"
-#~ msgstr "Aktualizujú sa premenné prostredia"
-
-#~ msgid "Validating install"
-#~ msgstr "Overuje sa inštalácia"
-
-#~ msgid "Writing INI files values"
-#~ msgstr "Zapisujú sa hodnoty súborov INI"
-
-#~ msgid "Writing system registry values"
-#~ msgstr "Zapisujú sa hodnoty do systémovej databázy Registry"
-
-#, fuzzy
-#~ msgid "&Install Now"
-#~ msgstr "Nainštalovaný [2]"
-
-#, fuzzy
-#~ msgid "&Modify"
-#~ msgstr ""
-#~ "Nie je možné aktualizovať systémovú premennú '[2]'. Skontrolujte, či máte "
-#~ "dostatočné oprávnenia na zmenu systémových premenných."
-
-#, fuzzy
-#~ msgid "&Remove"
-#~ msgstr ""
-#~ "Na odstránenie tejto aplikácie musíte mať oprávnenia správcu. Ak chcete "
-#~ "odstrániť túto aplikáciu, môžete sa prihlásiť ako správca, alebo sa "
-#~ "môžete obrátiť na technickú podporu a požiadať ju o pomoc."
-
-#, fuzzy
-#~ msgid "Available"
-#~ msgstr ""
-#~ "Na disku v zväzku [2] nie je dostatok miesta na inštaláciu so zapnutým "
-#~ "obnovením. Požadovaná veľkosť miesta je [3] kB, ale k dispozícii je iba "
-#~ "miesto s veľkosťou [4] kB. Ak chcete pokračovať v inštalácii bez možnosti "
-#~ "uloženia informácií obnovenia, kliknite na tlačidlo Ignorovať. Ak chcete "
-#~ "znova skontrolovať veľkosť miesta, ktoré je k dispozícii, kliknite na "
-#~ "tlačidlo Znova. Ak chcete inštaláciu ukončiť, kliknite na tlačidlo Zrušiť."
-
-#, fuzzy
-#~ msgid "Custom Installation"
-#~ msgstr "Inštalácia zlyhala."
-
-#, fuzzy
-#~ msgid "Installing"
-#~ msgstr ""
-#~ "Na tomto počítači nie je možné nájsť žiadne nainštalované produkty "
-#~ "spĺňajúce podmienky na inštaláciu tohto produktu."
-
-#, fuzzy
-#~ msgid "KB"
-#~ msgstr ""
-#~ "Nie je možné zväčšiť dostupné miesto v databáze Registry. Inštalácia "
-#~ "tejto aplikácie vyžaduje [2] kB voľného miesta v databáze Registry."
-
-#, fuzzy
-#~ msgid "Volume"
-#~ msgstr ""
-#~ "V mechanike [2] sa nenachádza žiaden disk. Vložte disk a kliknite na "
-#~ "tlačidlo Znova, alebo kliknite na tlačidlo Zrušiť, čím sa vrátite k "
-#~ "predchádzajúcemu zväzku."

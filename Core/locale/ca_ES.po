@@ -1,19 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-29 07:44+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: ca_ES\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
+"Language-Team: Catalan (Spain) (https://www.transifex.com/eduroam_devel/teams/11799/ca_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
-"X-Generator: Poedit 1.8.8\n"
+"Language: ca_ES\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
@@ -21,8 +25,8 @@ msgid ""
 "[2] cannot install one of its required products. Contact your technical "
 "support group. {{System Error: [3].}}"
 msgstr ""
-"[2] no pot instal·lar un dels productes requerits. Poseu-vos en contacte amb "
-"el grup de suport tȅcnic. {{Error del sistema: [3].}}"
+"[2] no pot instal·lar un dels productes requerits. Poseu-vos en contacte amb"
+" el grup de suport tȅcnic. {{Error del sistema: [3].}}"
 
 #: En.Win32.Debug.Error-2.idtx:55 En.Win32.Release.Error-2.idtx:55
 #: En.x64.Debug.Error-2.idtx:55 En.x64.Release.Error-2.idtx:55
@@ -90,8 +94,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
 #: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
 msgid ""
-"A file that is required cannot be installed because the cabinet file [2] has "
-"an invalid digital signature. This may indicate that the cabinet file is "
+"A file that is required cannot be installed because the cabinet file [2] has"
+" an invalid digital signature. This may indicate that the cabinet file is "
 "corrupt.{{ Error [3] was returned by WinVerifyTrust.}}"
 msgstr ""
 "No es pot instal·lar un fitxer requerit perquȅ el fitxer d'arxivador [2] té "
@@ -134,11 +138,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
 #: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
 msgid ""
-"A portion of the folder path '[2]' is invalid. It is either empty or exceeds "
-"the length allowed by the system."
+"A portion of the folder path '[2]' is invalid. It is either empty or exceeds"
+" the length allowed by the system."
 msgstr ""
-"Una part del camí de la carpeta \"[2]\" no és vȁlida. És buida o bé excedeix "
-"la longitud permesa pel sistema."
+"Una part del camí de la carpeta \"[2]\" no és vȁlida. És buida o bé excedeix"
+" la longitud permesa pel sistema."
 
 #: En.Win32.Debug.Error-2.idtx:95 En.Win32.Release.Error-2.idtx:95
 #: En.x64.Debug.Error-2.idtx:95 En.x64.Release.Error-2.idtx:95
@@ -184,8 +188,8 @@ msgstr "Ha fallat l'anunci."
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
-"An error occured during the installation of assembly component [2]. HRESULT: "
-"[3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
+"An error occured during the installation of assembly component [2]. HRESULT:"
+" [3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
 msgstr ""
 "Hi ha hagut un error durant la instal·lació del component de muntatge [2]. "
 "HRESULT: [3]. {{interfície de muntatge: [4], funció: [5], nom de muntatge: "
@@ -200,9 +204,9 @@ msgid ""
 "click Retry, or Cancel to end the install. {{Unable to locate the user's "
 "SID, system error [3]}}"
 msgstr ""
-"Error en aplicar els parȁmetres de seguretat. [2] no és un usuari ni un grup "
-"vȁlid. Podria ésser un problema amb el paquet o bé un problema en connectar "
-"a un controlador de domini de la xarxa. Comproveu la vostra connexió de la "
+"Error en aplicar els parȁmetres de seguretat. [2] no és un usuari ni un grup"
+" vȁlid. Podria ésser un problema amb el paquet o bé un problema en connectar"
+" a un controlador de domini de la xarxa. Comproveu la vostra connexió de la "
 "xarxa i feu clic a Reintenta, o a Cancel·la per finalitzar la instal·lació. "
 "{{Impossible de localitzar el SID de l'usuari, error del sistema [3]}}"
 
@@ -228,8 +232,8 @@ msgid ""
 "An installation for [2] is currently suspended. You must undo the changes "
 "made by that installation to continue. Do you want to undo those changes?"
 msgstr ""
-"Actualment estȁ suspesa una instal·lació per a [2]. Heu de desfer els canvis "
-"fets per la instal·lació per continuar. Voleu desfer aquests canvis?"
+"Actualment estȁ suspesa una instal·lació per a [2]. Heu de desfer els canvis"
+" fets per la instal·lació per continuar. Voleu desfer aquests canvis?"
 
 #: En.Win32.Debug.Error-2.idtx:96 En.Win32.Release.Error-2.idtx:96
 #: En.x64.Debug.Error-2.idtx:96 En.x64.Release.Error-2.idtx:96
@@ -243,11 +247,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
 #: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
 msgid ""
-"Another application has exclusive access to the file '[2]'. Please shut down "
-"all other applications, then click Retry."
+"Another application has exclusive access to the file '[2]'. Please shut down"
+" all other applications, then click Retry."
 msgstr ""
-"Una altra aplicació té accés exclusiu al fitxer \"[2]\". Sortiu de totes les "
-"aplicacions i feu clic a Reintenta."
+"Una altra aplicació té accés exclusiu al fitxer \"[2]\". Sortiu de totes les"
+" aplicacions i feu clic a Reintenta."
 
 #: En.Win32.Debug.Error-2.idtx:77 En.Win32.Release.Error-2.idtx:77
 #: En.x64.Debug.Error-2.idtx:77 En.x64.Release.Error-2.idtx:77
@@ -266,8 +270,8 @@ msgstr "Esteu segurs que voleu cancel·lar?"
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
 msgid ""
-"Cannot create the file '[2]'. A folder with this name already exists. Cancel "
-"the install and try installing to a different location."
+"Cannot create the file '[2]'. A folder with this name already exists. Cancel"
+" the install and try installing to a different location."
 msgstr ""
 "No es pot crear el fitxer \"[2]\". Ja existeix un directori amb aquest nom. "
 "Cancel·leu la instal·lació i proveu d'instal·lar-lo en un altre lloc."
@@ -275,12 +279,12 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
 #: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
 msgid ""
-"Cannot create the folder '[2]'. A file with this name already exists. Please "
-"rename or remove the file and click retry, or click Cancel to exit."
+"Cannot create the folder '[2]'. A file with this name already exists. Please"
+" rename or remove the file and click retry, or click Cancel to exit."
 msgstr ""
 "No es pot crear el directori \"[2]\". Ja existeix un fitxer amb aquest nom. "
-"Canvieu-li el nom o suprimiu el fitxer i feu clic a Reintenta, o bé feu clic "
-"a Cancel·la per sortir."
+"Canvieu-li el nom o suprimiu el fitxer i feu clic a Reintenta, o bé feu clic"
+" a Cancel·la per sortir."
 
 #: En.Win32.Debug.Error-2.idtx:154 En.Win32.Release.Error-2.idtx:154
 #: En.x64.Debug.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
@@ -320,15 +324,15 @@ msgid ""
 "Could not create key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"No s'ha pogut crear la clau: [2]. {{ Error del sistema [3].}} Verifiqueu que "
-"teniu accés suficient a aquesta clau o bé poseu-vos en contacte amb el "
+"No s'ha pogut crear la clau: [2]. {{ Error del sistema [3].}} Verifiqueu que"
+" teniu accés suficient a aquesta clau o bé poseu-vos en contacte amb el "
 "personal de suport. "
 
 #: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
 #: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
 msgid ""
-"Could not create Shortcut [2]. Verify that the destination folder exists and "
-"that you can access it."
+"Could not create Shortcut [2]. Verify that the destination folder exists and"
+" that you can access it."
 msgstr ""
 "No s'ha pogut crear la drecera [2]. Verifiqueu que la carpeta de destinació "
 "existeix i que podeu accedir-hi."
@@ -350,8 +354,8 @@ msgid ""
 "you have sufficient access to that key, or contact your support personnel. "
 msgstr ""
 "No s'ha pogut suprimir el valor [2] de la clau [3]. {{ Error del sistema "
-"[4].}} Verifiqueu que teniu accés suficient a aquesta clau o bé poseu-vos en "
-"contacte amb el personal de suport. "
+"[4].}} Verifiqueu que teniu accés suficient a aquesta clau o bé poseu-vos en"
+" contacte amb el personal de suport. "
 
 #: En.Win32.Debug.Error-2.idtx:88 En.Win32.Release.Error-2.idtx:88
 #: En.x64.Debug.Error-2.idtx:88 En.x64.Release.Error-2.idtx:88
@@ -389,7 +393,8 @@ msgid ""
 "space is required for the installation of this application."
 msgstr ""
 "No s'ha pogut incrementar l'espai del Registre disponible. Es requereixen "
-"[2] KB d'espai lliure del Registre per a la instal·lació d'aquesta aplicació."
+"[2] KB d'espai lliure del Registre per a la instal·lació d'aquesta "
+"aplicació."
 
 #: En.Win32.Debug.Error-2.idtx:68 En.Win32.Release.Error-2.idtx:68
 #: En.x64.Debug.Error-2.idtx:68 En.x64.Release.Error-2.idtx:68
@@ -397,8 +402,8 @@ msgid ""
 "Could not open key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"No s'ha pogut obrir la clau: [2]. {{ Error del sistema [3].}} Verifiqueu que "
-"teniu accés suficient a aquesta clau o bé poseu-vos en contacte amb el "
+"No s'ha pogut obrir la clau: [2]. {{ Error del sistema [3].}} Verifiqueu que"
+" teniu accés suficient a aquesta clau o bé poseu-vos en contacte amb el "
 "personal de suport. "
 
 #: En.Win32.Debug.Error-2.idtx:75 En.Win32.Release.Error-2.idtx:75
@@ -408,8 +413,8 @@ msgid ""
 "Verify that you have sufficient access to that key, or contact your support "
 "personnel."
 msgstr ""
-"No s'ha pogut llegir la informació de seguretat de la clau [2]. {{ Error del "
-"sistema [3].}} Verifiqueu que teniu accés suficient a aquesta clau o bé "
+"No s'ha pogut llegir la informació de seguretat de la clau [2]. {{ Error del"
+" sistema [3].}} Verifiqueu que teniu accés suficient a aquesta clau o bé "
 "poseu-vos en contacte amb el personal de suport."
 
 #: En.Win32.Debug.Error-2.idtx:71 En.Win32.Release.Error-2.idtx:71
@@ -419,8 +424,8 @@ msgid ""
 "you have sufficient access to that key, or contact your support personnel. "
 msgstr ""
 "No s'ha pogut llegir el valor [2] de la clau [3]. {{ Error del sistema "
-"[4].}} Verifiqueu que teniu accés suficient a aquesta clau o bé poseu-vos en "
-"contacte amb el personal de suport. "
+"[4].}} Verifiqueu que teniu accés suficient a aquesta clau o bé poseu-vos en"
+" contacte amb el personal de suport. "
 
 #: En.Win32.Debug.Error-2.idtx:134 En.Win32.Release.Error-2.idtx:134
 #: En.x64.Debug.Error-2.idtx:134 En.x64.Release.Error-2.idtx:134
@@ -435,7 +440,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
 #: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
 msgid ""
-"Could not register type library for file [2]. Contact your support personnel."
+"Could not register type library for file [2]. Contact your support "
+"personnel."
 msgstr ""
 "No s'ha pogut registrar la biblioteca de tipus per al fitxer [2]. Poseu-vos "
 "en contacte amb el personal de suport."
@@ -443,8 +449,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
 #: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
 msgid ""
-"Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
-"you can access it."
+"Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
+" you can access it."
 msgstr ""
 "No s'ha pogut crear la drecera [2]. Verifiqueu que la carpeta de destinació "
 "existeix i que podeu accedir-hi."
@@ -461,8 +467,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
 #: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
 msgid ""
-"Could not set file security for file '[3]'. Error: [2]. Verify that you have "
-"sufficient privileges to modify the security permissions for this file."
+"Could not set file security for file '[3]'. Error: [2]. Verify that you have"
+" sufficient privileges to modify the security permissions for this file."
 msgstr ""
 "No s'ha pogut establir la seguretat de fitxer per al fitxer \"[3]\". Error: "
 "[2]. Verifiqueu que teniu prou privilegis per modificar els permisos de "
@@ -489,11 +495,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
 #: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
 msgid ""
-"Could not update environment variable '[2]'. Verify that you have sufficient "
-"privileges to modify environment variables."
+"Could not update environment variable '[2]'. Verify that you have sufficient"
+" privileges to modify environment variables."
 msgstr ""
-"No s'ha pogut actualitzar la variable d'entorn \"[2]\". Verifiqueu que teniu "
-"privilegis suficients per modificar les variables d'entorn."
+"No s'ha pogut actualitzar la variable d'entorn \"[2]\". Verifiqueu que teniu"
+" privilegis suficients per modificar les variables d'entorn."
 
 #: En.Win32.Debug.Error-2.idtx:140 En.Win32.Release.Error-2.idtx:140
 #: En.x64.Debug.Error-2.idtx:140 En.x64.Release.Error-2.idtx:140
@@ -507,12 +513,12 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
 #: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
 msgid ""
-"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
-"have sufficient access to that key, or contact your support personnel."
+"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you"
+" have sufficient access to that key, or contact your support personnel."
 msgstr ""
 "No s'ha pogut escriure el valor [2] en la clau [3]. {{ Error del sistema "
-"[4].}} Verifiqueu que teniu accés suficient a aquesta clau o bé poseu-vos en "
-"contacte amb el personal de suport."
+"[4].}} Verifiqueu que teniu accés suficient a aquesta clau o bé poseu-vos en"
+" contacte amb el personal de suport."
 
 #: En.Win32.Debug.Error-2.idtx:78 En.Win32.Release.Error-2.idtx:78
 #: En.x64.Debug.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
@@ -520,8 +526,8 @@ msgid ""
 "Error accessing secured data. Please make sure the Windows Installer is "
 "configured properly and try the install again."
 msgstr ""
-"Error en accedir a les dades segures. Assegureu-vos que el Windows Installer "
-"estȁ configurat apropiadament i proveu d'instal·lar de nou."
+"Error en accedir a les dades segures. Assegureu-vos que el Windows Installer"
+" estȁ configurat apropiadament i proveu d'instal·lar de nou."
 
 #: En.Win32.Debug.Error-2.idtx:58 En.Win32.Release.Error-2.idtx:58
 #: En.x64.Debug.Error-2.idtx:58 En.x64.Release.Error-2.idtx:58
@@ -530,8 +536,8 @@ msgid ""
 "means, and can no longer be modified by this patch. For more information "
 "contact your patch vendor. {{System Error: [3]}}"
 msgstr ""
-"Error en aplicar la revisió al fitxer [2]. Probablement ha estat actualitzat "
-"per altres mitjans i ja no pot ser modificat per aquesta revisió. Per "
+"Error en aplicar la revisió al fitxer [2]. Probablement ha estat actualitzat"
+" per altres mitjans i ja no pot ser modificat per aquesta revisió. Per "
 "obtenir més informació, poseu-vos en contacte amb el proveïdor de la "
 "revisió. {{Error del sistema: [3]}}"
 
@@ -567,11 +573,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
 #: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
 msgid ""
-"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
-"[4] exists and that you can access it."
+"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
+" [4] exists and that you can access it."
 msgstr ""
-"Error en instal·lar el programa de control ODBC: [4], error d'ODBC [2]: [3]. "
-"Verifiqueu que el fitxer [4] existeix i que podeu accedir-hi."
+"Error en instal·lar el programa de control ODBC: [4], error d'ODBC [2]: [3]."
+" Verifiqueu que el fitxer [4] existeix i que podeu accedir-hi."
 
 #: En.Win32.Debug.Error-2.idtx:35 En.Win32.Release.Error-2.idtx:35
 #: En.x64.Debug.Error-2.idtx:35 En.x64.Release.Error-2.idtx:35
@@ -615,8 +621,8 @@ msgid ""
 "Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
 msgstr ""
-"Error en suprimir l'administrador del programa de control ODBC, error d'ODBC "
-"[2]: [3]. Poseu-vos en contacte amb el personal de suport."
+"Error en suprimir l'administrador del programa de control ODBC, error d'ODBC"
+" [2]: [3]. Poseu-vos en contacte amb el personal de suport."
 
 #: En.Win32.Debug.Error-2.idtx:144 En.Win32.Release.Error-2.idtx:144
 #: En.x64.Debug.Error-2.idtx:144 En.x64.Release.Error-2.idtx:144
@@ -625,8 +631,8 @@ msgid ""
 "sufficient privileges to remove ODBC drivers."
 msgstr ""
 "Error en suprimir el programa de control ODBC: [4], error d'ODBC [2]: [3]. "
-"Verifiqueu que teniu privilegis suficients per suprimir programes de control "
-"ODBC."
+"Verifiqueu que teniu privilegis suficients per suprimir programes de control"
+" ODBC."
 
 #: En.Win32.Debug.Error-2.idtx:156 En.Win32.Release.Error-2.idtx:156
 #: En.x64.Debug.Error-2.idtx:156 En.x64.Release.Error-2.idtx:156
@@ -639,7 +645,8 @@ msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
 #: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
-msgid "Error writing to file: [2]. Verify that you have access to that folder."
+msgid ""
+"Error writing to file: [2]. Verify that you have access to that folder."
 msgstr ""
 "Error en escriure al fitxer: [2]. Verifiqueu que teniu accés a aquest "
 "directori."
@@ -650,8 +657,8 @@ msgid ""
 "Error writing to file: [3]. {{ System error [2].}} Verify that you have "
 "access to that folder."
 msgstr ""
-"Error en escriure al fitxer: [3]. {{ Error del sistema [2].}} Verifiqueu que "
-"teniu accés a aquest directori."
+"Error en escriure al fitxer: [3]. {{ Error del sistema [2].}} Verifiqueu que"
+" teniu accés a aquest directori."
 
 #: En.Win32.Debug.Error-2.idtx:133 En.Win32.Release.Error-2.idtx:133
 #: En.x64.Debug.Error-2.idtx:133 En.x64.Release.Error-2.idtx:133
@@ -737,10 +744,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
 #: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
 msgid ""
-"Module [2] failed to unregister. HRESULT [3]. Contact your support personnel."
+"Module [2] failed to unregister. HRESULT [3]. Contact your support "
+"personnel."
 msgstr ""
-"Ha fallat la supressió del Registre del mȍdul [2]. HRESULT [3]. Poseu-vos en "
-"contacte amb el personal de suport."
+"Ha fallat la supressió del Registre del mȍdul [2]. HRESULT [3]. Poseu-vos en"
+" contacte amb el personal de suport."
 
 #: En.Win32.Debug.Error-2.idtx:102 En.Win32.Release.Error-2.idtx:102
 #: En.x64.Debug.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
@@ -754,11 +762,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
 #: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
 msgid ""
-"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
-"[4] KB. Free some disk space and retry."
+"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
+" [4] KB. Free some disk space and retry."
 msgstr ""
-"No hi ha prou espai al disc -- Volum: \"[2]\"; espai requerit: [3] KB; espai "
-"disponible: [4] KB. Allibereu espai al disc i proveu de nou."
+"No hi ha prou espai al disc -- Volum: \"[2]\"; espai requerit: [3] KB; espai"
+" disponible: [4] KB. Allibereu espai al disc i proveu de nou."
 
 #: En.Win32.Debug.Error-2.idtx:122 En.Win32.Debug.Error-2.idtx:21
 #: En.Win32.Release.Error-2.idtx:122 En.Win32.Release.Error-2.idtx:21
@@ -878,8 +886,8 @@ msgid ""
 "Source file not found{{(cabinet)}}: [2]. Verify that the file exists and "
 "that you can access it."
 msgstr ""
-"No s'ha trobat el fitxer d'origen{{(calaix)}}: [2]. Verifiqueu que el fitxer "
-"existeix i que podeu accedir-hi."
+"No s'ha trobat el fitxer d'origen{{(calaix)}}: [2]. Verifiqueu que el fitxer"
+" existeix i que podeu accedir-hi."
 
 #: En.Win32.Debug.Error-2.idtx:65 En.Win32.Release.Error-2.idtx:65
 #: En.x64.Debug.Error-2.idtx:65 En.x64.Release.Error-2.idtx:65
@@ -959,8 +967,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
 msgid ""
 "The installer has insufficient privileges to access this folder: [2]. The "
-"installation cannot continue. Log on as administrator or contact your system "
-"administrator."
+"installation cannot continue. Log on as administrator or contact your system"
+" administrator."
 msgstr ""
 "L'Instal·lador no té privilegis suficients per accedir a aquest directori: "
 "[2]. La instal·lació no pot continuar. Connecteu-vos com a administrador o "
@@ -979,9 +987,9 @@ msgid ""
 "continue. Click Yes to restart now or No if you plan to manually restart "
 "later."
 msgstr ""
-"L'instal·lador ha de reiniciar el sistema abans de continuar la configuració "
-"de [2]. Feu clic a Sí per reiniciar ara o a No si voleu reiniciar manualment "
-"més tard."
+"L'instal·lador ha de reiniciar el sistema abans de continuar la configuració"
+" de [2]. Feu clic a Sí per reiniciar ara o a No si voleu reiniciar "
+"manualment més tard."
 
 #: En.Win32.Debug.Error-2.idtx:91 En.Win32.Release.Error-2.idtx:91
 #: En.x64.Debug.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
@@ -1030,12 +1038,10 @@ msgstr "El volum [2] no estȁ disponible actualment. Seleccioneu un altre."
 #: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
 #: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2]. List of protected files:\n"
+"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
 msgstr ""
-"El servei de Windows Installer no pot actualitzar un o diversos fitxers "
-"protegits per Windows. {{Error SFP: [2]. Llista de fitxers protegits:\n"
+"El servei de Windows Installer no pot actualitzar un o diversos fitxers protegits per Windows. {{Error SFP: [2]. Llista de fitxers protegits:\n"
 "[3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:159 En.Win32.Release.Error-2.idtx:159
@@ -1077,8 +1083,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
 msgid ""
 "There is a problem with this Windows Installer package. A DLL required for "
-"this install to complete could not be run. Contact your support personnel or "
-"package vendor. {{Action [2], entry: [3], library: [4] }}"
+"this install to complete could not be run. Contact your support personnel or"
+" package vendor. {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
 "Hi ha un problema en aquest paquet de Windows Installer. No s'ha pogut "
 "executar una DLL requerida per completar la instal·lació. {{Acció: [2], "
@@ -1100,8 +1106,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
 msgid ""
 "There is a problem with this Windows Installer package. A program run as "
-"part of the setup did not finish as expected. Contact your support personnel "
-"or package vendor. {{Action [2], location: [3], command: [4] }}"
+"part of the setup did not finish as expected. Contact your support personnel"
+" or package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
 "Hi ha un problema en aquest paquet de Windows Installer. Un programa "
 "executat com a part de la instal·lació no ha finalitzat com s'esperava. "
@@ -1168,8 +1174,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
 #: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
 msgid ""
-"There was an error creating a temporary file that is needed to complete this "
-"installation.{{ Folder: [3]. System error code: [2]}}"
+"There was an error creating a temporary file that is needed to complete this"
+" installation.{{ Folder: [3]. System error code: [2]}}"
 msgstr ""
 "Hi ha hagut un error en crear un fitxer temporal que és necessari per "
 "completar aquesta instal·lació.{{ Carpeta: [3]. Codi d'error del sistema: "
@@ -1242,8 +1248,8 @@ msgstr "Advertȅncia [1]. "
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
 msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
-"64-bit operating system. 32-bit variant will not work with your operating "
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
 "system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
@@ -1293,410 +1299,3 @@ msgstr ""
 "Heu de reiniciar el sistema perquȅ els canvis fets a la configuració de [2] "
 "siguin efectius. Feu clic a Sí per reiniciar ara o a No si voleu reiniciar "
 "manualment més tard."
-
-#~ msgid "1033"
-#~ msgstr "1027"
-
-#, fuzzy
-#~ msgid "&Continue"
-#~ msgstr ""
-#~ "No hi ha prou espai de disc en el volum \"[2]\" per continuar la "
-#~ "instal·lació amb la recuperació habilitada. Es requeixen [3] KB, perȍ "
-#~ "només hi ha [4] KB disponibles. Feu clic a Ignora per continuar la "
-#~ "instal·lació sense desar informació de recuperació; feu clic a Reintenta "
-#~ "per tornar a comprovar l'espai disponible, o feu clic a Cancel·la per "
-#~ "sortir de la instal·lació."
-
-#, fuzzy
-#~ msgid "&Folder:"
-#~ msgstr "Fitxer: [1], Carpeta: [2]"
-
-#, fuzzy
-#~ msgid "&Retry"
-#~ msgstr ""
-#~ "Error en escriure informació d'instal·lació al disc. Comproveu que hi ha "
-#~ "prou espai disponible al disc i feu clic a Reintenta o a Cancel·la per "
-#~ "finalitzar la instal·lació."
-
-#~ msgid "[1]"
-#~ msgstr "[1]"
-
-#, fuzzy
-#~ msgid "[DlgTitleFont]Disk Space Requirements"
-#~ msgstr "S'estan calculant els requisits d'espai"
-
-#~ msgid "Advertising application"
-#~ msgstr "Aplicació d'exemple"
-
-#~ msgid "Allocating registry space"
-#~ msgstr "S'estȁ assignant espai al Registre"
-
-#~ msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-#~ msgstr "IDApl: [1]{{, TipusApl: [2], Usuaris: [3], RSN: [4]}}"
-
-#~ msgid "AppId: [1]{{, AppType: [2]}}"
-#~ msgstr "IDApl: [1]{{, TipusApl: [2]}}"
-
-#~ msgid "Application Context:[1], Assembly Name:[2]"
-#~ msgstr "Context d'aplicació:[1], nom de muntatge:[2]"
-
-#~ msgid "Application: [1]"
-#~ msgstr "Aplicació: [1]"
-
-#~ msgid "Application: [1], Command line: [2]"
-#~ msgstr "Aplicació: [1], Línia d'ordres: [2]"
-
-#, fuzzy
-#~ msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-#~ msgstr "Esteu segurs que voleu cancel·lar?"
-
-#~ msgid "Binding executables"
-#~ msgstr "Lligant fitxers executables"
-
-#, fuzzy
-#~ msgid "Cancel"
-#~ msgstr ""
-#~ "No es pot crear el fitxer \"[2]\". Ja existeix un directori amb aquest "
-#~ "nom. Cancel·leu la instal·lació i proveu d'instal·lar-lo en un altre lloc."
-
-#~ msgid "Class Id: [1]"
-#~ msgstr "ID de classe: [1]"
-
-#~ msgid "Component ID: [1], Qualifier: [2]"
-#~ msgstr "ID de component: [1], Qualificador: [2]"
-
-#~ msgid "Computing space requirements"
-#~ msgstr "S'estan calculant els requisits d'espai"
-
-#~ msgid "Copying network install files"
-#~ msgstr "S'estan copiant fitxers d'instal·lació a la xarxa"
-
-#~ msgid "Copying new files"
-#~ msgstr "S'estan copiant els fitxers nous"
-
-#, fuzzy
-#~ msgid "Create A New Folder|"
-#~ msgstr "S'estan creant carpetes"
-
-#~ msgid "Creating duplicate files"
-#~ msgstr "S'estan creant fitxers duplicats"
-
-#~ msgid "Creating folders"
-#~ msgstr "S'estan creant carpetes"
-
-#~ msgid "Creating shortcuts"
-#~ msgstr "S'estan creant dreceres"
-
-#~ msgid "Deleting services"
-#~ msgstr "S'estan suprimint serveis"
-
-#, fuzzy
-#~ msgid "Determining required space for installation..."
-#~ msgstr "Recollint informació requerida..."
-
-#~ msgid "Evaluating launch conditions"
-#~ msgstr "S'estan avaluant les condicions d'arrencada"
-
-#~ msgid "Extension: [1]"
-#~ msgstr "Extensió: [1]"
-
-#~ msgid "Feature: [1]"
-#~ msgstr "Característica: [1]"
-
-#~ msgid "File: [1]"
-#~ msgstr "Fitxer: [1]"
-
-#~ msgid "File: [1], Dependencies: [2]"
-#~ msgstr "Fitxer: [1], Dependȅncies: [2]"
-
-#~ msgid "File: [1], Folder: [2]"
-#~ msgstr "Fitxer: [1], Carpeta: [2]"
-
-#~ msgid "File: [1], Folder: [2], Size: [3]"
-#~ msgstr "Fitxer: [1], Directori: [2], Grandȁria: [3]"
-
-#~ msgid "File: [1], Folder: [9]"
-#~ msgstr "Fitxer: [1], Directori: [9]"
-
-#~ msgid "File: [1], Folder: [9], Size: [6]"
-#~ msgstr "Fitxer: [1], Directori: [9], Grandȁria: [6]"
-
-#~ msgid "File: [1], Section: [2], Key: [3], Value: [4]"
-#~ msgstr "Fitxer: [1], Secció: [2], Clau: [3], Valor: [4]"
-
-#, fuzzy
-#~ msgid "Folder:"
-#~ msgstr "Fitxer: [1], Carpeta: [2]"
-
-#~ msgid "Folder: [1]"
-#~ msgstr "Carpeta: [1]"
-
-#~ msgid "Font: [1]"
-#~ msgstr "Tipus de lletra: [1]"
-
-#~ msgid "Found application: [1]"
-#~ msgstr "Aplicació trobada: [1]"
-
-#~ msgid "Free space: [1]"
-#~ msgstr "Espai lliure: [1]"
-
-#~ msgid "Generating script operations for action:"
-#~ msgstr "S'estȁ generant seqüȅncia d'operacions per a l'acció:"
-
-#~ msgid "Initializing ODBC folders"
-#~ msgstr "Inicialitzant directoris ODBC"
-
-#~ msgid "Installing new services"
-#~ msgstr "S'estan instal·lant serveis nous"
-
-#~ msgid "Installing ODBC components"
-#~ msgstr "S'estan instal·lant components ODBC"
-
-#~ msgid "Installing system catalog"
-#~ msgstr "S'estȁ instal·lant el catȁleg del sistema"
-
-#~ msgid "Key: [1], Name: [2]"
-#~ msgstr "Clau: [1], Nom: [2]"
-
-#~ msgid "Key: [1], Name: [2], Value: [3]"
-#~ msgstr "Clau: [1], Nom: [2], Valor: [3]"
-
-#~ msgid "LibID: [1]"
-#~ msgstr "IDBib: [1]"
-
-#~ msgid "Migrating feature states from related applications"
-#~ msgstr ""
-#~ "S'estan migrant els estats de les característiques des de les aplicacions "
-#~ "relacionades"
-
-#~ msgid "MIME Content Type: [1], Extension: [2]"
-#~ msgstr "Tipus de contingut MIME: [1], Extensió: [2]"
-
-#~ msgid "Moving files"
-#~ msgstr "S'estan desplaçant fitxers"
-
-#~ msgid "Name: [1], Value: [2], Action [3]"
-#~ msgstr "Nom: [1], Valor: [2], Acció [3]"
-
-#~ msgid "Patching files"
-#~ msgstr "S'estan revisant fitxers"
-
-#~ msgid "ProgId: [1]"
-#~ msgstr "IDProg: [1]"
-
-#~ msgid "Property: [1], Signature: [2]"
-#~ msgstr "Propietat: [1], Signatura: [2]"
-
-#~ msgid "Publishing assembly information"
-#~ msgstr "S'estȁ publicant la informació de muntatge"
-
-#~ msgid "Publishing Product Features"
-#~ msgstr "S'estan publicant les característiques del producte"
-
-#~ msgid "Publishing product information"
-#~ msgstr "S'estȁ publicant la informació del producte"
-
-#~ msgid "Publishing Qualified Components"
-#~ msgstr "S'estan publicant els components necessaris"
-
-#~ msgid "Registering Class servers"
-#~ msgstr "S'estan registrant els servidors de classe"
-
-#~ msgid "Registering COM+ Applications and Components"
-#~ msgstr "S'estan registrant aplicacions i components COM+"
-
-#~ msgid "Registering extension servers"
-#~ msgstr "S'estan registrant els servidors d'extensió"
-
-#~ msgid "Registering fonts"
-#~ msgstr "S'estan registrant els tipus de lletra"
-
-#~ msgid "Registering MIME info"
-#~ msgstr "S'estȁ registrant la informació MIME"
-
-#~ msgid "Registering modules"
-#~ msgstr "S'estan registrant mȍduls"
-
-#~ msgid "Registering product"
-#~ msgstr "S'estȁ registrant el producte"
-
-#~ msgid "Registering program identifiers"
-#~ msgstr "S'estan registrant identificadors de programa"
-
-#~ msgid "Registering type libraries"
-#~ msgstr "S'estan registrant les biblioteques de tipus"
-
-#~ msgid "Registering user"
-#~ msgstr "S'estȁ registrant l'usuari"
-
-#, fuzzy
-#~ msgid "Removal"
-#~ msgstr "L'eliminació ha finalitzat sense problemes."
-
-#, fuzzy
-#~ msgid "Removing"
-#~ msgstr "S'estan suprimint fitxers de cȍpia de seguretat"
-
-#~ msgid "Removing applications"
-#~ msgstr "S'estan suprimint aplicacions"
-
-#~ msgid "Removing backup files"
-#~ msgstr "S'estan suprimint fitxers de cȍpia de seguretat"
-
-#~ msgid "Removing duplicated files"
-#~ msgstr "S'estan suprimint els fitxers duplicats"
-
-#~ msgid "Removing files"
-#~ msgstr "S'estan suprimint fitxers"
-
-#~ msgid "Removing folders"
-#~ msgstr "S'estan suprimint carpetes"
-
-#~ msgid "Removing INI files entries"
-#~ msgstr "S'estan suprimint entrades de fitxers INI"
-
-#~ msgid "Removing moved files"
-#~ msgstr "S'estan suprimint els fitxers desplaçats"
-
-#~ msgid "Removing ODBC components"
-#~ msgstr "S'estan suprimint components ODBC"
-
-#~ msgid "Removing shortcuts"
-#~ msgstr "S'estan suprimint dreceres"
-
-#~ msgid "Removing system registry values"
-#~ msgstr "S'estan suprimint del Registre valors del sistema"
-
-#~ msgid "Rolling back action:"
-#~ msgstr "S'estȁ desfent l'acció:"
-
-#~ msgid "Searching for installed applications"
-#~ msgstr "S'estan cercant aplicacions instal·lades"
-
-#~ msgid "Searching for qualifying products"
-#~ msgstr "S'estan cercant productes autoritzats"
-
-#~ msgid "Searching for related applications"
-#~ msgstr "S'estan cercant aplicacions relacionades"
-
-#~ msgid "Service: [1]"
-#~ msgstr "Servei: [1]"
-
-#~ msgid "Service: [2]"
-#~ msgstr "Servei: [2]"
-
-#~ msgid "Shortcut: [1]"
-#~ msgstr "Drecera: [1]"
-
-#~ msgid "Starting services"
-#~ msgstr "S'estan iniciant serveis"
-
-#~ msgid "Stopping services"
-#~ msgstr "S'estan aturant els serveis"
-
-#~ msgid "Unpublishing assembly information"
-#~ msgstr "S'estȁ despublicant la informació de muntatge"
-
-#~ msgid "Unpublishing Product Features"
-#~ msgstr "S'estan despublicant les característiques del producte"
-
-#~ msgid "Unpublishing product information"
-#~ msgstr "S'estȁ despublicant la informació del producte"
-
-#~ msgid "Unpublishing Qualified Components"
-#~ msgstr "S'estan despublicant els components necessaris"
-
-#~ msgid "Unregister Class servers"
-#~ msgstr "S'estan suprimint del Registre servidors de classe"
-
-#~ msgid "Unregistering COM+ Applications and Components"
-#~ msgstr "S'estan suprimint del Registre aplicacions i components COM+"
-
-#~ msgid "Unregistering extension servers"
-#~ msgstr "S'estan suprimint del Registre els servidors d'extensió"
-
-#~ msgid "Unregistering fonts"
-#~ msgstr "S'estan suprimint del Registre els tipus de lletra"
-
-#~ msgid "Unregistering MIME info"
-#~ msgstr "S'estȁ suprimint del Registre la informació MIME"
-
-#~ msgid "Unregistering modules"
-#~ msgstr "S'estan suprimint mȍduls del Registre"
-
-#~ msgid "Unregistering program identifiers"
-#~ msgstr "S'estan suprimint del Registre identificadors de programa"
-
-#~ msgid "Unregistering type libraries"
-#~ msgstr "S'estȁ suprimint del Registre les biblioteques de tipus"
-
-#~ msgid "Updating component registration"
-#~ msgstr "S'estȁ actualitzant el registre del component"
-
-#~ msgid "Updating environment strings"
-#~ msgstr "S'estan actualitzant cadenes d'entorn"
-
-#~ msgid "Validating install"
-#~ msgstr "S'estȁ validant la instal·lació"
-
-#~ msgid "Writing INI files values"
-#~ msgstr "S'estan escrivint valors als fitxers INI"
-
-#~ msgid "Writing system registry values"
-#~ msgstr "S'estan escrivint valors del Registre del sistema"
-
-#, fuzzy
-#~ msgid "&Install Now"
-#~ msgstr "Instal·lat [2]"
-
-#, fuzzy
-#~ msgid "&Modify"
-#~ msgstr ""
-#~ "No s'ha pogut actualitzar la variable d'entorn \"[2]\". Verifiqueu que "
-#~ "teniu privilegis suficients per modificar les variables d'entorn."
-
-#, fuzzy
-#~ msgid "&Remove"
-#~ msgstr ""
-#~ "Només un administrador pot eliminar aquesta aplicació. Per eliminar-la, "
-#~ "podeu connectar-vos com a un administrador o bé podeu contactar el vostre "
-#~ "grup de suport tȅcnic per obtenir ajuda."
-
-#, fuzzy
-#~ msgid "Available"
-#~ msgstr ""
-#~ "No hi ha prou espai de disc en el volum \"[2]\" per continuar la "
-#~ "instal·lació amb la recuperació habilitada. Es requeixen [3] KB, perȍ "
-#~ "només hi ha [4] KB disponibles. Feu clic a Ignora per continuar la "
-#~ "instal·lació sense desar informació de recuperació; feu clic a Reintenta "
-#~ "per tornar a comprovar l'espai disponible, o feu clic a Cancel·la per "
-#~ "sortir de la instal·lació."
-
-#, fuzzy
-#~ msgid "Custom Installation"
-#~ msgstr "La instal·lació ha fallat."
-
-#, fuzzy
-#~ msgid "Installing"
-#~ msgstr ""
-#~ "No s'ha pogut buscar cap producte compatible prȅviament instal·lat a "
-#~ "l'ordinador per instal·lar aquest producte."
-
-#, fuzzy
-#~ msgid "KB"
-#~ msgstr ""
-#~ "No s'ha pogut incrementar l'espai del Registre disponible. Es requereixen "
-#~ "[2] KB d'espai lliure del Registre per a la instal·lació d'aquesta "
-#~ "aplicació."
-
-#, fuzzy
-#~ msgid "Required"
-#~ msgstr ""
-#~ "[2] no pot instal·lar un dels productes requerits. Poseu-vos en contacte "
-#~ "amb el grup de suport tȅcnic. {{Error del sistema: [3].}}"
-
-#, fuzzy
-#~ msgid "Volume"
-#~ msgstr ""
-#~ "No hi ha cap disc a la unitat [2]. Inseriu un i feu clic a Reintenta o a "
-#~ "Cancel·la per tornar al volum seleccionat prȅviament."

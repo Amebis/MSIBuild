@@ -1,19 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-29 07:46+0200\n"
+"POT-Creation-Date: 2016-08-29 07:44+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: it_IT\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
+"Language-Team: Italian (Italy) (https://www.transifex.com/eduroam_devel/teams/11799/it_IT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
-"X-Generator: Poedit 1.8.8\n"
+"Language: it_IT\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
@@ -74,7 +78,6 @@ msgstr "=== Inizio registrazione: [Date] [Time] ==="
 msgid "=== Logging stopped: [Date] [Time] ==="
 msgstr "=== Fine registrazione: [Date] [Time] ==="
 
-# Windows charset for this language (decimal)
 #: En.Win32.Debug.CustomAction-2.idtx:3 En.Win32.Debug.Error-2.idtx:3
 #: En.Win32.Release.CustomAction-2.idtx:3 En.Win32.Release.Error-2.idtx:3
 #: En.x64.Debug.CustomAction-2.idtx:3 En.x64.Debug.Error-2.idtx:3
@@ -93,13 +96,13 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
 #: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
 msgid ""
-"A file that is required cannot be installed because the cabinet file [2] has "
-"an invalid digital signature. This may indicate that the cabinet file is "
+"A file that is required cannot be installed because the cabinet file [2] has"
+" an invalid digital signature. This may indicate that the cabinet file is "
 "corrupt.{{ Error [3] was returned by WinVerifyTrust.}}"
 msgstr ""
 "Impossibile installare un file necessario. Il file CAB [2] ha una firma "
-"digitale non valida. È possibile che il file CAB sia danneggiato."
-"{{ WinVerifyTrust ha restituito l'errore [3].}}"
+"digitale non valida. È possibile che il file CAB sia danneggiato.{{ "
+"WinVerifyTrust ha restituito l'errore [3].}}"
 
 #: En.Win32.Debug.Error-2.idtx:59 En.Win32.Release.Error-2.idtx:59
 #: En.x64.Debug.Error-2.idtx:59 En.x64.Release.Error-2.idtx:59
@@ -138,8 +141,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
 #: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
 msgid ""
-"A portion of the folder path '[2]' is invalid. It is either empty or exceeds "
-"the length allowed by the system."
+"A portion of the folder path '[2]' is invalid. It is either empty or exceeds"
+" the length allowed by the system."
 msgstr ""
 "Una parte del percorso della cartella \"[2]\" non è valida. Il percorso è "
 "vuoto oppure supera la lunghezza consentita dal sistema."
@@ -191,12 +194,12 @@ msgstr "Annuncio non riuscito."
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
-"An error occured during the installation of assembly component [2]. HRESULT: "
-"[3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
+"An error occured during the installation of assembly component [2]. HRESULT:"
+" [3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
 msgstr ""
 "Si è verificato un errore nel corso dell'installazione del componente "
-"assembly [2]. HRESULT: [3]. {{interfaccia assembly: [4], funzione: [5], nome "
-"assembly: [6]}}"
+"assembly [2]. HRESULT: [3]. {{interfaccia assembly: [4], funzione: [5], nome"
+" assembly: [6]}}"
 
 #: En.Win32.Debug.Error-2.idtx:89 En.Win32.Release.Error-2.idtx:89
 #: En.x64.Debug.Error-2.idtx:89 En.x64.Release.Error-2.idtx:89
@@ -207,12 +210,12 @@ msgid ""
 "click Retry, or Cancel to end the install. {{Unable to locate the user's "
 "SID, system error [3]}}"
 msgstr ""
-"Errore durante l'applicazione delle impostazioni di protezione. [2] non è un "
-"utente o un gruppo valido. Potrebbe essere un problema con il pacchetto o un "
-"problema di connessione a un controller di dominio sulla rete. Controllare "
-"la connessione di rete e scegliere Riprova, o Annulla per terminare "
-"l'installazione. {{Impossibile individuare il SID utente, errore di sistema "
-"[3]}}"
+"Errore durante l'applicazione delle impostazioni di protezione. [2] non è un"
+" utente o un gruppo valido. Potrebbe essere un problema con il pacchetto o "
+"un problema di connessione a un controller di dominio sulla rete. "
+"Controllare la connessione di rete e scegliere Riprova, o Annulla per "
+"terminare l'installazione. {{Impossibile individuare il SID utente, errore "
+"di sistema [3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:47 En.Win32.Release.Error-2.idtx:47
 #: En.x64.Debug.Error-2.idtx:47 En.x64.Release.Error-2.idtx:47
@@ -237,8 +240,8 @@ msgid ""
 "made by that installation to continue. Do you want to undo those changes?"
 msgstr ""
 "Un'istanza del programma di installazione di [2] è correntemente sospesa. "
-"Per continuare, è necessario annullare le modifiche effettuate del programma "
-"di installazione. Annullare le modifiche?"
+"Per continuare, è necessario annullare le modifiche effettuate del programma"
+" di installazione. Annullare le modifiche?"
 
 #: En.Win32.Debug.Error-2.idtx:96 En.Win32.Release.Error-2.idtx:96
 #: En.x64.Debug.Error-2.idtx:96 En.x64.Release.Error-2.idtx:96
@@ -253,8 +256,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
 #: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
 msgid ""
-"Another application has exclusive access to the file '[2]'. Please shut down "
-"all other applications, then click Retry."
+"Another application has exclusive access to the file '[2]'. Please shut down"
+" all other applications, then click Retry."
 msgstr ""
 "Il file \"[2]\" è aperto in modo esclusivo da un'altra applicazione. "
 "Chiudere tutte le applicazioni aperte, quindi scegliere Riprova."
@@ -265,8 +268,8 @@ msgid ""
 "Another installation is in progress. You must complete that installation "
 "before continuing this one."
 msgstr ""
-"È in corso un'altra installazione. Completarla, quindi continuare con questa "
-"installazione."
+"È in corso un'altra installazione. Completarla, quindi continuare con questa"
+" installazione."
 
 #: En.Win32.Debug.Error-2.idtx:82 En.Win32.Release.Error-2.idtx:82
 #: En.x64.Debug.Error-2.idtx:82 En.x64.Release.Error-2.idtx:82
@@ -276,17 +279,17 @@ msgstr "Annullare?"
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
 msgid ""
-"Cannot create the file '[2]'. A folder with this name already exists. Cancel "
-"the install and try installing to a different location."
+"Cannot create the file '[2]'. A folder with this name already exists. Cancel"
+" the install and try installing to a different location."
 msgstr ""
-"Impossibile creare il file \"[2]\". Esiste già una cartella con questo nome. "
-"Annullare l'installazione e riprovare specificando un altro percorso."
+"Impossibile creare il file \"[2]\". Esiste già una cartella con questo nome."
+" Annullare l'installazione e riprovare specificando un altro percorso."
 
 #: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
 #: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
 msgid ""
-"Cannot create the folder '[2]'. A file with this name already exists. Please "
-"rename or remove the file and click retry, or click Cancel to exit."
+"Cannot create the folder '[2]'. A file with this name already exists. Please"
+" rename or remove the file and click retry, or click Cancel to exit."
 msgstr ""
 "Impossibile creare la cartella \"[2]\". Esiste già un file con questo nome. "
 "Rinominare o rimuovere il file, quindi scegliere Riprova oppure scegliere "
@@ -336,8 +339,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
 #: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
 msgid ""
-"Could not create Shortcut [2]. Verify that the destination folder exists and "
-"that you can access it."
+"Could not create Shortcut [2]. Verify that the destination folder exists and"
+" that you can access it."
 msgstr ""
 "Impossibile creare il collegamento [2]. Assicurarsi che la cartella di "
 "destinazione esista e di disporre dei relativi diritti di accesso."
@@ -348,8 +351,8 @@ msgid ""
 "Could not delete key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Impossibile eliminare la chiave [2]. {{ Errore di sistema [3].}} Assicurarsi "
-"di disporre di diritti di accesso sufficienti per tale chiave oppure "
+"Impossibile eliminare la chiave [2]. {{ Errore di sistema [3].}} Assicurarsi"
+" di disporre di diritti di accesso sufficienti per tale chiave oppure "
 "contattare il personale di supporto. "
 
 #: En.Win32.Debug.Error-2.idtx:69 En.Win32.Release.Error-2.idtx:69
@@ -368,8 +371,8 @@ msgid ""
 "Could not find any previously installed compliant products on the machine "
 "for installing this product."
 msgstr ""
-"Impossibile trovare versioni precedenti del software originale richiesto nel "
-"computer in uso."
+"Impossibile trovare versioni precedenti del software originale richiesto nel"
+" computer in uso."
 
 #: En.Win32.Debug.Error-2.idtx:74 En.Win32.Release.Error-2.idtx:74
 #: En.x64.Debug.Error-2.idtx:74 En.x64.Release.Error-2.idtx:74
@@ -377,8 +380,8 @@ msgid ""
 "Could not get sub key names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
-"Impossibile ottenere i nomi delle chiavi secondarie per la chiave [2]. "
-"{{ Errore di sistema [3].}} Assicurarsi di disporre di diritti di accesso "
+"Impossibile ottenere i nomi delle chiavi secondarie per la chiave [2]. {{ "
+"Errore di sistema [3].}} Assicurarsi di disporre di diritti di accesso "
 "sufficienti per tale chiave oppure contattare il personale di supporto."
 
 #: En.Win32.Debug.Error-2.idtx:73 En.Win32.Release.Error-2.idtx:73
@@ -406,9 +409,9 @@ msgid ""
 "Could not open key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Impossibile aprire la chiave [2]. {{ Errore di sistema [3].}} Assicurarsi di "
-"disporre di diritti di accesso sufficienti per tale chiave oppure contattare "
-"il personale di supporto. "
+"Impossibile aprire la chiave [2]. {{ Errore di sistema [3].}} Assicurarsi di"
+" disporre di diritti di accesso sufficienti per tale chiave oppure "
+"contattare il personale di supporto. "
 
 #: En.Win32.Debug.Error-2.idtx:75 En.Win32.Release.Error-2.idtx:75
 #: En.x64.Debug.Error-2.idtx:75 En.x64.Release.Error-2.idtx:75
@@ -417,8 +420,8 @@ msgid ""
 "Verify that you have sufficient access to that key, or contact your support "
 "personnel."
 msgstr ""
-"Impossibile leggere le informazioni di protezione per la chiave [2]. "
-"{{ Errore di sistema [3].}} Assicurarsi di disporre di diritti di accesso "
+"Impossibile leggere le informazioni di protezione per la chiave [2]. {{ "
+"Errore di sistema [3].}} Assicurarsi di disporre di diritti di accesso "
 "sufficienti per tale chiave oppure contattare il personale di supporto."
 
 #: En.Win32.Debug.Error-2.idtx:71 En.Win32.Release.Error-2.idtx:71
@@ -444,7 +447,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
 #: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
 msgid ""
-"Could not register type library for file [2]. Contact your support personnel."
+"Could not register type library for file [2]. Contact your support "
+"personnel."
 msgstr ""
 "Impossibile registrare la libreria dei tipi [2]. Contattare il personale di "
 "supporto."
@@ -452,8 +456,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
 #: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
 msgid ""
-"Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
-"you can access it."
+"Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
+" you can access it."
 msgstr ""
 "Impossibile rimuovere il collegamento [2]. Assicurarsi che il file esista e "
 "di disporre dei relativi diritti di accesso."
@@ -464,15 +468,15 @@ msgid ""
 "Could not schedule file [2] to replace file [3] on reboot. Verify that you "
 "have write permissions to file [3]."
 msgstr ""
-"Impossibile pianificare la sostituzione del file [3] con il file [2] durante "
-"il riavvio del sistema. Assicurarsi di disporre delle autorizzazioni di "
+"Impossibile pianificare la sostituzione del file [3] con il file [2] durante"
+" il riavvio del sistema. Assicurarsi di disporre delle autorizzazioni di "
 "scrittura per il file [3]."
 
 #: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
 #: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
 msgid ""
-"Could not set file security for file '[3]'. Error: [2]. Verify that you have "
-"sufficient privileges to modify the security permissions for this file."
+"Could not set file security for file '[3]'. Error: [2]. Verify that you have"
+" sufficient privileges to modify the security permissions for this file."
 msgstr ""
 "Impossibile impostare la protezione per il file \"[3]\". Errore: [2]. "
 "Assicurarsi di disporre di privilegi sufficienti per modificare le "
@@ -500,8 +504,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
 #: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
 msgid ""
-"Could not update environment variable '[2]'. Verify that you have sufficient "
-"privileges to modify environment variables."
+"Could not update environment variable '[2]'. Verify that you have sufficient"
+" privileges to modify environment variables."
 msgstr ""
 "Impossibile aggiornare la variabile di ambiente \"[2]\". Assicurarsi di "
 "disporre di privilegi sufficienti per modificare le variabili di ambiente."
@@ -512,14 +516,14 @@ msgid ""
 "Could not update the ini file [2][3]. Verify that the file exists and that "
 "you can access it."
 msgstr ""
-"Impossibile aggiornare il file .ini [2][3]. Assicurarsi che il file esista e "
-"di disporre dei relativi diritti di accesso."
+"Impossibile aggiornare il file .ini [2][3]. Assicurarsi che il file esista e"
+" di disporre dei relativi diritti di accesso."
 
 #: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
 #: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
 msgid ""
-"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
-"have sufficient access to that key, or contact your support personnel."
+"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you"
+" have sufficient access to that key, or contact your support personnel."
 msgstr ""
 "Impossibile scrivere il valore [2] nella chiave [3]. {{ Errore di sistema "
 "[4].}} Assicurarsi di disporre di diritti di accesso sufficienti per tale "
@@ -566,8 +570,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:56 En.x64.Release.Error-2.idtx:56
 msgid "Error getting file security: [3] GetLastError: [2]"
 msgstr ""
-"Errore durante la lettura dei dati di protezione del file [3]. GetLastError: "
-"[2]"
+"Errore durante la lettura dei dati di protezione del file [3]. GetLastError:"
+" [2]"
 
 #: En.Win32.Debug.Error-2.idtx:143 En.Win32.Release.Error-2.idtx:143
 #: En.x64.Debug.Error-2.idtx:143 En.x64.Release.Error-2.idtx:143
@@ -575,14 +579,14 @@ msgid ""
 "Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
 msgstr ""
-"Errore durante l'installazione del gestore dei driver ODBC. Errore ODBC [2]: "
-"[3]. Contattare il personale di supporto."
+"Errore durante l'installazione del gestore dei driver ODBC. Errore ODBC [2]:"
+" [3]. Contattare il personale di supporto."
 
 #: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
 #: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
 msgid ""
-"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
-"[4] exists and that you can access it."
+"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
+" [4] exists and that you can access it."
 msgstr ""
 "Errore durante l'installazione del driver ODBC [4]. Errore ODBC [2]: [3]. "
 "Assicurarsi che il file [4] esista e di disporre dei relativi diritti di "
@@ -595,7 +599,8 @@ msgid ""
 "exists and that you can access it."
 msgstr ""
 "Errore durante la lettura dal file [2]. {{ Errore di sistema [3].}} "
-"Assicurarsi che il file esista e di disporre dei relativi diritti di accesso."
+"Assicurarsi che il file esista e di disporre dei relativi diritti di "
+"accesso."
 
 #: En.Win32.Debug.Error-2.idtx:30 En.Win32.Release.Error-2.idtx:30
 #: En.x64.Debug.Error-2.idtx:30 En.x64.Release.Error-2.idtx:30
@@ -604,7 +609,8 @@ msgid ""
 "exists and that you can access it."
 msgstr ""
 "Errore durante la lettura dal file [2]. {{ Errore di sistema [3].}} "
-"Assicurarsi che il file esista e di disporre dei relativi diritti di accesso."
+"Assicurarsi che il file esista e di disporre dei relativi diritti di "
+"accesso."
 
 #: En.Win32.Debug.Error-2.idtx:39 En.Win32.Release.Error-2.idtx:39
 #: En.x64.Debug.Error-2.idtx:39 En.x64.Release.Error-2.idtx:39
@@ -613,7 +619,8 @@ msgid ""
 "exists and that you can access it."
 msgstr ""
 "Errore durante la lettura dal file [3]. {{ Errore di sistema [2].}} "
-"Assicurarsi che il file esista e di disporre dei relativi diritti di accesso."
+"Assicurarsi che il file esista e di disporre dei relativi diritti di "
+"accesso."
 
 #: En.Win32.Debug.Error-2.idtx:155 En.Win32.Release.Error-2.idtx:155
 #: En.x64.Debug.Error-2.idtx:155 En.x64.Release.Error-2.idtx:155
@@ -640,8 +647,8 @@ msgid ""
 "sufficient privileges to remove ODBC drivers."
 msgstr ""
 "Errore durante la rimozione del driver ODBC [4]. Errore ODBC [2]: [3]. "
-"Assicurarsi di disporre di privilegi sufficienti per la rimozione dei driver "
-"ODBC."
+"Assicurarsi di disporre di privilegi sufficienti per la rimozione dei driver"
+" ODBC."
 
 #: En.Win32.Debug.Error-2.idtx:156 En.Win32.Release.Error-2.idtx:156
 #: En.x64.Debug.Error-2.idtx:156 En.x64.Release.Error-2.idtx:156
@@ -654,7 +661,8 @@ msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
 #: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
-msgid "Error writing to file: [2]. Verify that you have access to that folder."
+msgid ""
+"Error writing to file: [2]. Verify that you have access to that folder."
 msgstr ""
 "Errore durante la scrittura nel file [2]. Assicurarsi di disporre dei "
 "diritti di accesso alla cartella."
@@ -754,10 +762,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
 #: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
 msgid ""
-"Module [2] failed to unregister. HRESULT [3]. Contact your support personnel."
+"Module [2] failed to unregister. HRESULT [3]. Contact your support "
+"personnel."
 msgstr ""
-"Impossibile rimuovere dal registro il modulo [2]. HRESULT [3]. Contattare il "
-"personale di supporto."
+"Impossibile rimuovere dal registro il modulo [2]. HRESULT [3]. Contattare il"
+" personale di supporto."
 
 #: En.Win32.Debug.Error-2.idtx:102 En.Win32.Release.Error-2.idtx:102
 #: En.x64.Debug.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
@@ -765,14 +774,14 @@ msgid ""
 "One or more of the files required to restore your computer to its previous "
 "state could not be found. Restoration will not be possible."
 msgstr ""
-"Impossibile ripristinare lo stato precedente del computer perché impossibile "
-"trovare uno o più file necessari."
+"Impossibile ripristinare lo stato precedente del computer perché impossibile"
+" trovare uno o più file necessari."
 
 #: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
 #: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
 msgid ""
-"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
-"[4] KB. Free some disk space and retry."
+"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
+" [4] KB. Free some disk space and retry."
 msgstr ""
 "Spazio su disco insufficiente -- Volume: \"[2]\", spazio richiesto: [3] KB, "
 "spazio disponibile: [4] KB. Liberare spazio su disco, quindi riprovare."
@@ -858,8 +867,8 @@ msgid ""
 "Service '[2]' ([3]) could not be installed. Verify that you have sufficient "
 "privileges to install system services."
 msgstr ""
-"Impossibile installare il servizio \"[2]\" ([3]). Assicurarsi di disporre di "
-"privilegi sufficienti per l'installazione dei servizi di sistema."
+"Impossibile installare il servizio \"[2]\" ([3]). Assicurarsi di disporre di"
+" privilegi sufficienti per l'installazione dei servizi di sistema."
 
 #: En.Win32.Debug.Error-2.idtx:148 En.Win32.Release.Error-2.idtx:148
 #: En.x64.Debug.Error-2.idtx:148 En.x64.Release.Error-2.idtx:148
@@ -885,8 +894,8 @@ msgid ""
 "Source file not found: [2]. Verify that the file exists and that you can "
 "access it."
 msgstr ""
-"Impossibile trovare il file di origine [2]. Assicurarsi che il file esista e "
-"di disporre dei relativi diritti di accesso."
+"Impossibile trovare il file di origine [2]. Assicurarsi che il file esista e"
+" di disporre dei relativi diritti di accesso."
 
 #: En.Win32.Debug.Error-2.idtx:41 En.Win32.Release.Error-2.idtx:41
 #: En.x64.Debug.Error-2.idtx:41 En.x64.Release.Error-2.idtx:41
@@ -920,8 +929,8 @@ msgid ""
 "cabinet file '[3]'. This could indicate a network error, an error reading "
 "from the CD-ROM, or a problem with this package."
 msgstr ""
-"Impossibile installare il file \"[2]\". Impossibile trovare il file nel file "
-"CAB \"[3]\". Ciò potrebbe indicare un errore di rete, un errore di lettura "
+"Impossibile installare il file \"[2]\". Impossibile trovare il file nel file"
+" CAB \"[3]\". Ciò potrebbe indicare un errore di rete, un errore di lettura "
 "dal CD-ROM o un problema con il pacchetto."
 
 #: En.Win32.Debug.Error-2.idtx:83 En.Win32.Release.Error-2.idtx:83
@@ -950,8 +959,8 @@ msgstr "Il percorso della cartella \"[2]\" contiene un carattere non valido."
 msgid ""
 "The folder path '[2]' contains words that are not valid in folder paths."
 msgstr ""
-"Il percorso della cartella \"[2]\" contiene parole non valide per i percorsi "
-"delle cartelle."
+"Il percorso della cartella \"[2]\" contiene parole non valide per i percorsi"
+" delle cartelle."
 
 #: En.Win32.Debug.Error-2.idtx:87 En.Win32.Release.Error-2.idtx:87
 #: En.x64.Debug.Error-2.idtx:87 En.x64.Release.Error-2.idtx:87
@@ -975,8 +984,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
 msgid ""
 "The installer has insufficient privileges to access this folder: [2]. The "
-"installation cannot continue. Log on as administrator or contact your system "
-"administrator."
+"installation cannot continue. Log on as administrator or contact your system"
+" administrator."
 msgstr ""
 "Impossibile continuare l'installazione. Windows Installer non dispone di "
 "privilegi sufficienti per l'accesso alla cartella [2]. Accedere come "
@@ -1048,12 +1057,10 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
 #: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2]. List of protected files:\n"
+"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
 msgstr ""
-"Impossibile aggiornare uno o più file protetti di Windows. {{Errore SFP: "
-"[2]. Elenco dei file protetti:\n"
+"Impossibile aggiornare uno o più file protetti di Windows. {{Errore SFP: [2]. Elenco dei file protetti:\n"
 "[3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:159 En.Win32.Release.Error-2.idtx:159
@@ -1087,15 +1094,15 @@ msgid ""
 "correctly installed. Contact your support personnel for assistance."
 msgstr ""
 "Impossibile accedere al servizio Windows Installer. Ciò può verificarsi se "
-"Windows è in esecuzione in modalità provvisoria o se Windows Installer non è "
-"stato installato correttamente. Contattare il personale di supporto."
+"Windows è in esecuzione in modalità provvisoria o se Windows Installer non è"
+" stato installato correttamente. Contattare il personale di supporto."
 
 #: En.Win32.Debug.Error-2.idtx:113 En.Win32.Release.Error-2.idtx:113
 #: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
 msgid ""
 "There is a problem with this Windows Installer package. A DLL required for "
-"this install to complete could not be run. Contact your support personnel or "
-"package vendor. {{Action [2], entry: [3], library: [4] }}"
+"this install to complete could not be run. Contact your support personnel or"
+" package vendor. {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
 "Si è verificato un problema con questo pacchetto di Windows Installer. "
 "Impossibile eseguire una DLL necessaria a completare l'installazione. "
@@ -1118,8 +1125,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
 msgid ""
 "There is a problem with this Windows Installer package. A program run as "
-"part of the setup did not finish as expected. Contact your support personnel "
-"or package vendor. {{Action [2], location: [3], command: [4] }}"
+"part of the setup did not finish as expected. Contact your support personnel"
+" or package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
 "Si è verificato un problema con questo pacchetto di Windows Installer. Un "
 "programma eseguito nel corso dell'installazione è terminato in modo "
@@ -1186,8 +1193,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
 #: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
 msgid ""
-"There was an error creating a temporary file that is needed to complete this "
-"installation.{{ Folder: [3]. System error code: [2]}}"
+"There was an error creating a temporary file that is needed to complete this"
+" installation.{{ Folder: [3]. System error code: [2]}}"
 msgstr ""
 "Errore durante la creazione di un file temporaneo necessario per completare "
 "l'istallazione.{{ Cartella: [3]. Codice d'errore del sistema: [2]}}"
@@ -1264,16 +1271,11 @@ msgid "Warning [1]. "
 msgstr "Avviso [1]. "
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
-#, fuzzy
 msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
-"64-bit operating system. 32-bit variant will not work with your operating "
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
 "system. The installation of the 64-bit variant is recommended."
 msgstr ""
-"È possibile utilizzare una versione a 32 bit sul computer; tuttavia, il "
-"programma è disponibile anche in una versione a 64 bit più adatta al sistema "
-"operativo in uso. Si consiglia di installare la versione a 64 bit del "
-"programma."
 
 #: En.Win32.Debug.Error-2.idtx:152 En.Win32.Release.Error-2.idtx:152
 #: En.x64.Debug.Error-2.idtx:152 En.x64.Release.Error-2.idtx:152
@@ -1282,8 +1284,8 @@ msgid ""
 "users of the machine. Log on as administrator and then retry this "
 "installation."
 msgstr ""
-"Privilegi insufficienti per completare l'installazione specificata per tutti "
-"gli utenti del computer. Accedere come amministratore, quindi ripetere "
+"Privilegi insufficienti per completare l'installazione specificata per tutti"
+" gli utenti del computer. Accedere come amministratore, quindi ripetere "
 "l'installazione."
 
 #: En.Win32.Debug.Error-2.idtx:126 En.Win32.Release.Error-2.idtx:126
@@ -1321,714 +1323,3 @@ msgstr ""
 "Affinché le modifiche apportate alla configurazione di [2] abbiano effetto, "
 "è necessario riavviare il sistema. Scegliere Sì per riavviarlo ora o "
 "scegliere No se si desidera riavviarlo in seguito."
-
-# Language Code (decimal)
-# If we do not intend to provide different localization of same base language (like merging Portugal Portugeese and Brasil Portugese into the same Portugeese), use the code of Microsoft defined default sublanguage.
-# For example: Use LANG_PORTUGUESE + SUBLANG_DEFAULT = 1046, although 1046 represents Brasil Portugese (too).
-#~ msgid "1033"
-#~ msgstr "1040"
-
-#, fuzzy
-#~ msgid "&Close"
-#~ msgstr ""
-#~ "Il file [2][3] è in uso{ dal processo con nome: [4], ID: [5] e titolo "
-#~ "finestra: \"[6]\"}. Chiudere tale applicazione e riprovare."
-
-#~ msgid "&Continue"
-#~ msgstr "&Riprendi"
-
-#~ msgid "&Folder:"
-#~ msgstr "&Nome cartella:"
-
-#~ msgid "&Ignore"
-#~ msgstr "&Ignora"
-
-#~ msgid "&Look in:"
-#~ msgstr "&Cerca in:"
-
-#, fuzzy
-#~ msgid "&Modify now"
-#~ msgstr "&Modifica"
-
-#~ msgid "&No"
-#~ msgstr "&No"
-
-#~ msgid "&Reset"
-#~ msgstr "&Ripristina"
-
-#~ msgid "&Retry"
-#~ msgstr "&Riprova"
-
-#~ msgid "&Yes"
-#~ msgstr "&Si"
-
-#~ msgid "[1]"
-#~ msgstr "[1]"
-
-#~ msgid ""
-#~ "[DlgStrongFont]You are about to install the 32-bit variant on the 64-bit "
-#~ "operating system."
-#~ msgstr ""
-#~ "[DlgStrongFont]Si sta tendando di installare una versione a 32 bit in un "
-#~ "sistema operativo a 64 bit."
-
-#, fuzzy
-#~ msgid "[DlgTitleFont][ButtonTextInstall] "
-#~ msgstr "[DlgTitleFont]Spazio richiesto"
-
-#, fuzzy
-#~ msgid "[DlgTitleFont][Progress1] [SimpleProductName]..."
-#~ msgstr "[SimpleProductName]"
-
-#, fuzzy
-#~ msgid "[DlgTitleFont][SimpleProductName] [Progress1] Completed"
-#~ msgstr "Installazione di [SimpleProductName] completata."
-
-#, fuzzy
-#~ msgid "[DlgTitleFont][SimpleProductName] Maintenance"
-#~ msgstr "[SimpleProductName]"
-
-#, fuzzy
-#~ msgid "[DlgTitleFont][TitleCustomize] "
-#~ msgstr "[DlgTitleFont]Spazio insufficiente"
-
-#, fuzzy
-#~ msgid "[DlgTitleFont]Choose setup type."
-#~ msgstr "[DlgTitleFont]Spazio insufficiente"
-
-#, fuzzy
-#~ msgid ""
-#~ "[DlgTitleFont]Click \"Next\" to resume [SimpleProductName] installation."
-#~ msgstr "Interrompere l'installazione del programma [SimpleProductName]?"
-
-#~ msgid "[DlgTitleFont]Disk Space Requirements"
-#~ msgstr "[DlgTitleFont]Spazio richiesto"
-
-#~ msgid "[DlgTitleFont]Files in Use"
-#~ msgstr "[DlgTitleFont]File in uso"
-
-#~ msgid "[DlgTitleFont]Out of Disk Space"
-#~ msgstr "[DlgTitleFont]Spazio insufficiente"
-
-#~ msgid "{60}{60}{60}{60}{60}"
-#~ msgstr "{60}{60}{60}{60}{60}"
-
-#~ msgid "Advertising application"
-#~ msgstr "Visualizzazione degli avvisi relativi all'applicazione"
-
-#~ msgid "Allocating registry space"
-#~ msgstr "Allocazione dello spazio nel registro"
-
-#~ msgid "Allows users to change the way features are installed.|"
-#~ msgstr "Consente di selezionare le funzionalità da installare.|"
-
-#~ msgid ""
-#~ "Alternatively, you may choose to disable the installer's rollback "
-#~ "functionality. This allows the installer to restore your computer's "
-#~ "original state should the installation be interrupted in any way. Click "
-#~ "Yes if you wish to take the risk to disable rollback."
-#~ msgstr ""
-#~ "È possibile scegliere di disabilitare la funzionalità di ripristino dello "
-#~ "stato precedente, impedendo così il ripristino dello stato originale del "
-#~ "computer nel caso in cui l'installazione venisse interrotta per qualsiasi "
-#~ "motivo. Se si desidera rischiare e disabilitare il ripristino dello stato "
-#~ "precedente, fare clic su Sì."
-
-#~ msgid ""
-#~ "Although, 32-bit variant should work with your operating system, this "
-#~ "program is also available as 64-bit variant, which is more appropriate "
-#~ "for your operating system. The installation of the 64-bit variant is "
-#~ "recommended."
-#~ msgstr ""
-#~ "È possibile utilizzare una versione a 32 bit sul computer; tuttavia, il "
-#~ "programma è disponibile anche in una versione a 64 bit più adatta al "
-#~ "sistema operativo in uso. Si consiglia di installare la versione a 64 bit "
-#~ "del programma."
-
-#~ msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-#~ msgstr ""
-#~ "ID applicazione: [1]{{, Tipo applicazione: [2], Utenti: [3], RSN: [4]}}"
-
-#~ msgid "AppId: [1]{{, AppType: [2]}}"
-#~ msgstr "ID applicazione: [1]{{, Tipo applicazione: [2]}}"
-
-#~ msgid "Application Context:[1], Assembly Name:[2]"
-#~ msgstr "Contesto applicazione:[1], nome assembly:[2]"
-
-#~ msgid "Application: [1]"
-#~ msgstr "Applicazione: [1]"
-
-#~ msgid "Application: [1], Command line: [2]"
-#~ msgstr "Applicazione: [1], Riga di comando: [2]"
-
-#~ msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-#~ msgstr "Interrompere l'installazione del programma [SimpleProductName]?"
-
-#~ msgid "Binding executables"
-#~ msgstr "Binding dei file eseguibili"
-
-#~ msgid "binUIFolderNew.ico"
-#~ msgstr "binUIFolderNew.ico"
-
-#~ msgid "binUIFolderUp.ico"
-#~ msgstr "binUIFolderUp.ico"
-
-#~ msgid "binUIHeader.bmp"
-#~ msgstr "binUIHeader.bmp"
-
-#~ msgid "binUIInfo.ico"
-#~ msgstr "binUIInfo.ico"
-
-#~ msgid "binUIWarning.ico"
-#~ msgstr "binUIWarning.ico"
-
-#~ msgid "Br&owse"
-#~ msgstr "Cerca"
-
-#~ msgid "Cancel"
-#~ msgstr "Annulla"
-
-#~ msgid "Class Id: [1]"
-#~ msgstr "ID classe: [1]"
-
-#, fuzzy
-#~ msgid ""
-#~ "Click on the icons in the tree below to change the features to be "
-#~ "installed:"
-#~ msgstr "Consente di selezionare le funzionalità da installare.|"
-
-#~ msgid "Component ID: [1], Qualifier: [2]"
-#~ msgstr "ID componente: [1], qualificatore: [2]"
-
-#~ msgid "Computing space requirements"
-#~ msgstr "Calcolo dello spazio necessario..."
-
-#~ msgid "Copying network install files"
-#~ msgstr "Copia dei file per l'installazione in rete"
-
-#~ msgid "Copying new files"
-#~ msgstr "Copia dei nuovi file"
-
-#~ msgid "Create A New Folder|"
-#~ msgstr "Crea nuova cartella|"
-
-#~ msgid "Creating duplicate files"
-#~ msgstr "Creazione dei duplicati dei file"
-
-#~ msgid "Creating folders"
-#~ msgstr "Creazione delle cartelle"
-
-#~ msgid "Creating shortcuts"
-#~ msgstr "Creazione dei collegamenti"
-
-#~ msgid "Deleting services"
-#~ msgstr "Eliminazione dei servizi"
-
-#, fuzzy
-#~ msgid "Determining required space for installation..."
-#~ msgstr "Acquisizione dati necessari…"
-
-#~ msgid "Disk &Usage"
-#~ msgstr "&Spazio rich."
-
-#~ msgid "Evaluating launch conditions"
-#~ msgstr "Valutazione delle condizioni di avvio"
-
-#~ msgid "Exclamation icon|"
-#~ msgstr "Icona punto esclamativo|"
-
-#~ msgid "Extension: [1]"
-#~ msgstr "Estensione: [1]"
-
-#~ msgid "Feature: [1]"
-#~ msgstr "Caratteristica: [1]"
-
-#~ msgid "File: [1]"
-#~ msgstr "File: [1]"
-
-#~ msgid "File: [1], Dependencies: [2]"
-#~ msgstr "File: [1], dipendenze: [2]"
-
-#~ msgid "File: [1], Folder: [2]"
-#~ msgstr "File: [1], cartella: [2]"
-
-#~ msgid "File: [1], Folder: [2], Size: [3]"
-#~ msgstr "File: [1], cartella: [2], dimensione: [3]"
-
-#~ msgid "File: [1], Folder: [9]"
-#~ msgstr "File: [1], cartella: [9]"
-
-#~ msgid "File: [1], Folder: [9], Size: [6]"
-#~ msgstr "File: [1], cartella: [9], dimensione: [6]"
-
-#~ msgid "File: [1], Section: [2], Key: [3], Value: [4]"
-#~ msgstr "File: [1], sezione: [2], chiave: [3], valore: [4]"
-
-#~ msgid "Folder:"
-#~ msgstr "Percorso:"
-
-#~ msgid "Folder: [1]"
-#~ msgstr "Cartella: [1]"
-
-#~ msgid "Font: [1]"
-#~ msgstr "Tipo di carattere: [1]"
-
-#~ msgid "Found application: [1]"
-#~ msgstr "Applicazione trovata: [1]"
-
-#~ msgid "Free space: [1]"
-#~ msgstr "Spazio disponibile: [1]"
-
-#~ msgid "Generating script operations for action:"
-#~ msgstr "Generazione delle operazioni di script per l'azione:"
-
-#~ msgid "Information icon|"
-#~ msgstr "Icona Informazioni|"
-
-#~ msgid "Information text"
-#~ msgstr "Testo"
-
-#~ msgid "Initializing ODBC folders"
-#~ msgstr "Inizializzazione delle directory ODBC"
-
-#, fuzzy
-#~ msgid "Installer Information"
-#~ msgstr "Icona Informazioni|"
-
-#~ msgid "Installing new services"
-#~ msgstr "Installazione dei nuovi servizi"
-
-#~ msgid "Installing ODBC components"
-#~ msgstr "Installazione dei componenti ODBC"
-
-#~ msgid "Installing system catalog"
-#~ msgstr "Installazione catalogo di sistema"
-
-#~ msgid ""
-#~ "Installs the most common program features. Recommended for most users.|"
-#~ msgstr ""
-#~ "Installa solo le funzionalità più semplici. Adatto per la maggior parte "
-#~ "di utenti.|"
-
-#~ msgid "Key: [1], Name: [2]"
-#~ msgstr "Chiave: [1], nome: [2]"
-
-#~ msgid "Key: [1], Name: [2], Value: [3]"
-#~ msgstr "Chiave: [1], nome: [2], valore: [3]"
-
-#~ msgid "LibID: [1]"
-#~ msgstr "ID libreria: [1]"
-
-#~ msgid "Migrating feature states from related applications"
-#~ msgstr ""
-#~ "È in corso la migrazione degli stati delle caratteristiche dalle "
-#~ "applicazioni correlate"
-
-#~ msgid "MIME Content Type: [1], Extension: [2]"
-#~ msgstr "Contenuto (MIME): [1], estensione: [2]"
-
-#, fuzzy
-#~ msgid "Modification"
-#~ msgstr "Modifica"
-
-#~ msgid "Modifying"
-#~ msgstr "Modifica"
-
-#~ msgid "Moving files"
-#~ msgstr "Spostamento dei file"
-
-#~ msgid "Multiline description of the currently selected item."
-#~ msgstr "Descrizione dell'elemento scelto"
-
-#~ msgid "Name: [1], Value: [2], Action [3]"
-#~ msgstr "Nome: [1], valore: [2], operazione [3]"
-
-#~ msgid "OK"
-#~ msgstr "&OK"
-
-#~ msgid "Patching files"
-#~ msgstr "Installazione della patch"
-
-#~ msgid "ProgId: [1]"
-#~ msgstr "ID programma: [1]"
-
-#~ msgid "Progress done"
-#~ msgstr "Fine"
-
-#~ msgid "Property: [1], Signature: [2]"
-#~ msgstr "Proprietà: [1], firma: [2]"
-
-#~ msgid "Publishing assembly information"
-#~ msgstr "Pubblicazione informazioni sull'assembly"
-
-#~ msgid "Publishing Product Features"
-#~ msgstr "Pubblicazione delle caratteristiche del prodotto"
-
-#~ msgid "Publishing product information"
-#~ msgstr "Pubblicazione delle informazioni sul prodotto"
-
-#~ msgid "Publishing Qualified Components"
-#~ msgstr "Pubblicazione dei componenti qualificati"
-
-#~ msgid "Registering Class servers"
-#~ msgstr "Registrazione dei server delle classi"
-
-#~ msgid "Registering COM+ Applications and Components"
-#~ msgstr "Registrazione dei componenti e delle applicazioni COM+"
-
-#~ msgid "Registering extension servers"
-#~ msgstr "Registrazione dei server delle estensioni"
-
-#~ msgid "Registering fonts"
-#~ msgstr "Registrazione dei tipi di carattere"
-
-#~ msgid "Registering MIME info"
-#~ msgstr "Registrazione delle informazioni MIME"
-
-#~ msgid "Registering modules"
-#~ msgstr "Registrazione dei moduli"
-
-#~ msgid "Registering product"
-#~ msgstr "Registrazione del prodotto"
-
-#~ msgid "Registering program identifiers"
-#~ msgstr "Registrazione degli identificatori di programma"
-
-#~ msgid "Registering type libraries"
-#~ msgstr "Registrazione delle librerie dei tipi"
-
-#~ msgid "Registering user"
-#~ msgstr "Registrazione dell'utente"
-
-#, fuzzy
-#~ msgid "Removal"
-#~ msgstr "Rimozione completata."
-
-# This text will be a replacement for [Progress1].
-#~ msgid "Removing"
-#~ msgstr "Rimozione di"
-
-#~ msgid "Removing applications"
-#~ msgstr "Rimozione delle applicazioni"
-
-#~ msgid "Removing backup files"
-#~ msgstr "Rimozione dei file di backup"
-
-#~ msgid "Removing duplicated files"
-#~ msgstr "Rimozione dei file duplicati"
-
-#~ msgid "Removing files"
-#~ msgstr "Rimozione dei file"
-
-#~ msgid "Removing folders"
-#~ msgstr "Rimozione delle cartelle"
-
-#~ msgid "Removing INI files entries"
-#~ msgstr "Rimozione delle voci dei file INI"
-
-#~ msgid "Removing moved files"
-#~ msgstr "Rimozione dei file spostati"
-
-#~ msgid "Removing ODBC components"
-#~ msgstr "Rimozione dei componenti ODBC"
-
-#~ msgid "Removing shortcuts"
-#~ msgstr "Rimozione dei collegamenti"
-
-#~ msgid "Removing system registry values"
-#~ msgstr "Rimozione dei valori del registro di sistema"
-
-#, fuzzy
-#~ msgid "Repair"
-#~ msgstr "R&ipristina"
-
-# This text will be a replacement for [Progress1].
-#~ msgid "Repairing"
-#~ msgstr "Ripristino di"
-
-#~ msgid "Rolling back action:"
-#~ msgstr "Attività di ripristino:"
-
-#~ msgid "Searching for installed applications"
-#~ msgstr "Rilevamento delle applicazioni installate"
-
-#~ msgid "Searching for qualifying products"
-#~ msgstr "Ricerca dei prodotti originali"
-
-#~ msgid "Searching for related applications"
-#~ msgstr "Ricerca delle applicazioni correlate"
-
-#~ msgid "Service: [1]"
-#~ msgstr "Servizio: [1]"
-
-#~ msgid "Service: [2]"
-#~ msgstr "Servizio: [2]"
-
-#~ msgid "Shortcut: [1]"
-#~ msgstr "Collegamento: [1]"
-
-#~ msgid "Starting services"
-#~ msgstr "Avvio dei servizi"
-
-#~ msgid "Stopping services"
-#~ msgstr "Arresto dei servizi"
-
-#~ msgid ""
-#~ "The following applications are using files that need to be updated by "
-#~ "this setup. Close these applications and then click Retry to continue the "
-#~ "installation or Cancel to exit it."
-#~ msgstr ""
-#~ "Le seguenti applicazioni stanno utilizzando file che devono essere "
-#~ "aggiornati da questa installazione. Chiudere le applicazioni e scegliere "
-#~ "Riprova per continuare o Annulla per concludere:"
-
-#~ msgid ""
-#~ "The highlighted volumes (if any) do not have enough disk space available "
-#~ "for the currently selected features. You can either remove some files "
-#~ "from the highlighted volumes, or choose to install less features onto "
-#~ "local drive(s), or select different destination drive(s)."
-#~ msgstr ""
-#~ "I drive selezionati (se esistono) non dispongono di spazio sufficiente "
-#~ "per l'installazione delle funzionalità. Liberare spazio su drive scelti, "
-#~ "scegliere meno funzionalità da installare o selezionare altri drive per "
-#~ "l'installazione."
-
-#~ msgid "The size of the currently selected item."
-#~ msgstr "Estensione dell'elemento scelto"
-
-#~ msgid "Tree of selections"
-#~ msgstr "Struttura scelta"
-
-#~ msgid "Unpublishing assembly information"
-#~ msgstr "Annullamento della pubblicazione delle informazioni sull'assembly"
-
-#~ msgid "Unpublishing Product Features"
-#~ msgstr "Annullamento della pubblicazione delle caratteristiche del prodotto"
-
-#~ msgid "Unpublishing product information"
-#~ msgstr "Annullamento della pubblicazione delle informazioni sul prodotto"
-
-#~ msgid "Unpublishing Qualified Components"
-#~ msgstr "Annullamento della pubblicazione dei componenti qualificati"
-
-#~ msgid "Unregister Class servers"
-#~ msgstr "Annullamento della registrazione dei server delle classi"
-
-#~ msgid "Unregistering COM+ Applications and Components"
-#~ msgstr ""
-#~ "Annullamento della registrazione dei componenti e delle applicazioni COM+"
-
-#~ msgid "Unregistering extension servers"
-#~ msgstr "Annullamento della registrazione dei server delle estensioni"
-
-#~ msgid "Unregistering fonts"
-#~ msgstr "Annullamento della registrazione dei tipi di carattere"
-
-#~ msgid "Unregistering MIME info"
-#~ msgstr "Annullamento della registrazione delle informazioni MIME"
-
-#~ msgid "Unregistering modules"
-#~ msgstr "Annullamento della registrazione dei moduli"
-
-#~ msgid "Unregistering program identifiers"
-#~ msgstr "Annullamento della registrazione degli ID di programma"
-
-#~ msgid "Unregistering type libraries"
-#~ msgstr "Annullamento della registrazione delle librerie dei tipi"
-
-#~ msgid "Up One Level|"
-#~ msgstr "Livello superiore|"
-
-#~ msgid "Updating component registration"
-#~ msgstr "Aggiornamento della registrazione del componente"
-
-#~ msgid "Updating environment strings"
-#~ msgstr "Aggiornamento delle stringhe di ambiente"
-
-#~ msgid "Validating install"
-#~ msgstr "Convalida dell'installazione"
-
-#~ msgid "Writing INI files values"
-#~ msgstr "Scrittura dei valori dei file INI"
-
-#~ msgid "Writing system registry values"
-#~ msgstr "Scrittura dei valori del registro di sistema"
-
-#, fuzzy
-#~ msgid "&Install Now"
-#~ msgstr ""
-#~ "Questo tipo di installazione richiede il pacchetto di programmi '%1'. "
-#~ "Vuoi installare questo pacchetto di programmi subito?\n"
-#~ "Se il pacchetto di programmi '%1' è già installato, puoi scegliere 'No'."
-
-#~ msgid "&Modify"
-#~ msgstr "&Modifica"
-
-#~ msgid "&Remove"
-#~ msgstr "&Rimuovi"
-
-#~ msgid "&Repair"
-#~ msgstr "R&ipristina"
-
-#, fuzzy
-#~ msgid "Allows you to change the which features are installed.|"
-#~ msgstr "Consente di selezionare le funzionalità da installare.|"
-
-#~ msgid "Available"
-#~ msgstr "A disposizione"
-
-#~ msgid "bytes"
-#~ msgstr "bytes"
-
-#~ msgid "Compiling cost for this feature..."
-#~ msgstr "Calcolo dello spazio necessario per questa funzionalità..."
-
-#, fuzzy
-#~ msgid "Custom Installation"
-#~ msgstr "Impossibile completare l'installazione."
-
-#~ msgid "Difference"
-#~ msgstr "Differenza"
-
-#~ msgid "Disk Size"
-#~ msgstr "Estensione"
-
-#~ msgid "Entire feature will be installed on local hard drive"
-#~ msgstr "Il componente integrale sarà installato sul disco locale"
-
-#~ msgid "Entire feature will be installed to run from CD"
-#~ msgstr "Il componente integrale sarà installato sul CD"
-
-#~ msgid "Entire feature will be installed to run from network"
-#~ msgstr "Il componente integrale sarà installato per avvio da rete"
-
-#~ msgid "Entire feature will be unavailable"
-#~ msgstr "La funzionalità non verrà installata"
-
-#~ msgid "Feature will be installed when required"
-#~ msgstr "Il modulo sarà installato al primo uso"
-
-#~ msgid "Folder|New Folder"
-#~ msgstr "Cartella|Nuova cartella"
-
-#~ msgid "GB"
-#~ msgstr "GB"
-
-# This text will be a replacement for [Progress1].
-#~ msgid "Installing"
-#~ msgstr "Installazione di"
-
-#~ msgid "KB"
-#~ msgstr "KB"
-
-#~ msgid "MB"
-#~ msgstr "MB"
-
-#~ msgid ""
-#~ "Repairs errors in the most recent installation state - fixes missing or "
-#~ "corrupt files, shortcuts and registry entries.|"
-#~ msgstr ""
-#~ "Consente di correggere errori nell'installazione del programma. Vengono "
-#~ "ripristinati file, collegamenti e voci del Registro di sistema mancanti o "
-#~ "danneggiati.|"
-
-#~ msgid "Required"
-#~ msgstr "Necessari"
-
-#~ msgid "Setup"
-#~ msgstr "Installazione"
-
-# This text will be a replacement for [Wizard].
-#~ msgid "Setup Wizard"
-#~ msgstr "Installazione guidata"
-
-#~ msgid "This feature frees up [1] on your hard drive."
-#~ msgstr "La funzionalità libererà [1] sul disco."
-
-#~ msgid "This feature requires [1] on your hard drive."
-#~ msgstr "La funzionalità richiede [1] sul disco rigido."
-
-#~ msgid ""
-#~ "This feature requires [1] on your hard drive. It has [2] of [3] "
-#~ "subfeatures selected. The subfeatures require [4] on your hard drive."
-#~ msgstr ""
-#~ "Il componente occupa [1] sul disco locale. [2] delle [3] funzionalità "
-#~ "sono state selezionate. Le funzionalità occupano [4] sul disco locale in "
-#~ "uso."
-
-#~ msgid "This feature will be installed on the local hard drive"
-#~ msgstr "La funzionalità verrà installata su disco locale"
-
-#~ msgid "This feature will be installed to run from CD"
-#~ msgstr "La funzionalità verrà impostata per l'avvio da CD"
-
-#~ msgid "This feature will be installed to run from the network"
-#~ msgstr "La funzionalità verrà impostata per l'avvio dalla rete"
-
-#~ msgid ""
-#~ "This feature will be removed from your local hard drive, but will be set "
-#~ "to be installed when required"
-#~ msgstr ""
-#~ "La funzionalità verrà rimossa dal disco rigido locale ma verrà impostata "
-#~ "per l'avvio al primo uso"
-
-#~ msgid ""
-#~ "This feature will be removed from your local hard drive, but will be "
-#~ "still available to run from CD"
-#~ msgstr ""
-#~ "La funzionalità verrà rimossa dal disco rigido locale ma verrà impostata "
-#~ "per l'avvio da CD"
-
-#~ msgid ""
-#~ "This feature will be removed from your local hard drive, but will be "
-#~ "still available to run from the network"
-#~ msgstr ""
-#~ "La funzionalità verrà rimossa dal disco rigido locale, ma verrà impostata "
-#~ "per l'avvio dalla rete"
-
-#~ msgid "This feature will be set to be installed when required"
-#~ msgstr "La funzionalità verrà impostata per l'avvio al primo uso"
-
-#~ msgid ""
-#~ "This feature will be uninstalled completely, you won't be able to run it "
-#~ "from CD"
-#~ msgstr ""
-#~ "La funzionalità verrà rimossa completamente e non potrà essere avviata da "
-#~ "CD"
-
-#~ msgid ""
-#~ "This feature will be uninstalled completely, you won't be able to run it "
-#~ "from the network"
-#~ msgstr ""
-#~ "La funzionalità verrà rimossa completamente e non potrà essere avviata "
-#~ "dalla rete"
-
-#~ msgid "This feature will become unavailable"
-#~ msgstr "La funzionalità verrà rimossa"
-
-#~ msgid "This feature will remain on you local hard drive"
-#~ msgstr "La funzionalità rimarrà sul disco rigido locale"
-
-#~ msgid "This feature will remain to be run from CD"
-#~ msgstr "La funzionalità rimarrà impostata per l'avvio da CD"
-
-#~ msgid "This feature will remain to be run from the network"
-#~ msgstr "La funzionalità rimarrà impostata per l'avvio dalla rete"
-
-#~ msgid "This feature will remain uninstalled"
-#~ msgstr "La funzionalità verrà comunque rimossa"
-
-#~ msgid "Volume"
-#~ msgstr "Drive"
-
-#~ msgid "Will be installed on local hard drive"
-#~ msgstr "Predisposto per avvio da disco locale"
-
-#~ msgid "Will be installed to run from CD"
-#~ msgstr "Predisposto per avvio da CD"
-
-#~ msgid "Will be installed to run from network"
-#~ msgstr "Predisposto per avvio da rete"
-
-#~ msgid "Will be installed when required"
-#~ msgstr "La funzionalità verrà installata al primo uso"

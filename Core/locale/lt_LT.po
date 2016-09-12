@@ -1,20 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-29 07:46+0200\n"
+"POT-Creation-Date: 2016-08-29 07:44+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: lt_LT\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
+"Language-Team: Lithuanian (https://www.transifex.com/eduroam_devel/teams/11799/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 1.8.8\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
@@ -91,8 +94,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
 #: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
 msgid ""
-"A file that is required cannot be installed because the cabinet file [2] has "
-"an invalid digital signature. This may indicate that the cabinet file is "
+"A file that is required cannot be installed because the cabinet file [2] has"
+" an invalid digital signature. This may indicate that the cabinet file is "
 "corrupt.{{ Error [3] was returned by WinVerifyTrust.}}"
 msgstr ""
 "Nepavyko įdiegti reikiamo failo, kadangi kabinetinis failas [2] "
@@ -134,8 +137,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
 #: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
 msgid ""
-"A portion of the folder path '[2]' is invalid. It is either empty or exceeds "
-"the length allowed by the system."
+"A portion of the folder path '[2]' is invalid. It is either empty or exceeds"
+" the length allowed by the system."
 msgstr ""
 "Aplanko maršruto [2] dalis negalioja. Ji yra tuščia arba viršija sistemos "
 "leistiną ilgį."
@@ -184,8 +187,8 @@ msgstr "Reklama nepavyko."
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
-"An error occured during the installation of assembly component [2]. HRESULT: "
-"[3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
+"An error occured during the installation of assembly component [2]. HRESULT:"
+" [3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
 msgstr ""
 "Įvyko klaida diegiant surinkimo komponentą [2]. HRESULT: [3]. {{surinkimo "
 "sąsaja: [4], funkcija: [5], surinkimo pavadinimas: [6]}}"
@@ -242,8 +245,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
 #: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
 msgid ""
-"Another application has exclusive access to the file '[2]'. Please shut down "
-"all other applications, then click Retry."
+"Another application has exclusive access to the file '[2]'. Please shut down"
+" all other applications, then click Retry."
 msgstr ""
 "Kita taikomoji programa turi išskirtines teises į failą [2]. Baikite darbą "
 "su visomis kitomis programomis ir spustelėkite Kartoti."
@@ -265,21 +268,21 @@ msgstr "Ar tikrai norite atšaukti?"
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
 msgid ""
-"Cannot create the file '[2]'. A folder with this name already exists. Cancel "
-"the install and try installing to a different location."
+"Cannot create the file '[2]'. A folder with this name already exists. Cancel"
+" the install and try installing to a different location."
 msgstr ""
-"Nepavyko sukurti failo [2]. Katalogas šiuo vardu jau yra. Nutraukite diegimą "
-"ir pabandykite diegti kitoje vietoje."
+"Nepavyko sukurti failo [2]. Katalogas šiuo vardu jau yra. Nutraukite diegimą"
+" ir pabandykite diegti kitoje vietoje."
 
 #: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
 #: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
 msgid ""
-"Cannot create the folder '[2]'. A file with this name already exists. Please "
-"rename or remove the file and click retry, or click Cancel to exit."
+"Cannot create the folder '[2]'. A file with this name already exists. Please"
+" rename or remove the file and click retry, or click Cancel to exit."
 msgstr ""
 "Nepavyko sukurti katalogo [2]. Failas šiuo vardu jau yra. Pervardinkite ar "
-"pašalinkite failą ir spustelėkite Kartoti arba, spustelėję Atšaukti, baikite "
-"darbą."
+"pašalinkite failą ir spustelėkite Kartoti arba, spustelėję Atšaukti, baikite"
+" darbą."
 
 #: En.Win32.Debug.Error-2.idtx:154 En.Win32.Release.Error-2.idtx:154
 #: En.x64.Debug.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
@@ -288,8 +291,8 @@ msgid ""
 "installation requires Component Services in order to complete successfully. "
 "Component Services are available on Windows 2000."
 msgstr ""
-"Šiame kompiuteryje neįdiegtos komponentų tarnybos (COM+ 1.0). Šiai programai "
-"sėkmingai įdiegti reikalingos komponentų tarnybos. Komponentų tarnybos yra "
+"Šiame kompiuteryje neįdiegtos komponentų tarnybos (COM+ 1.0). Šiai programai"
+" sėkmingai įdiegti reikalingos komponentų tarnybos. Komponentų tarnybos yra "
 "sistemoje Windows 2000."
 
 #: En.Win32.Debug.Error-2.idtx:118 En.Win32.Release.Error-2.idtx:118
@@ -324,8 +327,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
 #: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
 msgid ""
-"Could not create Shortcut [2]. Verify that the destination folder exists and "
-"that you can access it."
+"Could not create Shortcut [2]. Verify that the destination folder exists and"
+" that you can access it."
 msgstr ""
 "Nepavyko sukurti nuorodos [2]. Patikrinkite, ar yra paskirties aplankas, ir "
 "ar galite jį pasiekti."
@@ -355,8 +358,8 @@ msgid ""
 "Could not find any previously installed compliant products on the machine "
 "for installing this product."
 msgstr ""
-"Kompiuteryje nerasta jokia anksčiau įdiegta suderinama programa, skirta šiai "
-"programai diegti."
+"Kompiuteryje nerasta jokia anksčiau įdiegta suderinama programa, skirta šiai"
+" programai diegti."
 
 #: En.Win32.Debug.Error-2.idtx:74 En.Win32.Release.Error-2.idtx:74
 #: En.x64.Debug.Error-2.idtx:74 En.x64.Release.Error-2.idtx:74
@@ -429,7 +432,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
 #: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
 msgid ""
-"Could not register type library for file [2]. Contact your support personnel."
+"Could not register type library for file [2]. Contact your support "
+"personnel."
 msgstr ""
 "Nepavyko įregistruoti failui [2] reikalingos tipų bibliotekos. Kreipkitės į "
 "techninės pagalbos personalą."
@@ -437,11 +441,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
 #: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
 msgid ""
-"Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
-"you can access it."
+"Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
+" you can access it."
 msgstr ""
-"Nepavyko pašalinti nuorodos [2]. Patikrinkite, ar yra nuorodos failas, ir ar "
-"galite jį pasiekti."
+"Nepavyko pašalinti nuorodos [2]. Patikrinkite, ar yra nuorodos failas, ir ar"
+" galite jį pasiekti."
 
 #: En.Win32.Debug.Error-2.idtx:141 En.Win32.Release.Error-2.idtx:141
 #: En.x64.Debug.Error-2.idtx:141 En.x64.Release.Error-2.idtx:141
@@ -455,8 +459,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
 #: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
 msgid ""
-"Could not set file security for file '[3]'. Error: [2]. Verify that you have "
-"sufficient privileges to modify the security permissions for this file."
+"Could not set file security for file '[3]'. Error: [2]. Verify that you have"
+" sufficient privileges to modify the security permissions for this file."
 msgstr ""
 "Nepavyko failui [3] nustatyti failo apsaugos. Klaida: [2]. Patikrinkite, ar "
 "turite teisę modifikuoti šio failo apsaugą."
@@ -476,14 +480,14 @@ msgid ""
 "Could not unregister type library for file [2]. Contact your support "
 "personnel."
 msgstr ""
-"Nepavyko išregistruoti failui [2] reikalingos tipų bibliotekos. Kreipkitės į "
-"techninės pagalbos personalą."
+"Nepavyko išregistruoti failui [2] reikalingos tipų bibliotekos. Kreipkitės į"
+" techninės pagalbos personalą."
 
 #: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
 #: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
 msgid ""
-"Could not update environment variable '[2]'. Verify that you have sufficient "
-"privileges to modify environment variables."
+"Could not update environment variable '[2]'. Verify that you have sufficient"
+" privileges to modify environment variables."
 msgstr ""
 "Nepavyko atnaujinti aplinkos kintamojo [2]. Patikrinkite, ar turite teisę "
 "modifikuoti aplinkos kintamuosius."
@@ -500,8 +504,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
 #: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
 msgid ""
-"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
-"have sufficient access to that key, or contact your support personnel."
+"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you"
+" have sufficient access to that key, or contact your support personnel."
 msgstr ""
 "Nepavyko į raktą [3] įrašyti vertės [2]. {{ Sistemos klaida [4].}} "
 "Patikrinkite, ar turite teisę į šį raktą, arba kreipkitės į techninės "
@@ -538,8 +542,8 @@ msgid ""
 "Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that "
 "the file [4] exists and that you can access it."
 msgstr ""
-"Klaida įvyko konfigūruojant ODBC duomenų šaltinį: [4], ODBC klaida [2]: [3]. "
-"Patikrinkite, ar failas [4] yra, ir ar galite į jį pasiekti."
+"Klaida įvyko konfigūruojant ODBC duomenų šaltinį: [4], ODBC klaida [2]: [3]."
+" Patikrinkite, ar failas [4] yra, ir ar galite į jį pasiekti."
 
 #: En.Win32.Debug.Error-2.idtx:56 En.Win32.Release.Error-2.idtx:56
 #: En.x64.Debug.Error-2.idtx:56 En.x64.Release.Error-2.idtx:56
@@ -559,8 +563,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
 #: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
 msgid ""
-"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
-"[4] exists and that you can access it."
+"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
+" [4] exists and that you can access it."
 msgstr ""
 "Klaida įvyko diegiant ODBC tvarkyklę: [4], ODBC klaida [2]: [3]. "
 "Patikrinkite, ar failas [4] yra, ir ar galite į jį pasiekti."
@@ -580,8 +584,8 @@ msgid ""
 "Error reading from file: [2]. {{ System error [3].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
-"Klaida įvyko skaitant iš failo: [2]. {{ Sistemos klaida [3].}} Patikrinkite, "
-"ar šis failas yra, ir ar galite jį pasiekti."
+"Klaida įvyko skaitant iš failo: [2]. {{ Sistemos klaida [3].}} Patikrinkite,"
+" ar šis failas yra, ir ar galite jį pasiekti."
 
 #: En.Win32.Debug.Error-2.idtx:39 En.Win32.Release.Error-2.idtx:39
 #: En.x64.Debug.Error-2.idtx:39 En.x64.Release.Error-2.idtx:39
@@ -589,8 +593,8 @@ msgid ""
 "Error reading from file: [3]. {{ System error [2].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
-"Klaida įvyko skaitant iš failo: [3]. {{ Sistemos klaida [2].}} Patikrinkite, "
-"ar šis failas yra, ir ar galite jį pasiekti."
+"Klaida įvyko skaitant iš failo: [3]. {{ Sistemos klaida [2].}} Patikrinkite,"
+" ar šis failas yra, ir ar galite jį pasiekti."
 
 #: En.Win32.Debug.Error-2.idtx:155 En.Win32.Release.Error-2.idtx:155
 #: En.x64.Debug.Error-2.idtx:155 En.x64.Release.Error-2.idtx:155
@@ -630,9 +634,11 @@ msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
 #: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
-msgid "Error writing to file: [2]. Verify that you have access to that folder."
+msgid ""
+"Error writing to file: [2]. Verify that you have access to that folder."
 msgstr ""
-"Klaida rašant į failą: [2]. Patikrinkite, ar galite kreiptis į tokį katalogą."
+"Klaida rašant į failą: [2]. Patikrinkite, ar galite kreiptis į tokį "
+"katalogą."
 
 #: En.Win32.Debug.Error-2.idtx:40 En.Win32.Release.Error-2.idtx:40
 #: En.x64.Debug.Error-2.idtx:40 En.x64.Release.Error-2.idtx:40
@@ -727,7 +733,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
 #: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
 msgid ""
-"Module [2] failed to unregister. HRESULT [3]. Contact your support personnel."
+"Module [2] failed to unregister. HRESULT [3]. Contact your support "
+"personnel."
 msgstr ""
 "Nepavyko išregistruoti modulio [2]. HRESULT [3]. Kreipkitės į techninės "
 "pagalbos personalą."
@@ -744,8 +751,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
 #: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
 msgid ""
-"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
-"[4] KB. Free some disk space and retry."
+"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
+" [4] KB. Free some disk space and retry."
 msgstr ""
 "Diske trūksta vietos -- Tomas: [2]; reikia vietos: [3] KB; yra vietos: [4] "
 "KB. Atlaisvinkite vietą diske ir kartokite."
@@ -849,8 +856,8 @@ msgid ""
 "Service '[2]' ([3]) failed to start. Verify that you have sufficient "
 "privileges to start system services."
 msgstr ""
-"Nepavyko paleisti tarnybos [2] ([3]). Patikrinkite, ar turite teisę paleisti "
-"sistemos tarnybas."
+"Nepavyko paleisti tarnybos [2] ([3]). Patikrinkite, ar turite teisę paleisti"
+" sistemos tarnybas."
 
 #: En.Win32.Debug.Error-2.idtx:38 En.Win32.Release.Error-2.idtx:38
 #: En.x64.Debug.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
@@ -945,12 +952,12 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
 msgid ""
 "The installer has insufficient privileges to access this folder: [2]. The "
-"installation cannot continue. Log on as administrator or contact your system "
-"administrator."
+"installation cannot continue. Log on as administrator or contact your system"
+" administrator."
 msgstr ""
 "Diegimo programa neturi teisės kreiptis į šį katalogą: [2]. Diegimo tęsti "
-"negalima. Užsiregistruokite kaip administratorius arba kreipkitės į sistemos "
-"administratorių."
+"negalima. Užsiregistruokite kaip administratorius arba kreipkitės į sistemos"
+" administratorių."
 
 #: En.Win32.Debug.Error-2.idtx:51 En.Win32.Release.Error-2.idtx:51
 #: En.x64.Debug.Error-2.idtx:51 En.x64.Release.Error-2.idtx:51
@@ -1014,12 +1021,10 @@ msgstr "Tomas [2] šiuo metu nepasiekiamas. Pasirinkite kitą."
 #: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
 #: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2]. List of protected files:\n"
+"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
 msgstr ""
-"Windows diegimo programos tarnyba negali atnaujinti vieno ar kelių apsaugotų "
-"Windows failų. {{SFP klaida: [2]. Apsaugotų failų sąrašas:\n"
+"Windows diegimo programos tarnyba negali atnaujinti vieno ar kelių apsaugotų Windows failų. {{SFP klaida: [2]. Apsaugotų failų sąrašas:\n"
 "[3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:159 En.Win32.Release.Error-2.idtx:159
@@ -1041,8 +1046,8 @@ msgid ""
 msgstr ""
 "Windows diegimo tarnyba negali naujinti sistemos failo [2], nes šį failą "
 "saugo sistema Windows. Tam, kad ši programa veiktų teisingai, gali tekti "
-"atnaujinti operacinę sistemą. {{Paketo versija: [3], OS apsaugotoji versija: "
-"[4]}}"
+"atnaujinti operacinę sistemą. {{Paketo versija: [3], OS apsaugotoji versija:"
+" [4]}}"
 
 #: En.Win32.Debug.Error-2.idtx:109 En.Win32.Release.Error-2.idtx:109
 #: En.x64.Debug.Error-2.idtx:109 En.x64.Release.Error-2.idtx:109
@@ -1059,8 +1064,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
 msgid ""
 "There is a problem with this Windows Installer package. A DLL required for "
-"this install to complete could not be run. Contact your support personnel or "
-"package vendor. {{Action [2], entry: [3], library: [4] }}"
+"this install to complete could not be run. Contact your support personnel or"
+" package vendor. {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
 "Windows diegimo programos paketo triktis. DLL, reikalinga šiam diegimui "
 "baigti, negali būti vykdoma. Kreipkitės į techninės pagalbos personalą arba "
@@ -1073,16 +1078,16 @@ msgid ""
 "for this install to complete could not be run. Contact your support "
 "personnel or package vendor. {{Action: [2], location: [3], command: [4] }}"
 msgstr ""
-"Windows diegimo programos paketo triktis. Programa, reikalinga šiam diegimui "
-"baigti, negali būti vykdoma. Kreipkitės į techninės pagalbos personalą arba "
-"į paketo tiekėją. {{Veiksmas: [2], vieta: [3], komanda: [4] }}"
+"Windows diegimo programos paketo triktis. Programa, reikalinga šiam diegimui"
+" baigti, negali būti vykdoma. Kreipkitės į techninės pagalbos personalą arba"
+" į paketo tiekėją. {{Veiksmas: [2], vieta: [3], komanda: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:112 En.Win32.Release.Error-2.idtx:112
 #: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
 msgid ""
 "There is a problem with this Windows Installer package. A program run as "
-"part of the setup did not finish as expected. Contact your support personnel "
-"or package vendor. {{Action [2], location: [3], command: [4] }}"
+"part of the setup did not finish as expected. Contact your support personnel"
+" or package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
 "Windows diegimo programos paketo triktis. Programos eiga, kaip sąrankos "
 "dalis, nebaigta kaip tikėtasi. Kreipkitės į techninės pagalbos personalą "
@@ -1129,8 +1134,8 @@ msgid ""
 "click Retry to check for available space again, or click Cancel to quit the "
 "installation."
 msgstr ""
-"Diegimui su įgalintu taisymu tome [2] tęsti diske trūksta vietos. Reikia [3] "
-"KB, tačiau yra tik [4] KB. Spustelėję Nepaisyti tęsite diegimą neįrašydami "
+"Diegimui su įgalintu taisymu tome [2] tęsti diske trūksta vietos. Reikia [3]"
+" KB, tačiau yra tik [4] KB. Spustelėję Nepaisyti tęsite diegimą neįrašydami "
 "atkūrimo informacijos, spustelėję Kartoti iš naujo patikrinsite, kiek "
 "laisvos vietos yra diske, spustelėję Atšaukti diegimą baigsite ."
 
@@ -1146,11 +1151,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
 #: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
 msgid ""
-"There was an error creating a temporary file that is needed to complete this "
-"installation.{{ Folder: [3]. System error code: [2]}}"
+"There was an error creating a temporary file that is needed to complete this"
+" installation.{{ Folder: [3]. System error code: [2]}}"
 msgstr ""
-"Klaida įvyko kuriant laikinąjį failą, reikalingą šiam diegimui baigti."
-"{{ Aplankas: [3]. Sistemos klaidos kodas: [2]}}"
+"Klaida įvyko kuriant laikinąjį failą, reikalingą šiam diegimui baigti.{{ "
+"Aplankas: [3]. Sistemos klaidos kodas: [2]}}"
 
 #: En.Win32.Debug.Error-2.idtx:90 En.Win32.Release.Error-2.idtx:90
 #: En.x64.Debug.Error-2.idtx:90 En.x64.Release.Error-2.idtx:90
@@ -1200,8 +1205,8 @@ msgid ""
 "current install will now continue."
 msgstr ""
 "Vartotojas [2] anksčiau pradėjo diegti programą [3]. Prieš naudodamas šią "
-"programą, šis vartotojas turės ją įdiegti dar kartą. Dabar bus tęsiamas jūsų "
-"pradėtas diegimas.   "
+"programą, šis vartotojas turės ją įdiegti dar kartą. Dabar bus tęsiamas jūsų"
+" pradėtas diegimas.   "
 
 #: En.Win32.Debug.Error-2.idtx:161 En.Win32.Release.Error-2.idtx:161
 #: En.x64.Debug.Error-2.idtx:161 En.x64.Release.Error-2.idtx:161
@@ -1215,8 +1220,8 @@ msgstr "Įspėjimas [1]. "
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
 msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
-"64-bit operating system. 32-bit variant will not work with your operating "
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
 "system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
@@ -1252,8 +1257,8 @@ msgid ""
 "support group for assistance."
 msgstr ""
 "Šią programą pašalinsite, tik jei esate administratorius. Norėdami šalinti "
-"šią programą galite registruotis kaip administratorius, arba kreiptis į savo "
-"techninės pagalbos grupę."
+"šią programą galite registruotis kaip administratorius, arba kreiptis į savo"
+" techninės pagalbos grupę."
 
 #: En.Win32.Debug.Error-2.idtx:93 En.Win32.Release.Error-2.idtx:93
 #: En.x64.Debug.Error-2.idtx:93 En.x64.Release.Error-2.idtx:93
@@ -1265,408 +1270,3 @@ msgstr ""
 "[2] konfigūracijos pakeitimai įsigalios tik perkrovus sistemą. Jei norite "
 "perkrauti dabar, spustelkite Taip, jei ketinate perkrauti vėliau, "
 "spustelkite Ne."
-
-#~ msgid "1033"
-#~ msgstr "1063"
-
-#, fuzzy
-#~ msgid "&Continue"
-#~ msgstr ""
-#~ "Diegimui su įgalintu taisymu tome [2] tęsti diske trūksta vietos. Reikia "
-#~ "[3] KB, tačiau yra tik [4] KB. Spustelėję Nepaisyti tęsite diegimą "
-#~ "neįrašydami atkūrimo informacijos, spustelėję Kartoti iš naujo "
-#~ "patikrinsite, kiek laisvos vietos yra diske, spustelėję Atšaukti diegimą "
-#~ "baigsite ."
-
-#, fuzzy
-#~ msgid "&Folder:"
-#~ msgstr "Failas: [1], aplankas: [2]"
-
-#, fuzzy
-#~ msgid "&Retry"
-#~ msgstr ""
-#~ "Klaida įvyko rašant į diską diegimo informaciją. Patikrinkite, ar diske "
-#~ "yra pakankamai vietos, ir spustelėkite Kartoti arba, spustelėję Atšaukti, "
-#~ "baikite diegimą."
-
-#~ msgid "[1]"
-#~ msgstr "[1]"
-
-#, fuzzy
-#~ msgid "[DlgTitleFont]Disk Space Requirements"
-#~ msgstr "Skaičiuojama, kiek reikia atminties."
-
-#~ msgid "Advertising application"
-#~ msgstr "Skelbiama programa."
-
-#~ msgid "Allocating registry space"
-#~ msgstr "Išskiriama vieta registre."
-
-#~ msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-#~ msgstr ""
-#~ "Programos identifikatorius: [1]{{, programos tipas: [2], vartotojai: [3], "
-#~ "RSN: [4]}}"
-
-#~ msgid "AppId: [1]{{, AppType: [2]}}"
-#~ msgstr "Programos identifikatorius: [1]{{, programos tipas: [2]}}"
-
-#~ msgid "Application Context:[1], Assembly Name:[2]"
-#~ msgstr "Programos kontekstas:[1], Surinkimo pavadinimas:[2]"
-
-#~ msgid "Application: [1]"
-#~ msgstr "Programa: [1]"
-
-#~ msgid "Application: [1], Command line: [2]"
-#~ msgstr "Programa: [1], komandos eilutė: [2]"
-
-#, fuzzy
-#~ msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-#~ msgstr "Ar tikrai norite atšaukti?"
-
-#~ msgid "Binding executables"
-#~ msgstr "Siejami vykdomi moduliai."
-
-#, fuzzy
-#~ msgid "Cancel"
-#~ msgstr ""
-#~ "Nepavyko sukurti failo [2]. Katalogas šiuo vardu jau yra. Nutraukite "
-#~ "diegimą ir pabandykite diegti kitoje vietoje."
-
-#~ msgid "Class Id: [1]"
-#~ msgstr "Klasės identifikatorius: [1]"
-
-#~ msgid "Component ID: [1], Qualifier: [2]"
-#~ msgstr "Komponento identifikatorius: [1], kvalifikatorius: [2]"
-
-#~ msgid "Computing space requirements"
-#~ msgstr "Skaičiuojama, kiek reikia atminties."
-
-#~ msgid "Copying network install files"
-#~ msgstr "Kopijuojami tinklo diegimo failai."
-
-#~ msgid "Copying new files"
-#~ msgstr "Kopijuojami nauji failai."
-
-#, fuzzy
-#~ msgid "Create A New Folder|"
-#~ msgstr "Kuriami aplankai."
-
-#~ msgid "Creating duplicate files"
-#~ msgstr "Kuriami failų dublikatai."
-
-#~ msgid "Creating folders"
-#~ msgstr "Kuriami aplankai."
-
-#~ msgid "Creating shortcuts"
-#~ msgstr "Kuriamos nuorodos."
-
-#~ msgid "Deleting services"
-#~ msgstr "Naikinamos tarnybos."
-
-#, fuzzy
-#~ msgid "Determining required space for installation..."
-#~ msgstr "Renkama reikalinga informacija..."
-
-#~ msgid "Evaluating launch conditions"
-#~ msgstr "Vertinamos paleidimo sąlygos."
-
-#~ msgid "Extension: [1]"
-#~ msgstr "Plėtinys: [1]"
-
-#~ msgid "Feature: [1]"
-#~ msgstr "Priemonė: [1]"
-
-#~ msgid "File: [1]"
-#~ msgstr "Failas: [1]"
-
-#~ msgid "File: [1], Dependencies: [2]"
-#~ msgstr "Failas: [1], priklausantieji elementai: [2]"
-
-#~ msgid "File: [1], Folder: [2]"
-#~ msgstr "Failas: [1], aplankas: [2]"
-
-#~ msgid "File: [1], Folder: [2], Size: [3]"
-#~ msgstr "Failas: [1], katalogas: [2], dydis: [3]"
-
-#~ msgid "File: [1], Folder: [9]"
-#~ msgstr "Failas: [1], katalogas: [9]"
-
-#~ msgid "File: [1], Folder: [9], Size: [6]"
-#~ msgstr "Failas: [1], katalogas: [9], dydis: [6]"
-
-#~ msgid "File: [1], Section: [2], Key: [3], Value: [4]"
-#~ msgstr "Failas: [1], dalis: [2], raktas: [3], reikšmė: [4]"
-
-#, fuzzy
-#~ msgid "Folder:"
-#~ msgstr "Failas: [1], aplankas: [2]"
-
-#~ msgid "Folder: [1]"
-#~ msgstr "Aplankas: [1]"
-
-#~ msgid "Font: [1]"
-#~ msgstr "Šriftas: [1]"
-
-#~ msgid "Found application: [1]"
-#~ msgstr "Rasta programa: [1]"
-
-#~ msgid "Free space: [1]"
-#~ msgstr "Laisva vieta: [1]"
-
-#~ msgid "Generating script operations for action:"
-#~ msgstr "Generuojamos veiksmo scenarijaus operacijos:"
-
-#~ msgid "Initializing ODBC folders"
-#~ msgstr "Inicijuojami ODBC katalogai."
-
-#~ msgid "Installing new services"
-#~ msgstr "Diegiamos naujos tarnybos."
-
-#~ msgid "Installing ODBC components"
-#~ msgstr "Diegiami ODBC komponentai."
-
-#~ msgid "Installing system catalog"
-#~ msgstr "Diegiamas sistemos katalogas."
-
-#~ msgid "Key: [1], Name: [2]"
-#~ msgstr "Raktas: [1], vardas: [2]"
-
-#~ msgid "Key: [1], Name: [2], Value: [3]"
-#~ msgstr "Raktas: [1], vardas: [2], reikšmė: [3]"
-
-#~ msgid "LibID: [1]"
-#~ msgstr "Bibliotekos identifikatorius: [1]"
-
-#~ msgid "Migrating feature states from related applications"
-#~ msgstr "Priemonių būsenos perkeliamos iš susijusių programų. "
-
-#~ msgid "MIME Content Type: [1], Extension: [2]"
-#~ msgstr "MIME turinio tipas: [1], plėtinys: [2]"
-
-#~ msgid "Moving files"
-#~ msgstr "Perkeliami failai."
-
-#~ msgid "Name: [1], Value: [2], Action [3]"
-#~ msgstr "Vardas: [1], reikšmė: [2], veiksmas [3]"
-
-#~ msgid "Patching files"
-#~ msgstr "Taisomi failai."
-
-#~ msgid "ProgId: [1]"
-#~ msgstr "Programos identifikatorius: [1]"
-
-#~ msgid "Property: [1], Signature: [2]"
-#~ msgstr "Nuosavybė: [1], parašas: [2]"
-
-#~ msgid "Publishing assembly information"
-#~ msgstr "Skelbiama informacija apie surinkimą."
-
-#~ msgid "Publishing Product Features"
-#~ msgstr "Skelbiamos programos priemonės."
-
-#~ msgid "Publishing product information"
-#~ msgstr "Skelbiama informacija apie programą."
-
-#~ msgid "Publishing Qualified Components"
-#~ msgstr "Paskelbiami kvalifikuojantieji komponentai."
-
-#~ msgid "Registering Class servers"
-#~ msgstr "Registruojami klasių serveriai."
-
-#~ msgid "Registering COM+ Applications and Components"
-#~ msgstr "Registruojamos COM+ programos ir komponentai."
-
-#~ msgid "Registering extension servers"
-#~ msgstr "Registruojami plėtinių serveriai."
-
-#~ msgid "Registering fonts"
-#~ msgstr "Registruojami šriftai."
-
-#~ msgid "Registering MIME info"
-#~ msgstr "Registruojama informacija apie MIME."
-
-#~ msgid "Registering modules"
-#~ msgstr "Registruojami moduliai."
-
-#~ msgid "Registering product"
-#~ msgstr "Registruojama programa."
-
-#~ msgid "Registering program identifiers"
-#~ msgstr "Registruojami programų identifikatoriai."
-
-#~ msgid "Registering type libraries"
-#~ msgstr "Registruojamos tipų bibliotekos."
-
-#~ msgid "Registering user"
-#~ msgstr "Registruojamas vartotojas."
-
-#, fuzzy
-#~ msgid "Removal"
-#~ msgstr "Šalinimas sėkmingai baigtas."
-
-#, fuzzy
-#~ msgid "Removing"
-#~ msgstr "Šalinami iniciavimo failų įrašai."
-
-#~ msgid "Removing applications"
-#~ msgstr "Šalinamos programos."
-
-#~ msgid "Removing backup files"
-#~ msgstr "Šalinamos atsarginės failų kopijos."
-
-#~ msgid "Removing duplicated files"
-#~ msgstr "Šalinami failų dublikatai."
-
-#~ msgid "Removing files"
-#~ msgstr "Šalinami failai."
-
-#~ msgid "Removing folders"
-#~ msgstr "Šalinami aplankai."
-
-#~ msgid "Removing INI files entries"
-#~ msgstr "Šalinami iniciavimo failų įrašai."
-
-#~ msgid "Removing moved files"
-#~ msgstr "Šalinami perkelti failai."
-
-#~ msgid "Removing ODBC components"
-#~ msgstr "Šalinami ODBC komponentai."
-
-#~ msgid "Removing shortcuts"
-#~ msgstr "Šalinamos nuorodos."
-
-#~ msgid "Removing system registry values"
-#~ msgstr "Šalinamos sistemos registro reikšmės."
-
-#~ msgid "Rolling back action:"
-#~ msgstr "Kartojamas veiksmas:"
-
-#~ msgid "Searching for installed applications"
-#~ msgstr "Ieškoma įdiegtų programų."
-
-#~ msgid "Searching for qualifying products"
-#~ msgstr "Ieškoma kvalifikuojančiųjų programų."
-
-#~ msgid "Searching for related applications"
-#~ msgstr "Ieškoma susijusių programų."
-
-#~ msgid "Service: [1]"
-#~ msgstr "Tarnyba: [1]"
-
-#~ msgid "Service: [2]"
-#~ msgstr "Tarnyba: [2]"
-
-#~ msgid "Shortcut: [1]"
-#~ msgstr "Nuoroda: [1]"
-
-#~ msgid "Starting services"
-#~ msgstr "Paleidžiamos tarnybos."
-
-#~ msgid "Stopping services"
-#~ msgstr "Stabdomos tarnybos."
-
-#~ msgid "Unpublishing assembly information"
-#~ msgstr "Anuliuojamas informacijos apie surinkimą skelbimas."
-
-#~ msgid "Unpublishing Product Features"
-#~ msgstr "Anuliuojamas programos priemonių skelbimas."
-
-#~ msgid "Unpublishing product information"
-#~ msgstr "Anuliuojamas informacijos apie programą skelbimas."
-
-#~ msgid "Unpublishing Qualified Components"
-#~ msgstr "Atsisakoma kvalifikuojančiųjų komponentų paskelbimo."
-
-#~ msgid "Unregister Class servers"
-#~ msgstr "Išregistruojami klasių serveriai."
-
-#~ msgid "Unregistering COM+ Applications and Components"
-#~ msgstr "Išregistruojamos COM+ programos ir komponentai."
-
-#~ msgid "Unregistering extension servers"
-#~ msgstr "Išregistruojami plėtinių serveriai."
-
-#~ msgid "Unregistering fonts"
-#~ msgstr "Išregistruojami šriftai."
-
-#~ msgid "Unregistering MIME info"
-#~ msgstr "Išregistruojama informacija apie MIME."
-
-#~ msgid "Unregistering modules"
-#~ msgstr "Išregistruojami moduliai."
-
-#~ msgid "Unregistering program identifiers"
-#~ msgstr "Išregistruojami programų identifikatoriai."
-
-#~ msgid "Unregistering type libraries"
-#~ msgstr "Išregistruojamos tipų bibliotekos."
-
-#~ msgid "Updating component registration"
-#~ msgstr "Naujinamas komponentų registravimas."
-
-#~ msgid "Updating environment strings"
-#~ msgstr "Naujinamos aplinkos eilutės."
-
-#~ msgid "Validating install"
-#~ msgstr "Patvirtinamas diegimas."
-
-#~ msgid "Writing INI files values"
-#~ msgstr "Rašomos iniciavimo failų reikšmės."
-
-#~ msgid "Writing system registry values"
-#~ msgstr "Rašomos sistemos registro reikšmės."
-
-#, fuzzy
-#~ msgid "&Install Now"
-#~ msgstr "Įdiegta [2]"
-
-#, fuzzy
-#~ msgid "&Modify"
-#~ msgstr ""
-#~ "Nepavyko atnaujinti aplinkos kintamojo [2]. Patikrinkite, ar turite teisę "
-#~ "modifikuoti aplinkos kintamuosius."
-
-#, fuzzy
-#~ msgid "&Remove"
-#~ msgstr ""
-#~ "Šią programą pašalinsite, tik jei esate administratorius. Norėdami "
-#~ "šalinti šią programą galite registruotis kaip administratorius, arba "
-#~ "kreiptis į savo techninės pagalbos grupę."
-
-#, fuzzy
-#~ msgid "Available"
-#~ msgstr ""
-#~ "Diegimui su įgalintu taisymu tome [2] tęsti diske trūksta vietos. Reikia "
-#~ "[3] KB, tačiau yra tik [4] KB. Spustelėję Nepaisyti tęsite diegimą "
-#~ "neįrašydami atkūrimo informacijos, spustelėję Kartoti iš naujo "
-#~ "patikrinsite, kiek laisvos vietos yra diske, spustelėję Atšaukti diegimą "
-#~ "baigsite ."
-
-#, fuzzy
-#~ msgid "Custom Installation"
-#~ msgstr "Įdiegti nepavyko."
-
-#, fuzzy
-#~ msgid "Installing"
-#~ msgstr ""
-#~ "Kompiuteryje nerasta jokia anksčiau įdiegta suderinama programa, skirta "
-#~ "šiai programai diegti."
-
-#, fuzzy
-#~ msgid "KB"
-#~ msgstr ""
-#~ "Nepavyko padidinti registro apimties. Šios programos diegimui reikia [2] "
-#~ "KB nepanaudotos registro atminties."
-
-#, fuzzy
-#~ msgid "Required"
-#~ msgstr ""
-#~ "Nepavyko įdiegti reikiamo failo, kadangi kabinetinis failas [2] "
-#~ "nepasirašytas elektroniniu parašu. Tai gali reikšti, kad kabinetinis "
-#~ "failas yra pažeistas."
-
-#, fuzzy
-#~ msgid "Volume"
-#~ msgstr ""
-#~ "Diskasukyje [2] nėra disko. Įdėkite diską ir spustelkite Kartoti arba, "
-#~ "spustelėję Atšaukti, grįžkite prie anksčiau pasirinkto tomo."

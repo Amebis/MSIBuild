@@ -1,19 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-29 07:45+0200\n"
+"POT-Creation-Date: 2016-08-29 07:44+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: eu_ES\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
+"Language-Team: Basque (Spain) (https://www.transifex.com/eduroam_devel/teams/11799/eu_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
-"X-Generator: Poedit 1.8.8\n"
+"Language: eu_ES\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
@@ -21,8 +25,8 @@ msgid ""
 "[2] cannot install one of its required products. Contact your technical "
 "support group. {{System Error: [3].}}"
 msgstr ""
-"[2]-k ezin du behar dituen produktuak instalatu. Laguntza teknikoko taldeari "
-"galdetu. {{System Error: [3].}}"
+"[2]-k ezin du behar dituen produktuak instalatu. Laguntza teknikoko taldeari"
+" galdetu. {{System Error: [3].}}"
 
 #: En.Win32.Debug.Error-2.idtx:55 En.Win32.Release.Error-2.idtx:55
 #: En.x64.Debug.Error-2.idtx:55 En.x64.Release.Error-2.idtx:55
@@ -90,8 +94,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
 #: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
 msgid ""
-"A file that is required cannot be installed because the cabinet file [2] has "
-"an invalid digital signature. This may indicate that the cabinet file is "
+"A file that is required cannot be installed because the cabinet file [2] has"
+" an invalid digital signature. This may indicate that the cabinet file is "
 "corrupt.{{ Error [3] was returned by WinVerifyTrust.}}"
 msgstr ""
 "Behar den fitxategia ezin da instalatu kabinete fitxategiak baliogabeko "
@@ -134,8 +138,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
 #: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
 msgid ""
-"A portion of the folder path '[2]' is invalid. It is either empty or exceeds "
-"the length allowed by the system."
+"A portion of the folder path '[2]' is invalid. It is either empty or exceeds"
+" the length allowed by the system."
 msgstr ""
 "'[2]' karpetaren bide-izenaren zati bat ez da baliozkoa. Hutsik dago edo "
 "sistemak onartutako luzera gainditzen du."
@@ -184,8 +188,8 @@ msgstr "Abisua ezin izan da egin."
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
-"An error occured during the installation of assembly component [2]. HRESULT: "
-"[3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
+"An error occured during the installation of assembly component [2]. HRESULT:"
+" [3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
 msgstr ""
 "Errore bat sortu zen osagaien muntai [2] instalatzekoan. HRESULT: [3]. "
 "{{muntai interfazea: [4], funtsioa: [5], muntai izena: [6]}}"
@@ -202,9 +206,9 @@ msgstr ""
 "Errore bat sortu egin zen segurtasun ezarpenak aplikatzerakoan. [2] ez da "
 "erabiltzaile ezta talde baliozkoa. Hau arazo bat izan ditzateke "
 "paketearekin, edo sarearen domeinu kontroladorearekin arazo bat "
-"konektatzerakoan. Konprobatu zure sare konexioa eta egin klik Saiatu Berriro-"
-"n edo Utzi-n instalazioa amaitzeko. {{Ezin izan da erabiltzailearen SID-a "
-"aurkitu, sistemazko errorea [3]}}"
+"konektatzerakoan. Konprobatu zure sare konexioa eta egin klik Saiatu "
+"Berriro-n edo Utzi-n instalazioa amaitzeko. {{Ezin izan da erabiltzailearen "
+"SID-a aurkitu, sistemazko errorea [3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:47 En.Win32.Release.Error-2.idtx:47
 #: En.x64.Debug.Error-2.idtx:47 En.x64.Release.Error-2.idtx:47
@@ -219,8 +223,8 @@ msgid ""
 "the install."
 msgstr ""
 "Errorea gertatu da instalazioari buruzko informazioa diskoan idaztean. "
-"Egiaztatu diskoan behar adina leku dagoela erabilgarri eta egin klik 'Saiatu "
-"berriro'n, edo egin klik 'Utzi'n instalazioa bertan behera uzteko."
+"Egiaztatu diskoan behar adina leku dagoela erabilgarri eta egin klik 'Saiatu"
+" berriro'n, edo egin klik 'Utzi'n instalazioa bertan behera uzteko."
 
 #: En.Win32.Debug.Error-2.idtx:94 En.Win32.Release.Error-2.idtx:94
 #: En.x64.Debug.Error-2.idtx:94 En.x64.Release.Error-2.idtx:94
@@ -244,8 +248,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
 #: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
 msgid ""
-"Another application has exclusive access to the file '[2]'. Please shut down "
-"all other applications, then click Retry."
+"Another application has exclusive access to the file '[2]'. Please shut down"
+" all other applications, then click Retry."
 msgstr ""
 "Beste aplikazio batek sarbide esklusiboa du '[2]' fitxategira. Itxi beste "
 "aplikazio guztiak, eta egin klik 'Saiatu berriro'n."
@@ -267,8 +271,8 @@ msgstr "Ziur zaude bertan behera utzi nahi duzula?"
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
 msgid ""
-"Cannot create the file '[2]'. A folder with this name already exists. Cancel "
-"the install and try installing to a different location."
+"Cannot create the file '[2]'. A folder with this name already exists. Cancel"
+" the install and try installing to a different location."
 msgstr ""
 "Ezin da '[2]' fitxategia sortu. Lehendik ere badago izen hori duen "
 "direktorio bat. Instalazioa bertan behera utzi eta saiatu beste kokaleku "
@@ -277,8 +281,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
 #: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
 msgid ""
-"Cannot create the folder '[2]'. A file with this name already exists. Please "
-"rename or remove the file and click retry, or click Cancel to exit."
+"Cannot create the folder '[2]'. A file with this name already exists. Please"
+" rename or remove the file and click retry, or click Cancel to exit."
 msgstr ""
 "Ezin da '[2]' direktorioa sortu. Lehendik ere badago izen hori duen "
 "fitxategi bat. Aldatu izena edo mugitu fitxategia eta egin klik 'Saiatu "
@@ -328,8 +332,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
 #: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
 msgid ""
-"Could not create Shortcut [2]. Verify that the destination folder exists and "
-"that you can access it."
+"Could not create Shortcut [2]. Verify that the destination folder exists and"
+" that you can access it."
 msgstr ""
 "Ezin da [2] lasterbidea sortu. Egiaztatu helburuko karpeta badagoela eta "
 "sarbidea duzula."
@@ -351,8 +355,8 @@ msgid ""
 "you have sufficient access to that key, or contact your support personnel. "
 msgstr ""
 "Ezin da [2] balioa [3] gakotik ezabatu. {{ [4] sistema-errorea.}} Egiaztatu "
-"gako horretarako behar adina atzipen baduzula, edo deitu laguntza-zerbitzuko "
-"teknikariari. "
+"gako horretarako behar adina atzipen baduzula, edo deitu laguntza-zerbitzuko"
+" teknikariari. "
 
 #: En.Win32.Debug.Error-2.idtx:88 En.Win32.Release.Error-2.idtx:88
 #: En.x64.Debug.Error-2.idtx:88 En.x64.Release.Error-2.idtx:88
@@ -419,9 +423,9 @@ msgid ""
 "Could not read value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Ezin da [2] balioa irakurri [3] gakotik. {{ [4] sistema-errorea.}} Egiaztatu "
-"gako horretarako behar adina atzipen baduzula, edo deitu laguntza-zerbitzuko "
-"teknikariari. "
+"Ezin da [2] balioa irakurri [3] gakotik. {{ [4] sistema-errorea.}} Egiaztatu"
+" gako horretarako behar adina atzipen baduzula, edo deitu laguntza-"
+"zerbitzuko teknikariari. "
 
 #: En.Win32.Debug.Error-2.idtx:134 En.Win32.Release.Error-2.idtx:134
 #: En.x64.Debug.Error-2.idtx:134 En.x64.Release.Error-2.idtx:134
@@ -436,7 +440,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
 #: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
 msgid ""
-"Could not register type library for file [2]. Contact your support personnel."
+"Could not register type library for file [2]. Contact your support "
+"personnel."
 msgstr ""
 "Ezin da [2] fitxategiaren mota-liburutegia erregistratu. Deitu laguntza-"
 "zerbitzuko teknikariari."
@@ -444,11 +449,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
 #: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
 msgid ""
-"Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
-"you can access it."
+"Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
+" you can access it."
 msgstr ""
-"Ezin da [2] lasterbidea kendu. Egiaztatu lasterbide-fitxategia badagoela eta "
-"sarbidea duzula."
+"Ezin da [2] lasterbidea kendu. Egiaztatu lasterbide-fitxategia badagoela eta"
+" sarbidea duzula."
 
 #: En.Win32.Debug.Error-2.idtx:141 En.Win32.Release.Error-2.idtx:141
 #: En.x64.Debug.Error-2.idtx:141 En.x64.Release.Error-2.idtx:141
@@ -462,8 +467,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
 #: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
 msgid ""
-"Could not set file security for file '[3]'. Error: [2]. Verify that you have "
-"sufficient privileges to modify the security permissions for this file."
+"Could not set file security for file '[3]'. Error: [2]. Verify that you have"
+" sufficient privileges to modify the security permissions for this file."
 msgstr ""
 "Ezin da '[3]' fitxategiarentzat fitxategi-segurtasuna ezarri. Errorea: [2]. "
 "Egiaztatu fitxategi honen segurtasun-baimenak aldatzeko behar adina "
@@ -490,8 +495,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
 #: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
 msgid ""
-"Could not update environment variable '[2]'. Verify that you have sufficient "
-"privileges to modify environment variables."
+"Could not update environment variable '[2]'. Verify that you have sufficient"
+" privileges to modify environment variables."
 msgstr ""
 "Ezin da '[2]' ingurune-aldagaia eguneratu. Egiaztatu ingurune-aldagaiak "
 "aldatzeko behar adina pribilegio dituzula."
@@ -508,12 +513,12 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
 #: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
 msgid ""
-"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
-"have sufficient access to that key, or contact your support personnel."
+"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you"
+" have sufficient access to that key, or contact your support personnel."
 msgstr ""
 "Ezin da [2] balioa [3] gakoan idatzi. {{ [4] sistema-errorea.}} Egiaztatu "
-"gako horretarako behar adina atzipen baduzula, edo deitu laguntza-zerbitzuko "
-"teknikariari."
+"gako horretarako behar adina atzipen baduzula, edo deitu laguntza-zerbitzuko"
+" teknikariari."
 
 #: En.Win32.Debug.Error-2.idtx:78 En.Win32.Release.Error-2.idtx:78
 #: En.x64.Debug.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
@@ -521,8 +526,8 @@ msgid ""
 "Error accessing secured data. Please make sure the Windows Installer is "
 "configured properly and try the install again."
 msgstr ""
-"Errorea gertatu da datu seguruak atzitzean. Ziurtatu Windows Installer behar "
-"bezala konfiguratuta dagoela eta saiatu berriro instalatzen."
+"Errorea gertatu da datu seguruak atzitzean. Ziurtatu Windows Installer behar"
+" bezala konfiguratuta dagoela eta saiatu berriro instalatzen."
 
 #: En.Win32.Debug.Error-2.idtx:58 En.Win32.Release.Error-2.idtx:58
 #: En.x64.Debug.Error-2.idtx:58 En.x64.Release.Error-2.idtx:58
@@ -570,8 +575,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
 #: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
 msgid ""
-"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
-"[4] exists and that you can access it."
+"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
+" [4] exists and that you can access it."
 msgstr ""
 "Errorea ODBC kontrolatzailea instalatzean: [4], ODBC errorea [2]: [3]. "
 "Egiaztatu [4] fitxategia badagoela eta sarbidea duzula."
@@ -642,7 +647,8 @@ msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
 #: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
-msgid "Error writing to file: [2]. Verify that you have access to that folder."
+msgid ""
+"Error writing to file: [2]. Verify that you have access to that folder."
 msgstr ""
 "Errorea fitxategi honetan idaztean: [2]. Egiaztatu direktorio horretara "
 "sarbidea duzula."
@@ -653,8 +659,8 @@ msgid ""
 "Error writing to file: [3]. {{ System error [2].}} Verify that you have "
 "access to that folder."
 msgstr ""
-"Errorera fitxategi honetan idaztean: [3]. {{[2] sistema-errorea.}} Egiaztatu "
-"direktorio horretara sarbidea duzula."
+"Errorera fitxategi honetan idaztean: [3]. {{[2] sistema-errorea.}} Egiaztatu"
+" direktorio horretara sarbidea duzula."
 
 #: En.Win32.Debug.Error-2.idtx:133 En.Win32.Release.Error-2.idtx:133
 #: En.x64.Debug.Error-2.idtx:133 En.x64.Release.Error-2.idtx:133
@@ -740,7 +746,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
 #: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
 msgid ""
-"Module [2] failed to unregister. HRESULT [3]. Contact your support personnel."
+"Module [2] failed to unregister. HRESULT [3]. Contact your support "
+"personnel."
 msgstr ""
 "Ezin izan da [2] modulua erregistrotik ezabatu. HRESULT [3]. Deitu laguntza-"
 "zerbitzuko teknikariari."
@@ -757,8 +764,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
 #: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
 msgid ""
-"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
-"[4] KB. Free some disk space and retry."
+"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
+" [4] KB. Free some disk space and retry."
 msgstr ""
 "Ez dago lekurik diskoan -- Bolumena: '[2]'; beharrezko lekua: [3] KB; "
 "erabilgarri dagoen lekua: [4] KB. Egin lekua diskoan eta saiatu berriro."
@@ -834,8 +841,8 @@ msgid ""
 "Service '[2]' ([3]) could not be deleted. Verify that you have sufficient "
 "privileges to remove system services."
 msgstr ""
-"Ezin da '[2]' ([3]) zerbitzua ezabatu. Egiaztatu sistema-zerbitzuak kentzeko "
-"behar adina pribilegio dituzula."
+"Ezin da '[2]' ([3]) zerbitzua ezabatu. Egiaztatu sistema-zerbitzuak kentzeko"
+" behar adina pribilegio dituzula."
 
 #: En.Win32.Debug.Error-2.idtx:150 En.Win32.Release.Error-2.idtx:150
 #: En.x64.Debug.Error-2.idtx:150 En.x64.Release.Error-2.idtx:150
@@ -890,8 +897,8 @@ msgid ""
 "ROM, or a problem with this package."
 msgstr ""
 "Instalazio honentzarako behar den kabinete fitxategi '[2]' hondatuta dago "
-"eta ezin da erabili. Honek sarean errore bat, CD-ROM-etik irakurtzeko errore "
-"bat edo pakete honekin errore bat adierazi dezake."
+"eta ezin da erabili. Honek sarean errore bat, CD-ROM-etik irakurtzeko errore"
+" bat edo pakete honekin errore bat adierazi dezake."
 
 #: En.Win32.Debug.Error-2.idtx:157 En.Win32.Release.Error-2.idtx:157
 #: En.x64.Debug.Error-2.idtx:157 En.x64.Release.Error-2.idtx:157
@@ -906,8 +913,8 @@ msgid ""
 "from the CD-ROM, or a problem with this package."
 msgstr ""
 "Fitxategi '[2]' ezin da instalatu fitxategi kabinete fitxategian '[3]' ezin "
-"delako aurkitu izan. Honek sarean errore bat, CD-ROM-etik irakurtzeko errore "
-"bat edo pakete honekin errore bat adierazi dezake."
+"delako aurkitu izan. Honek sarean errore bat, CD-ROM-etik irakurtzeko errore"
+" bat edo pakete honekin errore bat adierazi dezake."
 
 #: En.Win32.Debug.Error-2.idtx:83 En.Win32.Release.Error-2.idtx:83
 #: En.x64.Debug.Error-2.idtx:83 En.x64.Release.Error-2.idtx:83
@@ -960,8 +967,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
 msgid ""
 "The installer has insufficient privileges to access this folder: [2]. The "
-"installation cannot continue. Log on as administrator or contact your system "
-"administrator."
+"installation cannot continue. Log on as administrator or contact your system"
+" administrator."
 msgstr ""
 "Instalatzaileak dituen pribilegioak ez dira nahikoa direktorio hau "
 "atzitzeko: [2]. Ezin da instalatzen jarraitu. Hasi saioa administratzaile "
@@ -981,8 +988,8 @@ msgid ""
 "later."
 msgstr ""
 "Instalatzaileak sistema berrabiarazi behar du [2] konfiguratzen jarraitu "
-"ahal izateko. Egin klik 'Bai'n orain berrabiarazteko edo 'Ez' aurrerago zeuk "
-"berrabiarazteko asmoa baduzu."
+"ahal izateko. Egin klik 'Bai'n orain berrabiarazteko edo 'Ez' aurrerago zeuk"
+" berrabiarazteko asmoa baduzu."
 
 #: En.Win32.Debug.Error-2.idtx:91 En.Win32.Release.Error-2.idtx:91
 #: En.x64.Debug.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
@@ -1030,12 +1037,10 @@ msgstr "Une honetan [2] bolumena ez dago erabilgarri. Hautatu beste bat."
 #: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
 #: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2]. List of protected files:\n"
+"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
 msgstr ""
-"Windows Installer zerbitzuak ezin du bat edo gehiago babestutako Windows "
-"fitxategiak egunaratu. {{SFP Errorea: [2]. Babestutako fitxategi zerrenda:\n"
+"Windows Installer zerbitzuak ezin du bat edo gehiago babestutako Windows fitxategiak egunaratu. {{SFP Errorea: [2]. Babestutako fitxategi zerrenda:\n"
 "[3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:159 En.Win32.Release.Error-2.idtx:159
@@ -1058,8 +1063,8 @@ msgid ""
 msgstr ""
 "Windows Installer zerbitzuak ezin du [2] sistema-fitxategia eguneratu, "
 "fitxategia Windows-ek babestua dagoelako. Programa hau behar bezala ibil "
-"dadin, sistema eragilea eguneratu egin beharko duzu. {{Pakete-bertsioa: [3], "
-"SEk babestutako bertsioa: [4]}}"
+"dadin, sistema eragilea eguneratu egin beharko duzu. {{Pakete-bertsioa: [3],"
+" SEk babestutako bertsioa: [4]}}"
 
 #: En.Win32.Debug.Error-2.idtx:109 En.Win32.Release.Error-2.idtx:109
 #: En.x64.Debug.Error-2.idtx:109 En.x64.Release.Error-2.idtx:109
@@ -1076,13 +1081,13 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
 msgid ""
 "There is a problem with this Windows Installer package. A DLL required for "
-"this install to complete could not be run. Contact your support personnel or "
-"package vendor. {{Action [2], entry: [3], library: [4] }}"
+"this install to complete could not be run. Contact your support personnel or"
+" package vendor. {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
 "Arazo bat dago Windows Installer paketearekin. Instalazio hau amaitzeko "
 "behar den DLL-a ezin izan zen exekutatu. Galdetu zure laguntza-zerbitzuko "
-"langileei edo pakete saltzaileari. {{Ekintza [2], sarrera: [3], liburutegia: "
-"[4] }}"
+"langileei edo pakete saltzaileari. {{Ekintza [2], sarrera: [3], liburutegia:"
+" [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:111 En.Win32.Release.Error-2.idtx:111
 #: En.x64.Debug.Error-2.idtx:111 En.x64.Release.Error-2.idtx:111
@@ -1092,16 +1097,16 @@ msgid ""
 "personnel or package vendor. {{Action: [2], location: [3], command: [4] }}"
 msgstr ""
 "Arazo bat dago Windows Installer pakete honekin. Instalazio hau amaitzeko "
-"behar den programa ezin izan zen exekutatu. Galdetu zure laguntza-zerbitzuko "
-"langileei edo pakete saltzaileari. {{Ekintza: [2], kokalekua: [3], komandoa: "
-"[4] }}"
+"behar den programa ezin izan zen exekutatu. Galdetu zure laguntza-zerbitzuko"
+" langileei edo pakete saltzaileari. {{Ekintza: [2], kokalekua: [3], "
+"komandoa: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:112 En.Win32.Release.Error-2.idtx:112
 #: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
 msgid ""
 "There is a problem with this Windows Installer package. A program run as "
-"part of the setup did not finish as expected. Contact your support personnel "
-"or package vendor. {{Action [2], location: [3], command: [4] }}"
+"part of the setup did not finish as expected. Contact your support personnel"
+" or package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
 "Arazo bat dago Windows Installer paketearekin. Programaren exekuzioak "
 "instalazioaren parte bat bezala ezin izan zuen amaitu esperatutako moduan. "
@@ -1153,8 +1158,8 @@ msgstr ""
 "berreskuratzea aktibatua. Diskoan behar den lekua [3] KB da baina "
 "erabilgarri dagoen lekua [4] KB baino ez da. Egin klik Kasurik Ez-n "
 "instalazioarekin jarraitzeko berriskuratzeko informazioa gorde gabe, egin "
-"klik Saiatu berriro-n erabilgarri dagoen lekua jakitzeko, edo egin klik Utzi-"
-"n inslatazioatik irteteko."
+"klik Saiatu berriro-n erabilgarri dagoen lekua jakitzeko, edo egin klik "
+"Utzi-n inslatazioatik irteteko."
 
 #: En.Win32.Debug.Error-2.idtx:37 En.Win32.Release.Error-2.idtx:37
 #: En.x64.Debug.Error-2.idtx:37 En.x64.Release.Error-2.idtx:37
@@ -1162,19 +1167,19 @@ msgid ""
 "There is not enough disk space to install this file: [2]. Free some disk "
 "space and click Retry, or click Cancel to exit."
 msgstr ""
-"Diskoan ez dago fitxategi hau instalatzeko behar adina leku libre: [2]. Egin "
-"lekua diskoan eta egin klik 'Saiatu berriro'n, edo egin klik 'Utzi'n "
+"Diskoan ez dago fitxategi hau instalatzeko behar adina leku libre: [2]. Egin"
+" lekua diskoan eta egin klik 'Saiatu berriro'n, edo egin klik 'Utzi'n "
 "irteteko."
 
 #: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
 #: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
 msgid ""
-"There was an error creating a temporary file that is needed to complete this "
-"installation.{{ Folder: [3]. System error code: [2]}}"
+"There was an error creating a temporary file that is needed to complete this"
+" installation.{{ Folder: [3]. System error code: [2]}}"
 msgstr ""
 "Errore bat sortu zen behin-behineko fitxategia sortzeko unean, instalazio "
-"hau amaitzeko behar den fitxategia.{{ Karpeta: [3]. Sistemazko errore-kodea: "
-"[2]}}"
+"hau amaitzeko behar den fitxategia.{{ Karpeta: [3]. Sistemazko errore-kodea:"
+" [2]}}"
 
 #: En.Win32.Debug.Error-2.idtx:90 En.Win32.Release.Error-2.idtx:90
 #: En.x64.Debug.Error-2.idtx:90 En.x64.Release.Error-2.idtx:90
@@ -1233,7 +1238,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:161 En.x64.Release.Error-2.idtx:161
 msgid "User installations are disabled via policy on the machine."
 msgstr ""
-"Erabiltzaile instalazioak disgaitu egin dira makinean gidalerroaren bitartez."
+"Erabiltzaile instalazioak disgaitu egin dira makinean gidalerroaren "
+"bitartez."
 
 #: En.Win32.Debug.Error-2.idtx:6 En.Win32.Release.Error-2.idtx:6
 #: En.x64.Debug.Error-2.idtx:6 En.x64.Release.Error-2.idtx:6
@@ -1242,8 +1248,8 @@ msgstr "[1] abisua. "
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
 msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
-"64-bit operating system. 32-bit variant will not work with your operating "
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
 "system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
@@ -1293,409 +1299,3 @@ msgstr ""
 "Sistema berrabiarazi egin behar duzu [2](e)an egindako aldaketek eragina "
 "izan dezaten. Egin kik 'Bai'n orain berrabiarazteko edo 'Ez' aurrerago zeuk "
 "berrabiarazteko asmoa baduzu."
-
-#~ msgid "1033"
-#~ msgstr "1069"
-
-#, fuzzy
-#~ msgid "&Continue"
-#~ msgstr ""
-#~ "Ez dago lekurik diskoan '[2]' bolumenean instalazioarekin jarraitzeko "
-#~ "berreskuratzea aktibatua. Diskoan behar den lekua [3] KB da baina "
-#~ "erabilgarri dagoen lekua [4] KB baino ez da. Egin klik Kasurik Ez-n "
-#~ "instalazioarekin jarraitzeko berriskuratzeko informazioa gorde gabe, egin "
-#~ "klik Saiatu berriro-n erabilgarri dagoen lekua jakitzeko, edo egin klik "
-#~ "Utzi-n inslatazioatik irteteko."
-
-#, fuzzy
-#~ msgid "&Folder:"
-#~ msgstr "Fitxategia: [1], Karpeta: [2]"
-
-#, fuzzy
-#~ msgid "&Retry"
-#~ msgstr ""
-#~ "Errorea gertatu da instalazioari buruzko informazioa diskoan idaztean. "
-#~ "Egiaztatu diskoan behar adina leku dagoela erabilgarri eta egin klik "
-#~ "'Saiatu berriro'n, edo egin klik 'Utzi'n instalazioa bertan behera uzteko."
-
-#~ msgid "[1]"
-#~ msgstr "[1]"
-
-#, fuzzy
-#~ msgid "[DlgTitleFont]Disk Space Requirements"
-#~ msgstr "Leku-eskakizunak kalkulatzen"
-
-#~ msgid "Advertising application"
-#~ msgstr "Aplikazioaren berri ematen"
-
-#~ msgid "Allocating registry space"
-#~ msgstr "Erregistroko lekua esleitzen"
-
-#~ msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-#~ msgstr "Apl-Id-a: [1]{{, Apl-mota: [2], Erabiltzaileak: [3], RSN: [4]}}"
-
-#~ msgid "AppId: [1]{{, AppType: [2]}}"
-#~ msgstr "Apl-Id-a: [1]{{, Apl-mota-a: [2]}}"
-
-#~ msgid "Application Context:[1], Assembly Name:[2]"
-#~ msgstr "Aplikazioa Testuinguru:[1], Muntai Izena:[2]"
-
-#~ msgid "Application: [1]"
-#~ msgstr "Aplikazioa: [1]"
-
-#~ msgid "Application: [1], Command line: [2]"
-#~ msgstr "Aplikazioa: [1], Komando-lerroa: [2]"
-
-#, fuzzy
-#~ msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-#~ msgstr "Ziur zaude bertan behera utzi nahi duzula?"
-
-#~ msgid "Binding executables"
-#~ msgstr "Exekutagarriak lotzen"
-
-#, fuzzy
-#~ msgid "Cancel"
-#~ msgstr ""
-#~ "Ezin da '[2]' fitxategia sortu. Lehendik ere badago izen hori duen "
-#~ "direktorio bat. Instalazioa bertan behera utzi eta saiatu beste kokaleku "
-#~ "batean instalatzen."
-
-#~ msgid "Class Id: [1]"
-#~ msgstr "Klasearen Id-a: [1]"
-
-#~ msgid "Component ID: [1], Qualifier: [2]"
-#~ msgstr "Osagaiaren ID: [1], Kualifikatzailea: [2]"
-
-#~ msgid "Computing space requirements"
-#~ msgstr "Leku-eskakizunak kalkulatzen"
-
-#~ msgid "Copying network install files"
-#~ msgstr "Sarean instalatzeko fitxategiak kopiatzen"
-
-#~ msgid "Copying new files"
-#~ msgstr "Fitxategi berriak kopiatzen"
-
-#, fuzzy
-#~ msgid "Create A New Folder|"
-#~ msgstr "Karpetak sortzen"
-
-#~ msgid "Creating duplicate files"
-#~ msgstr "Fitxategi bikoiztuak sortzen"
-
-#~ msgid "Creating folders"
-#~ msgstr "Karpetak sortzen"
-
-#~ msgid "Creating shortcuts"
-#~ msgstr "Lasterbideak sortzen"
-
-#~ msgid "Deleting services"
-#~ msgstr "Zerbitzuak ezabatzen"
-
-#, fuzzy
-#~ msgid "Determining required space for installation..."
-#~ msgstr "Beharrezko informazioa biltzen..."
-
-#~ msgid "Evaluating launch conditions"
-#~ msgstr "Abiarazteko baldintzak ebaluatzen"
-
-#~ msgid "Extension: [1]"
-#~ msgstr "Luzapena: [1]"
-
-#~ msgid "Feature: [1]"
-#~ msgstr "Eginbidea: [1]"
-
-#~ msgid "File: [1]"
-#~ msgstr "Fitxategia: [1]"
-
-#~ msgid "File: [1], Dependencies: [2]"
-#~ msgstr "Fitxategia: [1], Dependentziak: [2]"
-
-#~ msgid "File: [1], Folder: [2]"
-#~ msgstr "Fitxategia: [1], Karpeta: [2]"
-
-#~ msgid "File: [1], Folder: [2], Size: [3]"
-#~ msgstr "Fitxategia: [1], Direktorioa: [2], Tamaina: [3]"
-
-#~ msgid "File: [1], Folder: [9]"
-#~ msgstr "Fitxategia: [1], Direktorioa: [9]"
-
-#~ msgid "File: [1], Folder: [9], Size: [6]"
-#~ msgstr "Fitxategia: [1], Direktorioa: [9], Tamaina: [6]"
-
-#~ msgid "File: [1], Section: [2], Key: [3], Value: [4]"
-#~ msgstr "Fitxategia: [1], Sekzioa: [2], Gakoa: [3], Balioa: [4]"
-
-#, fuzzy
-#~ msgid "Folder:"
-#~ msgstr "Fitxategia: [1], Karpeta: [2]"
-
-#~ msgid "Folder: [1]"
-#~ msgstr "Karpeta: [1]"
-
-#~ msgid "Font: [1]"
-#~ msgstr "Letra-tipoa: [1]"
-
-#~ msgid "Found application: [1]"
-#~ msgstr "Aurkitutako aplikazioa: [1]"
-
-#~ msgid "Free space: [1]"
-#~ msgstr "Leku librea: [1]"
-
-#~ msgid "Generating script operations for action:"
-#~ msgstr "Ekintza honentzat script-eragiketak sortzen:"
-
-#~ msgid "Initializing ODBC folders"
-#~ msgstr "ODBC direktorioak hasieratzen"
-
-#~ msgid "Installing new services"
-#~ msgstr "Zerbitzu berriak instalatzen"
-
-#~ msgid "Installing ODBC components"
-#~ msgstr "ODBC osagaiak instalatzen"
-
-#~ msgid "Installing system catalog"
-#~ msgstr "Sistema-katalogoa instalatzen"
-
-#~ msgid "Key: [1], Name: [2]"
-#~ msgstr "Gakoa: [1], Izena: [2]"
-
-#~ msgid "Key: [1], Name: [2], Value: [3]"
-#~ msgstr "Gakoa: [1], Izena: [2], Balioa: [3]"
-
-#~ msgid "LibID: [1]"
-#~ msgstr "Lib-IDa: [1]"
-
-#~ msgid "Migrating feature states from related applications"
-#~ msgstr "Eginbide-egoerak erlazionatutako aplikazioetatik migratzen"
-
-#~ msgid "MIME Content Type: [1], Extension: [2]"
-#~ msgstr "MIME eduki-mota: [1], Luzapena: [2]"
-
-#~ msgid "Moving files"
-#~ msgstr "Fitxategiak mugitzen"
-
-#~ msgid "Name: [1], Value: [2], Action [3]"
-#~ msgstr "Izena: [1], Balioa: [2], Ekintza [3]"
-
-#~ msgid "Patching files"
-#~ msgstr "Fitxategiak zuzentzen"
-
-#~ msgid "ProgId: [1]"
-#~ msgstr "Prog-Id-a: [1]"
-
-#~ msgid "Property: [1], Signature: [2]"
-#~ msgstr "Propietatea: [1], Sinadura: [2]"
-
-#~ msgid "Publishing assembly information"
-#~ msgstr "Argitaratzeko muntai informazioa"
-
-#~ msgid "Publishing Product Features"
-#~ msgstr "Produktuaren eginbideak argitaratzen"
-
-#~ msgid "Publishing product information"
-#~ msgstr "Produktuari buruzko informazioa argitaratzen"
-
-#~ msgid "Publishing Qualified Components"
-#~ msgstr "Osagai kualifikatuak argitaratzen"
-
-#~ msgid "Registering Class servers"
-#~ msgstr "Klase-zerbitzariak erregistratzen"
-
-#~ msgid "Registering COM+ Applications and Components"
-#~ msgstr "COM+ aplikazioak eta osagaiak erregistratzen"
-
-#~ msgid "Registering extension servers"
-#~ msgstr "Luzapen-zerbitzariak erregistratzen"
-
-#~ msgid "Registering fonts"
-#~ msgstr "Letra-tipoak erregistratzen"
-
-#~ msgid "Registering MIME info"
-#~ msgstr "MIME informazioa erregistratzen"
-
-#~ msgid "Registering modules"
-#~ msgstr "Moduluak erregistratzen"
-
-#~ msgid "Registering product"
-#~ msgstr "Produktua erregistratzen"
-
-#~ msgid "Registering program identifiers"
-#~ msgstr "Programaren identifikatzaileak erregistratzen"
-
-#~ msgid "Registering type libraries"
-#~ msgstr "Mota-liburutegiak erregistratzen"
-
-#~ msgid "Registering user"
-#~ msgstr "Erabiltzailea erregistratzen"
-
-#, fuzzy
-#~ msgid "Removal"
-#~ msgstr "Kentzea behar bezala egin da."
-
-#, fuzzy
-#~ msgid "Removing"
-#~ msgstr "INI fitxategien sarrerak kentzen"
-
-#~ msgid "Removing applications"
-#~ msgstr "Aplikazioak kentzen"
-
-#~ msgid "Removing backup files"
-#~ msgstr "Babeskopia-fitxategiak kentzen"
-
-#~ msgid "Removing duplicated files"
-#~ msgstr "Fitxategi bikoiztuak kentzen"
-
-#~ msgid "Removing files"
-#~ msgstr "Fitxategiak kentzen"
-
-#~ msgid "Removing folders"
-#~ msgstr "Karpetak kentzen"
-
-#~ msgid "Removing INI files entries"
-#~ msgstr "INI fitxategien sarrerak kentzen"
-
-#~ msgid "Removing moved files"
-#~ msgstr "Mugitutako fitxategiak kentzen"
-
-#~ msgid "Removing ODBC components"
-#~ msgstr "ODBC osagaiak kentzen"
-
-#~ msgid "Removing shortcuts"
-#~ msgstr "Lasterbideak kentzen"
-
-#~ msgid "Removing system registry values"
-#~ msgstr "Sistema-erregistroko balioak kentzen"
-
-#~ msgid "Rolling back action:"
-#~ msgstr "Lehengo egoerara itzultzeko ekintza:"
-
-#~ msgid "Searching for installed applications"
-#~ msgstr "Instalatutako aplikazioak bilatzen"
-
-#~ msgid "Searching for qualifying products"
-#~ msgstr "Produktu kualifikatzaileak bilatzen"
-
-#~ msgid "Searching for related applications"
-#~ msgstr "Erlazionatutako aplikazioak bilatzen"
-
-#~ msgid "Service: [1]"
-#~ msgstr "Zerbitzua: [1]"
-
-#~ msgid "Service: [2]"
-#~ msgstr "Zerbitzua: [2]"
-
-#~ msgid "Shortcut: [1]"
-#~ msgstr "Lasterbidea: [1]"
-
-#~ msgid "Starting services"
-#~ msgstr "Zerbitzuak hasieratzen"
-
-#~ msgid "Stopping services"
-#~ msgstr "Zerbitzuak geldiarazten"
-
-#~ msgid "Unpublishing assembly information"
-#~ msgstr "Ez-argitaratzeko muntai informazioa"
-
-#~ msgid "Unpublishing Product Features"
-#~ msgstr "Produktuen eginbideen argitalpena deuseztatzen"
-
-#~ msgid "Unpublishing product information"
-#~ msgstr "Produktuaren informazioaren argitalpena deuseztatzen"
-
-#~ msgid "Unpublishing Qualified Components"
-#~ msgstr "Osagai kualifikatuen argitalpena deuseztatzen"
-
-#~ msgid "Unregister Class servers"
-#~ msgstr "Klase-zerbitzariak erregistrotik ezabatu"
-
-#~ msgid "Unregistering COM+ Applications and Components"
-#~ msgstr "COM+ aplikazioak eta osagaiak erregistrotik kentzen"
-
-#~ msgid "Unregistering extension servers"
-#~ msgstr "Luzapen-zerbitzariak erregistrotik ezabatu"
-
-#~ msgid "Unregistering fonts"
-#~ msgstr "Letra-tipoak erregistrotik ezabatu"
-
-#~ msgid "Unregistering MIME info"
-#~ msgstr "MIME informazioa erregistrotik ezabatzen"
-
-#~ msgid "Unregistering modules"
-#~ msgstr "Moduluak erregistrotik ezabatzen"
-
-#~ msgid "Unregistering program identifiers"
-#~ msgstr "Programaren identifikatzaileak erregistrotik ezabatzen"
-
-#~ msgid "Unregistering type libraries"
-#~ msgstr "Mota-liburutegiak erregistrotik ezabatzen"
-
-#~ msgid "Updating component registration"
-#~ msgstr "Osagaien erregistroa eguneratzen"
-
-#~ msgid "Updating environment strings"
-#~ msgstr "Inguruneko kateak eguneratzen"
-
-#~ msgid "Validating install"
-#~ msgstr "Instalazioa balidatzen"
-
-#~ msgid "Writing INI files values"
-#~ msgstr "INI fitxategien balioak idazten"
-
-#~ msgid "Writing system registry values"
-#~ msgstr "Sistema-erregistroaren balioak idazten"
-
-#, fuzzy
-#~ msgid "&Install Now"
-#~ msgstr "Instalatuta [2]"
-
-#, fuzzy
-#~ msgid "&Modify"
-#~ msgstr ""
-#~ "Ezin da '[2]' ingurune-aldagaia eguneratu. Egiaztatu ingurune-aldagaiak "
-#~ "aldatzeko behar adina pribilegio dituzula."
-
-#, fuzzy
-#~ msgid "&Remove"
-#~ msgstr ""
-#~ "Administratzailea izan behar duzu aplikazio hau kentzeko. Aplikazio hau "
-#~ "kentzeko, erregistratu ahal duzu Administratzailez, edo galdetu zure "
-#~ "laguntza zerbitzuko taldea."
-
-#, fuzzy
-#~ msgid "Available"
-#~ msgstr ""
-#~ "Ez dago lekurik diskoan '[2]' bolumenean instalazioarekin jarraitzeko "
-#~ "berreskuratzea aktibatua. Diskoan behar den lekua [3] KB da baina "
-#~ "erabilgarri dagoen lekua [4] KB baino ez da. Egin klik Kasurik Ez-n "
-#~ "instalazioarekin jarraitzeko berriskuratzeko informazioa gorde gabe, egin "
-#~ "klik Saiatu berriro-n erabilgarri dagoen lekua jakitzeko, edo egin klik "
-#~ "Utzi-n inslatazioatik irteteko."
-
-#, fuzzy
-#~ msgid "Custom Installation"
-#~ msgstr "Instalazioak huts egin du."
-
-#, fuzzy
-#~ msgid "Installing"
-#~ msgstr ""
-#~ "Ezin da produktu hau instalatzeko egokia den aurrez instalatutako "
-#~ "produkturik aurkitu ordenadorean."
-
-#, fuzzy
-#~ msgid "KB"
-#~ msgstr ""
-#~ "Ezin da erregistroan erabilgarri dagoen lekua handitu. Erregistroan [2] "
-#~ "KB izan behar dira libre aplikazio hau instalatu ahal izateko."
-
-#, fuzzy
-#~ msgid "Required"
-#~ msgstr ""
-#~ "Behar den fitxategia ezin da instalatu kabinete fitxategia [2] ez dago "
-#~ "digitalki sinatua. Honek kabinete fitxategia hondatuta dagoela adierazi "
-#~ "dezake."
-
-#, fuzzy
-#~ msgid "Volume"
-#~ msgstr ""
-#~ "Ez dago diskorik [2] unitatean. Sartu disko bat eta egin klik 'Saiatu "
-#~ "berriro'n, edo egin klik 'Utzi'n lehen hautatutako bolumenera itzultzeko."

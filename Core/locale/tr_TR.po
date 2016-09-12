@@ -1,19 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-29 07:48+0200\n"
+"POT-Creation-Date: 2016-08-29 07:44+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: tr_TR\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
+"Language-Team: Turkish (https://www.transifex.com/eduroam_devel/teams/11799/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 1.8.8\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
@@ -90,12 +94,12 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
 #: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
 msgid ""
-"A file that is required cannot be installed because the cabinet file [2] has "
-"an invalid digital signature. This may indicate that the cabinet file is "
+"A file that is required cannot be installed because the cabinet file [2] has"
+" an invalid digital signature. This may indicate that the cabinet file is "
 "corrupt.{{ Error [3] was returned by WinVerifyTrust.}}"
 msgstr ""
-"[2] kabin dosyası dijital imzalanmadığı için gereken bir dosya yüklenemiyor. "
-"Bu, kabin dosyasında bir bozulmadan kaynaklanabilir.{{ WinVerifyTrust "
+"[2] kabin dosyası dijital imzalanmadığı için gereken bir dosya yüklenemiyor."
+" Bu, kabin dosyasında bir bozulmadan kaynaklanabilir.{{ WinVerifyTrust "
 "tarafından döndürülen [3] hatası.}}"
 
 #: En.Win32.Debug.Error-2.idtx:59 En.Win32.Release.Error-2.idtx:59
@@ -104,8 +108,8 @@ msgid ""
 "A file that is required cannot be installed because the cabinet file [2] is "
 "not digitally signed. This may indicate that the cabinet file is corrupt."
 msgstr ""
-"[2] kabin dosyası dijital imzalanmadığı için gereken bir dosya yüklenemiyor. "
-"Bu, kabin dosyasında bir bozulmadan kaynaklanabilir."
+"[2] kabin dosyası dijital imzalanmadığı için gereken bir dosya yüklenemiyor."
+" Bu, kabin dosyasında bir bozulmadan kaynaklanabilir."
 
 #: En.Win32.Debug.Error-2.idtx:48 En.Win32.Release.Error-2.idtx:48
 #: En.x64.Debug.Error-2.idtx:48 En.x64.Release.Error-2.idtx:48
@@ -132,11 +136,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
 #: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
 msgid ""
-"A portion of the folder path '[2]' is invalid. It is either empty or exceeds "
-"the length allowed by the system."
+"A portion of the folder path '[2]' is invalid. It is either empty or exceeds"
+" the length allowed by the system."
 msgstr ""
-"'[2]' klasör yolunun bir kısmı geçersiz. Bu bölüm boş veya sistem tarafından "
-"izin verilen uzunluğu aşıyor."
+"'[2]' klasör yolunun bir kısmı geçersiz. Bu bölüm boş veya sistem tarafından"
+" izin verilen uzunluğu aşıyor."
 
 #: En.Win32.Debug.Error-2.idtx:95 En.Win32.Release.Error-2.idtx:95
 #: En.x64.Debug.Error-2.idtx:95 En.x64.Release.Error-2.idtx:95
@@ -182,8 +186,8 @@ msgstr "Duyuru başarısız oldu."
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
-"An error occured during the installation of assembly component [2]. HRESULT: "
-"[3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
+"An error occured during the installation of assembly component [2]. HRESULT:"
+" [3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
 msgstr ""
 "Birleştirme bileşeni kurulumu sırasında bir hata oluştu[2]. HRESULT: [3]. "
 "{{birleştirme arabirimi: [4], ,işlev: [5], birleştirme adı: [6]}}"
@@ -225,8 +229,8 @@ msgid ""
 "An installation for [2] is currently suspended. You must undo the changes "
 "made by that installation to continue. Do you want to undo those changes?"
 msgstr ""
-"[2] yüklemesi şu anda askıya alınmış. Devam etmek için bu yüklemenin yaptığı "
-"değişiklikleri geri almalısınız. Bu değişiklikleri geri almak istiyor "
+"[2] yüklemesi şu anda askıya alınmış. Devam etmek için bu yüklemenin yaptığı"
+" değişiklikleri geri almalısınız. Bu değişiklikleri geri almak istiyor "
 "musunuz?"
 
 #: En.Win32.Debug.Error-2.idtx:96 En.Win32.Release.Error-2.idtx:96
@@ -241,8 +245,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
 #: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
 msgid ""
-"Another application has exclusive access to the file '[2]'. Please shut down "
-"all other applications, then click Retry."
+"Another application has exclusive access to the file '[2]'. Please shut down"
+" all other applications, then click Retry."
 msgstr ""
 "Diğer bir uygulamanın '[2]' dosyasına özel kullanım erişimi var. Lütfen "
 "diğer tüm uygulamaları kapatın ve sonra Yeniden Dene'yi tıklatın."
@@ -264,8 +268,8 @@ msgstr "İptal etmek istediğinizden emin misinz?"
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
 msgid ""
-"Cannot create the file '[2]'. A folder with this name already exists. Cancel "
-"the install and try installing to a different location."
+"Cannot create the file '[2]'. A folder with this name already exists. Cancel"
+" the install and try installing to a different location."
 msgstr ""
 "'[2]' dosyası oluşturulamıyor. Bu ada sahip bir dizin zaten var. Yüklemeyi "
 "iptal edip farklı bir konuma yüklemeyi deneyin."
@@ -273,8 +277,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
 #: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
 msgid ""
-"Cannot create the folder '[2]'. A file with this name already exists. Please "
-"rename or remove the file and click retry, or click Cancel to exit."
+"Cannot create the folder '[2]'. A file with this name already exists. Please"
+" rename or remove the file and click retry, or click Cancel to exit."
 msgstr ""
 "'[2]' dizini oluşturulamıyor. Bu ada sahip bir dosya zaten var. Lütfen "
 "dosyayı yeniden adlandırın veya silin ve Yeniden Dene'yi tıklatın ya da "
@@ -323,8 +327,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
 #: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
 msgid ""
-"Could not create Shortcut [2]. Verify that the destination folder exists and "
-"that you can access it."
+"Could not create Shortcut [2]. Verify that the destination folder exists and"
+" that you can access it."
 msgstr ""
 "[2] Kısayolu oluşturulamadı. Hedef klasörünün varolduğunu ve ona "
 "erişebildiğinizi denetleyin."
@@ -425,15 +429,17 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
 #: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
 msgid ""
-"Could not register type library for file [2]. Contact your support personnel."
+"Could not register type library for file [2]. Contact your support "
+"personnel."
 msgstr ""
-"[2] dosyası için tür kitaplığı kaydettirilemedi. Destek sorumlunuza başvurun."
+"[2] dosyası için tür kitaplığı kaydettirilemedi. Destek sorumlunuza "
+"başvurun."
 
 #: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
 #: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
 msgid ""
-"Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
-"you can access it."
+"Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
+" you can access it."
 msgstr ""
 "[2] Kısayolu kaldırılamadı. Kısayol dosyasının varolduğunu ve ona "
 "erişebildiğinizi denetleyin."
@@ -450,8 +456,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
 #: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
 msgid ""
-"Could not set file security for file '[3]'. Error: [2]. Verify that you have "
-"sufficient privileges to modify the security permissions for this file."
+"Could not set file security for file '[3]'. Error: [2]. Verify that you have"
+" sufficient privileges to modify the security permissions for this file."
 msgstr ""
 "'[3]' dosyasının dosya güvenliği belirlenemedi. Hata: [2]. Bu dosyanın "
 "güvenlik izinlerini değiştirmek için yeterli ayrıcalığınızın olduğunu "
@@ -472,13 +478,14 @@ msgid ""
 "Could not unregister type library for file [2]. Contact your support "
 "personnel."
 msgstr ""
-"[2] dosyası için tür kitaplığı kaydı silinemedi. Destek sorumlunuza başvurun."
+"[2] dosyası için tür kitaplığı kaydı silinemedi. Destek sorumlunuza "
+"başvurun."
 
 #: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
 #: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
 msgid ""
-"Could not update environment variable '[2]'. Verify that you have sufficient "
-"privileges to modify environment variables."
+"Could not update environment variable '[2]'. Verify that you have sufficient"
+" privileges to modify environment variables."
 msgstr ""
 "'[2]' ortam değişkeni güncelleştirilemedi. Ortam değişkenlerini değiştirmek "
 "için yeterli ayrıcalığınızın olduğunu denetleyin."
@@ -495,8 +502,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
 #: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
 msgid ""
-"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
-"have sufficient access to that key, or contact your support personnel."
+"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you"
+" have sufficient access to that key, or contact your support personnel."
 msgstr ""
 "[3] anahtarına [2] değeri yazılamadı. {{ Sistem hatası [4].}} Bu anahtara "
 "yeterli erişiminizin olduğunu denetleyin veya destek sorumlunuza başvurun."
@@ -517,10 +524,10 @@ msgid ""
 "means, and can no longer be modified by this patch. For more information "
 "contact your patch vendor. {{System Error: [3]}}"
 msgstr ""
-"Ek uygulamayı [2] dosyasına uygulama hatası. Büyük olasılıkla bu dosya başka "
-"şekillerde güncelleştirilmiş ve bu ek uygulamayla değiştirilebilecek konumda "
-"değil. Daha fazla bilgi için bu ek uygulamayı aldığınız yerle bağlantı "
-"kurun. {{Sistem Hatası: [3]}}"
+"Ek uygulamayı [2] dosyasına uygulama hatası. Büyük olasılıkla bu dosya başka"
+" şekillerde güncelleştirilmiş ve bu ek uygulamayla değiştirilebilecek "
+"konumda değil. Daha fazla bilgi için bu ek uygulamayı aldığınız yerle "
+"bağlantı kurun. {{Sistem Hatası: [3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:128 En.Win32.Release.Error-2.idtx:128
 #: En.x64.Debug.Error-2.idtx:128 En.x64.Release.Error-2.idtx:128
@@ -553,8 +560,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
 #: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
 msgid ""
-"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
-"[4] exists and that you can access it."
+"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
+" [4] exists and that you can access it."
 msgstr ""
 "ODBC sürücüsünü yükleme hatası: [4], ODBC hatası [2]: [3]. [4] dosyasının "
 "varolduğunu ve ona erişebildiğinizi denetleyin."
@@ -583,8 +590,8 @@ msgid ""
 "Error reading from file: [3]. {{ System error [2].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
-"[3] dosyasından okuma hatası. {{ Sistem hatası [2].}} Dosyanın bulunduğundan "
-"ve ona erişebildiğinizden emin olun."
+"[3] dosyasından okuma hatası. {{ Sistem hatası [2].}} Dosyanın bulunduğundan"
+" ve ona erişebildiğinizden emin olun."
 
 #: En.Win32.Debug.Error-2.idtx:155 En.Win32.Release.Error-2.idtx:155
 #: En.x64.Debug.Error-2.idtx:155 En.x64.Release.Error-2.idtx:155
@@ -624,7 +631,8 @@ msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
 #: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
-msgid "Error writing to file: [2]. Verify that you have access to that folder."
+msgid ""
+"Error writing to file: [2]. Verify that you have access to that folder."
 msgstr ""
 "[2] dosyasına yazma hatası. Bu dizine erişiminizin olduğundan emin olun."
 
@@ -718,7 +726,8 @@ msgstr "[2] modülü kaydedilemedi. HRESULT [3]. Destek sorumlunuza başvurun."
 #: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
 #: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
 msgid ""
-"Module [2] failed to unregister. HRESULT [3]. Contact your support personnel."
+"Module [2] failed to unregister. HRESULT [3]. Contact your support "
+"personnel."
 msgstr ""
 "[2] modülünün kaydı silinemedi. HRESULT [3]. Destek sorumlunuza başvurun."
 
@@ -734,8 +743,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
 #: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
 msgid ""
-"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
-"[4] KB. Free some disk space and retry."
+"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
+" [4] KB. Free some disk space and retry."
 msgstr ""
 "Disk alanı yetersiz -- Disk: '[2]'; gereken alan: [3] KB; kullanılabilir "
 "alan: [4] KB. Disk alanını biraz boşaltın ve yeniden deneyin."
@@ -839,8 +848,8 @@ msgid ""
 "Service '[2]' ([3]) failed to start. Verify that you have sufficient "
 "privileges to start system services."
 msgstr ""
-"'[2]' ([3]) hizmeti başlatılırken hata oluştu. Sistem hizmetlerini başlatmak "
-"için yeterli ayrıcalığınızın olduğunu denetleyin."
+"'[2]' ([3]) hizmeti başlatılırken hata oluştu. Sistem hizmetlerini başlatmak"
+" için yeterli ayrıcalığınızın olduğunu denetleyin."
 
 #: En.Win32.Debug.Error-2.idtx:38 En.Win32.Release.Error-2.idtx:38
 #: En.x64.Debug.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
@@ -929,15 +938,15 @@ msgid ""
 "arguments are: [2], [3], [4]}}"
 msgstr ""
 "Yükleyici bu paketi yüklerken beklenmedik bir hata ile karşılaştı. Bu "
-"paketle ilgili bir sorunu gösteriyor olabilir. Hata kod: [1]. {{Değişkenler: "
-"[2], [3], [4]}}"
+"paketle ilgili bir sorunu gösteriyor olabilir. Hata kod: [1]. {{Değişkenler:"
+" [2], [3], [4]}}"
 
 #: En.Win32.Debug.Error-2.idtx:33 En.Win32.Release.Error-2.idtx:33
 #: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
 msgid ""
 "The installer has insufficient privileges to access this folder: [2]. The "
-"installation cannot continue. Log on as administrator or contact your system "
-"administrator."
+"installation cannot continue. Log on as administrator or contact your system"
+" administrator."
 msgstr ""
 "Yükleyicinin [2] dizinine erişmek için yeterli ayrıcalığı yok. Yükleme "
 "işlemi devam edemez. Yönetici olarak oturum açın veya sistem yöneticinize "
@@ -1006,12 +1015,10 @@ msgstr "[2] sürücüsü şu anda kullanılamıyor. Lütfen farklı bir tane se�
 #: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
 #: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2]. List of protected files:\n"
+"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
 msgstr ""
-"Windows Installer hizmeti, bir veya daha falza korunan Windows dosyasını "
-"güncelleyemiyor. {{SFP Hata: [2]. Korunan dosyaların listesi:\n"
+"Windows Installer hizmeti, bir veya daha falza korunan Windows dosyasını güncelleyemiyor. {{SFP Hata: [2]. Korunan dosyaların listesi:\n"
 "[3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:159 En.Win32.Release.Error-2.idtx:159
@@ -1020,8 +1027,8 @@ msgid ""
 "The Windows Installer service cannot update the protected Windows file [2]. "
 "{{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
 msgstr ""
-"Windows Installer hizmeti korumalı [2] Windows dosyasını güncelleştiremiyor. "
-"{{Paket sürümü: [3], OS korumasındaki sürüm: [4], SFP Hatası: [5]}}"
+"Windows Installer hizmeti korumalı [2] Windows dosyasını güncelleştiremiyor."
+" {{Paket sürümü: [3], OS korumasındaki sürüm: [4], SFP Hatası: [5]}}"
 
 #: En.Win32.Debug.Error-2.idtx:158 En.Win32.Release.Error-2.idtx:158
 #: En.x64.Debug.Error-2.idtx:158 En.x64.Release.Error-2.idtx:158
@@ -1032,8 +1039,8 @@ msgid ""
 "version: [4]}}"
 msgstr ""
 "[2] sistem dosyası Windows tarafından korunduğu için Windows Installer "
-"hizmeti bu dosyayı güncelleştiremiyor. Bu programın doğru çalışabilmesi için "
-"işletim sisteminizi güncelleştirmeniz gerekebilir. {{Paket sürümü: [3], OS "
+"hizmeti bu dosyayı güncelleştiremiyor. Bu programın doğru çalışabilmesi için"
+" işletim sisteminizi güncelleştirmeniz gerekebilir. {{Paket sürümü: [3], OS "
 "korumasındaki sürüm: [4]}}"
 
 #: En.Win32.Debug.Error-2.idtx:109 En.Win32.Release.Error-2.idtx:109
@@ -1051,8 +1058,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
 msgid ""
 "There is a problem with this Windows Installer package. A DLL required for "
-"this install to complete could not be run. Contact your support personnel or "
-"package vendor. {{Action [2], entry: [3], library: [4] }}"
+"this install to complete could not be run. Contact your support personnel or"
+" package vendor. {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
 "Bu Windows Installer paketi ilgili sorun var. Bu yüklemenin tamamlanması "
 "için gereken DLL çalıştırılamadı. Destek sorumlunuza veya paket satıcısına "
@@ -1073,8 +1080,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
 msgid ""
 "There is a problem with this Windows Installer package. A program run as "
-"part of the setup did not finish as expected. Contact your support personnel "
-"or package vendor. {{Action [2], location: [3], command: [4] }}"
+"part of the setup did not finish as expected. Contact your support personnel"
+" or package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
 "Bu Windows Installer paketi ilgili sorun var. Kurulumun bir parçası olarak "
 "çalışan program beklendiği gibi sonlanmadı. Destek sorumlunuza veya paket "
@@ -1121,8 +1128,8 @@ msgid ""
 "click Retry to check for available space again, or click Cancel to quit the "
 "installation."
 msgstr ""
-"'[2]' biriminde kurtarma etkinleştirilmiş yüklemeye devam etmek için yeterli "
-"boş alan yok. [3] KB gerekli, fakat sadece [4] KB kullanılabilir durumda. "
+"'[2]' biriminde kurtarma etkinleştirilmiş yüklemeye devam etmek için yeterli"
+" boş alan yok. [3] KB gerekli, fakat sadece [4] KB kullanılabilir durumda. "
 "Kurtarma bilgilerini kaydetmeden yüklemeye devam etmek için Yoksay'ı "
 "tıklatın, kullanılabilir alanı yeniden denetlemek için Yeniden Dene'yi "
 "tıklatın veya yüklemeden çıkmak için İptal'i tıklatın."
@@ -1139,11 +1146,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
 #: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
 msgid ""
-"There was an error creating a temporary file that is needed to complete this "
-"installation.{{ Folder: [3]. System error code: [2]}}"
+"There was an error creating a temporary file that is needed to complete this"
+" installation.{{ Folder: [3]. System error code: [2]}}"
 msgstr ""
-"Yüklemeyi tamamlamak için gereken geçici dosyayı oluştururken hata oluştu."
-"{{ Folder: [3]. Sistem hata kodu: [2]}}"
+"Yüklemeyi tamamlamak için gereken geçici dosyayı oluştururken hata oluştu.{{"
+" Folder: [3]. Sistem hata kodu: [2]}}"
 
 #: En.Win32.Debug.Error-2.idtx:90 En.Win32.Release.Error-2.idtx:90
 #: En.x64.Debug.Error-2.idtx:90 En.x64.Release.Error-2.idtx:90
@@ -1209,8 +1216,8 @@ msgstr "Uyarı [1]. "
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
 msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
-"64-bit operating system. 32-bit variant will not work with your operating "
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
 "system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
@@ -1236,8 +1243,8 @@ msgid ""
 "You may either restore your computer to its previous state or continue the "
 "install later. Would you like to restore?"
 msgstr ""
-"Bilgisayarınızı bir önceki durumuna döndürebilir ya da yükleme işlemine daha "
-"sonra devam edebilirsiniz. Önceki duruma dönmek istiyor musunuz?"
+"Bilgisayarınızı bir önceki durumuna döndürebilir ya da yükleme işlemine daha"
+" sonra devam edebilirsiniz. Önceki duruma dönmek istiyor musunuz?"
 
 #: En.Win32.Debug.Error-2.idtx:120 En.Win32.Release.Error-2.idtx:120
 #: En.x64.Debug.Error-2.idtx:120 En.x64.Release.Error-2.idtx:120
@@ -1259,408 +1266,5 @@ msgid ""
 msgstr ""
 "[2] için yapılandırma değişikliklerinin etkinleşmesi için sisteminizi "
 "yeniden başlatmalısınız. Şimdi yeniden başlatmak için Evet'i tıklatın veya "
-"yeniden başlatmayı daha sonra el ile yapmayı düşünüyorsanız Hayır'ı tıklatın."
-
-#~ msgid "1033"
-#~ msgstr "1055"
-
-#, fuzzy
-#~ msgid "&Continue"
-#~ msgstr ""
-#~ "'[2]' biriminde kurtarma etkinleştirilmiş yüklemeye devam etmek için "
-#~ "yeterli boş alan yok. [3] KB gerekli, fakat sadece [4] KB kullanılabilir "
-#~ "durumda. Kurtarma bilgilerini kaydetmeden yüklemeye devam etmek için "
-#~ "Yoksay'ı tıklatın, kullanılabilir alanı yeniden denetlemek için Yeniden "
-#~ "Dene'yi tıklatın veya yüklemeden çıkmak için İptal'i tıklatın."
-
-#, fuzzy
-#~ msgid "&Folder:"
-#~ msgstr "Dosya: [1], Klasör: [2]"
-
-#, fuzzy
-#~ msgid "&Retry"
-#~ msgstr ""
-#~ "Yükleme bilgileri diske yazılırken bir hata oluştu. Yeterli disk alanı "
-#~ "olup olmadığını denetleyin ve Yeniden Dene'yi tıklatın veya yükleme "
-#~ "işlemine son vermek için İptal'i tıklatın."
-
-#~ msgid "[1]"
-#~ msgstr "[1]"
-
-#, fuzzy
-#~ msgid "[DlgTitleFont]Disk Space Requirements"
-#~ msgstr "Alan gereksinimleri hesaplanıyor"
-
-#~ msgid "Advertising application"
-#~ msgstr "Uygulama yayımlanıyor"
-
-#~ msgid "Allocating registry space"
-#~ msgstr "Kayıt alanı ayrılıyor"
-
-#~ msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-#~ msgstr "AppId: [1]{{, Uyg. Türü: [2], Kullanıcılar: [3], RSN: [4]}}"
-
-#~ msgid "AppId: [1]{{, AppType: [2]}}"
-#~ msgstr "Uyg. Kimliği: [1]{{, Uyg. Türü: [2]}}"
-
-#~ msgid "Application Context:[1], Assembly Name:[2]"
-#~ msgstr "Uygulama İçeriği:[1], Birleştirme Adı Adı:[2]"
-
-#~ msgid "Application: [1]"
-#~ msgstr "Uygulama: [1]"
-
-#~ msgid "Application: [1], Command line: [2]"
-#~ msgstr "Uygulama: [1], Komut satırı: [2]"
-
-#, fuzzy
-#~ msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-#~ msgstr "İptal etmek istediğinizden emin misinz?"
-
-#~ msgid "Binding executables"
-#~ msgstr "Çalıştırılabilir dosyalar bağlanıyor"
-
-#, fuzzy
-#~ msgid "Cancel"
-#~ msgstr ""
-#~ "'[2]' dosyası oluşturulamıyor. Bu ada sahip bir dizin zaten var. "
-#~ "Yüklemeyi iptal edip farklı bir konuma yüklemeyi deneyin."
-
-#~ msgid "Class Id: [1]"
-#~ msgstr "Sınıf Kimliği: [1]"
-
-#~ msgid "Component ID: [1], Qualifier: [2]"
-#~ msgstr "Bileşen Kimliği: [1], Yetki Veren: [2]"
-
-#~ msgid "Computing space requirements"
-#~ msgstr "Alan gereksinimleri hesaplanıyor"
-
-#~ msgid "Copying network install files"
-#~ msgstr "Ağ yükleme dosyaları kopyalanıyor"
-
-#~ msgid "Copying new files"
-#~ msgstr "Yeni dosyalar kopyalanıyor"
-
-#, fuzzy
-#~ msgid "Create A New Folder|"
-#~ msgstr "Klasörler oluşturuluyor"
-
-#~ msgid "Creating duplicate files"
-#~ msgstr "Çift dosyalar oluşturuluyor"
-
-#~ msgid "Creating folders"
-#~ msgstr "Klasörler oluşturuluyor"
-
-#~ msgid "Creating shortcuts"
-#~ msgstr "Kısayollar oluşturuluyor"
-
-#~ msgid "Deleting services"
-#~ msgstr "Hizmetler siliniyor"
-
-#, fuzzy
-#~ msgid "Determining required space for installation..."
-#~ msgstr "Gerekli bilgiler toplanıyor..."
-
-#~ msgid "Evaluating launch conditions"
-#~ msgstr "Başlatma durumları değerlendiriliyor"
-
-#~ msgid "Extension: [1]"
-#~ msgstr "Uzantı: [1]"
-
-#~ msgid "Feature: [1]"
-#~ msgstr "Özellik: [1]"
-
-#~ msgid "File: [1]"
-#~ msgstr "Dosya: [1]"
-
-#~ msgid "File: [1], Dependencies: [2]"
-#~ msgstr "Dosya: [1], Bağımlılıklar: [2]"
-
-#~ msgid "File: [1], Folder: [2]"
-#~ msgstr "Dosya: [1], Klasör: [2]"
-
-#~ msgid "File: [1], Folder: [2], Size: [3]"
-#~ msgstr "Dosya: [1], Dizin: [2], Boyut: [3]"
-
-#~ msgid "File: [1], Folder: [9]"
-#~ msgstr "Dosya: [1], Dizin: [9]"
-
-#~ msgid "File: [1], Folder: [9], Size: [6]"
-#~ msgstr "Dosya: [1], Dizin: [9], Boyut: [6]"
-
-#~ msgid "File: [1], Section: [2], Key: [3], Value: [4]"
-#~ msgstr "Dosya: [1], Kısım: [2], Anahtar: [3], Değer: [4]"
-
-#, fuzzy
-#~ msgid "Folder:"
-#~ msgstr "Dosya: [1], Klasör: [2]"
-
-#~ msgid "Folder: [1]"
-#~ msgstr "Klasör: [1]"
-
-#~ msgid "Font: [1]"
-#~ msgstr "Yazı tipi: [1]"
-
-#~ msgid "Found application: [1]"
-#~ msgstr "Uygulama bulundu: [1]"
-
-#~ msgid "Free space: [1]"
-#~ msgstr "Boş alan: [1]"
-
-#~ msgid "Generating script operations for action:"
-#~ msgstr "Eylem için komut dosyası işlemleri üretiliyor:"
-
-#~ msgid "Initializing ODBC folders"
-#~ msgstr "ODBC dizinleri başlatılıyor"
-
-#~ msgid "Installing new services"
-#~ msgstr "Yeni hizmetler yükleniyor"
-
-#~ msgid "Installing ODBC components"
-#~ msgstr "ODBC bileşenleri yükleniyor"
-
-#~ msgid "Installing system catalog"
-#~ msgstr "Sistem katalogu yükleniyor"
-
-#~ msgid "Key: [1], Name: [2]"
-#~ msgstr "Anahtar: [1], Ad: [2]"
-
-#~ msgid "Key: [1], Name: [2], Value: [3]"
-#~ msgstr "Anahtar: [1], Ad: [2], Değer: [3]"
-
-#~ msgid "LibID: [1]"
-#~ msgstr "Kitaplık Kimliği: [1]"
-
-#~ msgid "Migrating feature states from related applications"
-#~ msgstr "İlgili uygulamalardan özellik durumları alınıyor"
-
-#~ msgid "MIME Content Type: [1], Extension: [2]"
-#~ msgstr "MIME İçerik Türü: [1], Uzantı: [2]"
-
-#~ msgid "Moving files"
-#~ msgstr "Dosyalar taşınıyor"
-
-#~ msgid "Name: [1], Value: [2], Action [3]"
-#~ msgstr "Ad: [1], Değer: [2], Eylem [3]"
-
-#~ msgid "Patching files"
-#~ msgstr "Yazılım eki dosyaları"
-
-#~ msgid "ProgId: [1]"
-#~ msgstr "Program Kimliği: [1]"
-
-#~ msgid "Property: [1], Signature: [2]"
-#~ msgstr "Özellik: [1], İmza: [2]"
-
-#~ msgid "Publishing assembly information"
-#~ msgstr "Birleştirme bilgileri yayımlanıyor"
-
-#~ msgid "Publishing Product Features"
-#~ msgstr "Ürün Özellikleri Yayımlanıyor"
-
-#~ msgid "Publishing product information"
-#~ msgstr "Ürün bilgisi yayımlanıyor"
-
-#~ msgid "Publishing Qualified Components"
-#~ msgstr "Yetki Alan Bileşenler Yayımlanıyor"
-
-#~ msgid "Registering Class servers"
-#~ msgstr "Sınıf sunucuları kaydettiriliyor"
-
-#~ msgid "Registering COM+ Applications and Components"
-#~ msgstr "COM+ Uygulamaları ve Bileşenleri kaydettiriliyor"
-
-#~ msgid "Registering extension servers"
-#~ msgstr "Uzantı sunucuları kaydettiriliyor"
-
-#~ msgid "Registering fonts"
-#~ msgstr "Yazı tipleri kaydettiriliyor"
-
-#~ msgid "Registering MIME info"
-#~ msgstr "MIME bilgisi kaydettiriliyor"
-
-#~ msgid "Registering modules"
-#~ msgstr "Birimler kaydettiriliyor"
-
-#~ msgid "Registering product"
-#~ msgstr "Ürün kaydettiriliyor"
-
-#~ msgid "Registering program identifiers"
-#~ msgstr "Program tanıtıcılarının kaydediliyor"
-
-#~ msgid "Registering type libraries"
-#~ msgstr "Tür kitaplıkları kaydettiriliyor"
-
-#~ msgid "Registering user"
-#~ msgstr "Kullanıcı kaydettiriliyor"
-
-#, fuzzy
-#~ msgid "Removal"
-#~ msgstr "Kaldırma başarıyla tamamlandı."
-
-#, fuzzy
-#~ msgid "Removing"
-#~ msgstr "INI dosyası girdileri kaldırılıyor"
-
-#~ msgid "Removing applications"
-#~ msgstr "Uygulamalar kaldırılıyor"
-
-#~ msgid "Removing backup files"
-#~ msgstr "Yedek dosyalar kaldırılıyor"
-
-#~ msgid "Removing duplicated files"
-#~ msgstr "Yenilenen dosyalar kaldırılıyor"
-
-#~ msgid "Removing files"
-#~ msgstr "Dosyalar kaldırılıyor"
-
-#~ msgid "Removing folders"
-#~ msgstr "Klasörler kaldırılıyor"
-
-#~ msgid "Removing INI files entries"
-#~ msgstr "INI dosyası girdileri kaldırılıyor"
-
-#~ msgid "Removing moved files"
-#~ msgstr "Taşınan dosyalar kaldırılıyor"
-
-#~ msgid "Removing ODBC components"
-#~ msgstr "ODBC bileşenleri kaldırılıyor"
-
-#~ msgid "Removing shortcuts"
-#~ msgstr "Kısayollar kaldırılıyor"
-
-#~ msgid "Removing system registry values"
-#~ msgstr "Sistem kayıt değerleri kaldırılıyor"
-
-#~ msgid "Rolling back action:"
-#~ msgstr "Toparlama eylemi:"
-
-#~ msgid "Searching for installed applications"
-#~ msgstr "Yüklü uygulamalar aranıyor"
-
-#~ msgid "Searching for qualifying products"
-#~ msgstr "Yenki veren uygulamalar aranıyor"
-
-#~ msgid "Searching for related applications"
-#~ msgstr "İlgili uygulamalar aranıyor"
-
-#~ msgid "Service: [1]"
-#~ msgstr "Hizmet: [1]"
-
-#~ msgid "Service: [2]"
-#~ msgstr "Hizmet: [2]"
-
-#~ msgid "Shortcut: [1]"
-#~ msgstr "Kısayol: [1]"
-
-#~ msgid "Starting services"
-#~ msgstr "Hizmetler başlatılıyor"
-
-#~ msgid "Stopping services"
-#~ msgstr "Hizmetler durduruluyor"
-
-#~ msgid "Unpublishing assembly information"
-#~ msgstr "Birleştirme bilgileri yayımlanmıyor"
-
-#~ msgid "Unpublishing Product Features"
-#~ msgstr "Ürün Özellikleri Yayımdan Kaldırılıyor"
-
-#~ msgid "Unpublishing product information"
-#~ msgstr "Ürün bilgisi yayımdan kaldırılıyor"
-
-#~ msgid "Unpublishing Qualified Components"
-#~ msgstr "Yetkili Bileşenler Yayımdan Kaldırılıyor"
-
-#~ msgid "Unregister Class servers"
-#~ msgstr "Sınıf sunucularının kaydı kaldırılıyor"
-
-#~ msgid "Unregistering COM+ Applications and Components"
-#~ msgstr ""
-#~ "Unregistering COM+ Uygulamalarının ve Bilelenlerinin kaydı kaldırılıyor"
-
-#~ msgid "Unregistering extension servers"
-#~ msgstr "Uzantı sunucularının kaydı kaldırılıyor"
-
-#~ msgid "Unregistering fonts"
-#~ msgstr "Yazı tiplerinin kaydı kaldırılıyor"
-
-#~ msgid "Unregistering MIME info"
-#~ msgstr "MIME bilgisi kaydı kaldırılıyor"
-
-#~ msgid "Unregistering modules"
-#~ msgstr "Birimlerin kaydı kaldırılıyor"
-
-#~ msgid "Unregistering program identifiers"
-#~ msgstr "Program tanıtıcılarının kaydı kaldırılıyor"
-
-#~ msgid "Unregistering type libraries"
-#~ msgstr "Tür kitaplıklarının kaydı kaldırılıyor"
-
-#~ msgid "Updating component registration"
-#~ msgstr "Bileşen kaydı güncelleştiriliyor"
-
-#~ msgid "Updating environment strings"
-#~ msgstr "Ortam ayarları güncelleştiriliyor"
-
-#~ msgid "Validating install"
-#~ msgstr "Yükleme doğrulanıyor"
-
-#~ msgid "Writing INI files values"
-#~ msgstr "INI dosya değerleri yazılıyor"
-
-#~ msgid "Writing system registry values"
-#~ msgstr "Sistem kaydı değerleri yazılıyor"
-
-#, fuzzy
-#~ msgid "&Install Now"
-#~ msgstr "Yüklü [2]"
-
-#, fuzzy
-#~ msgid "&Modify"
-#~ msgstr ""
-#~ "'[2]' ortam değişkeni güncelleştirilemedi. Ortam değişkenlerini "
-#~ "değiştirmek için yeterli ayrıcalığınızın olduğunu denetleyin."
-
-#, fuzzy
-#~ msgid "&Remove"
-#~ msgstr ""
-#~ "Bu uygulamayı kaldırmak için Yönetici olmalısınız. Bu uygulamayı "
-#~ "kaldırmak için yönetici olarak oturum açabilir veya yardım için teknik "
-#~ "destek grubuna başvurabilirsiniz."
-
-#, fuzzy
-#~ msgid "Available"
-#~ msgstr ""
-#~ "'[2]' biriminde kurtarma etkinleştirilmiş yüklemeye devam etmek için "
-#~ "yeterli boş alan yok. [3] KB gerekli, fakat sadece [4] KB kullanılabilir "
-#~ "durumda. Kurtarma bilgilerini kaydetmeden yüklemeye devam etmek için "
-#~ "Yoksay'ı tıklatın, kullanılabilir alanı yeniden denetlemek için Yeniden "
-#~ "Dene'yi tıklatın veya yüklemeden çıkmak için İptal'i tıklatın."
-
-#, fuzzy
-#~ msgid "Custom Installation"
-#~ msgstr "Yükleme başarısız oldu."
-
-#, fuzzy
-#~ msgid "Installing"
-#~ msgstr ""
-#~ "Bu ürünü yüklemek için bu bilgisayara daha önce yüklenmiş uyumlu ürünler "
-#~ "bulunamadı."
-
-#, fuzzy
-#~ msgid "KB"
-#~ msgstr ""
-#~ "Kullanılabilir kayıt defteri alanı artırılamıyor. Bu uygulamanın "
-#~ "yüklenmesi için [2] KB boş kayıt defteri alanı gerekiyor."
-
-#, fuzzy
-#~ msgid "Required"
-#~ msgstr ""
-#~ "[2] kabin dosyası dijital imzalanmadığı için gereken bir dosya "
-#~ "yüklenemiyor. Bu, kabin dosyasında bir bozulmadan kaynaklanabilir."
-
-#, fuzzy
-#~ msgid "Volume"
-#~ msgstr ""
-#~ "[2] sürücüsünde disket yok. Lütfen bir disket takın ve Yeniden Dene'yi "
-#~ "tıklatın veya daha önce seçilen sürücüye geri dönmek için İptal'i "
-#~ "tıklatın."
+"yeniden başlatmayı daha sonra el ile yapmayı düşünüyorsanız Hayır'ı "
+"tıklatın."

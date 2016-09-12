@@ -1,19 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-29 07:47+0200\n"
+"POT-Creation-Date: 2016-08-29 07:44+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: nl_NL\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
+"Language-Team: Dutch (https://www.transifex.com/eduroam_devel/teams/11799/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
-"X-Generator: Poedit 1.8.8\n"
+"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
@@ -21,8 +25,8 @@ msgid ""
 "[2] cannot install one of its required products. Contact your technical "
 "support group. {{System Error: [3].}}"
 msgstr ""
-"[2] kan een van de benodigde producten niet installeren. Neem contact op met "
-"de systeembeheerder. {{Systeemfout: [3].}}"
+"[2] kan een van de benodigde producten niet installeren. Neem contact op met"
+" de systeembeheerder. {{Systeemfout: [3].}}"
 
 #: En.Win32.Debug.Error-2.idtx:55 En.Win32.Release.Error-2.idtx:55
 #: En.x64.Debug.Error-2.idtx:55 En.x64.Release.Error-2.idtx:55
@@ -90,8 +94,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
 #: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
 msgid ""
-"A file that is required cannot be installed because the cabinet file [2] has "
-"an invalid digital signature. This may indicate that the cabinet file is "
+"A file that is required cannot be installed because the cabinet file [2] has"
+" an invalid digital signature. This may indicate that the cabinet file is "
 "corrupt.{{ Error [3] was returned by WinVerifyTrust.}}"
 msgstr ""
 "Een vereist bestand kan niet worden geïnstalleerd omdat de digitale "
@@ -135,8 +139,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
 #: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
 msgid ""
-"A portion of the folder path '[2]' is invalid. It is either empty or exceeds "
-"the length allowed by the system."
+"A portion of the folder path '[2]' is invalid. It is either empty or exceeds"
+" the length allowed by the system."
 msgstr ""
 "Een gedeelte van het pad voor de map [2] is ongeldig. Het pad is leeg of de "
 "de toegestane maximumlengte wordt overschreden."
@@ -185,8 +189,8 @@ msgstr "De advertisement is mislukt."
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
-"An error occured during the installation of assembly component [2]. HRESULT: "
-"[3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
+"An error occured during the installation of assembly component [2]. HRESULT:"
+" [3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
 msgstr ""
 "Er is een fout opgetreden tijdens de installatie van het onderdeel [2]. "
 "HRESULT: [3]. {{onderdeelinterface: [4], functie: [5], naam van onderdeel: "
@@ -201,9 +205,9 @@ msgid ""
 "click Retry, or Cancel to end the install. {{Unable to locate the user's "
 "SID, system error [3]}}"
 msgstr ""
-"Er is een fout opgetreden bij het toepassen van de beveiligingsinstellingen. "
-"[2] is geen geldige gebruiker of groep. De oorzaak kan een probleem met het "
-"pakket zijn, of er is een probleem met de verbinding met een "
+"Er is een fout opgetreden bij het toepassen van de beveiligingsinstellingen."
+" [2] is geen geldige gebruiker of groep. De oorzaak kan een probleem met het"
+" pakket zijn, of er is een probleem met de verbinding met een "
 "domeincontroller in het netwerk. Controleer de netwerkverbinding en klik op "
 "Opnieuw, of klik op Annuleren om de installatie te beëindigen. {{Kan de SID "
 "van de gebruiker niet vinden, systeemfout [3]}}"
@@ -221,8 +225,8 @@ msgid ""
 "the install."
 msgstr ""
 "Er is een fout opgetreden bij het schrijven van installatiegegevens naar de "
-"vaste schijf. Controleer of er voldoende beschikbare schijfruimte is en klik "
-"op Nogmaals, of klik op Annuleren om de installatie te beëindigen."
+"vaste schijf. Controleer of er voldoende beschikbare schijfruimte is en klik"
+" op Nogmaals, of klik op Annuleren om de installatie te beëindigen."
 
 #: En.Win32.Debug.Error-2.idtx:94 En.Win32.Release.Error-2.idtx:94
 #: En.x64.Debug.Error-2.idtx:94 En.x64.Release.Error-2.idtx:94
@@ -246,8 +250,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
 #: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
 msgid ""
-"Another application has exclusive access to the file '[2]'. Please shut down "
-"all other applications, then click Retry."
+"Another application has exclusive access to the file '[2]'. Please shut down"
+" all other applications, then click Retry."
 msgstr ""
 "Een andere toepassing heeft momenteel exclusief toegang tot bestand [2]. "
 "Sluit alle andere toepassingen af en klik op Nogmaals."
@@ -269,8 +273,8 @@ msgstr "Weet u zeker dat u de installatie wilt annuleren?"
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
 msgid ""
-"Cannot create the file '[2]'. A folder with this name already exists. Cancel "
-"the install and try installing to a different location."
+"Cannot create the file '[2]'. A folder with this name already exists. Cancel"
+" the install and try installing to a different location."
 msgstr ""
 "Kan het bestand [2] niet maken. Er bestaat al een map met deze naam. "
 "Annuleer de installatie en probeer op een andere locatie te installeren."
@@ -278,8 +282,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
 #: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
 msgid ""
-"Cannot create the folder '[2]'. A file with this name already exists. Please "
-"rename or remove the file and click retry, or click Cancel to exit."
+"Cannot create the folder '[2]'. A file with this name already exists. Please"
+" rename or remove the file and click retry, or click Cancel to exit."
 msgstr ""
 "Kan map [2] niet maken. Er bestaat al een bestand met deze naam. Wijzig de "
 "naam of verwijder het bestand en klik op Nogmaals, of klik op Annuleren om "
@@ -329,8 +333,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
 #: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
 msgid ""
-"Could not create Shortcut [2]. Verify that the destination folder exists and "
-"that you can access it."
+"Could not create Shortcut [2]. Verify that the destination folder exists and"
+" that you can access it."
 msgstr ""
 "Kan de snelkoppeling [2] niet maken. Controleer of de doelmap bestaat en of "
 "u toegang tot deze map hebt."
@@ -342,8 +346,8 @@ msgid ""
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
 "Kan sleutel [2] niet verwijderen. {{ Systeemfout [3].}} Controleer of u "
-"voldoende toegangsrechten hebt voor deze sleutel, of neem contact op met het "
-"ondersteuningspersoneel. "
+"voldoende toegangsrechten hebt voor deze sleutel, of neem contact op met het"
+" ondersteuningspersoneel. "
 
 #: En.Win32.Debug.Error-2.idtx:69 En.Win32.Release.Error-2.idtx:69
 #: En.x64.Debug.Error-2.idtx:69 En.x64.Release.Error-2.idtx:69
@@ -399,8 +403,8 @@ msgid ""
 "Could not open key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Kan sleutel [2] niet openen. {{ Systeemfout [3].}} Controleer of u voldoende "
-"toegangsrechten hebt voor deze sleutel, of neem contact op met het "
+"Kan sleutel [2] niet openen. {{ Systeemfout [3].}} Controleer of u voldoende"
+" toegangsrechten hebt voor deze sleutel, of neem contact op met het "
 "ondersteuningspersoneel. "
 
 #: En.Win32.Debug.Error-2.idtx:75 En.Win32.Release.Error-2.idtx:75
@@ -437,7 +441,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
 #: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
 msgid ""
-"Could not register type library for file [2]. Contact your support personnel."
+"Could not register type library for file [2]. Contact your support "
+"personnel."
 msgstr ""
 "Kan geen typebibliotheek registreren voor bestand [2]. Neem contact op met "
 "het ondersteuningspersoneel.)"
@@ -445,8 +450,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
 #: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
 msgid ""
-"Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
-"you can access it."
+"Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
+" you can access it."
 msgstr ""
 "Kan de snelkoppeling [2] niet verwijderen. Controleer of het "
 "snelkoppelingsbestand bestaat en of u toegang tot dit bestand hebt."
@@ -463,8 +468,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
 #: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
 msgid ""
-"Could not set file security for file '[3]'. Error: [2]. Verify that you have "
-"sufficient privileges to modify the security permissions for this file."
+"Could not set file security for file '[3]'. Error: [2]. Verify that you have"
+" sufficient privileges to modify the security permissions for this file."
 msgstr ""
 "Kan geen bestandsbeveiliging instellen voor bestand [3]. Fout: [2]. "
 "Controleer of u voldoende rechten hebt om de beveiligingsmachtigingen voor "
@@ -491,11 +496,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
 #: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
 msgid ""
-"Could not update environment variable '[2]'. Verify that you have sufficient "
-"privileges to modify environment variables."
+"Could not update environment variable '[2]'. Verify that you have sufficient"
+" privileges to modify environment variables."
 msgstr ""
-"Kan omgevingsvariabele [2] niet bijwerken. Controleer of u voldoende rechten "
-"hebt om omgevingsvariabelen te wijzigen."
+"Kan omgevingsvariabele [2] niet bijwerken. Controleer of u voldoende rechten"
+" hebt om omgevingsvariabelen te wijzigen."
 
 #: En.Win32.Debug.Error-2.idtx:140 En.Win32.Release.Error-2.idtx:140
 #: En.x64.Debug.Error-2.idtx:140 En.x64.Release.Error-2.idtx:140
@@ -503,14 +508,14 @@ msgid ""
 "Could not update the ini file [2][3]. Verify that the file exists and that "
 "you can access it."
 msgstr ""
-"Kan het INI-bestand [2][3] niet bijwerken. Controleer of het bestand bestaat "
-"en of u toegang tot dit bestand hebt."
+"Kan het INI-bestand [2][3] niet bijwerken. Controleer of het bestand bestaat"
+" en of u toegang tot dit bestand hebt."
 
 #: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
 #: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
 msgid ""
-"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
-"have sufficient access to that key, or contact your support personnel."
+"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you"
+" have sufficient access to that key, or contact your support personnel."
 msgstr ""
 "Kan waarde [2] niet schrijven naar sleutel [3]. {{ Systeemfout [4].}} "
 "Controleer of u voldoende toegangsrechten hebt voor deze sleutel, of neem "
@@ -563,14 +568,14 @@ msgid ""
 "Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
 msgstr ""
-"Fout bij het installeren van het beheerprogramma voor ODBC-stuurprogramma's, "
-"ODBC-fout [2]: [3]. Neem contact op met het ondersteuningspersoneel."
+"Fout bij het installeren van het beheerprogramma voor ODBC-stuurprogramma's,"
+" ODBC-fout [2]: [3]. Neem contact op met het ondersteuningspersoneel."
 
 #: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
 #: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
 msgid ""
-"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
-"[4] exists and that you can access it."
+"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
+" [4] exists and that you can access it."
 msgstr ""
 "Fout bij het installeren van ODBC-stuurprogramma [4], ODBC-fout [2]: [3]. "
 "Controleer of het bestand [4] bestaat en of u toegang tot dit bestand hebt."
@@ -590,8 +595,8 @@ msgid ""
 "Error reading from file: [2]. {{ System error [3].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
-"Fout bij het lezen van bestand: [2]. {{ Systeemfout [3].}} Controleer of het "
-"bestand bestaat en of u toegang tot het bestand hebt."
+"Fout bij het lezen van bestand: [2]. {{ Systeemfout [3].}} Controleer of het"
+" bestand bestaat en of u toegang tot het bestand hebt."
 
 #: En.Win32.Debug.Error-2.idtx:39 En.Win32.Release.Error-2.idtx:39
 #: En.x64.Debug.Error-2.idtx:39 En.x64.Release.Error-2.idtx:39
@@ -617,8 +622,8 @@ msgid ""
 "Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
 msgstr ""
-"Fout bij het verwijderen van het beheerprogramma voor ODBC-stuurprogramma's, "
-"ODBC-fout [2]: [3]. Neem contact op met het ondersteuningspersoneel."
+"Fout bij het verwijderen van het beheerprogramma voor ODBC-stuurprogramma's,"
+" ODBC-fout [2]: [3]. Neem contact op met het ondersteuningspersoneel."
 
 #: En.Win32.Debug.Error-2.idtx:144 En.Win32.Release.Error-2.idtx:144
 #: En.x64.Debug.Error-2.idtx:144 En.x64.Release.Error-2.idtx:144
@@ -641,7 +646,8 @@ msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
 #: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
-msgid "Error writing to file: [2]. Verify that you have access to that folder."
+msgid ""
+"Error writing to file: [2]. Verify that you have access to that folder."
 msgstr ""
 "Fout bij het schrijven naar het bestand [2]. Controleer of u toegang tot de "
 "map hebt."
@@ -740,10 +746,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
 #: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
 msgid ""
-"Module [2] failed to unregister. HRESULT [3]. Contact your support personnel."
+"Module [2] failed to unregister. HRESULT [3]. Contact your support "
+"personnel."
 msgstr ""
-"Module [2] kan de registratie niet ongedaan maken. HRESULT [3]. Neem contact "
-"op met het ondersteuningspersoneel."
+"Module [2] kan de registratie niet ongedaan maken. HRESULT [3]. Neem contact"
+" op met het ondersteuningspersoneel."
 
 #: En.Win32.Debug.Error-2.idtx:102 En.Win32.Release.Error-2.idtx:102
 #: En.x64.Debug.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
@@ -757,8 +764,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
 #: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
 msgid ""
-"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
-"[4] KB. Free some disk space and retry."
+"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
+" [4] KB. Free some disk space and retry."
 msgstr ""
 "Onvoldoende schijfruimte -- volume: [2]; benodigde schijfruimte: [3] kB; "
 "beschikbare schijfruimte: [4] kB. Maak schijfruimte vrij en probeer het "
@@ -959,26 +966,27 @@ msgid ""
 "This may indicate a problem with this package. The error code is [1]. {{The "
 "arguments are: [2], [3], [4]}}"
 msgstr ""
-"Er is een onverwachte fout opgetreden tijdens de installatie van dit pakket. "
-"Er is mogelijk een probleem met dit pakket. De foutcode is: [1]. {{De "
+"Er is een onverwachte fout opgetreden tijdens de installatie van dit pakket."
+" Er is mogelijk een probleem met dit pakket. De foutcode is: [1]. {{De "
 "schakelopties zijn: [2], [3], [4]}}."
 
 #: En.Win32.Debug.Error-2.idtx:33 En.Win32.Release.Error-2.idtx:33
 #: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
 msgid ""
 "The installer has insufficient privileges to access this folder: [2]. The "
-"installation cannot continue. Log on as administrator or contact your system "
-"administrator."
+"installation cannot continue. Log on as administrator or contact your system"
+" administrator."
 msgstr ""
-"Installer heeft onvoldoende toegangsrechten voor map [2]. De installatie kan "
-"niet worden voortgezet. Meld u aan als systeembeheerder of neem contact op "
+"Installer heeft onvoldoende toegangsrechten voor map [2]. De installatie kan"
+" niet worden voortgezet. Meld u aan als systeembeheerder of neem contact op "
 "met de systeembeheerder."
 
 #: En.Win32.Debug.Error-2.idtx:51 En.Win32.Release.Error-2.idtx:51
 #: En.x64.Debug.Error-2.idtx:51 En.x64.Release.Error-2.idtx:51
 msgid "The Installer has insufficient privileges to modify this file: [2]."
 msgstr ""
-"Installer heeft niet de juiste rechten om het bestand [2] te kunnen wijzigen."
+"Installer heeft niet de juiste rechten om het bestand [2] te kunnen "
+"wijzigen."
 
 #: En.Win32.Debug.Error-2.idtx:92 En.Win32.Release.Error-2.idtx:92
 #: En.x64.Debug.Error-2.idtx:92 En.x64.Release.Error-2.idtx:92
@@ -996,7 +1004,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
 msgid "The key [2] is not valid. Verify that you entered the correct key."
 msgstr ""
-"De sleutel [2] is ongeldig. Controleer of u de juiste sleutel hebt opgegeven."
+"De sleutel [2] is ongeldig. Controleer of u de juiste sleutel hebt "
+"opgegeven."
 
 #: En.Win32.Debug.Error-2.idtx:104 En.Win32.Release.Error-2.idtx:104
 #: En.x64.Debug.Error-2.idtx:104 En.x64.Release.Error-2.idtx:104
@@ -1040,12 +1049,10 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
 #: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2]. List of protected files:\n"
+"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
 msgstr ""
-"De Windows Installer-service kan één of meerdere beschermde Windows-"
-"bestanden niet bijwerken. {{SFP-fout: [2]. lijst met beschermde bestanden:\n"
+"De Windows Installer-service kan één of meerdere beschermde Windows-bestanden niet bijwerken. {{SFP-fout: [2]. lijst met beschermde bestanden:\n"
 "[3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:159 En.Win32.Release.Error-2.idtx:159
@@ -1067,8 +1074,8 @@ msgid ""
 "version: [4]}}"
 msgstr ""
 "Windows Installer kan het systeembestand [2] niet bijwerken, omdat het "
-"bestand door Windows is beveiligd. Voor een juiste werking van dit programma "
-"moet u het besturingssysteem mogelijk bijwerken. {{Pakketversie: [3], door "
+"bestand door Windows is beveiligd. Voor een juiste werking van dit programma"
+" moet u het besturingssysteem mogelijk bijwerken. {{Pakketversie: [3], door "
 "het besturingssysteem beveiligde versie: [4]}}"
 
 #: En.Win32.Debug.Error-2.idtx:109 En.Win32.Release.Error-2.idtx:109
@@ -1087,8 +1094,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
 msgid ""
 "There is a problem with this Windows Installer package. A DLL required for "
-"this install to complete could not be run. Contact your support personnel or "
-"package vendor. {{Action [2], entry: [3], library: [4] }}"
+"this install to complete could not be run. Contact your support personnel or"
+" package vendor. {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
 "Er is een probleem met dit Windows Installer-pakket. Een DLL-bestand dat is "
 "vereist voor het voltooien van de installatie, kan niet worden uitgevoerd. "
@@ -1111,8 +1118,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
 msgid ""
 "There is a problem with this Windows Installer package. A program run as "
-"part of the setup did not finish as expected. Contact your support personnel "
-"or package vendor. {{Action [2], location: [3], command: [4] }}"
+"part of the setup did not finish as expected. Contact your support personnel"
+" or package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
 "Er is een probleem met dit Windows Installer-pakket. Een programma dat is "
 "uitgevoerd als deel van de installatie, is niet juist afgesloten. Neem "
@@ -1161,8 +1168,8 @@ msgid ""
 "click Retry to check for available space again, or click Cancel to quit the "
 "installation."
 msgstr ""
-"Er is onvoldoende schijfruimte beschikbaar op het volume [2] om door te gaan "
-"met de optie voor herstellen ingeschakeld. Er is [3] kB benodigd voor de "
+"Er is onvoldoende schijfruimte beschikbaar op het volume [2] om door te gaan"
+" met de optie voor herstellen ingeschakeld. Er is [3] kB benodigd voor de "
 "installatie, maar er is slechts [4] kB beschikbaar. Klik op Negeren als u "
 "door wilt gaan met de installatie zonder dat herstelgegevens worden "
 "opgeslagen. Klik op Opnieuw als u nogmaals de beschikbare schijfruimte wilt "
@@ -1181,8 +1188,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
 #: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
 msgid ""
-"There was an error creating a temporary file that is needed to complete this "
-"installation.{{ Folder: [3]. System error code: [2]}}"
+"There was an error creating a temporary file that is needed to complete this"
+" installation.{{ Folder: [3]. System error code: [2]}}"
 msgstr ""
 "Er is een fout opgetreden bij het maken van een tijdelijk bestand dat nodig "
 "is voor het voltooien van de installatie. {{map: [3]. systeemfoutcode: [2]}}"
@@ -1253,8 +1260,8 @@ msgstr "Waarschuwing [1]. "
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
 msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
-"64-bit operating system. 32-bit variant will not work with your operating "
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
 "system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
@@ -1303,420 +1310,5 @@ msgid ""
 msgstr ""
 "De wijzigingen in de configuratie van [2] worden pas van kracht nadat de "
 "computer opnieuw is opgestart. Klik op Ja als u de computer nu opnieuw wilt "
-"opstarten of op Nee als u de computer later handmatig opnieuw wilt opstarten."
-
-#~ msgid "1033"
-#~ msgstr "1043"
-
-#, fuzzy
-#~ msgid "&Continue"
-#~ msgstr ""
-#~ "Er is onvoldoende schijfruimte beschikbaar op het volume [2] om door te "
-#~ "gaan met de optie voor herstellen ingeschakeld. Er is [3] kB benodigd "
-#~ "voor de installatie, maar er is slechts [4] kB beschikbaar. Klik op "
-#~ "Negeren als u door wilt gaan met de installatie zonder dat "
-#~ "herstelgegevens worden opgeslagen. Klik op Opnieuw als u nogmaals de "
-#~ "beschikbare schijfruimte wilt controleren, of klik op Annuleren als u de "
-#~ "installatie wilt afbreken."
-
-#, fuzzy
-#~ msgid "&Folder:"
-#~ msgstr "Bestand: [1], map: [2]"
-
-#, fuzzy
-#~ msgid "&Retry"
-#~ msgstr ""
-#~ "Er is een fout opgetreden bij het schrijven van installatiegegevens naar "
-#~ "de vaste schijf. Controleer of er voldoende beschikbare schijfruimte is "
-#~ "en klik op Nogmaals, of klik op Annuleren om de installatie te beëindigen."
-
-#~ msgid "[1]"
-#~ msgstr "[1]"
-
-#, fuzzy
-#~ msgid "[DlgTitleFont]Disk Space Requirements"
-#~ msgstr "Bezig met het berekenen van de benodigde schijfruimte"
-
-#~ msgid "Advertising application"
-#~ msgstr "Bezig met het aankondigen van de toepassing"
-
-#~ msgid "Allocating registry space"
-#~ msgstr "Bezig met het toewijzen van register-ruimte"
-
-#~ msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-#~ msgstr ""
-#~ "Toepassings-id: [1]{{, toepassingstype: [2], gebruikers: [3], RSN: [4]}}"
-
-#~ msgid "AppId: [1]{{, AppType: [2]}}"
-#~ msgstr "Toepassings-id: [1]{{, toepassingstype: [2]}}"
-
-#~ msgid "Application Context:[1], Assembly Name:[2]"
-#~ msgstr "Context van toepassing:[1], naam van onderdeel:[2]"
-
-#~ msgid "Application: [1]"
-#~ msgstr "Toepassing: [1]"
-
-#~ msgid "Application: [1], Command line: [2]"
-#~ msgstr "Toepassing: [1], opdrachtregel: [2]"
-
-#, fuzzy
-#~ msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-#~ msgstr "Weet u zeker dat u de installatie wilt annuleren?"
-
-#~ msgid "Binding executables"
-#~ msgstr "Bezig met het koppelen van uitvoerbare bestanden"
-
-#, fuzzy
-#~ msgid "Cancel"
-#~ msgstr ""
-#~ "Kan het bestand [2] niet maken. Er bestaat al een map met deze naam. "
-#~ "Annuleer de installatie en probeer op een andere locatie te installeren."
-
-#~ msgid "Class Id: [1]"
-#~ msgstr "Categorie-id: [1]"
-
-#~ msgid "Component ID: [1], Qualifier: [2]"
-#~ msgstr "Onderdeel-id: [1], kwalificatie: [2]"
-
-#~ msgid "Computing space requirements"
-#~ msgstr "Bezig met het berekenen van de benodigde schijfruimte"
-
-#~ msgid "Copying network install files"
-#~ msgstr "Bezig met het kopiëren van netwerkinstallatiebestanden"
-
-#~ msgid "Copying new files"
-#~ msgstr "Bezig met het kopiëren van nieuwe bestanden"
-
-#, fuzzy
-#~ msgid "Create A New Folder|"
-#~ msgstr "Bezig met het maken van mappen"
-
-#~ msgid "Creating duplicate files"
-#~ msgstr "Bezig met het maken van dubbele bestanden"
-
-#~ msgid "Creating folders"
-#~ msgstr "Bezig met het maken van mappen"
-
-#~ msgid "Creating shortcuts"
-#~ msgstr "Bezig met het maken van snelkoppelingen"
-
-#~ msgid "Deleting services"
-#~ msgstr "Bezig met het verwijderen van services"
-
-#, fuzzy
-#~ msgid "Determining required space for installation..."
-#~ msgstr "Bezig met het verzamelen van de benodigde gegevens..."
-
-#~ msgid "Evaluating launch conditions"
-#~ msgstr "Bezig met het evalueren van de voorwaarden voor het starten"
-
-#~ msgid "Extension: [1]"
-#~ msgstr "Extensie: [1]"
-
-#~ msgid "Feature: [1]"
-#~ msgstr "Functie: [1]"
-
-#~ msgid "File: [1]"
-#~ msgstr "Bestand: [1]"
-
-#~ msgid "File: [1], Dependencies: [2]"
-#~ msgstr "Bestand: [1], Afhankelijkheden: [2]"
-
-#~ msgid "File: [1], Folder: [2]"
-#~ msgstr "Bestand: [1], map: [2]"
-
-#~ msgid "File: [1], Folder: [2], Size: [3]"
-#~ msgstr "Bestand: [1], Map: [2], Grootte: [3]"
-
-#~ msgid "File: [1], Folder: [9]"
-#~ msgstr "Bestand: [1], map: [9]"
-
-#~ msgid "File: [1], Folder: [9], Size: [6]"
-#~ msgstr "Bestand: [1], Map: [9], Grootte: [6]"
-
-#~ msgid "File: [1], Section: [2], Key: [3], Value: [4]"
-#~ msgstr "Bestand: [1], sectie: [2], sleutel: [3], waarde: [4]"
-
-#, fuzzy
-#~ msgid "Folder:"
-#~ msgstr "Bestand: [1], map: [2]"
-
-#~ msgid "Folder: [1]"
-#~ msgstr "Map: [1]"
-
-#~ msgid "Font: [1]"
-#~ msgstr "Lettertype: [1]"
-
-#~ msgid "Found application: [1]"
-#~ msgstr "Gevonden toepassing: [1]"
-
-#~ msgid "Free space: [1]"
-#~ msgstr "Vrije schijfruimte: [1]"
-
-#~ msgid "Generating script operations for action:"
-#~ msgstr "Bezig met het genereren van scriptbewerkingen voor actie:"
-
-#~ msgid "Initializing ODBC folders"
-#~ msgstr "Bezig met het initialiseren van ODBC-mappen"
-
-#~ msgid "Installing new services"
-#~ msgstr "Bezig met het installeren van nieuwe services"
-
-#~ msgid "Installing ODBC components"
-#~ msgstr "Bezig met het installeren van ODBC-onderdelen"
-
-#~ msgid "Installing system catalog"
-#~ msgstr "Bezig met het installeren van systeemcatalogus"
-
-#~ msgid "Key: [1], Name: [2]"
-#~ msgstr "Sleutel: [1], Naam: [2]"
-
-#~ msgid "Key: [1], Name: [2], Value: [3]"
-#~ msgstr "Sleutel: [1], Naam: [2], Waarde: [3]"
-
-#~ msgid "LibID: [1]"
-#~ msgstr "Bibliotheek-id: [1]"
-
-#~ msgid "Migrating feature states from related applications"
-#~ msgstr ""
-#~ "Bezig met het migreren van functiestatussen van verwante toepassingen"
-
-#~ msgid "MIME Content Type: [1], Extension: [2]"
-#~ msgstr "MIME-inhoudstype: [1], extensie: [2]"
-
-#~ msgid "Moving files"
-#~ msgstr "Bezig met het verplaatsen van bestanden"
-
-#~ msgid "Name: [1], Value: [2], Action [3]"
-#~ msgstr "Naam: [1], waarde: [2], actie [3]"
-
-#~ msgid "Patching files"
-#~ msgstr "Bezig met het herstellen van bestanden"
-
-#~ msgid "ProgId: [1]"
-#~ msgstr "Programma-id: [1]"
-
-#~ msgid "Property: [1], Signature: [2]"
-#~ msgstr "Eigenschap: [1], Handtekening: [2]"
-
-#~ msgid "Publishing assembly information"
-#~ msgstr "Gegevens van onderdeel uitgeven"
-
-#~ msgid "Publishing Product Features"
-#~ msgstr "Bezig met het publiceren van productfuncties"
-
-#~ msgid "Publishing product information"
-#~ msgstr "Bezig met het publiceren van de productgegevens"
-
-#~ msgid "Publishing Qualified Components"
-#~ msgstr "Bezig met het publiceren van gekwalificeerde onderdelen"
-
-#~ msgid "Registering Class servers"
-#~ msgstr "Bezig met het registreren van categorieservers"
-
-#~ msgid "Registering COM+ Applications and Components"
-#~ msgstr "Bezig met het registreren van COM+-toepassingen en -onderdelen"
-
-#~ msgid "Registering extension servers"
-#~ msgstr "Bezig met het registreren van extensieservers"
-
-#~ msgid "Registering fonts"
-#~ msgstr "Bezig met het registreren van lettertypen"
-
-#~ msgid "Registering MIME info"
-#~ msgstr "Bezig met het registreren van MIME-gegevens"
-
-#~ msgid "Registering modules"
-#~ msgstr "Bezig met het registreren van modules"
-
-#~ msgid "Registering product"
-#~ msgstr "Bezig met het registreren van het product"
-
-#~ msgid "Registering program identifiers"
-#~ msgstr "Bezig met het registreren van programma-id's"
-
-#~ msgid "Registering type libraries"
-#~ msgstr "Bezig met het registreren van typebibliotheken"
-
-#~ msgid "Registering user"
-#~ msgstr "Bezig met het registreren van de gebruiker"
-
-#, fuzzy
-#~ msgid "Removal"
-#~ msgstr "Het verwijderen is voltooid."
-
-#, fuzzy
-#~ msgid "Removing"
-#~ msgstr "Bezig met het verwijderen van ingangen van INI-bestanden"
-
-#~ msgid "Removing applications"
-#~ msgstr "Bezig met het verwijderen van toepassingen"
-
-#~ msgid "Removing backup files"
-#~ msgstr "Bezig met het verwijderen van reservekopiebestanden"
-
-#~ msgid "Removing duplicated files"
-#~ msgstr "Bezig met het verwijderen van gekopieerde bestanden"
-
-#~ msgid "Removing files"
-#~ msgstr "Bezig met het verwijderen van bestanden"
-
-#~ msgid "Removing folders"
-#~ msgstr "Bezig met het verwijderen van mappen"
-
-#~ msgid "Removing INI files entries"
-#~ msgstr "Bezig met het verwijderen van ingangen van INI-bestanden"
-
-#~ msgid "Removing moved files"
-#~ msgstr "Bezig met het verwijderen van verplaatste bestanden"
-
-#~ msgid "Removing ODBC components"
-#~ msgstr "Bezig met het verwijderen van ODBC-onderdelen"
-
-#~ msgid "Removing shortcuts"
-#~ msgstr "Bezig met het verwijderen van snelkoppelingen"
-
-#~ msgid "Removing system registry values"
-#~ msgstr "Bezig met het verwijderen van systeemregisterwaarden"
-
-#~ msgid "Rolling back action:"
-#~ msgstr "Terugdraai-actie:"
-
-#~ msgid "Searching for installed applications"
-#~ msgstr "Bezig met het zoeken naar geïnstalleerde toepassingen"
-
-#~ msgid "Searching for qualifying products"
-#~ msgstr "Bezig met het zoeken naar in aanmerking komende producten"
-
-#~ msgid "Searching for related applications"
-#~ msgstr "Bezig met het zoeken naar verwante toepassingen"
-
-#~ msgid "Service: [1]"
-#~ msgstr "Service: [1]"
-
-#~ msgid "Service: [2]"
-#~ msgstr "Service: [2]"
-
-#~ msgid "Shortcut: [1]"
-#~ msgstr "Snelkoppeling: [1]"
-
-#~ msgid "Starting services"
-#~ msgstr "Bezig met het starten van services"
-
-#~ msgid "Stopping services"
-#~ msgstr "Bezig met het beëindigen van services"
-
-#~ msgid "Unpublishing assembly information"
-#~ msgstr "Gegevens van onderdeel innemen"
-
-#~ msgid "Unpublishing Product Features"
-#~ msgstr "Bezig met het ongedaan maken van de publicatie van productfuncties"
-
-#~ msgid "Unpublishing product information"
-#~ msgstr "Bezig met het ongedaan maken van de publicatie van productgegevens"
-
-#~ msgid "Unpublishing Qualified Components"
-#~ msgstr ""
-#~ "Bezig met het ongedaan maken van de publicatie van gekwalificeerde "
-#~ "onderdelen"
-
-#~ msgid "Unregister Class servers"
-#~ msgstr ""
-#~ "Bezig met het ongedaan maken van de registratie van categorieservers"
-
-#~ msgid "Unregistering COM+ Applications and Components"
-#~ msgstr ""
-#~ "Bezig met het ongedaan maken van de registratie van COM+-toepassingen en -"
-#~ "onderdelen"
-
-#~ msgid "Unregistering extension servers"
-#~ msgstr "Bezig met het ongedaan maken van de registratie van extensieservers"
-
-#~ msgid "Unregistering fonts"
-#~ msgstr "Bezig met het ongedaan maken van de registratie van lettertypen"
-
-#~ msgid "Unregistering MIME info"
-#~ msgstr "Bezig met het ongedaan maken van de registratie van MIME-gegevens"
-
-#~ msgid "Unregistering modules"
-#~ msgstr "Bezig met het ongedaan maken van de registratie van modules"
-
-#~ msgid "Unregistering program identifiers"
-#~ msgstr "Bezig met het ongedaan maken van de registratie van programma-id's"
-
-#~ msgid "Unregistering type libraries"
-#~ msgstr ""
-#~ "Bezig met het ongedaan maken van de registratie van typebibliotheken"
-
-#~ msgid "Updating component registration"
-#~ msgstr "Bezig met het bijwerken van de registratie van de onderdelen"
-
-#~ msgid "Updating environment strings"
-#~ msgstr "Bezig met het bijwerken van omgevingsstrings"
-
-#~ msgid "Validating install"
-#~ msgstr "Bezig met het valideren van de installatie"
-
-#~ msgid "Writing INI files values"
-#~ msgstr "Bezig met het schrijven van waarden voor INI-bestanden"
-
-#~ msgid "Writing system registry values"
-#~ msgstr "Bezig met het schrijven van systeemregisterwaarden"
-
-#, fuzzy
-#~ msgid "&Install Now"
-#~ msgstr "Geïnstalleerd: [2]"
-
-#, fuzzy
-#~ msgid "&Modify"
-#~ msgstr ""
-#~ "Kan omgevingsvariabele [2] niet bijwerken. Controleer of u voldoende "
-#~ "rechten hebt om omgevingsvariabelen te wijzigen."
-
-#, fuzzy
-#~ msgid "&Remove"
-#~ msgstr ""
-#~ "Alleen beheerders kunnen deze toepassing verwijderen. Als u deze "
-#~ "toepassing wilt verwijderen, dient u zich aan te melden als beheerder of "
-#~ "kunt u voor ondersteuning contact opnemen met technische ondersteuning."
-
-#, fuzzy
-#~ msgid "Available"
-#~ msgstr ""
-#~ "Er is onvoldoende schijfruimte beschikbaar op het volume [2] om door te "
-#~ "gaan met de optie voor herstellen ingeschakeld. Er is [3] kB benodigd "
-#~ "voor de installatie, maar er is slechts [4] kB beschikbaar. Klik op "
-#~ "Negeren als u door wilt gaan met de installatie zonder dat "
-#~ "herstelgegevens worden opgeslagen. Klik op Opnieuw als u nogmaals de "
-#~ "beschikbare schijfruimte wilt controleren, of klik op Annuleren als u de "
-#~ "installatie wilt afbreken."
-
-#, fuzzy
-#~ msgid "Custom Installation"
-#~ msgstr "De installatie is mislukt."
-
-#, fuzzy
-#~ msgid "Installing"
-#~ msgstr ""
-#~ "Kan geen eerder geïnstalleerde compatibele producten op de computer "
-#~ "vinden om dit product te installeren."
-
-#, fuzzy
-#~ msgid "KB"
-#~ msgstr ""
-#~ "Kan de beschikbare register-ruimte niet vergroten. Voor de installatie "
-#~ "van deze toepassing is [2] kB aan vrije ruimte voor het register nodig."
-
-#, fuzzy
-#~ msgid "Required"
-#~ msgstr ""
-#~ "Een vereist bestand kan niet worden geïnstalleerd omdat het CAB-bestand "
-#~ "[2] niet digitaal is ondertekend. Dit geeft aan dat het CAB-bestand "
-#~ "beschadigd is."
-
-#, fuzzy
-#~ msgid "Volume"
-#~ msgstr ""
-#~ "Station [2] bevat geen diskette. Plaats een diskette in het station en "
-#~ "klik op Nogmaals. Klik op Annuleren als u terug wilt keren naar het "
-#~ "eerder geselecteerde volume."
+"opstarten of op Nee als u de computer later handmatig opnieuw wilt "
+"opstarten."

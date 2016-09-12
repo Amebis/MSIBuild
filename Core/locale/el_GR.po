@@ -1,19 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-29 07:44+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: el_GR\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
+"Language-Team: Greek (https://www.transifex.com/eduroam_devel/teams/11799/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
-"X-Generator: Poedit 1.8.8\n"
+"Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
@@ -90,12 +94,12 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
 #: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
 msgid ""
-"A file that is required cannot be installed because the cabinet file [2] has "
-"an invalid digital signature. This may indicate that the cabinet file is "
+"A file that is required cannot be installed because the cabinet file [2] has"
+" an invalid digital signature. This may indicate that the cabinet file is "
 "corrupt.{{ Error [3] was returned by WinVerifyTrust.}}"
 msgstr ""
-"Ένα αρχείο που απαιτείται δεν μπορεί να εγκατασταθεί επειδή η αρχειοθήκη [2] "
-"έχει μη έγκυρη ψηφιακή υπογραφή. Αυτό ίσως δείχνει ότι η αρχειοθήκη είναι "
+"Ένα αρχείο που απαιτείται δεν μπορεί να εγκατασταθεί επειδή η αρχειοθήκη [2]"
+" έχει μη έγκυρη ψηφιακή υπογραφή. Αυτό ίσως δείχνει ότι η αρχειοθήκη είναι "
 "κατεστραμμένη.{{ Σφάλμα [3] επιστράφηκε από το WinVerifyTrust.}}"
 
 #: En.Win32.Debug.Error-2.idtx:59 En.Win32.Release.Error-2.idtx:59
@@ -104,8 +108,8 @@ msgid ""
 "A file that is required cannot be installed because the cabinet file [2] is "
 "not digitally signed. This may indicate that the cabinet file is corrupt."
 msgstr ""
-"Ένα αρχείο που απαιτείται δεν μπορεί να εγκατασταθεί επειδή η αρχειοθήκη [2] "
-"δεν είναι ψηφιακά υπογεγραμμένη. Αυτό ίσως δείχνει ότι η αρχειοθήκη είναι "
+"Ένα αρχείο που απαιτείται δεν μπορεί να εγκατασταθεί επειδή η αρχειοθήκη [2]"
+" δεν είναι ψηφιακά υπογεγραμμένη. Αυτό ίσως δείχνει ότι η αρχειοθήκη είναι "
 "κατεστραμμένη."
 
 #: En.Win32.Debug.Error-2.idtx:48 En.Win32.Release.Error-2.idtx:48
@@ -128,7 +132,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:46 En.x64.Release.Error-2.idtx:46
 msgid "A network error occurred while attempting to read from the file: [2]"
 msgstr ""
-"Παρουσιάστηκε σφάλμα δικτύου κατά την προσπάθεια ανάγνωσης από το αρχείο: [2]"
+"Παρουσιάστηκε σφάλμα δικτύου κατά την προσπάθεια ανάγνωσης από το αρχείο: "
+"[2]"
 
 #: En.Win32.Debug.CustomAction-2.idtx:5 En.Win32.Release.CustomAction-2.idtx:5
 #: En.x64.Debug.CustomAction-2.idtx:4 En.x64.Release.CustomAction-2.idtx:4
@@ -138,8 +143,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
 #: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
 msgid ""
-"A portion of the folder path '[2]' is invalid. It is either empty or exceeds "
-"the length allowed by the system."
+"A portion of the folder path '[2]' is invalid. It is either empty or exceeds"
+" the length allowed by the system."
 msgstr ""
 "Ένα τμήμα της διαδρομής \"[2]\" του φακέλου δεν είναι έγκυρο. Είτε είναι "
 "κενό είτε υπερβαίνει το μήκος που επιτρέπεται από το σύστημα."
@@ -190,8 +195,8 @@ msgstr "Η διαφήμιση απέτυχε."
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
-"An error occured during the installation of assembly component [2]. HRESULT: "
-"[3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
+"An error occured during the installation of assembly component [2]. HRESULT:"
+" [3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
 msgstr ""
 "Παρουσιάστηκε σφάλμα κατά την εγκατάσταση του στοιχείου συναρμολόγησης "
 "(assembly component) [2]. HRESULT: [3]. {{διασύνδεση συναρμολόγησης: [4], "
@@ -237,8 +242,8 @@ msgid ""
 "An installation for [2] is currently suspended. You must undo the changes "
 "made by that installation to continue. Do you want to undo those changes?"
 msgstr ""
-"Η εγκατάσταση του [2] έχει ανασταλεί προς το παρόν. Πρέπει να αναιρέσετε τις "
-"αλλαγές που έγιναν από αυτήν την εγκατάσταση για να συνεχίσετε. Θέλετε να "
+"Η εγκατάσταση του [2] έχει ανασταλεί προς το παρόν. Πρέπει να αναιρέσετε τις"
+" αλλαγές που έγιναν από αυτήν την εγκατάσταση για να συνεχίσετε. Θέλετε να "
 "αναιρέσετε αυτές τις αλλαγές;"
 
 #: En.Win32.Debug.Error-2.idtx:96 En.Win32.Release.Error-2.idtx:96
@@ -254,11 +259,12 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
 #: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
 msgid ""
-"Another application has exclusive access to the file '[2]'. Please shut down "
-"all other applications, then click Retry."
+"Another application has exclusive access to the file '[2]'. Please shut down"
+" all other applications, then click Retry."
 msgstr ""
-"Μια άλλη εφαρμογή έχει αποκλειστικά δικαιώματα πρόσβασης στο αρχείο \"[2]\". "
-"Τερματίστε όλες τις άλλες εφαρμογές και κάντε κλικ στο κουμπί \"Επανάληψη\"."
+"Μια άλλη εφαρμογή έχει αποκλειστικά δικαιώματα πρόσβασης στο αρχείο \"[2]\"."
+" Τερματίστε όλες τις άλλες εφαρμογές και κάντε κλικ στο κουμπί "
+"\"Επανάληψη\"."
 
 #: En.Win32.Debug.Error-2.idtx:77 En.Win32.Release.Error-2.idtx:77
 #: En.x64.Debug.Error-2.idtx:77 En.x64.Release.Error-2.idtx:77
@@ -277,8 +283,8 @@ msgstr "Είστε βέβαιοι ότι θέλετε να κάνετε ακύρ
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
 msgid ""
-"Cannot create the file '[2]'. A folder with this name already exists. Cancel "
-"the install and try installing to a different location."
+"Cannot create the file '[2]'. A folder with this name already exists. Cancel"
+" the install and try installing to a different location."
 msgstr ""
 "Δεν είναι δυνατή η δημιουργία του αρχείου \"[2]\". Υπάρχει ήδη ένας "
 "κατάλογος με αυτό το όνομα. Ακυρώστε τη διαδικασία εγκατάστασης και "
@@ -287,8 +293,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
 #: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
 msgid ""
-"Cannot create the folder '[2]'. A file with this name already exists. Please "
-"rename or remove the file and click retry, or click Cancel to exit."
+"Cannot create the folder '[2]'. A file with this name already exists. Please"
+" rename or remove the file and click retry, or click Cancel to exit."
 msgstr ""
 "Δεν είναι δυνατή η δημιουργία του καταλόγου \"[2]\". Υπάρχει ήδη ένα αρχείο "
 "με αυτό το όνομα. Μετονομάστε ή καταργήστε το αρχείο και κάντε κλικ στο "
@@ -339,8 +345,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
 #: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
 msgid ""
-"Could not create Shortcut [2]. Verify that the destination folder exists and "
-"that you can access it."
+"Could not create Shortcut [2]. Verify that the destination folder exists and"
+" that you can access it."
 msgstr ""
 "Δεν ήταν δυνατή η δημιουργία της συντόμευσης [2]. Βεβαιωθείτε ότι ο φάκελος "
 "προορισμού υπάρχει και ότι έχετε πρόσβαση σε αυτόν."
@@ -380,9 +386,9 @@ msgid ""
 "Could not get sub key names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
-"Δεν ήταν δυνατή η λήψη ονομάτων δευτερευόντων κλειδιών για το κλειδί [2]. "
-"{{ Σφάλμα συστήματος [3].}} Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα "
-"πρόσβασης σε αυτό το κλειδί ή επικοινωνήστε με το προσωπικό υποστήριξης."
+"Δεν ήταν δυνατή η λήψη ονομάτων δευτερευόντων κλειδιών για το κλειδί [2]. {{"
+" Σφάλμα συστήματος [3].}} Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα πρόσβασης "
+"σε αυτό το κλειδί ή επικοινωνήστε με το προσωπικό υποστήριξης."
 
 #: En.Win32.Debug.Error-2.idtx:73 En.Win32.Release.Error-2.idtx:73
 #: En.x64.Debug.Error-2.idtx:73 En.x64.Release.Error-2.idtx:73
@@ -400,8 +406,8 @@ msgid ""
 "Could not increase the available registry space. [2] KB of free registry "
 "space is required for the installation of this application."
 msgstr ""
-"Δεν ήταν δυνατή η αύξηση του διαθέσιμου χώρου στο μητρώο. Απαιτούνται [2] KB "
-"ελεύθερου χώρου στο μητρώο για την εγκατάσταση αυτής της εφαρμογής."
+"Δεν ήταν δυνατή η αύξηση του διαθέσιμου χώρου στο μητρώο. Απαιτούνται [2] KB"
+" ελεύθερου χώρου στο μητρώο για την εγκατάσταση αυτής της εφαρμογής."
 
 #: En.Win32.Debug.Error-2.idtx:68 En.Win32.Release.Error-2.idtx:68
 #: En.x64.Debug.Error-2.idtx:68 En.x64.Release.Error-2.idtx:68
@@ -420,9 +426,9 @@ msgid ""
 "Verify that you have sufficient access to that key, or contact your support "
 "personnel."
 msgstr ""
-"Δεν ήταν δυνατή η ανάγνωση πληροφοριών ασφαλείας για το κλειδί [2]. "
-"{{ Σφάλμα συστήματος [3].}} Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα "
-"πρόσβασης σε αυτό το κλειδί ή επικοινωνήστε με το προσωπικό υποστήριξης."
+"Δεν ήταν δυνατή η ανάγνωση πληροφοριών ασφαλείας για το κλειδί [2]. {{ "
+"Σφάλμα συστήματος [3].}} Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα πρόσβασης "
+"σε αυτό το κλειδί ή επικοινωνήστε με το προσωπικό υποστήριξης."
 
 #: En.Win32.Debug.Error-2.idtx:71 En.Win32.Release.Error-2.idtx:71
 #: En.x64.Debug.Error-2.idtx:71 En.x64.Release.Error-2.idtx:71
@@ -447,7 +453,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
 #: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
 msgid ""
-"Could not register type library for file [2]. Contact your support personnel."
+"Could not register type library for file [2]. Contact your support "
+"personnel."
 msgstr ""
 "Δεν ήταν δυνατή η καταχώρηση της βιβλιοθήκης τύπων για το αρχείο [2]. "
 "Επικοινωνήστε με το προσωπικό υποστήριξης."
@@ -455,8 +462,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
 #: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
 msgid ""
-"Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
-"you can access it."
+"Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
+" you can access it."
 msgstr ""
 "Δεν ήταν δυνατή η κατάργηση της συντόμευσης [2]. Βεβαιωθείτε ότι το αρχείο "
 "συντόμευσης υπάρχει και ότι έχετε πρόσβαση σε αυτό."
@@ -474,8 +481,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
 #: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
 msgid ""
-"Could not set file security for file '[3]'. Error: [2]. Verify that you have "
-"sufficient privileges to modify the security permissions for this file."
+"Could not set file security for file '[3]'. Error: [2]. Verify that you have"
+" sufficient privileges to modify the security permissions for this file."
 msgstr ""
 "Δεν ήταν δυνατό να οριστεί ασφάλεια αρχείου για το αρχείο \"[3]\". Σφάλμα: "
 "[2]. Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα για την τροποποίηση των "
@@ -502,8 +509,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
 #: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
 msgid ""
-"Could not update environment variable '[2]'. Verify that you have sufficient "
-"privileges to modify environment variables."
+"Could not update environment variable '[2]'. Verify that you have sufficient"
+" privileges to modify environment variables."
 msgstr ""
 "Δεν ήταν δυνατή η ενημέρωση της μεταβλητής περιβάλλοντος \"[2]\". "
 "Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα για την τροποποίηση μεταβλητών "
@@ -521,12 +528,12 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
 #: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
 msgid ""
-"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
-"have sufficient access to that key, or contact your support personnel."
+"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you"
+" have sufficient access to that key, or contact your support personnel."
 msgstr ""
 "Δεν ήταν δυνατή η εγγραφή τιμής [2] στο κλειδί [3]. {{ Σφάλμα συστήματος "
-"[4].}} Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα πρόσβασης σε αυτό το κλειδί ή "
-"επικοινωνήστε με το προσωπικό υποστήριξης."
+"[4].}} Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα πρόσβασης σε αυτό το κλειδί ή"
+" επικοινωνήστε με το προσωπικό υποστήριξης."
 
 #: En.Win32.Debug.Error-2.idtx:78 En.Win32.Release.Error-2.idtx:78
 #: En.x64.Debug.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
@@ -535,8 +542,8 @@ msgid ""
 "configured properly and try the install again."
 msgstr ""
 "Παρουσιάστηκε σφάλμα κατά την πρόσβαση σε ασφαλή δεδομένα. Βεβαιωθείτε ότι "
-"οι παράμετροι του Windows Installer έχουν ρυθμιστεί σωστά και προσπαθήστε να "
-"κάνετε πάλι εγκατάσταση."
+"οι παράμετροι του Windows Installer έχουν ρυθμιστεί σωστά και προσπαθήστε να"
+" κάνετε πάλι εγκατάσταση."
 
 #: En.Win32.Debug.Error-2.idtx:58 En.Win32.Release.Error-2.idtx:58
 #: En.x64.Debug.Error-2.idtx:58 En.x64.Release.Error-2.idtx:58
@@ -546,10 +553,10 @@ msgid ""
 "contact your patch vendor. {{System Error: [3]}}"
 msgstr ""
 "Παρουσιάστηκε σφάλμα κατά την εφαρμογή της ενημερωμένης έκδοσης κώδικα στο "
-"αρχείο [2]. Ίσως να έχει ενημερωθεί από άλλα μέσα και δεν είναι πλέον δυνατή "
-"η τροποποίησή του από αυτήν την ενημερωμένη έκδοση κώδικα. Για περισσότερες "
-"πληροφορίες επικοινωνήστε με τον προμηθευτή της ενημερωμένης έκδοσης κώδικα. "
-"{{Σφάλμα συστήματος: [3]}}"
+"αρχείο [2]. Ίσως να έχει ενημερωθεί από άλλα μέσα και δεν είναι πλέον δυνατή"
+" η τροποποίησή του από αυτήν την ενημερωμένη έκδοση κώδικα. Για περισσότερες"
+" πληροφορίες επικοινωνήστε με τον προμηθευτή της ενημερωμένης έκδοσης "
+"κώδικα. {{Σφάλμα συστήματος: [3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:128 En.Win32.Release.Error-2.idtx:128
 #: En.x64.Debug.Error-2.idtx:128 En.x64.Release.Error-2.idtx:128
@@ -587,8 +594,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
 #: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
 msgid ""
-"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
-"[4] exists and that you can access it."
+"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
+" [4] exists and that you can access it."
 msgstr ""
 "Παρουσιάστηκε σφάλμα κατά την εγκατάσταση του προγράμματος οδήγησης ODBC: "
 "[4], σφάλμα ODBC [2]: [3]. Βεβαιωθείτε ότι το αρχείο [4] υπάρχει και ότι "
@@ -649,8 +656,8 @@ msgid ""
 "Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you have "
 "sufficient privileges to remove ODBC drivers."
 msgstr ""
-"Παρουσιάστηκε σφάλμα κατά την κατάργηση του προγράμματος οδήγησης ODBC: [4], "
-"σφάλμα ODBC [2]: [3]. Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα για την "
+"Παρουσιάστηκε σφάλμα κατά την κατάργηση του προγράμματος οδήγησης ODBC: [4],"
+" σφάλμα ODBC [2]: [3]. Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα για την "
 "κατάργηση προγραμμάτων οδήγησης ODBC."
 
 #: En.Win32.Debug.Error-2.idtx:156 En.Win32.Release.Error-2.idtx:156
@@ -664,10 +671,11 @@ msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
 #: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
-msgid "Error writing to file: [2]. Verify that you have access to that folder."
+msgid ""
+"Error writing to file: [2]. Verify that you have access to that folder."
 msgstr ""
-"Παρουσιάστηκε σφάλμα κατά την εγγραφή στο αρχείο: [2]. Βεβαιωθείτε ότι έχετε "
-"πρόσβαση σε αυτόν τον κατάλογο."
+"Παρουσιάστηκε σφάλμα κατά την εγγραφή στο αρχείο: [2]. Βεβαιωθείτε ότι έχετε"
+" πρόσβαση σε αυτόν τον κατάλογο."
 
 #: En.Win32.Debug.Error-2.idtx:40 En.Win32.Release.Error-2.idtx:40
 #: En.x64.Debug.Error-2.idtx:40 En.x64.Release.Error-2.idtx:40
@@ -762,7 +770,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
 #: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
 msgid ""
-"Module [2] failed to unregister. HRESULT [3]. Contact your support personnel."
+"Module [2] failed to unregister. HRESULT [3]. Contact your support "
+"personnel."
 msgstr ""
 "Δεν ήταν δυνατή η κατάργηση της καταχώρησης της λειτουργικής μονάδας [2]. "
 "HRESULT [3]. Επικοινωνήστε με το προσωπικό υποστήριξης."
@@ -773,19 +782,19 @@ msgid ""
 "One or more of the files required to restore your computer to its previous "
 "state could not be found. Restoration will not be possible."
 msgstr ""
-"Δεν ήταν δυνατή η εύρεση ενός ή περισσότερων αρχείων που απαιτούνται για την "
-"επαναφορά του υπολογιστή σας στην προηγούμενή του κατάσταση. Δεν θα είναι "
+"Δεν ήταν δυνατή η εύρεση ενός ή περισσότερων αρχείων που απαιτούνται για την"
+" επαναφορά του υπολογιστή σας στην προηγούμενή του κατάσταση. Δεν θα είναι "
 "δυνατή η επαναφορά."
 
 #: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
 #: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
 msgid ""
-"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
-"[4] KB. Free some disk space and retry."
+"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
+" [4] KB. Free some disk space and retry."
 msgstr ""
-"Εξαντλήθηκε ο ελεύθερος χώρος στο δίσκο -- Τόμος: '[2]'; απαιτούμενος χώρος: "
-"[3] KB; διαθέσιμος χώρος: [4] KB. Αποδεσμεύστε χώρο στο δίσκο και δοκιμάστε "
-"πάλι."
+"Εξαντλήθηκε ο ελεύθερος χώρος στο δίσκο -- Τόμος: '[2]'; απαιτούμενος χώρος:"
+" [3] KB; διαθέσιμος χώρος: [4] KB. Αποδεσμεύστε χώρο στο δίσκο και δοκιμάστε"
+" πάλι."
 
 #: En.Win32.Debug.Error-2.idtx:122 En.Win32.Debug.Error-2.idtx:21
 #: En.Win32.Release.Error-2.idtx:122 En.Win32.Release.Error-2.idtx:21
@@ -880,8 +889,8 @@ msgid ""
 "Service '[2]' ([3]) could not be stopped. Verify that you have sufficient "
 "privileges to stop system services."
 msgstr ""
-"Δεν ήταν δυνατή η διακοπή της υπηρεσίας \"[2]\" ([3]). Βεβαιωθείτε ότι έχετε "
-"επαρκή δικαιώματα για τη διακοπή υπηρεσιών συστήματος."
+"Δεν ήταν δυνατή η διακοπή της υπηρεσίας \"[2]\" ([3]). Βεβαιωθείτε ότι έχετε"
+" επαρκή δικαιώματα για τη διακοπή υπηρεσιών συστήματος."
 
 #: En.Win32.Debug.Error-2.idtx:147 En.Win32.Release.Error-2.idtx:147
 #: En.x64.Debug.Error-2.idtx:147 En.x64.Release.Error-2.idtx:147
@@ -889,8 +898,8 @@ msgid ""
 "Service '[2]' ([3]) failed to start. Verify that you have sufficient "
 "privileges to start system services."
 msgstr ""
-"Η εκκίνηση της υπηρεσίας \"[2]\" ([3]) απέτυχε. Βεβαιωθείτε ότι έχετε επαρκή "
-"δικαιώματα για την εκκίνηση υπηρεσιών συστήματος."
+"Η εκκίνηση της υπηρεσίας \"[2]\" ([3]) απέτυχε. Βεβαιωθείτε ότι έχετε επαρκή"
+" δικαιώματα για την εκκίνηση υπηρεσιών συστήματος."
 
 #: En.Win32.Debug.Error-2.idtx:38 En.Win32.Release.Error-2.idtx:38
 #: En.x64.Debug.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
@@ -898,8 +907,8 @@ msgid ""
 "Source file not found: [2]. Verify that the file exists and that you can "
 "access it."
 msgstr ""
-"Το αρχείο προέλευσης δεν βρέθηκε: [2]. Βεβαιωθείτε ότι το αρχείο υπάρχει και "
-"ότι έχετε πρόσβαση σε αυτό."
+"Το αρχείο προέλευσης δεν βρέθηκε: [2]. Βεβαιωθείτε ότι το αρχείο υπάρχει και"
+" ότι έχετε πρόσβαση σε αυτό."
 
 #: En.Win32.Debug.Error-2.idtx:41 En.Win32.Release.Error-2.idtx:41
 #: En.x64.Debug.Error-2.idtx:41 En.x64.Release.Error-2.idtx:41
@@ -934,8 +943,8 @@ msgid ""
 "cabinet file '[3]'. This could indicate a network error, an error reading "
 "from the CD-ROM, or a problem with this package."
 msgstr ""
-"Δεν είναι δυνατή η εγκατάσταση του αρχείου '[2]' επειδή το αρχείο δεν μπορεί "
-"να βρεθεί στην αρχειοθήκη '[3]'. Αυτό ίσως δηλώνει κάποιο σφάλμα δικτύου, "
+"Δεν είναι δυνατή η εγκατάσταση του αρχείου '[2]' επειδή το αρχείο δεν μπορεί"
+" να βρεθεί στην αρχειοθήκη '[3]'. Αυτό ίσως δηλώνει κάποιο σφάλμα δικτύου, "
 "κάποιο σφάλμα ανάγνωσης από το CD-ROM ή κάποιο πρόβλημα με αυτό το πακέτο."
 
 #: En.Win32.Debug.Error-2.idtx:83 En.Win32.Release.Error-2.idtx:83
@@ -992,11 +1001,11 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
 msgid ""
 "The installer has insufficient privileges to access this folder: [2]. The "
-"installation cannot continue. Log on as administrator or contact your system "
-"administrator."
+"installation cannot continue. Log on as administrator or contact your system"
+" administrator."
 msgstr ""
-"Το Installer δεν διαθέτει επαρκή δικαιώματα πρόσβασης σε αυτόν τον κατάλογο: "
-"[2]. Δεν είναι δυνατό να συνεχιστεί η εγκατάσταση. Συνδεθείτε ως "
+"Το Installer δεν διαθέτει επαρκή δικαιώματα πρόσβασης σε αυτόν τον κατάλογο:"
+" [2]. Δεν είναι δυνατό να συνεχιστεί η εγκατάσταση. Συνδεθείτε ως "
 "διαχειριστής ή επικοινωνήστε με το διαχειριστή του συστήματός σας."
 
 #: En.Win32.Debug.Error-2.idtx:51 En.Win32.Release.Error-2.idtx:51
@@ -1065,13 +1074,10 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
 #: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2]. List of protected files:\n"
+"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
 msgstr ""
-"Η υπηρεσία Windows Installer δεν είναι δυνατό να ενημερώσει ένα ή "
-"περισσότερα προστατευμένα αρχεία των Windows. {{Σφάλμα SFP: [2]. Λίστα "
-"προστατευμένων αρχείων:\n"
+"Η υπηρεσία Windows Installer δεν είναι δυνατό να ενημερώσει ένα ή περισσότερα προστατευμένα αρχεία των Windows. {{Σφάλμα SFP: [2]. Λίστα προστατευμένων αρχείων:\n"
 "[3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:159 En.Win32.Release.Error-2.idtx:159
@@ -1081,8 +1087,8 @@ msgid ""
 "{{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
 msgstr ""
 "Δεν είναι δυνατή η ενημέρωση του προστατευμένου αρχείου των Windows [2] από "
-"την υπηρεσία Windows Installer. {{Έκδοση πακέτου: [3], Έκδοση προστατευμένου "
-"λειτουργικού συστήματος: [4], Σφάλμα SFP: [5]}}"
+"την υπηρεσία Windows Installer. {{Έκδοση πακέτου: [3], Έκδοση προστατευμένου"
+" λειτουργικού συστήματος: [4], Σφάλμα SFP: [5]}}"
 
 #: En.Win32.Debug.Error-2.idtx:158 En.Win32.Release.Error-2.idtx:158
 #: En.x64.Debug.Error-2.idtx:158 En.x64.Release.Error-2.idtx:158
@@ -1094,8 +1100,8 @@ msgid ""
 msgstr ""
 "Δεν είναι δυνατή η ενημέρωση του αρχείου συστήματος [2] από την υπηρεσία "
 "Windows Installer, επειδή το αρχείο προστατεύεται από τα Windows. Ίσως "
-"χρειαστεί να ενημερώσετε το λειτουργικό σας σύστημα ώστε να λειτουργεί σωστά "
-"αυτό το πρόγραμμα. {{Έκδοση πακέτου: [3], Έκδοση προστατευμένου OS: [4]}}"
+"χρειαστεί να ενημερώσετε το λειτουργικό σας σύστημα ώστε να λειτουργεί σωστά"
+" αυτό το πρόγραμμα. {{Έκδοση πακέτου: [3], Έκδοση προστατευμένου OS: [4]}}"
 
 #: En.Win32.Debug.Error-2.idtx:109 En.Win32.Release.Error-2.idtx:109
 #: En.x64.Debug.Error-2.idtx:109 En.x64.Release.Error-2.idtx:109
@@ -1113,13 +1119,13 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
 msgid ""
 "There is a problem with this Windows Installer package. A DLL required for "
-"this install to complete could not be run. Contact your support personnel or "
-"package vendor. {{Action [2], entry: [3], library: [4] }}"
+"this install to complete could not be run. Contact your support personnel or"
+" package vendor. {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
 "Υπάρχει κάποιο πρόβλημα με αυτό το πακέτο του Windows Installer. Δεν ήταν "
 "δυνατή η εκτέλεση ενός DLL που απαιτείται για την ολοκλήρωση αυτής της "
-"εγκατάστασης. Επικοινωνήστε με το προσωπικό υποστήριξης ή τον προμηθευτή του "
-"πακέτου. {{Ενέργεια: [2], καταχώρηση: [3], βιβλιοθήκη: [4] }}"
+"εγκατάστασης. Επικοινωνήστε με το προσωπικό υποστήριξης ή τον προμηθευτή του"
+" πακέτου. {{Ενέργεια: [2], καταχώρηση: [3], βιβλιοθήκη: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:111 En.Win32.Release.Error-2.idtx:111
 #: En.x64.Debug.Error-2.idtx:111 En.x64.Release.Error-2.idtx:111
@@ -1130,15 +1136,15 @@ msgid ""
 msgstr ""
 "Υπάρχει κάποιο πρόβλημα με αυτό το πακέτο του Windows Installer. Δεν ήταν "
 "δυνατή η εκτέλεση ενός προγράμματος που απαιτείται για την ολοκλήρωση αυτής "
-"της εγκατάστασης. Επικοινωνήστε με το προσωπικό υποστήριξης ή τον προμηθευτή "
-"του πακέτου. {{Ενέργεια: [2], θέση: [3], εντολή: [4] }}"
+"της εγκατάστασης. Επικοινωνήστε με το προσωπικό υποστήριξης ή τον προμηθευτή"
+" του πακέτου. {{Ενέργεια: [2], θέση: [3], εντολή: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:112 En.Win32.Release.Error-2.idtx:112
 #: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
 msgid ""
 "There is a problem with this Windows Installer package. A program run as "
-"part of the setup did not finish as expected. Contact your support personnel "
-"or package vendor. {{Action [2], location: [3], command: [4] }}"
+"part of the setup did not finish as expected. Contact your support personnel"
+" or package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
 "Υπάρχει κάποιο πρόβλημα με αυτό το πακέτο του Windows Installer. Ένα "
 "πρόγραμμα που εκτελείται ως μέρος της εγκατάστασης δεν τελείωσε όπως "
@@ -1156,8 +1162,8 @@ msgstr ""
 "Υπάρχει κάποιο πρόβλημα με αυτό το πακέτο του Windows Installer. Δεν ήταν "
 "δυνατή η εκτέλεση μιας δέσμης ενεργειών που απαιτείται για την ολοκλήρωση "
 "αυτής της εγκατάστασης. Επικοινωνήστε με το προσωπικό υποστήριξης ή τον "
-"προμηθευτή του πακέτου. {{Προσαρμοσμένη ενέργεια [2] σφάλμα δέσμης ενεργειών "
-"[3], [4]: [5] Γραμμή [6], Στήλη [7], [8] }}"
+"προμηθευτή του πακέτου. {{Προσαρμοσμένη ενέργεια [2] σφάλμα δέσμης ενεργειών"
+" [3], [4]: [5] Γραμμή [6], Στήλη [7], [8] }}"
 
 #: En.Win32.Debug.Error-2.idtx:123 En.Win32.Release.Error-2.idtx:123
 #: En.x64.Debug.Error-2.idtx:123 En.x64.Release.Error-2.idtx:123
@@ -1193,9 +1199,9 @@ msgstr ""
 "εγκατάσταση με την ανάκτηση ενεργοποιημένη. Απαιτούνται [3] KB, αλλά "
 "υπάρχουν διαθέσιμα μόνο [4] KB. Όταν είναι απενεργοποιημένη η λειτουργία "
 "επαναφοράς, υπάρχει αρκετός χώρος διαθέσιμος. Κάντε κλικ στο κουμπί "
-"\"Παράβλεψη\" για να συνεχίσετε την εγκατάσταση χωρίς αποθήκευση πληροφοριών "
-"ανάκτησης, στο κουμπί \"Επανάληψη\" για να ελέγξετε πάλι τον διαθέσιμο χώρο "
-"ή στο κουμπί \"Άκυρο\" για να κλείσετε την εγκατάσταση."
+"\"Παράβλεψη\" για να συνεχίσετε την εγκατάσταση χωρίς αποθήκευση πληροφοριών"
+" ανάκτησης, στο κουμπί \"Επανάληψη\" για να ελέγξετε πάλι τον διαθέσιμο χώρο"
+" ή στο κουμπί \"Άκυρο\" για να κλείσετε την εγκατάσταση."
 
 #: En.Win32.Debug.Error-2.idtx:37 En.Win32.Release.Error-2.idtx:37
 #: En.x64.Debug.Error-2.idtx:37 En.x64.Release.Error-2.idtx:37
@@ -1210,8 +1216,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
 #: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
 msgid ""
-"There was an error creating a temporary file that is needed to complete this "
-"installation.{{ Folder: [3]. System error code: [2]}}"
+"There was an error creating a temporary file that is needed to complete this"
+" installation.{{ Folder: [3]. System error code: [2]}}"
 msgstr ""
 "Παρουσιάστηκε σφάλμα κατά τη δημιουργία ενός προσωρινού αρχείου που "
 "χρειάζεται για την ολοκλήρωση της εγκατάστασης.{{ Φάκελος: [3]. Κωδικός "
@@ -1254,8 +1260,8 @@ msgid ""
 "User '[2]' has previously initiated an install for product '[3]'. That user "
 "will need to run that install again before they can use that product."
 msgstr ""
-"Ο χρήστης \"[2]\" εκκίνησε νωρίτερα μια εγκατάσταση για το προϊόν \"[3]\". Ο "
-"χρήστης θα πρέπει να εκτελέσει ξανά την εγκατάσταση, για να είναι δυνατή η "
+"Ο χρήστης \"[2]\" εκκίνησε νωρίτερα μια εγκατάσταση για το προϊόν \"[3]\". Ο"
+" χρήστης θα πρέπει να εκτελέσει ξανά την εγκατάσταση, για να είναι δυνατή η "
 "χρήση του προϊόντος."
 
 #: En.Win32.Debug.Error-2.idtx:79 En.Win32.Release.Error-2.idtx:79
@@ -1265,15 +1271,16 @@ msgid ""
 "will need to run that install again before they can use that product. Your "
 "current install will now continue."
 msgstr ""
-"Ο χρήστης \"[2]\" εκκίνησε νωρίτερα μια εγκατάσταση για το προϊόν \"[3]\". Ο "
-"χρήστης θα πρέπει να εκτελέσει ξανά την εγκατάσταση, για να είναι δυνατή η "
+"Ο χρήστης \"[2]\" εκκίνησε νωρίτερα μια εγκατάσταση για το προϊόν \"[3]\". Ο"
+" χρήστης θα πρέπει να εκτελέσει ξανά την εγκατάσταση, για να είναι δυνατή η "
 "χρήση του προϊόντος. Η τρέχουσα εγκατάσταση θα συνεχιστεί τώρα."
 
 #: En.Win32.Debug.Error-2.idtx:161 En.Win32.Release.Error-2.idtx:161
 #: En.x64.Debug.Error-2.idtx:161 En.x64.Release.Error-2.idtx:161
 msgid "User installations are disabled via policy on the machine."
 msgstr ""
-"Οι εγκαταστάσεις χρήστη έχουν απενεργοποιηθεί μέσω πολιτικής στον υπολογιστή."
+"Οι εγκαταστάσεις χρήστη έχουν απενεργοποιηθεί μέσω πολιτικής στον "
+"υπολογιστή."
 
 #: En.Win32.Debug.Error-2.idtx:6 En.Win32.Release.Error-2.idtx:6
 #: En.x64.Debug.Error-2.idtx:6 En.x64.Release.Error-2.idtx:6
@@ -1282,8 +1289,8 @@ msgstr "Προειδοποίηση [1]. "
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
 msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
-"64-bit operating system. 32-bit variant will not work with your operating "
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
 "system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
@@ -1334,414 +1341,3 @@ msgstr ""
 "αλλαγές που έγιναν στις ρυθμίσεις των παραμέτρων του [2]. Κάντε κλικ στο "
 "κουμπί \"Ναι\" για να γίνει επανεκκίνηση τώρα ή στο κουμπί \"Όχι\" εάν "
 "θέλετε να κάνετε επανεκκίνηση αργότερα."
-
-#~ msgid "1033"
-#~ msgstr "1032"
-
-#, fuzzy
-#~ msgid "&Continue"
-#~ msgstr ""
-#~ "Δεν υπάρχει αρκετός χώρος στο δίσκο στον τόμο '[2]' για να συνεχιστεί η "
-#~ "εγκατάσταση με την ανάκτηση ενεργοποιημένη. Απαιτούνται [3] KB, αλλά "
-#~ "υπάρχουν διαθέσιμα μόνο [4] KB. Όταν είναι απενεργοποιημένη η λειτουργία "
-#~ "επαναφοράς, υπάρχει αρκετός χώρος διαθέσιμος. Κάντε κλικ στο κουμπί "
-#~ "\"Παράβλεψη\" για να συνεχίσετε την εγκατάσταση χωρίς αποθήκευση "
-#~ "πληροφοριών ανάκτησης, στο κουμπί \"Επανάληψη\" για να ελέγξετε πάλι τον "
-#~ "διαθέσιμο χώρο ή στο κουμπί \"Άκυρο\" για να κλείσετε την εγκατάσταση."
-
-#, fuzzy
-#~ msgid "&Folder:"
-#~ msgstr "Αρχείο: [1], Φάκελος: [2]"
-
-#, fuzzy
-#~ msgid "&Retry"
-#~ msgstr ""
-#~ "Παρουσιάστηκε σφάλμα κατά την εγγραφή των πληροφοριών εγκατάστασης στο "
-#~ "δίσκο. Βεβαιωθείτε ότι υπάρχει αρκετός διαθέσιμος χώρος στο δίσκο και "
-#~ "κάντε κλικ στο κουμπί \"Επανάληψη\" ή στο κουμπί \"Άκυρο\" για να "
-#~ "τερματίσετε την εγκατάσταση."
-
-#~ msgid "[1]"
-#~ msgstr "[1]"
-
-#, fuzzy
-#~ msgid "[DlgTitleFont]Disk Space Requirements"
-#~ msgstr "Υπολογισμός απαιτήσεων χώρου"
-
-#~ msgid "Advertising application"
-#~ msgstr "Κοινοποίηση εφαρμογής"
-
-#~ msgid "Allocating registry space"
-#~ msgstr "Εκχώρηση χώρου μητρώου"
-
-#~ msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-#~ msgstr "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-
-#~ msgid "AppId: [1]{{, AppType: [2]}}"
-#~ msgstr "AppId: [1]{{, AppType: [2]}}"
-
-#~ msgid "Application Context:[1], Assembly Name:[2]"
-#~ msgstr "Περιβάλλον εφαρμογής:[1], Όνομα συναρμολόγησης:[2]"
-
-#~ msgid "Application: [1]"
-#~ msgstr "Εφαρμογή: [1]"
-
-#~ msgid "Application: [1], Command line: [2]"
-#~ msgstr "Εφαρμογή: [1], Γραμμή εντολών: [2]"
-
-#, fuzzy
-#~ msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-#~ msgstr "Είστε βέβαιοι ότι θέλετε να κάνετε ακύρωση;"
-
-#~ msgid "Binding executables"
-#~ msgstr "Σύνδεση εκτελέσιμων αρχείων"
-
-#, fuzzy
-#~ msgid "Cancel"
-#~ msgstr ""
-#~ "Δεν είναι δυνατή η δημιουργία του αρχείου \"[2]\". Υπάρχει ήδη ένας "
-#~ "κατάλογος με αυτό το όνομα. Ακυρώστε τη διαδικασία εγκατάστασης και "
-#~ "δοκιμάστε να κάνετε εγκατάσταση σε άλλη θέση."
-
-#~ msgid "Class Id: [1]"
-#~ msgstr "Αναγνωριστικό κλάσης: [1]"
-
-#~ msgid "Component ID: [1], Qualifier: [2]"
-#~ msgstr "Αναγνωριστικό στοιχείου: [1], Προσδιοριστικό: [2]"
-
-#~ msgid "Computing space requirements"
-#~ msgstr "Υπολογισμός απαιτήσεων χώρου"
-
-#~ msgid "Copying network install files"
-#~ msgstr "Αντιγραφή αρχείων εγκατάστασης δικτύου"
-
-#~ msgid "Copying new files"
-#~ msgstr "Αντιγραφή νέων αρχείων"
-
-#, fuzzy
-#~ msgid "Create A New Folder|"
-#~ msgstr "Δημιουργία φακέλων"
-
-#~ msgid "Creating duplicate files"
-#~ msgstr "Δημιουργία διπλών αρχείων"
-
-#~ msgid "Creating folders"
-#~ msgstr "Δημιουργία φακέλων"
-
-#~ msgid "Creating shortcuts"
-#~ msgstr "Δημιουργία συντομεύσεων"
-
-#~ msgid "Deleting services"
-#~ msgstr "Διαγραφή υπηρεσιών"
-
-#, fuzzy
-#~ msgid "Determining required space for installation..."
-#~ msgstr "Συγκέντρωση απαιτούμενων πληροφοριών..."
-
-#~ msgid "Evaluating launch conditions"
-#~ msgstr "Αξιολόγηση συνθηκών εκκίνησης"
-
-#~ msgid "Extension: [1]"
-#~ msgstr "Επέκταση: [1]"
-
-#~ msgid "Feature: [1]"
-#~ msgstr "Δυνατότητα: [1]"
-
-#~ msgid "File: [1]"
-#~ msgstr "Αρχείο: [1]"
-
-#~ msgid "File: [1], Dependencies: [2]"
-#~ msgstr "Αρχείο: [1], Εξαρτώμενα: [2]"
-
-#~ msgid "File: [1], Folder: [2]"
-#~ msgstr "Αρχείο: [1], Φάκελος: [2]"
-
-#~ msgid "File: [1], Folder: [2], Size: [3]"
-#~ msgstr "Αρχείο: [1], Κατάλογος: [2], Μέγεθος: [3]"
-
-#~ msgid "File: [1], Folder: [9]"
-#~ msgstr "Αρχείο: [1], Κατάλογος: [9]"
-
-#~ msgid "File: [1], Folder: [9], Size: [6]"
-#~ msgstr "Αρχείο: [1], Κατάλογος: [9], Μέγεθος: [6]"
-
-#~ msgid "File: [1], Section: [2], Key: [3], Value: [4]"
-#~ msgstr "Αρχείο: [1], Ενότητα: [2], Κλειδί: [3], Τιμή: [4]"
-
-#, fuzzy
-#~ msgid "Folder:"
-#~ msgstr "Αρχείο: [1], Φάκελος: [2]"
-
-#~ msgid "Folder: [1]"
-#~ msgstr "Φάκελος: [1]"
-
-#~ msgid "Font: [1]"
-#~ msgstr "Γραμματοσειρά: [1]"
-
-#~ msgid "Found application: [1]"
-#~ msgstr "Βρέθηκε η εφαρμογή: [1]"
-
-#~ msgid "Free space: [1]"
-#~ msgstr "Ελεύθερος χώρος: [1]"
-
-#~ msgid "Generating script operations for action:"
-#~ msgstr "Δημιουργία λειτουργιών δέσμης ενεργειών για την ενέργεια:"
-
-#~ msgid "Initializing ODBC folders"
-#~ msgstr "Προετοιμασία καταλόγων ODBC"
-
-#~ msgid "Installing new services"
-#~ msgstr "Εγκατάσταση νέων υπηρεσιών"
-
-#~ msgid "Installing ODBC components"
-#~ msgstr "Εγκατάσταση στοιχείων ODBC"
-
-#~ msgid "Installing system catalog"
-#~ msgstr "Εγκατάσταση καταλόγου συστήματος"
-
-#~ msgid "Key: [1], Name: [2]"
-#~ msgstr "Κλειδί: [1], Όνομα: [2]"
-
-#~ msgid "Key: [1], Name: [2], Value: [3]"
-#~ msgstr "Κλειδί: [1], Όνομα: [2], Τιμή: [3]"
-
-#~ msgid "LibID: [1]"
-#~ msgstr "LibID: [1]"
-
-#~ msgid "Migrating feature states from related applications"
-#~ msgstr "Μεταφορά παραμέτρων από συναφείς εφαρμογές"
-
-#~ msgid "MIME Content Type: [1], Extension: [2]"
-#~ msgstr "Τύπος περιεχομένων MIME: [1], Επέκταση: [2]"
-
-#~ msgid "Moving files"
-#~ msgstr "Μετακίνηση αρχείων"
-
-#~ msgid "Name: [1], Value: [2], Action [3]"
-#~ msgstr "Όνομα: [1], Τιμή: [2], Ενέργεια [3]"
-
-#~ msgid "Patching files"
-#~ msgstr "Ενημέρωση αρχείων"
-
-#~ msgid "ProgId: [1]"
-#~ msgstr "ProgId: [1]"
-
-#~ msgid "Property: [1], Signature: [2]"
-#~ msgstr "Ιδιότητα: [1], Υπογραφή: [2]"
-
-#~ msgid "Publishing assembly information"
-#~ msgstr "Δημοσίευση πληροφοριών συναρμολόγησης"
-
-#~ msgid "Publishing Product Features"
-#~ msgstr "Δημοσίευση δυνατοτήτων προϊόντος"
-
-#~ msgid "Publishing product information"
-#~ msgstr "Δημοσίευση πληροφοριών προϊόντος"
-
-#~ msgid "Publishing Qualified Components"
-#~ msgstr "Δημοσίευση κατάλληλων στοιχείων"
-
-#~ msgid "Registering Class servers"
-#~ msgstr "Καταχώρηση διακομιστών κλάσης"
-
-#~ msgid "Registering COM+ Applications and Components"
-#~ msgstr "Καταχώρηση εφαρμογών και στοιχείων COM+"
-
-#~ msgid "Registering extension servers"
-#~ msgstr "Καταχώρηση διακομιστών επεκτάσεων"
-
-#~ msgid "Registering fonts"
-#~ msgstr "Καταχώρηση γραμματοσειρών"
-
-#~ msgid "Registering MIME info"
-#~ msgstr "Καταχώρηση πληροφοριών MIME"
-
-#~ msgid "Registering modules"
-#~ msgstr "Καταχώρηση λειτουργικών μονάδων"
-
-#~ msgid "Registering product"
-#~ msgstr "Δήλωση προϊόντος"
-
-#~ msgid "Registering program identifiers"
-#~ msgstr "Καταχώρηση αναγνωριστικών προγράμματος"
-
-#~ msgid "Registering type libraries"
-#~ msgstr "Καταχώρηση βιβλιοθηκών τύπων"
-
-#~ msgid "Registering user"
-#~ msgstr "Καταχώρηση χρήστη"
-
-#, fuzzy
-#~ msgid "Removal"
-#~ msgstr "Η κατάργηση ολοκληρώθηκε με επιτυχία."
-
-#, fuzzy
-#~ msgid "Removing"
-#~ msgstr "Κατάργηση καταχωρήσεων αρχείων INI"
-
-#~ msgid "Removing applications"
-#~ msgstr "Κατάργηση εφαρμογών"
-
-#~ msgid "Removing backup files"
-#~ msgstr "Κατάργηση αρχείων αντιγράφων ασφαλείας"
-
-#~ msgid "Removing duplicated files"
-#~ msgstr "Κατάργηση διπλών αρχείων"
-
-#~ msgid "Removing files"
-#~ msgstr "Κατάργηση αρχείων"
-
-#~ msgid "Removing folders"
-#~ msgstr "Κατάργηση φακέλων"
-
-#~ msgid "Removing INI files entries"
-#~ msgstr "Κατάργηση καταχωρήσεων αρχείων INI"
-
-#~ msgid "Removing moved files"
-#~ msgstr "Κατάργηση αρχείων που έχουν μετακινηθεί"
-
-#~ msgid "Removing ODBC components"
-#~ msgstr "Κατάργηση στοιχείων ODBC"
-
-#~ msgid "Removing shortcuts"
-#~ msgstr "Κατάργηση συντομεύσεων"
-
-#~ msgid "Removing system registry values"
-#~ msgstr "Κατάργηση τιμών μητρώου συστήματος"
-
-#~ msgid "Rolling back action:"
-#~ msgstr "Επαναφορά ενέργειας:"
-
-#~ msgid "Searching for installed applications"
-#~ msgstr "Αναζήτηση εγκατεστημένων εφαρμογών"
-
-#~ msgid "Searching for qualifying products"
-#~ msgstr "Αναζήτηση κατάλληλων προϊόντων"
-
-#~ msgid "Searching for related applications"
-#~ msgstr "Αναζήτηση σχετικών εφαρμογών"
-
-#~ msgid "Service: [1]"
-#~ msgstr "Υπηρεσία: [1]"
-
-#~ msgid "Service: [2]"
-#~ msgstr "Υπηρεσία: [2]"
-
-#~ msgid "Shortcut: [1]"
-#~ msgstr "Συντόμευση: [1]"
-
-#~ msgid "Starting services"
-#~ msgstr "Εκκίνηση υπηρεσιών"
-
-#~ msgid "Stopping services"
-#~ msgstr "Διακοπή υπηρεσιών"
-
-#~ msgid "Unpublishing assembly information"
-#~ msgstr "Κατάργηση δημοσίευσης πληροφοριών συναρμολόγησης"
-
-#~ msgid "Unpublishing Product Features"
-#~ msgstr "Κατάργηση δημοσίευσης δυνατοτήτων προϊόντος"
-
-#~ msgid "Unpublishing product information"
-#~ msgstr "Κατάργηση δημοσίευσης πληροφοριών προϊόντος"
-
-#~ msgid "Unpublishing Qualified Components"
-#~ msgstr "Κατάργηση δημοσίευσης κατάλληλων στοιχείων"
-
-#~ msgid "Unregister Class servers"
-#~ msgstr "Κατάργηση καταχώρησης διακομιστών κλάσης"
-
-#~ msgid "Unregistering COM+ Applications and Components"
-#~ msgstr "Κατάργηση καταχώρησης εφαρμογών και στοιχείων COM+"
-
-#~ msgid "Unregistering extension servers"
-#~ msgstr "Κατάργηση καταχώρησης διακομιστών επεκτάσεων"
-
-#~ msgid "Unregistering fonts"
-#~ msgstr "Κατάργηση καταχώρησης γραμματοσειρών"
-
-#~ msgid "Unregistering MIME info"
-#~ msgstr "Κατάργηση καταχώρησης πληροφοριών MIME"
-
-#~ msgid "Unregistering modules"
-#~ msgstr "Κατάργηση καταχώρησης λειτουργικών μονάδων"
-
-#~ msgid "Unregistering program identifiers"
-#~ msgstr "Κατάργηση καταχώρησης αναγνωριστικών προγράμματος"
-
-#~ msgid "Unregistering type libraries"
-#~ msgstr "Κατάργηση καταχώρησης βιβλιοθηκών τύπων"
-
-#~ msgid "Updating component registration"
-#~ msgstr "Ενημέρωση καταχώρησης στοιχείου"
-
-#~ msgid "Updating environment strings"
-#~ msgstr "Ενημέρωση συμβολοσειρών περιβάλλοντος"
-
-#~ msgid "Validating install"
-#~ msgstr "Επικύρωση εγκατάστασης"
-
-#~ msgid "Writing INI files values"
-#~ msgstr "Εγγραφή τιμών αρχείων INI"
-
-#~ msgid "Writing system registry values"
-#~ msgstr "Εγγραφή τιμών μητρώου συστήματος"
-
-#, fuzzy
-#~ msgid "&Install Now"
-#~ msgstr "Εγκατάσταση [2]"
-
-#, fuzzy
-#~ msgid "&Modify"
-#~ msgstr ""
-#~ "Δεν ήταν δυνατή η ενημέρωση της μεταβλητής περιβάλλοντος \"[2]\". "
-#~ "Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα για την τροποποίηση μεταβλητών "
-#~ "περιβάλλοντος."
-
-#, fuzzy
-#~ msgid "&Remove"
-#~ msgstr ""
-#~ "Πρέπει να είστε διαχειριστής για να καταργήσετε αυτήν την εφαρμογή. Για "
-#~ "να καταργήσετε την εφαρμογή, συνδεθείτε ως διαχειριστής (Administrator) ή "
-#~ "επικοινωνήστε με την ομάδα τεχνικής υποστήριξης για βοήθεια."
-
-#, fuzzy
-#~ msgid "Available"
-#~ msgstr ""
-#~ "Δεν υπάρχει αρκετός χώρος στο δίσκο στον τόμο '[2]' για να συνεχιστεί η "
-#~ "εγκατάσταση με την ανάκτηση ενεργοποιημένη. Απαιτούνται [3] KB, αλλά "
-#~ "υπάρχουν διαθέσιμα μόνο [4] KB. Όταν είναι απενεργοποιημένη η λειτουργία "
-#~ "επαναφοράς, υπάρχει αρκετός χώρος διαθέσιμος. Κάντε κλικ στο κουμπί "
-#~ "\"Παράβλεψη\" για να συνεχίσετε την εγκατάσταση χωρίς αποθήκευση "
-#~ "πληροφοριών ανάκτησης, στο κουμπί \"Επανάληψη\" για να ελέγξετε πάλι τον "
-#~ "διαθέσιμο χώρο ή στο κουμπί \"Άκυρο\" για να κλείσετε την εγκατάσταση."
-
-#, fuzzy
-#~ msgid "Custom Installation"
-#~ msgstr "Η εγκατάσταση απέτυχε."
-
-#, fuzzy
-#~ msgid "Installing"
-#~ msgstr ""
-#~ "Δεν ήταν δυνατή η εύρεση συμβατών προϊόντων που έχουν ήδη εγκατασταθεί "
-#~ "στον υπολογιστή για την εγκατάσταση αυτού του προϊόντος."
-
-#, fuzzy
-#~ msgid "KB"
-#~ msgstr ""
-#~ "Δεν ήταν δυνατή η αύξηση του διαθέσιμου χώρου στο μητρώο. Απαιτούνται [2] "
-#~ "KB ελεύθερου χώρου στο μητρώο για την εγκατάσταση αυτής της εφαρμογής."
-
-#, fuzzy
-#~ msgid "Required"
-#~ msgstr ""
-#~ "Ένα αρχείο που απαιτείται δεν μπορεί να εγκατασταθεί επειδή η αρχειοθήκη "
-#~ "[2] δεν είναι ψηφιακά υπογεγραμμένη. Αυτό ίσως δείχνει ότι η αρχειοθήκη "
-#~ "είναι κατεστραμμένη."
-
-#, fuzzy
-#~ msgid "Volume"
-#~ msgstr ""
-#~ "Δεν υπάρχει δισκέτα στη μονάδα [2]. Τοποθετήστε μια δισκέτα και κάντε "
-#~ "κλικ στο κουμπί \"Επανάληψη\" ή κάντε κλικ στο κουμπί \"Άκυρο\" για να "
-#~ "επιστρέψετε στον τόμο που είχε επιλεγεί προηγουμένως."

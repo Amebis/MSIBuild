@@ -1,19 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-29 07:46+0200\n"
+"POT-Creation-Date: 2016-08-29 07:44+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: hu_HU\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
+"Language-Team: Hungarian (https://www.transifex.com/eduroam_devel/teams/11799/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
-"X-Generator: Poedit 1.8.8\n"
+"Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
@@ -90,8 +94,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
 #: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
 msgid ""
-"A file that is required cannot be installed because the cabinet file [2] has "
-"an invalid digital signature. This may indicate that the cabinet file is "
+"A file that is required cannot be installed because the cabinet file [2] has"
+" an invalid digital signature. This may indicate that the cabinet file is "
 "corrupt.{{ Error [3] was returned by WinVerifyTrust.}}"
 msgstr ""
 "Egy szükséges fájlt nem lehetett telepíteni, mert a kabinetfájl ([2]) "
@@ -133,8 +137,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
 #: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
 msgid ""
-"A portion of the folder path '[2]' is invalid. It is either empty or exceeds "
-"the length allowed by the system."
+"A portion of the folder path '[2]' is invalid. It is either empty or exceeds"
+" the length allowed by the system."
 msgstr ""
 "A mappa elérési útjának ('[2]') az egyik része érvénytelen. Üres, vagy "
 "meghaladja a rendszer által engedélyezett hosszúságot."
@@ -183,8 +187,8 @@ msgstr "A közzététel nem sikerült."
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
-"An error occured during the installation of assembly component [2]. HRESULT: "
-"[3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
+"An error occured during the installation of assembly component [2]. HRESULT:"
+" [3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
 msgstr ""
 "Hiba történt az összetevő ([2]) telepítése közben. HRESULT: [3]. {{felület: "
 "[4], függvény: [5], összeállítás neve: [6]}}"
@@ -199,10 +203,11 @@ msgid ""
 "SID, system error [3]}}"
 msgstr ""
 "Hiba történt a biztonsági beállítások alkalmazása közben. [2] nem érvényes "
-"felhasználó vagy csoport. Ez lehet a csomag hibája, vagy probléma a hálózati "
-"tartományvezérlőhöz való kapcsolódással. Ellenőrizze a hálózati kapcsolatot, "
-"majd kattintson az Ismét gombra, vagy, a telepítés befejezéséhez, a Mégse "
-"gombra. {{A felhasználó helyazonosítója nem található, rendszerhiba: [3]}}"
+"felhasználó vagy csoport. Ez lehet a csomag hibája, vagy probléma a hálózati"
+" tartományvezérlőhöz való kapcsolódással. Ellenőrizze a hálózati "
+"kapcsolatot, majd kattintson az Ismét gombra, vagy, a telepítés "
+"befejezéséhez, a Mégse gombra. {{A felhasználó helyazonosítója nem "
+"található, rendszerhiba: [3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:47 En.Win32.Release.Error-2.idtx:47
 #: En.x64.Debug.Error-2.idtx:47 En.x64.Release.Error-2.idtx:47
@@ -242,8 +247,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
 #: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
 msgid ""
-"Another application has exclusive access to the file '[2]'. Please shut down "
-"all other applications, then click Retry."
+"Another application has exclusive access to the file '[2]'. Please shut down"
+" all other applications, then click Retry."
 msgstr ""
 "Egy másik alkalmazásnak kizárólagos hozzáférése van a(z) '[2]' fájlhoz. "
 "Zárjon be minden más alkalmazást, és kattintson az Ismét gombra."
@@ -265,17 +270,17 @@ msgstr "Biztos, hogy megszakítja a telepítést?"
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
 msgid ""
-"Cannot create the file '[2]'. A folder with this name already exists. Cancel "
-"the install and try installing to a different location."
+"Cannot create the file '[2]'. A folder with this name already exists. Cancel"
+" the install and try installing to a different location."
 msgstr ""
-"A(z) '[2]' fájlt nem lehet létrehozni, mert ilyen nevű könyvtár már létezik. "
-"Szakítsa meg a telepítést, és próbáljon meg egy másik helyre telepíteni."
+"A(z) '[2]' fájlt nem lehet létrehozni, mert ilyen nevű könyvtár már létezik."
+" Szakítsa meg a telepítést, és próbáljon meg egy másik helyre telepíteni."
 
 #: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
 #: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
 msgid ""
-"Cannot create the folder '[2]'. A file with this name already exists. Please "
-"rename or remove the file and click retry, or click Cancel to exit."
+"Cannot create the folder '[2]'. A file with this name already exists. Please"
+" rename or remove the file and click retry, or click Cancel to exit."
 msgstr ""
 "A(z) '[2]' könyvtárat nem lehet létrehozni. Ezzel a névvel már létezik egy "
 "fájl. Törölje vagy nevezze át a fájlt, és kattintson az Ismét gombra, vagy "
@@ -319,14 +324,14 @@ msgid ""
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
 "A következő kulcsot nem lehet létrehozni: [2]. {{ Rendszerhiba [3].}} "
-"Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési joggal a kulcshoz, vagy "
-"forduljon a technikusokhoz. "
+"Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési joggal a kulcshoz, vagy"
+" forduljon a technikusokhoz. "
 
 #: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
 #: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
 msgid ""
-"Could not create Shortcut [2]. Verify that the destination folder exists and "
-"that you can access it."
+"Could not create Shortcut [2]. Verify that the destination folder exists and"
+" that you can access it."
 msgstr ""
 "A(z) [2] parancsikon létrehozása nem sikerült. Ellenőrizze, hogy a célmappa "
 "létezik-e, és hogy el tudja-e érni."
@@ -366,8 +371,8 @@ msgid ""
 "Could not get sub key names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
-"Nem sikerült a(z) [2] kulcshoz tartozó alkulcsokat betölteni. "
-"{{ Rendszerhiba [3].}} Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési "
+"Nem sikerült a(z) [2] kulcshoz tartozó alkulcsokat betölteni. {{ "
+"Rendszerhiba [3].}} Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési "
 "joggal a kulcshoz, vagy forduljon a technikusokhoz."
 
 #: En.Win32.Debug.Error-2.idtx:73 En.Win32.Release.Error-2.idtx:73
@@ -376,8 +381,8 @@ msgid ""
 "Could not get value names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
-"Nem sikerült a(z) [2] kulcshoz tartozó értékneveket betölteni. "
-"{{ Rendszerhiba [3].}} Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési "
+"Nem sikerült a(z) [2] kulcshoz tartozó értékneveket betölteni. {{ "
+"Rendszerhiba [3].}} Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési "
 "joggal a kulcshoz, vagy forduljon a technikusokhoz."
 
 #: En.Win32.Debug.Error-2.idtx:76 En.Win32.Release.Error-2.idtx:76
@@ -396,8 +401,8 @@ msgid ""
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
 "A következő kulcsot nem sikerült megnyitni: [2]. {{ Rendszerhiba [3].}} "
-"Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési joggal a kulcshoz, vagy "
-"forduljon a technikusokhoz. "
+"Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési joggal a kulcshoz, vagy"
+" forduljon a technikusokhoz. "
 
 #: En.Win32.Debug.Error-2.idtx:75 En.Win32.Release.Error-2.idtx:75
 #: En.x64.Debug.Error-2.idtx:75 En.x64.Release.Error-2.idtx:75
@@ -406,9 +411,9 @@ msgid ""
 "Verify that you have sufficient access to that key, or contact your support "
 "personnel."
 msgstr ""
-"A(z) [2] kulcshoz tartozó adatbiztonsági információ beolvasása nem sikerült. "
-"{{ Rendszerhiba [3].}} Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési "
-"joggal a kulcshoz, vagy forduljon a technikusokhoz."
+"A(z) [2] kulcshoz tartozó adatbiztonsági információ beolvasása nem sikerült."
+" {{ Rendszerhiba [3].}} Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési"
+" joggal a kulcshoz, vagy forduljon a technikusokhoz."
 
 #: En.Win32.Debug.Error-2.idtx:71 En.Win32.Release.Error-2.idtx:71
 #: En.x64.Debug.Error-2.idtx:71 En.x64.Release.Error-2.idtx:71
@@ -417,8 +422,8 @@ msgid ""
 "you have sufficient access to that key, or contact your support personnel. "
 msgstr ""
 "A(z) [3] kulcsban a(z) [2] érték nem olvasható. {{ Rendszerhiba [4].}} "
-"Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési joggal a kulcshoz, vagy "
-"forduljon a technikusokhoz. "
+"Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési joggal a kulcshoz, vagy"
+" forduljon a technikusokhoz. "
 
 #: En.Win32.Debug.Error-2.idtx:134 En.Win32.Release.Error-2.idtx:134
 #: En.x64.Debug.Error-2.idtx:134 En.x64.Release.Error-2.idtx:134
@@ -427,13 +432,14 @@ msgid ""
 "install fonts, and that the system supports this font."
 msgstr ""
 "A(z) [2] betűkészlet regisztrációja nem sikerült. Ellenőrizze, hogy "
-"rendelkezik-e a betűkészletek telepítéséhez szükséges engedélyekkel, és hogy "
-"a rendszer támogatja-e ezt a betűkészletet."
+"rendelkezik-e a betűkészletek telepítéséhez szükséges engedélyekkel, és hogy"
+" a rendszer támogatja-e ezt a betűkészletet."
 
 #: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
 #: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
 msgid ""
-"Could not register type library for file [2]. Contact your support personnel."
+"Could not register type library for file [2]. Contact your support "
+"personnel."
 msgstr ""
 "Nem sikerült a(z) [2] fájl típustárának a regisztrációja. Forduljon a "
 "technikusokhoz."
@@ -441,8 +447,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
 #: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
 msgid ""
-"Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
-"you can access it."
+"Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
+" you can access it."
 msgstr ""
 "A(z) [2] parancsikont nem sikerült eltávolítani. Ellenőrizze, hogy a "
 "hivatkozott fájl létezik-e, és hogy el tudja-e érni."
@@ -460,8 +466,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
 #: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
 msgid ""
-"Could not set file security for file '[3]'. Error: [2]. Verify that you have "
-"sufficient privileges to modify the security permissions for this file."
+"Could not set file security for file '[3]'. Error: [2]. Verify that you have"
+" sufficient privileges to modify the security permissions for this file."
 msgstr ""
 "A(z) '[3]' fájl biztonsági tulajdonságait nem sikerült beállítani. Hiba: "
 "[2]. Ellenőrizze, hogy rendelkezik-e elegendő jogosultsággal a fájl "
@@ -489,8 +495,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
 #: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
 msgid ""
-"Could not update environment variable '[2]'. Verify that you have sufficient "
-"privileges to modify environment variables."
+"Could not update environment variable '[2]'. Verify that you have sufficient"
+" privileges to modify environment variables."
 msgstr ""
 "A környezeti változó ([2]) frissítése nem sikerült. Ellenőrizze, hogy "
 "rendelkezik-e elegendő jogosultsággal környezeti változók módosításához."
@@ -507,8 +513,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
 #: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
 msgid ""
-"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
-"have sufficient access to that key, or contact your support personnel."
+"Could not write value [2] to key [3]. {{ System error [4].}} Verify that you"
+" have sufficient access to that key, or contact your support personnel."
 msgstr ""
 "A(z) [2] értéket nem sikerült beírni a(z) [3] kulcsba. {{ Rendszerhiba "
 "[4].}} Ellenőrizze, hogy rendelkezik-e elegendő hozzáférési joggal a "
@@ -567,11 +573,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
 #: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
 msgid ""
-"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
-"[4] exists and that you can access it."
+"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
+" [4] exists and that you can access it."
 msgstr ""
-"Az ODBC illesztőprogram telepítésekor hiba történt: [4]. ODBC hiba [2]: [3]. "
-"Ellenőrizze, hogy a(z) [4] fájl létezik-e, és hogy van-e hozzáférési "
+"Az ODBC illesztőprogram telepítésekor hiba történt: [4]. ODBC hiba [2]: [3]."
+" Ellenőrizze, hogy a(z) [4] fájl létezik-e, és hogy van-e hozzáférési "
 "engedélye."
 
 #: En.Win32.Debug.Error-2.idtx:35 En.Win32.Release.Error-2.idtx:35
@@ -640,10 +646,11 @@ msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
 #: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
-msgid "Error writing to file: [2]. Verify that you have access to that folder."
+msgid ""
+"Error writing to file: [2]. Verify that you have access to that folder."
 msgstr ""
-"Hiba a(z) [2] fájl írásakor. Ellenőrizze, hogy van-e hozzáférési engedélye a "
-"könyvtárhoz."
+"Hiba a(z) [2] fájl írásakor. Ellenőrizze, hogy van-e hozzáférési engedélye a"
+" könyvtárhoz."
 
 #: En.Win32.Debug.Error-2.idtx:40 En.Win32.Release.Error-2.idtx:40
 #: En.x64.Debug.Error-2.idtx:40 En.x64.Release.Error-2.idtx:40
@@ -738,7 +745,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
 #: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
 msgid ""
-"Module [2] failed to unregister. HRESULT [3]. Contact your support personnel."
+"Module [2] failed to unregister. HRESULT [3]. Contact your support "
+"personnel."
 msgstr ""
 "A modul ([2]) rendszerleíró bejegyzéseit nem sikerült törölni. HRESULT [3]. "
 "Forduljon a technikusokhoz."
@@ -755,8 +763,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
 #: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
 msgid ""
-"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
-"[4] KB. Free some disk space and retry."
+"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
+" [4] KB. Free some disk space and retry."
 msgstr ""
 "Nincs elég hely a lemezen -- Kötet: '[2]'; szükséges hely: [3] KB; "
 "rendelkezésre álló hely: [4] KB. Tegyen szabaddá több helyet a lemezen, és "
@@ -778,7 +786,8 @@ msgstr "Helyezze be a következő lemezt: [2]"
 #: En.Win32.Debug.Error-2.idtx:24 En.Win32.Release.Error-2.idtx:24
 #: En.x64.Debug.Error-2.idtx:24 En.x64.Release.Error-2.idtx:24
 msgid "Please wait while Windows configures [SimpleProductName]"
-msgstr "Kis türelmet, a Windows a(z) [SimpleProductName] konfigurálását végzi."
+msgstr ""
+"Kis türelmet, a Windows a(z) [SimpleProductName] konfigurálását végzi."
 
 #: En.Win32.Debug.Error-2.idtx:27 En.Win32.Release.Error-2.idtx:27
 #: En.x64.Debug.Error-2.idtx:27 En.x64.Release.Error-2.idtx:27
@@ -835,7 +844,8 @@ msgid ""
 "privileges to remove system services."
 msgstr ""
 "A(z) '[2]' szolgáltatást ([3]) nem sikerült eltávolítani. Ellenőrizze, hogy "
-"rendelkezik-e elegendő jogosultsággal rendszerszolgáltatások eltávolításához."
+"rendelkezik-e elegendő jogosultsággal rendszerszolgáltatások "
+"eltávolításához."
 
 #: En.Win32.Debug.Error-2.idtx:150 En.Win32.Release.Error-2.idtx:150
 #: En.x64.Debug.Error-2.idtx:150 En.x64.Release.Error-2.idtx:150
@@ -861,8 +871,8 @@ msgid ""
 "Service '[2]' ([3]) failed to start. Verify that you have sufficient "
 "privileges to start system services."
 msgstr ""
-"A(z) '[2]' szolgáltatás ([3]) nem indult el. Ellenőrizze, hogy rendelkezik-e "
-"elegendő jogosultsággal rendszerszolgáltatások indításához."
+"A(z) '[2]' szolgáltatás ([3]) nem indult el. Ellenőrizze, hogy rendelkezik-e"
+" elegendő jogosultsággal rendszerszolgáltatások indításához."
 
 #: En.Win32.Debug.Error-2.idtx:38 En.Win32.Release.Error-2.idtx:38
 #: En.x64.Debug.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
@@ -879,8 +889,8 @@ msgid ""
 "Source file not found{{(cabinet)}}: [2]. Verify that the file exists and "
 "that you can access it."
 msgstr ""
-"A(z) [2] forrásfájl {{(gyűjtőfájl)}} nem található. Ellenőrizze, hogy a fájl "
-"létezik-e, és hogy van-e hozzáférési engedélye."
+"A(z) [2] forrásfájl {{(gyűjtőfájl)}} nem található. Ellenőrizze, hogy a fájl"
+" létezik-e, és hogy van-e hozzáférési engedélye."
 
 #: En.Win32.Debug.Error-2.idtx:65 En.Win32.Release.Error-2.idtx:65
 #: En.x64.Debug.Error-2.idtx:65 En.x64.Release.Error-2.idtx:65
@@ -953,15 +963,15 @@ msgid ""
 "arguments are: [2], [3], [4]}}"
 msgstr ""
 "A Telepítő váratlan hibába ütközött a csomag telepítése közben. Ez lehet, "
-"hogy egy hibát jelez a csomagban. A hibakód: [1]. {{A paraméterek: [2], [3], "
-"[4]}}"
+"hogy egy hibát jelez a csomagban. A hibakód: [1]. {{A paraméterek: [2], [3],"
+" [4]}}"
 
 #: En.Win32.Debug.Error-2.idtx:33 En.Win32.Release.Error-2.idtx:33
 #: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
 msgid ""
 "The installer has insufficient privileges to access this folder: [2]. The "
-"installation cannot continue. Log on as administrator or contact your system "
-"administrator."
+"installation cannot continue. Log on as administrator or contact your system"
+" administrator."
 msgstr ""
 "A Telepítő nem rendelkezik elegendő jogosultsággal a következő könyvtár "
 "megnyitásához: [2]. A telepítés nem folytatható. Jelentkezzen be "
@@ -1033,12 +1043,10 @@ msgstr "A(z) [2] kötet jelenleg nem érhető el. Válasszon másik kötetet."
 #: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
 #: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2]. List of protected files:\n"
+"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
 msgstr ""
-"A Windows Installer szolgáltatás nem tud frissíteni egy vagy több védett "
-"Windows-fájlt. {{SFP-hiba: [2]. A védett fájlok listája:\n"
+"A Windows Installer szolgáltatás nem tud frissíteni egy vagy több védett Windows-fájlt. {{SFP-hiba: [2]. A védett fájlok listája:\n"
 "[3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:159 En.Win32.Release.Error-2.idtx:159
@@ -1072,15 +1080,15 @@ msgid ""
 msgstr ""
 "Nem lehetett hozzáférni a Windows Installer szolgáltatáshoz. Ez akkor "
 "fordulhat elő, ha a Windowst csökkentett üzemmódban futtatja, vagy, ha a "
-"Windows Installer nincs helyesen telepítve. Segítségért lépjen kapcsolatba a "
-"támogató technikusokkal."
+"Windows Installer nincs helyesen telepítve. Segítségért lépjen kapcsolatba a"
+" támogató technikusokkal."
 
 #: En.Win32.Debug.Error-2.idtx:113 En.Win32.Release.Error-2.idtx:113
 #: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
 msgid ""
 "There is a problem with this Windows Installer package. A DLL required for "
-"this install to complete could not be run. Contact your support personnel or "
-"package vendor. {{Action [2], entry: [3], library: [4] }}"
+"this install to complete could not be run. Contact your support personnel or"
+" package vendor. {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
 "Probléma van a Windows Installer csomaggal. A telepítéshez szükséges egyik "
 "DLL nem futtatható. Lépjen kapcsolatba a támogató személyzettel vagy a "
@@ -1101,11 +1109,11 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
 msgid ""
 "There is a problem with this Windows Installer package. A program run as "
-"part of the setup did not finish as expected. Contact your support personnel "
-"or package vendor. {{Action [2], location: [3], command: [4] }}"
+"part of the setup did not finish as expected. Contact your support personnel"
+" or package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
-"Probléma van a Windows Installer csomaggal. A telepítés egyik részeként futó "
-"program nem az elvárásoknak megfelelően ért véget. Lépjen kapcsolatba a "
+"Probléma van a Windows Installer csomaggal. A telepítés egyik részeként futó"
+" program nem az elvárásoknak megfelelően ért véget. Lépjen kapcsolatba a "
 "támogató személyzettel vagy a csomag eladójával. {{ művelet [2], hely: [3], "
 "parancs: [4] }}"
 
@@ -1118,8 +1126,8 @@ msgid ""
 "Line [6], Column [7], [8] }}"
 msgstr ""
 "Probléma van a Windows Installer csomaggal. A telepítéshez szükséges egyik "
-"parancsfájl nem futtatható. Lépjen kapcsolatba a támogató személyzettel vagy "
-"a csomag eladójával. {{Egyéni művelet: [2], parancsfájlhiba: [3], [4]: [5] "
+"parancsfájl nem futtatható. Lépjen kapcsolatba a támogató személyzettel vagy"
+" a csomag eladójával. {{Egyéni művelet: [2], parancsfájlhiba: [3], [4]: [5] "
 "sor: [6], oszlop: [7], [8] }}"
 
 #: En.Win32.Debug.Error-2.idtx:123 En.Win32.Release.Error-2.idtx:123
@@ -1170,11 +1178,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
 #: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
 msgid ""
-"There was an error creating a temporary file that is needed to complete this "
-"installation.{{ Folder: [3]. System error code: [2]}}"
+"There was an error creating a temporary file that is needed to complete this"
+" installation.{{ Folder: [3]. System error code: [2]}}"
 msgstr ""
-"Hiba történt a telepítés befejezéséhez szükséges ideiglenes fájl létrehozása "
-"közben.{{ Mappa: [3]. A rendszerhiba kódja: [2]}}"
+"Hiba történt a telepítés befejezéséhez szükséges ideiglenes fájl létrehozása"
+" közben.{{ Mappa: [3]. A rendszerhiba kódja: [2]}}"
 
 #: En.Win32.Debug.Error-2.idtx:90 En.Win32.Release.Error-2.idtx:90
 #: En.x64.Debug.Error-2.idtx:90 En.x64.Release.Error-2.idtx:90
@@ -1231,7 +1239,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:161 En.Win32.Release.Error-2.idtx:161
 #: En.x64.Debug.Error-2.idtx:161 En.x64.Release.Error-2.idtx:161
 msgid "User installations are disabled via policy on the machine."
-msgstr "A felhasználó telepítések a számítógép házirendjében le vannak tiltva."
+msgstr ""
+"A felhasználó telepítések a számítógép házirendjében le vannak tiltva."
 
 #: En.Win32.Debug.Error-2.idtx:6 En.Win32.Release.Error-2.idtx:6
 #: En.x64.Debug.Error-2.idtx:6 En.x64.Release.Error-2.idtx:6
@@ -1240,8 +1249,8 @@ msgstr "Figyelmeztetés: [1]. "
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
 msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
-"64-bit operating system. 32-bit variant will not work with your operating "
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
 "system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
@@ -1253,8 +1262,8 @@ msgid ""
 "installation."
 msgstr ""
 "Nincs elegendő jogosultsága, hogy a telepítést a gép összes felhasználója "
-"számára elvégezze. Jelentkezzen be rendszergazdaként, és próbálkozzon újra a "
-"telepítéssel."
+"számára elvégezze. Jelentkezzen be rendszergazdaként, és próbálkozzon újra a"
+" telepítéssel."
 
 #: En.Win32.Debug.Error-2.idtx:126 En.Win32.Release.Error-2.idtx:126
 #: En.x64.Debug.Error-2.idtx:126 En.x64.Release.Error-2.idtx:126
@@ -1267,8 +1276,8 @@ msgid ""
 "You may either restore your computer to its previous state or continue the "
 "install later. Would you like to restore?"
 msgstr ""
-"Visszaállíthatja a számítógép előző állapotát, vagy később folytathatja is a "
-"telepítést. Kívánja visszaállítani az előző állapotot?"
+"Visszaállíthatja a számítógép előző állapotát, vagy később folytathatja is a"
+" telepítést. Kívánja visszaállítani az előző állapotot?"
 
 #: En.Win32.Debug.Error-2.idtx:120 En.Win32.Release.Error-2.idtx:120
 #: En.x64.Debug.Error-2.idtx:120 En.x64.Release.Error-2.idtx:120
@@ -1278,8 +1287,8 @@ msgid ""
 "support group for assistance."
 msgstr ""
 "Az alkalmazás eltávolításához rendszergazdának kell lennie. Az alkalmazás "
-"eltávolításához rendszergazdaként kell bejelentkeznie, vagy kapcsolatba kell "
-"lépnie a technikai tanácsadással."
+"eltávolításához rendszergazdaként kell bejelentkeznie, vagy kapcsolatba kell"
+" lépnie a technikai tanácsadással."
 
 #: En.Win32.Debug.Error-2.idtx:93 En.Win32.Release.Error-2.idtx:93
 #: En.x64.Debug.Error-2.idtx:93 En.x64.Release.Error-2.idtx:93
@@ -1291,409 +1300,3 @@ msgstr ""
 "Újra kell indítania a rendszert, hogy a(z) [2] konfigurálásának változásai "
 "életbe lépjenek. Kattintson az Igen gombra, ha most akarja újraindítani a "
 "rendszert, vagy a Nem gombra, ha később."
-
-#~ msgid "1033"
-#~ msgstr "1038"
-
-#, fuzzy
-#~ msgid "&Continue"
-#~ msgstr ""
-#~ "Nincs elég hely a köteten ('[2]') a visszaállítási lehetőséggel való "
-#~ "telepítés folytatásához. [3] kilobájtra van szükség, de csak [4] KB áll "
-#~ "rendelkezésre. A visszaállítási információk mentése nélküli telepítés "
-#~ "folytatásához kattintson a Kihagyás gombra, a szabad hely ellenőrzéséhez "
-#~ "az Ismét, valamint a telepítésből való kilépéshez kattintson a Mégse "
-#~ "gombra."
-
-#, fuzzy
-#~ msgid "&Folder:"
-#~ msgstr "Fájl: [1], Mappa: [2]"
-
-#, fuzzy
-#~ msgid "&Retry"
-#~ msgstr ""
-#~ "Hiba történt a telepítési adatok lemezre írásakor. Ellenőrizze, hogy a "
-#~ "lemezen van-e elég hely, és kattintson az Ismét gombra, vagy kattintson a "
-#~ "Mégse gombra a telepítés befejezéséhez."
-
-#~ msgid "[1]"
-#~ msgstr "[1]"
-
-#, fuzzy
-#~ msgid "[DlgTitleFont]Disk Space Requirements"
-#~ msgstr "A szükséges terület kiszámítása"
-
-#~ msgid "Advertising application"
-#~ msgstr "Alkalmazás közzététele"
-
-#~ msgid "Allocating registry space"
-#~ msgstr "Rendszerleíró adatbázis helyének kiosztása"
-
-#~ msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-#~ msgstr "Alk.: [1]{{, Alk. típus: [2], Felhasználók: [3], Sorozatsz.: [4]}}"
-
-#~ msgid "AppId: [1]{{, AppType: [2]}}"
-#~ msgstr "Alk.: [1]{{, Alk. típus: [2]}}"
-
-#~ msgid "Application Context:[1], Assembly Name:[2]"
-#~ msgstr "Alkalmazás kontextusa:[1], összeállítás neve:[2]"
-
-#~ msgid "Application: [1]"
-#~ msgstr "Alkalmazás: [1]"
-
-#~ msgid "Application: [1], Command line: [2]"
-#~ msgstr "Alkalmazás: [1], Parancssor: [2]"
-
-#, fuzzy
-#~ msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-#~ msgstr "Biztos, hogy megszakítja a telepítést?"
-
-#~ msgid "Binding executables"
-#~ msgstr "Programok kötése"
-
-#, fuzzy
-#~ msgid "Cancel"
-#~ msgstr ""
-#~ "A(z) '[2]' fájlt nem lehet létrehozni, mert ilyen nevű könyvtár már "
-#~ "létezik. Szakítsa meg a telepítést, és próbáljon meg egy másik helyre "
-#~ "telepíteni."
-
-#~ msgid "Class Id: [1]"
-#~ msgstr "Class Id: [1]"
-
-#~ msgid "Component ID: [1], Qualifier: [2]"
-#~ msgstr "Összetevőazonosító: [1], Minősítésjelző: [2]"
-
-#~ msgid "Computing space requirements"
-#~ msgstr "A szükséges terület kiszámítása"
-
-#~ msgid "Copying network install files"
-#~ msgstr "Hálózati telepítőfájlok másolása"
-
-#~ msgid "Copying new files"
-#~ msgstr "Új fájlok másolása"
-
-#, fuzzy
-#~ msgid "Create A New Folder|"
-#~ msgstr "Mappák létrehozása"
-
-#~ msgid "Creating duplicate files"
-#~ msgstr "Másolatfájlok létrehozása"
-
-#~ msgid "Creating folders"
-#~ msgstr "Mappák létrehozása"
-
-#~ msgid "Creating shortcuts"
-#~ msgstr "Parancsikonok létrehozása"
-
-#~ msgid "Deleting services"
-#~ msgstr "Szolgáltatások törlése"
-
-#, fuzzy
-#~ msgid "Determining required space for installation..."
-#~ msgstr "A kért adatok összegyűjtése..."
-
-#~ msgid "Evaluating launch conditions"
-#~ msgstr "Az indítási feltételek értékelése"
-
-#~ msgid "Extension: [1]"
-#~ msgstr "Kiterjesztés: [1]"
-
-#~ msgid "Feature: [1]"
-#~ msgstr "Szolgáltatás: [1]"
-
-#~ msgid "File: [1]"
-#~ msgstr "Fájl: [1]"
-
-#~ msgid "File: [1], Dependencies: [2]"
-#~ msgstr "Fájl: [1], függőségek: [2]"
-
-#~ msgid "File: [1], Folder: [2]"
-#~ msgstr "Fájl: [1], Mappa: [2]"
-
-#~ msgid "File: [1], Folder: [2], Size: [3]"
-#~ msgstr "Fájl: [1], Könyvtár: [2], Méret: [3]"
-
-#~ msgid "File: [1], Folder: [9]"
-#~ msgstr "Fájl: [1], Könyvtár: [9]"
-
-#~ msgid "File: [1], Folder: [9], Size: [6]"
-#~ msgstr "Fájl: [1], Könyvtár: [9], Méret: [6]"
-
-#~ msgid "File: [1], Section: [2], Key: [3], Value: [4]"
-#~ msgstr "Fájl: [1], Szakasz: [2], Kulcs: [3], Érték: [4]"
-
-#, fuzzy
-#~ msgid "Folder:"
-#~ msgstr "Fájl: [1], Mappa: [2]"
-
-#~ msgid "Folder: [1]"
-#~ msgstr "Mappa: [1]"
-
-#~ msgid "Font: [1]"
-#~ msgstr "Betűtípus: [1]"
-
-#~ msgid "Found application: [1]"
-#~ msgstr "Talált alkalmazás: [1]"
-
-#~ msgid "Free space: [1]"
-#~ msgstr "Szabad lemezterület: [1]"
-
-#~ msgid "Generating script operations for action:"
-#~ msgstr "Parancsfájlműveletek generálása a következő művelethez:"
-
-#~ msgid "Initializing ODBC folders"
-#~ msgstr "Az ODBC-könyvtárak inicializálása"
-
-#~ msgid "Installing new services"
-#~ msgstr "Új szolgáltatások telepítése"
-
-#~ msgid "Installing ODBC components"
-#~ msgstr "Az ODBC összetevőinek telepítése"
-
-#~ msgid "Installing system catalog"
-#~ msgstr "A rendszerkatalógus telepítéste"
-
-#~ msgid "Key: [1], Name: [2]"
-#~ msgstr "Kulcs: [1], Név: [2]"
-
-#~ msgid "Key: [1], Name: [2], Value: [3]"
-#~ msgstr "Kulcs: [1], Név: [2], Érték: [3]"
-
-#~ msgid "LibID: [1]"
-#~ msgstr "LibID: [1]"
-
-#~ msgid "Migrating feature states from related applications"
-#~ msgstr "Szolgáltatások áttelepítése kapcsolódó alkalmazásokból."
-
-#~ msgid "MIME Content Type: [1], Extension: [2]"
-#~ msgstr "A MIME tartalom típusa: [1], Kiterjesztés: [2]"
-
-#~ msgid "Moving files"
-#~ msgstr "Fájlok áthelyezése"
-
-#~ msgid "Name: [1], Value: [2], Action [3]"
-#~ msgstr "Név: [1], Érték: [2], Művelet [3]"
-
-#~ msgid "Patching files"
-#~ msgstr "Fájlok javítása"
-
-#~ msgid "ProgId: [1]"
-#~ msgstr "ProgId: [1]"
-
-#~ msgid "Property: [1], Signature: [2]"
-#~ msgstr "Tulajdonság: [1], Aláírás: [2]"
-
-#~ msgid "Publishing assembly information"
-#~ msgstr "Az összeállítási információk közzététele"
-
-#~ msgid "Publishing Product Features"
-#~ msgstr "A termék szolgáltatásainak közzététele"
-
-#~ msgid "Publishing product information"
-#~ msgstr "A termék adatainak közzététele"
-
-#~ msgid "Publishing Qualified Components"
-#~ msgstr "Minősített összetevők közzététele"
-
-#~ msgid "Registering Class servers"
-#~ msgstr "Az osztálykiszolgálók regisztrációja"
-
-#~ msgid "Registering COM+ Applications and Components"
-#~ msgstr "COM+ alkalmazások és összetevők regisztrálása"
-
-#~ msgid "Registering extension servers"
-#~ msgstr "A kiterjesztéskiszolgálók regisztrációja"
-
-#~ msgid "Registering fonts"
-#~ msgstr "Betűtípusok regisztrációja"
-
-#~ msgid "Registering MIME info"
-#~ msgstr "A MIME információ regisztrálása"
-
-#~ msgid "Registering modules"
-#~ msgstr "A modulok regisztrálása"
-
-#~ msgid "Registering product"
-#~ msgstr "A termék regisztrálása"
-
-#~ msgid "Registering program identifiers"
-#~ msgstr "Programazonosítók regisztrációja"
-
-#~ msgid "Registering type libraries"
-#~ msgstr "A típustárak regisztrációja"
-
-#~ msgid "Registering user"
-#~ msgstr "A felhasználó regisztrációja"
-
-#, fuzzy
-#~ msgid "Removal"
-#~ msgstr "Az eltávolítás sikeresen megtörtént."
-
-#, fuzzy
-#~ msgid "Removing"
-#~ msgstr "Az INI fájlok elemeinek eltávolítása"
-
-#~ msgid "Removing applications"
-#~ msgstr "Alkalmazások eltávolítása."
-
-#~ msgid "Removing backup files"
-#~ msgstr "A biztonsági másolatok eltávolítása"
-
-#~ msgid "Removing duplicated files"
-#~ msgstr "A fájlok másodpéldányainak eltávolítása"
-
-#~ msgid "Removing files"
-#~ msgstr "Fájlok eltávolítása"
-
-#~ msgid "Removing folders"
-#~ msgstr "Mappák eltávolítása"
-
-#~ msgid "Removing INI files entries"
-#~ msgstr "Az INI fájlok elemeinek eltávolítása"
-
-#~ msgid "Removing moved files"
-#~ msgstr "Az áthelyezett fájlok eltávolítása"
-
-#~ msgid "Removing ODBC components"
-#~ msgstr "Az ODBC-összetevők eltávolítása"
-
-#~ msgid "Removing shortcuts"
-#~ msgstr "Parancsikonok eltávolítása"
-
-#~ msgid "Removing system registry values"
-#~ msgstr "Értékek eltávolítása a rendszerleíró adatbázisból"
-
-#~ msgid "Rolling back action:"
-#~ msgstr "Visszaállítás:"
-
-#~ msgid "Searching for installed applications"
-#~ msgstr "Telepített alkalmazások keresése"
-
-#~ msgid "Searching for qualifying products"
-#~ msgstr "Minősítő termékek keresése"
-
-#~ msgid "Searching for related applications"
-#~ msgstr "Kapcsolódó alkalmazások keresése."
-
-#~ msgid "Service: [1]"
-#~ msgstr "Szolgáltatás: [1]"
-
-#~ msgid "Service: [2]"
-#~ msgstr "Szolgáltatás: [2]"
-
-#~ msgid "Shortcut: [1]"
-#~ msgstr "Parancsikon: [1]"
-
-#~ msgid "Starting services"
-#~ msgstr "Szolgáltatások elindítása"
-
-#~ msgid "Stopping services"
-#~ msgstr "Szolgáltatások leállítása"
-
-#~ msgid "Unpublishing assembly information"
-#~ msgstr "Az összeállítási információk közzétételének megszüntetése"
-
-#~ msgid "Unpublishing Product Features"
-#~ msgstr "A termékszolgáltatások közzétételének visszavonása"
-
-#~ msgid "Unpublishing product information"
-#~ msgstr "A termékadatok közzétételének visszavonása"
-
-#~ msgid "Unpublishing Qualified Components"
-#~ msgstr "A minősített összetevők közzétételének visszavonása"
-
-#~ msgid "Unregister Class servers"
-#~ msgstr "Az osztálykiszolgálók regisztrációjának törlése "
-
-#~ msgid "Unregistering COM+ Applications and Components"
-#~ msgstr "A COM+ alkalmazások és összetevők regisztrációjának törlése"
-
-#~ msgid "Unregistering extension servers"
-#~ msgstr "A kiterjesztéskiszolgálók regisztrációjának törlése"
-
-#~ msgid "Unregistering fonts"
-#~ msgstr "A betűtípusok regisztrációjának visszavonása"
-
-#~ msgid "Unregistering MIME info"
-#~ msgstr "A MIME információ regisztrációjának visszavonása"
-
-#~ msgid "Unregistering modules"
-#~ msgstr "A modulok regisztrációjának törlése"
-
-#~ msgid "Unregistering program identifiers"
-#~ msgstr "A programazonosítók regisztrációjának törlése"
-
-#~ msgid "Unregistering type libraries"
-#~ msgstr "A típustárak regisztrációjának visszavonása"
-
-#~ msgid "Updating component registration"
-#~ msgstr "Összetevők regisztrációjának frissítése"
-
-#~ msgid "Updating environment strings"
-#~ msgstr "A környezeti karakterláncok frissítése"
-
-#~ msgid "Validating install"
-#~ msgstr "A telepítés érvényesítése"
-
-#~ msgid "Writing INI files values"
-#~ msgstr "Az INI fájlok értékeinek írása"
-
-#~ msgid "Writing system registry values"
-#~ msgstr "A rendszerleíró értékek írása"
-
-#, fuzzy
-#~ msgid "&Install Now"
-#~ msgstr "Telepítve: [2]"
-
-#, fuzzy
-#~ msgid "&Modify"
-#~ msgstr ""
-#~ "A környezeti változó ([2]) frissítése nem sikerült. Ellenőrizze, hogy "
-#~ "rendelkezik-e elegendő jogosultsággal környezeti változók módosításához."
-
-#, fuzzy
-#~ msgid "&Remove"
-#~ msgstr ""
-#~ "Az alkalmazás eltávolításához rendszergazdának kell lennie. Az alkalmazás "
-#~ "eltávolításához rendszergazdaként kell bejelentkeznie, vagy kapcsolatba "
-#~ "kell lépnie a technikai tanácsadással."
-
-#, fuzzy
-#~ msgid "Available"
-#~ msgstr ""
-#~ "Nincs elég hely a köteten ('[2]') a visszaállítási lehetőséggel való "
-#~ "telepítés folytatásához. [3] kilobájtra van szükség, de csak [4] KB áll "
-#~ "rendelkezésre. A visszaállítási információk mentése nélküli telepítés "
-#~ "folytatásához kattintson a Kihagyás gombra, a szabad hely ellenőrzéséhez "
-#~ "az Ismét, valamint a telepítésből való kilépéshez kattintson a Mégse "
-#~ "gombra."
-
-#, fuzzy
-#~ msgid "Custom Installation"
-#~ msgstr "A telepítés nem sikerült."
-
-#, fuzzy
-#~ msgid "Installing"
-#~ msgstr ""
-#~ "A gépen nem található olyan, korábban már telepített egyéb termék, amely "
-#~ "ennek a terméknek a telepítéséhez szükséges."
-
-#, fuzzy
-#~ msgid "KB"
-#~ msgstr ""
-#~ "Nem sikerült növelni a regisztrációs helyet. Ennek az alkalmazásnak a "
-#~ "telepítéséhez [2] KB szabad regisztrációs hely szükséges."
-
-#, fuzzy
-#~ msgid "Required"
-#~ msgstr ""
-#~ "A(z) [2] nem tudja telepíteni az egyik szükséges terméket. Forduljon a "
-#~ "technikusokhoz. {{Rendszerhiba: [3].}}"
-
-#, fuzzy
-#~ msgid "Volume"
-#~ msgstr ""
-#~ "A(z) [2] meghajtóban nincs lemez. Tegyen be egyet, és kattintson az Ismét "
-#~ "gombra, vagy kattintson a Mégse gombra, ha vissza akar térni az előzőleg "
-#~ "kijelölt kötethez."
