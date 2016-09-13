@@ -478,22 +478,25 @@
 				po_path = WScript.Arguments.Unnamed(2);
 
 			try {
+				// Open and parse IDT files.
 				var
 					idt_src = new IDT(WScript.Arguments.Unnamed(0)),
 					idt_dst = new IDT(WScript.Arguments.Unnamed(1));
 
+				// IDT files must represent identical table.
 				if (idt_src.columns.toString() != idt_dst.columns.toString() ||
 				    idt_src.types  .toString() != idt_dst.types  .toString() ||
 				    idt_src.table              != idt_dst.table              ||
 				    idt_src.key    .toString() != idt_dst.key    .toString())
 					throw new Error("IDT files are not compatible.");
 
+				// Build translations.
 				var trans = new Array();
 				for (var key in idt_src.data) {
 					if (key in idt_dst.data) {
 						// We found a record in both IDT files.
 						for (var col in idt_src.types) {
-							if (idt_src.types[col].charAt(0).toUpperCase() == "L" && idt_src.data[key][col] != "")
+							if (idt_src.types[col].charAt(0).toUpperCase() == "L" && idt_src.data[key][col] != "" && idt_dst.data[key][col] != "")
 								trans[idt_src.data[key][col]] = idt_dst.data[key][col];
 						}
 					}
@@ -506,10 +509,8 @@
 					"Content-Transfer-Encoding: 8bit\n" +
 					(WScript.Arguments.Named.Exists("L") ? "Language: "+ WScript.Arguments.Named("L") +"\n" : "");
 
-				var
-					po_dat_tmp = WScript.CreateObject("ADODB.Stream");
-
 				// Open PO file in memory.
+				var po_dat_tmp = WScript.CreateObject("ADODB.Stream");
 				po_dat_tmp.Open();
 				try {
 					// PO is text file, uses Unix line breaks and UTF-8 encoding.
@@ -524,8 +525,7 @@
 					}
 
 					// Write to file without UTF-8 BOM.
-					var
-						po_dat = WScript.CreateObject("ADODB.Stream")
+					var po_dat = WScript.CreateObject("ADODB.Stream");
 					po_dat.Type = adTypeBinary;
 					po_dat.Mode = adModeReadWrite;
 					po_dat.Open();
@@ -557,8 +557,8 @@
 ** SIG ** MIIXmAYJKoZIhvcNAQcCoIIXiTCCF4UCAQExCzAJBgUr
 ** SIG ** DgMCGgUAMGcGCisGAQQBgjcCAQSgWTBXMDIGCisGAQQB
 ** SIG ** gjcCAR4wJAIBAQQQcAVhGs441BGiowAQS9NQkAIBAAIB
-** SIG ** AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFAgwP2tZH4xo
-** SIG ** ShC7TKM0tJUdu1UqoIISyDCCA+4wggNXoAMCAQICEH6T
+** SIG ** AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFAU/LB231pJ8
+** SIG ** 16mWHbmCCzZkdHlooIISyDCCA+4wggNXoAMCAQICEH6T
 ** SIG ** 6/t8xk5Z6kuad9QG/DswDQYJKoZIhvcNAQEFBQAwgYsx
 ** SIG ** CzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxXZXN0ZXJuIENh
 ** SIG ** cGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQK
@@ -712,31 +712,31 @@
 ** SIG ** OWQwCQYFKw4DAhoFAKBwMBAGCisGAQQBgjcCAQwxAjAA
 ** SIG ** MBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEEMBwGCisG
 ** SIG ** AQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3
-** SIG ** DQEJBDEWBBSA+wRcubRz2w/cM3NPYnJus3GLKjANBgkq
-** SIG ** hkiG9w0BAQEFAASCAQAHLsbtqbG4i6jTLaWMvnfUW2hg
-** SIG ** pmfoMPYyEhXrKuhLe9etau8QnHER4pKBpcmaUHZyXgTc
-** SIG ** 4NFDhbmLOXE3dysr3N51tmhZ5tIdpuBQnyr5tvmb1UOO
-** SIG ** ODbAZs7O9f2AuS+t7R0pu4gNz2ATiFjrAW3MhV7sDz29
-** SIG ** sBuFgfffSQvIR3nbi4McC3OOnVT0Qb6tBsYKJjESaubG
-** SIG ** 0k2TZWsjei/Xj1B6cK0FszjnTKkrJXFyEKYFGhrUDxQJ
-** SIG ** 7lRSGuo5a6jSy7FTFiJ/u7bCCL3xCDbZolN5Sreq04rt
-** SIG ** WXQur23Eu193PeCFmaVCXcvXAoT6BxJxPLS78H3Cx1MM
-** SIG ** 2vsos20poYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
+** SIG ** DQEJBDEWBBT5h/p30cRYSqNGEcJtwuGAOztDPjANBgkq
+** SIG ** hkiG9w0BAQEFAASCAQB4wVERmWPnRBu36aPLnzgHMfBg
+** SIG ** 6TGb1PxuJp1X4LzJoyS26FZtoVrbozI/6Jr1QDCtzRn0
+** SIG ** ZrgdlRkNLzNhfgjJXIUsMFpQnq1On4a2osdh8c4y6uP1
+** SIG ** IkwBYMDh0ZmGvuEmpqUEk/jYDrI4Q7StKv7jfDikWtk0
+** SIG ** 0BSYxVUJtGPkaDGOZ0fgrEOcyMb4BcjOSLrn4EHs7qcv
+** SIG ** zHCEFRfEmtoKpPcZ57mvYG4Fcu4QVXJZJdYpk2UiTIb8
+** SIG ** fgWrWU/n7hEVjtRrqZHyHNPZB67e+LVbZjHTXEXqIFNf
+** SIG ** dC7UqAKuwxovGYGobJpVUJP6tOWEsUYXGd7zC2xMy68A
+** SIG ** CT8enCf7oYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
 ** SIG ** AgEBMHIwXjELMAkGA1UEBhMCVVMxHTAbBgNVBAoTFFN5
 ** SIG ** bWFudGVjIENvcnBvcmF0aW9uMTAwLgYDVQQDEydTeW1h
 ** SIG ** bnRlYyBUaW1lIFN0YW1waW5nIFNlcnZpY2VzIENBIC0g
 ** SIG ** RzICEA7P9DjI/r81bgTYapgbGlAwCQYFKw4DAhoFAKBd
 ** SIG ** MBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZI
-** SIG ** hvcNAQkFMQ8XDTE2MDkxMzE5MTYzN1owIwYJKoZIhvcN
-** SIG ** AQkEMRYEFK/udSxpaclJTaHL1BZhol2ZqgZ+MA0GCSqG
-** SIG ** SIb3DQEBAQUABIIBAEuXPMHdYJhLAWTUKp/hr3EG9xk4
-** SIG ** ENgON+sdZF3cM/gavxr1vZhgp/yypxEHuiNPBAf6E08j
-** SIG ** ZQDq0NUmoXm3cSXTTQhQd8OZjeRvr4BDS7BJhQUUMKBL
-** SIG ** BPTVsLGiy7N2k43575LcmE/d6kakPOCDG6uLSRmxZKRl
-** SIG ** J6GmmfCrpHYwBoKGcNgCyXV9hNpZ+hXDkyuGbnOxqK0R
-** SIG ** ws78DmQOaOiWPGY6AZrxf9+PZXYG4B1nOGdwFz3iTvjM
-** SIG ** +LaJrwKEx0IbRcN1sIhXOHs8V46RVgPEczVIv8yF4JGv
-** SIG ** NlKcEofnt/ApQUEkgaBQzvuBnzFmfTTg/R1dsF6NtRXx
-** SIG ** 8ndDGMk=
+** SIG ** hvcNAQkFMQ8XDTE2MDkxMzIyMTAyNFowIwYJKoZIhvcN
+** SIG ** AQkEMRYEFIWopWqhayf5cL1tkXs6O9dZ3pEQMA0GCSqG
+** SIG ** SIb3DQEBAQUABIIBAIGOsQR+2UhsbWoGFkp1UXQZ2McF
+** SIG ** iWtRZFExOwwOwuDNWdETYwEBaMpGkNWOZa8S8cxBe9sq
+** SIG ** VOwVCdAIjynCI6sPRn+5ujk8cG/M/jCyXZT9G02GyhL7
+** SIG ** ihwvPhYpP1dmf7HVffugyuYlUA4E9/VOXCMK1HOhulBe
+** SIG ** 2cDS5y/x66M/RjLroKBLWA7TwEsfPQfPdXG0N/o6cDXC
+** SIG ** QfXF7eQbwYoBEqXzv32S0hP2cq1h3Bek9tG7fDfWNjFn
+** SIG ** QP56DAixGbFZ3jinpUq7hjmJAVYco5wB3h45fswODHZD
+** SIG ** zYJg3usKf63t8Phn4CD5JvBc7pm/+IQP0LbQaxfp0Mmt
+** SIG ** S2EHmLk=
 </signature>
 </package>
