@@ -18,89 +18,89 @@
 */
 
 /*@cc_on @*/
-/*@if (! @__STRING_JS__) @*/
-/*@set @__STRING_JS__ = true @*/
+/*@if (! @__IDT_JS__) @*/
+/*@set @__IDT_JS__ = true @*/
 
-var _S_stat = null;
-function _S(str)
+
+function CodePageToId(codepage)
 {
-	if (!_S_stat) {
-		_S_stat = {
-			"re_apost": new RegExp("'", "g")
-		};
+	switch (codepage) {
+		case 932 : return "shift-jis";
+		case 936 : return "gb2312";
+		case 949 : return "euc-kr";
+		case 950 : return "big5";
+		case 874 :
+		case 1250:
+		case 1251:
+		case 1252:
+		case 1253:
+		case 1254:
+		case 1255:
+		case 1256:
+		case 1257:
+		case 1258: return "windows-" + codepage;
 	}
-
-	if (str == null) return null;
-	switch (typeof(str)) {
-		case "string":    break;
-		case "undefined": return null;
-		default:          try { str = str.toString(); } catch (err) { return null; }
-	}
-
-	return str.replace(_S_stat.re_apost, "''");
 }
 
 
-var _PO_stat = null;
-function _PO(str)
+function IDT(path)
 {
-	if (!_PO_stat) {
-		_PO_stat = {
-			"re_bslash": new RegExp("\\\\", "g"),
-			"re_bs":     new RegExp("\b",   "g"),
-			"re_ff":     new RegExp("\f",   "g"),
-			"re_lf":     new RegExp("\n",   "g"),
-			"re_cr":     new RegExp("\r",   "g"),
-			"re_tab":    new RegExp("\t",   "g"),
-			"re_quot":   new RegExp("\"",   "g")
-		};
-	}
-
-	if (str == null) return null;
-	switch (typeof(str)) {
-		case "string":    break;
-		case "undefined": return null;
-		default:          try { str = str.toString(); } catch (err) { return null; }
-	}
-
-	return str.replace(_PO_stat.re_bslash, "\\\\").replace(_PO_stat.re_bs, "\\b").replace(_PO_stat.re_ff, "\\f").replace(_PO_stat.re_lf, "\\n").replace(_PO_stat.re_cr, "\\r").replace(_PO_stat.re_tab, "\\t").replace(_PO_stat.re_quot, "\\\"");
-}
-
-
-var Trim_stat = null;
-function Trim(str)
-{
-	if (!Trim_stat) {
-		Trim_stat = {
-			"re_lspace": new RegExp("\\s+$", "g"),
-			"re_rspace": new RegExp("^\\s+", "g")
-		};
-	}
-
-	if (str == null) return null;
-	switch (typeof(str)) {
-		case "string":    break;
-		case "undefined": return null;
-		default:          try { str = str.toString(); } catch (err) { return null; }
-	}
-
-	return str.replace(Trim_stat.re_lspace, "").replace(Trim_stat.re_rspace, "");
-}
-
-
-function Time2Str(date)
-{
+	// Open IDT file.
 	var
-		time = new Array(date.getHours(), date.getMinutes(), date.getSeconds()),
-		i, str = "";
+		dat = new ActiveXObject("ADODB.Stream");
 
-	for (i = 0; i < 3; i++) {
-		if (i)            str += ":";
-		if (time[i] < 10) str += "0";
-		                  str += time[i];
+	dat.Open();
+	try {
+		// IDT is text file, uses CRLF line breaks and Windows 1252 header.
+		dat.Type = adTypeText;
+		dat.LineSeparator = adCRLF;
+		dat.Charset = "windows-1252";
+
+		// Load file.
+		dat.LoadFromFile(path);
+
+		// Parse column names.
+		this.columns = dat.ReadText(adReadLine).split("\t");
+		
+		// Parse column types.
+		this.types = dat.ReadText(adReadLine).split("\t");
+		
+		// Parse meta info
+		var line = dat.ReadText(adReadLine).split("\t"), i = 0;
+		this.codepage = parseInt(line[i], 10);
+		if (isNaN(this.codepage)) this.codepage = 1252; else i++;
+		this.table = line[i++];
+		this.key = line.slice(i);
+		for (var i in this.key) {
+			for (var j in this.columns) {
+				if (this.key[i] == this.columns[j]) {
+					this.key[i] = j;
+					break;
+				}
+			}
+		}
+
+		// Rewind and reconfigure code page.
+		dat.Position = 0;
+		dat.Charset = CodePageToId(this.codepage);
+
+		// Skip header.
+		dat.ReadText(adReadLine);
+		dat.ReadText(adReadLine);
+		dat.ReadText(adReadLine);
+
+		// Parse data and build associative array.
+		this.data = new Array();
+		while (!dat.EOS) {
+			line = dat.ReadText(adReadLine).split("\t");
+			var key = new Array();
+			for (var i in this.key)
+				key.push(line[this.key[i]]);
+			this.data[key] = line;
+		}
+	} finally {
+		dat.Close();
 	}
-
-	return str;
 }
 
 /*@end @*/
@@ -109,8 +109,8 @@ function Time2Str(date)
 // SIG // MIIXmAYJKoZIhvcNAQcCoIIXiTCCF4UCAQExCzAJBgUr
 // SIG // DgMCGgUAMGcGCisGAQQBgjcCAQSgWTBXMDIGCisGAQQB
 // SIG // gjcCAR4wJAIBAQQQEODJBs441BGiowAQS9NQkAIBAAIB
-// SIG // AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFDxPoB8u1jme
-// SIG // KWirJ5YJ3N+8s9wMoIISyDCCA+4wggNXoAMCAQICEH6T
+// SIG // AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFFXDaT+CYy7L
+// SIG // VxwKY0RTIDJ0FrkuoIISyDCCA+4wggNXoAMCAQICEH6T
 // SIG // 6/t8xk5Z6kuad9QG/DswDQYJKoZIhvcNAQEFBQAwgYsx
 // SIG // CzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxXZXN0ZXJuIENh
 // SIG // cGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQK
@@ -264,30 +264,30 @@ function Time2Str(date)
 // SIG // OWQwCQYFKw4DAhoFAKBwMBAGCisGAQQBgjcCAQwxAjAA
 // SIG // MBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEEMBwGCisG
 // SIG // AQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3
-// SIG // DQEJBDEWBBSipOV5yboG0OsgwNNLnFzwwncvXTANBgkq
-// SIG // hkiG9w0BAQEFAASCAQCTeZ1p4YgRrrg1Grr2eGvnk+Jt
-// SIG // +LVBTDo7+J8gb38Vw9ChGPyZMdJSVNyTyIo2yuUC2KE7
-// SIG // 5epedbkLZzZtEkxZ8dKT4FoRn9tjKDbT3lAY68KTx6b6
-// SIG // VfQ1T9QuNPnirAnEPFGZNeinlkIaP9MRHG6Wsz2WEw0h
-// SIG // dYQYAPnptTyTZZJut28Nv/AZlB8YmJYuAHFNzpscebHh
-// SIG // aXll4sbzGCoY+WYlLDpiI45qEQ9ygqUu0TpBrfE1woGv
-// SIG // GUEhCDJEshaUy5VL7CDnyncyTevi4EuvkBR40H5GBUNa
-// SIG // CAuamCX8gvpHJ44HAXYm/YPL51G3YCtD3NMlfIQk4Uuo
-// SIG // 9DkcJ7oJoYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
+// SIG // DQEJBDEWBBQXmtsxJWhfv7ln+YB/i37hDAHatDANBgkq
+// SIG // hkiG9w0BAQEFAASCAQAK7WYp6JeF6stD/8MCWcCCU1sk
+// SIG // DRktVYt3YaE5PV41iAmNojUY3Pm/zxIfMSgOi3hmldZO
+// SIG // svFKK6o3ie7YroDJzqv49XeSsij0qHAfdA8kZSm0Ietz
+// SIG // C70aeQvUfsX/jlGaEsk6xyS8rAtBcyTFzFy/NEslf1PO
+// SIG // 2HtoSLGua/8ZHY/rwCJ9dSFW1Q1bddQw8uwOCtYi/B0O
+// SIG // gb2ZoA9y/eMEpHWbpzgc3tSALa3WrUBy2NkicM9xDARY
+// SIG // S52dsYGM6bIZ9/HU5Lb5QhDcyW+s7NZTyJQtr03p42U0
+// SIG // 5WWVnq+Zsca/cFaFysaFxwjWKQ3URYadic7V6VJmeuoC
+// SIG // Q6rZPsinoYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
 // SIG // AgEBMHIwXjELMAkGA1UEBhMCVVMxHTAbBgNVBAoTFFN5
 // SIG // bWFudGVjIENvcnBvcmF0aW9uMTAwLgYDVQQDEydTeW1h
 // SIG // bnRlYyBUaW1lIFN0YW1waW5nIFNlcnZpY2VzIENBIC0g
 // SIG // RzICEA7P9DjI/r81bgTYapgbGlAwCQYFKw4DAhoFAKBd
 // SIG // MBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZI
-// SIG // hvcNAQkFMQ8XDTE2MDkxMzE5MTY0MlowIwYJKoZIhvcN
-// SIG // AQkEMRYEFEaKcXeI+Zi7cHwo0XYq+WHJIOIoMA0GCSqG
-// SIG // SIb3DQEBAQUABIIBAAlvGR/5ZTGIFuPTB85m5WvJhZqy
-// SIG // jMQtiFY98x5DVTv4le9YwEl3BNdsqe3evL1z+Kg9ROIv
-// SIG // iHkTVcjx5EfdYkpUbIRiyjLiE5SbHpchXOQmWkGypOSE
-// SIG // MVTTl9+W6odMY3o6vMjXfJzImejPq/IqSZNGIo7gP/1Q
-// SIG // SaV0GOr05fuxfgklgSzVwHBEKKjUtCoFvbjvTfsPFSo8
-// SIG // 3gLp6pqcmuxcYslbfMu3ix32PHtvw0VECcWVjPOmorrI
-// SIG // X4mx7QvHXokHXs/T+kG8jXmiAq4KzdU21hdjeBtFZaW6
-// SIG // Jt1Es2FKQAFqwsqeSxHfuDNC7s2jmPLpU2dMHQwvD3H/
-// SIG // fc8JMgU=
+// SIG // hvcNAQkFMQ8XDTE2MDkxMzE5MTYzMFowIwYJKoZIhvcN
+// SIG // AQkEMRYEFKJrjxHhMcRHIHE0xSovNF/6HrbgMA0GCSqG
+// SIG // SIb3DQEBAQUABIIBAAJUluyL0fGvb3NTfCyOnxE3OMya
+// SIG // lkBBfy6IG0Z6Cu+YLj5xUan6OWJnGbhfRhKN8sfhI2Ls
+// SIG // X7M36nwX4Ze3qj9qVUsC0o5eDnKSK6Wevkkof1qYeR93
+// SIG // dEg/lawYd9tMeWCNamtt+mGv8azAi+deZDK4l765UsKj
+// SIG // KUrHN4NTgTX/p9eIHhZPlP+8vAKCqIkNQrKLCTkj5pLK
+// SIG // swhkiGZYOtD5JrECIdjFZQM3+y8z49bMIxzDWhi21bb7
+// SIG // B+sWrwaDsNgkZU5pydrycqsWGtqO2Lr0BboMDdXOHMMR
+// SIG // Qw0YDHS6OBU3oW8Q++FPkWOHbSw0IS0QMheLFrpmfQu/
+// SIG // FD7Lt/g=
 // SIG // End signature block
