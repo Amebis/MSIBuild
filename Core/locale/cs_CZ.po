@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-13 10:48+0200\n"
+"POT-Creation-Date: 2016-09-12 14:49+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
 "Language-Team: Czech (Czech Republic) (https://www.transifex.com/eduroam_devel/teams/11799/cs_CZ/)\n"
@@ -19,19 +19,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Debug.ActionText-2.idtx:39
-#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Debug.ActionText-2.idtx:53
-#: En.Win32.Release.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:39
-#: En.Win32.Release.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:53
-#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Debug.ActionText-2.idtx:39
-#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Debug.ActionText-2.idtx:53
-#: En.x64.Release.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:39
-#: En.x64.Release.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:53
-msgid "[1]"
-msgstr "[1]"
-
-#: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
-#: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
+#: En.Win32.Release.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
 msgid ""
 "[2] cannot install one of its required products. Contact your technical "
 "support group. {{System Error: [3].}}"
@@ -39,73 +27,57 @@ msgstr ""
 "[2] nemůže nainstalovat některý z požadovaných produktů. Obraťte se na "
 "pracovníky odborné pomoci. {{Systémová chyba: [3].}}"
 
-#: En.Win32.Debug.Error-2.idtx:55 En.Win32.Release.Error-2.idtx:55
-#: En.x64.Debug.Error-2.idtx:55 En.x64.Release.Error-2.idtx:55
+#: En.Win32.Release.Error-2.idtx:55 En.x64.Release.Error-2.idtx:55
 msgid "'[2]' is not a valid short file name."
 msgstr "[2] není platný krátký název souboru."
 
-#: En.Win32.Debug.Error-2.idtx:13 En.Win32.Release.Error-2.idtx:13
-#: En.x64.Debug.Error-2.idtx:13 En.x64.Release.Error-2.idtx:13
+#: En.Win32.Release.Error-2.idtx:13 En.x64.Release.Error-2.idtx:13
 msgid "[SimpleProductName]"
 msgstr "[SimpleProductName]"
 
-#: En.Win32.Debug.Error-2.idtx:28 En.Win32.Release.Error-2.idtx:28
-#: En.x64.Debug.Error-2.idtx:28 En.x64.Release.Error-2.idtx:28
+#: En.Win32.Release.Error-2.idtx:28 En.x64.Release.Error-2.idtx:28
 msgid "[SimpleProductName] Setup completed successfully."
 msgstr "Instalace produktu [SimpleProductName] byla úspěšně dokončena."
 
-#: En.Win32.Debug.Error-2.idtx:29 En.Win32.Release.Error-2.idtx:29
-#: En.x64.Debug.Error-2.idtx:29 En.x64.Release.Error-2.idtx:29
+#: En.Win32.Release.Error-2.idtx:29 En.x64.Release.Error-2.idtx:29
 msgid "[SimpleProductName] Setup failed."
 msgstr "Instalace produktu [SimpleProductName] se nezdařila."
 
-#: En.Win32.Debug.Error-2.idtx:14 En.Win32.Release.Error-2.idtx:14
-#: En.x64.Debug.Error-2.idtx:14 En.x64.Release.Error-2.idtx:14
+#: En.Win32.Release.Error-2.idtx:14 En.x64.Release.Error-2.idtx:14
 msgid "{[2]}{, [3]}{, [4]}"
 msgstr "{[2]}{, [3]}{, [4]}"
 
-#: En.Win32.Debug.Error-2.idtx:11 En.Win32.Release.Error-2.idtx:11
-#: En.x64.Debug.Error-2.idtx:11 En.x64.Release.Error-2.idtx:11
+#: En.Win32.Release.Error-2.idtx:11 En.x64.Release.Error-2.idtx:11
 msgid "{{Disk full: }}"
 msgstr "{{Disk je plný: }}"
 
-#: En.Win32.Debug.Error-2.idtx:5 En.Win32.Release.Error-2.idtx:5
-#: En.x64.Debug.Error-2.idtx:5 En.x64.Release.Error-2.idtx:5
+#: En.Win32.Release.Error-2.idtx:5 En.x64.Release.Error-2.idtx:5
 msgid "{{Error [1]. }}"
 msgstr "{{Chyba [1]. }}"
 
-#: En.Win32.Debug.Error-2.idtx:4 En.Win32.Release.Error-2.idtx:4
-#: En.x64.Debug.Error-2.idtx:4 En.x64.Release.Error-2.idtx:4
+#: En.Win32.Release.Error-2.idtx:4 En.x64.Release.Error-2.idtx:4
 msgid "{{Fatal error: }}"
 msgstr "{{Závažná chyba: }}"
 
-#: En.Win32.Debug.Error-2.idtx:16 En.Win32.Release.Error-2.idtx:16
-#: En.x64.Debug.Error-2.idtx:16 En.x64.Release.Error-2.idtx:16
+#: En.Win32.Release.Error-2.idtx:16 En.x64.Release.Error-2.idtx:16
 msgid "=== Logging started: [Date] [Time] ==="
 msgstr "=== Začátek protokolování: [Date] [Time] ==="
 
-#: En.Win32.Debug.Error-2.idtx:17 En.Win32.Release.Error-2.idtx:17
-#: En.x64.Debug.Error-2.idtx:17 En.x64.Release.Error-2.idtx:17
+#: En.Win32.Release.Error-2.idtx:17 En.x64.Release.Error-2.idtx:17
 msgid "=== Logging stopped: [Date] [Time] ==="
 msgstr "=== Konec protokolování: [Date] [Time] ==="
 
-#: En.Win32.Debug.ActionText-2.idtx:3 En.Win32.Debug.CustomAction-2.idtx:3
-#: En.Win32.Debug.Error-2.idtx:3 En.Win32.Release.ActionText-2.idtx:3
 #: En.Win32.Release.CustomAction-2.idtx:3 En.Win32.Release.Error-2.idtx:3
-#: En.x64.Debug.ActionText-2.idtx:3 En.x64.Debug.CustomAction-2.idtx:3
-#: En.x64.Debug.Error-2.idtx:3 En.x64.Release.ActionText-2.idtx:3
 #: En.x64.Release.CustomAction-2.idtx:3 En.x64.Release.Error-2.idtx:3
 msgid "1252"
 msgstr "1250"
 
-#: En.Win32.Debug.Error-2.idtx:163 En.Win32.Release.Error-2.idtx:163
-#: En.x64.Debug.Error-2.idtx:163 En.x64.Release.Error-2.idtx:163
+#: En.Win32.Release.Error-2.idtx:163 En.x64.Release.Error-2.idtx:163
 msgid ""
 "64-bit registry operation attempted on 32-bit operating system for key [2]."
 msgstr ""
 
-#: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
-#: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
+#: En.Win32.Release.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
 msgid ""
 "A file that is required cannot be installed because the cabinet file [2] has"
 " an invalid digital signature. This may indicate that the cabinet file is "
@@ -115,8 +87,7 @@ msgstr ""
 "instalačního souboru [2] je neplatný. To může znamenat, že instalační soubor"
 " je poškozen. {{Funkce WinVerifyTrust vrátila chybu [3].}}"
 
-#: En.Win32.Debug.Error-2.idtx:59 En.Win32.Release.Error-2.idtx:59
-#: En.x64.Debug.Error-2.idtx:59 En.x64.Release.Error-2.idtx:59
+#: En.Win32.Release.Error-2.idtx:59 En.x64.Release.Error-2.idtx:59
 msgid ""
 "A file that is required cannot be installed because the cabinet file [2] is "
 "not digitally signed. This may indicate that the cabinet file is corrupt."
@@ -124,31 +95,26 @@ msgstr ""
 "Požadovaný soubor nemůže být nainstalován, protože instalační soubor [2] "
 "není digitálně podepsán. To může znamenat, že instalační soubor je poškozen."
 
-#: En.Win32.Debug.Error-2.idtx:48 En.Win32.Release.Error-2.idtx:48
-#: En.x64.Debug.Error-2.idtx:48 En.x64.Release.Error-2.idtx:48
+#: En.Win32.Release.Error-2.idtx:48 En.x64.Release.Error-2.idtx:48
 msgid "A network error occurred while attempting to create the folder: [2]"
 msgstr "Při pokusu o vytvoření adresáře [2] došlo k síťové chybě."
 
-#: En.Win32.Debug.Error-2.idtx:49 En.Win32.Release.Error-2.idtx:49
-#: En.x64.Debug.Error-2.idtx:49 En.x64.Release.Error-2.idtx:49
+#: En.Win32.Release.Error-2.idtx:49 En.x64.Release.Error-2.idtx:49
 msgid ""
 "A network error occurred while attempting to open the source file cabinet: "
 "[2]"
 msgstr ""
 "Při pokusu o otevření zdrojového souboru CAB ([2]) došlo k síťové chybě."
 
-#: En.Win32.Debug.Error-2.idtx:46 En.Win32.Release.Error-2.idtx:46
-#: En.x64.Debug.Error-2.idtx:46 En.x64.Release.Error-2.idtx:46
+#: En.Win32.Release.Error-2.idtx:46 En.x64.Release.Error-2.idtx:46
 msgid "A network error occurred while attempting to read from the file: [2]"
 msgstr "Při pokusu o čtení ze souboru [2] došlo k síťové chybě."
 
-#: En.Win32.Debug.CustomAction-2.idtx:5 En.Win32.Release.CustomAction-2.idtx:5
-#: En.x64.Debug.CustomAction-2.idtx:4 En.x64.Release.CustomAction-2.idtx:4
+#: En.Win32.Release.CustomAction-2.idtx:5 En.x64.Release.CustomAction-2.idtx:4
 msgid "A newer version of [SimpleProductName] is already installed."
 msgstr ""
 
-#: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
-#: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
+#: En.Win32.Release.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
 msgid ""
 "A portion of the folder path '[2]' is invalid. It is either empty or exceeds"
 " the length allowed by the system."
@@ -156,8 +122,7 @@ msgstr ""
 "Některá z částí cesty ke složce ([2]) není platná. Pravděpodobně není zadána"
 " nebo přesahuje délku povolenou v systému."
 
-#: En.Win32.Debug.Error-2.idtx:95 En.Win32.Release.Error-2.idtx:95
-#: En.x64.Debug.Error-2.idtx:95 En.x64.Release.Error-2.idtx:95
+#: En.Win32.Release.Error-2.idtx:95 En.x64.Release.Error-2.idtx:95
 msgid ""
 "A previous installation for this product is in progress. You must undo the "
 "changes made by that installation to continue. Do you want to undo those "
@@ -167,48 +132,31 @@ msgstr ""
 "nutné vrátit zpět změny provedené při této předchozí instalaci. Chcete tyto "
 "změny vrátit zpět?"
 
-#: En.Win32.Debug.Error-2.idtx:127 En.Win32.Release.Error-2.idtx:127
-#: En.x64.Debug.Error-2.idtx:127 En.x64.Release.Error-2.idtx:127
+#: En.Win32.Release.Error-2.idtx:127 En.x64.Release.Error-2.idtx:127
 msgid "A valid destination folder for the install could not be determined."
 msgstr "Nelze určit platnou cílovou složku pro tuto instalaci."
 
-#: En.Win32.Debug.Error-2.idtx:12 En.Win32.Release.Error-2.idtx:12
-#: En.x64.Debug.Error-2.idtx:12 En.x64.Release.Error-2.idtx:12
+#: En.Win32.Release.Error-2.idtx:12 En.x64.Release.Error-2.idtx:12
 msgid "Action [Time]: [1]. [2]"
 msgstr "Akce [Time]: [1]. [2]"
 
-#: En.Win32.Debug.Error-2.idtx:19 En.Win32.Release.Error-2.idtx:19
-#: En.x64.Debug.Error-2.idtx:19 En.x64.Release.Error-2.idtx:19
+#: En.Win32.Release.Error-2.idtx:19 En.x64.Release.Error-2.idtx:19
 msgid "Action ended [Time]: [1]. Return value [2]."
 msgstr "Akce ukončena [Time]: [1]. Vrácená hodnota: [2]."
 
-#: En.Win32.Debug.Error-2.idtx:18 En.Win32.Release.Error-2.idtx:18
-#: En.x64.Debug.Error-2.idtx:18 En.x64.Release.Error-2.idtx:18
+#: En.Win32.Release.Error-2.idtx:18 En.x64.Release.Error-2.idtx:18
 msgid "Action start [Time]: [1]."
 msgstr "Začátek akce [Time]: [1]."
 
-#: En.Win32.Debug.Error-2.idtx:116 En.Win32.Release.Error-2.idtx:116
-#: En.x64.Debug.Error-2.idtx:116 En.x64.Release.Error-2.idtx:116
+#: En.Win32.Release.Error-2.idtx:116 En.x64.Release.Error-2.idtx:116
 msgid "Advertisement completed successfully."
 msgstr "Inzerování bylo úspěšně dokončeno."
 
-#: En.Win32.Debug.Error-2.idtx:117 En.Win32.Release.Error-2.idtx:117
-#: En.x64.Debug.Error-2.idtx:117 En.x64.Release.Error-2.idtx:117
+#: En.Win32.Release.Error-2.idtx:117 En.x64.Release.Error-2.idtx:117
 msgid "Advertisement failed."
 msgstr "Inzerování se nezdařilo."
 
-#: En.Win32.Debug.ActionText-2.idtx:4 En.Win32.Release.ActionText-2.idtx:4
-#: En.x64.Debug.ActionText-2.idtx:4 En.x64.Release.ActionText-2.idtx:4
-msgid "Advertising application"
-msgstr "Ohlašování aplikace"
-
-#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
-#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
-msgid "Allocating registry space"
-msgstr "Přidělování místa v registru"
-
-#: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
-#: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
+#: En.Win32.Release.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
 "An error occured during the installation of assembly component [2]. HRESULT:"
 " [3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
@@ -216,8 +164,7 @@ msgstr ""
 "Při instalaci součásti sestavení [2] došlo k chybě. Výsledek: [3]. "
 "{{rozhraní sestavení: [4], funkce: [5], název sestavení: [6]}}"
 
-#: En.Win32.Debug.Error-2.idtx:89 En.Win32.Release.Error-2.idtx:89
-#: En.x64.Debug.Error-2.idtx:89 En.x64.Release.Error-2.idtx:89
+#: En.Win32.Release.Error-2.idtx:89 En.x64.Release.Error-2.idtx:89
 msgid ""
 "An error occurred while applying security settings. [2] is not a valid user "
 "or group. This could be a problem with the package, or a problem connecting "
@@ -231,13 +178,11 @@ msgstr ""
 "Opakovat, nebo instalaci ukončete klepnutím na tlačítko Storno. {{Není možné"
 " nalézt číslo SID uživatele. Systémová chyba [3]}}"
 
-#: En.Win32.Debug.Error-2.idtx:47 En.Win32.Release.Error-2.idtx:47
-#: En.x64.Debug.Error-2.idtx:47 En.x64.Release.Error-2.idtx:47
+#: En.Win32.Release.Error-2.idtx:47 En.x64.Release.Error-2.idtx:47
 msgid "An error occurred while attempting to create the folder: [2]"
 msgstr "Při pokusu o vytvoření adresáře [2] došlo k chybě."
 
-#: En.Win32.Debug.Error-2.idtx:101 En.Win32.Release.Error-2.idtx:101
-#: En.x64.Debug.Error-2.idtx:101 En.x64.Release.Error-2.idtx:101
+#: En.Win32.Release.Error-2.idtx:101 En.x64.Release.Error-2.idtx:101
 msgid ""
 "An error occurred while writing installation information to disk. Check to "
 "make sure enough disk space is available, and click Retry, or Cancel to end "
@@ -247,8 +192,7 @@ msgstr ""
 "zda je na disku dostatek místa, a klepněte na tlačítko Opakovat. Chcete-li "
 "instalaci ukončit, klepněte na tlačítko Storno."
 
-#: En.Win32.Debug.Error-2.idtx:94 En.Win32.Release.Error-2.idtx:94
-#: En.x64.Debug.Error-2.idtx:94 En.x64.Release.Error-2.idtx:94
+#: En.Win32.Release.Error-2.idtx:94 En.x64.Release.Error-2.idtx:94
 msgid ""
 "An installation for [2] is currently suspended. You must undo the changes "
 "made by that installation to continue. Do you want to undo those changes?"
@@ -256,8 +200,7 @@ msgstr ""
 "Instalace produktu [2] je pozastavena. Chcete-li pokračovat, je nutné vrátit"
 " zpět změny provedené při instalaci. Chcete tyto změny vrátit zpět?"
 
-#: En.Win32.Debug.Error-2.idtx:96 En.Win32.Release.Error-2.idtx:96
-#: En.x64.Debug.Error-2.idtx:96 En.x64.Release.Error-2.idtx:96
+#: En.Win32.Release.Error-2.idtx:96 En.x64.Release.Error-2.idtx:96
 msgid ""
 "An installation package for the product [2] cannot be found. Try the "
 "installation again using a valid copy of the installation package '[3]'."
@@ -265,8 +208,7 @@ msgstr ""
 "Instalační balíček pro produkt [2] nebyl nalezen. Spusťte instalaci znovu "
 "pomocí platného instalačního balíčku [3]."
 
-#: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
-#: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
+#: En.Win32.Release.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
 msgid ""
 "Another application has exclusive access to the file '[2]'. Please shut down"
 " all other applications, then click Retry."
@@ -274,8 +216,7 @@ msgstr ""
 "Soubor [2] je výhradně otevřen v jiné aplikaci. Ukončete všechny ostatní "
 "aplikace a klepněte na tlačítko Opakovat."
 
-#: En.Win32.Debug.Error-2.idtx:77 En.Win32.Release.Error-2.idtx:77
-#: En.x64.Debug.Error-2.idtx:77 En.x64.Release.Error-2.idtx:77
+#: En.Win32.Release.Error-2.idtx:77 En.x64.Release.Error-2.idtx:77
 msgid ""
 "Another installation is in progress. You must complete that installation "
 "before continuing this one."
@@ -283,45 +224,11 @@ msgstr ""
 "Probíhá již jiná instalace. Před spuštěním této instalace je třeba spuštěnou"
 " instalaci dokončit."
 
-#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
-#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
-msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-msgstr "ID aplikace: [1]{{, Typ Aplikace: [2], Uživatelé: [3], RSN: [4]}}"
-
-#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
-#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
-msgid "AppId: [1]{{, AppType: [2]}}"
-msgstr "ID aplikace: [1]{{, Typ aplikace: [2]}}"
-
-#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Debug.ActionText-2.idtx:28
-#: En.Win32.Release.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:28
-#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Debug.ActionText-2.idtx:28
-#: En.x64.Release.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:28
-msgid "Application Context:[1], Assembly Name:[2]"
-msgstr "Kontext aplikace:[1], název sestavení:[2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
-#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
-msgid "Application: [1]"
-msgstr "Aplikace: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
-#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
-msgid "Application: [1], Command line: [2]"
-msgstr "Aplikace: [1], Příkazový řádek: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:82 En.Win32.Release.Error-2.idtx:82
-#: En.x64.Debug.Error-2.idtx:82 En.x64.Release.Error-2.idtx:82
+#: En.Win32.Release.Error-2.idtx:82 En.x64.Release.Error-2.idtx:82
 msgid "Are you sure you want to cancel?"
 msgstr "Opravdu chcete akci zrušit?"
 
-#: En.Win32.Debug.ActionText-2.idtx:7 En.Win32.Release.ActionText-2.idtx:7
-#: En.x64.Debug.ActionText-2.idtx:7 En.x64.Release.ActionText-2.idtx:7
-msgid "Binding executables"
-msgstr "Vytváření vazeb mezi spustitelnými soubory"
-
-#: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
-#: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
+#: En.Win32.Release.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
 msgid ""
 "Cannot create the file '[2]'. A folder with this name already exists. Cancel"
 " the install and try installing to a different location."
@@ -329,8 +236,7 @@ msgstr ""
 "Soubor [2] nelze vytvořit. Existuje již adresář s tímto názvem. Ukončete "
 "tuto instalaci a proveďte instalaci do jiného umístění."
 
-#: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
-#: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
+#: En.Win32.Release.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
 msgid ""
 "Cannot create the folder '[2]'. A file with this name already exists. Please"
 " rename or remove the file and click retry, or click Cancel to exit."
@@ -339,22 +245,7 @@ msgstr ""
 "nebo odstraňte daný soubor a klepněte na tlačítko Opakovat. Klepnutím na "
 "tlačítko Storno akci zrušíte."
 
-#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Debug.ActionText-2.idtx:64
-#: En.Win32.Release.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:64
-#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Debug.ActionText-2.idtx:64
-#: En.x64.Release.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:64
-msgid "Class Id: [1]"
-msgstr "Class Id: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Debug.ActionText-2.idtx:61
-#: En.Win32.Release.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:61
-#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Debug.ActionText-2.idtx:61
-#: En.x64.Release.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:61
-msgid "Component ID: [1], Qualifier: [2]"
-msgstr "ID součásti: [1]; kvalifikátor: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:154 En.Win32.Release.Error-2.idtx:154
-#: En.x64.Debug.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
+#: En.Win32.Release.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
 msgid ""
 "Component Services (COM+ 1.0) are not installed on this computer. This "
 "installation requires Component Services in order to complete successfully. "
@@ -364,47 +255,23 @@ msgstr ""
 "Úspěšné dokončení této instalace vyžaduje služby Component Services, které "
 "jsou k dispozici v systému Windows 2000."
 
-#: En.Win32.Debug.ActionText-2.idtx:10 En.Win32.Debug.ActionText-2.idtx:15
-#: En.Win32.Debug.ActionText-2.idtx:9 En.Win32.Release.ActionText-2.idtx:10
-#: En.Win32.Release.ActionText-2.idtx:15 En.Win32.Release.ActionText-2.idtx:9
-#: En.x64.Debug.ActionText-2.idtx:10 En.x64.Debug.ActionText-2.idtx:15
-#: En.x64.Debug.ActionText-2.idtx:9 En.x64.Release.ActionText-2.idtx:10
-#: En.x64.Release.ActionText-2.idtx:15 En.x64.Release.ActionText-2.idtx:9
-msgid "Computing space requirements"
-msgstr "Výpočet požadovaného místa na disku"
-
-#: En.Win32.Debug.Error-2.idtx:118 En.Win32.Release.Error-2.idtx:118
-#: En.x64.Debug.Error-2.idtx:118 En.x64.Release.Error-2.idtx:118
+#: En.Win32.Release.Error-2.idtx:118 En.x64.Release.Error-2.idtx:118
 msgid "Configuration completed successfully."
 msgstr "Konfigurace byla úspěšně dokončena."
 
-#: En.Win32.Debug.Error-2.idtx:119 En.Win32.Release.Error-2.idtx:119
-#: En.x64.Debug.Error-2.idtx:119 En.x64.Release.Error-2.idtx:119
+#: En.Win32.Release.Error-2.idtx:119 En.x64.Release.Error-2.idtx:119
 msgid "Configuration failed."
 msgstr "Konfigurace se nezdařila."
 
-#: En.Win32.Debug.Error-2.idtx:106 En.Win32.Release.Error-2.idtx:106
-#: En.x64.Debug.Error-2.idtx:106 En.x64.Release.Error-2.idtx:106
+#: En.Win32.Release.Error-2.idtx:106 En.x64.Release.Error-2.idtx:106
 msgid "Configured [2]"
 msgstr "Nakonfigurováno: [2]"
 
-#: En.Win32.Debug.ActionText-2.idtx:18 En.Win32.Release.ActionText-2.idtx:18
-#: En.x64.Debug.ActionText-2.idtx:18 En.x64.Release.ActionText-2.idtx:18
-msgid "Copying network install files"
-msgstr "Kopírování souborů pro síťovou instalaci"
-
-#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:19
-#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:19
-msgid "Copying new files"
-msgstr "Kopírování nových souborů"
-
-#: En.Win32.Debug.Error-2.idtx:86 En.Win32.Release.Error-2.idtx:86
-#: En.x64.Debug.Error-2.idtx:86 En.x64.Release.Error-2.idtx:86
+#: En.Win32.Release.Error-2.idtx:86 En.x64.Release.Error-2.idtx:86
 msgid "Could not access network location [2]."
 msgstr "Nelze získat přístup k umístění v síti [2]."
 
-#: En.Win32.Debug.Error-2.idtx:67 En.Win32.Release.Error-2.idtx:67
-#: En.x64.Debug.Error-2.idtx:67 En.x64.Release.Error-2.idtx:67
+#: En.Win32.Release.Error-2.idtx:67 En.x64.Release.Error-2.idtx:67
 msgid ""
 "Could not create key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
@@ -412,8 +279,7 @@ msgstr ""
 "Nelze vytvořit klíč [2]. {{ Systémová chyba [3].}} Přesvědčte se, zda máte "
 "ke klíči dostatečný přístup, nebo se obraťte na pracovníky odborné pomoci. "
 
-#: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
-#: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
+#: En.Win32.Release.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
 msgid ""
 "Could not create Shortcut [2]. Verify that the destination folder exists and"
 " that you can access it."
@@ -421,8 +287,7 @@ msgstr ""
 "Nelze vytvořit zástupce [2]. Přesvědčte se, zda cílová složka existuje a zda"
 " k ní máte přístup."
 
-#: En.Win32.Debug.Error-2.idtx:70 En.Win32.Release.Error-2.idtx:70
-#: En.x64.Debug.Error-2.idtx:70 En.x64.Release.Error-2.idtx:70
+#: En.Win32.Release.Error-2.idtx:70 En.x64.Release.Error-2.idtx:70
 msgid ""
 "Could not delete key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
@@ -430,8 +295,7 @@ msgstr ""
 "Klíč [2] nelze odstranit. {{ Systémová chyba [3].}} Přesvědčte se, zda máte "
 "ke klíči dostatečný přístup, nebo se obraťte na pracovníky odborné pomoci. "
 
-#: En.Win32.Debug.Error-2.idtx:69 En.Win32.Release.Error-2.idtx:69
-#: En.x64.Debug.Error-2.idtx:69 En.x64.Release.Error-2.idtx:69
+#: En.Win32.Release.Error-2.idtx:69 En.x64.Release.Error-2.idtx:69
 msgid ""
 "Could not delete value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel. "
@@ -440,8 +304,7 @@ msgstr ""
 "Přesvědčte se, zda máte ke klíči dostatečný přístup, nebo se obraťte na "
 "pracovníky odborné pomoci. "
 
-#: En.Win32.Debug.Error-2.idtx:88 En.Win32.Release.Error-2.idtx:88
-#: En.x64.Debug.Error-2.idtx:88 En.x64.Release.Error-2.idtx:88
+#: En.Win32.Release.Error-2.idtx:88 En.x64.Release.Error-2.idtx:88
 msgid ""
 "Could not find any previously installed compliant products on the machine "
 "for installing this product."
@@ -449,8 +312,7 @@ msgstr ""
 "V počítači nebyly nalezeny některé z dříve nainstalovaných opravňujících "
 "produktů potřebných pro instalaci tohoto produktu."
 
-#: En.Win32.Debug.Error-2.idtx:74 En.Win32.Release.Error-2.idtx:74
-#: En.x64.Debug.Error-2.idtx:74 En.x64.Release.Error-2.idtx:74
+#: En.Win32.Release.Error-2.idtx:74 En.x64.Release.Error-2.idtx:74
 msgid ""
 "Could not get sub key names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
@@ -459,8 +321,7 @@ msgstr ""
 "Přesvědčte se, zda máte ke klíči dostatečný přístup, nebo se obraťte na "
 "pracovníky odborné pomoci."
 
-#: En.Win32.Debug.Error-2.idtx:73 En.Win32.Release.Error-2.idtx:73
-#: En.x64.Debug.Error-2.idtx:73 En.x64.Release.Error-2.idtx:73
+#: En.Win32.Release.Error-2.idtx:73 En.x64.Release.Error-2.idtx:73
 msgid ""
 "Could not get value names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
@@ -469,8 +330,7 @@ msgstr ""
 " se, zda máte ke klíči dostatečný přístup, nebo se obraťte na pracovníky "
 "odborné pomoci."
 
-#: En.Win32.Debug.Error-2.idtx:76 En.Win32.Release.Error-2.idtx:76
-#: En.x64.Debug.Error-2.idtx:76 En.x64.Release.Error-2.idtx:76
+#: En.Win32.Release.Error-2.idtx:76 En.x64.Release.Error-2.idtx:76
 msgid ""
 "Could not increase the available registry space. [2] KB of free registry "
 "space is required for the installation of this application."
@@ -478,8 +338,7 @@ msgstr ""
 "Nelze zvětšit dostupné místo v registru. K instalaci této aplikace je "
 "potřeba [2] kB volného místa v registru."
 
-#: En.Win32.Debug.Error-2.idtx:68 En.Win32.Release.Error-2.idtx:68
-#: En.x64.Debug.Error-2.idtx:68 En.x64.Release.Error-2.idtx:68
+#: En.Win32.Release.Error-2.idtx:68 En.x64.Release.Error-2.idtx:68
 msgid ""
 "Could not open key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
@@ -487,8 +346,7 @@ msgstr ""
 "Nelze otevřít klíč [2]. {{ Systémová chyba [3].}} Přesvědčte se, zda máte ke"
 " klíči dostatečný přístup, nebo se obraťte na pracovníky odborné pomoci. "
 
-#: En.Win32.Debug.Error-2.idtx:75 En.Win32.Release.Error-2.idtx:75
-#: En.x64.Debug.Error-2.idtx:75 En.x64.Release.Error-2.idtx:75
+#: En.Win32.Release.Error-2.idtx:75 En.x64.Release.Error-2.idtx:75
 msgid ""
 "Could not read security information for key [2]. {{ System error [3].}} "
 "Verify that you have sufficient access to that key, or contact your support "
@@ -498,8 +356,7 @@ msgstr ""
 "Přesvědčte se, zda máte ke klíči dostatečný přístup, nebo se obraťte na "
 "pracovníky odborné pomoci."
 
-#: En.Win32.Debug.Error-2.idtx:71 En.Win32.Release.Error-2.idtx:71
-#: En.x64.Debug.Error-2.idtx:71 En.x64.Release.Error-2.idtx:71
+#: En.Win32.Release.Error-2.idtx:71 En.x64.Release.Error-2.idtx:71
 msgid ""
 "Could not read value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel. "
@@ -508,8 +365,7 @@ msgstr ""
 " zda máte ke klíči dostatečný přístup, nebo se obraťte na pracovníky odborné"
 " pomoci. "
 
-#: En.Win32.Debug.Error-2.idtx:134 En.Win32.Release.Error-2.idtx:134
-#: En.x64.Debug.Error-2.idtx:134 En.x64.Release.Error-2.idtx:134
+#: En.Win32.Release.Error-2.idtx:134 En.x64.Release.Error-2.idtx:134
 msgid ""
 "Could not register font [2]. Verify that you have sufficient permissions to "
 "install fonts, and that the system supports this font."
@@ -517,8 +373,7 @@ msgstr ""
 "Písmo [2] nelze zaregistrovat. Přesvědčte se, zda máte dostatečná oprávnění "
 "pro instalaci písem a zda je dané písmo v systému podporováno."
 
-#: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
-#: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
+#: En.Win32.Release.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
 msgid ""
 "Could not register type library for file [2]. Contact your support "
 "personnel."
@@ -526,8 +381,7 @@ msgstr ""
 "Nelze zaregistrovat knihovnu typů pro soubor [2]. Obraťte se na pracovníky "
 "odborné pomoci."
 
-#: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
-#: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
+#: En.Win32.Release.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
 msgid ""
 "Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
 " you can access it."
@@ -535,8 +389,7 @@ msgstr ""
 "Nelze odebrat zástupce [2]. Přesvědčte se, zda soubor zástupce existuje a "
 "zda k němu máte přístup."
 
-#: En.Win32.Debug.Error-2.idtx:141 En.Win32.Release.Error-2.idtx:141
-#: En.x64.Debug.Error-2.idtx:141 En.x64.Release.Error-2.idtx:141
+#: En.Win32.Release.Error-2.idtx:141 En.x64.Release.Error-2.idtx:141
 msgid ""
 "Could not schedule file [2] to replace file [3] on reboot. Verify that you "
 "have write permissions to file [3]."
@@ -544,8 +397,7 @@ msgstr ""
 "Nelze naplánovat nahrazení souboru [3] souborem [2] při restartování "
 "počítače. Přesvědčte se, zda máte oprávnění pro zápis do souboru [3]."
 
-#: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
-#: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
+#: En.Win32.Release.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
 msgid ""
 "Could not set file security for file '[3]'. Error: [2]. Verify that you have"
 " sufficient privileges to modify the security permissions for this file."
@@ -553,8 +405,7 @@ msgstr ""
 "Nelze nastavit zabezpečení souboru pro soubor [3]. Chyba [2]. Přesvědčte se,"
 " zda máte dostatečná oprávnění pro úpravy oprávnění zabezpečení."
 
-#: En.Win32.Debug.Error-2.idtx:135 En.Win32.Release.Error-2.idtx:135
-#: En.x64.Debug.Error-2.idtx:135 En.x64.Release.Error-2.idtx:135
+#: En.Win32.Release.Error-2.idtx:135 En.x64.Release.Error-2.idtx:135
 msgid ""
 "Could not unregister font [2]. Verify that you that you have sufficient "
 "permissions to remove fonts."
@@ -562,8 +413,7 @@ msgstr ""
 "Nelze zrušit registraci písma [2]. Přesvědčte se, zda máte dostatečná "
 "oprávnění pro instalaci písem."
 
-#: En.Win32.Debug.Error-2.idtx:139 En.Win32.Release.Error-2.idtx:139
-#: En.x64.Debug.Error-2.idtx:139 En.x64.Release.Error-2.idtx:139
+#: En.Win32.Release.Error-2.idtx:139 En.x64.Release.Error-2.idtx:139
 msgid ""
 "Could not unregister type library for file [2]. Contact your support "
 "personnel."
@@ -571,8 +421,7 @@ msgstr ""
 "Nelze zrušit registraci knihovny typů pro soubor [2]. Obraťte se na "
 "pracovníky odborné pomoci."
 
-#: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
-#: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
+#: En.Win32.Release.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
 msgid ""
 "Could not update environment variable '[2]'. Verify that you have sufficient"
 " privileges to modify environment variables."
@@ -580,8 +429,7 @@ msgstr ""
 "Nelze aktualizovat proměnnou prostředí [2]. Přesvědčte se, zda máte "
 "dostatečná oprávnění pro úpravy proměnných prostředí."
 
-#: En.Win32.Debug.Error-2.idtx:140 En.Win32.Release.Error-2.idtx:140
-#: En.x64.Debug.Error-2.idtx:140 En.x64.Release.Error-2.idtx:140
+#: En.Win32.Release.Error-2.idtx:140 En.x64.Release.Error-2.idtx:140
 msgid ""
 "Could not update the ini file [2][3]. Verify that the file exists and that "
 "you can access it."
@@ -589,8 +437,7 @@ msgstr ""
 "Nelze aktualizovat soubor INI [2][3]. Přesvědčte se, zda soubor existuje a "
 "zda k němu máte přístup."
 
-#: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
-#: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
+#: En.Win32.Release.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
 msgid ""
 "Could not write value [2] to key [3]. {{ System error [4].}} Verify that you"
 " have sufficient access to that key, or contact your support personnel."
@@ -599,28 +446,7 @@ msgstr ""
 "se, zda máte ke klíči dostatečný přístup, nebo se obraťte na pracovníky "
 "odborné pomoci."
 
-#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:14
-#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:14
-msgid "Creating duplicate files"
-msgstr "Vytváření duplicitních souborů"
-
-#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:11
-#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:11
-msgid "Creating folders"
-msgstr "Vytváření složek"
-
-#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:12
-#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:12
-msgid "Creating shortcuts"
-msgstr "Vytváření zástupců"
-
-#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Release.ActionText-2.idtx:13
-#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Release.ActionText-2.idtx:13
-msgid "Deleting services"
-msgstr "Odstraňování služeb"
-
-#: En.Win32.Debug.Error-2.idtx:78 En.Win32.Release.Error-2.idtx:78
-#: En.x64.Debug.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
+#: En.Win32.Release.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
 msgid ""
 "Error accessing secured data. Please make sure the Windows Installer is "
 "configured properly and try the install again."
@@ -629,8 +455,7 @@ msgstr ""
 "instalační služba Windows Installer správně nakonfigurována, a instalaci "
 "zopakujte."
 
-#: En.Win32.Debug.Error-2.idtx:58 En.Win32.Release.Error-2.idtx:58
-#: En.x64.Debug.Error-2.idtx:58 En.x64.Release.Error-2.idtx:58
+#: En.Win32.Release.Error-2.idtx:58 En.x64.Release.Error-2.idtx:58
 msgid ""
 "Error applying patch to file [2]. It has probably been updated by other "
 "means, and can no longer be modified by this patch. For more information "
@@ -641,13 +466,11 @@ msgstr ""
 "Další informace získáte od dodavatele tohoto opravného nástroje. {{Systémová"
 " chyba: [3]}}"
 
-#: En.Win32.Debug.Error-2.idtx:128 En.Win32.Release.Error-2.idtx:128
-#: En.x64.Debug.Error-2.idtx:128 En.x64.Release.Error-2.idtx:128
+#: En.Win32.Release.Error-2.idtx:128 En.x64.Release.Error-2.idtx:128
 msgid "Error attempting to read from the source install database: [2]."
 msgstr "Při pokusu o čtení ze zdrojové instalační databáze [2] došlo k chybě."
 
-#: En.Win32.Debug.Error-2.idtx:146 En.Win32.Release.Error-2.idtx:146
-#: En.x64.Debug.Error-2.idtx:146 En.x64.Release.Error-2.idtx:146
+#: En.Win32.Release.Error-2.idtx:146 En.x64.Release.Error-2.idtx:146
 msgid ""
 "Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that "
 "the file [4] exists and that you can access it."
@@ -655,14 +478,12 @@ msgstr ""
 "Při konfigurování zdroje dat ODBC [4] došlo k chybě. Chyba ODBC: [2]: [3]. "
 "Přesvědčte se, zda soubor [4] existuje a zda k němu máte přístup."
 
-#: En.Win32.Debug.Error-2.idtx:56 En.Win32.Release.Error-2.idtx:56
-#: En.x64.Debug.Error-2.idtx:56 En.x64.Release.Error-2.idtx:56
+#: En.Win32.Release.Error-2.idtx:56 En.x64.Release.Error-2.idtx:56
 msgid "Error getting file security: [3] GetLastError: [2]"
 msgstr ""
 "Při získávání zabezpečení souboru [3] došlo k chybě. GetLastError: [2]"
 
-#: En.Win32.Debug.Error-2.idtx:143 En.Win32.Release.Error-2.idtx:143
-#: En.x64.Debug.Error-2.idtx:143 En.x64.Release.Error-2.idtx:143
+#: En.Win32.Release.Error-2.idtx:143 En.x64.Release.Error-2.idtx:143
 msgid ""
 "Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
@@ -670,8 +491,7 @@ msgstr ""
 "Při instalaci správce ovladačů ODBC došlo k chybě. Chyba ODBC [2]: [3]. "
 "Obraťte se na pracovníky odborné pomoci."
 
-#: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
-#: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
+#: En.Win32.Release.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
 msgid ""
 "Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
 " [4] exists and that you can access it."
@@ -679,8 +499,7 @@ msgstr ""
 "Došlo k chybě při instalaci ovladače ODBC: [4]. Chyba ODBC [2]: [3]. "
 "Přesvědčte se, zda soubor [4] existuje a zda k němu máte přístup."
 
-#: En.Win32.Debug.Error-2.idtx:35 En.Win32.Release.Error-2.idtx:35
-#: En.x64.Debug.Error-2.idtx:35 En.x64.Release.Error-2.idtx:35
+#: En.Win32.Release.Error-2.idtx:35 En.x64.Release.Error-2.idtx:35
 msgid ""
 "Error reading from file [2]. {{ System error [3].}} Verify that the file "
 "exists and that you can access it."
@@ -688,8 +507,7 @@ msgstr ""
 "Při čtení souboru [2] došlo k chybě. {{ Systémová chyba [3].}} Přesvědčte "
 "se, zda soubor existuje a zda k němu máte přístup."
 
-#: En.Win32.Debug.Error-2.idtx:30 En.Win32.Release.Error-2.idtx:30
-#: En.x64.Debug.Error-2.idtx:30 En.x64.Release.Error-2.idtx:30
+#: En.Win32.Release.Error-2.idtx:30 En.x64.Release.Error-2.idtx:30
 msgid ""
 "Error reading from file: [2]. {{ System error [3].}} Verify that the file "
 "exists and that you can access it."
@@ -697,8 +515,7 @@ msgstr ""
 "Při čtení souboru [2] došlo k chybě. {{ Systémová chyba [3].}} Přesvědčte "
 "se, zda soubor existuje a zda k němu máte přístup."
 
-#: En.Win32.Debug.Error-2.idtx:39 En.Win32.Release.Error-2.idtx:39
-#: En.x64.Debug.Error-2.idtx:39 En.x64.Release.Error-2.idtx:39
+#: En.Win32.Release.Error-2.idtx:39 En.x64.Release.Error-2.idtx:39
 msgid ""
 "Error reading from file: [3]. {{ System error [2].}} Verify that the file "
 "exists and that you can access it."
@@ -706,8 +523,7 @@ msgstr ""
 "Při čtení souboru [3] došlo k chybě. {{ Systémová chyba [2].}} Přesvědčte "
 "se, zda soubor existuje a zda k němu máte přístup."
 
-#: En.Win32.Debug.Error-2.idtx:155 En.Win32.Release.Error-2.idtx:155
-#: En.x64.Debug.Error-2.idtx:155 En.x64.Release.Error-2.idtx:155
+#: En.Win32.Release.Error-2.idtx:155 En.x64.Release.Error-2.idtx:155
 msgid ""
 "Error registering COM+ Application. Contact your support personnel for more "
 "information."
@@ -715,8 +531,7 @@ msgstr ""
 "Při registraci aplikace modelu COM+ došlo k chybě. Obraťte se na pracovníky "
 "odborné pomoci se žádostí o další informace."
 
-#: En.Win32.Debug.Error-2.idtx:142 En.Win32.Release.Error-2.idtx:142
-#: En.x64.Debug.Error-2.idtx:142 En.x64.Release.Error-2.idtx:142
+#: En.Win32.Release.Error-2.idtx:142 En.x64.Release.Error-2.idtx:142
 msgid ""
 "Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
@@ -724,8 +539,7 @@ msgstr ""
 "Při odebírání správce ovladačů ODBC došlo k chybě. Chyba ODBC [2]: [3]. "
 "Obraťte se na pracovníky odborné pomoci."
 
-#: En.Win32.Debug.Error-2.idtx:144 En.Win32.Release.Error-2.idtx:144
-#: En.x64.Debug.Error-2.idtx:144 En.x64.Release.Error-2.idtx:144
+#: En.Win32.Release.Error-2.idtx:144 En.x64.Release.Error-2.idtx:144
 msgid ""
 "Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you have "
 "sufficient privileges to remove ODBC drivers."
@@ -733,8 +547,7 @@ msgstr ""
 "Došlo k chybě při odebírání ovladače ODBC: [4]. Chyba ODBC [2]: [3]. "
 "Přesvědčte se, zda máte dostatečná oprávnění pro odebírání ovladačů ODBC."
 
-#: En.Win32.Debug.Error-2.idtx:156 En.Win32.Release.Error-2.idtx:156
-#: En.x64.Debug.Error-2.idtx:156 En.x64.Release.Error-2.idtx:156
+#: En.Win32.Release.Error-2.idtx:156 En.x64.Release.Error-2.idtx:156
 msgid ""
 "Error unregistering COM+ Application. Contact your support personnel for "
 "more information."
@@ -742,16 +555,14 @@ msgstr ""
 "Při rušení registrace aplikace modelu COM+ došlo k chybě. Obraťte se na "
 "pracovníky odborné pomoci se žádostí o další informace."
 
-#: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
-#: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
+#: En.Win32.Release.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
 msgid ""
 "Error writing to file: [2]. Verify that you have access to that folder."
 msgstr ""
 "Při zápisu do souboru [2] došlo k chybě. Přesvědčte se, zda máte přístup do "
 "adresáře."
 
-#: En.Win32.Debug.Error-2.idtx:40 En.Win32.Release.Error-2.idtx:40
-#: En.x64.Debug.Error-2.idtx:40 En.x64.Release.Error-2.idtx:40
+#: En.Win32.Release.Error-2.idtx:40 En.x64.Release.Error-2.idtx:40
 msgid ""
 "Error writing to file: [3]. {{ System error [2].}} Verify that you have "
 "access to that folder."
@@ -759,237 +570,73 @@ msgstr ""
 "Při zápisu do souboru [3] došlo k chybě. {{ Systémová chyba [2].}} "
 "Přesvědčte se, zda máte přístup do adresáře."
 
-#: En.Win32.Debug.ActionText-2.idtx:24 En.Win32.Release.ActionText-2.idtx:24
-#: En.x64.Debug.ActionText-2.idtx:24 En.x64.Release.ActionText-2.idtx:24
-msgid "Evaluating launch conditions"
-msgstr "Vyhodnocování podmínek pro spuštění"
-
-#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Debug.ActionText-2.idtx:66
-#: En.Win32.Release.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:66
-#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Debug.ActionText-2.idtx:66
-#: En.x64.Release.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:66
-msgid "Extension: [1]"
-msgstr "Rozšíření: [1]"
-
-#: En.Win32.Debug.Error-2.idtx:133 En.Win32.Release.Error-2.idtx:133
-#: En.x64.Debug.Error-2.idtx:133 En.x64.Release.Error-2.idtx:133
+#: En.Win32.Release.Error-2.idtx:133 En.x64.Release.Error-2.idtx:133
 msgid ""
 "Failed to cache package [2]. Error: [3]. Contact your support personnel."
 msgstr ""
 "Balíček [2] nelze zapsat do mezipaměti. Chyba [3]. Obraťte se na pracovníky "
 "odborné pomoci."
 
-#: En.Win32.Debug.Error-2.idtx:61 En.Win32.Release.Error-2.idtx:61
-#: En.x64.Debug.Error-2.idtx:61 En.x64.Release.Error-2.idtx:61
+#: En.Win32.Release.Error-2.idtx:61 En.x64.Release.Error-2.idtx:61
 msgid "Failed to correctly copy [2] file: CRC error."
 msgstr "Kopírování souboru [2] se nezdařilo: chyba kontrolního součtu CRC."
 
-#: En.Win32.Debug.Error-2.idtx:62 En.Win32.Release.Error-2.idtx:62
-#: En.x64.Debug.Error-2.idtx:62 En.x64.Release.Error-2.idtx:62
+#: En.Win32.Release.Error-2.idtx:62 En.x64.Release.Error-2.idtx:62
 msgid "Failed to correctly move [2] file: CRC error."
 msgstr "Přesunutí souboru [2] se nezdařilo: chyba kontrolního součtu CRC."
 
-#: En.Win32.Debug.Error-2.idtx:63 En.Win32.Release.Error-2.idtx:63
-#: En.x64.Debug.Error-2.idtx:63 En.x64.Release.Error-2.idtx:63
+#: En.Win32.Release.Error-2.idtx:63 En.x64.Release.Error-2.idtx:63
 msgid "Failed to correctly patch [2] file: CRC error."
 msgstr "Opravení souboru [2] se nezdařilo: chyba kontrolního součtu CRC."
 
-#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Debug.ActionText-2.idtx:62
-#: En.Win32.Release.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:62
-#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Debug.ActionText-2.idtx:62
-#: En.x64.Release.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:62
-msgid "Feature: [1]"
-msgstr "Funkce: [1]"
-
-#: En.Win32.Debug.Error-2.idtx:108 En.Win32.Release.Error-2.idtx:108
-#: En.x64.Debug.Error-2.idtx:108 En.x64.Release.Error-2.idtx:108
+#: En.Win32.Release.Error-2.idtx:108 En.x64.Release.Error-2.idtx:108
 msgid "File [2] was rejected by digital signature policy."
 msgstr "Soubor [2] byl zásadou digitálních podpisů odmítnut."
 
-#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Debug.ActionText-2.idtx:7
-#: En.Win32.Release.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:7
-#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Debug.ActionText-2.idtx:7
-#: En.x64.Release.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:7
-msgid "File: [1]"
-msgstr "Soubor: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
-#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
-msgid "File: [1], Dependencies: [2]"
-msgstr "Soubor: [1], Závislosti: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Debug.ActionText-2.idtx:56
-#: En.Win32.Release.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:56
-#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Debug.ActionText-2.idtx:56
-#: En.x64.Release.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:56
-msgid "File: [1], Folder: [2]"
-msgstr "Soubor: [1]; Složka: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
-#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
-msgid "File: [1], Folder: [2], Size: [3]"
-msgstr "Soubor: [1]; Adresář: [2]; Velikost: [3]"
-
-#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Debug.ActionText-2.idtx:46
-#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:43
-#: En.Win32.Release.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:60
-#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Debug.ActionText-2.idtx:46
-#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:43
-#: En.x64.Release.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:60
-msgid "File: [1], Folder: [9]"
-msgstr "Soubor: [1]; Adresář: [9]"
-
-#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Debug.ActionText-2.idtx:18
-#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Debug.ActionText-2.idtx:26
-#: En.Win32.Release.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:18
-#: En.Win32.Release.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:26
-#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Debug.ActionText-2.idtx:18
-#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Debug.ActionText-2.idtx:26
-#: En.x64.Release.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:18
-#: En.x64.Release.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:26
-msgid "File: [1], Folder: [9], Size: [6]"
-msgstr "Soubor: [1]; Adresář: [9]; Velikost: [6]"
-
-#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Debug.ActionText-2.idtx:72
-#: En.Win32.Release.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:72
-#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Debug.ActionText-2.idtx:72
-#: En.x64.Release.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:72
-msgid "File: [1], Section: [2], Key: [3], Value: [4]"
-msgstr "Soubor: [1]; Sekce: [2]; Klíč: [3]; Hodnota: [4]"
-
-#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Debug.ActionText-2.idtx:47
-#: En.Win32.Release.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:47
-#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Debug.ActionText-2.idtx:47
-#: En.x64.Release.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:47
-msgid "Folder: [1]"
-msgstr "Složka: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Debug.ActionText-2.idtx:67
-#: En.Win32.Release.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:67
-#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Debug.ActionText-2.idtx:67
-#: En.x64.Release.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:67
-msgid "Font: [1]"
-msgstr "Písmo: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
-#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
-msgid "Found application: [1]"
-msgstr "Nalezená aplikace: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
-#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
-msgid "Free space: [1]"
-msgstr "Volné místo: [1]"
-
-#: En.Win32.Debug.Error-2.idtx:25 En.Win32.Release.Error-2.idtx:25
-#: En.x64.Debug.Error-2.idtx:25 En.x64.Release.Error-2.idtx:25
+#: En.Win32.Release.Error-2.idtx:25 En.x64.Release.Error-2.idtx:25
 msgid "Gathering required information..."
 msgstr "Systém shromažďuje požadované informace..."
 
-#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:17
-#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:17
-msgid "Generating script operations for action:"
-msgstr "Generování operací skriptu pro akci:"
-
-#: En.Win32.Debug.Error-2.idtx:8 En.Win32.Release.Error-2.idtx:8
-#: En.x64.Debug.Error-2.idtx:8 En.x64.Release.Error-2.idtx:8
+#: En.Win32.Release.Error-2.idtx:8 En.x64.Release.Error-2.idtx:8
 msgid "Info [1]. "
 msgstr "Informace [1]. "
 
-#: En.Win32.Debug.ActionText-2.idtx:57 En.Win32.Release.ActionText-2.idtx:57
-#: En.x64.Debug.ActionText-2.idtx:57 En.x64.Release.ActionText-2.idtx:57
-msgid "Initializing ODBC folders"
-msgstr "Inicializace adresářů ODBC"
-
-#: En.Win32.Debug.Error-2.idtx:97 En.Win32.Release.Error-2.idtx:97
-#: En.x64.Debug.Error-2.idtx:97 En.x64.Release.Error-2.idtx:97
+#: En.Win32.Release.Error-2.idtx:97 En.x64.Release.Error-2.idtx:97
 msgid "Installation completed successfully."
 msgstr "Instalace byla úspěšně dokončena."
 
-#: En.Win32.Debug.Error-2.idtx:98 En.Win32.Release.Error-2.idtx:98
-#: En.x64.Debug.Error-2.idtx:98 En.x64.Release.Error-2.idtx:98
+#: En.Win32.Release.Error-2.idtx:98 En.x64.Release.Error-2.idtx:98
 msgid "Installation failed."
 msgstr "Instalace se nezdařila."
 
-#: En.Win32.Debug.Error-2.idtx:105 En.Win32.Release.Error-2.idtx:105
-#: En.x64.Debug.Error-2.idtx:105 En.x64.Release.Error-2.idtx:105
+#: En.Win32.Release.Error-2.idtx:105 En.x64.Release.Error-2.idtx:105
 msgid "Installed [2]"
 msgstr "Nainstalováno: [2]"
 
-#: En.Win32.Debug.Error-2.idtx:22 En.Win32.Release.Error-2.idtx:22
-#: En.x64.Debug.Error-2.idtx:22 En.x64.Release.Error-2.idtx:22
+#: En.Win32.Release.Error-2.idtx:22 En.x64.Release.Error-2.idtx:22
 msgid "Installer is no longer responding."
 msgstr "Instalační služba nereaguje."
 
-#: En.Win32.Debug.Error-2.idtx:23 En.Win32.Release.Error-2.idtx:23
-#: En.x64.Debug.Error-2.idtx:23 En.x64.Release.Error-2.idtx:23
+#: En.Win32.Release.Error-2.idtx:23 En.x64.Release.Error-2.idtx:23
 msgid "Installer stopped prematurely."
 msgstr "Instalační služba byla předčasně ukončena."
 
-#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
-#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
-msgid "Installing new services"
-msgstr "Instalace nových služeb"
-
-#: En.Win32.Debug.ActionText-2.idtx:20 En.Win32.Release.ActionText-2.idtx:20
-#: En.x64.Debug.ActionText-2.idtx:20 En.x64.Release.ActionText-2.idtx:20
-msgid "Installing ODBC components"
-msgstr "Instalace součástí ODBC"
-
-#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
-#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
-msgid "Installing system catalog"
-msgstr "Instalace systémového katalogu"
-
-#: En.Win32.Debug.Error-2.idtx:57 En.Win32.Release.Error-2.idtx:57
-#: En.x64.Debug.Error-2.idtx:57 En.x64.Release.Error-2.idtx:57
+#: En.Win32.Release.Error-2.idtx:57 En.x64.Release.Error-2.idtx:57
 msgid "Invalid Drive: [2]"
 msgstr "Jednotka [2] není platná."
 
-#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
-#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
-msgid "Key: [1], Name: [2]"
-msgstr "Klíč: [1]; Název: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
-#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
-msgid "Key: [1], Name: [2], Value: [3]"
-msgstr "Klíč: [1]; Název: [2]; Hodnota: [3]"
-
-#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Debug.ActionText-2.idtx:70
-#: En.Win32.Release.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:70
-#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Debug.ActionText-2.idtx:70
-#: En.x64.Release.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:70
-msgid "LibID: [1]"
-msgstr "ID knihovny: [1]"
-
-#: En.Win32.Debug.Error-2.idtx:15 En.Win32.Release.Error-2.idtx:15
-#: En.x64.Debug.Error-2.idtx:15 En.x64.Release.Error-2.idtx:15
+#: En.Win32.Release.Error-2.idtx:15 En.x64.Release.Error-2.idtx:15
 msgid "Message type: [1], Argument: [2]"
 msgstr "Typ zprávy: [1], Argument: [2]"
 
-#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
-#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
-msgid "Migrating feature states from related applications"
-msgstr "Přenášení stavů funkcí ze souvisejících aplikací"
-
-#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Debug.ActionText-2.idtx:68
-#: En.Win32.Release.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:68
-#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Debug.ActionText-2.idtx:68
-#: En.x64.Release.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:68
-msgid "MIME Content Type: [1], Extension: [2]"
-msgstr "Typ obsahu MIME: [1]; rozšíření: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:131 En.Win32.Release.Error-2.idtx:131
-#: En.x64.Debug.Error-2.idtx:131 En.x64.Release.Error-2.idtx:131
+#: En.Win32.Release.Error-2.idtx:131 En.x64.Release.Error-2.idtx:131
 msgid ""
 "Module [2] failed to register. HRESULT [3]. Contact your support personnel."
 msgstr ""
 "Modul [2] nelze zaregistrovat. HRESULT [3]. Obraťte se na pracovníky odborné"
 " pomoci."
 
-#: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
-#: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
+#: En.Win32.Release.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
 msgid ""
 "Module [2] failed to unregister. HRESULT [3]. Contact your support "
 "personnel."
@@ -997,20 +644,7 @@ msgstr ""
 "Nelze zrušit registraci modulu [2]. HRESULT [3]. Obraťte se na pracovníky "
 "odborné pomoci."
 
-#: En.Win32.Debug.ActionText-2.idtx:26 En.Win32.Release.ActionText-2.idtx:26
-#: En.x64.Debug.ActionText-2.idtx:26 En.x64.Release.ActionText-2.idtx:26
-msgid "Moving files"
-msgstr "Přesouvání souborů"
-
-#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
-#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
-#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
-#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
-msgid "Name: [1], Value: [2], Action [3]"
-msgstr "Název: [1]; Hodnota: [2]; Akce [3]"
-
-#: En.Win32.Debug.Error-2.idtx:102 En.Win32.Release.Error-2.idtx:102
-#: En.x64.Debug.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
+#: En.Win32.Release.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
 msgid ""
 "One or more of the files required to restore your computer to its previous "
 "state could not be found. Restoration will not be possible."
@@ -1018,8 +652,7 @@ msgstr ""
 "Jeden nebo více souborů potřebných pro obnovení předchozího stavu počítače "
 "nelze najít. Předchozí stav počítače nelze obnovit."
 
-#: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
-#: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
+#: En.Win32.Release.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
 msgid ""
 "Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
 " [4] KB. Free some disk space and retry."
@@ -1027,200 +660,47 @@ msgstr ""
 "Na svazku [2] není dostatek místa. Požadované místo: [3] kB; dostupné místo:"
 " [4] kB. Uvolněte potřebné místo na disku a akci zopakujte."
 
-#: En.Win32.Debug.Error-2.idtx:122 En.Win32.Debug.Error-2.idtx:21
 #: En.Win32.Release.Error-2.idtx:122 En.Win32.Release.Error-2.idtx:21
-#: En.x64.Debug.Error-2.idtx:122 En.x64.Debug.Error-2.idtx:21
 #: En.x64.Release.Error-2.idtx:122 En.x64.Release.Error-2.idtx:21
 msgid "Out of memory. Shut down other applications before retrying."
 msgstr ""
 "Nedostatek paměti. Ukončete ostatní spuštěné aplikace a akci zopakujte."
 
-#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
-#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
-msgid "Patching files"
-msgstr "Aktualizace souborů"
-
-#: En.Win32.Debug.Error-2.idtx:32 En.Win32.Release.Error-2.idtx:32
-#: En.x64.Debug.Error-2.idtx:32 En.x64.Release.Error-2.idtx:32
+#: En.Win32.Release.Error-2.idtx:32 En.x64.Release.Error-2.idtx:32
 msgid "Please insert the disk: [2]"
 msgstr "Vložte disk [2]."
 
-#: En.Win32.Debug.Error-2.idtx:24 En.Win32.Release.Error-2.idtx:24
-#: En.x64.Debug.Error-2.idtx:24 En.x64.Release.Error-2.idtx:24
+#: En.Win32.Release.Error-2.idtx:24 En.x64.Release.Error-2.idtx:24
 msgid "Please wait while Windows configures [SimpleProductName]"
 msgstr ""
 "Počkejte na dokončení konfigurace produktu [SimpleProductName] v systému "
 "Windows"
 
-#: En.Win32.Debug.Error-2.idtx:27 En.Win32.Release.Error-2.idtx:27
-#: En.x64.Debug.Error-2.idtx:27 En.x64.Release.Error-2.idtx:27
+#: En.Win32.Release.Error-2.idtx:27 En.x64.Release.Error-2.idtx:27
 msgid "Preparing to remove older versions of this application..."
 msgstr "Příprava odebrání starších verzí této aplikace…"
 
-#: En.Win32.Debug.Error-2.idtx:99 En.Win32.Release.Error-2.idtx:99
-#: En.x64.Debug.Error-2.idtx:99 En.x64.Release.Error-2.idtx:99
+#: En.Win32.Release.Error-2.idtx:99 En.x64.Release.Error-2.idtx:99
 msgid "Product: [2] -- [3]"
 msgstr "Produkt: [2] - [3]"
 
-#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Debug.ActionText-2.idtx:69
-#: En.Win32.Release.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:69
-#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Debug.ActionText-2.idtx:69
-#: En.x64.Release.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:69
-msgid "ProgId: [1]"
-msgstr "ProgId: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
-#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
-msgid "Property: [1], Signature: [2]"
-msgstr "Vlastnost: [1]; Podpis: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:27
-#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:27
-msgid "Publishing assembly information"
-msgstr "Publikování informací o sestavení"
-
-#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:32
-#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:32
-msgid "Publishing Product Features"
-msgstr "Publikování funkcí produktu"
-
-#: En.Win32.Debug.ActionText-2.idtx:33 En.Win32.Release.ActionText-2.idtx:33
-#: En.x64.Debug.ActionText-2.idtx:33 En.x64.Release.ActionText-2.idtx:33
-msgid "Publishing product information"
-msgstr "Publikování informací o produktu"
-
-#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:31
-#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:31
-msgid "Publishing Qualified Components"
-msgstr "Publikování prověřených součástí"
-
-#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:34
-#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:34
-msgid "Registering Class servers"
-msgstr "Registrace serverů tříd"
-
-#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
-#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
-msgid "Registering COM+ Applications and Components"
-msgstr "Registrace aplikací a součástí modelu COM+"
-
-#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:36
-#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:36
-msgid "Registering extension servers"
-msgstr "Registrace serverů rozšíření"
-
-#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:37
-#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:37
-msgid "Registering fonts"
-msgstr "Registrace písem"
-
-#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:38
-#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:38
-msgid "Registering MIME info"
-msgstr "Registrace informací MIME"
-
-#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:55
-#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:55
-msgid "Registering modules"
-msgstr "Registrace modulů"
-
-#: En.Win32.Debug.ActionText-2.idtx:39 En.Win32.Release.ActionText-2.idtx:39
-#: En.x64.Debug.ActionText-2.idtx:39 En.x64.Release.ActionText-2.idtx:39
-msgid "Registering product"
-msgstr "Registrace produktu"
-
-#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:40
-#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:40
-msgid "Registering program identifiers"
-msgstr "Registrace identifikátorů programů"
-
-#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:41
-#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:41
-msgid "Registering type libraries"
-msgstr "Registrace knihoven typů"
-
-#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:42
-#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:42
-msgid "Registering user"
-msgstr "Registrace uživatele"
-
-#: En.Win32.Debug.Error-2.idtx:114 En.Win32.Release.Error-2.idtx:114
-#: En.x64.Debug.Error-2.idtx:114 En.x64.Release.Error-2.idtx:114
+#: En.Win32.Release.Error-2.idtx:114 En.x64.Release.Error-2.idtx:114
 msgid "Removal completed successfully."
 msgstr "Odebrání bylo úspěšně dokončeno."
 
-#: En.Win32.Debug.Error-2.idtx:115 En.Win32.Release.Error-2.idtx:115
-#: En.x64.Debug.Error-2.idtx:115 En.x64.Release.Error-2.idtx:115
+#: En.Win32.Release.Error-2.idtx:115 En.x64.Release.Error-2.idtx:115
 msgid "Removal failed."
 msgstr "Odebrání se nezdařilo."
 
-#: En.Win32.Debug.Error-2.idtx:107 En.Win32.Release.Error-2.idtx:107
-#: En.x64.Debug.Error-2.idtx:107 En.x64.Release.Error-2.idtx:107
+#: En.Win32.Release.Error-2.idtx:107 En.x64.Release.Error-2.idtx:107
 msgid "Removed [2]"
 msgstr "Odebráno: [2]"
 
-#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
-#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
-msgid "Removing applications"
-msgstr "Odebrání aplikací"
-
-#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:54
-#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:54
-msgid "Removing backup files"
-msgstr "Odebírání záložních souborů"
-
-#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Release.ActionText-2.idtx:43
-#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Release.ActionText-2.idtx:43
-msgid "Removing duplicated files"
-msgstr "Odebírání duplicitních souborů"
-
-#: En.Win32.Debug.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:46
-#: En.x64.Debug.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:46
-msgid "Removing files"
-msgstr "Odebírání souborů"
-
-#: En.Win32.Debug.ActionText-2.idtx:47 En.Win32.Release.ActionText-2.idtx:47
-#: En.x64.Debug.ActionText-2.idtx:47 En.x64.Release.ActionText-2.idtx:47
-msgid "Removing folders"
-msgstr "Odebírání složek"
-
-#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:48
-#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:48
-msgid "Removing INI files entries"
-msgstr "Odebírání položek souborů INI"
-
-#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:60
-#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:60
-msgid "Removing moved files"
-msgstr "Odebírání přesunutých souborů"
-
-#: En.Win32.Debug.ActionText-2.idtx:49 En.Win32.Release.ActionText-2.idtx:49
-#: En.x64.Debug.ActionText-2.idtx:49 En.x64.Release.ActionText-2.idtx:49
-msgid "Removing ODBC components"
-msgstr "Odebírání součástí ODBC"
-
-#: En.Win32.Debug.Error-2.idtx:26 En.Win32.Release.Error-2.idtx:26
-#: En.x64.Debug.Error-2.idtx:26 En.x64.Release.Error-2.idtx:26
+#: En.Win32.Release.Error-2.idtx:26 En.x64.Release.Error-2.idtx:26
 msgid "Removing older versions of this application..."
 msgstr "Odebrání starších verzí této aplikace…"
 
-#: En.Win32.Debug.ActionText-2.idtx:51 En.Win32.Release.ActionText-2.idtx:51
-#: En.x64.Debug.ActionText-2.idtx:51 En.x64.Release.ActionText-2.idtx:51
-msgid "Removing shortcuts"
-msgstr "Odebírání zástupců"
-
-#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
-#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
-msgid "Removing system registry values"
-msgstr "Odebírání hodnot ze systémového registru"
-
-#: En.Win32.Debug.ActionText-2.idtx:53 En.Win32.Release.ActionText-2.idtx:53
-#: En.x64.Debug.ActionText-2.idtx:53 En.x64.Release.ActionText-2.idtx:53
-msgid "Rolling back action:"
-msgstr "Vrácení zpět - akce:"
-
-#: En.Win32.Debug.Error-2.idtx:130 En.Win32.Release.Error-2.idtx:130
-#: En.x64.Debug.Error-2.idtx:130 En.x64.Release.Error-2.idtx:130
+#: En.Win32.Release.Error-2.idtx:130 En.x64.Release.Error-2.idtx:130
 msgid ""
 "Scheduling reboot operation: Deleting file [2]. Must reboot to complete "
 "operation."
@@ -1228,8 +708,7 @@ msgstr ""
 "Plánování restartování počítače: Odstraňování souboru [2]. Operaci je třeba "
 "dokončit restartováním počítače."
 
-#: En.Win32.Debug.Error-2.idtx:129 En.Win32.Release.Error-2.idtx:129
-#: En.x64.Debug.Error-2.idtx:129 En.x64.Release.Error-2.idtx:129
+#: En.Win32.Release.Error-2.idtx:129 En.x64.Release.Error-2.idtx:129
 msgid ""
 "Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to "
 "complete operation."
@@ -1237,25 +716,7 @@ msgstr ""
 "Plánování restartování počítače: Přejmenování souboru [2] na [3]. Operaci je"
 " třeba dokončit restartováním počítače."
 
-#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
-#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
-msgid "Searching for installed applications"
-msgstr "Hledání nainstalovaných aplikací"
-
-#: En.Win32.Debug.ActionText-2.idtx:52 En.Win32.Debug.ActionText-2.idtx:8
-#: En.Win32.Release.ActionText-2.idtx:52 En.Win32.Release.ActionText-2.idtx:8
-#: En.x64.Debug.ActionText-2.idtx:52 En.x64.Debug.ActionText-2.idtx:8
-#: En.x64.Release.ActionText-2.idtx:52 En.x64.Release.ActionText-2.idtx:8
-msgid "Searching for qualifying products"
-msgstr "Hledání oprávněných produktů"
-
-#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
-#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
-msgid "Searching for related applications"
-msgstr "Hledání souvisejících aplikací"
-
-#: En.Win32.Debug.Error-2.idtx:149 En.Win32.Release.Error-2.idtx:149
-#: En.x64.Debug.Error-2.idtx:149 En.x64.Release.Error-2.idtx:149
+#: En.Win32.Release.Error-2.idtx:149 En.x64.Release.Error-2.idtx:149
 msgid ""
 "Service '[2]' ([3]) could not be deleted. Verify that you have sufficient "
 "privileges to remove system services."
@@ -1263,8 +724,7 @@ msgstr ""
 "Službu [2] ([3]) nelze odstranit. Přesvědčte se, zda máte dostatečná "
 "oprávnění pro odstraňování systémových služeb."
 
-#: En.Win32.Debug.Error-2.idtx:150 En.Win32.Release.Error-2.idtx:150
-#: En.x64.Debug.Error-2.idtx:150 En.x64.Release.Error-2.idtx:150
+#: En.Win32.Release.Error-2.idtx:150 En.x64.Release.Error-2.idtx:150
 msgid ""
 "Service '[2]' ([3]) could not be installed. Verify that you have sufficient "
 "privileges to install system services."
@@ -1272,8 +732,7 @@ msgstr ""
 "Službu [2] ([3]) nelze nainstalovat. Přesvědčte se, zda máte dostatečná "
 "oprávnění pro instalaci systémových služeb."
 
-#: En.Win32.Debug.Error-2.idtx:148 En.Win32.Release.Error-2.idtx:148
-#: En.x64.Debug.Error-2.idtx:148 En.x64.Release.Error-2.idtx:148
+#: En.Win32.Release.Error-2.idtx:148 En.x64.Release.Error-2.idtx:148
 msgid ""
 "Service '[2]' ([3]) could not be stopped. Verify that you have sufficient "
 "privileges to stop system services."
@@ -1281,8 +740,7 @@ msgstr ""
 "Službu [2] ([3]) nelze zastavit. Přesvědčte se, zda máte dostatečná "
 "oprávnění pro zastavování systémových služeb."
 
-#: En.Win32.Debug.Error-2.idtx:147 En.Win32.Release.Error-2.idtx:147
-#: En.x64.Debug.Error-2.idtx:147 En.x64.Release.Error-2.idtx:147
+#: En.Win32.Release.Error-2.idtx:147 En.x64.Release.Error-2.idtx:147
 msgid ""
 "Service '[2]' ([3]) failed to start. Verify that you have sufficient "
 "privileges to start system services."
@@ -1290,29 +748,7 @@ msgstr ""
 "Službu [2] ([3]) nelze spustit. Přesvědčte se, zda máte dostatečná oprávnění"
 " pro spouštění systémových služeb."
 
-#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Debug.ActionText-2.idtx:58
-#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:13
-#: En.Win32.Release.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:59
-#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Debug.ActionText-2.idtx:58
-#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:13
-#: En.x64.Release.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:59
-msgid "Service: [1]"
-msgstr "Služba: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
-#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
-msgid "Service: [2]"
-msgstr "Služby: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Debug.ActionText-2.idtx:51
-#: En.Win32.Release.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:51
-#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Debug.ActionText-2.idtx:51
-#: En.x64.Release.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:51
-msgid "Shortcut: [1]"
-msgstr "Zástupce: [1]"
-
-#: En.Win32.Debug.Error-2.idtx:38 En.Win32.Release.Error-2.idtx:38
-#: En.x64.Debug.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
+#: En.Win32.Release.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
 msgid ""
 "Source file not found: [2]. Verify that the file exists and that you can "
 "access it."
@@ -1320,8 +756,7 @@ msgstr ""
 "Zdrojový soubor [2] nelze najít. Přesvědčte se, zda soubor existuje a zda k "
 "němu máte přístup."
 
-#: En.Win32.Debug.Error-2.idtx:41 En.Win32.Release.Error-2.idtx:41
-#: En.x64.Debug.Error-2.idtx:41 En.x64.Release.Error-2.idtx:41
+#: En.Win32.Release.Error-2.idtx:41 En.x64.Release.Error-2.idtx:41
 msgid ""
 "Source file not found{{(cabinet)}}: [2]. Verify that the file exists and "
 "that you can access it."
@@ -1329,18 +764,7 @@ msgstr ""
 "Zdrojový soubor nelze najít{{(soubor CAB)}}: [2]. Přesvědčte se, zda soubor "
 "existuje a zda k němu máte přístup."
 
-#: En.Win32.Debug.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:58
-#: En.x64.Debug.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:58
-msgid "Starting services"
-msgstr "Spouštění služeb"
-
-#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:59
-#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:59
-msgid "Stopping services"
-msgstr "Zastavování služeb"
-
-#: En.Win32.Debug.Error-2.idtx:65 En.Win32.Release.Error-2.idtx:65
-#: En.x64.Debug.Error-2.idtx:65 En.x64.Release.Error-2.idtx:65
+#: En.Win32.Release.Error-2.idtx:65 En.x64.Release.Error-2.idtx:65
 msgid ""
 "The cabinet file '[2]' required for this installation is corrupt and cannot "
 "be used. This could indicate a network error, an error reading from the CD-"
@@ -1350,13 +774,11 @@ msgstr ""
 "použit. To může znamenat chybu sítě, chybu čtení z disku CD-ROM nebo potíže "
 "s tímto balíčkem."
 
-#: En.Win32.Debug.Error-2.idtx:157 En.Win32.Release.Error-2.idtx:157
-#: En.x64.Debug.Error-2.idtx:157 En.x64.Release.Error-2.idtx:157
+#: En.Win32.Release.Error-2.idtx:157 En.x64.Release.Error-2.idtx:157
 msgid "The description for service '[2]' ([3]) could not be changed."
 msgstr "Popis služeb [2] ([3]) nelze změnit."
 
-#: En.Win32.Debug.Error-2.idtx:64 En.Win32.Release.Error-2.idtx:64
-#: En.x64.Debug.Error-2.idtx:64 En.x64.Release.Error-2.idtx:64
+#: En.Win32.Release.Error-2.idtx:64 En.x64.Release.Error-2.idtx:64
 msgid ""
 "The file '[2]' cannot be installed because the file cannot be found in "
 "cabinet file '[3]'. This could indicate a network error, an error reading "
@@ -1366,8 +788,7 @@ msgstr ""
 "nalezen. To může znamenat chybu sítě, chybu čtení z disku CD-ROM nebo potíže"
 " s tímto balíčkem."
 
-#: En.Win32.Debug.Error-2.idtx:83 En.Win32.Release.Error-2.idtx:83
-#: En.x64.Debug.Error-2.idtx:83 En.x64.Release.Error-2.idtx:83
+#: En.Win32.Release.Error-2.idtx:83 En.x64.Release.Error-2.idtx:83
 msgid ""
 "The file [2][3] is being held in use{ by the following process: Name: [4], "
 "Id: [5], Window Title: '[6]'}. Close that application and retry."
@@ -1375,32 +796,27 @@ msgstr ""
 "Soubor [2][3] je momentálně používán{ v následujícím procesu: Název: [4]; "
 "ID: [5]; název okna: [6]}. Ukončete tuto aplikaci a akci zopakujte."
 
-#: En.Win32.Debug.Error-2.idtx:125 En.Win32.Release.Error-2.idtx:125
-#: En.x64.Debug.Error-2.idtx:125 En.x64.Release.Error-2.idtx:125
+#: En.Win32.Release.Error-2.idtx:125 En.x64.Release.Error-2.idtx:125
 msgid ""
 "The folder [2] does not exist. Please enter a path to an existing folder."
 msgstr "Složka [2] neexistuje. Zadejte cestu k existující složce."
 
-#: En.Win32.Debug.Error-2.idtx:54 En.Win32.Release.Error-2.idtx:54
-#: En.x64.Debug.Error-2.idtx:54 En.x64.Release.Error-2.idtx:54
+#: En.Win32.Release.Error-2.idtx:54 En.x64.Release.Error-2.idtx:54
 msgid "The folder path '[2]' contains an invalid character."
 msgstr "Cesta ke složce ([2]) obsahuje neplatný znak."
 
-#: En.Win32.Debug.Error-2.idtx:53 En.Win32.Release.Error-2.idtx:53
-#: En.x64.Debug.Error-2.idtx:53 En.x64.Release.Error-2.idtx:53
+#: En.Win32.Release.Error-2.idtx:53 En.x64.Release.Error-2.idtx:53
 msgid ""
 "The folder path '[2]' contains words that are not valid in folder paths."
 msgstr ""
 "Cesta ke složce ([2]) obsahuje slova, která nelze do cesty ke složce zadat."
 
-#: En.Win32.Debug.Error-2.idtx:87 En.Win32.Release.Error-2.idtx:87
-#: En.x64.Debug.Error-2.idtx:87 En.x64.Release.Error-2.idtx:87
+#: En.Win32.Release.Error-2.idtx:87 En.x64.Release.Error-2.idtx:87
 msgid ""
 "The following applications should be closed before continuing the install:"
 msgstr "Před pokračováním v instalaci je třeba ukončit tyto aplikace:"
 
-#: En.Win32.Debug.Error-2.idtx:9 En.Win32.Release.Error-2.idtx:9
-#: En.x64.Debug.Error-2.idtx:9 En.x64.Release.Error-2.idtx:9
+#: En.Win32.Release.Error-2.idtx:9 En.x64.Release.Error-2.idtx:9
 msgid ""
 "The installer has encountered an unexpected error installing this package. "
 "This may indicate a problem with this package. The error code is [1]. {{The "
@@ -1410,8 +826,7 @@ msgstr ""
 "S balíčkem mohou být potíže. Kód chyby je [1]. {{Argumenty jsou: [2], [3], "
 "[4]}} "
 
-#: En.Win32.Debug.Error-2.idtx:33 En.Win32.Release.Error-2.idtx:33
-#: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
+#: En.Win32.Release.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
 msgid ""
 "The installer has insufficient privileges to access this folder: [2]. The "
 "installation cannot continue. Log on as administrator or contact your system"
@@ -1421,15 +836,13 @@ msgstr ""
 "adresáře [2]. Instalaci není možné dokončit. Přihlaste se jako správce nebo "
 "se obraťte na správce systému."
 
-#: En.Win32.Debug.Error-2.idtx:51 En.Win32.Release.Error-2.idtx:51
-#: En.x64.Debug.Error-2.idtx:51 En.x64.Release.Error-2.idtx:51
+#: En.Win32.Release.Error-2.idtx:51 En.x64.Release.Error-2.idtx:51
 msgid "The Installer has insufficient privileges to modify this file: [2]."
 msgstr ""
 "Instalační služba nemůže z důvodu nedostatečných oprávnění upravit soubor "
 "[2]."
 
-#: En.Win32.Debug.Error-2.idtx:92 En.Win32.Release.Error-2.idtx:92
-#: En.x64.Debug.Error-2.idtx:92 En.x64.Release.Error-2.idtx:92
+#: En.Win32.Release.Error-2.idtx:92 En.x64.Release.Error-2.idtx:92
 msgid ""
 "The installer must restart your system before configuration of [2] can "
 "continue. Click Yes to restart now or No if you plan to manually restart "
@@ -1440,13 +853,11 @@ msgstr ""
 "ihned. V případě, že budete chtít počítač restartovat později, klepněte na "
 "tlačítko Ne."
 
-#: En.Win32.Debug.Error-2.idtx:91 En.Win32.Release.Error-2.idtx:91
-#: En.x64.Debug.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
+#: En.Win32.Release.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
 msgid "The key [2] is not valid. Verify that you entered the correct key."
 msgstr "Klíč [2] není platný. Přesvědčte se, zda jste zadali správný klíč."
 
-#: En.Win32.Debug.Error-2.idtx:104 En.Win32.Release.Error-2.idtx:104
-#: En.x64.Debug.Error-2.idtx:104 En.x64.Release.Error-2.idtx:104
+#: En.Win32.Release.Error-2.idtx:104 En.x64.Release.Error-2.idtx:104
 msgid ""
 "The older version of [2] cannot be removed. Contact your technical support "
 "group. {{System Error [3].}}"
@@ -1454,13 +865,11 @@ msgstr ""
 "Starší verzi produktu [2] nelze odebrat. Obraťte se na pracovníky odborné "
 "pomoci. {{Systémová chyba: [3].}}"
 
-#: En.Win32.Debug.Error-2.idtx:121 En.Win32.Release.Error-2.idtx:121
-#: En.x64.Debug.Error-2.idtx:121 En.x64.Release.Error-2.idtx:121
+#: En.Win32.Release.Error-2.idtx:121 En.x64.Release.Error-2.idtx:121
 msgid "The path [2] is not valid. Please specify a valid path."
 msgstr "Cesta [2] není platná. Zadejte platnou cestu."
 
-#: En.Win32.Debug.Error-2.idtx:84 En.Win32.Release.Error-2.idtx:84
-#: En.x64.Debug.Error-2.idtx:84 En.x64.Release.Error-2.idtx:84
+#: En.Win32.Release.Error-2.idtx:84 En.x64.Release.Error-2.idtx:84
 msgid ""
 "The product '[2]' is already installed, preventing the installation of this "
 "product. The two products are incompatible."
@@ -1468,23 +877,19 @@ msgstr ""
 "Je již nainstalován produkt [2] a proto nelze tento produkt nainstalovat. "
 "Tyto dva produkty nejsou kompatibilní."
 
-#: En.Win32.Debug.Error-2.idtx:44 En.Win32.Release.Error-2.idtx:44
-#: En.x64.Debug.Error-2.idtx:44 En.x64.Release.Error-2.idtx:44
+#: En.Win32.Release.Error-2.idtx:44 En.x64.Release.Error-2.idtx:44
 msgid "The specified path '[2]' is unavailable."
 msgstr "Zadaná cesta [2] není k dispozici."
 
-#: En.Win32.Debug.Error-2.idtx:50 En.Win32.Release.Error-2.idtx:50
-#: En.x64.Debug.Error-2.idtx:50 En.x64.Release.Error-2.idtx:50
+#: En.Win32.Release.Error-2.idtx:50 En.x64.Release.Error-2.idtx:50
 msgid "The specified path is too long: [2]"
 msgstr "Zadaná cesta [2] je příliš dlouhá."
 
-#: En.Win32.Debug.Error-2.idtx:43 En.Win32.Release.Error-2.idtx:43
-#: En.x64.Debug.Error-2.idtx:43 En.x64.Release.Error-2.idtx:43
+#: En.Win32.Release.Error-2.idtx:43 En.x64.Release.Error-2.idtx:43
 msgid "The volume [2] is currently unavailable. Please select another."
 msgstr "Svazek [2] není momentálně k dispozici. Zvolte jiný svazek."
 
-#: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
-#: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
+#: En.Win32.Release.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
 msgid ""
 "The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
@@ -1492,8 +897,7 @@ msgstr ""
 "Služba Windows Installer nemůže aktualizovat jeden či více chráněných souborů systému Windows. {{Chyba ochrany systémových souborů: [2]. Seznam chráněných souborů:\n"
 "[3]}}"
 
-#: En.Win32.Debug.Error-2.idtx:159 En.Win32.Release.Error-2.idtx:159
-#: En.x64.Debug.Error-2.idtx:159 En.x64.Release.Error-2.idtx:159
+#: En.Win32.Release.Error-2.idtx:159 En.x64.Release.Error-2.idtx:159
 msgid ""
 "The Windows Installer service cannot update the protected Windows file [2]. "
 "{{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
@@ -1502,8 +906,7 @@ msgstr ""
 "systému Windows. {{Verze balíčku: [3], verze chráněná operačním systémem: "
 "[4], chyba SFP: [5]}}"
 
-#: En.Win32.Debug.Error-2.idtx:158 En.Win32.Release.Error-2.idtx:158
-#: En.x64.Debug.Error-2.idtx:158 En.x64.Release.Error-2.idtx:158
+#: En.Win32.Release.Error-2.idtx:158 En.x64.Release.Error-2.idtx:158
 msgid ""
 "The Windows Installer service cannot update the system file [2] because the "
 "file is protected by Windows. You may need to update your operating system "
@@ -1515,8 +918,7 @@ msgstr ""
 "programu bude pravděpodobně vyžadovat aktualizaci operačního systému. "
 "{{Verze balíčku: [3], verze chráněná operačním systémem: [4]}}"
 
-#: En.Win32.Debug.Error-2.idtx:109 En.Win32.Release.Error-2.idtx:109
-#: En.x64.Debug.Error-2.idtx:109 En.x64.Release.Error-2.idtx:109
+#: En.Win32.Release.Error-2.idtx:109 En.x64.Release.Error-2.idtx:109
 msgid ""
 "The Windows Installer Service could not be accessed. This can occur if you "
 "are running Windows in safe mode, or if the Windows Installer is not "
@@ -1526,8 +928,7 @@ msgstr ""
 " systém Windows spuštěn v nouzovém režimu nebo pokud není služba Windows "
 "Installer správně nainstalována. Obraťte se na pracovníky odborné pomoci."
 
-#: En.Win32.Debug.Error-2.idtx:113 En.Win32.Release.Error-2.idtx:113
-#: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
+#: En.Win32.Release.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
 msgid ""
 "There is a problem with this Windows Installer package. A DLL required for "
 "this install to complete could not be run. Contact your support personnel or"
@@ -1537,8 +938,7 @@ msgstr ""
 "dokončení této instalace nemůže být spuštěna. Obraťte se na odbornou pomoc "
 "nebo dodavatele balíčku. {{Akce: [2], položka: [3], knihovna: [4] }}"
 
-#: En.Win32.Debug.Error-2.idtx:111 En.Win32.Release.Error-2.idtx:111
-#: En.x64.Debug.Error-2.idtx:111 En.x64.Release.Error-2.idtx:111
+#: En.Win32.Release.Error-2.idtx:111 En.x64.Release.Error-2.idtx:111
 msgid ""
 "There is a problem with this Windows Installer package. A program required "
 "for this install to complete could not be run. Contact your support "
@@ -1548,8 +948,7 @@ msgstr ""
 "dokončení této instalace nemůže být spuštěn. Obraťte se na odbornou pomoc "
 "nebo dodavatele balíčku. {{Akce: [2], umístění: [3], příkaz: [4] }}"
 
-#: En.Win32.Debug.Error-2.idtx:112 En.Win32.Release.Error-2.idtx:112
-#: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
+#: En.Win32.Release.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
 msgid ""
 "There is a problem with this Windows Installer package. A program run as "
 "part of the setup did not finish as expected. Contact your support personnel"
@@ -1559,8 +958,7 @@ msgstr ""
 "instalace nebyl dokončen podle očekávání. Obraťte se na odbornou pomoc nebo "
 "dodavatele balíčku. {{Akce: [2], umístění: [3], příkaz: [4] }}"
 
-#: En.Win32.Debug.Error-2.idtx:110 En.Win32.Release.Error-2.idtx:110
-#: En.x64.Debug.Error-2.idtx:110 En.x64.Release.Error-2.idtx:110
+#: En.Win32.Release.Error-2.idtx:110 En.x64.Release.Error-2.idtx:110
 msgid ""
 "There is a problem with this Windows Installer package. A script required "
 "for this install to complete could not be run. Contact your support "
@@ -1572,8 +970,7 @@ msgstr ""
 "nebo dodavatele balíčku. {{Chyba vlastní akce [2] ve skriptu [3], [4]: [5] "
 "na řádku [6], ve sloupci [7], [8] }}"
 
-#: En.Win32.Debug.Error-2.idtx:123 En.Win32.Release.Error-2.idtx:123
-#: En.x64.Debug.Error-2.idtx:123 En.x64.Release.Error-2.idtx:123
+#: En.Win32.Release.Error-2.idtx:123 En.x64.Release.Error-2.idtx:123
 msgid ""
 "There is no disk in drive [2]. Please insert one and click Retry, or click "
 "Cancel to go back to the previously selected volume."
@@ -1581,8 +978,7 @@ msgstr ""
 "V jednotce [2] není disk. Vložte disk a klepněte na tlačítko Opakovat. "
 "Klepnutím na tlačítko Storno přejdete na dříve vybranou jednotku."
 
-#: En.Win32.Debug.Error-2.idtx:124 En.Win32.Release.Error-2.idtx:124
-#: En.x64.Debug.Error-2.idtx:124 En.x64.Release.Error-2.idtx:124
+#: En.Win32.Release.Error-2.idtx:124 En.x64.Release.Error-2.idtx:124
 msgid ""
 "There is no disk in drive [2]. Please insert one and click Retry, or click "
 "Cancel to return to the browse dialog and select a different volume."
@@ -1591,8 +987,7 @@ msgstr ""
 "Klepnutím na tlačítko Storno se vrátíte do předchozího dialogového okna, ve "
 "kterém můžete vybrat jinou jednotku."
 
-#: En.Win32.Debug.Error-2.idtx:85 En.Win32.Release.Error-2.idtx:85
-#: En.x64.Debug.Error-2.idtx:85 En.x64.Release.Error-2.idtx:85
+#: En.Win32.Release.Error-2.idtx:85 En.x64.Release.Error-2.idtx:85
 msgid ""
 "There is not enough disk space on the volume '[2]' to continue the install "
 "with recovery enabled. [3] KB are required, but only [4] KB are available. "
@@ -1607,8 +1002,7 @@ msgstr ""
 "zkontrolovat místo k dispozici, klepněte na tlačítko Opakovat nebo můžete "
 "instalaci ukončit klepnutím na tlačítko Storno."
 
-#: En.Win32.Debug.Error-2.idtx:37 En.Win32.Release.Error-2.idtx:37
-#: En.x64.Debug.Error-2.idtx:37 En.x64.Release.Error-2.idtx:37
+#: En.Win32.Release.Error-2.idtx:37 En.x64.Release.Error-2.idtx:37
 msgid ""
 "There is not enough disk space to install this file: [2]. Free some disk "
 "space and click Retry, or click Cancel to exit."
@@ -1617,8 +1011,7 @@ msgstr ""
 "potřebné místo na disku a klepněte na tlačítko Opakovat nebo akci zrušte "
 "klepnutím na tlačítko Storno."
 
-#: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
-#: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
+#: En.Win32.Release.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
 msgid ""
 "There was an error creating a temporary file that is needed to complete this"
 " installation.{{ Folder: [3]. System error code: [2]}}"
@@ -1626,111 +1019,33 @@ msgstr ""
 "Při vytváření dočasného souboru nezbytného k dokončení této instalace "
 "nastala chyba. {{ Složka: [3]. Kód systémové chyby: [2]}}"
 
-#: En.Win32.Debug.Error-2.idtx:90 En.Win32.Release.Error-2.idtx:90
-#: En.x64.Debug.Error-2.idtx:90 En.x64.Release.Error-2.idtx:90
+#: En.Win32.Release.Error-2.idtx:90 En.x64.Release.Error-2.idtx:90
 msgid ""
 "This installation package is not supported on this platform. Contact your "
 "application vendor."
 msgstr ""
 
-#: En.Win32.Debug.CustomAction-2.idtx:6 En.Win32.Release.CustomAction-2.idtx:6
-#: En.x64.Debug.CustomAction-2.idtx:5 En.x64.Release.CustomAction-2.idtx:5
+#: En.Win32.Release.CustomAction-2.idtx:6 En.x64.Release.CustomAction-2.idtx:5
 msgid ""
 "This package cannot upgrade the currently installed [SimpleProductName]. "
 "Please remove the old package first and retry."
 msgstr ""
 
-#: En.Win32.Debug.Error-2.idtx:164 En.Win32.Release.Error-2.idtx:164
-#: En.x64.Debug.Error-2.idtx:164 En.x64.Release.Error-2.idtx:164
+#: En.Win32.Release.Error-2.idtx:164 En.x64.Release.Error-2.idtx:164
 msgid ""
 "This version of Windows does not support deploying 64-bit packages. The "
 "script [2] is for a 64-bit package."
 msgstr ""
 
-#: En.Win32.Debug.Error-2.idtx:20 En.Win32.Release.Error-2.idtx:20
-#: En.x64.Debug.Error-2.idtx:20 En.x64.Release.Error-2.idtx:20
+#: En.Win32.Release.Error-2.idtx:20 En.x64.Release.Error-2.idtx:20
 msgid "Time remaining: {[1] minutes }{[2] seconds}"
 msgstr "Zbývající čas: {[1] minut }{[2] sekund}"
 
-#: En.Win32.Debug.Error-2.idtx:45 En.Win32.Release.Error-2.idtx:45
-#: En.x64.Debug.Error-2.idtx:45 En.x64.Release.Error-2.idtx:45
+#: En.Win32.Release.Error-2.idtx:45 En.x64.Release.Error-2.idtx:45
 msgid "Unable to write to the specified folder: [2]."
 msgstr "Do zadané složky [2] nelze zapisovat."
 
-#: En.Win32.Debug.ActionText-2.idtx:28 En.Win32.Release.ActionText-2.idtx:28
-#: En.x64.Debug.ActionText-2.idtx:28 En.x64.Release.ActionText-2.idtx:28
-msgid "Unpublishing assembly information"
-msgstr "Nepublikované informace sestavení"
-
-#: En.Win32.Debug.ActionText-2.idtx:62 En.Win32.Release.ActionText-2.idtx:62
-#: En.x64.Debug.ActionText-2.idtx:62 En.x64.Release.ActionText-2.idtx:62
-msgid "Unpublishing Product Features"
-msgstr "Rušení publikování funkcí produktů"
-
-#: En.Win32.Debug.ActionText-2.idtx:63 En.Win32.Release.ActionText-2.idtx:63
-#: En.x64.Debug.ActionText-2.idtx:63 En.x64.Release.ActionText-2.idtx:63
-msgid "Unpublishing product information"
-msgstr "Rušení publikování informací o produktu"
-
-#: En.Win32.Debug.ActionText-2.idtx:61 En.Win32.Release.ActionText-2.idtx:61
-#: En.x64.Debug.ActionText-2.idtx:61 En.x64.Release.ActionText-2.idtx:61
-msgid "Unpublishing Qualified Components"
-msgstr "Rušení publikování prověřených součástí"
-
-#: En.Win32.Debug.ActionText-2.idtx:64 En.Win32.Release.ActionText-2.idtx:64
-#: En.x64.Debug.ActionText-2.idtx:64 En.x64.Release.ActionText-2.idtx:64
-msgid "Unregister Class servers"
-msgstr "Rušení registrace serverů tříd"
-
-#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
-#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
-msgid "Unregistering COM+ Applications and Components"
-msgstr "Rušení registrace aplikací a součástí modelu COM+"
-
-#: En.Win32.Debug.ActionText-2.idtx:66 En.Win32.Release.ActionText-2.idtx:66
-#: En.x64.Debug.ActionText-2.idtx:66 En.x64.Release.ActionText-2.idtx:66
-msgid "Unregistering extension servers"
-msgstr "Rušení registrace serverů rozšíření"
-
-#: En.Win32.Debug.ActionText-2.idtx:67 En.Win32.Release.ActionText-2.idtx:67
-#: En.x64.Debug.ActionText-2.idtx:67 En.x64.Release.ActionText-2.idtx:67
-msgid "Unregistering fonts"
-msgstr "Rušení registrace písem"
-
-#: En.Win32.Debug.ActionText-2.idtx:68 En.Win32.Release.ActionText-2.idtx:68
-#: En.x64.Debug.ActionText-2.idtx:68 En.x64.Release.ActionText-2.idtx:68
-msgid "Unregistering MIME info"
-msgstr "Rušení registrace informací MIME"
-
-#: En.Win32.Debug.ActionText-2.idtx:56 En.Win32.Release.ActionText-2.idtx:56
-#: En.x64.Debug.ActionText-2.idtx:56 En.x64.Release.ActionText-2.idtx:56
-msgid "Unregistering modules"
-msgstr "Rušení registrace modulů"
-
-#: En.Win32.Debug.ActionText-2.idtx:69 En.Win32.Release.ActionText-2.idtx:69
-#: En.x64.Debug.ActionText-2.idtx:69 En.x64.Release.ActionText-2.idtx:69
-msgid "Unregistering program identifiers"
-msgstr "Rušení registrace identifikátorů programů"
-
-#: En.Win32.Debug.ActionText-2.idtx:70 En.Win32.Release.ActionText-2.idtx:70
-#: En.x64.Debug.ActionText-2.idtx:70 En.x64.Release.ActionText-2.idtx:70
-msgid "Unregistering type libraries"
-msgstr "Rušení registrace knihoven typů"
-
-#: En.Win32.Debug.ActionText-2.idtx:30 En.Win32.Release.ActionText-2.idtx:30
-#: En.x64.Debug.ActionText-2.idtx:30 En.x64.Release.ActionText-2.idtx:30
-msgid "Updating component registration"
-msgstr "Aktualizace registrace součástí"
-
-#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
-#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
-#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
-#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
-msgid "Updating environment strings"
-msgstr "Aktualizace řetězců prostředí"
-
-#: En.Win32.Debug.Error-2.idtx:80 En.Win32.Release.Error-2.idtx:80
-#: En.x64.Debug.Error-2.idtx:80 En.x64.Release.Error-2.idtx:80
+#: En.Win32.Release.Error-2.idtx:80 En.x64.Release.Error-2.idtx:80
 msgid ""
 "User '[2]' has previously initiated an install for product '[3]'. That user "
 "will need to run that install again before they can use that product."
@@ -1738,8 +1053,7 @@ msgstr ""
 "Instalace produktu [3] již byla dříve spuštěna uživatelem [2]. Před použitím"
 " produktu je třeba, aby tento uživatel spustil instalaci znovu."
 
-#: En.Win32.Debug.Error-2.idtx:79 En.Win32.Release.Error-2.idtx:79
-#: En.x64.Debug.Error-2.idtx:79 En.x64.Release.Error-2.idtx:79
+#: En.Win32.Release.Error-2.idtx:79 En.x64.Release.Error-2.idtx:79
 msgid ""
 "User '[2]' has previously initiated an install for product '[3]'. That user "
 "will need to run that install again before they can use that product. Your "
@@ -1749,40 +1063,22 @@ msgstr ""
 " produktu je třeba, aby tento uživatel spustil instalaci znovu. Bude "
 "dokončena momentálně spuštěná instalace."
 
-#: En.Win32.Debug.Error-2.idtx:161 En.Win32.Release.Error-2.idtx:161
-#: En.x64.Debug.Error-2.idtx:161 En.x64.Release.Error-2.idtx:161
+#: En.Win32.Release.Error-2.idtx:161 En.x64.Release.Error-2.idtx:161
 msgid "User installations are disabled via policy on the machine."
 msgstr "Uživatelské instalace jsou zásadami v počítači zakázané."
 
-#: En.Win32.Debug.ActionText-2.idtx:23 En.Win32.Release.ActionText-2.idtx:23
-#: En.x64.Debug.ActionText-2.idtx:23 En.x64.Release.ActionText-2.idtx:23
-msgid "Validating install"
-msgstr "Ověřování instalace"
-
-#: En.Win32.Debug.Error-2.idtx:6 En.Win32.Release.Error-2.idtx:6
-#: En.x64.Debug.Error-2.idtx:6 En.x64.Release.Error-2.idtx:6
+#: En.Win32.Release.Error-2.idtx:6 En.x64.Release.Error-2.idtx:6
 msgid "Warning [1]. "
 msgstr "Upozornění [1]. "
 
-#: En.Win32.Debug.ActionText-2.idtx:72 En.Win32.Release.ActionText-2.idtx:72
-#: En.x64.Debug.ActionText-2.idtx:72 En.x64.Release.ActionText-2.idtx:72
-msgid "Writing INI files values"
-msgstr "Zápis hodnot souborů INI"
-
-#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
-#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
-msgid "Writing system registry values"
-msgstr "Zápis hodnot do systémového registru"
-
-#: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
+#: En.Win32.Release.CustomAction-2.idtx:4
 msgid ""
 "You are attempting to install the 32-bit variant of [SimpleProductName] on a"
 " 64-bit operating system. 32-bit variant will not work with your operating "
 "system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
-#: En.Win32.Debug.Error-2.idtx:152 En.Win32.Release.Error-2.idtx:152
-#: En.x64.Debug.Error-2.idtx:152 En.x64.Release.Error-2.idtx:152
+#: En.Win32.Release.Error-2.idtx:152 En.x64.Release.Error-2.idtx:152
 msgid ""
 "You do not have sufficient privileges to complete this installation for all "
 "users of the machine. Log on as administrator and then retry this "
@@ -1791,13 +1087,11 @@ msgstr ""
 "Nemáte dostatečná oprávnění pro dokončení této instalace za všechny "
 "uživatele tohoto počítače. Přihlaste se jako správce a instalaci opakujte."
 
-#: En.Win32.Debug.Error-2.idtx:126 En.Win32.Release.Error-2.idtx:126
-#: En.x64.Debug.Error-2.idtx:126 En.x64.Release.Error-2.idtx:126
+#: En.Win32.Release.Error-2.idtx:126 En.x64.Release.Error-2.idtx:126
 msgid "You have insufficient privileges to read this folder."
 msgstr "Nemáte dostatečná oprávnění pro čtení této složky."
 
-#: En.Win32.Debug.Error-2.idtx:100 En.Win32.Release.Error-2.idtx:100
-#: En.x64.Debug.Error-2.idtx:100 En.x64.Release.Error-2.idtx:100
+#: En.Win32.Release.Error-2.idtx:100 En.x64.Release.Error-2.idtx:100
 msgid ""
 "You may either restore your computer to its previous state or continue the "
 "install later. Would you like to restore?"
@@ -1805,8 +1099,7 @@ msgstr ""
 "Můžete se rozhodnout obnovit původní stav počítače nebo pokračovat v "
 "instalaci později. Chcete obnovit původní stav počítače?"
 
-#: En.Win32.Debug.Error-2.idtx:120 En.Win32.Release.Error-2.idtx:120
-#: En.x64.Debug.Error-2.idtx:120 En.x64.Release.Error-2.idtx:120
+#: En.Win32.Release.Error-2.idtx:120 En.x64.Release.Error-2.idtx:120
 msgid ""
 "You must be an Administrator to remove this application. To remove this "
 "application, you can log on as an Administrator, or contact your technical "
@@ -1816,8 +1109,7 @@ msgstr ""
 "Chcete-li tuto aplikaci odebrat, přihlaste se jako uživatel Administrator "
 "nebo se pro pomoc obraťte na pracovníky odborné pomoci."
 
-#: En.Win32.Debug.Error-2.idtx:93 En.Win32.Release.Error-2.idtx:93
-#: En.x64.Debug.Error-2.idtx:93 En.x64.Release.Error-2.idtx:93
+#: En.Win32.Release.Error-2.idtx:93 En.x64.Release.Error-2.idtx:93
 msgid ""
 "You must restart your system for the configuration changes made to [2] to "
 "take effect. Click Yes to restart now or No if you plan to manually restart "

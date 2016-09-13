@@ -4,9 +4,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-13 10:48+0200\n"
+"POT-Creation-Date: 2016-09-12 14:49+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
+"Last-Translator: José Manuel Macías <jmanuel.macias@rediris.es>, 2016\n"
 "Language-Team: Spanish (https://www.transifex.com/eduroam_devel/teams/11799/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,19 +19,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Debug.ActionText-2.idtx:39
-#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Debug.ActionText-2.idtx:53
-#: En.Win32.Release.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:39
-#: En.Win32.Release.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:53
-#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Debug.ActionText-2.idtx:39
-#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Debug.ActionText-2.idtx:53
-#: En.x64.Release.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:39
-#: En.x64.Release.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:53
-msgid "[1]"
-msgstr "[1]"
-
-#: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
-#: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
+#: En.Win32.Release.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
 msgid ""
 "[2] cannot install one of its required products. Contact your technical "
 "support group. {{System Error: [3].}}"
@@ -39,75 +27,59 @@ msgstr ""
 "[2] no puede instalar los productos requeridos. Póngase en contacto con su "
 "grupo de soporte técnico. {{Error del sistema: [3].}}"
 
-#: En.Win32.Debug.Error-2.idtx:55 En.Win32.Release.Error-2.idtx:55
-#: En.x64.Debug.Error-2.idtx:55 En.x64.Release.Error-2.idtx:55
+#: En.Win32.Release.Error-2.idtx:55 En.x64.Release.Error-2.idtx:55
 msgid "'[2]' is not a valid short file name."
 msgstr "'[2]' no es un nombre corto de archivo válido."
 
-#: En.Win32.Debug.Error-2.idtx:13 En.Win32.Release.Error-2.idtx:13
-#: En.x64.Debug.Error-2.idtx:13 En.x64.Release.Error-2.idtx:13
+#: En.Win32.Release.Error-2.idtx:13 En.x64.Release.Error-2.idtx:13
 msgid "[SimpleProductName]"
 msgstr "[SimpleProductName]"
 
-#: En.Win32.Debug.Error-2.idtx:28 En.Win32.Release.Error-2.idtx:28
-#: En.x64.Debug.Error-2.idtx:28 En.x64.Release.Error-2.idtx:28
+#: En.Win32.Release.Error-2.idtx:28 En.x64.Release.Error-2.idtx:28
 msgid "[SimpleProductName] Setup completed successfully."
 msgstr "La instalación de [SimpleProductName]  finalizó correctamente."
 
-#: En.Win32.Debug.Error-2.idtx:29 En.Win32.Release.Error-2.idtx:29
-#: En.x64.Debug.Error-2.idtx:29 En.x64.Release.Error-2.idtx:29
+#: En.Win32.Release.Error-2.idtx:29 En.x64.Release.Error-2.idtx:29
 msgid "[SimpleProductName] Setup failed."
 msgstr "Fallo en la instalación de {[SimpleProductName]}."
 
-#: En.Win32.Debug.Error-2.idtx:14 En.Win32.Release.Error-2.idtx:14
-#: En.x64.Debug.Error-2.idtx:14 En.x64.Release.Error-2.idtx:14
+#: En.Win32.Release.Error-2.idtx:14 En.x64.Release.Error-2.idtx:14
 msgid "{[2]}{, [3]}{, [4]}"
 msgstr "{[2]}{, [3]}{, [4]}"
 
-#: En.Win32.Debug.Error-2.idtx:11 En.Win32.Release.Error-2.idtx:11
-#: En.x64.Debug.Error-2.idtx:11 En.x64.Release.Error-2.idtx:11
+#: En.Win32.Release.Error-2.idtx:11 En.x64.Release.Error-2.idtx:11
 msgid "{{Disk full: }}"
 msgstr "{{Disco lleno: }}"
 
-#: En.Win32.Debug.Error-2.idtx:5 En.Win32.Release.Error-2.idtx:5
-#: En.x64.Debug.Error-2.idtx:5 En.x64.Release.Error-2.idtx:5
+#: En.Win32.Release.Error-2.idtx:5 En.x64.Release.Error-2.idtx:5
 msgid "{{Error [1]. }}"
 msgstr "{{Error [1]. }}"
 
-#: En.Win32.Debug.Error-2.idtx:4 En.Win32.Release.Error-2.idtx:4
-#: En.x64.Debug.Error-2.idtx:4 En.x64.Release.Error-2.idtx:4
+#: En.Win32.Release.Error-2.idtx:4 En.x64.Release.Error-2.idtx:4
 msgid "{{Fatal error: }}"
 msgstr "{{Error fatal: }}"
 
-#: En.Win32.Debug.Error-2.idtx:16 En.Win32.Release.Error-2.idtx:16
-#: En.x64.Debug.Error-2.idtx:16 En.x64.Release.Error-2.idtx:16
+#: En.Win32.Release.Error-2.idtx:16 En.x64.Release.Error-2.idtx:16
 msgid "=== Logging started: [Date] [Time] ==="
 msgstr "=== Registro iniciado: [Date] [Time] ==="
 
-#: En.Win32.Debug.Error-2.idtx:17 En.Win32.Release.Error-2.idtx:17
-#: En.x64.Debug.Error-2.idtx:17 En.x64.Release.Error-2.idtx:17
+#: En.Win32.Release.Error-2.idtx:17 En.x64.Release.Error-2.idtx:17
 msgid "=== Logging stopped: [Date] [Time] ==="
 msgstr "=== Registro detenido: [Date] [Time] ==="
 
-#: En.Win32.Debug.ActionText-2.idtx:3 En.Win32.Debug.CustomAction-2.idtx:3
-#: En.Win32.Debug.Error-2.idtx:3 En.Win32.Release.ActionText-2.idtx:3
 #: En.Win32.Release.CustomAction-2.idtx:3 En.Win32.Release.Error-2.idtx:3
-#: En.x64.Debug.ActionText-2.idtx:3 En.x64.Debug.CustomAction-2.idtx:3
-#: En.x64.Debug.Error-2.idtx:3 En.x64.Release.ActionText-2.idtx:3
 #: En.x64.Release.CustomAction-2.idtx:3 En.x64.Release.Error-2.idtx:3
 msgid "1252"
 msgstr "1252"
 
-#: En.Win32.Debug.Error-2.idtx:163 En.Win32.Release.Error-2.idtx:163
-#: En.x64.Debug.Error-2.idtx:163 En.x64.Release.Error-2.idtx:163
+#: En.Win32.Release.Error-2.idtx:163 En.x64.Release.Error-2.idtx:163
 msgid ""
 "64-bit registry operation attempted on 32-bit operating system for key [2]."
 msgstr ""
 "Operación de registro de 64 bits se intentó en sistema operativo de 32 bits "
 "para la clave[2]."
 
-#: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
-#: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
+#: En.Win32.Release.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
 msgid ""
 "A file that is required cannot be installed because the cabinet file [2] has"
 " an invalid digital signature. This may indicate that the cabinet file is "
@@ -117,8 +89,7 @@ msgstr ""
 "tiene una firma digital no válida. Esto puede indicar que el archivo .CAB "
 "está dañado.{{ Error [3] devuelto por WinVerifyTrust.}}"
 
-#: En.Win32.Debug.Error-2.idtx:59 En.Win32.Release.Error-2.idtx:59
-#: En.x64.Debug.Error-2.idtx:59 En.x64.Release.Error-2.idtx:59
+#: En.Win32.Release.Error-2.idtx:59 En.x64.Release.Error-2.idtx:59
 msgid ""
 "A file that is required cannot be installed because the cabinet file [2] is "
 "not digitally signed. This may indicate that the cabinet file is corrupt."
@@ -127,31 +98,26 @@ msgstr ""
 "[2] no está digitalmente firmado. Esto puede indicar que el archivo .CAB "
 "esté dañado."
 
-#: En.Win32.Debug.Error-2.idtx:48 En.Win32.Release.Error-2.idtx:48
-#: En.x64.Debug.Error-2.idtx:48 En.x64.Release.Error-2.idtx:48
+#: En.Win32.Release.Error-2.idtx:48 En.x64.Release.Error-2.idtx:48
 msgid "A network error occurred while attempting to create the folder: [2]"
 msgstr "Se produjo un error de red al intentar crear el directorio [2]."
 
-#: En.Win32.Debug.Error-2.idtx:49 En.Win32.Release.Error-2.idtx:49
-#: En.x64.Debug.Error-2.idtx:49 En.x64.Release.Error-2.idtx:49
+#: En.Win32.Release.Error-2.idtx:49 En.x64.Release.Error-2.idtx:49
 msgid ""
 "A network error occurred while attempting to open the source file cabinet: "
 "[2]"
 msgstr ""
 "Se produjo un error de red al intentar abrir el archivo .CAB de origen [2]."
 
-#: En.Win32.Debug.Error-2.idtx:46 En.Win32.Release.Error-2.idtx:46
-#: En.x64.Debug.Error-2.idtx:46 En.x64.Release.Error-2.idtx:46
+#: En.Win32.Release.Error-2.idtx:46 En.x64.Release.Error-2.idtx:46
 msgid "A network error occurred while attempting to read from the file: [2]"
 msgstr "Se produjo un error de red al intentar leer el archivo [2]."
 
-#: En.Win32.Debug.CustomAction-2.idtx:5 En.Win32.Release.CustomAction-2.idtx:5
-#: En.x64.Debug.CustomAction-2.idtx:4 En.x64.Release.CustomAction-2.idtx:4
+#: En.Win32.Release.CustomAction-2.idtx:5 En.x64.Release.CustomAction-2.idtx:4
 msgid "A newer version of [SimpleProductName] is already installed."
 msgstr "Una versión más actual de [SimpleProductName]  ya está instalada."
 
-#: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
-#: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
+#: En.Win32.Release.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
 msgid ""
 "A portion of the folder path '[2]' is invalid. It is either empty or exceeds"
 " the length allowed by the system."
@@ -159,8 +125,7 @@ msgstr ""
 "Una parte de la ruta de acceso a la carpeta '[2]'no es válida porque está "
 "vacía o supera la longitud permitida por el sistema."
 
-#: En.Win32.Debug.Error-2.idtx:95 En.Win32.Release.Error-2.idtx:95
-#: En.x64.Debug.Error-2.idtx:95 En.x64.Release.Error-2.idtx:95
+#: En.Win32.Release.Error-2.idtx:95 En.x64.Release.Error-2.idtx:95
 msgid ""
 "A previous installation for this product is in progress. You must undo the "
 "changes made by that installation to continue. Do you want to undo those "
@@ -170,49 +135,32 @@ msgstr ""
 " cambios realizados por dicha instalación para poder continuar. ¿Desea "
 "deshacer esos cambios?"
 
-#: En.Win32.Debug.Error-2.idtx:127 En.Win32.Release.Error-2.idtx:127
-#: En.x64.Debug.Error-2.idtx:127 En.x64.Release.Error-2.idtx:127
+#: En.Win32.Release.Error-2.idtx:127 En.x64.Release.Error-2.idtx:127
 msgid "A valid destination folder for the install could not be determined."
 msgstr ""
 "No se puede determinar una carpeta de destino válida para la instalación."
 
-#: En.Win32.Debug.Error-2.idtx:12 En.Win32.Release.Error-2.idtx:12
-#: En.x64.Debug.Error-2.idtx:12 En.x64.Release.Error-2.idtx:12
+#: En.Win32.Release.Error-2.idtx:12 En.x64.Release.Error-2.idtx:12
 msgid "Action [Time]: [1]. [2]"
 msgstr "Acción [Time]: [1]. [2]"
 
-#: En.Win32.Debug.Error-2.idtx:19 En.Win32.Release.Error-2.idtx:19
-#: En.x64.Debug.Error-2.idtx:19 En.x64.Release.Error-2.idtx:19
+#: En.Win32.Release.Error-2.idtx:19 En.x64.Release.Error-2.idtx:19
 msgid "Action ended [Time]: [1]. Return value [2]."
 msgstr "La acción terminó a las [Time]: [1]. Valor devuelto: [2]."
 
-#: En.Win32.Debug.Error-2.idtx:18 En.Win32.Release.Error-2.idtx:18
-#: En.x64.Debug.Error-2.idtx:18 En.x64.Release.Error-2.idtx:18
+#: En.Win32.Release.Error-2.idtx:18 En.x64.Release.Error-2.idtx:18
 msgid "Action start [Time]: [1]."
 msgstr "La acción se inició a las [Time]: [1]."
 
-#: En.Win32.Debug.Error-2.idtx:116 En.Win32.Release.Error-2.idtx:116
-#: En.x64.Debug.Error-2.idtx:116 En.x64.Release.Error-2.idtx:116
+#: En.Win32.Release.Error-2.idtx:116 En.x64.Release.Error-2.idtx:116
 msgid "Advertisement completed successfully."
 msgstr "El anuncio se ha completado satisfactoriamente."
 
-#: En.Win32.Debug.Error-2.idtx:117 En.Win32.Release.Error-2.idtx:117
-#: En.x64.Debug.Error-2.idtx:117 En.x64.Release.Error-2.idtx:117
+#: En.Win32.Release.Error-2.idtx:117 En.x64.Release.Error-2.idtx:117
 msgid "Advertisement failed."
 msgstr "Error en el anuncio."
 
-#: En.Win32.Debug.ActionText-2.idtx:4 En.Win32.Release.ActionText-2.idtx:4
-#: En.x64.Debug.ActionText-2.idtx:4 En.x64.Release.ActionText-2.idtx:4
-msgid "Advertising application"
-msgstr "Mostrar aplicación"
-
-#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
-#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
-msgid "Allocating registry space"
-msgstr "Asignando espacio del registro"
-
-#: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
-#: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
+#: En.Win32.Release.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
 "An error occured during the installation of assembly component [2]. HRESULT:"
 " [3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
@@ -220,8 +168,7 @@ msgstr ""
 "Error durante la instalación del componente de asamblea [2]. HRESULT: [3]. "
 "{{interfaz de asamblea: [4], función: [5], nombre de asamblea: [6]}}"
 
-#: En.Win32.Debug.Error-2.idtx:89 En.Win32.Release.Error-2.idtx:89
-#: En.x64.Debug.Error-2.idtx:89 En.x64.Release.Error-2.idtx:89
+#: En.Win32.Release.Error-2.idtx:89 En.x64.Release.Error-2.idtx:89
 msgid ""
 "An error occurred while applying security settings. [2] is not a valid user "
 "or group. This could be a problem with the package, or a problem connecting "
@@ -235,13 +182,11 @@ msgstr ""
 "de red y haga clic en Reintentar o Cancelar para finalizar la instalación. "
 "{{No se puede encontrar el SID de usuario, error del sistema [3]}}"
 
-#: En.Win32.Debug.Error-2.idtx:47 En.Win32.Release.Error-2.idtx:47
-#: En.x64.Debug.Error-2.idtx:47 En.x64.Release.Error-2.idtx:47
+#: En.Win32.Release.Error-2.idtx:47 En.x64.Release.Error-2.idtx:47
 msgid "An error occurred while attempting to create the folder: [2]"
 msgstr "Se produjo un error al intentar crear el directorio [2]."
 
-#: En.Win32.Debug.Error-2.idtx:101 En.Win32.Release.Error-2.idtx:101
-#: En.x64.Debug.Error-2.idtx:101 En.x64.Release.Error-2.idtx:101
+#: En.Win32.Release.Error-2.idtx:101 En.x64.Release.Error-2.idtx:101
 msgid ""
 "An error occurred while writing installation information to disk. Check to "
 "make sure enough disk space is available, and click Retry, or Cancel to end "
@@ -251,8 +196,7 @@ msgstr ""
 " disco. Compruebe que hay suficiente espacio en disco disponible y haga clic"
 " en Reintentar, o bien haga clic en Cancelar para terminar la instalación."
 
-#: En.Win32.Debug.Error-2.idtx:94 En.Win32.Release.Error-2.idtx:94
-#: En.x64.Debug.Error-2.idtx:94 En.x64.Release.Error-2.idtx:94
+#: En.Win32.Release.Error-2.idtx:94 En.x64.Release.Error-2.idtx:94
 msgid ""
 "An installation for [2] is currently suspended. You must undo the changes "
 "made by that installation to continue. Do you want to undo those changes?"
@@ -261,8 +205,7 @@ msgstr ""
 "cambios realizados por dicha instalación para poder continuar. ¿Desea "
 "deshacer esos cambios?"
 
-#: En.Win32.Debug.Error-2.idtx:96 En.Win32.Release.Error-2.idtx:96
-#: En.x64.Debug.Error-2.idtx:96 En.x64.Release.Error-2.idtx:96
+#: En.Win32.Release.Error-2.idtx:96 En.x64.Release.Error-2.idtx:96
 msgid ""
 "An installation package for the product [2] cannot be found. Try the "
 "installation again using a valid copy of the installation package '[3]'."
@@ -271,8 +214,7 @@ msgstr ""
 " intentar la instalación utilizando una copia válida del paquete de "
 "instalación '[3]'."
 
-#: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
-#: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
+#: En.Win32.Release.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
 msgid ""
 "Another application has exclusive access to the file '[2]'. Please shut down"
 " all other applications, then click Retry."
@@ -280,8 +222,7 @@ msgstr ""
 "Otra aplicación tiene acceso exclusivo al archivo '[2]'. Cierre todas las "
 "demás aplicaciones y haga clic en Reintentar."
 
-#: En.Win32.Debug.Error-2.idtx:77 En.Win32.Release.Error-2.idtx:77
-#: En.x64.Debug.Error-2.idtx:77 En.x64.Release.Error-2.idtx:77
+#: En.Win32.Release.Error-2.idtx:77 En.x64.Release.Error-2.idtx:77
 msgid ""
 "Another installation is in progress. You must complete that installation "
 "before continuing this one."
@@ -289,45 +230,11 @@ msgstr ""
 "Ya hay otra instalación en curso. Termine esa instalación antes de continuar"
 " con ésta."
 
-#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
-#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
-msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-msgstr "IdApl: [1]{{, Tipo de apl.: [2], Usuarios: [3], RSN: [4]}}"
-
-#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
-#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
-msgid "AppId: [1]{{, AppType: [2]}}"
-msgstr "IdApl: [1]{{, Tipo de apl.: [2]}}"
-
-#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Debug.ActionText-2.idtx:28
-#: En.Win32.Release.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:28
-#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Debug.ActionText-2.idtx:28
-#: En.x64.Release.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:28
-msgid "Application Context:[1], Assembly Name:[2]"
-msgstr "Contexto de aplicación:[1], Nombre de asamblea:[2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
-#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
-msgid "Application: [1]"
-msgstr "Aplicación: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
-#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
-msgid "Application: [1], Command line: [2]"
-msgstr "Aplicación: [1], Línea de comandos: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:82 En.Win32.Release.Error-2.idtx:82
-#: En.x64.Debug.Error-2.idtx:82 En.x64.Release.Error-2.idtx:82
+#: En.Win32.Release.Error-2.idtx:82 En.x64.Release.Error-2.idtx:82
 msgid "Are you sure you want to cancel?"
 msgstr "¿Está seguro de que desea cancelar la operación?"
 
-#: En.Win32.Debug.ActionText-2.idtx:7 En.Win32.Release.ActionText-2.idtx:7
-#: En.x64.Debug.ActionText-2.idtx:7 En.x64.Release.ActionText-2.idtx:7
-msgid "Binding executables"
-msgstr "Enlazando archivos ejecutables"
-
-#: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
-#: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
+#: En.Win32.Release.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
 msgid ""
 "Cannot create the file '[2]'. A folder with this name already exists. Cancel"
 " the install and try installing to a different location."
@@ -335,8 +242,7 @@ msgstr ""
 "No se puede crear el archivo '[2]'. Ya existe un directorio con ese nombre. "
 "Cancele la instalación e intente instalar en una ubicación distinta."
 
-#: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
-#: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
+#: En.Win32.Release.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
 msgid ""
 "Cannot create the folder '[2]'. A file with this name already exists. Please"
 " rename or remove the file and click retry, or click Cancel to exit."
@@ -345,22 +251,7 @@ msgstr ""
 " Cambie el nombre al archivo o quítelo y haga clic en Reintentar, o bien "
 "haga clic en Cancelar para salir."
 
-#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Debug.ActionText-2.idtx:64
-#: En.Win32.Release.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:64
-#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Debug.ActionText-2.idtx:64
-#: En.x64.Release.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:64
-msgid "Class Id: [1]"
-msgstr "Id. de clase: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Debug.ActionText-2.idtx:61
-#: En.Win32.Release.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:61
-#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Debug.ActionText-2.idtx:61
-#: En.x64.Release.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:61
-msgid "Component ID: [1], Qualifier: [2]"
-msgstr "Id. del componente: [1], capacitador: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:154 En.Win32.Release.Error-2.idtx:154
-#: En.x64.Debug.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
+#: En.Win32.Release.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
 msgid ""
 "Component Services (COM+ 1.0) are not installed on this computer. This "
 "installation requires Component Services in order to complete successfully. "
@@ -370,47 +261,23 @@ msgstr ""
 "Para realizar esta instalación, es necesario que los Servicios de componente"
 " estén instalados. Encontrará los Servicios de componente en Windows 2000."
 
-#: En.Win32.Debug.ActionText-2.idtx:10 En.Win32.Debug.ActionText-2.idtx:15
-#: En.Win32.Debug.ActionText-2.idtx:9 En.Win32.Release.ActionText-2.idtx:10
-#: En.Win32.Release.ActionText-2.idtx:15 En.Win32.Release.ActionText-2.idtx:9
-#: En.x64.Debug.ActionText-2.idtx:10 En.x64.Debug.ActionText-2.idtx:15
-#: En.x64.Debug.ActionText-2.idtx:9 En.x64.Release.ActionText-2.idtx:10
-#: En.x64.Release.ActionText-2.idtx:15 En.x64.Release.ActionText-2.idtx:9
-msgid "Computing space requirements"
-msgstr "Calculando el espacio necesario"
-
-#: En.Win32.Debug.Error-2.idtx:118 En.Win32.Release.Error-2.idtx:118
-#: En.x64.Debug.Error-2.idtx:118 En.x64.Release.Error-2.idtx:118
+#: En.Win32.Release.Error-2.idtx:118 En.x64.Release.Error-2.idtx:118
 msgid "Configuration completed successfully."
 msgstr "La configuración se ha completado satisfactoriamente."
 
-#: En.Win32.Debug.Error-2.idtx:119 En.Win32.Release.Error-2.idtx:119
-#: En.x64.Debug.Error-2.idtx:119 En.x64.Release.Error-2.idtx:119
+#: En.Win32.Release.Error-2.idtx:119 En.x64.Release.Error-2.idtx:119
 msgid "Configuration failed."
 msgstr "Error en la configuración."
 
-#: En.Win32.Debug.Error-2.idtx:106 En.Win32.Release.Error-2.idtx:106
-#: En.x64.Debug.Error-2.idtx:106 En.x64.Release.Error-2.idtx:106
+#: En.Win32.Release.Error-2.idtx:106 En.x64.Release.Error-2.idtx:106
 msgid "Configured [2]"
 msgstr "Configurado [2]"
 
-#: En.Win32.Debug.ActionText-2.idtx:18 En.Win32.Release.ActionText-2.idtx:18
-#: En.x64.Debug.ActionText-2.idtx:18 En.x64.Release.ActionText-2.idtx:18
-msgid "Copying network install files"
-msgstr "Copiando archivos de instalación de la red"
-
-#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:19
-#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:19
-msgid "Copying new files"
-msgstr "Copiando archivos nuevos"
-
-#: En.Win32.Debug.Error-2.idtx:86 En.Win32.Release.Error-2.idtx:86
-#: En.x64.Debug.Error-2.idtx:86 En.x64.Release.Error-2.idtx:86
+#: En.Win32.Release.Error-2.idtx:86 En.x64.Release.Error-2.idtx:86
 msgid "Could not access network location [2]."
 msgstr "No se puede obtener acceso a la ubicación de red [2]."
 
-#: En.Win32.Debug.Error-2.idtx:67 En.Win32.Release.Error-2.idtx:67
-#: En.x64.Debug.Error-2.idtx:67 En.x64.Release.Error-2.idtx:67
+#: En.Win32.Release.Error-2.idtx:67 En.x64.Release.Error-2.idtx:67
 msgid ""
 "Could not create key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
@@ -419,8 +286,7 @@ msgstr ""
 "dispone de suficientes derechos de acceso a esa clave o póngase en contacto "
 "con el personal de soporte técnico. "
 
-#: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
-#: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
+#: En.Win32.Release.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
 msgid ""
 "Could not create Shortcut [2]. Verify that the destination folder exists and"
 " that you can access it."
@@ -428,8 +294,7 @@ msgstr ""
 "No se puede crear el acceso directo [2]. Compruebe que la carpeta de destino"
 " existe y que puede obtener acceso a ella."
 
-#: En.Win32.Debug.Error-2.idtx:70 En.Win32.Release.Error-2.idtx:70
-#: En.x64.Debug.Error-2.idtx:70 En.x64.Release.Error-2.idtx:70
+#: En.Win32.Release.Error-2.idtx:70 En.x64.Release.Error-2.idtx:70
 msgid ""
 "Could not delete key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
@@ -438,8 +303,7 @@ msgstr ""
 "dispone de suficientes derechos de acceso a esa clave o póngase en contacto "
 "con el personal de soporte técnico. "
 
-#: En.Win32.Debug.Error-2.idtx:69 En.Win32.Release.Error-2.idtx:69
-#: En.x64.Debug.Error-2.idtx:69 En.x64.Release.Error-2.idtx:69
+#: En.Win32.Release.Error-2.idtx:69 En.x64.Release.Error-2.idtx:69
 msgid ""
 "Could not delete value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel. "
@@ -448,8 +312,7 @@ msgstr ""
 "[4].}} Compruebe que dispone de suficientes derechos de acceso a esa clave o"
 " póngase en contacto con el personal de soporte técnico. "
 
-#: En.Win32.Debug.Error-2.idtx:88 En.Win32.Release.Error-2.idtx:88
-#: En.x64.Debug.Error-2.idtx:88 En.x64.Release.Error-2.idtx:88
+#: En.Win32.Release.Error-2.idtx:88 En.x64.Release.Error-2.idtx:88
 msgid ""
 "Could not find any previously installed compliant products on the machine "
 "for installing this product."
@@ -457,8 +320,7 @@ msgstr ""
 "No se encuentra ningún producto compatible instalado en el equipo para "
 "instalar este producto."
 
-#: En.Win32.Debug.Error-2.idtx:74 En.Win32.Release.Error-2.idtx:74
-#: En.x64.Debug.Error-2.idtx:74 En.x64.Release.Error-2.idtx:74
+#: En.Win32.Release.Error-2.idtx:74 En.x64.Release.Error-2.idtx:74
 msgid ""
 "Could not get sub key names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
@@ -467,8 +329,7 @@ msgstr ""
 "del sistema [3].}} Compruebe que dispone de suficientes derechos de acceso a"
 " esa clave o póngase en contacto con el personal de soporte técnico."
 
-#: En.Win32.Debug.Error-2.idtx:73 En.Win32.Release.Error-2.idtx:73
-#: En.x64.Debug.Error-2.idtx:73 En.x64.Release.Error-2.idtx:73
+#: En.Win32.Release.Error-2.idtx:73 En.x64.Release.Error-2.idtx:73
 msgid ""
 "Could not get value names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
@@ -477,8 +338,7 @@ msgstr ""
 "del sistema [3].}} Compruebe que dispone de suficientes derechos de acceso a"
 " esa clave o póngase en contacto con el personal de soporte técnico."
 
-#: En.Win32.Debug.Error-2.idtx:76 En.Win32.Release.Error-2.idtx:76
-#: En.x64.Debug.Error-2.idtx:76 En.x64.Release.Error-2.idtx:76
+#: En.Win32.Release.Error-2.idtx:76 En.x64.Release.Error-2.idtx:76
 msgid ""
 "Could not increase the available registry space. [2] KB of free registry "
 "space is required for the installation of this application."
@@ -487,8 +347,7 @@ msgstr ""
 "configuraciones. Para instalar esta aplicación se requieren [2] KB de "
 "espacio en el registro."
 
-#: En.Win32.Debug.Error-2.idtx:68 En.Win32.Release.Error-2.idtx:68
-#: En.x64.Debug.Error-2.idtx:68 En.x64.Release.Error-2.idtx:68
+#: En.Win32.Release.Error-2.idtx:68 En.x64.Release.Error-2.idtx:68
 msgid ""
 "Could not open key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
@@ -497,8 +356,7 @@ msgstr ""
 "dispone de suficientes derechos de acceso a esa clave o póngase en contacto "
 "con el personal de soporte técnico. "
 
-#: En.Win32.Debug.Error-2.idtx:75 En.Win32.Release.Error-2.idtx:75
-#: En.x64.Debug.Error-2.idtx:75 En.x64.Release.Error-2.idtx:75
+#: En.Win32.Release.Error-2.idtx:75 En.x64.Release.Error-2.idtx:75
 msgid ""
 "Could not read security information for key [2]. {{ System error [3].}} "
 "Verify that you have sufficient access to that key, or contact your support "
@@ -508,8 +366,7 @@ msgstr ""
 "sistema [3].}} Compruebe que dispone de suficientes derechos de acceso a esa"
 " clave o póngase en contacto con el personal de soporte técnico."
 
-#: En.Win32.Debug.Error-2.idtx:71 En.Win32.Release.Error-2.idtx:71
-#: En.x64.Debug.Error-2.idtx:71 En.x64.Release.Error-2.idtx:71
+#: En.Win32.Release.Error-2.idtx:71 En.x64.Release.Error-2.idtx:71
 msgid ""
 "Could not read value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel. "
@@ -518,8 +375,7 @@ msgstr ""
 "Compruebe que dispone de suficientes derechos de acceso a esa clave o "
 "póngase en contacto con el personal de soporte técnico. "
 
-#: En.Win32.Debug.Error-2.idtx:134 En.Win32.Release.Error-2.idtx:134
-#: En.x64.Debug.Error-2.idtx:134 En.x64.Release.Error-2.idtx:134
+#: En.Win32.Release.Error-2.idtx:134 En.x64.Release.Error-2.idtx:134
 msgid ""
 "Could not register font [2]. Verify that you have sufficient permissions to "
 "install fonts, and that the system supports this font."
@@ -527,8 +383,7 @@ msgstr ""
 "No se puede registrar la fuente [2]. Compruebe que dispone de suficientes "
 "permisos para instalar fuentes y que el sistema admite esta fuente."
 
-#: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
-#: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
+#: En.Win32.Release.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
 msgid ""
 "Could not register type library for file [2]. Contact your support "
 "personnel."
@@ -536,8 +391,7 @@ msgstr ""
 "No se puede registrar la biblioteca de tipos para el archivo [2]. Póngase en"
 " contacto con el personal de soporte técnico."
 
-#: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
-#: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
+#: En.Win32.Release.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
 msgid ""
 "Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
 " you can access it."
@@ -545,8 +399,7 @@ msgstr ""
 "No se puede crear el acceso directo [2]. Compruebe que el archivo de acceso "
 "directo existe y que puede obtener acceso a él."
 
-#: En.Win32.Debug.Error-2.idtx:141 En.Win32.Release.Error-2.idtx:141
-#: En.x64.Debug.Error-2.idtx:141 En.x64.Release.Error-2.idtx:141
+#: En.Win32.Release.Error-2.idtx:141 En.x64.Release.Error-2.idtx:141
 msgid ""
 "Could not schedule file [2] to replace file [3] on reboot. Verify that you "
 "have write permissions to file [3]."
@@ -555,8 +408,7 @@ msgstr ""
 "reinicie el sistema. Compruebe que dispone de permisos de escritura para el "
 "archivo [3]."
 
-#: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
-#: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
+#: En.Win32.Release.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
 msgid ""
 "Could not set file security for file '[3]'. Error: [2]. Verify that you have"
 " sufficient privileges to modify the security permissions for this file."
@@ -565,8 +417,7 @@ msgstr ""
 "Compruebe que dispone de suficientes privilegios para modificar los permisos"
 " de seguridad para este archivo."
 
-#: En.Win32.Debug.Error-2.idtx:135 En.Win32.Release.Error-2.idtx:135
-#: En.x64.Debug.Error-2.idtx:135 En.x64.Release.Error-2.idtx:135
+#: En.Win32.Release.Error-2.idtx:135 En.x64.Release.Error-2.idtx:135
 msgid ""
 "Could not unregister font [2]. Verify that you that you have sufficient "
 "permissions to remove fonts."
@@ -574,8 +425,7 @@ msgstr ""
 "No se puede eliminar del registro la fuente [2]. Compruebe que dispone de "
 "suficientes permisos para quitar fuentes."
 
-#: En.Win32.Debug.Error-2.idtx:139 En.Win32.Release.Error-2.idtx:139
-#: En.x64.Debug.Error-2.idtx:139 En.x64.Release.Error-2.idtx:139
+#: En.Win32.Release.Error-2.idtx:139 En.x64.Release.Error-2.idtx:139
 msgid ""
 "Could not unregister type library for file [2]. Contact your support "
 "personnel."
@@ -583,8 +433,7 @@ msgstr ""
 "No se puede quitar del registro la biblioteca de tipos del archivo [2]. "
 "Póngase en contacto con el personal de soporte técnico."
 
-#: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
-#: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
+#: En.Win32.Release.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
 msgid ""
 "Could not update environment variable '[2]'. Verify that you have sufficient"
 " privileges to modify environment variables."
@@ -592,8 +441,7 @@ msgstr ""
 "No se puede actualizar la variable de entorno '[2]'. Compruebe que dispone "
 "de suficientes privilegios para modificar variables de entorno."
 
-#: En.Win32.Debug.Error-2.idtx:140 En.Win32.Release.Error-2.idtx:140
-#: En.x64.Debug.Error-2.idtx:140 En.x64.Release.Error-2.idtx:140
+#: En.Win32.Release.Error-2.idtx:140 En.x64.Release.Error-2.idtx:140
 msgid ""
 "Could not update the ini file [2][3]. Verify that the file exists and that "
 "you can access it."
@@ -601,8 +449,7 @@ msgstr ""
 "No se puede actualizar el archivo .ini [2][3]. Compruebe que el archivo "
 "existe y que puede obtener acceso a él."
 
-#: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
-#: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
+#: En.Win32.Release.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
 msgid ""
 "Could not write value [2] to key [3]. {{ System error [4].}} Verify that you"
 " have sufficient access to that key, or contact your support personnel."
@@ -611,28 +458,7 @@ msgstr ""
 "[4].}} Compruebe que dispone de suficientes derechos de acceso a esa clave o"
 " póngase en contacto con el personal de soporte técnico."
 
-#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:14
-#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:14
-msgid "Creating duplicate files"
-msgstr "Creando archivos duplicados"
-
-#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:11
-#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:11
-msgid "Creating folders"
-msgstr "Creando carpetas"
-
-#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:12
-#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:12
-msgid "Creating shortcuts"
-msgstr "Creando accesos directos"
-
-#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Release.ActionText-2.idtx:13
-#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Release.ActionText-2.idtx:13
-msgid "Deleting services"
-msgstr "Eliminando servicios"
-
-#: En.Win32.Debug.Error-2.idtx:78 En.Win32.Release.Error-2.idtx:78
-#: En.x64.Debug.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
+#: En.Win32.Release.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
 msgid ""
 "Error accessing secured data. Please make sure the Windows Installer is "
 "configured properly and try the install again."
@@ -641,8 +467,7 @@ msgstr ""
 "Installer está configurado correctamente y vuelva a intentar realizar la "
 "instalación."
 
-#: En.Win32.Debug.Error-2.idtx:58 En.Win32.Release.Error-2.idtx:58
-#: En.x64.Debug.Error-2.idtx:58 En.x64.Release.Error-2.idtx:58
+#: En.Win32.Release.Error-2.idtx:58 En.x64.Release.Error-2.idtx:58
 msgid ""
 "Error applying patch to file [2]. It has probably been updated by other "
 "means, and can no longer be modified by this patch. For more information "
@@ -653,14 +478,12 @@ msgstr ""
 "obtener más información, consulte al proveedor de la revisión. {{Error del "
 "sistema: [3]}}"
 
-#: En.Win32.Debug.Error-2.idtx:128 En.Win32.Release.Error-2.idtx:128
-#: En.x64.Debug.Error-2.idtx:128 En.x64.Release.Error-2.idtx:128
+#: En.Win32.Release.Error-2.idtx:128 En.x64.Release.Error-2.idtx:128
 msgid "Error attempting to read from the source install database: [2]."
 msgstr ""
 "Error al intentar leer la base de datos de instalación de origen: [2]."
 
-#: En.Win32.Debug.Error-2.idtx:146 En.Win32.Release.Error-2.idtx:146
-#: En.x64.Debug.Error-2.idtx:146 En.x64.Release.Error-2.idtx:146
+#: En.Win32.Release.Error-2.idtx:146 En.x64.Release.Error-2.idtx:146
 msgid ""
 "Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that "
 "the file [4] exists and that you can access it."
@@ -668,13 +491,11 @@ msgstr ""
 "Error al configurar el origen de datos de ODBC [4]; error de ODBC [2]: [3]. "
 "Compruebe que el archivo [4] y que puede obtener acceso a él."
 
-#: En.Win32.Debug.Error-2.idtx:56 En.Win32.Release.Error-2.idtx:56
-#: En.x64.Debug.Error-2.idtx:56 En.x64.Release.Error-2.idtx:56
+#: En.Win32.Release.Error-2.idtx:56 En.x64.Release.Error-2.idtx:56
 msgid "Error getting file security: [3] GetLastError: [2]"
 msgstr "Error al obtener la seguridad del archivo: [3]. GetLastError: [2]."
 
-#: En.Win32.Debug.Error-2.idtx:143 En.Win32.Release.Error-2.idtx:143
-#: En.x64.Debug.Error-2.idtx:143 En.x64.Release.Error-2.idtx:143
+#: En.Win32.Release.Error-2.idtx:143 En.x64.Release.Error-2.idtx:143
 msgid ""
 "Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
@@ -682,8 +503,7 @@ msgstr ""
 "Error al instalar el administrador de controladores ODBC; error de ODBC [2]:"
 " [3]. Póngase en contacto con el personal de soporte técnico."
 
-#: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
-#: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
+#: En.Win32.Release.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
 msgid ""
 "Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
 " [4] exists and that you can access it."
@@ -691,8 +511,7 @@ msgstr ""
 "Error al instalar el controlador ODBC [4]; error de ODBC [2]: [3]. Compruebe"
 " que el archivo [4] existe y que puede obtener acceso a él."
 
-#: En.Win32.Debug.Error-2.idtx:35 En.Win32.Release.Error-2.idtx:35
-#: En.x64.Debug.Error-2.idtx:35 En.x64.Release.Error-2.idtx:35
+#: En.Win32.Release.Error-2.idtx:35 En.x64.Release.Error-2.idtx:35
 msgid ""
 "Error reading from file [2]. {{ System error [3].}} Verify that the file "
 "exists and that you can access it."
@@ -700,8 +519,7 @@ msgstr ""
 "Error al leer el archivo [2]. {{ Error del sistema [3].}} Compruebe que el "
 "archivo existe y que puede obtener acceso a él."
 
-#: En.Win32.Debug.Error-2.idtx:30 En.Win32.Release.Error-2.idtx:30
-#: En.x64.Debug.Error-2.idtx:30 En.x64.Release.Error-2.idtx:30
+#: En.Win32.Release.Error-2.idtx:30 En.x64.Release.Error-2.idtx:30
 msgid ""
 "Error reading from file: [2]. {{ System error [3].}} Verify that the file "
 "exists and that you can access it."
@@ -709,8 +527,7 @@ msgstr ""
 "Error al leer el archivo [2]. {{ Error del sistema [3].}} Compruebe que el "
 "archivo existe y que puede obtener acceso a él."
 
-#: En.Win32.Debug.Error-2.idtx:39 En.Win32.Release.Error-2.idtx:39
-#: En.x64.Debug.Error-2.idtx:39 En.x64.Release.Error-2.idtx:39
+#: En.Win32.Release.Error-2.idtx:39 En.x64.Release.Error-2.idtx:39
 msgid ""
 "Error reading from file: [3]. {{ System error [2].}} Verify that the file "
 "exists and that you can access it."
@@ -718,8 +535,7 @@ msgstr ""
 "Error al leer el archivo [3]. {{ Error del sistema [2].}} Compruebe que el "
 "archivo existe y que puede obtener acceso a él."
 
-#: En.Win32.Debug.Error-2.idtx:155 En.Win32.Release.Error-2.idtx:155
-#: En.x64.Debug.Error-2.idtx:155 En.x64.Release.Error-2.idtx:155
+#: En.Win32.Release.Error-2.idtx:155 En.x64.Release.Error-2.idtx:155
 msgid ""
 "Error registering COM+ Application. Contact your support personnel for more "
 "information."
@@ -727,8 +543,7 @@ msgstr ""
 "Error al registrar la aplicación COM+. Póngase en contacto con el personal "
 "de soporte para obtener más información."
 
-#: En.Win32.Debug.Error-2.idtx:142 En.Win32.Release.Error-2.idtx:142
-#: En.x64.Debug.Error-2.idtx:142 En.x64.Release.Error-2.idtx:142
+#: En.Win32.Release.Error-2.idtx:142 En.x64.Release.Error-2.idtx:142
 msgid ""
 "Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
@@ -736,8 +551,7 @@ msgstr ""
 "Error al quitar el administrador de controladores ODBC; error de ODBC [2]: "
 "[3]. Póngase en contacto con el personal de soporte técnico."
 
-#: En.Win32.Debug.Error-2.idtx:144 En.Win32.Release.Error-2.idtx:144
-#: En.x64.Debug.Error-2.idtx:144 En.x64.Release.Error-2.idtx:144
+#: En.Win32.Release.Error-2.idtx:144 En.x64.Release.Error-2.idtx:144
 msgid ""
 "Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you have "
 "sufficient privileges to remove ODBC drivers."
@@ -745,8 +559,7 @@ msgstr ""
 "Error al quitar el controlador ODBC [4]; error de ODBC [2]: [3]. Compruebe "
 "que dispone de suficientes privilegios para quitar controladores ODBC."
 
-#: En.Win32.Debug.Error-2.idtx:156 En.Win32.Release.Error-2.idtx:156
-#: En.x64.Debug.Error-2.idtx:156 En.x64.Release.Error-2.idtx:156
+#: En.Win32.Release.Error-2.idtx:156 En.x64.Release.Error-2.idtx:156
 msgid ""
 "Error unregistering COM+ Application. Contact your support personnel for "
 "more information."
@@ -754,16 +567,14 @@ msgstr ""
 "Error al quitar la aplicación COM+ del registro. Póngase en contacto con el "
 "personal de soporte para obtener más información."
 
-#: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
-#: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
+#: En.Win32.Release.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
 msgid ""
 "Error writing to file: [2]. Verify that you have access to that folder."
 msgstr ""
 "Error al escribir en el archivo [2]. Compruebe que dispone de acceso a ese "
 "directorio."
 
-#: En.Win32.Debug.Error-2.idtx:40 En.Win32.Release.Error-2.idtx:40
-#: En.x64.Debug.Error-2.idtx:40 En.x64.Release.Error-2.idtx:40
+#: En.Win32.Release.Error-2.idtx:40 En.x64.Release.Error-2.idtx:40
 msgid ""
 "Error writing to file: [3]. {{ System error [2].}} Verify that you have "
 "access to that folder."
@@ -771,239 +582,73 @@ msgstr ""
 "Error al escribir en el archivo [3]. {{ Error del sistema [2].}} Compruebe "
 "que dispone de acceso a ese directorio."
 
-#: En.Win32.Debug.ActionText-2.idtx:24 En.Win32.Release.ActionText-2.idtx:24
-#: En.x64.Debug.ActionText-2.idtx:24 En.x64.Release.ActionText-2.idtx:24
-msgid "Evaluating launch conditions"
-msgstr "Evaluando condiciones de inicio"
-
-#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Debug.ActionText-2.idtx:66
-#: En.Win32.Release.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:66
-#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Debug.ActionText-2.idtx:66
-#: En.x64.Release.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:66
-msgid "Extension: [1]"
-msgstr "Extensión: [1]"
-
-#: En.Win32.Debug.Error-2.idtx:133 En.Win32.Release.Error-2.idtx:133
-#: En.x64.Debug.Error-2.idtx:133 En.x64.Release.Error-2.idtx:133
+#: En.Win32.Release.Error-2.idtx:133 En.x64.Release.Error-2.idtx:133
 msgid ""
 "Failed to cache package [2]. Error: [3]. Contact your support personnel."
 msgstr ""
 "Fallo al almacenar el paquete [2] en la memoria caché. Error: [3]. Póngase "
 "en contacto con el personal de soporte técnico."
 
-#: En.Win32.Debug.Error-2.idtx:61 En.Win32.Release.Error-2.idtx:61
-#: En.x64.Debug.Error-2.idtx:61 En.x64.Release.Error-2.idtx:61
+#: En.Win32.Release.Error-2.idtx:61 En.x64.Release.Error-2.idtx:61
 msgid "Failed to correctly copy [2] file: CRC error."
 msgstr "No se puede copiar el archivo [2] correctamente: error CRC."
 
-#: En.Win32.Debug.Error-2.idtx:62 En.Win32.Release.Error-2.idtx:62
-#: En.x64.Debug.Error-2.idtx:62 En.x64.Release.Error-2.idtx:62
+#: En.Win32.Release.Error-2.idtx:62 En.x64.Release.Error-2.idtx:62
 msgid "Failed to correctly move [2] file: CRC error."
 msgstr "No se puede mover el archivo [2] correctamente: error CRC."
 
-#: En.Win32.Debug.Error-2.idtx:63 En.Win32.Release.Error-2.idtx:63
-#: En.x64.Debug.Error-2.idtx:63 En.x64.Release.Error-2.idtx:63
+#: En.Win32.Release.Error-2.idtx:63 En.x64.Release.Error-2.idtx:63
 msgid "Failed to correctly patch [2] file: CRC error."
 msgstr "No se puede revisar el archivo [2] correctamente: error CRC."
 
-#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Debug.ActionText-2.idtx:62
-#: En.Win32.Release.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:62
-#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Debug.ActionText-2.idtx:62
-#: En.x64.Release.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:62
-msgid "Feature: [1]"
-msgstr "Función: [1]"
-
-#: En.Win32.Debug.Error-2.idtx:108 En.Win32.Release.Error-2.idtx:108
-#: En.x64.Debug.Error-2.idtx:108 En.x64.Release.Error-2.idtx:108
+#: En.Win32.Release.Error-2.idtx:108 En.x64.Release.Error-2.idtx:108
 msgid "File [2] was rejected by digital signature policy."
 msgstr "La directiva de firma digital ha rechazado el archivo [2]."
 
-#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Debug.ActionText-2.idtx:7
-#: En.Win32.Release.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:7
-#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Debug.ActionText-2.idtx:7
-#: En.x64.Release.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:7
-msgid "File: [1]"
-msgstr "Archivo: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
-#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
-msgid "File: [1], Dependencies: [2]"
-msgstr "Archivo: [1], dependencias: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Debug.ActionText-2.idtx:56
-#: En.Win32.Release.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:56
-#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Debug.ActionText-2.idtx:56
-#: En.x64.Release.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:56
-msgid "File: [1], Folder: [2]"
-msgstr "Archivo: [1], carpeta: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
-#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
-msgid "File: [1], Folder: [2], Size: [3]"
-msgstr "Archivo: [1], directorio: [2], tamaño: [3]"
-
-#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Debug.ActionText-2.idtx:46
-#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:43
-#: En.Win32.Release.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:60
-#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Debug.ActionText-2.idtx:46
-#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:43
-#: En.x64.Release.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:60
-msgid "File: [1], Folder: [9]"
-msgstr "Archivo: [1], directorio: [9]"
-
-#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Debug.ActionText-2.idtx:18
-#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Debug.ActionText-2.idtx:26
-#: En.Win32.Release.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:18
-#: En.Win32.Release.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:26
-#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Debug.ActionText-2.idtx:18
-#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Debug.ActionText-2.idtx:26
-#: En.x64.Release.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:18
-#: En.x64.Release.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:26
-msgid "File: [1], Folder: [9], Size: [6]"
-msgstr "Archivo: [1], directorio: [9], tamaño: [6]"
-
-#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Debug.ActionText-2.idtx:72
-#: En.Win32.Release.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:72
-#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Debug.ActionText-2.idtx:72
-#: En.x64.Release.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:72
-msgid "File: [1], Section: [2], Key: [3], Value: [4]"
-msgstr "Archivo: [1], sección: [2], clave: [3], valor: [4]"
-
-#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Debug.ActionText-2.idtx:47
-#: En.Win32.Release.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:47
-#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Debug.ActionText-2.idtx:47
-#: En.x64.Release.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:47
-msgid "Folder: [1]"
-msgstr "Carpeta: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Debug.ActionText-2.idtx:67
-#: En.Win32.Release.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:67
-#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Debug.ActionText-2.idtx:67
-#: En.x64.Release.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:67
-msgid "Font: [1]"
-msgstr "Fuente: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
-#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
-msgid "Found application: [1]"
-msgstr "Se encontró esta aplicación: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
-#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
-msgid "Free space: [1]"
-msgstr "Espacio disponible: [1]"
-
-#: En.Win32.Debug.Error-2.idtx:25 En.Win32.Release.Error-2.idtx:25
-#: En.x64.Debug.Error-2.idtx:25 En.x64.Release.Error-2.idtx:25
+#: En.Win32.Release.Error-2.idtx:25 En.x64.Release.Error-2.idtx:25
 msgid "Gathering required information..."
 msgstr "Recopilando la información necesaria..."
 
-#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:17
-#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:17
-msgid "Generating script operations for action:"
-msgstr "Generando operaciones de secuencias de comandos para la acción:"
-
-#: En.Win32.Debug.Error-2.idtx:8 En.Win32.Release.Error-2.idtx:8
-#: En.x64.Debug.Error-2.idtx:8 En.x64.Release.Error-2.idtx:8
+#: En.Win32.Release.Error-2.idtx:8 En.x64.Release.Error-2.idtx:8
 msgid "Info [1]. "
 msgstr "Información [1]. "
 
-#: En.Win32.Debug.ActionText-2.idtx:57 En.Win32.Release.ActionText-2.idtx:57
-#: En.x64.Debug.ActionText-2.idtx:57 En.x64.Release.ActionText-2.idtx:57
-msgid "Initializing ODBC folders"
-msgstr "Inicializando directorios ODBC"
-
-#: En.Win32.Debug.Error-2.idtx:97 En.Win32.Release.Error-2.idtx:97
-#: En.x64.Debug.Error-2.idtx:97 En.x64.Release.Error-2.idtx:97
+#: En.Win32.Release.Error-2.idtx:97 En.x64.Release.Error-2.idtx:97
 msgid "Installation completed successfully."
 msgstr "La instalación finalizó satisfactoriamente."
 
-#: En.Win32.Debug.Error-2.idtx:98 En.Win32.Release.Error-2.idtx:98
-#: En.x64.Debug.Error-2.idtx:98 En.x64.Release.Error-2.idtx:98
+#: En.Win32.Release.Error-2.idtx:98 En.x64.Release.Error-2.idtx:98
 msgid "Installation failed."
 msgstr "Error en la instalación."
 
-#: En.Win32.Debug.Error-2.idtx:105 En.Win32.Release.Error-2.idtx:105
-#: En.x64.Debug.Error-2.idtx:105 En.x64.Release.Error-2.idtx:105
+#: En.Win32.Release.Error-2.idtx:105 En.x64.Release.Error-2.idtx:105
 msgid "Installed [2]"
 msgstr "Instalado [2]"
 
-#: En.Win32.Debug.Error-2.idtx:22 En.Win32.Release.Error-2.idtx:22
-#: En.x64.Debug.Error-2.idtx:22 En.x64.Release.Error-2.idtx:22
+#: En.Win32.Release.Error-2.idtx:22 En.x64.Release.Error-2.idtx:22
 msgid "Installer is no longer responding."
 msgstr "El instalador no responde."
 
-#: En.Win32.Debug.Error-2.idtx:23 En.Win32.Release.Error-2.idtx:23
-#: En.x64.Debug.Error-2.idtx:23 En.x64.Release.Error-2.idtx:23
+#: En.Win32.Release.Error-2.idtx:23 En.x64.Release.Error-2.idtx:23
 msgid "Installer stopped prematurely."
 msgstr "El instalador se detuvo antes de tiempo."
 
-#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
-#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
-msgid "Installing new services"
-msgstr "Instalando servicios nuevos"
-
-#: En.Win32.Debug.ActionText-2.idtx:20 En.Win32.Release.ActionText-2.idtx:20
-#: En.x64.Debug.ActionText-2.idtx:20 En.x64.Release.ActionText-2.idtx:20
-msgid "Installing ODBC components"
-msgstr "Instalando componentes ODBC"
-
-#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
-#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
-msgid "Installing system catalog"
-msgstr "Instalar catálogo de sistema"
-
-#: En.Win32.Debug.Error-2.idtx:57 En.Win32.Release.Error-2.idtx:57
-#: En.x64.Debug.Error-2.idtx:57 En.x64.Release.Error-2.idtx:57
+#: En.Win32.Release.Error-2.idtx:57 En.x64.Release.Error-2.idtx:57
 msgid "Invalid Drive: [2]"
 msgstr "Unidad no válida: [2]"
 
-#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
-#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
-msgid "Key: [1], Name: [2]"
-msgstr "Clave: [1], nombre: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
-#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
-msgid "Key: [1], Name: [2], Value: [3]"
-msgstr "Clave: [1], nombre: [2], valor: [3]"
-
-#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Debug.ActionText-2.idtx:70
-#: En.Win32.Release.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:70
-#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Debug.ActionText-2.idtx:70
-#: En.x64.Release.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:70
-msgid "LibID: [1]"
-msgstr "Id. de la biblioteca: [1]"
-
-#: En.Win32.Debug.Error-2.idtx:15 En.Win32.Release.Error-2.idtx:15
-#: En.x64.Debug.Error-2.idtx:15 En.x64.Release.Error-2.idtx:15
+#: En.Win32.Release.Error-2.idtx:15 En.x64.Release.Error-2.idtx:15
 msgid "Message type: [1], Argument: [2]"
 msgstr "Tipo de mensaje: [1], argumento: [2]"
 
-#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
-#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
-msgid "Migrating feature states from related applications"
-msgstr ""
-"Transfiriendo los estados de las características desde las aplicaciones "
-"relacionadas"
-
-#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Debug.ActionText-2.idtx:68
-#: En.Win32.Release.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:68
-#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Debug.ActionText-2.idtx:68
-#: En.x64.Release.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:68
-msgid "MIME Content Type: [1], Extension: [2]"
-msgstr "Tipo de contenido MIME: [1], extensión: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:131 En.Win32.Release.Error-2.idtx:131
-#: En.x64.Debug.Error-2.idtx:131 En.x64.Release.Error-2.idtx:131
+#: En.Win32.Release.Error-2.idtx:131 En.x64.Release.Error-2.idtx:131
 msgid ""
 "Module [2] failed to register. HRESULT [3]. Contact your support personnel."
 msgstr ""
 "Error al registrar el módulo [2]. HRESULT [3]. Póngase en contacto con el "
 "personal de soporte técnico."
 
-#: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
-#: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
+#: En.Win32.Release.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
 msgid ""
 "Module [2] failed to unregister. HRESULT [3]. Contact your support "
 "personnel."
@@ -1011,20 +656,7 @@ msgstr ""
 "Error al eliminar el módulo [2] del registro. HRESULT [3]. Póngase en "
 "contacto con el personal de soporte técnico."
 
-#: En.Win32.Debug.ActionText-2.idtx:26 En.Win32.Release.ActionText-2.idtx:26
-#: En.x64.Debug.ActionText-2.idtx:26 En.x64.Release.ActionText-2.idtx:26
-msgid "Moving files"
-msgstr "Moviendo archivos"
-
-#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
-#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
-#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
-#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
-msgid "Name: [1], Value: [2], Action [3]"
-msgstr "Nombre: [1], valor: [2], acción [3]"
-
-#: En.Win32.Debug.Error-2.idtx:102 En.Win32.Release.Error-2.idtx:102
-#: En.x64.Debug.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
+#: En.Win32.Release.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
 msgid ""
 "One or more of the files required to restore your computer to its previous "
 "state could not be found. Restoration will not be possible."
@@ -1032,8 +664,7 @@ msgstr ""
 "No se encuentran uno o varios archivos necesarios para restaurar el equipo a"
 " su estado anterior. La restauración no podrá realizarse."
 
-#: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
-#: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
+#: En.Win32.Release.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
 msgid ""
 "Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
 " [4] KB. Free some disk space and retry."
@@ -1041,200 +672,47 @@ msgstr ""
 "Espacio en disco insuficiente -- Volumen: '[2]'; espacio requerido: [3] KB; "
 "espacio disponible: [4] KB. Libere espacio en disco e inténtelo de nuevo."
 
-#: En.Win32.Debug.Error-2.idtx:122 En.Win32.Debug.Error-2.idtx:21
 #: En.Win32.Release.Error-2.idtx:122 En.Win32.Release.Error-2.idtx:21
-#: En.x64.Debug.Error-2.idtx:122 En.x64.Debug.Error-2.idtx:21
 #: En.x64.Release.Error-2.idtx:122 En.x64.Release.Error-2.idtx:21
 msgid "Out of memory. Shut down other applications before retrying."
 msgstr ""
 "Memoria insuficiente. Cierre otras aplicaciones antes de intentarlo de "
 "nuevo."
 
-#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
-#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
-msgid "Patching files"
-msgstr "Revisando archivos"
-
-#: En.Win32.Debug.Error-2.idtx:32 En.Win32.Release.Error-2.idtx:32
-#: En.x64.Debug.Error-2.idtx:32 En.x64.Release.Error-2.idtx:32
+#: En.Win32.Release.Error-2.idtx:32 En.x64.Release.Error-2.idtx:32
 msgid "Please insert the disk: [2]"
 msgstr "Inserte el disco [2]."
 
-#: En.Win32.Debug.Error-2.idtx:24 En.Win32.Release.Error-2.idtx:24
-#: En.x64.Debug.Error-2.idtx:24 En.x64.Release.Error-2.idtx:24
+#: En.Win32.Release.Error-2.idtx:24 En.x64.Release.Error-2.idtx:24
 msgid "Please wait while Windows configures [SimpleProductName]"
 msgstr "Espere mientras Windows configura [SimpleProductName]"
 
-#: En.Win32.Debug.Error-2.idtx:27 En.Win32.Release.Error-2.idtx:27
-#: En.x64.Debug.Error-2.idtx:27 En.x64.Release.Error-2.idtx:27
+#: En.Win32.Release.Error-2.idtx:27 En.x64.Release.Error-2.idtx:27
 msgid "Preparing to remove older versions of this application..."
 msgstr ""
 "Preparando la eliminación de las versiones anteriores de esta aplicación..."
 
-#: En.Win32.Debug.Error-2.idtx:99 En.Win32.Release.Error-2.idtx:99
-#: En.x64.Debug.Error-2.idtx:99 En.x64.Release.Error-2.idtx:99
+#: En.Win32.Release.Error-2.idtx:99 En.x64.Release.Error-2.idtx:99
 msgid "Product: [2] -- [3]"
 msgstr "Producto: [2] -- [3]"
 
-#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Debug.ActionText-2.idtx:69
-#: En.Win32.Release.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:69
-#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Debug.ActionText-2.idtx:69
-#: En.x64.Release.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:69
-msgid "ProgId: [1]"
-msgstr "IdProg: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
-#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
-msgid "Property: [1], Signature: [2]"
-msgstr "Propiedad: [1], firma: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:27
-#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:27
-msgid "Publishing assembly information"
-msgstr "Publicar información de la asamblea"
-
-#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:32
-#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:32
-msgid "Publishing Product Features"
-msgstr "Publicar funciones del producto"
-
-#: En.Win32.Debug.ActionText-2.idtx:33 En.Win32.Release.ActionText-2.idtx:33
-#: En.x64.Debug.ActionText-2.idtx:33 En.x64.Release.ActionText-2.idtx:33
-msgid "Publishing product information"
-msgstr "Publicar información del producto"
-
-#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:31
-#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:31
-msgid "Publishing Qualified Components"
-msgstr "Publicar componentes aceptables"
-
-#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:34
-#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:34
-msgid "Registering Class servers"
-msgstr "Registrando servidores de clases"
-
-#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
-#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
-msgid "Registering COM+ Applications and Components"
-msgstr "Registrando aplicaciones y componentes COM+"
-
-#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:36
-#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:36
-msgid "Registering extension servers"
-msgstr "Registrando servidores de extensiones"
-
-#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:37
-#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:37
-msgid "Registering fonts"
-msgstr "Registrando fuentes"
-
-#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:38
-#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:38
-msgid "Registering MIME info"
-msgstr "Registrando información MIME"
-
-#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:55
-#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:55
-msgid "Registering modules"
-msgstr "Registrando módulos"
-
-#: En.Win32.Debug.ActionText-2.idtx:39 En.Win32.Release.ActionText-2.idtx:39
-#: En.x64.Debug.ActionText-2.idtx:39 En.x64.Release.ActionText-2.idtx:39
-msgid "Registering product"
-msgstr "Registrando el producto"
-
-#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:40
-#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:40
-msgid "Registering program identifiers"
-msgstr "Registrando identificadores de programa"
-
-#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:41
-#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:41
-msgid "Registering type libraries"
-msgstr "Registrando bibliotecas de tipos"
-
-#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:42
-#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:42
-msgid "Registering user"
-msgstr "Registrando usuario"
-
-#: En.Win32.Debug.Error-2.idtx:114 En.Win32.Release.Error-2.idtx:114
-#: En.x64.Debug.Error-2.idtx:114 En.x64.Release.Error-2.idtx:114
+#: En.Win32.Release.Error-2.idtx:114 En.x64.Release.Error-2.idtx:114
 msgid "Removal completed successfully."
 msgstr "La eliminación se ha completado satisfactoriamente."
 
-#: En.Win32.Debug.Error-2.idtx:115 En.Win32.Release.Error-2.idtx:115
-#: En.x64.Debug.Error-2.idtx:115 En.x64.Release.Error-2.idtx:115
+#: En.Win32.Release.Error-2.idtx:115 En.x64.Release.Error-2.idtx:115
 msgid "Removal failed."
 msgstr "Error en la eliminación."
 
-#: En.Win32.Debug.Error-2.idtx:107 En.Win32.Release.Error-2.idtx:107
-#: En.x64.Debug.Error-2.idtx:107 En.x64.Release.Error-2.idtx:107
+#: En.Win32.Release.Error-2.idtx:107 En.x64.Release.Error-2.idtx:107
 msgid "Removed [2]"
 msgstr "Quitado [2]"
 
-#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
-#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
-msgid "Removing applications"
-msgstr "Quitando aplicaciones"
-
-#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:54
-#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:54
-msgid "Removing backup files"
-msgstr "Quitando copias de seguridad"
-
-#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Release.ActionText-2.idtx:43
-#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Release.ActionText-2.idtx:43
-msgid "Removing duplicated files"
-msgstr "Quitando archivos duplicados"
-
-#: En.Win32.Debug.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:46
-#: En.x64.Debug.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:46
-msgid "Removing files"
-msgstr "Quitando archivos"
-
-#: En.Win32.Debug.ActionText-2.idtx:47 En.Win32.Release.ActionText-2.idtx:47
-#: En.x64.Debug.ActionText-2.idtx:47 En.x64.Release.ActionText-2.idtx:47
-msgid "Removing folders"
-msgstr "Quitando carpetas"
-
-#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:48
-#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:48
-msgid "Removing INI files entries"
-msgstr "Quitando entradas de archivos INI"
-
-#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:60
-#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:60
-msgid "Removing moved files"
-msgstr "Quitando archivos movidos"
-
-#: En.Win32.Debug.ActionText-2.idtx:49 En.Win32.Release.ActionText-2.idtx:49
-#: En.x64.Debug.ActionText-2.idtx:49 En.x64.Release.ActionText-2.idtx:49
-msgid "Removing ODBC components"
-msgstr "Quitando componentes ODBC"
-
-#: En.Win32.Debug.Error-2.idtx:26 En.Win32.Release.Error-2.idtx:26
-#: En.x64.Debug.Error-2.idtx:26 En.x64.Release.Error-2.idtx:26
+#: En.Win32.Release.Error-2.idtx:26 En.x64.Release.Error-2.idtx:26
 msgid "Removing older versions of this application..."
 msgstr "Quitando las versiones anteriores de esta aplicación..."
 
-#: En.Win32.Debug.ActionText-2.idtx:51 En.Win32.Release.ActionText-2.idtx:51
-#: En.x64.Debug.ActionText-2.idtx:51 En.x64.Release.ActionText-2.idtx:51
-msgid "Removing shortcuts"
-msgstr "Quitando accesos directos"
-
-#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
-#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
-msgid "Removing system registry values"
-msgstr "Quitando valores del registro del sistema"
-
-#: En.Win32.Debug.ActionText-2.idtx:53 En.Win32.Release.ActionText-2.idtx:53
-#: En.x64.Debug.ActionText-2.idtx:53 En.x64.Release.ActionText-2.idtx:53
-msgid "Rolling back action:"
-msgstr "Acción de restauración:"
-
-#: En.Win32.Debug.Error-2.idtx:130 En.Win32.Release.Error-2.idtx:130
-#: En.x64.Debug.Error-2.idtx:130 En.x64.Release.Error-2.idtx:130
+#: En.Win32.Release.Error-2.idtx:130 En.x64.Release.Error-2.idtx:130
 msgid ""
 "Scheduling reboot operation: Deleting file [2]. Must reboot to complete "
 "operation."
@@ -1242,8 +720,7 @@ msgstr ""
 "Programando la operación de reinicio: eliminando el archivo [2]. Para "
 "completar la operación se debe reiniciar el equipo."
 
-#: En.Win32.Debug.Error-2.idtx:129 En.Win32.Release.Error-2.idtx:129
-#: En.x64.Debug.Error-2.idtx:129 En.x64.Release.Error-2.idtx:129
+#: En.Win32.Release.Error-2.idtx:129 En.x64.Release.Error-2.idtx:129
 msgid ""
 "Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to "
 "complete operation."
@@ -1251,25 +728,7 @@ msgstr ""
 "Programando la operación de reinicio: cambiando el nombre del archivo [2] a "
 "[3]. Para completar la operación se debe reiniciar el equipo."
 
-#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
-#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
-msgid "Searching for installed applications"
-msgstr "Buscando aplicaciones instaladas"
-
-#: En.Win32.Debug.ActionText-2.idtx:52 En.Win32.Debug.ActionText-2.idtx:8
-#: En.Win32.Release.ActionText-2.idtx:52 En.Win32.Release.ActionText-2.idtx:8
-#: En.x64.Debug.ActionText-2.idtx:52 En.x64.Debug.ActionText-2.idtx:8
-#: En.x64.Release.ActionText-2.idtx:52 En.x64.Release.ActionText-2.idtx:8
-msgid "Searching for qualifying products"
-msgstr "Buscando productos necesarios"
-
-#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
-#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
-msgid "Searching for related applications"
-msgstr "Buscando aplicaciones relacionadas"
-
-#: En.Win32.Debug.Error-2.idtx:149 En.Win32.Release.Error-2.idtx:149
-#: En.x64.Debug.Error-2.idtx:149 En.x64.Release.Error-2.idtx:149
+#: En.Win32.Release.Error-2.idtx:149 En.x64.Release.Error-2.idtx:149
 msgid ""
 "Service '[2]' ([3]) could not be deleted. Verify that you have sufficient "
 "privileges to remove system services."
@@ -1277,8 +736,7 @@ msgstr ""
 "No se puede eliminar el servicio '[2]' ([3]). Compruebe que dispone de "
 "suficientes privilegios para quitar servicios del sistema."
 
-#: En.Win32.Debug.Error-2.idtx:150 En.Win32.Release.Error-2.idtx:150
-#: En.x64.Debug.Error-2.idtx:150 En.x64.Release.Error-2.idtx:150
+#: En.Win32.Release.Error-2.idtx:150 En.x64.Release.Error-2.idtx:150
 msgid ""
 "Service '[2]' ([3]) could not be installed. Verify that you have sufficient "
 "privileges to install system services."
@@ -1286,8 +744,7 @@ msgstr ""
 "No se puede instalar el servicio '[2]' ([3]). Compruebe que dispone de "
 "suficientes privilegios para instalar servicios del sistema."
 
-#: En.Win32.Debug.Error-2.idtx:148 En.Win32.Release.Error-2.idtx:148
-#: En.x64.Debug.Error-2.idtx:148 En.x64.Release.Error-2.idtx:148
+#: En.Win32.Release.Error-2.idtx:148 En.x64.Release.Error-2.idtx:148
 msgid ""
 "Service '[2]' ([3]) could not be stopped. Verify that you have sufficient "
 "privileges to stop system services."
@@ -1295,8 +752,7 @@ msgstr ""
 "No se puede detener el servicio '[2]' ([3]). Compruebe que dispone de "
 "suficientes privilegios para detener servicios del sistema."
 
-#: En.Win32.Debug.Error-2.idtx:147 En.Win32.Release.Error-2.idtx:147
-#: En.x64.Debug.Error-2.idtx:147 En.x64.Release.Error-2.idtx:147
+#: En.Win32.Release.Error-2.idtx:147 En.x64.Release.Error-2.idtx:147
 msgid ""
 "Service '[2]' ([3]) failed to start. Verify that you have sufficient "
 "privileges to start system services."
@@ -1304,29 +760,7 @@ msgstr ""
 "Fallo al iniciar el servicio '[2]' ([3]). Compruebe que dispone de "
 "suficientes privilegios para iniciar servicios del sistema."
 
-#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Debug.ActionText-2.idtx:58
-#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:13
-#: En.Win32.Release.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:59
-#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Debug.ActionText-2.idtx:58
-#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:13
-#: En.x64.Release.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:59
-msgid "Service: [1]"
-msgstr "Servicio: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
-#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
-msgid "Service: [2]"
-msgstr "Servicio: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Debug.ActionText-2.idtx:51
-#: En.Win32.Release.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:51
-#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Debug.ActionText-2.idtx:51
-#: En.x64.Release.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:51
-msgid "Shortcut: [1]"
-msgstr "Acceso directo: [1]"
-
-#: En.Win32.Debug.Error-2.idtx:38 En.Win32.Release.Error-2.idtx:38
-#: En.x64.Debug.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
+#: En.Win32.Release.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
 msgid ""
 "Source file not found: [2]. Verify that the file exists and that you can "
 "access it."
@@ -1334,8 +768,7 @@ msgstr ""
 "No se encuentra el archivo de origen [2]. Compruebe que el archivo existe y "
 "que puede obtener acceso a él."
 
-#: En.Win32.Debug.Error-2.idtx:41 En.Win32.Release.Error-2.idtx:41
-#: En.x64.Debug.Error-2.idtx:41 En.x64.Release.Error-2.idtx:41
+#: En.Win32.Release.Error-2.idtx:41 En.x64.Release.Error-2.idtx:41
 msgid ""
 "Source file not found{{(cabinet)}}: [2]. Verify that the file exists and "
 "that you can access it."
@@ -1343,18 +776,7 @@ msgstr ""
 "No se ha encontrado el archivo de origen {{(.CAB)}} [2]. Compruebe que el "
 "archivo existe y que puede obtener acceso a él."
 
-#: En.Win32.Debug.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:58
-#: En.x64.Debug.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:58
-msgid "Starting services"
-msgstr "Iniciando servicios"
-
-#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:59
-#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:59
-msgid "Stopping services"
-msgstr "Deteniendo servicios"
-
-#: En.Win32.Debug.Error-2.idtx:65 En.Win32.Release.Error-2.idtx:65
-#: En.x64.Debug.Error-2.idtx:65 En.x64.Release.Error-2.idtx:65
+#: En.Win32.Release.Error-2.idtx:65 En.x64.Release.Error-2.idtx:65
 msgid ""
 "The cabinet file '[2]' required for this installation is corrupt and cannot "
 "be used. This could indicate a network error, an error reading from the CD-"
@@ -1364,13 +786,11 @@ msgstr ""
 "no se puede usar. Esto puede indicar un error de red, un error al leer desde"
 " el CD-ROM, o un problema con este paquete."
 
-#: En.Win32.Debug.Error-2.idtx:157 En.Win32.Release.Error-2.idtx:157
-#: En.x64.Debug.Error-2.idtx:157 En.x64.Release.Error-2.idtx:157
+#: En.Win32.Release.Error-2.idtx:157 En.x64.Release.Error-2.idtx:157
 msgid "The description for service '[2]' ([3]) could not be changed."
 msgstr "No se puede cambiar la descripción del servicio '[2]' ([3])."
 
-#: En.Win32.Debug.Error-2.idtx:64 En.Win32.Release.Error-2.idtx:64
-#: En.x64.Debug.Error-2.idtx:64 En.x64.Release.Error-2.idtx:64
+#: En.Win32.Release.Error-2.idtx:64 En.x64.Release.Error-2.idtx:64
 msgid ""
 "The file '[2]' cannot be installed because the file cannot be found in "
 "cabinet file '[3]'. This could indicate a network error, an error reading "
@@ -1380,8 +800,7 @@ msgstr ""
 "encontrar en el .CAB \"[3]\". Esto puede indicar un error de red, un error "
 "al leer desde el CD-ROM, o un problema con este paquete."
 
-#: En.Win32.Debug.Error-2.idtx:83 En.Win32.Release.Error-2.idtx:83
-#: En.x64.Debug.Error-2.idtx:83 En.x64.Release.Error-2.idtx:83
+#: En.Win32.Release.Error-2.idtx:83 En.x64.Release.Error-2.idtx:83
 msgid ""
 "The file [2][3] is being held in use{ by the following process: Name: [4], "
 "Id: [5], Window Title: '[6]'}. Close that application and retry."
@@ -1389,37 +808,32 @@ msgstr ""
 "El archivo [2][3] está en uso{ por el proceso siguiente: Nombre: [4], Id.: "
 "[5], Título de ventana: '[6]'}. Cierre esa aplicación e inténtelo de nuevo."
 
-#: En.Win32.Debug.Error-2.idtx:125 En.Win32.Release.Error-2.idtx:125
-#: En.x64.Debug.Error-2.idtx:125 En.x64.Release.Error-2.idtx:125
+#: En.Win32.Release.Error-2.idtx:125 En.x64.Release.Error-2.idtx:125
 msgid ""
 "The folder [2] does not exist. Please enter a path to an existing folder."
 msgstr ""
 "La carpeta [2] no existe. Escriba una ruta de acceso a una carpeta "
 "existente."
 
-#: En.Win32.Debug.Error-2.idtx:54 En.Win32.Release.Error-2.idtx:54
-#: En.x64.Debug.Error-2.idtx:54 En.x64.Release.Error-2.idtx:54
+#: En.Win32.Release.Error-2.idtx:54 En.x64.Release.Error-2.idtx:54
 msgid "The folder path '[2]' contains an invalid character."
 msgstr "La ruta de acceso a la carpeta '[2]' contiene un carácter no válido."
 
-#: En.Win32.Debug.Error-2.idtx:53 En.Win32.Release.Error-2.idtx:53
-#: En.x64.Debug.Error-2.idtx:53 En.x64.Release.Error-2.idtx:53
+#: En.Win32.Release.Error-2.idtx:53 En.x64.Release.Error-2.idtx:53
 msgid ""
 "The folder path '[2]' contains words that are not valid in folder paths."
 msgstr ""
 "La ruta de acceso a la carpeta '[2]' contiene palabras no válidas para rutas"
 " de acceso a carpetas."
 
-#: En.Win32.Debug.Error-2.idtx:87 En.Win32.Release.Error-2.idtx:87
-#: En.x64.Debug.Error-2.idtx:87 En.x64.Release.Error-2.idtx:87
+#: En.Win32.Release.Error-2.idtx:87 En.x64.Release.Error-2.idtx:87
 msgid ""
 "The following applications should be closed before continuing the install:"
 msgstr ""
 "Deben cerrarse las aplicaciones siguientes antes de continuar con la "
 "instalación:"
 
-#: En.Win32.Debug.Error-2.idtx:9 En.Win32.Release.Error-2.idtx:9
-#: En.x64.Debug.Error-2.idtx:9 En.x64.Release.Error-2.idtx:9
+#: En.Win32.Release.Error-2.idtx:9 En.x64.Release.Error-2.idtx:9
 msgid ""
 "The installer has encountered an unexpected error installing this package. "
 "This may indicate a problem with this package. The error code is [1]. {{The "
@@ -1429,8 +843,7 @@ msgstr ""
 "puede indicar un problema con este paquete. El código de error es [1]. {{Los"
 " argumentos son: [2], [3], [4]}}"
 
-#: En.Win32.Debug.Error-2.idtx:33 En.Win32.Release.Error-2.idtx:33
-#: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
+#: En.Win32.Release.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
 msgid ""
 "The installer has insufficient privileges to access this folder: [2]. The "
 "installation cannot continue. Log on as administrator or contact your system"
@@ -1440,15 +853,13 @@ msgstr ""
 "directorio [2] y no se puede continuar con la instalación. Inicie la sesión "
 "como administrador o póngase en contacto con el administrador del sistema."
 
-#: En.Win32.Debug.Error-2.idtx:51 En.Win32.Release.Error-2.idtx:51
-#: En.x64.Debug.Error-2.idtx:51 En.x64.Release.Error-2.idtx:51
+#: En.Win32.Release.Error-2.idtx:51 En.x64.Release.Error-2.idtx:51
 msgid "The Installer has insufficient privileges to modify this file: [2]."
 msgstr ""
 "El instalador no tiene suficientes privilegios para modificar el archivo "
 "[2]."
 
-#: En.Win32.Debug.Error-2.idtx:92 En.Win32.Release.Error-2.idtx:92
-#: En.x64.Debug.Error-2.idtx:92 En.x64.Release.Error-2.idtx:92
+#: En.Win32.Release.Error-2.idtx:92 En.x64.Release.Error-2.idtx:92
 msgid ""
 "The installer must restart your system before configuration of [2] can "
 "continue. Click Yes to restart now or No if you plan to manually restart "
@@ -1458,13 +869,11 @@ msgstr ""
 "configuración de [2]. Haga clic en Sí para reiniciar el sistema ahora o "
 "elija No si tiene previsto reiniciarlo manualmente más tarde."
 
-#: En.Win32.Debug.Error-2.idtx:91 En.Win32.Release.Error-2.idtx:91
-#: En.x64.Debug.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
+#: En.Win32.Release.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
 msgid "The key [2] is not valid. Verify that you entered the correct key."
 msgstr "La clave [2] no es válida. Compruebe que escribió la clave correcta."
 
-#: En.Win32.Debug.Error-2.idtx:104 En.Win32.Release.Error-2.idtx:104
-#: En.x64.Debug.Error-2.idtx:104 En.x64.Release.Error-2.idtx:104
+#: En.Win32.Release.Error-2.idtx:104 En.x64.Release.Error-2.idtx:104
 msgid ""
 "The older version of [2] cannot be removed. Contact your technical support "
 "group. {{System Error [3].}}"
@@ -1472,14 +881,12 @@ msgstr ""
 "No se puede quitar la versión anterior de [2]. Póngase en contacto con su "
 "grupo de soporte técnico. {{Error del sistema: [3].}}"
 
-#: En.Win32.Debug.Error-2.idtx:121 En.Win32.Release.Error-2.idtx:121
-#: En.x64.Debug.Error-2.idtx:121 En.x64.Release.Error-2.idtx:121
+#: En.Win32.Release.Error-2.idtx:121 En.x64.Release.Error-2.idtx:121
 msgid "The path [2] is not valid. Please specify a valid path."
 msgstr ""
 "La ruta de acceso [2] no es válida. Especifique una ruta de acceso válida."
 
-#: En.Win32.Debug.Error-2.idtx:84 En.Win32.Release.Error-2.idtx:84
-#: En.x64.Debug.Error-2.idtx:84 En.x64.Release.Error-2.idtx:84
+#: En.Win32.Release.Error-2.idtx:84 En.x64.Release.Error-2.idtx:84
 msgid ""
 "The product '[2]' is already installed, preventing the installation of this "
 "product. The two products are incompatible."
@@ -1487,24 +894,20 @@ msgstr ""
 "El producto '[2]' ya está instalado, lo que impide que se instale este "
 "producto porque ambos productos son incompatibles entre sí."
 
-#: En.Win32.Debug.Error-2.idtx:44 En.Win32.Release.Error-2.idtx:44
-#: En.x64.Debug.Error-2.idtx:44 En.x64.Release.Error-2.idtx:44
+#: En.Win32.Release.Error-2.idtx:44 En.x64.Release.Error-2.idtx:44
 msgid "The specified path '[2]' is unavailable."
 msgstr "La ruta de acceso especificada, '[2]', no está disponible."
 
-#: En.Win32.Debug.Error-2.idtx:50 En.Win32.Release.Error-2.idtx:50
-#: En.x64.Debug.Error-2.idtx:50 En.x64.Release.Error-2.idtx:50
+#: En.Win32.Release.Error-2.idtx:50 En.x64.Release.Error-2.idtx:50
 msgid "The specified path is too long: [2]"
 msgstr "La ruta de acceso especificada es demasiado larga: [2]"
 
-#: En.Win32.Debug.Error-2.idtx:43 En.Win32.Release.Error-2.idtx:43
-#: En.x64.Debug.Error-2.idtx:43 En.x64.Release.Error-2.idtx:43
+#: En.Win32.Release.Error-2.idtx:43 En.x64.Release.Error-2.idtx:43
 msgid "The volume [2] is currently unavailable. Please select another."
 msgstr ""
 "El volumen [2] no está disponible en este momento. Seleccione otro volumen."
 
-#: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
-#: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
+#: En.Win32.Release.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
 msgid ""
 "The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
@@ -1512,8 +915,7 @@ msgstr ""
 "El servicio de Windows Installer no puede actualizar uno o más archivos protegidos de Windows. {{SFP Error: [2]. Lista de archivos protegidos:\n"
 "[3]}}"
 
-#: En.Win32.Debug.Error-2.idtx:159 En.Win32.Release.Error-2.idtx:159
-#: En.x64.Debug.Error-2.idtx:159 En.x64.Release.Error-2.idtx:159
+#: En.Win32.Release.Error-2.idtx:159 En.x64.Release.Error-2.idtx:159
 msgid ""
 "The Windows Installer service cannot update the protected Windows file [2]. "
 "{{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
@@ -1522,8 +924,7 @@ msgstr ""
 "Windows [2]. {{Versión del paquete: [3], Versión protegida del SO: [4], "
 "Error SFP: [5]}}"
 
-#: En.Win32.Debug.Error-2.idtx:158 En.Win32.Release.Error-2.idtx:158
-#: En.x64.Debug.Error-2.idtx:158 En.x64.Release.Error-2.idtx:158
+#: En.Win32.Release.Error-2.idtx:158 En.x64.Release.Error-2.idtx:158
 msgid ""
 "The Windows Installer service cannot update the system file [2] because the "
 "file is protected by Windows. You may need to update your operating system "
@@ -1535,8 +936,7 @@ msgstr ""
 "sistema operativo para que este programa funcione correctamente. {{Versión "
 "del paquete: [3], Versión protegida del SO: [4]}}"
 
-#: En.Win32.Debug.Error-2.idtx:109 En.Win32.Release.Error-2.idtx:109
-#: En.x64.Debug.Error-2.idtx:109 En.x64.Release.Error-2.idtx:109
+#: En.Win32.Release.Error-2.idtx:109 En.x64.Release.Error-2.idtx:109
 msgid ""
 "The Windows Installer Service could not be accessed. This can occur if you "
 "are running Windows in safe mode, or if the Windows Installer is not "
@@ -1547,8 +947,7 @@ msgstr ""
 "Installer no está correctamente instalado. Póngase en contacto con el "
 "personal de soporte técnico para obtener asistencia."
 
-#: En.Win32.Debug.Error-2.idtx:113 En.Win32.Release.Error-2.idtx:113
-#: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
+#: En.Win32.Release.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
 msgid ""
 "There is a problem with this Windows Installer package. A DLL required for "
 "this install to complete could not be run. Contact your support personnel or"
@@ -1559,8 +958,7 @@ msgstr ""
 "en contacto con el personal de soporte técnico o el proveedor del paquete. "
 "{{Acción [2], entrada: [3], biblioteca: [4] }}"
 
-#: En.Win32.Debug.Error-2.idtx:111 En.Win32.Release.Error-2.idtx:111
-#: En.x64.Debug.Error-2.idtx:111 En.x64.Release.Error-2.idtx:111
+#: En.Win32.Release.Error-2.idtx:111 En.x64.Release.Error-2.idtx:111
 msgid ""
 "There is a problem with this Windows Installer package. A program required "
 "for this install to complete could not be run. Contact your support "
@@ -1571,8 +969,7 @@ msgstr ""
 "ejecutar. Póngase en contacto con el personal de soporte técnico o el "
 "proveedor del paquete. {{Acción [2], ubicación: [3], comando: [4] }}"
 
-#: En.Win32.Debug.Error-2.idtx:112 En.Win32.Release.Error-2.idtx:112
-#: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
+#: En.Win32.Release.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
 msgid ""
 "There is a problem with this Windows Installer package. A program run as "
 "part of the setup did not finish as expected. Contact your support personnel"
@@ -1583,8 +980,7 @@ msgstr ""
 "esperaba. Póngase en contacto con el personal de soporte técnico o el "
 "proveedor del paquete. {{Acción [2], ubicación: [3], comando: [4] }}"
 
-#: En.Win32.Debug.Error-2.idtx:110 En.Win32.Release.Error-2.idtx:110
-#: En.x64.Debug.Error-2.idtx:110 En.x64.Release.Error-2.idtx:110
+#: En.Win32.Release.Error-2.idtx:110 En.x64.Release.Error-2.idtx:110
 msgid ""
 "There is a problem with this Windows Installer package. A script required "
 "for this install to complete could not be run. Contact your support "
@@ -1597,8 +993,7 @@ msgstr ""
 "proveedor del paquete. {{Acción personalizada [2] error de secuencia de "
 "comandos [3], [4]: [5] Línea [6], Columna [7], [8] }}"
 
-#: En.Win32.Debug.Error-2.idtx:123 En.Win32.Release.Error-2.idtx:123
-#: En.x64.Debug.Error-2.idtx:123 En.x64.Release.Error-2.idtx:123
+#: En.Win32.Release.Error-2.idtx:123 En.x64.Release.Error-2.idtx:123
 msgid ""
 "There is no disk in drive [2]. Please insert one and click Retry, or click "
 "Cancel to go back to the previously selected volume."
@@ -1607,8 +1002,7 @@ msgstr ""
 " o bien haga clic en Cancelar para volver al volumen previamente "
 "seleccionado."
 
-#: En.Win32.Debug.Error-2.idtx:124 En.Win32.Release.Error-2.idtx:124
-#: En.x64.Debug.Error-2.idtx:124 En.x64.Release.Error-2.idtx:124
+#: En.Win32.Release.Error-2.idtx:124 En.x64.Release.Error-2.idtx:124
 msgid ""
 "There is no disk in drive [2]. Please insert one and click Retry, or click "
 "Cancel to return to the browse dialog and select a different volume."
@@ -1617,8 +1011,7 @@ msgstr ""
 " o bien haga clic en Cancelar para volver al cuadro de diálogo de examinar y"
 " seleccionar un volumen distinto."
 
-#: En.Win32.Debug.Error-2.idtx:85 En.Win32.Release.Error-2.idtx:85
-#: En.x64.Debug.Error-2.idtx:85 En.x64.Release.Error-2.idtx:85
+#: En.Win32.Release.Error-2.idtx:85 En.x64.Release.Error-2.idtx:85
 msgid ""
 "There is not enough disk space on the volume '[2]' to continue the install "
 "with recovery enabled. [3] KB are required, but only [4] KB are available. "
@@ -1633,8 +1026,7 @@ msgstr ""
 "Reintentar para comprobar de nuevo si hay espacio disponible, o haga clic en"
 " Cancelar para salir de la instalación."
 
-#: En.Win32.Debug.Error-2.idtx:37 En.Win32.Release.Error-2.idtx:37
-#: En.x64.Debug.Error-2.idtx:37 En.x64.Release.Error-2.idtx:37
+#: En.Win32.Release.Error-2.idtx:37 En.x64.Release.Error-2.idtx:37
 msgid ""
 "There is not enough disk space to install this file: [2]. Free some disk "
 "space and click Retry, or click Cancel to exit."
@@ -1643,8 +1035,7 @@ msgstr ""
 "espacio en disco y haga clic en Reintentar, o bien, haga clic en Cancelar "
 "para salir."
 
-#: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
-#: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
+#: En.Win32.Release.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
 msgid ""
 "There was an error creating a temporary file that is needed to complete this"
 " installation.{{ Folder: [3]. System error code: [2]}}"
@@ -1652,8 +1043,7 @@ msgstr ""
 "Error al crear un archivo temporal que se necesita para completar esta "
 "instalación.{{ Carpeta: [3]. Código de error del sistema: [2]}}"
 
-#: En.Win32.Debug.Error-2.idtx:90 En.Win32.Release.Error-2.idtx:90
-#: En.x64.Debug.Error-2.idtx:90 En.x64.Release.Error-2.idtx:90
+#: En.Win32.Release.Error-2.idtx:90 En.x64.Release.Error-2.idtx:90
 msgid ""
 "This installation package is not supported on this platform. Contact your "
 "application vendor."
@@ -1661,8 +1051,7 @@ msgstr ""
 "Este paquete de instalación no está soportado en esta plataforma. Consulte a"
 " su proveedor de aplicaciones."
 
-#: En.Win32.Debug.CustomAction-2.idtx:6 En.Win32.Release.CustomAction-2.idtx:6
-#: En.x64.Debug.CustomAction-2.idtx:5 En.x64.Release.CustomAction-2.idtx:5
+#: En.Win32.Release.CustomAction-2.idtx:6 En.x64.Release.CustomAction-2.idtx:5
 msgid ""
 "This package cannot upgrade the currently installed [SimpleProductName]. "
 "Please remove the old package first and retry."
@@ -1670,8 +1059,7 @@ msgstr ""
 "Este software no puede actualizar la versión actualmente instalada de "
 "[SimpleProductName]. Por favor borre la versión anterior y reintente. "
 
-#: En.Win32.Debug.Error-2.idtx:164 En.Win32.Release.Error-2.idtx:164
-#: En.x64.Debug.Error-2.idtx:164 En.x64.Release.Error-2.idtx:164
+#: En.Win32.Release.Error-2.idtx:164 En.x64.Release.Error-2.idtx:164
 msgid ""
 "This version of Windows does not support deploying 64-bit packages. The "
 "script [2] is for a 64-bit package."
@@ -1679,90 +1067,15 @@ msgstr ""
 "Esta versión de Windows no soporta instalación de software para 64 bits. El "
 "instalador [2] es para 64 bits."
 
-#: En.Win32.Debug.Error-2.idtx:20 En.Win32.Release.Error-2.idtx:20
-#: En.x64.Debug.Error-2.idtx:20 En.x64.Release.Error-2.idtx:20
+#: En.Win32.Release.Error-2.idtx:20 En.x64.Release.Error-2.idtx:20
 msgid "Time remaining: {[1] minutes }{[2] seconds}"
 msgstr "Tiempo restante: {[1] minutos }{[2] segundos}"
 
-#: En.Win32.Debug.Error-2.idtx:45 En.Win32.Release.Error-2.idtx:45
-#: En.x64.Debug.Error-2.idtx:45 En.x64.Release.Error-2.idtx:45
+#: En.Win32.Release.Error-2.idtx:45 En.x64.Release.Error-2.idtx:45
 msgid "Unable to write to the specified folder: [2]."
 msgstr "No se puede escribir en la carpeta especificada, [2]."
 
-#: En.Win32.Debug.ActionText-2.idtx:28 En.Win32.Release.ActionText-2.idtx:28
-#: En.x64.Debug.ActionText-2.idtx:28 En.x64.Release.ActionText-2.idtx:28
-msgid "Unpublishing assembly information"
-msgstr "No publicar información de la asamblea"
-
-#: En.Win32.Debug.ActionText-2.idtx:62 En.Win32.Release.ActionText-2.idtx:62
-#: En.x64.Debug.ActionText-2.idtx:62 En.x64.Release.ActionText-2.idtx:62
-msgid "Unpublishing Product Features"
-msgstr "Anular publicación de funciones del producto"
-
-#: En.Win32.Debug.ActionText-2.idtx:63 En.Win32.Release.ActionText-2.idtx:63
-#: En.x64.Debug.ActionText-2.idtx:63 En.x64.Release.ActionText-2.idtx:63
-msgid "Unpublishing product information"
-msgstr "Anular publicación de información del producto"
-
-#: En.Win32.Debug.ActionText-2.idtx:61 En.Win32.Release.ActionText-2.idtx:61
-#: En.x64.Debug.ActionText-2.idtx:61 En.x64.Release.ActionText-2.idtx:61
-msgid "Unpublishing Qualified Components"
-msgstr "Anular publicación de componentes aceptables"
-
-#: En.Win32.Debug.ActionText-2.idtx:64 En.Win32.Release.ActionText-2.idtx:64
-#: En.x64.Debug.ActionText-2.idtx:64 En.x64.Release.ActionText-2.idtx:64
-msgid "Unregister Class servers"
-msgstr "Eliminar del registro los servidores de clases"
-
-#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
-#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
-msgid "Unregistering COM+ Applications and Components"
-msgstr "Quitando aplicaciones y componentes COM+ del registro"
-
-#: En.Win32.Debug.ActionText-2.idtx:66 En.Win32.Release.ActionText-2.idtx:66
-#: En.x64.Debug.ActionText-2.idtx:66 En.x64.Release.ActionText-2.idtx:66
-msgid "Unregistering extension servers"
-msgstr "Eliminando del registro los servidores de extensiones"
-
-#: En.Win32.Debug.ActionText-2.idtx:67 En.Win32.Release.ActionText-2.idtx:67
-#: En.x64.Debug.ActionText-2.idtx:67 En.x64.Release.ActionText-2.idtx:67
-msgid "Unregistering fonts"
-msgstr "Eliminando del registro las fuentes"
-
-#: En.Win32.Debug.ActionText-2.idtx:68 En.Win32.Release.ActionText-2.idtx:68
-#: En.x64.Debug.ActionText-2.idtx:68 En.x64.Release.ActionText-2.idtx:68
-msgid "Unregistering MIME info"
-msgstr "Eliminando del registro información MIME"
-
-#: En.Win32.Debug.ActionText-2.idtx:56 En.Win32.Release.ActionText-2.idtx:56
-#: En.x64.Debug.ActionText-2.idtx:56 En.x64.Release.ActionText-2.idtx:56
-msgid "Unregistering modules"
-msgstr "Eliminando módulos del registro"
-
-#: En.Win32.Debug.ActionText-2.idtx:69 En.Win32.Release.ActionText-2.idtx:69
-#: En.x64.Debug.ActionText-2.idtx:69 En.x64.Release.ActionText-2.idtx:69
-msgid "Unregistering program identifiers"
-msgstr "Eliminando identificadores de programa del registro"
-
-#: En.Win32.Debug.ActionText-2.idtx:70 En.Win32.Release.ActionText-2.idtx:70
-#: En.x64.Debug.ActionText-2.idtx:70 En.x64.Release.ActionText-2.idtx:70
-msgid "Unregistering type libraries"
-msgstr "Eliminando del registro bibliotecas de tipos"
-
-#: En.Win32.Debug.ActionText-2.idtx:30 En.Win32.Release.ActionText-2.idtx:30
-#: En.x64.Debug.ActionText-2.idtx:30 En.x64.Release.ActionText-2.idtx:30
-msgid "Updating component registration"
-msgstr "Actualizando el registro de componentes"
-
-#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
-#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
-#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
-#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
-msgid "Updating environment strings"
-msgstr "Actualizando cadenas de entorno"
-
-#: En.Win32.Debug.Error-2.idtx:80 En.Win32.Release.Error-2.idtx:80
-#: En.x64.Debug.Error-2.idtx:80 En.x64.Release.Error-2.idtx:80
+#: En.Win32.Release.Error-2.idtx:80 En.x64.Release.Error-2.idtx:80
 msgid ""
 "User '[2]' has previously initiated an install for product '[3]'. That user "
 "will need to run that install again before they can use that product."
@@ -1770,8 +1083,7 @@ msgstr ""
 "El usuario '[2]' ya inició previamente una instalación del producto '[3]', "
 "pero deberá ejecutar la instalación de nuevo para poder utilizarlo."
 
-#: En.Win32.Debug.Error-2.idtx:79 En.Win32.Release.Error-2.idtx:79
-#: En.x64.Debug.Error-2.idtx:79 En.x64.Release.Error-2.idtx:79
+#: En.Win32.Release.Error-2.idtx:79 En.x64.Release.Error-2.idtx:79
 msgid ""
 "User '[2]' has previously initiated an install for product '[3]'. That user "
 "will need to run that install again before they can use that product. Your "
@@ -1781,42 +1093,27 @@ msgstr ""
 "pero deberá ejecutar la instalación de nuevo para poder utilizar el "
 "producto. La instalación actual de este producto continuará."
 
-#: En.Win32.Debug.Error-2.idtx:161 En.Win32.Release.Error-2.idtx:161
-#: En.x64.Debug.Error-2.idtx:161 En.x64.Release.Error-2.idtx:161
+#: En.Win32.Release.Error-2.idtx:161 En.x64.Release.Error-2.idtx:161
 msgid "User installations are disabled via policy on the machine."
 msgstr ""
 "Las instalaciones del usuario están deshabilitadas a través de la directiva "
 "en el equipo."
 
-#: En.Win32.Debug.ActionText-2.idtx:23 En.Win32.Release.ActionText-2.idtx:23
-#: En.x64.Debug.ActionText-2.idtx:23 En.x64.Release.ActionText-2.idtx:23
-msgid "Validating install"
-msgstr "Validando la instalación"
-
-#: En.Win32.Debug.Error-2.idtx:6 En.Win32.Release.Error-2.idtx:6
-#: En.x64.Debug.Error-2.idtx:6 En.x64.Release.Error-2.idtx:6
+#: En.Win32.Release.Error-2.idtx:6 En.x64.Release.Error-2.idtx:6
 msgid "Warning [1]. "
 msgstr "Advertencia [1]. "
 
-#: En.Win32.Debug.ActionText-2.idtx:72 En.Win32.Release.ActionText-2.idtx:72
-#: En.x64.Debug.ActionText-2.idtx:72 En.x64.Release.ActionText-2.idtx:72
-msgid "Writing INI files values"
-msgstr "Escribiendo valores de los archivos INI"
-
-#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
-#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
-msgid "Writing system registry values"
-msgstr "Escribiendo valores del registro del sistema"
-
-#: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
+#: En.Win32.Release.CustomAction-2.idtx:4
 msgid ""
 "You are attempting to install the 32-bit variant of [SimpleProductName] on a"
 " 64-bit operating system. 32-bit variant will not work with your operating "
 "system. The installation of the 64-bit variant is recommended."
 msgstr ""
+"Está intentando instalar una variante de 32 bits de [SimpleProductName] en "
+"un sistema operativo de 64 bits. La variante de 32 bits no funcionará en su "
+"sistema operativo. Recomendamos la instalación de la variante de 64 bits."
 
-#: En.Win32.Debug.Error-2.idtx:152 En.Win32.Release.Error-2.idtx:152
-#: En.x64.Debug.Error-2.idtx:152 En.x64.Release.Error-2.idtx:152
+#: En.Win32.Release.Error-2.idtx:152 En.x64.Release.Error-2.idtx:152
 msgid ""
 "You do not have sufficient privileges to complete this installation for all "
 "users of the machine. Log on as administrator and then retry this "
@@ -1826,13 +1123,11 @@ msgstr ""
 "los usuarios del equipo. Inicie la sesión como administrador y vuelva a "
 "realizar la instalación."
 
-#: En.Win32.Debug.Error-2.idtx:126 En.Win32.Release.Error-2.idtx:126
-#: En.x64.Debug.Error-2.idtx:126 En.x64.Release.Error-2.idtx:126
+#: En.Win32.Release.Error-2.idtx:126 En.x64.Release.Error-2.idtx:126
 msgid "You have insufficient privileges to read this folder."
 msgstr "No dispone de privilegios para leer esta carpeta."
 
-#: En.Win32.Debug.Error-2.idtx:100 En.Win32.Release.Error-2.idtx:100
-#: En.x64.Debug.Error-2.idtx:100 En.x64.Release.Error-2.idtx:100
+#: En.Win32.Release.Error-2.idtx:100 En.x64.Release.Error-2.idtx:100
 msgid ""
 "You may either restore your computer to its previous state or continue the "
 "install later. Would you like to restore?"
@@ -1840,8 +1135,7 @@ msgstr ""
 "Puede restaurar el equipo a su estado anterior o continuar con la "
 "instalación más tarde. ¿Desea restaurar el equipo?"
 
-#: En.Win32.Debug.Error-2.idtx:120 En.Win32.Release.Error-2.idtx:120
-#: En.x64.Debug.Error-2.idtx:120 En.x64.Release.Error-2.idtx:120
+#: En.Win32.Release.Error-2.idtx:120 En.x64.Release.Error-2.idtx:120
 msgid ""
 "You must be an Administrator to remove this application. To remove this "
 "application, you can log on as an Administrator, or contact your technical "
@@ -1851,8 +1145,7 @@ msgstr ""
 "iniciar la sesión como un Administrador, o póngase en contacto con el grupo "
 "de soporte técnico para obtener asistencia."
 
-#: En.Win32.Debug.Error-2.idtx:93 En.Win32.Release.Error-2.idtx:93
-#: En.x64.Debug.Error-2.idtx:93 En.x64.Release.Error-2.idtx:93
+#: En.Win32.Release.Error-2.idtx:93 En.x64.Release.Error-2.idtx:93
 msgid ""
 "You must restart your system for the configuration changes made to [2] to "
 "take effect. Click Yes to restart now or No if you plan to manually restart "
