@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-12 14:49+0200\n"
+"POT-Creation-Date: 2016-09-13 10:48+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
 "Language-Team: Finnish (Finland) (https://www.transifex.com/eduroam_devel/teams/11799/fi_FI/)\n"
@@ -19,7 +19,19 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: En.Win32.Release.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
+#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Debug.ActionText-2.idtx:39
+#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Debug.ActionText-2.idtx:53
+#: En.Win32.Release.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:39
+#: En.Win32.Release.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:53
+#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Debug.ActionText-2.idtx:39
+#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Debug.ActionText-2.idtx:53
+#: En.x64.Release.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:39
+#: En.x64.Release.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:53
+msgid "[1]"
+msgstr "[1]"
+
+#: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
+#: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
 msgid ""
 "[2] cannot install one of its required products. Contact your technical "
 "support group. {{System Error: [3].}}"
@@ -27,57 +39,73 @@ msgstr ""
 "[2] ei voi asentaa jotakin tarvitsemistaan tuotteista. Ota yhteys tekniseen "
 "tukeen. {{Järjestelmävirhe: [3].}}"
 
-#: En.Win32.Release.Error-2.idtx:55 En.x64.Release.Error-2.idtx:55
+#: En.Win32.Debug.Error-2.idtx:55 En.Win32.Release.Error-2.idtx:55
+#: En.x64.Debug.Error-2.idtx:55 En.x64.Release.Error-2.idtx:55
 msgid "'[2]' is not a valid short file name."
 msgstr "[2] ei ole kelvollinen lyhyt tiedostonimi."
 
-#: En.Win32.Release.Error-2.idtx:13 En.x64.Release.Error-2.idtx:13
+#: En.Win32.Debug.Error-2.idtx:13 En.Win32.Release.Error-2.idtx:13
+#: En.x64.Debug.Error-2.idtx:13 En.x64.Release.Error-2.idtx:13
 msgid "[SimpleProductName]"
 msgstr "[SimpleProductName]"
 
-#: En.Win32.Release.Error-2.idtx:28 En.x64.Release.Error-2.idtx:28
+#: En.Win32.Debug.Error-2.idtx:28 En.Win32.Release.Error-2.idtx:28
+#: En.x64.Debug.Error-2.idtx:28 En.x64.Release.Error-2.idtx:28
 msgid "[SimpleProductName] Setup completed successfully."
 msgstr "Tuotteen [SimpleProductName]  asennus onnistui."
 
-#: En.Win32.Release.Error-2.idtx:29 En.x64.Release.Error-2.idtx:29
+#: En.Win32.Debug.Error-2.idtx:29 En.Win32.Release.Error-2.idtx:29
+#: En.x64.Debug.Error-2.idtx:29 En.x64.Release.Error-2.idtx:29
 msgid "[SimpleProductName] Setup failed."
 msgstr "Tuotteen [SimpleProductName]  asennus epäonnistui."
 
-#: En.Win32.Release.Error-2.idtx:14 En.x64.Release.Error-2.idtx:14
+#: En.Win32.Debug.Error-2.idtx:14 En.Win32.Release.Error-2.idtx:14
+#: En.x64.Debug.Error-2.idtx:14 En.x64.Release.Error-2.idtx:14
 msgid "{[2]}{, [3]}{, [4]}"
 msgstr "{[2]}{, [3]}{, [4]}"
 
-#: En.Win32.Release.Error-2.idtx:11 En.x64.Release.Error-2.idtx:11
+#: En.Win32.Debug.Error-2.idtx:11 En.Win32.Release.Error-2.idtx:11
+#: En.x64.Debug.Error-2.idtx:11 En.x64.Release.Error-2.idtx:11
 msgid "{{Disk full: }}"
 msgstr "{{Levy on täynnä: }}"
 
-#: En.Win32.Release.Error-2.idtx:5 En.x64.Release.Error-2.idtx:5
+#: En.Win32.Debug.Error-2.idtx:5 En.Win32.Release.Error-2.idtx:5
+#: En.x64.Debug.Error-2.idtx:5 En.x64.Release.Error-2.idtx:5
 msgid "{{Error [1]. }}"
 msgstr "{{Virhe [1]. }}"
 
-#: En.Win32.Release.Error-2.idtx:4 En.x64.Release.Error-2.idtx:4
+#: En.Win32.Debug.Error-2.idtx:4 En.Win32.Release.Error-2.idtx:4
+#: En.x64.Debug.Error-2.idtx:4 En.x64.Release.Error-2.idtx:4
 msgid "{{Fatal error: }}"
 msgstr "{{Peruuttamaton virhe: }}"
 
-#: En.Win32.Release.Error-2.idtx:16 En.x64.Release.Error-2.idtx:16
+#: En.Win32.Debug.Error-2.idtx:16 En.Win32.Release.Error-2.idtx:16
+#: En.x64.Debug.Error-2.idtx:16 En.x64.Release.Error-2.idtx:16
 msgid "=== Logging started: [Date] [Time] ==="
 msgstr "=== Kirjaaminen alkoi: [Date] [Time] ==="
 
-#: En.Win32.Release.Error-2.idtx:17 En.x64.Release.Error-2.idtx:17
+#: En.Win32.Debug.Error-2.idtx:17 En.Win32.Release.Error-2.idtx:17
+#: En.x64.Debug.Error-2.idtx:17 En.x64.Release.Error-2.idtx:17
 msgid "=== Logging stopped: [Date] [Time] ==="
 msgstr "=== Kirjaaminen päättyi: [Date] [Time] ==="
 
+#: En.Win32.Debug.ActionText-2.idtx:3 En.Win32.Debug.CustomAction-2.idtx:3
+#: En.Win32.Debug.Error-2.idtx:3 En.Win32.Release.ActionText-2.idtx:3
 #: En.Win32.Release.CustomAction-2.idtx:3 En.Win32.Release.Error-2.idtx:3
+#: En.x64.Debug.ActionText-2.idtx:3 En.x64.Debug.CustomAction-2.idtx:3
+#: En.x64.Debug.Error-2.idtx:3 En.x64.Release.ActionText-2.idtx:3
 #: En.x64.Release.CustomAction-2.idtx:3 En.x64.Release.Error-2.idtx:3
 msgid "1252"
 msgstr "1252"
 
-#: En.Win32.Release.Error-2.idtx:163 En.x64.Release.Error-2.idtx:163
+#: En.Win32.Debug.Error-2.idtx:163 En.Win32.Release.Error-2.idtx:163
+#: En.x64.Debug.Error-2.idtx:163 En.x64.Release.Error-2.idtx:163
 msgid ""
 "64-bit registry operation attempted on 32-bit operating system for key [2]."
 msgstr ""
 
-#: En.Win32.Release.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
+#: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
+#: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
 msgid ""
 "A file that is required cannot be installed because the cabinet file [2] has"
 " an invalid digital signature. This may indicate that the cabinet file is "
@@ -87,7 +115,8 @@ msgstr ""
 "kelpaamaton digitaalinen allekirjoitus. Cab-tiedosto saattaa olla "
 "viallinen.{{ WinVerifyTrust palautti virheen [3].}}"
 
-#: En.Win32.Release.Error-2.idtx:59 En.x64.Release.Error-2.idtx:59
+#: En.Win32.Debug.Error-2.idtx:59 En.Win32.Release.Error-2.idtx:59
+#: En.x64.Debug.Error-2.idtx:59 En.x64.Release.Error-2.idtx:59
 msgid ""
 "A file that is required cannot be installed because the cabinet file [2] is "
 "not digitally signed. This may indicate that the cabinet file is corrupt."
@@ -95,25 +124,30 @@ msgstr ""
 "Tarvittua tiedostoa ei voida asentaa, koska cab-tiedosto [2] ei ole "
 "digitaalisesti allekirjoitettu. Cab-tiedosto saattaa olla viallinen."
 
-#: En.Win32.Release.Error-2.idtx:48 En.x64.Release.Error-2.idtx:48
+#: En.Win32.Debug.Error-2.idtx:48 En.Win32.Release.Error-2.idtx:48
+#: En.x64.Debug.Error-2.idtx:48 En.x64.Release.Error-2.idtx:48
 msgid "A network error occurred while attempting to create the folder: [2]"
 msgstr "Verkkovirhe luotaessa kansiota: [2]"
 
-#: En.Win32.Release.Error-2.idtx:49 En.x64.Release.Error-2.idtx:49
+#: En.Win32.Debug.Error-2.idtx:49 En.Win32.Release.Error-2.idtx:49
+#: En.x64.Debug.Error-2.idtx:49 En.x64.Release.Error-2.idtx:49
 msgid ""
 "A network error occurred while attempting to open the source file cabinet: "
 "[2]"
 msgstr "Verkkovirhe avattaessa Cab-lähdetiedostoa: [2]"
 
-#: En.Win32.Release.Error-2.idtx:46 En.x64.Release.Error-2.idtx:46
+#: En.Win32.Debug.Error-2.idtx:46 En.Win32.Release.Error-2.idtx:46
+#: En.x64.Debug.Error-2.idtx:46 En.x64.Release.Error-2.idtx:46
 msgid "A network error occurred while attempting to read from the file: [2]"
 msgstr "Verkkovirhe luettaessa tiedostoa: [2]"
 
-#: En.Win32.Release.CustomAction-2.idtx:5 En.x64.Release.CustomAction-2.idtx:4
+#: En.Win32.Debug.CustomAction-2.idtx:5 En.Win32.Release.CustomAction-2.idtx:5
+#: En.x64.Debug.CustomAction-2.idtx:4 En.x64.Release.CustomAction-2.idtx:4
 msgid "A newer version of [SimpleProductName] is already installed."
 msgstr ""
 
-#: En.Win32.Release.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
+#: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
+#: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
 msgid ""
 "A portion of the folder path '[2]' is invalid. It is either empty or exceeds"
 " the length allowed by the system."
@@ -121,7 +155,8 @@ msgstr ""
 "Kansion polku [2] ei kelpaa. Se on tyhjä tai pituus ylittää järjestelmän "
 "salliman enimmäispituuden."
 
-#: En.Win32.Release.Error-2.idtx:95 En.x64.Release.Error-2.idtx:95
+#: En.Win32.Debug.Error-2.idtx:95 En.Win32.Release.Error-2.idtx:95
+#: En.x64.Debug.Error-2.idtx:95 En.x64.Release.Error-2.idtx:95
 msgid ""
 "A previous installation for this product is in progress. You must undo the "
 "changes made by that installation to continue. Do you want to undo those "
@@ -130,31 +165,48 @@ msgstr ""
 "Tämän tuotteen aiempi asennus on käynnissä. Kyseisen asennuksen tekemät "
 "muutokset tulee kumota, ennen kuin voit jatkaa. Haluatko kumota muutokset?"
 
-#: En.Win32.Release.Error-2.idtx:127 En.x64.Release.Error-2.idtx:127
+#: En.Win32.Debug.Error-2.idtx:127 En.Win32.Release.Error-2.idtx:127
+#: En.x64.Debug.Error-2.idtx:127 En.x64.Release.Error-2.idtx:127
 msgid "A valid destination folder for the install could not be determined."
 msgstr "Kelvollisen asennuskohdekansion määritys ei onnistu."
 
-#: En.Win32.Release.Error-2.idtx:12 En.x64.Release.Error-2.idtx:12
+#: En.Win32.Debug.Error-2.idtx:12 En.Win32.Release.Error-2.idtx:12
+#: En.x64.Debug.Error-2.idtx:12 En.x64.Release.Error-2.idtx:12
 msgid "Action [Time]: [1]. [2]"
 msgstr "Toiminto [Time]: [1]. [2]"
 
-#: En.Win32.Release.Error-2.idtx:19 En.x64.Release.Error-2.idtx:19
+#: En.Win32.Debug.Error-2.idtx:19 En.Win32.Release.Error-2.idtx:19
+#: En.x64.Debug.Error-2.idtx:19 En.x64.Release.Error-2.idtx:19
 msgid "Action ended [Time]: [1]. Return value [2]."
 msgstr "Toiminto päättyi [Time]: [1]. Palautusarvo [2]."
 
-#: En.Win32.Release.Error-2.idtx:18 En.x64.Release.Error-2.idtx:18
+#: En.Win32.Debug.Error-2.idtx:18 En.Win32.Release.Error-2.idtx:18
+#: En.x64.Debug.Error-2.idtx:18 En.x64.Release.Error-2.idtx:18
 msgid "Action start [Time]: [1]."
 msgstr "Toiminto alkoi [Time]: [1]."
 
-#: En.Win32.Release.Error-2.idtx:116 En.x64.Release.Error-2.idtx:116
+#: En.Win32.Debug.Error-2.idtx:116 En.Win32.Release.Error-2.idtx:116
+#: En.x64.Debug.Error-2.idtx:116 En.x64.Release.Error-2.idtx:116
 msgid "Advertisement completed successfully."
 msgstr "Mainostaminen tehtiin onnistuneesti."
 
-#: En.Win32.Release.Error-2.idtx:117 En.x64.Release.Error-2.idtx:117
+#: En.Win32.Debug.Error-2.idtx:117 En.Win32.Release.Error-2.idtx:117
+#: En.x64.Debug.Error-2.idtx:117 En.x64.Release.Error-2.idtx:117
 msgid "Advertisement failed."
 msgstr "Mainostaminen epäonnistui."
 
-#: En.Win32.Release.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
+#: En.Win32.Debug.ActionText-2.idtx:4 En.Win32.Release.ActionText-2.idtx:4
+#: En.x64.Debug.ActionText-2.idtx:4 En.x64.Release.ActionText-2.idtx:4
+msgid "Advertising application"
+msgstr "Ilmoitetaan sovelluksesta"
+
+#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
+#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+msgid "Allocating registry space"
+msgstr "Varataan rekisteritilaa"
+
+#: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
+#: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
 "An error occured during the installation of assembly component [2]. HRESULT:"
 " [3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"
@@ -162,7 +214,8 @@ msgstr ""
 "Assembly-osan asennuksessa tapahtui virhe [2]. HRESULT: [3]. {{assembly-"
 "liittymä: [4], funktio: [5], assembly-nimi: [6]}}"
 
-#: En.Win32.Release.Error-2.idtx:89 En.x64.Release.Error-2.idtx:89
+#: En.Win32.Debug.Error-2.idtx:89 En.Win32.Release.Error-2.idtx:89
+#: En.x64.Debug.Error-2.idtx:89 En.x64.Release.Error-2.idtx:89
 msgid ""
 "An error occurred while applying security settings. [2] is not a valid user "
 "or group. This could be a problem with the package, or a problem connecting "
@@ -176,11 +229,13 @@ msgstr ""
 "valitsemalla Uudelleen tai lopeta asentaminen valitsemalla Peruuta. "
 "{{Käyttäjän SID-tunnuksen haku ei onnistu, järjestelmävirhe [3]}}"
 
-#: En.Win32.Release.Error-2.idtx:47 En.x64.Release.Error-2.idtx:47
+#: En.Win32.Debug.Error-2.idtx:47 En.Win32.Release.Error-2.idtx:47
+#: En.x64.Debug.Error-2.idtx:47 En.x64.Release.Error-2.idtx:47
 msgid "An error occurred while attempting to create the folder: [2]"
 msgstr "Virhe luotaessa kansiota: [2]"
 
-#: En.Win32.Release.Error-2.idtx:101 En.x64.Release.Error-2.idtx:101
+#: En.Win32.Debug.Error-2.idtx:101 En.Win32.Release.Error-2.idtx:101
+#: En.x64.Debug.Error-2.idtx:101 En.x64.Release.Error-2.idtx:101
 msgid ""
 "An error occurred while writing installation information to disk. Check to "
 "make sure enough disk space is available, and click Retry, or Cancel to end "
@@ -190,7 +245,8 @@ msgstr ""
 "on riittävästi levytilaa, ja valitse Uudelleen tai lopeta asennus "
 "valitsemalla Peruuta."
 
-#: En.Win32.Release.Error-2.idtx:94 En.x64.Release.Error-2.idtx:94
+#: En.Win32.Debug.Error-2.idtx:94 En.Win32.Release.Error-2.idtx:94
+#: En.x64.Debug.Error-2.idtx:94 En.x64.Release.Error-2.idtx:94
 msgid ""
 "An installation for [2] is currently suspended. You must undo the changes "
 "made by that installation to continue. Do you want to undo those changes?"
@@ -198,7 +254,8 @@ msgstr ""
 "Kohteen [2] aiempi asennus on keskeytettynä. Kyseisen asennuksen tekemät "
 "muutokset tulee kumota, ennen kuin voit jatkaa. Haluatko kumota muutokset?"
 
-#: En.Win32.Release.Error-2.idtx:96 En.x64.Release.Error-2.idtx:96
+#: En.Win32.Debug.Error-2.idtx:96 En.Win32.Release.Error-2.idtx:96
+#: En.x64.Debug.Error-2.idtx:96 En.x64.Release.Error-2.idtx:96
 msgid ""
 "An installation package for the product [2] cannot be found. Try the "
 "installation again using a valid copy of the installation package '[3]'."
@@ -206,7 +263,8 @@ msgstr ""
 "Tuotteelle [2] ei löydy asennuspakkausta. Yritä asennusta uudelleen "
 "käyttämällä kelvollista asennuspakkausta [3]."
 
-#: En.Win32.Release.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
+#: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
+#: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
 msgid ""
 "Another application has exclusive access to the file '[2]'. Please shut down"
 " all other applications, then click Retry."
@@ -214,7 +272,8 @@ msgstr ""
 "Tiedosto [2] on toisen sovelluksen yksityiskäytössä. Sulje muut sovellukset "
 "ja valitse Uudelleen."
 
-#: En.Win32.Release.Error-2.idtx:77 En.x64.Release.Error-2.idtx:77
+#: En.Win32.Debug.Error-2.idtx:77 En.Win32.Release.Error-2.idtx:77
+#: En.x64.Debug.Error-2.idtx:77 En.x64.Release.Error-2.idtx:77
 msgid ""
 "Another installation is in progress. You must complete that installation "
 "before continuing this one."
@@ -222,11 +281,46 @@ msgstr ""
 "Toinen asennustapahtuma on jo käynnissä. Suorita kyseinen asennus loppuun, "
 "ennen kuin jatkat tätä asennusta."
 
-#: En.Win32.Release.Error-2.idtx:82 En.x64.Release.Error-2.idtx:82
+#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
+#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
+msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
+msgstr ""
+"Sovelluksen tunnus: [1]{{, sovellustyyppi: [2], käyttäjät: [3], RSN: [4]}}"
+
+#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
+#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
+msgid "AppId: [1]{{, AppType: [2]}}"
+msgstr "Sovelluksen tunnus: [1]{{, sovellustyyppi: [2]}}"
+
+#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Debug.ActionText-2.idtx:28
+#: En.Win32.Release.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:28
+#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Debug.ActionText-2.idtx:28
+#: En.x64.Release.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:28
+msgid "Application Context:[1], Assembly Name:[2]"
+msgstr "Sovellusyhteys:[1], Assembly-nimi:[2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
+#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
+msgid "Application: [1]"
+msgstr "Sovellus: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
+#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
+msgid "Application: [1], Command line: [2]"
+msgstr "Sovellus: [1], komentorivi: [2]"
+
+#: En.Win32.Debug.Error-2.idtx:82 En.Win32.Release.Error-2.idtx:82
+#: En.x64.Debug.Error-2.idtx:82 En.x64.Release.Error-2.idtx:82
 msgid "Are you sure you want to cancel?"
 msgstr "Haluatko varmasti peruuttaa?"
 
-#: En.Win32.Release.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
+#: En.Win32.Debug.ActionText-2.idtx:7 En.Win32.Release.ActionText-2.idtx:7
+#: En.x64.Debug.ActionText-2.idtx:7 En.x64.Release.ActionText-2.idtx:7
+msgid "Binding executables"
+msgstr "Sidotaan suoritettavia tiedostoja"
+
+#: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
+#: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
 msgid ""
 "Cannot create the file '[2]'. A folder with this name already exists. Cancel"
 " the install and try installing to a different location."
@@ -234,7 +328,8 @@ msgstr ""
 "Tiedoston [2] luominen ei onnistu. Samanniminen kansio on jo olemassa. "
 "Peruuta asennus ja yritä asentaa toiseen paikkaan."
 
-#: En.Win32.Release.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
+#: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
+#: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
 msgid ""
 "Cannot create the folder '[2]'. A file with this name already exists. Please"
 " rename or remove the file and click retry, or click Cancel to exit."
@@ -243,7 +338,22 @@ msgstr ""
 "kansiolle toinen nimi tai poista tiedosto ja valitse Uudelleen tai poistu "
 "valitsemalla Peruuta."
 
-#: En.Win32.Release.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
+#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Debug.ActionText-2.idtx:64
+#: En.Win32.Release.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:64
+#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Debug.ActionText-2.idtx:64
+#: En.x64.Release.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:64
+msgid "Class Id: [1]"
+msgstr "Class Id: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Debug.ActionText-2.idtx:61
+#: En.Win32.Release.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:61
+#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Debug.ActionText-2.idtx:61
+#: En.x64.Release.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:61
+msgid "Component ID: [1], Qualifier: [2]"
+msgstr "Komponentin tunnus: [1], valitsin: [2]"
+
+#: En.Win32.Debug.Error-2.idtx:154 En.Win32.Release.Error-2.idtx:154
+#: En.x64.Debug.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
 msgid ""
 "Component Services (COM+ 1.0) are not installed on this computer. This "
 "installation requires Component Services in order to complete successfully. "
@@ -254,23 +364,47 @@ msgstr ""
 " asennettuna. Component Services -palvelut toimitetaan Windows 2000:n "
 "mukana."
 
-#: En.Win32.Release.Error-2.idtx:118 En.x64.Release.Error-2.idtx:118
+#: En.Win32.Debug.ActionText-2.idtx:10 En.Win32.Debug.ActionText-2.idtx:15
+#: En.Win32.Debug.ActionText-2.idtx:9 En.Win32.Release.ActionText-2.idtx:10
+#: En.Win32.Release.ActionText-2.idtx:15 En.Win32.Release.ActionText-2.idtx:9
+#: En.x64.Debug.ActionText-2.idtx:10 En.x64.Debug.ActionText-2.idtx:15
+#: En.x64.Debug.ActionText-2.idtx:9 En.x64.Release.ActionText-2.idtx:10
+#: En.x64.Release.ActionText-2.idtx:15 En.x64.Release.ActionText-2.idtx:9
+msgid "Computing space requirements"
+msgstr "Lasketaan tilavaatimuksia"
+
+#: En.Win32.Debug.Error-2.idtx:118 En.Win32.Release.Error-2.idtx:118
+#: En.x64.Debug.Error-2.idtx:118 En.x64.Release.Error-2.idtx:118
 msgid "Configuration completed successfully."
 msgstr "Määrittäminen tehtiin onnistuneesti."
 
-#: En.Win32.Release.Error-2.idtx:119 En.x64.Release.Error-2.idtx:119
+#: En.Win32.Debug.Error-2.idtx:119 En.Win32.Release.Error-2.idtx:119
+#: En.x64.Debug.Error-2.idtx:119 En.x64.Release.Error-2.idtx:119
 msgid "Configuration failed."
 msgstr "Määrittäminen epäonnistui."
 
-#: En.Win32.Release.Error-2.idtx:106 En.x64.Release.Error-2.idtx:106
+#: En.Win32.Debug.Error-2.idtx:106 En.Win32.Release.Error-2.idtx:106
+#: En.x64.Debug.Error-2.idtx:106 En.x64.Release.Error-2.idtx:106
 msgid "Configured [2]"
 msgstr "Määritetty [2]"
 
-#: En.Win32.Release.Error-2.idtx:86 En.x64.Release.Error-2.idtx:86
+#: En.Win32.Debug.ActionText-2.idtx:18 En.Win32.Release.ActionText-2.idtx:18
+#: En.x64.Debug.ActionText-2.idtx:18 En.x64.Release.ActionText-2.idtx:18
+msgid "Copying network install files"
+msgstr "Kopioidaan verkkoasennustiedostoja"
+
+#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:19
+#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:19
+msgid "Copying new files"
+msgstr "Kopioidaan uusia tiedostoja"
+
+#: En.Win32.Debug.Error-2.idtx:86 En.Win32.Release.Error-2.idtx:86
+#: En.x64.Debug.Error-2.idtx:86 En.x64.Release.Error-2.idtx:86
 msgid "Could not access network location [2]."
 msgstr "Verkon sijainti [2] ei ole käytettävissä."
 
-#: En.Win32.Release.Error-2.idtx:67 En.x64.Release.Error-2.idtx:67
+#: En.Win32.Debug.Error-2.idtx:67 En.Win32.Release.Error-2.idtx:67
+#: En.x64.Debug.Error-2.idtx:67 En.x64.Release.Error-2.idtx:67
 msgid ""
 "Could not create key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
@@ -278,7 +412,8 @@ msgstr ""
 "Avaimen luominen epäonnistui: [2]. {{ Järjestelmävirhe [3].}} Varmista, että"
 " sinulla on riittävät oikeudet avaimeen, tai ota yhteys tukihenkilöihin. "
 
-#: En.Win32.Release.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
+#: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
+#: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
 msgid ""
 "Could not create Shortcut [2]. Verify that the destination folder exists and"
 " that you can access it."
@@ -286,7 +421,8 @@ msgstr ""
 "Pikakuvakkeen [2] luominen epäonnistui. Varmista, että kohdekansio on "
 "olemassa ja että voit käyttää sitä."
 
-#: En.Win32.Release.Error-2.idtx:70 En.x64.Release.Error-2.idtx:70
+#: En.Win32.Debug.Error-2.idtx:70 En.Win32.Release.Error-2.idtx:70
+#: En.x64.Debug.Error-2.idtx:70 En.x64.Release.Error-2.idtx:70
 msgid ""
 "Could not delete key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
@@ -295,7 +431,8 @@ msgstr ""
 "että sinulla on riittävät oikeudet avaimeen, tai ota yhteys tukihenkilöihin."
 " "
 
-#: En.Win32.Release.Error-2.idtx:69 En.x64.Release.Error-2.idtx:69
+#: En.Win32.Debug.Error-2.idtx:69 En.Win32.Release.Error-2.idtx:69
+#: En.x64.Debug.Error-2.idtx:69 En.x64.Release.Error-2.idtx:69
 msgid ""
 "Could not delete value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel. "
@@ -304,7 +441,8 @@ msgstr ""
 "Varmista, että sinulla on riittävät oikeudet avaimeen, tai ota yhteys "
 "tukihenkilöihin. "
 
-#: En.Win32.Release.Error-2.idtx:88 En.x64.Release.Error-2.idtx:88
+#: En.Win32.Debug.Error-2.idtx:88 En.Win32.Release.Error-2.idtx:88
+#: En.x64.Debug.Error-2.idtx:88 En.x64.Release.Error-2.idtx:88
 msgid ""
 "Could not find any previously installed compliant products on the machine "
 "for installing this product."
@@ -312,7 +450,8 @@ msgstr ""
 "Tietokoneesta ei löytynyt tämän tuotteen asennukseen käytettäviä aiemmin "
 "asennettuja yhteensopivia tuotteita."
 
-#: En.Win32.Release.Error-2.idtx:74 En.x64.Release.Error-2.idtx:74
+#: En.Win32.Debug.Error-2.idtx:74 En.Win32.Release.Error-2.idtx:74
+#: En.x64.Debug.Error-2.idtx:74 En.x64.Release.Error-2.idtx:74
 msgid ""
 "Could not get sub key names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
@@ -321,7 +460,8 @@ msgstr ""
 "Varmista, että sinulla on riittävät oikeudet avaimeen, tai ota yhteys "
 "tukihenkilöihin."
 
-#: En.Win32.Release.Error-2.idtx:73 En.x64.Release.Error-2.idtx:73
+#: En.Win32.Debug.Error-2.idtx:73 En.Win32.Release.Error-2.idtx:73
+#: En.x64.Debug.Error-2.idtx:73 En.x64.Release.Error-2.idtx:73
 msgid ""
 "Could not get value names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
@@ -330,7 +470,8 @@ msgstr ""
 "Varmista, että sinulla on riittävät oikeudet avaimeen, tai ota yhteys "
 "tukihenkilöihin."
 
-#: En.Win32.Release.Error-2.idtx:76 En.x64.Release.Error-2.idtx:76
+#: En.Win32.Debug.Error-2.idtx:76 En.Win32.Release.Error-2.idtx:76
+#: En.x64.Debug.Error-2.idtx:76 En.x64.Release.Error-2.idtx:76
 msgid ""
 "Could not increase the available registry space. [2] KB of free registry "
 "space is required for the installation of this application."
@@ -338,7 +479,8 @@ msgstr ""
 "Rekisteritilan lisääminen ei onnistu. Tämän sovelluksen asentaminen vaatii "
 "[2] kt vapaata rekisteritilaa."
 
-#: En.Win32.Release.Error-2.idtx:68 En.x64.Release.Error-2.idtx:68
+#: En.Win32.Debug.Error-2.idtx:68 En.Win32.Release.Error-2.idtx:68
+#: En.x64.Debug.Error-2.idtx:68 En.x64.Release.Error-2.idtx:68
 msgid ""
 "Could not open key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
@@ -347,7 +489,8 @@ msgstr ""
 "että sinulla on riittävät oikeudet avaimeen, tai ota yhteys tukihenkilöihin."
 " "
 
-#: En.Win32.Release.Error-2.idtx:75 En.x64.Release.Error-2.idtx:75
+#: En.Win32.Debug.Error-2.idtx:75 En.Win32.Release.Error-2.idtx:75
+#: En.x64.Debug.Error-2.idtx:75 En.x64.Release.Error-2.idtx:75
 msgid ""
 "Could not read security information for key [2]. {{ System error [3].}} "
 "Verify that you have sufficient access to that key, or contact your support "
@@ -357,7 +500,8 @@ msgstr ""
 "Varmista, että sinulla on riittävät oikeudet avaimeen, tai ota yhteys "
 "tukihenkilöihin."
 
-#: En.Win32.Release.Error-2.idtx:71 En.x64.Release.Error-2.idtx:71
+#: En.Win32.Debug.Error-2.idtx:71 En.Win32.Release.Error-2.idtx:71
+#: En.x64.Debug.Error-2.idtx:71 En.x64.Release.Error-2.idtx:71
 msgid ""
 "Could not read value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel. "
@@ -366,7 +510,8 @@ msgstr ""
 "että sinulla on riittävät oikeudet avaimeen, tai ota yhteys tukihenkilöihin."
 " "
 
-#: En.Win32.Release.Error-2.idtx:134 En.x64.Release.Error-2.idtx:134
+#: En.Win32.Debug.Error-2.idtx:134 En.Win32.Release.Error-2.idtx:134
+#: En.x64.Debug.Error-2.idtx:134 En.x64.Release.Error-2.idtx:134
 msgid ""
 "Could not register font [2]. Verify that you have sufficient permissions to "
 "install fonts, and that the system supports this font."
@@ -374,7 +519,8 @@ msgstr ""
 "Fontin [2] rekisteröiminen epäonnistui. Varmista, että sinulla on fonttien "
 "asennukseen tarvittavat oikeudet ja että järjestelmä tukee kyseistä fonttia."
 
-#: En.Win32.Release.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
+#: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
+#: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
 msgid ""
 "Could not register type library for file [2]. Contact your support "
 "personnel."
@@ -382,7 +528,8 @@ msgstr ""
 "Tiedoston [2] tyyppikirjaston rekisteröiminen epäonnistui. Ota yhteys "
 "tukihenkilöihin."
 
-#: En.Win32.Release.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
+#: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
+#: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
 msgid ""
 "Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
 " you can access it."
@@ -390,7 +537,8 @@ msgstr ""
 "Pikakuvakkeen [2] poistaminen epäonnistui. Varmista, että pikakuvaketiedosto"
 " on olemassa ja että voi käyttää sitä."
 
-#: En.Win32.Release.Error-2.idtx:141 En.x64.Release.Error-2.idtx:141
+#: En.Win32.Debug.Error-2.idtx:141 En.Win32.Release.Error-2.idtx:141
+#: En.x64.Debug.Error-2.idtx:141 En.x64.Release.Error-2.idtx:141
 msgid ""
 "Could not schedule file [2] to replace file [3] on reboot. Verify that you "
 "have write permissions to file [3]."
@@ -398,7 +546,8 @@ msgstr ""
 "Tiedoston [3] korvaaminen tiedostolla [2] uudelleenkäynnistyksen yhteydessä "
 "epäonnistui. Varmista, että sinulla on kirjoitusoikeudet tiedostoon [3]."
 
-#: En.Win32.Release.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
+#: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
+#: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
 msgid ""
 "Could not set file security for file '[3]'. Error: [2]. Verify that you have"
 " sufficient privileges to modify the security permissions for this file."
@@ -407,7 +556,8 @@ msgstr ""
 " sinulla on riittävät oikeudet tämän tiedoston käyttöoikeuksien "
 "muokkaamiseen."
 
-#: En.Win32.Release.Error-2.idtx:135 En.x64.Release.Error-2.idtx:135
+#: En.Win32.Debug.Error-2.idtx:135 En.Win32.Release.Error-2.idtx:135
+#: En.x64.Debug.Error-2.idtx:135 En.x64.Release.Error-2.idtx:135
 msgid ""
 "Could not unregister font [2]. Verify that you that you have sufficient "
 "permissions to remove fonts."
@@ -415,7 +565,8 @@ msgstr ""
 "Fontin [2] rekisteröinnin poistaminen epäonnistui. Varmista, että sinulla on"
 " oikeus poistaa fontteja."
 
-#: En.Win32.Release.Error-2.idtx:139 En.x64.Release.Error-2.idtx:139
+#: En.Win32.Debug.Error-2.idtx:139 En.Win32.Release.Error-2.idtx:139
+#: En.x64.Debug.Error-2.idtx:139 En.x64.Release.Error-2.idtx:139
 msgid ""
 "Could not unregister type library for file [2]. Contact your support "
 "personnel."
@@ -423,7 +574,8 @@ msgstr ""
 "Tiedoston [2] rekisteröinnin poistaminen epäonnistui. Ota yhteys "
 "tukihenkilöihin."
 
-#: En.Win32.Release.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
+#: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
+#: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
 msgid ""
 "Could not update environment variable '[2]'. Verify that you have sufficient"
 " privileges to modify environment variables."
@@ -431,7 +583,8 @@ msgstr ""
 "Ympäristömuuttujan [2] päivittäminen epäonnistui. Varmista, että sinulla on "
 "riittävät oikeudet ympäristömuuttujien muokkaamiseen."
 
-#: En.Win32.Release.Error-2.idtx:140 En.x64.Release.Error-2.idtx:140
+#: En.Win32.Debug.Error-2.idtx:140 En.Win32.Release.Error-2.idtx:140
+#: En.x64.Debug.Error-2.idtx:140 En.x64.Release.Error-2.idtx:140
 msgid ""
 "Could not update the ini file [2][3]. Verify that the file exists and that "
 "you can access it."
@@ -439,7 +592,8 @@ msgstr ""
 "Ini-tiedoston [2][3] päivittäminen epäonnistui. Varmista, että tiedosto on "
 "olemassa ja että voit käyttää sitä."
 
-#: En.Win32.Release.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
+#: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
+#: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
 msgid ""
 "Could not write value [2] to key [3]. {{ System error [4].}} Verify that you"
 " have sufficient access to that key, or contact your support personnel."
@@ -448,7 +602,28 @@ msgstr ""
 "Varmista, että sinulla on riittävät oikeudet avaimeen, tai ota yhteys "
 "tukihenkilöihin."
 
-#: En.Win32.Release.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
+#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:14
+#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:14
+msgid "Creating duplicate files"
+msgstr "Luodaan tiedostojen kopioita"
+
+#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:11
+#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:11
+msgid "Creating folders"
+msgstr "Luodaan kansioita"
+
+#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:12
+#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:12
+msgid "Creating shortcuts"
+msgstr "Luodaan pikakuvakkeita"
+
+#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Release.ActionText-2.idtx:13
+#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Release.ActionText-2.idtx:13
+msgid "Deleting services"
+msgstr "Poistetaan palveluita"
+
+#: En.Win32.Debug.Error-2.idtx:78 En.Win32.Release.Error-2.idtx:78
+#: En.x64.Debug.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
 msgid ""
 "Error accessing secured data. Please make sure the Windows Installer is "
 "configured properly and try the install again."
@@ -456,7 +631,8 @@ msgstr ""
 "Virhe käsiteltäessä suojattuja tietoja. Varmista, että Windows Installer "
 "-ohjelma on määritetty oikein, ja yritä asennusta uudelleen."
 
-#: En.Win32.Release.Error-2.idtx:58 En.x64.Release.Error-2.idtx:58
+#: En.Win32.Debug.Error-2.idtx:58 En.Win32.Release.Error-2.idtx:58
+#: En.x64.Debug.Error-2.idtx:58 En.x64.Release.Error-2.idtx:58
 msgid ""
 "Error applying patch to file [2]. It has probably been updated by other "
 "means, and can no longer be modified by this patch. For more information "
@@ -466,11 +642,13 @@ msgstr ""
 "tavoin eikä sitä voi enää päivittää tällä päivityspakkauksella. Kysy "
 "lisätietoja päivityspakkauksen toimittajalta. {{Järjestelmävirhe: [3]}}"
 
-#: En.Win32.Release.Error-2.idtx:128 En.x64.Release.Error-2.idtx:128
+#: En.Win32.Debug.Error-2.idtx:128 En.Win32.Release.Error-2.idtx:128
+#: En.x64.Debug.Error-2.idtx:128 En.x64.Release.Error-2.idtx:128
 msgid "Error attempting to read from the source install database: [2]."
 msgstr "Virhe luettaessa asennuksen lähdetietokantaa: [2]."
 
-#: En.Win32.Release.Error-2.idtx:146 En.x64.Release.Error-2.idtx:146
+#: En.Win32.Debug.Error-2.idtx:146 En.Win32.Release.Error-2.idtx:146
+#: En.x64.Debug.Error-2.idtx:146 En.x64.Release.Error-2.idtx:146
 msgid ""
 "Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that "
 "the file [4] exists and that you can access it."
@@ -478,11 +656,13 @@ msgstr ""
 "Virhe määritettäessä ODBC-tietolähteen kokoonpanoa: [4], ODBC-virhe [2]: "
 "[3]. Varmista, että tiedosto [4] on olemassa ja että voit käyttää sitä."
 
-#: En.Win32.Release.Error-2.idtx:56 En.x64.Release.Error-2.idtx:56
+#: En.Win32.Debug.Error-2.idtx:56 En.Win32.Release.Error-2.idtx:56
+#: En.x64.Debug.Error-2.idtx:56 En.x64.Release.Error-2.idtx:56
 msgid "Error getting file security: [3] GetLastError: [2]"
 msgstr "Virhe noudettaessa tiedostosuojausta: [3] GetLastError: [2]"
 
-#: En.Win32.Release.Error-2.idtx:143 En.x64.Release.Error-2.idtx:143
+#: En.Win32.Debug.Error-2.idtx:143 En.Win32.Release.Error-2.idtx:143
+#: En.x64.Debug.Error-2.idtx:143 En.x64.Release.Error-2.idtx:143
 msgid ""
 "Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
@@ -490,7 +670,8 @@ msgstr ""
 "Virhe asennettaessa ODBC-ohjaimen hallintaohjelmaa, ODBC-virhe [2]: [3]. Ota"
 " yhteys tukihenkilöihin."
 
-#: En.Win32.Release.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
+#: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
+#: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
 msgid ""
 "Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
 " [4] exists and that you can access it."
@@ -498,7 +679,8 @@ msgstr ""
 "Virhe asennettaessa ODBC-ohjainta: [4], ODBC-virhe [2]: [3]. Varmista, että "
 "tiedosto [4] on olemassa ja että voit käyttää sitä."
 
-#: En.Win32.Release.Error-2.idtx:35 En.x64.Release.Error-2.idtx:35
+#: En.Win32.Debug.Error-2.idtx:35 En.Win32.Release.Error-2.idtx:35
+#: En.x64.Debug.Error-2.idtx:35 En.x64.Release.Error-2.idtx:35
 msgid ""
 "Error reading from file [2]. {{ System error [3].}} Verify that the file "
 "exists and that you can access it."
@@ -506,7 +688,8 @@ msgstr ""
 "Virhe luettaessa tiedostoa: [2]. {{ Järjestelmävirhe [3].}} Varmista, että "
 "tiedosto on olemassa ja että voit käyttää sitä."
 
-#: En.Win32.Release.Error-2.idtx:30 En.x64.Release.Error-2.idtx:30
+#: En.Win32.Debug.Error-2.idtx:30 En.Win32.Release.Error-2.idtx:30
+#: En.x64.Debug.Error-2.idtx:30 En.x64.Release.Error-2.idtx:30
 msgid ""
 "Error reading from file: [2]. {{ System error [3].}} Verify that the file "
 "exists and that you can access it."
@@ -514,7 +697,8 @@ msgstr ""
 "Virhe luettaessa tiedostoa: [2]. {{ Järjestelmävirhe [3].}} Varmista, että "
 "tiedosto on olemassa ja että voit käyttää sitä."
 
-#: En.Win32.Release.Error-2.idtx:39 En.x64.Release.Error-2.idtx:39
+#: En.Win32.Debug.Error-2.idtx:39 En.Win32.Release.Error-2.idtx:39
+#: En.x64.Debug.Error-2.idtx:39 En.x64.Release.Error-2.idtx:39
 msgid ""
 "Error reading from file: [3]. {{ System error [2].}} Verify that the file "
 "exists and that you can access it."
@@ -522,14 +706,16 @@ msgstr ""
 "Virhe luettaessa tiedostoa: [3]. {{ Järjestelmävirhe [2].}} Varmista, että "
 "tiedosto on olemassa ja että voit käyttää sitä."
 
-#: En.Win32.Release.Error-2.idtx:155 En.x64.Release.Error-2.idtx:155
+#: En.Win32.Debug.Error-2.idtx:155 En.Win32.Release.Error-2.idtx:155
+#: En.x64.Debug.Error-2.idtx:155 En.x64.Release.Error-2.idtx:155
 msgid ""
 "Error registering COM+ Application. Contact your support personnel for more "
 "information."
 msgstr ""
 "Virhe COM+-sovelluksen rekisteröimisessä. Ota yhteys tekniseen tukeen."
 
-#: En.Win32.Release.Error-2.idtx:142 En.x64.Release.Error-2.idtx:142
+#: En.Win32.Debug.Error-2.idtx:142 En.Win32.Release.Error-2.idtx:142
+#: En.x64.Debug.Error-2.idtx:142 En.x64.Release.Error-2.idtx:142
 msgid ""
 "Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
@@ -537,7 +723,8 @@ msgstr ""
 "Virhe poistettaessa ODBC-ohjaimen hallintaohjelmaa, ODBC-virhe [2]: [3]. Ota"
 " yhteys tukihenkilöihin."
 
-#: En.Win32.Release.Error-2.idtx:144 En.x64.Release.Error-2.idtx:144
+#: En.Win32.Debug.Error-2.idtx:144 En.Win32.Release.Error-2.idtx:144
+#: En.x64.Debug.Error-2.idtx:144 En.x64.Release.Error-2.idtx:144
 msgid ""
 "Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you have "
 "sufficient privileges to remove ODBC drivers."
@@ -545,7 +732,8 @@ msgstr ""
 "Virhe poistettaessa ODBC-ohjainta: [4], ODBC-virhe [2]: [3]. Varmista, että "
 "sinulla on riittävät oikeudet ODBC-ohjainten poistoon."
 
-#: En.Win32.Release.Error-2.idtx:156 En.x64.Release.Error-2.idtx:156
+#: En.Win32.Debug.Error-2.idtx:156 En.Win32.Release.Error-2.idtx:156
+#: En.x64.Debug.Error-2.idtx:156 En.x64.Release.Error-2.idtx:156
 msgid ""
 "Error unregistering COM+ Application. Contact your support personnel for "
 "more information."
@@ -553,14 +741,16 @@ msgstr ""
 "Virhe COM+-sovelluksen rekisteröinnin poistamisessa. Ota yhteys tekniseen "
 "tukeen."
 
-#: En.Win32.Release.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
+#: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
+#: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
 msgid ""
 "Error writing to file: [2]. Verify that you have access to that folder."
 msgstr ""
 "Virhe kirjoitettaessa tiedostoon: [2]. Varmista, että voit käyttää tätä "
 "kansiota."
 
-#: En.Win32.Release.Error-2.idtx:40 En.x64.Release.Error-2.idtx:40
+#: En.Win32.Debug.Error-2.idtx:40 En.Win32.Release.Error-2.idtx:40
+#: En.x64.Debug.Error-2.idtx:40 En.x64.Release.Error-2.idtx:40
 msgid ""
 "Error writing to file: [3]. {{ System error [2].}} Verify that you have "
 "access to that folder."
@@ -568,73 +758,237 @@ msgstr ""
 "Virhe kirjoitettaessa tiedostoon: [3]. {{ Järjestelmävirhe [2].}} Varmista, "
 "että voit käyttää kansiota."
 
-#: En.Win32.Release.Error-2.idtx:133 En.x64.Release.Error-2.idtx:133
+#: En.Win32.Debug.ActionText-2.idtx:24 En.Win32.Release.ActionText-2.idtx:24
+#: En.x64.Debug.ActionText-2.idtx:24 En.x64.Release.ActionText-2.idtx:24
+msgid "Evaluating launch conditions"
+msgstr "Arvioidaan käynnistysehtoja"
+
+#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Debug.ActionText-2.idtx:66
+#: En.Win32.Release.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:66
+#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Debug.ActionText-2.idtx:66
+#: En.x64.Release.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:66
+msgid "Extension: [1]"
+msgstr "Laajennus: [1]"
+
+#: En.Win32.Debug.Error-2.idtx:133 En.Win32.Release.Error-2.idtx:133
+#: En.x64.Debug.Error-2.idtx:133 En.x64.Release.Error-2.idtx:133
 msgid ""
 "Failed to cache package [2]. Error: [3]. Contact your support personnel."
 msgstr ""
 "Paketin [2] tallentaminen välimuistiin epäonnistui. Virhe: [3]. Ota yhteys "
 "tukihenkilöihin."
 
-#: En.Win32.Release.Error-2.idtx:61 En.x64.Release.Error-2.idtx:61
+#: En.Win32.Debug.Error-2.idtx:61 En.Win32.Release.Error-2.idtx:61
+#: En.x64.Debug.Error-2.idtx:61 En.x64.Release.Error-2.idtx:61
 msgid "Failed to correctly copy [2] file: CRC error."
 msgstr "Tiedoston [2] kopiointi ei onnistunut oikein: CRC-virhe."
 
-#: En.Win32.Release.Error-2.idtx:62 En.x64.Release.Error-2.idtx:62
+#: En.Win32.Debug.Error-2.idtx:62 En.Win32.Release.Error-2.idtx:62
+#: En.x64.Debug.Error-2.idtx:62 En.x64.Release.Error-2.idtx:62
 msgid "Failed to correctly move [2] file: CRC error."
 msgstr "Tiedoston [2] siirtäminen ei onnistunut oikein: CRC-virhe."
 
-#: En.Win32.Release.Error-2.idtx:63 En.x64.Release.Error-2.idtx:63
+#: En.Win32.Debug.Error-2.idtx:63 En.Win32.Release.Error-2.idtx:63
+#: En.x64.Debug.Error-2.idtx:63 En.x64.Release.Error-2.idtx:63
 msgid "Failed to correctly patch [2] file: CRC error."
 msgstr "Tiedoston [2] päivittäminen ei onnistunut oikein: CRC-virhe."
 
-#: En.Win32.Release.Error-2.idtx:108 En.x64.Release.Error-2.idtx:108
+#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Debug.ActionText-2.idtx:62
+#: En.Win32.Release.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:62
+#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Debug.ActionText-2.idtx:62
+#: En.x64.Release.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:62
+msgid "Feature: [1]"
+msgstr "Ominaisuus: [1]"
+
+#: En.Win32.Debug.Error-2.idtx:108 En.Win32.Release.Error-2.idtx:108
+#: En.x64.Debug.Error-2.idtx:108 En.x64.Release.Error-2.idtx:108
 msgid "File [2] was rejected by digital signature policy."
 msgstr "Digitaalinen allekirjoitus -käytäntö hylkäsi tiedoston [2]."
 
-#: En.Win32.Release.Error-2.idtx:25 En.x64.Release.Error-2.idtx:25
+#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Debug.ActionText-2.idtx:7
+#: En.Win32.Release.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:7
+#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Debug.ActionText-2.idtx:7
+#: En.x64.Release.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:7
+msgid "File: [1]"
+msgstr "Tiedosto: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
+#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
+msgid "File: [1], Dependencies: [2]"
+msgstr "Tiedosto: [1], riippuvuudet: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Debug.ActionText-2.idtx:56
+#: En.Win32.Release.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:56
+#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Debug.ActionText-2.idtx:56
+#: En.x64.Release.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:56
+msgid "File: [1], Folder: [2]"
+msgstr "Tiedosto: [1], kansio: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
+#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
+msgid "File: [1], Folder: [2], Size: [3]"
+msgstr "Tiedosto: [1], kansio: [2], koko: [3]"
+
+#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Debug.ActionText-2.idtx:46
+#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:43
+#: En.Win32.Release.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:60
+#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Debug.ActionText-2.idtx:46
+#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:43
+#: En.x64.Release.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:60
+msgid "File: [1], Folder: [9]"
+msgstr "Tiedosto: [1], kansio: [9]"
+
+#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Debug.ActionText-2.idtx:18
+#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Debug.ActionText-2.idtx:26
+#: En.Win32.Release.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:18
+#: En.Win32.Release.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:26
+#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Debug.ActionText-2.idtx:18
+#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Debug.ActionText-2.idtx:26
+#: En.x64.Release.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:18
+#: En.x64.Release.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:26
+msgid "File: [1], Folder: [9], Size: [6]"
+msgstr "Tiedosto: [1], kansio: [9], koko: [6]"
+
+#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Debug.ActionText-2.idtx:72
+#: En.Win32.Release.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:72
+#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Debug.ActionText-2.idtx:72
+#: En.x64.Release.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:72
+msgid "File: [1], Section: [2], Key: [3], Value: [4]"
+msgstr "Tiedosto: [1], osa: [2], avain: [3], arvo: [4]"
+
+#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Debug.ActionText-2.idtx:47
+#: En.Win32.Release.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:47
+#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Debug.ActionText-2.idtx:47
+#: En.x64.Release.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:47
+msgid "Folder: [1]"
+msgstr "Kansio: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Debug.ActionText-2.idtx:67
+#: En.Win32.Release.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:67
+#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Debug.ActionText-2.idtx:67
+#: En.x64.Release.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:67
+msgid "Font: [1]"
+msgstr "Fontti: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
+#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
+msgid "Found application: [1]"
+msgstr "Löydetty sovellus: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
+#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+msgid "Free space: [1]"
+msgstr "Vapaata tilaa: [1]"
+
+#: En.Win32.Debug.Error-2.idtx:25 En.Win32.Release.Error-2.idtx:25
+#: En.x64.Debug.Error-2.idtx:25 En.x64.Release.Error-2.idtx:25
 msgid "Gathering required information..."
 msgstr "Kerätään tietoja..."
 
-#: En.Win32.Release.Error-2.idtx:8 En.x64.Release.Error-2.idtx:8
+#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:17
+#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:17
+msgid "Generating script operations for action:"
+msgstr "Luodaan komentosarjatoimintoja toiminnolle:"
+
+#: En.Win32.Debug.Error-2.idtx:8 En.Win32.Release.Error-2.idtx:8
+#: En.x64.Debug.Error-2.idtx:8 En.x64.Release.Error-2.idtx:8
 msgid "Info [1]. "
 msgstr "Tietoja [1]. "
 
-#: En.Win32.Release.Error-2.idtx:97 En.x64.Release.Error-2.idtx:97
+#: En.Win32.Debug.ActionText-2.idtx:57 En.Win32.Release.ActionText-2.idtx:57
+#: En.x64.Debug.ActionText-2.idtx:57 En.x64.Release.ActionText-2.idtx:57
+msgid "Initializing ODBC folders"
+msgstr "Alustetaan ODBC-kansioita"
+
+#: En.Win32.Debug.Error-2.idtx:97 En.Win32.Release.Error-2.idtx:97
+#: En.x64.Debug.Error-2.idtx:97 En.x64.Release.Error-2.idtx:97
 msgid "Installation completed successfully."
 msgstr "Asennus on valmis."
 
-#: En.Win32.Release.Error-2.idtx:98 En.x64.Release.Error-2.idtx:98
+#: En.Win32.Debug.Error-2.idtx:98 En.Win32.Release.Error-2.idtx:98
+#: En.x64.Debug.Error-2.idtx:98 En.x64.Release.Error-2.idtx:98
 msgid "Installation failed."
 msgstr "Asennus epäonnistui."
 
-#: En.Win32.Release.Error-2.idtx:105 En.x64.Release.Error-2.idtx:105
+#: En.Win32.Debug.Error-2.idtx:105 En.Win32.Release.Error-2.idtx:105
+#: En.x64.Debug.Error-2.idtx:105 En.x64.Release.Error-2.idtx:105
 msgid "Installed [2]"
 msgstr "Asennettu [2]"
 
-#: En.Win32.Release.Error-2.idtx:22 En.x64.Release.Error-2.idtx:22
+#: En.Win32.Debug.Error-2.idtx:22 En.Win32.Release.Error-2.idtx:22
+#: En.x64.Debug.Error-2.idtx:22 En.x64.Release.Error-2.idtx:22
 msgid "Installer is no longer responding."
 msgstr "Asennusohjelma ei vastaa."
 
-#: En.Win32.Release.Error-2.idtx:23 En.x64.Release.Error-2.idtx:23
+#: En.Win32.Debug.Error-2.idtx:23 En.Win32.Release.Error-2.idtx:23
+#: En.x64.Debug.Error-2.idtx:23 En.x64.Release.Error-2.idtx:23
 msgid "Installer stopped prematurely."
 msgstr "Asennusohjelma keskeytyi ennenaikaisesti."
 
-#: En.Win32.Release.Error-2.idtx:57 En.x64.Release.Error-2.idtx:57
+#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
+#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
+msgid "Installing new services"
+msgstr "Asennetaan uusia palveluja"
+
+#: En.Win32.Debug.ActionText-2.idtx:20 En.Win32.Release.ActionText-2.idtx:20
+#: En.x64.Debug.ActionText-2.idtx:20 En.x64.Release.ActionText-2.idtx:20
+msgid "Installing ODBC components"
+msgstr "Asennetaan ODBC-komponentteja"
+
+#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
+#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
+msgid "Installing system catalog"
+msgstr "Asennetaan järjestelmäluetteloa"
+
+#: En.Win32.Debug.Error-2.idtx:57 En.Win32.Release.Error-2.idtx:57
+#: En.x64.Debug.Error-2.idtx:57 En.x64.Release.Error-2.idtx:57
 msgid "Invalid Drive: [2]"
 msgstr "Asema ei kelpaa: [2]"
 
-#: En.Win32.Release.Error-2.idtx:15 En.x64.Release.Error-2.idtx:15
+#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
+#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
+msgid "Key: [1], Name: [2]"
+msgstr "Avain: [1], nimi: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
+#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
+msgid "Key: [1], Name: [2], Value: [3]"
+msgstr "Avain: [1], nimi: [2], arvo: [3]"
+
+#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Debug.ActionText-2.idtx:70
+#: En.Win32.Release.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:70
+#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Debug.ActionText-2.idtx:70
+#: En.x64.Release.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:70
+msgid "LibID: [1]"
+msgstr "Kirjaston tunnus: [1]"
+
+#: En.Win32.Debug.Error-2.idtx:15 En.Win32.Release.Error-2.idtx:15
+#: En.x64.Debug.Error-2.idtx:15 En.x64.Release.Error-2.idtx:15
 msgid "Message type: [1], Argument: [2]"
 msgstr "Sanomatyyppi: [1], argumentti: [2]"
 
-#: En.Win32.Release.Error-2.idtx:131 En.x64.Release.Error-2.idtx:131
+#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
+#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
+msgid "Migrating feature states from related applications"
+msgstr "Päivitetään ominaisuuksien tiloja muista sovelluksista"
+
+#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Debug.ActionText-2.idtx:68
+#: En.Win32.Release.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:68
+#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Debug.ActionText-2.idtx:68
+#: En.x64.Release.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:68
+msgid "MIME Content Type: [1], Extension: [2]"
+msgstr "MIME-sisältötyyppi: [1], laajennus: [2]"
+
+#: En.Win32.Debug.Error-2.idtx:131 En.Win32.Release.Error-2.idtx:131
+#: En.x64.Debug.Error-2.idtx:131 En.x64.Release.Error-2.idtx:131
 msgid ""
 "Module [2] failed to register. HRESULT [3]. Contact your support personnel."
 msgstr ""
 "Moduulin [2] rekisteröiminen epäonnistui. HRESULT [3]. Ota yhteys "
 "tukihenkilöihin."
 
-#: En.Win32.Release.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
+#: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
+#: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
 msgid ""
 "Module [2] failed to unregister. HRESULT [3]. Contact your support "
 "personnel."
@@ -642,7 +996,20 @@ msgstr ""
 "Moduulin [2] rekisteröinnin peruuttaminen epäonnistui. HRESULT [3]. Ota "
 "yhteys tukihenkilöihin."
 
-#: En.Win32.Release.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
+#: En.Win32.Debug.ActionText-2.idtx:26 En.Win32.Release.ActionText-2.idtx:26
+#: En.x64.Debug.ActionText-2.idtx:26 En.x64.Release.ActionText-2.idtx:26
+msgid "Moving files"
+msgstr "Siirretään tiedostoja"
+
+#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
+#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
+#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
+#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
+msgid "Name: [1], Value: [2], Action [3]"
+msgstr "Nimi: [1], arvo: [2], toiminto [3]"
+
+#: En.Win32.Debug.Error-2.idtx:102 En.Win32.Release.Error-2.idtx:102
+#: En.x64.Debug.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
 msgid ""
 "One or more of the files required to restore your computer to its previous "
 "state could not be found. Restoration will not be possible."
@@ -650,7 +1017,8 @@ msgstr ""
 "Yhtä tai useampaa tietokoneen edellisen tilan palauttamiseen tarvittua "
 "tiedostoa ei löydy. Palautus ei onnistu."
 
-#: En.Win32.Release.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
+#: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
+#: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
 msgid ""
 "Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
 " [4] KB. Free some disk space and retry."
@@ -658,44 +1026,197 @@ msgstr ""
 "Levytila on lopussa -- Levy: [2]; tilavaatimus: [3] kt; käytettävissä oleva "
 "tila: [4] kt. Vapauta levytilaa ja yritä uudelleen."
 
+#: En.Win32.Debug.Error-2.idtx:122 En.Win32.Debug.Error-2.idtx:21
 #: En.Win32.Release.Error-2.idtx:122 En.Win32.Release.Error-2.idtx:21
+#: En.x64.Debug.Error-2.idtx:122 En.x64.Debug.Error-2.idtx:21
 #: En.x64.Release.Error-2.idtx:122 En.x64.Release.Error-2.idtx:21
 msgid "Out of memory. Shut down other applications before retrying."
 msgstr "Liian vähän muistia. Sulje muut sovellukset ja yritä uudelleen."
 
-#: En.Win32.Release.Error-2.idtx:32 En.x64.Release.Error-2.idtx:32
+#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
+#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
+msgid "Patching files"
+msgstr "Korjataan tiedostoja"
+
+#: En.Win32.Debug.Error-2.idtx:32 En.Win32.Release.Error-2.idtx:32
+#: En.x64.Debug.Error-2.idtx:32 En.x64.Release.Error-2.idtx:32
 msgid "Please insert the disk: [2]"
 msgstr "Aseta levyke: [2]"
 
-#: En.Win32.Release.Error-2.idtx:24 En.x64.Release.Error-2.idtx:24
+#: En.Win32.Debug.Error-2.idtx:24 En.Win32.Release.Error-2.idtx:24
+#: En.x64.Debug.Error-2.idtx:24 En.x64.Release.Error-2.idtx:24
 msgid "Please wait while Windows configures [SimpleProductName]"
 msgstr "Odota. Windows määrittää [SimpleProductName]-kokoonpanoa."
 
-#: En.Win32.Release.Error-2.idtx:27 En.x64.Release.Error-2.idtx:27
+#: En.Win32.Debug.Error-2.idtx:27 En.Win32.Release.Error-2.idtx:27
+#: En.x64.Debug.Error-2.idtx:27 En.x64.Release.Error-2.idtx:27
 msgid "Preparing to remove older versions of this application..."
 msgstr "Valmistellaan tämän sovelluksen aiempien versioiden poistamista..."
 
-#: En.Win32.Release.Error-2.idtx:99 En.x64.Release.Error-2.idtx:99
+#: En.Win32.Debug.Error-2.idtx:99 En.Win32.Release.Error-2.idtx:99
+#: En.x64.Debug.Error-2.idtx:99 En.x64.Release.Error-2.idtx:99
 msgid "Product: [2] -- [3]"
 msgstr "Tuote: [2] -- [3]"
 
-#: En.Win32.Release.Error-2.idtx:114 En.x64.Release.Error-2.idtx:114
+#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Debug.ActionText-2.idtx:69
+#: En.Win32.Release.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:69
+#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Debug.ActionText-2.idtx:69
+#: En.x64.Release.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:69
+msgid "ProgId: [1]"
+msgstr "ProgId: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
+#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
+msgid "Property: [1], Signature: [2]"
+msgstr "Ominaisuus: [1], allekirjoitus: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:27
+#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:27
+msgid "Publishing assembly information"
+msgstr "Julkaistaan Assembly-tietoja"
+
+#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:32
+#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:32
+msgid "Publishing Product Features"
+msgstr "Julkaistaan tuotteen ominaisuuksia"
+
+#: En.Win32.Debug.ActionText-2.idtx:33 En.Win32.Release.ActionText-2.idtx:33
+#: En.x64.Debug.ActionText-2.idtx:33 En.x64.Release.ActionText-2.idtx:33
+msgid "Publishing product information"
+msgstr "Julkaistaan tuotetietoja"
+
+#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:31
+#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:31
+msgid "Publishing Qualified Components"
+msgstr "Julkaistaan valittuja komponentteja"
+
+#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:34
+#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:34
+msgid "Registering Class servers"
+msgstr "Rekisteröidään luokkapalvelimia"
+
+#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
+#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
+msgid "Registering COM+ Applications and Components"
+msgstr "Rekisteröidään COM+-sovelluksia ja -komponentteja"
+
+#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:36
+#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:36
+msgid "Registering extension servers"
+msgstr "Rekisteröidään laajennuspalvelimia"
+
+#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:37
+#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:37
+msgid "Registering fonts"
+msgstr "Rekisteröidään fontteja"
+
+#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:38
+#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:38
+msgid "Registering MIME info"
+msgstr "Rekisteröidään MIME-tietoja"
+
+#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:55
+#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:55
+msgid "Registering modules"
+msgstr "Rekisteröidään moduuleita"
+
+#: En.Win32.Debug.ActionText-2.idtx:39 En.Win32.Release.ActionText-2.idtx:39
+#: En.x64.Debug.ActionText-2.idtx:39 En.x64.Release.ActionText-2.idtx:39
+msgid "Registering product"
+msgstr "Rekisteröidään tuotetta"
+
+#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:40
+#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:40
+msgid "Registering program identifiers"
+msgstr "Rekisteröidään ohjelmatunnuksia"
+
+#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:41
+#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:41
+msgid "Registering type libraries"
+msgstr "Rekisteröidään tyyppikirjastoja"
+
+#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:42
+#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:42
+msgid "Registering user"
+msgstr "Rekisteröidään käyttäjää"
+
+#: En.Win32.Debug.Error-2.idtx:114 En.Win32.Release.Error-2.idtx:114
+#: En.x64.Debug.Error-2.idtx:114 En.x64.Release.Error-2.idtx:114
 msgid "Removal completed successfully."
 msgstr "Poistaminen tehtiin onnistuneesti."
 
-#: En.Win32.Release.Error-2.idtx:115 En.x64.Release.Error-2.idtx:115
+#: En.Win32.Debug.Error-2.idtx:115 En.Win32.Release.Error-2.idtx:115
+#: En.x64.Debug.Error-2.idtx:115 En.x64.Release.Error-2.idtx:115
 msgid "Removal failed."
 msgstr "Poistaminen epäonnistui."
 
-#: En.Win32.Release.Error-2.idtx:107 En.x64.Release.Error-2.idtx:107
+#: En.Win32.Debug.Error-2.idtx:107 En.Win32.Release.Error-2.idtx:107
+#: En.x64.Debug.Error-2.idtx:107 En.x64.Release.Error-2.idtx:107
 msgid "Removed [2]"
 msgstr "Poistettu [2]"
 
-#: En.Win32.Release.Error-2.idtx:26 En.x64.Release.Error-2.idtx:26
+#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
+#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
+msgid "Removing applications"
+msgstr "Poistetaan sovelluksia"
+
+#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:54
+#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:54
+msgid "Removing backup files"
+msgstr "Poistetaan varmuuskopiotiedostoja"
+
+#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Release.ActionText-2.idtx:43
+#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Release.ActionText-2.idtx:43
+msgid "Removing duplicated files"
+msgstr "Poistetaan tiedostojen kopioita"
+
+#: En.Win32.Debug.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:46
+#: En.x64.Debug.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:46
+msgid "Removing files"
+msgstr "Poistetaan tiedostoja"
+
+#: En.Win32.Debug.ActionText-2.idtx:47 En.Win32.Release.ActionText-2.idtx:47
+#: En.x64.Debug.ActionText-2.idtx:47 En.x64.Release.ActionText-2.idtx:47
+msgid "Removing folders"
+msgstr "Poistetaan kansioita"
+
+#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:48
+#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:48
+msgid "Removing INI files entries"
+msgstr "Poistetaan Ini-tiedostojen tietoja"
+
+#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:60
+#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:60
+msgid "Removing moved files"
+msgstr "Poistetaan siirrettyjä tiedostoja"
+
+#: En.Win32.Debug.ActionText-2.idtx:49 En.Win32.Release.ActionText-2.idtx:49
+#: En.x64.Debug.ActionText-2.idtx:49 En.x64.Release.ActionText-2.idtx:49
+msgid "Removing ODBC components"
+msgstr "Poistetaan ODBC-komponentteja"
+
+#: En.Win32.Debug.Error-2.idtx:26 En.Win32.Release.Error-2.idtx:26
+#: En.x64.Debug.Error-2.idtx:26 En.x64.Release.Error-2.idtx:26
 msgid "Removing older versions of this application..."
 msgstr "Poistetaan tämän sovelluksen aiempia versioita..."
 
-#: En.Win32.Release.Error-2.idtx:130 En.x64.Release.Error-2.idtx:130
+#: En.Win32.Debug.ActionText-2.idtx:51 En.Win32.Release.ActionText-2.idtx:51
+#: En.x64.Debug.ActionText-2.idtx:51 En.x64.Release.ActionText-2.idtx:51
+msgid "Removing shortcuts"
+msgstr "Poistetaan pikakuvakkeita"
+
+#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
+#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
+msgid "Removing system registry values"
+msgstr "Poistetaan järjestelmän rekisteriarvoja"
+
+#: En.Win32.Debug.ActionText-2.idtx:53 En.Win32.Release.ActionText-2.idtx:53
+#: En.x64.Debug.ActionText-2.idtx:53 En.x64.Release.ActionText-2.idtx:53
+msgid "Rolling back action:"
+msgstr "Peruutetaan toimintoa:"
+
+#: En.Win32.Debug.Error-2.idtx:130 En.Win32.Release.Error-2.idtx:130
+#: En.x64.Debug.Error-2.idtx:130 En.x64.Release.Error-2.idtx:130
 msgid ""
 "Scheduling reboot operation: Deleting file [2]. Must reboot to complete "
 "operation."
@@ -703,7 +1224,8 @@ msgstr ""
 "Uudelleenkäynnistystä aloitetaan: Tiedostoa [2] poistetaan. Toiminnon "
 "suorittaminen loppuun vaatii uudelleenkäynnistyksen."
 
-#: En.Win32.Release.Error-2.idtx:129 En.x64.Release.Error-2.idtx:129
+#: En.Win32.Debug.Error-2.idtx:129 En.Win32.Release.Error-2.idtx:129
+#: En.x64.Debug.Error-2.idtx:129 En.x64.Release.Error-2.idtx:129
 msgid ""
 "Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to "
 "complete operation."
@@ -711,7 +1233,25 @@ msgstr ""
 "Uudelleenkäynnistystä aloitetaan: Tiedoston [2] uudeksi nimeksi annetaan "
 "[3]. Toiminnon suorittaminen loppuun vaatii uudelleenkäynnistyksen."
 
-#: En.Win32.Release.Error-2.idtx:149 En.x64.Release.Error-2.idtx:149
+#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
+#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
+msgid "Searching for installed applications"
+msgstr "Etsitään asennettuja sovelluksia"
+
+#: En.Win32.Debug.ActionText-2.idtx:52 En.Win32.Debug.ActionText-2.idtx:8
+#: En.Win32.Release.ActionText-2.idtx:52 En.Win32.Release.ActionText-2.idtx:8
+#: En.x64.Debug.ActionText-2.idtx:52 En.x64.Debug.ActionText-2.idtx:8
+#: En.x64.Release.ActionText-2.idtx:52 En.x64.Release.ActionText-2.idtx:8
+msgid "Searching for qualifying products"
+msgstr "Etsitään vaatimukset täyttäviä tuotteita"
+
+#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
+#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
+msgid "Searching for related applications"
+msgstr "Etsitään tähän liittyviä sovelluksia"
+
+#: En.Win32.Debug.Error-2.idtx:149 En.Win32.Release.Error-2.idtx:149
+#: En.x64.Debug.Error-2.idtx:149 En.x64.Release.Error-2.idtx:149
 msgid ""
 "Service '[2]' ([3]) could not be deleted. Verify that you have sufficient "
 "privileges to remove system services."
@@ -719,7 +1259,8 @@ msgstr ""
 "Palvelun [2] ([3]) poistaminen epäonnistui. Varmista, että sinulla on "
 "riittävät oikeudet järjestelmäpalveluiden poistamiseen."
 
-#: En.Win32.Release.Error-2.idtx:150 En.x64.Release.Error-2.idtx:150
+#: En.Win32.Debug.Error-2.idtx:150 En.Win32.Release.Error-2.idtx:150
+#: En.x64.Debug.Error-2.idtx:150 En.x64.Release.Error-2.idtx:150
 msgid ""
 "Service '[2]' ([3]) could not be installed. Verify that you have sufficient "
 "privileges to install system services."
@@ -727,7 +1268,8 @@ msgstr ""
 "Palvelun [2] ([3]) asentaminen epäonnistui. Varmista, että sinulla on "
 "riittävät oikeudet järjestelmäpalveluiden asentamiseen."
 
-#: En.Win32.Release.Error-2.idtx:148 En.x64.Release.Error-2.idtx:148
+#: En.Win32.Debug.Error-2.idtx:148 En.Win32.Release.Error-2.idtx:148
+#: En.x64.Debug.Error-2.idtx:148 En.x64.Release.Error-2.idtx:148
 msgid ""
 "Service '[2]' ([3]) could not be stopped. Verify that you have sufficient "
 "privileges to stop system services."
@@ -735,7 +1277,8 @@ msgstr ""
 "Palvelun [2] ([3]) lopettaminen epäonnistui. Varmista, että sinulla on "
 "riittävät oikeudet järjestelmäpalveluiden lopettamiseen."
 
-#: En.Win32.Release.Error-2.idtx:147 En.x64.Release.Error-2.idtx:147
+#: En.Win32.Debug.Error-2.idtx:147 En.Win32.Release.Error-2.idtx:147
+#: En.x64.Debug.Error-2.idtx:147 En.x64.Release.Error-2.idtx:147
 msgid ""
 "Service '[2]' ([3]) failed to start. Verify that you have sufficient "
 "privileges to start system services."
@@ -743,7 +1286,29 @@ msgstr ""
 "Palvelun [2] ([3]) aloittaminen epäonnistui. Varmista, että sinulla on "
 "riittävät oikeudet järjestelmäpalveluiden aloittamiseen."
 
-#: En.Win32.Release.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
+#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Debug.ActionText-2.idtx:58
+#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:13
+#: En.Win32.Release.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:59
+#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Debug.ActionText-2.idtx:58
+#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:13
+#: En.x64.Release.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:59
+msgid "Service: [1]"
+msgstr "Palvelu: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
+#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
+msgid "Service: [2]"
+msgstr "Palvelu: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Debug.ActionText-2.idtx:51
+#: En.Win32.Release.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:51
+#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Debug.ActionText-2.idtx:51
+#: En.x64.Release.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:51
+msgid "Shortcut: [1]"
+msgstr "Pikakuvake: [1]"
+
+#: En.Win32.Debug.Error-2.idtx:38 En.Win32.Release.Error-2.idtx:38
+#: En.x64.Debug.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
 msgid ""
 "Source file not found: [2]. Verify that the file exists and that you can "
 "access it."
@@ -751,7 +1316,8 @@ msgstr ""
 "Lähdetiedostoa ei löydy: [2]. Varmista, että tiedosto on olemassa ja että "
 "voit käyttää sitä."
 
-#: En.Win32.Release.Error-2.idtx:41 En.x64.Release.Error-2.idtx:41
+#: En.Win32.Debug.Error-2.idtx:41 En.Win32.Release.Error-2.idtx:41
+#: En.x64.Debug.Error-2.idtx:41 En.x64.Release.Error-2.idtx:41
 msgid ""
 "Source file not found{{(cabinet)}}: [2]. Verify that the file exists and "
 "that you can access it."
@@ -759,7 +1325,18 @@ msgstr ""
 "Lähdetiedostoa ei löydy {{(Cab-tiedosto)}}: [2]. Varmista, että tiedosto on "
 "olemassa ja että voit käyttää sitä."
 
-#: En.Win32.Release.Error-2.idtx:65 En.x64.Release.Error-2.idtx:65
+#: En.Win32.Debug.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:58
+#: En.x64.Debug.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:58
+msgid "Starting services"
+msgstr "Aloitetaan palveluita"
+
+#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:59
+#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:59
+msgid "Stopping services"
+msgstr "Lopetetaan palveluita"
+
+#: En.Win32.Debug.Error-2.idtx:65 En.Win32.Release.Error-2.idtx:65
+#: En.x64.Debug.Error-2.idtx:65 En.x64.Release.Error-2.idtx:65
 msgid ""
 "The cabinet file '[2]' required for this installation is corrupt and cannot "
 "be used. This could indicate a network error, an error reading from the CD-"
@@ -769,11 +1346,13 @@ msgstr ""
 "käyttää. Tämä saattaa johtua verkkovirheestä, CD-levyn lukuvirheestä tai "
 "paketin viallisuudesta."
 
-#: En.Win32.Release.Error-2.idtx:157 En.x64.Release.Error-2.idtx:157
+#: En.Win32.Debug.Error-2.idtx:157 En.Win32.Release.Error-2.idtx:157
+#: En.x64.Debug.Error-2.idtx:157 En.x64.Release.Error-2.idtx:157
 msgid "The description for service '[2]' ([3]) could not be changed."
 msgstr "Palvelun [2] ([3]) kuvausta ei voi muuttaa."
 
-#: En.Win32.Release.Error-2.idtx:64 En.x64.Release.Error-2.idtx:64
+#: En.Win32.Debug.Error-2.idtx:64 En.Win32.Release.Error-2.idtx:64
+#: En.x64.Debug.Error-2.idtx:64 En.x64.Release.Error-2.idtx:64
 msgid ""
 "The file '[2]' cannot be installed because the file cannot be found in "
 "cabinet file '[3]'. This could indicate a network error, an error reading "
@@ -783,7 +1362,8 @@ msgstr ""
 "saattaa johtua verkkovirheestä, CD-levyn lukuvirheestä tai paketin "
 "viallisuudesta."
 
-#: En.Win32.Release.Error-2.idtx:83 En.x64.Release.Error-2.idtx:83
+#: En.Win32.Debug.Error-2.idtx:83 En.Win32.Release.Error-2.idtx:83
+#: En.x64.Debug.Error-2.idtx:83 En.x64.Release.Error-2.idtx:83
 msgid ""
 "The file [2][3] is being held in use{ by the following process: Name: [4], "
 "Id: [5], Window Title: '[6]'}. Close that application and retry."
@@ -791,27 +1371,32 @@ msgstr ""
 "Tiedostoa [2][3] käyttää{ seuraava prosessi: Nimi: [4], tunnus: [5], ikkunan"
 " otsikko: [6]}. Sulje sovellus ja yritä uudelleen."
 
-#: En.Win32.Release.Error-2.idtx:125 En.x64.Release.Error-2.idtx:125
+#: En.Win32.Debug.Error-2.idtx:125 En.Win32.Release.Error-2.idtx:125
+#: En.x64.Debug.Error-2.idtx:125 En.x64.Release.Error-2.idtx:125
 msgid ""
 "The folder [2] does not exist. Please enter a path to an existing folder."
 msgstr "Kansiota [2] ei ole. Kirjoita olemassa olevan kansion polku."
 
-#: En.Win32.Release.Error-2.idtx:54 En.x64.Release.Error-2.idtx:54
+#: En.Win32.Debug.Error-2.idtx:54 En.Win32.Release.Error-2.idtx:54
+#: En.x64.Debug.Error-2.idtx:54 En.x64.Release.Error-2.idtx:54
 msgid "The folder path '[2]' contains an invalid character."
 msgstr "Kansion polku [2] sisältää merkin, joka ei kelpaa."
 
-#: En.Win32.Release.Error-2.idtx:53 En.x64.Release.Error-2.idtx:53
+#: En.Win32.Debug.Error-2.idtx:53 En.Win32.Release.Error-2.idtx:53
+#: En.x64.Debug.Error-2.idtx:53 En.x64.Release.Error-2.idtx:53
 msgid ""
 "The folder path '[2]' contains words that are not valid in folder paths."
 msgstr ""
 "Kansion polku [2] sisältää sanoja, joita ei sallita kansioiden poluissa."
 
-#: En.Win32.Release.Error-2.idtx:87 En.x64.Release.Error-2.idtx:87
+#: En.Win32.Debug.Error-2.idtx:87 En.Win32.Release.Error-2.idtx:87
+#: En.x64.Debug.Error-2.idtx:87 En.x64.Release.Error-2.idtx:87
 msgid ""
 "The following applications should be closed before continuing the install:"
 msgstr "Seuraavat sovellukset tulee sulkea ennen asennuksen jatkamista:"
 
-#: En.Win32.Release.Error-2.idtx:9 En.x64.Release.Error-2.idtx:9
+#: En.Win32.Debug.Error-2.idtx:9 En.Win32.Release.Error-2.idtx:9
+#: En.x64.Debug.Error-2.idtx:9 En.x64.Release.Error-2.idtx:9
 msgid ""
 "The installer has encountered an unexpected error installing this package. "
 "This may indicate a problem with this package. The error code is [1]. {{The "
@@ -821,7 +1406,8 @@ msgstr ""
 "Paketti saattaa olla viallinen. Virhekoodi: [1]. {{Argumentit: [2], [3], "
 "[4]}}"
 
-#: En.Win32.Release.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
+#: En.Win32.Debug.Error-2.idtx:33 En.Win32.Release.Error-2.idtx:33
+#: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
 msgid ""
 "The installer has insufficient privileges to access this folder: [2]. The "
 "installation cannot continue. Log on as administrator or contact your system"
@@ -831,12 +1417,14 @@ msgstr ""
 "Asennus ei voi jatkua. Kirjaudu sisään järjestelmänvalvojana tai ota yhteys "
 "järjestelmänvalvojaan."
 
-#: En.Win32.Release.Error-2.idtx:51 En.x64.Release.Error-2.idtx:51
+#: En.Win32.Debug.Error-2.idtx:51 En.Win32.Release.Error-2.idtx:51
+#: En.x64.Debug.Error-2.idtx:51 En.x64.Release.Error-2.idtx:51
 msgid "The Installer has insufficient privileges to modify this file: [2]."
 msgstr ""
 "Asennusohjelmalla ei ole tiedoston muokkaukseen tarvittavia oikeuksia: [2]."
 
-#: En.Win32.Release.Error-2.idtx:92 En.x64.Release.Error-2.idtx:92
+#: En.Win32.Debug.Error-2.idtx:92 En.Win32.Release.Error-2.idtx:92
+#: En.x64.Debug.Error-2.idtx:92 En.x64.Release.Error-2.idtx:92
 msgid ""
 "The installer must restart your system before configuration of [2] can "
 "continue. Click Yes to restart now or No if you plan to manually restart "
@@ -847,11 +1435,13 @@ msgstr ""
 "järjestelmän uudelleen, tai valitse Ei, jos haluat tehdä "
 "uudelleenkäynnistyksen myöhemmin manuaalisesti."
 
-#: En.Win32.Release.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
+#: En.Win32.Debug.Error-2.idtx:91 En.Win32.Release.Error-2.idtx:91
+#: En.x64.Debug.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
 msgid "The key [2] is not valid. Verify that you entered the correct key."
 msgstr "Avain [2] ei kelpaa. Varmista, että olet syöttänyt oikean avaimen."
 
-#: En.Win32.Release.Error-2.idtx:104 En.x64.Release.Error-2.idtx:104
+#: En.Win32.Debug.Error-2.idtx:104 En.Win32.Release.Error-2.idtx:104
+#: En.x64.Debug.Error-2.idtx:104 En.x64.Release.Error-2.idtx:104
 msgid ""
 "The older version of [2] cannot be removed. Contact your technical support "
 "group. {{System Error [3].}}"
@@ -859,11 +1449,13 @@ msgstr ""
 "Tuotteen [2] aiempaa versiota ei voi poistaa. Ota yhteys tekniseen tukeen. "
 "{{Järjestelmävirhe [3].}}"
 
-#: En.Win32.Release.Error-2.idtx:121 En.x64.Release.Error-2.idtx:121
+#: En.Win32.Debug.Error-2.idtx:121 En.Win32.Release.Error-2.idtx:121
+#: En.x64.Debug.Error-2.idtx:121 En.x64.Release.Error-2.idtx:121
 msgid "The path [2] is not valid. Please specify a valid path."
 msgstr "Polku [2] ei kelpaa. Määritä kelvollinen polku."
 
-#: En.Win32.Release.Error-2.idtx:84 En.x64.Release.Error-2.idtx:84
+#: En.Win32.Debug.Error-2.idtx:84 En.Win32.Release.Error-2.idtx:84
+#: En.x64.Debug.Error-2.idtx:84 En.x64.Release.Error-2.idtx:84
 msgid ""
 "The product '[2]' is already installed, preventing the installation of this "
 "product. The two products are incompatible."
@@ -871,19 +1463,23 @@ msgstr ""
 "Tuote [2] on jo asennettu ja estää tämän tuotteen asennuksen. Tuotteet eivät"
 " ole yhteensopivia."
 
-#: En.Win32.Release.Error-2.idtx:44 En.x64.Release.Error-2.idtx:44
+#: En.Win32.Debug.Error-2.idtx:44 En.Win32.Release.Error-2.idtx:44
+#: En.x64.Debug.Error-2.idtx:44 En.x64.Release.Error-2.idtx:44
 msgid "The specified path '[2]' is unavailable."
 msgstr "Polku [2] ei ole käytettävissä."
 
-#: En.Win32.Release.Error-2.idtx:50 En.x64.Release.Error-2.idtx:50
+#: En.Win32.Debug.Error-2.idtx:50 En.Win32.Release.Error-2.idtx:50
+#: En.x64.Debug.Error-2.idtx:50 En.x64.Release.Error-2.idtx:50
 msgid "The specified path is too long: [2]"
 msgstr "Määritetty polku on liian pitkä: [2]"
 
-#: En.Win32.Release.Error-2.idtx:43 En.x64.Release.Error-2.idtx:43
+#: En.Win32.Debug.Error-2.idtx:43 En.Win32.Release.Error-2.idtx:43
+#: En.x64.Debug.Error-2.idtx:43 En.x64.Release.Error-2.idtx:43
 msgid "The volume [2] is currently unavailable. Please select another."
 msgstr "Levy [2] ei ole tällä hetkellä käytettävissä. Valitse toinen levy."
 
-#: En.Win32.Release.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
+#: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
+#: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
 msgid ""
 "The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2]. List of protected files:\n"
 "[3]}}"
@@ -891,7 +1487,8 @@ msgstr ""
 "Windows Installer -palvelu ei voi päivittää vähintään yhtä suojattua Windows-tiedostoa. {{SFP-virhe: [2]. Suojatut tiedostot:\n"
 "[3]}}"
 
-#: En.Win32.Release.Error-2.idtx:159 En.x64.Release.Error-2.idtx:159
+#: En.Win32.Debug.Error-2.idtx:159 En.Win32.Release.Error-2.idtx:159
+#: En.x64.Debug.Error-2.idtx:159 En.x64.Release.Error-2.idtx:159
 msgid ""
 "The Windows Installer service cannot update the protected Windows file [2]. "
 "{{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
@@ -900,7 +1497,8 @@ msgstr ""
 " {{Pakkauksen versio: [3], käyttöjärjestelmän suojaama versio: [4], SFP-"
 "virhe: [5]}}"
 
-#: En.Win32.Release.Error-2.idtx:158 En.x64.Release.Error-2.idtx:158
+#: En.Win32.Debug.Error-2.idtx:158 En.Win32.Release.Error-2.idtx:158
+#: En.x64.Debug.Error-2.idtx:158 En.x64.Release.Error-2.idtx:158
 msgid ""
 "The Windows Installer service cannot update the system file [2] because the "
 "file is protected by Windows. You may need to update your operating system "
@@ -912,7 +1510,8 @@ msgstr ""
 "käyttöjärjestelmä, jotta tämä ohjelma toimisi oikein. {{Pakkauksen versio: "
 "[3], käyttöjärjestelmän suojaama versio: [4]}}"
 
-#: En.Win32.Release.Error-2.idtx:109 En.x64.Release.Error-2.idtx:109
+#: En.Win32.Debug.Error-2.idtx:109 En.Win32.Release.Error-2.idtx:109
+#: En.x64.Debug.Error-2.idtx:109 En.x64.Release.Error-2.idtx:109
 msgid ""
 "The Windows Installer Service could not be accessed. This can occur if you "
 "are running Windows in safe mode, or if the Windows Installer is not "
@@ -922,7 +1521,8 @@ msgstr ""
 "tai Windows Installerin viallinen asennus saattaa estää käyttämisen. Ota "
 "yhteys tukihenkilöön tarvittaessa."
 
-#: En.Win32.Release.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
+#: En.Win32.Debug.Error-2.idtx:113 En.Win32.Release.Error-2.idtx:113
+#: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
 msgid ""
 "There is a problem with this Windows Installer package. A DLL required for "
 "this install to complete could not be run. Contact your support personnel or"
@@ -932,7 +1532,8 @@ msgstr ""
 "ei voitu suorittaa. Ota yhteys tukihenkilöön tai paketin toimittajaan. "
 "{{Toiminto [2], määrite: [3], kirjasto: [4] }}"
 
-#: En.Win32.Release.Error-2.idtx:111 En.x64.Release.Error-2.idtx:111
+#: En.Win32.Debug.Error-2.idtx:111 En.Win32.Release.Error-2.idtx:111
+#: En.x64.Debug.Error-2.idtx:111 En.x64.Release.Error-2.idtx:111
 msgid ""
 "There is a problem with this Windows Installer package. A program required "
 "for this install to complete could not be run. Contact your support "
@@ -942,7 +1543,8 @@ msgstr ""
 "voitu suorittaa. Ota yhteys tukihenkilöön tai paketin toimittajaan. "
 "{{Toiminto: [2], sijainti: [3], komento: [4] }}"
 
-#: En.Win32.Release.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
+#: En.Win32.Debug.Error-2.idtx:112 En.Win32.Release.Error-2.idtx:112
+#: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
 msgid ""
 "There is a problem with this Windows Installer package. A program run as "
 "part of the setup did not finish as expected. Contact your support personnel"
@@ -952,7 +1554,8 @@ msgstr ""
 " päättänyt osaansa odotetusti. Ota yhteys tukihenkilöön tai paketin "
 "toimittajaan. {{Toiminto [2], sijainti: [3], komento: [4] }}"
 
-#: En.Win32.Release.Error-2.idtx:110 En.x64.Release.Error-2.idtx:110
+#: En.Win32.Debug.Error-2.idtx:110 En.Win32.Release.Error-2.idtx:110
+#: En.x64.Debug.Error-2.idtx:110 En.x64.Release.Error-2.idtx:110
 msgid ""
 "There is a problem with this Windows Installer package. A script required "
 "for this install to complete could not be run. Contact your support "
@@ -964,7 +1567,8 @@ msgstr ""
 "{{Mukautettu toiminto [2] komentosarjavirhe [3], [4]: [5] rivi [6], sarake "
 "[7], [8] }}"
 
-#: En.Win32.Release.Error-2.idtx:123 En.x64.Release.Error-2.idtx:123
+#: En.Win32.Debug.Error-2.idtx:123 En.Win32.Release.Error-2.idtx:123
+#: En.x64.Debug.Error-2.idtx:123 En.x64.Release.Error-2.idtx:123
 msgid ""
 "There is no disk in drive [2]. Please insert one and click Retry, or click "
 "Cancel to go back to the previously selected volume."
@@ -972,7 +1576,8 @@ msgstr ""
 "Asemassa [2] ei ole levyä. Aseta asemaan levy ja valitse Uudelleen tai palaa"
 " edelliseen valittuun levyyn valitsemalla Peruuta."
 
-#: En.Win32.Release.Error-2.idtx:124 En.x64.Release.Error-2.idtx:124
+#: En.Win32.Debug.Error-2.idtx:124 En.Win32.Release.Error-2.idtx:124
+#: En.x64.Debug.Error-2.idtx:124 En.x64.Release.Error-2.idtx:124
 msgid ""
 "There is no disk in drive [2]. Please insert one and click Retry, or click "
 "Cancel to return to the browse dialog and select a different volume."
@@ -980,7 +1585,8 @@ msgstr ""
 "Asemassa [2] ei ole levyä. Aseta asemaan levy ja valitse Uudelleen tai "
 "valitse Peruuta, jolloin palaat selausikkunaan ja voit valita uuden levyn."
 
-#: En.Win32.Release.Error-2.idtx:85 En.x64.Release.Error-2.idtx:85
+#: En.Win32.Debug.Error-2.idtx:85 En.Win32.Release.Error-2.idtx:85
+#: En.x64.Debug.Error-2.idtx:85 En.x64.Release.Error-2.idtx:85
 msgid ""
 "There is not enough disk space on the volume '[2]' to continue the install "
 "with recovery enabled. [3] KB are required, but only [4] KB are available. "
@@ -994,7 +1600,8 @@ msgstr ""
 "valitsemalla Ohita, tarkista käytettävissä oleva levytila uudelleen "
 "valitsemalla Uudelleen tai keskeytä asentaminen valitsemalla Peruuta."
 
-#: En.Win32.Release.Error-2.idtx:37 En.x64.Release.Error-2.idtx:37
+#: En.Win32.Debug.Error-2.idtx:37 En.Win32.Release.Error-2.idtx:37
+#: En.x64.Debug.Error-2.idtx:37 En.x64.Release.Error-2.idtx:37
 msgid ""
 "There is not enough disk space to install this file: [2]. Free some disk "
 "space and click Retry, or click Cancel to exit."
@@ -1002,7 +1609,8 @@ msgstr ""
 "Levytila ei riitä tätä tiedostoa varten: [2]. Vapauta levytilaa ja valitse "
 "Uudelleen tai poistu valitsemalla Peruuta."
 
-#: En.Win32.Release.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
+#: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
+#: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
 msgid ""
 "There was an error creating a temporary file that is needed to complete this"
 " installation.{{ Folder: [3]. System error code: [2]}}"
@@ -1010,33 +1618,111 @@ msgstr ""
 "Virhe asennukseen tarvittavan tilapäistiedoston luomisessa.{{ Folder: [3]. "
 "Järjestelmän virhekoodi: [2]}}"
 
-#: En.Win32.Release.Error-2.idtx:90 En.x64.Release.Error-2.idtx:90
+#: En.Win32.Debug.Error-2.idtx:90 En.Win32.Release.Error-2.idtx:90
+#: En.x64.Debug.Error-2.idtx:90 En.x64.Release.Error-2.idtx:90
 msgid ""
 "This installation package is not supported on this platform. Contact your "
 "application vendor."
 msgstr ""
 
-#: En.Win32.Release.CustomAction-2.idtx:6 En.x64.Release.CustomAction-2.idtx:5
+#: En.Win32.Debug.CustomAction-2.idtx:6 En.Win32.Release.CustomAction-2.idtx:6
+#: En.x64.Debug.CustomAction-2.idtx:5 En.x64.Release.CustomAction-2.idtx:5
 msgid ""
 "This package cannot upgrade the currently installed [SimpleProductName]. "
 "Please remove the old package first and retry."
 msgstr ""
 
-#: En.Win32.Release.Error-2.idtx:164 En.x64.Release.Error-2.idtx:164
+#: En.Win32.Debug.Error-2.idtx:164 En.Win32.Release.Error-2.idtx:164
+#: En.x64.Debug.Error-2.idtx:164 En.x64.Release.Error-2.idtx:164
 msgid ""
 "This version of Windows does not support deploying 64-bit packages. The "
 "script [2] is for a 64-bit package."
 msgstr ""
 
-#: En.Win32.Release.Error-2.idtx:20 En.x64.Release.Error-2.idtx:20
+#: En.Win32.Debug.Error-2.idtx:20 En.Win32.Release.Error-2.idtx:20
+#: En.x64.Debug.Error-2.idtx:20 En.x64.Release.Error-2.idtx:20
 msgid "Time remaining: {[1] minutes }{[2] seconds}"
 msgstr "Jäljellä oleva aika: {[1] minuuttia }{[2] sekuntia}"
 
-#: En.Win32.Release.Error-2.idtx:45 En.x64.Release.Error-2.idtx:45
+#: En.Win32.Debug.Error-2.idtx:45 En.Win32.Release.Error-2.idtx:45
+#: En.x64.Debug.Error-2.idtx:45 En.x64.Release.Error-2.idtx:45
 msgid "Unable to write to the specified folder: [2]."
 msgstr "Kansioon [2] ei voi kirjoittaa."
 
-#: En.Win32.Release.Error-2.idtx:80 En.x64.Release.Error-2.idtx:80
+#: En.Win32.Debug.ActionText-2.idtx:28 En.Win32.Release.ActionText-2.idtx:28
+#: En.x64.Debug.ActionText-2.idtx:28 En.x64.Release.ActionText-2.idtx:28
+msgid "Unpublishing assembly information"
+msgstr "Peruutetaan Assembly-tietojen julkaisemista"
+
+#: En.Win32.Debug.ActionText-2.idtx:62 En.Win32.Release.ActionText-2.idtx:62
+#: En.x64.Debug.ActionText-2.idtx:62 En.x64.Release.ActionText-2.idtx:62
+msgid "Unpublishing Product Features"
+msgstr "Peruutetaan tuoteominaisuuksien julkaisemista"
+
+#: En.Win32.Debug.ActionText-2.idtx:63 En.Win32.Release.ActionText-2.idtx:63
+#: En.x64.Debug.ActionText-2.idtx:63 En.x64.Release.ActionText-2.idtx:63
+msgid "Unpublishing product information"
+msgstr "Peruutetaan tuotetietojen julkaisemista"
+
+#: En.Win32.Debug.ActionText-2.idtx:61 En.Win32.Release.ActionText-2.idtx:61
+#: En.x64.Debug.ActionText-2.idtx:61 En.x64.Release.ActionText-2.idtx:61
+msgid "Unpublishing Qualified Components"
+msgstr "Peruutetaan valittujen komponenttien julkaisemista"
+
+#: En.Win32.Debug.ActionText-2.idtx:64 En.Win32.Release.ActionText-2.idtx:64
+#: En.x64.Debug.ActionText-2.idtx:64 En.x64.Release.ActionText-2.idtx:64
+msgid "Unregister Class servers"
+msgstr "Poistetaan luokkapalvelinten reskisteröintiä"
+
+#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
+#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
+msgid "Unregistering COM+ Applications and Components"
+msgstr "Poistetaan COM+-sovellusten ja -komponenttien rekisteröintiä"
+
+#: En.Win32.Debug.ActionText-2.idtx:66 En.Win32.Release.ActionText-2.idtx:66
+#: En.x64.Debug.ActionText-2.idtx:66 En.x64.Release.ActionText-2.idtx:66
+msgid "Unregistering extension servers"
+msgstr "Poistetaan laajennuspalvelinten rekisteröintiä"
+
+#: En.Win32.Debug.ActionText-2.idtx:67 En.Win32.Release.ActionText-2.idtx:67
+#: En.x64.Debug.ActionText-2.idtx:67 En.x64.Release.ActionText-2.idtx:67
+msgid "Unregistering fonts"
+msgstr "Poistetaan fonttien rekisteröintejä"
+
+#: En.Win32.Debug.ActionText-2.idtx:68 En.Win32.Release.ActionText-2.idtx:68
+#: En.x64.Debug.ActionText-2.idtx:68 En.x64.Release.ActionText-2.idtx:68
+msgid "Unregistering MIME info"
+msgstr "Poistetaan MIME-tietojen rekisteröintiä"
+
+#: En.Win32.Debug.ActionText-2.idtx:56 En.Win32.Release.ActionText-2.idtx:56
+#: En.x64.Debug.ActionText-2.idtx:56 En.x64.Release.ActionText-2.idtx:56
+msgid "Unregistering modules"
+msgstr "Poistetaan moduulin rekisteröintejä"
+
+#: En.Win32.Debug.ActionText-2.idtx:69 En.Win32.Release.ActionText-2.idtx:69
+#: En.x64.Debug.ActionText-2.idtx:69 En.x64.Release.ActionText-2.idtx:69
+msgid "Unregistering program identifiers"
+msgstr "Poistetaan ohjelmatunnusten rekisteröintejä"
+
+#: En.Win32.Debug.ActionText-2.idtx:70 En.Win32.Release.ActionText-2.idtx:70
+#: En.x64.Debug.ActionText-2.idtx:70 En.x64.Release.ActionText-2.idtx:70
+msgid "Unregistering type libraries"
+msgstr "Poistetaan tyyppikirjastoiden rekisteröintejä"
+
+#: En.Win32.Debug.ActionText-2.idtx:30 En.Win32.Release.ActionText-2.idtx:30
+#: En.x64.Debug.ActionText-2.idtx:30 En.x64.Release.ActionText-2.idtx:30
+msgid "Updating component registration"
+msgstr "Päivitetään komponenttien rekisteröintiä"
+
+#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
+#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
+#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
+#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
+msgid "Updating environment strings"
+msgstr "Päivitetään ympäristömerkkijonoja"
+
+#: En.Win32.Debug.Error-2.idtx:80 En.Win32.Release.Error-2.idtx:80
+#: En.x64.Debug.Error-2.idtx:80 En.x64.Release.Error-2.idtx:80
 msgid ""
 "User '[2]' has previously initiated an install for product '[3]'. That user "
 "will need to run that install again before they can use that product."
@@ -1045,7 +1731,8 @@ msgstr ""
 " voi käyttää tuotetta, ennen kuin hän on suorittanut asennusohjelman "
 "uudelleen."
 
-#: En.Win32.Release.Error-2.idtx:79 En.x64.Release.Error-2.idtx:79
+#: En.Win32.Debug.Error-2.idtx:79 En.Win32.Release.Error-2.idtx:79
+#: En.x64.Debug.Error-2.idtx:79 En.x64.Release.Error-2.idtx:79
 msgid ""
 "User '[2]' has previously initiated an install for product '[3]'. That user "
 "will need to run that install again before they can use that product. Your "
@@ -1055,22 +1742,40 @@ msgstr ""
 " voi käyttää tuotetta, ennen kuin hän on suorittanut asennusohjelman "
 "uudelleen. Nykyinen asennus jatkuu."
 
-#: En.Win32.Release.Error-2.idtx:161 En.x64.Release.Error-2.idtx:161
+#: En.Win32.Debug.Error-2.idtx:161 En.Win32.Release.Error-2.idtx:161
+#: En.x64.Debug.Error-2.idtx:161 En.x64.Release.Error-2.idtx:161
 msgid "User installations are disabled via policy on the machine."
 msgstr "Tietokonekäytäntö estää käyttäjäasennukset."
 
-#: En.Win32.Release.Error-2.idtx:6 En.x64.Release.Error-2.idtx:6
+#: En.Win32.Debug.ActionText-2.idtx:23 En.Win32.Release.ActionText-2.idtx:23
+#: En.x64.Debug.ActionText-2.idtx:23 En.x64.Release.ActionText-2.idtx:23
+msgid "Validating install"
+msgstr "Tarkistetaan asennuksen kelpoisuutta"
+
+#: En.Win32.Debug.Error-2.idtx:6 En.Win32.Release.Error-2.idtx:6
+#: En.x64.Debug.Error-2.idtx:6 En.x64.Release.Error-2.idtx:6
 msgid "Warning [1]. "
 msgstr "Varoitus [1]. "
 
-#: En.Win32.Release.CustomAction-2.idtx:4
+#: En.Win32.Debug.ActionText-2.idtx:72 En.Win32.Release.ActionText-2.idtx:72
+#: En.x64.Debug.ActionText-2.idtx:72 En.x64.Release.ActionText-2.idtx:72
+msgid "Writing INI files values"
+msgstr "Kirjoitetaan Ini-tiedostojen arvoja"
+
+#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
+#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
+msgid "Writing system registry values"
+msgstr "Kirjoitetaan järjestelmän rekisteriarvoja"
+
+#: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
 msgid ""
 "You are attempting to install the 32-bit variant of [SimpleProductName] on a"
 " 64-bit operating system. 32-bit variant will not work with your operating "
 "system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
-#: En.Win32.Release.Error-2.idtx:152 En.x64.Release.Error-2.idtx:152
+#: En.Win32.Debug.Error-2.idtx:152 En.Win32.Release.Error-2.idtx:152
+#: En.x64.Debug.Error-2.idtx:152 En.x64.Release.Error-2.idtx:152
 msgid ""
 "You do not have sufficient privileges to complete this installation for all "
 "users of the machine. Log on as administrator and then retry this "
@@ -1080,11 +1785,13 @@ msgstr ""
 "käyttäjiä varten. Kirjaudu sisään järjestelmänvalvojana ja yritä asennusta "
 "uudelleen."
 
-#: En.Win32.Release.Error-2.idtx:126 En.x64.Release.Error-2.idtx:126
+#: En.Win32.Debug.Error-2.idtx:126 En.Win32.Release.Error-2.idtx:126
+#: En.x64.Debug.Error-2.idtx:126 En.x64.Release.Error-2.idtx:126
 msgid "You have insufficient privileges to read this folder."
 msgstr "Oikeutesi eivät riitä tämän kansion lukemiseen."
 
-#: En.Win32.Release.Error-2.idtx:100 En.x64.Release.Error-2.idtx:100
+#: En.Win32.Debug.Error-2.idtx:100 En.Win32.Release.Error-2.idtx:100
+#: En.x64.Debug.Error-2.idtx:100 En.x64.Release.Error-2.idtx:100
 msgid ""
 "You may either restore your computer to its previous state or continue the "
 "install later. Would you like to restore?"
@@ -1092,7 +1799,8 @@ msgstr ""
 "Voit joko palauttaa tietokoneen edellisen tilan tai jatkaa asennusta "
 "myöhemmin. Haluatko palauttaa edellisen tilan?"
 
-#: En.Win32.Release.Error-2.idtx:120 En.x64.Release.Error-2.idtx:120
+#: En.Win32.Debug.Error-2.idtx:120 En.Win32.Release.Error-2.idtx:120
+#: En.x64.Debug.Error-2.idtx:120 En.x64.Release.Error-2.idtx:120
 msgid ""
 "You must be an Administrator to remove this application. To remove this "
 "application, you can log on as an Administrator, or contact your technical "
@@ -1102,7 +1810,8 @@ msgstr ""
 "poistaa sovelluksen kirjautumalla Järjestelmänvalvojana tai ottamalla "
 "yhteyden tukihenkilöön."
 
-#: En.Win32.Release.Error-2.idtx:93 En.x64.Release.Error-2.idtx:93
+#: En.Win32.Debug.Error-2.idtx:93 En.Win32.Release.Error-2.idtx:93
+#: En.x64.Debug.Error-2.idtx:93 En.x64.Release.Error-2.idtx:93
 msgid ""
 "You must restart your system for the configuration changes made to [2] to "
 "take effect. Click Yes to restart now or No if you plan to manually restart "
