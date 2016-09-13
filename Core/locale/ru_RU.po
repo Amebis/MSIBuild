@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-29 07:44+0200\n"
+"POT-Creation-Date: 2016-09-13 10:48+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
 "Language-Team: Russian (Russia) (https://www.transifex.com/eduroam_devel/teams/11799/ru_RU/)\n"
@@ -18,6 +18,17 @@ msgstr ""
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+
+#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Debug.ActionText-2.idtx:39
+#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Debug.ActionText-2.idtx:53
+#: En.Win32.Release.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:39
+#: En.Win32.Release.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:53
+#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Debug.ActionText-2.idtx:39
+#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Debug.ActionText-2.idtx:53
+#: En.x64.Release.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:39
+#: En.x64.Release.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:53
+msgid "[1]"
+msgstr "[1]"
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
@@ -78,9 +89,11 @@ msgstr "=== Начало записи журнала: [Date] [Time] ==="
 msgid "=== Logging stopped: [Date] [Time] ==="
 msgstr "=== Завершение записи журнала: [Date] [Time] ==="
 
-#: En.Win32.Debug.CustomAction-2.idtx:3 En.Win32.Debug.Error-2.idtx:3
+#: En.Win32.Debug.ActionText-2.idtx:3 En.Win32.Debug.CustomAction-2.idtx:3
+#: En.Win32.Debug.Error-2.idtx:3 En.Win32.Release.ActionText-2.idtx:3
 #: En.Win32.Release.CustomAction-2.idtx:3 En.Win32.Release.Error-2.idtx:3
-#: En.x64.Debug.CustomAction-2.idtx:3 En.x64.Debug.Error-2.idtx:3
+#: En.x64.Debug.ActionText-2.idtx:3 En.x64.Debug.CustomAction-2.idtx:3
+#: En.x64.Debug.Error-2.idtx:3 En.x64.Release.ActionText-2.idtx:3
 #: En.x64.Release.CustomAction-2.idtx:3 En.x64.Release.Error-2.idtx:3
 msgid "1252"
 msgstr "1251"
@@ -182,6 +195,16 @@ msgstr "Объявление завершено успешно."
 msgid "Advertisement failed."
 msgstr "Сбой объявления."
 
+#: En.Win32.Debug.ActionText-2.idtx:4 En.Win32.Release.ActionText-2.idtx:4
+#: En.x64.Debug.ActionText-2.idtx:4 En.x64.Release.ActionText-2.idtx:4
+msgid "Advertising application"
+msgstr "Реклама приложения"
+
+#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
+#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+msgid "Allocating registry space"
+msgstr "Выделение памяти для реестра"
+
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
@@ -258,10 +281,42 @@ msgstr ""
 "Другой процесс установки уже выполняется. Завершите этот процесс перед новой"
 " установкой."
 
+#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
+#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
+msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
+msgstr "Код: [1]{{, Тип: [2], Пользователи: [3], RSN: [4]}}"
+
+#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
+#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
+msgid "AppId: [1]{{, AppType: [2]}}"
+msgstr "Код: [1]{{, Тип: [2]}}"
+
+#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Debug.ActionText-2.idtx:28
+#: En.Win32.Release.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:28
+#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Debug.ActionText-2.idtx:28
+#: En.x64.Release.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:28
+msgid "Application Context:[1], Assembly Name:[2]"
+msgstr "Контекст приложения:[1], имя сборки:[2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
+#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
+msgid "Application: [1]"
+msgstr "Приложение: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
+#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
+msgid "Application: [1], Command line: [2]"
+msgstr "Приложение: [1], Командная строка: [2]"
+
 #: En.Win32.Debug.Error-2.idtx:82 En.Win32.Release.Error-2.idtx:82
 #: En.x64.Debug.Error-2.idtx:82 En.x64.Release.Error-2.idtx:82
 msgid "Are you sure you want to cancel?"
 msgstr "Отменить установку?"
+
+#: En.Win32.Debug.ActionText-2.idtx:7 En.Win32.Release.ActionText-2.idtx:7
+#: En.x64.Debug.ActionText-2.idtx:7 En.x64.Release.ActionText-2.idtx:7
+msgid "Binding executables"
+msgstr "Привязка выполняемых файлов"
 
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
@@ -282,6 +337,20 @@ msgstr ""
 "Переименуйте или переместите этот файл и повторите попытку, либо нажмите "
 "кнопку \"Отмена\" для прекращения установки."
 
+#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Debug.ActionText-2.idtx:64
+#: En.Win32.Release.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:64
+#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Debug.ActionText-2.idtx:64
+#: En.x64.Release.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:64
+msgid "Class Id: [1]"
+msgstr "Class Id: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Debug.ActionText-2.idtx:61
+#: En.Win32.Release.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:61
+#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Debug.ActionText-2.idtx:61
+#: En.x64.Release.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:61
+msgid "Component ID: [1], Qualifier: [2]"
+msgstr "Код компонента: [1], Описатель: [2]"
+
 #: En.Win32.Debug.Error-2.idtx:154 En.Win32.Release.Error-2.idtx:154
 #: En.x64.Debug.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
 msgid ""
@@ -291,6 +360,15 @@ msgid ""
 msgstr ""
 "Службы COM+ 1.0 не установлены на данном компьютере. Они необходимы для "
 "успешной установки. Эти службы входят в состав Windows 2000."
+
+#: En.Win32.Debug.ActionText-2.idtx:10 En.Win32.Debug.ActionText-2.idtx:15
+#: En.Win32.Debug.ActionText-2.idtx:9 En.Win32.Release.ActionText-2.idtx:10
+#: En.Win32.Release.ActionText-2.idtx:15 En.Win32.Release.ActionText-2.idtx:9
+#: En.x64.Debug.ActionText-2.idtx:10 En.x64.Debug.ActionText-2.idtx:15
+#: En.x64.Debug.ActionText-2.idtx:9 En.x64.Release.ActionText-2.idtx:10
+#: En.x64.Release.ActionText-2.idtx:15 En.x64.Release.ActionText-2.idtx:9
+msgid "Computing space requirements"
+msgstr "Вычисление необходимого свободного места"
 
 #: En.Win32.Debug.Error-2.idtx:118 En.Win32.Release.Error-2.idtx:118
 #: En.x64.Debug.Error-2.idtx:118 En.x64.Release.Error-2.idtx:118
@@ -306,6 +384,16 @@ msgstr "Сбой настройки."
 #: En.x64.Debug.Error-2.idtx:106 En.x64.Release.Error-2.idtx:106
 msgid "Configured [2]"
 msgstr "Настроен [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:18 En.Win32.Release.ActionText-2.idtx:18
+#: En.x64.Debug.ActionText-2.idtx:18 En.x64.Release.ActionText-2.idtx:18
+msgid "Copying network install files"
+msgstr "Копирование файлов сетевой установки"
+
+#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:19
+#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:19
+msgid "Copying new files"
+msgstr "Копирование новых файлов"
 
 #: En.Win32.Debug.Error-2.idtx:86 En.Win32.Release.Error-2.idtx:86
 #: En.x64.Debug.Error-2.idtx:86 En.x64.Release.Error-2.idtx:86
@@ -512,6 +600,26 @@ msgstr ""
 "Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо"
 " обратитесь в службу поддержки."
 
+#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:14
+#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:14
+msgid "Creating duplicate files"
+msgstr "Создание дубликатов файлов"
+
+#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:11
+#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:11
+msgid "Creating folders"
+msgstr "Создание папок"
+
+#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:12
+#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:12
+msgid "Creating shortcuts"
+msgstr "Создание ярлыков"
+
+#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Release.ActionText-2.idtx:13
+#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Release.ActionText-2.idtx:13
+msgid "Deleting services"
+msgstr "Удаление служб"
+
 #: En.Win32.Debug.Error-2.idtx:78 En.Win32.Release.Error-2.idtx:78
 #: En.x64.Debug.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
 msgid ""
@@ -650,6 +758,18 @@ msgstr ""
 "Ошибка записи в файл [3]. {{ Системная ошибка [2].}} Убедитесь, что у вас "
 "есть доступ к этому каталогу."
 
+#: En.Win32.Debug.ActionText-2.idtx:24 En.Win32.Release.ActionText-2.idtx:24
+#: En.x64.Debug.ActionText-2.idtx:24 En.x64.Release.ActionText-2.idtx:24
+msgid "Evaluating launch conditions"
+msgstr "Проверка условий запуска"
+
+#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Debug.ActionText-2.idtx:66
+#: En.Win32.Release.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:66
+#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Debug.ActionText-2.idtx:66
+#: En.x64.Release.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:66
+msgid "Extension: [1]"
+msgstr "Расширение: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:133 En.Win32.Release.Error-2.idtx:133
 #: En.x64.Debug.Error-2.idtx:133 En.x64.Release.Error-2.idtx:133
 msgid ""
@@ -672,20 +792,112 @@ msgstr "Сбой правильного перемещения файла [2]: �
 msgid "Failed to correctly patch [2] file: CRC error."
 msgstr "Сбой правильного исправления файла [2]: Ошибка CRC."
 
+#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Debug.ActionText-2.idtx:62
+#: En.Win32.Release.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:62
+#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Debug.ActionText-2.idtx:62
+#: En.x64.Release.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:62
+msgid "Feature: [1]"
+msgstr "Компонент: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:108 En.Win32.Release.Error-2.idtx:108
 #: En.x64.Debug.Error-2.idtx:108 En.x64.Release.Error-2.idtx:108
 msgid "File [2] was rejected by digital signature policy."
 msgstr "Файл [2] отвергнут политикой цифровой подписи."
+
+#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Debug.ActionText-2.idtx:7
+#: En.Win32.Release.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:7
+#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Debug.ActionText-2.idtx:7
+#: En.x64.Release.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:7
+msgid "File: [1]"
+msgstr "Файл: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
+#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
+msgid "File: [1], Dependencies: [2]"
+msgstr "Файл: [1], Зависимости: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Debug.ActionText-2.idtx:56
+#: En.Win32.Release.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:56
+#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Debug.ActionText-2.idtx:56
+#: En.x64.Release.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:56
+msgid "File: [1], Folder: [2]"
+msgstr "Файл: [1], Папка: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
+#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
+msgid "File: [1], Folder: [2], Size: [3]"
+msgstr "Файл: [1], Каталог: [2], Размер: [3]"
+
+#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Debug.ActionText-2.idtx:46
+#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:43
+#: En.Win32.Release.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:60
+#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Debug.ActionText-2.idtx:46
+#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:43
+#: En.x64.Release.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:60
+msgid "File: [1], Folder: [9]"
+msgstr "Файл: [1], Каталог: [9]"
+
+#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Debug.ActionText-2.idtx:18
+#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Debug.ActionText-2.idtx:26
+#: En.Win32.Release.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:18
+#: En.Win32.Release.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:26
+#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Debug.ActionText-2.idtx:18
+#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Debug.ActionText-2.idtx:26
+#: En.x64.Release.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:18
+#: En.x64.Release.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:26
+msgid "File: [1], Folder: [9], Size: [6]"
+msgstr "Файл: [1], Каталог: [9], Размер: [6]"
+
+#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Debug.ActionText-2.idtx:72
+#: En.Win32.Release.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:72
+#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Debug.ActionText-2.idtx:72
+#: En.x64.Release.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:72
+msgid "File: [1], Section: [2], Key: [3], Value: [4]"
+msgstr "Файл: [1], Раздел: [2], Подраздел: [3], Значение: [4]"
+
+#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Debug.ActionText-2.idtx:47
+#: En.Win32.Release.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:47
+#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Debug.ActionText-2.idtx:47
+#: En.x64.Release.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:47
+msgid "Folder: [1]"
+msgstr "Папка: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Debug.ActionText-2.idtx:67
+#: En.Win32.Release.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:67
+#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Debug.ActionText-2.idtx:67
+#: En.x64.Release.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:67
+msgid "Font: [1]"
+msgstr "Шрифт: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
+#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
+msgid "Found application: [1]"
+msgstr "Найдено приложение: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
+#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+msgid "Free space: [1]"
+msgstr "Свободно: [1]"
 
 #: En.Win32.Debug.Error-2.idtx:25 En.Win32.Release.Error-2.idtx:25
 #: En.x64.Debug.Error-2.idtx:25 En.x64.Release.Error-2.idtx:25
 msgid "Gathering required information..."
 msgstr "Сбор сведений..."
 
+#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:17
+#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:17
+msgid "Generating script operations for action:"
+msgstr "Создание операций сценария для макрокоманды:"
+
 #: En.Win32.Debug.Error-2.idtx:8 En.Win32.Release.Error-2.idtx:8
 #: En.x64.Debug.Error-2.idtx:8 En.x64.Release.Error-2.idtx:8
 msgid "Info [1]. "
 msgstr "Сведения [1]. "
+
+#: En.Win32.Debug.ActionText-2.idtx:57 En.Win32.Release.ActionText-2.idtx:57
+#: En.x64.Debug.ActionText-2.idtx:57 En.x64.Release.ActionText-2.idtx:57
+msgid "Initializing ODBC folders"
+msgstr "Инициализация каталогов ODBC"
 
 #: En.Win32.Debug.Error-2.idtx:97 En.Win32.Release.Error-2.idtx:97
 #: En.x64.Debug.Error-2.idtx:97 En.x64.Release.Error-2.idtx:97
@@ -712,15 +924,59 @@ msgstr "Windows Installer не отвечает."
 msgid "Installer stopped prematurely."
 msgstr "Программа Windows Installer завершена преждевременно."
 
+#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
+#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
+msgid "Installing new services"
+msgstr "Установка новых служб"
+
+#: En.Win32.Debug.ActionText-2.idtx:20 En.Win32.Release.ActionText-2.idtx:20
+#: En.x64.Debug.ActionText-2.idtx:20 En.x64.Release.ActionText-2.idtx:20
+msgid "Installing ODBC components"
+msgstr "Установка компонентов ODBC"
+
+#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
+#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
+msgid "Installing system catalog"
+msgstr "Системный каталог установки"
+
 #: En.Win32.Debug.Error-2.idtx:57 En.Win32.Release.Error-2.idtx:57
 #: En.x64.Debug.Error-2.idtx:57 En.x64.Release.Error-2.idtx:57
 msgid "Invalid Drive: [2]"
 msgstr "Недопустимый диск: [2]"
 
+#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
+#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
+msgid "Key: [1], Name: [2]"
+msgstr "Раздел: [1], Имя: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
+#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
+msgid "Key: [1], Name: [2], Value: [3]"
+msgstr "Раздел: [1], Имя: [2], Значение: [3]"
+
+#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Debug.ActionText-2.idtx:70
+#: En.Win32.Release.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:70
+#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Debug.ActionText-2.idtx:70
+#: En.x64.Release.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:70
+msgid "LibID: [1]"
+msgstr "LibID: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:15 En.Win32.Release.Error-2.idtx:15
 #: En.x64.Debug.Error-2.idtx:15 En.x64.Release.Error-2.idtx:15
 msgid "Message type: [1], Argument: [2]"
 msgstr "Тип сообщения: [1], Аргумент: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
+#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
+msgid "Migrating feature states from related applications"
+msgstr "Перенос состояний свойств из связанных приложений"
+
+#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Debug.ActionText-2.idtx:68
+#: En.Win32.Release.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:68
+#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Debug.ActionText-2.idtx:68
+#: En.x64.Release.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:68
+msgid "MIME Content Type: [1], Extension: [2]"
+msgstr "Тип содержимого MIME: [1], Расширение: [2]"
 
 #: En.Win32.Debug.Error-2.idtx:131 En.Win32.Release.Error-2.idtx:131
 #: En.x64.Debug.Error-2.idtx:131 En.x64.Release.Error-2.idtx:131
@@ -738,6 +994,18 @@ msgid ""
 msgstr ""
 "Не удается отменить регистрацию модуля [2]. HRESULT [3]. Обратитесь в службу"
 " поддержки."
+
+#: En.Win32.Debug.ActionText-2.idtx:26 En.Win32.Release.ActionText-2.idtx:26
+#: En.x64.Debug.ActionText-2.idtx:26 En.x64.Release.ActionText-2.idtx:26
+msgid "Moving files"
+msgstr "Перемещение файлов"
+
+#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
+#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
+#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
+#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
+msgid "Name: [1], Value: [2], Action [3]"
+msgstr "Имя: [1], Значение: [2], Действие [3]"
 
 #: En.Win32.Debug.Error-2.idtx:102 En.Win32.Release.Error-2.idtx:102
 #: En.x64.Debug.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
@@ -764,6 +1032,11 @@ msgstr ""
 msgid "Out of memory. Shut down other applications before retrying."
 msgstr "Недостаточно памяти. Закройте другие приложения и повторите попытку."
 
+#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
+#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
+msgid "Patching files"
+msgstr "Обновление файлов"
+
 #: En.Win32.Debug.Error-2.idtx:32 En.Win32.Release.Error-2.idtx:32
 #: En.x64.Debug.Error-2.idtx:32 En.x64.Release.Error-2.idtx:32
 msgid "Please insert the disk: [2]"
@@ -784,6 +1057,88 @@ msgstr "Подготовка к удалению более ранних вер�
 msgid "Product: [2] -- [3]"
 msgstr "Продукт: [2] -- [3]"
 
+#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Debug.ActionText-2.idtx:69
+#: En.Win32.Release.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:69
+#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Debug.ActionText-2.idtx:69
+#: En.x64.Release.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:69
+msgid "ProgId: [1]"
+msgstr "ProgId: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
+#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
+msgid "Property: [1], Signature: [2]"
+msgstr "Свойство: [1], Подпись: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:27
+#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:27
+msgid "Publishing assembly information"
+msgstr "Публикуемая информация о сборке"
+
+#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:32
+#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:32
+msgid "Publishing Product Features"
+msgstr "Публикация компонентов продукта"
+
+#: En.Win32.Debug.ActionText-2.idtx:33 En.Win32.Release.ActionText-2.idtx:33
+#: En.x64.Debug.ActionText-2.idtx:33 En.x64.Release.ActionText-2.idtx:33
+msgid "Publishing product information"
+msgstr "Публикация сведений о продукте"
+
+#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:31
+#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:31
+msgid "Publishing Qualified Components"
+msgstr "Публикация подходящих компонентов"
+
+#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:34
+#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:34
+msgid "Registering Class servers"
+msgstr "Регистрация серверов классов"
+
+#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
+#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
+msgid "Registering COM+ Applications and Components"
+msgstr "Регистрация приложений и компонентов COM+"
+
+#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:36
+#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:36
+msgid "Registering extension servers"
+msgstr "Регистрация серверов расширений"
+
+#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:37
+#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:37
+msgid "Registering fonts"
+msgstr "Регистрация шрифтов"
+
+#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:38
+#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:38
+msgid "Registering MIME info"
+msgstr "Регистрация MIME"
+
+#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:55
+#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:55
+msgid "Registering modules"
+msgstr "Регистрация модулей"
+
+#: En.Win32.Debug.ActionText-2.idtx:39 En.Win32.Release.ActionText-2.idtx:39
+#: En.x64.Debug.ActionText-2.idtx:39 En.x64.Release.ActionText-2.idtx:39
+msgid "Registering product"
+msgstr "Регистрация продукта"
+
+#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:40
+#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:40
+msgid "Registering program identifiers"
+msgstr "Регистрация кодов приложений"
+
+#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:41
+#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:41
+msgid "Registering type libraries"
+msgstr "Регистрация библиотек типов"
+
+#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:42
+#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:42
+msgid "Registering user"
+msgstr "Регистрация пользователей"
+
 #: En.Win32.Debug.Error-2.idtx:114 En.Win32.Release.Error-2.idtx:114
 #: En.x64.Debug.Error-2.idtx:114 En.x64.Release.Error-2.idtx:114
 msgid "Removal completed successfully."
@@ -799,10 +1154,65 @@ msgstr "Сбой удаления."
 msgid "Removed [2]"
 msgstr "Удален [2]"
 
+#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
+#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
+msgid "Removing applications"
+msgstr "Удаление приложений"
+
+#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:54
+#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:54
+msgid "Removing backup files"
+msgstr "Удаление временных файлов"
+
+#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Release.ActionText-2.idtx:43
+#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Release.ActionText-2.idtx:43
+msgid "Removing duplicated files"
+msgstr "Удаление дублирующихся файлов"
+
+#: En.Win32.Debug.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:46
+#: En.x64.Debug.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:46
+msgid "Removing files"
+msgstr "Удаление файлов"
+
+#: En.Win32.Debug.ActionText-2.idtx:47 En.Win32.Release.ActionText-2.idtx:47
+#: En.x64.Debug.ActionText-2.idtx:47 En.x64.Release.ActionText-2.idtx:47
+msgid "Removing folders"
+msgstr "Удаление папок"
+
+#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:48
+#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:48
+msgid "Removing INI files entries"
+msgstr "Удаление записей в INI-файлах"
+
+#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:60
+#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:60
+msgid "Removing moved files"
+msgstr "Удаление перемещенных файлов"
+
+#: En.Win32.Debug.ActionText-2.idtx:49 En.Win32.Release.ActionText-2.idtx:49
+#: En.x64.Debug.ActionText-2.idtx:49 En.x64.Release.ActionText-2.idtx:49
+msgid "Removing ODBC components"
+msgstr "Удаление компонентов ODBC"
+
 #: En.Win32.Debug.Error-2.idtx:26 En.Win32.Release.Error-2.idtx:26
 #: En.x64.Debug.Error-2.idtx:26 En.x64.Release.Error-2.idtx:26
 msgid "Removing older versions of this application..."
 msgstr "Удаление более ранних версий этого приложения..."
+
+#: En.Win32.Debug.ActionText-2.idtx:51 En.Win32.Release.ActionText-2.idtx:51
+#: En.x64.Debug.ActionText-2.idtx:51 En.x64.Release.ActionText-2.idtx:51
+msgid "Removing shortcuts"
+msgstr "Удаление ярлыков"
+
+#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
+#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
+msgid "Removing system registry values"
+msgstr "Удаление параметров системного реестра"
+
+#: En.Win32.Debug.ActionText-2.idtx:53 En.Win32.Release.ActionText-2.idtx:53
+#: En.x64.Debug.ActionText-2.idtx:53 En.x64.Release.ActionText-2.idtx:53
+msgid "Rolling back action:"
+msgstr "Откат действия:"
 
 #: En.Win32.Debug.Error-2.idtx:130 En.Win32.Release.Error-2.idtx:130
 #: En.x64.Debug.Error-2.idtx:130 En.x64.Release.Error-2.idtx:130
@@ -821,6 +1231,23 @@ msgid ""
 msgstr ""
 "Планирование операции перезагрузки: переименование файла [2] в [3]. Для "
 "завершения операции требуется перезагрузка."
+
+#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
+#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
+msgid "Searching for installed applications"
+msgstr "Поиск установленных приложений"
+
+#: En.Win32.Debug.ActionText-2.idtx:52 En.Win32.Debug.ActionText-2.idtx:8
+#: En.Win32.Release.ActionText-2.idtx:52 En.Win32.Release.ActionText-2.idtx:8
+#: En.x64.Debug.ActionText-2.idtx:52 En.x64.Debug.ActionText-2.idtx:8
+#: En.x64.Release.ActionText-2.idtx:52 En.x64.Release.ActionText-2.idtx:8
+msgid "Searching for qualifying products"
+msgstr "Поиск подходящих продуктов"
+
+#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
+#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
+msgid "Searching for related applications"
+msgstr "Поиск связанных приложений"
 
 #: En.Win32.Debug.Error-2.idtx:149 En.Win32.Release.Error-2.idtx:149
 #: En.x64.Debug.Error-2.idtx:149 En.x64.Release.Error-2.idtx:149
@@ -858,6 +1285,27 @@ msgstr ""
 "Ошибка при запуске службы \"[2]\" ([3]). Убедитесь, что у вас имеются "
 "разрешения на запуск системных служб."
 
+#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Debug.ActionText-2.idtx:58
+#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:13
+#: En.Win32.Release.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:59
+#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Debug.ActionText-2.idtx:58
+#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:13
+#: En.x64.Release.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:59
+msgid "Service: [1]"
+msgstr "Служба: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
+#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
+msgid "Service: [2]"
+msgstr "Служба: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Debug.ActionText-2.idtx:51
+#: En.Win32.Release.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:51
+#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Debug.ActionText-2.idtx:51
+#: En.x64.Release.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:51
+msgid "Shortcut: [1]"
+msgstr "Ярлык: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:38 En.Win32.Release.Error-2.idtx:38
 #: En.x64.Debug.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
 msgid ""
@@ -875,6 +1323,16 @@ msgid ""
 msgstr ""
 "Исходный файл не найден{{(CAB-файл)}}: [2]. Проверьте, что файл существует и"
 " доступен."
+
+#: En.Win32.Debug.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:58
+#: En.x64.Debug.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:58
+msgid "Starting services"
+msgstr "Запуск служб"
+
+#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:59
+#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:59
+msgid "Stopping services"
+msgstr "Останов служб"
 
 #: En.Win32.Debug.Error-2.idtx:65 En.Win32.Release.Error-2.idtx:65
 #: En.x64.Debug.Error-2.idtx:65 En.x64.Release.Error-2.idtx:65
@@ -1190,6 +1648,78 @@ msgstr "Оставшееся время: {[1] мин }{[2] сек}"
 msgid "Unable to write to the specified folder: [2]."
 msgstr "Запись в указанный каталог \"[2]\" запрещена."
 
+#: En.Win32.Debug.ActionText-2.idtx:28 En.Win32.Release.ActionText-2.idtx:28
+#: En.x64.Debug.ActionText-2.idtx:28 En.x64.Release.ActionText-2.idtx:28
+msgid "Unpublishing assembly information"
+msgstr "Непубликуемая информация о сборке"
+
+#: En.Win32.Debug.ActionText-2.idtx:62 En.Win32.Release.ActionText-2.idtx:62
+#: En.x64.Debug.ActionText-2.idtx:62 En.x64.Release.ActionText-2.idtx:62
+msgid "Unpublishing Product Features"
+msgstr "Отмена публикации компонентов продукта"
+
+#: En.Win32.Debug.ActionText-2.idtx:63 En.Win32.Release.ActionText-2.idtx:63
+#: En.x64.Debug.ActionText-2.idtx:63 En.x64.Release.ActionText-2.idtx:63
+msgid "Unpublishing product information"
+msgstr "Отмена публикация сведений о продукте"
+
+#: En.Win32.Debug.ActionText-2.idtx:61 En.Win32.Release.ActionText-2.idtx:61
+#: En.x64.Debug.ActionText-2.idtx:61 En.x64.Release.ActionText-2.idtx:61
+msgid "Unpublishing Qualified Components"
+msgstr "Отмена публикация подходящих компонентов"
+
+#: En.Win32.Debug.ActionText-2.idtx:64 En.Win32.Release.ActionText-2.idtx:64
+#: En.x64.Debug.ActionText-2.idtx:64 En.x64.Release.ActionText-2.idtx:64
+msgid "Unregister Class servers"
+msgstr "Отмена регистрация серверов классов"
+
+#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
+#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
+msgid "Unregistering COM+ Applications and Components"
+msgstr "Отмена регистрации приложений и компонентов COM+"
+
+#: En.Win32.Debug.ActionText-2.idtx:66 En.Win32.Release.ActionText-2.idtx:66
+#: En.x64.Debug.ActionText-2.idtx:66 En.x64.Release.ActionText-2.idtx:66
+msgid "Unregistering extension servers"
+msgstr "Отмена регистрация серверов расширений"
+
+#: En.Win32.Debug.ActionText-2.idtx:67 En.Win32.Release.ActionText-2.idtx:67
+#: En.x64.Debug.ActionText-2.idtx:67 En.x64.Release.ActionText-2.idtx:67
+msgid "Unregistering fonts"
+msgstr "Отмена регистрации шрифтов"
+
+#: En.Win32.Debug.ActionText-2.idtx:68 En.Win32.Release.ActionText-2.idtx:68
+#: En.x64.Debug.ActionText-2.idtx:68 En.x64.Release.ActionText-2.idtx:68
+msgid "Unregistering MIME info"
+msgstr "Отмена регистрации MIME"
+
+#: En.Win32.Debug.ActionText-2.idtx:56 En.Win32.Release.ActionText-2.idtx:56
+#: En.x64.Debug.ActionText-2.idtx:56 En.x64.Release.ActionText-2.idtx:56
+msgid "Unregistering modules"
+msgstr "Отмена регистрации модулей"
+
+#: En.Win32.Debug.ActionText-2.idtx:69 En.Win32.Release.ActionText-2.idtx:69
+#: En.x64.Debug.ActionText-2.idtx:69 En.x64.Release.ActionText-2.idtx:69
+msgid "Unregistering program identifiers"
+msgstr "Отмена регистрации кодов приложений"
+
+#: En.Win32.Debug.ActionText-2.idtx:70 En.Win32.Release.ActionText-2.idtx:70
+#: En.x64.Debug.ActionText-2.idtx:70 En.x64.Release.ActionText-2.idtx:70
+msgid "Unregistering type libraries"
+msgstr "Отмена регистрация библиотек типов"
+
+#: En.Win32.Debug.ActionText-2.idtx:30 En.Win32.Release.ActionText-2.idtx:30
+#: En.x64.Debug.ActionText-2.idtx:30 En.x64.Release.ActionText-2.idtx:30
+msgid "Updating component registration"
+msgstr "Обновление регистрации компонентов"
+
+#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
+#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
+#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
+#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
+msgid "Updating environment strings"
+msgstr "Обновление строк среды"
+
 #: En.Win32.Debug.Error-2.idtx:80 En.Win32.Release.Error-2.idtx:80
 #: En.x64.Debug.Error-2.idtx:80 En.x64.Release.Error-2.idtx:80
 msgid ""
@@ -1216,10 +1746,25 @@ msgid "User installations are disabled via policy on the machine."
 msgstr ""
 "Установка программы отключена из-за применения политики данного компьютера."
 
+#: En.Win32.Debug.ActionText-2.idtx:23 En.Win32.Release.ActionText-2.idtx:23
+#: En.x64.Debug.ActionText-2.idtx:23 En.x64.Release.ActionText-2.idtx:23
+msgid "Validating install"
+msgstr "Проверка установки"
+
 #: En.Win32.Debug.Error-2.idtx:6 En.Win32.Release.Error-2.idtx:6
 #: En.x64.Debug.Error-2.idtx:6 En.x64.Release.Error-2.idtx:6
 msgid "Warning [1]. "
 msgstr "Предупреждение [1]. "
+
+#: En.Win32.Debug.ActionText-2.idtx:72 En.Win32.Release.ActionText-2.idtx:72
+#: En.x64.Debug.ActionText-2.idtx:72 En.x64.Release.ActionText-2.idtx:72
+msgid "Writing INI files values"
+msgstr "Сохранение значений в INI-файлах"
+
+#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
+#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
+msgid "Writing system registry values"
+msgstr "Запись параметров системного реестра"
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
 msgid ""

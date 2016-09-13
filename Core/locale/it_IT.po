@@ -4,9 +4,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-29 07:44+0200\n"
+"POT-Creation-Date: 2016-09-13 10:48+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Nunzio Napolitano <nunzio.napolitano@uniparthenope.it>, 2016\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
 "Language-Team: Italian (Italy) (https://www.transifex.com/eduroam_devel/teams/11799/it_IT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,6 +18,17 @@ msgstr ""
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+
+#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Debug.ActionText-2.idtx:39
+#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Debug.ActionText-2.idtx:53
+#: En.Win32.Release.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:39
+#: En.Win32.Release.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:53
+#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Debug.ActionText-2.idtx:39
+#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Debug.ActionText-2.idtx:53
+#: En.x64.Release.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:39
+#: En.x64.Release.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:53
+msgid "[1]"
+msgstr "[1]"
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
@@ -78,9 +89,11 @@ msgstr "=== Inizio registrazione: [Date] [Time] ==="
 msgid "=== Logging stopped: [Date] [Time] ==="
 msgstr "=== Fine registrazione: [Date] [Time] ==="
 
-#: En.Win32.Debug.CustomAction-2.idtx:3 En.Win32.Debug.Error-2.idtx:3
+#: En.Win32.Debug.ActionText-2.idtx:3 En.Win32.Debug.CustomAction-2.idtx:3
+#: En.Win32.Debug.Error-2.idtx:3 En.Win32.Release.ActionText-2.idtx:3
 #: En.Win32.Release.CustomAction-2.idtx:3 En.Win32.Release.Error-2.idtx:3
-#: En.x64.Debug.CustomAction-2.idtx:3 En.x64.Debug.Error-2.idtx:3
+#: En.x64.Debug.ActionText-2.idtx:3 En.x64.Debug.CustomAction-2.idtx:3
+#: En.x64.Debug.Error-2.idtx:3 En.x64.Release.ActionText-2.idtx:3
 #: En.x64.Release.CustomAction-2.idtx:3 En.x64.Release.Error-2.idtx:3
 msgid "1252"
 msgstr "1252"
@@ -191,6 +204,16 @@ msgstr "Annuncio completato."
 msgid "Advertisement failed."
 msgstr "Annuncio non riuscito."
 
+#: En.Win32.Debug.ActionText-2.idtx:4 En.Win32.Release.ActionText-2.idtx:4
+#: En.x64.Debug.ActionText-2.idtx:4 En.x64.Release.ActionText-2.idtx:4
+msgid "Advertising application"
+msgstr "Visualizzazione degli avvisi relativi all'applicazione"
+
+#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
+#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+msgid "Allocating registry space"
+msgstr "Allocazione dello spazio nel registro"
+
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
@@ -271,10 +294,43 @@ msgstr ""
 "È in corso un'altra installazione. Completarla, quindi continuare con questa"
 " installazione."
 
+#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
+#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
+msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
+msgstr ""
+"ID applicazione: [1]{{, Tipo applicazione: [2], Utenti: [3], RSN: [4]}}"
+
+#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
+#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
+msgid "AppId: [1]{{, AppType: [2]}}"
+msgstr "ID applicazione: [1]{{, Tipo applicazione: [2]}}"
+
+#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Debug.ActionText-2.idtx:28
+#: En.Win32.Release.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:28
+#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Debug.ActionText-2.idtx:28
+#: En.x64.Release.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:28
+msgid "Application Context:[1], Assembly Name:[2]"
+msgstr "Contesto applicazione:[1], nome assembly:[2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
+#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
+msgid "Application: [1]"
+msgstr "Applicazione: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
+#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
+msgid "Application: [1], Command line: [2]"
+msgstr "Applicazione: [1], Riga di comando: [2]"
+
 #: En.Win32.Debug.Error-2.idtx:82 En.Win32.Release.Error-2.idtx:82
 #: En.x64.Debug.Error-2.idtx:82 En.x64.Release.Error-2.idtx:82
 msgid "Are you sure you want to cancel?"
 msgstr "Annullare?"
+
+#: En.Win32.Debug.ActionText-2.idtx:7 En.Win32.Release.ActionText-2.idtx:7
+#: En.x64.Debug.ActionText-2.idtx:7 En.x64.Release.ActionText-2.idtx:7
+msgid "Binding executables"
+msgstr "Binding dei file eseguibili"
 
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
@@ -295,6 +351,20 @@ msgstr ""
 "Rinominare o rimuovere il file, quindi scegliere Riprova oppure scegliere "
 "Annulla per uscire."
 
+#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Debug.ActionText-2.idtx:64
+#: En.Win32.Release.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:64
+#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Debug.ActionText-2.idtx:64
+#: En.x64.Release.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:64
+msgid "Class Id: [1]"
+msgstr "ID classe: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Debug.ActionText-2.idtx:61
+#: En.Win32.Release.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:61
+#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Debug.ActionText-2.idtx:61
+#: En.x64.Release.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:61
+msgid "Component ID: [1], Qualifier: [2]"
+msgstr "ID componente: [1], qualificatore: [2]"
+
 #: En.Win32.Debug.Error-2.idtx:154 En.Win32.Release.Error-2.idtx:154
 #: En.x64.Debug.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
 msgid ""
@@ -305,6 +375,15 @@ msgstr ""
 "Servizi componenti (COM+ 1.0) non è installato in questo computer. Per "
 "completare l'installazione è necessario disporre di Servizi componenti. "
 "Questo prodotto è disponibile in Windows 2000."
+
+#: En.Win32.Debug.ActionText-2.idtx:10 En.Win32.Debug.ActionText-2.idtx:15
+#: En.Win32.Debug.ActionText-2.idtx:9 En.Win32.Release.ActionText-2.idtx:10
+#: En.Win32.Release.ActionText-2.idtx:15 En.Win32.Release.ActionText-2.idtx:9
+#: En.x64.Debug.ActionText-2.idtx:10 En.x64.Debug.ActionText-2.idtx:15
+#: En.x64.Debug.ActionText-2.idtx:9 En.x64.Release.ActionText-2.idtx:10
+#: En.x64.Release.ActionText-2.idtx:15 En.x64.Release.ActionText-2.idtx:9
+msgid "Computing space requirements"
+msgstr "Calcolo dello spazio necessario..."
 
 #: En.Win32.Debug.Error-2.idtx:118 En.Win32.Release.Error-2.idtx:118
 #: En.x64.Debug.Error-2.idtx:118 En.x64.Release.Error-2.idtx:118
@@ -320,6 +399,16 @@ msgstr "Configurazione non riuscita."
 #: En.x64.Debug.Error-2.idtx:106 En.x64.Release.Error-2.idtx:106
 msgid "Configured [2]"
 msgstr "[2] configurato"
+
+#: En.Win32.Debug.ActionText-2.idtx:18 En.Win32.Release.ActionText-2.idtx:18
+#: En.x64.Debug.ActionText-2.idtx:18 En.x64.Release.ActionText-2.idtx:18
+msgid "Copying network install files"
+msgstr "Copia dei file per l'installazione in rete"
+
+#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:19
+#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:19
+msgid "Copying new files"
+msgstr "Copia dei nuovi file"
 
 #: En.Win32.Debug.Error-2.idtx:86 En.Win32.Release.Error-2.idtx:86
 #: En.x64.Debug.Error-2.idtx:86 En.x64.Release.Error-2.idtx:86
@@ -529,6 +618,26 @@ msgstr ""
 "[4].}} Assicurarsi di disporre di diritti di accesso sufficienti per tale "
 "chiave oppure contattare il personale di supporto."
 
+#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:14
+#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:14
+msgid "Creating duplicate files"
+msgstr "Creazione dei duplicati dei file"
+
+#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:11
+#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:11
+msgid "Creating folders"
+msgstr "Creazione delle cartelle"
+
+#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:12
+#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:12
+msgid "Creating shortcuts"
+msgstr "Creazione dei collegamenti"
+
+#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Release.ActionText-2.idtx:13
+#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Release.ActionText-2.idtx:13
+msgid "Deleting services"
+msgstr "Eliminazione dei servizi"
+
 #: En.Win32.Debug.Error-2.idtx:78 En.Win32.Release.Error-2.idtx:78
 #: En.x64.Debug.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
 msgid ""
@@ -676,6 +785,18 @@ msgstr ""
 "Errore durante la scrittura nel file [3]. {{ Errore di sistema [2].}} "
 "Assicurarsi di disporre dei diritti di accesso alla cartella."
 
+#: En.Win32.Debug.ActionText-2.idtx:24 En.Win32.Release.ActionText-2.idtx:24
+#: En.x64.Debug.ActionText-2.idtx:24 En.x64.Release.ActionText-2.idtx:24
+msgid "Evaluating launch conditions"
+msgstr "Valutazione delle condizioni di avvio"
+
+#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Debug.ActionText-2.idtx:66
+#: En.Win32.Release.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:66
+#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Debug.ActionText-2.idtx:66
+#: En.x64.Release.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:66
+msgid "Extension: [1]"
+msgstr "Estensione: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:133 En.Win32.Release.Error-2.idtx:133
 #: En.x64.Debug.Error-2.idtx:133 En.x64.Release.Error-2.idtx:133
 msgid ""
@@ -699,6 +820,13 @@ msgstr "Impossibile spostare correttamente il file [2]: errore CRC."
 msgid "Failed to correctly patch [2] file: CRC error."
 msgstr "Impossibile correggere correttamente il file [2]: errore CRC."
 
+#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Debug.ActionText-2.idtx:62
+#: En.Win32.Release.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:62
+#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Debug.ActionText-2.idtx:62
+#: En.x64.Release.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:62
+msgid "Feature: [1]"
+msgstr "Caratteristica: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:108 En.Win32.Release.Error-2.idtx:108
 #: En.x64.Debug.Error-2.idtx:108 En.x64.Release.Error-2.idtx:108
 msgid "File [2] was rejected by digital signature policy."
@@ -706,15 +834,100 @@ msgstr ""
 "Il file [2] è stato respinto perché non conforme alla politica delle firme "
 "digitali."
 
+#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Debug.ActionText-2.idtx:7
+#: En.Win32.Release.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:7
+#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Debug.ActionText-2.idtx:7
+#: En.x64.Release.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:7
+msgid "File: [1]"
+msgstr "File: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
+#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
+msgid "File: [1], Dependencies: [2]"
+msgstr "File: [1], dipendenze: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Debug.ActionText-2.idtx:56
+#: En.Win32.Release.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:56
+#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Debug.ActionText-2.idtx:56
+#: En.x64.Release.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:56
+msgid "File: [1], Folder: [2]"
+msgstr "File: [1], cartella: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
+#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
+msgid "File: [1], Folder: [2], Size: [3]"
+msgstr "File: [1], cartella: [2], dimensione: [3]"
+
+#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Debug.ActionText-2.idtx:46
+#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:43
+#: En.Win32.Release.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:60
+#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Debug.ActionText-2.idtx:46
+#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:43
+#: En.x64.Release.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:60
+msgid "File: [1], Folder: [9]"
+msgstr "File: [1], cartella: [9]"
+
+#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Debug.ActionText-2.idtx:18
+#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Debug.ActionText-2.idtx:26
+#: En.Win32.Release.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:18
+#: En.Win32.Release.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:26
+#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Debug.ActionText-2.idtx:18
+#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Debug.ActionText-2.idtx:26
+#: En.x64.Release.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:18
+#: En.x64.Release.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:26
+msgid "File: [1], Folder: [9], Size: [6]"
+msgstr "File: [1], cartella: [9], dimensione: [6]"
+
+#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Debug.ActionText-2.idtx:72
+#: En.Win32.Release.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:72
+#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Debug.ActionText-2.idtx:72
+#: En.x64.Release.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:72
+msgid "File: [1], Section: [2], Key: [3], Value: [4]"
+msgstr "File: [1], sezione: [2], chiave: [3], valore: [4]"
+
+#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Debug.ActionText-2.idtx:47
+#: En.Win32.Release.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:47
+#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Debug.ActionText-2.idtx:47
+#: En.x64.Release.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:47
+msgid "Folder: [1]"
+msgstr "Cartella: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Debug.ActionText-2.idtx:67
+#: En.Win32.Release.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:67
+#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Debug.ActionText-2.idtx:67
+#: En.x64.Release.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:67
+msgid "Font: [1]"
+msgstr "Tipo di carattere: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
+#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
+msgid "Found application: [1]"
+msgstr "Applicazione trovata: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
+#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+msgid "Free space: [1]"
+msgstr "Spazio disponibile: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:25 En.Win32.Release.Error-2.idtx:25
 #: En.x64.Debug.Error-2.idtx:25 En.x64.Release.Error-2.idtx:25
 msgid "Gathering required information..."
 msgstr "Acquisizione dati necessari…"
 
+#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:17
+#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:17
+msgid "Generating script operations for action:"
+msgstr "Generazione delle operazioni di script per l'azione:"
+
 #: En.Win32.Debug.Error-2.idtx:8 En.Win32.Release.Error-2.idtx:8
 #: En.x64.Debug.Error-2.idtx:8 En.x64.Release.Error-2.idtx:8
 msgid "Info [1]. "
 msgstr "Informazioni [1]. "
+
+#: En.Win32.Debug.ActionText-2.idtx:57 En.Win32.Release.ActionText-2.idtx:57
+#: En.x64.Debug.ActionText-2.idtx:57 En.x64.Release.ActionText-2.idtx:57
+msgid "Initializing ODBC folders"
+msgstr "Inizializzazione delle directory ODBC"
 
 #: En.Win32.Debug.Error-2.idtx:97 En.Win32.Release.Error-2.idtx:97
 #: En.x64.Debug.Error-2.idtx:97 En.x64.Release.Error-2.idtx:97
@@ -741,15 +954,61 @@ msgstr "Windows Installer non risponde."
 msgid "Installer stopped prematurely."
 msgstr "Windows Installer interrotto in modo anomalo."
 
+#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
+#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
+msgid "Installing new services"
+msgstr "Installazione dei nuovi servizi"
+
+#: En.Win32.Debug.ActionText-2.idtx:20 En.Win32.Release.ActionText-2.idtx:20
+#: En.x64.Debug.ActionText-2.idtx:20 En.x64.Release.ActionText-2.idtx:20
+msgid "Installing ODBC components"
+msgstr "Installazione dei componenti ODBC"
+
+#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
+#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
+msgid "Installing system catalog"
+msgstr "Installazione catalogo di sistema"
+
 #: En.Win32.Debug.Error-2.idtx:57 En.Win32.Release.Error-2.idtx:57
 #: En.x64.Debug.Error-2.idtx:57 En.x64.Release.Error-2.idtx:57
 msgid "Invalid Drive: [2]"
 msgstr "Unità non valida: [2]"
 
+#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
+#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
+msgid "Key: [1], Name: [2]"
+msgstr "Chiave: [1], nome: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
+#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
+msgid "Key: [1], Name: [2], Value: [3]"
+msgstr "Chiave: [1], nome: [2], valore: [3]"
+
+#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Debug.ActionText-2.idtx:70
+#: En.Win32.Release.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:70
+#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Debug.ActionText-2.idtx:70
+#: En.x64.Release.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:70
+msgid "LibID: [1]"
+msgstr "ID libreria: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:15 En.Win32.Release.Error-2.idtx:15
 #: En.x64.Debug.Error-2.idtx:15 En.x64.Release.Error-2.idtx:15
 msgid "Message type: [1], Argument: [2]"
 msgstr "Tipo messaggio: [1], argomento: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
+#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
+msgid "Migrating feature states from related applications"
+msgstr ""
+"È in corso la migrazione degli stati delle caratteristiche dalle "
+"applicazioni correlate"
+
+#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Debug.ActionText-2.idtx:68
+#: En.Win32.Release.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:68
+#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Debug.ActionText-2.idtx:68
+#: En.x64.Release.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:68
+msgid "MIME Content Type: [1], Extension: [2]"
+msgstr "Contenuto (MIME): [1], estensione: [2]"
 
 #: En.Win32.Debug.Error-2.idtx:131 En.Win32.Release.Error-2.idtx:131
 #: En.x64.Debug.Error-2.idtx:131 En.x64.Release.Error-2.idtx:131
@@ -767,6 +1026,18 @@ msgid ""
 msgstr ""
 "Impossibile rimuovere dal registro il modulo [2]. HRESULT [3]. Contattare il"
 " personale di supporto."
+
+#: En.Win32.Debug.ActionText-2.idtx:26 En.Win32.Release.ActionText-2.idtx:26
+#: En.x64.Debug.ActionText-2.idtx:26 En.x64.Release.ActionText-2.idtx:26
+msgid "Moving files"
+msgstr "Spostamento dei file"
+
+#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
+#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
+#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
+#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
+msgid "Name: [1], Value: [2], Action [3]"
+msgstr "Nome: [1], valore: [2], operazione [3]"
 
 #: En.Win32.Debug.Error-2.idtx:102 En.Win32.Release.Error-2.idtx:102
 #: En.x64.Debug.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
@@ -793,6 +1064,11 @@ msgstr ""
 msgid "Out of memory. Shut down other applications before retrying."
 msgstr "Memoria esaurita. Chiudere alcune applicazioni, quindi riprovare."
 
+#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
+#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
+msgid "Patching files"
+msgstr "Installazione della patch"
+
 #: En.Win32.Debug.Error-2.idtx:32 En.Win32.Release.Error-2.idtx:32
 #: En.x64.Debug.Error-2.idtx:32 En.x64.Release.Error-2.idtx:32
 msgid "Please insert the disk: [2]"
@@ -814,6 +1090,88 @@ msgstr ""
 msgid "Product: [2] -- [3]"
 msgstr "Prodotto: [2] -- [3]"
 
+#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Debug.ActionText-2.idtx:69
+#: En.Win32.Release.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:69
+#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Debug.ActionText-2.idtx:69
+#: En.x64.Release.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:69
+msgid "ProgId: [1]"
+msgstr "ID programma: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
+#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
+msgid "Property: [1], Signature: [2]"
+msgstr "Proprietà: [1], firma: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:27
+#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:27
+msgid "Publishing assembly information"
+msgstr "Pubblicazione informazioni sull'assembly"
+
+#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:32
+#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:32
+msgid "Publishing Product Features"
+msgstr "Pubblicazione delle caratteristiche del prodotto"
+
+#: En.Win32.Debug.ActionText-2.idtx:33 En.Win32.Release.ActionText-2.idtx:33
+#: En.x64.Debug.ActionText-2.idtx:33 En.x64.Release.ActionText-2.idtx:33
+msgid "Publishing product information"
+msgstr "Pubblicazione delle informazioni sul prodotto"
+
+#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:31
+#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:31
+msgid "Publishing Qualified Components"
+msgstr "Pubblicazione dei componenti qualificati"
+
+#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:34
+#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:34
+msgid "Registering Class servers"
+msgstr "Registrazione dei server delle classi"
+
+#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
+#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
+msgid "Registering COM+ Applications and Components"
+msgstr "Registrazione dei componenti e delle applicazioni COM+"
+
+#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:36
+#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:36
+msgid "Registering extension servers"
+msgstr "Registrazione dei server delle estensioni"
+
+#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:37
+#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:37
+msgid "Registering fonts"
+msgstr "Registrazione dei tipi di carattere"
+
+#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:38
+#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:38
+msgid "Registering MIME info"
+msgstr "Registrazione delle informazioni MIME"
+
+#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:55
+#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:55
+msgid "Registering modules"
+msgstr "Registrazione dei moduli"
+
+#: En.Win32.Debug.ActionText-2.idtx:39 En.Win32.Release.ActionText-2.idtx:39
+#: En.x64.Debug.ActionText-2.idtx:39 En.x64.Release.ActionText-2.idtx:39
+msgid "Registering product"
+msgstr "Registrazione del prodotto"
+
+#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:40
+#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:40
+msgid "Registering program identifiers"
+msgstr "Registrazione degli identificatori di programma"
+
+#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:41
+#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:41
+msgid "Registering type libraries"
+msgstr "Registrazione delle librerie dei tipi"
+
+#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:42
+#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:42
+msgid "Registering user"
+msgstr "Registrazione dell'utente"
+
 #: En.Win32.Debug.Error-2.idtx:114 En.Win32.Release.Error-2.idtx:114
 #: En.x64.Debug.Error-2.idtx:114 En.x64.Release.Error-2.idtx:114
 msgid "Removal completed successfully."
@@ -829,10 +1187,65 @@ msgstr "Rimozione non riuscita."
 msgid "Removed [2]"
 msgstr "[2] rimosso"
 
+#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
+#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
+msgid "Removing applications"
+msgstr "Rimozione delle applicazioni"
+
+#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:54
+#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:54
+msgid "Removing backup files"
+msgstr "Rimozione dei file di backup"
+
+#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Release.ActionText-2.idtx:43
+#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Release.ActionText-2.idtx:43
+msgid "Removing duplicated files"
+msgstr "Rimozione dei file duplicati"
+
+#: En.Win32.Debug.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:46
+#: En.x64.Debug.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:46
+msgid "Removing files"
+msgstr "Rimozione dei file"
+
+#: En.Win32.Debug.ActionText-2.idtx:47 En.Win32.Release.ActionText-2.idtx:47
+#: En.x64.Debug.ActionText-2.idtx:47 En.x64.Release.ActionText-2.idtx:47
+msgid "Removing folders"
+msgstr "Rimozione delle cartelle"
+
+#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:48
+#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:48
+msgid "Removing INI files entries"
+msgstr "Rimozione delle voci dei file INI"
+
+#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:60
+#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:60
+msgid "Removing moved files"
+msgstr "Rimozione dei file spostati"
+
+#: En.Win32.Debug.ActionText-2.idtx:49 En.Win32.Release.ActionText-2.idtx:49
+#: En.x64.Debug.ActionText-2.idtx:49 En.x64.Release.ActionText-2.idtx:49
+msgid "Removing ODBC components"
+msgstr "Rimozione dei componenti ODBC"
+
 #: En.Win32.Debug.Error-2.idtx:26 En.Win32.Release.Error-2.idtx:26
 #: En.x64.Debug.Error-2.idtx:26 En.x64.Release.Error-2.idtx:26
 msgid "Removing older versions of this application..."
 msgstr "Rimozione delle versioni precedenti dell'applicazione..."
+
+#: En.Win32.Debug.ActionText-2.idtx:51 En.Win32.Release.ActionText-2.idtx:51
+#: En.x64.Debug.ActionText-2.idtx:51 En.x64.Release.ActionText-2.idtx:51
+msgid "Removing shortcuts"
+msgstr "Rimozione dei collegamenti"
+
+#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
+#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
+msgid "Removing system registry values"
+msgstr "Rimozione dei valori del registro di sistema"
+
+#: En.Win32.Debug.ActionText-2.idtx:53 En.Win32.Release.ActionText-2.idtx:53
+#: En.x64.Debug.ActionText-2.idtx:53 En.x64.Release.ActionText-2.idtx:53
+msgid "Rolling back action:"
+msgstr "Attività di ripristino:"
 
 #: En.Win32.Debug.Error-2.idtx:130 En.Win32.Release.Error-2.idtx:130
 #: En.x64.Debug.Error-2.idtx:130 En.x64.Release.Error-2.idtx:130
@@ -851,6 +1264,23 @@ msgid ""
 msgstr ""
 "Pianificazione dell'operazione di riavvio. Il file [2] verrà rinominato in "
 "[3]. Per completare l'operazione, è necessario riavviare il computer."
+
+#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
+#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
+msgid "Searching for installed applications"
+msgstr "Rilevamento delle applicazioni installate"
+
+#: En.Win32.Debug.ActionText-2.idtx:52 En.Win32.Debug.ActionText-2.idtx:8
+#: En.Win32.Release.ActionText-2.idtx:52 En.Win32.Release.ActionText-2.idtx:8
+#: En.x64.Debug.ActionText-2.idtx:52 En.x64.Debug.ActionText-2.idtx:8
+#: En.x64.Release.ActionText-2.idtx:52 En.x64.Release.ActionText-2.idtx:8
+msgid "Searching for qualifying products"
+msgstr "Ricerca dei prodotti originali"
+
+#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
+#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
+msgid "Searching for related applications"
+msgstr "Ricerca delle applicazioni correlate"
 
 #: En.Win32.Debug.Error-2.idtx:149 En.Win32.Release.Error-2.idtx:149
 #: En.x64.Debug.Error-2.idtx:149 En.x64.Release.Error-2.idtx:149
@@ -888,6 +1318,27 @@ msgstr ""
 "Impossibile avviare il servizio \"[2]\" ([3]). Assicurarsi di disporre di "
 "privilegi sufficienti per l'avvio dei servizi di sistema."
 
+#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Debug.ActionText-2.idtx:58
+#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:13
+#: En.Win32.Release.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:59
+#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Debug.ActionText-2.idtx:58
+#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:13
+#: En.x64.Release.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:59
+msgid "Service: [1]"
+msgstr "Servizio: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
+#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
+msgid "Service: [2]"
+msgstr "Servizio: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Debug.ActionText-2.idtx:51
+#: En.Win32.Release.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:51
+#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Debug.ActionText-2.idtx:51
+#: En.x64.Release.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:51
+msgid "Shortcut: [1]"
+msgstr "Collegamento: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:38 En.Win32.Release.Error-2.idtx:38
 #: En.x64.Debug.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
 msgid ""
@@ -905,6 +1356,16 @@ msgid ""
 msgstr ""
 "Impossibile trovare il file di origine{{(file CAB)}}: [2]. Assicurarsi che "
 "il file esista e di disporre dei relativi diritti di accesso."
+
+#: En.Win32.Debug.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:58
+#: En.x64.Debug.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:58
+msgid "Starting services"
+msgstr "Avvio dei servizi"
+
+#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:59
+#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:59
+msgid "Stopping services"
+msgstr "Arresto dei servizi"
 
 #: En.Win32.Debug.Error-2.idtx:65 En.Win32.Release.Error-2.idtx:65
 #: En.x64.Debug.Error-2.idtx:65 En.x64.Release.Error-2.idtx:65
@@ -1237,6 +1698,79 @@ msgstr "Tempo rimasto: {[1] min }{[2] sec}"
 msgid "Unable to write to the specified folder: [2]."
 msgstr "Impossibile scrivere nella cartella specificata \"[2]\"."
 
+#: En.Win32.Debug.ActionText-2.idtx:28 En.Win32.Release.ActionText-2.idtx:28
+#: En.x64.Debug.ActionText-2.idtx:28 En.x64.Release.ActionText-2.idtx:28
+msgid "Unpublishing assembly information"
+msgstr "Annullamento della pubblicazione delle informazioni sull'assembly"
+
+#: En.Win32.Debug.ActionText-2.idtx:62 En.Win32.Release.ActionText-2.idtx:62
+#: En.x64.Debug.ActionText-2.idtx:62 En.x64.Release.ActionText-2.idtx:62
+msgid "Unpublishing Product Features"
+msgstr "Annullamento della pubblicazione delle caratteristiche del prodotto"
+
+#: En.Win32.Debug.ActionText-2.idtx:63 En.Win32.Release.ActionText-2.idtx:63
+#: En.x64.Debug.ActionText-2.idtx:63 En.x64.Release.ActionText-2.idtx:63
+msgid "Unpublishing product information"
+msgstr "Annullamento della pubblicazione delle informazioni sul prodotto"
+
+#: En.Win32.Debug.ActionText-2.idtx:61 En.Win32.Release.ActionText-2.idtx:61
+#: En.x64.Debug.ActionText-2.idtx:61 En.x64.Release.ActionText-2.idtx:61
+msgid "Unpublishing Qualified Components"
+msgstr "Annullamento della pubblicazione dei componenti qualificati"
+
+#: En.Win32.Debug.ActionText-2.idtx:64 En.Win32.Release.ActionText-2.idtx:64
+#: En.x64.Debug.ActionText-2.idtx:64 En.x64.Release.ActionText-2.idtx:64
+msgid "Unregister Class servers"
+msgstr "Annullamento della registrazione dei server delle classi"
+
+#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
+#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
+msgid "Unregistering COM+ Applications and Components"
+msgstr ""
+"Annullamento della registrazione dei componenti e delle applicazioni COM+"
+
+#: En.Win32.Debug.ActionText-2.idtx:66 En.Win32.Release.ActionText-2.idtx:66
+#: En.x64.Debug.ActionText-2.idtx:66 En.x64.Release.ActionText-2.idtx:66
+msgid "Unregistering extension servers"
+msgstr "Annullamento della registrazione dei server delle estensioni"
+
+#: En.Win32.Debug.ActionText-2.idtx:67 En.Win32.Release.ActionText-2.idtx:67
+#: En.x64.Debug.ActionText-2.idtx:67 En.x64.Release.ActionText-2.idtx:67
+msgid "Unregistering fonts"
+msgstr "Annullamento della registrazione dei tipi di carattere"
+
+#: En.Win32.Debug.ActionText-2.idtx:68 En.Win32.Release.ActionText-2.idtx:68
+#: En.x64.Debug.ActionText-2.idtx:68 En.x64.Release.ActionText-2.idtx:68
+msgid "Unregistering MIME info"
+msgstr "Annullamento della registrazione delle informazioni MIME"
+
+#: En.Win32.Debug.ActionText-2.idtx:56 En.Win32.Release.ActionText-2.idtx:56
+#: En.x64.Debug.ActionText-2.idtx:56 En.x64.Release.ActionText-2.idtx:56
+msgid "Unregistering modules"
+msgstr "Annullamento della registrazione dei moduli"
+
+#: En.Win32.Debug.ActionText-2.idtx:69 En.Win32.Release.ActionText-2.idtx:69
+#: En.x64.Debug.ActionText-2.idtx:69 En.x64.Release.ActionText-2.idtx:69
+msgid "Unregistering program identifiers"
+msgstr "Annullamento della registrazione degli ID di programma"
+
+#: En.Win32.Debug.ActionText-2.idtx:70 En.Win32.Release.ActionText-2.idtx:70
+#: En.x64.Debug.ActionText-2.idtx:70 En.x64.Release.ActionText-2.idtx:70
+msgid "Unregistering type libraries"
+msgstr "Annullamento della registrazione delle librerie dei tipi"
+
+#: En.Win32.Debug.ActionText-2.idtx:30 En.Win32.Release.ActionText-2.idtx:30
+#: En.x64.Debug.ActionText-2.idtx:30 En.x64.Release.ActionText-2.idtx:30
+msgid "Updating component registration"
+msgstr "Aggiornamento della registrazione del componente"
+
+#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
+#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
+#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
+#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
+msgid "Updating environment strings"
+msgstr "Aggiornamento delle stringhe di ambiente"
+
 #: En.Win32.Debug.Error-2.idtx:80 En.Win32.Release.Error-2.idtx:80
 #: En.x64.Debug.Error-2.idtx:80 En.x64.Release.Error-2.idtx:80
 msgid ""
@@ -1265,10 +1799,25 @@ msgstr ""
 "Nel computer sono attivi criteri che impediscono le installazioni da parte "
 "di utenti."
 
+#: En.Win32.Debug.ActionText-2.idtx:23 En.Win32.Release.ActionText-2.idtx:23
+#: En.x64.Debug.ActionText-2.idtx:23 En.x64.Release.ActionText-2.idtx:23
+msgid "Validating install"
+msgstr "Convalida dell'installazione"
+
 #: En.Win32.Debug.Error-2.idtx:6 En.Win32.Release.Error-2.idtx:6
 #: En.x64.Debug.Error-2.idtx:6 En.x64.Release.Error-2.idtx:6
 msgid "Warning [1]. "
 msgstr "Avviso [1]. "
+
+#: En.Win32.Debug.ActionText-2.idtx:72 En.Win32.Release.ActionText-2.idtx:72
+#: En.x64.Debug.ActionText-2.idtx:72 En.x64.Release.ActionText-2.idtx:72
+msgid "Writing INI files values"
+msgstr "Scrittura dei valori dei file INI"
+
+#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
+#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
+msgid "Writing system registry values"
+msgstr "Scrittura dei valori del registro di sistema"
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
 msgid ""

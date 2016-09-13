@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-29 07:44+0200\n"
+"POT-Creation-Date: 2016-09-13 10:48+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
 "Language-Team: Swedish (https://www.transifex.com/eduroam_devel/teams/11799/sv/)\n"
@@ -18,6 +18,17 @@ msgstr ""
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+
+#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Debug.ActionText-2.idtx:39
+#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Debug.ActionText-2.idtx:53
+#: En.Win32.Release.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:39
+#: En.Win32.Release.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:53
+#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Debug.ActionText-2.idtx:39
+#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Debug.ActionText-2.idtx:53
+#: En.x64.Release.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:39
+#: En.x64.Release.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:53
+msgid "[1]"
+msgstr "[1]"
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
@@ -78,9 +89,11 @@ msgstr "=== Inloggning påbörjades: [Date] [Time] ==="
 msgid "=== Logging stopped: [Date] [Time] ==="
 msgstr "=== Inloggning påbörjades: [Date] [Time] ==="
 
-#: En.Win32.Debug.CustomAction-2.idtx:3 En.Win32.Debug.Error-2.idtx:3
+#: En.Win32.Debug.ActionText-2.idtx:3 En.Win32.Debug.CustomAction-2.idtx:3
+#: En.Win32.Debug.Error-2.idtx:3 En.Win32.Release.ActionText-2.idtx:3
 #: En.Win32.Release.CustomAction-2.idtx:3 En.Win32.Release.Error-2.idtx:3
-#: En.x64.Debug.CustomAction-2.idtx:3 En.x64.Debug.Error-2.idtx:3
+#: En.x64.Debug.ActionText-2.idtx:3 En.x64.Debug.CustomAction-2.idtx:3
+#: En.x64.Debug.Error-2.idtx:3 En.x64.Release.ActionText-2.idtx:3
 #: En.x64.Release.CustomAction-2.idtx:3 En.x64.Release.Error-2.idtx:3
 msgid "1252"
 msgstr "1252"
@@ -183,6 +196,16 @@ msgstr "Annonseringen har slutförts."
 msgid "Advertisement failed."
 msgstr "Annonseringen misslyckades."
 
+#: En.Win32.Debug.ActionText-2.idtx:4 En.Win32.Release.ActionText-2.idtx:4
+#: En.x64.Debug.ActionText-2.idtx:4 En.x64.Release.ActionText-2.idtx:4
+msgid "Advertising application"
+msgstr "Annonserar program"
+
+#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
+#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+msgid "Allocating registry space"
+msgstr "Allokerar registerutrymme"
+
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
@@ -261,10 +284,43 @@ msgstr ""
 "En annan installation pågår. Du måste avsluta den installationen innan du "
 "kan fortsätta med den här."
 
+#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
+#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
+msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
+msgstr ""
+"Tillämpnings-ID: [1]{{, Tillämpningstyp: [2], Användare: [3], RSN: [4]}}"
+
+#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
+#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
+msgid "AppId: [1]{{, AppType: [2]}}"
+msgstr "Tillämpnings-ID: [1]{{, Tillämpningstyp: [2]}}"
+
+#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Debug.ActionText-2.idtx:28
+#: En.Win32.Release.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:28
+#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Debug.ActionText-2.idtx:28
+#: En.x64.Release.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:28
+msgid "Application Context:[1], Assembly Name:[2]"
+msgstr "Programkontext: [1], paketnamn: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
+#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
+msgid "Application: [1]"
+msgstr "Tillämpning: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
+#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
+msgid "Application: [1], Command line: [2]"
+msgstr "Tillämpning: [1], Kommandorad: [2]"
+
 #: En.Win32.Debug.Error-2.idtx:82 En.Win32.Release.Error-2.idtx:82
 #: En.x64.Debug.Error-2.idtx:82 En.x64.Release.Error-2.idtx:82
 msgid "Are you sure you want to cancel?"
 msgstr "Vill du avbryta?"
+
+#: En.Win32.Debug.ActionText-2.idtx:7 En.Win32.Release.ActionText-2.idtx:7
+#: En.x64.Debug.ActionText-2.idtx:7 En.x64.Release.ActionText-2.idtx:7
+msgid "Binding executables"
+msgstr "Binder körbara"
 
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
@@ -285,6 +341,20 @@ msgstr ""
 " namn eller ta bort filen och klicka på Försök igen eller klicka på Avbryt "
 "om du vill avbryta."
 
+#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Debug.ActionText-2.idtx:64
+#: En.Win32.Release.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:64
+#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Debug.ActionText-2.idtx:64
+#: En.x64.Release.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:64
+msgid "Class Id: [1]"
+msgstr "Class Id: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Debug.ActionText-2.idtx:61
+#: En.Win32.Release.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:61
+#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Debug.ActionText-2.idtx:61
+#: En.x64.Release.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:61
+msgid "Component ID: [1], Qualifier: [2]"
+msgstr "Komponent-ID: [1], Bestämning: [2]"
+
 #: En.Win32.Debug.Error-2.idtx:154 En.Win32.Release.Error-2.idtx:154
 #: En.x64.Debug.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
 msgid ""
@@ -295,6 +365,15 @@ msgstr ""
 "Component Services (COM+ 1.0) har inte installerats på den här datorn. "
 "Component Services krävs för att installationen ska kunna genomföras. "
 "Component Services finns på Windows 2000."
+
+#: En.Win32.Debug.ActionText-2.idtx:10 En.Win32.Debug.ActionText-2.idtx:15
+#: En.Win32.Debug.ActionText-2.idtx:9 En.Win32.Release.ActionText-2.idtx:10
+#: En.Win32.Release.ActionText-2.idtx:15 En.Win32.Release.ActionText-2.idtx:9
+#: En.x64.Debug.ActionText-2.idtx:10 En.x64.Debug.ActionText-2.idtx:15
+#: En.x64.Debug.ActionText-2.idtx:9 En.x64.Release.ActionText-2.idtx:10
+#: En.x64.Release.ActionText-2.idtx:15 En.x64.Release.ActionText-2.idtx:9
+msgid "Computing space requirements"
+msgstr "Beräknar hur mycket utrymme som krävs"
 
 #: En.Win32.Debug.Error-2.idtx:118 En.Win32.Release.Error-2.idtx:118
 #: En.x64.Debug.Error-2.idtx:118 En.x64.Release.Error-2.idtx:118
@@ -310,6 +389,16 @@ msgstr "Konfigurationen misslyckades."
 #: En.x64.Debug.Error-2.idtx:106 En.x64.Release.Error-2.idtx:106
 msgid "Configured [2]"
 msgstr "[2] konfigurerades"
+
+#: En.Win32.Debug.ActionText-2.idtx:18 En.Win32.Release.ActionText-2.idtx:18
+#: En.x64.Debug.ActionText-2.idtx:18 En.x64.Release.ActionText-2.idtx:18
+msgid "Copying network install files"
+msgstr "Kopierar installationsfiler för nätverk"
+
+#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:19
+#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:19
+msgid "Copying new files"
+msgstr "Kopierar nya filer"
 
 #: En.Win32.Debug.Error-2.idtx:86 En.Win32.Release.Error-2.idtx:86
 #: En.x64.Debug.Error-2.idtx:86 En.x64.Release.Error-2.idtx:86
@@ -513,6 +602,26 @@ msgstr ""
 "Bekräfta att du har tillräcklig åtkomst till nyckeln eller kontakta "
 "supportpersonalen."
 
+#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:14
+#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:14
+msgid "Creating duplicate files"
+msgstr "Skapar dubblettfiler"
+
+#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:11
+#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:11
+msgid "Creating folders"
+msgstr "Skapar mappar"
+
+#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:12
+#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:12
+msgid "Creating shortcuts"
+msgstr "Skapar genvägar"
+
+#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Release.ActionText-2.idtx:13
+#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Release.ActionText-2.idtx:13
+msgid "Deleting services"
+msgstr "Tar bort tjänster"
+
 #: En.Win32.Debug.Error-2.idtx:78 En.Win32.Release.Error-2.idtx:78
 #: En.x64.Debug.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
 msgid ""
@@ -654,6 +763,18 @@ msgstr ""
 "Det gick inte att skriva till filen: [3]. {{ Systemfel [2].}} Bekräfta att "
 "du kan komma åt den katalogen."
 
+#: En.Win32.Debug.ActionText-2.idtx:24 En.Win32.Release.ActionText-2.idtx:24
+#: En.x64.Debug.ActionText-2.idtx:24 En.x64.Release.ActionText-2.idtx:24
+msgid "Evaluating launch conditions"
+msgstr "Utvärderar startvillkor"
+
+#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Debug.ActionText-2.idtx:66
+#: En.Win32.Release.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:66
+#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Debug.ActionText-2.idtx:66
+#: En.x64.Release.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:66
+msgid "Extension: [1]"
+msgstr "Filtillägg: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:133 En.Win32.Release.Error-2.idtx:133
 #: En.x64.Debug.Error-2.idtx:133 En.x64.Release.Error-2.idtx:133
 msgid ""
@@ -676,20 +797,112 @@ msgstr "Det gick inte att flytta filen [2]: CRC-fel."
 msgid "Failed to correctly patch [2] file: CRC error."
 msgstr "Det gick inte att korrigera filen [2]: CRC-fel."
 
+#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Debug.ActionText-2.idtx:62
+#: En.Win32.Release.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:62
+#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Debug.ActionText-2.idtx:62
+#: En.x64.Release.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:62
+msgid "Feature: [1]"
+msgstr "Funktion: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:108 En.Win32.Release.Error-2.idtx:108
 #: En.x64.Debug.Error-2.idtx:108 En.x64.Release.Error-2.idtx:108
 msgid "File [2] was rejected by digital signature policy."
 msgstr "Filen [2] nekades av principen för digitala signaturer."
+
+#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Debug.ActionText-2.idtx:7
+#: En.Win32.Release.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:7
+#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Debug.ActionText-2.idtx:7
+#: En.x64.Release.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:7
+msgid "File: [1]"
+msgstr "Fil: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
+#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
+msgid "File: [1], Dependencies: [2]"
+msgstr "Fil: [1], Beroenden: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Debug.ActionText-2.idtx:56
+#: En.Win32.Release.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:56
+#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Debug.ActionText-2.idtx:56
+#: En.x64.Release.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:56
+msgid "File: [1], Folder: [2]"
+msgstr "Fil: [1], Mapp: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
+#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
+msgid "File: [1], Folder: [2], Size: [3]"
+msgstr "Fil: [1], Katalog: [2], Storlek: [3]"
+
+#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Debug.ActionText-2.idtx:46
+#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:43
+#: En.Win32.Release.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:60
+#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Debug.ActionText-2.idtx:46
+#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:43
+#: En.x64.Release.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:60
+msgid "File: [1], Folder: [9]"
+msgstr "Fil: [1], Katalog: [9]"
+
+#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Debug.ActionText-2.idtx:18
+#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Debug.ActionText-2.idtx:26
+#: En.Win32.Release.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:18
+#: En.Win32.Release.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:26
+#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Debug.ActionText-2.idtx:18
+#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Debug.ActionText-2.idtx:26
+#: En.x64.Release.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:18
+#: En.x64.Release.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:26
+msgid "File: [1], Folder: [9], Size: [6]"
+msgstr "Fil: [1], Katalog: [9], Storlek: [6]"
+
+#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Debug.ActionText-2.idtx:72
+#: En.Win32.Release.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:72
+#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Debug.ActionText-2.idtx:72
+#: En.x64.Release.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:72
+msgid "File: [1], Section: [2], Key: [3], Value: [4]"
+msgstr "Fil: [1], Sektion: [2], Nyckel: [3], Värde: [4]"
+
+#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Debug.ActionText-2.idtx:47
+#: En.Win32.Release.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:47
+#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Debug.ActionText-2.idtx:47
+#: En.x64.Release.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:47
+msgid "Folder: [1]"
+msgstr "Mapp: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Debug.ActionText-2.idtx:67
+#: En.Win32.Release.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:67
+#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Debug.ActionText-2.idtx:67
+#: En.x64.Release.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:67
+msgid "Font: [1]"
+msgstr "Teckensnitt: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
+#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
+msgid "Found application: [1]"
+msgstr "Hittade tillämpning: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
+#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+msgid "Free space: [1]"
+msgstr "Ledigt utrymme: [1]"
 
 #: En.Win32.Debug.Error-2.idtx:25 En.Win32.Release.Error-2.idtx:25
 #: En.x64.Debug.Error-2.idtx:25 En.x64.Release.Error-2.idtx:25
 msgid "Gathering required information..."
 msgstr "Samlar den information som krävs..."
 
+#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:17
+#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:17
+msgid "Generating script operations for action:"
+msgstr "Genererar skriptoperationer för åtgärden:"
+
 #: En.Win32.Debug.Error-2.idtx:8 En.Win32.Release.Error-2.idtx:8
 #: En.x64.Debug.Error-2.idtx:8 En.x64.Release.Error-2.idtx:8
 msgid "Info [1]. "
 msgstr "Information [1]. "
+
+#: En.Win32.Debug.ActionText-2.idtx:57 En.Win32.Release.ActionText-2.idtx:57
+#: En.x64.Debug.ActionText-2.idtx:57 En.x64.Release.ActionText-2.idtx:57
+msgid "Initializing ODBC folders"
+msgstr "Initierar ODBC-kataloger"
 
 #: En.Win32.Debug.Error-2.idtx:97 En.Win32.Release.Error-2.idtx:97
 #: En.x64.Debug.Error-2.idtx:97 En.x64.Release.Error-2.idtx:97
@@ -716,15 +929,59 @@ msgstr "Installer svarar inte."
 msgid "Installer stopped prematurely."
 msgstr "Windows Installer avslutades för tidigt."
 
+#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
+#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
+msgid "Installing new services"
+msgstr "Installerar nya tjänster"
+
+#: En.Win32.Debug.ActionText-2.idtx:20 En.Win32.Release.ActionText-2.idtx:20
+#: En.x64.Debug.ActionText-2.idtx:20 En.x64.Release.ActionText-2.idtx:20
+msgid "Installing ODBC components"
+msgstr "Installerar ODBC-komponenter"
+
+#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
+#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
+msgid "Installing system catalog"
+msgstr "Installerar systemkatalog"
+
 #: En.Win32.Debug.Error-2.idtx:57 En.Win32.Release.Error-2.idtx:57
 #: En.x64.Debug.Error-2.idtx:57 En.x64.Release.Error-2.idtx:57
 msgid "Invalid Drive: [2]"
 msgstr "Ogiltig enhet: [2]"
 
+#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
+#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
+msgid "Key: [1], Name: [2]"
+msgstr "Nyckel: [1], Namn: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
+#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
+msgid "Key: [1], Name: [2], Value: [3]"
+msgstr "Nyckel: [1], Namn: [2], Värde: [3]"
+
+#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Debug.ActionText-2.idtx:70
+#: En.Win32.Release.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:70
+#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Debug.ActionText-2.idtx:70
+#: En.x64.Release.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:70
+msgid "LibID: [1]"
+msgstr "BiblID: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:15 En.Win32.Release.Error-2.idtx:15
 #: En.x64.Debug.Error-2.idtx:15 En.x64.Release.Error-2.idtx:15
 msgid "Message type: [1], Argument: [2]"
 msgstr "Meddelandetyp: [1], Argument: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
+#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
+msgid "Migrating feature states from related applications"
+msgstr "Flyttar funktionsstatus från relaterade tillämpningar"
+
+#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Debug.ActionText-2.idtx:68
+#: En.Win32.Release.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:68
+#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Debug.ActionText-2.idtx:68
+#: En.x64.Release.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:68
+msgid "MIME Content Type: [1], Extension: [2]"
+msgstr "MIME-innehållstyp: [1],Filtillägg: [2]"
 
 #: En.Win32.Debug.Error-2.idtx:131 En.Win32.Release.Error-2.idtx:131
 #: En.x64.Debug.Error-2.idtx:131 En.x64.Release.Error-2.idtx:131
@@ -740,6 +997,18 @@ msgid ""
 "personnel."
 msgstr ""
 "Modulen [2] kunde inte registreras. HRESULT [3]. Kontakta supportpersonalen."
+
+#: En.Win32.Debug.ActionText-2.idtx:26 En.Win32.Release.ActionText-2.idtx:26
+#: En.x64.Debug.ActionText-2.idtx:26 En.x64.Release.ActionText-2.idtx:26
+msgid "Moving files"
+msgstr "Flyttar filer"
+
+#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
+#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
+#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
+#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
+msgid "Name: [1], Value: [2], Action [3]"
+msgstr "Namn: [1], Värde: [2], Åtgärd [3]"
 
 #: En.Win32.Debug.Error-2.idtx:102 En.Win32.Release.Error-2.idtx:102
 #: En.x64.Debug.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
@@ -766,6 +1035,11 @@ msgstr ""
 msgid "Out of memory. Shut down other applications before retrying."
 msgstr "Minnet är slut. Stäng andra program innan du försöker igen."
 
+#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
+#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
+msgid "Patching files"
+msgstr "Korrigerar filer"
+
 #: En.Win32.Debug.Error-2.idtx:32 En.Win32.Release.Error-2.idtx:32
 #: En.x64.Debug.Error-2.idtx:32 En.x64.Release.Error-2.idtx:32
 msgid "Please insert the disk: [2]"
@@ -787,6 +1061,88 @@ msgstr ""
 msgid "Product: [2] -- [3]"
 msgstr "Produkt: [2] -- [3]"
 
+#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Debug.ActionText-2.idtx:69
+#: En.Win32.Release.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:69
+#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Debug.ActionText-2.idtx:69
+#: En.x64.Release.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:69
+msgid "ProgId: [1]"
+msgstr "ProgId: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
+#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
+msgid "Property: [1], Signature: [2]"
+msgstr "Egenskap: [1], Signatur: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:27
+#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:27
+msgid "Publishing assembly information"
+msgstr "Paketinformation publiceras"
+
+#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:32
+#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:32
+msgid "Publishing Product Features"
+msgstr "Publicerar produktfunktioner"
+
+#: En.Win32.Debug.ActionText-2.idtx:33 En.Win32.Release.ActionText-2.idtx:33
+#: En.x64.Debug.ActionText-2.idtx:33 En.x64.Release.ActionText-2.idtx:33
+msgid "Publishing product information"
+msgstr "Publicerar produktinformation"
+
+#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:31
+#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:31
+msgid "Publishing Qualified Components"
+msgstr "Publicerar kvalificerade komponenter"
+
+#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:34
+#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:34
+msgid "Registering Class servers"
+msgstr "Registrerar klasservrar"
+
+#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
+#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
+msgid "Registering COM+ Applications and Components"
+msgstr "Registrerar COM+-tillämpningar och -komponenter"
+
+#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:36
+#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:36
+msgid "Registering extension servers"
+msgstr "Registrerar tilläggsservrar"
+
+#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:37
+#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:37
+msgid "Registering fonts"
+msgstr "Registrerar teckensnitt"
+
+#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:38
+#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:38
+msgid "Registering MIME info"
+msgstr "Registrerar MIME-information"
+
+#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:55
+#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:55
+msgid "Registering modules"
+msgstr "Registrerar moduler"
+
+#: En.Win32.Debug.ActionText-2.idtx:39 En.Win32.Release.ActionText-2.idtx:39
+#: En.x64.Debug.ActionText-2.idtx:39 En.x64.Release.ActionText-2.idtx:39
+msgid "Registering product"
+msgstr "Registrerar produkt"
+
+#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:40
+#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:40
+msgid "Registering program identifiers"
+msgstr "Registrerar programidentifierare"
+
+#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:41
+#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:41
+msgid "Registering type libraries"
+msgstr "Registrerar typbibliotek"
+
+#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:42
+#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:42
+msgid "Registering user"
+msgstr "Registrerar användare"
+
 #: En.Win32.Debug.Error-2.idtx:114 En.Win32.Release.Error-2.idtx:114
 #: En.x64.Debug.Error-2.idtx:114 En.x64.Release.Error-2.idtx:114
 msgid "Removal completed successfully."
@@ -802,10 +1158,65 @@ msgstr "Borttagningen misslyckades."
 msgid "Removed [2]"
 msgstr "[2] togs bort"
 
+#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
+#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
+msgid "Removing applications"
+msgstr "Tar bort tillämpningar"
+
+#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:54
+#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:54
+msgid "Removing backup files"
+msgstr "Tar bort säkerhetskopieringar"
+
+#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Release.ActionText-2.idtx:43
+#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Release.ActionText-2.idtx:43
+msgid "Removing duplicated files"
+msgstr "Tar bort dubblerade filer"
+
+#: En.Win32.Debug.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:46
+#: En.x64.Debug.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:46
+msgid "Removing files"
+msgstr "Tar bort filer"
+
+#: En.Win32.Debug.ActionText-2.idtx:47 En.Win32.Release.ActionText-2.idtx:47
+#: En.x64.Debug.ActionText-2.idtx:47 En.x64.Release.ActionText-2.idtx:47
+msgid "Removing folders"
+msgstr "Tar bort mappar"
+
+#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:48
+#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:48
+msgid "Removing INI files entries"
+msgstr "Tar bort INI-filposter"
+
+#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:60
+#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:60
+msgid "Removing moved files"
+msgstr "Tar bort flyttade filer"
+
+#: En.Win32.Debug.ActionText-2.idtx:49 En.Win32.Release.ActionText-2.idtx:49
+#: En.x64.Debug.ActionText-2.idtx:49 En.x64.Release.ActionText-2.idtx:49
+msgid "Removing ODBC components"
+msgstr "Tar bort ODBC-komponenter"
+
 #: En.Win32.Debug.Error-2.idtx:26 En.Win32.Release.Error-2.idtx:26
 #: En.x64.Debug.Error-2.idtx:26 En.x64.Release.Error-2.idtx:26
 msgid "Removing older versions of this application..."
 msgstr "Tar bort tidigare versioner av den här tillämpningen..."
+
+#: En.Win32.Debug.ActionText-2.idtx:51 En.Win32.Release.ActionText-2.idtx:51
+#: En.x64.Debug.ActionText-2.idtx:51 En.x64.Release.ActionText-2.idtx:51
+msgid "Removing shortcuts"
+msgstr "Tar bort genvägar"
+
+#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
+#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
+msgid "Removing system registry values"
+msgstr "Tar bort systemregistervärden"
+
+#: En.Win32.Debug.ActionText-2.idtx:53 En.Win32.Release.ActionText-2.idtx:53
+#: En.x64.Debug.ActionText-2.idtx:53 En.x64.Release.ActionText-2.idtx:53
+msgid "Rolling back action:"
+msgstr "Åtgärden Rollback:"
 
 #: En.Win32.Debug.Error-2.idtx:130 En.Win32.Release.Error-2.idtx:130
 #: En.x64.Debug.Error-2.idtx:130 En.x64.Release.Error-2.idtx:130
@@ -824,6 +1235,23 @@ msgid ""
 msgstr ""
 "Schemalägger omstart: Byter namn på filen [2] till [3]. Du måste starta om "
 "för att slutföra åtgärden."
+
+#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
+#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
+msgid "Searching for installed applications"
+msgstr "Söker efter installerade program"
+
+#: En.Win32.Debug.ActionText-2.idtx:52 En.Win32.Debug.ActionText-2.idtx:8
+#: En.Win32.Release.ActionText-2.idtx:52 En.Win32.Release.ActionText-2.idtx:8
+#: En.x64.Debug.ActionText-2.idtx:52 En.x64.Debug.ActionText-2.idtx:8
+#: En.x64.Release.ActionText-2.idtx:52 En.x64.Release.ActionText-2.idtx:8
+msgid "Searching for qualifying products"
+msgstr "Söker efter kvalificeringsprodukter"
+
+#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
+#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
+msgid "Searching for related applications"
+msgstr "Söker efter relaterade tillämpningar"
 
 #: En.Win32.Debug.Error-2.idtx:149 En.Win32.Release.Error-2.idtx:149
 #: En.x64.Debug.Error-2.idtx:149 En.x64.Release.Error-2.idtx:149
@@ -861,6 +1289,27 @@ msgstr ""
 "Det gick inte att starta tjänsten [2] ([3]). Bekräfta att du har behörighet "
 "att starta systemtjänster."
 
+#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Debug.ActionText-2.idtx:58
+#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:13
+#: En.Win32.Release.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:59
+#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Debug.ActionText-2.idtx:58
+#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:13
+#: En.x64.Release.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:59
+msgid "Service: [1]"
+msgstr "Tjänsten: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
+#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
+msgid "Service: [2]"
+msgstr "Tjänst: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Debug.ActionText-2.idtx:51
+#: En.Win32.Release.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:51
+#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Debug.ActionText-2.idtx:51
+#: En.x64.Release.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:51
+msgid "Shortcut: [1]"
+msgstr "Genvägen: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:38 En.Win32.Release.Error-2.idtx:38
 #: En.x64.Debug.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
 msgid ""
@@ -878,6 +1327,16 @@ msgid ""
 msgstr ""
 "Det gick inte att hitta källfilen{{(kabinett)}}: [2]. Bekräfta att filen "
 "finns och att du kan komma åt den."
+
+#: En.Win32.Debug.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:58
+#: En.x64.Debug.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:58
+msgid "Starting services"
+msgstr "Startar tjänster"
+
+#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:59
+#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:59
+msgid "Stopping services"
+msgstr "Stoppar tjänster"
 
 #: En.Win32.Debug.Error-2.idtx:65 En.Win32.Release.Error-2.idtx:65
 #: En.x64.Debug.Error-2.idtx:65 En.x64.Release.Error-2.idtx:65
@@ -1193,6 +1652,78 @@ msgstr "Återstående tid: {[1] minuter }{[2] sekunder}"
 msgid "Unable to write to the specified folder: [2]."
 msgstr "Det gick inte att skriva till den angivna mappen: [2]."
 
+#: En.Win32.Debug.ActionText-2.idtx:28 En.Win32.Release.ActionText-2.idtx:28
+#: En.x64.Debug.ActionText-2.idtx:28 En.x64.Release.ActionText-2.idtx:28
+msgid "Unpublishing assembly information"
+msgstr "Paketinformation avpubliceras"
+
+#: En.Win32.Debug.ActionText-2.idtx:62 En.Win32.Release.ActionText-2.idtx:62
+#: En.x64.Debug.ActionText-2.idtx:62 En.x64.Release.ActionText-2.idtx:62
+msgid "Unpublishing Product Features"
+msgstr "Avpublicerar produktfunktioner"
+
+#: En.Win32.Debug.ActionText-2.idtx:63 En.Win32.Release.ActionText-2.idtx:63
+#: En.x64.Debug.ActionText-2.idtx:63 En.x64.Release.ActionText-2.idtx:63
+msgid "Unpublishing product information"
+msgstr "Avpublicerar produktinformation"
+
+#: En.Win32.Debug.ActionText-2.idtx:61 En.Win32.Release.ActionText-2.idtx:61
+#: En.x64.Debug.ActionText-2.idtx:61 En.x64.Release.ActionText-2.idtx:61
+msgid "Unpublishing Qualified Components"
+msgstr "Avpublicerar kvalificeringskomponenter"
+
+#: En.Win32.Debug.ActionText-2.idtx:64 En.Win32.Release.ActionText-2.idtx:64
+#: En.x64.Debug.ActionText-2.idtx:64 En.x64.Release.ActionText-2.idtx:64
+msgid "Unregister Class servers"
+msgstr "Avregistrera klasservrar"
+
+#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
+#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
+msgid "Unregistering COM+ Applications and Components"
+msgstr "Avregistrerar COM+-tillämpningar och -komponenter"
+
+#: En.Win32.Debug.ActionText-2.idtx:66 En.Win32.Release.ActionText-2.idtx:66
+#: En.x64.Debug.ActionText-2.idtx:66 En.x64.Release.ActionText-2.idtx:66
+msgid "Unregistering extension servers"
+msgstr "Avregistrerar tilläggsservrar"
+
+#: En.Win32.Debug.ActionText-2.idtx:67 En.Win32.Release.ActionText-2.idtx:67
+#: En.x64.Debug.ActionText-2.idtx:67 En.x64.Release.ActionText-2.idtx:67
+msgid "Unregistering fonts"
+msgstr "Avregistrerar teckensnitt"
+
+#: En.Win32.Debug.ActionText-2.idtx:68 En.Win32.Release.ActionText-2.idtx:68
+#: En.x64.Debug.ActionText-2.idtx:68 En.x64.Release.ActionText-2.idtx:68
+msgid "Unregistering MIME info"
+msgstr "Avregistrerar MIME-information"
+
+#: En.Win32.Debug.ActionText-2.idtx:56 En.Win32.Release.ActionText-2.idtx:56
+#: En.x64.Debug.ActionText-2.idtx:56 En.x64.Release.ActionText-2.idtx:56
+msgid "Unregistering modules"
+msgstr "Avregistrerar moduler"
+
+#: En.Win32.Debug.ActionText-2.idtx:69 En.Win32.Release.ActionText-2.idtx:69
+#: En.x64.Debug.ActionText-2.idtx:69 En.x64.Release.ActionText-2.idtx:69
+msgid "Unregistering program identifiers"
+msgstr "Avregistrerar programidentifierare"
+
+#: En.Win32.Debug.ActionText-2.idtx:70 En.Win32.Release.ActionText-2.idtx:70
+#: En.x64.Debug.ActionText-2.idtx:70 En.x64.Release.ActionText-2.idtx:70
+msgid "Unregistering type libraries"
+msgstr "Avregistrerar typbibliotek"
+
+#: En.Win32.Debug.ActionText-2.idtx:30 En.Win32.Release.ActionText-2.idtx:30
+#: En.x64.Debug.ActionText-2.idtx:30 En.x64.Release.ActionText-2.idtx:30
+msgid "Updating component registration"
+msgstr "Uppdaterar komponentregistrering"
+
+#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
+#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
+#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
+#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
+msgid "Updating environment strings"
+msgstr "Uppdaterar systemsträngar"
+
 #: En.Win32.Debug.Error-2.idtx:80 En.Win32.Release.Error-2.idtx:80
 #: En.x64.Debug.Error-2.idtx:80 En.x64.Release.Error-2.idtx:80
 msgid ""
@@ -1218,10 +1749,25 @@ msgstr ""
 msgid "User installations are disabled via policy on the machine."
 msgstr "Användarinstallationer har inaktiverats av en princip på datorn."
 
+#: En.Win32.Debug.ActionText-2.idtx:23 En.Win32.Release.ActionText-2.idtx:23
+#: En.x64.Debug.ActionText-2.idtx:23 En.x64.Release.ActionText-2.idtx:23
+msgid "Validating install"
+msgstr "Bekräftar installation"
+
 #: En.Win32.Debug.Error-2.idtx:6 En.Win32.Release.Error-2.idtx:6
 #: En.x64.Debug.Error-2.idtx:6 En.x64.Release.Error-2.idtx:6
 msgid "Warning [1]. "
 msgstr "Varning [1]. "
+
+#: En.Win32.Debug.ActionText-2.idtx:72 En.Win32.Release.ActionText-2.idtx:72
+#: En.x64.Debug.ActionText-2.idtx:72 En.x64.Release.ActionText-2.idtx:72
+msgid "Writing INI files values"
+msgstr "Skriver INI-filvärden"
+
+#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
+#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
+msgid "Writing system registry values"
+msgstr "Skriver systermregistervärden"
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
 msgid ""

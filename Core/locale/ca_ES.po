@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-29 07:44+0200\n"
+"POT-Creation-Date: 2016-09-13 10:48+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
 "Language-Team: Catalan (Spain) (https://www.transifex.com/eduroam_devel/teams/11799/ca_ES/)\n"
@@ -18,6 +18,17 @@ msgstr ""
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+
+#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Debug.ActionText-2.idtx:39
+#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Debug.ActionText-2.idtx:53
+#: En.Win32.Release.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:39
+#: En.Win32.Release.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:53
+#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Debug.ActionText-2.idtx:39
+#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Debug.ActionText-2.idtx:53
+#: En.x64.Release.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:39
+#: En.x64.Release.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:53
+msgid "[1]"
+msgstr "[1]"
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
@@ -78,9 +89,11 @@ msgstr "=== Connexió començada: [Date] [Time] ==="
 msgid "=== Logging stopped: [Date] [Time] ==="
 msgstr "=== Connexió aturada: [Date] [Time] ==="
 
-#: En.Win32.Debug.CustomAction-2.idtx:3 En.Win32.Debug.Error-2.idtx:3
+#: En.Win32.Debug.ActionText-2.idtx:3 En.Win32.Debug.CustomAction-2.idtx:3
+#: En.Win32.Debug.Error-2.idtx:3 En.Win32.Release.ActionText-2.idtx:3
 #: En.Win32.Release.CustomAction-2.idtx:3 En.Win32.Release.Error-2.idtx:3
-#: En.x64.Debug.CustomAction-2.idtx:3 En.x64.Debug.Error-2.idtx:3
+#: En.x64.Debug.ActionText-2.idtx:3 En.x64.Debug.CustomAction-2.idtx:3
+#: En.x64.Debug.Error-2.idtx:3 En.x64.Release.ActionText-2.idtx:3
 #: En.x64.Release.CustomAction-2.idtx:3 En.x64.Release.Error-2.idtx:3
 msgid "1252"
 msgstr "1252"
@@ -185,6 +198,16 @@ msgstr "L'anuncis s'ha efectuat sense problemes."
 msgid "Advertisement failed."
 msgstr "Ha fallat l'anunci."
 
+#: En.Win32.Debug.ActionText-2.idtx:4 En.Win32.Release.ActionText-2.idtx:4
+#: En.x64.Debug.ActionText-2.idtx:4 En.x64.Release.ActionText-2.idtx:4
+msgid "Advertising application"
+msgstr "Aplicació d'exemple"
+
+#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
+#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+msgid "Allocating registry space"
+msgstr "S'estȁ assignant espai al Registre"
+
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
@@ -262,10 +285,42 @@ msgstr ""
 "Hi ha una altra instal·lació en curs. Heu de completar aquella instal·lació "
 "abans de continuar amb aquesta."
 
+#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
+#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
+msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
+msgstr "IDApl: [1]{{, TipusApl: [2], Usuaris: [3], RSN: [4]}}"
+
+#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
+#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
+msgid "AppId: [1]{{, AppType: [2]}}"
+msgstr "IDApl: [1]{{, TipusApl: [2]}}"
+
+#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Debug.ActionText-2.idtx:28
+#: En.Win32.Release.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:28
+#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Debug.ActionText-2.idtx:28
+#: En.x64.Release.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:28
+msgid "Application Context:[1], Assembly Name:[2]"
+msgstr "Context d'aplicació:[1], nom de muntatge:[2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
+#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
+msgid "Application: [1]"
+msgstr "Aplicació: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
+#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
+msgid "Application: [1], Command line: [2]"
+msgstr "Aplicació: [1], Línia d'ordres: [2]"
+
 #: En.Win32.Debug.Error-2.idtx:82 En.Win32.Release.Error-2.idtx:82
 #: En.x64.Debug.Error-2.idtx:82 En.x64.Release.Error-2.idtx:82
 msgid "Are you sure you want to cancel?"
 msgstr "Esteu segurs que voleu cancel·lar?"
+
+#: En.Win32.Debug.ActionText-2.idtx:7 En.Win32.Release.ActionText-2.idtx:7
+#: En.x64.Debug.ActionText-2.idtx:7 En.x64.Release.ActionText-2.idtx:7
+msgid "Binding executables"
+msgstr "Lligant fitxers executables"
 
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
@@ -286,6 +341,20 @@ msgstr ""
 "Canvieu-li el nom o suprimiu el fitxer i feu clic a Reintenta, o bé feu clic"
 " a Cancel·la per sortir."
 
+#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Debug.ActionText-2.idtx:64
+#: En.Win32.Release.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:64
+#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Debug.ActionText-2.idtx:64
+#: En.x64.Release.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:64
+msgid "Class Id: [1]"
+msgstr "ID de classe: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Debug.ActionText-2.idtx:61
+#: En.Win32.Release.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:61
+#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Debug.ActionText-2.idtx:61
+#: En.x64.Release.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:61
+msgid "Component ID: [1], Qualifier: [2]"
+msgstr "ID de component: [1], Qualificador: [2]"
+
 #: En.Win32.Debug.Error-2.idtx:154 En.Win32.Release.Error-2.idtx:154
 #: En.x64.Debug.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
 msgid ""
@@ -297,6 +366,15 @@ msgstr ""
 "ordinador. La instal·lació requereix els Serveis de component per poder "
 "completar-se satisfactȍriament. Els Serveis de component estan disponibles "
 "al Windows 2000."
+
+#: En.Win32.Debug.ActionText-2.idtx:10 En.Win32.Debug.ActionText-2.idtx:15
+#: En.Win32.Debug.ActionText-2.idtx:9 En.Win32.Release.ActionText-2.idtx:10
+#: En.Win32.Release.ActionText-2.idtx:15 En.Win32.Release.ActionText-2.idtx:9
+#: En.x64.Debug.ActionText-2.idtx:10 En.x64.Debug.ActionText-2.idtx:15
+#: En.x64.Debug.ActionText-2.idtx:9 En.x64.Release.ActionText-2.idtx:10
+#: En.x64.Release.ActionText-2.idtx:15 En.x64.Release.ActionText-2.idtx:9
+msgid "Computing space requirements"
+msgstr "S'estan calculant els requisits d'espai"
 
 #: En.Win32.Debug.Error-2.idtx:118 En.Win32.Release.Error-2.idtx:118
 #: En.x64.Debug.Error-2.idtx:118 En.x64.Release.Error-2.idtx:118
@@ -312,6 +390,16 @@ msgstr "Ha fallat la configuració."
 #: En.x64.Debug.Error-2.idtx:106 En.x64.Release.Error-2.idtx:106
 msgid "Configured [2]"
 msgstr "Configurat [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:18 En.Win32.Release.ActionText-2.idtx:18
+#: En.x64.Debug.ActionText-2.idtx:18 En.x64.Release.ActionText-2.idtx:18
+msgid "Copying network install files"
+msgstr "S'estan copiant fitxers d'instal·lació a la xarxa"
+
+#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:19
+#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:19
+msgid "Copying new files"
+msgstr "S'estan copiant els fitxers nous"
 
 #: En.Win32.Debug.Error-2.idtx:86 En.Win32.Release.Error-2.idtx:86
 #: En.x64.Debug.Error-2.idtx:86 En.x64.Release.Error-2.idtx:86
@@ -520,6 +608,26 @@ msgstr ""
 "[4].}} Verifiqueu que teniu accés suficient a aquesta clau o bé poseu-vos en"
 " contacte amb el personal de suport."
 
+#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:14
+#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:14
+msgid "Creating duplicate files"
+msgstr "S'estan creant fitxers duplicats"
+
+#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:11
+#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:11
+msgid "Creating folders"
+msgstr "S'estan creant carpetes"
+
+#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:12
+#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:12
+msgid "Creating shortcuts"
+msgstr "S'estan creant dreceres"
+
+#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Release.ActionText-2.idtx:13
+#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Release.ActionText-2.idtx:13
+msgid "Deleting services"
+msgstr "S'estan suprimint serveis"
+
 #: En.Win32.Debug.Error-2.idtx:78 En.Win32.Release.Error-2.idtx:78
 #: En.x64.Debug.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
 msgid ""
@@ -660,6 +768,18 @@ msgstr ""
 "Error en escriure al fitxer: [3]. {{ Error del sistema [2].}} Verifiqueu que"
 " teniu accés a aquest directori."
 
+#: En.Win32.Debug.ActionText-2.idtx:24 En.Win32.Release.ActionText-2.idtx:24
+#: En.x64.Debug.ActionText-2.idtx:24 En.x64.Release.ActionText-2.idtx:24
+msgid "Evaluating launch conditions"
+msgstr "S'estan avaluant les condicions d'arrencada"
+
+#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Debug.ActionText-2.idtx:66
+#: En.Win32.Release.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:66
+#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Debug.ActionText-2.idtx:66
+#: En.x64.Release.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:66
+msgid "Extension: [1]"
+msgstr "Extensió: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:133 En.Win32.Release.Error-2.idtx:133
 #: En.x64.Debug.Error-2.idtx:133 En.x64.Release.Error-2.idtx:133
 msgid ""
@@ -683,20 +803,112 @@ msgstr "No s'ha pogut desplaçar correctament el fitxer [2]: error CRC."
 msgid "Failed to correctly patch [2] file: CRC error."
 msgstr "No s'ha pogut revisar correctament el fitxer [2]: error CRC."
 
+#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Debug.ActionText-2.idtx:62
+#: En.Win32.Release.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:62
+#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Debug.ActionText-2.idtx:62
+#: En.x64.Release.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:62
+msgid "Feature: [1]"
+msgstr "Característica: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:108 En.Win32.Release.Error-2.idtx:108
 #: En.x64.Debug.Error-2.idtx:108 En.x64.Release.Error-2.idtx:108
 msgid "File [2] was rejected by digital signature policy."
 msgstr "Les directrius de la signatura digital han refusat el fitxer [2]."
+
+#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Debug.ActionText-2.idtx:7
+#: En.Win32.Release.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:7
+#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Debug.ActionText-2.idtx:7
+#: En.x64.Release.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:7
+msgid "File: [1]"
+msgstr "Fitxer: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
+#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
+msgid "File: [1], Dependencies: [2]"
+msgstr "Fitxer: [1], Dependȅncies: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Debug.ActionText-2.idtx:56
+#: En.Win32.Release.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:56
+#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Debug.ActionText-2.idtx:56
+#: En.x64.Release.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:56
+msgid "File: [1], Folder: [2]"
+msgstr "Fitxer: [1], Carpeta: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
+#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
+msgid "File: [1], Folder: [2], Size: [3]"
+msgstr "Fitxer: [1], Directori: [2], Grandȁria: [3]"
+
+#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Debug.ActionText-2.idtx:46
+#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:43
+#: En.Win32.Release.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:60
+#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Debug.ActionText-2.idtx:46
+#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:43
+#: En.x64.Release.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:60
+msgid "File: [1], Folder: [9]"
+msgstr "Fitxer: [1], Directori: [9]"
+
+#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Debug.ActionText-2.idtx:18
+#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Debug.ActionText-2.idtx:26
+#: En.Win32.Release.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:18
+#: En.Win32.Release.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:26
+#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Debug.ActionText-2.idtx:18
+#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Debug.ActionText-2.idtx:26
+#: En.x64.Release.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:18
+#: En.x64.Release.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:26
+msgid "File: [1], Folder: [9], Size: [6]"
+msgstr "Fitxer: [1], Directori: [9], Grandȁria: [6]"
+
+#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Debug.ActionText-2.idtx:72
+#: En.Win32.Release.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:72
+#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Debug.ActionText-2.idtx:72
+#: En.x64.Release.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:72
+msgid "File: [1], Section: [2], Key: [3], Value: [4]"
+msgstr "Fitxer: [1], Secció: [2], Clau: [3], Valor: [4]"
+
+#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Debug.ActionText-2.idtx:47
+#: En.Win32.Release.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:47
+#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Debug.ActionText-2.idtx:47
+#: En.x64.Release.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:47
+msgid "Folder: [1]"
+msgstr "Carpeta: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Debug.ActionText-2.idtx:67
+#: En.Win32.Release.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:67
+#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Debug.ActionText-2.idtx:67
+#: En.x64.Release.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:67
+msgid "Font: [1]"
+msgstr "Tipus de lletra: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
+#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
+msgid "Found application: [1]"
+msgstr "Aplicació trobada: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
+#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+msgid "Free space: [1]"
+msgstr "Espai lliure: [1]"
 
 #: En.Win32.Debug.Error-2.idtx:25 En.Win32.Release.Error-2.idtx:25
 #: En.x64.Debug.Error-2.idtx:25 En.x64.Release.Error-2.idtx:25
 msgid "Gathering required information..."
 msgstr "Recollint informació requerida..."
 
+#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:17
+#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:17
+msgid "Generating script operations for action:"
+msgstr "S'estȁ generant seqüȅncia d'operacions per a l'acció:"
+
 #: En.Win32.Debug.Error-2.idtx:8 En.Win32.Release.Error-2.idtx:8
 #: En.x64.Debug.Error-2.idtx:8 En.x64.Release.Error-2.idtx:8
 msgid "Info [1]. "
 msgstr "Inf. [1]. "
+
+#: En.Win32.Debug.ActionText-2.idtx:57 En.Win32.Release.ActionText-2.idtx:57
+#: En.x64.Debug.ActionText-2.idtx:57 En.x64.Release.ActionText-2.idtx:57
+msgid "Initializing ODBC folders"
+msgstr "Inicialitzant directoris ODBC"
 
 #: En.Win32.Debug.Error-2.idtx:97 En.Win32.Release.Error-2.idtx:97
 #: En.x64.Debug.Error-2.idtx:97 En.x64.Release.Error-2.idtx:97
@@ -723,15 +935,61 @@ msgstr "L'instal·lador ja no respon."
 msgid "Installer stopped prematurely."
 msgstr "El Windows Installer s'ha detingut prematurament."
 
+#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
+#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
+msgid "Installing new services"
+msgstr "S'estan instal·lant serveis nous"
+
+#: En.Win32.Debug.ActionText-2.idtx:20 En.Win32.Release.ActionText-2.idtx:20
+#: En.x64.Debug.ActionText-2.idtx:20 En.x64.Release.ActionText-2.idtx:20
+msgid "Installing ODBC components"
+msgstr "S'estan instal·lant components ODBC"
+
+#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
+#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
+msgid "Installing system catalog"
+msgstr "S'estȁ instal·lant el catȁleg del sistema"
+
 #: En.Win32.Debug.Error-2.idtx:57 En.Win32.Release.Error-2.idtx:57
 #: En.x64.Debug.Error-2.idtx:57 En.x64.Release.Error-2.idtx:57
 msgid "Invalid Drive: [2]"
 msgstr "Unitat no vȁlida: [2]"
 
+#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
+#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
+msgid "Key: [1], Name: [2]"
+msgstr "Clau: [1], Nom: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
+#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
+msgid "Key: [1], Name: [2], Value: [3]"
+msgstr "Clau: [1], Nom: [2], Valor: [3]"
+
+#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Debug.ActionText-2.idtx:70
+#: En.Win32.Release.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:70
+#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Debug.ActionText-2.idtx:70
+#: En.x64.Release.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:70
+msgid "LibID: [1]"
+msgstr "IDBib: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:15 En.Win32.Release.Error-2.idtx:15
 #: En.x64.Debug.Error-2.idtx:15 En.x64.Release.Error-2.idtx:15
 msgid "Message type: [1], Argument: [2]"
 msgstr "Tipus de missatge: [1], Argument: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
+#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
+msgid "Migrating feature states from related applications"
+msgstr ""
+"S'estan migrant els estats de les característiques des de les aplicacions "
+"relacionades"
+
+#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Debug.ActionText-2.idtx:68
+#: En.Win32.Release.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:68
+#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Debug.ActionText-2.idtx:68
+#: En.x64.Release.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:68
+msgid "MIME Content Type: [1], Extension: [2]"
+msgstr "Tipus de contingut MIME: [1], Extensió: [2]"
 
 #: En.Win32.Debug.Error-2.idtx:131 En.Win32.Release.Error-2.idtx:131
 #: En.x64.Debug.Error-2.idtx:131 En.x64.Release.Error-2.idtx:131
@@ -749,6 +1007,18 @@ msgid ""
 msgstr ""
 "Ha fallat la supressió del Registre del mȍdul [2]. HRESULT [3]. Poseu-vos en"
 " contacte amb el personal de suport."
+
+#: En.Win32.Debug.ActionText-2.idtx:26 En.Win32.Release.ActionText-2.idtx:26
+#: En.x64.Debug.ActionText-2.idtx:26 En.x64.Release.ActionText-2.idtx:26
+msgid "Moving files"
+msgstr "S'estan desplaçant fitxers"
+
+#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
+#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
+#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
+#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
+msgid "Name: [1], Value: [2], Action [3]"
+msgstr "Nom: [1], Valor: [2], Acció [3]"
 
 #: En.Win32.Debug.Error-2.idtx:102 En.Win32.Release.Error-2.idtx:102
 #: En.x64.Debug.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
@@ -776,6 +1046,11 @@ msgid "Out of memory. Shut down other applications before retrying."
 msgstr ""
 "Memȍria insuficient. Sortiu d'altres aplicacions abans de reintentar-ho."
 
+#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
+#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
+msgid "Patching files"
+msgstr "S'estan revisant fitxers"
+
 #: En.Win32.Debug.Error-2.idtx:32 En.Win32.Release.Error-2.idtx:32
 #: En.x64.Debug.Error-2.idtx:32 En.x64.Release.Error-2.idtx:32
 msgid "Please insert the disk: [2]"
@@ -797,6 +1072,88 @@ msgstr ""
 msgid "Product: [2] -- [3]"
 msgstr "Producte: [2] -- [3]"
 
+#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Debug.ActionText-2.idtx:69
+#: En.Win32.Release.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:69
+#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Debug.ActionText-2.idtx:69
+#: En.x64.Release.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:69
+msgid "ProgId: [1]"
+msgstr "IDProg: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
+#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
+msgid "Property: [1], Signature: [2]"
+msgstr "Propietat: [1], Signatura: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:27
+#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:27
+msgid "Publishing assembly information"
+msgstr "S'estȁ publicant la informació de muntatge"
+
+#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:32
+#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:32
+msgid "Publishing Product Features"
+msgstr "S'estan publicant les característiques del producte"
+
+#: En.Win32.Debug.ActionText-2.idtx:33 En.Win32.Release.ActionText-2.idtx:33
+#: En.x64.Debug.ActionText-2.idtx:33 En.x64.Release.ActionText-2.idtx:33
+msgid "Publishing product information"
+msgstr "S'estȁ publicant la informació del producte"
+
+#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:31
+#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:31
+msgid "Publishing Qualified Components"
+msgstr "S'estan publicant els components necessaris"
+
+#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:34
+#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:34
+msgid "Registering Class servers"
+msgstr "S'estan registrant els servidors de classe"
+
+#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
+#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
+msgid "Registering COM+ Applications and Components"
+msgstr "S'estan registrant aplicacions i components COM+"
+
+#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:36
+#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:36
+msgid "Registering extension servers"
+msgstr "S'estan registrant els servidors d'extensió"
+
+#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:37
+#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:37
+msgid "Registering fonts"
+msgstr "S'estan registrant els tipus de lletra"
+
+#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:38
+#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:38
+msgid "Registering MIME info"
+msgstr "S'estȁ registrant la informació MIME"
+
+#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:55
+#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:55
+msgid "Registering modules"
+msgstr "S'estan registrant mȍduls"
+
+#: En.Win32.Debug.ActionText-2.idtx:39 En.Win32.Release.ActionText-2.idtx:39
+#: En.x64.Debug.ActionText-2.idtx:39 En.x64.Release.ActionText-2.idtx:39
+msgid "Registering product"
+msgstr "S'estȁ registrant el producte"
+
+#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:40
+#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:40
+msgid "Registering program identifiers"
+msgstr "S'estan registrant identificadors de programa"
+
+#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:41
+#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:41
+msgid "Registering type libraries"
+msgstr "S'estan registrant les biblioteques de tipus"
+
+#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:42
+#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:42
+msgid "Registering user"
+msgstr "S'estȁ registrant l'usuari"
+
 #: En.Win32.Debug.Error-2.idtx:114 En.Win32.Release.Error-2.idtx:114
 #: En.x64.Debug.Error-2.idtx:114 En.x64.Release.Error-2.idtx:114
 msgid "Removal completed successfully."
@@ -812,10 +1169,65 @@ msgstr "Ha fallat l'eliminació."
 msgid "Removed [2]"
 msgstr "Suprimit [2]"
 
+#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
+#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
+msgid "Removing applications"
+msgstr "S'estan suprimint aplicacions"
+
+#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:54
+#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:54
+msgid "Removing backup files"
+msgstr "S'estan suprimint fitxers de cȍpia de seguretat"
+
+#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Release.ActionText-2.idtx:43
+#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Release.ActionText-2.idtx:43
+msgid "Removing duplicated files"
+msgstr "S'estan suprimint els fitxers duplicats"
+
+#: En.Win32.Debug.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:46
+#: En.x64.Debug.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:46
+msgid "Removing files"
+msgstr "S'estan suprimint fitxers"
+
+#: En.Win32.Debug.ActionText-2.idtx:47 En.Win32.Release.ActionText-2.idtx:47
+#: En.x64.Debug.ActionText-2.idtx:47 En.x64.Release.ActionText-2.idtx:47
+msgid "Removing folders"
+msgstr "S'estan suprimint carpetes"
+
+#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:48
+#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:48
+msgid "Removing INI files entries"
+msgstr "S'estan suprimint entrades de fitxers INI"
+
+#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:60
+#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:60
+msgid "Removing moved files"
+msgstr "S'estan suprimint els fitxers desplaçats"
+
+#: En.Win32.Debug.ActionText-2.idtx:49 En.Win32.Release.ActionText-2.idtx:49
+#: En.x64.Debug.ActionText-2.idtx:49 En.x64.Release.ActionText-2.idtx:49
+msgid "Removing ODBC components"
+msgstr "S'estan suprimint components ODBC"
+
 #: En.Win32.Debug.Error-2.idtx:26 En.Win32.Release.Error-2.idtx:26
 #: En.x64.Debug.Error-2.idtx:26 En.x64.Release.Error-2.idtx:26
 msgid "Removing older versions of this application..."
 msgstr "S'estan suprimint les versions anteriors d'aquesta aplicació..."
+
+#: En.Win32.Debug.ActionText-2.idtx:51 En.Win32.Release.ActionText-2.idtx:51
+#: En.x64.Debug.ActionText-2.idtx:51 En.x64.Release.ActionText-2.idtx:51
+msgid "Removing shortcuts"
+msgstr "S'estan suprimint dreceres"
+
+#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
+#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
+msgid "Removing system registry values"
+msgstr "S'estan suprimint del Registre valors del sistema"
+
+#: En.Win32.Debug.ActionText-2.idtx:53 En.Win32.Release.ActionText-2.idtx:53
+#: En.x64.Debug.ActionText-2.idtx:53 En.x64.Release.ActionText-2.idtx:53
+msgid "Rolling back action:"
+msgstr "S'estȁ desfent l'acció:"
 
 #: En.Win32.Debug.Error-2.idtx:130 En.Win32.Release.Error-2.idtx:130
 #: En.x64.Debug.Error-2.idtx:130 En.x64.Release.Error-2.idtx:130
@@ -834,6 +1246,23 @@ msgid ""
 msgstr ""
 "S'estȁ planificant l'operació de reinici: s'estȁ canviant el nom de fitxer "
 "de [2] a [3]. Heu de reiniciar per completar l'operació."
+
+#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
+#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
+msgid "Searching for installed applications"
+msgstr "S'estan cercant aplicacions instal·lades"
+
+#: En.Win32.Debug.ActionText-2.idtx:52 En.Win32.Debug.ActionText-2.idtx:8
+#: En.Win32.Release.ActionText-2.idtx:52 En.Win32.Release.ActionText-2.idtx:8
+#: En.x64.Debug.ActionText-2.idtx:52 En.x64.Debug.ActionText-2.idtx:8
+#: En.x64.Release.ActionText-2.idtx:52 En.x64.Release.ActionText-2.idtx:8
+msgid "Searching for qualifying products"
+msgstr "S'estan cercant productes autoritzats"
+
+#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
+#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
+msgid "Searching for related applications"
+msgstr "S'estan cercant aplicacions relacionades"
 
 #: En.Win32.Debug.Error-2.idtx:149 En.Win32.Release.Error-2.idtx:149
 #: En.x64.Debug.Error-2.idtx:149 En.x64.Release.Error-2.idtx:149
@@ -871,6 +1300,27 @@ msgstr ""
 "El servei \"[2]\" ([3]) ha fallat en iniciar. Verifiqueu que teniu "
 "privilegis suficients per iniciar serveis del sistema."
 
+#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Debug.ActionText-2.idtx:58
+#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:13
+#: En.Win32.Release.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:59
+#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Debug.ActionText-2.idtx:58
+#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:13
+#: En.x64.Release.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:59
+msgid "Service: [1]"
+msgstr "Servei: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
+#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
+msgid "Service: [2]"
+msgstr "Servei: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Debug.ActionText-2.idtx:51
+#: En.Win32.Release.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:51
+#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Debug.ActionText-2.idtx:51
+#: En.x64.Release.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:51
+msgid "Shortcut: [1]"
+msgstr "Drecera: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:38 En.Win32.Release.Error-2.idtx:38
 #: En.x64.Debug.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
 msgid ""
@@ -888,6 +1338,16 @@ msgid ""
 msgstr ""
 "No s'ha trobat el fitxer d'origen{{(calaix)}}: [2]. Verifiqueu que el fitxer"
 " existeix i que podeu accedir-hi."
+
+#: En.Win32.Debug.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:58
+#: En.x64.Debug.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:58
+msgid "Starting services"
+msgstr "S'estan iniciant serveis"
+
+#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:59
+#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:59
+msgid "Stopping services"
+msgstr "S'estan aturant els serveis"
 
 #: En.Win32.Debug.Error-2.idtx:65 En.Win32.Release.Error-2.idtx:65
 #: En.x64.Debug.Error-2.idtx:65 En.x64.Release.Error-2.idtx:65
@@ -1212,6 +1672,78 @@ msgstr "Temps restant: {[1] minuts }{[2] segons}"
 msgid "Unable to write to the specified folder: [2]."
 msgstr "No es pot escriure en la carpeta especificada: [2]."
 
+#: En.Win32.Debug.ActionText-2.idtx:28 En.Win32.Release.ActionText-2.idtx:28
+#: En.x64.Debug.ActionText-2.idtx:28 En.x64.Release.ActionText-2.idtx:28
+msgid "Unpublishing assembly information"
+msgstr "S'estȁ despublicant la informació de muntatge"
+
+#: En.Win32.Debug.ActionText-2.idtx:62 En.Win32.Release.ActionText-2.idtx:62
+#: En.x64.Debug.ActionText-2.idtx:62 En.x64.Release.ActionText-2.idtx:62
+msgid "Unpublishing Product Features"
+msgstr "S'estan despublicant les característiques del producte"
+
+#: En.Win32.Debug.ActionText-2.idtx:63 En.Win32.Release.ActionText-2.idtx:63
+#: En.x64.Debug.ActionText-2.idtx:63 En.x64.Release.ActionText-2.idtx:63
+msgid "Unpublishing product information"
+msgstr "S'estȁ despublicant la informació del producte"
+
+#: En.Win32.Debug.ActionText-2.idtx:61 En.Win32.Release.ActionText-2.idtx:61
+#: En.x64.Debug.ActionText-2.idtx:61 En.x64.Release.ActionText-2.idtx:61
+msgid "Unpublishing Qualified Components"
+msgstr "S'estan despublicant els components necessaris"
+
+#: En.Win32.Debug.ActionText-2.idtx:64 En.Win32.Release.ActionText-2.idtx:64
+#: En.x64.Debug.ActionText-2.idtx:64 En.x64.Release.ActionText-2.idtx:64
+msgid "Unregister Class servers"
+msgstr "S'estan suprimint del Registre servidors de classe"
+
+#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
+#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
+msgid "Unregistering COM+ Applications and Components"
+msgstr "S'estan suprimint del Registre aplicacions i components COM+"
+
+#: En.Win32.Debug.ActionText-2.idtx:66 En.Win32.Release.ActionText-2.idtx:66
+#: En.x64.Debug.ActionText-2.idtx:66 En.x64.Release.ActionText-2.idtx:66
+msgid "Unregistering extension servers"
+msgstr "S'estan suprimint del Registre els servidors d'extensió"
+
+#: En.Win32.Debug.ActionText-2.idtx:67 En.Win32.Release.ActionText-2.idtx:67
+#: En.x64.Debug.ActionText-2.idtx:67 En.x64.Release.ActionText-2.idtx:67
+msgid "Unregistering fonts"
+msgstr "S'estan suprimint del Registre els tipus de lletra"
+
+#: En.Win32.Debug.ActionText-2.idtx:68 En.Win32.Release.ActionText-2.idtx:68
+#: En.x64.Debug.ActionText-2.idtx:68 En.x64.Release.ActionText-2.idtx:68
+msgid "Unregistering MIME info"
+msgstr "S'estȁ suprimint del Registre la informació MIME"
+
+#: En.Win32.Debug.ActionText-2.idtx:56 En.Win32.Release.ActionText-2.idtx:56
+#: En.x64.Debug.ActionText-2.idtx:56 En.x64.Release.ActionText-2.idtx:56
+msgid "Unregistering modules"
+msgstr "S'estan suprimint mȍduls del Registre"
+
+#: En.Win32.Debug.ActionText-2.idtx:69 En.Win32.Release.ActionText-2.idtx:69
+#: En.x64.Debug.ActionText-2.idtx:69 En.x64.Release.ActionText-2.idtx:69
+msgid "Unregistering program identifiers"
+msgstr "S'estan suprimint del Registre identificadors de programa"
+
+#: En.Win32.Debug.ActionText-2.idtx:70 En.Win32.Release.ActionText-2.idtx:70
+#: En.x64.Debug.ActionText-2.idtx:70 En.x64.Release.ActionText-2.idtx:70
+msgid "Unregistering type libraries"
+msgstr "S'estȁ suprimint del Registre les biblioteques de tipus"
+
+#: En.Win32.Debug.ActionText-2.idtx:30 En.Win32.Release.ActionText-2.idtx:30
+#: En.x64.Debug.ActionText-2.idtx:30 En.x64.Release.ActionText-2.idtx:30
+msgid "Updating component registration"
+msgstr "S'estȁ actualitzant el registre del component"
+
+#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
+#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
+#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
+#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
+msgid "Updating environment strings"
+msgstr "S'estan actualitzant cadenes d'entorn"
+
 #: En.Win32.Debug.Error-2.idtx:80 En.Win32.Release.Error-2.idtx:80
 #: En.x64.Debug.Error-2.idtx:80 En.x64.Release.Error-2.idtx:80
 msgid ""
@@ -1241,10 +1773,25 @@ msgstr ""
 "Les instal·lacions de l'usuari estan inhabilitades per l'estratȅgia de la "
 "mȁquina."
 
+#: En.Win32.Debug.ActionText-2.idtx:23 En.Win32.Release.ActionText-2.idtx:23
+#: En.x64.Debug.ActionText-2.idtx:23 En.x64.Release.ActionText-2.idtx:23
+msgid "Validating install"
+msgstr "S'estȁ validant la instal·lació"
+
 #: En.Win32.Debug.Error-2.idtx:6 En.Win32.Release.Error-2.idtx:6
 #: En.x64.Debug.Error-2.idtx:6 En.x64.Release.Error-2.idtx:6
 msgid "Warning [1]. "
 msgstr "Advertȅncia [1]. "
+
+#: En.Win32.Debug.ActionText-2.idtx:72 En.Win32.Release.ActionText-2.idtx:72
+#: En.x64.Debug.ActionText-2.idtx:72 En.x64.Release.ActionText-2.idtx:72
+msgid "Writing INI files values"
+msgstr "S'estan escrivint valors als fitxers INI"
+
+#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
+#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
+msgid "Writing system registry values"
+msgstr "S'estan escrivint valors del Registre del sistema"
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
 msgid ""

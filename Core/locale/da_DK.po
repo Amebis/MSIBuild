@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSMBuild\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-29 07:44+0200\n"
+"POT-Creation-Date: 2016-09-13 11:09+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
 "Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
@@ -10,10 +10,19 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
 "X-Generator: Poedit 1.8.8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Debug.ActionText-2.idtx:39
+#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Debug.ActionText-2.idtx:53
+#: En.Win32.Release.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:39
+#: En.Win32.Release.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:53
+#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Debug.ActionText-2.idtx:39
+#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Debug.ActionText-2.idtx:53
+#: En.x64.Release.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:39
+#: En.x64.Release.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:53
+msgid "[1]"
+msgstr "[1]"
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
@@ -74,9 +83,11 @@ msgstr "=== Logføring påbegyndt: [Date] [Time] ==="
 msgid "=== Logging stopped: [Date] [Time] ==="
 msgstr "=== Logføring stoppet: [Date] [Time] ==="
 
-#: En.Win32.Debug.CustomAction-2.idtx:3 En.Win32.Debug.Error-2.idtx:3
+#: En.Win32.Debug.ActionText-2.idtx:3 En.Win32.Debug.CustomAction-2.idtx:3
+#: En.Win32.Debug.Error-2.idtx:3 En.Win32.Release.ActionText-2.idtx:3
 #: En.Win32.Release.CustomAction-2.idtx:3 En.Win32.Release.Error-2.idtx:3
-#: En.x64.Debug.CustomAction-2.idtx:3 En.x64.Debug.Error-2.idtx:3
+#: En.x64.Debug.ActionText-2.idtx:3 En.x64.Debug.CustomAction-2.idtx:3
+#: En.x64.Debug.Error-2.idtx:3 En.x64.Release.ActionText-2.idtx:3
 #: En.x64.Release.CustomAction-2.idtx:3 En.x64.Release.Error-2.idtx:3
 msgid "1252"
 msgstr "1252"
@@ -94,9 +105,9 @@ msgid ""
 "an invalid digital signature. This may indicate that the cabinet file is "
 "corrupt.{{ Error [3] was returned by WinVerifyTrust.}}"
 msgstr ""
-"En nødvendig fil kan ikke installeres, fordi kabinetfilen [2] har en "
-"ugyldig digital signatur. Dette kan skyldes, at kabinetfilen er beskadiget."
-"{{ Fejlen [3] blev returneret af WinVerifyTrust.}}"
+"En nødvendig fil kan ikke installeres, fordi kabinetfilen [2] har en ugyldig "
+"digital signatur. Dette kan skyldes, at kabinetfilen er beskadiget.{{ Fejlen "
+"[3] blev returneret af WinVerifyTrust.}}"
 
 #: En.Win32.Debug.Error-2.idtx:59 En.Win32.Release.Error-2.idtx:59
 #: En.x64.Debug.Error-2.idtx:59 En.x64.Release.Error-2.idtx:59
@@ -117,8 +128,7 @@ msgstr "Der opstod en netværksfejl ved forsøg på at oprette mappen: [2]"
 msgid ""
 "A network error occurred while attempting to open the source file cabinet: "
 "[2]"
-msgstr ""
-"Der opstod en netværksfejl ved forsøg på at åbne kildefilskabinet: [2]"
+msgstr "Der opstod en netværksfejl ved forsøg på at åbne kildefilskabinet: [2]"
 
 #: En.Win32.Debug.Error-2.idtx:46 En.Win32.Release.Error-2.idtx:46
 #: En.x64.Debug.Error-2.idtx:46 En.x64.Release.Error-2.idtx:46
@@ -178,6 +188,16 @@ msgstr "Annonceringen blev fuldført."
 msgid "Advertisement failed."
 msgstr "Annonceringen mislykkedes."
 
+#: En.Win32.Debug.ActionText-2.idtx:4 En.Win32.Release.ActionText-2.idtx:4
+#: En.x64.Debug.ActionText-2.idtx:4 En.x64.Release.ActionText-2.idtx:4
+msgid "Advertising application"
+msgstr "Anmelder program"
+
+#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
+#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+msgid "Allocating registry space"
+msgstr "Allokerer plads i registreringsdatabase"
+
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
 msgid ""
@@ -217,8 +237,7 @@ msgid ""
 msgstr ""
 "Der opstod en fejl ved skrivning af installationsoplysninger til disken. "
 "Kontroller, at der er tilstrækkelig diskplads til rådighed, og klik på "
-"Forsøg igen, eller klik på Annuller for at afbryde "
-"installationsprogramt."
+"Forsøg igen, eller klik på Annuller for at afbryde installationsprogramt."
 
 #: En.Win32.Debug.Error-2.idtx:94 En.Win32.Release.Error-2.idtx:94
 #: En.x64.Debug.Error-2.idtx:94 En.x64.Release.Error-2.idtx:94
@@ -226,9 +245,9 @@ msgid ""
 "An installation for [2] is currently suspended. You must undo the changes "
 "made by that installation to continue. Do you want to undo those changes?"
 msgstr ""
-"En installation for [2] er for øjeblikket sat ud af kraft. Du skal "
-"annullere ændringerne foretaget af installationsprogramt for at fortsætte. "
-"Vil du annullere disse ændringer?"
+"En installation for [2] er for øjeblikket sat ud af kraft. Du skal annullere "
+"ændringerne foretaget af installationsprogramt for at fortsætte. Vil du "
+"annullere disse ændringer?"
 
 #: En.Win32.Debug.Error-2.idtx:96 En.Win32.Release.Error-2.idtx:96
 #: En.x64.Debug.Error-2.idtx:96 En.x64.Release.Error-2.idtx:96
@@ -236,8 +255,8 @@ msgid ""
 "An installation package for the product [2] cannot be found. Try the "
 "installation again using a valid copy of the installation package '[3]'."
 msgstr ""
-"Installationspakken til produktet [2] kunne ikke findes. Prøv at "
-"starte installationsprogramt igen ved hjælp af et gyldigt eksemplar af "
+"Installationspakken til produktet [2] kunne ikke findes. Prøv at starte "
+"installationsprogramt igen ved hjælp af et gyldigt eksemplar af "
 "installationspakken '[3]'."
 
 #: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
@@ -255,13 +274,45 @@ msgid ""
 "Another installation is in progress. You must complete that installation "
 "before continuing this one."
 msgstr ""
-"En anden installation er i gang. Den skal færdiggøres, før du "
-"fortsætter med en ny."
+"En anden installation er i gang. Den skal færdiggøres, før du fortsætter med "
+"en ny."
+
+#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
+#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
+msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
+msgstr "Program-id: [1]{{, Programtype: [2], Brugere: [3], RSN: [4]}}"
+
+#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
+#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
+msgid "AppId: [1]{{, AppType: [2]}}"
+msgstr "Program-id: [1]{{, Programtype: [2]}}"
+
+#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Debug.ActionText-2.idtx:28
+#: En.Win32.Release.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:28
+#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Debug.ActionText-2.idtx:28
+#: En.x64.Release.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:28
+msgid "Application Context:[1], Assembly Name:[2]"
+msgstr "Programkontekst:[1], samlingsnavn:[2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
+#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
+msgid "Application: [1]"
+msgstr "Program: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
+#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
+msgid "Application: [1], Command line: [2]"
+msgstr "Program: [1], Kommandolinje: [2]"
 
 #: En.Win32.Debug.Error-2.idtx:82 En.Win32.Release.Error-2.idtx:82
 #: En.x64.Debug.Error-2.idtx:82 En.x64.Release.Error-2.idtx:82
 msgid "Are you sure you want to cancel?"
 msgstr "Vil du annullere?"
+
+#: En.Win32.Debug.ActionText-2.idtx:7 En.Win32.Release.ActionText-2.idtx:7
+#: En.x64.Debug.ActionText-2.idtx:7 En.x64.Release.ActionText-2.idtx:7
+msgid "Binding executables"
+msgstr "Binder eksekverbare filer"
 
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
@@ -278,9 +329,23 @@ msgid ""
 "Cannot create the folder '[2]'. A file with this name already exists. Please "
 "rename or remove the file and click retry, or click Cancel to exit."
 msgstr ""
-"Mappen '[2]' kan ikke oprettes. En fil med dette navn findes allerede. "
-"Omdøb eller fjern filen, og klik på Forsøg igen, eller klik på "
-"Annuller for at afslutte."
+"Mappen '[2]' kan ikke oprettes. En fil med dette navn findes allerede. Omdøb "
+"eller fjern filen, og klik på Forsøg igen, eller klik på Annuller for at "
+"afslutte."
+
+#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Debug.ActionText-2.idtx:64
+#: En.Win32.Release.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:64
+#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Debug.ActionText-2.idtx:64
+#: En.x64.Release.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:64
+msgid "Class Id: [1]"
+msgstr "Klasse-id: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Debug.ActionText-2.idtx:61
+#: En.Win32.Release.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:61
+#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Debug.ActionText-2.idtx:61
+#: En.x64.Release.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:61
+msgid "Component ID: [1], Qualifier: [2]"
+msgstr "Komponent-id: [1], Operator: [2]"
 
 #: En.Win32.Debug.Error-2.idtx:154 En.Win32.Release.Error-2.idtx:154
 #: En.x64.Debug.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
@@ -290,8 +355,17 @@ msgid ""
 "Component Services are available on Windows 2000."
 msgstr ""
 "COM+ 1.0 (Component Services) er ikke installeret på denne computer. COM+ "
-"skal være installeret for at fuldføre installationen. COM+ findes i "
-"Windows 2000."
+"skal være installeret for at fuldføre installationen. COM+ findes i Windows "
+"2000."
+
+#: En.Win32.Debug.ActionText-2.idtx:10 En.Win32.Debug.ActionText-2.idtx:15
+#: En.Win32.Debug.ActionText-2.idtx:9 En.Win32.Release.ActionText-2.idtx:10
+#: En.Win32.Release.ActionText-2.idtx:15 En.Win32.Release.ActionText-2.idtx:9
+#: En.x64.Debug.ActionText-2.idtx:10 En.x64.Debug.ActionText-2.idtx:15
+#: En.x64.Debug.ActionText-2.idtx:9 En.x64.Release.ActionText-2.idtx:10
+#: En.x64.Release.ActionText-2.idtx:15 En.x64.Release.ActionText-2.idtx:9
+msgid "Computing space requirements"
+msgstr "Beregner pladskrav"
 
 #: En.Win32.Debug.Error-2.idtx:118 En.Win32.Release.Error-2.idtx:118
 #: En.x64.Debug.Error-2.idtx:118 En.x64.Release.Error-2.idtx:118
@@ -308,6 +382,16 @@ msgstr "Konfigurationen mislykkedes."
 msgid "Configured [2]"
 msgstr "Konfigurerede [2]"
 
+#: En.Win32.Debug.ActionText-2.idtx:18 En.Win32.Release.ActionText-2.idtx:18
+#: En.x64.Debug.ActionText-2.idtx:18 En.x64.Release.ActionText-2.idtx:18
+msgid "Copying network install files"
+msgstr "Kopierer filer til netværksinstallation"
+
+#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:19
+#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:19
+msgid "Copying new files"
+msgstr "Kopierer nye filer"
+
 #: En.Win32.Debug.Error-2.idtx:86 En.Win32.Release.Error-2.idtx:86
 #: En.x64.Debug.Error-2.idtx:86 En.x64.Release.Error-2.idtx:86
 msgid "Could not access network location [2]."
@@ -319,8 +403,8 @@ msgid ""
 "Could not create key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Nøglen [2] kunne ikke oprettes. {{ Systemfejl [3].}} Kontroller, at du "
-"har tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne. "
+"Nøglen [2] kunne ikke oprettes. {{ Systemfejl [3].}} Kontroller, at du har "
+"tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne. "
 
 #: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
 #: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
@@ -337,8 +421,8 @@ msgid ""
 "Could not delete key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Nøglen [2] kunne ikke slettes. {{ Systemfejl [3].}} Kontroller, at du "
-"har tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne. "
+"Nøglen [2] kunne ikke slettes. {{ Systemfejl [3].}} Kontroller, at du har "
+"tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne. "
 
 #: En.Win32.Debug.Error-2.idtx:69 En.Win32.Release.Error-2.idtx:69
 #: En.x64.Debug.Error-2.idtx:69 En.x64.Release.Error-2.idtx:69
@@ -365,9 +449,9 @@ msgid ""
 "Could not get sub key names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
-"Undernøglenavne på nøglen [2] kunne ikke hentes. {{ Systemfejl "
-"[3].}} Kontroller, at du har tilstrækkelig adgang til nøglen, eller "
-"kontakt supportteknikerne. "
+"Undernøglenavne på nøglen [2] kunne ikke hentes. {{ Systemfejl [3].}} "
+"Kontroller, at du har tilstrækkelig adgang til nøglen, eller kontakt "
+"supportteknikerne. "
 
 #: En.Win32.Debug.Error-2.idtx:73 En.Win32.Release.Error-2.idtx:73
 #: En.x64.Debug.Error-2.idtx:73 En.x64.Release.Error-2.idtx:73
@@ -375,9 +459,8 @@ msgid ""
 "Could not get value names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
-"Værdinavne på nøglen [2] kunne ikke hentes. {{ Systemfejl [3].}} "
-"Kontroller, at du har tilstrækkelig adgang til nøglen, eller kontakt "
-"supportteknikerne. "
+"Værdinavne på nøglen [2] kunne ikke hentes. {{ Systemfejl [3].}} Kontroller, "
+"at du har tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne. "
 
 #: En.Win32.Debug.Error-2.idtx:76 En.Win32.Release.Error-2.idtx:76
 #: En.x64.Debug.Error-2.idtx:76 En.x64.Release.Error-2.idtx:76
@@ -394,8 +477,8 @@ msgid ""
 "Could not open key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Nøglen [2] kunne ikke åbnes. {{ Systemfejl [3].}} Kontroller, at du "
-"har tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne. "
+"Nøglen [2] kunne ikke åbnes. {{ Systemfejl [3].}} Kontroller, at du har "
+"tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne. "
 
 #: En.Win32.Debug.Error-2.idtx:75 En.Win32.Release.Error-2.idtx:75
 #: En.x64.Debug.Error-2.idtx:75 En.x64.Release.Error-2.idtx:75
@@ -404,9 +487,9 @@ msgid ""
 "Verify that you have sufficient access to that key, or contact your support "
 "personnel."
 msgstr ""
-"Sikkerhedsoplysninger for nøglen [2] kunne ikke læses. {{ Systemfejl "
-"[3].}} Kontroller, at du har tilstrækkelig adgang til nøglen, eller "
-"kontakt supportteknikerne. "
+"Sikkerhedsoplysninger for nøglen [2] kunne ikke læses. {{ Systemfejl [3].}} "
+"Kontroller, at du har tilstrækkelig adgang til nøglen, eller kontakt "
+"supportteknikerne. "
 
 #: En.Win32.Debug.Error-2.idtx:71 En.Win32.Release.Error-2.idtx:71
 #: En.x64.Debug.Error-2.idtx:71 En.x64.Release.Error-2.idtx:71
@@ -425,8 +508,8 @@ msgid ""
 "install fonts, and that the system supports this font."
 msgstr ""
 "Skrifttypen [2] kunne ikke registreres. Kontroller, at du har den rette "
-"tilladelse til at installere skrifttyper, og at systemet understøtter "
-"disse skrifttyper."
+"tilladelse til at installere skrifttyper, og at systemet understøtter disse "
+"skrifttyper."
 
 #: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
 #: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
@@ -461,8 +544,8 @@ msgid ""
 "sufficient privileges to modify the security permissions for this file."
 msgstr ""
 "Filsikkerhed for filen '[3]' kunne ikke angives. Fejl: [2]. Kontroller, at "
-"du har de nødvendige rettigheder til at ændre sikkerhedstilladelserne "
-"for denne fil."
+"du har de nødvendige rettigheder til at ændre sikkerhedstilladelserne for "
+"denne fil."
 
 #: En.Win32.Debug.Error-2.idtx:135 En.Win32.Release.Error-2.idtx:135
 #: En.x64.Debug.Error-2.idtx:135 En.x64.Release.Error-2.idtx:135
@@ -510,6 +593,26 @@ msgstr ""
 "Kontroller, at du har tilstrækkelig adgang til nøglen, eller kontakt "
 "supportteknikerne. "
 
+#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:14
+#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:14
+msgid "Creating duplicate files"
+msgstr "Opretter kopier af filer"
+
+#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:11
+#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:11
+msgid "Creating folders"
+msgstr "Opretter mapper"
+
+#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:12
+#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:12
+msgid "Creating shortcuts"
+msgstr "Opretter genveje"
+
+#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Release.ActionText-2.idtx:13
+#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Release.ActionText-2.idtx:13
+msgid "Deleting services"
+msgstr "Sletter serviceprogramr"
+
 #: En.Win32.Debug.Error-2.idtx:78 En.Win32.Release.Error-2.idtx:78
 #: En.x64.Debug.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
 msgid ""
@@ -534,8 +637,7 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:128 En.Win32.Release.Error-2.idtx:128
 #: En.x64.Debug.Error-2.idtx:128 En.x64.Release.Error-2.idtx:128
 msgid "Error attempting to read from the source install database: [2]."
-msgstr ""
-"Fejl ved forsøg på at læse fra databasen til kildeinstallation: [2]."
+msgstr "Fejl ved forsøg på at læse fra databasen til kildeinstallation: [2]."
 
 #: En.Win32.Debug.Error-2.idtx:146 En.Win32.Release.Error-2.idtx:146
 #: En.x64.Debug.Error-2.idtx:146 En.x64.Release.Error-2.idtx:146
@@ -647,6 +749,18 @@ msgstr ""
 "Fejl under skrivning til filen: [3]. {{ Systemfejl [2].}} Kontroller, at du "
 "har adgang til mappen."
 
+#: En.Win32.Debug.ActionText-2.idtx:24 En.Win32.Release.ActionText-2.idtx:24
+#: En.x64.Debug.ActionText-2.idtx:24 En.x64.Release.ActionText-2.idtx:24
+msgid "Evaluating launch conditions"
+msgstr "Evaluerer startbetingelser"
+
+#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Debug.ActionText-2.idtx:66
+#: En.Win32.Release.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:66
+#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Debug.ActionText-2.idtx:66
+#: En.x64.Release.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:66
+msgid "Extension: [1]"
+msgstr "Filtypenavn: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:133 En.Win32.Release.Error-2.idtx:133
 #: En.x64.Debug.Error-2.idtx:133 En.x64.Release.Error-2.idtx:133
 msgid ""
@@ -669,20 +783,112 @@ msgstr "Fejl ved flytning af filen [2]: CRC-fejl."
 msgid "Failed to correctly patch [2] file: CRC error."
 msgstr "Fejl ved rettelse af filen [2]: CRC-fejl."
 
+#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Debug.ActionText-2.idtx:62
+#: En.Win32.Release.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:62
+#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Debug.ActionText-2.idtx:62
+#: En.x64.Release.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:62
+msgid "Feature: [1]"
+msgstr "Funktion: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:108 En.Win32.Release.Error-2.idtx:108
 #: En.x64.Debug.Error-2.idtx:108 En.x64.Release.Error-2.idtx:108
 msgid "File [2] was rejected by digital signature policy."
 msgstr "Filen [2] blev afvist af politikken for digital signatur."
+
+#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Debug.ActionText-2.idtx:7
+#: En.Win32.Release.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:7
+#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Debug.ActionText-2.idtx:7
+#: En.x64.Release.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:7
+msgid "File: [1]"
+msgstr "Fil: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
+#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
+msgid "File: [1], Dependencies: [2]"
+msgstr "Fil: [1], Afhængigheder: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Debug.ActionText-2.idtx:56
+#: En.Win32.Release.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:56
+#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Debug.ActionText-2.idtx:56
+#: En.x64.Release.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:56
+msgid "File: [1], Folder: [2]"
+msgstr "Fil: [1], Mappe: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
+#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
+msgid "File: [1], Folder: [2], Size: [3]"
+msgstr "Fil: [1], Mappe: [2], Størrelse: [3]"
+
+#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Debug.ActionText-2.idtx:46
+#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:43
+#: En.Win32.Release.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:60
+#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Debug.ActionText-2.idtx:46
+#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:43
+#: En.x64.Release.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:60
+msgid "File: [1], Folder: [9]"
+msgstr "Fil: [1], Mappe: [9]"
+
+#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Debug.ActionText-2.idtx:18
+#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Debug.ActionText-2.idtx:26
+#: En.Win32.Release.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:18
+#: En.Win32.Release.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:26
+#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Debug.ActionText-2.idtx:18
+#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Debug.ActionText-2.idtx:26
+#: En.x64.Release.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:18
+#: En.x64.Release.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:26
+msgid "File: [1], Folder: [9], Size: [6]"
+msgstr "Fil: [1], Mappe: [9], Størrelse: [6]"
+
+#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Debug.ActionText-2.idtx:72
+#: En.Win32.Release.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:72
+#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Debug.ActionText-2.idtx:72
+#: En.x64.Release.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:72
+msgid "File: [1], Section: [2], Key: [3], Value: [4]"
+msgstr "Fil: [1], Sektion: [2], Nøgle: [3], Værdi: [4]"
+
+#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Debug.ActionText-2.idtx:47
+#: En.Win32.Release.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:47
+#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Debug.ActionText-2.idtx:47
+#: En.x64.Release.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:47
+msgid "Folder: [1]"
+msgstr "Mappe: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Debug.ActionText-2.idtx:67
+#: En.Win32.Release.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:67
+#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Debug.ActionText-2.idtx:67
+#: En.x64.Release.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:67
+msgid "Font: [1]"
+msgstr "Skrifttype: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
+#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
+msgid "Found application: [1]"
+msgstr "Fundet program: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
+#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+msgid "Free space: [1]"
+msgstr "Ledig plads: [1]"
 
 #: En.Win32.Debug.Error-2.idtx:25 En.Win32.Release.Error-2.idtx:25
 #: En.x64.Debug.Error-2.idtx:25 En.x64.Release.Error-2.idtx:25
 msgid "Gathering required information..."
 msgstr "Indsamler nødvendige oplysninger..."
 
+#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:17
+#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:17
+msgid "Generating script operations for action:"
+msgstr "Opretter script-funktioner til handlingen:"
+
 #: En.Win32.Debug.Error-2.idtx:8 En.Win32.Release.Error-2.idtx:8
 #: En.x64.Debug.Error-2.idtx:8 En.x64.Release.Error-2.idtx:8
 msgid "Info [1]. "
 msgstr "Info [1]. "
+
+#: En.Win32.Debug.ActionText-2.idtx:57 En.Win32.Release.ActionText-2.idtx:57
+#: En.x64.Debug.ActionText-2.idtx:57 En.x64.Release.ActionText-2.idtx:57
+msgid "Initializing ODBC folders"
+msgstr "Initialiserer ODBC-mapper"
 
 #: En.Win32.Debug.Error-2.idtx:97 En.Win32.Release.Error-2.idtx:97
 #: En.x64.Debug.Error-2.idtx:97 En.x64.Release.Error-2.idtx:97
@@ -709,15 +915,59 @@ msgstr "Installationsprogramt svarer ikke mere."
 msgid "Installer stopped prematurely."
 msgstr "Installationsprogramt stoppede før tid."
 
+#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
+#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
+msgid "Installing new services"
+msgstr "Installerer nye serviceprogramr"
+
+#: En.Win32.Debug.ActionText-2.idtx:20 En.Win32.Release.ActionText-2.idtx:20
+#: En.x64.Debug.ActionText-2.idtx:20 En.x64.Release.ActionText-2.idtx:20
+msgid "Installing ODBC components"
+msgstr "Installerer ODBC-komponenter"
+
+#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
+#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
+msgid "Installing system catalog"
+msgstr "Systemkataloget installeres"
+
 #: En.Win32.Debug.Error-2.idtx:57 En.Win32.Release.Error-2.idtx:57
 #: En.x64.Debug.Error-2.idtx:57 En.x64.Release.Error-2.idtx:57
 msgid "Invalid Drive: [2]"
 msgstr "Ugyldigt drev: [2]"
 
+#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
+#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
+msgid "Key: [1], Name: [2]"
+msgstr "Nøgle: [1], Navn: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
+#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
+msgid "Key: [1], Name: [2], Value: [3]"
+msgstr "Nøgle: [1], Navn: [2], Værdi: [3]"
+
+#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Debug.ActionText-2.idtx:70
+#: En.Win32.Release.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:70
+#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Debug.ActionText-2.idtx:70
+#: En.x64.Release.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:70
+msgid "LibID: [1]"
+msgstr "DLL-id: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:15 En.Win32.Release.Error-2.idtx:15
 #: En.x64.Debug.Error-2.idtx:15 En.x64.Release.Error-2.idtx:15
 msgid "Message type: [1], Argument: [2]"
 msgstr "Meddelelsestype: [1], Argument: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
+#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
+msgid "Migrating feature states from related applications"
+msgstr "Overfører funktionsindstillinger fra relaterede programr"
+
+#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Debug.ActionText-2.idtx:68
+#: En.Win32.Release.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:68
+#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Debug.ActionText-2.idtx:68
+#: En.x64.Release.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:68
+msgid "MIME Content Type: [1], Extension: [2]"
+msgstr "MIME-indholdstype: [1], Filtypenavn: [2]"
 
 #: En.Win32.Debug.Error-2.idtx:131 En.Win32.Release.Error-2.idtx:131
 #: En.x64.Debug.Error-2.idtx:131 En.x64.Release.Error-2.idtx:131
@@ -733,6 +983,18 @@ msgid ""
 msgstr ""
 "Modulet [2] kunne ikke få fjernet registreringen. HRESULT [3]. Kontakt "
 "supportteknikerne."
+
+#: En.Win32.Debug.ActionText-2.idtx:26 En.Win32.Release.ActionText-2.idtx:26
+#: En.x64.Debug.ActionText-2.idtx:26 En.x64.Release.ActionText-2.idtx:26
+msgid "Moving files"
+msgstr "Flytter filer"
+
+#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
+#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
+#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
+#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
+msgid "Name: [1], Value: [2], Action [3]"
+msgstr "Navn: [1], Værdi: [2], Handling: [3]"
 
 #: En.Win32.Debug.Error-2.idtx:102 En.Win32.Release.Error-2.idtx:102
 #: En.x64.Debug.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
@@ -758,8 +1020,12 @@ msgstr ""
 #: En.x64.Release.Error-2.idtx:122 En.x64.Release.Error-2.idtx:21
 msgid "Out of memory. Shut down other applications before retrying."
 msgstr ""
-"Der er ikke mere hukommelse. Luk de andre programr, før du prø"
-"ver igen."
+"Der er ikke mere hukommelse. Luk de andre programr, før du prøver igen."
+
+#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
+#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
+msgid "Patching files"
+msgstr "Udfører rettelser på filer"
 
 #: En.Win32.Debug.Error-2.idtx:32 En.Win32.Release.Error-2.idtx:32
 #: En.x64.Debug.Error-2.idtx:32 En.x64.Release.Error-2.idtx:32
@@ -781,6 +1047,88 @@ msgstr "Forbereder afinstallationen af ældre versioner af programt..."
 msgid "Product: [2] -- [3]"
 msgstr "Produkt: [2] -- [3]"
 
+#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Debug.ActionText-2.idtx:69
+#: En.Win32.Release.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:69
+#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Debug.ActionText-2.idtx:69
+#: En.x64.Release.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:69
+msgid "ProgId: [1]"
+msgstr "ProgId: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
+#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
+msgid "Property: [1], Signature: [2]"
+msgstr "Egenskab: [1], Signatur: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:27
+#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:27
+msgid "Publishing assembly information"
+msgstr "Udgiver samlingsoplysninger"
+
+#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:32
+#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:32
+msgid "Publishing Product Features"
+msgstr "Udgiver produktfunktioner"
+
+#: En.Win32.Debug.ActionText-2.idtx:33 En.Win32.Release.ActionText-2.idtx:33
+#: En.x64.Debug.ActionText-2.idtx:33 En.x64.Release.ActionText-2.idtx:33
+msgid "Publishing product information"
+msgstr "Udgiver produktoplysninger"
+
+#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:31
+#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:31
+msgid "Publishing Qualified Components"
+msgstr "Udgiver godkendte komponenter, der berettiger til opgradering"
+
+#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:34
+#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:34
+msgid "Registering Class servers"
+msgstr "Registrerer klasseservere"
+
+#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
+#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
+msgid "Registering COM+ Applications and Components"
+msgstr "Registrerer programr og komponenter til COM+"
+
+#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:36
+#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:36
+msgid "Registering extension servers"
+msgstr "Registrerer udvidelsesservere"
+
+#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:37
+#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:37
+msgid "Registering fonts"
+msgstr "Registrerer skrifttyper"
+
+#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:38
+#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:38
+msgid "Registering MIME info"
+msgstr "Registrerer MIME-info"
+
+#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:55
+#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:55
+msgid "Registering modules"
+msgstr "Registrerer moduler"
+
+#: En.Win32.Debug.ActionText-2.idtx:39 En.Win32.Release.ActionText-2.idtx:39
+#: En.x64.Debug.ActionText-2.idtx:39 En.x64.Release.ActionText-2.idtx:39
+msgid "Registering product"
+msgstr "Registrerer produkt"
+
+#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:40
+#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:40
+msgid "Registering program identifiers"
+msgstr "Registrerer program-id'er."
+
+#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:41
+#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:41
+msgid "Registering type libraries"
+msgstr "Registrerer type-DLL'er"
+
+#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:42
+#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:42
+msgid "Registering user"
+msgstr "Registrerer bruger"
+
 #: En.Win32.Debug.Error-2.idtx:114 En.Win32.Release.Error-2.idtx:114
 #: En.x64.Debug.Error-2.idtx:114 En.x64.Release.Error-2.idtx:114
 msgid "Removal completed successfully."
@@ -796,10 +1144,65 @@ msgstr "Fjernelsen mislykkedes."
 msgid "Removed [2]"
 msgstr "Fjernede [2]"
 
+#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
+#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
+msgid "Removing applications"
+msgstr "Fjerner programr"
+
+#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:54
+#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:54
+msgid "Removing backup files"
+msgstr "Fjerner sikkerhedskopierede filer"
+
+#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Release.ActionText-2.idtx:43
+#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Release.ActionText-2.idtx:43
+msgid "Removing duplicated files"
+msgstr "Fjerner identiske filer"
+
+#: En.Win32.Debug.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:46
+#: En.x64.Debug.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:46
+msgid "Removing files"
+msgstr "Fjerner filer"
+
+#: En.Win32.Debug.ActionText-2.idtx:47 En.Win32.Release.ActionText-2.idtx:47
+#: En.x64.Debug.ActionText-2.idtx:47 En.x64.Release.ActionText-2.idtx:47
+msgid "Removing folders"
+msgstr "Fjerner mapper"
+
+#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:48
+#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:48
+msgid "Removing INI files entries"
+msgstr "Fjerner poster for INI-filer"
+
+#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:60
+#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:60
+msgid "Removing moved files"
+msgstr "Fjerner flyttede filer"
+
+#: En.Win32.Debug.ActionText-2.idtx:49 En.Win32.Release.ActionText-2.idtx:49
+#: En.x64.Debug.ActionText-2.idtx:49 En.x64.Release.ActionText-2.idtx:49
+msgid "Removing ODBC components"
+msgstr "Fjerner ODBC-komponenter"
+
 #: En.Win32.Debug.Error-2.idtx:26 En.Win32.Release.Error-2.idtx:26
 #: En.x64.Debug.Error-2.idtx:26 En.x64.Release.Error-2.idtx:26
 msgid "Removing older versions of this application..."
 msgstr "Fjerner ældre versioner af programt..."
+
+#: En.Win32.Debug.ActionText-2.idtx:51 En.Win32.Release.ActionText-2.idtx:51
+#: En.x64.Debug.ActionText-2.idtx:51 En.x64.Release.ActionText-2.idtx:51
+msgid "Removing shortcuts"
+msgstr "Fjerner genveje"
+
+#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
+#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
+msgid "Removing system registry values"
+msgstr "Fjerner værdier i systemets registreringsdatabase"
+
+#: En.Win32.Debug.ActionText-2.idtx:53 En.Win32.Release.ActionText-2.idtx:53
+#: En.x64.Debug.ActionText-2.idtx:53 En.x64.Release.ActionText-2.idtx:53
+msgid "Rolling back action:"
+msgstr "Fortrydelse:"
 
 #: En.Win32.Debug.Error-2.idtx:130 En.Win32.Release.Error-2.idtx:130
 #: En.x64.Debug.Error-2.idtx:130 En.x64.Release.Error-2.idtx:130
@@ -816,8 +1219,25 @@ msgid ""
 "Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to "
 "complete operation."
 msgstr ""
-"Planlægger genstart: Omdøber filen [2] til [3]. Computeren skal "
-"genstartes for at fuldføre handlingen."
+"Planlægger genstart: Omdøber filen [2] til [3]. Computeren skal genstartes "
+"for at fuldføre handlingen."
+
+#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
+#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
+msgid "Searching for installed applications"
+msgstr "Søger efter allerede installerede programr"
+
+#: En.Win32.Debug.ActionText-2.idtx:52 En.Win32.Debug.ActionText-2.idtx:8
+#: En.Win32.Release.ActionText-2.idtx:52 En.Win32.Release.ActionText-2.idtx:8
+#: En.x64.Debug.ActionText-2.idtx:52 En.x64.Debug.ActionText-2.idtx:8
+#: En.x64.Release.ActionText-2.idtx:52 En.x64.Release.ActionText-2.idtx:8
+msgid "Searching for qualifying products"
+msgstr "Søger efter godkendte produkter, der berettiger til opgradering"
+
+#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
+#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
+msgid "Searching for related applications"
+msgstr "Søger efter relaterede programr"
 
 #: En.Win32.Debug.Error-2.idtx:149 En.Win32.Release.Error-2.idtx:149
 #: En.x64.Debug.Error-2.idtx:149 En.x64.Release.Error-2.idtx:149
@@ -855,6 +1275,27 @@ msgstr ""
 "Serviceprogramt '[2]' ([3]) kunne ikke starte. Kontroller, at du har de "
 "nødvendige rettigheder til at starte systemserviceprogramr."
 
+#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Debug.ActionText-2.idtx:58
+#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:13
+#: En.Win32.Release.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:59
+#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Debug.ActionText-2.idtx:58
+#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:13
+#: En.x64.Release.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:59
+msgid "Service: [1]"
+msgstr "Serviceprogram: [1]"
+
+#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
+#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
+msgid "Service: [2]"
+msgstr "Serviceprogram: [2]"
+
+#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Debug.ActionText-2.idtx:51
+#: En.Win32.Release.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:51
+#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Debug.ActionText-2.idtx:51
+#: En.x64.Release.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:51
+msgid "Shortcut: [1]"
+msgstr "Genvej: [1]"
+
 #: En.Win32.Debug.Error-2.idtx:38 En.Win32.Release.Error-2.idtx:38
 #: En.x64.Debug.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
 msgid ""
@@ -872,6 +1313,16 @@ msgid ""
 msgstr ""
 "Kildefilen blev ikke fundet{{(kabinet)}}: [2]. Kontroller, at filen findes, "
 "og du har adgang til den."
+
+#: En.Win32.Debug.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:58
+#: En.x64.Debug.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:58
+msgid "Starting services"
+msgstr "Starter serviceprogramr"
+
+#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:59
+#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:59
+msgid "Stopping services"
+msgstr "Stopper serviceprogramr"
 
 #: En.Win32.Debug.Error-2.idtx:65 En.Win32.Release.Error-2.idtx:65
 #: En.x64.Debug.Error-2.idtx:65 En.x64.Release.Error-2.idtx:65
@@ -931,8 +1382,7 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:87 En.x64.Release.Error-2.idtx:87
 msgid ""
 "The following applications should be closed before continuing the install:"
-msgstr ""
-"Følgende programr skal lukkes, før du fortsætter installationen:"
+msgstr "Følgende programr skal lukkes, før du fortsætter installationen:"
 
 #: En.Win32.Debug.Error-2.idtx:9 En.Win32.Release.Error-2.idtx:9
 #: En.x64.Debug.Error-2.idtx:9 En.x64.Release.Error-2.idtx:9
@@ -952,16 +1402,16 @@ msgid ""
 "installation cannot continue. Log on as administrator or contact your system "
 "administrator."
 msgstr ""
-"Installationsprogramt har ikke de nødvendige rettigheder til at åbne "
-"denne mappe: [2]. Installationsprogramt kan ikke fortsætte. Log på som "
+"Installationsprogramt har ikke de nødvendige rettigheder til at åbne denne "
+"mappe: [2]. Installationsprogramt kan ikke fortsætte. Log på som "
 "administrator, eller kontakt systemadministratoren."
 
 #: En.Win32.Debug.Error-2.idtx:51 En.Win32.Release.Error-2.idtx:51
 #: En.x64.Debug.Error-2.idtx:51 En.x64.Release.Error-2.idtx:51
 msgid "The Installer has insufficient privileges to modify this file: [2]."
 msgstr ""
-"Installationsprogramt har ikke de nødvendige rettigheder til at ændre "
-"filen: [2]."
+"Installationsprogramt har ikke de nødvendige rettigheder til at ændre filen: "
+"[2]."
 
 #: En.Win32.Debug.Error-2.idtx:92 En.Win32.Release.Error-2.idtx:92
 #: En.x64.Debug.Error-2.idtx:92 En.x64.Release.Error-2.idtx:92
@@ -970,16 +1420,15 @@ msgid ""
 "continue. Click Yes to restart now or No if you plan to manually restart "
 "later."
 msgstr ""
-"Installationsprogramt skal genstarte dit system, før konfiguration af "
-"[2] kan fortsætte. Klik på Ja for at genstarte nu eller Nej, hvis du vil "
+"Installationsprogramt skal genstarte dit system, før konfiguration af [2] "
+"kan fortsætte. Klik på Ja for at genstarte nu eller Nej, hvis du vil "
 "genstarte manuelt senere."
 
 #: En.Win32.Debug.Error-2.idtx:91 En.Win32.Release.Error-2.idtx:91
 #: En.x64.Debug.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
 msgid "The key [2] is not valid. Verify that you entered the correct key."
 msgstr ""
-"Nøglen [2] er ugyldig. Kontroller, at du har angivet den korrekte "
-"nøgle."
+"Nøglen [2] er ugyldig. Kontroller, at du har angivet den korrekte nøgle."
 
 #: En.Win32.Debug.Error-2.idtx:104 En.Win32.Release.Error-2.idtx:104
 #: En.x64.Debug.Error-2.idtx:104 En.x64.Release.Error-2.idtx:104
@@ -1061,9 +1510,8 @@ msgid ""
 "correctly installed. Contact your support personnel for assistance."
 msgstr ""
 "Der kunne ikke opnås adgang til Windows Installer. Dette problem kan opstå, "
-"hvis du kører Windows i fejlsikret tilstand, eller hvis Windows "
-"Installer ikke er korrekt installeret. Kontakt supportpersonen for at få "
-"hjælp."
+"hvis du kører Windows i fejlsikret tilstand, eller hvis Windows Installer "
+"ikke er korrekt installeret. Kontakt supportpersonen for at få hjælp."
 
 #: En.Win32.Debug.Error-2.idtx:113 En.Win32.Release.Error-2.idtx:113
 #: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
@@ -1097,9 +1545,9 @@ msgid ""
 "or package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
 "Der er opstået et problem med denne Windows Installer-pakke. Et program, der "
-"blev kørt som en del af installationen, blev ikke udført som "
-"forventet. Kontakt supportpersonen eller pakkeproducenten. {{Handling [2], "
-"placering: [3], kommando: [4] }}"
+"blev kørt som en del af installationen, blev ikke udført som forventet. "
+"Kontakt supportpersonen eller pakkeproducenten. {{Handling [2], placering: "
+"[3], kommando: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:110 En.Win32.Release.Error-2.idtx:110
 #: En.x64.Debug.Error-2.idtx:110 En.x64.Release.Error-2.idtx:110
@@ -1110,9 +1558,9 @@ msgid ""
 "Line [6], Column [7], [8] }}"
 msgstr ""
 "Der er opstået et problem med denne Windows Installer-pakke. Et script, der "
-"kræves til denne installation, kunne ikke køres. Kontakt "
-"supportpersonen eller pakkeproducenten. {{Tilpasset handling [2] scriptfejl "
-"[3], [4]: [5] Linje [6], Kolonne [7], [8] }}"
+"kræves til denne installation, kunne ikke køres. Kontakt supportpersonen "
+"eller pakkeproducenten. {{Tilpasset handling [2] scriptfejl [3], [4]: [5] "
+"Linje [6], Kolonne [7], [8] }}"
 
 #: En.Win32.Debug.Error-2.idtx:123 En.Win32.Release.Error-2.idtx:123
 #: En.x64.Debug.Error-2.idtx:123 En.x64.Release.Error-2.idtx:123
@@ -1120,8 +1568,8 @@ msgid ""
 "There is no disk in drive [2]. Please insert one and click Retry, or click "
 "Cancel to go back to the previously selected volume."
 msgstr ""
-"Der er ingen CD i drev [2]. Indsæt en CD og klik på Forsøg igen, eller "
-"klik på Annuller for at gå tilbage til den enhed, som tidligere blev brugt."
+"Der er ingen CD i drev [2]. Indsæt en CD og klik på Forsøg igen, eller klik "
+"på Annuller for at gå tilbage til den enhed, som tidligere blev brugt."
 
 #: En.Win32.Debug.Error-2.idtx:124 En.Win32.Release.Error-2.idtx:124
 #: En.x64.Debug.Error-2.idtx:124 En.x64.Release.Error-2.idtx:124
@@ -1129,9 +1577,9 @@ msgid ""
 "There is no disk in drive [2]. Please insert one and click Retry, or click "
 "Cancel to return to the browse dialog and select a different volume."
 msgstr ""
-"Der er ingen CD i drev [2]. Indsæt en CD og klik på Forsøg igen, eller "
-"klik på Annuller for at gå tilbage til dialogboksen Gennemse og vælge en "
-"anden enhed."
+"Der er ingen CD i drev [2]. Indsæt en CD og klik på Forsøg igen, eller klik "
+"på Annuller for at gå tilbage til dialogboksen Gennemse og vælge en anden "
+"enhed."
 
 #: En.Win32.Debug.Error-2.idtx:85 En.Win32.Release.Error-2.idtx:85
 #: En.x64.Debug.Error-2.idtx:85 En.x64.Release.Error-2.idtx:85
@@ -1145,8 +1593,8 @@ msgstr ""
 "Der er ikke nok plads på diskenheden '[2]' til at fortsætte installationen "
 "med genoprettelse aktiveret. [3] KB kræves, men der er kun [4] KB "
 "tilgængelig. Klik på Ignorer for at fortsætte installationen uden at gemme "
-"genoprettelsesoplysninger, klik på Forsøg igen for at kontrollere den "
-"ledige diskplads igen, eller klik på Annuller for at afslutte installationen."
+"genoprettelsesoplysninger, klik på Forsøg igen for at kontrollere den ledige "
+"diskplads igen, eller klik på Annuller for at afslutte installationen."
 
 #: En.Win32.Debug.Error-2.idtx:37 En.Win32.Release.Error-2.idtx:37
 #: En.x64.Debug.Error-2.idtx:37 En.x64.Release.Error-2.idtx:37
@@ -1154,9 +1602,8 @@ msgid ""
 "There is not enough disk space to install this file: [2]. Free some disk "
 "space and click Retry, or click Cancel to exit."
 msgstr ""
-"Der er ikke tilstrækkelig diskplads til at installere filen: [2]. Frigø"
-"r diskplads, og klik på Forsøg igen, eller klik på Annuller for at "
-"afslutte."
+"Der er ikke tilstrækkelig diskplads til at installere filen: [2]. Frigør "
+"diskplads, og klik på Forsøg igen, eller klik på Annuller for at afslutte."
 
 #: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
 #: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
@@ -1164,9 +1611,8 @@ msgid ""
 "There was an error creating a temporary file that is needed to complete this "
 "installation.{{ Folder: [3]. System error code: [2]}}"
 msgstr ""
-"Der opstod en fejl ved oprettelse af en midlertidig fil, der er nø"
-"dvendig for at fuldføre installationen.{{ Mappe: [3]. Systemfejlkode: "
-"[2]}}"
+"Der opstod en fejl ved oprettelse af en midlertidig fil, der er nødvendig "
+"for at fuldføre installationen.{{ Mappe: [3]. Systemfejlkode: [2]}}"
 
 #: En.Win32.Debug.Error-2.idtx:90 En.Win32.Release.Error-2.idtx:90
 #: En.x64.Debug.Error-2.idtx:90 En.x64.Release.Error-2.idtx:90
@@ -1199,6 +1645,78 @@ msgstr "Resterende tid: {[1] minutter }{[2] sekunder}"
 msgid "Unable to write to the specified folder: [2]."
 msgstr "Der kan ikke skrives til den angivne mappe [2]."
 
+#: En.Win32.Debug.ActionText-2.idtx:28 En.Win32.Release.ActionText-2.idtx:28
+#: En.x64.Debug.ActionText-2.idtx:28 En.x64.Release.ActionText-2.idtx:28
+msgid "Unpublishing assembly information"
+msgstr "Fortryder udgivelse af samlingsoplysninger"
+
+#: En.Win32.Debug.ActionText-2.idtx:62 En.Win32.Release.ActionText-2.idtx:62
+#: En.x64.Debug.ActionText-2.idtx:62 En.x64.Release.ActionText-2.idtx:62
+msgid "Unpublishing Product Features"
+msgstr "Annullerer udgivelsen af produktfunktioner"
+
+#: En.Win32.Debug.ActionText-2.idtx:63 En.Win32.Release.ActionText-2.idtx:63
+#: En.x64.Debug.ActionText-2.idtx:63 En.x64.Release.ActionText-2.idtx:63
+msgid "Unpublishing product information"
+msgstr "Annullerer produktoplysninger"
+
+#: En.Win32.Debug.ActionText-2.idtx:61 En.Win32.Release.ActionText-2.idtx:61
+#: En.x64.Debug.ActionText-2.idtx:61 En.x64.Release.ActionText-2.idtx:61
+msgid "Unpublishing Qualified Components"
+msgstr "Annullerer udgivelsen af gyldige komponenter"
+
+#: En.Win32.Debug.ActionText-2.idtx:64 En.Win32.Release.ActionText-2.idtx:64
+#: En.x64.Debug.ActionText-2.idtx:64 En.x64.Release.ActionText-2.idtx:64
+msgid "Unregister Class servers"
+msgstr "Fjerner registreringen af klasseservere"
+
+#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
+#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
+msgid "Unregistering COM+ Applications and Components"
+msgstr "Fjerner registrering af programr og komponenter til COM+"
+
+#: En.Win32.Debug.ActionText-2.idtx:66 En.Win32.Release.ActionText-2.idtx:66
+#: En.x64.Debug.ActionText-2.idtx:66 En.x64.Release.ActionText-2.idtx:66
+msgid "Unregistering extension servers"
+msgstr "Fjerner registreringen af udvidelsesservere"
+
+#: En.Win32.Debug.ActionText-2.idtx:67 En.Win32.Release.ActionText-2.idtx:67
+#: En.x64.Debug.ActionText-2.idtx:67 En.x64.Release.ActionText-2.idtx:67
+msgid "Unregistering fonts"
+msgstr "Fjerner registreringen af skrifttyper"
+
+#: En.Win32.Debug.ActionText-2.idtx:68 En.Win32.Release.ActionText-2.idtx:68
+#: En.x64.Debug.ActionText-2.idtx:68 En.x64.Release.ActionText-2.idtx:68
+msgid "Unregistering MIME info"
+msgstr "Fjerner registreringen af MIME-info"
+
+#: En.Win32.Debug.ActionText-2.idtx:56 En.Win32.Release.ActionText-2.idtx:56
+#: En.x64.Debug.ActionText-2.idtx:56 En.x64.Release.ActionText-2.idtx:56
+msgid "Unregistering modules"
+msgstr "Fjerner registreringen af moduler"
+
+#: En.Win32.Debug.ActionText-2.idtx:69 En.Win32.Release.ActionText-2.idtx:69
+#: En.x64.Debug.ActionText-2.idtx:69 En.x64.Release.ActionText-2.idtx:69
+msgid "Unregistering program identifiers"
+msgstr "Fjerner registreringen af program-id'er"
+
+#: En.Win32.Debug.ActionText-2.idtx:70 En.Win32.Release.ActionText-2.idtx:70
+#: En.x64.Debug.ActionText-2.idtx:70 En.x64.Release.ActionText-2.idtx:70
+msgid "Unregistering type libraries"
+msgstr "Fjerner registreringen af type-DLL'er"
+
+#: En.Win32.Debug.ActionText-2.idtx:30 En.Win32.Release.ActionText-2.idtx:30
+#: En.x64.Debug.ActionText-2.idtx:30 En.x64.Release.ActionText-2.idtx:30
+msgid "Updating component registration"
+msgstr "Opdaterer komponentregistrering"
+
+#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
+#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
+#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
+#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
+msgid "Updating environment strings"
+msgstr "Opdaterer miljøstrenge"
+
 #: En.Win32.Debug.Error-2.idtx:80 En.Win32.Release.Error-2.idtx:80
 #: En.x64.Debug.Error-2.idtx:80 En.x64.Release.Error-2.idtx:80
 msgid ""
@@ -1206,8 +1724,7 @@ msgid ""
 "will need to run that install again before they can use that product."
 msgstr ""
 "Bruger '[2]' har tidligere startet en installation for produktet '[3]'. "
-"Brugeren skal køre installationen igen, før de kan bruge "
-"produktet."
+"Brugeren skal køre installationen igen, før de kan bruge produktet."
 
 #: En.Win32.Debug.Error-2.idtx:79 En.Win32.Release.Error-2.idtx:79
 #: En.x64.Debug.Error-2.idtx:79 En.x64.Release.Error-2.idtx:79
@@ -1217,8 +1734,8 @@ msgid ""
 "current install will now continue."
 msgstr ""
 "Bruger '[2]' har tidligere startet en installation af produktet '[3]'. "
-"Brugeren skal køre installationen igen, før de kan bruge "
-"produktet. Det nuværende installationsprogram vil fortsætte nu."
+"Brugeren skal køre installationen igen, før de kan bruge produktet. Det "
+"nuværende installationsprogram vil fortsætte nu."
 
 #: En.Win32.Debug.Error-2.idtx:161 En.Win32.Release.Error-2.idtx:161
 #: En.x64.Debug.Error-2.idtx:161 En.x64.Release.Error-2.idtx:161
@@ -1227,10 +1744,25 @@ msgstr ""
 "Brugerinstallationer er deaktiveret ved hjælp af en politik på denne "
 "computer."
 
+#: En.Win32.Debug.ActionText-2.idtx:23 En.Win32.Release.ActionText-2.idtx:23
+#: En.x64.Debug.ActionText-2.idtx:23 En.x64.Release.ActionText-2.idtx:23
+msgid "Validating install"
+msgstr "Kontrollerer installationen"
+
 #: En.Win32.Debug.Error-2.idtx:6 En.Win32.Release.Error-2.idtx:6
 #: En.x64.Debug.Error-2.idtx:6 En.x64.Release.Error-2.idtx:6
 msgid "Warning [1]. "
 msgstr "Advarsel [1]. "
+
+#: En.Win32.Debug.ActionText-2.idtx:72 En.Win32.Release.ActionText-2.idtx:72
+#: En.x64.Debug.ActionText-2.idtx:72 En.x64.Release.ActionText-2.idtx:72
+msgid "Writing INI files values"
+msgstr "Skriver værdier for INI-filer"
+
+#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
+#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
+msgid "Writing system registry values"
+msgstr "Skriver værdier i systemets registreringsdatabase"
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
 msgid ""
@@ -1246,9 +1778,8 @@ msgid ""
 "users of the machine. Log on as administrator and then retry this "
 "installation."
 msgstr ""
-"Du har ikke de nødvendige rettigheder til at færdiggøre "
-"installationen for alle brugere af denne maskine. Log på som administrator, "
-"og forsøg igen."
+"Du har ikke de nødvendige rettigheder til at færdiggøre installationen for "
+"alle brugere af denne maskine. Log på som administrator, og forsøg igen."
 
 #: En.Win32.Debug.Error-2.idtx:126 En.Win32.Release.Error-2.idtx:126
 #: En.x64.Debug.Error-2.idtx:126 En.x64.Release.Error-2.idtx:126
@@ -1285,410 +1816,3 @@ msgstr ""
 "Du skal genstarte dit system, for at konfigurationsændringerne i [2] kan "
 "træde i kraft. Klik på Ja for at genstarte nu eller Nej, hvis du vil "
 "genstarte manuelt senere."
-
-#~ msgid "1033"
-#~ msgstr "1030"
-
-#, fuzzy
-#~ msgid "&Continue"
-#~ msgstr ""
-#~ "Der er ikke nok plads på diskenheden '[2]' til at fortsætte "
-#~ "installationen med genoprettelse aktiveret. [3] KB kræves, men der er kun "
-#~ "[4] KB tilgængelig. Klik på Ignorer for at fortsætte installationen uden "
-#~ "at gemme genoprettelsesoplysninger, klik på Forsøg igen for at "
-#~ "kontrollere den ledige diskplads igen, eller klik på Annuller for at "
-#~ "afslutte installationen."
-
-#, fuzzy
-#~ msgid "&Folder:"
-#~ msgstr "Fil: [1], Mappe: [2]"
-
-#, fuzzy
-#~ msgid "&Retry"
-#~ msgstr ""
-#~ "Der opstod en fejl ved skrivning af installationsoplysninger til disken. "
-#~ "Kontroller, at der er tilstrækkelig diskplads til rådighed, og klik på "
-#~ "Forsøg igen, eller klik på Annuller for at afbryde "
-#~ "installationsprogramt."
-
-#~ msgid "[1]"
-#~ msgstr "[1]"
-
-#, fuzzy
-#~ msgid "[DlgTitleFont]Disk Space Requirements"
-#~ msgstr "Beregner pladskrav"
-
-#~ msgid "Advertising application"
-#~ msgstr "Anmelder program"
-
-#~ msgid "Allocating registry space"
-#~ msgstr "Allokerer plads i registreringsdatabase"
-
-#~ msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-#~ msgstr "Program-id: [1]{{, Programtype: [2], Brugere: [3], RSN: [4]}}"
-
-#~ msgid "AppId: [1]{{, AppType: [2]}}"
-#~ msgstr "Program-id: [1]{{, Programtype: [2]}}"
-
-#~ msgid "Application Context:[1], Assembly Name:[2]"
-#~ msgstr "Programkontekst:[1], samlingsnavn:[2]"
-
-#~ msgid "Application: [1]"
-#~ msgstr "Program: [1]"
-
-#~ msgid "Application: [1], Command line: [2]"
-#~ msgstr "Program: [1], Kommandolinje: [2]"
-
-#, fuzzy
-#~ msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-#~ msgstr "Vil du annullere?"
-
-#~ msgid "Binding executables"
-#~ msgstr "Binder eksekverbare filer"
-
-#, fuzzy
-#~ msgid "Cancel"
-#~ msgstr ""
-#~ "Filen '[2]' kan ikke oprettes. En mappe med dette navn findes allerede. "
-#~ "Afbryd installationen, og prøv at installere på en anden placering."
-
-#~ msgid "Class Id: [1]"
-#~ msgstr "Klasse-id: [1]"
-
-#~ msgid "Component ID: [1], Qualifier: [2]"
-#~ msgstr "Komponent-id: [1], Operator: [2]"
-
-#~ msgid "Computing space requirements"
-#~ msgstr "Beregner pladskrav"
-
-#~ msgid "Copying network install files"
-#~ msgstr "Kopierer filer til netværksinstallation"
-
-#~ msgid "Copying new files"
-#~ msgstr "Kopierer nye filer"
-
-#, fuzzy
-#~ msgid "Create A New Folder|"
-#~ msgstr "Opretter mapper"
-
-#~ msgid "Creating duplicate files"
-#~ msgstr "Opretter kopier af filer"
-
-#~ msgid "Creating folders"
-#~ msgstr "Opretter mapper"
-
-#~ msgid "Creating shortcuts"
-#~ msgstr "Opretter genveje"
-
-#~ msgid "Deleting services"
-#~ msgstr "Sletter serviceprogramr"
-
-#, fuzzy
-#~ msgid "Determining required space for installation..."
-#~ msgstr "Indsamler nødvendige oplysninger..."
-
-#~ msgid "Evaluating launch conditions"
-#~ msgstr "Evaluerer startbetingelser"
-
-#~ msgid "Extension: [1]"
-#~ msgstr "Filtypenavn: [1]"
-
-#~ msgid "Feature: [1]"
-#~ msgstr "Funktion: [1]"
-
-#~ msgid "File: [1]"
-#~ msgstr "Fil: [1]"
-
-#~ msgid "File: [1], Dependencies: [2]"
-#~ msgstr "Fil: [1], Afhængigheder: [2]"
-
-#~ msgid "File: [1], Folder: [2]"
-#~ msgstr "Fil: [1], Mappe: [2]"
-
-#~ msgid "File: [1], Folder: [2], Size: [3]"
-#~ msgstr "Fil: [1], Mappe: [2], Størrelse: [3]"
-
-#~ msgid "File: [1], Folder: [9]"
-#~ msgstr "Fil: [1], Mappe: [9]"
-
-#~ msgid "File: [1], Folder: [9], Size: [6]"
-#~ msgstr "Fil: [1], Mappe: [9], Størrelse: [6]"
-
-#~ msgid "File: [1], Section: [2], Key: [3], Value: [4]"
-#~ msgstr "Fil: [1], Sektion: [2], Nøgle: [3], Værdi: [4]"
-
-#, fuzzy
-#~ msgid "Folder:"
-#~ msgstr "Fil: [1], Mappe: [2]"
-
-#~ msgid "Folder: [1]"
-#~ msgstr "Mappe: [1]"
-
-#~ msgid "Font: [1]"
-#~ msgstr "Skrifttype: [1]"
-
-#~ msgid "Found application: [1]"
-#~ msgstr "Fundet program: [1]"
-
-#~ msgid "Free space: [1]"
-#~ msgstr "Ledig plads: [1]"
-
-#~ msgid "Generating script operations for action:"
-#~ msgstr "Opretter script-funktioner til handlingen:"
-
-#~ msgid "Initializing ODBC folders"
-#~ msgstr "Initialiserer ODBC-mapper"
-
-#~ msgid "Installing new services"
-#~ msgstr "Installerer nye serviceprogramr"
-
-#~ msgid "Installing ODBC components"
-#~ msgstr "Installerer ODBC-komponenter"
-
-#~ msgid "Installing system catalog"
-#~ msgstr "Systemkataloget installeres"
-
-#~ msgid "Key: [1], Name: [2]"
-#~ msgstr "Nøgle: [1], Navn: [2]"
-
-#~ msgid "Key: [1], Name: [2], Value: [3]"
-#~ msgstr "Nøgle: [1], Navn: [2], Værdi: [3]"
-
-#~ msgid "LibID: [1]"
-#~ msgstr "DLL-id: [1]"
-
-#~ msgid "Migrating feature states from related applications"
-#~ msgstr "Overfører funktionsindstillinger fra relaterede programr"
-
-#~ msgid "MIME Content Type: [1], Extension: [2]"
-#~ msgstr "MIME-indholdstype: [1], Filtypenavn: [2]"
-
-#~ msgid "Moving files"
-#~ msgstr "Flytter filer"
-
-#~ msgid "Name: [1], Value: [2], Action [3]"
-#~ msgstr "Navn: [1], Værdi: [2], Handling: [3]"
-
-#~ msgid "Patching files"
-#~ msgstr "Udfører rettelser på filer"
-
-#~ msgid "ProgId: [1]"
-#~ msgstr "ProgId: [1]"
-
-#~ msgid "Property: [1], Signature: [2]"
-#~ msgstr "Egenskab: [1], Signatur: [2]"
-
-#~ msgid "Publishing assembly information"
-#~ msgstr "Udgiver samlingsoplysninger"
-
-#~ msgid "Publishing Product Features"
-#~ msgstr "Udgiver produktfunktioner"
-
-#~ msgid "Publishing product information"
-#~ msgstr "Udgiver produktoplysninger"
-
-#~ msgid "Publishing Qualified Components"
-#~ msgstr "Udgiver godkendte komponenter, der berettiger til opgradering"
-
-#~ msgid "Registering Class servers"
-#~ msgstr "Registrerer klasseservere"
-
-#~ msgid "Registering COM+ Applications and Components"
-#~ msgstr "Registrerer programr og komponenter til COM+"
-
-#~ msgid "Registering extension servers"
-#~ msgstr "Registrerer udvidelsesservere"
-
-#~ msgid "Registering fonts"
-#~ msgstr "Registrerer skrifttyper"
-
-#~ msgid "Registering MIME info"
-#~ msgstr "Registrerer MIME-info"
-
-#~ msgid "Registering modules"
-#~ msgstr "Registrerer moduler"
-
-#~ msgid "Registering product"
-#~ msgstr "Registrerer produkt"
-
-#~ msgid "Registering program identifiers"
-#~ msgstr "Registrerer program-id'er."
-
-#~ msgid "Registering type libraries"
-#~ msgstr "Registrerer type-DLL'er"
-
-#~ msgid "Registering user"
-#~ msgstr "Registrerer bruger"
-
-#, fuzzy
-#~ msgid "Removal"
-#~ msgstr "Fjernelsen blev fuldført."
-
-#, fuzzy
-#~ msgid "Removing"
-#~ msgstr "Fjerner poster for INI-filer"
-
-#~ msgid "Removing applications"
-#~ msgstr "Fjerner programr"
-
-#~ msgid "Removing backup files"
-#~ msgstr "Fjerner sikkerhedskopierede filer"
-
-#~ msgid "Removing duplicated files"
-#~ msgstr "Fjerner identiske filer"
-
-#~ msgid "Removing files"
-#~ msgstr "Fjerner filer"
-
-#~ msgid "Removing folders"
-#~ msgstr "Fjerner mapper"
-
-#~ msgid "Removing INI files entries"
-#~ msgstr "Fjerner poster for INI-filer"
-
-#~ msgid "Removing moved files"
-#~ msgstr "Fjerner flyttede filer"
-
-#~ msgid "Removing ODBC components"
-#~ msgstr "Fjerner ODBC-komponenter"
-
-#~ msgid "Removing shortcuts"
-#~ msgstr "Fjerner genveje"
-
-#~ msgid "Removing system registry values"
-#~ msgstr "Fjerner værdier i systemets registreringsdatabase"
-
-#~ msgid "Rolling back action:"
-#~ msgstr "Fortrydelse:"
-
-#~ msgid "Searching for installed applications"
-#~ msgstr "Søger efter allerede installerede programr"
-
-#~ msgid "Searching for qualifying products"
-#~ msgstr ""
-#~ "Søger efter godkendte produkter, der berettiger til opgradering"
-
-#~ msgid "Searching for related applications"
-#~ msgstr "Søger efter relaterede programr"
-
-#~ msgid "Service: [1]"
-#~ msgstr "Serviceprogram: [1]"
-
-#~ msgid "Service: [2]"
-#~ msgstr "Serviceprogram: [2]"
-
-#~ msgid "Shortcut: [1]"
-#~ msgstr "Genvej: [1]"
-
-#~ msgid "Starting services"
-#~ msgstr "Starter serviceprogramr"
-
-#~ msgid "Stopping services"
-#~ msgstr "Stopper serviceprogramr"
-
-#~ msgid "Unpublishing assembly information"
-#~ msgstr "Fortryder udgivelse af samlingsoplysninger"
-
-#~ msgid "Unpublishing Product Features"
-#~ msgstr "Annullerer udgivelsen af produktfunktioner"
-
-#~ msgid "Unpublishing product information"
-#~ msgstr "Annullerer produktoplysninger"
-
-#~ msgid "Unpublishing Qualified Components"
-#~ msgstr "Annullerer udgivelsen af gyldige komponenter"
-
-#~ msgid "Unregister Class servers"
-#~ msgstr "Fjerner registreringen af klasseservere"
-
-#~ msgid "Unregistering COM+ Applications and Components"
-#~ msgstr "Fjerner registrering af programr og komponenter til COM+"
-
-#~ msgid "Unregistering extension servers"
-#~ msgstr "Fjerner registreringen af udvidelsesservere"
-
-#~ msgid "Unregistering fonts"
-#~ msgstr "Fjerner registreringen af skrifttyper"
-
-#~ msgid "Unregistering MIME info"
-#~ msgstr "Fjerner registreringen af MIME-info"
-
-#~ msgid "Unregistering modules"
-#~ msgstr "Fjerner registreringen af moduler"
-
-#~ msgid "Unregistering program identifiers"
-#~ msgstr "Fjerner registreringen af program-id'er"
-
-#~ msgid "Unregistering type libraries"
-#~ msgstr "Fjerner registreringen af type-DLL'er"
-
-#~ msgid "Updating component registration"
-#~ msgstr "Opdaterer komponentregistrering"
-
-#~ msgid "Updating environment strings"
-#~ msgstr "Opdaterer miljøstrenge"
-
-#~ msgid "Validating install"
-#~ msgstr "Kontrollerer installationen"
-
-#~ msgid "Writing INI files values"
-#~ msgstr "Skriver værdier for INI-filer"
-
-#~ msgid "Writing system registry values"
-#~ msgstr "Skriver værdier i systemets registreringsdatabase"
-
-#, fuzzy
-#~ msgid "&Install Now"
-#~ msgstr "Installerede [2]"
-
-#, fuzzy
-#~ msgid "&Modify"
-#~ msgstr ""
-#~ "Miljøvariablen '[2]' kunne ikke opdateres. Kontroller, at du har de "
-#~ "nødvendige rettigheder til at ændre miljøvariabler."
-
-#, fuzzy
-#~ msgid "&Remove"
-#~ msgstr ""
-#~ "Du skal være Administrator for at kunne fjerne dette program. Du kan "
-#~ "logge på som Administrator, eller kontakte den tekniske supportgruppe for "
-#~ "at få hjælp."
-
-#, fuzzy
-#~ msgid "Available"
-#~ msgstr ""
-#~ "Der er ikke nok plads på diskenheden '[2]' til at fortsætte "
-#~ "installationen med genoprettelse aktiveret. [3] KB kræves, men der er kun "
-#~ "[4] KB tilgængelig. Klik på Ignorer for at fortsætte installationen uden "
-#~ "at gemme genoprettelsesoplysninger, klik på Forsøg igen for at "
-#~ "kontrollere den ledige diskplads igen, eller klik på Annuller for at "
-#~ "afslutte installationen."
-
-#, fuzzy
-#~ msgid "Custom Installation"
-#~ msgstr "Installationen mislykkedes."
-
-#, fuzzy
-#~ msgid "Installing"
-#~ msgstr ""
-#~ "Der blev ikke fundet nogen tidligere installerede produkter på "
-#~ "computeren, der berettiger til installation af dette produkt."
-
-#, fuzzy
-#~ msgid "KB"
-#~ msgstr ""
-#~ "Der kunne ikke skaffes mere plads i registreringsdatabasen. [2] KB ledig "
-#~ "registreringsplads er nødvendig for installationen af programt."
-
-#, fuzzy
-#~ msgid "Required"
-#~ msgstr ""
-#~ "En nødvendig fil kan ikke installeres, fordi kabinetfilen [2] ikke "
-#~ "er digitalt signeret. Det betyder muligvis, at kabinetfilen er beskadiget."
-
-#, fuzzy
-#~ msgid "Volume"
-#~ msgstr ""
-#~ "Der er ingen CD i drev [2]. Indsæt en CD og klik på Forsøg igen, "
-#~ "eller klik på Annuller for at gå tilbage til den enhed, som tidligere "
-#~ "blev brugt."

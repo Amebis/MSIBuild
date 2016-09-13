@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSMBuild\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-28 13:25+0200\n"
+"POT-Creation-Date: 2016-09-13 11:29+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
 "Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
@@ -118,17 +118,6 @@ msgstr "&Ponovi"
 #: En.x64.Release.Control-2.idtx:89 En.x64.Release.Control-2.idtx:95
 msgid "&Yes"
 msgstr "&Da"
-
-#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Debug.ActionText-2.idtx:39
-#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Debug.ActionText-2.idtx:53
-#: En.Win32.Release.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:39
-#: En.Win32.Release.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:53
-#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Debug.ActionText-2.idtx:39
-#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Debug.ActionText-2.idtx:53
-#: En.x64.Release.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:39
-#: En.x64.Release.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:53
-msgid "[1]"
-msgstr "[1]"
 
 #: En.Win32.Debug.Control-2.idtx:46 En.Win32.Release.Control-2.idtx:46
 #: En.x64.Debug.Control-2.idtx:43 En.x64.Release.Control-2.idtx:43
@@ -281,32 +270,20 @@ msgid "{60}{60}{60}{60}{60}"
 msgstr "{60}{60}{60}{60}{60}"
 
 # Windows charset for this language (decimal)
-#: En.Win32.Debug.ActionText-2.idtx:3 En.Win32.Debug.Control-2.idtx:3
-#: En.Win32.Debug.ControlEvent-2.idtx:3 En.Win32.Debug.Dialog-2.idtx:3
-#: En.Win32.Debug.Property-2.idtx:3 En.Win32.Debug.RadioButton-2.idtx:3
-#: En.Win32.Debug.UIText-2.idtx:3 En.Win32.Release.ActionText-2.idtx:3
+#: En.Win32.Debug.Control-2.idtx:3 En.Win32.Debug.ControlEvent-2.idtx:3
+#: En.Win32.Debug.Dialog-2.idtx:3 En.Win32.Debug.Property-2.idtx:3
+#: En.Win32.Debug.RadioButton-2.idtx:3 En.Win32.Debug.UIText-2.idtx:3
 #: En.Win32.Release.Control-2.idtx:3 En.Win32.Release.ControlEvent-2.idtx:3
 #: En.Win32.Release.Dialog-2.idtx:3 En.Win32.Release.Property-2.idtx:3
 #: En.Win32.Release.RadioButton-2.idtx:3 En.Win32.Release.UIText-2.idtx:3
-#: En.x64.Debug.ActionText-2.idtx:3 En.x64.Debug.Control-2.idtx:3
-#: En.x64.Debug.ControlEvent-2.idtx:3 En.x64.Debug.Dialog-2.idtx:3
-#: En.x64.Debug.Property-2.idtx:3 En.x64.Debug.RadioButton-2.idtx:3
-#: En.x64.Debug.UIText-2.idtx:3 En.x64.Release.ActionText-2.idtx:3
+#: En.x64.Debug.Control-2.idtx:3 En.x64.Debug.ControlEvent-2.idtx:3
+#: En.x64.Debug.Dialog-2.idtx:3 En.x64.Debug.Property-2.idtx:3
+#: En.x64.Debug.RadioButton-2.idtx:3 En.x64.Debug.UIText-2.idtx:3
 #: En.x64.Release.Control-2.idtx:3 En.x64.Release.ControlEvent-2.idtx:3
 #: En.x64.Release.Dialog-2.idtx:3 En.x64.Release.Property-2.idtx:3
 #: En.x64.Release.RadioButton-2.idtx:3 En.x64.Release.UIText-2.idtx:3
 msgid "1252"
 msgstr "1250"
-
-#: En.Win32.Debug.ActionText-2.idtx:4 En.Win32.Release.ActionText-2.idtx:4
-#: En.x64.Debug.ActionText-2.idtx:4 En.x64.Release.ActionText-2.idtx:4
-msgid "Advertising application"
-msgstr "Program za oglaševanje"
-
-#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
-#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
-msgid "Allocating registry space"
-msgstr "Rezervacija prostora v sistemskem registru"
 
 #: En.Win32.Debug.Control-2.idtx:15 En.Win32.Release.Control-2.idtx:15
 #: En.x64.Debug.Control-2.idtx:15 En.x64.Release.Control-2.idtx:15
@@ -342,33 +319,6 @@ msgstr ""
 "vaš operacijski sistem. Priporočamo, da namestite raje 64-bitno različico "
 "tega programa."
 
-#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
-#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
-msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-msgstr "IdApl: [1]{{, TipApl: [2], Uporabniki: [3], RSN: [4]}}"
-
-#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
-#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
-msgid "AppId: [1]{{, AppType: [2]}}"
-msgstr "IdApl: [1]{{, TipApl: [2]}}"
-
-#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Debug.ActionText-2.idtx:28
-#: En.Win32.Release.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:28
-#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Debug.ActionText-2.idtx:28
-#: En.x64.Release.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:28
-msgid "Application Context:[1], Assembly Name:[2]"
-msgstr "Kontekst programa:[1], ime izgradnje:[2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
-#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
-msgid "Application: [1]"
-msgstr "Program: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
-#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
-msgid "Application: [1], Command line: [2]"
-msgstr "Program: [1], Ukazna vrstica: [2]"
-
 #: En.Win32.Debug.Control-2.idtx:91 En.Win32.Release.Control-2.idtx:91
 #: En.x64.Debug.Control-2.idtx:88 En.x64.Release.Control-2.idtx:88
 msgid "Are you sure you want to cancel [SimpleProductName] installation?"
@@ -380,11 +330,6 @@ msgstr ""
 #: En.x64.Debug.UIText-2.idtx:50 En.x64.Release.UIText-2.idtx:50
 msgid "Available"
 msgstr "Na voljo"
-
-#: En.Win32.Debug.ActionText-2.idtx:7 En.Win32.Release.ActionText-2.idtx:7
-#: En.x64.Debug.ActionText-2.idtx:7 En.x64.Release.ActionText-2.idtx:7
-msgid "Binding executables"
-msgstr "Povezovanje izvedljivih datotek"
 
 #: En.Win32.Debug.Control-2.idtx:52 En.Win32.Debug.Control-2.idtx:63
 #: En.Win32.Release.Control-2.idtx:52 En.Win32.Release.Control-2.idtx:63
@@ -478,13 +423,6 @@ msgstr "Po &meri"
 msgid "Cancel"
 msgstr "Prekini"
 
-#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Debug.ActionText-2.idtx:64
-#: En.Win32.Release.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:64
-#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Debug.ActionText-2.idtx:64
-#: En.x64.Release.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:64
-msgid "Class Id: [1]"
-msgstr "Class Id: [1]"
-
 #: En.Win32.Debug.Control-2.idtx:36 En.Win32.Release.Control-2.idtx:36
 #: En.x64.Debug.Control-2.idtx:33 En.x64.Release.Control-2.idtx:33
 msgid ""
@@ -498,32 +436,6 @@ msgstr ""
 msgid "Compiling cost for this feature..."
 msgstr "Računam potreben prostor za ta del ..."
 
-#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Debug.ActionText-2.idtx:61
-#: En.Win32.Release.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:61
-#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Debug.ActionText-2.idtx:61
-#: En.x64.Release.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:61
-msgid "Component ID: [1], Qualifier: [2]"
-msgstr "ID komponente: [1], kvalifikator: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:10 En.Win32.Debug.ActionText-2.idtx:15
-#: En.Win32.Debug.ActionText-2.idtx:9 En.Win32.Release.ActionText-2.idtx:10
-#: En.Win32.Release.ActionText-2.idtx:15 En.Win32.Release.ActionText-2.idtx:9
-#: En.x64.Debug.ActionText-2.idtx:10 En.x64.Debug.ActionText-2.idtx:15
-#: En.x64.Debug.ActionText-2.idtx:9 En.x64.Release.ActionText-2.idtx:10
-#: En.x64.Release.ActionText-2.idtx:15 En.x64.Release.ActionText-2.idtx:9
-msgid "Computing space requirements"
-msgstr "Računanje potrebnega prostora"
-
-#: En.Win32.Debug.ActionText-2.idtx:18 En.Win32.Release.ActionText-2.idtx:18
-#: En.x64.Debug.ActionText-2.idtx:18 En.x64.Release.ActionText-2.idtx:18
-msgid "Copying network install files"
-msgstr "Kopiranje datotek za omrežno namestitev"
-
-#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:19
-#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:19
-msgid "Copying new files"
-msgstr "Kopiranje novih datotek"
-
 #: En.Win32.Debug.Control-2.idtx:52 En.Win32.Debug.Control-2.idtx:63
 #: En.Win32.Release.Control-2.idtx:52 En.Win32.Release.Control-2.idtx:63
 #: En.x64.Debug.Control-2.idtx:49 En.x64.Debug.Control-2.idtx:60
@@ -531,30 +443,10 @@ msgstr "Kopiranje novih datotek"
 msgid "Create A New Folder|"
 msgstr "Ustvari novo mapo|"
 
-#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:14
-#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:14
-msgid "Creating duplicate files"
-msgstr "Ustvarjanje kopij datotek"
-
-#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:11
-#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:11
-msgid "Creating folders"
-msgstr "Ustvarjanje map"
-
-#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:12
-#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:12
-msgid "Creating shortcuts"
-msgstr "Ustvarjanje bližnjic"
-
 #: En.Win32.Debug.Property-2.idtx:8 En.Win32.Release.Property-2.idtx:8
 #: En.x64.Debug.Property-2.idtx:8 En.x64.Release.Property-2.idtx:8
 msgid "Custom Installation"
 msgstr "Namestitev po meri"
-
-#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Release.ActionText-2.idtx:13
-#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Release.ActionText-2.idtx:13
-msgid "Deleting services"
-msgstr "Brisanje storitev"
 
 #: En.Win32.Debug.ControlEvent-2.idtx:4 En.Win32.Debug.ControlEvent-2.idtx:5
 #: En.Win32.Release.ControlEvent-2.idtx:4
@@ -599,118 +491,24 @@ msgstr "Celotna komponenta bo nameščena za zagon iz omrežja"
 msgid "Entire feature will be unavailable"
 msgstr "Ta del ne bo nameščen"
 
-#: En.Win32.Debug.ActionText-2.idtx:24 En.Win32.Release.ActionText-2.idtx:24
-#: En.x64.Debug.ActionText-2.idtx:24 En.x64.Release.ActionText-2.idtx:24
-msgid "Evaluating launch conditions"
-msgstr "Ocenjevanje zagonskih pogojev"
-
 #: En.Win32.Debug.Control-2.idtx:16 En.Win32.Release.Control-2.idtx:16
 msgid "Exclamation icon|"
 msgstr "Opozorilo|"
-
-#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Debug.ActionText-2.idtx:66
-#: En.Win32.Release.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:66
-#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Debug.ActionText-2.idtx:66
-#: En.x64.Release.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:66
-msgid "Extension: [1]"
-msgstr "Dodatek: [1]"
 
 #: En.Win32.Debug.UIText-2.idtx:10 En.Win32.Release.UIText-2.idtx:10
 #: En.x64.Debug.UIText-2.idtx:10 En.x64.Release.UIText-2.idtx:10
 msgid "Feature will be installed when required"
 msgstr "Del bo nameščen ob prvi uporabi"
 
-#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Debug.ActionText-2.idtx:62
-#: En.Win32.Release.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:62
-#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Debug.ActionText-2.idtx:62
-#: En.x64.Release.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:62
-msgid "Feature: [1]"
-msgstr "Funkcija: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Debug.ActionText-2.idtx:7
-#: En.Win32.Release.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:7
-#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Debug.ActionText-2.idtx:7
-#: En.x64.Release.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:7
-msgid "File: [1]"
-msgstr "Datoteka: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
-#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
-msgid "File: [1], Dependencies: [2]"
-msgstr "Datoteka: [1], odvisnosti: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Debug.ActionText-2.idtx:56
-#: En.Win32.Release.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:56
-#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Debug.ActionText-2.idtx:56
-#: En.x64.Release.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:56
-msgid "File: [1], Folder: [2]"
-msgstr "Datoteka: [1], mapa: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
-#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
-msgid "File: [1], Folder: [2], Size: [3]"
-msgstr "Datoteka: [1], mapa: [2], velikost: [3]"
-
-#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Debug.ActionText-2.idtx:46
-#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:43
-#: En.Win32.Release.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:60
-#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Debug.ActionText-2.idtx:46
-#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:43
-#: En.x64.Release.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:60
-msgid "File: [1], Folder: [9]"
-msgstr "Datoteka: [1], mapa: [9]"
-
-#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Debug.ActionText-2.idtx:18
-#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Debug.ActionText-2.idtx:26
-#: En.Win32.Release.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:18
-#: En.Win32.Release.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:26
-#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Debug.ActionText-2.idtx:18
-#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Debug.ActionText-2.idtx:26
-#: En.x64.Release.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:18
-#: En.x64.Release.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:26
-msgid "File: [1], Folder: [9], Size: [6]"
-msgstr "Datoteka: [1], mapa: [9], velikost: [6]"
-
-#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Debug.ActionText-2.idtx:72
-#: En.Win32.Release.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:72
-#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Debug.ActionText-2.idtx:72
-#: En.x64.Release.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:72
-msgid "File: [1], Section: [2], Key: [3], Value: [4]"
-msgstr "Datoteka: [1], razdelek: [2], ključ: [3], vrednost: [4]"
-
 #: En.Win32.Debug.Control-2.idtx:41 En.Win32.Release.Control-2.idtx:41
 #: En.x64.Debug.Control-2.idtx:38 En.x64.Release.Control-2.idtx:38
 msgid "Folder:"
 msgstr "Mapa:"
 
-#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Debug.ActionText-2.idtx:47
-#: En.Win32.Release.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:47
-#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Debug.ActionText-2.idtx:47
-#: En.x64.Release.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:47
-msgid "Folder: [1]"
-msgstr "Mapa: [1]"
-
 #: En.Win32.Debug.UIText-2.idtx:17 En.Win32.Release.UIText-2.idtx:17
 #: En.x64.Debug.UIText-2.idtx:17 En.x64.Release.UIText-2.idtx:17
 msgid "Folder|New Folder"
 msgstr "Mapa|Nova mapa"
-
-#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Debug.ActionText-2.idtx:67
-#: En.Win32.Release.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:67
-#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Debug.ActionText-2.idtx:67
-#: En.x64.Release.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:67
-msgid "Font: [1]"
-msgstr "Pisava: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
-#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
-msgid "Found application: [1]"
-msgstr "Najden program: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
-#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
-msgid "Free space: [1]"
-msgstr "Nezaseden prostor: [1]"
 
 #: En.Win32.Debug.UIText-2.idtx:18 En.Win32.Release.UIText-2.idtx:18
 #: En.x64.Debug.UIText-2.idtx:18 En.x64.Release.UIText-2.idtx:18
@@ -721,11 +519,6 @@ msgstr "Zbiranje potrebnih informacij ..."
 #: En.x64.Debug.UIText-2.idtx:6 En.x64.Release.UIText-2.idtx:6
 msgid "GB"
 msgstr " GB"
-
-#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:17
-#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:17
-msgid "Generating script operations for action:"
-msgstr "Generiranje skriptnih operacij za dejanje:"
 
 #: En.Win32.Debug.Control-2.idtx:10 En.Win32.Release.Control-2.idtx:10
 #: En.x64.Debug.Control-2.idtx:10 En.x64.Release.Control-2.idtx:10
@@ -751,11 +544,6 @@ msgstr "Obvestilo|"
 msgid "Information text"
 msgstr "Besedilo"
 
-#: En.Win32.Debug.ActionText-2.idtx:57 En.Win32.Release.ActionText-2.idtx:57
-#: En.x64.Debug.ActionText-2.idtx:57 En.x64.Release.ActionText-2.idtx:57
-msgid "Initializing ODBC folders"
-msgstr "Inicializacija imenikov ODBC"
-
 #: En.Win32.Debug.ControlEvent-2.idtx:7 En.Win32.Release.ControlEvent-2.idtx:7
 #: En.x64.Debug.ControlEvent-2.idtx:7 En.x64.Release.ControlEvent-2.idtx:7
 msgid "Installed Features Selection"
@@ -772,21 +560,6 @@ msgstr "Obvestilo namestitvenega programa"
 msgid "Installing"
 msgstr "Nameščam"
 
-#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
-#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
-msgid "Installing new services"
-msgstr "Nameščanje novih storitev"
-
-#: En.Win32.Debug.ActionText-2.idtx:20 En.Win32.Release.ActionText-2.idtx:20
-#: En.x64.Debug.ActionText-2.idtx:20 En.x64.Release.ActionText-2.idtx:20
-msgid "Installing ODBC components"
-msgstr "Nameščanje komponent ODBC"
-
-#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
-#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
-msgid "Installing system catalog"
-msgstr "Nameščanje sistemskega kataloga"
-
 #: En.Win32.Debug.Control-2.idtx:14 En.Win32.Release.Control-2.idtx:14
 #: En.x64.Debug.Control-2.idtx:14 En.x64.Release.Control-2.idtx:14
 msgid "Installs the most common program features. Recommended for most users.|"
@@ -797,23 +570,6 @@ msgstr ""
 #: En.x64.Debug.UIText-2.idtx:7 En.x64.Release.UIText-2.idtx:7
 msgid "KB"
 msgstr " KB"
-
-#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
-#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
-msgid "Key: [1], Name: [2]"
-msgstr "Ključ: [1], ime: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
-#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
-msgid "Key: [1], Name: [2], Value: [3]"
-msgstr "Ključ: [1], ime: [2], vrednost: [3]"
-
-#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Debug.ActionText-2.idtx:70
-#: En.Win32.Release.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:70
-#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Debug.ActionText-2.idtx:70
-#: En.x64.Release.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:70
-msgid "LibID: [1]"
-msgstr "LibID: [1]"
 
 #: En.Win32.Debug.Control-2.idtx:24 En.Win32.Release.Control-2.idtx:24
 #: En.x64.Debug.Control-2.idtx:21 En.x64.Release.Control-2.idtx:21
@@ -829,18 +585,6 @@ msgstr ""
 msgid "MB"
 msgstr " MB"
 
-#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
-#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
-msgid "Migrating feature states from related applications"
-msgstr "Preseljevanje stanja funkcij iz sorodnih programov"
-
-#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Debug.ActionText-2.idtx:68
-#: En.Win32.Release.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:68
-#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Debug.ActionText-2.idtx:68
-#: En.x64.Release.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:68
-msgid "MIME Content Type: [1], Extension: [2]"
-msgstr "Vrsta vsebine MIME: [1], dodatek: [2]"
-
 #: En.Win32.Debug.ControlEvent-2.idtx:9 En.Win32.Release.ControlEvent-2.idtx:9
 #: En.x64.Debug.ControlEvent-2.idtx:9 En.x64.Release.ControlEvent-2.idtx:9
 msgid "Modification"
@@ -851,22 +595,10 @@ msgstr "Sprememba"
 msgid "Modifying"
 msgstr "Spreminjam"
 
-#: En.Win32.Debug.ActionText-2.idtx:26 En.Win32.Release.ActionText-2.idtx:26
-#: En.x64.Debug.ActionText-2.idtx:26 En.x64.Release.ActionText-2.idtx:26
-msgid "Moving files"
-msgstr "Premikanje datotek"
-
 #: En.Win32.Debug.Control-2.idtx:39 En.Win32.Release.Control-2.idtx:39
 #: En.x64.Debug.Control-2.idtx:36 En.x64.Release.Control-2.idtx:36
 msgid "Multiline description of the currently selected item."
 msgstr "Opis trenutno izbranega elementa"
-
-#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
-#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
-#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
-#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
-msgid "Name: [1], Value: [2], Action [3]"
-msgstr "Ime: [1], vrednost: [2], dejanje [3]"
 
 #: En.Win32.Debug.Control-2.idtx:56 En.Win32.Debug.Control-2.idtx:67
 #: En.Win32.Debug.Control-2.idtx:96 En.Win32.Release.Control-2.idtx:56
@@ -877,11 +609,6 @@ msgstr "Ime: [1], vrednost: [2], dejanje [3]"
 msgid "OK"
 msgstr "&V redu"
 
-#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
-#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
-msgid "Patching files"
-msgstr "Popravljanje datotek"
-
 #: En.Win32.Debug.Control-2.idtx:121 En.Win32.Release.Control-2.idtx:121
 #: En.x64.Debug.Control-2.idtx:118 En.x64.Release.Control-2.idtx:118
 msgid "Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
@@ -889,94 +616,12 @@ msgstr ""
 "Prosimo, poskusite ponovno ali se obrnite na [Manufacturer] (tel. "
 "[ARPHELPTELEPHONE])."
 
-#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Debug.ActionText-2.idtx:69
-#: En.Win32.Release.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:69
-#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Debug.ActionText-2.idtx:69
-#: En.x64.Release.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:69
-msgid "ProgId: [1]"
-msgstr "ProgId: [1]"
-
 #: En.Win32.Debug.Control-2.idtx:6 En.Win32.Debug.Control-2.idtx:87
 #: En.Win32.Release.Control-2.idtx:6 En.Win32.Release.Control-2.idtx:87
 #: En.x64.Debug.Control-2.idtx:6 En.x64.Debug.Control-2.idtx:84
 #: En.x64.Release.Control-2.idtx:6 En.x64.Release.Control-2.idtx:84
 msgid "Progress done"
 msgstr "Končano"
-
-#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
-#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
-msgid "Property: [1], Signature: [2]"
-msgstr "Lastnost: [1], podpis: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:27
-#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:27
-msgid "Publishing assembly information"
-msgstr "Objava informacij o izgradnji"
-
-#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:32
-#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:32
-msgid "Publishing Product Features"
-msgstr "Objava funkcij izdelka"
-
-#: En.Win32.Debug.ActionText-2.idtx:33 En.Win32.Release.ActionText-2.idtx:33
-#: En.x64.Debug.ActionText-2.idtx:33 En.x64.Release.ActionText-2.idtx:33
-msgid "Publishing product information"
-msgstr "Objava informacij o izdelku"
-
-#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:31
-#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:31
-msgid "Publishing Qualified Components"
-msgstr "Objava ustreznih komponent"
-
-#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:34
-#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:34
-msgid "Registering Class servers"
-msgstr "Registracija strežnikov za razrede"
-
-#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
-#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
-msgid "Registering COM+ Applications and Components"
-msgstr "Registracija programov in komponent COM+"
-
-#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:36
-#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:36
-msgid "Registering extension servers"
-msgstr "Registracija strežnikov za dodatke"
-
-#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:37
-#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:37
-msgid "Registering fonts"
-msgstr "Registracija pisav"
-
-#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:38
-#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:38
-msgid "Registering MIME info"
-msgstr "Registracija informacij MIME"
-
-#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:55
-#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:55
-msgid "Registering modules"
-msgstr "Registracija modulov"
-
-#: En.Win32.Debug.ActionText-2.idtx:39 En.Win32.Release.ActionText-2.idtx:39
-#: En.x64.Debug.ActionText-2.idtx:39 En.x64.Release.ActionText-2.idtx:39
-msgid "Registering product"
-msgstr "Registracija izdelka"
-
-#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:40
-#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:40
-msgid "Registering program identifiers"
-msgstr "Registracija identifikatorjev programa"
-
-#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:41
-#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:41
-msgid "Registering type libraries"
-msgstr "Registriranje knjižnic tipov"
-
-#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:42
-#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:42
-msgid "Registering user"
-msgstr "Registracija uporabnika"
 
 #: En.Win32.Debug.ControlEvent-2.idtx:13
 #: En.Win32.Release.ControlEvent-2.idtx:13 En.x64.Debug.ControlEvent-2.idtx:13
@@ -995,56 +640,6 @@ msgstr "Odstrani program z vašega računalnika.|"
 #: En.x64.Release.ControlEvent-2.idtx:12
 msgid "Removing"
 msgstr "Odstranjujem"
-
-#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
-#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
-msgid "Removing applications"
-msgstr "Odstranjevanje programov"
-
-#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:54
-#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:54
-msgid "Removing backup files"
-msgstr "Odstranjevanje varnostnih kopij datotek"
-
-#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Release.ActionText-2.idtx:43
-#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Release.ActionText-2.idtx:43
-msgid "Removing duplicated files"
-msgstr "Odstranjevanje podvojenih datotek"
-
-#: En.Win32.Debug.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:46
-#: En.x64.Debug.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:46
-msgid "Removing files"
-msgstr "Odstranjevanje datotek"
-
-#: En.Win32.Debug.ActionText-2.idtx:47 En.Win32.Release.ActionText-2.idtx:47
-#: En.x64.Debug.ActionText-2.idtx:47 En.x64.Release.ActionText-2.idtx:47
-msgid "Removing folders"
-msgstr "Odstranjevanje map"
-
-#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:48
-#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:48
-msgid "Removing INI files entries"
-msgstr "Odstranjevanje vnosov datotek INI"
-
-#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:60
-#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:60
-msgid "Removing moved files"
-msgstr "Odstranjevanje premaknjenih datotek"
-
-#: En.Win32.Debug.ActionText-2.idtx:49 En.Win32.Release.ActionText-2.idtx:49
-#: En.x64.Debug.ActionText-2.idtx:49 En.x64.Release.ActionText-2.idtx:49
-msgid "Removing ODBC components"
-msgstr "Odstranjevanje komponent ODBC"
-
-#: En.Win32.Debug.ActionText-2.idtx:51 En.Win32.Release.ActionText-2.idtx:51
-#: En.x64.Debug.ActionText-2.idtx:51 En.x64.Release.ActionText-2.idtx:51
-msgid "Removing shortcuts"
-msgstr "Odstranjevanje bližnjic"
-
-#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
-#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
-msgid "Removing system registry values"
-msgstr "Odstranjevanje vrednosti iz sistemskega registra"
 
 #: En.Win32.Debug.ControlEvent-2.idtx:11
 #: En.Win32.Release.ControlEvent-2.idtx:11 En.x64.Debug.ControlEvent-2.idtx:11
@@ -1078,42 +673,6 @@ msgstr "Potrebno"
 msgid "Resets feature selection to initial state.|"
 msgstr "Vrne izbiro delov za namestitev v prvotno stanje.|"
 
-#: En.Win32.Debug.ActionText-2.idtx:53 En.Win32.Release.ActionText-2.idtx:53
-#: En.x64.Debug.ActionText-2.idtx:53 En.x64.Release.ActionText-2.idtx:53
-msgid "Rolling back action:"
-msgstr "Povrnitveno dejanje:"
-
-#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
-#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
-msgid "Searching for installed applications"
-msgstr "Iskanje nameščenih programov"
-
-#: En.Win32.Debug.ActionText-2.idtx:52 En.Win32.Debug.ActionText-2.idtx:8
-#: En.Win32.Release.ActionText-2.idtx:52 En.Win32.Release.ActionText-2.idtx:8
-#: En.x64.Debug.ActionText-2.idtx:52 En.x64.Debug.ActionText-2.idtx:8
-#: En.x64.Release.ActionText-2.idtx:52 En.x64.Release.ActionText-2.idtx:8
-msgid "Searching for qualifying products"
-msgstr "Iskanje ustreznih izdelkov"
-
-#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
-#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
-msgid "Searching for related applications"
-msgstr "Iskanje sorodnih programov"
-
-#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Debug.ActionText-2.idtx:58
-#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:13
-#: En.Win32.Release.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:59
-#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Debug.ActionText-2.idtx:58
-#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:13
-#: En.x64.Release.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:59
-msgid "Service: [1]"
-msgstr "Storitev: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
-#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
-msgid "Service: [2]"
-msgstr "Storitev: [2]"
-
 #: En.Win32.Debug.Property-2.idtx:5 En.Win32.Debug.Property-2.idtx:6
 #: En.Win32.Release.Property-2.idtx:5 En.Win32.Release.Property-2.idtx:6
 #: En.x64.Debug.Property-2.idtx:5 En.x64.Debug.Property-2.idtx:6
@@ -1127,28 +686,11 @@ msgstr "Namestitev"
 msgid "Setup Wizard"
 msgstr "Čarovnik za namestitev"
 
-#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Debug.ActionText-2.idtx:51
-#: En.Win32.Release.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:51
-#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Debug.ActionText-2.idtx:51
-#: En.x64.Release.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:51
-msgid "Shortcut: [1]"
-msgstr "Bližnjica: [1]"
-
 #: En.Win32.Debug.Control-2.idtx:45 En.Win32.Release.Control-2.idtx:45
 #: En.x64.Debug.Control-2.idtx:42 En.x64.Release.Control-2.idtx:42
 msgid ""
 "Shows space requirement by volumes, according to current feature selection.|"
 msgstr "Prikaže porabo prostora po pogonih glede na trenutno izbiro delov.|"
-
-#: En.Win32.Debug.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:58
-#: En.x64.Debug.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:58
-msgid "Starting services"
-msgstr "Zagon storitev"
-
-#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:59
-#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:59
-msgid "Stopping services"
-msgstr "Ustavitev storitev"
 
 #: En.Win32.Debug.Control-2.idtx:105 En.Win32.Release.Control-2.idtx:105
 #: En.x64.Debug.Control-2.idtx:102 En.x64.Release.Control-2.idtx:102
@@ -1317,89 +859,12 @@ msgstr "Preostali čas: {[1] min }{[2] s}"
 msgid "Tree of selections"
 msgstr "Drevo izbire"
 
-#: En.Win32.Debug.ActionText-2.idtx:28 En.Win32.Release.ActionText-2.idtx:28
-#: En.x64.Debug.ActionText-2.idtx:28 En.x64.Release.ActionText-2.idtx:28
-msgid "Unpublishing assembly information"
-msgstr "Umik objave informacij o izgradnji"
-
-#: En.Win32.Debug.ActionText-2.idtx:62 En.Win32.Release.ActionText-2.idtx:62
-#: En.x64.Debug.ActionText-2.idtx:62 En.x64.Release.ActionText-2.idtx:62
-msgid "Unpublishing Product Features"
-msgstr "Umik objave možnosti izdelka"
-
-#: En.Win32.Debug.ActionText-2.idtx:63 En.Win32.Release.ActionText-2.idtx:63
-#: En.x64.Debug.ActionText-2.idtx:63 En.x64.Release.ActionText-2.idtx:63
-msgid "Unpublishing product information"
-msgstr "Umik objave podatkov o izdelku"
-
-#: En.Win32.Debug.ActionText-2.idtx:61 En.Win32.Release.ActionText-2.idtx:61
-#: En.x64.Debug.ActionText-2.idtx:61 En.x64.Release.ActionText-2.idtx:61
-msgid "Unpublishing Qualified Components"
-msgstr "Umik objave ustreznih komponent"
-
-#: En.Win32.Debug.ActionText-2.idtx:64 En.Win32.Release.ActionText-2.idtx:64
-#: En.x64.Debug.ActionText-2.idtx:64 En.x64.Release.ActionText-2.idtx:64
-msgid "Unregister Class servers"
-msgstr "Brisanje registracije strežnikov razreda"
-
-#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
-#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
-msgid "Unregistering COM+ Applications and Components"
-msgstr "Brisanje registracije programov in komponent COM+"
-
-#: En.Win32.Debug.ActionText-2.idtx:66 En.Win32.Release.ActionText-2.idtx:66
-#: En.x64.Debug.ActionText-2.idtx:66 En.x64.Release.ActionText-2.idtx:66
-msgid "Unregistering extension servers"
-msgstr "Brisanje registracije strežnikov za dodatke"
-
-#: En.Win32.Debug.ActionText-2.idtx:67 En.Win32.Release.ActionText-2.idtx:67
-#: En.x64.Debug.ActionText-2.idtx:67 En.x64.Release.ActionText-2.idtx:67
-msgid "Unregistering fonts"
-msgstr "Brisanje registracije pisav"
-
-#: En.Win32.Debug.ActionText-2.idtx:68 En.Win32.Release.ActionText-2.idtx:68
-#: En.x64.Debug.ActionText-2.idtx:68 En.x64.Release.ActionText-2.idtx:68
-msgid "Unregistering MIME info"
-msgstr "Brisanje registracije informacij MIME"
-
-#: En.Win32.Debug.ActionText-2.idtx:56 En.Win32.Release.ActionText-2.idtx:56
-#: En.x64.Debug.ActionText-2.idtx:56 En.x64.Release.ActionText-2.idtx:56
-msgid "Unregistering modules"
-msgstr "Brisanje registracije modulov"
-
-#: En.Win32.Debug.ActionText-2.idtx:69 En.Win32.Release.ActionText-2.idtx:69
-#: En.x64.Debug.ActionText-2.idtx:69 En.x64.Release.ActionText-2.idtx:69
-msgid "Unregistering program identifiers"
-msgstr "Brisanje registracije identifikatorjev programa"
-
-#: En.Win32.Debug.ActionText-2.idtx:70 En.Win32.Release.ActionText-2.idtx:70
-#: En.x64.Debug.ActionText-2.idtx:70 En.x64.Release.ActionText-2.idtx:70
-msgid "Unregistering type libraries"
-msgstr "Brisanje registracije knjižnic tipov"
-
 #: En.Win32.Debug.Control-2.idtx:51 En.Win32.Debug.Control-2.idtx:62
 #: En.Win32.Release.Control-2.idtx:51 En.Win32.Release.Control-2.idtx:62
 #: En.x64.Debug.Control-2.idtx:48 En.x64.Debug.Control-2.idtx:59
 #: En.x64.Release.Control-2.idtx:48 En.x64.Release.Control-2.idtx:59
 msgid "Up One Level|"
 msgstr "V nadrejeno mapo|"
-
-#: En.Win32.Debug.ActionText-2.idtx:30 En.Win32.Release.ActionText-2.idtx:30
-#: En.x64.Debug.ActionText-2.idtx:30 En.x64.Release.ActionText-2.idtx:30
-msgid "Updating component registration"
-msgstr "Posodabljanje registracije komponent"
-
-#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
-#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
-#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
-#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
-msgid "Updating environment strings"
-msgstr "Posodabljanje nizov okolja"
-
-#: En.Win32.Debug.ActionText-2.idtx:23 En.Win32.Release.ActionText-2.idtx:23
-#: En.x64.Debug.ActionText-2.idtx:23 En.x64.Release.ActionText-2.idtx:23
-msgid "Validating install"
-msgstr "Preverjanje veljavnosti namestitve"
 
 #: En.Win32.Debug.UIText-2.idtx:54 En.Win32.Release.UIText-2.idtx:54
 #: En.x64.Debug.UIText-2.idtx:54 En.x64.Release.UIText-2.idtx:54
@@ -1426,16 +891,6 @@ msgstr "Nameščeno za zagon iz omrežja"
 msgid "Will be installed when required"
 msgstr "Ta del bo nameščen ob prvi uporabi"
 
-#: En.Win32.Debug.ActionText-2.idtx:72 En.Win32.Release.ActionText-2.idtx:72
-#: En.x64.Debug.ActionText-2.idtx:72 En.x64.Release.ActionText-2.idtx:72
-msgid "Writing INI files values"
-msgstr "Zapisovanje vrednosti datotek INI"
-
-#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
-#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
-msgid "Writing system registry values"
-msgstr "Zapisovanje vrednosti v sistemski register"
-
 #: En.Win32.Debug.Control-2.idtx:29 En.Win32.Release.Control-2.idtx:29
 #: En.x64.Debug.Control-2.idtx:26 En.x64.Release.Control-2.idtx:26
 msgid ""
@@ -1444,6 +899,297 @@ msgid ""
 msgstr ""
 "Za program [SimpleProductName] boste pripravili namestitveno podobo, ki "
 "olajšuje preprostejše skupinsko nameščanje."
+
+#~ msgid "[1]"
+#~ msgstr "[1]"
+
+#~ msgid "Advertising application"
+#~ msgstr "Program za oglaševanje"
+
+#~ msgid "Allocating registry space"
+#~ msgstr "Rezervacija prostora v sistemskem registru"
+
+#~ msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
+#~ msgstr "IdApl: [1]{{, TipApl: [2], Uporabniki: [3], RSN: [4]}}"
+
+#~ msgid "AppId: [1]{{, AppType: [2]}}"
+#~ msgstr "IdApl: [1]{{, TipApl: [2]}}"
+
+#~ msgid "Application Context:[1], Assembly Name:[2]"
+#~ msgstr "Kontekst programa:[1], ime izgradnje:[2]"
+
+#~ msgid "Application: [1]"
+#~ msgstr "Program: [1]"
+
+#~ msgid "Application: [1], Command line: [2]"
+#~ msgstr "Program: [1], Ukazna vrstica: [2]"
+
+#~ msgid "Binding executables"
+#~ msgstr "Povezovanje izvedljivih datotek"
+
+#~ msgid "Class Id: [1]"
+#~ msgstr "Class Id: [1]"
+
+#~ msgid "Component ID: [1], Qualifier: [2]"
+#~ msgstr "ID komponente: [1], kvalifikator: [2]"
+
+#~ msgid "Computing space requirements"
+#~ msgstr "Računanje potrebnega prostora"
+
+#~ msgid "Copying network install files"
+#~ msgstr "Kopiranje datotek za omrežno namestitev"
+
+#~ msgid "Copying new files"
+#~ msgstr "Kopiranje novih datotek"
+
+#~ msgid "Creating duplicate files"
+#~ msgstr "Ustvarjanje kopij datotek"
+
+#~ msgid "Creating folders"
+#~ msgstr "Ustvarjanje map"
+
+#~ msgid "Creating shortcuts"
+#~ msgstr "Ustvarjanje bližnjic"
+
+#~ msgid "Deleting services"
+#~ msgstr "Brisanje storitev"
+
+#~ msgid "Evaluating launch conditions"
+#~ msgstr "Ocenjevanje zagonskih pogojev"
+
+#~ msgid "Extension: [1]"
+#~ msgstr "Dodatek: [1]"
+
+#~ msgid "Feature: [1]"
+#~ msgstr "Funkcija: [1]"
+
+#~ msgid "File: [1]"
+#~ msgstr "Datoteka: [1]"
+
+#~ msgid "File: [1], Dependencies: [2]"
+#~ msgstr "Datoteka: [1], odvisnosti: [2]"
+
+#~ msgid "File: [1], Folder: [2]"
+#~ msgstr "Datoteka: [1], mapa: [2]"
+
+#~ msgid "File: [1], Folder: [2], Size: [3]"
+#~ msgstr "Datoteka: [1], mapa: [2], velikost: [3]"
+
+#~ msgid "File: [1], Folder: [9]"
+#~ msgstr "Datoteka: [1], mapa: [9]"
+
+#~ msgid "File: [1], Folder: [9], Size: [6]"
+#~ msgstr "Datoteka: [1], mapa: [9], velikost: [6]"
+
+#~ msgid "File: [1], Section: [2], Key: [3], Value: [4]"
+#~ msgstr "Datoteka: [1], razdelek: [2], ključ: [3], vrednost: [4]"
+
+#~ msgid "Folder: [1]"
+#~ msgstr "Mapa: [1]"
+
+#~ msgid "Font: [1]"
+#~ msgstr "Pisava: [1]"
+
+#~ msgid "Found application: [1]"
+#~ msgstr "Najden program: [1]"
+
+#~ msgid "Free space: [1]"
+#~ msgstr "Nezaseden prostor: [1]"
+
+#~ msgid "Generating script operations for action:"
+#~ msgstr "Generiranje skriptnih operacij za dejanje:"
+
+#~ msgid "Initializing ODBC folders"
+#~ msgstr "Inicializacija imenikov ODBC"
+
+#~ msgid "Installing new services"
+#~ msgstr "Nameščanje novih storitev"
+
+#~ msgid "Installing ODBC components"
+#~ msgstr "Nameščanje komponent ODBC"
+
+#~ msgid "Installing system catalog"
+#~ msgstr "Nameščanje sistemskega kataloga"
+
+#~ msgid "Key: [1], Name: [2]"
+#~ msgstr "Ključ: [1], ime: [2]"
+
+#~ msgid "Key: [1], Name: [2], Value: [3]"
+#~ msgstr "Ključ: [1], ime: [2], vrednost: [3]"
+
+#~ msgid "LibID: [1]"
+#~ msgstr "LibID: [1]"
+
+#~ msgid "Migrating feature states from related applications"
+#~ msgstr "Preseljevanje stanja funkcij iz sorodnih programov"
+
+#~ msgid "MIME Content Type: [1], Extension: [2]"
+#~ msgstr "Vrsta vsebine MIME: [1], dodatek: [2]"
+
+#~ msgid "Moving files"
+#~ msgstr "Premikanje datotek"
+
+#~ msgid "Name: [1], Value: [2], Action [3]"
+#~ msgstr "Ime: [1], vrednost: [2], dejanje [3]"
+
+#~ msgid "Patching files"
+#~ msgstr "Popravljanje datotek"
+
+#~ msgid "ProgId: [1]"
+#~ msgstr "ProgId: [1]"
+
+#~ msgid "Property: [1], Signature: [2]"
+#~ msgstr "Lastnost: [1], podpis: [2]"
+
+#~ msgid "Publishing assembly information"
+#~ msgstr "Objava informacij o izgradnji"
+
+#~ msgid "Publishing Product Features"
+#~ msgstr "Objava funkcij izdelka"
+
+#~ msgid "Publishing product information"
+#~ msgstr "Objava informacij o izdelku"
+
+#~ msgid "Publishing Qualified Components"
+#~ msgstr "Objava ustreznih komponent"
+
+#~ msgid "Registering Class servers"
+#~ msgstr "Registracija strežnikov za razrede"
+
+#~ msgid "Registering COM+ Applications and Components"
+#~ msgstr "Registracija programov in komponent COM+"
+
+#~ msgid "Registering extension servers"
+#~ msgstr "Registracija strežnikov za dodatke"
+
+#~ msgid "Registering fonts"
+#~ msgstr "Registracija pisav"
+
+#~ msgid "Registering MIME info"
+#~ msgstr "Registracija informacij MIME"
+
+#~ msgid "Registering modules"
+#~ msgstr "Registracija modulov"
+
+#~ msgid "Registering product"
+#~ msgstr "Registracija izdelka"
+
+#~ msgid "Registering program identifiers"
+#~ msgstr "Registracija identifikatorjev programa"
+
+#~ msgid "Registering type libraries"
+#~ msgstr "Registriranje knjižnic tipov"
+
+#~ msgid "Registering user"
+#~ msgstr "Registracija uporabnika"
+
+#~ msgid "Removing applications"
+#~ msgstr "Odstranjevanje programov"
+
+#~ msgid "Removing backup files"
+#~ msgstr "Odstranjevanje varnostnih kopij datotek"
+
+#~ msgid "Removing duplicated files"
+#~ msgstr "Odstranjevanje podvojenih datotek"
+
+#~ msgid "Removing files"
+#~ msgstr "Odstranjevanje datotek"
+
+#~ msgid "Removing folders"
+#~ msgstr "Odstranjevanje map"
+
+#~ msgid "Removing INI files entries"
+#~ msgstr "Odstranjevanje vnosov datotek INI"
+
+#~ msgid "Removing moved files"
+#~ msgstr "Odstranjevanje premaknjenih datotek"
+
+#~ msgid "Removing ODBC components"
+#~ msgstr "Odstranjevanje komponent ODBC"
+
+#~ msgid "Removing shortcuts"
+#~ msgstr "Odstranjevanje bližnjic"
+
+#~ msgid "Removing system registry values"
+#~ msgstr "Odstranjevanje vrednosti iz sistemskega registra"
+
+#~ msgid "Rolling back action:"
+#~ msgstr "Povrnitveno dejanje:"
+
+#~ msgid "Searching for installed applications"
+#~ msgstr "Iskanje nameščenih programov"
+
+#~ msgid "Searching for qualifying products"
+#~ msgstr "Iskanje ustreznih izdelkov"
+
+#~ msgid "Searching for related applications"
+#~ msgstr "Iskanje sorodnih programov"
+
+#~ msgid "Service: [1]"
+#~ msgstr "Storitev: [1]"
+
+#~ msgid "Service: [2]"
+#~ msgstr "Storitev: [2]"
+
+#~ msgid "Shortcut: [1]"
+#~ msgstr "Bližnjica: [1]"
+
+#~ msgid "Starting services"
+#~ msgstr "Zagon storitev"
+
+#~ msgid "Stopping services"
+#~ msgstr "Ustavitev storitev"
+
+#~ msgid "Unpublishing assembly information"
+#~ msgstr "Umik objave informacij o izgradnji"
+
+#~ msgid "Unpublishing Product Features"
+#~ msgstr "Umik objave možnosti izdelka"
+
+#~ msgid "Unpublishing product information"
+#~ msgstr "Umik objave podatkov o izdelku"
+
+#~ msgid "Unpublishing Qualified Components"
+#~ msgstr "Umik objave ustreznih komponent"
+
+#~ msgid "Unregister Class servers"
+#~ msgstr "Brisanje registracije strežnikov razreda"
+
+#~ msgid "Unregistering COM+ Applications and Components"
+#~ msgstr "Brisanje registracije programov in komponent COM+"
+
+#~ msgid "Unregistering extension servers"
+#~ msgstr "Brisanje registracije strežnikov za dodatke"
+
+#~ msgid "Unregistering fonts"
+#~ msgstr "Brisanje registracije pisav"
+
+#~ msgid "Unregistering MIME info"
+#~ msgstr "Brisanje registracije informacij MIME"
+
+#~ msgid "Unregistering modules"
+#~ msgstr "Brisanje registracije modulov"
+
+#~ msgid "Unregistering program identifiers"
+#~ msgstr "Brisanje registracije identifikatorjev programa"
+
+#~ msgid "Unregistering type libraries"
+#~ msgstr "Brisanje registracije knjižnic tipov"
+
+#~ msgid "Updating component registration"
+#~ msgstr "Posodabljanje registracije komponent"
+
+#~ msgid "Updating environment strings"
+#~ msgstr "Posodabljanje nizov okolja"
+
+#~ msgid "Validating install"
+#~ msgstr "Preverjanje veljavnosti namestitve"
+
+#~ msgid "Writing INI files values"
+#~ msgstr "Zapisovanje vrednosti datotek INI"
+
+#~ msgid "Writing system registry values"
+#~ msgstr "Zapisovanje vrednosti v sistemski register"
 
 #~ msgid ""
 #~ "[2] cannot install one of its required products. Contact your technical "
