@@ -115,8 +115,7 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:48 En.x64.Release.Error-2.idtx:48
 msgid "A network error occurred while attempting to create the folder: [2]"
 msgstr ""
-"Det oppstod en nettverksfeil under forsøket på å opprette katalogen: "
-"[2]"
+"Det oppstod en nettverksfeil under forsøket på å opprette katalogen: [2]"
 
 #: En.Win32.Debug.Error-2.idtx:49 En.Win32.Release.Error-2.idtx:49
 #: En.x64.Debug.Error-2.idtx:49 En.x64.Release.Error-2.idtx:49
@@ -124,14 +123,12 @@ msgid ""
 "A network error occurred while attempting to open the source file cabinet: "
 "[2]"
 msgstr ""
-"Det oppstod en nettverksfeil under forsøket på å åpne kildearkivet: "
-"[2]"
+"Det oppstod en nettverksfeil under forsøket på å åpne kildearkivet: [2]"
 
 #: En.Win32.Debug.Error-2.idtx:46 En.Win32.Release.Error-2.idtx:46
 #: En.x64.Debug.Error-2.idtx:46 En.x64.Release.Error-2.idtx:46
 msgid "A network error occurred while attempting to read from the file: [2]"
-msgstr ""
-"Det oppstod en nettverksfeil under forsøket på å lese fra filen: [2]"
+msgstr "Det oppstod en nettverksfeil under forsøket på å lese fra filen: [2]"
 
 #: En.Win32.Debug.CustomAction-2.idtx:5 En.Win32.Release.CustomAction-2.idtx:5
 #: En.x64.Debug.CustomAction-2.idtx:4 En.x64.Release.CustomAction-2.idtx:4
@@ -154,9 +151,9 @@ msgid ""
 "changes made by that installation to continue. Do you want to undo those "
 "changes?"
 msgstr ""
-"En tidligere installasjon av dette produktet kjører allerede. Du må "
-"angre endringene som ble gjort i den installasjonen for å fortsette. Vil du "
-"angre endringene?"
+"En tidligere installasjon av dette produktet kjører allerede. Du må angre "
+"endringene som ble gjort i den installasjonen for å fortsette. Vil du angre "
+"endringene?"
 
 #: En.Win32.Debug.Error-2.idtx:127 En.Win32.Release.Error-2.idtx:127
 #: En.x64.Debug.Error-2.idtx:127 En.x64.Release.Error-2.idtx:127
@@ -225,8 +222,8 @@ msgid ""
 "the install."
 msgstr ""
 "Det oppstod en feil under skriving av installasjonsinformasjon til disken. "
-"Kontroller at nok diskplass er tilgjengelig, og velg Prøv på nytt. Du "
-"kan også velge Avbryt for å avslutte installasjonen."
+"Kontroller at nok diskplass er tilgjengelig, og velg Prøv på nytt. Du kan "
+"også velge Avbryt for å avslutte installasjonen."
 
 #: En.Win32.Debug.Error-2.idtx:94 En.Win32.Release.Error-2.idtx:94
 #: En.x64.Debug.Error-2.idtx:94 En.x64.Release.Error-2.idtx:94
@@ -244,8 +241,8 @@ msgid ""
 "An installation package for the product [2] cannot be found. Try the "
 "installation again using a valid copy of the installation package '[3]'."
 msgstr ""
-"Finner ikke en installasjonspakke for produktet [2]. Prøv å installere"
-" på nytt ved hjelp av en gyldig kopi av installasjonspakken [3]."
+"Finner ikke en installasjonspakke for produktet [2]. Prøv å installere på "
+"nytt ved hjelp av en gyldig kopi av installasjonspakken [3]."
 
 #: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
 #: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
@@ -262,8 +259,8 @@ msgid ""
 "Another installation is in progress. You must complete that installation "
 "before continuing this one."
 msgstr ""
-"En annen installasjon kjører. Du må fullføre den installasjonen "
-"før du fortsetter med denne."
+"En annen installasjon kjører. Du må fullføre den installasjonen før du "
+"fortsetter med denne."
 
 #: En.Win32.Debug.Error-2.idtx:82 En.Win32.Release.Error-2.idtx:82
 #: En.x64.Debug.Error-2.idtx:82 En.x64.Release.Error-2.idtx:82
@@ -277,8 +274,7 @@ msgid ""
 " the install and try installing to a different location."
 msgstr ""
 "Kan ikke opprette filen [2]. Det finnes allerede en katalog med dette "
-"navnet. Avbryt installasjonen, og prøv å installere på en annen "
-"plassering."
+"navnet. Avbryt installasjonen, og prøv å installere på en annen plassering."
 
 #: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
 #: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
@@ -287,8 +283,8 @@ msgid ""
 " rename or remove the file and click retry, or click Cancel to exit."
 msgstr ""
 "Kan ikke opprette katalogen [2]. En fil med dette navnet finnes allerede. "
-"Prøv et nytt navn, eller fjern filen og velg Prøv på nytt. Du "
-"kan også velge Avbryt for å avslutte."
+"Prøv et nytt navn, eller fjern filen og velg Prøv på nytt. Du kan også velge"
+" Avbryt for å avslutte."
 
 #: En.Win32.Debug.Error-2.idtx:154 En.Win32.Release.Error-2.idtx:154
 #: En.x64.Debug.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
@@ -327,8 +323,8 @@ msgid ""
 "Could not create key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Kan ikke opprette nøkkelen: [2]. {{ Systemfeil [3].}} Kontroller at du"
-" har tilstrekkelig tilgang til nøkkelen, eller kontakt støttepersonell. "
+"Kan ikke opprette nøkkelen: [2]. {{ Systemfeil [3].}} Kontroller at du har "
+"tilstrekkelig tilgang til nøkkelen, eller kontakt støttepersonell. "
 
 #: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
 #: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
@@ -345,8 +341,8 @@ msgid ""
 "Could not delete key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Kan ikke slette nøkkelen: [2]. {{ Systemfeil [3].}} Kontroller at du "
-"har tilstrekkelig tilgang til nøkkelen, eller kontakt støttepersonell. "
+"Kan ikke slette nøkkelen: [2]. {{ Systemfeil [3].}} Kontroller at du har "
+"tilstrekkelig tilgang til nøkkelen, eller kontakt støttepersonell. "
 
 #: En.Win32.Debug.Error-2.idtx:69 En.Win32.Release.Error-2.idtx:69
 #: En.x64.Debug.Error-2.idtx:69 En.x64.Release.Error-2.idtx:69
@@ -355,8 +351,8 @@ msgid ""
 "you have sufficient access to that key, or contact your support personnel. "
 msgstr ""
 "Kan ikke slette verdien [2] fra nøkkelen [3]. {{ Systemfeil [4].}} "
-"Kontroller at du har tilstrekkelig tilgang til nøkkelen, eller kontakt"
-" støttepersonell. "
+"Kontroller at du har tilstrekkelig tilgang til nøkkelen, eller kontakt "
+"støttepersonell. "
 
 #: En.Win32.Debug.Error-2.idtx:88 En.Win32.Release.Error-2.idtx:88
 #: En.x64.Debug.Error-2.idtx:88 En.x64.Release.Error-2.idtx:88
@@ -373,9 +369,9 @@ msgid ""
 "Could not get sub key names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
-"Kan ikke hente undernøkkelnavn for nøkkelen [2]. {{ Systemfeil "
-"[3].}} Kontroller at du har tilstrekkelig tilgang til nøkkelen, eller "
-"kontakt støttepersonell."
+"Kan ikke hente undernøkkelnavn for nøkkelen [2]. {{ Systemfeil [3].}} "
+"Kontroller at du har tilstrekkelig tilgang til nøkkelen, eller kontakt "
+"støttepersonell."
 
 #: En.Win32.Debug.Error-2.idtx:73 En.Win32.Release.Error-2.idtx:73
 #: En.x64.Debug.Error-2.idtx:73 En.x64.Release.Error-2.idtx:73
@@ -383,9 +379,8 @@ msgid ""
 "Could not get value names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
-"Kan ikke hente verdinavn for nøkkelen [2]. {{ Systemfeil [3].}} "
-"Kontroller at du har tilstrekkelig tilgang til nøkkelen, eller kontakt"
-" støttepersonell."
+"Kan ikke hente verdinavn for nøkkelen [2]. {{ Systemfeil [3].}} Kontroller "
+"at du har tilstrekkelig tilgang til nøkkelen, eller kontakt støttepersonell."
 
 #: En.Win32.Debug.Error-2.idtx:76 En.Win32.Release.Error-2.idtx:76
 #: En.x64.Debug.Error-2.idtx:76 En.x64.Release.Error-2.idtx:76
@@ -393,8 +388,8 @@ msgid ""
 "Could not increase the available registry space. [2] KB of free registry "
 "space is required for the installation of this application."
 msgstr ""
-"Kan ikke øke tilgjengelig registerplass. [2] kB ledig registerplass er"
-" nødvendig for å installere dette programt."
+"Kan ikke øke tilgjengelig registerplass. [2] kB ledig registerplass er "
+"nødvendig for å installere dette programt."
 
 #: En.Win32.Debug.Error-2.idtx:68 En.Win32.Release.Error-2.idtx:68
 #: En.x64.Debug.Error-2.idtx:68 En.x64.Release.Error-2.idtx:68
@@ -402,8 +397,8 @@ msgid ""
 "Could not open key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Kan ikke åpne nøkkelen: [2]. {{ Systemfeil [3].}} Kontroller at du har"
-" tilstrekkelig tilgang til nøkkelen, eller kontakt støttepersonell. "
+"Kan ikke åpne nøkkelen: [2]. {{ Systemfeil [3].}} Kontroller at du har "
+"tilstrekkelig tilgang til nøkkelen, eller kontakt støttepersonell. "
 
 #: En.Win32.Debug.Error-2.idtx:75 En.Win32.Release.Error-2.idtx:75
 #: En.x64.Debug.Error-2.idtx:75 En.x64.Release.Error-2.idtx:75
@@ -412,9 +407,9 @@ msgid ""
 "Verify that you have sufficient access to that key, or contact your support "
 "personnel."
 msgstr ""
-"Kan ikke lese sikkerhetsinformasjon for nøkkelen [2]. {{ Systemfeil "
-"[3].}} Kontroller at du har tilstrekkelig tilgang til nøkkelen, eller "
-"kontakt støttepersonell."
+"Kan ikke lese sikkerhetsinformasjon for nøkkelen [2]. {{ Systemfeil [3].}} "
+"Kontroller at du har tilstrekkelig tilgang til nøkkelen, eller kontakt "
+"støttepersonell."
 
 #: En.Win32.Debug.Error-2.idtx:71 En.Win32.Release.Error-2.idtx:71
 #: En.x64.Debug.Error-2.idtx:71 En.x64.Release.Error-2.idtx:71
@@ -422,9 +417,8 @@ msgid ""
 "Could not read value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Kan ikke lese verdien [2] fra nøkkelen [3]. {{ Systemfeil [4].}} "
-"Kontroller at du har tilstrekkelig tilgang til nøkkelen, eller kontakt"
-" støttepersonell."
+"Kan ikke lese verdien [2] fra nøkkelen [3]. {{ Systemfeil [4].}} Kontroller "
+"at du har tilstrekkelig tilgang til nøkkelen, eller kontakt støttepersonell."
 
 #: En.Win32.Debug.Error-2.idtx:134 En.Win32.Release.Error-2.idtx:134
 #: En.x64.Debug.Error-2.idtx:134 En.x64.Release.Error-2.idtx:134
@@ -495,8 +489,8 @@ msgid ""
 "Could not update environment variable '[2]'. Verify that you have sufficient"
 " privileges to modify environment variables."
 msgstr ""
-"Kan ikke oppdatere miljøvariablen [2]. Kontroller at du har "
-"tilstrekkelig tilgang til å endre miljøvariabler."
+"Kan ikke oppdatere miljøvariablen [2]. Kontroller at du har tilstrekkelig "
+"tilgang til å endre miljøvariabler."
 
 #: En.Win32.Debug.Error-2.idtx:140 En.Win32.Release.Error-2.idtx:140
 #: En.x64.Debug.Error-2.idtx:140 En.x64.Release.Error-2.idtx:140
@@ -514,8 +508,8 @@ msgid ""
 " have sufficient access to that key, or contact your support personnel."
 msgstr ""
 "Kan ikke skrive verdien [2] til nøkkelen [3]. {{ Systemfeil [4].}} "
-"Kontroller at du har tilstrekkelig tilgang til nøkkelen, eller kontakt"
-" støttepersonell."
+"Kontroller at du har tilstrekkelig tilgang til nøkkelen, eller kontakt "
+"støttepersonell."
 
 #: En.Win32.Debug.Error-2.idtx:78 En.Win32.Release.Error-2.idtx:78
 #: En.x64.Debug.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
@@ -535,15 +529,14 @@ msgid ""
 msgstr ""
 "Det oppstod en feil under oppdateringen av filen [2]. Den er kanskje "
 "oppdatert på en annen måte og kan ikke endres av denne oppdateringsfilen. "
-"Hvis du vil ha mer informasjon, kontakt din leverandør av "
-"oppdateringsfiler. {{Systemfeil: [3]}}"
+"Hvis du vil ha mer informasjon, kontakt din leverandør av oppdateringsfiler."
+" {{Systemfeil: [3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:128 En.Win32.Release.Error-2.idtx:128
 #: En.x64.Debug.Error-2.idtx:128 En.x64.Release.Error-2.idtx:128
 msgid "Error attempting to read from the source install database: [2]."
 msgstr ""
-"Feil under forsøk på å lese fra kildedatabasen for installasjonen: "
-"[2]."
+"Feil under forsøk på å lese fra kildedatabasen for installasjonen: [2]."
 
 #: En.Win32.Debug.Error-2.idtx:146 En.Win32.Release.Error-2.idtx:146
 #: En.x64.Debug.Error-2.idtx:146 En.x64.Release.Error-2.idtx:146
@@ -661,8 +654,7 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:133 En.x64.Release.Error-2.idtx:133
 msgid ""
 "Failed to cache package [2]. Error: [3]. Contact your support personnel."
-msgstr ""
-"Kan ikke hurtigbufre pakken [2]. Feil: [3]. Kontakt støttepersonell."
+msgstr "Kan ikke hurtigbufre pakken [2]. Feil: [3]. Kontakt støttepersonell."
 
 #: En.Win32.Debug.Error-2.idtx:61 En.Win32.Release.Error-2.idtx:61
 #: En.x64.Debug.Error-2.idtx:61 En.x64.Release.Error-2.idtx:61
@@ -742,7 +734,8 @@ msgid ""
 "Module [2] failed to unregister. HRESULT [3]. Contact your support "
 "personnel."
 msgstr ""
-"Kan ikke fjerne registreringen av modulen [2]. HRESULT [3]. Kontakt støttepersonell."
+"Kan ikke fjerne registreringen av modulen [2]. HRESULT [3]. Kontakt "
+"støttepersonell."
 
 #: En.Win32.Debug.Error-2.idtx:102 En.Win32.Release.Error-2.idtx:102
 #: En.x64.Debug.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
@@ -759,16 +752,15 @@ msgid ""
 "Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
 " [4] KB. Free some disk space and retry."
 msgstr ""
-"Ikke nok diskplass -- Volum: [2]. Nødvendig plass: [3] kB. "
-"Tilgjengelig plass: [4] kB. Frigjør diskplass, og prøv på nytt."
+"Ikke nok diskplass -- Volum: [2]. Nødvendig plass: [3] kB. Tilgjengelig "
+"plass: [4] kB. Frigjør diskplass, og prøv på nytt."
 
 #: En.Win32.Debug.Error-2.idtx:122 En.Win32.Debug.Error-2.idtx:21
 #: En.Win32.Release.Error-2.idtx:122 En.Win32.Release.Error-2.idtx:21
 #: En.x64.Debug.Error-2.idtx:122 En.x64.Debug.Error-2.idtx:21
 #: En.x64.Release.Error-2.idtx:122 En.x64.Release.Error-2.idtx:21
 msgid "Out of memory. Shut down other applications before retrying."
-msgstr ""
-"Ikke nok minne. Lukk andre programr før du prøver på nytt."
+msgstr "Ikke nok minne. Lukk andre programr før du prøver på nytt."
 
 #: En.Win32.Debug.Error-2.idtx:32 En.Win32.Release.Error-2.idtx:32
 #: En.x64.Debug.Error-2.idtx:32 En.x64.Release.Error-2.idtx:32
@@ -939,9 +931,7 @@ msgstr "Mappebanen [2] inneholder ord som ikke er gyldige i mappebaner."
 #: En.x64.Debug.Error-2.idtx:87 En.x64.Release.Error-2.idtx:87
 msgid ""
 "The following applications should be closed before continuing the install:"
-msgstr ""
-"Følgende programr bør lukkes før du fortsetter "
-"installasjonen:"
+msgstr "Følgende programr bør lukkes før du fortsetter installasjonen:"
 
 #: En.Win32.Debug.Error-2.idtx:9 En.Win32.Release.Error-2.idtx:9
 #: En.x64.Debug.Error-2.idtx:9 En.x64.Release.Error-2.idtx:9
@@ -978,9 +968,9 @@ msgid ""
 "continue. Click Yes to restart now or No if you plan to manually restart "
 "later."
 msgstr ""
-"Du må starte systemet på nytt før konfigurasjonen av [2] kan "
-"fortsette. Velg Ja hvis du vil starte på nytt nå, eller Nei hvis du vil "
-"starte på nytt manuelt senere."
+"Du må starte systemet på nytt før konfigurasjonen av [2] kan fortsette. Velg"
+" Ja hvis du vil starte på nytt nå, eller Nei hvis du vil starte på nytt "
+"manuelt senere."
 
 #: En.Win32.Debug.Error-2.idtx:91 En.Win32.Release.Error-2.idtx:91
 #: En.x64.Debug.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
@@ -994,7 +984,8 @@ msgid ""
 "The older version of [2] cannot be removed. Contact your technical support "
 "group. {{System Error [3].}}"
 msgstr ""
-"Kan ikke fjerne den gamle versjonen av [2]. Kontakt din tekniske støttegruppe. {{Systemfeil [3].}}"
+"Kan ikke fjerne den gamle versjonen av [2]. Kontakt din tekniske "
+"støttegruppe. {{Systemfeil [3].}}"
 
 #: En.Win32.Debug.Error-2.idtx:121 En.Win32.Release.Error-2.idtx:121
 #: En.x64.Debug.Error-2.idtx:121 En.x64.Release.Error-2.idtx:121
@@ -1023,8 +1014,7 @@ msgstr "Den angitte banen er for lang: [2]"
 #: En.Win32.Debug.Error-2.idtx:43 En.Win32.Release.Error-2.idtx:43
 #: En.x64.Debug.Error-2.idtx:43 En.x64.Release.Error-2.idtx:43
 msgid "The volume [2] is currently unavailable. Please select another."
-msgstr ""
-"Volumet [2] er utilgjengelig for øyeblikket. Velg et annet volum."
+msgstr "Volumet [2] er utilgjengelig for øyeblikket. Velg et annet volum."
 
 #: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
 #: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
@@ -1067,8 +1057,7 @@ msgid ""
 msgstr ""
 "Får ikke tilgang til Windows Installer-tjenesten. Dette kan skje hvis du "
 "kjører Windows i sikkermodus, eller hvis Windows Installer ikke er "
-"installert på riktig måte. Kontakt støttepersonell hvis du trenger "
-"hjelp."
+"installert på riktig måte. Kontakt støttepersonell hvis du trenger hjelp."
 
 #: En.Win32.Debug.Error-2.idtx:113 En.Win32.Release.Error-2.idtx:113
 #: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
@@ -1078,9 +1067,9 @@ msgid ""
 " package vendor. {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
 "Det er et problem med denne Windows Installer-pakken. En DLL som kreves for "
-"at denne installasjonen skal kunne fullføres, kunne ikke kjøres."
-" Kontakt støttepersonell eller pakkeleverandør. {{Handling [2], "
-"oppføring: [3], bibliotek: [4] }}"
+"at denne installasjonen skal kunne fullføres, kunne ikke kjøres. Kontakt "
+"støttepersonell eller pakkeleverandør. {{Handling [2], oppføring: [3], "
+"bibliotek: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:111 En.Win32.Release.Error-2.idtx:111
 #: En.x64.Debug.Error-2.idtx:111 En.x64.Release.Error-2.idtx:111
@@ -1090,7 +1079,8 @@ msgid ""
 "personnel or package vendor. {{Action: [2], location: [3], command: [4] }}"
 msgstr ""
 "Det er et problem med denne Windows Installer-pakken. Et program som kreves "
-"for at denne installasjonen skal kunne fullføres, kan ikke kjøres. {{Handling: [2], plassering: [3], kommando: [4] }}"
+"for at denne installasjonen skal kunne fullføres, kan ikke kjøres. "
+"{{Handling: [2], plassering: [3], kommando: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:112 En.Win32.Release.Error-2.idtx:112
 #: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
@@ -1099,10 +1089,10 @@ msgid ""
 "part of the setup did not finish as expected. Contact your support personnel"
 " or package vendor. {{Action [2], location: [3], command: [4] }}"
 msgstr ""
-"Det er et problem med denne Windows Installer-pakken. Et program kjørt"
-" som en del av installasjonen, ble ikke fullført som forventet. "
-"Kontakt støttepersonell eller pakkeleverandør. {{Handling [2], "
-"plassering: [3], kommando: [4] }}"
+"Det er et problem med denne Windows Installer-pakken. Et program kjørt som "
+"en del av installasjonen, ble ikke fullført som forventet. Kontakt "
+"støttepersonell eller pakkeleverandør. {{Handling [2], plassering: [3], "
+"kommando: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:110 En.Win32.Release.Error-2.idtx:110
 #: En.x64.Debug.Error-2.idtx:110 En.x64.Release.Error-2.idtx:110
@@ -1113,9 +1103,9 @@ msgid ""
 "Line [6], Column [7], [8] }}"
 msgstr ""
 "Det er et problem med denne Windows Installer-pakken. Et skript som kreves "
-"for at denne installasjonen skal kunne fullføres, kan ikke kjøres. Kontakt støttepersonell eller pakkeleverandøren. "
-"{{Egendefinert handling [2] skriptfeil [3], [4]: [5] Linje [6], Kolonne [7],"
-" [8] }}"
+"for at denne installasjonen skal kunne fullføres, kan ikke kjøres. Kontakt "
+"støttepersonell eller pakkeleverandøren. {{Egendefinert handling [2] "
+"skriptfeil [3], [4]: [5] Linje [6], Kolonne [7], [8] }}"
 
 #: En.Win32.Debug.Error-2.idtx:123 En.Win32.Release.Error-2.idtx:123
 #: En.x64.Debug.Error-2.idtx:123 En.x64.Release.Error-2.idtx:123
@@ -1123,9 +1113,8 @@ msgid ""
 "There is no disk in drive [2]. Please insert one and click Retry, or click "
 "Cancel to go back to the previously selected volume."
 msgstr ""
-"Det er ingen disk i stasjon [2]. Sett inn en disk, og velg Prøv på "
-"nytt. Du kan også velge Avbryt for å gå tilbake til det tidligere valgte "
-"volumet."
+"Det er ingen disk i stasjon [2]. Sett inn en disk, og velg Prøv på nytt. Du "
+"kan også velge Avbryt for å gå tilbake til det tidligere valgte volumet."
 
 #: En.Win32.Debug.Error-2.idtx:124 En.Win32.Release.Error-2.idtx:124
 #: En.x64.Debug.Error-2.idtx:124 En.x64.Release.Error-2.idtx:124
@@ -1133,9 +1122,9 @@ msgid ""
 "There is no disk in drive [2]. Please insert one and click Retry, or click "
 "Cancel to return to the browse dialog and select a different volume."
 msgstr ""
-"Det er ingen disk i stasjon [2]. Sett inn en disk, og velg Prøv på "
-"nytt. Du kan også velge Avbryt for å returnere til søkedialogboksen og"
-" velge et annet volum."
+"Det er ingen disk i stasjon [2]. Sett inn en disk, og velg Prøv på nytt. Du "
+"kan også velge Avbryt for å returnere til søkedialogboksen og velge et annet"
+" volum."
 
 #: En.Win32.Debug.Error-2.idtx:85 En.Win32.Release.Error-2.idtx:85
 #: En.x64.Debug.Error-2.idtx:85 En.x64.Release.Error-2.idtx:85
@@ -1149,8 +1138,8 @@ msgstr ""
 "Det er ikke nok diskplass på volumet [2] til å fortsette installasjonen med "
 "gjenoppretting aktivert. Det kreves [3] kB, men det er bare [4] kB "
 "tilgjengelig. Klikk Ignorer hvis du vil fortsette installasjonen uten å "
-"lagre gjenopprettingsinformasjon, klikk Prøv på nytt hvis du vil "
-"kontrollere tilgjengelig plass på nytt, eller klikk Avbryt for å avbryte "
+"lagre gjenopprettingsinformasjon, klikk Prøv på nytt hvis du vil kontrollere"
+" tilgjengelig plass på nytt, eller klikk Avbryt for å avbryte "
 "installasjonen."
 
 #: En.Win32.Debug.Error-2.idtx:37 En.Win32.Release.Error-2.idtx:37
@@ -1209,8 +1198,7 @@ msgid ""
 "will need to run that install again before they can use that product."
 msgstr ""
 "Brukeren [2] har startet en installasjon av produktet [3] tidligere. Den "
-"brukeren må kjøre installasjonen på nytt før produktet kan "
-"brukes."
+"brukeren må kjøre installasjonen på nytt før produktet kan brukes."
 
 #: En.Win32.Debug.Error-2.idtx:79 En.Win32.Release.Error-2.idtx:79
 #: En.x64.Debug.Error-2.idtx:79 En.x64.Release.Error-2.idtx:79
@@ -1220,8 +1208,8 @@ msgid ""
 "current install will now continue."
 msgstr ""
 "Brukeren [2] har startet en installasjon av produktet [3] tidligere. Den "
-"aktuelle brukeren må kjøre installasjonen på nytt før produktet "
-"kan brukes. Gjeldende installasjon vil nå fortsette."
+"aktuelle brukeren må kjøre installasjonen på nytt før produktet kan brukes. "
+"Gjeldende installasjon vil nå fortsette."
 
 #: En.Win32.Debug.Error-2.idtx:161 En.Win32.Release.Error-2.idtx:161
 #: En.x64.Debug.Error-2.idtx:161 En.x64.Release.Error-2.idtx:161

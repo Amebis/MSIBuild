@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-29 07:44+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
+"Last-Translator: Dubravko Penezic <dpenezic@gmail.com>, 2016\n"
 "Language-Team: Croatian (Croatia) (https://www.transifex.com/eduroam_devel/teams/11799/hr_HR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -90,6 +90,8 @@ msgstr "1250"
 msgid ""
 "64-bit registry operation attempted on 32-bit operating system for key [2]."
 msgstr ""
+"pokušana implementacija regitry ključeva 64-bitne verzije na 32-bitnoj "
+"verziji [2]."
 
 #: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
 #: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
@@ -133,7 +135,7 @@ msgstr "Došlo je do mrežne pogreške pri pokušaju čitanja iz datoteke: [2]"
 #: En.Win32.Debug.CustomAction-2.idtx:5 En.Win32.Release.CustomAction-2.idtx:5
 #: En.x64.Debug.CustomAction-2.idtx:4 En.x64.Release.CustomAction-2.idtx:4
 msgid "A newer version of [SimpleProductName] is already installed."
-msgstr ""
+msgstr "Najnovija verzija [SimpleProductName] je već instalirana."
 
 #: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
 #: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
@@ -1175,6 +1177,8 @@ msgid ""
 "This installation package is not supported on this platform. Contact your "
 "application vendor."
 msgstr ""
+"Instalacijski paket nije podržan na ovoj platformi. Javite se proizvođaču "
+"programske podrške."
 
 #: En.Win32.Debug.CustomAction-2.idtx:6 En.Win32.Release.CustomAction-2.idtx:6
 #: En.x64.Debug.CustomAction-2.idtx:5 En.x64.Release.CustomAction-2.idtx:5
@@ -1182,6 +1186,8 @@ msgid ""
 "This package cannot upgrade the currently installed [SimpleProductName]. "
 "Please remove the old package first and retry."
 msgstr ""
+"Nije moguće napraviti nadogradnjutrenutni instalirae programske podrške "
+"[SimpleProductName]. Molimo prvo dinstalirajte istu i pokušajte ponovno."
 
 #: En.Win32.Debug.Error-2.idtx:164 En.Win32.Release.Error-2.idtx:164
 #: En.x64.Debug.Error-2.idtx:164 En.x64.Release.Error-2.idtx:164
@@ -1189,6 +1195,8 @@ msgid ""
 "This version of Windows does not support deploying 64-bit packages. The "
 "script [2] is for a 64-bit package."
 msgstr ""
+"Ova verzija Windows operativnog sustava ne podržava instalaciju 64 bitne "
+"verzije programske podrške. Ova skripta [2] je za 64-bitne sustave."
 
 #: En.Win32.Debug.Error-2.idtx:20 En.Win32.Release.Error-2.idtx:20
 #: En.x64.Debug.Error-2.idtx:20 En.x64.Release.Error-2.idtx:20
@@ -1237,6 +1245,9 @@ msgid ""
 " 64-bit operating system. 32-bit variant will not work with your operating "
 "system. The installation of the 64-bit variant is recommended."
 msgstr ""
+"Pokušavate instalirati 32-bitnu verziju programske podrške "
+"[SimpleProductName] na 64-bitni operativni sustav. Instaliranje 64-bitne "
+"verzije programske podrške je obavezno."
 
 #: En.Win32.Debug.Error-2.idtx:152 En.Win32.Release.Error-2.idtx:152
 #: En.x64.Debug.Error-2.idtx:152 En.x64.Release.Error-2.idtx:152
