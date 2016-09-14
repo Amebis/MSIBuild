@@ -10,7 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Debug.ActionText-2.idtx:39
 #: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Debug.ActionText-2.idtx:53
@@ -1514,6 +1514,9 @@ msgid ""
 "system is running. If you choose to continue, a reboot will be required to "
 "complete the setup."
 msgstr ""
+"Installationsprogrammet skal opdatere filer eller tjenester, der ikke kan "
+"opdateres, mens systemet kører. Hvis du vælger at fortsætte, skal du "
+"genstarte computeren for at kunne fuldføre installationen."
 
 #: En.Win32.Debug.Error-2.idtx:91 En.Win32.Release.Error-2.idtx:91
 #: En.x64.Debug.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
@@ -1522,6 +1525,9 @@ msgid ""
 "files that need to be updated. If you choose to continue, a reboot will be "
 "required to complete the setup."
 msgstr ""
+"Installationsprogrammet kunne ikke automatisk lukke alle programmer, der "
+"skal opdateres. Hvis du vælger at fortsætte, skal du genstarte computeren "
+"for at fuldføre installationen."
 
 #: En.Win32.Debug.Error-2.idtx:123 En.Win32.Release.Error-2.idtx:123
 #: En.x64.Debug.Error-2.idtx:123 En.x64.Release.Error-2.idtx:123
@@ -1601,6 +1607,10 @@ msgid ""
 "again when your computer is not in Safe Mode or you can use System Restore "
 "to return your machine to a previous good state."
 msgstr ""
+"Der er ikke adgang til tjenesten Windows Installer i fejlsikret tilstand. "
+"Prøv igen, når computeren ikke er i fejlsikret tilstand, eller benyt "
+"Systemgendannelse til at få maskinen til at vende tilbage til en tidligere "
+"god tilstand."
 
 #: En.Win32.Debug.Error-2.idtx:115 En.Win32.Release.Error-2.idtx:115
 #: En.x64.Debug.Error-2.idtx:115 En.x64.Release.Error-2.idtx:115

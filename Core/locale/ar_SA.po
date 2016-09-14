@@ -10,7 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Debug.ActionText-2.idtx:39
 #: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Debug.ActionText-2.idtx:53
@@ -26,8 +26,8 @@ msgstr "[1]"
 #: En.Win32.Debug.Error-2.idtx:105 En.Win32.Release.Error-2.idtx:105
 #: En.x64.Debug.Error-2.idtx:105 En.x64.Release.Error-2.idtx:105
 msgid ""
-"[2] cannot install one of its required products. Contact your technical "
-"support group.  {{System Error: [3].}}"
+"[2] cannot install one of its required products. Contact your technical support "
+"group.  {{System Error: [3].}}"
 msgstr ""
 "لم يتمكن [2] من تثبيت أحد منتجاته المطلوبة. اتصل بمجموعة الدعم الفني.  {{خطأ "
 "بالنظام [3].}}"
@@ -100,9 +100,9 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
 #: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
 msgid ""
-"A file that is required cannot be installed because the cabinet file [2] has "
-"an invalid digital signature.  This may indicate that the cabinet file is "
-"corrupt.{{  Error [3] was returned by WinVerifyTrust.}}"
+"A file that is required cannot be installed because the cabinet file [2] has an "
+"invalid digital signature.  This may indicate that the cabinet file is corrupt."
+"{{  Error [3] was returned by WinVerifyTrust.}}"
 msgstr ""
 "تعذر تثبيت ملف مطلوب بسبب وجود توقيع رقمي غير صالح لملف الخزانة [2]. قد يشير "
 "هذا إلى أن ملف الخزانة تالف.{{  تم إعادة الخطأ [3] من قِبل WinVerifyTrust.}}"
@@ -110,11 +110,11 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:59 En.Win32.Release.Error-2.idtx:59
 #: En.x64.Debug.Error-2.idtx:59 En.x64.Release.Error-2.idtx:59
 msgid ""
-"A file that is required cannot be installed because the cabinet file [2] is "
-"not digitally signed.  This may indicate that the cabinet file is corrupt."
+"A file that is required cannot be installed because the cabinet file [2] is not "
+"digitally signed.  This may indicate that the cabinet file is corrupt."
 msgstr ""
-"تعذر تثبيت ملف مطلوب بسبب عدم وجود التوقيع الرقمي لملف الخزانة [2]. قد يشير "
-"هذا إلى أن ملف الخزانة تالف."
+"تعذر تثبيت ملف مطلوب بسبب عدم وجود التوقيع الرقمي لملف الخزانة [2]. قد يشير هذا "
+"إلى أن ملف الخزانة تالف."
 
 #: En.Win32.Debug.Error-2.idtx:48 En.Win32.Release.Error-2.idtx:48
 #: En.x64.Debug.Error-2.idtx:48 En.x64.Release.Error-2.idtx:48
@@ -143,8 +143,8 @@ msgid ""
 "A portion of the folder path '[2]' is invalid.  It is either empty or exceeds "
 "the length allowed by the system."
 msgstr ""
-"إن جزءًا من مسار المجلد '[2]' غير صالح. إما أنه فارغ أو أنه يتجاوز الطول "
-"المسموح به من قبل النظام."
+"إن جزءًا من مسار المجلد '[2]' غير صالح. إما أنه فارغ أو أنه يتجاوز الطول المسموح "
+"به من قبل النظام."
 
 #: En.Win32.Debug.Error-2.idtx:97 En.Win32.Release.Error-2.idtx:97
 #: En.x64.Debug.Error-2.idtx:97 En.x64.Release.Error-2.idtx:97
@@ -200,8 +200,8 @@ msgstr "تخصيص مساحة تسجيل"
 #: En.x64.Debug.Error-2.idtx:170 En.x64.Release.Error-2.idtx:170
 msgid ""
 "An error occurred during the installation of assembly '[6]'. One or more "
-"modules of the assembly could not be found. {{HRESULT: [3]. assembly "
-"interface: [4], function: [5], component: [2]}}"
+"modules of the assembly could not be found. {{HRESULT: [3]. assembly interface: "
+"[4], function: [5], component: [2]}}"
 msgstr ""
 "‏‏حدث خطأ أثناء تثبيت التجميع '[6]'. تعذر العثور على وحدة أو أكثر من التجميع. "
 "HRESULT: [3]. {{واجهة تطبيق التجميع: [4], الوظيفة: [5], المكون: [2]}}"
@@ -210,8 +210,8 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:167 En.x64.Release.Error-2.idtx:167
 msgid ""
 "An error occurred during the installation of assembly '[6]'. Please refer to "
-"Help and Support for more information. {{HRESULT: [3]. assembly interface: "
-"[4], function: [5], component: [2]}}"
+"Help and Support for more information. {{HRESULT: [3]. assembly interface: [4], "
+"function: [5], component: [2]}}"
 msgstr ""
 "‏‏حدث خطأ أثناء تثبيت التجميع '[6]'. الرجاء مراجعة التعليمات والدعم للحصول على "
 "المزيد من المعلومات. HRESULT: [3]. {{واجهة تطبيق التجميع: [4], الوظيفة: [5], "
@@ -235,9 +235,8 @@ msgid ""
 "catalog could not be verified or is not valid. {{HRESULT: [3]. assembly "
 "interface: [4], function: [5], component: [2]}}"
 msgstr ""
-"‏‏حدث خطأ أثناء تثبيت التجميع '[6]'. تعذر التحقق من التوقيع أو النشرة أو أنها "
-"غير صالحة. HRESULT: [3]. {{واجهة تطبيق التجميع: [4], الوظيفة: [5], المكون: "
-"[2]}}"
+"‏‏حدث خطأ أثناء تثبيت التجميع '[6]'. تعذر التحقق من التوقيع أو النشرة أو أنها غير "
+"صالحة. HRESULT: [3]. {{واجهة تطبيق التجميع: [4], الوظيفة: [5], المكون: [2]}}"
 
 #: En.Win32.Debug.Error-2.idtx:89 En.Win32.Release.Error-2.idtx:89
 #: En.x64.Debug.Error-2.idtx:89 En.x64.Release.Error-2.idtx:89
@@ -262,8 +261,8 @@ msgstr "حدوث خطأ أثناء محاولة إنشاء الدليل: [2]"
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
 msgid ""
 "An error occurred while writing installation information to disk.  Check to "
-"make sure enough disk space is available, and click Retry, or Cancel to end "
-"the install."
+"make sure enough disk space is available, and click Retry, or Cancel to end the "
+"install."
 msgstr ""
 "حدوث خطأ أثناء كتابة معلومات تثبيت على القرص. قم بالتدقيق للتأكد من توفر مساحة "
 "قرص كافية، ثم انقر فوق 'إعادة المحاولة'، أو فوق 'إلغاء الأمر' لإنهاء التثبيت."
@@ -271,8 +270,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:96 En.Win32.Release.Error-2.idtx:96
 #: En.x64.Debug.Error-2.idtx:96 En.x64.Release.Error-2.idtx:96
 msgid ""
-"An installation for [2] is currently suspended.  You must undo the changes "
-"made by that installation to continue.  Do you want to undo those changes?"
+"An installation for [2] is currently suspended.  You must undo the changes made "
+"by that installation to continue.  Do you want to undo those changes?"
 msgstr ""
 "تثبيت [2] معطل مؤقتاً حالياً. يجب عليك التراجع عن التغييرات التي قام بها ذلك "
 "التثبيت للمتابعة. هل تريد التراجع عن تلك التغييرات؟"
@@ -298,8 +297,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:77 En.Win32.Release.Error-2.idtx:77
 #: En.x64.Debug.Error-2.idtx:77 En.x64.Release.Error-2.idtx:77
 msgid ""
-"Another installation is in progress. You must complete that installation "
-"before continuing this one."
+"Another installation is in progress. You must complete that installation before "
+"continuing this one."
 msgstr "تثبيت آخر قيد التنفيذ. عليك إتمام ذلك التثبيت قبل متابعة هذا التثبيت."
 
 #: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
@@ -380,8 +379,8 @@ msgid ""
 "Component Services are available on Windows 2000."
 msgstr ""
 "إن (Component Services (COM+ 1.0 غير مثبتة على هذا الجهاز. يحتاج هذا التثبيت "
-"(Component Services (COM+ 1.0 حتى يكتمل بنجاح.  تتوفر (Component Services (COM"
-"+ 1.0 في Windows 2000."
+"(Component Services (COM+ 1.0 حتى يكتمل بنجاح.  تتوفر (Component Services (COM+ "
+"1.0 في Windows 2000."
 
 #: En.Win32.Debug.ActionText-2.idtx:10 En.Win32.Debug.ActionText-2.idtx:15
 #: En.Win32.Debug.ActionText-2.idtx:9 En.Win32.Release.ActionText-2.idtx:10
@@ -453,8 +452,8 @@ msgid ""
 "Could not delete value [2] from key [3]. {{ System error [4].}}  Verify that "
 "you have sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"تعذر حذف القيمة [2] من مفتاح [3]. {{ خطأ في النظام [4].}} تحقق من وجود وصول "
-"كاف إلى هذا المفتاح، أو اتصل بأفراد الدعم. "
+"تعذر حذف القيمة [2] من مفتاح [3]. {{ خطأ في النظام [4].}} تحقق من وجود وصول كاف "
+"إلى هذا المفتاح، أو اتصل بأفراد الدعم. "
 
 #: En.Win32.Debug.Error-2.idtx:88 En.Win32.Release.Error-2.idtx:88
 #: En.x64.Debug.Error-2.idtx:88 En.x64.Release.Error-2.idtx:88
@@ -479,8 +478,8 @@ msgid ""
 "Could not get value names for key [2]. {{ System error [3].}}  Verify that you "
 "have sufficient access to that key, or contact your support personnel."
 msgstr ""
-"تعذر الحصول على اسماء قيم لمفتاح [2]. {{ خطأ في النظام [3].}} تحقق من وجود "
-"وصول كاف إلى هذا المفتاح، أو اتصل بأفراد الدعم."
+"تعذر الحصول على اسماء قيم لمفتاح [2]. {{ خطأ في النظام [3].}} تحقق من وجود وصول "
+"كاف إلى هذا المفتاح، أو اتصل بأفراد الدعم."
 
 #: En.Win32.Debug.Error-2.idtx:76 En.Win32.Release.Error-2.idtx:76
 #: En.x64.Debug.Error-2.idtx:76 En.x64.Release.Error-2.idtx:76
@@ -503,9 +502,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:75 En.Win32.Release.Error-2.idtx:75
 #: En.x64.Debug.Error-2.idtx:75 En.x64.Release.Error-2.idtx:75
 msgid ""
-"Could not read security information for key [2]. {{ System error [3].}}  "
-"Verify that you have sufficient access to that key, or contact your support "
-"personnel."
+"Could not read security information for key [2]. {{ System error [3].}}  Verify "
+"that you have sufficient access to that key, or contact your support personnel."
 msgstr ""
 "تعذر قراءة معلومات تأمين لمفتاح [2]. {{ خطأ في النظام [3].}} تحقق من وجود وصول "
 "كاف إلى هذا المفتاح، أو اتصل بأفراد الدعم."
@@ -539,8 +537,7 @@ msgstr "تعذر تسجيل مكتبة النوع [2]. اتصل بأفراد ا�
 msgid ""
 "Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
 "you can access it."
-msgstr ""
-"تعذر إزالة اختصار [2]. تحقق من وجود ملف الاختصار ومن إمكانية الوصول إليه."
+msgstr "تعذر إزالة اختصار [2]. تحقق من وجود ملف الاختصار ومن إمكانية الوصول إليه."
 
 #: En.Win32.Debug.Error-2.idtx:146 En.Win32.Release.Error-2.idtx:146
 #: En.x64.Debug.Error-2.idtx:146 En.x64.Release.Error-2.idtx:146
@@ -570,8 +567,7 @@ msgstr "تعذر إلغاء تسجيل خط [2]. تحقق من وجود أذون
 #: En.Win32.Debug.Error-2.idtx:144 En.Win32.Release.Error-2.idtx:144
 #: En.x64.Debug.Error-2.idtx:144 En.x64.Release.Error-2.idtx:144
 msgid ""
-"Could not unregister type library for file [2].  Contact your support "
-"personnel."
+"Could not unregister type library for file [2].  Contact your support personnel."
 msgstr "تعذر إلغاء تسجيل مكتبة النوع لملف [2]. اتصل بأفراد الدعم."
 
 #: En.Win32.Debug.Error-2.idtx:156 En.Win32.Release.Error-2.idtx:156
@@ -585,8 +581,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
 #: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
 msgid ""
-"Could not update the ini file [2][3].  Verify that the file exists and that "
-"you can access it."
+"Could not update the ini file [2][3].  Verify that the file exists and that you "
+"can access it."
 msgstr "تعذر تحديث ملف ini‏ [2][3]. تحقق من وجود الملف ومن إمكانية الوصول إليه."
 
 #: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
@@ -630,9 +626,9 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:58 En.Win32.Release.Error-2.idtx:58
 #: En.x64.Debug.Error-2.idtx:58 En.x64.Release.Error-2.idtx:58
 msgid ""
-"Error applying patch to file [2].  It has probably been updated by other "
-"means, and can no longer be modified by this patch.  For more information "
-"contact your patch vendor.  {{System Error: [3]}}"
+"Error applying patch to file [2].  It has probably been updated by other means, "
+"and can no longer be modified by this patch.  For more information contact your "
+"patch vendor.  {{System Error: [3]}}"
 msgstr ""
 "خطأ في تطبيق التصحيحات للملف [2].  قد تكون تم تحديثها بطرق أخرى، ولا يمكن "
 "تغييرها عن طريق حزمة التصحيحات هذه.  لمزيد من المعلومات، اتصل ببائع "
@@ -649,8 +645,8 @@ msgid ""
 "Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that the "
 "file [4] exists and that you can access it."
 msgstr ""
-"خطأ في تكوين مصدر بيانات ODBC: [4]، خطأ ODBC‏ [2]: [3]. تحقق من وجود ملف [4] "
-"ومن إمكانية الوصول إليه."
+"خطأ في تكوين مصدر بيانات ODBC: [4]، خطأ ODBC‏ [2]: [3]. تحقق من وجود ملف [4] ومن "
+"إمكانية الوصول إليه."
 
 #: En.Win32.Debug.Error-2.idtx:56 En.Win32.Release.Error-2.idtx:56
 #: En.x64.Debug.Error-2.idtx:56 En.x64.Release.Error-2.idtx:56
@@ -660,8 +656,8 @@ msgstr "خطأ في الحصول على تأمين ملف: [3] GetLastError: ‏
 #: En.Win32.Debug.Error-2.idtx:148 En.Win32.Release.Error-2.idtx:148
 #: En.x64.Debug.Error-2.idtx:148 En.x64.Release.Error-2.idtx:148
 msgid ""
-"Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your "
-"support personnel."
+"Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your support "
+"personnel."
 msgstr ""
 "خطأ في تثبيت إدارة برنامج تشغيل ODBC، خطأ ODBC‏ [2]: [3]. اتصل بأفراد الدعم."
 
@@ -677,8 +673,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:35 En.Win32.Release.Error-2.idtx:35
 #: En.x64.Debug.Error-2.idtx:35 En.x64.Release.Error-2.idtx:35
 msgid ""
-"Error reading from file [2]. {{ System error [3].}} Verify that the file "
-"exists and that you can access it."
+"Error reading from file [2]. {{ System error [3].}} Verify that the file exists "
+"and that you can access it."
 msgstr ""
 "خطأ قراءة من ملف: [2]. {{ خطأ في النظام [3].}} تحقق من وجود الملف ومن إمكانية "
 "الوصول إليه."
@@ -743,8 +739,8 @@ msgstr "خطأ كتابة إلى ملف: [2]. تحقق من وجود وصول إ
 #: En.Win32.Debug.Error-2.idtx:40 En.Win32.Release.Error-2.idtx:40
 #: En.x64.Debug.Error-2.idtx:40 En.x64.Release.Error-2.idtx:40
 msgid ""
-"Error writing to file: [3]. {{ System error [2].}}  Verify that you have "
-"access to that directory."
+"Error writing to file: [3]. {{ System error [2].}}  Verify that you have access "
+"to that directory."
 msgstr ""
 "خطأ كتابة إلى ملف: [3]. {{ خطأ في النظام [2].}} تحقق من وجود وصول إلى هذا "
 "الدليل."
@@ -1217,8 +1213,7 @@ msgstr "إجراء عودة إلى الحالة السابقة:"
 msgid ""
 "Scheduling reboot operation: Deleting file [2]. Must reboot to complete "
 "operation."
-msgstr ""
-"جدولة عملية إعادة التمهيد: حذف ملف [2]. يجب إعادة التمهيد لإتمام العملية."
+msgstr "جدولة عملية إعادة التمهيد: حذف ملف [2]. يجب إعادة التمهيد لإتمام العملية."
 
 #: En.Win32.Debug.Error-2.idtx:134 En.Win32.Release.Error-2.idtx:134
 #: En.x64.Debug.Error-2.idtx:134 En.x64.Release.Error-2.idtx:134
@@ -1226,8 +1221,8 @@ msgid ""
 "Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to complete "
 "operation."
 msgstr ""
-"جدولة عملية إعادة التمهيد: إعادة تسمية ملف [2] بـ [3]. يجب إعادة التمهيد "
-"لإتمام العملية."
+"جدولة عملية إعادة التمهيد: إعادة تسمية ملف [2] بـ [3]. يجب إعادة التمهيد لإتمام "
+"العملية."
 
 #: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
 #: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
@@ -1329,8 +1324,8 @@ msgstr "إيقاف خدمات"
 #: En.x64.Debug.Error-2.idtx:65 En.x64.Release.Error-2.idtx:65
 msgid ""
 "The cabinet file '[2]' required for this installation is corrupt and cannot be "
-"used. This could indicate a network error, an error reading from the CD-ROM, "
-"or a problem with this package."
+"used. This could indicate a network error, an error reading from the CD-ROM, or "
+"a problem with this package."
 msgstr ""
 "إن ملف الخزانة '[2]' والمطلوب لعملية التثبيت هذه تالف ولا يمكن استخدامه. قد "
 "يشير هذا إلى خطأ في شبكة الاتصال أو أثناء القراءة من محرك الأقراص المضغوطة أو "
@@ -1363,8 +1358,7 @@ msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:130 En.Win32.Release.Error-2.idtx:130
 #: En.x64.Debug.Error-2.idtx:130 En.x64.Release.Error-2.idtx:130
-msgid ""
-"The folder [2] does not exist.  Please enter a path to an existing folder."
+msgid "The folder [2] does not exist.  Please enter a path to an existing folder."
 msgstr "مجلد [2] غير موجود. يرجى إدخال مسار لمجلد موجود."
 
 #: En.Win32.Debug.Error-2.idtx:54 En.Win32.Release.Error-2.idtx:54
@@ -1379,20 +1373,18 @@ msgstr "يتضمن مسار المجلد '[2]' كلمات غير صالحة في
 
 #: En.Win32.Debug.Error-2.idtx:87 En.Win32.Release.Error-2.idtx:87
 #: En.x64.Debug.Error-2.idtx:87 En.x64.Release.Error-2.idtx:87
-msgid ""
-"The following applications should be closed before continuing the install:"
+msgid "The following applications should be closed before continuing the install:"
 msgstr "يجب إغلاق التطبيقات التالية قبل متابعة التثبيت:"
 
 #: En.Win32.Debug.Error-2.idtx:9 En.Win32.Release.Error-2.idtx:9
 #: En.x64.Debug.Error-2.idtx:9 En.x64.Release.Error-2.idtx:9
 msgid ""
-"The installer has encountered an unexpected error installing this package. "
-"This may indicate a problem with this package. The error code is [1]. {{The "
+"The installer has encountered an unexpected error installing this package. This "
+"may indicate a problem with this package. The error code is [1]. {{The "
 "arguments are: [2], [3], [4]}}"
 msgstr ""
-"صادف برنامج التثبيت installer خطأ غير متوقع أثناء تثبيت هذه الحزمة. قد يشير "
-"هذا إلى وجود مشكلة في هذه الحزمة. رمز الخطأ هو [1]. {{الوسيطات هي: [2], [3], "
-"[4]}}"
+"صادف برنامج التثبيت installer خطأ غير متوقع أثناء تثبيت هذه الحزمة. قد يشير هذا "
+"إلى وجود مشكلة في هذه الحزمة. رمز الخطأ هو [1]. {{الوسيطات هي: [2], [3], [4]}}"
 
 #: En.Win32.Debug.Error-2.idtx:33 En.Win32.Release.Error-2.idtx:33
 #: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
@@ -1413,8 +1405,7 @@ msgstr "المُثبت لديه امتيازات غير كافية لتعديل 
 #: En.x64.Debug.Error-2.idtx:94 En.x64.Release.Error-2.idtx:94
 msgid ""
 "The installer must restart your system before configuration of [2] can "
-"continue.  Click Yes to restart now or No if you plan to manually restart "
-"later."
+"continue.  Click Yes to restart now or No if you plan to manually restart later."
 msgstr ""
 "يجب على المُثبت إعادة تشغيل النظام قبل أن يتمكن تكوين [2] من المتابعة. انقر فوق "
 "'نعم' لإعادة التشغيل الآن أو انقر فوق 'لا' إذا كنت تريد إعادة التشغيل يدوياً "
@@ -1449,10 +1440,12 @@ msgstr "المنتج '[2]' مثبت مسبقاً، مانعاً تثبيت هذ�
 #: En.Win32.Debug.Error-2.idtx:90 En.Win32.Release.Error-2.idtx:90
 #: En.x64.Debug.Error-2.idtx:90 En.x64.Release.Error-2.idtx:90
 msgid ""
-"The setup must update files or services that cannot be updated while the "
-"system is running. If you choose to continue, a reboot will be required to "
-"complete the setup."
+"The setup must update files or services that cannot be updated while the system "
+"is running. If you choose to continue, a reboot will be required to complete "
+"the setup."
 msgstr ""
+"‏يجب أن يقوم برنامج الإعداد بتحديث الملفات أو الخدمات التي يتعذر تحديثها أثناء "
+"تشغيل النظام. إذا اخترت المتابعة، فيجب إعادة التشغيل لإكمال الإعداد."
 
 #: En.Win32.Debug.Error-2.idtx:91 En.Win32.Release.Error-2.idtx:91
 #: En.x64.Debug.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
@@ -1511,13 +1504,13 @@ msgstr ""
 #: En.x64.Debug.Error-2.idtx:163 En.x64.Release.Error-2.idtx:163
 msgid ""
 "The Windows Installer service cannot update the system file [2] because the "
-"file is protected by Windows.  You may need to update your operating system "
-"for this program to work correctly. {{Package version: [3], OS Protected "
-"version: [4]}}"
+"file is protected by Windows.  You may need to update your operating system for "
+"this program to work correctly. {{Package version: [3], OS Protected version: "
+"[4]}}"
 msgstr ""
 "إن خدمة Windows Installer لم تتمكن من تحديث ملف الجهاز [2] لأن الملف محمي من "
-"خلال Windows.  قد تحتاج لتحديث نظام التشغيل حتى يعمل هذا البرنامج بصورة "
-"صحيحة.  {{نسخة الحزمة: [3], OS النسخة المحمية: [4]}}"
+"خلال Windows.  قد تحتاج لتحديث نظام التشغيل حتى يعمل هذا البرنامج بصورة صحيحة.  "
+"{{نسخة الحزمة: [3], OS النسخة المحمية: [4]}}"
 
 #: En.Win32.Debug.Error-2.idtx:111 En.Win32.Release.Error-2.idtx:111
 #: En.x64.Debug.Error-2.idtx:111 En.x64.Release.Error-2.idtx:111
@@ -1526,9 +1519,9 @@ msgid ""
 "Windows Installer is not correctly installed. Contact your support personnel "
 "for assistance."
 msgstr ""
-"تعذر الوصول إلى خدمة Windows Installer. قد يحصل هذا إذا كنت تقوم بتشغيل "
-"Windows في وضع safemode أو إن لم يتم تثبيت Windows Installer بشكل صحيح. الرجاء "
-"الاتصال بأفراد الدعم للحصول على المساعدة."
+"تعذر الوصول إلى خدمة Windows Installer. قد يحصل هذا إذا كنت تقوم بتشغيل Windows "
+"في وضع safemode أو إن لم يتم تثبيت Windows Installer بشكل صحيح. الرجاء الاتصال "
+"بأفراد الدعم للحصول على المساعدة."
 
 #: En.Win32.Debug.Error-2.idtx:125 En.Win32.Release.Error-2.idtx:125
 #: En.x64.Debug.Error-2.idtx:125 En.x64.Release.Error-2.idtx:125
@@ -1537,13 +1530,16 @@ msgid ""
 "when your computer is not in Safe Mode or you can use System Restore to return "
 "your machine to a previous good state."
 msgstr ""
+"‏يتعذر الوصول إلى خدمة Windows Installer عند تشغيل الوضع الآمن. الرجاء المحاولة "
+"مرة أخرى عندما لا يكون الكمبيوتر في \"الوضع الآمن\" أو عندما يمكنك تشغيل "
+"\"استعادة النظام\" لاستعادة الكمبيوتر إلى حالة سابقة جيدة."
 
 #: En.Win32.Debug.Error-2.idtx:115 En.Win32.Release.Error-2.idtx:115
 #: En.x64.Debug.Error-2.idtx:115 En.x64.Release.Error-2.idtx:115
 msgid ""
-"There is a problem with this Windows Installer package. A DLL required for "
-"this install to complete could not be run. Contact your support personnel or "
-"package vendor.  {{Action [2], entry: [3], library: [4] }}"
+"There is a problem with this Windows Installer package. A DLL required for this "
+"install to complete could not be run. Contact your support personnel or package "
+"vendor.  {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
 "يوجد مشكلة في حزمة Windows Installer هذه. تعذر تشغيل DLL مطلوب لإتمام هذا "
 "التثبيت. الرجاء الاتصال بأفراد الدعم أو ببائع الحزمة. {{الإجراء [2], الإدخال: "
@@ -1567,9 +1563,9 @@ msgid ""
 "of the setup did not finish as expected. Contact your support personnel or "
 "package vendor.  {{Action [2], location: [3], command: [4] }}"
 msgstr ""
-"يوجد مشكلة في حزمة Windows Installer هذه. لم يتم إنهاء أحد برامج الإعداد "
-"بالشكل المتوقع. الرجاء الاتصال بأفراد الدعم أو ببائع الحزمة. {{الإجراء [2], "
-"الموقع: [3], الأمر: [4] }}"
+"يوجد مشكلة في حزمة Windows Installer هذه. لم يتم إنهاء أحد برامج الإعداد بالشكل "
+"المتوقع. الرجاء الاتصال بأفراد الدعم أو ببائع الحزمة. {{الإجراء [2], الموقع: "
+"[3], الأمر: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:112 En.Win32.Release.Error-2.idtx:112
 #: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
@@ -1580,8 +1576,8 @@ msgid ""
 "Column [7], [8] }}"
 msgstr ""
 "يوجد مشكلة في حزمة Windows Installer هذه. تعذر تشغيل برنامج نصي مطلوب لإتمام "
-"هذا التثبيت. الرجاء الاتصال بأفراد الدعم أو ببائع الحزمة. {{الإجراء المخصص "
-"[2], خطأ البرنامج النصي: [3], [4]: [5] السطر [6], العمود [7], [8] }}"
+"هذا التثبيت. الرجاء الاتصال بأفراد الدعم أو ببائع الحزمة. {{الإجراء المخصص [2], "
+"خطأ البرنامج النصي: [3], [4]: [5] السطر [6], العمود [7], [8] }}"
 
 #: En.Win32.Debug.Error-2.idtx:128 En.Win32.Release.Error-2.idtx:128
 #: En.x64.Debug.Error-2.idtx:128 En.x64.Release.Error-2.idtx:128
@@ -1604,11 +1600,10 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:85 En.Win32.Release.Error-2.idtx:85
 #: En.x64.Debug.Error-2.idtx:85 En.x64.Release.Error-2.idtx:85
 msgid ""
-"There is not enough disk space on the volume '[2]' to continue the install "
-"with recovery enabled. [3] KB are required, but only [4] KB are available. "
-"Click Ignore to continue the install without saving recovery information, "
-"click Retry to check for available space again, or click Cancel to quit the "
-"installation."
+"There is not enough disk space on the volume '[2]' to continue the install with "
+"recovery enabled. [3] KB are required, but only [4] KB are available. Click "
+"Ignore to continue the install without saving recovery information, click Retry "
+"to check for available space again, or click Cancel to quit the installation."
 msgstr ""
 "لا توجد مساحة قرص كافية على وحدة التخزين '[2]' للاستمرار بعملية التثبيت مع "
 "تمكين استعادة الحالة السابقة. المساحة المطلوبة هي [3] كيلوبايت ولكن لا يتوفر "
@@ -1619,8 +1614,8 @@ msgstr ""
 #: En.Win32.Debug.Error-2.idtx:37 En.Win32.Release.Error-2.idtx:37
 #: En.x64.Debug.Error-2.idtx:37 En.x64.Release.Error-2.idtx:37
 msgid ""
-"There is not enough disk space to install this file: [2].  Free some disk "
-"space and click Retry, or click Cancel to exit."
+"There is not enough disk space to install this file: [2].  Free some disk space "
+"and click Retry, or click Cancel to exit."
 msgstr ""
 "لا توجد مساحة قرص كافية لتثبيت هذا الملف: [2]. حرر بعض المساحة على القرص ثم "
 "انقر فوق 'إعادة المحاولة'، أو انقر فوق 'إلغاء الأمر' للإنهاء."
@@ -1644,8 +1639,8 @@ msgstr ""
 #: En.Win32.Debug.CustomAction-2.idtx:6 En.Win32.Release.CustomAction-2.idtx:6
 #: En.x64.Debug.CustomAction-2.idtx:5 En.x64.Release.CustomAction-2.idtx:5
 msgid ""
-"This package cannot upgrade the currently installed [SimpleProductName]. "
-"Please remove the old package first and retry."
+"This package cannot upgrade the currently installed [SimpleProductName]. Please "
+"remove the old package first and retry."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:172 En.Win32.Release.Error-2.idtx:172
@@ -1783,17 +1778,16 @@ msgstr "كتابة قيم تسجيل النظام"
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
 msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
-"64-bit operating system. 32-bit variant will not work with your operating "
-"system. The installation of the 64-bit variant is recommended."
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a 64-"
+"bit operating system. 32-bit variant will not work with your operating system. "
+"The installation of the 64-bit variant is recommended."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:157 En.Win32.Release.Error-2.idtx:157
 #: En.x64.Debug.Error-2.idtx:157 En.x64.Release.Error-2.idtx:157
 msgid ""
 "You do not have sufficient privileges to complete this installation for all "
-"users of the machine.  Log on as administrator and then retry this "
-"installation."
+"users of the machine.  Log on as administrator and then retry this installation."
 msgstr ""
 "لا يوجد لديك امتيازات كافية لإتمام هذا التثبيت لجميع مستخدمي الجهاز. قم بتسجيل "
 "الدخول كمسؤول النظام ثم أعد محاولة التثبيت."

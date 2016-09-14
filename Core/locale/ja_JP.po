@@ -10,7 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Debug.ActionText-2.idtx:39
 #: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Debug.ActionText-2.idtx:53
@@ -1526,6 +1526,9 @@ msgid ""
 "system is running. If you choose to continue, a reboot will be required to "
 "complete the setup."
 msgstr ""
+"システムの実行中に更新できないファイルまたはサービスを、セットアップで更新す"
+"る必要があります。続行する場合は、セットアップを完了するために再起動が必要と"
+"なります。"
 
 #: En.Win32.Debug.Error-2.idtx:91 En.Win32.Release.Error-2.idtx:91
 #: En.x64.Debug.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
@@ -1615,6 +1618,9 @@ msgid ""
 "again when your computer is not in Safe Mode or you can use System Restore "
 "to return your machine to a previous good state."
 msgstr ""
+"Windows インストーラ サービスには、セーフ モードではアクセスできません。コン"
+"ピュータがセーフ モードでないときに再試行してください。または、システムの復元"
+"を使用すると、前回の正常起動時の状態にコンピュータを戻すことができます。"
 
 #: En.Win32.Debug.Error-2.idtx:115 En.Win32.Release.Error-2.idtx:115
 #: En.x64.Debug.Error-2.idtx:115 En.x64.Release.Error-2.idtx:115

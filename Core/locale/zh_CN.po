@@ -10,7 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Debug.ActionText-2.idtx:39
 #: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Debug.ActionText-2.idtx:53
@@ -1424,6 +1424,8 @@ msgid ""
 "system is running. If you choose to continue, a reboot will be required to "
 "complete the setup."
 msgstr ""
+"安装程序必须更新在系统运行时无法更新的文件或服务。如果选择继续，将需要重新启"
+"动以完成安装程序。"
 
 #: En.Win32.Debug.Error-2.idtx:91 En.Win32.Release.Error-2.idtx:91
 #: En.x64.Debug.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
@@ -1507,6 +1509,8 @@ msgid ""
 "again when your computer is not in Safe Mode or you can use System Restore "
 "to return your machine to a previous good state."
 msgstr ""
+"无法在安全模式下访问 Windows Installer 服务。请在计算机不处于安全模式时再次尝"
+"试，或者可以使用系统还原，使计算机返回到前一个良好状态。"
 
 #: En.Win32.Debug.Error-2.idtx:115 En.Win32.Release.Error-2.idtx:115
 #: En.x64.Debug.Error-2.idtx:115 En.x64.Release.Error-2.idtx:115
