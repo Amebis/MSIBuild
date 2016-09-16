@@ -512,12 +512,12 @@
 					if (idt_dst != null && (key in idt_dst.data)) {
 						// We found a record in both IDT files.
 						for (var col in idt_src.types)
-							if (idt_src.types[col].charAt(0).toUpperCase() == "L" && idt_src.data[key][col] != "")
+							if (idt_src.isLocalizable(col) && idt_src.data[key][col] != "")
 								po.push(idt_src.data[key][col], idt_dst.data[key][col], false, "#: " + idt_src_path + ":" + idt_src.linenum[key]);
 					} else {
 						// The record is available in the source IDT file only (or there is no destination IDT).
 						for (var col in idt_src.types)
-							if (idt_src.types[col].charAt(0).toUpperCase() == "L" && idt_src.data[key][col] != "")
+							if (idt_src.isLocalizable(col) && idt_src.data[key][col] != "")
 								po.push(idt_src.data[key][col], "", false, "#: " + idt_src_path + ":" + idt_src.linenum[key]);
 					}
 				}
@@ -567,7 +567,7 @@
 				// Translate records.
 				for (var key in idt_src.data) {
 					for (var col in idt_src.types) {
-						if (idt_src.types[col].charAt(0).toUpperCase() == "L" && idt_src.data[key][col] != "")
+						if (idt_src.isLocalizable(col) && idt_src.data[key][col] != "")
 							idt_src.data[key][col] = po.translate(idt_src.data[key][col]);
 					}
 				}
@@ -609,8 +609,8 @@
 ** SIG ** MIIXmAYJKoZIhvcNAQcCoIIXiTCCF4UCAQExCzAJBgUr
 ** SIG ** DgMCGgUAMGcGCisGAQQBgjcCAQSgWTBXMDIGCisGAQQB
 ** SIG ** gjcCAR4wJAIBAQQQcAVhGs441BGiowAQS9NQkAIBAAIB
-** SIG ** AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFBFS1Dc0BFx7
-** SIG ** 6vYeYiyIGC1cPCcBoIISyDCCA+4wggNXoAMCAQICEH6T
+** SIG ** AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFEuDcHZyRyXZ
+** SIG ** zF25+zdkgilPy7bQoIISyDCCA+4wggNXoAMCAQICEH6T
 ** SIG ** 6/t8xk5Z6kuad9QG/DswDQYJKoZIhvcNAQEFBQAwgYsx
 ** SIG ** CzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxXZXN0ZXJuIENh
 ** SIG ** cGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQK
@@ -764,31 +764,31 @@
 ** SIG ** OWQwCQYFKw4DAhoFAKBwMBAGCisGAQQBgjcCAQwxAjAA
 ** SIG ** MBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEEMBwGCisG
 ** SIG ** AQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3
-** SIG ** DQEJBDEWBBS+6SF1g2JrK4rp+O3L8qwB8cicdDANBgkq
-** SIG ** hkiG9w0BAQEFAASCAQAUJ11IjJjmGNrCZkBHUPzPUspV
-** SIG ** 9z7eS08u30ORQ4Rl9otiIg4HJUeEfnQyG2O3w1xmOvwJ
-** SIG ** w1qeAgNttl4+Bj2mUBY8QFLy0HubXMLEPQBDTZ7f/pSg
-** SIG ** yYE+pSqciCGCYrAFWkucH/ui0S/gfxZnBbM9K1AjRDRW
-** SIG ** B9oMbRx9yY2URqHachNKZ+LTGBPhVuiLy245Nw4uuLe8
-** SIG ** i9bX2kEV8XPUSanko0mtY7h06b4n2b90Buby+4TId9hC
-** SIG ** BerBnjrAbYS0c+Ra3GMURtCbGbAzmg8ixR/kg0IPF1wu
-** SIG ** QNqrhnw2yWJXhnTEZm5HPQVYISl8QkO3TFcfHBxkb/Oe
-** SIG ** QRR/NYwboYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
+** SIG ** DQEJBDEWBBTOklb60U5Cei+o8kkwNkAo539ocDANBgkq
+** SIG ** hkiG9w0BAQEFAASCAQBHQ/9ubHkHX3l29kS5kE0Gx7U0
+** SIG ** /vyXYN5KvRQ7I2cfTg1zgPbDyXos7RZ9EJjCXO98JVk6
+** SIG ** OFbmDbnMQbnR3kfxREJSWprYJRv718Sj4hFitqcdzPW6
+** SIG ** lyvLqKZwX0GN3/ipBV39T9P4YhXCDfJ5IEEbOSMnEqha
+** SIG ** McdHFAInOHEWKGDwGw7nWX+OgQmDYBpsCd1riFvqtG5N
+** SIG ** XotE4X8fjoh20tMJ4D0qfg41Hpwz27eicRT86uoOGWJA
+** SIG ** D+ffSDHQ2lCCrGYJNuYXOoiSYDbBfV1tR47KvWT0Tfmb
+** SIG ** 8vhzLwDUuUjHNVRjUBsD/sFbhfbK+hVEM7yDBuLoHWz5
+** SIG ** aj0m6uzooYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
 ** SIG ** AgEBMHIwXjELMAkGA1UEBhMCVVMxHTAbBgNVBAoTFFN5
 ** SIG ** bWFudGVjIENvcnBvcmF0aW9uMTAwLgYDVQQDEydTeW1h
 ** SIG ** bnRlYyBUaW1lIFN0YW1waW5nIFNlcnZpY2VzIENBIC0g
 ** SIG ** RzICEA7P9DjI/r81bgTYapgbGlAwCQYFKw4DAhoFAKBd
 ** SIG ** MBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZI
-** SIG ** hvcNAQkFMQ8XDTE2MDkxNjEyMzgwM1owIwYJKoZIhvcN
-** SIG ** AQkEMRYEFASd3svY6QexmPrwyTgYM37i8CbtMA0GCSqG
-** SIG ** SIb3DQEBAQUABIIBAA5YzP22hUvXvFxoEB/NGRSxYN1r
-** SIG ** ruCy/XfTOs6MaML1by7TpUR0ID6NxEibSEiL8LdjKl1F
-** SIG ** eQUksNz3i7knlXzjbt76IWJIwszJg1kfhvpnBOk+lIW+
-** SIG ** Yl75P+Is3XO/6B7W2S9zon8qlLg8aK3pjBvq/bCfhqrB
-** SIG ** jY8IbgTY4nv5onMF4WaC5/MXI6/N2Eb6RWuH2Ywd7xlk
-** SIG ** qiahhIey5Z8IZLuEVAH+PiZV89wf23t/OnmhKcgkNwHU
-** SIG ** 7fe8PUq8H+2LB+kA43JWmgDoy5rjTxgr6u/KGBIn4wVg
-** SIG ** +WqvhbRk/EF994ZtE5vMg4lqMTOiUmvJoTJVOZd6pQlL
-** SIG ** K7/akzU=
+** SIG ** hvcNAQkFMQ8XDTE2MDkxNjE2NTAyNVowIwYJKoZIhvcN
+** SIG ** AQkEMRYEFP/2E5ukiLIl+izsl9m1nHfxcfIHMA0GCSqG
+** SIG ** SIb3DQEBAQUABIIBAA+YrwcmRrAGzn5oELl5IHsYHShQ
+** SIG ** 3W5chZ1yUqwRU/LK6oo/cCk8bUseldq8PHV67axnVCzX
+** SIG ** aLlOOGXOggKIxB+s6vzcDZ7aJv/ssOU2GOFSXZoe78yV
+** SIG ** 4hGzOMYpULHz/OT6s4oD1oP/7JOcjd1XMK8L+trxJrJm
+** SIG ** BkJpc0f0B/EjBDcOialxi3KPftdQxEqHFet1Fbk02rCR
+** SIG ** 7a51w5fjLgkLwrEL8LF5g6iYBl0w2wlvldYh+ZrbJ1YU
+** SIG ** ATOYbfcD7H3Cu/XJUsFc+UBgQGA2unWxNa5F84crcmxV
+** SIG ** 0xQXnTLtuI06xLRBlmehNhWlV6olkWDYYa/OEaLDRBeq
+** SIG ** lb0K1jM=
 </signature>
 </package>

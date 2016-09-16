@@ -136,6 +136,156 @@ function IDT(path)
 }
 
 
+IDT.prototype.isLocalizable = function(col)
+{
+	// Test against predefined list of columns.
+	switch (this.table.toLowerCase()) {
+		case "actiontext":
+			switch (this.columns[col].toLowerCase()) {
+				case "description":
+				case "template"   : return true;
+			}
+			break;
+
+		case "control":
+			switch (this.columns[col].toLowerCase()) {
+				case "text":
+				case "help": return true;
+			}
+			break;
+
+		case "controlevent":
+			switch (this.columns[col].toLowerCase()) {
+				case "argument": return true;
+			}
+			break;
+
+		case "customaction":
+			switch (this.columns[col].toLowerCase()) {
+				case "target": return true;
+			}
+			break;
+
+		case "dialog":
+			switch (this.columns[col].toLowerCase()) {
+				case "title": return true;
+			}
+			break;
+
+		case "directory":
+			switch (this.columns[col].toLowerCase()) {
+				case "defaultdir": return true;
+			}
+			break;
+
+		case "error":
+			switch (this.columns[col].toLowerCase()) {
+				case "message": return true;
+			}
+			break;
+
+		case "feature":
+			switch (this.columns[col].toLowerCase()) {
+				case "title"      :
+				case "description": return true;
+			}
+			break;
+
+		case "file":
+			switch (this.columns[col].toLowerCase()) {
+				case "filename":
+				case "language": return true;
+			}
+			break;
+
+		case "launchcondition":
+			switch (this.columns[col].toLowerCase()) {
+				case "description": return true;
+			}
+			break;
+
+		case "media":
+			switch (this.columns[col].toLowerCase()) {
+				case "diskprompt": return true;
+			}
+			break;
+
+		case "progid":
+			switch (this.columns[col].toLowerCase()) {
+				case "description": return true;
+			}
+			break;
+
+		case "property":
+			switch (this.columns[col].toLowerCase()) {
+				case "value": return true;
+			}
+			break;
+
+		case "publishcomponent":
+			switch (this.columns[col].toLowerCase()) {
+				case "appdata": return true;
+			}
+			break;
+
+		case "radiobutton":
+			switch (this.columns[col].toLowerCase()) {
+				case "text":
+				case "help": return true;
+			}
+			break;
+
+		case "registry":
+			switch (this.columns[col].toLowerCase()) {
+				case "value": return true;
+			}
+			break;
+
+		case "scheduledtask":
+			switch (this.columns[col].toLowerCase()) {
+				case "displayname":
+				case "description": return true;
+			}
+			break;
+
+		case "serviceinstall":
+			switch (this.columns[col].toLowerCase()) {
+				case "displayname":
+				case "description": return true;
+			}
+			break;
+
+		case "shortcut":
+			switch (this.columns[col].toLowerCase()) {
+				case "name"       :
+				case "description": return true;
+			}
+			break;
+
+		case "uitext":
+			switch (this.columns[col].toLowerCase()) {
+				case "text": return true;
+			}
+			break;
+
+		case "verb":
+			switch (this.columns[col].toLowerCase()) {
+				case "command" :
+				case "argument": return true;
+			}
+			break;
+
+		case "wlanprofile":
+			switch (this.columns[col].toLowerCase()) {
+				case "name": return true;
+			}
+			break;
+    }
+
+	// Is this column localizable according to its type?
+	return this.types[col].charAt(0).toLowerCase() == "l";
+}
+
 IDT.prototype.save = function(path)
 {
 	// Build output IDT file in memory.
@@ -182,8 +332,8 @@ IDT.prototype.save = function(path)
 // SIG // MIIXmAYJKoZIhvcNAQcCoIIXiTCCF4UCAQExCzAJBgUr
 // SIG // DgMCGgUAMGcGCisGAQQBgjcCAQSgWTBXMDIGCisGAQQB
 // SIG // gjcCAR4wJAIBAQQQEODJBs441BGiowAQS9NQkAIBAAIB
-// SIG // AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFDK3v7xPfQA4
-// SIG // KZZoKH2KE80Twx3HoIISyDCCA+4wggNXoAMCAQICEH6T
+// SIG // AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFFHlJC6w9pgr
+// SIG // unXsafHb3Kze3WGyoIISyDCCA+4wggNXoAMCAQICEH6T
 // SIG // 6/t8xk5Z6kuad9QG/DswDQYJKoZIhvcNAQEFBQAwgYsx
 // SIG // CzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxXZXN0ZXJuIENh
 // SIG // cGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQK
@@ -337,30 +487,30 @@ IDT.prototype.save = function(path)
 // SIG // OWQwCQYFKw4DAhoFAKBwMBAGCisGAQQBgjcCAQwxAjAA
 // SIG // MBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEEMBwGCisG
 // SIG // AQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3
-// SIG // DQEJBDEWBBT3K5DzXHaaaztTUWYcKscHz5goHTANBgkq
-// SIG // hkiG9w0BAQEFAASCAQBCIQ7y8ZVmNZke0OJsfe38h/25
-// SIG // VCuB1bCSqiqF7+el2gXbKcQSMSpbF+PqG6HjtzMiFncJ
-// SIG // myApTJ+AyBh8ScoRwa+XoOeIV+TPwW2UKy1FUUJ7TAi7
-// SIG // /R7LhYq2xuhcAt6S0kxXy/qDJhhhPSXovi1d1dlNHINT
-// SIG // wPy9yPeTqD8eSug3xYvt6rsKtQEqJyITIjeU4YIQWDDw
-// SIG // UfdCLhybrtbvyZ881KICrkol/u3DzPF6L9CiHayFYXUO
-// SIG // ToJOGPiGOAedHLWFpFG0QdYZvQogtzZcYuFtZWbTx/ud
-// SIG // SSXr5BOydkUZ0qjAQoIWuUZbdhGfPoVGQOPUzQVChKYj
-// SIG // yn/1DQrfoYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
+// SIG // DQEJBDEWBBQq1dLcVq9BbKV5KMQ98reQvMJINjANBgkq
+// SIG // hkiG9w0BAQEFAASCAQCEQ8DUukR0gIlI0xVrhSIbTkOg
+// SIG // Igjh6jIeChBUVtvhjJUusK0k7PuAocrhfORC5g4DiuGY
+// SIG // TWkFhgNZFD2Koi8VwG4Ex8nU5gAX280BOSDM7tPVm1nv
+// SIG // 58y5PaxMETlx4HteDjSz9f4cdmRHz+rLtjRiL2WCmn5N
+// SIG // jFfHzLfbvq/zdv/1d3ZcQv5stvM26oGRhsxJi9F+2/jQ
+// SIG // o6363vmhiXfpOTdYORaH+KnzH3wuCTa72T65tqO3n+N+
+// SIG // 7R3Is3hi6K3Eca3YcLq60FNTy0dOrYBYiqKl9PvkZZ54
+// SIG // 7xw8QdNVBVxs9wBXT2XZCGmbQ72JLMuwnX3Nnra0HXj3
+// SIG // 8aTHXhQuoYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
 // SIG // AgEBMHIwXjELMAkGA1UEBhMCVVMxHTAbBgNVBAoTFFN5
 // SIG // bWFudGVjIENvcnBvcmF0aW9uMTAwLgYDVQQDEydTeW1h
 // SIG // bnRlYyBUaW1lIFN0YW1waW5nIFNlcnZpY2VzIENBIC0g
 // SIG // RzICEA7P9DjI/r81bgTYapgbGlAwCQYFKw4DAhoFAKBd
 // SIG // MBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZI
-// SIG // hvcNAQkFMQ8XDTE2MDkxNjEyMzczMlowIwYJKoZIhvcN
-// SIG // AQkEMRYEFHa81Osey4h4aGVWL2y16ek6c50BMA0GCSqG
-// SIG // SIb3DQEBAQUABIIBAIyk3446yLyAYUB/wxL7SYuRdyBQ
-// SIG // zVPGxWbW73lgTAPzWMqWVtkEOPEe1z6T1us5Ss9OFQ8g
-// SIG // P3VbDUfvIxNA2q0a2Z+GgS8tyrlQK1WswLdv11mmVmGa
-// SIG // c4+FG5pZu0KEHkzAhTfq6H6DPg+fz46OTCyxYaNIYzHp
-// SIG // azs8tyylmjFS9jEo57Fo+Px23ISqEmBsGVx8vEMY0+N7
-// SIG // UOh1sVj8XTHrZi9DHAvs+JX1o5XcYW+9tRiQshrXgba6
-// SIG // QVSb21e5G7lPMPWD1tGLfbCqKhDYqHFCy5RnQbfYaWTh
-// SIG // ZnjfmfQ9+/2MWbRdFNqscheuMcasYaEQWFsTiMV/p7D6
-// SIG // MP2TGpo=
+// SIG // hvcNAQkFMQ8XDTE2MDkxNjE2NTAyM1owIwYJKoZIhvcN
+// SIG // AQkEMRYEFAnKqIQVMxZDqD0uAifxOwHFk/BnMA0GCSqG
+// SIG // SIb3DQEBAQUABIIBADBE8FVrbFQGv080T3L0rMSvz8E4
+// SIG // 2AEck2JAIvVXN0JZ603FlZiwO709lVxszK3v8MfFwd1N
+// SIG // 0YFqIXWfmTU9G3k2EoSSAck+iDOQAkTOnKT6gP00TxHj
+// SIG // rKQqiWKe8VPVLwJqXg6HfpX4Ap1udQI0C/iSWENsGJIO
+// SIG // sO6Oo6lEeboysT/n6OZEbSVHpWwTeCDUQt6NLv/otT7R
+// SIG // hUjy/r5G31i0zbt1nBLsxsXT2WN/B0czdQWfLzD327AA
+// SIG // 57DcLuuGNgF2Jt38XOfbmAqYZjD8eoWW2XCdj3J5P/LB
+// SIG // Ft7I/ZIWpL+qSSUJtVX6l2OCHkPzEUYHDbxauj4ieB4E
+// SIG // LjGbE0k=
 // SIG // End signature block
