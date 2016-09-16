@@ -553,13 +553,31 @@
 			WScript.Quit(0);
 		]]></script>
 	</job>
+	<job id="MakeGUID">
+		<runtime>
+			<description>Creates a new GUID and displays it on output.</description>
+			<named name="M" helpstring="Makefile macro name" type="string" required="false"/>
+		</runtime>
+		<reference object="Scriptlet.TypeLib"/>
+		<script language="JScript"><![CDATA[
+			var
+					tlib = WScript.CreateObject("Scriptlet.TypeLib"),
+					guid = tlib.Guid;
+
+			WScript.Echo(
+				WScript.Arguments.Named.Exists("M") ? WScript.Arguments.Named("M") + "=" + guid.toUpperCase() :
+				guid.toUpperCase());
+
+			WScript.Quit(0);
+		]]></script>
+	</job>
 
 <signature>
 ** SIG ** MIIXmAYJKoZIhvcNAQcCoIIXiTCCF4UCAQExCzAJBgUr
 ** SIG ** DgMCGgUAMGcGCisGAQQBgjcCAQSgWTBXMDIGCisGAQQB
 ** SIG ** gjcCAR4wJAIBAQQQcAVhGs441BGiowAQS9NQkAIBAAIB
-** SIG ** AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFKbgFEYXHM7C
-** SIG ** mG6SHZZUKwtjBCeOoIISyDCCA+4wggNXoAMCAQICEH6T
+** SIG ** AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFPA0F7YWxPGa
+** SIG ** aaKC2NHNwBJi9fvvoIISyDCCA+4wggNXoAMCAQICEH6T
 ** SIG ** 6/t8xk5Z6kuad9QG/DswDQYJKoZIhvcNAQEFBQAwgYsx
 ** SIG ** CzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxXZXN0ZXJuIENh
 ** SIG ** cGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQK
@@ -713,31 +731,31 @@
 ** SIG ** OWQwCQYFKw4DAhoFAKBwMBAGCisGAQQBgjcCAQwxAjAA
 ** SIG ** MBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEEMBwGCisG
 ** SIG ** AQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3
-** SIG ** DQEJBDEWBBSW4dFih+M4uXzOPl1Xqz+KrUwa4jANBgkq
-** SIG ** hkiG9w0BAQEFAASCAQBur2NiskZUwHxvZtaD4ArhM6bY
-** SIG ** uSJgOPwOeelhUQ7Oe1xCALI0Ft/31ZEyNPBqUH5he3oE
-** SIG ** /N2egm6NFVGEqhwBnuZiobtR/LURm70I74gVWdZXNSNV
-** SIG ** 1j/9a/OL6BI+ftyXEvk9c7/71oavLXSxJI8wGrW/se/M
-** SIG ** a52RZf5X+ZbLJUg232jWHCWwX+rXWZg/cKgTumdY86vP
-** SIG ** ZtFuutho+2oJcfPTiI2XFyqkFPFvm20w+9zhBpIOECfP
-** SIG ** eU7b8mHjJ2EwyieXfgIX/zip25EPODvAeuGVf4emD/aS
-** SIG ** ZRm/5zqVkLpQ6py1h+a/zImHnlXiQ9h3NKRtp+sulCa8
-** SIG ** irdr1KVhoYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
+** SIG ** DQEJBDEWBBRlb6oTWBq6akVrgx27UItStgXvjjANBgkq
+** SIG ** hkiG9w0BAQEFAASCAQBJaRJTWHHN/P3WZVZb+RtVDElR
+** SIG ** bePmsJHgWffw3iOdfRFv6g1lMS8e6N7/DmY0pVMoJKZe
+** SIG ** l4THbgsPh6pDF7l473LnDS6B05WLbq9qxFMc8xtDbsLy
+** SIG ** 6HHWUfVDhlAV519egugXvA3XnDvVlboVgtpI++TVSg90
+** SIG ** w2qCOCzDLU1B9K+4f20QQvK0HMJQwND5wBRBj3TXALbM
+** SIG ** JKZthUbMN6Xc0nCppuv2luHTbE8/GZc6ZAMi0MckfaLf
+** SIG ** ii1bdx/2gOqQ0s/a06kiLuJpjQcs0cezf1+BsbNAGOcH
+** SIG ** E2uXa6RR5ZhDAdrIJkG38y/5FmNSLixEeD2VpsFXMrM6
+** SIG ** vN12aXCeoYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
 ** SIG ** AgEBMHIwXjELMAkGA1UEBhMCVVMxHTAbBgNVBAoTFFN5
 ** SIG ** bWFudGVjIENvcnBvcmF0aW9uMTAwLgYDVQQDEydTeW1h
 ** SIG ** bnRlYyBUaW1lIFN0YW1waW5nIFNlcnZpY2VzIENBIC0g
 ** SIG ** RzICEA7P9DjI/r81bgTYapgbGlAwCQYFKw4DAhoFAKBd
 ** SIG ** MBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZI
-** SIG ** hvcNAQkFMQ8XDTE2MDkxNDA5MjIyOFowIwYJKoZIhvcN
-** SIG ** AQkEMRYEFB7HFm5ReWqtoVJ7mc9DgetzveZPMA0GCSqG
-** SIG ** SIb3DQEBAQUABIIBAGV0sO9DROJzi0oezUUs1wNZLQop
-** SIG ** yPy+eWXJgwX3e94Hkfd5oGNt9JfiXW2meFuJ+cAd8GgJ
-** SIG ** K911NKtFRBtjSbHHBv1HI8kbj4ARfXM5haGHlFxXsazC
-** SIG ** 7RqLYRz+qDeDgpF5c9o/C4cx0cKI1/bO4aRAKC8B7Asf
-** SIG ** Nskc0SLdW2QN2WZdGbbM85+S16pCukiv0fncbxdgO5nv
-** SIG ** 3Mzv2aMWiyJGpkKR86sKwWJG8G9jU1hP/EBmgeBYRFsA
-** SIG ** AyLGdoiXxDvNNTNt0vMTVNynPOYrSuZ2dDMrr9Gsg596
-** SIG ** hnHHRhnLgupNr+jFakXCl9zbSAkEDhl9PWaqV3YXDAUx
-** SIG ** xIBkuic=
+** SIG ** hvcNAQkFMQ8XDTE2MDkxNjA3MjE0OVowIwYJKoZIhvcN
+** SIG ** AQkEMRYEFIj9RVeKG8Hl8qqiSdovh558lv89MA0GCSqG
+** SIG ** SIb3DQEBAQUABIIBAB1ael8+RXKwxaqXerbsR197Skc1
+** SIG ** 30KCTlLd93OVQYBiXZ3uV0HQ9+tQhHEc8+xcBUuT7QX3
+** SIG ** m8DmdxM8detXbEzT5CqXtsdxF83TxTIU1Ps59KJdsJvM
+** SIG ** OPPyx5S4izd3whRSgGDtsPbocFJYy0YARYEUVGwf4Kc/
+** SIG ** bKqebNaQpegur/Ani2G2ossA/ohV+Nrs/7Y1E7zbXW91
+** SIG ** WWjVXf2WLiWgyFHmw6Jf5TaOX7AZBJAvLn2yRBTG5Wsi
+** SIG ** WDgmvqYimPJYF3fjm0y8jggpQfKqKQd80xrIlE61RmDt
+** SIG ** 4ratGN7hPoJe+RxndAtJCjLIsvpKKkTiaPDtqum+1yyV
+** SIG ** bSdt9G0=
 </signature>
 </package>
