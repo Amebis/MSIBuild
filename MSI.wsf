@@ -458,15 +458,95 @@
 	</job>
 	<job id="IDT2PO">
 		<runtime>
-			<description>Extract strings to translate by comparing two IDT files.</description>
-			<unnamed name="&lt;source.idt&gt;" helpstring="Original IDT file" required="true"/>
-			<unnamed name="&lt;destination.idt&gt;" helpstring="Translated IDT file" required="true"/>
+			<description>Extract strings to translate. If already translated IDT file is available, extract translations of matching rows (by IDT key column(s)).</description>
 			<unnamed name="&lt;output.po&gt;" helpstring="Output PO file" required="true"/>
+			<unnamed name="&lt;source.idt&gt;" helpstring="Original IDT file" required="true"/>
+			<unnamed name="&lt;destination.idt&gt;" helpstring="Translated IDT file" required="false"/>
 			<named name="L" helpstring="Language identifier" type="string" required="false"/>
 		</runtime>
 		<reference object="ADODB.Stream"/>
 		<reference object="Scripting.FileSystemObject"/>
 		<script language="JScript" src="IDT.js"/>
+		<script language="JScript" src="PO.js"/>
+		<script language="JScript" src="String.js"/>
+		<script language="JScript"><![CDATA[
+			if (WScript.Arguments.Unnamed.Length < 2) {
+				WScript.Arguments.ShowUsage();
+				WScript.Quit(1);
+			}
+
+			var
+				fso     = WScript.CreateObject("Scripting.FileSystemObject"),
+				po_path = WScript.Arguments.Unnamed(0);
+
+			try {
+				// Open and parse IDT file(s).
+				var
+					idt_src_path = WScript.Arguments.Unnamed(1),
+					idt_src      = new IDT(idt_src_path),
+					idt_dst;
+
+				if (WScript.Arguments.Unnamed.Length >= 3) {
+					idt_dst = new IDT(WScript.Arguments.Unnamed(2));
+
+					// IDT files must represent identical table.
+					if (idt_src.columns.toString() != idt_dst.columns.toString() ||
+						idt_src.types  .toString() != idt_dst.types  .toString() ||
+						idt_src.table              != idt_dst.table              ||
+						idt_src.key    .toString() != idt_dst.key    .toString())
+						throw new Error("IDT files are not compatible.");
+				} else
+					idt_dst = null;
+
+				var po = new POCatalog();
+
+				// Add header.
+				po.push("",
+					"MIME-Version: 1.0\n" +
+					"Content-Type: text/plain; charset=" + po.charset + "\n" +
+					"Content-Transfer-Encoding: 8bit\n" +
+					(WScript.Arguments.Named.Exists("L") ? "Language: "+ WScript.Arguments.Named("L") +"\n" : ""), false);
+
+				// Build translations.
+				for (var key in idt_src.data) {
+					if (idt_dst != null && (key in idt_dst.data)) {
+						// We found a record in both IDT files.
+						for (var col in idt_src.types)
+							if (idt_src.types[col].charAt(0).toUpperCase() == "L" && idt_src.data[key][col] != "")
+								po.push(idt_src.data[key][col], idt_dst.data[key][col], false, "#: " + idt_src_path + ":" + idt_src.linenum[key]);
+					} else {
+						// The record is available in the source IDT file only (or there is no destination IDT).
+						for (var col in idt_src.types)
+							if (idt_src.types[col].charAt(0).toUpperCase() == "L" && idt_src.data[key][col] != "")
+								po.push(idt_src.data[key][col], "", false, "#: " + idt_src_path + ":" + idt_src.linenum[key]);
+					}
+				}
+
+				// Save to file.
+				po.save(po_path);
+			} catch (err) {
+				// In case of error, delete output file.
+				if (fso.FileExists(po_path))
+					fso.DeleteFile(po_path);
+
+				throw err;
+			}
+
+			WScript.Quit(0);
+		]]></script>
+	</job>
+	<job id="IDTTranslate">
+		<runtime>
+			<description>Translate IDT file.</description>
+			<unnamed name="&lt;destination.idt&gt;" helpstring="Translated IDT file" required="true"/>
+			<unnamed name="&lt;source.idt&gt;" helpstring="Original IDT file" required="true"/>
+			<unnamed name="&lt;catalogue.po&gt;" helpstring="PO catalog file with translations" required="true"/>
+			<named name="CP" helpstring="Output code page" type="string" required="false"/>
+		</runtime>
+		<reference object="ADODB.Stream"/>
+		<reference object="Scripting.FileSystemObject"/>
+		<script language="JScript" src="IDT.js"/>
+		<script language="JScript" src="PO.js"/>
 		<script language="JScript" src="String.js"/>
 		<script language="JScript"><![CDATA[
 			if (WScript.Arguments.Unnamed.Length < 3) {
@@ -475,77 +555,30 @@
 			}
 
 			var
-				fso     = WScript.CreateObject("Scripting.FileSystemObject"),
-				po_path = WScript.Arguments.Unnamed(2);
+				fso          = WScript.CreateObject("Scripting.FileSystemObject"),
+				idt_dst_path = WScript.Arguments.Unnamed(0);
 
 			try {
-				// Open and parse IDT files.
+				// Open and parse source IDT file and PO catalogue.
 				var
-					idt_src = new IDT(WScript.Arguments.Unnamed(0)),
-					idt_dst = new IDT(WScript.Arguments.Unnamed(1));
+					idt_src = new IDT(WScript.Arguments.Unnamed(1)),
+					po      = new POCatalog(WScript.Arguments.Unnamed(2));
 
-				// IDT files must represent identical table.
-				if (idt_src.columns.toString() != idt_dst.columns.toString() ||
-				    idt_src.types  .toString() != idt_dst.types  .toString() ||
-				    idt_src.table              != idt_dst.table              ||
-				    idt_src.key    .toString() != idt_dst.key    .toString())
-					throw new Error("IDT files are not compatible.");
-
-				// Build translations.
-				var trans = new Array();
+				// Translate records.
 				for (var key in idt_src.data) {
-					if (key in idt_dst.data) {
-						// We found a record in both IDT files.
-						for (var col in idt_src.types) {
-							if (idt_src.types[col].charAt(0).toUpperCase() == "L" && idt_src.data[key][col] != "" && idt_dst.data[key][col] != "")
-								trans[idt_src.data[key][col]] = idt_dst.data[key][col];
-						}
+					for (var col in idt_src.types) {
+						if (idt_src.types[col].charAt(0).toUpperCase() == "L" && idt_src.data[key][col] != "")
+							idt_src.data[key][col] = po.translate(idt_src.data[key][col]);
 					}
 				}
 
-				// Add header.
-				trans[""] =
-					"MIME-Version: 1.0\n" +
-					"Content-Type: text/plain; charset=UTF-8\n" +
-					"Content-Transfer-Encoding: 8bit\n" +
-					(WScript.Arguments.Named.Exists("L") ? "Language: "+ WScript.Arguments.Named("L") +"\n" : "");
-
-				// Open PO file in memory.
-				var po_dat_tmp = WScript.CreateObject("ADODB.Stream");
-				po_dat_tmp.Open();
-				try {
-					// PO is text file, uses Unix line breaks and UTF-8 encoding.
-					po_dat_tmp.Type = adTypeText;
-					po_dat_tmp.LineSeparator = adLF;
-					po_dat_tmp.Charset = "utf-8";
-
-					for (var rec in trans) {
-						po_dat_tmp.WriteText("msgid \""  + _PO(      rec ) + "\"", adWriteLine);
-						po_dat_tmp.WriteText("msgstr \"" + _PO(trans[rec]) + "\"", adWriteLine);
-						po_dat_tmp.WriteText("", adWriteLine);
-					}
-
-					// Write to file without UTF-8 BOM.
-					var po_dat = WScript.CreateObject("ADODB.Stream");
-					po_dat.Type = adTypeBinary;
-					po_dat.Mode = adModeReadWrite;
-					po_dat.Open();
-					try {
-						// Skip BOM (first three bytes) and copy the rest.
-						po_dat_tmp.Position = 3;
-						po_dat_tmp.CopyTo(po_dat);
-
-						po_dat.SaveToFile(po_path, adSaveCreateOverWrite);
-					} finally {
-						po_dat.Close();
-					}
-				} finally {
-					po_dat_tmp.Close();
-				}
+				if (WScript.Arguments.Named.Exists("CP"))
+					idt_src.codepage = parseInt(WScript.Arguments.Named("CP"), 10);
+				idt_src.save(idt_dst_path);
 			} catch (err) {
 				// In case of error, delete output file.
-				if (fso.FileExists(po_path))
-					fso.DeleteFile(po_path);
+				if (fso.FileExists(idt_dst_path))
+					fso.DeleteFile(idt_dst_path);
 
 				throw err;
 			}
@@ -576,8 +609,8 @@
 ** SIG ** MIIXmAYJKoZIhvcNAQcCoIIXiTCCF4UCAQExCzAJBgUr
 ** SIG ** DgMCGgUAMGcGCisGAQQBgjcCAQSgWTBXMDIGCisGAQQB
 ** SIG ** gjcCAR4wJAIBAQQQcAVhGs441BGiowAQS9NQkAIBAAIB
-** SIG ** AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFPA0F7YWxPGa
-** SIG ** aaKC2NHNwBJi9fvvoIISyDCCA+4wggNXoAMCAQICEH6T
+** SIG ** AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFBFS1Dc0BFx7
+** SIG ** 6vYeYiyIGC1cPCcBoIISyDCCA+4wggNXoAMCAQICEH6T
 ** SIG ** 6/t8xk5Z6kuad9QG/DswDQYJKoZIhvcNAQEFBQAwgYsx
 ** SIG ** CzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxXZXN0ZXJuIENh
 ** SIG ** cGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQK
@@ -731,31 +764,31 @@
 ** SIG ** OWQwCQYFKw4DAhoFAKBwMBAGCisGAQQBgjcCAQwxAjAA
 ** SIG ** MBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEEMBwGCisG
 ** SIG ** AQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3
-** SIG ** DQEJBDEWBBRlb6oTWBq6akVrgx27UItStgXvjjANBgkq
-** SIG ** hkiG9w0BAQEFAASCAQBJaRJTWHHN/P3WZVZb+RtVDElR
-** SIG ** bePmsJHgWffw3iOdfRFv6g1lMS8e6N7/DmY0pVMoJKZe
-** SIG ** l4THbgsPh6pDF7l473LnDS6B05WLbq9qxFMc8xtDbsLy
-** SIG ** 6HHWUfVDhlAV519egugXvA3XnDvVlboVgtpI++TVSg90
-** SIG ** w2qCOCzDLU1B9K+4f20QQvK0HMJQwND5wBRBj3TXALbM
-** SIG ** JKZthUbMN6Xc0nCppuv2luHTbE8/GZc6ZAMi0MckfaLf
-** SIG ** ii1bdx/2gOqQ0s/a06kiLuJpjQcs0cezf1+BsbNAGOcH
-** SIG ** E2uXa6RR5ZhDAdrIJkG38y/5FmNSLixEeD2VpsFXMrM6
-** SIG ** vN12aXCeoYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
+** SIG ** DQEJBDEWBBS+6SF1g2JrK4rp+O3L8qwB8cicdDANBgkq
+** SIG ** hkiG9w0BAQEFAASCAQAUJ11IjJjmGNrCZkBHUPzPUspV
+** SIG ** 9z7eS08u30ORQ4Rl9otiIg4HJUeEfnQyG2O3w1xmOvwJ
+** SIG ** w1qeAgNttl4+Bj2mUBY8QFLy0HubXMLEPQBDTZ7f/pSg
+** SIG ** yYE+pSqciCGCYrAFWkucH/ui0S/gfxZnBbM9K1AjRDRW
+** SIG ** B9oMbRx9yY2URqHachNKZ+LTGBPhVuiLy245Nw4uuLe8
+** SIG ** i9bX2kEV8XPUSanko0mtY7h06b4n2b90Buby+4TId9hC
+** SIG ** BerBnjrAbYS0c+Ra3GMURtCbGbAzmg8ixR/kg0IPF1wu
+** SIG ** QNqrhnw2yWJXhnTEZm5HPQVYISl8QkO3TFcfHBxkb/Oe
+** SIG ** QRR/NYwboYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
 ** SIG ** AgEBMHIwXjELMAkGA1UEBhMCVVMxHTAbBgNVBAoTFFN5
 ** SIG ** bWFudGVjIENvcnBvcmF0aW9uMTAwLgYDVQQDEydTeW1h
 ** SIG ** bnRlYyBUaW1lIFN0YW1waW5nIFNlcnZpY2VzIENBIC0g
 ** SIG ** RzICEA7P9DjI/r81bgTYapgbGlAwCQYFKw4DAhoFAKBd
 ** SIG ** MBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZI
-** SIG ** hvcNAQkFMQ8XDTE2MDkxNjA3MjE0OVowIwYJKoZIhvcN
-** SIG ** AQkEMRYEFIj9RVeKG8Hl8qqiSdovh558lv89MA0GCSqG
-** SIG ** SIb3DQEBAQUABIIBAB1ael8+RXKwxaqXerbsR197Skc1
-** SIG ** 30KCTlLd93OVQYBiXZ3uV0HQ9+tQhHEc8+xcBUuT7QX3
-** SIG ** m8DmdxM8detXbEzT5CqXtsdxF83TxTIU1Ps59KJdsJvM
-** SIG ** OPPyx5S4izd3whRSgGDtsPbocFJYy0YARYEUVGwf4Kc/
-** SIG ** bKqebNaQpegur/Ani2G2ossA/ohV+Nrs/7Y1E7zbXW91
-** SIG ** WWjVXf2WLiWgyFHmw6Jf5TaOX7AZBJAvLn2yRBTG5Wsi
-** SIG ** WDgmvqYimPJYF3fjm0y8jggpQfKqKQd80xrIlE61RmDt
-** SIG ** 4ratGN7hPoJe+RxndAtJCjLIsvpKKkTiaPDtqum+1yyV
-** SIG ** bSdt9G0=
+** SIG ** hvcNAQkFMQ8XDTE2MDkxNjEyMzgwM1owIwYJKoZIhvcN
+** SIG ** AQkEMRYEFASd3svY6QexmPrwyTgYM37i8CbtMA0GCSqG
+** SIG ** SIb3DQEBAQUABIIBAA5YzP22hUvXvFxoEB/NGRSxYN1r
+** SIG ** ruCy/XfTOs6MaML1by7TpUR0ID6NxEibSEiL8LdjKl1F
+** SIG ** eQUksNz3i7knlXzjbt76IWJIwszJg1kfhvpnBOk+lIW+
+** SIG ** Yl75P+Is3XO/6B7W2S9zon8qlLg8aK3pjBvq/bCfhqrB
+** SIG ** jY8IbgTY4nv5onMF4WaC5/MXI6/N2Eb6RWuH2Ywd7xlk
+** SIG ** qiahhIey5Z8IZLuEVAH+PiZV89wf23t/OnmhKcgkNwHU
+** SIG ** 7fe8PUq8H+2LB+kA43JWmgDoy5rjTxgr6u/KGBIn4wVg
+** SIG ** +WqvhbRk/EF994ZtE5vMg4lqMTOiUmvJoTJVOZd6pQlL
+** SIG ** K7/akzU=
 </signature>
 </package>

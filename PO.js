@@ -1,6 +1,6 @@
-﻿/*
+/*
     Copyright 1991-2015 Amebis
-    Copyright 2016 GÉANT
+    Copyright 2016 G�ANT
 
     This file is part of MSIBuild.
 
@@ -19,17 +19,22 @@
 */
 
 /*@cc_on @*/
-/*@if (! @_escapeIDT_JS__) @*/
-/*@set @_escapeIDT_JS__ = true @*/
+/*@if (! @_escapePO_JS__) @*/
+/*@set @_escapePO_JS__ = true @*/
 
-var escapeIDT_stat = null;
-function escapeIDT(str)
+
+var escapePO_stat = null;
+function escapePO(str)
 {
-	if (!escapeIDT_stat) {
-		escapeIDT_stat = {
-			"re_lf":     new RegExp("\n", "g"),
-			"re_cr":     new RegExp("\r", "g"),
-			"re_tab":    new RegExp("\t", "g")
+	if (!escapePO_stat) {
+		escapePO_stat = {
+			"re_bslash": new RegExp("\\\\", "g"),
+			"re_bs":     new RegExp("\b",   "g"),
+			"re_ff":     new RegExp("\f",   "g"),
+			"re_lf":     new RegExp("\n",   "g"),
+			"re_cr":     new RegExp("\r",   "g"),
+			"re_tab":    new RegExp("\t",   "g"),
+			"re_quot":   new RegExp("\"",   "g")
 		};
 	}
 
@@ -40,18 +45,23 @@ function escapeIDT(str)
 		default:          try { str = str.toString(); } catch (err) { return null; }
 	}
 
-	return str.replace(escapeIDT_stat.re_lf, "\\n").replace(escapeIDT_stat.re_cr, "\\r").replace(escapeIDT_stat.re_tab, "\\t");
+	return str.replace(escapePO_stat.re_bslash, "\\\\").replace(escapePO_stat.re_bs, "\\b").replace(escapePO_stat.re_ff, "\\f").replace(escapePO_stat.re_lf, "\\n").replace(escapePO_stat.re_cr, "\\r").replace(escapePO_stat.re_tab, "\\t").replace(escapePO_stat.re_quot, "\\\"");
 }
 
 
-var unescapeIDT_stat = null;
-function unescapeIDT(str)
+var unescapePO_stat = null;
+function unescapePO(str)
 {
-	if (!unescapeIDT_stat) {
-		unescapeIDT_stat = {
-			"re_lf":     new RegExp("\\\\n", "g"),
-			"re_cr":     new RegExp("\\\\r", "g"),
-			"re_tab":    new RegExp("\\\\t", "g")
+	if (!unescapePO_stat) {
+		unescapePO_stat = {
+			"re_bslash": new RegExp("\\\\\\\\", "g"),
+			"re_bs":     new RegExp("\\\\b",    "g"),
+			"re_ff":     new RegExp("\\\\f",    "g"),
+			"re_lf":     new RegExp("\\\\n",    "g"),
+			"re_cr":     new RegExp("\\\\r",    "g"),
+			"re_tab":    new RegExp("\\\\t",    "g"),
+			"re_apost":  new RegExp("\\\\\\\'", "g"),
+			"re_quot":   new RegExp("\\\\\\\"", "g")
 		};
 	}
 
@@ -62,128 +72,206 @@ function unescapeIDT(str)
 		default:          try { str = str.toString(); } catch (err) { return null; }
 	}
 
-	return str.replace(unescapeIDT_stat.re_lf, "\n").replace(unescapeIDT_stat.re_cr, "\r").replace(unescapeIDT_stat.re_tab, "\t");
+	return str.replace(unescapePO_stat.re_bslash, "\\").replace(unescapePO_stat.re_bs, "\b").replace(unescapePO_stat.re_ff, "\f").replace(unescapePO_stat.re_lf, "\n").replace(unescapePO_stat.re_cr, "\r").replace(unescapePO_stat.re_tab, "\t").replace(unescapePO_stat.re_apost, "\'").replace(unescapePO_stat.re_quot, "\"");
 }
 
 
-function IDT(path)
+function POCatalog()
 {
-	// Open IDT file.
-	var
-		dat = new ActiveXObject("ADODB.Stream");
+	this.charset = "utf-8";
+	this.data = new Array();
 
-	dat.Open();
-	try {
-		// IDT is text file, uses MSDOS line breaks and Windows 1252 header.
-		dat.Type = adTypeText;
-		dat.LineSeparator = adCRLF;
-		dat.Charset = "windows-1252";
+	if (arguments.length) {
+		var
+			path = arguments[0];
 
-		// Load file.
-		dat.LoadFromFile(path);
+		// Open file.
+		var dat = new ActiveXObject("ADODB.Stream");
+		dat.Open();
+		try {
+			// PO catalogue is text file, uses Unix line breaks and UTF-8.
+			dat.Type = adTypeText;
+			dat.LineSeparator = adLF;
+			dat.Charset = this.charset;
 
-		var parseRow = function(row) {
-			for (var col in row)
-				row[col] = CRLF2LF(unescapeIDT(row[col]));
-			return row;
-		}
+			// Load file.
+			dat.LoadFromFile(path);
 
-		// Parse column names.
-		this.columns = parseRow(dat.ReadText(adReadLine).split("\t"));
-		
-		// Parse column types.
-		this.types = parseRow(dat.ReadText(adReadLine).split("\t"));
-		
-		// Parse meta info
-		var line = parseRow(dat.ReadText(adReadLine).split("\t")), i = 0;
-		this.codepage = parseInt(line[i], 10);
-		if (isNaN(this.codepage)) this.codepage = 1252; else i++;
-		this.table = line[i++];
-		this.key = line.slice(i);
-		for (var i in this.key) {
-			for (var j in this.columns) {
-				if (this.key[i] == this.columns[j]) {
-					this.key[i] = j;
-					break;
+			// Prepare regular expressions for catalogue parsing.
+			var regexp = {
+				"fuzzy":   new RegExp("^\\s*#,\\s*fuzzy", "i"),
+				"comment": new RegExp("^\\s*#", ""),
+				"record":  new RegExp("^\\s*(\\w*)\\s*\"(.*)\"\\s*$", "")
+			};
+
+			var getNext = function() {
+				var
+					id = null,
+					rec = new Array();
+
+				while (!dat.EOS) {
+					var
+						s = Trim(dat.ReadText(adReadLine)),
+						m;
+
+					// The line is empty => end of record.
+					if (s == "" && "msgid" in rec)
+						return rec;
+
+					// The record is marked as "fuzzy".
+					if (s.search(regexp.fuzzy) != -1) {
+						rec["fuzzy"] = true;
+						continue;
+					}
+
+					// Concatenate comments.
+					if (s.search(regexp.comment) != -1) {
+						if ("#" in rec)
+							rec["#"] += s + "\n";
+						else
+							rec["#"]  = s + "\n";
+						continue;
+					}
+
+					m = s.match(regexp.record);
+					if (m) {
+						// Record found.
+						if (m[1] != "")
+							id = unescapePO(new String(m[1]));
+						if (id in rec)
+							rec[id] += unescapePO(new String(m[2]));
+						else
+							rec[id]  = unescapePO(new String(m[2]));
+						continue;
+					}
+				}
+
+				return "msgid" in rec ? rec : null;
+			}
+
+			// Read header record.
+			var rec = getNext();
+			if (rec == null)
+				return;
+			if (rec.msgid == "") {
+				// Parse charset.
+				m = rec.msgstr.match(new RegExp("^\\s*Content-Type\\s*:\\s*([-\\w]+/[-\\w]+)\\s*(;\\s*charset\\s*=\\s*([-\\w]+))?$", "im"));
+				if (m && m.length >= 4) {
+					this.charset = m[3];
+
+					// Rewind and reconfigure code page.
+					dat.Position = 0;
+					dat.Charset = this.charset;
+
+					// Re-read header.
+					rec = getNext();
 				}
 			}
+
+			// Load header and all the records.
+			this.push(rec.msgid, rec.msgstr, rec.fuzzy, "#" in rec ? rec["#"] : null);
+			while ((rec = getNext()) != null)
+				this.push(rec.msgid, rec.msgstr, rec.fuzzy, "#" in rec ? rec["#"] : null);
+		} finally {
+			dat.Close();
 		}
-
-		// Rewind and reconfigure code page.
-		dat.Position = 0;
-		dat.Charset = CodePageToId(this.codepage);
-
-		// Skip header.
-		dat.SkipLine();
-		dat.SkipLine();
-		dat.SkipLine();
-
-		// Parse data and build associative array.
-		this.data = new Array();
-		this.linenum = new Array();
-		var linenum = 4;
-		while (!dat.EOS) {
-			line = parseRow(dat.ReadText(adReadLine).split("\t"));
-			var key = new Array();
-			for (var i in this.key)
-				key.push(line[this.key[i]]);
-			this.data[key] = line;
-			this.linenum[key] = linenum++;
-		}
-	} finally {
-		dat.Close();
 	}
 }
 
 
-IDT.prototype.save = function(path)
+POCatalog.prototype.push = function(key, trans, fuzzy, comment)
 {
-	// Build output IDT file in memory.
-	var dat = WScript.CreateObject("ADODB.Stream");
+	var rec = {
+		"msgstr" : trans,
+		"fuzzy"  : fuzzy ? true : false
+	};
+	if (comment)
+		rec["#"] = comment;
+
+	this.data[key] = rec;
+}
+
+
+POCatalog.prototype.translate = function(key)
+{
+	if (!(key in this.data)) {
+		// No translation found.
+		return key;
+	}
+
+	var rec = this.data[key];
+	if (rec.msgstr == "" || rec.fuzzy) {
+		// Translation is blank (untranslated) or fuzzy.
+		return key;
+	}
+
+	return rec.msgstr;
+}
+
+
+POCatalog.prototype.save = function(path)
+{
+	// Open PO file in memory.
+	var dat = new ActiveXObject("ADODB.Stream");
 	dat.Open();
 	try {
-		// IDT is text file, uses MSDOS line breaks, and specific encoding (optional).
+		// PO is text file, uses Unix line breaks and given encoding.
 		dat.Type = adTypeText;
-		dat.LineSeparator = adCRLF;
-		if ("codepage" in this)
-			dat.Charset = CodePageToId(this.codepage);
+		dat.LineSeparator = adLF;
+		dat.Charset = this.charset;
 
-		var buildRow = function(row) {
-			for (var col in row)
-				row[col] = escapeIDT(LF2CRLF(row[col]));
-			return row;
+		var writeRec = function(key, rec) {
+			if (rec.fuzzy)
+				dat.WriteText("#, fuzzy", adWriteLine);
+
+			if ("#" in rec)
+				dat.WriteText(rec["#"], adWriteLine);
+
+			dat.WriteText("msgid \""  + escapePO(key       ) + "\"", adWriteLine);
+			dat.WriteText("msgstr \"" + escapePO(rec.msgstr) + "\"", adWriteLine);
+			dat.WriteText("", adWriteLine);
 		}
 
-		// Write header.
-		dat.WriteText(buildRow(this.columns).join("\t"), adWriteLine);
-		dat.WriteText(buildRow(this.types  ).join("\t"), adWriteLine);
-		var meta = new Array();
-		if (WScript.Arguments.Named.Exists("CP"))
-			meta.push(WScript.Arguments.Named("CP"));
-		meta.push(this.table);
-		for (var key in this.key)
-			meta.push(this.columns[this.key[key]]);
-		dat.WriteText(buildRow(meta).join("\t"), adWriteLine);
+		// Write header first.
+		if ("" in this.data)
+			writeRec("", this.data[""]);
 
-		// Save data.
-		for (var key in this.data)
-			dat.WriteText(buildRow(this.data[key]).join("\t"), adWriteLine);
+		// Write records, skip header.
+		for (var key in this.data) {
+			if (key == "") continue;
+			writeRec(key, this.data[key]);
+		}
 
-		// Save to file.
-		dat.SaveToFile(path, adSaveCreateOverWrite);
+		if (this.charset.toLowerCase() == "utf-8") {
+			// Write to file without UTF-8 BOM.
+			var dat_nobom = new ActiveXObject("ADODB.Stream");
+			dat_nobom.Type = adTypeBinary;
+			dat_nobom.Mode = adModeReadWrite;
+			dat_nobom.Open();
+			try {
+				// Skip BOM (first three bytes) and copy the rest.
+				dat.Position = 3;
+				dat.CopyTo(dat_nobom);
+
+				dat_nobom.SaveToFile(path, adSaveCreateOverWrite);
+			} finally {
+				dat_nobom.Close();
+			}
+		} else {
+			dat.SaveToFile(path, adSaveCreateOverWrite);
+		}
 	} finally {
 		dat.Close();
 	}
 }
-
 /*@end @*/
 
 // SIG // Begin signature block
 // SIG // MIIXmAYJKoZIhvcNAQcCoIIXiTCCF4UCAQExCzAJBgUr
 // SIG // DgMCGgUAMGcGCisGAQQBgjcCAQSgWTBXMDIGCisGAQQB
 // SIG // gjcCAR4wJAIBAQQQEODJBs441BGiowAQS9NQkAIBAAIB
-// SIG // AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFDK3v7xPfQA4
-// SIG // KZZoKH2KE80Twx3HoIISyDCCA+4wggNXoAMCAQICEH6T
+// SIG // AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFIWWycuo7hWC
+// SIG // XD4eXBJhT5qNXjhRoIISyDCCA+4wggNXoAMCAQICEH6T
 // SIG // 6/t8xk5Z6kuad9QG/DswDQYJKoZIhvcNAQEFBQAwgYsx
 // SIG // CzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxXZXN0ZXJuIENh
 // SIG // cGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQK
@@ -337,30 +425,30 @@ IDT.prototype.save = function(path)
 // SIG // OWQwCQYFKw4DAhoFAKBwMBAGCisGAQQBgjcCAQwxAjAA
 // SIG // MBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEEMBwGCisG
 // SIG // AQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3
-// SIG // DQEJBDEWBBT3K5DzXHaaaztTUWYcKscHz5goHTANBgkq
-// SIG // hkiG9w0BAQEFAASCAQBCIQ7y8ZVmNZke0OJsfe38h/25
-// SIG // VCuB1bCSqiqF7+el2gXbKcQSMSpbF+PqG6HjtzMiFncJ
-// SIG // myApTJ+AyBh8ScoRwa+XoOeIV+TPwW2UKy1FUUJ7TAi7
-// SIG // /R7LhYq2xuhcAt6S0kxXy/qDJhhhPSXovi1d1dlNHINT
-// SIG // wPy9yPeTqD8eSug3xYvt6rsKtQEqJyITIjeU4YIQWDDw
-// SIG // UfdCLhybrtbvyZ881KICrkol/u3DzPF6L9CiHayFYXUO
-// SIG // ToJOGPiGOAedHLWFpFG0QdYZvQogtzZcYuFtZWbTx/ud
-// SIG // SSXr5BOydkUZ0qjAQoIWuUZbdhGfPoVGQOPUzQVChKYj
-// SIG // yn/1DQrfoYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
+// SIG // DQEJBDEWBBRu3FF9mP0st28sz6ozxdOz3hoXGjANBgkq
+// SIG // hkiG9w0BAQEFAASCAQAAwzjZxcGwor+hr9BV4ToMMRKE
+// SIG // Ev3JQ8MzzA//8Mcc7hMu8tk6EwmsyvvujWKd35ZDlI6z
+// SIG // 5+gL+efrY/oYgu+SMSFkPUEx0rNxophdRqA/kBJ3mYjI
+// SIG // iWjY4d5PMDMQLRZcIAEm/nHZVwVw8TEX4Llpl/YO7ZoG
+// SIG // /JGnkLyzDvP2HOmKu6zWj69F3ICx6HcTuzBbe8ipW/2Q
+// SIG // TU+3biVCqw9F664Rx4JELBBz0Vy21HEhEAG4nOLzc0wY
+// SIG // v+A5aGNKxvT1B6v86+NSwc2BRjthy+tZyY7i3d2mqoXE
+// SIG // CLtvqlCDhRgmsAEuTriiA1NoTfpTpTqcqEsalbherJGQ
+// SIG // ZPBwqeopoYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
 // SIG // AgEBMHIwXjELMAkGA1UEBhMCVVMxHTAbBgNVBAoTFFN5
 // SIG // bWFudGVjIENvcnBvcmF0aW9uMTAwLgYDVQQDEydTeW1h
 // SIG // bnRlYyBUaW1lIFN0YW1waW5nIFNlcnZpY2VzIENBIC0g
 // SIG // RzICEA7P9DjI/r81bgTYapgbGlAwCQYFKw4DAhoFAKBd
 // SIG // MBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZI
-// SIG // hvcNAQkFMQ8XDTE2MDkxNjEyMzczMlowIwYJKoZIhvcN
-// SIG // AQkEMRYEFHa81Osey4h4aGVWL2y16ek6c50BMA0GCSqG
-// SIG // SIb3DQEBAQUABIIBAIyk3446yLyAYUB/wxL7SYuRdyBQ
-// SIG // zVPGxWbW73lgTAPzWMqWVtkEOPEe1z6T1us5Ss9OFQ8g
-// SIG // P3VbDUfvIxNA2q0a2Z+GgS8tyrlQK1WswLdv11mmVmGa
-// SIG // c4+FG5pZu0KEHkzAhTfq6H6DPg+fz46OTCyxYaNIYzHp
-// SIG // azs8tyylmjFS9jEo57Fo+Px23ISqEmBsGVx8vEMY0+N7
-// SIG // UOh1sVj8XTHrZi9DHAvs+JX1o5XcYW+9tRiQshrXgba6
-// SIG // QVSb21e5G7lPMPWD1tGLfbCqKhDYqHFCy5RnQbfYaWTh
-// SIG // ZnjfmfQ9+/2MWbRdFNqscheuMcasYaEQWFsTiMV/p7D6
-// SIG // MP2TGpo=
+// SIG // hvcNAQkFMQ8XDTE2MDkxNjEyMzczNFowIwYJKoZIhvcN
+// SIG // AQkEMRYEFKRwj4RX4soe1EoFkdcak0yL5smOMA0GCSqG
+// SIG // SIb3DQEBAQUABIIBAB4JKKplFtYkF6cigGfevY4aPAIA
+// SIG // S1ygZPaknt16zruQbKcqSxs/tGYzgw/Af0s6mpZGv6Gn
+// SIG // FiyK8aQ+ZxHmNnxQzjEtggHRAuf7uRNwK63RNIDgz35I
+// SIG // 6vqHQnZjCOlFEUYHPxqjqTJFua6OOoWsmNNpWVc3KO4K
+// SIG // MzUVyA3wqtxc/N0eq6y5BOkB+WMkrz3Si896uHrwkm2f
+// SIG // 03qUwPDoJLCdVIrGfzf+ktIEPsCHYPDHk6s/tCI+o4gQ
+// SIG // OfKUsbzrVwmbdEK4HnNsu/hjCGs6sT2mjgysJWO6kFN/
+// SIG // K/57qEOBFIjRkzE8WZS/D4OmrUTR552WiiLUb16NOWgy
+// SIG // J+F5oIk=
 // SIG // End signature block
