@@ -359,6 +359,7 @@
 			<unnamed name="&lt;database.msi&gt;" helpstring="MSI database file" required="true"/>
 			<unnamed name="&lt;transform.mst&gt;" helpstring="MST file to add as a sub-storage" required="true"/>
 			<unnamed name="&lt;name&gt;" helpstring="Sub-storage name" required="true"/>
+			<named name="L" helpstring="Sub-storage represents localization transform" type="boolean" required="false"/>
 		</runtime>
 		<script language="JScript" src="MSI.js"/>
 		<script language="JScript" src="String.js"/>
@@ -391,57 +392,21 @@
 					throw new Error(err.number, "" + stream_path + ": " + err.description);
 				}
 
-				// Commit database
-				database.Commit();
-			} catch (err) {
-				// In case of error, delete output file.
-				if (fso.FileExists(msi_path))
-					fso.DeleteFile(msi_path);
+				if (WScript.Arguments.Named.Exists("L") && WScript.Arguments.Named("L") != false) {
+					// Get platform.
+					var
+						sumInfo   = database.SummaryInformation(1),
+						template  = sumInfo.Property(PID_TEMPLATE),
+						idx_delim = template.indexOf(";"),
+						platform  = idx_delim >= 0 ? template.substring(0, idx_delim + 1) : ";",
+						languages = idx_delim >= 0 ? template.substring(idx_delim + 1).split(new RegExp("\\s*,\\s*")) : new Array();
 
-				throw err;
-			}
-
-			WScript.Quit(0);
-		]]></script>
-	</job>
-	<job id="SetLangMST">
-		<runtime>
-			<description>Sets language transform MST list in MSI file.</description>
-			<unnamed name="&lt;database.msi&gt;" helpstring="MSI database file" required="true"/>
-			<unnamed name="&lt;name ...&gt;" helpstring="Sub-storage names of language transform MSTs" required="true"/>
-		</runtime>
-		<script language="JScript" src="MSI.js"/>
-		<script language="JScript" src="String.js"/>
-		<script language="JScript"><![CDATA[
-			if (WScript.Arguments.Unnamed.Length < 2) {
-				WScript.Arguments.ShowUsage();
-				WScript.Quit(1);
-			}
-
-			var
-				fso      = WScript.CreateObject("Scripting.FileSystemObject"),
-				msi_path = WScript.Arguments.Unnamed(0);
-
-			try {
-				var
-					installer   = WScript.CreateObject("WindowsInstaller.Installer"),
-					database    = installer.OpenDatabase(msi_path, msiOpenDatabaseModeTransact),
-					list        = "";
-
-				// Prepare list of language transforms.
-				for (var i = 1, n = WScript.Arguments.Unnamed.Length; i < n; i++)
-					list += (i > 1 ? "," : "") + WScript.Arguments.Unnamed(i);
-
-				// Get platform.
-				var
-					sumInfo   = database.SummaryInformation(1),
-					template  = sumInfo.Property(PID_TEMPLATE),
-					idx_delim = template.indexOf(";"),
-					platform  = idx_delim >= 0 ? template.substring(0, idx_delim + 1) : ";";
-
-				// Set template property.
-				sumInfo.Property(PID_TEMPLATE) = platform + list;
-				sumInfo.Persist();
+					languages.push(stream_name);
+					
+					// Set template property.
+					sumInfo.Property(PID_TEMPLATE) = platform + languages.join(",");
+					sumInfo.Persist();
+				}
 
 				// Commit database
 				database.Commit();
@@ -670,8 +635,8 @@
 ** SIG ** MIIXmAYJKoZIhvcNAQcCoIIXiTCCF4UCAQExCzAJBgUr
 ** SIG ** DgMCGgUAMGcGCisGAQQBgjcCAQSgWTBXMDIGCisGAQQB
 ** SIG ** gjcCAR4wJAIBAQQQcAVhGs441BGiowAQS9NQkAIBAAIB
-** SIG ** AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFPyqg1blxmZh
-** SIG ** YaA24HdU6DcuolSfoIISyDCCA+4wggNXoAMCAQICEH6T
+** SIG ** AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFGxsEDDwj2Pd
+** SIG ** RX62iu+ffB2lgk5HoIISyDCCA+4wggNXoAMCAQICEH6T
 ** SIG ** 6/t8xk5Z6kuad9QG/DswDQYJKoZIhvcNAQEFBQAwgYsx
 ** SIG ** CzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxXZXN0ZXJuIENh
 ** SIG ** cGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQK
@@ -825,31 +790,31 @@
 ** SIG ** OWQwCQYFKw4DAhoFAKBwMBAGCisGAQQBgjcCAQwxAjAA
 ** SIG ** MBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEEMBwGCisG
 ** SIG ** AQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3
-** SIG ** DQEJBDEWBBQK1AFx+KTksMdng2XH8zqIl5sa0TANBgkq
-** SIG ** hkiG9w0BAQEFAASCAQAatsBo1sDSD2iglC5/t/YTzoOx
-** SIG ** 3bMS78pZdRMJgsd2HuTLAoIR+EEI9oxYzcxEGhQVcwX6
-** SIG ** HbgzBpspzEJL8g69z8GniztNxas3H0+mI+PuKZt+h0l+
-** SIG ** P3BxiZVe7ai8FkcVhR0H4hZNldDV+rRHt7mKtxrybQOr
-** SIG ** aHS8x6yMH8B6SxdOeMyUd/TkW4q17bh25Zu0a5Fzjqmx
-** SIG ** MJbrzvgqpA9v/ltLyqJpcmoE6HIOSJc5QxKTdBcNmzpb
-** SIG ** OJ5QS3AmMBX/NjLY/WRqCok2pXytFrTlcmCmnRWjs54Y
-** SIG ** DB0mezF5VaqHUp4bxxlLcXuqb25vV6qy8nlN1ie+QtJL
-** SIG ** aOgJ/5OpoYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
+** SIG ** DQEJBDEWBBQezyvt2lRzIQv/UAefIlt9BadV+DANBgkq
+** SIG ** hkiG9w0BAQEFAASCAQB2VWyTruHocXnQ/UON0JswVU6r
+** SIG ** knK68vBdnrwBPBtuM+rHHUxZufaGCjvEvmW7IsfyuREA
+** SIG ** mLcKo8QsHx2NT8QACyHwvvRddTzZg847nI0FaZ6KVURs
+** SIG ** kkVH2mF68dmjdVsJPF2wXtIB5XBYMxipHrSrgi63xd7Z
+** SIG ** U6CsuOHoLYgxPWz49cMQXsslQyvPBJAF2MTWBYrU3H33
+** SIG ** tCUedMbLne1JAR8lAsmo8zPNQxPpgJAgE9qS5A2wm+2a
+** SIG ** ccmk5tXteCguffMxXmyRH8dvMWFPxP05mQN9vgee0zpS
+** SIG ** sdCTz///GEqqp3HpOoSfYSLfvE9F9W+x1BDlHgR8JuXb
+** SIG ** Hs4Y0QuqoYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
 ** SIG ** AgEBMHIwXjELMAkGA1UEBhMCVVMxHTAbBgNVBAoTFFN5
 ** SIG ** bWFudGVjIENvcnBvcmF0aW9uMTAwLgYDVQQDEydTeW1h
 ** SIG ** bnRlYyBUaW1lIFN0YW1waW5nIFNlcnZpY2VzIENBIC0g
 ** SIG ** RzICEA7P9DjI/r81bgTYapgbGlAwCQYFKw4DAhoFAKBd
 ** SIG ** MBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZI
-** SIG ** hvcNAQkFMQ8XDTE2MDkxOTA5MjUyMlowIwYJKoZIhvcN
-** SIG ** AQkEMRYEFOs5wO0WTiUofmt6BIjQukFVNedaMA0GCSqG
-** SIG ** SIb3DQEBAQUABIIBAEYwehr/b+AqLlCMPfLETZp8ZScC
-** SIG ** SxwAUc0pOpPY3qbZfvoV+CK1M6hOza5jmdi3owHKLCor
-** SIG ** Nl5hsZbnCm1SjOZ9q8fkl11Ps6m2KGH/lZEOdztSAHy0
-** SIG ** Cxy9fIPvxoOBbuQf4sLDR4W2ylRMv+Y67pFHv2Elg+f5
-** SIG ** MDz8OK+zUuccnYDceFI7H5XuKH72tSYeITcKb1iJuLfi
-** SIG ** B/8npGJnXL47vtyKacmykJ2sVS524DpQlqMSQEIXEz4U
-** SIG ** wfMhpshVydYTNVrgRRO9mov/k2VnJEl2H0BRcsXPgMUF
-** SIG ** Q2cx24QT526egKtEU0ldyN0nz+/g4/+iBAf2YfyXYfDK
-** SIG ** 2EBZSxI=
+** SIG ** hvcNAQkFMQ8XDTE2MDkxOTEwNDkzMlowIwYJKoZIhvcN
+** SIG ** AQkEMRYEFLzxEiyC8n4xQiHPHHtoriqfuMAEMA0GCSqG
+** SIG ** SIb3DQEBAQUABIIBAExS1Rml0afETuR8mdIXgLUnqGSq
+** SIG ** /fX4lZIgD5hEEYxRp9f2s/64L47wm1IKDguGZltvsNaB
+** SIG ** +kCAAlv6Qner4pvtJ6pvP4wablkBxru68kcsTovWshs6
+** SIG ** BZ1RvjT75Hz+cLx6Gdw+nXKcdpMXD5vrGzP50MGGhtaG
+** SIG ** rXad24A8s7cWIpL/T2WvtRvLmxdM6UFDPIF8em5G18mJ
+** SIG ** RlDWqOh04Z8T3u+FS6nRzEWqqbJcsbcmwNP5SOwRig4g
+** SIG ** WsUlsGFf0cXZ8Zv7vfIV/xUiAMql5GsrkRZUBljU80S1
+** SIG ** i4ZXY1NakAKjvFQ9zRifSU5jNnuNa8KIBHlDS3GZ93QL
+** SIG ** iZ/ZPvE=
 </signature>
 </package>
