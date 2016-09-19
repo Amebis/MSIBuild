@@ -192,6 +192,12 @@ POCatalog.prototype.push = function(key, trans, fuzzy, comment)
 }
 
 
+POCatalog.prototype.search = function(key)
+{
+	return (key in this.data) ? this.data[key] : null;
+}
+
+
 POCatalog.prototype.translate = function(key)
 {
 	if (!(key in this.data)) {
@@ -270,8 +276,8 @@ POCatalog.prototype.save = function(path)
 // SIG // MIIXmAYJKoZIhvcNAQcCoIIXiTCCF4UCAQExCzAJBgUr
 // SIG // DgMCGgUAMGcGCisGAQQBgjcCAQSgWTBXMDIGCisGAQQB
 // SIG // gjcCAR4wJAIBAQQQEODJBs441BGiowAQS9NQkAIBAAIB
-// SIG // AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFIWWycuo7hWC
-// SIG // XD4eXBJhT5qNXjhRoIISyDCCA+4wggNXoAMCAQICEH6T
+// SIG // AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFOIhxP5qxoG4
+// SIG // L/0Jpyvl/dheNPSioIISyDCCA+4wggNXoAMCAQICEH6T
 // SIG // 6/t8xk5Z6kuad9QG/DswDQYJKoZIhvcNAQEFBQAwgYsx
 // SIG // CzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxXZXN0ZXJuIENh
 // SIG // cGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQK
@@ -425,30 +431,30 @@ POCatalog.prototype.save = function(path)
 // SIG // OWQwCQYFKw4DAhoFAKBwMBAGCisGAQQBgjcCAQwxAjAA
 // SIG // MBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEEMBwGCisG
 // SIG // AQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3
-// SIG // DQEJBDEWBBRu3FF9mP0st28sz6ozxdOz3hoXGjANBgkq
-// SIG // hkiG9w0BAQEFAASCAQAAwzjZxcGwor+hr9BV4ToMMRKE
-// SIG // Ev3JQ8MzzA//8Mcc7hMu8tk6EwmsyvvujWKd35ZDlI6z
-// SIG // 5+gL+efrY/oYgu+SMSFkPUEx0rNxophdRqA/kBJ3mYjI
-// SIG // iWjY4d5PMDMQLRZcIAEm/nHZVwVw8TEX4Llpl/YO7ZoG
-// SIG // /JGnkLyzDvP2HOmKu6zWj69F3ICx6HcTuzBbe8ipW/2Q
-// SIG // TU+3biVCqw9F664Rx4JELBBz0Vy21HEhEAG4nOLzc0wY
-// SIG // v+A5aGNKxvT1B6v86+NSwc2BRjthy+tZyY7i3d2mqoXE
-// SIG // CLtvqlCDhRgmsAEuTriiA1NoTfpTpTqcqEsalbherJGQ
-// SIG // ZPBwqeopoYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
+// SIG // DQEJBDEWBBQv+v/IHFo0ikn0Oyg+0/kbYp+LYzANBgkq
+// SIG // hkiG9w0BAQEFAASCAQCA8tXTcsCRhT/fAQ86SQbjmM4A
+// SIG // qstaH7me1R9BrzZPp3WKU4m1Bkp1fFMOfw7KAmshhJSW
+// SIG // Njt0sytBHBfW3awalYFiizBbqQlDzTXkQ8wAfxx+BdOr
+// SIG // xsO/CiTHMEkR5fRjR8U0kPG3om0rkytzXR0jr9/xaEwh
+// SIG // YhD02bez1Cre9IQE5aS3ZUssygM0XxhxVTotWnJmnmHu
+// SIG // wMaD8uMi7Pfyv1hqmkPwf5uOoOMAPC7gKUX39KF6Wm5q
+// SIG // LmSRBNxCaUxMqUhith7scDHvEL0i6JKSq+wZwuEJn9Ev
+// SIG // M0abwe4ltBPnFXagR+dmVbKboJuGTQ4ThKciofkGevlv
+// SIG // qo9zwpoloYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
 // SIG // AgEBMHIwXjELMAkGA1UEBhMCVVMxHTAbBgNVBAoTFFN5
 // SIG // bWFudGVjIENvcnBvcmF0aW9uMTAwLgYDVQQDEydTeW1h
 // SIG // bnRlYyBUaW1lIFN0YW1waW5nIFNlcnZpY2VzIENBIC0g
 // SIG // RzICEA7P9DjI/r81bgTYapgbGlAwCQYFKw4DAhoFAKBd
 // SIG // MBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZI
-// SIG // hvcNAQkFMQ8XDTE2MDkxNjEyMzczNFowIwYJKoZIhvcN
-// SIG // AQkEMRYEFKRwj4RX4soe1EoFkdcak0yL5smOMA0GCSqG
-// SIG // SIb3DQEBAQUABIIBAB4JKKplFtYkF6cigGfevY4aPAIA
-// SIG // S1ygZPaknt16zruQbKcqSxs/tGYzgw/Af0s6mpZGv6Gn
-// SIG // FiyK8aQ+ZxHmNnxQzjEtggHRAuf7uRNwK63RNIDgz35I
-// SIG // 6vqHQnZjCOlFEUYHPxqjqTJFua6OOoWsmNNpWVc3KO4K
-// SIG // MzUVyA3wqtxc/N0eq6y5BOkB+WMkrz3Si896uHrwkm2f
-// SIG // 03qUwPDoJLCdVIrGfzf+ktIEPsCHYPDHk6s/tCI+o4gQ
-// SIG // OfKUsbzrVwmbdEK4HnNsu/hjCGs6sT2mjgysJWO6kFN/
-// SIG // K/57qEOBFIjRkzE8WZS/D4OmrUTR552WiiLUb16NOWgy
-// SIG // J+F5oIk=
+// SIG // hvcNAQkFMQ8XDTE2MDkxOTA5MjQzM1owIwYJKoZIhvcN
+// SIG // AQkEMRYEFN0EJzHhISVqw9lvWoaKXBsGPpKhMA0GCSqG
+// SIG // SIb3DQEBAQUABIIBAAwhYaJpWoecig5IdF4Lh5hTGJ0m
+// SIG // hJwoXe+hgvbU7qJbBKQWbP+iVSLmwRU7Er7To0sf/vrA
+// SIG // SoFOTKR52GHvy/718YA18c2xvGJldnqfMmzS1RkuwlrL
+// SIG // 1Ca2/QvBmDvVHgZ8eHtVJ9GMpGnmtr3l30Wfs7PJy5XN
+// SIG // g4i8E1manA41ohAuzrHYbrpW1h9D69os64oWh2Ey0s6O
+// SIG // a3fcV/FjdnM3q7v4UK516KsdzECnGEc6IHdpbDw4ZYap
+// SIG // /VkHQ4lFhDqKv9bfG5yyjE0al1p6fkAc5GTdIe+P5KF9
+// SIG // /5X3ez70MA/HQX7XvSLmHAI5tBjjbGtPv94VdOn2Po2N
+// SIG // S+OQOx4=
 // SIG // End signature block
