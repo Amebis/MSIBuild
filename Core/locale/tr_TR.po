@@ -1,383 +1,874 @@
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MSIBuild Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-19 11:30+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
+"Language-Team: Turkish (https://www.transifex.com/eduroam_devel/teams/11799/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:4
+#: en_US.Win32.Release.ActionText-2.idtx:4 en_US.x64.Debug.ActionText-2.idtx:4
+#: en_US.x64.Release.ActionText-2.idtx:4
 msgid "Advertising application"
 msgstr "Uygulama yayımlanıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:5
+#: en_US.Win32.Release.ActionText-2.idtx:5 en_US.x64.Debug.ActionText-2.idtx:5
+#: en_US.x64.Release.ActionText-2.idtx:5
 msgid "Allocating registry space"
 msgstr "Kayıt alanı ayrılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:5
+#: en_US.Win32.Release.ActionText-2.idtx:5 en_US.x64.Debug.ActionText-2.idtx:5
+#: en_US.x64.Release.ActionText-2.idtx:5
 msgid "Free space: [1]"
 msgstr "Boş alan: [1]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:6
+#: en_US.Win32.Release.ActionText-2.idtx:6 en_US.x64.Debug.ActionText-2.idtx:6
+#: en_US.x64.Release.ActionText-2.idtx:6
 msgid "Searching for installed applications"
 msgstr "Yüklü uygulamalar aranıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:6
+#: en_US.Win32.Release.ActionText-2.idtx:6 en_US.x64.Debug.ActionText-2.idtx:6
+#: en_US.x64.Release.ActionText-2.idtx:6
 msgid "Property: [1], Signature: [2]"
 msgstr "Özellik: [1], İmza: [2]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:7
+#: en_US.Win32.Release.ActionText-2.idtx:7 en_US.x64.Debug.ActionText-2.idtx:7
+#: en_US.x64.Release.ActionText-2.idtx:7
 msgid "Binding executables"
 msgstr "Çalıştırılabilir dosyalar bağlanıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:7
+#: en_US.Win32.Debug.ActionText-2.idtx:54
+#: en_US.Win32.Release.ActionText-2.idtx:7
+#: en_US.Win32.Release.ActionText-2.idtx:54
+#: en_US.x64.Debug.ActionText-2.idtx:7 en_US.x64.Debug.ActionText-2.idtx:54
+#: en_US.x64.Release.ActionText-2.idtx:7
+#: en_US.x64.Release.ActionText-2.idtx:54
 msgid "File: [1]"
 msgstr "Dosya: [1]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:8
+#: en_US.Win32.Debug.ActionText-2.idtx:52
+#: en_US.Win32.Release.ActionText-2.idtx:8
+#: en_US.Win32.Release.ActionText-2.idtx:52
+#: en_US.x64.Debug.ActionText-2.idtx:8 en_US.x64.Debug.ActionText-2.idtx:52
+#: en_US.x64.Release.ActionText-2.idtx:8
+#: en_US.x64.Release.ActionText-2.idtx:52
 msgid "Searching for qualifying products"
 msgstr "Yenki veren uygulamalar aranıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:9
+#: en_US.Win32.Debug.ActionText-2.idtx:10
+#: en_US.Win32.Debug.ActionText-2.idtx:15
+#: en_US.Win32.Release.ActionText-2.idtx:9
+#: en_US.Win32.Release.ActionText-2.idtx:10
+#: en_US.Win32.Release.ActionText-2.idtx:15
+#: en_US.x64.Debug.ActionText-2.idtx:9 en_US.x64.Debug.ActionText-2.idtx:10
+#: en_US.x64.Debug.ActionText-2.idtx:15 en_US.x64.Release.ActionText-2.idtx:9
+#: en_US.x64.Release.ActionText-2.idtx:10
+#: en_US.x64.Release.ActionText-2.idtx:15
 msgid "Computing space requirements"
 msgstr "Alan gereksinimleri hesaplanıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:11
+#: en_US.Win32.Release.ActionText-2.idtx:11
+#: en_US.x64.Debug.ActionText-2.idtx:11 en_US.x64.Release.ActionText-2.idtx:11
 msgid "Creating folders"
 msgstr "Klasörler oluşturuluyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:11
+#: en_US.Win32.Debug.ActionText-2.idtx:47
+#: en_US.Win32.Release.ActionText-2.idtx:11
+#: en_US.Win32.Release.ActionText-2.idtx:47
+#: en_US.x64.Debug.ActionText-2.idtx:11 en_US.x64.Debug.ActionText-2.idtx:47
+#: en_US.x64.Release.ActionText-2.idtx:11
+#: en_US.x64.Release.ActionText-2.idtx:47
 msgid "Folder: [1]"
 msgstr "Klasör: [1]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:12
+#: en_US.Win32.Release.ActionText-2.idtx:12
+#: en_US.x64.Debug.ActionText-2.idtx:12 en_US.x64.Release.ActionText-2.idtx:12
 msgid "Creating shortcuts"
 msgstr "Kısayollar oluşturuluyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:12
+#: en_US.Win32.Debug.ActionText-2.idtx:51
+#: en_US.Win32.Release.ActionText-2.idtx:12
+#: en_US.Win32.Release.ActionText-2.idtx:51
+#: en_US.x64.Debug.ActionText-2.idtx:12 en_US.x64.Debug.ActionText-2.idtx:51
+#: en_US.x64.Release.ActionText-2.idtx:12
+#: en_US.x64.Release.ActionText-2.idtx:51
 msgid "Shortcut: [1]"
 msgstr "Kısayol: [1]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:13
+#: en_US.Win32.Release.ActionText-2.idtx:13
+#: en_US.x64.Debug.ActionText-2.idtx:13 en_US.x64.Release.ActionText-2.idtx:13
 msgid "Deleting services"
 msgstr "Hizmetler siliniyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:13
+#: en_US.Win32.Debug.ActionText-2.idtx:58
+#: en_US.Win32.Debug.ActionText-2.idtx:59
+#: en_US.Win32.Release.ActionText-2.idtx:13
+#: en_US.Win32.Release.ActionText-2.idtx:58
+#: en_US.Win32.Release.ActionText-2.idtx:59
+#: en_US.x64.Debug.ActionText-2.idtx:13 en_US.x64.Debug.ActionText-2.idtx:58
+#: en_US.x64.Debug.ActionText-2.idtx:59 en_US.x64.Release.ActionText-2.idtx:13
+#: en_US.x64.Release.ActionText-2.idtx:58
+#: en_US.x64.Release.ActionText-2.idtx:59
 msgid "Service: [1]"
 msgstr "Hizmet: [1]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:14
+#: en_US.Win32.Release.ActionText-2.idtx:14
+#: en_US.x64.Debug.ActionText-2.idtx:14 en_US.x64.Release.ActionText-2.idtx:14
 msgid "Creating duplicate files"
 msgstr "Çift dosyalar oluşturuluyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:14
+#: en_US.Win32.Debug.ActionText-2.idtx:19
+#: en_US.Win32.Debug.ActionText-2.idtx:26
+#: en_US.Win32.Release.ActionText-2.idtx:14
+#: en_US.Win32.Release.ActionText-2.idtx:19
+#: en_US.Win32.Release.ActionText-2.idtx:26
+#: en_US.x64.Debug.ActionText-2.idtx:14 en_US.x64.Debug.ActionText-2.idtx:19
+#: en_US.x64.Debug.ActionText-2.idtx:26 en_US.x64.Release.ActionText-2.idtx:14
+#: en_US.x64.Release.ActionText-2.idtx:19
+#: en_US.x64.Release.ActionText-2.idtx:26
 msgid "File: [1],  Directory: [9],  Size: [6]"
 msgstr "Dosya: [1],  Dizin: [9],  Boyut: [6]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:16
+#: en_US.Win32.Release.ActionText-2.idtx:16
+#: en_US.x64.Debug.ActionText-2.idtx:16 en_US.x64.Release.ActionText-2.idtx:16
 msgid "Searching for related applications"
 msgstr "İlgili uygulamalar aranıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:16
+#: en_US.Win32.Release.ActionText-2.idtx:16
+#: en_US.x64.Debug.ActionText-2.idtx:16 en_US.x64.Release.ActionText-2.idtx:16
 msgid "Found application: [1]"
 msgstr "Uygulama bulundu: [1]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:17
+#: en_US.Win32.Release.ActionText-2.idtx:17
+#: en_US.x64.Debug.ActionText-2.idtx:17 en_US.x64.Release.ActionText-2.idtx:17
 msgid "Generating script operations for action:"
 msgstr "Eylem için komut dosyası işlemleri üretiliyor:"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:17
+#: en_US.Win32.Debug.ActionText-2.idtx:39
+#: en_US.Win32.Debug.ActionText-2.idtx:42
+#: en_US.Win32.Debug.ActionText-2.idtx:53
+#: en_US.Win32.Release.ActionText-2.idtx:17
+#: en_US.Win32.Release.ActionText-2.idtx:39
+#: en_US.Win32.Release.ActionText-2.idtx:42
+#: en_US.Win32.Release.ActionText-2.idtx:53
+#: en_US.x64.Debug.ActionText-2.idtx:17 en_US.x64.Debug.ActionText-2.idtx:39
+#: en_US.x64.Debug.ActionText-2.idtx:42 en_US.x64.Debug.ActionText-2.idtx:53
+#: en_US.x64.Release.ActionText-2.idtx:17
+#: en_US.x64.Release.ActionText-2.idtx:39
+#: en_US.x64.Release.ActionText-2.idtx:42
+#: en_US.x64.Release.ActionText-2.idtx:53
 msgid "[1]"
 msgstr "[1]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:18
+#: en_US.Win32.Release.ActionText-2.idtx:18
+#: en_US.x64.Debug.ActionText-2.idtx:18 en_US.x64.Release.ActionText-2.idtx:18
 msgid "Copying network install files"
 msgstr "Ağ yükleme dosyaları kopyalanıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:18
+#: en_US.Win32.Release.ActionText-2.idtx:18
+#: en_US.x64.Debug.ActionText-2.idtx:18 en_US.x64.Release.ActionText-2.idtx:18
 msgid "File: [1], Directory: [9], Size: [6]"
 msgstr "Dosya: [1], Dizin: [9], Boyut: [6]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:19
+#: en_US.Win32.Release.ActionText-2.idtx:19
+#: en_US.x64.Debug.ActionText-2.idtx:19 en_US.x64.Release.ActionText-2.idtx:19
 msgid "Copying new files"
 msgstr "Yeni dosyalar kopyalanıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:20
+#: en_US.Win32.Release.ActionText-2.idtx:20
+#: en_US.x64.Debug.ActionText-2.idtx:20 en_US.x64.Release.ActionText-2.idtx:20
 msgid "Installing ODBC components"
 msgstr "ODBC bileşenleri yükleniyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:21
+#: en_US.Win32.Release.ActionText-2.idtx:21
+#: en_US.x64.Debug.ActionText-2.idtx:21 en_US.x64.Release.ActionText-2.idtx:21
 msgid "Installing new services"
 msgstr "Yeni hizmetler yükleniyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:21
+#: en_US.Win32.Release.ActionText-2.idtx:21
+#: en_US.x64.Debug.ActionText-2.idtx:21 en_US.x64.Release.ActionText-2.idtx:21
 msgid "Service: [2]"
 msgstr "Hizmet: [2]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:22
+#: en_US.Win32.Release.ActionText-2.idtx:22
+#: en_US.x64.Debug.ActionText-2.idtx:22 en_US.x64.Release.ActionText-2.idtx:22
 msgid "Installing system catalog"
 msgstr "Sistem katalogu yükleniyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:22
+#: en_US.Win32.Release.ActionText-2.idtx:22
+#: en_US.x64.Debug.ActionText-2.idtx:22 en_US.x64.Release.ActionText-2.idtx:22
 msgid "File: [1],  Dependencies: [2]"
 msgstr "Dosya: [1],  Bağımlılıklar: [2]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:23
+#: en_US.Win32.Release.ActionText-2.idtx:23
+#: en_US.x64.Debug.ActionText-2.idtx:23 en_US.x64.Release.ActionText-2.idtx:23
 msgid "Validating install"
 msgstr "Yükleme doğrulanıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:24
+#: en_US.Win32.Release.ActionText-2.idtx:24
+#: en_US.x64.Debug.ActionText-2.idtx:24 en_US.x64.Release.ActionText-2.idtx:24
 msgid "Evaluating launch conditions"
 msgstr "Başlatma durumları değerlendiriliyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:25
+#: en_US.Win32.Release.ActionText-2.idtx:25
+#: en_US.x64.Debug.ActionText-2.idtx:25 en_US.x64.Release.ActionText-2.idtx:25
 msgid "Migrating feature states from related applications"
 msgstr "İlgili uygulamalardan özellik durumları alınıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:25
+#: en_US.Win32.Release.ActionText-2.idtx:25
+#: en_US.x64.Debug.ActionText-2.idtx:25 en_US.x64.Release.ActionText-2.idtx:25
 msgid "Application: [1]"
 msgstr "Uygulama: [1]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:26
+#: en_US.Win32.Release.ActionText-2.idtx:26
+#: en_US.x64.Debug.ActionText-2.idtx:26 en_US.x64.Release.ActionText-2.idtx:26
 msgid "Moving files"
 msgstr "Dosyalar taşınıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:27
+#: en_US.Win32.Release.ActionText-2.idtx:27
+#: en_US.x64.Debug.ActionText-2.idtx:27 en_US.x64.Release.ActionText-2.idtx:27
 msgid "Publishing assembly information"
 msgstr "Birleştirme bilgileri yayımlanıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:27
+#: en_US.Win32.Debug.ActionText-2.idtx:28
+#: en_US.Win32.Release.ActionText-2.idtx:27
+#: en_US.Win32.Release.ActionText-2.idtx:28
+#: en_US.x64.Debug.ActionText-2.idtx:27 en_US.x64.Debug.ActionText-2.idtx:28
+#: en_US.x64.Release.ActionText-2.idtx:27
+#: en_US.x64.Release.ActionText-2.idtx:28
 msgid "Application Context:[1], Assembly Name:[2]"
 msgstr "Uygulama İçeriği:[1], Birleştirme Adı Adı:[2]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:28
+#: en_US.Win32.Release.ActionText-2.idtx:28
+#: en_US.x64.Debug.ActionText-2.idtx:28 en_US.x64.Release.ActionText-2.idtx:28
 msgid "Unpublishing assembly information"
 msgstr "Birleştirme bilgileri yayımlanmıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:29
+#: en_US.Win32.Release.ActionText-2.idtx:29
+#: en_US.x64.Debug.ActionText-2.idtx:29 en_US.x64.Release.ActionText-2.idtx:29
 msgid "Patching files"
 msgstr "Yazılım eki dosyaları"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:29
+#: en_US.Win32.Release.ActionText-2.idtx:29
+#: en_US.x64.Debug.ActionText-2.idtx:29 en_US.x64.Release.ActionText-2.idtx:29
 msgid "File: [1],  Directory: [2],  Size: [3]"
 msgstr "Dosya: [1],  Dizin: [2],  Boyut: [3]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:30
+#: en_US.Win32.Release.ActionText-2.idtx:30
+#: en_US.x64.Debug.ActionText-2.idtx:30 en_US.x64.Release.ActionText-2.idtx:30
 msgid "Updating component registration"
 msgstr "Bileşen kaydı güncelleştiriliyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:31
+#: en_US.Win32.Release.ActionText-2.idtx:31
+#: en_US.x64.Debug.ActionText-2.idtx:31 en_US.x64.Release.ActionText-2.idtx:31
 msgid "Publishing Qualified Components"
 msgstr "Yetki Alan Bileşenler Yayımlanıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:31
+#: en_US.Win32.Debug.ActionText-2.idtx:61
+#: en_US.Win32.Release.ActionText-2.idtx:31
+#: en_US.Win32.Release.ActionText-2.idtx:61
+#: en_US.x64.Debug.ActionText-2.idtx:31 en_US.x64.Debug.ActionText-2.idtx:61
+#: en_US.x64.Release.ActionText-2.idtx:31
+#: en_US.x64.Release.ActionText-2.idtx:61
 msgid "Component ID: [1], Qualifier: [2]"
 msgstr "Bileşen Kimliği: [1], Yetki Veren: [2]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:32
+#: en_US.Win32.Release.ActionText-2.idtx:32
+#: en_US.x64.Debug.ActionText-2.idtx:32 en_US.x64.Release.ActionText-2.idtx:32
 msgid "Publishing Product Features"
 msgstr "Ürün Özellikleri Yayımlanıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:32
+#: en_US.Win32.Debug.ActionText-2.idtx:62
+#: en_US.Win32.Release.ActionText-2.idtx:32
+#: en_US.Win32.Release.ActionText-2.idtx:62
+#: en_US.x64.Debug.ActionText-2.idtx:32 en_US.x64.Debug.ActionText-2.idtx:62
+#: en_US.x64.Release.ActionText-2.idtx:32
+#: en_US.x64.Release.ActionText-2.idtx:62
 msgid "Feature: [1]"
 msgstr "Özellik: [1]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:33
+#: en_US.Win32.Release.ActionText-2.idtx:33
+#: en_US.x64.Debug.ActionText-2.idtx:33 en_US.x64.Release.ActionText-2.idtx:33
 msgid "Publishing product information"
 msgstr "Ürün bilgisi yayımlanıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:34
+#: en_US.Win32.Release.ActionText-2.idtx:34
+#: en_US.x64.Debug.ActionText-2.idtx:34 en_US.x64.Release.ActionText-2.idtx:34
 msgid "Registering Class servers"
 msgstr "Sınıf sunucuları kaydettiriliyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:34
+#: en_US.Win32.Debug.ActionText-2.idtx:64
+#: en_US.Win32.Release.ActionText-2.idtx:34
+#: en_US.Win32.Release.ActionText-2.idtx:64
+#: en_US.x64.Debug.ActionText-2.idtx:34 en_US.x64.Debug.ActionText-2.idtx:64
+#: en_US.x64.Release.ActionText-2.idtx:34
+#: en_US.x64.Release.ActionText-2.idtx:64
 msgid "Class Id: [1]"
 msgstr "Sınıf Kimliği: [1]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:35
+#: en_US.Win32.Release.ActionText-2.idtx:35
+#: en_US.x64.Debug.ActionText-2.idtx:35 en_US.x64.Release.ActionText-2.idtx:35
 msgid "Registering COM+ Applications and Components"
 msgstr "COM+ Uygulamaları ve Bileşenleri kaydettiriliyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:35
+#: en_US.Win32.Release.ActionText-2.idtx:35
+#: en_US.x64.Debug.ActionText-2.idtx:35 en_US.x64.Release.ActionText-2.idtx:35
 msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
 msgstr "AppId: [1]{{, Uyg. Türü: [2], Kullanıcılar: [3], RSN: [4]}}"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:36
+#: en_US.Win32.Release.ActionText-2.idtx:36
+#: en_US.x64.Debug.ActionText-2.idtx:36 en_US.x64.Release.ActionText-2.idtx:36
 msgid "Registering extension servers"
 msgstr "Uzantı sunucuları kaydettiriliyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:36
+#: en_US.Win32.Debug.ActionText-2.idtx:66
+#: en_US.Win32.Release.ActionText-2.idtx:36
+#: en_US.Win32.Release.ActionText-2.idtx:66
+#: en_US.x64.Debug.ActionText-2.idtx:36 en_US.x64.Debug.ActionText-2.idtx:66
+#: en_US.x64.Release.ActionText-2.idtx:36
+#: en_US.x64.Release.ActionText-2.idtx:66
 msgid "Extension: [1]"
 msgstr "Uzantı: [1]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:37
+#: en_US.Win32.Release.ActionText-2.idtx:37
+#: en_US.x64.Debug.ActionText-2.idtx:37 en_US.x64.Release.ActionText-2.idtx:37
 msgid "Registering fonts"
 msgstr "Yazı tipleri kaydettiriliyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:37
+#: en_US.Win32.Debug.ActionText-2.idtx:67
+#: en_US.Win32.Release.ActionText-2.idtx:37
+#: en_US.Win32.Release.ActionText-2.idtx:67
+#: en_US.x64.Debug.ActionText-2.idtx:37 en_US.x64.Debug.ActionText-2.idtx:67
+#: en_US.x64.Release.ActionText-2.idtx:37
+#: en_US.x64.Release.ActionText-2.idtx:67
 msgid "Font: [1]"
 msgstr "Yazı tipi: [1]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:38
+#: en_US.Win32.Release.ActionText-2.idtx:38
+#: en_US.x64.Debug.ActionText-2.idtx:38 en_US.x64.Release.ActionText-2.idtx:38
 msgid "Registering MIME info"
 msgstr "MIME bilgisi kaydettiriliyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:38
+#: en_US.Win32.Debug.ActionText-2.idtx:68
+#: en_US.Win32.Release.ActionText-2.idtx:38
+#: en_US.Win32.Release.ActionText-2.idtx:68
+#: en_US.x64.Debug.ActionText-2.idtx:38 en_US.x64.Debug.ActionText-2.idtx:68
+#: en_US.x64.Release.ActionText-2.idtx:38
+#: en_US.x64.Release.ActionText-2.idtx:68
 msgid "MIME Content Type: [1], Extension: [2]"
 msgstr "MIME İçerik Türü: [1], Uzantı: [2]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:39
+#: en_US.Win32.Release.ActionText-2.idtx:39
+#: en_US.x64.Debug.ActionText-2.idtx:39 en_US.x64.Release.ActionText-2.idtx:39
 msgid "Registering product"
 msgstr "Ürün kaydettiriliyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:40
+#: en_US.Win32.Release.ActionText-2.idtx:40
+#: en_US.x64.Debug.ActionText-2.idtx:40 en_US.x64.Release.ActionText-2.idtx:40
 msgid "Registering program identifiers"
 msgstr "Program tanıtıcılarının kaydediliyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:40
+#: en_US.Win32.Debug.ActionText-2.idtx:69
+#: en_US.Win32.Release.ActionText-2.idtx:40
+#: en_US.Win32.Release.ActionText-2.idtx:69
+#: en_US.x64.Debug.ActionText-2.idtx:40 en_US.x64.Debug.ActionText-2.idtx:69
+#: en_US.x64.Release.ActionText-2.idtx:40
+#: en_US.x64.Release.ActionText-2.idtx:69
 msgid "ProgId: [1]"
 msgstr "Program Kimliği: [1]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:41
+#: en_US.Win32.Release.ActionText-2.idtx:41
+#: en_US.x64.Debug.ActionText-2.idtx:41 en_US.x64.Release.ActionText-2.idtx:41
 msgid "Registering type libraries"
 msgstr "Tür kitaplıkları kaydettiriliyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:41
+#: en_US.Win32.Debug.ActionText-2.idtx:70
+#: en_US.Win32.Release.ActionText-2.idtx:41
+#: en_US.Win32.Release.ActionText-2.idtx:70
+#: en_US.x64.Debug.ActionText-2.idtx:41 en_US.x64.Debug.ActionText-2.idtx:70
+#: en_US.x64.Release.ActionText-2.idtx:41
+#: en_US.x64.Release.ActionText-2.idtx:70
 msgid "LibID: [1]"
 msgstr "LibID: [1]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:42
+#: en_US.Win32.Release.ActionText-2.idtx:42
+#: en_US.x64.Debug.ActionText-2.idtx:42 en_US.x64.Release.ActionText-2.idtx:42
 msgid "Registering user"
 msgstr "Kullanıcı kaydettiriliyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:43
+#: en_US.Win32.Release.ActionText-2.idtx:43
+#: en_US.x64.Debug.ActionText-2.idtx:43 en_US.x64.Release.ActionText-2.idtx:43
 msgid "Removing duplicated files"
 msgstr "Yenilenen dosyalar kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:43
+#: en_US.Win32.Debug.ActionText-2.idtx:46
+#: en_US.Win32.Debug.ActionText-2.idtx:60
+#: en_US.Win32.Release.ActionText-2.idtx:43
+#: en_US.Win32.Release.ActionText-2.idtx:46
+#: en_US.Win32.Release.ActionText-2.idtx:60
+#: en_US.x64.Debug.ActionText-2.idtx:43 en_US.x64.Debug.ActionText-2.idtx:46
+#: en_US.x64.Debug.ActionText-2.idtx:60 en_US.x64.Release.ActionText-2.idtx:43
+#: en_US.x64.Release.ActionText-2.idtx:46
+#: en_US.x64.Release.ActionText-2.idtx:60
 msgid "File: [1], Directory: [9]"
 msgstr "Dosya: [1], Dizin: [9]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:44
+#: en_US.Win32.Debug.ActionText-2.idtx:71
+#: en_US.Win32.Release.ActionText-2.idtx:44
+#: en_US.Win32.Release.ActionText-2.idtx:71
+#: en_US.x64.Debug.ActionText-2.idtx:44 en_US.x64.Debug.ActionText-2.idtx:71
+#: en_US.x64.Release.ActionText-2.idtx:44
+#: en_US.x64.Release.ActionText-2.idtx:71
 msgid "Updating environment strings"
 msgstr "Ortam ayarları güncelleştiriliyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:44
+#: en_US.Win32.Debug.ActionText-2.idtx:71
+#: en_US.Win32.Release.ActionText-2.idtx:44
+#: en_US.Win32.Release.ActionText-2.idtx:71
+#: en_US.x64.Debug.ActionText-2.idtx:44 en_US.x64.Debug.ActionText-2.idtx:71
+#: en_US.x64.Release.ActionText-2.idtx:44
+#: en_US.x64.Release.ActionText-2.idtx:71
 msgid "Name: [1], Value: [2], Action [3]"
 msgstr "Ad: [1], Değer: [2], Eylem [3]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:45
+#: en_US.Win32.Release.ActionText-2.idtx:45
+#: en_US.x64.Debug.ActionText-2.idtx:45 en_US.x64.Release.ActionText-2.idtx:45
 msgid "Removing applications"
 msgstr "Uygulamalar kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:45
+#: en_US.Win32.Release.ActionText-2.idtx:45
+#: en_US.x64.Debug.ActionText-2.idtx:45 en_US.x64.Release.ActionText-2.idtx:45
 msgid "Application: [1], Command line: [2]"
 msgstr "Uygulama: [1], Komut satırı: [2]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:46
+#: en_US.Win32.Release.ActionText-2.idtx:46
+#: en_US.x64.Debug.ActionText-2.idtx:46 en_US.x64.Release.ActionText-2.idtx:46
 msgid "Removing files"
 msgstr "Dosyalar kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:47
+#: en_US.Win32.Release.ActionText-2.idtx:47
+#: en_US.x64.Debug.ActionText-2.idtx:47 en_US.x64.Release.ActionText-2.idtx:47
 msgid "Removing folders"
 msgstr "Klasörler kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:48
+#: en_US.Win32.Release.ActionText-2.idtx:48
+#: en_US.x64.Debug.ActionText-2.idtx:48 en_US.x64.Release.ActionText-2.idtx:48
 msgid "Removing INI files entries"
 msgstr "INI dosyası girdileri kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:48
+#: en_US.Win32.Debug.ActionText-2.idtx:72
+#: en_US.Win32.Release.ActionText-2.idtx:48
+#: en_US.Win32.Release.ActionText-2.idtx:72
+#: en_US.x64.Debug.ActionText-2.idtx:48 en_US.x64.Debug.ActionText-2.idtx:72
+#: en_US.x64.Release.ActionText-2.idtx:48
+#: en_US.x64.Release.ActionText-2.idtx:72
 msgid "File: [1],  Section: [2],  Key: [3], Value: [4]"
 msgstr "Dosya: [1],  Kısım: [2],  Anahtar: [3], Değer: [4]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:49
+#: en_US.Win32.Release.ActionText-2.idtx:49
+#: en_US.x64.Debug.ActionText-2.idtx:49 en_US.x64.Release.ActionText-2.idtx:49
 msgid "Removing ODBC components"
 msgstr "ODBC bileşenleri kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:50
+#: en_US.Win32.Release.ActionText-2.idtx:50
+#: en_US.x64.Debug.ActionText-2.idtx:50 en_US.x64.Release.ActionText-2.idtx:50
 msgid "Removing system registry values"
 msgstr "Sistem kayıt değerleri kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:50
+#: en_US.Win32.Release.ActionText-2.idtx:50
+#: en_US.x64.Debug.ActionText-2.idtx:50 en_US.x64.Release.ActionText-2.idtx:50
 msgid "Key: [1], Name: [2]"
 msgstr "Anahtar: [1], Ad: [2]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:51
+#: en_US.Win32.Release.ActionText-2.idtx:51
+#: en_US.x64.Debug.ActionText-2.idtx:51 en_US.x64.Release.ActionText-2.idtx:51
 msgid "Removing shortcuts"
 msgstr "Kısayollar kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:53
+#: en_US.Win32.Release.ActionText-2.idtx:53
+#: en_US.x64.Debug.ActionText-2.idtx:53 en_US.x64.Release.ActionText-2.idtx:53
 msgid "Rolling back action:"
 msgstr "Toparlama eylemi:"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:54
+#: en_US.Win32.Release.ActionText-2.idtx:54
+#: en_US.x64.Debug.ActionText-2.idtx:54 en_US.x64.Release.ActionText-2.idtx:54
 msgid "Removing backup files"
 msgstr "Yedek dosyalar kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:55
+#: en_US.Win32.Release.ActionText-2.idtx:55
+#: en_US.x64.Debug.ActionText-2.idtx:55 en_US.x64.Release.ActionText-2.idtx:55
 msgid "Registering modules"
 msgstr "Birimler kaydettiriliyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:55
+#: en_US.Win32.Debug.ActionText-2.idtx:56
+#: en_US.Win32.Release.ActionText-2.idtx:55
+#: en_US.Win32.Release.ActionText-2.idtx:56
+#: en_US.x64.Debug.ActionText-2.idtx:55 en_US.x64.Debug.ActionText-2.idtx:56
+#: en_US.x64.Release.ActionText-2.idtx:55
+#: en_US.x64.Release.ActionText-2.idtx:56
 msgid "File: [1], Folder: [2]"
 msgstr "Dosya: [1], Klasör: [2]"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:56
+#: en_US.Win32.Release.ActionText-2.idtx:56
+#: en_US.x64.Debug.ActionText-2.idtx:56 en_US.x64.Release.ActionText-2.idtx:56
 msgid "Unregistering modules"
 msgstr "Birimlerin kaydı kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:57
+#: en_US.Win32.Release.ActionText-2.idtx:57
+#: en_US.x64.Debug.ActionText-2.idtx:57 en_US.x64.Release.ActionText-2.idtx:57
 msgid "Initializing ODBC directories"
 msgstr "ODBC dizinleri başlatılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:58
+#: en_US.Win32.Release.ActionText-2.idtx:58
+#: en_US.x64.Debug.ActionText-2.idtx:58 en_US.x64.Release.ActionText-2.idtx:58
 msgid "Starting services"
 msgstr "Hizmetler başlatılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:59
+#: en_US.Win32.Release.ActionText-2.idtx:59
+#: en_US.x64.Debug.ActionText-2.idtx:59 en_US.x64.Release.ActionText-2.idtx:59
 msgid "Stopping services"
 msgstr "Hizmetler durduruluyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:60
+#: en_US.Win32.Release.ActionText-2.idtx:60
+#: en_US.x64.Debug.ActionText-2.idtx:60 en_US.x64.Release.ActionText-2.idtx:60
 msgid "Removing moved files"
 msgstr "Taşınan dosyalar kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:61
+#: en_US.Win32.Release.ActionText-2.idtx:61
+#: en_US.x64.Debug.ActionText-2.idtx:61 en_US.x64.Release.ActionText-2.idtx:61
 msgid "Unpublishing Qualified Components"
 msgstr "Yetkili Bileşenler Yayımdan Kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:62
+#: en_US.Win32.Release.ActionText-2.idtx:62
+#: en_US.x64.Debug.ActionText-2.idtx:62 en_US.x64.Release.ActionText-2.idtx:62
 msgid "Unpublishing Product Features"
 msgstr "Ürün Özellikleri Yayımdan Kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:63
+#: en_US.Win32.Release.ActionText-2.idtx:63
+#: en_US.x64.Debug.ActionText-2.idtx:63 en_US.x64.Release.ActionText-2.idtx:63
 msgid "Unpublishing product information"
 msgstr "Ürün bilgisi yayımdan kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:64
+#: en_US.Win32.Release.ActionText-2.idtx:64
+#: en_US.x64.Debug.ActionText-2.idtx:64 en_US.x64.Release.ActionText-2.idtx:64
 msgid "Unregister Class servers"
 msgstr "Sınıf sunucularının kaydı kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:65
+#: en_US.Win32.Release.ActionText-2.idtx:65
+#: en_US.x64.Debug.ActionText-2.idtx:65 en_US.x64.Release.ActionText-2.idtx:65
 msgid "Unregistering COM+ Applications and Components"
 msgstr ""
 "Unregistering COM+ Uygulamalarının ve Bilelenlerinin kaydı kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:65
+#: en_US.Win32.Release.ActionText-2.idtx:65
+#: en_US.x64.Debug.ActionText-2.idtx:65 en_US.x64.Release.ActionText-2.idtx:65
 msgid "AppId: [1]{{, AppType: [2]}}"
 msgstr "Uyg. Kimliği: [1]{{, Uyg. Türü: [2]}}"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:66
+#: en_US.Win32.Release.ActionText-2.idtx:66
+#: en_US.x64.Debug.ActionText-2.idtx:66 en_US.x64.Release.ActionText-2.idtx:66
 msgid "Unregistering extension servers"
 msgstr "Uzantı sunucularının kaydı kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:67
+#: en_US.Win32.Release.ActionText-2.idtx:67
+#: en_US.x64.Debug.ActionText-2.idtx:67 en_US.x64.Release.ActionText-2.idtx:67
 msgid "Unregistering fonts"
 msgstr "Yazı tiplerinin kaydı kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:68
+#: en_US.Win32.Release.ActionText-2.idtx:68
+#: en_US.x64.Debug.ActionText-2.idtx:68 en_US.x64.Release.ActionText-2.idtx:68
 msgid "Unregistering MIME info"
 msgstr "MIME bilgisi kaydı kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:69
+#: en_US.Win32.Release.ActionText-2.idtx:69
+#: en_US.x64.Debug.ActionText-2.idtx:69 en_US.x64.Release.ActionText-2.idtx:69
 msgid "Unregistering program identifiers"
 msgstr "Program tanıtıcılarının kaydı kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:70
+#: en_US.Win32.Release.ActionText-2.idtx:70
+#: en_US.x64.Debug.ActionText-2.idtx:70 en_US.x64.Release.ActionText-2.idtx:70
 msgid "Unregistering type libraries"
 msgstr "Tür kitaplıklarının kaydı kaldırılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:72
+#: en_US.Win32.Release.ActionText-2.idtx:72
+#: en_US.x64.Debug.ActionText-2.idtx:72 en_US.x64.Release.ActionText-2.idtx:72
 msgid "Writing INI files values"
 msgstr "INI dosya değerleri yazılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:73
+#: en_US.Win32.Release.ActionText-2.idtx:73
+#: en_US.x64.Debug.ActionText-2.idtx:73 en_US.x64.Release.ActionText-2.idtx:73
 msgid "Writing system registry values"
 msgstr "Sistem kaydı değerleri yazılıyor"
 
+#: en_US.Win32.Debug.ActionText-2.idtx:73
+#: en_US.Win32.Release.ActionText-2.idtx:73
+#: en_US.x64.Debug.ActionText-2.idtx:73 en_US.x64.Release.ActionText-2.idtx:73
 msgid "Key: [1], Name: [2], Value: [3]"
 msgstr "Anahtar: [1], Ad: [2], Değer: [3]"
 
+#: en_US.Win32.Debug.CustomAction-2.idtx:4
+#: en_US.Win32.Release.CustomAction-2.idtx:4
 msgid ""
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
+"system. The installation of the 64-bit variant is recommended."
 msgstr ""
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: tr_TR\n"
 
+#: en_US.Win32.Debug.CustomAction-2.idtx:5
+#: en_US.Win32.Release.CustomAction-2.idtx:5
+#: en_US.x64.Debug.CustomAction-2.idtx:4
+#: en_US.x64.Release.CustomAction-2.idtx:4
+msgid "A newer version of [SimpleProductName] is already installed."
+msgstr ""
+
+#: en_US.Win32.Debug.CustomAction-2.idtx:6
+#: en_US.Win32.Release.CustomAction-2.idtx:6
+#: en_US.x64.Debug.CustomAction-2.idtx:5
+#: en_US.x64.Release.CustomAction-2.idtx:5
+msgid ""
+"This package cannot upgrade the currently installed [SimpleProductName]. "
+"Please remove the old package first and retry."
+msgstr ""
+
+#: en_US.Win32.Debug.Error-2.idtx:4 en_US.Win32.Release.Error-2.idtx:4
+#: en_US.x64.Debug.Error-2.idtx:4 en_US.x64.Release.Error-2.idtx:4
 msgid "{{Fatal error: }}"
 msgstr "{{Önemli hata: }}"
 
+#: en_US.Win32.Debug.Error-2.idtx:5 en_US.Win32.Release.Error-2.idtx:5
+#: en_US.x64.Debug.Error-2.idtx:5 en_US.x64.Release.Error-2.idtx:5
 msgid "{{Error [1]. }}"
 msgstr "{{Hata [1]. }}"
 
+#: en_US.Win32.Debug.Error-2.idtx:6 en_US.Win32.Release.Error-2.idtx:6
+#: en_US.x64.Debug.Error-2.idtx:6 en_US.x64.Release.Error-2.idtx:6
 msgid "Warning [1]. "
 msgstr "Uyarı [1]. "
 
+#: en_US.Win32.Debug.Error-2.idtx:8 en_US.Win32.Release.Error-2.idtx:8
+#: en_US.x64.Debug.Error-2.idtx:8 en_US.x64.Release.Error-2.idtx:8
 msgid "Info [1]. "
 msgstr "Bilgi [1]. "
 
+#: en_US.Win32.Debug.Error-2.idtx:9 en_US.Win32.Release.Error-2.idtx:9
+#: en_US.x64.Debug.Error-2.idtx:9 en_US.x64.Release.Error-2.idtx:9
 msgid ""
 "The installer has encountered an unexpected error installing this package. "
 "This may indicate a problem with this package. The error code is [1]. {{The "
 "arguments are: [2], [3], [4]}}"
 msgstr ""
 "Yükleyici bu paketi yüklerken beklenmedik bir hata ile karşılaştı. Bu "
-"paketle ilgili bir sorunu gösteriyor olabilir. Hata kod: [1]. {{Değişkenler: "
-"[2], [3], [4]}}"
+"paketle ilgili bir sorunu gösteriyor olabilir. Hata kod: [1]. {{Değişkenler:"
+" [2], [3], [4]}}"
 
+#: en_US.Win32.Debug.Error-2.idtx:11 en_US.Win32.Release.Error-2.idtx:11
+#: en_US.x64.Debug.Error-2.idtx:11 en_US.x64.Release.Error-2.idtx:11
 msgid "{{Disk full: }}"
 msgstr "{{Disk dolu: }}"
 
+#: en_US.Win32.Debug.Error-2.idtx:12 en_US.Win32.Release.Error-2.idtx:12
+#: en_US.x64.Debug.Error-2.idtx:12 en_US.x64.Release.Error-2.idtx:12
 msgid "Action [Time]: [1]. [2]"
 msgstr "Eylem [Time]: [1]. [2]"
 
+#: en_US.Win32.Debug.Error-2.idtx:13 en_US.Win32.Release.Error-2.idtx:13
+#: en_US.x64.Debug.Error-2.idtx:13 en_US.x64.Release.Error-2.idtx:13
 msgid "[SimpleProductName]"
 msgstr "[SimpleProductName]"
 
+#: en_US.Win32.Debug.Error-2.idtx:14 en_US.Win32.Release.Error-2.idtx:14
+#: en_US.x64.Debug.Error-2.idtx:14 en_US.x64.Release.Error-2.idtx:14
 msgid "{[2]}{, [3]}{, [4]}"
 msgstr "{[2]}{, [3]}{, [4]}"
 
+#: en_US.Win32.Debug.Error-2.idtx:15 en_US.Win32.Release.Error-2.idtx:15
+#: en_US.x64.Debug.Error-2.idtx:15 en_US.x64.Release.Error-2.idtx:15
 msgid "Message type: [1], Argument: [2]{, [3]}"
 msgstr "İleti türü: [1], Değişken: [2]"
 
+#: en_US.Win32.Debug.Error-2.idtx:16 en_US.Win32.Release.Error-2.idtx:16
+#: en_US.x64.Debug.Error-2.idtx:16 en_US.x64.Release.Error-2.idtx:16
 msgid "=== Logging started: [Date]  [Time] ==="
 msgstr "=== Günlük başladı: [Date]  [Time] ==="
 
+#: en_US.Win32.Debug.Error-2.idtx:17 en_US.Win32.Release.Error-2.idtx:17
+#: en_US.x64.Debug.Error-2.idtx:17 en_US.x64.Release.Error-2.idtx:17
 msgid "=== Logging stopped: [Date]  [Time] ==="
 msgstr "=== Günlük durdu: [Date]  [Time] ==="
 
+#: en_US.Win32.Debug.Error-2.idtx:18 en_US.Win32.Release.Error-2.idtx:18
+#: en_US.x64.Debug.Error-2.idtx:18 en_US.x64.Release.Error-2.idtx:18
 msgid "Action start [Time]: [1]."
 msgstr "Eylem başladı [Time]: [1]."
 
+#: en_US.Win32.Debug.Error-2.idtx:19 en_US.Win32.Release.Error-2.idtx:19
+#: en_US.x64.Debug.Error-2.idtx:19 en_US.x64.Release.Error-2.idtx:19
 msgid "Action ended [Time]: [1]. Return value [2]."
 msgstr "Eylem sonlandı [Time]: [1]. Dönen değer [2]."
 
+#: en_US.Win32.Debug.Error-2.idtx:20 en_US.Win32.Release.Error-2.idtx:20
+#: en_US.x64.Debug.Error-2.idtx:20 en_US.x64.Release.Error-2.idtx:20
 msgid "Time remaining: {[1] minutes }{[2] seconds}"
 msgstr "Kalan süre: {[1] dakika }{[2] saniye}"
 
+#: en_US.Win32.Debug.Error-2.idtx:21 en_US.Win32.Debug.Error-2.idtx:127
+#: en_US.Win32.Release.Error-2.idtx:21 en_US.Win32.Release.Error-2.idtx:127
+#: en_US.x64.Debug.Error-2.idtx:21 en_US.x64.Debug.Error-2.idtx:127
+#: en_US.x64.Release.Error-2.idtx:21 en_US.x64.Release.Error-2.idtx:127
 msgid "Out of memory. Shut down other applications before retrying."
 msgstr "Bellek yetersiz. Yeniden denemeden önce diğer uygulamaları kapatın."
 
+#: en_US.Win32.Debug.Error-2.idtx:22 en_US.Win32.Release.Error-2.idtx:22
+#: en_US.x64.Debug.Error-2.idtx:22 en_US.x64.Release.Error-2.idtx:22
 msgid "Installer is no longer responding."
 msgstr "Yükleyici artık yanıt vermiyor."
 
+#: en_US.Win32.Debug.Error-2.idtx:23 en_US.Win32.Release.Error-2.idtx:23
+#: en_US.x64.Debug.Error-2.idtx:23 en_US.x64.Release.Error-2.idtx:23
 msgid "Installer stopped prematurely."
 msgstr "Yükleyici erken durduruldu."
 
+#: en_US.Win32.Debug.Error-2.idtx:24 en_US.Win32.Release.Error-2.idtx:24
+#: en_US.x64.Debug.Error-2.idtx:24 en_US.x64.Release.Error-2.idtx:24
 msgid "Please wait while Windows configures [SimpleProductName]"
 msgstr "Lütfen Windows [SimpleProductName] ürününü yapılandırırken bekleyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:25 en_US.Win32.Release.Error-2.idtx:25
+#: en_US.x64.Debug.Error-2.idtx:25 en_US.x64.Release.Error-2.idtx:25
 msgid "Gathering required information..."
 msgstr "Gerekli bilgiler toplanıyor..."
 
+#: en_US.Win32.Debug.Error-2.idtx:26 en_US.Win32.Release.Error-2.idtx:26
+#: en_US.x64.Debug.Error-2.idtx:26 en_US.x64.Release.Error-2.idtx:26
 msgid "Removing older versions of this application..."
 msgstr "Bu uygulamanın eski sürümleri kaldırılıyor..."
 
+#: en_US.Win32.Debug.Error-2.idtx:27 en_US.Win32.Release.Error-2.idtx:27
+#: en_US.x64.Debug.Error-2.idtx:27 en_US.x64.Release.Error-2.idtx:27
 msgid "Preparing to remove older versions of this application..."
 msgstr "Bu uygulamanın eski sürümleri kaldırılmaya hazırlanıyor..."
 
+#: en_US.Win32.Debug.Error-2.idtx:28 en_US.Win32.Release.Error-2.idtx:28
+#: en_US.x64.Debug.Error-2.idtx:28 en_US.x64.Release.Error-2.idtx:28
 msgid "{[SimpleProductName] }Setup completed successfully."
 msgstr "{[SimpleProductName] }Kur başarıyla tamamlandı."
 
+#: en_US.Win32.Debug.Error-2.idtx:29 en_US.Win32.Release.Error-2.idtx:29
+#: en_US.x64.Debug.Error-2.idtx:29 en_US.x64.Release.Error-2.idtx:29
 msgid "{[SimpleProductName] }Setup failed."
 msgstr "{[SimpleProductName] }Kur başarısız oldu."
 
+#: en_US.Win32.Debug.Error-2.idtx:30 en_US.Win32.Release.Error-2.idtx:30
+#: en_US.x64.Debug.Error-2.idtx:30 en_US.x64.Release.Error-2.idtx:30
 msgid ""
 "Error reading from file: [2]. {{ System error [3].}}  Verify that the file "
 "exists and that you can access it."
@@ -385,6 +876,8 @@ msgstr ""
 "Dosyadan okuma hatası: [2]. {{ Sistem hatası [3].}}  Dosyanın bulunduğundan "
 "ve ona erişebildiğinizden emin olun."
 
+#: en_US.Win32.Debug.Error-2.idtx:31 en_US.Win32.Release.Error-2.idtx:31
+#: en_US.x64.Debug.Error-2.idtx:31 en_US.x64.Release.Error-2.idtx:31
 msgid ""
 "Cannot create the file '[2]'.  A directory with this name already exists.  "
 "Cancel the install and try installing to a different location."
@@ -392,9 +885,13 @@ msgstr ""
 "'[2]' dosyası oluşturulamıyor. Bu ada sahip bir dizin zaten var. Yüklemeyi "
 "iptal edip farklı bir konuma yüklemeyi deneyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:32 en_US.Win32.Release.Error-2.idtx:32
+#: en_US.x64.Debug.Error-2.idtx:32 en_US.x64.Release.Error-2.idtx:32
 msgid "Please insert the disk: [2]"
 msgstr "Lütfen [2] disketini takın."
 
+#: en_US.Win32.Debug.Error-2.idtx:33 en_US.Win32.Release.Error-2.idtx:33
+#: en_US.x64.Debug.Error-2.idtx:33 en_US.x64.Release.Error-2.idtx:33
 msgid ""
 "The installer has insufficient privileges to access this directory: [2].  "
 "The installation cannot continue.  Log on as administrator or contact your "
@@ -404,18 +901,24 @@ msgstr ""
 "işlemi devam edemez. Yönetici olarak oturum açın veya sistem yöneticinize "
 "başvurun."
 
+#: en_US.Win32.Debug.Error-2.idtx:34 en_US.Win32.Release.Error-2.idtx:34
+#: en_US.x64.Debug.Error-2.idtx:34 en_US.x64.Release.Error-2.idtx:34
 msgid ""
 "Error writing to file: [2].  Verify that you have access to that directory."
 msgstr ""
 "[2] dosyasına yazma hatası.  Bu dizine erişiminizin olduğundan emin olun."
 
+#: en_US.Win32.Debug.Error-2.idtx:35 en_US.Win32.Release.Error-2.idtx:35
+#: en_US.x64.Debug.Error-2.idtx:35 en_US.x64.Release.Error-2.idtx:35
 msgid ""
 "Error reading from file [2]. {{ System error [3].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
-"[2] dosyasından okuma hatası {{ Sistem hatası [3]}}.  Dosyanın bulunduğundan "
-"ve ona erişebildiğinizden emin olun."
+"[2] dosyasından okuma hatası {{ Sistem hatası [3]}}.  Dosyanın bulunduğundan"
+" ve ona erişebildiğinizden emin olun."
 
+#: en_US.Win32.Debug.Error-2.idtx:36 en_US.Win32.Release.Error-2.idtx:36
+#: en_US.x64.Debug.Error-2.idtx:36 en_US.x64.Release.Error-2.idtx:36
 msgid ""
 "Another application has exclusive access to the file '[2]'.  Please shut "
 "down all other applications, then click Retry."
@@ -423,13 +926,17 @@ msgstr ""
 "Diğer bir uygulamanın '[2]' dosyasına özel kullanım erişimi var.  Lütfen "
 "diğer tüm uygulamaları kapatın ve sonra Yeniden Dene'yi tıklatın."
 
+#: en_US.Win32.Debug.Error-2.idtx:37 en_US.Win32.Release.Error-2.idtx:37
+#: en_US.x64.Debug.Error-2.idtx:37 en_US.x64.Release.Error-2.idtx:37
 msgid ""
 "There is not enough disk space to install this file: [2].  Free some disk "
 "space and click Retry, or click Cancel to exit."
 msgstr ""
-"[2] dosyasını yüklemek için yeterli disk alanı yok.  Diski biraz boşaltın ve "
-"Yeniden Dene'yi tıklatın ya da çıkmak için İptal'i tıklatın."
+"[2] dosyasını yüklemek için yeterli disk alanı yok.  Diski biraz boşaltın ve"
+" Yeniden Dene'yi tıklatın ya da çıkmak için İptal'i tıklatın."
 
+#: en_US.Win32.Debug.Error-2.idtx:38 en_US.Win32.Release.Error-2.idtx:38
+#: en_US.x64.Debug.Error-2.idtx:38 en_US.x64.Release.Error-2.idtx:38
 msgid ""
 "Source file not found: [2].  Verify that the file exists and that you can "
 "access it."
@@ -437,6 +944,8 @@ msgstr ""
 "[2] kaynak dosyası bulunamadı.  Dosyanın bulunduğundan ve ona "
 "erişebildiğinizden emin olun."
 
+#: en_US.Win32.Debug.Error-2.idtx:39 en_US.Win32.Release.Error-2.idtx:39
+#: en_US.x64.Debug.Error-2.idtx:39 en_US.x64.Release.Error-2.idtx:39
 msgid ""
 "Error reading from file: [3]. {{ System error [2].}}  Verify that the file "
 "exists and that you can access it."
@@ -444,6 +953,8 @@ msgstr ""
 "[3] dosyasından okuma hatası. {{ Sistem hatası [2].}}  Dosyanın "
 "bulunduğundan ve ona erişebildiğinizden emin olun."
 
+#: en_US.Win32.Debug.Error-2.idtx:40 en_US.Win32.Release.Error-2.idtx:40
+#: en_US.x64.Debug.Error-2.idtx:40 en_US.x64.Release.Error-2.idtx:40
 msgid ""
 "Error writing to file: [3]. {{ System error [2].}}  Verify that you have "
 "access to that directory."
@@ -451,6 +962,8 @@ msgstr ""
 "[3] dosyasına yazma hatası. {{ Sistem hatası [2].}}  Bu dizine erişiminiz "
 "olduğunu denetleyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:41 en_US.Win32.Release.Error-2.idtx:41
+#: en_US.x64.Debug.Error-2.idtx:41 en_US.x64.Release.Error-2.idtx:41
 msgid ""
 "Source file not found{{(cabinet)}}: [2].  Verify that the file exists and "
 "that you can access it."
@@ -458,6 +971,8 @@ msgstr ""
 "[2] kaynak dosyası bulunamadı{{(kabin)}}.  Dosyanın bulunduğundan ve ona "
 "erişebildiğinizden emin olun."
 
+#: en_US.Win32.Debug.Error-2.idtx:42 en_US.Win32.Release.Error-2.idtx:42
+#: en_US.x64.Debug.Error-2.idtx:42 en_US.x64.Release.Error-2.idtx:42
 msgid ""
 "Cannot create the directory '[2]'.  A file with this name already exists.  "
 "Please rename or remove the file and click retry, or click Cancel to exit."
@@ -466,59 +981,91 @@ msgstr ""
 "dosyayı yeniden adlandırın veya silin ve Yeniden Dene'yi tıklatın ya da "
 "çıkmak için İptal'i tıklatın."
 
+#: en_US.Win32.Debug.Error-2.idtx:43 en_US.Win32.Release.Error-2.idtx:43
+#: en_US.x64.Debug.Error-2.idtx:43 en_US.x64.Release.Error-2.idtx:43
 msgid "The volume [2] is currently unavailable.  Please select another."
 msgstr "[2] sürücüsü şu anda kullanılamıyor. Lütfen farklı bir tane seçin."
 
+#: en_US.Win32.Debug.Error-2.idtx:44 en_US.Win32.Release.Error-2.idtx:44
+#: en_US.x64.Debug.Error-2.idtx:44 en_US.x64.Release.Error-2.idtx:44
 msgid "The specified path '[2]' is unavailable."
 msgstr "Belirtilen '[2]' yolu kullanılamaz."
 
+#: en_US.Win32.Debug.Error-2.idtx:45 en_US.Win32.Release.Error-2.idtx:45
+#: en_US.x64.Debug.Error-2.idtx:45 en_US.x64.Release.Error-2.idtx:45
 msgid "Unable to write to the specified folder: [2]."
 msgstr "Belirtilen '[2]' klasörüne yazılamıyor."
 
+#: en_US.Win32.Debug.Error-2.idtx:46 en_US.Win32.Release.Error-2.idtx:46
+#: en_US.x64.Debug.Error-2.idtx:46 en_US.x64.Release.Error-2.idtx:46
 msgid "A network error occurred while attempting to read from the file: [2]"
 msgstr "[2] dosyasından okunmaya çalışılırken bir ağ hatası oluştu."
 
+#: en_US.Win32.Debug.Error-2.idtx:47 en_US.Win32.Release.Error-2.idtx:47
+#: en_US.x64.Debug.Error-2.idtx:47 en_US.x64.Release.Error-2.idtx:47
 msgid "An error occurred while attempting to create the directory: [2]"
 msgstr "[2] dizini oluşturulmaya çalışılırken bir hata oluştu."
 
+#: en_US.Win32.Debug.Error-2.idtx:48 en_US.Win32.Release.Error-2.idtx:48
+#: en_US.x64.Debug.Error-2.idtx:48 en_US.x64.Release.Error-2.idtx:48
 msgid "A network error occurred while attempting to create the directory: [2]"
 msgstr "[2] dizini oluşturulmaya çalışılırken bir ağ hatası oluştu."
 
+#: en_US.Win32.Debug.Error-2.idtx:49 en_US.Win32.Release.Error-2.idtx:49
+#: en_US.x64.Debug.Error-2.idtx:49 en_US.x64.Release.Error-2.idtx:49
 msgid ""
 "A network error occurred while attempting to open the source file cabinet: "
 "[2]"
 msgstr "[2] kaynak dosya kabini açılmaya çalışılırken bir ağ hatası oluştu."
 
+#: en_US.Win32.Debug.Error-2.idtx:50 en_US.Win32.Release.Error-2.idtx:50
+#: en_US.x64.Debug.Error-2.idtx:50 en_US.x64.Release.Error-2.idtx:50
 msgid "The specified path is too long: [2]"
 msgstr "Belirtilen [2] yolu çok uzun."
 
+#: en_US.Win32.Debug.Error-2.idtx:51 en_US.Win32.Release.Error-2.idtx:51
+#: en_US.x64.Debug.Error-2.idtx:51 en_US.x64.Release.Error-2.idtx:51
 msgid "The Installer has insufficient privileges to modify this file: [2]."
 msgstr "Yükleyicinin [2] dosyasını değiştirmek için yeterli ayrıcalığı yok."
 
+#: en_US.Win32.Debug.Error-2.idtx:52 en_US.Win32.Release.Error-2.idtx:52
+#: en_US.x64.Debug.Error-2.idtx:52 en_US.x64.Release.Error-2.idtx:52
 msgid ""
 "A portion of the folder path '[2]' is invalid.  It is either empty or "
 "exceeds the length allowed by the system."
 msgstr ""
-"'[2]' klasör yolunun bir kısmı geçersiz. Bu bölüm boş veya sistem tarafından "
-"izin verilen uzunluğu aşıyor."
+"'[2]' klasör yolunun bir kısmı geçersiz. Bu bölüm boş veya sistem tarafından"
+" izin verilen uzunluğu aşıyor."
 
+#: en_US.Win32.Debug.Error-2.idtx:53 en_US.Win32.Release.Error-2.idtx:53
+#: en_US.x64.Debug.Error-2.idtx:53 en_US.x64.Release.Error-2.idtx:53
 msgid ""
 "The folder path '[2]' contains words that are not valid in folder paths."
 msgstr ""
 "'[2]' klasör yolu, klasör yolları için geçerli olmayan sözcükler içeriyor."
 
+#: en_US.Win32.Debug.Error-2.idtx:54 en_US.Win32.Release.Error-2.idtx:54
+#: en_US.x64.Debug.Error-2.idtx:54 en_US.x64.Release.Error-2.idtx:54
 msgid "The folder path '[2]' contains an invalid character."
 msgstr "'[2]' klasör yolu geçersiz bir karakter içeriyor."
 
+#: en_US.Win32.Debug.Error-2.idtx:55 en_US.Win32.Release.Error-2.idtx:55
+#: en_US.x64.Debug.Error-2.idtx:55 en_US.x64.Release.Error-2.idtx:55
 msgid "'[2]' is not a valid short file name."
 msgstr "'[2]' geçerli bir kısa dosya adı değil."
 
+#: en_US.Win32.Debug.Error-2.idtx:56 en_US.Win32.Release.Error-2.idtx:56
+#: en_US.x64.Debug.Error-2.idtx:56 en_US.x64.Release.Error-2.idtx:56
 msgid "Error getting file security: [3] GetLastError: [2]"
 msgstr "Dosya güvenliğini alma hatası: [3] SonAlınanHata: [2]"
 
+#: en_US.Win32.Debug.Error-2.idtx:57 en_US.Win32.Release.Error-2.idtx:57
+#: en_US.x64.Debug.Error-2.idtx:57 en_US.x64.Release.Error-2.idtx:57
 msgid "Invalid Drive: [2]"
 msgstr "Geçersiz Sürücü: [2]"
 
+#: en_US.Win32.Debug.Error-2.idtx:58 en_US.Win32.Release.Error-2.idtx:58
+#: en_US.x64.Debug.Error-2.idtx:58 en_US.x64.Release.Error-2.idtx:58
 msgid ""
 "Error applying patch to file [2].  It has probably been updated by other "
 "means, and can no longer be modified by this patch.  For more information "
@@ -529,31 +1076,43 @@ msgstr ""
 "konumda değil.  Daha fazla bilgi için bu ek uygulamayı aldığınız yerle "
 "bağlantı kurun.  {{Sistem Hatası: [3]}}"
 
+#: en_US.Win32.Debug.Error-2.idtx:59 en_US.Win32.Release.Error-2.idtx:59
+#: en_US.x64.Debug.Error-2.idtx:59 en_US.x64.Release.Error-2.idtx:59
 msgid ""
 "A file that is required cannot be installed because the cabinet file [2] is "
 "not digitally signed.  This may indicate that the cabinet file is corrupt."
 msgstr ""
-"[2] kabin dosyası dijital imzalanmadığı için gereken bir dosya yüklenemiyor. "
-"Bu, kabin dosyasında bir bozulmadan kaynaklanabilir."
+"[2] kabin dosyası dijital imzalanmadığı için gereken bir dosya yüklenemiyor."
+" Bu, kabin dosyasında bir bozulmadan kaynaklanabilir."
 
+#: en_US.Win32.Debug.Error-2.idtx:60 en_US.Win32.Release.Error-2.idtx:60
+#: en_US.x64.Debug.Error-2.idtx:60 en_US.x64.Release.Error-2.idtx:60
 msgid ""
-"A file that is required cannot be installed because the cabinet file [2] has "
-"an invalid digital signature.  This may indicate that the cabinet file is "
+"A file that is required cannot be installed because the cabinet file [2] has"
+" an invalid digital signature.  This may indicate that the cabinet file is "
 "corrupt.{{  Error [3] was returned by WinVerifyTrust.}}"
 msgstr ""
-"[2] kabin dosyası dijital imzalanmadığı için gereken bir dosya yüklenemiyor. "
-"Bu, kabin dosyasında bir bozulmadan kaynaklanabilir.{{  WinVerifyTrust "
+"[2] kabin dosyası dijital imzalanmadığı için gereken bir dosya yüklenemiyor."
+" Bu, kabin dosyasında bir bozulmadan kaynaklanabilir.{{  WinVerifyTrust "
 "tarafından döndürülen [3] hatası.}}"
 
+#: en_US.Win32.Debug.Error-2.idtx:61 en_US.Win32.Release.Error-2.idtx:61
+#: en_US.x64.Debug.Error-2.idtx:61 en_US.x64.Release.Error-2.idtx:61
 msgid "Failed to correctly copy [2] file: CRC error."
 msgstr "[2] dosyasını doğru kopyalayamadı: CRC hatası."
 
+#: en_US.Win32.Debug.Error-2.idtx:62 en_US.Win32.Release.Error-2.idtx:62
+#: en_US.x64.Debug.Error-2.idtx:62 en_US.x64.Release.Error-2.idtx:62
 msgid "Failed to correctly move [2] file: CRC error."
 msgstr "[2] dosyası doğru taşınamadı: CRC hatası."
 
+#: en_US.Win32.Debug.Error-2.idtx:63 en_US.Win32.Release.Error-2.idtx:63
+#: en_US.x64.Debug.Error-2.idtx:63 en_US.x64.Release.Error-2.idtx:63
 msgid "Failed to correctly patch [2] file: CRC error."
 msgstr "[2] dosyası düzeltilemedi: CRC hatası."
 
+#: en_US.Win32.Debug.Error-2.idtx:64 en_US.Win32.Release.Error-2.idtx:64
+#: en_US.x64.Debug.Error-2.idtx:64 en_US.x64.Release.Error-2.idtx:64
 msgid ""
 "The file '[2]' cannot be installed because the file cannot be found in "
 "cabinet file '[3]'. This could indicate a network error, an error reading "
@@ -563,6 +1122,8 @@ msgstr ""
 "ağ hatasından kaynaklanıyor olabilir veya CD-ROM okuma hatası ya da paketle "
 "ilgili sorun olabilir."
 
+#: en_US.Win32.Debug.Error-2.idtx:65 en_US.Win32.Release.Error-2.idtx:65
+#: en_US.x64.Debug.Error-2.idtx:65 en_US.x64.Release.Error-2.idtx:65
 msgid ""
 "The cabinet file '[2]' required for this installation is corrupt and cannot "
 "be used. This could indicate a network error, an error reading from the CD-"
@@ -572,13 +1133,17 @@ msgstr ""
 "bir ağ hatasından kaynaklanıyor olabilir veya CD-ROM okuma hatası ya da "
 "paketle ilgili sorun olabilir."
 
+#: en_US.Win32.Debug.Error-2.idtx:66 en_US.Win32.Release.Error-2.idtx:66
+#: en_US.x64.Debug.Error-2.idtx:66 en_US.x64.Release.Error-2.idtx:66
 msgid ""
-"There was an error creating a temporary file that is needed to complete this "
-"installation.{{  Folder: [3]. System error code: [2]}}"
+"There was an error creating a temporary file that is needed to complete this"
+" installation.{{  Folder: [3]. System error code: [2]}}"
 msgstr ""
-"Yüklemeyi tamamlamak için gereken geçici dosyayı oluştururken hata oluştu."
-"{{  Folder: [3]. Sistem hata kodu: [2]}}"
+"Yüklemeyi tamamlamak için gereken geçici dosyayı oluştururken hata oluştu.{{"
+"  Folder: [3]. Sistem hata kodu: [2]}}"
 
+#: en_US.Win32.Debug.Error-2.idtx:67 en_US.Win32.Release.Error-2.idtx:67
+#: en_US.x64.Debug.Error-2.idtx:67 en_US.x64.Release.Error-2.idtx:67
 msgid ""
 "Could not create key: [2]. {{ System error [3].}}  Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
@@ -586,6 +1151,8 @@ msgstr ""
 "[2] anahtarı oluşturulamadı. {{ Sistem hatası [3].}}  Bu anahtara yeterli "
 "erişiminizin olduğunu denetleyin veya destek sorumlunuza başvurun. "
 
+#: en_US.Win32.Debug.Error-2.idtx:68 en_US.Win32.Release.Error-2.idtx:68
+#: en_US.x64.Debug.Error-2.idtx:68 en_US.x64.Release.Error-2.idtx:68
 msgid ""
 "Could not open key: [2]. {{ System error [3].}}  Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
@@ -593,13 +1160,17 @@ msgstr ""
 "[2] anahtarı açılamadı. {{ Sistem hatası [3].}}  Bu anahtara yeterli "
 "erişiminizin olduğunu denetleyin veya destek sorumlunuza başvurun. "
 
+#: en_US.Win32.Debug.Error-2.idtx:69 en_US.Win32.Release.Error-2.idtx:69
+#: en_US.x64.Debug.Error-2.idtx:69 en_US.x64.Release.Error-2.idtx:69
 msgid ""
-"Could not delete value [2] from key [3]. {{ System error [4].}}  Verify that "
-"you have sufficient access to that key, or contact your support personnel. "
+"Could not delete value [2] from key [3]. {{ System error [4].}}  Verify that"
+" you have sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"[3] anahtarından [2] değeri silinemedi. {{ Sistem hatası [4].}}  Bu anahtara "
-"yeterli erişiminizin olduğunu denetleyin veya destek sorumlunuza başvurun. "
+"[3] anahtarından [2] değeri silinemedi. {{ Sistem hatası [4].}}  Bu anahtara"
+" yeterli erişiminizin olduğunu denetleyin veya destek sorumlunuza başvurun. "
 
+#: en_US.Win32.Debug.Error-2.idtx:70 en_US.Win32.Release.Error-2.idtx:70
+#: en_US.x64.Debug.Error-2.idtx:70 en_US.x64.Release.Error-2.idtx:70
 msgid ""
 "Could not delete key [2]. {{ System error [3].}}  Verify that you have "
 "sufficient access to that key, or contact your support personnel. "
@@ -607,6 +1178,8 @@ msgstr ""
 "[2] anahtarı silinemedi. {{ Sistem hatası [3].}}  Bu anahtara yeterli "
 "erişiminizin olduğunu denetleyin veya destek sorumlunuza başvurun. "
 
+#: en_US.Win32.Debug.Error-2.idtx:71 en_US.Win32.Release.Error-2.idtx:71
+#: en_US.x64.Debug.Error-2.idtx:71 en_US.x64.Release.Error-2.idtx:71
 msgid ""
 "Could not read value [2] from key [3]. {{ System error [4].}}  Verify that "
 "you have sufficient access to that key, or contact your support personnel. "
@@ -614,6 +1187,8 @@ msgstr ""
 "[3] anahtarından [2] değeri okunamadı. {{ Sistem hatası [4].}}  Bu anahtara "
 "yeterli erişiminizin olduğunu denetleyin veya destek sorumlunuza başvurun. "
 
+#: en_US.Win32.Debug.Error-2.idtx:72 en_US.Win32.Release.Error-2.idtx:72
+#: en_US.x64.Debug.Error-2.idtx:72 en_US.x64.Release.Error-2.idtx:72
 msgid ""
 "Could not write value [2] to key [3]. {{ System error [4].}}  Verify that "
 "you have sufficient access to that key, or contact your support personnel."
@@ -621,21 +1196,27 @@ msgstr ""
 "[3] anahtarına [2] değeri yazılamadı. {{ Sistem hatası [4].}}  Bu anahtara "
 "yeterli erişiminizin olduğunu denetleyin veya destek sorumlunuza başvurun."
 
+#: en_US.Win32.Debug.Error-2.idtx:73 en_US.Win32.Release.Error-2.idtx:73
+#: en_US.x64.Debug.Error-2.idtx:73 en_US.x64.Release.Error-2.idtx:73
 msgid ""
 "Could not get value names for key [2]. {{ System error [3].}}  Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
-"[2] anahtarının değer adları alınamadı. {{ Sistem hatası [3].}}  Bu anahtara "
-"yeterli erişiminizin olduğunu denetleyin veya destek sorumlunuza başvurun."
+"[2] anahtarının değer adları alınamadı. {{ Sistem hatası [3].}}  Bu anahtara"
+" yeterli erişiminizin olduğunu denetleyin veya destek sorumlunuza başvurun."
 
+#: en_US.Win32.Debug.Error-2.idtx:74 en_US.Win32.Release.Error-2.idtx:74
+#: en_US.x64.Debug.Error-2.idtx:74 en_US.x64.Release.Error-2.idtx:74
 msgid ""
-"Could not get sub key names for key [2]. {{ System error [3].}}  Verify that "
-"you have sufficient access to that key, or contact your support personnel."
+"Could not get sub key names for key [2]. {{ System error [3].}}  Verify that"
+" you have sufficient access to that key, or contact your support personnel."
 msgstr ""
 "[2] anahtarının alt anahtar adları alınamadı. {{ Sistem hatası [3].}}  Bu "
 "anahtara yeterli erişiminizin olduğunu denetleyin veya destek sorumlunuza "
 "başvurun."
 
+#: en_US.Win32.Debug.Error-2.idtx:75 en_US.Win32.Release.Error-2.idtx:75
+#: en_US.x64.Debug.Error-2.idtx:75 en_US.x64.Release.Error-2.idtx:75
 msgid ""
 "Could not read security information for key [2]. {{ System error [3].}}  "
 "Verify that you have sufficient access to that key, or contact your support "
@@ -645,6 +1226,8 @@ msgstr ""
 "anahtara yeterli erişiminizin olduğunu denetleyin veya destek sorumlunuza "
 "başvurun."
 
+#: en_US.Win32.Debug.Error-2.idtx:76 en_US.Win32.Release.Error-2.idtx:76
+#: en_US.x64.Debug.Error-2.idtx:76 en_US.x64.Release.Error-2.idtx:76
 msgid ""
 "Could not increase the available registry space. [2] KB of free registry "
 "space is required for the installation of this application."
@@ -652,6 +1235,8 @@ msgstr ""
 "Kullanılabilir kayıt defteri alanı artırılamıyor. Bu uygulamanın yüklenmesi "
 "için [2] KB boş kayıt defteri alanı gerekiyor."
 
+#: en_US.Win32.Debug.Error-2.idtx:77 en_US.Win32.Release.Error-2.idtx:77
+#: en_US.x64.Debug.Error-2.idtx:77 en_US.x64.Release.Error-2.idtx:77
 msgid ""
 "Another installation is in progress. You must complete that installation "
 "before continuing this one."
@@ -659,6 +1244,8 @@ msgstr ""
 "Diğer bir yükleme işlemi sürüyor. Yenisine devam etmeden önce bu yükleme "
 "işlemini tamamlamalısınız."
 
+#: en_US.Win32.Debug.Error-2.idtx:78 en_US.Win32.Release.Error-2.idtx:78
+#: en_US.x64.Debug.Error-2.idtx:78 en_US.x64.Release.Error-2.idtx:78
 msgid ""
 "Error accessing secured data. Please make sure the Windows Installer is "
 "configured properly and try the install again."
@@ -666,33 +1253,43 @@ msgstr ""
 "Güvenli veriye erişim hatası. Lütfen Windows Installer'ın doğru şekilde "
 "yapılandırıldığından emin olun ve yeniden yüklemeyi deneyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:79 en_US.Win32.Release.Error-2.idtx:79
+#: en_US.x64.Debug.Error-2.idtx:79 en_US.x64.Release.Error-2.idtx:79
 msgid ""
-"User '[2]' has previously initiated an install for product '[3]'.  That user "
-"will need to run that install again before they can use that product.  Your "
-"current install will now continue."
+"User '[2]' has previously initiated an install for product '[3]'.  That user"
+" will need to run that install again before they can use that product.  Your"
+" current install will now continue."
 msgstr ""
 "'[2]' kullanıcısı '[3]' ürününü yüklemeyi daha önce başlattı. Bu "
 "kullanıcının, bu ürünü kullanmadan önce yükleme işlemini yeniden "
 "çalıştırması gerekecek. Geçerli yükleme işleminize şimdi devam edilecek."
 
+#: en_US.Win32.Debug.Error-2.idtx:80 en_US.Win32.Release.Error-2.idtx:80
+#: en_US.x64.Debug.Error-2.idtx:80 en_US.x64.Release.Error-2.idtx:80
 msgid ""
-"User '[2]' has previously initiated an install for product '[3]'.  That user "
-"will need to run that install again before they can use that product."
+"User '[2]' has previously initiated an install for product '[3]'.  That user"
+" will need to run that install again before they can use that product."
 msgstr ""
 "'[2]' kullanıcısı '[3]' ürününü yüklemeyi daha önce başlattı. Bu "
 "kullanıcının, bu ürünü kullanmadan önce yükleme işlemini yeniden "
 "çalıştırması gerekecek."
 
+#: en_US.Win32.Debug.Error-2.idtx:81 en_US.Win32.Release.Error-2.idtx:81
+#: en_US.x64.Debug.Error-2.idtx:81 en_US.x64.Release.Error-2.idtx:81
 msgid ""
-"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
-"[4] KB.  Free some disk space and retry."
+"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
+" [4] KB.  Free some disk space and retry."
 msgstr ""
 "Disk alanı yetersiz -- Disk: '[2]'; gereken alan: [3] KB; kullanılabilir "
 "alan: [4] KB.  Disk alanını biraz boşaltın ve yeniden deneyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:82 en_US.Win32.Release.Error-2.idtx:82
+#: en_US.x64.Debug.Error-2.idtx:82 en_US.x64.Release.Error-2.idtx:82
 msgid "Are you sure you want to cancel?"
 msgstr "İptal etmek istediğinizden emin misinz?"
 
+#: en_US.Win32.Debug.Error-2.idtx:83 en_US.Win32.Release.Error-2.idtx:83
+#: en_US.x64.Debug.Error-2.idtx:83 en_US.x64.Release.Error-2.idtx:83
 msgid ""
 "The file [2][3] is being held in use{ by the following process: Name: [4], "
 "Id: [5], Window Title: '[6]'}.  Close that application and retry."
@@ -700,6 +1297,8 @@ msgstr ""
 "[2][3] dosyası kullanımda{ aşağıdaki işlem kullanıyor: Adı: [4], Kimliği: "
 "[5], Pencere Başlığı: '[6]'}. Bu uygulamayı kapatın ve yeniden deneyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:84 en_US.Win32.Release.Error-2.idtx:84
+#: en_US.x64.Debug.Error-2.idtx:84 en_US.x64.Release.Error-2.idtx:84
 msgid ""
 "The product '[2]' is already installed, preventing the installation of this "
 "product.  The two products are incompatible."
@@ -707,6 +1306,8 @@ msgstr ""
 "'[2]' ürünü zaten yüklü ve bu ürünün yüklenmesini engelliyor. İki ürün "
 "uyumsuz."
 
+#: en_US.Win32.Debug.Error-2.idtx:85 en_US.Win32.Release.Error-2.idtx:85
+#: en_US.x64.Debug.Error-2.idtx:85 en_US.x64.Release.Error-2.idtx:85
 msgid ""
 "There is not enough disk space on the volume '[2]' to continue the install "
 "with recovery enabled. [3] KB are required, but only [4] KB are available. "
@@ -714,20 +1315,26 @@ msgid ""
 "click Retry to check for available space again, or click Cancel to quit the "
 "installation."
 msgstr ""
-"'[2]' biriminde kurtarma etkinleştirilmiş yüklemeye devam etmek için yeterli "
-"boş alan yok. [3] KB gerekli, fakat sadece [4] KB kullanılabilir durumda. "
+"'[2]' biriminde kurtarma etkinleştirilmiş yüklemeye devam etmek için yeterli"
+" boş alan yok. [3] KB gerekli, fakat sadece [4] KB kullanılabilir durumda. "
 "Kurtarma bilgilerini kaydetmeden yüklemeye devam etmek için Yoksay'ı "
 "tıklatın, kullanılabilir alanı yeniden denetlemek için Yeniden Dene'yi "
 "tıklatın veya yüklemeden çıkmak için İptal'i tıklatın."
 
+#: en_US.Win32.Debug.Error-2.idtx:86 en_US.Win32.Release.Error-2.idtx:86
+#: en_US.x64.Debug.Error-2.idtx:86 en_US.x64.Release.Error-2.idtx:86
 msgid "Could not access network location [2]."
 msgstr "[2] ağ konumuna erişilemedi."
 
+#: en_US.Win32.Debug.Error-2.idtx:87 en_US.Win32.Release.Error-2.idtx:87
+#: en_US.x64.Debug.Error-2.idtx:87 en_US.x64.Release.Error-2.idtx:87
 msgid ""
 "The following applications should be closed before continuing the install:"
 msgstr ""
 "Yükleme işlemine devam etmeden önce aşağıdaki uygulamalar kapatılmalıdır:"
 
+#: en_US.Win32.Debug.Error-2.idtx:88 en_US.Win32.Release.Error-2.idtx:88
+#: en_US.x64.Debug.Error-2.idtx:88 en_US.x64.Release.Error-2.idtx:88
 msgid ""
 "Could not find any previously installed compliant products on the machine "
 "for installing this product."
@@ -735,6 +1342,8 @@ msgstr ""
 "Bu ürünü yüklemek için bu bilgisayara daha önce yüklenmiş uyumlu ürünler "
 "bulunamadı."
 
+#: en_US.Win32.Debug.Error-2.idtx:89 en_US.Win32.Release.Error-2.idtx:89
+#: en_US.x64.Debug.Error-2.idtx:89 en_US.x64.Release.Error-2.idtx:89
 msgid ""
 "An error occurred while applying security settings. [2] is not a valid user "
 "or group. This could be a problem with the package, or a problem connecting "
@@ -748,9 +1357,42 @@ msgstr ""
 "tıklatın. veya yüklemeyi bitirmek için İptal'i tıklatın. {{Kullanıcı SID "
 "değeri konumlandırılamadı, sistem hatası [3]}}"
 
+#: en_US.Win32.Debug.Error-2.idtx:90 en_US.Win32.Release.Error-2.idtx:90
+#: en_US.x64.Debug.Error-2.idtx:90 en_US.x64.Release.Error-2.idtx:90
+msgid ""
+"The setup must update files or services that cannot be updated while the "
+"system is running. If you choose to continue, a reboot will be required to "
+"complete the setup."
+msgstr ""
+"Kurulumun, sistem çalışırken güncelleştirilemeyen dosya ve hizmetleri "
+"güncelleştirmesi gerekiyor. Devam etmeyi seçerseniz, kurulumu tamamlamak "
+"için yeniden başlatma gerekecek."
+
+#: en_US.Win32.Debug.Error-2.idtx:91 en_US.Win32.Release.Error-2.idtx:91
+#: en_US.x64.Debug.Error-2.idtx:91 en_US.x64.Release.Error-2.idtx:91
+msgid ""
+"The setup was unable to automatically close all applications that are using "
+"files that need to be updated. If you choose to continue, a reboot will be "
+"required to complete the setup."
+msgstr ""
+"Kur, güncelleştirilmesi gereken dosyaları kullanan tüm uygulamaları otomatik"
+" olarak kapatamadı. Devam etmeyi seçerseniz, Kur'u tamamlamak için "
+"bilgisayarı yeniden başlatmak gerekecek."
+
+#: en_US.Win32.Debug.Error-2.idtx:92 en_US.Win32.Release.Error-2.idtx:92
+#: en_US.x64.Debug.Error-2.idtx:92 en_US.x64.Release.Error-2.idtx:92
+msgid ""
+"This installation package is not supported on this platform. Contact your "
+"application vendor."
+msgstr ""
+
+#: en_US.Win32.Debug.Error-2.idtx:93 en_US.Win32.Release.Error-2.idtx:93
+#: en_US.x64.Debug.Error-2.idtx:93 en_US.x64.Release.Error-2.idtx:93
 msgid "The key [2] is not valid.  Verify that you entered the correct key."
 msgstr "[2] anahtarı geçerli değil. Doğru anahtarı girdiğinizi denetleyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:94 en_US.Win32.Release.Error-2.idtx:94
+#: en_US.x64.Debug.Error-2.idtx:94 en_US.x64.Release.Error-2.idtx:94
 msgid ""
 "The installer must restart your system before configuration of [2] can "
 "continue.  Click Yes to restart now or No if you plan to manually restart "
@@ -761,6 +1403,8 @@ msgstr ""
 "veya yeniden başlatmayı daha sonra el ile yapmayı düşünüyorsanız, Hayır'ı "
 "tıklatın."
 
+#: en_US.Win32.Debug.Error-2.idtx:95 en_US.Win32.Release.Error-2.idtx:95
+#: en_US.x64.Debug.Error-2.idtx:95 en_US.x64.Release.Error-2.idtx:95
 msgid ""
 "You must restart your system for the configuration changes made to [2] to "
 "take effect. Click Yes to restart now or No if you plan to manually restart "
@@ -768,16 +1412,21 @@ msgid ""
 msgstr ""
 "[2] için yapılandırma değişikliklerinin etkinleşmesi için sisteminizi "
 "yeniden başlatmalısınız. Şimdi yeniden başlatmak için Evet'i tıklatın veya "
-"yeniden başlatmayı daha sonra el ile yapmayı düşünüyorsanız Hayır'ı tıklatın."
+"yeniden başlatmayı daha sonra el ile yapmayı düşünüyorsanız Hayır'ı "
+"tıklatın."
 
+#: en_US.Win32.Debug.Error-2.idtx:96 en_US.Win32.Release.Error-2.idtx:96
+#: en_US.x64.Debug.Error-2.idtx:96 en_US.x64.Release.Error-2.idtx:96
 msgid ""
 "An installation for [2] is currently suspended.  You must undo the changes "
 "made by that installation to continue.  Do you want to undo those changes?"
 msgstr ""
-"[2] yüklemesi şu anda askıya alınmış. Devam etmek için bu yüklemenin yaptığı "
-"değişiklikleri geri almalısınız. Bu değişiklikleri geri almak istiyor "
+"[2] yüklemesi şu anda askıya alınmış. Devam etmek için bu yüklemenin yaptığı"
+" değişiklikleri geri almalısınız. Bu değişiklikleri geri almak istiyor "
 "musunuz?"
 
+#: en_US.Win32.Debug.Error-2.idtx:97 en_US.Win32.Release.Error-2.idtx:97
+#: en_US.x64.Debug.Error-2.idtx:97 en_US.x64.Release.Error-2.idtx:97
 msgid ""
 "A previous installation for this product is in progress.  You must undo the "
 "changes made by that installation to continue.  Do you want to undo those "
@@ -787,6 +1436,8 @@ msgstr ""
 "yaptığı değişiklikleri geri almalısınız. Bu değişiklikleri geri almak "
 "istiyor musunuz?"
 
+#: en_US.Win32.Debug.Error-2.idtx:98 en_US.Win32.Release.Error-2.idtx:98
+#: en_US.x64.Debug.Error-2.idtx:98 en_US.x64.Release.Error-2.idtx:98
 msgid ""
 "An installation package for the product [2] cannot be found. Try the "
 "installation again using a valid copy of the installation package '[3]'."
@@ -794,22 +1445,32 @@ msgstr ""
 "[2] ürünü için geçerli bir yükleme paketi bulunamadı. '[3]' yükleme "
 "paketinin geçerli bir kopyasını kullanarak yüklemeyi yeniden deneyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:99 en_US.Win32.Release.Error-2.idtx:99
+#: en_US.x64.Debug.Error-2.idtx:99 en_US.x64.Release.Error-2.idtx:99
 msgid "Installation completed successfully."
 msgstr "Yükleme başarıyla tamamlandı."
 
+#: en_US.Win32.Debug.Error-2.idtx:100 en_US.Win32.Release.Error-2.idtx:100
+#: en_US.x64.Debug.Error-2.idtx:100 en_US.x64.Release.Error-2.idtx:100
 msgid "Installation failed."
 msgstr "Yükleme başarısız oldu."
 
+#: en_US.Win32.Debug.Error-2.idtx:101 en_US.Win32.Release.Error-2.idtx:101
+#: en_US.x64.Debug.Error-2.idtx:101 en_US.x64.Release.Error-2.idtx:101
 msgid "Product: [2] -- [3]"
 msgstr "Ürün: [2] -- [3]"
 
+#: en_US.Win32.Debug.Error-2.idtx:102 en_US.Win32.Release.Error-2.idtx:102
+#: en_US.x64.Debug.Error-2.idtx:102 en_US.x64.Release.Error-2.idtx:102
 msgid ""
 "You may either restore your computer to its previous state or continue the "
 "install later. Would you like to restore?"
 msgstr ""
-"Bilgisayarınızı bir önceki durumuna döndürebilir ya da yükleme işlemine daha "
-"sonra devam edebilirsiniz. Önceki duruma dönmek istiyor musunuz?"
+"Bilgisayarınızı bir önceki durumuna döndürebilir ya da yükleme işlemine daha"
+" sonra devam edebilirsiniz. Önceki duruma dönmek istiyor musunuz?"
 
+#: en_US.Win32.Debug.Error-2.idtx:103 en_US.Win32.Release.Error-2.idtx:103
+#: en_US.x64.Debug.Error-2.idtx:103 en_US.x64.Release.Error-2.idtx:103
 msgid ""
 "An error occurred while writing installation information to disk.  Check to "
 "make sure enough disk space is available, and click Retry, or Cancel to end "
@@ -819,6 +1480,8 @@ msgstr ""
 "olmadığını denetleyin ve Yeniden Dene'yi tıklatın veya yükleme işlemine son "
 "vermek için İptal'i tıklatın."
 
+#: en_US.Win32.Debug.Error-2.idtx:104 en_US.Win32.Release.Error-2.idtx:104
+#: en_US.x64.Debug.Error-2.idtx:104 en_US.x64.Release.Error-2.idtx:104
 msgid ""
 "One or more of the files required to restore your computer to its previous "
 "state could not be found.  Restoration will not be possible."
@@ -826,6 +1489,8 @@ msgstr ""
 "Bilgisayarınızı önceki durumuna döndürmek için gereken bir veya daha çok "
 "dosya bulunamadı. Geri yükleme yapılamaz."
 
+#: en_US.Win32.Debug.Error-2.idtx:105 en_US.Win32.Release.Error-2.idtx:105
+#: en_US.x64.Debug.Error-2.idtx:105 en_US.x64.Release.Error-2.idtx:105
 msgid ""
 "[2] cannot install one of its required products. Contact your technical "
 "support group.  {{System Error: [3].}}"
@@ -833,6 +1498,8 @@ msgstr ""
 "[2] gerekli uygulamalarından birini yükleyemiyor. Teknik destek grubuyla "
 "bağlantı kurun.  {{Sistem Hatası: [3].}}"
 
+#: en_US.Win32.Debug.Error-2.idtx:106 en_US.Win32.Release.Error-2.idtx:106
+#: en_US.x64.Debug.Error-2.idtx:106 en_US.x64.Release.Error-2.idtx:106
 msgid ""
 "The older version of [2] cannot be removed.  Contact your technical support "
 "group.  {{System Error [3].}}"
@@ -840,38 +1507,52 @@ msgstr ""
 "Eski [2] sürümleri kaldırılamıyor.  Teknik destek grubuyla bağlantı kurun.  "
 "{{Sistem Hatası [3].}}"
 
+#: en_US.Win32.Debug.Error-2.idtx:107 en_US.Win32.Release.Error-2.idtx:107
+#: en_US.x64.Debug.Error-2.idtx:107 en_US.x64.Release.Error-2.idtx:107
 msgid "Installed [2]"
 msgstr "Yüklü [2]"
 
+#: en_US.Win32.Debug.Error-2.idtx:108 en_US.Win32.Release.Error-2.idtx:108
+#: en_US.x64.Debug.Error-2.idtx:108 en_US.x64.Release.Error-2.idtx:108
 msgid "Configured [2]"
 msgstr "Yapılandırıldı [2]"
 
+#: en_US.Win32.Debug.Error-2.idtx:109 en_US.Win32.Release.Error-2.idtx:109
+#: en_US.x64.Debug.Error-2.idtx:109 en_US.x64.Release.Error-2.idtx:109
 msgid "Removed [2]"
 msgstr "Kaldırıldı [2]"
 
+#: en_US.Win32.Debug.Error-2.idtx:110 en_US.Win32.Release.Error-2.idtx:110
+#: en_US.x64.Debug.Error-2.idtx:110 en_US.x64.Release.Error-2.idtx:110
 msgid "File [2] was rejected by digital signature policy."
 msgstr "[2] dosyası dijital imza ilkesi tarafından reddedildi ."
 
+#: en_US.Win32.Debug.Error-2.idtx:111 en_US.Win32.Release.Error-2.idtx:111
+#: en_US.x64.Debug.Error-2.idtx:111 en_US.x64.Release.Error-2.idtx:111
 msgid ""
 "The Windows Installer Service could not be accessed. This can occur if the "
-"Windows Installer is not correctly installed. Contact your support personnel "
-"for assistance."
+"Windows Installer is not correctly installed. Contact your support personnel"
+" for assistance."
 msgstr ""
-"Windows Installer hizmetine erişilemedi.  Güvenli modda çalışıyor olmanızdan "
-"veya Windows Installer hizmetinin doğru yüklenmemesinden kaynaklanabilir. "
+"Windows Installer hizmetine erişilemedi.  Güvenli modda çalışıyor olmanızdan"
+" veya Windows Installer hizmetinin doğru yüklenmemesinden kaynaklanabilir. "
 "Destek sorumlunuza başvurun."
 
+#: en_US.Win32.Debug.Error-2.idtx:112 en_US.Win32.Release.Error-2.idtx:112
+#: en_US.x64.Debug.Error-2.idtx:112 en_US.x64.Release.Error-2.idtx:112
 msgid ""
 "There is a problem with this Windows Installer package. A script required "
 "for this install to complete could not be run. Contact your support "
-"personnel or package vendor.  {{Custom action [2] script error [3], [4]: [5] "
-"Line [6], Column [7], [8] }}"
+"personnel or package vendor.  {{Custom action [2] script error [3], [4]: [5]"
+" Line [6], Column [7], [8] }}"
 msgstr ""
 "Windows Installer paketi ile ilgili bir sorun var. Bu yüklemeyi tamamlamak "
 "için gereken komut dosyası çalıştırılamadı. Destek sorumlunuza veya paket "
 "satıcısına bavurun.  {{Özel eylem [2] komut dosyası hatası [3], [4]: [5] "
 "satır [6], Sütun [7], [8] }}"
 
+#: en_US.Win32.Debug.Error-2.idtx:113 en_US.Win32.Release.Error-2.idtx:113
+#: en_US.x64.Debug.Error-2.idtx:113 en_US.x64.Release.Error-2.idtx:113
 msgid ""
 "There is a problem with this Windows Installer package. A program required "
 "for this install to complete could not be run. Contact your support "
@@ -881,42 +1562,60 @@ msgstr ""
 "tamamlanması için gereken program çalıştırılamadı. Destek sorumlunuza veya "
 "paket satıcısına başvurun. {{Eylem: [2], konum: [3], komut: [4] }}"
 
+#: en_US.Win32.Debug.Error-2.idtx:114 en_US.Win32.Release.Error-2.idtx:114
+#: en_US.x64.Debug.Error-2.idtx:114 en_US.x64.Release.Error-2.idtx:114
 msgid ""
 "There is a problem with this Windows Installer package. A program run as "
-"part of the setup did not finish as expected. Contact your support personnel "
-"or package vendor.  {{Action [2], location: [3], command: [4] }}"
+"part of the setup did not finish as expected. Contact your support personnel"
+" or package vendor.  {{Action [2], location: [3], command: [4] }}"
 msgstr ""
 "Bu Windows Installer paketi ilgili sorun var. Kurulumun bir parçası olarak "
 "çalışan program beklendiği gibi sonlanmadı. Destek sorumlunuza veya paket "
 "satıcısına başvurun.  {{Eylem [2], konum: [3], komut: [4] }}"
 
+#: en_US.Win32.Debug.Error-2.idtx:115 en_US.Win32.Release.Error-2.idtx:115
+#: en_US.x64.Debug.Error-2.idtx:115 en_US.x64.Release.Error-2.idtx:115
 msgid ""
 "There is a problem with this Windows Installer package. A DLL required for "
-"this install to complete could not be run. Contact your support personnel or "
-"package vendor.  {{Action [2], entry: [3], library: [4] }}"
+"this install to complete could not be run. Contact your support personnel or"
+" package vendor.  {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
 "Bu Windows Installer paketi ilgili sorun var. Bu yüklemenin tamamlanması "
 "için gereken  DLL çalıştırılamadı. Destek sorumlunuza veya paket satıcısına "
 "başvurun.  {{Eylem [2], giriş: [3], kitaplık: [4] }}"
 
+#: en_US.Win32.Debug.Error-2.idtx:116 en_US.Win32.Release.Error-2.idtx:116
+#: en_US.x64.Debug.Error-2.idtx:116 en_US.x64.Release.Error-2.idtx:116
 msgid "Removal completed successfully."
 msgstr "Kaldırma başarıyla tamamlandı."
 
+#: en_US.Win32.Debug.Error-2.idtx:117 en_US.Win32.Release.Error-2.idtx:117
+#: en_US.x64.Debug.Error-2.idtx:117 en_US.x64.Release.Error-2.idtx:117
 msgid "Removal failed."
 msgstr "Kaldırma başarısız oldu."
 
+#: en_US.Win32.Debug.Error-2.idtx:118 en_US.Win32.Release.Error-2.idtx:118
+#: en_US.x64.Debug.Error-2.idtx:118 en_US.x64.Release.Error-2.idtx:118
 msgid "Advertisement completed successfully."
 msgstr "Duyuru başarıyla tamamlandı."
 
+#: en_US.Win32.Debug.Error-2.idtx:119 en_US.Win32.Release.Error-2.idtx:119
+#: en_US.x64.Debug.Error-2.idtx:119 en_US.x64.Release.Error-2.idtx:119
 msgid "Advertisement failed."
 msgstr "Duyuru başarısız oldu."
 
+#: en_US.Win32.Debug.Error-2.idtx:120 en_US.Win32.Release.Error-2.idtx:120
+#: en_US.x64.Debug.Error-2.idtx:120 en_US.x64.Release.Error-2.idtx:120
 msgid "Configuration completed successfully."
 msgstr "Yapılandırma başarıyla tamamlandı."
 
+#: en_US.Win32.Debug.Error-2.idtx:121 en_US.Win32.Release.Error-2.idtx:121
+#: en_US.x64.Debug.Error-2.idtx:121 en_US.x64.Release.Error-2.idtx:121
 msgid "Configuration failed."
 msgstr "Yapılandırma başarısız oldu."
 
+#: en_US.Win32.Debug.Error-2.idtx:122 en_US.Win32.Release.Error-2.idtx:122
+#: en_US.x64.Debug.Error-2.idtx:122 en_US.x64.Release.Error-2.idtx:122
 msgid ""
 "You must be an Administrator to remove this application. To remove this "
 "application, you can log on as an Administrator, or contact your technical "
@@ -926,17 +1625,22 @@ msgstr ""
 "için yönetici olarak oturum açabilir veya yardım için teknik destek grubuna "
 "başvurabilirsiniz."
 
+#: en_US.Win32.Debug.Error-2.idtx:123 en_US.Win32.Release.Error-2.idtx:123
+#: en_US.x64.Debug.Error-2.idtx:123 en_US.x64.Release.Error-2.idtx:123
 msgid ""
 "The source installation package for the product [2] is out of sync with the "
 "client package. Try the installation again using a valid copy of the "
 "installation package '[3]'."
 msgstr ""
 "[2] ürünü için kaynak yükleme paketi istemci paketi ile eşlenmemiş.  '[3]' "
-"yükleme paketinin geçerli bir kopyasını kullanarak yüklemeyi yeniden deneyin."
+"yükleme paketinin geçerli bir kopyasını kullanarak yüklemeyi yeniden "
+"deneyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:124 en_US.Win32.Release.Error-2.idtx:124
+#: en_US.x64.Debug.Error-2.idtx:124 en_US.x64.Release.Error-2.idtx:124
 msgid ""
-"In order to complete the installation of [2], you must restart the computer. "
-"Other users are currently logged on to this computer, and restarting may "
+"In order to complete the installation of [2], you must restart the computer."
+" Other users are currently logged on to this computer, and restarting may "
 "cause them to lose their work. Do you want to restart now?"
 msgstr ""
 "[2] yüklemesini tamamlamak için, bilgisayarı yeniden başlatmalısınız. Bu "
@@ -944,9 +1648,24 @@ msgstr ""
 "çalışmalarını kaybetmelerine sebep olabilir. Yeniden başlatmak istiyor "
 "musunuz?"
 
+#: en_US.Win32.Debug.Error-2.idtx:125 en_US.Win32.Release.Error-2.idtx:125
+#: en_US.x64.Debug.Error-2.idtx:125 en_US.x64.Release.Error-2.idtx:125
+msgid ""
+"The Windows Installer service is not accessible in Safe Mode. Please try "
+"again when your computer is not in Safe Mode or you can use System Restore "
+"to return your machine to a previous good state."
+msgstr ""
+"Windows Installer hizmetine Güvenli Mod'da erişilemiyor. Lütfen "
+"bilgisayarınız Güvenli Mod'dan çıktığında yeniden deneyin; makinenizi önceki"
+" iyi bir duruma döndürmek için Sistem Geri Yükleme'yi kullanabilirsiniz."
+
+#: en_US.Win32.Debug.Error-2.idtx:126 en_US.Win32.Release.Error-2.idtx:126
+#: en_US.x64.Debug.Error-2.idtx:126 en_US.x64.Release.Error-2.idtx:126
 msgid "The path [2] is not valid.  Please specify a valid path."
 msgstr "[2] yolu geçersiz. Lütfen geçerli bir yol belirtin."
 
+#: en_US.Win32.Debug.Error-2.idtx:128 en_US.Win32.Release.Error-2.idtx:128
+#: en_US.x64.Debug.Error-2.idtx:128 en_US.x64.Release.Error-2.idtx:128
 msgid ""
 "There is no disk in drive [2]. Please insert one and click Retry, or click "
 "Cancel to go back to the previously selected volume."
@@ -954,6 +1673,8 @@ msgstr ""
 "[2] sürücüsünde disket yok. Lütfen bir disket takın ve Yeniden Dene'yi "
 "tıklatın veya daha önce seçilen sürücüye geri dönmek için İptal'i tıklatın."
 
+#: en_US.Win32.Debug.Error-2.idtx:129 en_US.Win32.Release.Error-2.idtx:129
+#: en_US.x64.Debug.Error-2.idtx:129 en_US.x64.Release.Error-2.idtx:129
 msgid ""
 "There is no disk in drive [2]. Please insert one and click Retry, or click "
 "Cancel to return to the browse dialog and select a different volume."
@@ -962,19 +1683,29 @@ msgstr ""
 "tıklatın veya gözatma iletişim kutusuna dönmek ve farklı bir sürücü seçmek "
 "için İptal'i tıklatın."
 
+#: en_US.Win32.Debug.Error-2.idtx:130 en_US.Win32.Release.Error-2.idtx:130
+#: en_US.x64.Debug.Error-2.idtx:130 en_US.x64.Release.Error-2.idtx:130
 msgid ""
 "The folder [2] does not exist.  Please enter a path to an existing folder."
 msgstr "[2] klasörü yok. Lütfen varolan bir klasörün yolunu girin."
 
+#: en_US.Win32.Debug.Error-2.idtx:131 en_US.Win32.Release.Error-2.idtx:131
+#: en_US.x64.Debug.Error-2.idtx:131 en_US.x64.Release.Error-2.idtx:131
 msgid "You have insufficient privileges to read this folder."
 msgstr "Bu klasörü okumak için yeterli ayrıcalığınız yok."
 
+#: en_US.Win32.Debug.Error-2.idtx:132 en_US.Win32.Release.Error-2.idtx:132
+#: en_US.x64.Debug.Error-2.idtx:132 en_US.x64.Release.Error-2.idtx:132
 msgid "A valid destination folder for the install could not be determined."
 msgstr "Yükleme işlemi için geçerli bir hedef klasörü belirlenemedi."
 
+#: en_US.Win32.Debug.Error-2.idtx:133 en_US.Win32.Release.Error-2.idtx:133
+#: en_US.x64.Debug.Error-2.idtx:133 en_US.x64.Release.Error-2.idtx:133
 msgid "Error attempting to read from the source install database: [2]."
 msgstr "[2] kaynak yükleme veritabanından okuma hatası."
 
+#: en_US.Win32.Debug.Error-2.idtx:134 en_US.Win32.Release.Error-2.idtx:134
+#: en_US.x64.Debug.Error-2.idtx:134 en_US.x64.Release.Error-2.idtx:134
 msgid ""
 "Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to "
 "complete operation."
@@ -983,6 +1714,8 @@ msgstr ""
 "değiştiriliyor. İşlemi tamamlamak için bilgisayarı yeniden başlatmanız "
 "gerekiyor."
 
+#: en_US.Win32.Debug.Error-2.idtx:135 en_US.Win32.Release.Error-2.idtx:135
+#: en_US.x64.Debug.Error-2.idtx:135 en_US.x64.Release.Error-2.idtx:135
 msgid ""
 "Scheduling reboot operation: Deleting file [2]. Must reboot to complete "
 "operation."
@@ -990,28 +1723,39 @@ msgstr ""
 "Yeniden başlatma işlemi zamanlanıyor: [2] dosyası siliniyor. İşlemi "
 "tamamlamak için bilgisayarı yeniden başlatmanız gerekiyor."
 
+#: en_US.Win32.Debug.Error-2.idtx:136 en_US.Win32.Release.Error-2.idtx:136
+#: en_US.x64.Debug.Error-2.idtx:136 en_US.x64.Release.Error-2.idtx:136
 msgid ""
-"Module [2] failed to register.  HRESULT [3].  Contact your support personnel."
+"Module [2] failed to register.  HRESULT [3].  Contact your support "
+"personnel."
 msgstr "[2] modülü kaydedilemedi. HRESULT [3]. Destek sorumlunuza başvurun."
 
+#: en_US.Win32.Debug.Error-2.idtx:137 en_US.Win32.Release.Error-2.idtx:137
+#: en_US.x64.Debug.Error-2.idtx:137 en_US.x64.Release.Error-2.idtx:137
 msgid ""
 "Module [2] failed to unregister.  HRESULT [3].  Contact your support "
 "personnel."
 msgstr ""
 "[2] modülünün kaydı silinemedi. HRESULT [3]. Destek sorumlunuza başvurun."
 
+#: en_US.Win32.Debug.Error-2.idtx:138 en_US.Win32.Release.Error-2.idtx:138
+#: en_US.x64.Debug.Error-2.idtx:138 en_US.x64.Release.Error-2.idtx:138
 msgid ""
 "Failed to cache package [2]. Error: [3]. Contact your support personnel."
 msgstr ""
 "[2] paketi önbelleğe alınamadı. Hata: [3]. Destek sorumlunuza başvurun."
 
+#: en_US.Win32.Debug.Error-2.idtx:139 en_US.Win32.Release.Error-2.idtx:139
+#: en_US.x64.Debug.Error-2.idtx:139 en_US.x64.Release.Error-2.idtx:139
 msgid ""
-"Could not register font [2].  Verify that you have sufficient permissions to "
-"install fonts, and that the system supports this font."
+"Could not register font [2].  Verify that you have sufficient permissions to"
+" install fonts, and that the system supports this font."
 msgstr ""
 "[2] yazı tipi kaydedilemedi. Yazı tiplerini yüklemek için yeterli izninizin "
 "olduğunu ve sistemin bu yazı tipini desteklediğini denetleyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:140 en_US.Win32.Release.Error-2.idtx:140
+#: en_US.x64.Debug.Error-2.idtx:140 en_US.x64.Release.Error-2.idtx:140
 msgid ""
 "Could not unregister font [2]. Verify that you that you have sufficient "
 "permissions to remove fonts."
@@ -1019,32 +1763,44 @@ msgstr ""
 "[2] yazı tipinin kaydı silinemedi. Yazı tiplerini kaldırmak için yeterli "
 "izninizin olduğunu denetleyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:141 en_US.Win32.Release.Error-2.idtx:141
+#: en_US.x64.Debug.Error-2.idtx:141 en_US.x64.Release.Error-2.idtx:141
 msgid ""
-"Could not create Shortcut [2]. Verify that the destination folder exists and "
-"that you can access it."
+"Could not create Shortcut [2]. Verify that the destination folder exists and"
+" that you can access it."
 msgstr ""
 "[2] Kısayolu oluşturulamadı. Hedef klasörünün varolduğunu ve ona "
 "erişebildiğinizi denetleyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:142 en_US.Win32.Release.Error-2.idtx:142
+#: en_US.x64.Debug.Error-2.idtx:142 en_US.x64.Release.Error-2.idtx:142
 msgid ""
-"Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
-"you can access it."
+"Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
+" you can access it."
 msgstr ""
 "[2] Kısayolu kaldırılamadı. Kısayol dosyasının varolduğunu ve ona "
 "erişebildiğinizi denetleyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:143 en_US.Win32.Release.Error-2.idtx:143
+#: en_US.x64.Debug.Error-2.idtx:143 en_US.x64.Release.Error-2.idtx:143
 msgid ""
 "Could not register type library for file [2].  Contact your support "
 "personnel."
 msgstr ""
-"[2] dosyası için tür kitaplığı kaydettirilemedi. Destek sorumlunuza başvurun."
+"[2] dosyası için tür kitaplığı kaydettirilemedi. Destek sorumlunuza "
+"başvurun."
 
+#: en_US.Win32.Debug.Error-2.idtx:144 en_US.Win32.Release.Error-2.idtx:144
+#: en_US.x64.Debug.Error-2.idtx:144 en_US.x64.Release.Error-2.idtx:144
 msgid ""
 "Could not unregister type library for file [2].  Contact your support "
 "personnel."
 msgstr ""
-"[2] dosyası için tür kitaplığı kaydı silinemedi. Destek sorumlunuza başvurun."
+"[2] dosyası için tür kitaplığı kaydı silinemedi. Destek sorumlunuza "
+"başvurun."
 
+#: en_US.Win32.Debug.Error-2.idtx:145 en_US.Win32.Release.Error-2.idtx:145
+#: en_US.x64.Debug.Error-2.idtx:145 en_US.x64.Release.Error-2.idtx:145
 msgid ""
 "Could not update the ini file [2][3].  Verify that the file exists and that "
 "you can access it."
@@ -1052,6 +1808,8 @@ msgstr ""
 "[2][3] ini dosyası güncelleştirilemedi.  Dosyanın bulunduğundan ve ona "
 "erişebildiğinizden emin olun."
 
+#: en_US.Win32.Debug.Error-2.idtx:146 en_US.Win32.Release.Error-2.idtx:146
+#: en_US.x64.Debug.Error-2.idtx:146 en_US.x64.Release.Error-2.idtx:146
 msgid ""
 "Could not schedule file [2] to replace file [3] on reboot.  Verify that you "
 "have write permissions to file [3]."
@@ -1059,6 +1817,8 @@ msgstr ""
 "Yeniden başlatma sırasında, [2] dosyasını [3] dosyası ile değişme "
 "zamanlanamadı. [3] dosyasına yazma izninizin olduğunu denetleyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:147 en_US.Win32.Release.Error-2.idtx:147
+#: en_US.x64.Debug.Error-2.idtx:147 en_US.x64.Release.Error-2.idtx:147
 msgid ""
 "Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
@@ -1066,6 +1826,8 @@ msgstr ""
 "ODBC sürücü yöneticisini kaldırma hatası, ODBC hatası [2]: [3]. Destek "
 "sorumlunuza başvurun."
 
+#: en_US.Win32.Debug.Error-2.idtx:148 en_US.Win32.Release.Error-2.idtx:148
+#: en_US.x64.Debug.Error-2.idtx:148 en_US.x64.Release.Error-2.idtx:148
 msgid ""
 "Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
@@ -1073,6 +1835,8 @@ msgstr ""
 "ODBC sürücü yöneticisini yükleme hatası, ODBC hatası [2]: [3]. Destek "
 "sorumlunuza başvurun."
 
+#: en_US.Win32.Debug.Error-2.idtx:149 en_US.Win32.Release.Error-2.idtx:149
+#: en_US.x64.Debug.Error-2.idtx:149 en_US.x64.Release.Error-2.idtx:149
 msgid ""
 "Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you have "
 "sufficient privileges to remove ODBC drivers."
@@ -1080,13 +1844,17 @@ msgstr ""
 "ODBC sürücüsünü kaldırma hatası: [4], ODBC hatası [2]: [3]. ODBC "
 "sürücülerini kaldırmak için yeterli ayrıcalığınızın olduğunuzu denetleyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:150 en_US.Win32.Release.Error-2.idtx:150
+#: en_US.x64.Debug.Error-2.idtx:150 en_US.x64.Release.Error-2.idtx:150
 msgid ""
-"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
-"[4] exists and that you can access it."
+"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
+" [4] exists and that you can access it."
 msgstr ""
 "ODBC sürücüsünü yükleme hatası: [4], ODBC hatası [2]: [3]. [4] dosyasının "
 "varolduğunu ve ona erişebildiğinizi denetleyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:151 en_US.Win32.Release.Error-2.idtx:151
+#: en_US.x64.Debug.Error-2.idtx:151 en_US.x64.Release.Error-2.idtx:151
 msgid ""
 "Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that "
 "the file [4] exists and that you can access it."
@@ -1094,13 +1862,17 @@ msgstr ""
 "[4] ODBC veri kaynağını yapılandırma hatası, ODBC hatası [2]: [3]. [4] "
 "dosyasının varolduğunu ve ona erişebildiğinizi denetleyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:152 en_US.Win32.Release.Error-2.idtx:152
+#: en_US.x64.Debug.Error-2.idtx:152 en_US.x64.Release.Error-2.idtx:152
 msgid ""
 "Service '[2]' ([3]) failed to start.  Verify that you have sufficient "
 "privileges to start system services."
 msgstr ""
-"'[2]' ([3]) hizmeti başlatılırken hata oluştu. Sistem hizmetlerini başlatmak "
-"için yeterli ayrıcalığınızın olduğunu denetleyin."
+"'[2]' ([3]) hizmeti başlatılırken hata oluştu. Sistem hizmetlerini başlatmak"
+" için yeterli ayrıcalığınızın olduğunu denetleyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:153 en_US.Win32.Release.Error-2.idtx:153
+#: en_US.x64.Debug.Error-2.idtx:153 en_US.x64.Release.Error-2.idtx:153
 msgid ""
 "Service '[2]' ([3]) could not be stopped.  Verify that you have sufficient "
 "privileges to stop system services."
@@ -1108,6 +1880,8 @@ msgstr ""
 "'[2]' ([3]) hizmeti durdurulamadı. Sistem hizmetlerini durdurmak için "
 "yeterli ayrıcalığınızın olduğunu denetleyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:154 en_US.Win32.Release.Error-2.idtx:154
+#: en_US.x64.Debug.Error-2.idtx:154 en_US.x64.Release.Error-2.idtx:154
 msgid ""
 "Service '[2]' ([3]) could not be deleted.  Verify that you have sufficient "
 "privileges to remove system services."
@@ -1115,13 +1889,17 @@ msgstr ""
 "'[2]' ([3]) hizmeti silinemedi. Sistem hizmetlerini kaldırmak için yeterli "
 "ayrıcalığınızın olduğunu denetleyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:155 en_US.Win32.Release.Error-2.idtx:155
+#: en_US.x64.Debug.Error-2.idtx:155 en_US.x64.Release.Error-2.idtx:155
 msgid ""
-"Service '[2]' ([3]) could not be installed.  Verify that you have sufficient "
-"privileges to install system services."
+"Service '[2]' ([3]) could not be installed.  Verify that you have sufficient"
+" privileges to install system services."
 msgstr ""
 "'[2]' ([3]) hizmeti yüklenemedi. Sistem hizmetlerini yüklemek için yeterli "
 "ayrıcalığınızın olduğunu denetleyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:156 en_US.Win32.Release.Error-2.idtx:156
+#: en_US.x64.Debug.Error-2.idtx:156 en_US.x64.Release.Error-2.idtx:156
 msgid ""
 "Could not update environment variable '[2]'.  Verify that you have "
 "sufficient privileges to modify environment variables."
@@ -1129,6 +1907,8 @@ msgstr ""
 "'[2]' ortam değişkeni güncelleştirilemedi. Ortam değişkenlerini değiştirmek "
 "için yeterli ayrıcalığınızın olduğunu denetleyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:157 en_US.Win32.Release.Error-2.idtx:157
+#: en_US.x64.Debug.Error-2.idtx:157 en_US.x64.Release.Error-2.idtx:157
 msgid ""
 "You do not have sufficient privileges to complete this installation for all "
 "users of the machine.  Log on as administrator and then retry this "
@@ -1138,6 +1918,8 @@ msgstr ""
 "ayrıcalığınız yok. Administrator olarak oturum açın ve sonra bu yükleme "
 "işlemini yeniden deneyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:158 en_US.Win32.Release.Error-2.idtx:158
+#: en_US.x64.Debug.Error-2.idtx:158 en_US.x64.Release.Error-2.idtx:158
 msgid ""
 "Could not set file security for file '[3]'. Error: [2].  Verify that you "
 "have sufficient privileges to modify the security permissions for this file."
@@ -1146,22 +1928,28 @@ msgstr ""
 "güvenlik izinlerini değiştirmek için yeterli ayrıcalığınızın olduğunu "
 "denetleyin."
 
+#: en_US.Win32.Debug.Error-2.idtx:159 en_US.Win32.Release.Error-2.idtx:159
+#: en_US.x64.Debug.Error-2.idtx:159 en_US.x64.Release.Error-2.idtx:159
 msgid ""
 "Component Services (COM+ 1.0) are not installed on this computer.  This "
-"installation requires Component Services in order to complete successfully.  "
-"Component Services are available on Windows 2000."
+"installation requires Component Services in order to complete successfully."
+"  Component Services are available on Windows 2000."
 msgstr ""
 "Component Services (COM+ 1.0) bu bilgisayarda yüklü değil.  Bu yüklemenin "
 "başarılı olabilmesi için Component Services yüklü olmalıdır.  Component "
 "Services, Windows 2000 üzerinde bulunabilir."
 
+#: en_US.Win32.Debug.Error-2.idtx:160 en_US.Win32.Release.Error-2.idtx:160
+#: en_US.x64.Debug.Error-2.idtx:160 en_US.x64.Release.Error-2.idtx:160
 msgid ""
-"Error registering COM+ Application.  Contact your support personnel for more "
-"information."
+"Error registering COM+ Application.  Contact your support personnel for more"
+" information."
 msgstr ""
 "COM+ Uygulaması kaydettirme hatası.  Daha fazla bilgi için destek "
 "sorumlularına başvurun."
 
+#: en_US.Win32.Debug.Error-2.idtx:161 en_US.Win32.Release.Error-2.idtx:161
+#: en_US.x64.Debug.Error-2.idtx:161 en_US.x64.Release.Error-2.idtx:161
 msgid ""
 "Error unregistering COM+ Application.  Contact your support personnel for "
 "more information."
@@ -1169,9 +1957,13 @@ msgstr ""
 "COM+ Uygulaması kaydını kaldırma hatası.  Daha fazla bilgi için destek "
 "sorumlularına başvurun."
 
+#: en_US.Win32.Debug.Error-2.idtx:162 en_US.Win32.Release.Error-2.idtx:162
+#: en_US.x64.Debug.Error-2.idtx:162 en_US.x64.Release.Error-2.idtx:162
 msgid "The description for service '[2]' ([3]) could not be changed."
 msgstr "'[2]' ([3]) hizmetinin tanımı değiştirilemedi."
 
+#: en_US.Win32.Debug.Error-2.idtx:163 en_US.Win32.Release.Error-2.idtx:163
+#: en_US.x64.Debug.Error-2.idtx:163 en_US.x64.Release.Error-2.idtx:163
 msgid ""
 "The Windows Installer service cannot update the system file [2] because the "
 "file is protected by Windows.  You may need to update your operating system "
@@ -1180,47 +1972,56 @@ msgid ""
 msgstr ""
 "[2] sistem dosyası Windows tarafından korunduğu için Windows Installer "
 "hizmeti bu dosyayı güncelleştiremiyor.  Bu programın doğru çalışabilmesi "
-"için işletim sisteminizi güncelleştirmeniz gerekebilir. {{Paket sürümü: [3], "
-"OS korumasındaki sürüm: [4]}}"
+"için işletim sisteminizi güncelleştirmeniz gerekebilir. {{Paket sürümü: [3],"
+" OS korumasındaki sürüm: [4]}}"
 
+#: en_US.Win32.Debug.Error-2.idtx:164 en_US.Win32.Release.Error-2.idtx:164
+#: en_US.x64.Debug.Error-2.idtx:164 en_US.x64.Release.Error-2.idtx:164
 msgid ""
 "The Windows Installer service cannot update the protected Windows file [2]. "
 "{{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
 msgstr ""
-"Windows Installer hizmeti korumalı [2] Windows dosyasını "
-"güncelleştiremiyor.  {{Paket sürümü: [3], OS korumasındaki sürüm: [4], SFP "
-"Hatası: [5]}}"
+"Windows Installer hizmeti korumalı [2] Windows dosyasını güncelleştiremiyor."
+"  {{Paket sürümü: [3], OS korumasındaki sürüm: [4], SFP Hatası: [5]}}"
 
+#: en_US.Win32.Debug.Error-2.idtx:165 en_US.Win32.Release.Error-2.idtx:165
+#: en_US.x64.Debug.Error-2.idtx:165 en_US.x64.Release.Error-2.idtx:165
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2].  List of protected files:\n"
+"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2].  List of protected files:\n"
 "[3]}}"
 msgstr ""
-"Windows Installer hizmeti, bir veya daha falza korunan Windows dosyasını "
-"güncelleyemiyor. {{SFP Hata: [2].  Korunan dosyaların listesi:\n"
+"Windows Installer hizmeti, bir veya daha falza korunan Windows dosyasını güncelleyemiyor. {{SFP Hata: [2].  Korunan dosyaların listesi:\n"
 "[3]}}"
 
+#: en_US.Win32.Debug.Error-2.idtx:166 en_US.Win32.Release.Error-2.idtx:166
+#: en_US.x64.Debug.Error-2.idtx:166 en_US.x64.Release.Error-2.idtx:166
 msgid "User installations are disabled via policy on the machine."
 msgstr "Kullanıcı yüklemeleri bu makinedeki ilke ile devre dışı bırakıldı."
 
+#: en_US.Win32.Debug.Error-2.idtx:167 en_US.Win32.Release.Error-2.idtx:167
+#: en_US.x64.Debug.Error-2.idtx:167 en_US.x64.Release.Error-2.idtx:167
 msgid ""
-"An error occurred during the installation of assembly '[6]'. Please refer to "
-"Help and Support for more information. {{HRESULT: [3]. assembly interface: "
+"An error occurred during the installation of assembly '[6]'. Please refer to"
+" Help and Support for more information. {{HRESULT: [3]. assembly interface: "
 "[4], function: [5], component: [2]}}"
 msgstr ""
 "Birleştirme kurulumu sırasında bir hata oluştu[6]. Daha fazla bilgi için "
 "lütfen Yardım ve Desteğe bakınız. HRESULT: [3]. {{birleştirme arabirimi: "
 "[4], ,işlev: [5], bileşen: [6]}}"
 
+#: en_US.Win32.Debug.Error-2.idtx:168 en_US.Win32.Release.Error-2.idtx:168
+#: en_US.x64.Debug.Error-2.idtx:168 en_US.x64.Release.Error-2.idtx:168
 msgid ""
-"An error occurred during the installation of assembly '[6]'. The assembly is "
-"not strongly named or is not signed with the minimal key length. {{HRESULT: "
-"[3]. assembly interface: [4], function: [5], component: [2]}}"
+"An error occurred during the installation of assembly '[6]'. The assembly is"
+" not strongly named or is not signed with the minimal key length. {{HRESULT:"
+" [3]. assembly interface: [4], function: [5], component: [2]}}"
 msgstr ""
 "'[6]' bileşiminin yüklenmesi sırasında bir hata oluştu. Bileşim iyi "
 "adlandırılmadı veya minimum anahtar uzunluğu ile imzalanmadı. HRESULT: [3]. "
 "{{bileşim arabirimi: [4], işlev: [5], bileşen: [2]}}"
 
+#: en_US.Win32.Debug.Error-2.idtx:169 en_US.Win32.Release.Error-2.idtx:169
+#: en_US.x64.Debug.Error-2.idtx:169 en_US.x64.Release.Error-2.idtx:169
 msgid ""
 "An error occurred during the installation of assembly '[6]'. The signature "
 "or catalog could not be verified or is not valid. {{HRESULT: [3]. assembly "
@@ -1230,6 +2031,8 @@ msgstr ""
 "doğrulanamadı veya geçersiz. HRESULT: [3]. {{bileşim arabirimi: [4], işlev: "
 "[5], bileşen: [2]}}"
 
+#: en_US.Win32.Debug.Error-2.idtx:170 en_US.Win32.Release.Error-2.idtx:170
+#: en_US.x64.Debug.Error-2.idtx:170 en_US.x64.Release.Error-2.idtx:170
 msgid ""
 "An error occurred during the installation of assembly '[6]'. One or more "
 "modules of the assembly could not be found. {{HRESULT: [3]. assembly "
@@ -1239,74 +2042,15 @@ msgstr ""
 "daha fazla parçası bulunamadı. HRESULT: [3]. {{bileşim arabirimi: [4], "
 "işlev: [5], bileşen: [2]}}"
 
-#: En.Win32.Debug.ActionText-2.idtx:3 En.Win32.Debug.CustomAction-2.idtx:3
-#: En.Win32.Debug.Error-2.idtx:3 En.Win32.Release.ActionText-2.idtx:3
-#: En.Win32.Release.CustomAction-2.idtx:3 En.Win32.Release.Error-2.idtx:3
-#: En.x64.Debug.ActionText-2.idtx:3 En.x64.Debug.CustomAction-2.idtx:3
-#: En.x64.Debug.Error-2.idtx:3 En.x64.Release.ActionText-2.idtx:3
-#: En.x64.Release.CustomAction-2.idtx:3 En.x64.Release.Error-2.idtx:3
-msgid "1252"
-msgstr "1254"
-
-#: En.Win32.Debug.Error-2.idtx:171 En.Win32.Release.Error-2.idtx:171
-#: En.x64.Debug.Error-2.idtx:171 En.x64.Release.Error-2.idtx:171
+#: en_US.Win32.Debug.Error-2.idtx:171 en_US.Win32.Release.Error-2.idtx:171
+#: en_US.x64.Debug.Error-2.idtx:171 en_US.x64.Release.Error-2.idtx:171
 msgid ""
 "64-bit registry operation attempted on 32-bit operating system for key [2]."
 msgstr ""
 
-#: En.Win32.Debug.CustomAction-2.idtx:5 En.Win32.Release.CustomAction-2.idtx:5
-#: En.x64.Debug.CustomAction-2.idtx:4 En.x64.Release.CustomAction-2.idtx:4
-msgid "A newer version of [SimpleProductName] is already installed."
-msgstr ""
-
-#: En.Win32.Debug.Error-2.idtx:90 En.Win32.Release.Error-2.idtx:90
-#: En.x64.Debug.Error-2.idtx:90 En.x64.Release.Error-2.idtx:90
-msgid ""
-"The setup must update files or services that cannot be updated while the "
-"system is running. If you choose to continue, a reboot will be required to "
-"complete the setup."
-msgstr ""
-
-#: En.Win32.Debug.Error-2.idtx:91 En.Win32.Release.Error-2.idtx:91
-#: En.x64.Debug.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
-msgid ""
-"The setup was unable to automatically close all applications that are using "
-"files that need to be updated. If you choose to continue, a reboot will be "
-"required to complete the setup."
-msgstr ""
-
-#: En.Win32.Debug.Error-2.idtx:125 En.Win32.Release.Error-2.idtx:125
-#: En.x64.Debug.Error-2.idtx:125 En.x64.Release.Error-2.idtx:125
-msgid ""
-"The Windows Installer service is not accessible in Safe Mode. Please try "
-"again when your computer is not in Safe Mode or you can use System Restore "
-"to return your machine to a previous good state."
-msgstr ""
-
-#: En.Win32.Debug.Error-2.idtx:92 En.Win32.Release.Error-2.idtx:92
-#: En.x64.Debug.Error-2.idtx:92 En.x64.Release.Error-2.idtx:92
-msgid ""
-"This installation package is not supported on this platform. Contact your "
-"application vendor."
-msgstr ""
-
-#: En.Win32.Debug.CustomAction-2.idtx:6 En.Win32.Release.CustomAction-2.idtx:6
-#: En.x64.Debug.CustomAction-2.idtx:5 En.x64.Release.CustomAction-2.idtx:5
-msgid ""
-"This package cannot upgrade the currently installed [SimpleProductName]. "
-"Please remove the old package first and retry."
-msgstr ""
-
-#: En.Win32.Debug.Error-2.idtx:172 En.Win32.Release.Error-2.idtx:172
-#: En.x64.Debug.Error-2.idtx:172 En.x64.Release.Error-2.idtx:172
+#: en_US.Win32.Debug.Error-2.idtx:172 en_US.Win32.Release.Error-2.idtx:172
+#: en_US.x64.Debug.Error-2.idtx:172 en_US.x64.Release.Error-2.idtx:172
 msgid ""
 "This version of Windows does not support deploying 64-bit packages. The "
 "script [2] is for a 64-bit package."
-msgstr ""
-
-#: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
-msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
-"64-bit operating system. 32-bit variant will not work with your operating "
-"system. The installation of the 64-bit variant is recommended."
 msgstr ""
