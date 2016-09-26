@@ -359,7 +359,7 @@
 			<unnamed name="&lt;database.msi&gt;" helpstring="MSI database file" required="true"/>
 			<unnamed name="&lt;transform.mst&gt;" helpstring="MST file to add as a sub-storage" required="true"/>
 			<unnamed name="&lt;name&gt;" helpstring="Sub-storage name" required="true"/>
-			<named name="L" helpstring="Sub-storage represents localization transform" type="boolean" required="false"/>
+			<named name="L" helpstring="Add transform to the list of language transforms" type="boolean" required="false"/>
 		</runtime>
 		<script language="JScript" src="MSI.js"/>
 		<script language="JScript" src="String.js"/>
@@ -635,8 +635,8 @@
 ** SIG ** MIIXmAYJKoZIhvcNAQcCoIIXiTCCF4UCAQExCzAJBgUr
 ** SIG ** DgMCGgUAMGcGCisGAQQBgjcCAQSgWTBXMDIGCisGAQQB
 ** SIG ** gjcCAR4wJAIBAQQQcAVhGs441BGiowAQS9NQkAIBAAIB
-** SIG ** AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFGxsEDDwj2Pd
-** SIG ** RX62iu+ffB2lgk5HoIISyDCCA+4wggNXoAMCAQICEH6T
+** SIG ** AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFA4papFj+oVZ
+** SIG ** RmYuKgyMqZUTsUTBoIISyDCCA+4wggNXoAMCAQICEH6T
 ** SIG ** 6/t8xk5Z6kuad9QG/DswDQYJKoZIhvcNAQEFBQAwgYsx
 ** SIG ** CzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxXZXN0ZXJuIENh
 ** SIG ** cGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQK
@@ -790,31 +790,31 @@
 ** SIG ** OWQwCQYFKw4DAhoFAKBwMBAGCisGAQQBgjcCAQwxAjAA
 ** SIG ** MBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEEMBwGCisG
 ** SIG ** AQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3
-** SIG ** DQEJBDEWBBQezyvt2lRzIQv/UAefIlt9BadV+DANBgkq
-** SIG ** hkiG9w0BAQEFAASCAQB2VWyTruHocXnQ/UON0JswVU6r
-** SIG ** knK68vBdnrwBPBtuM+rHHUxZufaGCjvEvmW7IsfyuREA
-** SIG ** mLcKo8QsHx2NT8QACyHwvvRddTzZg847nI0FaZ6KVURs
-** SIG ** kkVH2mF68dmjdVsJPF2wXtIB5XBYMxipHrSrgi63xd7Z
-** SIG ** U6CsuOHoLYgxPWz49cMQXsslQyvPBJAF2MTWBYrU3H33
-** SIG ** tCUedMbLne1JAR8lAsmo8zPNQxPpgJAgE9qS5A2wm+2a
-** SIG ** ccmk5tXteCguffMxXmyRH8dvMWFPxP05mQN9vgee0zpS
-** SIG ** sdCTz///GEqqp3HpOoSfYSLfvE9F9W+x1BDlHgR8JuXb
-** SIG ** Hs4Y0QuqoYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
+** SIG ** DQEJBDEWBBTEyFRcyI6lfQmmYwVcQ2dEWSxabTANBgkq
+** SIG ** hkiG9w0BAQEFAASCAQB3VnaU6G7rLgFxRHbsRL8X0Jy4
+** SIG ** mmmXTZb/bDh6i7mtDHv1RpByWBgIVyf4nKW7YoixSZa6
+** SIG ** RWLhfNP7i3xpiNw7iRQ3PVFV4kAbKID+XkpJJfS8K/YQ
+** SIG ** y2nsd9sPyUbyEhGy4aQ+StmpbF02yIfmROUrrzDoeWel
+** SIG ** q6t9+ub6uHyZW03p1Cb9E8A35WQ4OHUo9Xpwo69zfu95
+** SIG ** vXrAl4geLepmR6LA/lS06C8Vtbia9AxPdh1Qu6sU6ZBV
+** SIG ** j7YqeLdrCyfNV1nlZh00Bk30GGv++p/ihwdupwyml5eR
+** SIG ** 1QbRhY5ayOFRjGWWF3tUIHw9uQ06uXk8BhsIozqQYn+H
+** SIG ** UcqciTq6oYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
 ** SIG ** AgEBMHIwXjELMAkGA1UEBhMCVVMxHTAbBgNVBAoTFFN5
 ** SIG ** bWFudGVjIENvcnBvcmF0aW9uMTAwLgYDVQQDEydTeW1h
 ** SIG ** bnRlYyBUaW1lIFN0YW1waW5nIFNlcnZpY2VzIENBIC0g
 ** SIG ** RzICEA7P9DjI/r81bgTYapgbGlAwCQYFKw4DAhoFAKBd
 ** SIG ** MBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZI
-** SIG ** hvcNAQkFMQ8XDTE2MDkxOTEwNDkzMlowIwYJKoZIhvcN
-** SIG ** AQkEMRYEFLzxEiyC8n4xQiHPHHtoriqfuMAEMA0GCSqG
-** SIG ** SIb3DQEBAQUABIIBAExS1Rml0afETuR8mdIXgLUnqGSq
-** SIG ** /fX4lZIgD5hEEYxRp9f2s/64L47wm1IKDguGZltvsNaB
-** SIG ** +kCAAlv6Qner4pvtJ6pvP4wablkBxru68kcsTovWshs6
-** SIG ** BZ1RvjT75Hz+cLx6Gdw+nXKcdpMXD5vrGzP50MGGhtaG
-** SIG ** rXad24A8s7cWIpL/T2WvtRvLmxdM6UFDPIF8em5G18mJ
-** SIG ** RlDWqOh04Z8T3u+FS6nRzEWqqbJcsbcmwNP5SOwRig4g
-** SIG ** WsUlsGFf0cXZ8Zv7vfIV/xUiAMql5GsrkRZUBljU80S1
-** SIG ** i4ZXY1NakAKjvFQ9zRifSU5jNnuNa8KIBHlDS3GZ93QL
-** SIG ** iZ/ZPvE=
+** SIG ** hvcNAQkFMQ8XDTE2MDkyNjEwNDk1MVowIwYJKoZIhvcN
+** SIG ** AQkEMRYEFPVZb/ODAnCdILDoYByrbhNLBPmIMA0GCSqG
+** SIG ** SIb3DQEBAQUABIIBAEJaBvMu9UhdK4QKhz5ijKW068W+
+** SIG ** gtPfnzTWtqpXhGRzFe1d+0R0AntvfUB77I2DnREz7+d5
+** SIG ** u27R0y+xfrPjkkdrPalDWFCQc34p5LNpXruQt57qahhk
+** SIG ** SKT2qwrDyCtH5JHS/qlCEYvBjkt6t9k9CR8vQNv/L2Ys
+** SIG ** zDSI/VzYscm6RhfuYQetIs/EMdIbGyKTr/2bARbfuXWC
+** SIG ** NoniU1cMTATY20tAeQZLOJraPr+tU81AOc8/LFOs9bzo
+** SIG ** xcloLqIvqlKqn8yODQuunWqDoAQw7br8mB9FE0j6AzHw
+** SIG ** y1LZh2+Ll9yEBYc1LkQXwY2L2jp6aoPSQdTwDCwHJ45V
+** SIG ** eE3nzs8=
 </signature>
 </package>
