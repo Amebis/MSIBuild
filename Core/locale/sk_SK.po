@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-19 11:30+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
+"Last-Translator: martins <ms@uakom.sk>, 2016\n"
 "Language-Team: Slovak (Slovakia) (https://www.transifex.com/eduroam_devel/teams/11799/sk_SK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -721,13 +721,16 @@ msgid ""
 " 64-bit operating system. 32-bit variant will not work with your operating "
 "system. The installation of the 64-bit variant is recommended."
 msgstr ""
+"Pokúšate sa o inštaláciu 32-bitového variantu produktu [SimpleProductName] "
+"na 64-bitovom operačnom systéme. 32-bitový variant nebude spolupracovať s "
+"vaším operačným systémom. Odporúčaná je inštalácia 64-bitového variantu."
 
 #: en_US.Win32.Debug.CustomAction-2.idtx:5
 #: en_US.Win32.Release.CustomAction-2.idtx:5
 #: en_US.x64.Debug.CustomAction-2.idtx:4
 #: en_US.x64.Release.CustomAction-2.idtx:4
 msgid "A newer version of [SimpleProductName] is already installed."
-msgstr ""
+msgstr "Novšia verzia [SimpleProductName] je už nainštalovaná."
 
 #: en_US.Win32.Debug.CustomAction-2.idtx:6
 #: en_US.Win32.Release.CustomAction-2.idtx:6
@@ -737,6 +740,9 @@ msgid ""
 "This package cannot upgrade the currently installed [SimpleProductName]. "
 "Please remove the old package first and retry."
 msgstr ""
+"Tento balíček nedokáže aktualizovať nainštalovanú verziu "
+"[SimpleProductName]. Prosím, najskôr odstráňte starý balíček a následne "
+"skúste inštaláciu zopakovať. "
 
 #: en_US.Win32.Debug.Error-2.idtx:4 en_US.Win32.Release.Error-2.idtx:4
 #: en_US.x64.Debug.Error-2.idtx:4 en_US.x64.Release.Error-2.idtx:4
@@ -1398,6 +1404,8 @@ msgid ""
 "This installation package is not supported on this platform. Contact your "
 "application vendor."
 msgstr ""
+"Daný inštalačný balíček nie je podporovaný na tejto platforme. Obráťte sa na"
+" dodávateľa aplikácie."
 
 #: en_US.Win32.Debug.Error-2.idtx:93 en_US.Win32.Release.Error-2.idtx:93
 #: en_US.x64.Debug.Error-2.idtx:93 en_US.x64.Release.Error-2.idtx:93
@@ -2068,6 +2076,8 @@ msgstr ""
 msgid ""
 "64-bit registry operation attempted on 32-bit operating system for key [2]."
 msgstr ""
+"Pokus o 64-bitovú operáciu v registri na 32-bitovom operačnom systéme pre "
+"kľúč [2]."
 
 #: en_US.Win32.Debug.Error-2.idtx:172 en_US.Win32.Release.Error-2.idtx:172
 #: en_US.x64.Debug.Error-2.idtx:172 en_US.x64.Release.Error-2.idtx:172
@@ -2075,3 +2085,5 @@ msgid ""
 "This version of Windows does not support deploying 64-bit packages. The "
 "script [2] is for a 64-bit package."
 msgstr ""
+"Táto verzia Windows nepodporuje nasadenie 64-bitových balíčkov. Skript [2] "
+"je určený pre 64-bitový balíček."

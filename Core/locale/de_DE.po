@@ -894,8 +894,8 @@ msgid ""
 "Cancel the install and try installing to a different location."
 msgstr ""
 "Datei \"[2]\" kann nicht erstellt werden. Es existiert bereits ein Ordner "
-"mit dem gleichen Namen. Brechen Sie die Installation ab und versuchen Sie, "
-"in einen anderen Ordner zu installieren."
+"mit dem gleichen Namen. Brechen Sie die Installation ab und versuchen Sie es"
+" erneut das Programm in einen anderen Ordner zu installieren"
 
 #: en_US.Win32.Debug.Error-2.idtx:32 en_US.Win32.Release.Error-2.idtx:32
 #: en_US.x64.Debug.Error-2.idtx:32 en_US.x64.Release.Error-2.idtx:32
@@ -909,9 +909,9 @@ msgid ""
 "The installation cannot continue.  Log on as administrator or contact your "
 "system administrator."
 msgstr ""
-"Die Rechte von Installer reichen nicht aus, um auf diesen Ordner "
-"zuzugreifen: [2]. Die Installation kann nicht fortgesetzt werden. Melden Sie"
-" sich als Administrator an oder wenden Sie sich an den Systemadministrator."
+"Der Intaller hat nicht genügend Rechte um auf diesen Ordner zuzugreifen: "
+"[2]. Die Installation kann nicht fortgesetzt werden. Melden Sie sich als "
+"Administrator an oder wenden Sie sich an den Systemadministrator."
 
 #: en_US.Win32.Debug.Error-2.idtx:34 en_US.Win32.Release.Error-2.idtx:34
 #: en_US.x64.Debug.Error-2.idtx:34 en_US.x64.Release.Error-2.idtx:34
@@ -947,8 +947,8 @@ msgid ""
 msgstr ""
 "Auf der Festplatte ist nicht genügend freier Speicherplatz vorhanden, um "
 "diese Datei zu installieren: [2]. Sorgen Sie für zusätzlichen freien "
-"Speicher und klicken Sie auf \"Wiederholen\", oder klicken Sie auf "
-"\"Abbrechen\", um Installer zu beenden."
+"Speicher und klicken anschließend auf \"Wiederholen\", oder klicken Sie auf "
+"\"Abbrechen\", um die Installation zu beenden."
 
 #: en_US.Win32.Debug.Error-2.idtx:38 en_US.Win32.Release.Error-2.idtx:38
 #: en_US.x64.Debug.Error-2.idtx:38 en_US.x64.Release.Error-2.idtx:38
@@ -1051,7 +1051,7 @@ msgstr "Der angegebene Pfad ist zu lang: [2]"
 #: en_US.x64.Debug.Error-2.idtx:51 en_US.x64.Release.Error-2.idtx:51
 msgid "The Installer has insufficient privileges to modify this file: [2]."
 msgstr ""
-"Installer besitzt keine ausreichenden Berechtigungen, um diese Datei zu "
+"Der Installer besitzt keine ausreichenden Berechtigungen, um diese Datei zu "
 "verändern: [2]."
 
 #: en_US.Win32.Debug.Error-2.idtx:52 en_US.Win32.Release.Error-2.idtx:52
@@ -1060,8 +1060,8 @@ msgid ""
 "A portion of the folder path '[2]' is invalid.  It is either empty or "
 "exceeds the length allowed by the system."
 msgstr ""
-"Ein Teil des Ordnerpfads \"[2]\" ist ungültig. Er ist entweder leer, oder er"
-" überschreitet die vom System zugelassene Länge."
+"Ein Teil des Ordnerpfads \"[2]\" ist ungültig. Er ist entweder leer oder er "
+"überschreitet die vom System zugelassene Länge."
 
 #: en_US.Win32.Debug.Error-2.idtx:53 en_US.Win32.Release.Error-2.idtx:53
 #: en_US.x64.Debug.Error-2.idtx:53 en_US.x64.Release.Error-2.idtx:53
