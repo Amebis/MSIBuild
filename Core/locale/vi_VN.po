@@ -1984,10 +1984,10 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:165 en_US.Win32.Release.Error-2.idtx:165
 #: en_US.x64.Debug.Error-2.idtx:165 en_US.x64.Release.Error-2.idtx:165
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2].  List of protected files:\n"
+"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2].  List of protected files:\\r\\n"
 "[3]}}"
 msgstr ""
-" Windows Installer không thể cập nhật một hoặc nhiều tệp tin Windows được bảo vệ. {{Lỗi SFP: [2].  Danh sách tệp tin được bảo vệ:\n"
+" Windows Installer không thể cập nhật một hoặc nhiều tệp tin Windows được bảo vệ. {{Lỗi SFP: [2].  Danh sách tệp tin được bảo vệ:\\r\\n"
 "[3]}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:166 en_US.Win32.Release.Error-2.idtx:166

@@ -1551,11 +1551,11 @@ msgstr "Draiv [2] pole hetkel kättesaadav. Valige mõni muu."
 #: En.x64.Debug.Error-2.idtx:165 En.x64.Release.Error-2.idtx:165
 msgid ""
 "The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2].  List of protected files:\n"
+"files. {{SFP Error: [2].  List of protected files:\\r\\n"
 "[3]}}"
 msgstr ""
 "Windows Installeri teenus ei saa värskendada ühte või enamat Windowsi "
-"kaitstud faili. {{SFP Tõrge: [2].  Kaitstud failide loend:\n"
+"kaitstud faili. {{SFP Tõrge: [2].  Kaitstud failide loend:\\r\\n"
 "[3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:164 En.Win32.Release.Error-2.idtx:164

@@ -2074,10 +2074,10 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:165 en_US.Win32.Release.Error-2.idtx:165
 #: en_US.x64.Debug.Error-2.idtx:165 en_US.x64.Release.Error-2.idtx:165
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2].  List of protected files:\n"
+"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2].  List of protected files:\\r\\n"
 "[3]}}"
 msgstr ""
-"Einige geschützte Windows-Dateien konnten nicht aktualisiert werden. {{SFP-Fehler: [2]. Liste der geschützten Dateien:\n"
+"Einige geschützte Windows-Dateien konnten nicht aktualisiert werden. {{SFP-Fehler: [2]. Liste der geschützten Dateien:\\r\\n"
 "[3]}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:166 en_US.Win32.Release.Error-2.idtx:166

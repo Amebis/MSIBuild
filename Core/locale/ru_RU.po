@@ -1,21 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-04 14:27+0200\n"
+"POT-Creation-Date: 2016-09-19 11:30+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: ru_RU\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
+"Language-Team: Russian (Russia) (https://www.transifex.com/eduroam_devel/teams/11799/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
-"X-Poedit-Basepath: .\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Poedit 1.8.9\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:4
 #: en_US.Win32.Release.ActionText-2.idtx:4 en_US.x64.Debug.ActionText-2.idtx:4
@@ -53,29 +55,35 @@ msgstr "Свойство: [1], Подпись: [2]"
 msgid "Binding executables"
 msgstr "Привязка выполняемых файлов"
 
-#: en_US.Win32.Debug.ActionText-2.idtx:7 en_US.Win32.Debug.ActionText-2.idtx:54
+#: en_US.Win32.Debug.ActionText-2.idtx:7
+#: en_US.Win32.Debug.ActionText-2.idtx:54
 #: en_US.Win32.Release.ActionText-2.idtx:7
-#: en_US.Win32.Release.ActionText-2.idtx:54 en_US.x64.Debug.ActionText-2.idtx:7
-#: en_US.x64.Debug.ActionText-2.idtx:54 en_US.x64.Release.ActionText-2.idtx:7
+#: en_US.Win32.Release.ActionText-2.idtx:54
+#: en_US.x64.Debug.ActionText-2.idtx:7 en_US.x64.Debug.ActionText-2.idtx:54
+#: en_US.x64.Release.ActionText-2.idtx:7
 #: en_US.x64.Release.ActionText-2.idtx:54
 msgid "File: [1]"
 msgstr "Файл: [1]"
 
-#: en_US.Win32.Debug.ActionText-2.idtx:8 en_US.Win32.Debug.ActionText-2.idtx:52
+#: en_US.Win32.Debug.ActionText-2.idtx:8
+#: en_US.Win32.Debug.ActionText-2.idtx:52
 #: en_US.Win32.Release.ActionText-2.idtx:8
-#: en_US.Win32.Release.ActionText-2.idtx:52 en_US.x64.Debug.ActionText-2.idtx:8
-#: en_US.x64.Debug.ActionText-2.idtx:52 en_US.x64.Release.ActionText-2.idtx:8
+#: en_US.Win32.Release.ActionText-2.idtx:52
+#: en_US.x64.Debug.ActionText-2.idtx:8 en_US.x64.Debug.ActionText-2.idtx:52
+#: en_US.x64.Release.ActionText-2.idtx:8
 #: en_US.x64.Release.ActionText-2.idtx:52
 msgid "Searching for qualifying products"
 msgstr "Поиск подходящих продуктов"
 
-#: en_US.Win32.Debug.ActionText-2.idtx:9 en_US.Win32.Debug.ActionText-2.idtx:10
+#: en_US.Win32.Debug.ActionText-2.idtx:9
+#: en_US.Win32.Debug.ActionText-2.idtx:10
 #: en_US.Win32.Debug.ActionText-2.idtx:15
 #: en_US.Win32.Release.ActionText-2.idtx:9
 #: en_US.Win32.Release.ActionText-2.idtx:10
-#: en_US.Win32.Release.ActionText-2.idtx:15 en_US.x64.Debug.ActionText-2.idtx:9
-#: en_US.x64.Debug.ActionText-2.idtx:10 en_US.x64.Debug.ActionText-2.idtx:15
-#: en_US.x64.Release.ActionText-2.idtx:9 en_US.x64.Release.ActionText-2.idtx:10
+#: en_US.Win32.Release.ActionText-2.idtx:15
+#: en_US.x64.Debug.ActionText-2.idtx:9 en_US.x64.Debug.ActionText-2.idtx:10
+#: en_US.x64.Debug.ActionText-2.idtx:15 en_US.x64.Release.ActionText-2.idtx:9
+#: en_US.x64.Release.ActionText-2.idtx:10
 #: en_US.x64.Release.ActionText-2.idtx:15
 msgid "Computing space requirements"
 msgstr "Вычисление необходимого свободного места"
@@ -709,8 +717,8 @@ msgstr "Раздел: [1], Имя: [2], Значение: [3]"
 #: en_US.Win32.Debug.CustomAction-2.idtx:4
 #: en_US.Win32.Release.CustomAction-2.idtx:4
 msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
-"64-bit operating system. 32-bit variant will not work with your operating "
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
 "system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
@@ -758,8 +766,8 @@ msgid ""
 "arguments are: [2], [3], [4]}}"
 msgstr ""
 "Программа установки обнаружила непредвиденную ошибку при установке данного "
-"пакета. Возможно пакет установлен неверно. Код ошибки [1]. {{Аргументы: [2], "
-"[3], [4]}}"
+"пакета. Возможно пакет установлен неверно. Код ошибки [1]. {{Аргументы: [2],"
+" [3], [4]}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:11 en_US.Win32.Release.Error-2.idtx:11
 #: en_US.x64.Debug.Error-2.idtx:11 en_US.x64.Release.Error-2.idtx:11
@@ -864,8 +872,8 @@ msgid ""
 "Error reading from file: [2]. {{ System error [3].}}  Verify that the file "
 "exists and that you can access it."
 msgstr ""
-"Ошибка чтения из файла: [2]. {{ Системная ошибка [3].}}  Проверьте, что файл "
-"существует и доступен."
+"Ошибка чтения из файла: [2]. {{ Системная ошибка [3].}}  Проверьте, что файл"
+" существует и доступен."
 
 #: en_US.Win32.Debug.Error-2.idtx:31 en_US.Win32.Release.Error-2.idtx:31
 #: en_US.x64.Debug.Error-2.idtx:31 en_US.x64.Release.Error-2.idtx:31
@@ -898,7 +906,8 @@ msgstr ""
 msgid ""
 "Error writing to file: [2].  Verify that you have access to that directory."
 msgstr ""
-"Ошибка записи в файл [2].  Убедитесь, что у вас есть доступ к этому каталогу."
+"Ошибка записи в файл [2].  Убедитесь, что у вас есть доступ к этому "
+"каталогу."
 
 #: en_US.Win32.Debug.Error-2.idtx:35 en_US.Win32.Release.Error-2.idtx:35
 #: en_US.x64.Debug.Error-2.idtx:35 en_US.x64.Release.Error-2.idtx:35
@@ -1068,8 +1077,8 @@ msgid ""
 msgstr ""
 "Произошла ошибка при обновлении файла [2].  Возможно, он уже был обновлен "
 "другими средствами, и к нему не может быть применен данный пакет "
-"исправлений.  За дополнительными сведениями обратитесь к поставщику пакета.  "
-"{{Системная ошибка: [3]}}"
+"исправлений.  За дополнительными сведениями обратитесь к поставщику пакета."
+"  {{Системная ошибка: [3]}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:59 en_US.Win32.Release.Error-2.idtx:59
 #: en_US.x64.Debug.Error-2.idtx:59 en_US.x64.Release.Error-2.idtx:59
@@ -1083,8 +1092,8 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:60 en_US.Win32.Release.Error-2.idtx:60
 #: en_US.x64.Debug.Error-2.idtx:60 en_US.x64.Release.Error-2.idtx:60
 msgid ""
-"A file that is required cannot be installed because the cabinet file [2] has "
-"an invalid digital signature.  This may indicate that the cabinet file is "
+"A file that is required cannot be installed because the cabinet file [2] has"
+" an invalid digital signature.  This may indicate that the cabinet file is "
 "corrupt.{{  Error [3] was returned by WinVerifyTrust.}}"
 msgstr ""
 "Невозможно установить необходимый файл, поскольку CAB-файл [2] имеет "
@@ -1131,11 +1140,11 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:66 en_US.Win32.Release.Error-2.idtx:66
 #: en_US.x64.Debug.Error-2.idtx:66 en_US.x64.Release.Error-2.idtx:66
 msgid ""
-"There was an error creating a temporary file that is needed to complete this "
-"installation.{{  Folder: [3]. System error code: [2]}}"
+"There was an error creating a temporary file that is needed to complete this"
+" installation.{{  Folder: [3]. System error code: [2]}}"
 msgstr ""
-"Ошибка создания необходимого для данной установки временного файла."
-"{{  Папка: [3]. Код ошибки системы: [2]}}"
+"Ошибка создания необходимого для данной установки временного файла.{{  "
+"Папка: [3]. Код ошибки системы: [2]}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:67 en_US.Win32.Release.Error-2.idtx:67
 #: en_US.x64.Debug.Error-2.idtx:67 en_US.x64.Release.Error-2.idtx:67
@@ -1160,12 +1169,12 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:69 en_US.Win32.Release.Error-2.idtx:69
 #: en_US.x64.Debug.Error-2.idtx:69 en_US.x64.Release.Error-2.idtx:69
 msgid ""
-"Could not delete value [2] from key [3]. {{ System error [4].}}  Verify that "
-"you have sufficient access to that key, or contact your support personnel. "
+"Could not delete value [2] from key [3]. {{ System error [4].}}  Verify that"
+" you have sufficient access to that key, or contact your support personnel. "
 msgstr ""
 "Не удается удалить значение [2] из раздела [3]. {{ Системная ошибка [4].}}  "
-"Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо "
-"обратитесь в службу поддержки. "
+"Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо"
+" обратитесь в службу поддержки. "
 
 #: en_US.Win32.Debug.Error-2.idtx:70 en_US.Win32.Release.Error-2.idtx:70
 #: en_US.x64.Debug.Error-2.idtx:70 en_US.x64.Release.Error-2.idtx:70
@@ -1183,9 +1192,9 @@ msgid ""
 "Could not read value [2] from key [3]. {{ System error [4].}}  Verify that "
 "you have sufficient access to that key, or contact your support personnel. "
 msgstr ""
-"Не удается прочитать значение [2] из раздела [3]. {{ Системная ошибка "
-"[4].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому "
-"разделу, либо обратитесь в службу поддержки. "
+"Не удается прочитать значение [2] из раздела [3]. {{ Системная ошибка [4].}}"
+"  Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, "
+"либо обратитесь в службу поддержки. "
 
 #: en_US.Win32.Debug.Error-2.idtx:72 en_US.Win32.Release.Error-2.idtx:72
 #: en_US.x64.Debug.Error-2.idtx:72 en_US.x64.Release.Error-2.idtx:72
@@ -1194,8 +1203,8 @@ msgid ""
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
 "Не удается записать значение [2] в раздел [3]. {{ Системная ошибка [4].}}  "
-"Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо "
-"обратитесь в службу поддержки."
+"Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо"
+" обратитесь в службу поддержки."
 
 #: en_US.Win32.Debug.Error-2.idtx:73 en_US.Win32.Release.Error-2.idtx:73
 #: en_US.x64.Debug.Error-2.idtx:73 en_US.x64.Release.Error-2.idtx:73
@@ -1210,8 +1219,8 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:74 en_US.Win32.Release.Error-2.idtx:74
 #: en_US.x64.Debug.Error-2.idtx:74 en_US.x64.Release.Error-2.idtx:74
 msgid ""
-"Could not get sub key names for key [2]. {{ System error [3].}}  Verify that "
-"you have sufficient access to that key, or contact your support personnel."
+"Could not get sub key names for key [2]. {{ System error [3].}}  Verify that"
+" you have sufficient access to that key, or contact your support personnel."
 msgstr ""
 "Не удается получить имена подразделов из раздела [2]. {{ Системная ошибка "
 "[3].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому "
@@ -1243,8 +1252,8 @@ msgid ""
 "Another installation is in progress. You must complete that installation "
 "before continuing this one."
 msgstr ""
-"Другой процесс установки уже выполняется. Завершите этот процесс перед новой "
-"установкой."
+"Другой процесс установки уже выполняется. Завершите этот процесс перед новой"
+" установкой."
 
 #: en_US.Win32.Debug.Error-2.idtx:78 en_US.Win32.Release.Error-2.idtx:78
 #: en_US.x64.Debug.Error-2.idtx:78 en_US.x64.Release.Error-2.idtx:78
@@ -1252,15 +1261,15 @@ msgid ""
 "Error accessing secured data. Please make sure the Windows Installer is "
 "configured properly and try the install again."
 msgstr ""
-"Ошибка доступа к защищенным данным. Проверьте правильность настройки Windows "
-"Installer и повторите попытку."
+"Ошибка доступа к защищенным данным. Проверьте правильность настройки Windows"
+" Installer и повторите попытку."
 
 #: en_US.Win32.Debug.Error-2.idtx:79 en_US.Win32.Release.Error-2.idtx:79
 #: en_US.x64.Debug.Error-2.idtx:79 en_US.x64.Release.Error-2.idtx:79
 msgid ""
-"User '[2]' has previously initiated an install for product '[3]'.  That user "
-"will need to run that install again before they can use that product.  Your "
-"current install will now continue."
+"User '[2]' has previously initiated an install for product '[3]'.  That user"
+" will need to run that install again before they can use that product.  Your"
+" current install will now continue."
 msgstr ""
 "Пользователь \"[2]\" ранее начал установку продукта \"[3]\".  Этому "
 "пользователю придется выполнить установку заново.  Ваша текущая установка "
@@ -1269,8 +1278,8 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:80 en_US.Win32.Release.Error-2.idtx:80
 #: en_US.x64.Debug.Error-2.idtx:80 en_US.x64.Release.Error-2.idtx:80
 msgid ""
-"User '[2]' has previously initiated an install for product '[3]'.  That user "
-"will need to run that install again before they can use that product."
+"User '[2]' has previously initiated an install for product '[3]'.  That user"
+" will need to run that install again before they can use that product."
 msgstr ""
 "Пользователь \"[2]\" ранее начал установку продукта \"[3]\".  Этому "
 "пользователю придется выполнить установку заново."
@@ -1278,8 +1287,8 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:81 en_US.Win32.Release.Error-2.idtx:81
 #: en_US.x64.Debug.Error-2.idtx:81 en_US.x64.Release.Error-2.idtx:81
 msgid ""
-"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
-"[4] KB.  Free some disk space and retry."
+"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
+" [4] KB.  Free some disk space and retry."
 msgstr ""
 "Недостаточно места на диске -- том: \"[2]\"; требуемый объем: [3] Кбайт; "
 "доступный объем: [4] Кбайт.  Освободите место на диске и повторите попытку."
@@ -1295,8 +1304,8 @@ msgid ""
 "The file [2][3] is being held in use{ by the following process: Name: [4], "
 "Id: [5], Window Title: '[6]'}.  Close that application and retry."
 msgstr ""
-"Файл [2][3] используется{ следующим процессом: Имя: [4], Код: [5], Заголовок "
-"окна: \"[6]\"}.  Закройте это приложение и повторите попытку."
+"Файл [2][3] используется{ следующим процессом: Имя: [4], Код: [5], Заголовок"
+" окна: \"[6]\"}.  Закройте это приложение и повторите попытку."
 
 #: en_US.Win32.Debug.Error-2.idtx:84 en_US.Win32.Release.Error-2.idtx:84
 #: en_US.x64.Debug.Error-2.idtx:84 en_US.x64.Release.Error-2.idtx:84
@@ -1316,8 +1325,8 @@ msgid ""
 "click Retry to check for available space again, or click Cancel to quit the "
 "installation."
 msgstr ""
-"Для продолжения установки с включенным восстановлением недостаточно места на "
-"томе: \"[2]\". Требуемый объем: [3] Кбайт; доступный объем: [4] Кбайт. "
+"Для продолжения установки с включенным восстановлением недостаточно места на"
+" томе: \"[2]\". Требуемый объем: [3] Кбайт; доступный объем: [4] Кбайт. "
 "Нажмите: \"Отмена\" для выхода из программы установки, \"Повторить\" для "
 "повторной проверки доступного места на диске или \"Пропустить\" для "
 "продолжения установки без сохранения информации о восстановлении."
@@ -1399,8 +1408,8 @@ msgid ""
 "later."
 msgstr ""
 "Перед продолжением настройки [2] программа Windows Installer должна "
-"перезагрузить систему.  Нажмите кнопку \"Да\", чтобы перезагрузить компьютер "
-"сейчас, либо кнопку \"Нет\", чтобы выполнить перезагрузку позже вручную."
+"перезагрузить систему.  Нажмите кнопку \"Да\", чтобы перезагрузить компьютер"
+" сейчас, либо кнопку \"Нет\", чтобы выполнить перезагрузку позже вручную."
 
 #: en_US.Win32.Debug.Error-2.idtx:95 en_US.Win32.Release.Error-2.idtx:95
 #: en_US.x64.Debug.Error-2.idtx:95 en_US.x64.Release.Error-2.idtx:95
@@ -1409,8 +1418,8 @@ msgid ""
 "take effect. Click Yes to restart now or No if you plan to manually restart "
 "later."
 msgstr ""
-"Для учета изменений в настройках [2] требуется перезагрузка системы. Нажмите "
-"кнопку \"Да\", чтобы перезагрузить компьютер сейчас, либо кнопку \"Нет\", "
+"Для учета изменений в настройках [2] требуется перезагрузка системы. Нажмите"
+" кнопку \"Да\", чтобы перезагрузить компьютер сейчас, либо кнопку \"Нет\", "
 "чтобы выполнить перезагрузку позже вручную."
 
 #: en_US.Win32.Debug.Error-2.idtx:96 en_US.Win32.Release.Error-2.idtx:96
@@ -1429,8 +1438,9 @@ msgid ""
 "changes made by that installation to continue.  Do you want to undo those "
 "changes?"
 msgstr ""
-"Выполняется предыдущая установка этого продукта.  Для продолжения необходимо "
-"отменить изменения, внесенные в процессе этой установки.  Отменить изменения?"
+"Выполняется предыдущая установка этого продукта.  Для продолжения необходимо"
+" отменить изменения, внесенные в процессе этой установки.  Отменить "
+"изменения?"
 
 #: en_US.Win32.Debug.Error-2.idtx:98 en_US.Win32.Release.Error-2.idtx:98
 #: en_US.x64.Debug.Error-2.idtx:98 en_US.x64.Release.Error-2.idtx:98
@@ -1527,8 +1537,8 @@ msgstr "Файл [2] отвергнут политикой цифровой по
 #: en_US.x64.Debug.Error-2.idtx:111 en_US.x64.Release.Error-2.idtx:111
 msgid ""
 "The Windows Installer Service could not be accessed. This can occur if the "
-"Windows Installer is not correctly installed. Contact your support personnel "
-"for assistance."
+"Windows Installer is not correctly installed. Contact your support personnel"
+" for assistance."
 msgstr ""
 "Не удается получить доступ к службе \"Windows Installer\". Либо Windows "
 "работает в защищенном режиме, либо служба \"Windows Installer\" установлена "
@@ -1539,8 +1549,8 @@ msgstr ""
 msgid ""
 "There is a problem with this Windows Installer package. A script required "
 "for this install to complete could not be run. Contact your support "
-"personnel or package vendor.  {{Custom action [2] script error [3], [4]: [5] "
-"Line [6], Column [7], [8] }}"
+"personnel or package vendor.  {{Custom action [2] script error [3], [4]: [5]"
+" Line [6], Column [7], [8] }}"
 msgstr ""
 "Ошибка пакета Windows Installer. Невозможно запустить сценарий завершения "
 "установки. Обратитесь к техническому персоналу или к поставщику пакета.  "
@@ -1562,8 +1572,8 @@ msgstr ""
 #: en_US.x64.Debug.Error-2.idtx:114 en_US.x64.Release.Error-2.idtx:114
 msgid ""
 "There is a problem with this Windows Installer package. A program run as "
-"part of the setup did not finish as expected. Contact your support personnel "
-"or package vendor.  {{Action [2], location: [3], command: [4] }}"
+"part of the setup did not finish as expected. Contact your support personnel"
+" or package vendor.  {{Action [2], location: [3], command: [4] }}"
 msgstr ""
 "Ошибка пакета Windows Installer. Непредвиденное завершение программы, "
 "являющейся частью установки. Обратитесь к техническому персоналу или к "
@@ -1573,8 +1583,8 @@ msgstr ""
 #: en_US.x64.Debug.Error-2.idtx:115 en_US.x64.Release.Error-2.idtx:115
 msgid ""
 "There is a problem with this Windows Installer package. A DLL required for "
-"this install to complete could not be run. Contact your support personnel or "
-"package vendor.  {{Action [2], entry: [3], library: [4] }}"
+"this install to complete could not be run. Contact your support personnel or"
+" package vendor.  {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
 "Ошибка пакета Windows Installer. Невозможно запустить необходимую для "
 "завершения установки DLL. Обратитесь к техническому персоналу или к "
@@ -1635,8 +1645,8 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:124 en_US.Win32.Release.Error-2.idtx:124
 #: en_US.x64.Debug.Error-2.idtx:124 en_US.x64.Release.Error-2.idtx:124
 msgid ""
-"In order to complete the installation of [2], you must restart the computer. "
-"Other users are currently logged on to this computer, and restarting may "
+"In order to complete the installation of [2], you must restart the computer."
+" Other users are currently logged on to this computer, and restarting may "
 "cause them to lose their work. Do you want to restart now?"
 msgstr ""
 "Чтобы завершить установку [2], необходимо перезапустить компьютер. Другие "
@@ -1650,9 +1660,9 @@ msgid ""
 "again when your computer is not in Safe Mode or you can use System Restore "
 "to return your machine to a previous good state."
 msgstr ""
-"Служба установщика Windows недоступна в безопасном режиме. Повторите попытку "
-"после завершения работы в безопасном режиме, или используйте восстановление "
-"системы, чтобы вернуться к предыдущему работоспособному состоянию."
+"Служба установщика Windows недоступна в безопасном режиме. Повторите попытку"
+" после завершения работы в безопасном режиме, или используйте восстановление"
+" системы, чтобы вернуться к предыдущему работоспособному состоянию."
 
 #: en_US.Win32.Debug.Error-2.idtx:126 en_US.Win32.Release.Error-2.idtx:126
 #: en_US.x64.Debug.Error-2.idtx:126 en_US.x64.Release.Error-2.idtx:126
@@ -1720,7 +1730,8 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:136 en_US.Win32.Release.Error-2.idtx:136
 #: en_US.x64.Debug.Error-2.idtx:136 en_US.x64.Release.Error-2.idtx:136
 msgid ""
-"Module [2] failed to register.  HRESULT [3].  Contact your support personnel."
+"Module [2] failed to register.  HRESULT [3].  Contact your support "
+"personnel."
 msgstr ""
 "Не удается зарегистрировать модуль [2].  HRESULT [3].  Обратитесь в службу "
 "поддержки."
@@ -1744,8 +1755,8 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:139 en_US.Win32.Release.Error-2.idtx:139
 #: en_US.x64.Debug.Error-2.idtx:139 en_US.x64.Release.Error-2.idtx:139
 msgid ""
-"Could not register font [2].  Verify that you have sufficient permissions to "
-"install fonts, and that the system supports this font."
+"Could not register font [2].  Verify that you have sufficient permissions to"
+" install fonts, and that the system supports this font."
 msgstr ""
 "Не удается зарегистрировать шрифт [2].  Убедитесь, что у вас имеются "
 "разрешения на установку шрифтов, и что система поддерживает этот шрифт."
@@ -1762,8 +1773,8 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:141 en_US.Win32.Release.Error-2.idtx:141
 #: en_US.x64.Debug.Error-2.idtx:141 en_US.x64.Release.Error-2.idtx:141
 msgid ""
-"Could not create Shortcut [2]. Verify that the destination folder exists and "
-"that you can access it."
+"Could not create Shortcut [2]. Verify that the destination folder exists and"
+" that you can access it."
 msgstr ""
 "Не удается создать ярлык [2]. Проверьте, что конечная папка существует и "
 "доступна."
@@ -1771,8 +1782,8 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:142 en_US.Win32.Release.Error-2.idtx:142
 #: en_US.x64.Debug.Error-2.idtx:142 en_US.x64.Release.Error-2.idtx:142
 msgid ""
-"Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
-"you can access it."
+"Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
+" you can access it."
 msgstr ""
 "Не удается удалить ярлык [2]. Проверьте, что файл ярлыка существует и "
 "доступен."
@@ -1837,14 +1848,14 @@ msgid ""
 "Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you have "
 "sufficient privileges to remove ODBC drivers."
 msgstr ""
-"Ошибка при удалении драйвера ODBC: [4], ошибка ODBC [2]: [3]. Убедитесь, что "
-"у вас имеются разрешения на удаление драйверов ODBC."
+"Ошибка при удалении драйвера ODBC: [4], ошибка ODBC [2]: [3]. Убедитесь, что"
+" у вас имеются разрешения на удаление драйверов ODBC."
 
 #: en_US.Win32.Debug.Error-2.idtx:150 en_US.Win32.Release.Error-2.idtx:150
 #: en_US.x64.Debug.Error-2.idtx:150 en_US.x64.Release.Error-2.idtx:150
 msgid ""
-"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
-"[4] exists and that you can access it."
+"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
+" [4] exists and that you can access it."
 msgstr ""
 "Ошибка при установке драйвера ODBC: [4], ошибка ODBC [2]: [3]. Проверьте, "
 "что файл [4] существует и доступен."
@@ -1888,8 +1899,8 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:155 en_US.Win32.Release.Error-2.idtx:155
 #: en_US.x64.Debug.Error-2.idtx:155 en_US.x64.Release.Error-2.idtx:155
 msgid ""
-"Service '[2]' ([3]) could not be installed.  Verify that you have sufficient "
-"privileges to install system services."
+"Service '[2]' ([3]) could not be installed.  Verify that you have sufficient"
+" privileges to install system services."
 msgstr ""
 "Не удается установить службу \"[2]\" ([3]).  Убедитесь, что у вас имеются "
 "разрешения на установку системных служб."
@@ -1920,16 +1931,16 @@ msgid ""
 "Could not set file security for file '[3]'. Error: [2].  Verify that you "
 "have sufficient privileges to modify the security permissions for this file."
 msgstr ""
-"Не удается установить атрибуты безопасности для файла \"[3]\". Ошибка: [2].  "
-"Убедитесь, что у вас достаточно полномочий для изменения разрешений на "
+"Не удается установить атрибуты безопасности для файла \"[3]\". Ошибка: [2]."
+"  Убедитесь, что у вас достаточно полномочий для изменения разрешений на "
 "доступ к этому файлу."
 
 #: en_US.Win32.Debug.Error-2.idtx:159 en_US.Win32.Release.Error-2.idtx:159
 #: en_US.x64.Debug.Error-2.idtx:159 en_US.x64.Release.Error-2.idtx:159
 msgid ""
 "Component Services (COM+ 1.0) are not installed on this computer.  This "
-"installation requires Component Services in order to complete successfully.  "
-"Component Services are available on Windows 2000."
+"installation requires Component Services in order to complete successfully."
+"  Component Services are available on Windows 2000."
 msgstr ""
 "Службы COM+ 1.0 не установлены на данном компьютере.  Они необходимы для "
 "успешной установки.  Эти службы входят в состав Windows 2000."
@@ -1937,8 +1948,8 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:160 en_US.Win32.Release.Error-2.idtx:160
 #: en_US.x64.Debug.Error-2.idtx:160 en_US.x64.Release.Error-2.idtx:160
 msgid ""
-"Error registering COM+ Application.  Contact your support personnel for more "
-"information."
+"Error registering COM+ Application.  Contact your support personnel for more"
+" information."
 msgstr ""
 "Произошла ошибка при регистрации приложения COM+.  За дополнительными "
 "сведениями обратитесь в службу поддержки."
@@ -1949,8 +1960,8 @@ msgid ""
 "Error unregistering COM+ Application.  Contact your support personnel for "
 "more information."
 msgstr ""
-"Произошла ошибка при отмене регистрации приложения COM+.  За дополнительными "
-"сведениями обратитесь в службу поддержки."
+"Произошла ошибка при отмене регистрации приложения COM+.  За дополнительными"
+" сведениями обратитесь в службу поддержки."
 
 #: en_US.Win32.Debug.Error-2.idtx:162 en_US.Win32.Release.Error-2.idtx:162
 #: en_US.x64.Debug.Error-2.idtx:162 en_US.x64.Release.Error-2.idtx:162
@@ -1982,12 +1993,10 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:165 en_US.Win32.Release.Error-2.idtx:165
 #: en_US.x64.Debug.Error-2.idtx:165 en_US.x64.Release.Error-2.idtx:165
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2].  List of protected files:\n"
+"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2].  List of protected files:\\r\\n"
 "[3]}}"
 msgstr ""
-"Служба \"Windows Installer\" не может обновить один или более защищенных "
-"файлов системы Windows. {{Ошибка SFP: [2].  список защищенных файлов:\n"
+"Служба \"Windows Installer\" не может обновить один или более защищенных файлов системы Windows. {{Ошибка SFP: [2].  список защищенных файлов:\\r\\n"
 "[3]}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:166 en_US.Win32.Release.Error-2.idtx:166
@@ -1999,8 +2008,8 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:167 en_US.Win32.Release.Error-2.idtx:167
 #: en_US.x64.Debug.Error-2.idtx:167 en_US.x64.Release.Error-2.idtx:167
 msgid ""
-"An error occurred during the installation of assembly '[6]'. Please refer to "
-"Help and Support for more information. {{HRESULT: [3]. assembly interface: "
+"An error occurred during the installation of assembly '[6]'. Please refer to"
+" Help and Support for more information. {{HRESULT: [3]. assembly interface: "
 "[4], function: [5], component: [2]}}"
 msgstr ""
 "Возникла ошибка при установки компонента сборки '[6]'. Обратитесь к справке "
@@ -2010,13 +2019,13 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:168 en_US.Win32.Release.Error-2.idtx:168
 #: en_US.x64.Debug.Error-2.idtx:168 en_US.x64.Release.Error-2.idtx:168
 msgid ""
-"An error occurred during the installation of assembly '[6]'. The assembly is "
-"not strongly named or is not signed with the minimal key length. {{HRESULT: "
-"[3]. assembly interface: [4], function: [5], component: [2]}}"
+"An error occurred during the installation of assembly '[6]'. The assembly is"
+" not strongly named or is not signed with the minimal key length. {{HRESULT:"
+" [3]. assembly interface: [4], function: [5], component: [2]}}"
 msgstr ""
-"Возникла ошибка при установки компонента сборки '[6]'. Сборка не имеет имени "
-"или не подписана ключом минимальной длины. HRESULT: [3]. {{интерфейс сборки: "
-"[4], функция: [5], компонент: [2]}}"
+"Возникла ошибка при установки компонента сборки '[6]'. Сборка не имеет имени"
+" или не подписана ключом минимальной длины. HRESULT: [3]. {{интерфейс "
+"сборки: [4], функция: [5], компонент: [2]}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:169 en_US.Win32.Release.Error-2.idtx:169
 #: en_US.x64.Debug.Error-2.idtx:169 en_US.x64.Release.Error-2.idtx:169
@@ -2036,8 +2045,8 @@ msgid ""
 "modules of the assembly could not be found. {{HRESULT: [3]. assembly "
 "interface: [4], function: [5], component: [2]}}"
 msgstr ""
-"Возникла ошибка при установки компонента сборки '[6]'. Не удается найти один "
-"или несколько модулей сборки. HRESULT: [3]. {{интерфейс сборки: [4], "
+"Возникла ошибка при установки компонента сборки '[6]'. Не удается найти один"
+" или несколько модулей сборки. HRESULT: [3]. {{интерфейс сборки: [4], "
 "функция: [5], компонент: [2]}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:171 en_US.Win32.Release.Error-2.idtx:171

@@ -1544,11 +1544,11 @@ msgstr "Том [2] зараз недоступний. Виберіть інши�
 #: En.x64.Debug.Error-2.idtx:165 En.x64.Release.Error-2.idtx:165
 msgid ""
 "The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2].  List of protected files:\n"
+"files. {{SFP Error: [2].  List of protected files:\\r\\n"
 "[3]}}"
 msgstr ""
 "Служба Windows Installer не може оновити захищені файли Windows. {{Помилка "
-"SFP: [2].  Список захищених файлів:\n"
+"SFP: [2].  Список захищених файлів:\\r\\n"
 "[3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:164 En.Win32.Release.Error-2.idtx:164

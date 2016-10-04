@@ -1562,11 +1562,11 @@ msgstr "Volumul [2] indisponibil în prezent.  Selectaţi altul."
 #: En.x64.Debug.Error-2.idtx:165 En.x64.Release.Error-2.idtx:165
 msgid ""
 "The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2].  List of protected files:\n"
+"files. {{SFP Error: [2].  List of protected files:\\r\\n"
 "[3]}}"
 msgstr ""
 "Serviciul Windows Installer nu a actualizat unul sau mai multe fişiere "
-"Windows protejate. {{Eroare SFP: [2].  Lista fişierelor protejate:\n"
+"Windows protejate. {{Eroare SFP: [2].  Lista fişierelor protejate:\\r\\n"
 "[3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:164 En.Win32.Release.Error-2.idtx:164

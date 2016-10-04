@@ -2008,10 +2008,10 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:165 en_US.Win32.Release.Error-2.idtx:165
 #: en_US.x64.Debug.Error-2.idtx:165 en_US.x64.Release.Error-2.idtx:165
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2].  List of protected files:\n"
+"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2].  List of protected files:\\r\\n"
 "[3]}}"
 msgstr ""
-"Servis Windows Installer ne može ažurirati jednu ili više zaštićenih Windows datoteka. {{SFP pogreška: [2].  Popis zaštićenih datoteka:\n"
+"Servis Windows Installer ne može ažurirati jednu ili više zaštićenih Windows datoteka. {{SFP pogreška: [2].  Popis zaštićenih datoteka:\\r\\n"
 "[3]}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:166 en_US.Win32.Release.Error-2.idtx:166
