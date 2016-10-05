@@ -49,9 +49,15 @@ function unescapeIDT(str)
 {
 	if (!unescapeIDT_stat) {
 		unescapeIDT_stat = {
-			"re_lf":     new RegExp("\\\\n", "g"),
-			"re_cr":     new RegExp("\\\\r", "g"),
-			"re_tab":    new RegExp("\\\\t", "g")
+			"re_esc": new RegExp("\\\\(.)", "g"),
+			"fn_esc": function($0, $1) {
+				switch ($1) {
+					case "n" : return "\n";
+					case "r" : return "\r";
+					case "t" : return "\t";
+					default  : return $0;
+				}
+			}
 		};
 	}
 
@@ -62,7 +68,7 @@ function unescapeIDT(str)
 		default:          try { str = str.toString(); } catch (err) { return null; }
 	}
 
-	return str.replace(unescapeIDT_stat.re_lf, "\n").replace(unescapeIDT_stat.re_cr, "\r").replace(unescapeIDT_stat.re_tab, "\t");
+	return str.replace(unescapeIDT_stat.re_esc, unescapeIDT_stat.fn_esc);
 }
 
 
@@ -332,8 +338,8 @@ IDT.prototype.save = function(path)
 // SIG // MIIXmAYJKoZIhvcNAQcCoIIXiTCCF4UCAQExCzAJBgUr
 // SIG // DgMCGgUAMGcGCisGAQQBgjcCAQSgWTBXMDIGCisGAQQB
 // SIG // gjcCAR4wJAIBAQQQEODJBs441BGiowAQS9NQkAIBAAIB
-// SIG // AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFIdWyvVouCkn
-// SIG // 8OSpEB2Ivyk08KW8oIISyDCCA+4wggNXoAMCAQICEH6T
+// SIG // AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFLsa75t64gpu
+// SIG // 2OdK6hpOex2ar2DqoIISyDCCA+4wggNXoAMCAQICEH6T
 // SIG // 6/t8xk5Z6kuad9QG/DswDQYJKoZIhvcNAQEFBQAwgYsx
 // SIG // CzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxXZXN0ZXJuIENh
 // SIG // cGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQK
@@ -487,30 +493,30 @@ IDT.prototype.save = function(path)
 // SIG // OWQwCQYFKw4DAhoFAKBwMBAGCisGAQQBgjcCAQwxAjAA
 // SIG // MBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEEMBwGCisG
 // SIG // AQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3
-// SIG // DQEJBDEWBBSrAbSARqkSnjnrmydyaZzWb2Ll+DANBgkq
-// SIG // hkiG9w0BAQEFAASCAQAidT5VwnqHxnVculxHL2umGxV0
-// SIG // vWCdnNHA/EUNS+HkeCYrVw1LDEf0iI5MCNMvpocsAVDI
-// SIG // gVUpHZGq24YW1nRxg2udtwoed1Ul160/RjeuPNkyAQi3
-// SIG // 6gZbDSmdPbNuDtPpge3hIvUt7m643G8UhiRgTRFWOvWg
-// SIG // lzWqNIoMunzSi79jVXo8rwdJlUNAa9KkO44buMz/Z7wK
-// SIG // 5hsvMbM4YF9yO8exGTf6lJr0D0zyAiaUvOITAMFM82k0
-// SIG // Ufo/eqxMDQYBQzNXAkG7pqirMHN+h2ElZbjwytYFxoTa
-// SIG // Ux6Kz/dxKO58axl+mDiD2tVFy7DXGL8mIRGrNKsimS5G
-// SIG // QMgUgNJ9oYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
+// SIG // DQEJBDEWBBRu5xBAe5kcb77O84IZ9XWRuoWXWTANBgkq
+// SIG // hkiG9w0BAQEFAASCAQByCKevP+rGuM9qUDq+tuDe4oGb
+// SIG // qKim3ZgdbJxhX+RO36TWayaPBCTODcZmtIIXMYvBvymr
+// SIG // MafcGt9+IKbF1ul+6nu+Ae309fS+EQIPeIsdKn6Ahxy7
+// SIG // pV8Myi6Mssf08fTPNpu1cqHiJboHrGGN1aBV2TqNTLj8
+// SIG // D+6MLHgHl4xfnB1b3yA6CwU4BQzLDAcv1LPsyM+nCeLx
+// SIG // E/BRIaS7VqORznUst4XSwHQhDzhd+D4giulZQHUbIbQr
+// SIG // /WYQDFIH2P0gDrHrC7VU1FNDD3i49GUHabIVB1MtO7uf
+// SIG // dqnH7FIGKD985BtuxLF8aKwnwWN14fLap1ah0zZePCxv
+// SIG // 4dfx7nqgoYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
 // SIG // AgEBMHIwXjELMAkGA1UEBhMCVVMxHTAbBgNVBAoTFFN5
 // SIG // bWFudGVjIENvcnBvcmF0aW9uMTAwLgYDVQQDEydTeW1h
 // SIG // bnRlYyBUaW1lIFN0YW1waW5nIFNlcnZpY2VzIENBIC0g
 // SIG // RzICEA7P9DjI/r81bgTYapgbGlAwCQYFKw4DAhoFAKBd
 // SIG // MBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZI
-// SIG // hvcNAQkFMQ8XDTE2MTAwNDEzNDU0OFowIwYJKoZIhvcN
-// SIG // AQkEMRYEFFm5vVWAupoE5hrqky+mray9PbyCMA0GCSqG
-// SIG // SIb3DQEBAQUABIIBACC0a6jzlQb83HUYIdBo6TmwdYeT
-// SIG // D0mO+mF0sssDOq/s74xdpMGQcVQ6DXVF4c1URoFuTTVT
-// SIG // u9YLtbXepvxgCCrr2RYbDEGNsz7Bbwbhe4BweAis3fWx
-// SIG // cJjMqr+5QWDN6A8+UHzApoSr9jVHr7/4K0vTIhnqI9jQ
-// SIG // GRhFz4ygCMgZYVeiVAVgIsVesSXgdinWxVlGexzkCAeD
-// SIG // UdCEIIA7X3f+DWkRgNyEFXRZ4Fn3ZNxYq/bISBNFAlcw
-// SIG // cBmCfSzjjnndkfSY8nNCPNAcnNlpsD6um00QfXKjM+Lc
-// SIG // PO6I7qBJt6mg/G0hcSUuohUyfC1z77aZdhquN5aCRayJ
-// SIG // Fg8Y+sE=
+// SIG // hvcNAQkFMQ8XDTE2MTAwNTE1MjU0MlowIwYJKoZIhvcN
+// SIG // AQkEMRYEFJEBTdR3yRRNSVqbpCrpNXyO8/1UMA0GCSqG
+// SIG // SIb3DQEBAQUABIIBAFIuLB0zeuMize7hXz7DXDrKdex9
+// SIG // /PuFKsKaQU1FFL9Vw68Wn2HAq+KmqQNo5LGmWXKZiO5x
+// SIG // sGyfd17mCessQKjzuCXe0cnKwHWYcQ8KFlWQmV1dbBZI
+// SIG // d1OfIDkjgD72/+Q2tLyjjKAjfZCDILnZHCOwediOS/Qs
+// SIG // RPTLC0KS1ChA5BttKE3D3BYgujt2+cFU7ox9bW+VlkFj
+// SIG // CwuzttwJmVgMMfX2T8bU9u3DNzL5/L6fCSKS53L/uZhL
+// SIG // 35ySvpyOYa1VER014WeXmBJaDXEOifdj5+/gTAVSortp
+// SIG // lVIJWb0DmIrYyTJhhLsBpIp6gwUsZelktIYh/qYkGe06
+// SIG // nWpHOM8=
 // SIG // End signature block
