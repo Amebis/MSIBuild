@@ -27,9 +27,7 @@ function escapeIDT(str)
 {
 	if (!escapeIDT_stat) {
 		escapeIDT_stat = {
-			"re_lf":     new RegExp("\n", "g"),
-			"re_cr":     new RegExp("\r", "g"),
-			"re_tab":    new RegExp("\t", "g")
+			"re_tab": new RegExp("\t", "g")
 		};
 	}
 
@@ -40,7 +38,7 @@ function escapeIDT(str)
 		default:          try { str = str.toString(); } catch (err) { return null; }
 	}
 
-	return str.replace(escapeIDT_stat.re_lf, "\\n").replace(escapeIDT_stat.re_cr, "\\r").replace(escapeIDT_stat.re_tab, "\\t");
+	return str.replace(escapeIDT_stat.re_tab, "\u0010");
 }
 
 
@@ -49,15 +47,7 @@ function unescapeIDT(str)
 {
 	if (!unescapeIDT_stat) {
 		unescapeIDT_stat = {
-			"re_esc": new RegExp("\\\\(.)", "g"),
-			"fn_esc": function($0, $1) {
-				switch ($1) {
-					case "n" : return "\n";
-					case "r" : return "\r";
-					case "t" : return "\t";
-					default  : return $0;
-				}
-			}
+			"re_tab": new RegExp("\u0010", "g")
 		};
 	}
 
@@ -68,7 +58,7 @@ function unescapeIDT(str)
 		default:          try { str = str.toString(); } catch (err) { return null; }
 	}
 
-	return str.replace(unescapeIDT_stat.re_esc, unescapeIDT_stat.fn_esc);
+	return str.replace(unescapeIDT_stat.re_tab, "\t");
 }
 
 
@@ -90,7 +80,7 @@ function IDT(path)
 
 		var parseRow = function(row) {
 			for (var col in row)
-				row[col] = /*CRLF2LF(unescapeIDT(*/row[col]/*))*/;
+				row[col] = CRLF2LF(unescapeIDT(row[col]));
 			return row;
 		}
 
@@ -304,9 +294,20 @@ IDT.prototype.save = function(path)
 		if ("codepage" in this)
 			dat.Charset = CodePageToId(this.codepage);
 
+		var buildRow_stat = null;
 		var buildRow = function(row) {
-			for (var col in row)
-				row[col] = /*escapeIDT(LF2CRLF(*/row[col]/*))*/;
+			if (!buildRow_stat) {
+				buildRow_stat = {
+					"re_lf":  new RegExp("\n", "g"),
+					"re_cr":  new RegExp("\r", "g")
+				};
+			}
+
+			for (var col in row) {
+				if (row[col].match(buildRow_stat.re_lf) || row[col].match(buildRow_stat.re_cr))
+					throw new Error("Cell \"" + row[col] + "\" contains line breaks. IDT cells cannot contain CR, nor LF.");
+				row[col] = escapeIDT(LF2CRLF(row[col]));
+			}
 			return row;
 		}
 
@@ -338,8 +339,8 @@ IDT.prototype.save = function(path)
 // SIG // MIIXmAYJKoZIhvcNAQcCoIIXiTCCF4UCAQExCzAJBgUr
 // SIG // DgMCGgUAMGcGCisGAQQBgjcCAQSgWTBXMDIGCisGAQQB
 // SIG // gjcCAR4wJAIBAQQQEODJBs441BGiowAQS9NQkAIBAAIB
-// SIG // AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFLsa75t64gpu
-// SIG // 2OdK6hpOex2ar2DqoIISyDCCA+4wggNXoAMCAQICEH6T
+// SIG // AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFJ/tikwss0Et
+// SIG // 3ttJAmu7jiM9K9f7oIISyDCCA+4wggNXoAMCAQICEH6T
 // SIG // 6/t8xk5Z6kuad9QG/DswDQYJKoZIhvcNAQEFBQAwgYsx
 // SIG // CzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxXZXN0ZXJuIENh
 // SIG // cGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQK
@@ -493,30 +494,30 @@ IDT.prototype.save = function(path)
 // SIG // OWQwCQYFKw4DAhoFAKBwMBAGCisGAQQBgjcCAQwxAjAA
 // SIG // MBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEEMBwGCisG
 // SIG // AQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3
-// SIG // DQEJBDEWBBRu5xBAe5kcb77O84IZ9XWRuoWXWTANBgkq
-// SIG // hkiG9w0BAQEFAASCAQByCKevP+rGuM9qUDq+tuDe4oGb
-// SIG // qKim3ZgdbJxhX+RO36TWayaPBCTODcZmtIIXMYvBvymr
-// SIG // MafcGt9+IKbF1ul+6nu+Ae309fS+EQIPeIsdKn6Ahxy7
-// SIG // pV8Myi6Mssf08fTPNpu1cqHiJboHrGGN1aBV2TqNTLj8
-// SIG // D+6MLHgHl4xfnB1b3yA6CwU4BQzLDAcv1LPsyM+nCeLx
-// SIG // E/BRIaS7VqORznUst4XSwHQhDzhd+D4giulZQHUbIbQr
-// SIG // /WYQDFIH2P0gDrHrC7VU1FNDD3i49GUHabIVB1MtO7uf
-// SIG // dqnH7FIGKD985BtuxLF8aKwnwWN14fLap1ah0zZePCxv
-// SIG // 4dfx7nqgoYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
+// SIG // DQEJBDEWBBRHhLxtUuUOHIaCFF3mNWhEmXCu7jANBgkq
+// SIG // hkiG9w0BAQEFAASCAQB2SwqhuJxnEDsmNiiSXGPGn4Cq
+// SIG // G3nPi1puyMxpiTATyYWYqxqEB7gTnNKu95ZOEOMjGE5Y
+// SIG // ZXPsuPBnwGd6mfq/vW6b+InPhi4B1A+9xaY2jyP+6ctV
+// SIG // sY7F/KEiHtE2t4IS61v3ZyeH20Z3NPTegWAOGREbM8J8
+// SIG // iR1SvpyWEqf3SV0lGkPb2DDk0Ac9FRBxIN7N0yura+NY
+// SIG // s8M9lx01XqeegessTcWhGNVa21wcx360MHoSFVQeIimq
+// SIG // OHt0MYSL8KN7Zc5N2H/FMN2+KvnUQONtRJ8+yhqKGwkw
+// SIG // jLYyZzEJ/NlIXmutNOiA4UFBaKbHFA9L+w1XZfUk2KEW
+// SIG // v4tgqRYToYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
 // SIG // AgEBMHIwXjELMAkGA1UEBhMCVVMxHTAbBgNVBAoTFFN5
 // SIG // bWFudGVjIENvcnBvcmF0aW9uMTAwLgYDVQQDEydTeW1h
 // SIG // bnRlYyBUaW1lIFN0YW1waW5nIFNlcnZpY2VzIENBIC0g
 // SIG // RzICEA7P9DjI/r81bgTYapgbGlAwCQYFKw4DAhoFAKBd
 // SIG // MBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZI
-// SIG // hvcNAQkFMQ8XDTE2MTAwNTE1MjU0MlowIwYJKoZIhvcN
-// SIG // AQkEMRYEFJEBTdR3yRRNSVqbpCrpNXyO8/1UMA0GCSqG
-// SIG // SIb3DQEBAQUABIIBAFIuLB0zeuMize7hXz7DXDrKdex9
-// SIG // /PuFKsKaQU1FFL9Vw68Wn2HAq+KmqQNo5LGmWXKZiO5x
-// SIG // sGyfd17mCessQKjzuCXe0cnKwHWYcQ8KFlWQmV1dbBZI
-// SIG // d1OfIDkjgD72/+Q2tLyjjKAjfZCDILnZHCOwediOS/Qs
-// SIG // RPTLC0KS1ChA5BttKE3D3BYgujt2+cFU7ox9bW+VlkFj
-// SIG // CwuzttwJmVgMMfX2T8bU9u3DNzL5/L6fCSKS53L/uZhL
-// SIG // 35ySvpyOYa1VER014WeXmBJaDXEOifdj5+/gTAVSortp
-// SIG // lVIJWb0DmIrYyTJhhLsBpIp6gwUsZelktIYh/qYkGe06
-// SIG // nWpHOM8=
+// SIG // hvcNAQkFMQ8XDTE2MTAwNTE3MzIxNFowIwYJKoZIhvcN
+// SIG // AQkEMRYEFCCC7wLZ9oDJnDKDLAj9lf6crAQuMA0GCSqG
+// SIG // SIb3DQEBAQUABIIBAHfJJeI+Ix08iPsrL1qBGIZ4LFvT
+// SIG // FtznVWoaLY7Kikx/zgYD8xkE7zIAq1Mm1VxjUXrX25oE
+// SIG // dipImbIo6grg5ye/kw1ZO144NchC3h0vWSm9c468KdC6
+// SIG // 1xQT5MRiL544NxIdd7DhcFCiJEDFRwRaV64wqTKAEfYX
+// SIG // Quug47ElG/G3x7c5/JOqvKubxSJ52MQSbEnlQxGeNIad
+// SIG // VQTnH8g9mjsyYL9x+Juqedj57kGpWP1VaztB/QHKVw3J
+// SIG // 3GAAoMm4nelIZGdaMtZM0cvw60GbM08KffYdksd2szBN
+// SIG // dlW20tbIkE/WYTnU8CZ+cOOwylKkmUjEOD8HweSxekdt
+// SIG // toW3WcI=
 // SIG // End signature block
