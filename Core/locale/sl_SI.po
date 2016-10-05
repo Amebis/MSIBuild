@@ -1,36 +1,33 @@
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: MSIBuild Core\n"
+"Project-Id-Version: MSMBuild\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-04 16:05+0200\n"
+"POT-Creation-Date: 2016-10-05 11:13+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Slovenian (Slovenia) (https://www.transifex.com/eduroam_devel/"
-"teams/11799/sl_SI/)\n"
+"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
 "Language: sl_SI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.9\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3);\n"
-"X-Generator: Poedit 1.8.9\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-KeywordsList: __\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: .\n"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:4
 #: en_US.Win32.Release.ActionText-2.idtx:4 en_US.x64.Debug.ActionText-2.idtx:4
 #: en_US.x64.Release.ActionText-2.idtx:4
 msgid "Advertising application"
-msgstr "Aplikacija za oglaševanje"
+msgstr "Program za oglaševanje"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:5
 #: en_US.Win32.Release.ActionText-2.idtx:5 en_US.x64.Debug.ActionText-2.idtx:5
 #: en_US.x64.Release.ActionText-2.idtx:5
 msgid "Allocating registry space"
-msgstr "Rezervacija registrskega prostora"
+msgstr "Rezervacija prostora v sistemskem registru"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:5
 #: en_US.Win32.Release.ActionText-2.idtx:5 en_US.x64.Debug.ActionText-2.idtx:5
@@ -42,7 +39,7 @@ msgstr "Nezaseden prostor: [1]"
 #: en_US.Win32.Release.ActionText-2.idtx:6 en_US.x64.Debug.ActionText-2.idtx:6
 #: en_US.x64.Release.ActionText-2.idtx:6
 msgid "Searching for installed applications"
-msgstr "Iskanje nameščenih aplikacij"
+msgstr "Iskanje nameščenih programov"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:6
 #: en_US.Win32.Release.ActionText-2.idtx:6 en_US.x64.Debug.ActionText-2.idtx:6
@@ -157,13 +154,13 @@ msgstr "Datoteka: [1], imenik: [9], velikost: [6]"
 #: en_US.Win32.Release.ActionText-2.idtx:16
 #: en_US.x64.Debug.ActionText-2.idtx:16 en_US.x64.Release.ActionText-2.idtx:16
 msgid "Searching for related applications"
-msgstr "Iskanje sorodnih aplikacij"
+msgstr "Iskanje sorodnih programov"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:16
 #: en_US.Win32.Release.ActionText-2.idtx:16
 #: en_US.x64.Debug.ActionText-2.idtx:16 en_US.x64.Release.ActionText-2.idtx:16
 msgid "Found application: [1]"
-msgstr "Najdena aplikacija: [1]"
+msgstr "Najden program: [1]"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:17
 #: en_US.Win32.Release.ActionText-2.idtx:17
@@ -210,7 +207,7 @@ msgstr "Kopiranje novih datotek"
 #: en_US.Win32.Release.ActionText-2.idtx:20
 #: en_US.x64.Debug.ActionText-2.idtx:20 en_US.x64.Release.ActionText-2.idtx:20
 msgid "Installing ODBC components"
-msgstr "Nameščanje ODBC komponent"
+msgstr "Nameščanje komponent ODBC"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:21
 #: en_US.Win32.Release.ActionText-2.idtx:21
@@ -252,13 +249,13 @@ msgstr "Ocenjevanje zagonskih pogojev"
 #: en_US.Win32.Release.ActionText-2.idtx:25
 #: en_US.x64.Debug.ActionText-2.idtx:25 en_US.x64.Release.ActionText-2.idtx:25
 msgid "Migrating feature states from related applications"
-msgstr "Preseljevanje stanja funkcij iz sorodnih aplikacij"
+msgstr "Preseljevanje stanja funkcij iz sorodnih programov"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:25
 #: en_US.Win32.Release.ActionText-2.idtx:25
 #: en_US.x64.Debug.ActionText-2.idtx:25 en_US.x64.Release.ActionText-2.idtx:25
 msgid "Application: [1]"
-msgstr "Aplikacija: [1]"
+msgstr "Program: [1]"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:26
 #: en_US.Win32.Release.ActionText-2.idtx:26
@@ -270,7 +267,7 @@ msgstr "Premikanje datotek"
 #: en_US.Win32.Release.ActionText-2.idtx:27
 #: en_US.x64.Debug.ActionText-2.idtx:27 en_US.x64.Release.ActionText-2.idtx:27
 msgid "Publishing assembly information"
-msgstr "Objavljanje informacij o izgradnji"
+msgstr "Objava informacij o izgradnji"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:27
 #: en_US.Win32.Debug.ActionText-2.idtx:28
@@ -280,13 +277,13 @@ msgstr "Objavljanje informacij o izgradnji"
 #: en_US.x64.Release.ActionText-2.idtx:27
 #: en_US.x64.Release.ActionText-2.idtx:28
 msgid "Application Context:[1], Assembly Name:[2]"
-msgstr "Kontekst aplikacije:[1], ime izgradnje:[2]"
+msgstr "Kontekst programa:[1], ime izgradnje:[2]"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:28
 #: en_US.Win32.Release.ActionText-2.idtx:28
 #: en_US.x64.Debug.ActionText-2.idtx:28 en_US.x64.Release.ActionText-2.idtx:28
 msgid "Unpublishing assembly information"
-msgstr "Odobjavljanje informacij o izgradnji"
+msgstr "Umik objave informacij o izgradnji"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:29
 #: en_US.Win32.Release.ActionText-2.idtx:29
@@ -364,7 +361,7 @@ msgstr "ID razreda: [1]"
 #: en_US.Win32.Release.ActionText-2.idtx:35
 #: en_US.x64.Debug.ActionText-2.idtx:35 en_US.x64.Release.ActionText-2.idtx:35
 msgid "Registering COM+ Applications and Components"
-msgstr "Registracija COM+ aplikacij in komponent"
+msgstr "Registracija programov in komponent COM+"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:35
 #: en_US.Win32.Release.ActionText-2.idtx:35
@@ -408,7 +405,7 @@ msgstr "Pisava: [1]"
 #: en_US.Win32.Release.ActionText-2.idtx:38
 #: en_US.x64.Debug.ActionText-2.idtx:38 en_US.x64.Release.ActionText-2.idtx:38
 msgid "Registering MIME info"
-msgstr "Registracija MIME informacij"
+msgstr "Registracija informacij MIME"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:38
 #: en_US.Win32.Debug.ActionText-2.idtx:68
@@ -418,7 +415,7 @@ msgstr "Registracija MIME informacij"
 #: en_US.x64.Release.ActionText-2.idtx:38
 #: en_US.x64.Release.ActionText-2.idtx:68
 msgid "MIME Content Type: [1], Extension: [2]"
-msgstr "Vrsta MIME vsebine: [1], dodatek: [2]"
+msgstr "Vrsta vsebine MIME: [1], dodatek: [2]"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:39
 #: en_US.Win32.Release.ActionText-2.idtx:39
@@ -440,7 +437,7 @@ msgstr "Registracija identifikatorjev programa"
 #: en_US.x64.Release.ActionText-2.idtx:40
 #: en_US.x64.Release.ActionText-2.idtx:69
 msgid "ProgId: [1]"
-msgstr "ID programa: [1]"
+msgstr "ProgId: [1]"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:41
 #: en_US.Win32.Release.ActionText-2.idtx:41
@@ -456,7 +453,7 @@ msgstr "Registriranje knjižnic tipov"
 #: en_US.x64.Release.ActionText-2.idtx:41
 #: en_US.x64.Release.ActionText-2.idtx:70
 msgid "LibID: [1]"
-msgstr "ID knjižnice: [1]"
+msgstr "LibID: [1]"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:42
 #: en_US.Win32.Release.ActionText-2.idtx:42
@@ -507,13 +504,13 @@ msgstr "Ime: [1], vrednost: [2], dejanje [3]"
 #: en_US.Win32.Release.ActionText-2.idtx:45
 #: en_US.x64.Debug.ActionText-2.idtx:45 en_US.x64.Release.ActionText-2.idtx:45
 msgid "Removing applications"
-msgstr "Odstranjevanje aplikacij"
+msgstr "Odstranjevanje programov"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:45
 #: en_US.Win32.Release.ActionText-2.idtx:45
 #: en_US.x64.Debug.ActionText-2.idtx:45 en_US.x64.Release.ActionText-2.idtx:45
 msgid "Application: [1], Command line: [2]"
-msgstr "Aplikacija: [1], Ukazna vrstica: [2]"
+msgstr "Program: [1], Ukazna vrstica: [2]"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:46
 #: en_US.Win32.Release.ActionText-2.idtx:46
@@ -531,7 +528,7 @@ msgstr "Odstranjevanje map"
 #: en_US.Win32.Release.ActionText-2.idtx:48
 #: en_US.x64.Debug.ActionText-2.idtx:48 en_US.x64.Release.ActionText-2.idtx:48
 msgid "Removing INI files entries"
-msgstr "Odstranjevanje vnosov INI datotek"
+msgstr "Odstranjevanje vnosov datotek INI"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:48
 #: en_US.Win32.Debug.ActionText-2.idtx:72
@@ -547,13 +544,13 @@ msgstr "Datoteka: [1], razdelek: [2], ključ: [3], vrednost: [4]"
 #: en_US.Win32.Release.ActionText-2.idtx:49
 #: en_US.x64.Debug.ActionText-2.idtx:49 en_US.x64.Release.ActionText-2.idtx:49
 msgid "Removing ODBC components"
-msgstr "Odstranjevanje ODBC komponent"
+msgstr "Odstranjevanje komponent ODBC"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:50
 #: en_US.Win32.Release.ActionText-2.idtx:50
 #: en_US.x64.Debug.ActionText-2.idtx:50 en_US.x64.Release.ActionText-2.idtx:50
 msgid "Removing system registry values"
-msgstr "Odstranjevanje sistemskih registrskih vrednosti"
+msgstr "Odstranjevanje vrednosti iz sistemskega registra"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:50
 #: en_US.Win32.Release.ActionText-2.idtx:50
@@ -605,7 +602,7 @@ msgstr "Brisanje registracije modulov"
 #: en_US.Win32.Release.ActionText-2.idtx:57
 #: en_US.x64.Debug.ActionText-2.idtx:57 en_US.x64.Release.ActionText-2.idtx:57
 msgid "Initializing ODBC directories"
-msgstr "Inicializacija ODBC imenikov"
+msgstr "Inicializacija imenikov ODBC"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:58
 #: en_US.Win32.Release.ActionText-2.idtx:58
@@ -653,7 +650,7 @@ msgstr "Brisanje registracije strežnikov razreda"
 #: en_US.Win32.Release.ActionText-2.idtx:65
 #: en_US.x64.Debug.ActionText-2.idtx:65 en_US.x64.Release.ActionText-2.idtx:65
 msgid "Unregistering COM+ Applications and Components"
-msgstr "Brisanje registracije COM+ aplikacij in komponent"
+msgstr "Brisanje registracije programov in komponent COM+"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:65
 #: en_US.Win32.Release.ActionText-2.idtx:65
@@ -677,7 +674,7 @@ msgstr "Brisanje registracije pisav"
 #: en_US.Win32.Release.ActionText-2.idtx:68
 #: en_US.x64.Debug.ActionText-2.idtx:68 en_US.x64.Release.ActionText-2.idtx:68
 msgid "Unregistering MIME info"
-msgstr "Brisanje registracije MIME informacij"
+msgstr "Brisanje registracije informacij MIME"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:69
 #: en_US.Win32.Release.ActionText-2.idtx:69
@@ -695,13 +692,13 @@ msgstr "Brisanje registracije knjižnic tipov"
 #: en_US.Win32.Release.ActionText-2.idtx:72
 #: en_US.x64.Debug.ActionText-2.idtx:72 en_US.x64.Release.ActionText-2.idtx:72
 msgid "Writing INI files values"
-msgstr "Zapisovanje vrednosti INI datotek"
+msgstr "Zapisovanje vrednosti datotek INI"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:73
 #: en_US.Win32.Release.ActionText-2.idtx:73
 #: en_US.x64.Debug.ActionText-2.idtx:73 en_US.x64.Release.ActionText-2.idtx:73
 msgid "Writing system registry values"
-msgstr "Zapisovanje sistemskih registrskih vrednosti"
+msgstr "Zapisovanje vrednosti v sistemski register"
 
 #: en_US.Win32.Debug.ActionText-2.idtx:73
 #: en_US.Win32.Release.ActionText-2.idtx:73
@@ -769,7 +766,7 @@ msgid ""
 "arguments are: [2], [3], [4]}}"
 msgstr ""
 "Namestitveni program je med nameščanjem paketa odkril nepričakovano napako. "
-"To lahko pomeni težave s paketom. Koda napake je [1].  {{Argumenti so : [2], "
+"To lahko pomeni težave s paketom. Koda napake je [1]. {{Argumenti so: [2], "
 "[3], [4]}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:11 en_US.Win32.Release.Error-2.idtx:11
@@ -828,7 +825,7 @@ msgstr "Preostali čas: {[1] min }{[2] s}"
 #: en_US.x64.Release.Error-2.idtx:21 en_US.x64.Release.Error-2.idtx:127
 msgid "Out of memory. Shut down other applications before retrying."
 msgstr ""
-"Zmanjkalo je pomnilnika. Zaprite druge aplikacije in nato poskusite znova."
+"Zmanjkalo je pomnilnika. Zaprite druge programe in nato poskusite znova."
 
 #: en_US.Win32.Debug.Error-2.idtx:22 en_US.Win32.Release.Error-2.idtx:22
 #: en_US.x64.Debug.Error-2.idtx:22 en_US.x64.Release.Error-2.idtx:22
@@ -843,7 +840,7 @@ msgstr "Namestitveni program se je končal prezgodaj."
 #: en_US.Win32.Debug.Error-2.idtx:24 en_US.Win32.Release.Error-2.idtx:24
 #: en_US.x64.Debug.Error-2.idtx:24 en_US.x64.Release.Error-2.idtx:24
 msgid "Please wait while Windows configures [SimpleProductName]"
-msgstr "Počakajte, da Windows konfigurira [SimpleProductName]"
+msgstr "Počakajte, da Windows vzpostavi [SimpleProductName]"
 
 #: en_US.Win32.Debug.Error-2.idtx:25 en_US.Win32.Release.Error-2.idtx:25
 #: en_US.x64.Debug.Error-2.idtx:25 en_US.x64.Release.Error-2.idtx:25
@@ -853,12 +850,12 @@ msgstr "Zbiranje potrebnih informacij ..."
 #: en_US.Win32.Debug.Error-2.idtx:26 en_US.Win32.Release.Error-2.idtx:26
 #: en_US.x64.Debug.Error-2.idtx:26 en_US.x64.Release.Error-2.idtx:26
 msgid "Removing older versions of this application..."
-msgstr "Odstranjevanje starih različic te aplikacije ..."
+msgstr "Odstranjevanje starih različic tega programa ..."
 
 #: en_US.Win32.Debug.Error-2.idtx:27 en_US.Win32.Release.Error-2.idtx:27
 #: en_US.x64.Debug.Error-2.idtx:27 en_US.x64.Release.Error-2.idtx:27
 msgid "Preparing to remove older versions of this application..."
-msgstr "Priprava na odstranitev starih različic te aplikacije ..."
+msgstr "Priprava na odstranitev starih različic tega programa ..."
 
 #: en_US.Win32.Debug.Error-2.idtx:28 en_US.Win32.Release.Error-2.idtx:28
 #: en_US.x64.Debug.Error-2.idtx:28 en_US.x64.Release.Error-2.idtx:28
@@ -918,7 +915,7 @@ msgid ""
 "Error reading from file [2]. {{ System error [3].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
-"Prišlo je do napake pri branju iz datoteke: [2]. {{Sistemska napaka [3].}} "
+"Pri branju iz datoteke je prišlo do napake: [2]. {{Sistemska napaka [3].}} "
 "Preverite, ali datoteka obstaja in ali imate dostop do nje."
 
 #: en_US.Win32.Debug.Error-2.idtx:36 en_US.Win32.Release.Error-2.idtx:36
@@ -1106,17 +1103,17 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:61 en_US.Win32.Release.Error-2.idtx:61
 #: en_US.x64.Debug.Error-2.idtx:61 en_US.x64.Release.Error-2.idtx:61
 msgid "Failed to correctly copy [2] file: CRC error."
-msgstr "Datoteke [2] ni bilo mogoče pravilno prekopirati: CRC-napaka."
+msgstr "Datoteke [2] ni bilo mogoče pravilno prekopirati: napaka CRC."
 
 #: en_US.Win32.Debug.Error-2.idtx:62 en_US.Win32.Release.Error-2.idtx:62
 #: en_US.x64.Debug.Error-2.idtx:62 en_US.x64.Release.Error-2.idtx:62
 msgid "Failed to correctly move [2] file: CRC error."
-msgstr "Datoteke [2] ni bilo mogoče pravilno premakniti: CRC-napaka."
+msgstr "Datoteke [2] ni bilo mogoče pravilno premakniti: napaka CRC."
 
 #: en_US.Win32.Debug.Error-2.idtx:63 en_US.Win32.Release.Error-2.idtx:63
 #: en_US.x64.Debug.Error-2.idtx:63 en_US.x64.Release.Error-2.idtx:63
 msgid "Failed to correctly patch [2] file: CRC error."
-msgstr "Datoteke [2] ni bilo mogoče pravilno pravilno popraviti: CRC-napaka."
+msgstr "Datoteke [2] ni bilo mogoče pravilno pravilno popraviti: napaka CRC."
 
 #: en_US.Win32.Debug.Error-2.idtx:64 en_US.Win32.Release.Error-2.idtx:64
 #: en_US.x64.Debug.Error-2.idtx:64 en_US.x64.Release.Error-2.idtx:64
@@ -1246,8 +1243,8 @@ msgid ""
 "Could not increase the available registry space. [2] KB of free registry "
 "space is required for the installation of this application."
 msgstr ""
-"Prostora, ki je na voljo za register, ni bilo mogoče povečati. Namestitev te "
-"aplikacije zahteva [2] KB prostega prostora za register."
+"Prostora, ki je na voljo za register, ni bilo mogoče povečati. Namestitev "
+"tega programa zahteva [2] KB prostega prostora za register."
 
 #: en_US.Win32.Debug.Error-2.idtx:77 en_US.Win32.Release.Error-2.idtx:77
 #: en_US.x64.Debug.Error-2.idtx:77 en_US.x64.Release.Error-2.idtx:77
@@ -1345,7 +1342,7 @@ msgstr "Do omrežnega mesta [2] ni bilo mogoče priti."
 #: en_US.x64.Debug.Error-2.idtx:87 en_US.x64.Release.Error-2.idtx:87
 msgid ""
 "The following applications should be closed before continuing the install:"
-msgstr "Preden nadaljujete z namestitvijo, morate zapreti te aplikacije:"
+msgstr "Preden nadaljujete z namestitvijo, morate zapreti te programe:"
 
 #: en_US.Win32.Debug.Error-2.idtx:88 en_US.Win32.Release.Error-2.idtx:88
 #: en_US.x64.Debug.Error-2.idtx:88 en_US.x64.Release.Error-2.idtx:88
@@ -1466,7 +1463,7 @@ msgstr "Namestitev je bila uspešno dokončana."
 #: en_US.Win32.Debug.Error-2.idtx:100 en_US.Win32.Release.Error-2.idtx:100
 #: en_US.x64.Debug.Error-2.idtx:100 en_US.x64.Release.Error-2.idtx:100
 msgid "Installation failed."
-msgstr "Namestiev ni uspela."
+msgstr "Namestitev ni uspela."
 
 #: en_US.Win32.Debug.Error-2.idtx:101 en_US.Win32.Release.Error-2.idtx:101
 #: en_US.x64.Debug.Error-2.idtx:101 en_US.x64.Release.Error-2.idtx:101
@@ -1636,8 +1633,8 @@ msgid ""
 "application, you can log on as an Administrator, or contact your technical "
 "support group for assistance."
 msgstr ""
-"To aplikacijo lahko odstrani le skrbnik. Če jo želite odstraniti, se "
-"prijavite kot skrbnik ali pa se za pomoč obrnite na vašo tehnično službo."
+"Ta program lahko odstrani le skrbnik. Če ga želite odstraniti, se prijavite "
+"kot skrbnik ali pa se za pomoč obrnite na svojo tehnično službo."
 
 #: en_US.Win32.Debug.Error-2.idtx:123 en_US.Win32.Release.Error-2.idtx:123
 #: en_US.x64.Debug.Error-2.idtx:123 en_US.x64.Release.Error-2.idtx:123
@@ -1759,7 +1756,7 @@ msgid ""
 "Failed to cache package [2]. Error: [3]. Contact your support personnel."
 msgstr ""
 "Paketa [2] ni bilo mogoče shraniti v predpomnilnik. Napaka: [3]. Obrnite se "
-"na vašo tehnično službo."
+"na svojo tehnično službo."
 
 #: en_US.Win32.Debug.Error-2.idtx:139 en_US.Win32.Release.Error-2.idtx:139
 #: en_US.x64.Debug.Error-2.idtx:139 en_US.x64.Release.Error-2.idtx:139
@@ -1839,8 +1836,8 @@ msgid ""
 "Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
 msgstr ""
-"Prišlo je do napake pri odstranjevanju upravitelja ODBC gonilnikov, ODBC "
-"napaka [2]: [3]. Obrnite se na vašo tehnično službo."
+"Prišlo je do napake pri odstranjevanju upravitelja ODBC gonilnikov, napaka "
+"ODBC [2]: [3]. Obrnite se na svojo tehnično službo."
 
 #: en_US.Win32.Debug.Error-2.idtx:148 en_US.Win32.Release.Error-2.idtx:148
 #: en_US.x64.Debug.Error-2.idtx:148 en_US.x64.Release.Error-2.idtx:148
@@ -1848,8 +1845,8 @@ msgid ""
 "Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
 msgstr ""
-"Prišlo je do napake pri nameščanju upravitelja ODBC gonilnikov, ODBC napaka "
-"[2]: [3]. Obrnite se na vašo tehnično službo."
+"Prišlo je do napake pri nameščanju upravitelja ODBC gonilnikov, napaka ODBC "
+"[2]: [3]. Obrnite se na svojo tehnično službo."
 
 #: en_US.Win32.Debug.Error-2.idtx:149 en_US.Win32.Release.Error-2.idtx:149
 #: en_US.x64.Debug.Error-2.idtx:149 en_US.x64.Release.Error-2.idtx:149
@@ -1857,7 +1854,7 @@ msgid ""
 "Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you have "
 "sufficient privileges to remove ODBC drivers."
 msgstr ""
-"Prišlo je do napake pri odstranjevanju ODBC gonilnika: [4], ODBC napaka [2]: "
+"Prišlo je do napake pri odstranjevanju gonilnika ODBC: [4], napaka ODBC [2]: "
 "[3]. Preverite, ali imate ustrezne pravice za odstranjevanje ODBC gonilnikov."
 
 #: en_US.Win32.Debug.Error-2.idtx:150 en_US.Win32.Release.Error-2.idtx:150
@@ -1866,7 +1863,7 @@ msgid ""
 "Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
 "[4] exists and that you can access it."
 msgstr ""
-"Prišlo je do napake pri nameščanju ODBC gonilnika: [4], ODBC napaka [2]: "
+"Prišlo je do napake pri nameščanju gonilnika ODBC: [4], napaka ODBC [2]: "
 "[3]. Preverite, ali datoteka [4] obstaja in ali imate dostop do nje."
 
 #: en_US.Win32.Debug.Error-2.idtx:151 en_US.Win32.Release.Error-2.idtx:151
@@ -1875,7 +1872,7 @@ msgid ""
 "Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that "
 "the file [4] exists and that you can access it."
 msgstr ""
-"Prišlo je do napake pri konfiguriranju vira ODBC podatkov: [4], ODBC napaka "
+"Prišlo je do napake pri konfiguriranju vira podatkov ODBC: [4], napaka ODBC "
 "[2]: [3]. Preverite, ali datoteka [4] obstaja in ali imate dostop do nje."
 
 #: en_US.Win32.Debug.Error-2.idtx:152 en_US.Win32.Release.Error-2.idtx:152
