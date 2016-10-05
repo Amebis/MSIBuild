@@ -116,7 +116,7 @@ function POCatalog()
 
 					// The line is empty => end of record.
 					if (s == "" && "msgid" in rec)
-						return rec;
+						break;
 
 					// The record is marked as "fuzzy".
 					if (s.search(regexp.fuzzy) != -1) {
@@ -137,15 +137,18 @@ function POCatalog()
 					if (m) {
 						// Record found.
 						if (m[1] != "")
-							id = unescapePO(new String(m[1]));
+							id = new String(m[1]);
 						if (id in rec)
-							rec[id] += unescapePO(new String(m[2]));
+							rec[id] += new String(m[2]);
 						else
-							rec[id]  = unescapePO(new String(m[2]));
+							rec[id]  = new String(m[2]);
 						continue;
 					}
 				}
 
+				// Unescape messages now that they are concatenated.
+				for (id in rec)
+					rec[id] = unescapePO(rec[id]);
 				return "msgid" in rec ? rec : null;
 			}
 
@@ -276,8 +279,8 @@ POCatalog.prototype.save = function(path)
 // SIG // MIIXmAYJKoZIhvcNAQcCoIIXiTCCF4UCAQExCzAJBgUr
 // SIG // DgMCGgUAMGcGCisGAQQBgjcCAQSgWTBXMDIGCisGAQQB
 // SIG // gjcCAR4wJAIBAQQQEODJBs441BGiowAQS9NQkAIBAAIB
-// SIG // AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFOIhxP5qxoG4
-// SIG // L/0Jpyvl/dheNPSioIISyDCCA+4wggNXoAMCAQICEH6T
+// SIG // AAIBAAIBAAIBADAhMAkGBSsOAwIaBQAEFC7NxHFCd9bB
+// SIG // rmh9aao27/VkB387oIISyDCCA+4wggNXoAMCAQICEH6T
 // SIG // 6/t8xk5Z6kuad9QG/DswDQYJKoZIhvcNAQEFBQAwgYsx
 // SIG // CzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxXZXN0ZXJuIENh
 // SIG // cGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQK
@@ -431,30 +434,30 @@ POCatalog.prototype.save = function(path)
 // SIG // OWQwCQYFKw4DAhoFAKBwMBAGCisGAQQBgjcCAQwxAjAA
 // SIG // MBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEEMBwGCisG
 // SIG // AQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3
-// SIG // DQEJBDEWBBQv+v/IHFo0ikn0Oyg+0/kbYp+LYzANBgkq
-// SIG // hkiG9w0BAQEFAASCAQCA8tXTcsCRhT/fAQ86SQbjmM4A
-// SIG // qstaH7me1R9BrzZPp3WKU4m1Bkp1fFMOfw7KAmshhJSW
-// SIG // Njt0sytBHBfW3awalYFiizBbqQlDzTXkQ8wAfxx+BdOr
-// SIG // xsO/CiTHMEkR5fRjR8U0kPG3om0rkytzXR0jr9/xaEwh
-// SIG // YhD02bez1Cre9IQE5aS3ZUssygM0XxhxVTotWnJmnmHu
-// SIG // wMaD8uMi7Pfyv1hqmkPwf5uOoOMAPC7gKUX39KF6Wm5q
-// SIG // LmSRBNxCaUxMqUhith7scDHvEL0i6JKSq+wZwuEJn9Ev
-// SIG // M0abwe4ltBPnFXagR+dmVbKboJuGTQ4ThKciofkGevlv
-// SIG // qo9zwpoloYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
+// SIG // DQEJBDEWBBTCEEkbHEYF8BuDJFvZB4tVmRMXQjANBgkq
+// SIG // hkiG9w0BAQEFAASCAQCSfqG1JdavPFBQt60dhTf2MTzJ
+// SIG // MjKnVmur3bOTsKd3f+cNcwlprzbKSoCSA7HcYwSzQbR6
+// SIG // PGx7ifbE6HeICivLYEpOgdcYXUJ3zc2baRN0BjP0TVMN
+// SIG // vY0j4mK42K7z7Fv1UhDb1fzJ/ayUQxeF4/sVhhfUKv3N
+// SIG // t9Q4fdFPPH3lam9h/16sUL42DqTQGto+94tp7/XDLp+I
+// SIG // bwlf25Rf+wJBpldAksXEXodbK3jHhio4YU1gTDMDIlh+
+// SIG // OkHr4gAeNKCZ34qoId1WpuEK0noJRcj6GKnsPiX7yiwv
+// SIG // nQhunLXoW633DYIoAltUiNf5KYtPsbrpAF1hAnT2aCgG
+// SIG // 0aiKR3UdoYICCzCCAgcGCSqGSIb3DQEJBjGCAfgwggH0
 // SIG // AgEBMHIwXjELMAkGA1UEBhMCVVMxHTAbBgNVBAoTFFN5
 // SIG // bWFudGVjIENvcnBvcmF0aW9uMTAwLgYDVQQDEydTeW1h
 // SIG // bnRlYyBUaW1lIFN0YW1waW5nIFNlcnZpY2VzIENBIC0g
 // SIG // RzICEA7P9DjI/r81bgTYapgbGlAwCQYFKw4DAhoFAKBd
 // SIG // MBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZI
-// SIG // hvcNAQkFMQ8XDTE2MDkxOTA5MjQzM1owIwYJKoZIhvcN
-// SIG // AQkEMRYEFN0EJzHhISVqw9lvWoaKXBsGPpKhMA0GCSqG
-// SIG // SIb3DQEBAQUABIIBAAwhYaJpWoecig5IdF4Lh5hTGJ0m
-// SIG // hJwoXe+hgvbU7qJbBKQWbP+iVSLmwRU7Er7To0sf/vrA
-// SIG // SoFOTKR52GHvy/718YA18c2xvGJldnqfMmzS1RkuwlrL
-// SIG // 1Ca2/QvBmDvVHgZ8eHtVJ9GMpGnmtr3l30Wfs7PJy5XN
-// SIG // g4i8E1manA41ohAuzrHYbrpW1h9D69os64oWh2Ey0s6O
-// SIG // a3fcV/FjdnM3q7v4UK516KsdzECnGEc6IHdpbDw4ZYap
-// SIG // /VkHQ4lFhDqKv9bfG5yyjE0al1p6fkAc5GTdIe+P5KF9
-// SIG // /5X3ez70MA/HQX7XvSLmHAI5tBjjbGtPv94VdOn2Po2N
-// SIG // S+OQOx4=
+// SIG // hvcNAQkFMQ8XDTE2MTAwNTE1MTI0OVowIwYJKoZIhvcN
+// SIG // AQkEMRYEFMiK7VIQt1sVeidPMdCkfReV6BHrMA0GCSqG
+// SIG // SIb3DQEBAQUABIIBABQg3juU7zy7ol9TcyCHascUl3rm
+// SIG // eEHttRyb4jUHBCJgtsXt1Tuqls6NNAe3DV+Me3/0gu+W
+// SIG // YAzAvjwgGDNT7gKUx5UUH3b5pjsOlpvE1ARQkFUF9nEx
+// SIG // NPaKJ4Olpq1i/QrE0GsvkGjWYXhFJGxSNAV9VcIZdQjl
+// SIG // MPfB/bYjxbQ1A3tpsIqoO9jhE2NXz8jsyIwQOqq1qi6b
+// SIG // HJRnfAi/Hm/LYb3UN/2EpHlocgiE+oegFzkItv0IN0xx
+// SIG // T23jnbVsrK9kzV9rlucYUJumvEARNY7HDzifdcqYunwi
+// SIG // DwRGN449hdY5BZwsSwH/pllBn44ViCuv0rPLLzOi4Zkf
+// SIG // 8o4Ovgs=
 // SIG // End signature block
