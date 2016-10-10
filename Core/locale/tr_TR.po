@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-19 11:30+0200\n"
+"POT-Creation-Date: 2016-10-04 16:05+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
 "Language-Team: Turkish (https://www.transifex.com/eduroam_devel/teams/11799/tr/)\n"
@@ -1987,11 +1987,11 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:165 en_US.Win32.Release.Error-2.idtx:165
 #: en_US.x64.Debug.Error-2.idtx:165 en_US.x64.Release.Error-2.idtx:165
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2].  List of protected files:\\r\\n"
-"[3]}}"
+"The Windows Installer service cannot update one or more protected Windows "
+"files. {{SFP Error: [2].  List of protected files:\\r\\n[3]}}"
 msgstr ""
-"Windows Installer hizmeti, bir veya daha falza korunan Windows dosyasını güncelleyemiyor. {{SFP Hata: [2].  Korunan dosyaların listesi:\\r\\n"
-"[3]}}"
+"Windows Installer hizmeti, bir veya daha falza korunan Windows dosyasını "
+"güncelleyemiyor. {{SFP Hata: [2].  Korunan dosyaların listesi:\\r\\n[3]}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:166 en_US.Win32.Release.Error-2.idtx:166
 #: en_US.x64.Debug.Error-2.idtx:166 en_US.x64.Release.Error-2.idtx:166

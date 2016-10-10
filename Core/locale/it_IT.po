@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-19 11:30+0200\n"
+"POT-Creation-Date: 2016-10-04 16:05+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Simon Rozman <simon@rozman.si>, 2016\n"
 "Language-Team: Italian (Italy) (https://www.transifex.com/eduroam_devel/teams/11799/it_IT/)\n"
@@ -2047,11 +2047,11 @@ msgstr ""
 #: en_US.Win32.Debug.Error-2.idtx:165 en_US.Win32.Release.Error-2.idtx:165
 #: en_US.x64.Debug.Error-2.idtx:165 en_US.x64.Release.Error-2.idtx:165
 msgid ""
-"The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2].  List of protected files:\\r\\n"
-"[3]}}"
+"The Windows Installer service cannot update one or more protected Windows "
+"files. {{SFP Error: [2].  List of protected files:\\r\\n[3]}}"
 msgstr ""
-"Impossibile aggiornare uno o più file protetti di Windows. {{Errore SFP: [2].  Elenco dei file protetti:\\r\\n"
-"[3]}}"
+"Impossibile aggiornare uno o più file protetti di Windows. {{Errore SFP: "
+"[2].  Elenco dei file protetti:\\r\\n[3]}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:166 en_US.Win32.Release.Error-2.idtx:166
 #: en_US.x64.Debug.Error-2.idtx:166 en_US.x64.Release.Error-2.idtx:166
