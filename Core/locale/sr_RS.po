@@ -1513,6 +1513,8 @@ msgid ""
 "[2] cannot install one of its required products. Contact your technical "
 "support group.  {{System Error: [3].}}"
 msgstr ""
+"[2] ne može instalirati jedan od zahtevanih programa. Obratite se IT službi "
+"vaše institucije.  {{System Error: [3].}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:106 en_US.Win32.Release.Error-2.idtx:106
 #: en_US.x64.Debug.Error-2.idtx:106 en_US.x64.Release.Error-2.idtx:106
@@ -1520,26 +1522,28 @@ msgid ""
 "The older version of [2] cannot be removed.  Contact your technical support "
 "group.  {{System Error [3].}}"
 msgstr ""
+"Starija verzija [2] se ne može obrisati. Obratite se IT službi vaše "
+"institucije.  {{System Error: [3].}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:107 en_US.Win32.Release.Error-2.idtx:107
 #: en_US.x64.Debug.Error-2.idtx:107 en_US.x64.Release.Error-2.idtx:107
 msgid "Installed [2]"
-msgstr ""
+msgstr "[2] je uspešno instaliran"
 
 #: en_US.Win32.Debug.Error-2.idtx:108 en_US.Win32.Release.Error-2.idtx:108
 #: en_US.x64.Debug.Error-2.idtx:108 en_US.x64.Release.Error-2.idtx:108
 msgid "Configured [2]"
-msgstr ""
+msgstr "[2] je uspešno konfigurisan"
 
 #: en_US.Win32.Debug.Error-2.idtx:109 en_US.Win32.Release.Error-2.idtx:109
 #: en_US.x64.Debug.Error-2.idtx:109 en_US.x64.Release.Error-2.idtx:109
 msgid "Removed [2]"
-msgstr ""
+msgstr "[2] je uspešno uklonjen"
 
 #: en_US.Win32.Debug.Error-2.idtx:110 en_US.Win32.Release.Error-2.idtx:110
 #: en_US.x64.Debug.Error-2.idtx:110 en_US.x64.Release.Error-2.idtx:110
 msgid "File [2] was rejected by digital signature policy."
-msgstr ""
+msgstr "Fajl [2] je odbijen na osnovu politike digitalnih potpisa."
 
 #: en_US.Win32.Debug.Error-2.idtx:111 en_US.Win32.Release.Error-2.idtx:111
 #: en_US.x64.Debug.Error-2.idtx:111 en_US.x64.Release.Error-2.idtx:111
@@ -1548,6 +1552,9 @@ msgid ""
 "Windows Installer is not correctly installed. Contact your support personnel"
 " for assistance."
 msgstr ""
+"Nije moguće pristupiti Windows Installer Service-u. Ovo se može desiti ako "
+"Windows Installer nije ispravno instaliran. Kontaktirajte IT službu vaše "
+"institucije za pomoć."
 
 #: en_US.Win32.Debug.Error-2.idtx:112 en_US.Win32.Release.Error-2.idtx:112
 #: en_US.x64.Debug.Error-2.idtx:112 en_US.x64.Release.Error-2.idtx:112
@@ -1557,6 +1564,10 @@ msgid ""
 "personnel or package vendor.  {{Custom action [2] script error [3], [4]: [5]"
 " Line [6], Column [7], [8] }}"
 msgstr ""
+"Postoji problem sa ovim Windows Installer paketom. Skriptu neophodnu za ovu "
+"instalaciju nije moguće pokrenuti. Kontaktirajte IT službu vaše institucije "
+"ili osobu zaduženo za održavanje paketa.  {{Akcija [2] greška u skripti [3],"
+" [4]: [5] Linija [6], Kolona [7], [8] }}"
 
 #: en_US.Win32.Debug.Error-2.idtx:113 en_US.Win32.Release.Error-2.idtx:113
 #: en_US.x64.Debug.Error-2.idtx:113 en_US.x64.Release.Error-2.idtx:113
@@ -1565,6 +1576,10 @@ msgid ""
 "for this install to complete could not be run. Contact your support "
 "personnel or package vendor. {{Action: [2], location: [3], command: [4] }}"
 msgstr ""
+"Postoji problem sa ovim Windows Installer paketom. Program neophodan za ovu "
+"instalaciju nije moguće pokrenuti. Kontaktirajte IT službu vaše institucije "
+"ili osobu zaduženo za održavanje paketa.  {{Akcija: [2], lokacija: [3], "
+"komanda: [4] }}"
 
 #: en_US.Win32.Debug.Error-2.idtx:114 en_US.Win32.Release.Error-2.idtx:114
 #: en_US.x64.Debug.Error-2.idtx:114 en_US.x64.Release.Error-2.idtx:114
@@ -1573,6 +1588,10 @@ msgid ""
 "part of the setup did not finish as expected. Contact your support personnel"
 " or package vendor.  {{Action [2], location: [3], command: [4] }}"
 msgstr ""
+"Postoji problem sa ovim Windows Installer paketom. Program koji je pokrenut "
+"kao deo instalacije nije se izvršio kako je bilo očekivano. Kontaktirajte IT"
+" službu vaše institucije ili osobu zaduženo za održavanje paketa.  {{Akcija:"
+" [2], lokacija: [3], komanda: [4] }}"
 
 #: en_US.Win32.Debug.Error-2.idtx:115 en_US.Win32.Release.Error-2.idtx:115
 #: en_US.x64.Debug.Error-2.idtx:115 en_US.x64.Release.Error-2.idtx:115
@@ -1581,36 +1600,40 @@ msgid ""
 "this install to complete could not be run. Contact your support personnel or"
 " package vendor.  {{Action [2], entry: [3], library: [4] }}"
 msgstr ""
+"Postoji problem sa ovim Windows Installer paketom. DLL fajl neophodan za "
+"instalaciju nije moguće pokrenuti. Kontaktirajte IT službu vaše institucije "
+"ili osobu zaduženo za održavanje paketa.  {{Akcija: [2], lokacija: [3], "
+"biblioteka: [4] }}"
 
 #: en_US.Win32.Debug.Error-2.idtx:116 en_US.Win32.Release.Error-2.idtx:116
 #: en_US.x64.Debug.Error-2.idtx:116 en_US.x64.Release.Error-2.idtx:116
 msgid "Removal completed successfully."
-msgstr ""
+msgstr "Uklanjanje je uspešno završeno."
 
 #: en_US.Win32.Debug.Error-2.idtx:117 en_US.Win32.Release.Error-2.idtx:117
 #: en_US.x64.Debug.Error-2.idtx:117 en_US.x64.Release.Error-2.idtx:117
 msgid "Removal failed."
-msgstr ""
+msgstr "Neuspešno uklanjanje."
 
 #: en_US.Win32.Debug.Error-2.idtx:118 en_US.Win32.Release.Error-2.idtx:118
 #: en_US.x64.Debug.Error-2.idtx:118 en_US.x64.Release.Error-2.idtx:118
 msgid "Advertisement completed successfully."
-msgstr ""
+msgstr "Oglašavanje je uspešno završeno."
 
 #: en_US.Win32.Debug.Error-2.idtx:119 en_US.Win32.Release.Error-2.idtx:119
 #: en_US.x64.Debug.Error-2.idtx:119 en_US.x64.Release.Error-2.idtx:119
 msgid "Advertisement failed."
-msgstr ""
+msgstr "Neuspešno oglašavanje."
 
 #: en_US.Win32.Debug.Error-2.idtx:120 en_US.Win32.Release.Error-2.idtx:120
 #: en_US.x64.Debug.Error-2.idtx:120 en_US.x64.Release.Error-2.idtx:120
 msgid "Configuration completed successfully."
-msgstr ""
+msgstr " Konfigurisanje je uspešno završeno."
 
 #: en_US.Win32.Debug.Error-2.idtx:121 en_US.Win32.Release.Error-2.idtx:121
 #: en_US.x64.Debug.Error-2.idtx:121 en_US.x64.Release.Error-2.idtx:121
 msgid "Configuration failed."
-msgstr ""
+msgstr " Neuspešno konfigurisanje."
 
 #: en_US.Win32.Debug.Error-2.idtx:122 en_US.Win32.Release.Error-2.idtx:122
 #: en_US.x64.Debug.Error-2.idtx:122 en_US.x64.Release.Error-2.idtx:122
@@ -1619,6 +1642,10 @@ msgid ""
 "application, you can log on as an Administrator, or contact your technical "
 "support group for assistance."
 msgstr ""
+"Morate imati administratorske privilegije kako biste uklonili aplikaciju. Da"
+" biste uklonili aplikaciju, možete se ulogovati sa nalogom koji ima "
+"administratorske privilegije ili se možete obratiti IT službi vaše "
+"institucije."
 
 #: en_US.Win32.Debug.Error-2.idtx:123 en_US.Win32.Release.Error-2.idtx:123
 #: en_US.x64.Debug.Error-2.idtx:123 en_US.x64.Release.Error-2.idtx:123
@@ -1627,6 +1654,9 @@ msgid ""
 "client package. Try the installation again using a valid copy of the "
 "installation package '[3]'."
 msgstr ""
+"Izovrni instalacioni paket za [2] nije sinhronizovan sa klijentskim paketom."
+" Pokušajte ponovo sa instalacijom uz korišćenje validne kopije instalacionog"
+" paketa '[3]'."
 
 #: en_US.Win32.Debug.Error-2.idtx:124 en_US.Win32.Release.Error-2.idtx:124
 #: en_US.x64.Debug.Error-2.idtx:124 en_US.x64.Release.Error-2.idtx:124
@@ -1635,6 +1665,10 @@ msgid ""
 " Other users are currently logged on to this computer, and restarting may "
 "cause them to lose their work. Do you want to restart now?"
 msgstr ""
+"Da biste završili [2] instalaciju, morate restartovati vaš računar. Drugi "
+"korisnici su trenutno ulogovani na ovaj računar i restartovanje može dovesti"
+" do toga da izgube sve promene koje nisu sačuvane. Da li želite da "
+"restartujete računar sada?"
 
 #: en_US.Win32.Debug.Error-2.idtx:125 en_US.Win32.Release.Error-2.idtx:125
 #: en_US.x64.Debug.Error-2.idtx:125 en_US.x64.Release.Error-2.idtx:125
@@ -1643,11 +1677,14 @@ msgid ""
 "again when your computer is not in Safe Mode or you can use System Restore "
 "to return your machine to a previous good state."
 msgstr ""
+"Windows Installer nije dostupan u Safe Mode-u. Pokušajte ponovo kada računar"
+" ne bude u Safe Mode-u ili možete iskoristiti System Restore funkcionalnost "
+"da biste vratili računar u prethodno normalno stanje."
 
 #: en_US.Win32.Debug.Error-2.idtx:126 en_US.Win32.Release.Error-2.idtx:126
 #: en_US.x64.Debug.Error-2.idtx:126 en_US.x64.Release.Error-2.idtx:126
 msgid "The path [2] is not valid.  Please specify a valid path."
-msgstr ""
+msgstr "Putanja [2] nije validna.  Definišite validnu putanju."
 
 #: en_US.Win32.Debug.Error-2.idtx:128 en_US.Win32.Release.Error-2.idtx:128
 #: en_US.x64.Debug.Error-2.idtx:128 en_US.x64.Release.Error-2.idtx:128
@@ -1655,6 +1692,8 @@ msgid ""
 "There is no disk in drive [2]. Please insert one and click Retry, or click "
 "Cancel to go back to the previously selected volume."
 msgstr ""
+"Disk nije nađen u drajvu [2]. Ubacite disk i kliknite Retry ili kliknite "
+"Cancel kako biste se vratili na prethodno odabrani drajv."
 
 #: en_US.Win32.Debug.Error-2.idtx:129 en_US.Win32.Release.Error-2.idtx:129
 #: en_US.x64.Debug.Error-2.idtx:129 en_US.x64.Release.Error-2.idtx:129
@@ -1662,27 +1701,30 @@ msgid ""
 "There is no disk in drive [2]. Please insert one and click Retry, or click "
 "Cancel to return to the browse dialog and select a different volume."
 msgstr ""
+"Disk nije nađen u drajvu [2]. Ubacite disk i kliknite Retry ili kliknite "
+"Cancel kako biste se vratili na prethodni dijalog i odaberali drugi drajv."
 
 #: en_US.Win32.Debug.Error-2.idtx:130 en_US.Win32.Release.Error-2.idtx:130
 #: en_US.x64.Debug.Error-2.idtx:130 en_US.x64.Release.Error-2.idtx:130
 msgid ""
 "The folder [2] does not exist.  Please enter a path to an existing folder."
 msgstr ""
+"Direktorijum [2] ne postoji. Unesite putanju do postojećeg direktorijuma."
 
 #: en_US.Win32.Debug.Error-2.idtx:131 en_US.Win32.Release.Error-2.idtx:131
 #: en_US.x64.Debug.Error-2.idtx:131 en_US.x64.Release.Error-2.idtx:131
 msgid "You have insufficient privileges to read this folder."
-msgstr ""
+msgstr "Nemate dovoljno privilegija da pročitate sadržaj ovog direktorijuma."
 
 #: en_US.Win32.Debug.Error-2.idtx:132 en_US.Win32.Release.Error-2.idtx:132
 #: en_US.x64.Debug.Error-2.idtx:132 en_US.x64.Release.Error-2.idtx:132
 msgid "A valid destination folder for the install could not be determined."
-msgstr ""
+msgstr "Nije moguće odrediti odgovarajući odredišni direktorijum."
 
 #: en_US.Win32.Debug.Error-2.idtx:133 en_US.Win32.Release.Error-2.idtx:133
 #: en_US.x64.Debug.Error-2.idtx:133 en_US.x64.Release.Error-2.idtx:133
 msgid "Error attempting to read from the source install database: [2]."
-msgstr ""
+msgstr "Greška prilikom pokušaja čitanja instalacione baze: [2]."
 
 #: en_US.Win32.Debug.Error-2.idtx:134 en_US.Win32.Release.Error-2.idtx:134
 #: en_US.x64.Debug.Error-2.idtx:134 en_US.x64.Release.Error-2.idtx:134
@@ -1690,6 +1732,8 @@ msgid ""
 "Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to "
 "complete operation."
 msgstr ""
+"Planiranje restarta: Promena imena fajla [2] u [3]. Sistem se mora "
+"restartovati da bi se operacija završila."
 
 #: en_US.Win32.Debug.Error-2.idtx:135 en_US.Win32.Release.Error-2.idtx:135
 #: en_US.x64.Debug.Error-2.idtx:135 en_US.x64.Release.Error-2.idtx:135
@@ -1697,6 +1741,8 @@ msgid ""
 "Scheduling reboot operation: Deleting file [2]. Must reboot to complete "
 "operation."
 msgstr ""
+"Planiranje restarta: Brisanje fajla [2]. Sistem se mora restartovati da bi "
+"se operacija završila."
 
 #: en_US.Win32.Debug.Error-2.idtx:136 en_US.Win32.Release.Error-2.idtx:136
 #: en_US.x64.Debug.Error-2.idtx:136 en_US.x64.Release.Error-2.idtx:136
@@ -1704,6 +1750,8 @@ msgid ""
 "Module [2] failed to register.  HRESULT [3].  Contact your support "
 "personnel."
 msgstr ""
+"Modul [2] nije uspešno registrovan. HRESULT [3]. Kontaktirajte IT službu "
+"vaše institucije."
 
 #: en_US.Win32.Debug.Error-2.idtx:137 en_US.Win32.Release.Error-2.idtx:137
 #: en_US.x64.Debug.Error-2.idtx:137 en_US.x64.Release.Error-2.idtx:137
@@ -1711,12 +1759,16 @@ msgid ""
 "Module [2] failed to unregister.  HRESULT [3].  Contact your support "
 "personnel."
 msgstr ""
+"Modul [2] nije uspešno registrovan. HRESULT [3]. Kontaktirajte IT službu "
+"vaše institucije."
 
 #: en_US.Win32.Debug.Error-2.idtx:138 en_US.Win32.Release.Error-2.idtx:138
 #: en_US.x64.Debug.Error-2.idtx:138 en_US.x64.Release.Error-2.idtx:138
 msgid ""
 "Failed to cache package [2]. Error: [3]. Contact your support personnel."
 msgstr ""
+"Neuspešno keširanje paketa [2]. Greška: [3]. Kontaktirajte IT službu vaše "
+"institucije."
 
 #: en_US.Win32.Debug.Error-2.idtx:139 en_US.Win32.Release.Error-2.idtx:139
 #: en_US.x64.Debug.Error-2.idtx:139 en_US.x64.Release.Error-2.idtx:139
@@ -1724,6 +1776,8 @@ msgid ""
 "Could not register font [2].  Verify that you have sufficient permissions to"
 " install fonts, and that the system supports this font."
 msgstr ""
+"Nije moguće registrovati font: [2]. Proverite da li imate dovoljne "
+"privilegije da instalirate fontove ili kontaktiraje osobu za podršku."
 
 #: en_US.Win32.Debug.Error-2.idtx:140 en_US.Win32.Release.Error-2.idtx:140
 #: en_US.x64.Debug.Error-2.idtx:140 en_US.x64.Release.Error-2.idtx:140
