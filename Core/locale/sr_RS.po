@@ -1785,6 +1785,8 @@ msgid ""
 "Could not unregister font [2]. Verify that you that you have sufficient "
 "permissions to remove fonts."
 msgstr ""
+"Nije moguće registrovati font: [2]. Proverite da li imate dovoljne "
+"privilegije da ukolonite fontove."
 
 #: en_US.Win32.Debug.Error-2.idtx:141 en_US.Win32.Release.Error-2.idtx:141
 #: en_US.x64.Debug.Error-2.idtx:141 en_US.x64.Release.Error-2.idtx:141
@@ -1792,6 +1794,8 @@ msgid ""
 "Could not create Shortcut [2]. Verify that the destination folder exists and"
 " that you can access it."
 msgstr ""
+"Nije moguće napraviti prečicu: [2]. Proverite da li odredišni direktorijum "
+"postoji i da možete da mu pristupate."
 
 #: en_US.Win32.Debug.Error-2.idtx:142 en_US.Win32.Release.Error-2.idtx:142
 #: en_US.x64.Debug.Error-2.idtx:142 en_US.x64.Release.Error-2.idtx:142
@@ -1799,6 +1803,8 @@ msgid ""
 "Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
 " you can access it."
 msgstr ""
+"Nije moguće ukloniti prečicu: [2]. Proverite da li fajl sa prečicom postoji "
+"i da možete da mu pristupate."
 
 #: en_US.Win32.Debug.Error-2.idtx:143 en_US.Win32.Release.Error-2.idtx:143
 #: en_US.x64.Debug.Error-2.idtx:143 en_US.x64.Release.Error-2.idtx:143
@@ -1806,6 +1812,8 @@ msgid ""
 "Could not register type library for file [2].  Contact your support "
 "personnel."
 msgstr ""
+"Fajl [2] za tipsku biblioteku nije uspešno registrovan. Kontaktirajte IT "
+"službu vaše institucije."
 
 #: en_US.Win32.Debug.Error-2.idtx:144 en_US.Win32.Release.Error-2.idtx:144
 #: en_US.x64.Debug.Error-2.idtx:144 en_US.x64.Release.Error-2.idtx:144
@@ -1813,6 +1821,8 @@ msgid ""
 "Could not unregister type library for file [2].  Contact your support "
 "personnel."
 msgstr ""
+"Fajl [2] za tipsku biblioteku nije moguće ukloniti iz registra. "
+"Kontaktirajte IT službu vaše institucije."
 
 #: en_US.Win32.Debug.Error-2.idtx:145 en_US.Win32.Release.Error-2.idtx:145
 #: en_US.x64.Debug.Error-2.idtx:145 en_US.x64.Release.Error-2.idtx:145
@@ -1820,6 +1830,8 @@ msgid ""
 "Could not update the ini file [2][3].  Verify that the file exists and that "
 "you can access it."
 msgstr ""
+"Nije moguće ažurirati ini fajl [2][3]. Proverite da li fajl postoji i da li "
+"možete da mu pristupite."
 
 #: en_US.Win32.Debug.Error-2.idtx:146 en_US.Win32.Release.Error-2.idtx:146
 #: en_US.x64.Debug.Error-2.idtx:146 en_US.x64.Release.Error-2.idtx:146
@@ -1827,6 +1839,8 @@ msgid ""
 "Could not schedule file [2] to replace file [3] on reboot.  Verify that you "
 "have write permissions to file [3]."
 msgstr ""
+"Nije bilo moguće podesiti da fajl [2] zameni fajl [3] nakon restarta. "
+"Proverite da li imate privilegije za upis u fajl [3]. "
 
 #: en_US.Win32.Debug.Error-2.idtx:147 en_US.Win32.Release.Error-2.idtx:147
 #: en_US.x64.Debug.Error-2.idtx:147 en_US.x64.Release.Error-2.idtx:147
@@ -1834,6 +1848,8 @@ msgid ""
 "Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
 msgstr ""
+"Greška prilikom uklanjanja ODBC drajver menadžera, ODBC greška [2]: [3]. "
+"Kontaktirajte IT službu vaše institucije."
 
 #: en_US.Win32.Debug.Error-2.idtx:148 en_US.Win32.Release.Error-2.idtx:148
 #: en_US.x64.Debug.Error-2.idtx:148 en_US.x64.Release.Error-2.idtx:148
@@ -1841,6 +1857,8 @@ msgid ""
 "Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your "
 "support personnel."
 msgstr ""
+"Greška prilikom instalacije ODBC drajver menadžera, ODBC greška [2]: [3]. "
+"Kontaktirajte IT službu vaše institucije."
 
 #: en_US.Win32.Debug.Error-2.idtx:149 en_US.Win32.Release.Error-2.idtx:149
 #: en_US.x64.Debug.Error-2.idtx:149 en_US.x64.Release.Error-2.idtx:149
@@ -1848,6 +1866,8 @@ msgid ""
 "Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you have "
 "sufficient privileges to remove ODBC drivers."
 msgstr ""
+"Greška prilikom uklanjanja ODBC drajvera: [4], ODBC greška [2]: [3]. "
+"Proverite da li imate dovoljne privilegije da ukolonite ODBC drajvere."
 
 #: en_US.Win32.Debug.Error-2.idtx:150 en_US.Win32.Release.Error-2.idtx:150
 #: en_US.x64.Debug.Error-2.idtx:150 en_US.x64.Release.Error-2.idtx:150
@@ -1855,6 +1875,8 @@ msgid ""
 "Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
 " [4] exists and that you can access it."
 msgstr ""
+"Greška prilikom instalacije ODBC drajvera: [4], ODBC greška [2]: [3]. "
+"Proverite da li fajl [4] postoji i da li možete da mu pristupite."
 
 #: en_US.Win32.Debug.Error-2.idtx:151 en_US.Win32.Release.Error-2.idtx:151
 #: en_US.x64.Debug.Error-2.idtx:151 en_US.x64.Release.Error-2.idtx:151
@@ -1862,6 +1884,8 @@ msgid ""
 "Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that "
 "the file [4] exists and that you can access it."
 msgstr ""
+"Greška prilikom konfiguracije ODBC izvora podataka: [4], ODBC greška [2]: "
+"[3]. Proverite da li fajl [4] postoji i da li možete da mu pristupite."
 
 #: en_US.Win32.Debug.Error-2.idtx:152 en_US.Win32.Release.Error-2.idtx:152
 #: en_US.x64.Debug.Error-2.idtx:152 en_US.x64.Release.Error-2.idtx:152
@@ -1869,6 +1893,8 @@ msgid ""
 "Service '[2]' ([3]) failed to start.  Verify that you have sufficient "
 "privileges to start system services."
 msgstr ""
+"Servis '[2]' ([3]) nije moguće pokrenuti. Proverite da li imate dovoljne "
+"privilegije za pokretanje sistemskih servisa."
 
 #: en_US.Win32.Debug.Error-2.idtx:153 en_US.Win32.Release.Error-2.idtx:153
 #: en_US.x64.Debug.Error-2.idtx:153 en_US.x64.Release.Error-2.idtx:153
@@ -1876,6 +1902,8 @@ msgid ""
 "Service '[2]' ([3]) could not be stopped.  Verify that you have sufficient "
 "privileges to stop system services."
 msgstr ""
+"Servis '[2]' ([3]) nije moguće prekinuti. Proverite da li imate dovoljne "
+"privilegije za zaustavljanje sistemskih servisa."
 
 #: en_US.Win32.Debug.Error-2.idtx:154 en_US.Win32.Release.Error-2.idtx:154
 #: en_US.x64.Debug.Error-2.idtx:154 en_US.x64.Release.Error-2.idtx:154
@@ -1883,6 +1911,8 @@ msgid ""
 "Service '[2]' ([3]) could not be deleted.  Verify that you have sufficient "
 "privileges to remove system services."
 msgstr ""
+"Servis '[2]' ([3]) nije moguće ukloniti. Proverite da li imate dovoljne "
+"privilegije za uklanjanje sistemskih servisa."
 
 #: en_US.Win32.Debug.Error-2.idtx:155 en_US.Win32.Release.Error-2.idtx:155
 #: en_US.x64.Debug.Error-2.idtx:155 en_US.x64.Release.Error-2.idtx:155
@@ -1890,6 +1920,8 @@ msgid ""
 "Service '[2]' ([3]) could not be installed.  Verify that you have sufficient"
 " privileges to install system services."
 msgstr ""
+"Servis '[2]' ([3]) nije moguće instalirati. Proverite da li imate dovoljne "
+"privilegije za instaliranje sistemskih servisa."
 
 #: en_US.Win32.Debug.Error-2.idtx:156 en_US.Win32.Release.Error-2.idtx:156
 #: en_US.x64.Debug.Error-2.idtx:156 en_US.x64.Release.Error-2.idtx:156
@@ -1897,6 +1929,8 @@ msgid ""
 "Could not update environment variable '[2]'.  Verify that you have "
 "sufficient privileges to modify environment variables."
 msgstr ""
+"Nije moguće ažurirati promenjlivu '[2]'. Proverite da li imate dovoljne "
+"privilegije za menjanje promenljivih."
 
 #: en_US.Win32.Debug.Error-2.idtx:157 en_US.Win32.Release.Error-2.idtx:157
 #: en_US.x64.Debug.Error-2.idtx:157 en_US.x64.Release.Error-2.idtx:157
@@ -1905,6 +1939,9 @@ msgid ""
 "users of the machine.  Log on as administrator and then retry this "
 "installation."
 msgstr ""
+"Nemate dovoljno privilegija da nastavite sa instalacijom za sve korisnike "
+"ovog uređaja. Ulogujte se sa administratorskim privilegijama i pokušajte "
+"ponovo."
 
 #: en_US.Win32.Debug.Error-2.idtx:158 en_US.Win32.Release.Error-2.idtx:158
 #: en_US.x64.Debug.Error-2.idtx:158 en_US.x64.Release.Error-2.idtx:158
@@ -1912,6 +1949,9 @@ msgid ""
 "Could not set file security for file '[3]'. Error: [2].  Verify that you "
 "have sufficient privileges to modify the security permissions for this file."
 msgstr ""
+"Nije moguće podesiti sigurnosne informacije za fajl '[3]'. Greška: [2]. "
+"Proverite da li imate dovoljne privilegije da menjate bezbednosne permisije "
+"za ovaj fajl."
 
 #: en_US.Win32.Debug.Error-2.idtx:159 en_US.Win32.Release.Error-2.idtx:159
 #: en_US.x64.Debug.Error-2.idtx:159 en_US.x64.Release.Error-2.idtx:159
@@ -1920,6 +1960,9 @@ msgid ""
 "installation requires Component Services in order to complete successfully."
 "  Component Services are available on Windows 2000."
 msgstr ""
+"Component Services (COM+ 1.0) nisu instalirane na ovom računaru.  Ova "
+"instalacija zahteva Component Services da bi se završila uspešno. Component "
+"Services se mogu naći na Windows 2000 operativnom sistemu."
 
 #: en_US.Win32.Debug.Error-2.idtx:160 en_US.Win32.Release.Error-2.idtx:160
 #: en_US.x64.Debug.Error-2.idtx:160 en_US.x64.Release.Error-2.idtx:160
@@ -1927,6 +1970,8 @@ msgid ""
 "Error registering COM+ Application.  Contact your support personnel for more"
 " information."
 msgstr ""
+"Greška prilikom registrovanja COM+ aplikacije. Kontaktirajte IT službu vaše "
+"institucije za više informacija."
 
 #: en_US.Win32.Debug.Error-2.idtx:161 en_US.Win32.Release.Error-2.idtx:161
 #: en_US.x64.Debug.Error-2.idtx:161 en_US.x64.Release.Error-2.idtx:161
@@ -1934,11 +1979,13 @@ msgid ""
 "Error unregistering COM+ Application.  Contact your support personnel for "
 "more information."
 msgstr ""
+"Greška prilikom uklanjanja COM+ aplikacije iz registra. Kontaktirajte IT "
+"službu vaše institucije za više informacija."
 
 #: en_US.Win32.Debug.Error-2.idtx:162 en_US.Win32.Release.Error-2.idtx:162
 #: en_US.x64.Debug.Error-2.idtx:162 en_US.x64.Release.Error-2.idtx:162
 msgid "The description for service '[2]' ([3]) could not be changed."
-msgstr ""
+msgstr "Opis za servis '[2]' ([3]) ne može biti promenjen."
 
 #: en_US.Win32.Debug.Error-2.idtx:163 en_US.Win32.Release.Error-2.idtx:163
 #: en_US.x64.Debug.Error-2.idtx:163 en_US.x64.Release.Error-2.idtx:163
@@ -1948,6 +1995,9 @@ msgid ""
 "for this program to work correctly. {{Package version: [3], OS Protected "
 "version: [4]}}"
 msgstr ""
+"Windows Installer servis nije mogao da ažurira sistemski fajl [2] jer je "
+"zaštićen. Možda je potrebno da ažurirate operativni sistem kako bi program "
+"radio ispravno. {{Verzija paketa: [3], OS zaštićena verzija: [4]}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:164 en_US.Win32.Release.Error-2.idtx:164
 #: en_US.x64.Debug.Error-2.idtx:164 en_US.x64.Release.Error-2.idtx:164
@@ -1955,6 +2005,8 @@ msgid ""
 "The Windows Installer service cannot update the protected Windows file [2]. "
 "{{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
 msgstr ""
+"Windows Installer nije mogao da ažurira zaštićeni fajl [2]. {{Verzija "
+"paketa: [3], OS zaštićena verzija: [4], SFP greška: [5]}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:165 en_US.Win32.Release.Error-2.idtx:165
 #: en_US.x64.Debug.Error-2.idtx:165 en_US.x64.Release.Error-2.idtx:165
@@ -1962,11 +2014,15 @@ msgid ""
 "The Windows Installer service cannot update one or more protected Windows "
 "files. {{SFP Error: [2].  List of protected files:\\r\\n[3]}}"
 msgstr ""
+"Windows Installer nije mogao da ažurira jedan ili više zaštićenih fajlova.  "
+"{{SFP greška: [2]. Lista zaštićenih fajlova:\\r\\n[3]}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:166 en_US.Win32.Release.Error-2.idtx:166
 #: en_US.x64.Debug.Error-2.idtx:166 en_US.x64.Release.Error-2.idtx:166
 msgid "User installations are disabled via policy on the machine."
 msgstr ""
+"Korisničke instalacije su zabranjene zbog pravila primenjenih na ovaj "
+"uređaj."
 
 #: en_US.Win32.Debug.Error-2.idtx:167 en_US.Win32.Release.Error-2.idtx:167
 #: en_US.x64.Debug.Error-2.idtx:167 en_US.x64.Release.Error-2.idtx:167
@@ -1975,6 +2031,9 @@ msgid ""
 " Help and Support for more information. {{HRESULT: [3]. assembly interface: "
 "[4], function: [5], component: [2]}}"
 msgstr ""
+"Došlo je do greške prilikom instalacije assembly fajla '[6]'. Pogledajte "
+"Pomoć i podršku za više informacija. {{HRESULT: [3]. assembly interface: "
+"[4], function: [5], component: [2]}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:168 en_US.Win32.Release.Error-2.idtx:168
 #: en_US.x64.Debug.Error-2.idtx:168 en_US.x64.Release.Error-2.idtx:168
@@ -1983,6 +2042,10 @@ msgid ""
 " not strongly named or is not signed with the minimal key length. {{HRESULT:"
 " [3]. assembly interface: [4], function: [5], component: [2]}}"
 msgstr ""
+"Došlo je do greške prilikom instalacije assembly fajla '[6]'. Assembly fajl "
+"nema dovljno zaštićeno ime ili nije potpisan ključem koji ima minimalnu "
+"preporučenu dužinu. {{HRESULT: [3]. assembly interface: [4], function: [5], "
+"component: [2]}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:169 en_US.Win32.Release.Error-2.idtx:169
 #: en_US.x64.Debug.Error-2.idtx:169 en_US.x64.Release.Error-2.idtx:169
@@ -1991,6 +2054,9 @@ msgid ""
 "or catalog could not be verified or is not valid. {{HRESULT: [3]. assembly "
 "interface: [4], function: [5], component: [2]}}"
 msgstr ""
+"Došlo je do greške prilikom instalacije assembly fajla '[6]'. Potpis ili "
+"katalog nije moguće verifikovati ili jedan od ova dva fajla nije validan. "
+"{{HRESULT: [3]. assembly interface: [4], function: [5], component: [2]}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:170 en_US.Win32.Release.Error-2.idtx:170
 #: en_US.x64.Debug.Error-2.idtx:170 en_US.x64.Release.Error-2.idtx:170
@@ -1999,12 +2065,17 @@ msgid ""
 "modules of the assembly could not be found. {{HRESULT: [3]. assembly "
 "interface: [4], function: [5], component: [2]}}"
 msgstr ""
+"Došlo je do greške prilikom instalacije assembly fajla '[6]'. Nije moguće "
+"naći jedan ili više modula koji pripadaju assembly fajlu. {{HRESULT: [3]. "
+"assembly interface: [4], function: [5], component: [2]}}"
 
 #: en_US.Win32.Debug.Error-2.idtx:171 en_US.Win32.Release.Error-2.idtx:171
 #: en_US.x64.Debug.Error-2.idtx:171 en_US.x64.Release.Error-2.idtx:171
 msgid ""
 "64-bit registry operation attempted on 32-bit operating system for key [2]."
 msgstr ""
+"Pokušaj izvršavanja operacije za 64bitni registar nad 32bitnim operativnim "
+"sistemom za ključ [2].  "
 
 #: en_US.Win32.Debug.Error-2.idtx:172 en_US.Win32.Release.Error-2.idtx:172
 #: en_US.x64.Debug.Error-2.idtx:172 en_US.x64.Release.Error-2.idtx:172
@@ -2012,3 +2083,5 @@ msgid ""
 "This version of Windows does not support deploying 64-bit packages. The "
 "script [2] is for a 64-bit package."
 msgstr ""
+"Ova verzija Windows operativnog sistema ne podržava 64bitne pakete. Skripta "
+"[2] je namenjena za 64bitni sistem."
