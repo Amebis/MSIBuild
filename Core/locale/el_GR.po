@@ -798,7 +798,7 @@ msgstr "{[2]}{, [3]}{, [4]}"
 #: en_US.Win32.Debug.Error-2.idtx:15 en_US.Win32.Release.Error-2.idtx:15
 #: en_US.x64.Debug.Error-2.idtx:15 en_US.x64.Release.Error-2.idtx:15
 msgid "Message type: [1], Argument: [2]{, [3]}"
-msgstr "Τύπος μηνύματος: [1], Όρισμα: [2]"
+msgstr "Τύπος μηνύματος: [1], Όρισμα: [2]{, [3]}"
 
 #: en_US.Win32.Debug.Error-2.idtx:16 en_US.Win32.Release.Error-2.idtx:16
 #: en_US.x64.Debug.Error-2.idtx:16 en_US.x64.Release.Error-2.idtx:16
