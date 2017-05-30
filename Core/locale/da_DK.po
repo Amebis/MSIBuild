@@ -10,7 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 2.0.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Debug.ActionText-2.idtx:39
 #: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Debug.ActionText-2.idtx:53
@@ -25,12 +26,8 @@ msgstr "[1]"
 
 #: En.Win32.Debug.Error-2.idtx:105 En.Win32.Release.Error-2.idtx:105
 #: En.x64.Debug.Error-2.idtx:105 En.x64.Release.Error-2.idtx:105
-msgid ""
-"[2] cannot install one of its required products. Contact your technical "
-"support group.  {{System Error: [3].}}"
-msgstr ""
-"[2] kan ikke installere et af de nødvendige produkter. Kontakt teknisk "
-"support. {{Systemfejl: [3].}}"
+msgid "[2] cannot install one of its required products. Contact your technical support group.  {{System Error: [3].}}"
+msgstr "[2] kan ikke installere et af de nødvendige produkter. Kontakt teknisk support. {{Systemfejl: [3].}}"
 
 #: En.Win32.Debug.Error-2.idtx:55 En.Win32.Release.Error-2.idtx:55
 #: En.x64.Debug.Error-2.idtx:55 En.x64.Release.Error-2.idtx:55
@@ -93,29 +90,18 @@ msgstr "1252"
 
 #: En.Win32.Debug.Error-2.idtx:171 En.Win32.Release.Error-2.idtx:171
 #: En.x64.Debug.Error-2.idtx:171 En.x64.Release.Error-2.idtx:171
-msgid ""
-"64-bit registry operation attempted on 32-bit operating system for key [2]."
+msgid "64-bit registry operation attempted on 32-bit operating system for key [2]."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
 #: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
-msgid ""
-"A file that is required cannot be installed because the cabinet file [2] has "
-"an invalid digital signature.  This may indicate that the cabinet file is "
-"corrupt.{{  Error [3] was returned by WinVerifyTrust.}}"
-msgstr ""
-"En nødvendig fil kan ikke installeres, fordi kabinetfilen [2] har en ugyldig "
-"digital signatur. Dette kan skyldes, at kabinetfilen er beskadiget."
-"{{  Fejlen [3] blev returneret af WinVerifyTrust.}}"
+msgid "A file that is required cannot be installed because the cabinet file [2] has an invalid digital signature.  This may indicate that the cabinet file is corrupt.{{  Error [3] was returned by WinVerifyTrust.}}"
+msgstr "En nødvendig fil kan ikke installeres, fordi kabinetfilen [2] har en ugyldig digital signatur. Dette kan skyldes, at kabinetfilen er beskadiget.{{  Fejlen [3] blev returneret af WinVerifyTrust.}}"
 
 #: En.Win32.Debug.Error-2.idtx:59 En.Win32.Release.Error-2.idtx:59
 #: En.x64.Debug.Error-2.idtx:59 En.x64.Release.Error-2.idtx:59
-msgid ""
-"A file that is required cannot be installed because the cabinet file [2] is "
-"not digitally signed.  This may indicate that the cabinet file is corrupt."
-msgstr ""
-"En nødvendig fil kan ikke installeres, fordi kabinetfilen [2] ikke er "
-"digitalt signeret. Det betyder muligvis, at kabinetfilen er beskadiget."
+msgid "A file that is required cannot be installed because the cabinet file [2] is not digitally signed.  This may indicate that the cabinet file is corrupt."
+msgstr "En nødvendig fil kan ikke installeres, fordi kabinetfilen [2] ikke er digitalt signeret. Det betyder muligvis, at kabinetfilen er beskadiget."
 
 #: En.Win32.Debug.Error-2.idtx:48 En.Win32.Release.Error-2.idtx:48
 #: En.x64.Debug.Error-2.idtx:48 En.x64.Release.Error-2.idtx:48
@@ -124,9 +110,7 @@ msgstr "Der opstod en netværksfejl ved forsøg på at oprette mappen: [2]"
 
 #: En.Win32.Debug.Error-2.idtx:49 En.Win32.Release.Error-2.idtx:49
 #: En.x64.Debug.Error-2.idtx:49 En.x64.Release.Error-2.idtx:49
-msgid ""
-"A network error occurred while attempting to open the source file cabinet: "
-"[2]"
+msgid "A network error occurred while attempting to open the source file cabinet: [2]"
 msgstr "Der opstod en netværksfejl ved forsøg på at åbne kildefilskabinet: [2]"
 
 #: En.Win32.Debug.Error-2.idtx:46 En.Win32.Release.Error-2.idtx:46
@@ -141,22 +125,13 @@ msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
 #: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
-msgid ""
-"A portion of the folder path '[2]' is invalid.  It is either empty or "
-"exceeds the length allowed by the system."
-msgstr ""
-"Mappestien '[2]' er ugyldig.  Stien er enten for lang eller mangelfuld."
+msgid "A portion of the folder path '[2]' is invalid.  It is either empty or exceeds the length allowed by the system."
+msgstr "Mappestien '[2]' er ugyldig.  Stien er enten for lang eller mangelfuld."
 
 #: En.Win32.Debug.Error-2.idtx:97 En.Win32.Release.Error-2.idtx:97
 #: En.x64.Debug.Error-2.idtx:97 En.x64.Release.Error-2.idtx:97
-msgid ""
-"A previous installation for this product is in progress.  You must undo the "
-"changes made by that installation to continue.  Do you want to undo those "
-"changes?"
-msgstr ""
-"En tidligere installation af dette produkt er i gang. Du skal annullere "
-"ændringerne foretaget af installationsprogrammet for at fortsætte. Vil du "
-"annullere disse ændringer?"
+msgid "A previous installation for this product is in progress.  You must undo the changes made by that installation to continue.  Do you want to undo those changes?"
+msgstr "En tidligere installation af dette produkt er i gang. Du skal annullere ændringerne foretaget af installationsprogrammet for at fortsætte. Vil du annullere disse ændringer?"
 
 #: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
 #: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
@@ -200,64 +175,28 @@ msgstr "Allokerer plads i registreringsdatabase"
 
 #: En.Win32.Debug.Error-2.idtx:170 En.Win32.Release.Error-2.idtx:170
 #: En.x64.Debug.Error-2.idtx:170 En.x64.Release.Error-2.idtx:170
-msgid ""
-"An error occurred during the installation of assembly '[6]'. One or more "
-"modules of the assembly could not be found. {{HRESULT: [3]. assembly "
-"interface: [4], function: [5], component: [2]}}"
-msgstr ""
-"Der opstod en fejl under installationen af samlingen '[6]'. Et eller flere "
-"af samlingsmodulerne blev ikke fundet. HRESULT: [3]. {{samlingsgrænseflade: "
-"[4], funktion: [5], komponent: [2]}}"
+msgid "An error occurred during the installation of assembly '[6]'. One or more modules of the assembly could not be found. {{HRESULT: [3]. assembly interface: [4], function: [5], component: [2]}}"
+msgstr "Der opstod en fejl under installationen af samlingen '[6]'. Et eller flere af samlingsmodulerne blev ikke fundet. HRESULT: [3]. {{samlingsgrænseflade: [4], funktion: [5], komponent: [2]}}"
 
 #: En.Win32.Debug.Error-2.idtx:167 En.Win32.Release.Error-2.idtx:167
 #: En.x64.Debug.Error-2.idtx:167 En.x64.Release.Error-2.idtx:167
-msgid ""
-"An error occurred during the installation of assembly '[6]'. Please refer to "
-"Help and Support for more information. {{HRESULT: [3]. assembly interface: "
-"[4], function: [5], component: [2]}}"
-msgstr ""
-"Der opstod en fejl under installationen af samlingen '[6]'. Se i Hjælp og "
-"support for at få flere oplysninger. HRESULT: [3]. {{samlingsgrænseflade: "
-"[4], funktion: [5], komponent: [2]}}"
+msgid "An error occurred during the installation of assembly '[6]'. Please refer to Help and Support for more information. {{HRESULT: [3]. assembly interface: [4], function: [5], component: [2]}}"
+msgstr "Der opstod en fejl under installationen af samlingen '[6]'. Se i Hjælp og support for at få flere oplysninger. HRESULT: [3]. {{samlingsgrænseflade: [4], funktion: [5], komponent: [2]}}"
 
 #: En.Win32.Debug.Error-2.idtx:168 En.Win32.Release.Error-2.idtx:168
 #: En.x64.Debug.Error-2.idtx:168 En.x64.Release.Error-2.idtx:168
-msgid ""
-"An error occurred during the installation of assembly '[6]'. The assembly is "
-"not strongly named or is not signed with the minimal key length. {{HRESULT: "
-"[3]. assembly interface: [4], function: [5], component: [2]}}"
-msgstr ""
-"Der opstod en fejl under installationen af samlingen '[6]'. Samlingen er "
-"ikke navngivet med et sikkert navn, eller er ikke signeret med den minimale "
-"nøglelængde. HRESULT: [3]. {{samlingsgrænseflade: [4], funktion: [5], "
-"komponent: [2]}}"
+msgid "An error occurred during the installation of assembly '[6]'. The assembly is not strongly named or is not signed with the minimal key length. {{HRESULT: [3]. assembly interface: [4], function: [5], component: [2]}}"
+msgstr "Der opstod en fejl under installationen af samlingen '[6]'. Samlingen er ikke navngivet med et sikkert navn, eller er ikke signeret med den minimale nøglelængde. HRESULT: [3]. {{samlingsgrænseflade: [4], funktion: [5], komponent: [2]}}"
 
 #: En.Win32.Debug.Error-2.idtx:169 En.Win32.Release.Error-2.idtx:169
 #: En.x64.Debug.Error-2.idtx:169 En.x64.Release.Error-2.idtx:169
-msgid ""
-"An error occurred during the installation of assembly '[6]'. The signature "
-"or catalog could not be verified or is not valid. {{HRESULT: [3]. assembly "
-"interface: [4], function: [5], component: [2]}}"
-msgstr ""
-"Der opstod en fejl under installationen af samlingen '[6]'. Signaturen eller "
-"kataloget kunne ikke bekræftes eller er ikke gyldigt. HRESULT: [3]. "
-"{{samlingsgrænseflade: [4], funktion: [5], komponent: [2]}}"
+msgid "An error occurred during the installation of assembly '[6]'. The signature or catalog could not be verified or is not valid. {{HRESULT: [3]. assembly interface: [4], function: [5], component: [2]}}"
+msgstr "Der opstod en fejl under installationen af samlingen '[6]'. Signaturen eller kataloget kunne ikke bekræftes eller er ikke gyldigt. HRESULT: [3]. {{samlingsgrænseflade: [4], funktion: [5], komponent: [2]}}"
 
 #: En.Win32.Debug.Error-2.idtx:89 En.Win32.Release.Error-2.idtx:89
 #: En.x64.Debug.Error-2.idtx:89 En.x64.Release.Error-2.idtx:89
-msgid ""
-"An error occurred while applying security settings. [2] is not a valid user "
-"or group. This could be a problem with the package, or a problem connecting "
-"to a domain controller on the network. Check your network connection and "
-"click Retry, or Cancel to end the install. {{Unable to locate the user's "
-"SID, system error [3]}}"
-msgstr ""
-"Der opstod en fejl ved anvendelsen af sikkerhedsindstillingerne. [2] er ikke "
-"en gyldig bruger eller gruppe. Dette kan være et pakkeproblem, eller et "
-"problem med oprettelse af forbindelse til en domænecontroller på netværket. "
-"Kontroller netværksforbindelsen og klik på Forsøg igen, eller klik på "
-"Annuller for at afslutte installatioen. {{Brugerens SID blev ikke fundet, "
-"systemfejl [3]}}"
+msgid "An error occurred while applying security settings. [2] is not a valid user or group. This could be a problem with the package, or a problem connecting to a domain controller on the network. Check your network connection and click Retry, or Cancel to end the install. {{Unable to locate the user's SID, system error [3]}}"
+msgstr "Der opstod en fejl ved anvendelsen af sikkerhedsindstillingerne. [2] er ikke en gyldig bruger eller gruppe. Dette kan være et pakkeproblem, eller et problem med oprettelse af forbindelse til en domænecontroller på netværket. Kontroller netværksforbindelsen og klik på Forsøg igen, eller klik på Annuller for at afslutte installatioen. {{Brugerens SID blev ikke fundet, systemfejl [3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:47 En.Win32.Release.Error-2.idtx:47
 #: En.x64.Debug.Error-2.idtx:47 En.x64.Release.Error-2.idtx:47
@@ -266,52 +205,28 @@ msgstr "Der opstod en fejl ved forsøg på at oprette mappen: [2]"
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
-msgid ""
-"An error occurred while writing installation information to disk.  Check to "
-"make sure enough disk space is available, and click Retry, or Cancel to end "
-"the install."
-msgstr ""
-"Der opstod en fejl ved skrivning af installationsoplysninger til disken. "
-"Kontroller, at der er tilstrækkelig diskplads til rådighed, og klik på "
-"Forsøg igen, eller klik på Annuller for at afbryde installationsprogrammet."
+msgid "An error occurred while writing installation information to disk.  Check to make sure enough disk space is available, and click Retry, or Cancel to end the install."
+msgstr "Der opstod en fejl ved skrivning af installationsoplysninger til disken. Kontroller, at der er tilstrækkelig diskplads til rådighed, og klik på Forsøg igen, eller klik på Annuller for at afbryde installationsprogrammet."
 
 #: En.Win32.Debug.Error-2.idtx:96 En.Win32.Release.Error-2.idtx:96
 #: En.x64.Debug.Error-2.idtx:96 En.x64.Release.Error-2.idtx:96
-msgid ""
-"An installation for [2] is currently suspended.  You must undo the changes "
-"made by that installation to continue.  Do you want to undo those changes?"
-msgstr ""
-"En installation for [2] er for øjeblikket sat ud af kraft. Du skal annullere "
-"ændringerne foretaget af installationsprogrammet for at fortsætte. Vil du "
-"annullere disse ændringer?"
+msgid "An installation for [2] is currently suspended.  You must undo the changes made by that installation to continue.  Do you want to undo those changes?"
+msgstr "En installation for [2] er for øjeblikket sat ud af kraft. Du skal annullere ændringerne foretaget af installationsprogrammet for at fortsætte. Vil du annullere disse ændringer?"
 
 #: En.Win32.Debug.Error-2.idtx:98 En.Win32.Release.Error-2.idtx:98
 #: En.x64.Debug.Error-2.idtx:98 En.x64.Release.Error-2.idtx:98
-msgid ""
-"An installation package for the product [2] cannot be found. Try the "
-"installation again using a valid copy of the installation package '[3]'."
-msgstr ""
-"Installationspakken til produktet [2] kunne ikke findes. Prøv at starte "
-"installationsprogrammet igen ved hjælp af et gyldigt eksemplar af "
-"installationspakken '[3]'."
+msgid "An installation package for the product [2] cannot be found. Try the installation again using a valid copy of the installation package '[3]'."
+msgstr "Installationspakken til produktet [2] kunne ikke findes. Prøv at starte installationsprogrammet igen ved hjælp af et gyldigt eksemplar af installationspakken '[3]'."
 
 #: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
 #: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
-msgid ""
-"Another application has exclusive access to the file '[2]'.  Please shut "
-"down all other applications, then click Retry."
-msgstr ""
-"Et andet program har udelt adgang til filen '[2]'. Afslut alle andre "
-"programmer, og klik på Forsøg igen."
+msgid "Another application has exclusive access to the file '[2]'.  Please shut down all other applications, then click Retry."
+msgstr "Et andet program har udelt adgang til filen '[2]'. Afslut alle andre programmer, og klik på Forsøg igen."
 
 #: En.Win32.Debug.Error-2.idtx:77 En.Win32.Release.Error-2.idtx:77
 #: En.x64.Debug.Error-2.idtx:77 En.x64.Release.Error-2.idtx:77
-msgid ""
-"Another installation is in progress. You must complete that installation "
-"before continuing this one."
-msgstr ""
-"En anden installation er i gang. Den skal færdiggøres, før du fortsætter med "
-"en ny."
+msgid "Another installation is in progress. You must complete that installation before continuing this one."
+msgstr "En anden installation er i gang. Den skal færdiggøres, før du fortsætter med en ny."
 
 #: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
 #: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
@@ -352,22 +267,13 @@ msgstr "Binder eksekverbare filer"
 
 #: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
 #: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
-msgid ""
-"Cannot create the directory '[2]'.  A file with this name already exists.  "
-"Please rename or remove the file and click retry, or click Cancel to exit."
-msgstr ""
-"Mappen '[2]' kan ikke oprettes. En fil med dette navn findes allerede. Omdøb "
-"eller fjern filen, og klik på Forsøg igen, eller klik på Annuller for at "
-"afslutte."
+msgid "Cannot create the directory '[2]'.  A file with this name already exists.  Please rename or remove the file and click retry, or click Cancel to exit."
+msgstr "Mappen '[2]' kan ikke oprettes. En fil med dette navn findes allerede. Omdøb eller fjern filen, og klik på Forsøg igen, eller klik på Annuller for at afslutte."
 
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
-msgid ""
-"Cannot create the file '[2]'.  A directory with this name already exists.  "
-"Cancel the install and try installing to a different location."
-msgstr ""
-"Filen '[2]' kan ikke oprettes. En mappe med dette navn findes allerede. "
-"Afbryd installationen, og prøv at installere på en anden placering."
+msgid "Cannot create the file '[2]'.  A directory with this name already exists.  Cancel the install and try installing to a different location."
+msgstr "Filen '[2]' kan ikke oprettes. En mappe med dette navn findes allerede. Afbryd installationen, og prøv at installere på en anden placering."
 
 #: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Debug.ActionText-2.idtx:64
 #: En.Win32.Release.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:64
@@ -385,14 +291,8 @@ msgstr "Komponent-id: [1], Operator: [2]"
 
 #: En.Win32.Debug.Error-2.idtx:159 En.Win32.Release.Error-2.idtx:159
 #: En.x64.Debug.Error-2.idtx:159 En.x64.Release.Error-2.idtx:159
-msgid ""
-"Component Services (COM+ 1.0) are not installed on this computer.  This "
-"installation requires Component Services in order to complete successfully.  "
-"Component Services are available on Windows 2000."
-msgstr ""
-"COM+ 1.0 (Component Services) er ikke installeret på denne computer. COM+ "
-"skal være installeret for at fuldføre installationen. COM+ findes i Windows "
-"2000."
+msgid "Component Services (COM+ 1.0) are not installed on this computer.  This installation requires Component Services in order to complete successfully.  Component Services are available on Windows 2000."
+msgstr "COM+ 1.0 (Component Services) er ikke installeret på denne computer. COM+ skal være installeret for at fuldføre installationen. COM+ findes i Windows 2000."
 
 #: En.Win32.Debug.ActionText-2.idtx:10 En.Win32.Debug.ActionText-2.idtx:15
 #: En.Win32.Debug.ActionText-2.idtx:9 En.Win32.Release.ActionText-2.idtx:10
@@ -435,200 +335,108 @@ msgstr "Der var ikke adgang til netværksplaceringen [2]."
 
 #: En.Win32.Debug.Error-2.idtx:67 En.Win32.Release.Error-2.idtx:67
 #: En.x64.Debug.Error-2.idtx:67 En.x64.Release.Error-2.idtx:67
-msgid ""
-"Could not create key: [2]. {{ System error [3].}}  Verify that you have "
-"sufficient access to that key, or contact your support personnel. "
-msgstr ""
-"Nøglen [2] kunne ikke oprettes. {{ Systemfejl [3].}} Kontroller, at du har "
-"tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne. "
+msgid "Could not create key: [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
+msgstr "Nøglen [2] kunne ikke oprettes. {{ Systemfejl [3].}} Kontroller, at du har tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne. "
 
 #: En.Win32.Debug.Error-2.idtx:141 En.Win32.Release.Error-2.idtx:141
 #: En.x64.Debug.Error-2.idtx:141 En.x64.Release.Error-2.idtx:141
-msgid ""
-"Could not create Shortcut [2]. Verify that the destination folder exists and "
-"that you can access it."
-msgstr ""
-"Genvejen [2] kunne ikke oprettes. Kontroller, at destinationsmappen findes, "
-"og at du har adgang til den."
+msgid "Could not create Shortcut [2]. Verify that the destination folder exists and that you can access it."
+msgstr "Genvejen [2] kunne ikke oprettes. Kontroller, at destinationsmappen findes, og at du har adgang til den."
 
 #: En.Win32.Debug.Error-2.idtx:70 En.Win32.Release.Error-2.idtx:70
 #: En.x64.Debug.Error-2.idtx:70 En.x64.Release.Error-2.idtx:70
-msgid ""
-"Could not delete key [2]. {{ System error [3].}}  Verify that you have "
-"sufficient access to that key, or contact your support personnel. "
-msgstr ""
-"Nøglen [2] kunne ikke slettes. {{ Systemfejl [3].}} Kontroller, at du har "
-"tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne. "
+msgid "Could not delete key [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
+msgstr "Nøglen [2] kunne ikke slettes. {{ Systemfejl [3].}} Kontroller, at du har tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne. "
 
 #: En.Win32.Debug.Error-2.idtx:69 En.Win32.Release.Error-2.idtx:69
 #: En.x64.Debug.Error-2.idtx:69 En.x64.Release.Error-2.idtx:69
-msgid ""
-"Could not delete value [2] from key [3]. {{ System error [4].}}  Verify that "
-"you have sufficient access to that key, or contact your support personnel. "
-msgstr ""
-"Værdien [2] kunne ikke slettes fra nøglen [3]. {{ Systemfejl [4].}} "
-"Kontroller, at du har tilstrækkelig adgang til nøglen, eller kontakt "
-"supportteknikerne. "
+msgid "Could not delete value [2] from key [3]. {{ System error [4].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
+msgstr "Værdien [2] kunne ikke slettes fra nøglen [3]. {{ Systemfejl [4].}} Kontroller, at du har tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne. "
 
 #: En.Win32.Debug.Error-2.idtx:88 En.Win32.Release.Error-2.idtx:88
 #: En.x64.Debug.Error-2.idtx:88 En.x64.Release.Error-2.idtx:88
-msgid ""
-"Could not find any previously installed compliant products on the machine "
-"for installing this product."
-msgstr ""
-"Der blev ikke fundet nogen tidligere installerede produkter på computeren, "
-"der berettiger til installation af dette produkt."
+msgid "Could not find any previously installed compliant products on the machine for installing this product."
+msgstr "Der blev ikke fundet nogen tidligere installerede produkter på computeren, der berettiger til installation af dette produkt."
 
 #: En.Win32.Debug.Error-2.idtx:74 En.Win32.Release.Error-2.idtx:74
 #: En.x64.Debug.Error-2.idtx:74 En.x64.Release.Error-2.idtx:74
-msgid ""
-"Could not get sub key names for key [2]. {{ System error [3].}}  Verify that "
-"you have sufficient access to that key, or contact your support personnel."
-msgstr ""
-"Undernøglenavne på nøglen [2] kunne ikke hentes. {{ Systemfejl [3].}} "
-"Kontroller, at du har tilstrækkelig adgang til nøglen, eller kontakt "
-"supportteknikerne.  "
+msgid "Could not get sub key names for key [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel."
+msgstr "Undernøglenavne på nøglen [2] kunne ikke hentes. {{ Systemfejl [3].}} Kontroller, at du har tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne."
 
 #: En.Win32.Debug.Error-2.idtx:73 En.Win32.Release.Error-2.idtx:73
 #: En.x64.Debug.Error-2.idtx:73 En.x64.Release.Error-2.idtx:73
-msgid ""
-"Could not get value names for key [2]. {{ System error [3].}}  Verify that "
-"you have sufficient access to that key, or contact your support personnel."
-msgstr ""
-"Værdinavne på nøglen [2] kunne ikke hentes. {{ Systemfejl [3].}} Kontroller, "
-"at du har tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne. "
+msgid "Could not get value names for key [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel."
+msgstr "Værdinavne på nøglen [2] kunne ikke hentes. {{ Systemfejl [3].}} Kontroller, at du har tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne."
 
 #: En.Win32.Debug.Error-2.idtx:76 En.Win32.Release.Error-2.idtx:76
 #: En.x64.Debug.Error-2.idtx:76 En.x64.Release.Error-2.idtx:76
-msgid ""
-"Could not increase the available registry space. [2] KB of free registry "
-"space is required for the installation of this application."
-msgstr ""
-"Der kunne ikke skaffes mere plads i registreringsdatabasen. [2] KB ledig "
-"registreringsplads er nødvendig for installationen af programmet."
+msgid "Could not increase the available registry space. [2] KB of free registry space is required for the installation of this application."
+msgstr "Der kunne ikke skaffes mere plads i registreringsdatabasen. [2] KB ledig registreringsplads er nødvendig for installationen af programmet."
 
 #: En.Win32.Debug.Error-2.idtx:68 En.Win32.Release.Error-2.idtx:68
 #: En.x64.Debug.Error-2.idtx:68 En.x64.Release.Error-2.idtx:68
-msgid ""
-"Could not open key: [2]. {{ System error [3].}}  Verify that you have "
-"sufficient access to that key, or contact your support personnel. "
-msgstr ""
-"Nøglen [2] kunne ikke åbnes. {{ Systemfejl [3].}} Kontroller, at du har "
-"tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne. "
+msgid "Could not open key: [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
+msgstr "Nøglen [2] kunne ikke åbnes. {{ Systemfejl [3].}} Kontroller, at du har tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne. "
 
 #: En.Win32.Debug.Error-2.idtx:75 En.Win32.Release.Error-2.idtx:75
 #: En.x64.Debug.Error-2.idtx:75 En.x64.Release.Error-2.idtx:75
-msgid ""
-"Could not read security information for key [2]. {{ System error [3].}}  "
-"Verify that you have sufficient access to that key, or contact your support "
-"personnel."
-msgstr ""
-"Sikkerhedsoplysninger for nøglen [2] kunne ikke læses. {{ Systemfejl [3].}} "
-"Kontroller, at du har tilstrækkelig adgang til nøglen, eller kontakt "
-"supportteknikerne.   "
+msgid "Could not read security information for key [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel."
+msgstr "Sikkerhedsoplysninger for nøglen [2] kunne ikke læses. {{ Systemfejl [3].}} Kontroller, at du har tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne."
 
 #: En.Win32.Debug.Error-2.idtx:71 En.Win32.Release.Error-2.idtx:71
 #: En.x64.Debug.Error-2.idtx:71 En.x64.Release.Error-2.idtx:71
-msgid ""
-"Could not read value [2] from key [3]. {{ System error [4].}}  Verify that "
-"you have sufficient access to that key, or contact your support personnel. "
-msgstr ""
-"Værdien [2] kunne ikke læses fra nøglen [3]. {{ Systemfejl [4].}} "
-"Kontroller, at du har tilstrækkelig adgang til nøglen, eller kontakt "
-"supportteknikerne. "
+msgid "Could not read value [2] from key [3]. {{ System error [4].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
+msgstr "Værdien [2] kunne ikke læses fra nøglen [3]. {{ Systemfejl [4].}} Kontroller, at du har tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne. "
 
 #: En.Win32.Debug.Error-2.idtx:139 En.Win32.Release.Error-2.idtx:139
 #: En.x64.Debug.Error-2.idtx:139 En.x64.Release.Error-2.idtx:139
-msgid ""
-"Could not register font [2].  Verify that you have sufficient permissions to "
-"install fonts, and that the system supports this font."
-msgstr ""
-"Skrifttypen [2] kunne ikke registreres. Kontroller, at du har den rette "
-"tilladelse til at installere skrifttyper, og at systemet understøtter disse "
-"skrifttyper."
+msgid "Could not register font [2].  Verify that you have sufficient permissions to install fonts, and that the system supports this font."
+msgstr "Skrifttypen [2] kunne ikke registreres. Kontroller, at du har den rette tilladelse til at installere skrifttyper, og at systemet understøtter disse skrifttyper."
 
 #: En.Win32.Debug.Error-2.idtx:143 En.Win32.Release.Error-2.idtx:143
 #: En.x64.Debug.Error-2.idtx:143 En.x64.Release.Error-2.idtx:143
-msgid ""
-"Could not register type library for file [2].  Contact your support "
-"personnel."
-msgstr ""
-"Typebiblioteket for filen [2] kunne ikke registreres. Kontakt "
-"supportteknikerne."
+msgid "Could not register type library for file [2].  Contact your support personnel."
+msgstr "Typebiblioteket for filen [2] kunne ikke registreres. Kontakt supportteknikerne."
 
 #: En.Win32.Debug.Error-2.idtx:142 En.Win32.Release.Error-2.idtx:142
 #: En.x64.Debug.Error-2.idtx:142 En.x64.Release.Error-2.idtx:142
-msgid ""
-"Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
-"you can access it."
-msgstr ""
-"Genvejen [2] kunne ikke fjernes. Kontroller, at genvejsfilen findes, og at "
-"du har adgang til den."
+msgid "Could not remove Shortcut [2]. Verify that the shortcut file exists and that you can access it."
+msgstr "Genvejen [2] kunne ikke fjernes. Kontroller, at genvejsfilen findes, og at du har adgang til den."
 
 #: En.Win32.Debug.Error-2.idtx:146 En.Win32.Release.Error-2.idtx:146
 #: En.x64.Debug.Error-2.idtx:146 En.x64.Release.Error-2.idtx:146
-msgid ""
-"Could not schedule file [2] to replace file [3] on reboot.  Verify that you "
-"have write permissions to file [3]."
-msgstr ""
-"Det kunne ikke planlægges at erstatte filen [3] med filen [2] ved genstart. "
-"Kontroller, at du har skriveadgang til filen [3]."
+msgid "Could not schedule file [2] to replace file [3] on reboot.  Verify that you have write permissions to file [3]."
+msgstr "Det kunne ikke planlægges at erstatte filen [3] med filen [2] ved genstart. Kontroller, at du har skriveadgang til filen [3]."
 
 #: En.Win32.Debug.Error-2.idtx:158 En.Win32.Release.Error-2.idtx:158
 #: En.x64.Debug.Error-2.idtx:158 En.x64.Release.Error-2.idtx:158
-msgid ""
-"Could not set file security for file '[3]'. Error: [2].  Verify that you "
-"have sufficient privileges to modify the security permissions for this file."
-msgstr ""
-"Filsikkerhed for filen '[3]' kunne ikke angives. Fejl: [2]. Kontroller, at "
-"du har de nødvendige rettigheder til at ændre sikkerhedstilladelserne for "
-"denne fil."
+msgid "Could not set file security for file '[3]'. Error: [2].  Verify that you have sufficient privileges to modify the security permissions for this file."
+msgstr "Filsikkerhed for filen '[3]' kunne ikke angives. Fejl: [2]. Kontroller, at du har de nødvendige rettigheder til at ændre sikkerhedstilladelserne for denne fil."
 
 #: En.Win32.Debug.Error-2.idtx:140 En.Win32.Release.Error-2.idtx:140
 #: En.x64.Debug.Error-2.idtx:140 En.x64.Release.Error-2.idtx:140
-msgid ""
-"Could not unregister font [2]. Verify that you that you have sufficient "
-"permissions to remove fonts."
-msgstr ""
-"Registreringen af skrifttypen [2] kunne ikke fjernes. Kontroller, at du har "
-"de nødvendige tilladelser til at fjerne skrifttyper."
+msgid "Could not unregister font [2]. Verify that you that you have sufficient permissions to remove fonts."
+msgstr "Registreringen af skrifttypen [2] kunne ikke fjernes. Kontroller, at du har de nødvendige tilladelser til at fjerne skrifttyper."
 
 #: En.Win32.Debug.Error-2.idtx:144 En.Win32.Release.Error-2.idtx:144
 #: En.x64.Debug.Error-2.idtx:144 En.x64.Release.Error-2.idtx:144
-msgid ""
-"Could not unregister type library for file [2].  Contact your support "
-"personnel."
-msgstr ""
-"Registreringen af typebiblioteket for filen [2] kunne ikke fjernes. Kontakt "
-"supportteknikerne."
+msgid "Could not unregister type library for file [2].  Contact your support personnel."
+msgstr "Registreringen af typebiblioteket for filen [2] kunne ikke fjernes. Kontakt supportteknikerne."
 
 #: En.Win32.Debug.Error-2.idtx:156 En.Win32.Release.Error-2.idtx:156
 #: En.x64.Debug.Error-2.idtx:156 En.x64.Release.Error-2.idtx:156
-msgid ""
-"Could not update environment variable '[2]'.  Verify that you have "
-"sufficient privileges to modify environment variables."
-msgstr ""
-"Miljøvariablen '[2]' kunne ikke opdateres. Kontroller, at du har de "
-"nødvendige rettigheder til at ændre miljøvariabler."
+msgid "Could not update environment variable '[2]'.  Verify that you have sufficient privileges to modify environment variables."
+msgstr "Miljøvariablen '[2]' kunne ikke opdateres. Kontroller, at du har de nødvendige rettigheder til at ændre miljøvariabler."
 
 #: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
 #: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
-msgid ""
-"Could not update the ini file [2][3].  Verify that the file exists and that "
-"you can access it."
-msgstr ""
-"ini-filen [2][3] kunne ikke opdateres. Kontroller, at filen findes, og at du "
-"har adgang til den."
+msgid "Could not update the ini file [2][3].  Verify that the file exists and that you can access it."
+msgstr "ini-filen [2][3] kunne ikke opdateres. Kontroller, at filen findes, og at du har adgang til den."
 
 #: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
 #: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
-msgid ""
-"Could not write value [2] to key [3]. {{ System error [4].}}  Verify that "
-"you have sufficient access to that key, or contact your support personnel."
-msgstr ""
-"Værdien [2] kunne ikke skrives til nøglen [3]. {{ Systemfejl [4].}} "
-"Kontroller, at du har tilstrækkelig adgang til nøglen, eller kontakt "
-"supportteknikerne. "
+msgid "Could not write value [2] to key [3]. {{ System error [4].}}  Verify that you have sufficient access to that key, or contact your support personnel."
+msgstr "Værdien [2] kunne ikke skrives til nøglen [3]. {{ Systemfejl [4].}} Kontroller, at du har tilstrækkelig adgang til nøglen, eller kontakt supportteknikerne."
 
 #: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:14
 #: En.x64.Debug.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:14
@@ -652,24 +460,13 @@ msgstr "Sletter serviceprogrammer"
 
 #: En.Win32.Debug.Error-2.idtx:78 En.Win32.Release.Error-2.idtx:78
 #: En.x64.Debug.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
-msgid ""
-"Error accessing secured data. Please make sure the Windows Installer is "
-"configured properly and try the install again."
-msgstr ""
-"Fejl under adgang til sikret data. Kontroller, at Windows Installer er "
-"konfigureret korrekt, og prøv igen."
+msgid "Error accessing secured data. Please make sure the Windows Installer is configured properly and try the install again."
+msgstr "Fejl under adgang til sikret data. Kontroller, at Windows Installer er konfigureret korrekt, og prøv igen."
 
 #: En.Win32.Debug.Error-2.idtx:58 En.Win32.Release.Error-2.idtx:58
 #: En.x64.Debug.Error-2.idtx:58 En.x64.Release.Error-2.idtx:58
-msgid ""
-"Error applying patch to file [2].  It has probably been updated by other "
-"means, and can no longer be modified by this patch.  For more information "
-"contact your patch vendor.  {{System Error: [3]}}"
-msgstr ""
-"Fejl under opgradering af filen [2]. Filen er muligvis blevet opgraderet på "
-"en anden måde, så den kan ikke opgraderes med denne programrettelse. Du kan "
-"få yderligere oplysninger hos producenten af programrettelsen. {{Systemfejl: "
-"[3]}}"
+msgid "Error applying patch to file [2].  It has probably been updated by other means, and can no longer be modified by this patch.  For more information contact your patch vendor.  {{System Error: [3]}}"
+msgstr "Fejl under opgradering af filen [2]. Filen er muligvis blevet opgraderet på en anden måde, så den kan ikke opgraderes med denne programrettelse. Du kan få yderligere oplysninger hos producenten af programrettelsen. {{Systemfejl: [3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:133 En.Win32.Release.Error-2.idtx:133
 #: En.x64.Debug.Error-2.idtx:133 En.x64.Release.Error-2.idtx:133
@@ -678,12 +475,8 @@ msgstr "Fejl ved forsøg på at læse fra databasen til kildeinstallation: [2]."
 
 #: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
 #: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
-msgid ""
-"Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that "
-"the file [4] exists and that you can access it."
-msgstr ""
-"Fejl under konfiguration af ODBC-datakilde: [4], ODBC-fejl [2]: [3]. "
-"Kontroller, at filen [4] findes, og at du har adgang til den."
+msgid "Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that the file [4] exists and that you can access it."
+msgstr "Fejl under konfiguration af ODBC-datakilde: [4], ODBC-fejl [2]: [3]. Kontroller, at filen [4] findes, og at du har adgang til den."
 
 #: En.Win32.Debug.Error-2.idtx:56 En.Win32.Release.Error-2.idtx:56
 #: En.x64.Debug.Error-2.idtx:56 En.x64.Release.Error-2.idtx:56
@@ -692,100 +485,58 @@ msgstr "Fejl under hentning af filsikkerhed: [3] GetLastError: [2]"
 
 #: En.Win32.Debug.Error-2.idtx:148 En.Win32.Release.Error-2.idtx:148
 #: En.x64.Debug.Error-2.idtx:148 En.x64.Release.Error-2.idtx:148
-msgid ""
-"Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your "
-"support personnel."
-msgstr ""
-"Fejl ved installation af ODBC-driverstyring, ODBC-fejl [2]: [3]. Kontakt "
-"supportteknikerne."
+msgid "Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your support personnel."
+msgstr "Fejl ved installation af ODBC-driverstyring, ODBC-fejl [2]: [3]. Kontakt supportteknikerne."
 
 #: En.Win32.Debug.Error-2.idtx:150 En.Win32.Release.Error-2.idtx:150
 #: En.x64.Debug.Error-2.idtx:150 En.x64.Release.Error-2.idtx:150
-msgid ""
-"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
-"[4] exists and that you can access it."
-msgstr ""
-"Fejl ved installation af ODBC-driver: [4], ODBC-fejl [2]: [3]. Kontroller, "
-"at filen [4] findes, og at du har adgang til den."
+msgid "Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file [4] exists and that you can access it."
+msgstr "Fejl ved installation af ODBC-driver: [4], ODBC-fejl [2]: [3]. Kontroller, at filen [4] findes, og at du har adgang til den."
 
 #: En.Win32.Debug.Error-2.idtx:35 En.Win32.Release.Error-2.idtx:35
 #: En.x64.Debug.Error-2.idtx:35 En.x64.Release.Error-2.idtx:35
-msgid ""
-"Error reading from file [2]. {{ System error [3].}} Verify that the file "
-"exists and that you can access it."
-msgstr ""
-"Fejl under læsning fra filen [2]. {{ Systemfejl [3].}} Kontroller, at filen "
-"findes, og at du har adgang til den."
+msgid "Error reading from file [2]. {{ System error [3].}} Verify that the file exists and that you can access it."
+msgstr "Fejl under læsning fra filen [2]. {{ Systemfejl [3].}} Kontroller, at filen findes, og at du har adgang til den."
 
 #: En.Win32.Debug.Error-2.idtx:30 En.Win32.Release.Error-2.idtx:30
 #: En.x64.Debug.Error-2.idtx:30 En.x64.Release.Error-2.idtx:30
-msgid ""
-"Error reading from file: [2]. {{ System error [3].}}  Verify that the file "
-"exists and that you can access it."
-msgstr ""
-"Fejl under læsning af filen: [2]. {{ Systemfejl [3].}} Kontroller, at filen "
-"findes, og at du har adgang til den."
+msgid "Error reading from file: [2]. {{ System error [3].}}  Verify that the file exists and that you can access it."
+msgstr "Fejl under læsning af filen: [2]. {{ Systemfejl [3].}} Kontroller, at filen findes, og at du har adgang til den."
 
 #: En.Win32.Debug.Error-2.idtx:39 En.Win32.Release.Error-2.idtx:39
 #: En.x64.Debug.Error-2.idtx:39 En.x64.Release.Error-2.idtx:39
-msgid ""
-"Error reading from file: [3]. {{ System error [2].}}  Verify that the file "
-"exists and that you can access it."
-msgstr ""
-"Fejl under læsning fra filen: [3]. {{ Systemfejl [2].}} Kontroller, at filen "
-"findes, og at du har adgang til den."
+msgid "Error reading from file: [3]. {{ System error [2].}}  Verify that the file exists and that you can access it."
+msgstr "Fejl under læsning fra filen: [3]. {{ Systemfejl [2].}} Kontroller, at filen findes, og at du har adgang til den."
 
 #: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
 #: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
-msgid ""
-"Error registering COM+ Application.  Contact your support personnel for more "
-"information."
-msgstr ""
-"Der opstod en fejl under registreringen af programmet til COM+. Kontakt "
-"supportteknikerne."
+msgid "Error registering COM+ Application.  Contact your support personnel for more information."
+msgstr "Der opstod en fejl under registreringen af programmet til COM+. Kontakt supportteknikerne."
 
 #: En.Win32.Debug.Error-2.idtx:147 En.Win32.Release.Error-2.idtx:147
 #: En.x64.Debug.Error-2.idtx:147 En.x64.Release.Error-2.idtx:147
-msgid ""
-"Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your "
-"support personnel."
-msgstr ""
-"Fejl ved fjernelse af ODBC-driverstyring, ODBC-fejl [2]: [3]. Kontakt "
-"supportteknikerne."
+msgid "Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your support personnel."
+msgstr "Fejl ved fjernelse af ODBC-driverstyring, ODBC-fejl [2]: [3]. Kontakt supportteknikerne."
 
 #: En.Win32.Debug.Error-2.idtx:149 En.Win32.Release.Error-2.idtx:149
 #: En.x64.Debug.Error-2.idtx:149 En.x64.Release.Error-2.idtx:149
-msgid ""
-"Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you have "
-"sufficient privileges to remove ODBC drivers."
-msgstr ""
-"Fejl ved fjernelse af ODBC-driver: [4], ODBC-fejl [2]: [3]. Kontroller, at "
-"du har de nødvendige rettigheder til at fjerne ODBC-drivere."
+msgid "Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you have sufficient privileges to remove ODBC drivers."
+msgstr "Fejl ved fjernelse af ODBC-driver: [4], ODBC-fejl [2]: [3]. Kontroller, at du har de nødvendige rettigheder til at fjerne ODBC-drivere."
 
 #: En.Win32.Debug.Error-2.idtx:161 En.Win32.Release.Error-2.idtx:161
 #: En.x64.Debug.Error-2.idtx:161 En.x64.Release.Error-2.idtx:161
-msgid ""
-"Error unregistering COM+ Application.  Contact your support personnel for "
-"more information."
-msgstr ""
-"Der opstod en fejl under fjernelsen af registreringsoplysninger om "
-"programmet til COM+. Kontakt supportteknikerne."
+msgid "Error unregistering COM+ Application.  Contact your support personnel for more information."
+msgstr "Der opstod en fejl under fjernelsen af registreringsoplysninger om programmet til COM+. Kontakt supportteknikerne."
 
 #: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
 #: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
-msgid ""
-"Error writing to file: [2].  Verify that you have access to that directory."
-msgstr ""
-"Fejl under skrivning til filen: [2]. Kontroller, at du har adgang til mappen."
+msgid "Error writing to file: [2].  Verify that you have access to that directory."
+msgstr "Fejl under skrivning til filen: [2]. Kontroller, at du har adgang til mappen."
 
 #: En.Win32.Debug.Error-2.idtx:40 En.Win32.Release.Error-2.idtx:40
 #: En.x64.Debug.Error-2.idtx:40 En.x64.Release.Error-2.idtx:40
-msgid ""
-"Error writing to file: [3]. {{ System error [2].}}  Verify that you have "
-"access to that directory."
-msgstr ""
-"Fejl under skrivning til filen: [3]. {{ Systemfejl [2].}} Kontroller, at du "
-"har adgang til mappen."
+msgid "Error writing to file: [3]. {{ System error [2].}}  Verify that you have access to that directory."
+msgstr "Fejl under skrivning til filen: [3]. {{ Systemfejl [2].}} Kontroller, at du har adgang til mappen."
 
 #: En.Win32.Debug.ActionText-2.idtx:24 En.Win32.Release.ActionText-2.idtx:24
 #: En.x64.Debug.ActionText-2.idtx:24 En.x64.Release.ActionText-2.idtx:24
@@ -801,10 +552,8 @@ msgstr "Filtypenavn: [1]"
 
 #: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
 #: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
-msgid ""
-"Failed to cache package [2]. Error: [3]. Contact your support personnel."
-msgstr ""
-"Pakken [2] kunne ikke gemmes i cachen. Fejl: [3]. Kontakt supportteknikerne."
+msgid "Failed to cache package [2]. Error: [3]. Contact your support personnel."
+msgstr "Pakken [2] kunne ikke gemmes i cachen. Fejl: [3]. Kontakt supportteknikerne."
 
 #: En.Win32.Debug.Error-2.idtx:61 En.Win32.Release.Error-2.idtx:61
 #: En.x64.Debug.Error-2.idtx:61 En.x64.Release.Error-2.idtx:61
@@ -923,15 +672,8 @@ msgstr "Opretter script-funktioner til handlingen:"
 
 #: En.Win32.Debug.Error-2.idtx:124 En.Win32.Release.Error-2.idtx:124
 #: En.x64.Debug.Error-2.idtx:124 En.x64.Release.Error-2.idtx:124
-msgid ""
-"In order to complete the installation of [2], you must restart the computer. "
-"Other users are currently logged on to this computer, and restarting may "
-"cause them to lose their work. Do you want to restart now?"
-msgstr ""
-"Du skal genstarte computeren for at kunne fuldføre installationen af [2]. "
-"Der er i øjeblikket andre brugere logget på denne computer, og hvis "
-"computeren genstartes mister disse brugere muligvis de data, der ikke er "
-"gemt. Vil du genstarte computeren nu?"
+msgid "In order to complete the installation of [2], you must restart the computer. Other users are currently logged on to this computer, and restarting may cause them to lose their work. Do you want to restart now?"
+msgstr "Du skal genstarte computeren for at kunne fuldføre installationen af [2]. Der er i øjeblikket andre brugere logget på denne computer, og hvis computeren genstartes mister disse brugere muligvis de data, der ikke er gemt. Vil du genstarte computeren nu?"
 
 #: En.Win32.Debug.Error-2.idtx:8 En.Win32.Release.Error-2.idtx:8
 #: En.x64.Debug.Error-2.idtx:8 En.x64.Release.Error-2.idtx:8
@@ -1008,7 +750,7 @@ msgstr "LibID: [1]"
 #: En.Win32.Debug.Error-2.idtx:15 En.Win32.Release.Error-2.idtx:15
 #: En.x64.Debug.Error-2.idtx:15 En.x64.Release.Error-2.idtx:15
 msgid "Message type: [1], Argument: [2]{, [3]}"
-msgstr "Meddelelsestype: [1], Argument: [2]"
+msgstr "Meddelelsestype: [1], Argument: [2]{, [3]}"
 
 #: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
 #: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
@@ -1024,19 +766,13 @@ msgstr "MIME-indholdstype: [1], Filtypenavn: [2]"
 
 #: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
 #: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
-msgid ""
-"Module [2] failed to register.  HRESULT [3].  Contact your support personnel."
-msgstr ""
-"Modulet [2] kunne ikke registreres. HRESULT [3]. Kontakt supportteknikerne."
+msgid "Module [2] failed to register.  HRESULT [3].  Contact your support personnel."
+msgstr "Modulet [2] kunne ikke registreres. HRESULT [3]. Kontakt supportteknikerne."
 
 #: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
 #: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
-msgid ""
-"Module [2] failed to unregister.  HRESULT [3].  Contact your support "
-"personnel."
-msgstr ""
-"Modulet [2] kunne ikke få fjernet registreringen. HRESULT [3]. Kontakt "
-"supportteknikerne."
+msgid "Module [2] failed to unregister.  HRESULT [3].  Contact your support personnel."
+msgstr "Modulet [2] kunne ikke få fjernet registreringen. HRESULT [3]. Kontakt supportteknikerne."
 
 #: En.Win32.Debug.ActionText-2.idtx:26 En.Win32.Release.ActionText-2.idtx:26
 #: En.x64.Debug.ActionText-2.idtx:26 En.x64.Release.ActionText-2.idtx:26
@@ -1052,29 +788,20 @@ msgstr "Navn: [1], Værdi: [2], Handling: [3]"
 
 #: En.Win32.Debug.Error-2.idtx:104 En.Win32.Release.Error-2.idtx:104
 #: En.x64.Debug.Error-2.idtx:104 En.x64.Release.Error-2.idtx:104
-msgid ""
-"One or more of the files required to restore your computer to its previous "
-"state could not be found.  Restoration will not be possible."
-msgstr ""
-"En eller flere af de filer, der kræves for at gendanne din computer til den "
-"forrige tilstand, kunne ikke findes. Gendannelse vil ikke være mulig."
+msgid "One or more of the files required to restore your computer to its previous state could not be found.  Restoration will not be possible."
+msgstr "En eller flere af de filer, der kræves for at gendanne din computer til den forrige tilstand, kunne ikke findes. Gendannelse vil ikke være mulig."
 
 #: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
 #: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
-msgid ""
-"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
-"[4] KB.  Free some disk space and retry."
-msgstr ""
-"Der er ikke mere diskplads -- Enhed: '[2]'; krævet plads: [3] KB; "
-"tilgængelig plads: [4] KB. Frigør diskplads, og prøv igen."
+msgid "Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: [4] KB.  Free some disk space and retry."
+msgstr "Der er ikke mere diskplads -- Enhed: '[2]'; krævet plads: [3] KB; tilgængelig plads: [4] KB. Frigør diskplads, og prøv igen."
 
 #: En.Win32.Debug.Error-2.idtx:127 En.Win32.Debug.Error-2.idtx:21
 #: En.Win32.Release.Error-2.idtx:127 En.Win32.Release.Error-2.idtx:21
 #: En.x64.Debug.Error-2.idtx:127 En.x64.Debug.Error-2.idtx:21
 #: En.x64.Release.Error-2.idtx:127 En.x64.Release.Error-2.idtx:21
 msgid "Out of memory. Shut down other applications before retrying."
-msgstr ""
-"Der er ikke mere hukommelse. Luk de andre programmer, før du prøver igen."
+msgstr "Der er ikke mere hukommelse. Luk de andre programmer, før du prøver igen."
 
 #: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
 #: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
@@ -1171,7 +898,7 @@ msgstr "Registrerer produkt"
 #: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:40
 #: En.x64.Debug.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:40
 msgid "Registering program identifiers"
-msgstr "Registrerer program-id'er."
+msgstr "Registrerer program-id'er"
 
 #: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:41
 #: En.x64.Debug.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:41
@@ -1260,21 +987,13 @@ msgstr "Fortrydelse:"
 
 #: En.Win32.Debug.Error-2.idtx:135 En.Win32.Release.Error-2.idtx:135
 #: En.x64.Debug.Error-2.idtx:135 En.x64.Release.Error-2.idtx:135
-msgid ""
-"Scheduling reboot operation: Deleting file [2]. Must reboot to complete "
-"operation."
-msgstr ""
-"Planlægger genstart: Sletter filen [2]. Computeren skal genstartes for at "
-"fuldføre handlingen."
+msgid "Scheduling reboot operation: Deleting file [2]. Must reboot to complete operation."
+msgstr "Planlægger genstart: Sletter filen [2]. Computeren skal genstartes for at fuldføre handlingen."
 
 #: En.Win32.Debug.Error-2.idtx:134 En.Win32.Release.Error-2.idtx:134
 #: En.x64.Debug.Error-2.idtx:134 En.x64.Release.Error-2.idtx:134
-msgid ""
-"Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to "
-"complete operation."
-msgstr ""
-"Planlægger genstart: Omdøber filen [2] til [3]. Computeren skal genstartes "
-"for at fuldføre handlingen."
+msgid "Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to complete operation."
+msgstr "Planlægger genstart: Omdøber filen [2] til [3]. Computeren skal genstartes for at fuldføre handlingen."
 
 #: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
 #: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
@@ -1295,39 +1014,23 @@ msgstr "Søger efter relaterede programmer"
 
 #: En.Win32.Debug.Error-2.idtx:154 En.Win32.Release.Error-2.idtx:154
 #: En.x64.Debug.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
-msgid ""
-"Service '[2]' ([3]) could not be deleted.  Verify that you have sufficient "
-"privileges to remove system services."
-msgstr ""
-"Serviceprogrammet '[2]' ([3]) kunne ikke slettes. Kontroller, at du har de "
-"nødvendige rettigheder til at fjerne systemserviceprogrammer."
+msgid "Service '[2]' ([3]) could not be deleted.  Verify that you have sufficient privileges to remove system services."
+msgstr "Serviceprogrammet '[2]' ([3]) kunne ikke slettes. Kontroller, at du har de nødvendige rettigheder til at fjerne systemserviceprogrammer."
 
 #: En.Win32.Debug.Error-2.idtx:155 En.Win32.Release.Error-2.idtx:155
 #: En.x64.Debug.Error-2.idtx:155 En.x64.Release.Error-2.idtx:155
-msgid ""
-"Service '[2]' ([3]) could not be installed.  Verify that you have sufficient "
-"privileges to install system services."
-msgstr ""
-"Serviceprogrammet '[2]' ([3]) kunne ikke installeres. Kontroller, at du har "
-"de nødvendige rettigheder til at installere systemserviceprogrammer."
+msgid "Service '[2]' ([3]) could not be installed.  Verify that you have sufficient privileges to install system services."
+msgstr "Serviceprogrammet '[2]' ([3]) kunne ikke installeres. Kontroller, at du har de nødvendige rettigheder til at installere systemserviceprogrammer."
 
 #: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
 #: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
-msgid ""
-"Service '[2]' ([3]) could not be stopped.  Verify that you have sufficient "
-"privileges to stop system services."
-msgstr ""
-"Serviceprogrammet '[2]' ([3]) kunne ikke afsluttes. Kontroller, at du har de "
-"nødvendige rettigheder til at afslutte systemserviceprogrammer."
+msgid "Service '[2]' ([3]) could not be stopped.  Verify that you have sufficient privileges to stop system services."
+msgstr "Serviceprogrammet '[2]' ([3]) kunne ikke afsluttes. Kontroller, at du har de nødvendige rettigheder til at afslutte systemserviceprogrammer."
 
 #: En.Win32.Debug.Error-2.idtx:152 En.Win32.Release.Error-2.idtx:152
 #: En.x64.Debug.Error-2.idtx:152 En.x64.Release.Error-2.idtx:152
-msgid ""
-"Service '[2]' ([3]) failed to start.  Verify that you have sufficient "
-"privileges to start system services."
-msgstr ""
-"Serviceprogrammet '[2]' ([3]) kunne ikke starte. Kontroller, at du har de "
-"nødvendige rettigheder til at starte systemserviceprogrammer."
+msgid "Service '[2]' ([3]) failed to start.  Verify that you have sufficient privileges to start system services."
+msgstr "Serviceprogrammet '[2]' ([3]) kunne ikke starte. Kontroller, at du har de nødvendige rettigheder til at starte systemserviceprogrammer."
 
 #: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Debug.ActionText-2.idtx:58
 #: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:13
@@ -1352,21 +1055,13 @@ msgstr "Genvej: [1]"
 
 #: En.Win32.Debug.Error-2.idtx:38 En.Win32.Release.Error-2.idtx:38
 #: En.x64.Debug.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
-msgid ""
-"Source file not found: [2].  Verify that the file exists and that you can "
-"access it."
-msgstr ""
-"Kildefilen blev ikke fundet: [2]. Kontroller, at filen findes, og at du har "
-"adgang til den."
+msgid "Source file not found: [2].  Verify that the file exists and that you can access it."
+msgstr "Kildefilen blev ikke fundet: [2]. Kontroller, at filen findes, og at du har adgang til den."
 
 #: En.Win32.Debug.Error-2.idtx:41 En.Win32.Release.Error-2.idtx:41
 #: En.x64.Debug.Error-2.idtx:41 En.x64.Release.Error-2.idtx:41
-msgid ""
-"Source file not found{{(cabinet)}}: [2].  Verify that the file exists and "
-"that you can access it."
-msgstr ""
-"Kildefilen blev ikke fundet{{(kabinet)}}: [2]. Kontroller, at filen findes, "
-"og du har adgang til den."
+msgid "Source file not found{{(cabinet)}}: [2].  Verify that the file exists and that you can access it."
+msgstr "Kildefilen blev ikke fundet{{(kabinet)}}: [2]. Kontroller, at filen findes, og du har adgang til den."
 
 #: En.Win32.Debug.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:58
 #: En.x64.Debug.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:58
@@ -1380,14 +1075,8 @@ msgstr "Stopper serviceprogrammer"
 
 #: En.Win32.Debug.Error-2.idtx:65 En.Win32.Release.Error-2.idtx:65
 #: En.x64.Debug.Error-2.idtx:65 En.x64.Release.Error-2.idtx:65
-msgid ""
-"The cabinet file '[2]' required for this installation is corrupt and cannot "
-"be used. This could indicate a network error, an error reading from the CD-"
-"ROM, or a problem with this package."
-msgstr ""
-"Kabinetfilen '[2]', der kræves til denne installation, er beskadiget og kan "
-"ikke bruges. Dette kan skyldes en netværksfejl, en fejl ved læsning af cd-"
-"rom'en eller et problem med denne pakke."
+msgid "The cabinet file '[2]' required for this installation is corrupt and cannot be used. This could indicate a network error, an error reading from the CD-ROM, or a problem with this package."
+msgstr "Kabinetfilen '[2]', der kræves til denne installation, er beskadiget og kan ikke bruges. Dette kan skyldes en netværksfejl, en fejl ved læsning af cd-rom'en eller et problem med denne pakke."
 
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
@@ -1396,28 +1085,17 @@ msgstr "Beskrivelsen af serviceprogrammet '[2]' ([3]) kunne ikke ændres."
 
 #: En.Win32.Debug.Error-2.idtx:64 En.Win32.Release.Error-2.idtx:64
 #: En.x64.Debug.Error-2.idtx:64 En.x64.Release.Error-2.idtx:64
-msgid ""
-"The file '[2]' cannot be installed because the file cannot be found in "
-"cabinet file '[3]'. This could indicate a network error, an error reading "
-"from the CD-ROM, or a problem with this package."
-msgstr ""
-"Filen '[2]' kan ikke installeres, fordi filen ikke blev fundet i "
-"kabinetfilen '[3]'. Dette kan betyde, at der er opstået en netværksfejl, en "
-"fejl ved læsning fra cd-rom'en eller et problem med denne pakke."
+msgid "The file '[2]' cannot be installed because the file cannot be found in cabinet file '[3]'. This could indicate a network error, an error reading from the CD-ROM, or a problem with this package."
+msgstr "Filen '[2]' kan ikke installeres, fordi filen ikke blev fundet i kabinetfilen '[3]'. Dette kan betyde, at der er opstået en netværksfejl, en fejl ved læsning fra cd-rom'en eller et problem med denne pakke."
 
 #: En.Win32.Debug.Error-2.idtx:83 En.Win32.Release.Error-2.idtx:83
 #: En.x64.Debug.Error-2.idtx:83 En.x64.Release.Error-2.idtx:83
-msgid ""
-"The file [2][3] is being held in use{ by the following process: Name: [4], "
-"Id: [5], Window Title: '[6]'}.  Close that application and retry."
-msgstr ""
-"Filen [2][3] holdes i brug{ af følgende proces: navn: [4], id: [5], "
-"vinduestitel: '[6]'}. Luk programmet, og prøv igen."
+msgid "The file [2][3] is being held in use{ by the following process: Name: [4], Id: [5], Window Title: '[6]'}.  Close that application and retry."
+msgstr "Filen [2][3] holdes i brug{ af følgende proces: navn: [4], id: [5], vinduestitel: '[6]'}. Luk programmet, og prøv igen."
 
 #: En.Win32.Debug.Error-2.idtx:130 En.Win32.Release.Error-2.idtx:130
 #: En.x64.Debug.Error-2.idtx:130 En.x64.Release.Error-2.idtx:130
-msgid ""
-"The folder [2] does not exist.  Please enter a path to an existing folder."
+msgid "The folder [2] does not exist.  Please enter a path to an existing folder."
 msgstr "Mappen [2] findes ikke. Angiv en sti til en eksisterende mappe."
 
 #: En.Win32.Debug.Error-2.idtx:54 En.Win32.Release.Error-2.idtx:54
@@ -1427,71 +1105,43 @@ msgstr "Mappestien '[2]' indeholder et ugyldigt tegn."
 
 #: En.Win32.Debug.Error-2.idtx:53 En.Win32.Release.Error-2.idtx:53
 #: En.x64.Debug.Error-2.idtx:53 En.x64.Release.Error-2.idtx:53
-msgid ""
-"The folder path '[2]' contains words that are not valid in folder paths."
-msgstr ""
-"Mappestien '[2]' indeholder ord, som ikke er gyldige i stier til mapper."
+msgid "The folder path '[2]' contains words that are not valid in folder paths."
+msgstr "Mappestien '[2]' indeholder ord, som ikke er gyldige i stier til mapper."
 
 #: En.Win32.Debug.Error-2.idtx:87 En.Win32.Release.Error-2.idtx:87
 #: En.x64.Debug.Error-2.idtx:87 En.x64.Release.Error-2.idtx:87
-msgid ""
-"The following applications should be closed before continuing the install:"
+msgid "The following applications should be closed before continuing the install:"
 msgstr "Følgende programmer skal lukkes, før du fortsætter installationen:"
 
 #: En.Win32.Debug.Error-2.idtx:9 En.Win32.Release.Error-2.idtx:9
 #: En.x64.Debug.Error-2.idtx:9 En.x64.Release.Error-2.idtx:9
-msgid ""
-"The installer has encountered an unexpected error installing this package. "
-"This may indicate a problem with this package. The error code is [1]. {{The "
-"arguments are: [2], [3], [4]}}"
-msgstr ""
-"Der er opstået en uventet fejl under installationen af denne pakke. Dette "
-"kan betyde, at der er et problem med denne pakke. Fejlkoden er [1]. "
-"{{Argumenterne er: [2], [3], [4]}}"
+msgid "The installer has encountered an unexpected error installing this package. This may indicate a problem with this package. The error code is [1]. {{The arguments are: [2], [3], [4]}}"
+msgstr "Der er opstået en uventet fejl under installationen af denne pakke. Dette kan betyde, at der er et problem med denne pakke. Fejlkoden er [1]. {{Argumenterne er: [2], [3], [4]}}"
 
 #: En.Win32.Debug.Error-2.idtx:33 En.Win32.Release.Error-2.idtx:33
 #: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
-msgid ""
-"The installer has insufficient privileges to access this directory: [2].  "
-"The installation cannot continue.  Log on as administrator or contact your "
-"system administrator."
-msgstr ""
-"Installationsprogrammet har ikke de nødvendige rettigheder til at åbne denne "
-"mappe: [2].  Installationsprogrammet kan ikke fortsætte. Log på som "
-"administrator, eller kontakt systemadministratoren."
+msgid "The installer has insufficient privileges to access this directory: [2].  The installation cannot continue.  Log on as administrator or contact your system administrator."
+msgstr "Installationsprogrammet har ikke de nødvendige rettigheder til at åbne denne mappe: [2].  Installationsprogrammet kan ikke fortsætte. Log på som administrator, eller kontakt systemadministratoren."
 
 #: En.Win32.Debug.Error-2.idtx:51 En.Win32.Release.Error-2.idtx:51
 #: En.x64.Debug.Error-2.idtx:51 En.x64.Release.Error-2.idtx:51
 msgid "The Installer has insufficient privileges to modify this file: [2]."
-msgstr ""
-"Installationsprogrammet har ikke de nødvendige rettigheder til at ændre "
-"filen: [2]."
+msgstr "Installationsprogrammet har ikke de nødvendige rettigheder til at ændre filen: [2]."
 
 #: En.Win32.Debug.Error-2.idtx:94 En.Win32.Release.Error-2.idtx:94
 #: En.x64.Debug.Error-2.idtx:94 En.x64.Release.Error-2.idtx:94
-msgid ""
-"The installer must restart your system before configuration of [2] can "
-"continue.  Click Yes to restart now or No if you plan to manually restart "
-"later."
-msgstr ""
-"Installationsprogrammet skal genstarte dit system, før konfiguration af [2] "
-"kan fortsætte. Klik på Ja for at genstarte nu eller Nej, hvis du vil "
-"genstarte manuelt senere."
+msgid "The installer must restart your system before configuration of [2] can continue.  Click Yes to restart now or No if you plan to manually restart later."
+msgstr "Installationsprogrammet skal genstarte dit system, før konfiguration af [2] kan fortsætte. Klik på Ja for at genstarte nu eller Nej, hvis du vil genstarte manuelt senere."
 
 #: En.Win32.Debug.Error-2.idtx:93 En.Win32.Release.Error-2.idtx:93
 #: En.x64.Debug.Error-2.idtx:93 En.x64.Release.Error-2.idtx:93
 msgid "The key [2] is not valid.  Verify that you entered the correct key."
-msgstr ""
-"Nøglen [2] er ugyldig. Kontroller, at du har angivet den korrekte nøgle."
+msgstr "Nøglen [2] er ugyldig. Kontroller, at du har angivet den korrekte nøgle."
 
 #: En.Win32.Debug.Error-2.idtx:106 En.Win32.Release.Error-2.idtx:106
 #: En.x64.Debug.Error-2.idtx:106 En.x64.Release.Error-2.idtx:106
-msgid ""
-"The older version of [2] cannot be removed.  Contact your technical support "
-"group.  {{System Error [3].}}"
-msgstr ""
-"Den ældre version af [2] kan ikke fjernes. Kontakt teknisk support.  "
-"{{Systemfejl [3].}}"
+msgid "The older version of [2] cannot be removed.  Contact your technical support group.  {{System Error [3].}}"
+msgstr "Den ældre version af [2] kan ikke fjernes. Kontakt teknisk support.  {{Systemfejl [3].}}"
 
 #: En.Win32.Debug.Error-2.idtx:126 En.Win32.Release.Error-2.idtx:126
 #: En.x64.Debug.Error-2.idtx:126 En.x64.Release.Error-2.idtx:126
@@ -1500,45 +1150,23 @@ msgstr "Stien [2] er ugyldig. Angiv en gyldig sti."
 
 #: En.Win32.Debug.Error-2.idtx:84 En.Win32.Release.Error-2.idtx:84
 #: En.x64.Debug.Error-2.idtx:84 En.x64.Release.Error-2.idtx:84
-msgid ""
-"The product '[2]' is already installed, preventing the installation of this "
-"product.  The two products are incompatible."
-msgstr ""
-"Produktet '[2]' er allerede installeret og forhindrer installationen af "
-"dette produkt. De to produkter er ikke kompatible."
+msgid "The product '[2]' is already installed, preventing the installation of this product.  The two products are incompatible."
+msgstr "Produktet '[2]' er allerede installeret og forhindrer installationen af dette produkt. De to produkter er ikke kompatible."
 
 #: En.Win32.Debug.Error-2.idtx:90 En.Win32.Release.Error-2.idtx:90
 #: En.x64.Debug.Error-2.idtx:90 En.x64.Release.Error-2.idtx:90
-msgid ""
-"The setup must update files or services that cannot be updated while the "
-"system is running. If you choose to continue, a reboot will be required to "
-"complete the setup."
-msgstr ""
-"Installationsprogrammet skal opdatere filer eller tjenester, der ikke kan "
-"opdateres, mens systemet kører. Hvis du vælger at fortsætte, skal du "
-"genstarte computeren for at kunne fuldføre installationen."
+msgid "The setup must update files or services that cannot be updated while the system is running. If you choose to continue, a reboot will be required to complete the setup."
+msgstr "Installationsprogrammet skal opdatere filer eller tjenester, der ikke kan opdateres, mens systemet kører. Hvis du vælger at fortsætte, skal du genstarte computeren for at kunne fuldføre installationen."
 
 #: En.Win32.Debug.Error-2.idtx:91 En.Win32.Release.Error-2.idtx:91
 #: En.x64.Debug.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
-msgid ""
-"The setup was unable to automatically close all applications that are using "
-"files that need to be updated. If you choose to continue, a reboot will be "
-"required to complete the setup."
-msgstr ""
-"Installationsprogrammet kunne ikke automatisk lukke alle programmer, der "
-"skal opdateres. Hvis du vælger at fortsætte, skal du genstarte computeren "
-"for at fuldføre installationen."
+msgid "The setup was unable to automatically close all applications that are using files that need to be updated. If you choose to continue, a reboot will be required to complete the setup."
+msgstr "Installationsprogrammet kunne ikke automatisk lukke alle programmer, der skal opdateres. Hvis du vælger at fortsætte, skal du genstarte computeren for at fuldføre installationen."
 
 #: En.Win32.Debug.Error-2.idtx:123 En.Win32.Release.Error-2.idtx:123
 #: En.x64.Debug.Error-2.idtx:123 En.x64.Release.Error-2.idtx:123
-msgid ""
-"The source installation package for the product [2] is out of sync with the "
-"client package. Try the installation again using a valid copy of the "
-"installation package '[3]'."
-msgstr ""
-"Kildeinstallationspakken for produktet [2] er ikke synkroniseret med "
-"klientpakken. Prøv at foretage installationen igen med en gyldig kopi af "
-"installationspakken '[3]'."
+msgid "The source installation package for the product [2] is out of sync with the client package. Try the installation again using a valid copy of the installation package '[3]'."
+msgstr "Kildeinstallationspakken for produktet [2] er ikke synkroniseret med klientpakken. Prøv at foretage installationen igen med en gyldig kopi af installationspakken '[3]'."
 
 #: En.Win32.Debug.Error-2.idtx:44 En.Win32.Release.Error-2.idtx:44
 #: En.x64.Debug.Error-2.idtx:44 En.x64.Release.Error-2.idtx:44
@@ -1557,181 +1185,87 @@ msgstr "Enheden [2] er ikke tilgængelig i øjeblikket. Vælg en anden."
 
 #: En.Win32.Debug.Error-2.idtx:165 En.Win32.Release.Error-2.idtx:165
 #: En.x64.Debug.Error-2.idtx:165 En.x64.Release.Error-2.idtx:165
-msgid ""
-"The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2].  List of protected files:\\r\\n"
-"[3]}}"
-msgstr ""
-"Windows Installer kan ikke opdatere en eller flere beskyttede Windows-filer. "
-"{{SFP-fejl: [2].  Liste over beskyttede filer:\\r\\n"
-"[3]}}"
+msgid "The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2].  List of protected files:\\r\\n[3]}}"
+msgstr "Windows Installer kan ikke opdatere en eller flere beskyttede Windows-filer. {{SFP-fejl: [2].  Liste over beskyttede filer:\\r\\n[3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:164 En.Win32.Release.Error-2.idtx:164
 #: En.x64.Debug.Error-2.idtx:164 En.x64.Release.Error-2.idtx:164
-msgid ""
-"The Windows Installer service cannot update the protected Windows file [2]. "
-"{{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
-msgstr ""
-"Windows Installer kan ikke opgradere filen [2], fordi den er beskyttet af "
-"Windows. {{Pakkeversion: [3], Version beskyttet af operativsystemet: [4], "
-"SFP-fejl: [5]}}"
+msgid "The Windows Installer service cannot update the protected Windows file [2]. {{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
+msgstr "Windows Installer kan ikke opgradere filen [2], fordi den er beskyttet af Windows. {{Pakkeversion: [3], Version beskyttet af operativsystemet: [4], SFP-fejl: [5]}}"
 
 #: En.Win32.Debug.Error-2.idtx:163 En.Win32.Release.Error-2.idtx:163
 #: En.x64.Debug.Error-2.idtx:163 En.x64.Release.Error-2.idtx:163
-msgid ""
-"The Windows Installer service cannot update the system file [2] because the "
-"file is protected by Windows.  You may need to update your operating system "
-"for this program to work correctly. {{Package version: [3], OS Protected "
-"version: [4]}}"
-msgstr ""
-"Windows Installer kan ikke opgradere systemfilen [2], fordi filen er "
-"beskyttet af Windows. Det er muligvis nødvendigt at opdatere "
-"operativsystemet. {{Pakkeversion: [3], Version beskyttet af "
-"operativsystemet: [4]}}"
+msgid "The Windows Installer service cannot update the system file [2] because the file is protected by Windows.  You may need to update your operating system for this program to work correctly. {{Package version: [3], OS Protected version: [4]}}"
+msgstr "Windows Installer kan ikke opgradere systemfilen [2], fordi filen er beskyttet af Windows. Det er muligvis nødvendigt at opdatere operativsystemet. {{Pakkeversion: [3], Version beskyttet af operativsystemet: [4]}}"
 
 #: En.Win32.Debug.Error-2.idtx:111 En.Win32.Release.Error-2.idtx:111
 #: En.x64.Debug.Error-2.idtx:111 En.x64.Release.Error-2.idtx:111
-msgid ""
-"The Windows Installer Service could not be accessed. This can occur if the "
-"Windows Installer is not correctly installed. Contact your support personnel "
-"for assistance."
-msgstr ""
-"Der kunne ikke opnås adgang til Windows Installer. Dette problem kan opstå, "
-"hvis du kører Windows i fejlsikret tilstand, eller hvis Windows Installer "
-"ikke er korrekt installeret. Kontakt supportpersonen for at få hjælp."
+msgid "The Windows Installer Service could not be accessed. This can occur if the Windows Installer is not correctly installed. Contact your support personnel for assistance."
+msgstr "Der kunne ikke opnås adgang til Windows Installer. Dette problem kan opstå, hvis du kører Windows i fejlsikret tilstand, eller hvis Windows Installer ikke er korrekt installeret. Kontakt supportpersonen for at få hjælp."
 
 #: En.Win32.Debug.Error-2.idtx:125 En.Win32.Release.Error-2.idtx:125
 #: En.x64.Debug.Error-2.idtx:125 En.x64.Release.Error-2.idtx:125
-msgid ""
-"The Windows Installer service is not accessible in Safe Mode. Please try "
-"again when your computer is not in Safe Mode or you can use System Restore "
-"to return your machine to a previous good state."
-msgstr ""
-"Der er ikke adgang til tjenesten Windows Installer i fejlsikret tilstand. "
-"Prøv igen, når computeren ikke er i fejlsikret tilstand, eller benyt "
-"Systemgendannelse til at få maskinen til at vende tilbage til en tidligere "
-"god tilstand."
+msgid "The Windows Installer service is not accessible in Safe Mode. Please try again when your computer is not in Safe Mode or you can use System Restore to return your machine to a previous good state."
+msgstr "Der er ikke adgang til tjenesten Windows Installer i fejlsikret tilstand. Prøv igen, når computeren ikke er i fejlsikret tilstand, eller benyt Systemgendannelse til at få maskinen til at vende tilbage til en tidligere god tilstand."
 
 #: En.Win32.Debug.Error-2.idtx:115 En.Win32.Release.Error-2.idtx:115
 #: En.x64.Debug.Error-2.idtx:115 En.x64.Release.Error-2.idtx:115
-msgid ""
-"There is a problem with this Windows Installer package. A DLL required for "
-"this install to complete could not be run. Contact your support personnel or "
-"package vendor.  {{Action [2], entry: [3], library: [4] }}"
-msgstr ""
-"Der er et problem med denne Windows Installer-pakke. En DLL-fil, der kræves "
-"for at installationen kan fuldføres, kunne ikke køres. Kontakt "
-"supportpersonen eller pakkeproducent.  {{Handling [2], post: [3], bibliotek: "
-"[4] }}"
+msgid "There is a problem with this Windows Installer package. A DLL required for this install to complete could not be run. Contact your support personnel or package vendor.  {{Action [2], entry: [3], library: [4] }}"
+msgstr "Der er et problem med denne Windows Installer-pakke. En DLL-fil, der kræves for at installationen kan fuldføres, kunne ikke køres. Kontakt supportpersonen eller pakkeproducent.  {{Handling [2], post: [3], bibliotek: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:113 En.Win32.Release.Error-2.idtx:113
 #: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
-msgid ""
-"There is a problem with this Windows Installer package. A program required "
-"for this install to complete could not be run. Contact your support "
-"personnel or package vendor. {{Action: [2], location: [3], command: [4] }}"
-msgstr ""
-"Der er opstået et problem med denne Windows Installer-pakke. Et program, der "
-"er nødvendigt for denne installation, kunne ikke køres. Kontakt "
-"supportpersonen eller pakkeproducenten. {{Handling: [2], placering: [3], "
-"kommando: [4] }}"
+msgid "There is a problem with this Windows Installer package. A program required for this install to complete could not be run. Contact your support personnel or package vendor. {{Action: [2], location: [3], command: [4] }}"
+msgstr "Der er opstået et problem med denne Windows Installer-pakke. Et program, der er nødvendigt for denne installation, kunne ikke køres. Kontakt supportpersonen eller pakkeproducenten. {{Handling: [2], placering: [3], kommando: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:114 En.Win32.Release.Error-2.idtx:114
 #: En.x64.Debug.Error-2.idtx:114 En.x64.Release.Error-2.idtx:114
-msgid ""
-"There is a problem with this Windows Installer package. A program run as "
-"part of the setup did not finish as expected. Contact your support personnel "
-"or package vendor.  {{Action [2], location: [3], command: [4] }}"
-msgstr ""
-"Der er opstået et problem med denne Windows Installer-pakke. Et program, der "
-"blev kørt som en del af installationen, blev ikke udført som forventet. "
-"Kontakt supportpersonen eller pakkeproducenten.  {{Handling [2], placering: "
-"[3], kommando: [4] }}"
+msgid "There is a problem with this Windows Installer package. A program run as part of the setup did not finish as expected. Contact your support personnel or package vendor.  {{Action [2], location: [3], command: [4] }}"
+msgstr "Der er opstået et problem med denne Windows Installer-pakke. Et program, der blev kørt som en del af installationen, blev ikke udført som forventet. Kontakt supportpersonen eller pakkeproducenten.  {{Handling [2], placering: [3], kommando: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:112 En.Win32.Release.Error-2.idtx:112
 #: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
-msgid ""
-"There is a problem with this Windows Installer package. A script required "
-"for this install to complete could not be run. Contact your support "
-"personnel or package vendor.  {{Custom action [2] script error [3], [4]: [5] "
-"Line [6], Column [7], [8] }}"
-msgstr ""
-"Der er opstået et problem med denne Windows Installer-pakke. Et script, der "
-"kræves til denne installation, kunne ikke køres. Kontakt supportpersonen "
-"eller pakkeproducenten.  {{Tilpasset handling [2] scriptfejl [3], [4]: [5] "
-"Linje [6], Kolonne [7], [8] }}"
+msgid "There is a problem with this Windows Installer package. A script required for this install to complete could not be run. Contact your support personnel or package vendor.  {{Custom action [2] script error [3], [4]: [5] Line [6], Column [7], [8] }}"
+msgstr "Der er opstået et problem med denne Windows Installer-pakke. Et script, der kræves til denne installation, kunne ikke køres. Kontakt supportpersonen eller pakkeproducenten.  {{Tilpasset handling [2] scriptfejl [3], [4]: [5] Linje [6], Kolonne [7], [8] }}"
 
 #: En.Win32.Debug.Error-2.idtx:128 En.Win32.Release.Error-2.idtx:128
 #: En.x64.Debug.Error-2.idtx:128 En.x64.Release.Error-2.idtx:128
-msgid ""
-"There is no disk in drive [2]. Please insert one and click Retry, or click "
-"Cancel to go back to the previously selected volume."
-msgstr ""
-"Der er ingen CD i drev [2]. Indsæt en CD og klik på Forsøg igen, eller klik "
-"på Annuller for at gå tilbage til den enhed, som tidligere blev brugt."
+msgid "There is no disk in drive [2]. Please insert one and click Retry, or click Cancel to go back to the previously selected volume."
+msgstr "Der er ingen CD i drev [2]. Indsæt en CD og klik på Forsøg igen, eller klik på Annuller for at gå tilbage til den enhed, som tidligere blev brugt."
 
 #: En.Win32.Debug.Error-2.idtx:129 En.Win32.Release.Error-2.idtx:129
 #: En.x64.Debug.Error-2.idtx:129 En.x64.Release.Error-2.idtx:129
-msgid ""
-"There is no disk in drive [2]. Please insert one and click Retry, or click "
-"Cancel to return to the browse dialog and select a different volume."
-msgstr ""
-"Der er ingen CD i drev [2]. Indsæt en CD og klik på Forsøg igen, eller klik "
-"på Annuller for at gå tilbage til dialogboksen Gennemse og vælge en anden "
-"enhed."
+msgid "There is no disk in drive [2]. Please insert one and click Retry, or click Cancel to return to the browse dialog and select a different volume."
+msgstr "Der er ingen CD i drev [2]. Indsæt en CD og klik på Forsøg igen, eller klik på Annuller for at gå tilbage til dialogboksen Gennemse og vælge en anden enhed."
 
 #: En.Win32.Debug.Error-2.idtx:85 En.Win32.Release.Error-2.idtx:85
 #: En.x64.Debug.Error-2.idtx:85 En.x64.Release.Error-2.idtx:85
-msgid ""
-"There is not enough disk space on the volume '[2]' to continue the install "
-"with recovery enabled. [3] KB are required, but only [4] KB are available. "
-"Click Ignore to continue the install without saving recovery information, "
-"click Retry to check for available space again, or click Cancel to quit the "
-"installation."
-msgstr ""
-"Der er ikke nok plads på diskenheden '[2]' til at fortsætte installationen "
-"med genoprettelse aktiveret. [3] KB kræves, men der er kun [4] KB "
-"tilgængelig. Klik på Ignorer for at fortsætte installationen uden at gemme "
-"genoprettelsesoplysninger, klik på Forsøg igen for at kontrollere den ledige "
-"diskplads igen, eller klik på Annuller for at afslutte installationen."
+msgid "There is not enough disk space on the volume '[2]' to continue the install with recovery enabled. [3] KB are required, but only [4] KB are available. Click Ignore to continue the install without saving recovery information, click Retry to check for available space again, or click Cancel to quit the installation."
+msgstr "Der er ikke nok plads på diskenheden '[2]' til at fortsætte installationen med genoprettelse aktiveret. [3] KB kræves, men der er kun [4] KB tilgængelig. Klik på Ignorer for at fortsætte installationen uden at gemme genoprettelsesoplysninger, klik på Forsøg igen for at kontrollere den ledige diskplads igen, eller klik på Annuller for at afslutte installationen."
 
 #: En.Win32.Debug.Error-2.idtx:37 En.Win32.Release.Error-2.idtx:37
 #: En.x64.Debug.Error-2.idtx:37 En.x64.Release.Error-2.idtx:37
-msgid ""
-"There is not enough disk space to install this file: [2].  Free some disk "
-"space and click Retry, or click Cancel to exit."
-msgstr ""
-"Der er ikke tilstrækkelig diskplads til at installere filen: [2]. Frigør "
-"diskplads, og klik på Forsøg igen, eller klik på Annuller for at afslutte."
+msgid "There is not enough disk space to install this file: [2].  Free some disk space and click Retry, or click Cancel to exit."
+msgstr "Der er ikke tilstrækkelig diskplads til at installere filen: [2]. Frigør diskplads, og klik på Forsøg igen, eller klik på Annuller for at afslutte."
 
 #: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
 #: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
-msgid ""
-"There was an error creating a temporary file that is needed to complete this "
-"installation.{{  Folder: [3]. System error code: [2]}}"
-msgstr ""
-"Der opstod en fejl ved oprettelse af en midlertidig fil, der er nødvendig "
-"for at fuldføre installationen.{{  Mappe: [3]. Systemfejlkode: [2]}}"
+msgid "There was an error creating a temporary file that is needed to complete this installation.{{  Folder: [3]. System error code: [2]}}"
+msgstr "Der opstod en fejl ved oprettelse af en midlertidig fil, der er nødvendig for at fuldføre installationen.{{  Mappe: [3]. Systemfejlkode: [2]}}"
 
 #: En.Win32.Debug.Error-2.idtx:92 En.Win32.Release.Error-2.idtx:92
 #: En.x64.Debug.Error-2.idtx:92 En.x64.Release.Error-2.idtx:92
-msgid ""
-"This installation package is not supported on this platform. Contact your "
-"application vendor."
+msgid "This installation package is not supported on this platform. Contact your application vendor."
 msgstr ""
 
 #: En.Win32.Debug.CustomAction-2.idtx:6 En.Win32.Release.CustomAction-2.idtx:6
 #: En.x64.Debug.CustomAction-2.idtx:5 En.x64.Release.CustomAction-2.idtx:5
-msgid ""
-"This package cannot upgrade the currently installed [SimpleProductName]. "
-"Please remove the old package first and retry."
+msgid "This package cannot upgrade the currently installed [SimpleProductName]. Please remove the old package first and retry."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:172 En.Win32.Release.Error-2.idtx:172
 #: En.x64.Debug.Error-2.idtx:172 En.x64.Release.Error-2.idtx:172
-msgid ""
-"This version of Windows does not support deploying 64-bit packages. The "
-"script [2] is for a 64-bit package."
+msgid "This version of Windows does not support deploying 64-bit packages. The script [2] is for a 64-bit package."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:20 En.Win32.Release.Error-2.idtx:20
@@ -1818,30 +1352,18 @@ msgstr "Opdaterer miljøstrenge"
 
 #: En.Win32.Debug.Error-2.idtx:80 En.Win32.Release.Error-2.idtx:80
 #: En.x64.Debug.Error-2.idtx:80 En.x64.Release.Error-2.idtx:80
-msgid ""
-"User '[2]' has previously initiated an install for product '[3]'.  That user "
-"will need to run that install again before they can use that product."
-msgstr ""
-"Bruger '[2]' har tidligere startet en installation for produktet '[3]'.  "
-"Brugeren skal køre installationen igen, før de kan bruge produktet."
+msgid "User '[2]' has previously initiated an install for product '[3]'.  That user will need to run that install again before they can use that product."
+msgstr "Bruger '[2]' har tidligere startet en installation for produktet '[3]'.  Brugeren skal køre installationen igen, før de kan bruge produktet."
 
 #: En.Win32.Debug.Error-2.idtx:79 En.Win32.Release.Error-2.idtx:79
 #: En.x64.Debug.Error-2.idtx:79 En.x64.Release.Error-2.idtx:79
-msgid ""
-"User '[2]' has previously initiated an install for product '[3]'.  That user "
-"will need to run that install again before they can use that product.  Your "
-"current install will now continue."
-msgstr ""
-"Bruger '[2]' har tidligere startet en installation af produktet '[3]'. "
-"Brugeren skal køre installationen igen, før de kan bruge produktet. Det "
-"nuværende installationsprogram vil fortsætte nu."
+msgid "User '[2]' has previously initiated an install for product '[3]'.  That user will need to run that install again before they can use that product.  Your current install will now continue."
+msgstr "Bruger '[2]' har tidligere startet en installation af produktet '[3]'. Brugeren skal køre installationen igen, før de kan bruge produktet. Det nuværende installationsprogram vil fortsætte nu."
 
 #: En.Win32.Debug.Error-2.idtx:166 En.Win32.Release.Error-2.idtx:166
 #: En.x64.Debug.Error-2.idtx:166 En.x64.Release.Error-2.idtx:166
 msgid "User installations are disabled via policy on the machine."
-msgstr ""
-"Brugerinstallationer er deaktiveret ved hjælp af en politik på denne "
-"computer."
+msgstr "Brugerinstallationer er deaktiveret ved hjælp af en politik på denne computer."
 
 #: En.Win32.Debug.ActionText-2.idtx:23 En.Win32.Release.ActionText-2.idtx:23
 #: En.x64.Debug.ActionText-2.idtx:23 En.x64.Release.ActionText-2.idtx:23
@@ -1864,21 +1386,13 @@ msgid "Writing system registry values"
 msgstr "Skriver værdier i systemets registreringsdatabase"
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
-msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
-"64-bit operating system. 32-bit variant will not work with your operating "
-"system. The installation of the 64-bit variant is recommended."
+msgid "You are attempting to install the 32-bit variant of [SimpleProductName] on a 64-bit operating system. 32-bit variant will not work with your operating system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:157 En.Win32.Release.Error-2.idtx:157
 #: En.x64.Debug.Error-2.idtx:157 En.x64.Release.Error-2.idtx:157
-msgid ""
-"You do not have sufficient privileges to complete this installation for all "
-"users of the machine.  Log on as administrator and then retry this "
-"installation."
-msgstr ""
-"Du har ikke de nødvendige rettigheder til at færdiggøre installationen for "
-"alle brugere af denne maskine. Log på som administrator, og forsøg igen."
+msgid "You do not have sufficient privileges to complete this installation for all users of the machine.  Log on as administrator and then retry this installation."
+msgstr "Du har ikke de nødvendige rettigheder til at færdiggøre installationen for alle brugere af denne maskine. Log på som administrator, og forsøg igen."
 
 #: En.Win32.Debug.Error-2.idtx:131 En.Win32.Release.Error-2.idtx:131
 #: En.x64.Debug.Error-2.idtx:131 En.x64.Release.Error-2.idtx:131
@@ -1887,31 +1401,15 @@ msgstr "Du har ikke de nødvendige rettigheder til at læse denne mappe."
 
 #: En.Win32.Debug.Error-2.idtx:102 En.Win32.Release.Error-2.idtx:102
 #: En.x64.Debug.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
-msgid ""
-"You may either restore your computer to its previous state or continue the "
-"install later. Would you like to restore?"
-msgstr ""
-"Du skal enten gendanne computeren til den forrige tilstand eller fortsætte "
-"installationen senere. Vil du gendanne?"
+msgid "You may either restore your computer to its previous state or continue the install later. Would you like to restore?"
+msgstr "Du skal enten gendanne computeren til den forrige tilstand eller fortsætte installationen senere. Vil du gendanne?"
 
 #: En.Win32.Debug.Error-2.idtx:122 En.Win32.Release.Error-2.idtx:122
 #: En.x64.Debug.Error-2.idtx:122 En.x64.Release.Error-2.idtx:122
-msgid ""
-"You must be an Administrator to remove this application. To remove this "
-"application, you can log on as an Administrator, or contact your technical "
-"support group for assistance."
-msgstr ""
-"Du skal være Administrator for at kunne fjerne dette program. Du kan logge "
-"på som Administrator, eller kontakte den tekniske supportgruppe for at få "
-"hjælp."
+msgid "You must be an Administrator to remove this application. To remove this application, you can log on as an Administrator, or contact your technical support group for assistance."
+msgstr "Du skal være Administrator for at kunne fjerne dette program. Du kan logge på som Administrator, eller kontakte den tekniske supportgruppe for at få hjælp."
 
 #: En.Win32.Debug.Error-2.idtx:95 En.Win32.Release.Error-2.idtx:95
 #: En.x64.Debug.Error-2.idtx:95 En.x64.Release.Error-2.idtx:95
-msgid ""
-"You must restart your system for the configuration changes made to [2] to "
-"take effect. Click Yes to restart now or No if you plan to manually restart "
-"later."
-msgstr ""
-"Du skal genstarte dit system, for at konfigurationsændringerne i [2] kan "
-"træde i kraft. Klik på Ja for at genstarte nu eller Nej, hvis du vil "
-"genstarte manuelt senere."
+msgid "You must restart your system for the configuration changes made to [2] to take effect. Click Yes to restart now or No if you plan to manually restart later."
+msgstr "Du skal genstarte dit system, for at konfigurationsændringerne i [2] kan træde i kraft. Klik på Ja for at genstarte nu eller Nej, hvis du vil genstarte manuelt senere."

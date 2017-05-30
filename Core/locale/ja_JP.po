@@ -10,7 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 2.0.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Debug.ActionText-2.idtx:39
 #: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Debug.ActionText-2.idtx:53
@@ -25,12 +26,8 @@ msgstr "[1]"
 
 #: En.Win32.Debug.Error-2.idtx:105 En.Win32.Release.Error-2.idtx:105
 #: En.x64.Debug.Error-2.idtx:105 En.x64.Release.Error-2.idtx:105
-msgid ""
-"[2] cannot install one of its required products. Contact your technical "
-"support group.  {{System Error: [3].}}"
-msgstr ""
-"[2] は要求された製品の 1 つをインストールできません。技術的に詳しい方にお問い"
-"合わせください。 {{システム エラー : [3]}}"
+msgid "[2] cannot install one of its required products. Contact your technical support group.  {{System Error: [3].}}"
+msgstr "[2] は要求された製品の 1 つをインストールできません。技術的に詳しい方にお問い合わせください。 {{システム エラー : [3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:55 En.Win32.Release.Error-2.idtx:55
 #: En.x64.Debug.Error-2.idtx:55 En.x64.Release.Error-2.idtx:55
@@ -93,29 +90,18 @@ msgstr "932"
 
 #: En.Win32.Debug.Error-2.idtx:171 En.Win32.Release.Error-2.idtx:171
 #: En.x64.Debug.Error-2.idtx:171 En.x64.Release.Error-2.idtx:171
-msgid ""
-"64-bit registry operation attempted on 32-bit operating system for key [2]."
+msgid "64-bit registry operation attempted on 32-bit operating system for key [2]."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
 #: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
-msgid ""
-"A file that is required cannot be installed because the cabinet file [2] has "
-"an invalid digital signature.  This may indicate that the cabinet file is "
-"corrupt.{{  Error [3] was returned by WinVerifyTrust.}}"
-msgstr ""
-"キャビネット ファイル [2] に無効なデジタル署名が付いているため、必要なファイ"
-"ルをインストールできません。キャビネット ファイルが壊れている可能性がありま"
-"す。{{  エラー [3] が WinVerifyTrust によって返されました。}}"
+msgid "A file that is required cannot be installed because the cabinet file [2] has an invalid digital signature.  This may indicate that the cabinet file is corrupt.{{  Error [3] was returned by WinVerifyTrust.}}"
+msgstr "キャビネット ファイル [2] に無効なデジタル署名が付いているため、必要なファイルをインストールできません。キャビネット ファイルが壊れている可能性があります。{{  エラー [3] が WinVerifyTrust によって返されました。}}"
 
 #: En.Win32.Debug.Error-2.idtx:59 En.Win32.Release.Error-2.idtx:59
 #: En.x64.Debug.Error-2.idtx:59 En.x64.Release.Error-2.idtx:59
-msgid ""
-"A file that is required cannot be installed because the cabinet file [2] is "
-"not digitally signed.  This may indicate that the cabinet file is corrupt."
-msgstr ""
-"キャビネット ファイル [2] にデジタル署名が付いていないため、必要なファイルを"
-"インストールできません。キャビネット ファイルが壊れている可能性があります。"
+msgid "A file that is required cannot be installed because the cabinet file [2] is not digitally signed.  This may indicate that the cabinet file is corrupt."
+msgstr "キャビネット ファイル [2] にデジタル署名が付いていないため、必要なファイルをインストールできません。キャビネット ファイルが壊れている可能性があります。"
 
 #: En.Win32.Debug.Error-2.idtx:48 En.Win32.Release.Error-2.idtx:48
 #: En.x64.Debug.Error-2.idtx:48 En.x64.Release.Error-2.idtx:48
@@ -124,12 +110,8 @@ msgstr "ディレクトリ [2] を作成中に、ネットワーク エラーが
 
 #: En.Win32.Debug.Error-2.idtx:49 En.Win32.Release.Error-2.idtx:49
 #: En.x64.Debug.Error-2.idtx:49 En.x64.Release.Error-2.idtx:49
-msgid ""
-"A network error occurred while attempting to open the source file cabinet: "
-"[2]"
-msgstr ""
-"ソース ファイル キャビネットを開いている途中で、ネットワーク エラーが発生しま"
-"した: [2]。"
+msgid "A network error occurred while attempting to open the source file cabinet: [2]"
+msgstr "ソース ファイル キャビネットを開いている途中で、ネットワーク エラーが発生しました: [2]。"
 
 #: En.Win32.Debug.Error-2.idtx:46 En.Win32.Release.Error-2.idtx:46
 #: En.x64.Debug.Error-2.idtx:46 En.x64.Release.Error-2.idtx:46
@@ -143,22 +125,13 @@ msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
 #: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
-msgid ""
-"A portion of the folder path '[2]' is invalid.  It is either empty or "
-"exceeds the length allowed by the system."
-msgstr ""
-"フォルダ パス '[2]' の一部は無効です。フォルダ パスが空であるか、またはシステ"
-"ムで許可された長さを超えています。"
+msgid "A portion of the folder path '[2]' is invalid.  It is either empty or exceeds the length allowed by the system."
+msgstr "フォルダ パス '[2]' の一部は無効です。フォルダ パスが空であるか、またはシステムで許可された長さを超えています。"
 
 #: En.Win32.Debug.Error-2.idtx:97 En.Win32.Release.Error-2.idtx:97
 #: En.x64.Debug.Error-2.idtx:97 En.x64.Release.Error-2.idtx:97
-msgid ""
-"A previous installation for this product is in progress.  You must undo the "
-"changes made by that installation to continue.  Do you want to undo those "
-"changes?"
-msgstr ""
-"この製品のインストールは現在進行中です。続行するには、インストールによって行"
-"われた変更を取り消す必要があります。これらの変更を取り消しますか?"
+msgid "A previous installation for this product is in progress.  You must undo the changes made by that installation to continue.  Do you want to undo those changes?"
+msgstr "この製品のインストールは現在進行中です。続行するには、インストールによって行われた変更を取り消す必要があります。これらの変更を取り消しますか?"
 
 #: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
 #: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
@@ -202,63 +175,28 @@ msgstr "レジストリ領域を割り当てています"
 
 #: En.Win32.Debug.Error-2.idtx:170 En.Win32.Release.Error-2.idtx:170
 #: En.x64.Debug.Error-2.idtx:170 En.x64.Release.Error-2.idtx:170
-msgid ""
-"An error occurred during the installation of assembly '[6]'. One or more "
-"modules of the assembly could not be found. {{HRESULT: [3]. assembly "
-"interface: [4], function: [5], component: [2]}}"
-msgstr ""
-"アセンブリ '[6]' のインストール中にエラーが発生しました。アセンブリのモジュー"
-"ルの 1 つまたはそれ以上が見つかりません。HRESULT: [3]. {{アセンブリ インター"
-"フェイス: [4], 関数: [5], コンポーネント: [2]}}"
+msgid "An error occurred during the installation of assembly '[6]'. One or more modules of the assembly could not be found. {{HRESULT: [3]. assembly interface: [4], function: [5], component: [2]}}"
+msgstr "アセンブリ '[6]' のインストール中にエラーが発生しました。アセンブリのモジュールの 1 つまたはそれ以上が見つかりません。HRESULT: [3]. {{アセンブリ インターフェイス: [4], 関数: [5], コンポーネント: [2]}}"
 
 #: En.Win32.Debug.Error-2.idtx:167 En.Win32.Release.Error-2.idtx:167
 #: En.x64.Debug.Error-2.idtx:167 En.x64.Release.Error-2.idtx:167
-msgid ""
-"An error occurred during the installation of assembly '[6]'. Please refer to "
-"Help and Support for more information. {{HRESULT: [3]. assembly interface: "
-"[4], function: [5], component: [2]}}"
-msgstr ""
-"アセンブリ '[6]' のインストール中にエラーが発生しました。詳しくはヘルプとサ"
-"ポートを参照してください。HRESULT: [3]. {{アセンブリ インターフェイス: [4], "
-"関数: [5], コンポーネント: [2]}}"
+msgid "An error occurred during the installation of assembly '[6]'. Please refer to Help and Support for more information. {{HRESULT: [3]. assembly interface: [4], function: [5], component: [2]}}"
+msgstr "アセンブリ '[6]' のインストール中にエラーが発生しました。詳しくはヘルプとサポートを参照してください。HRESULT: [3]. {{アセンブリ インターフェイス: [4], 関数: [5], コンポーネント: [2]}}"
 
 #: En.Win32.Debug.Error-2.idtx:168 En.Win32.Release.Error-2.idtx:168
 #: En.x64.Debug.Error-2.idtx:168 En.x64.Release.Error-2.idtx:168
-msgid ""
-"An error occurred during the installation of assembly '[6]'. The assembly is "
-"not strongly named or is not signed with the minimal key length. {{HRESULT: "
-"[3]. assembly interface: [4], function: [5], component: [2]}}"
-msgstr ""
-"アセンブリ '[6]' のインストール中にエラーが発生しました。アセンブリ名の強さが"
-"十分でないか、長さの基準を満たしたキーを使って署名されていません。HRESULT: "
-"[3]. {{アセンブリ インターフェイス: [4], 関数: [5], コンポーネント: [2]}}"
+msgid "An error occurred during the installation of assembly '[6]'. The assembly is not strongly named or is not signed with the minimal key length. {{HRESULT: [3]. assembly interface: [4], function: [5], component: [2]}}"
+msgstr "アセンブリ '[6]' のインストール中にエラーが発生しました。アセンブリ名の強さが十分でないか、長さの基準を満たしたキーを使って署名されていません。HRESULT: [3]. {{アセンブリ インターフェイス: [4], 関数: [5], コンポーネント: [2]}}"
 
 #: En.Win32.Debug.Error-2.idtx:169 En.Win32.Release.Error-2.idtx:169
 #: En.x64.Debug.Error-2.idtx:169 En.x64.Release.Error-2.idtx:169
-msgid ""
-"An error occurred during the installation of assembly '[6]'. The signature "
-"or catalog could not be verified or is not valid. {{HRESULT: [3]. assembly "
-"interface: [4], function: [5], component: [2]}}"
-msgstr ""
-"アセンブリ '[6]' のインストール中にエラーが発生しました。署名またはカタログを"
-"検証できないか、またはそれらが無効です。 HRESULT: [3]. {{アセンブリ インター"
-"フェイス: [4], 関数: [5], コンポーネント: [2]}}"
+msgid "An error occurred during the installation of assembly '[6]'. The signature or catalog could not be verified or is not valid. {{HRESULT: [3]. assembly interface: [4], function: [5], component: [2]}}"
+msgstr "アセンブリ '[6]' のインストール中にエラーが発生しました。署名またはカタログを検証できないか、またはそれらが無効です。 HRESULT: [3]. {{アセンブリ インターフェイス: [4], 関数: [5], コンポーネント: [2]}}"
 
 #: En.Win32.Debug.Error-2.idtx:89 En.Win32.Release.Error-2.idtx:89
 #: En.x64.Debug.Error-2.idtx:89 En.x64.Release.Error-2.idtx:89
-msgid ""
-"An error occurred while applying security settings. [2] is not a valid user "
-"or group. This could be a problem with the package, or a problem connecting "
-"to a domain controller on the network. Check your network connection and "
-"click Retry, or Cancel to end the install. {{Unable to locate the user's "
-"SID, system error [3]}}"
-msgstr ""
-"セキュリティの設定を適用するときにエラーが発生しました。[2] は有効なユーザー"
-"またはグループではありません。これはパッケージの問題か、またはネットワーク上"
-"のドメイン コントローラに接続するときの問題の可能性があります。ネットワークの"
-"接続を確認し［再試行］をクリックするか、インストールを終了するには［キャンセ"
-"ル］をクリックしてください。 {{ユーザーの SID を検出できません, システム エ"
-"ラー [3]}}"
+msgid "An error occurred while applying security settings. [2] is not a valid user or group. This could be a problem with the package, or a problem connecting to a domain controller on the network. Check your network connection and click Retry, or Cancel to end the install. {{Unable to locate the user's SID, system error [3]}}"
+msgstr "セキュリティの設定を適用するときにエラーが発生しました。[2] は有効なユーザーまたはグループではありません。これはパッケージの問題か、またはネットワーク上のドメイン コントローラに接続するときの問題の可能性があります。ネットワークの接続を確認し［再試行］をクリックするか、インストールを終了するには［キャンセル］をクリックしてください。 {{ユーザーの SID を検出できません, システム エラー [3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:47 En.Win32.Release.Error-2.idtx:47
 #: En.x64.Debug.Error-2.idtx:47 En.x64.Release.Error-2.idtx:47
@@ -267,50 +205,28 @@ msgstr "ディレクトリ [2] を作成中に、エラーが発生しました�
 
 #: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
 #: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
-msgid ""
-"An error occurred while writing installation information to disk.  Check to "
-"make sure enough disk space is available, and click Retry, or Cancel to end "
-"the install."
-msgstr ""
-"インストール情報をディスクに書き込み中にエラーが発生しました。十分なディスク"
-"領域があることを確認してから、［再試行］をクリックして続行するか、または"
-"［キャンセル］をクリックしてインストールを中止してください。"
+msgid "An error occurred while writing installation information to disk.  Check to make sure enough disk space is available, and click Retry, or Cancel to end the install."
+msgstr "インストール情報をディスクに書き込み中にエラーが発生しました。十分なディスク領域があることを確認してから、［再試行］をクリックして続行するか、または［キャンセル］をクリックしてインストールを中止してください。"
 
 #: En.Win32.Debug.Error-2.idtx:96 En.Win32.Release.Error-2.idtx:96
 #: En.x64.Debug.Error-2.idtx:96 En.x64.Release.Error-2.idtx:96
-msgid ""
-"An installation for [2] is currently suspended.  You must undo the changes "
-"made by that installation to continue.  Do you want to undo those changes?"
-msgstr ""
-"[2] のインストールは現在中断されています。続行するには、インストールによって"
-"行われた変更を取り消す必要があります。これらの変更を取り消しますか?"
+msgid "An installation for [2] is currently suspended.  You must undo the changes made by that installation to continue.  Do you want to undo those changes?"
+msgstr "[2] のインストールは現在中断されています。続行するには、インストールによって行われた変更を取り消す必要があります。これらの変更を取り消しますか?"
 
 #: En.Win32.Debug.Error-2.idtx:98 En.Win32.Release.Error-2.idtx:98
 #: En.x64.Debug.Error-2.idtx:98 En.x64.Release.Error-2.idtx:98
-msgid ""
-"An installation package for the product [2] cannot be found. Try the "
-"installation again using a valid copy of the installation package '[3]'."
-msgstr ""
-"製品 [2] のインストール パッケージが見つかりませんでした。有効なコピーのイン"
-"ストール パッケージ '[3]' を使ってもう一度インストールしてください。"
+msgid "An installation package for the product [2] cannot be found. Try the installation again using a valid copy of the installation package '[3]'."
+msgstr "製品 [2] のインストール パッケージが見つかりませんでした。有効なコピーのインストール パッケージ '[3]' を使ってもう一度インストールしてください。"
 
 #: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
 #: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
-msgid ""
-"Another application has exclusive access to the file '[2]'.  Please shut "
-"down all other applications, then click Retry."
-msgstr ""
-"ファイル '[2]' は別のアプリケーションで使用されています。開いているアプリケー"
-"ションをすべて終了してから、［再試行］をクリックしてください。"
+msgid "Another application has exclusive access to the file '[2]'.  Please shut down all other applications, then click Retry."
+msgstr "ファイル '[2]' は別のアプリケーションで使用されています。開いているアプリケーションをすべて終了してから、［再試行］をクリックしてください。"
 
 #: En.Win32.Debug.Error-2.idtx:77 En.Win32.Release.Error-2.idtx:77
 #: En.x64.Debug.Error-2.idtx:77 En.x64.Release.Error-2.idtx:77
-msgid ""
-"Another installation is in progress. You must complete that installation "
-"before continuing this one."
-msgstr ""
-"別のインストールが現在行われています。新たにインストールを行うには、既に実行"
-"中のインストールを完了しなければなりません。"
+msgid "Another installation is in progress. You must complete that installation before continuing this one."
+msgstr "別のインストールが現在行われています。新たにインストールを行うには、既に実行中のインストールを完了しなければなりません。"
 
 #: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
 #: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
@@ -351,22 +267,13 @@ msgstr "実行ファイルをバインドしています"
 
 #: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
 #: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
-msgid ""
-"Cannot create the directory '[2]'.  A file with this name already exists.  "
-"Please rename or remove the file and click retry, or click Cancel to exit."
-msgstr ""
-"ディレクトリ '[2]' を作成できません。この名前のファイルが既にあります。ファイ"
-"ルの名前を変更するか、ファイルを削除してから、［再試行］をクリックしてくださ"
-"い。または、［キャンセル］をクリックして、終了してください。"
+msgid "Cannot create the directory '[2]'.  A file with this name already exists.  Please rename or remove the file and click retry, or click Cancel to exit."
+msgstr "ディレクトリ '[2]' を作成できません。この名前のファイルが既にあります。ファイルの名前を変更するか、ファイルを削除してから、［再試行］をクリックしてください。または、［キャンセル］をクリックして、終了してください。"
 
 #: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
 #: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
-msgid ""
-"Cannot create the file '[2]'.  A directory with this name already exists.  "
-"Cancel the install and try installing to a different location."
-msgstr ""
-"ファイル '[2]' を作成できません。この名前のディレクトリが既にあります。インス"
-"トールを取り消し、別の場所にインストールしてください。"
+msgid "Cannot create the file '[2]'.  A directory with this name already exists.  Cancel the install and try installing to a different location."
+msgstr "ファイル '[2]' を作成できません。この名前のディレクトリが既にあります。インストールを取り消し、別の場所にインストールしてください。"
 
 #: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Debug.ActionText-2.idtx:64
 #: En.Win32.Release.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:64
@@ -384,14 +291,8 @@ msgstr "コンポーネント ID: [1]、修飾子: [2]"
 
 #: En.Win32.Debug.Error-2.idtx:159 En.Win32.Release.Error-2.idtx:159
 #: En.x64.Debug.Error-2.idtx:159 En.x64.Release.Error-2.idtx:159
-msgid ""
-"Component Services (COM+ 1.0) are not installed on this computer.  This "
-"installation requires Component Services in order to complete successfully.  "
-"Component Services are available on Windows 2000."
-msgstr ""
-"コンポーネント サービス (COM+ 1.0) は、このコンピュータに正しくインストールさ"
-"れていません。インストールを完了するには コンポーネント サービスが必要です。"
-"コンポーネント サービスは、Windows 2000 で利用できます。"
+msgid "Component Services (COM+ 1.0) are not installed on this computer.  This installation requires Component Services in order to complete successfully.  Component Services are available on Windows 2000."
+msgstr "コンポーネント サービス (COM+ 1.0) は、このコンピュータに正しくインストールされていません。インストールを完了するには コンポーネント サービスが必要です。コンポーネント サービスは、Windows 2000 で利用できます。"
 
 #: En.Win32.Debug.ActionText-2.idtx:10 En.Win32.Debug.ActionText-2.idtx:15
 #: En.Win32.Debug.ActionText-2.idtx:9 En.Win32.Release.ActionText-2.idtx:10
@@ -434,203 +335,108 @@ msgstr "ネットワーク上の場所 [2] へアクセスできません。"
 
 #: En.Win32.Debug.Error-2.idtx:67 En.Win32.Release.Error-2.idtx:67
 #: En.x64.Debug.Error-2.idtx:67 En.x64.Release.Error-2.idtx:67
-msgid ""
-"Could not create key: [2]. {{ System error [3].}}  Verify that you have "
-"sufficient access to that key, or contact your support personnel. "
-msgstr ""
-"キーを作成できませんでした: [2]。{{ システム エラー [3]。}} そのキーへの十分"
-"なアクセスがあることを確認するか、またはサポート担当者に問い合わせてくださ"
-"い。 "
+msgid "Could not create key: [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
+msgstr "キーを作成できませんでした: [2]。{{ システム エラー [3]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。 "
 
 #: En.Win32.Debug.Error-2.idtx:141 En.Win32.Release.Error-2.idtx:141
 #: En.x64.Debug.Error-2.idtx:141 En.x64.Release.Error-2.idtx:141
-msgid ""
-"Could not create Shortcut [2]. Verify that the destination folder exists and "
-"that you can access it."
-msgstr ""
-"ショートカット [2] を作成できません。目的のフォルダが存在し、アクセスできるこ"
-"とを確認してください。"
+msgid "Could not create Shortcut [2]. Verify that the destination folder exists and that you can access it."
+msgstr "ショートカット [2] を作成できません。目的のフォルダが存在し、アクセスできることを確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:70 En.Win32.Release.Error-2.idtx:70
 #: En.x64.Debug.Error-2.idtx:70 En.x64.Release.Error-2.idtx:70
-msgid ""
-"Could not delete key [2]. {{ System error [3].}}  Verify that you have "
-"sufficient access to that key, or contact your support personnel. "
-msgstr ""
-"キー [2] を削除できませんでした。{{ システム エラー [3]。}} そのキーへの十分"
-"なアクセスがあることを確認するか、またはサポート担当者に問い合わせてくださ"
-"い。 "
+msgid "Could not delete key [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
+msgstr "キー [2] を削除できませんでした。{{ システム エラー [3]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。 "
 
 #: En.Win32.Debug.Error-2.idtx:69 En.Win32.Release.Error-2.idtx:69
 #: En.x64.Debug.Error-2.idtx:69 En.x64.Release.Error-2.idtx:69
-msgid ""
-"Could not delete value [2] from key [3]. {{ System error [4].}}  Verify that "
-"you have sufficient access to that key, or contact your support personnel. "
-msgstr ""
-"キー [3] から値 [2] を削除できませんでした。{{ システム エラー [4]。}} その"
-"キーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わ"
-"せてください。 "
+msgid "Could not delete value [2] from key [3]. {{ System error [4].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
+msgstr "キー [3] から値 [2] を削除できませんでした。{{ システム エラー [4]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。 "
 
 #: En.Win32.Debug.Error-2.idtx:88 En.Win32.Release.Error-2.idtx:88
 #: En.x64.Debug.Error-2.idtx:88 En.x64.Release.Error-2.idtx:88
-msgid ""
-"Could not find any previously installed compliant products on the machine "
-"for installing this product."
-msgstr ""
-"このコンピュータにこの製品をインストールするのに、前もってインストールされて"
-"いなければならない製品が見つかりませんでした。"
+msgid "Could not find any previously installed compliant products on the machine for installing this product."
+msgstr "このコンピュータにこの製品をインストールするのに、前もってインストールされていなければならない製品が見つかりませんでした。"
 
 #: En.Win32.Debug.Error-2.idtx:74 En.Win32.Release.Error-2.idtx:74
 #: En.x64.Debug.Error-2.idtx:74 En.x64.Release.Error-2.idtx:74
-msgid ""
-"Could not get sub key names for key [2]. {{ System error [3].}}  Verify that "
-"you have sufficient access to that key, or contact your support personnel."
-msgstr ""
-"キー [2] に対するサブ キー名を取得できませんでした。{{ システム エラー "
-"[3]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当"
-"者に問い合わせてください。"
+msgid "Could not get sub key names for key [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel."
+msgstr "キー [2] に対するサブ キー名を取得できませんでした。{{ システム エラー [3]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。"
 
 #: En.Win32.Debug.Error-2.idtx:73 En.Win32.Release.Error-2.idtx:73
 #: En.x64.Debug.Error-2.idtx:73 En.x64.Release.Error-2.idtx:73
-msgid ""
-"Could not get value names for key [2]. {{ System error [3].}}  Verify that "
-"you have sufficient access to that key, or contact your support personnel."
-msgstr ""
-"キー [2] に対する値の名前を取得できませんでした。{{ システム エラー [3]。}} "
-"そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い"
-"合わせてください。"
+msgid "Could not get value names for key [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel."
+msgstr "キー [2] に対する値の名前を取得できませんでした。{{ システム エラー [3]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。"
 
 #: En.Win32.Debug.Error-2.idtx:76 En.Win32.Release.Error-2.idtx:76
 #: En.x64.Debug.Error-2.idtx:76 En.x64.Release.Error-2.idtx:76
-msgid ""
-"Could not increase the available registry space. [2] KB of free registry "
-"space is required for the installation of this application."
-msgstr ""
-"使用可能なレジストリ領域を増やすことができませんでした。このアプリケーション"
-"をインストールするには、[2] KB のレジストリ領域が必要です。"
+msgid "Could not increase the available registry space. [2] KB of free registry space is required for the installation of this application."
+msgstr "使用可能なレジストリ領域を増やすことができませんでした。このアプリケーションをインストールするには、[2] KB のレジストリ領域が必要です。"
 
 #: En.Win32.Debug.Error-2.idtx:68 En.Win32.Release.Error-2.idtx:68
 #: En.x64.Debug.Error-2.idtx:68 En.x64.Release.Error-2.idtx:68
-msgid ""
-"Could not open key: [2]. {{ System error [3].}}  Verify that you have "
-"sufficient access to that key, or contact your support personnel. "
-msgstr ""
-"キーを開くことができませんでした: [2]。{{ システム エラー [3]。}} そのキーへ"
-"の十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてく"
-"ださい。 "
+msgid "Could not open key: [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
+msgstr "キーを開くことができませんでした: [2]。{{ システム エラー [3]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。 "
 
 #: En.Win32.Debug.Error-2.idtx:75 En.Win32.Release.Error-2.idtx:75
 #: En.x64.Debug.Error-2.idtx:75 En.x64.Release.Error-2.idtx:75
-msgid ""
-"Could not read security information for key [2]. {{ System error [3].}}  "
-"Verify that you have sufficient access to that key, or contact your support "
-"personnel."
-msgstr ""
-"キー [2] に対するセキュリティ情報を読み取れませんでした。{{ システム エラー "
-"[3]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当"
-"者に問い合わせてください。"
+msgid "Could not read security information for key [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel."
+msgstr "キー [2] に対するセキュリティ情報を読み取れませんでした。{{ システム エラー [3]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。"
 
 #: En.Win32.Debug.Error-2.idtx:71 En.Win32.Release.Error-2.idtx:71
 #: En.x64.Debug.Error-2.idtx:71 En.x64.Release.Error-2.idtx:71
-msgid ""
-"Could not read value [2] from key [3]. {{ System error [4].}}  Verify that "
-"you have sufficient access to that key, or contact your support personnel. "
-msgstr ""
-"キー [3] から値 [2] を読み取れませんでした。{{ システム エラー [4]。}} その"
-"キーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わ"
-"せてください。 "
+msgid "Could not read value [2] from key [3]. {{ System error [4].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
+msgstr "キー [3] から値 [2] を読み取れませんでした。{{ システム エラー [4]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。 "
 
 #: En.Win32.Debug.Error-2.idtx:139 En.Win32.Release.Error-2.idtx:139
 #: En.x64.Debug.Error-2.idtx:139 En.x64.Release.Error-2.idtx:139
-msgid ""
-"Could not register font [2].  Verify that you have sufficient permissions to "
-"install fonts, and that the system supports this font."
-msgstr ""
-"フォント [2] を登録できません。このフォントをインストールする権利があるかどう"
-"か、またシステムがこのフォントをサポートしているかどうかを確認してください。"
+msgid "Could not register font [2].  Verify that you have sufficient permissions to install fonts, and that the system supports this font."
+msgstr "フォント [2] を登録できません。このフォントをインストールする権利があるかどうか、またシステムがこのフォントをサポートしているかどうかを確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:143 En.Win32.Release.Error-2.idtx:143
 #: En.x64.Debug.Error-2.idtx:143 En.x64.Release.Error-2.idtx:143
-msgid ""
-"Could not register type library for file [2].  Contact your support "
-"personnel."
-msgstr ""
-"ファイル [2] のための種類のライブラリを登録できませんでした。サポート担当者に"
-"問い合わせてください。"
+msgid "Could not register type library for file [2].  Contact your support personnel."
+msgstr "ファイル [2] のための種類のライブラリを登録できませんでした。サポート担当者に問い合わせてください。"
 
 #: En.Win32.Debug.Error-2.idtx:142 En.Win32.Release.Error-2.idtx:142
 #: En.x64.Debug.Error-2.idtx:142 En.x64.Release.Error-2.idtx:142
-msgid ""
-"Could not remove Shortcut [2]. Verify that the shortcut file exists and that "
-"you can access it."
-msgstr ""
-"ショートカット [2] を削除できません。ショートカット ファイルが存在し、アクセ"
-"スできることを確認してください。"
+msgid "Could not remove Shortcut [2]. Verify that the shortcut file exists and that you can access it."
+msgstr "ショートカット [2] を削除できません。ショートカット ファイルが存在し、アクセスできることを確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:146 En.Win32.Release.Error-2.idtx:146
 #: En.x64.Debug.Error-2.idtx:146 En.x64.Release.Error-2.idtx:146
-msgid ""
-"Could not schedule file [2] to replace file [3] on reboot.  Verify that you "
-"have write permissions to file [3]."
-msgstr ""
-"再起動するときに、ファイル [3] を [2] で置き換えるようにスケジュールすること"
-"ができません。ファイル [3] への書き込みのアクセス許可を持っていることを確認し"
-"てください。"
+msgid "Could not schedule file [2] to replace file [3] on reboot.  Verify that you have write permissions to file [3]."
+msgstr "再起動するときに、ファイル [3] を [2] で置き換えるようにスケジュールすることができません。ファイル [3] への書き込みのアクセス許可を持っていることを確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:158 En.Win32.Release.Error-2.idtx:158
 #: En.x64.Debug.Error-2.idtx:158 En.x64.Release.Error-2.idtx:158
-msgid ""
-"Could not set file security for file '[3]'. Error: [2].  Verify that you "
-"have sufficient privileges to modify the security permissions for this file."
-msgstr ""
-"ファイル '[3]' に対するセキュリティを設定できません。エラー : [2]。 このファ"
-"イルに対してセキュリティを変更する権限を持っているかどうか確認してください。"
+msgid "Could not set file security for file '[3]'. Error: [2].  Verify that you have sufficient privileges to modify the security permissions for this file."
+msgstr "ファイル '[3]' に対するセキュリティを設定できません。エラー : [2]。 このファイルに対してセキュリティを変更する権限を持っているかどうか確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:140 En.Win32.Release.Error-2.idtx:140
 #: En.x64.Debug.Error-2.idtx:140 En.x64.Release.Error-2.idtx:140
-msgid ""
-"Could not unregister font [2]. Verify that you that you have sufficient "
-"permissions to remove fonts."
-msgstr ""
-"フォント [2] の登録を解除できませんでした。フォントを削除するのに十分なアクセ"
-"ス許可があることを確認してください。"
+msgid "Could not unregister font [2]. Verify that you that you have sufficient permissions to remove fonts."
+msgstr "フォント [2] の登録を解除できませんでした。フォントを削除するのに十分なアクセス許可があることを確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:144 En.Win32.Release.Error-2.idtx:144
 #: En.x64.Debug.Error-2.idtx:144 En.x64.Release.Error-2.idtx:144
-msgid ""
-"Could not unregister type library for file [2].  Contact your support "
-"personnel."
-msgstr ""
-"ファイル [2] のための種類のライブラリの登録を解除できませんでした。サポート担"
-"当者に問い合わせてください。"
+msgid "Could not unregister type library for file [2].  Contact your support personnel."
+msgstr "ファイル [2] のための種類のライブラリの登録を解除できませんでした。サポート担当者に問い合わせてください。"
 
 #: En.Win32.Debug.Error-2.idtx:156 En.Win32.Release.Error-2.idtx:156
 #: En.x64.Debug.Error-2.idtx:156 En.x64.Release.Error-2.idtx:156
-msgid ""
-"Could not update environment variable '[2]'.  Verify that you have "
-"sufficient privileges to modify environment variables."
-msgstr ""
-"環境変数 '[2]' を更新できませんでした。環境変数を修正する特権を持っていること"
-"を確認してください。"
+msgid "Could not update environment variable '[2]'.  Verify that you have sufficient privileges to modify environment variables."
+msgstr "環境変数 '[2]' を更新できませんでした。環境変数を修正する特権を持っていることを確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
 #: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
-msgid ""
-"Could not update the ini file [2][3].  Verify that the file exists and that "
-"you can access it."
-msgstr ""
-"INI ファイル [2][3] を更新できませんでした。ファイルが存在し、アクセスできる"
-"ことを確認してください。"
+msgid "Could not update the ini file [2][3].  Verify that the file exists and that you can access it."
+msgstr "INI ファイル [2][3] を更新できませんでした。ファイルが存在し、アクセスできることを確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
 #: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
-msgid ""
-"Could not write value [2] to key [3]. {{ System error [4].}}  Verify that "
-"you have sufficient access to that key, or contact your support personnel."
-msgstr ""
-"値 [2] をキー [3] に書き込めません。{{ システム エラー [4]。}} そのキーへの十"
-"分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてくださ"
-"い。"
+msgid "Could not write value [2] to key [3]. {{ System error [4].}}  Verify that you have sufficient access to that key, or contact your support personnel."
+msgstr "値 [2] をキー [3] に書き込めません。{{ システム エラー [4]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。"
 
 #: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:14
 #: En.x64.Debug.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:14
@@ -654,144 +460,83 @@ msgstr "サービスを削除しています"
 
 #: En.Win32.Debug.Error-2.idtx:78 En.Win32.Release.Error-2.idtx:78
 #: En.x64.Debug.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
-msgid ""
-"Error accessing secured data. Please make sure the Windows Installer is "
-"configured properly and try the install again."
-msgstr ""
-"保護されているデータへのアクセスでエラーが発生しました。Windows インストーラ"
-"が正しく設定されていることを確認してから、再度インストールを実行してくださ"
-"い。"
+msgid "Error accessing secured data. Please make sure the Windows Installer is configured properly and try the install again."
+msgstr "保護されているデータへのアクセスでエラーが発生しました。Windows インストーラが正しく設定されていることを確認してから、再度インストールを実行してください。"
 
 #: En.Win32.Debug.Error-2.idtx:58 En.Win32.Release.Error-2.idtx:58
 #: En.x64.Debug.Error-2.idtx:58 En.x64.Release.Error-2.idtx:58
-msgid ""
-"Error applying patch to file [2].  It has probably been updated by other "
-"means, and can no longer be modified by this patch.  For more information "
-"contact your patch vendor.  {{System Error: [3]}}"
-msgstr ""
-"ファイル [2] にパッチを適用する時にエラーが発生しました。おそらく別の方法に"
-"よってアップデートされたためです。このパッチで変更することはできません。詳細"
-"は、このパッチのベンダーにお問い合わせください。 {{システム エラー : [3]}}"
+msgid "Error applying patch to file [2].  It has probably been updated by other means, and can no longer be modified by this patch.  For more information contact your patch vendor.  {{System Error: [3]}}"
+msgstr "ファイル [2] にパッチを適用する時にエラーが発生しました。おそらく別の方法によってアップデートされたためです。このパッチで変更することはできません。詳細は、このパッチのベンダーにお問い合わせください。 {{システム エラー : [3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:133 En.Win32.Release.Error-2.idtx:133
 #: En.x64.Debug.Error-2.idtx:133 En.x64.Release.Error-2.idtx:133
 msgid "Error attempting to read from the source install database: [2]."
-msgstr ""
-"ソース インストール データベースから読み取るときにエラーが発生しました: [2]。"
+msgstr "ソース インストール データベースから読み取るときにエラーが発生しました: [2]。"
 
 #: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
 #: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
-msgid ""
-"Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that "
-"the file [4] exists and that you can access it."
-msgstr ""
-"ODBC データ ソースの構成でエラーが発生しました: [4]。ODBC エラー [2]: [3]。"
-"ファイル [4] が存在し、アクセスできることを確認してください。"
+msgid "Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that the file [4] exists and that you can access it."
+msgstr "ODBC データ ソースの構成でエラーが発生しました: [4]。ODBC エラー [2]: [3]。ファイル [4] が存在し、アクセスできることを確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:56 En.Win32.Release.Error-2.idtx:56
 #: En.x64.Debug.Error-2.idtx:56 En.x64.Release.Error-2.idtx:56
 msgid "Error getting file security: [3] GetLastError: [2]"
-msgstr ""
-"ファイル セキュリティを取得するときにエラーが発生しました: [3] GetLastError: "
-"[2]"
+msgstr "ファイル セキュリティを取得するときにエラーが発生しました: [3] GetLastError: [2]"
 
 #: En.Win32.Debug.Error-2.idtx:148 En.Win32.Release.Error-2.idtx:148
 #: En.x64.Debug.Error-2.idtx:148 En.x64.Release.Error-2.idtx:148
-msgid ""
-"Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your "
-"support personnel."
-msgstr ""
-"ODBC ドライバ マネージャのインストールでエラーが発生しました。ODBC エラー "
-"[2]: [3]。サポート担当者に問い合わせてください。"
+msgid "Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your support personnel."
+msgstr "ODBC ドライバ マネージャのインストールでエラーが発生しました。ODBC エラー [2]: [3]。サポート担当者に問い合わせてください。"
 
 #: En.Win32.Debug.Error-2.idtx:150 En.Win32.Release.Error-2.idtx:150
 #: En.x64.Debug.Error-2.idtx:150 En.x64.Release.Error-2.idtx:150
-msgid ""
-"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file "
-"[4] exists and that you can access it."
-msgstr ""
-"ODBC ドライバ [4] のインストールでエラーが発生しました。ODBC エラー [2]: "
-"[3]。ファイル [4] が存在し、アクセスできることを確認してください。"
+msgid "Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file [4] exists and that you can access it."
+msgstr "ODBC ドライバ [4] のインストールでエラーが発生しました。ODBC エラー [2]: [3]。ファイル [4] が存在し、アクセスできることを確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:35 En.Win32.Release.Error-2.idtx:35
 #: En.x64.Debug.Error-2.idtx:35 En.x64.Release.Error-2.idtx:35
-msgid ""
-"Error reading from file [2]. {{ System error [3].}} Verify that the file "
-"exists and that you can access it."
-msgstr ""
-"ファイル [2] の読み込みに失敗しました。{{ システム エラー [3]。}} ファイルが"
-"存在しアクセス権があることを確認してください。"
+msgid "Error reading from file [2]. {{ System error [3].}} Verify that the file exists and that you can access it."
+msgstr "ファイル [2] の読み込みに失敗しました。{{ システム エラー [3]。}} ファイルが存在しアクセス権があることを確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:30 En.Win32.Release.Error-2.idtx:30
 #: En.x64.Debug.Error-2.idtx:30 En.x64.Release.Error-2.idtx:30
-msgid ""
-"Error reading from file: [2]. {{ System error [3].}}  Verify that the file "
-"exists and that you can access it."
-msgstr ""
-"ファイルを読み取るときにエラーが発生しました: [2]。{{ システム エラー "
-"[3]。}} ファイルが存在し、アクセスできることを確認してください。"
+msgid "Error reading from file: [2]. {{ System error [3].}}  Verify that the file exists and that you can access it."
+msgstr "ファイルを読み取るときにエラーが発生しました: [2]。{{ システム エラー [3]。}} ファイルが存在し、アクセスできることを確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:39 En.Win32.Release.Error-2.idtx:39
 #: En.x64.Debug.Error-2.idtx:39 En.x64.Release.Error-2.idtx:39
-msgid ""
-"Error reading from file: [3]. {{ System error [2].}}  Verify that the file "
-"exists and that you can access it."
-msgstr ""
-"ファイルを読み取るときにエラーが発生しました: [3]。{{ システム エラー "
-"[2]。}} ファイルが存在し、アクセスできることを確認してください。"
+msgid "Error reading from file: [3]. {{ System error [2].}}  Verify that the file exists and that you can access it."
+msgstr "ファイルを読み取るときにエラーが発生しました: [3]。{{ システム エラー [2]。}} ファイルが存在し、アクセスできることを確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
 #: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
-msgid ""
-"Error registering COM+ Application.  Contact your support personnel for more "
-"information."
-msgstr ""
-"COM+ アプリケーションの登録エラーです。詳しくはサポート担当者へお問い合わせく"
-"ださい。"
+msgid "Error registering COM+ Application.  Contact your support personnel for more information."
+msgstr "COM+ アプリケーションの登録エラーです。詳しくはサポート担当者へお問い合わせください。"
 
 #: En.Win32.Debug.Error-2.idtx:147 En.Win32.Release.Error-2.idtx:147
 #: En.x64.Debug.Error-2.idtx:147 En.x64.Release.Error-2.idtx:147
-msgid ""
-"Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your "
-"support personnel."
-msgstr ""
-"ODBC ドライバ マネージャの削除でエラーが発生しました。ODBC エラー [2]: [3]。"
-"サポート担当者に問い合わせてください。"
+msgid "Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your support personnel."
+msgstr "ODBC ドライバ マネージャの削除でエラーが発生しました。ODBC エラー [2]: [3]。サポート担当者に問い合わせてください。"
 
 #: En.Win32.Debug.Error-2.idtx:149 En.Win32.Release.Error-2.idtx:149
 #: En.x64.Debug.Error-2.idtx:149 En.x64.Release.Error-2.idtx:149
-msgid ""
-"Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you have "
-"sufficient privileges to remove ODBC drivers."
-msgstr ""
-"ODBC ドライバ [4] の削除でエラーが発生しました。ODBC エラー [2]: [3]。ODBC ド"
-"ライバを削除する特権を持っていることを確認してください。"
+msgid "Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you have sufficient privileges to remove ODBC drivers."
+msgstr "ODBC ドライバ [4] の削除でエラーが発生しました。ODBC エラー [2]: [3]。ODBC ドライバを削除する特権を持っていることを確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:161 En.Win32.Release.Error-2.idtx:161
 #: En.x64.Debug.Error-2.idtx:161 En.x64.Release.Error-2.idtx:161
-msgid ""
-"Error unregistering COM+ Application.  Contact your support personnel for "
-"more information."
-msgstr ""
-"COM+ アプリケーションの登録解除のエラーです。詳しくはサポート担当者へお問い合"
-"わせください。"
+msgid "Error unregistering COM+ Application.  Contact your support personnel for more information."
+msgstr "COM+ アプリケーションの登録解除のエラーです。詳しくはサポート担当者へお問い合わせください。"
 
 #: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
 #: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
-msgid ""
-"Error writing to file: [2].  Verify that you have access to that directory."
-msgstr ""
-"ファイルに書き込むときにエラーが発生しました: [2]。このディレクトリにアクセス"
-"できることを確認してください。"
+msgid "Error writing to file: [2].  Verify that you have access to that directory."
+msgstr "ファイルに書き込むときにエラーが発生しました: [2]。このディレクトリにアクセスできることを確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:40 En.Win32.Release.Error-2.idtx:40
 #: En.x64.Debug.Error-2.idtx:40 En.x64.Release.Error-2.idtx:40
-msgid ""
-"Error writing to file: [3]. {{ System error [2].}}  Verify that you have "
-"access to that directory."
-msgstr ""
-"ファイルに書き込むときにエラーが発生しました: [3]。{{ システム エラー[2]。}} "
-"このディレクトリにアクセスできることを確認してください。"
+msgid "Error writing to file: [3]. {{ System error [2].}}  Verify that you have access to that directory."
+msgstr "ファイルに書き込むときにエラーが発生しました: [3]。{{ システム エラー[2]。}} このディレクトリにアクセスできることを確認してください。"
 
 #: En.Win32.Debug.ActionText-2.idtx:24 En.Win32.Release.ActionText-2.idtx:24
 #: En.x64.Debug.ActionText-2.idtx:24 En.x64.Release.ActionText-2.idtx:24
@@ -807,11 +552,8 @@ msgstr "エクステンション: [1]"
 
 #: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
 #: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
-msgid ""
-"Failed to cache package [2]. Error: [3]. Contact your support personnel."
-msgstr ""
-"パッケージ [2] のキャッシュに失敗しました。エラー: [3]。サポート担当者に問い"
-"合わせてください。"
+msgid "Failed to cache package [2]. Error: [3]. Contact your support personnel."
+msgstr "パッケージ [2] のキャッシュに失敗しました。エラー: [3]。サポート担当者に問い合わせてください。"
 
 #: En.Win32.Debug.Error-2.idtx:61 En.Win32.Release.Error-2.idtx:61
 #: En.x64.Debug.Error-2.idtx:61 En.x64.Release.Error-2.idtx:61
@@ -826,8 +568,7 @@ msgstr "[2] ファイルを正しく移動できませんでした: CRC エラ�
 #: En.Win32.Debug.Error-2.idtx:63 En.Win32.Release.Error-2.idtx:63
 #: En.x64.Debug.Error-2.idtx:63 En.x64.Release.Error-2.idtx:63
 msgid "Failed to correctly patch [2] file: CRC error."
-msgstr ""
-"修正プログラムをファイル [2] に正しく適用できませんでした: CRC エラー。"
+msgstr "修正プログラムをファイル [2] に正しく適用できませんでした: CRC エラー。"
 
 #: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Debug.ActionText-2.idtx:62
 #: En.Win32.Release.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:62
@@ -931,15 +672,8 @@ msgstr "操作のためのスクリプト操作を作成しています:"
 
 #: En.Win32.Debug.Error-2.idtx:124 En.Win32.Release.Error-2.idtx:124
 #: En.x64.Debug.Error-2.idtx:124 En.x64.Release.Error-2.idtx:124
-msgid ""
-"In order to complete the installation of [2], you must restart the computer. "
-"Other users are currently logged on to this computer, and restarting may "
-"cause them to lose their work. Do you want to restart now?"
-msgstr ""
-"[2] のインストールを完了するためには、コンピュータを再起動する必要がありま"
-"す。ほかのユーザーが現在このコンピュータにログオンしています。再起動するとそ"
-"のユーザーが保存していない作業が失われる可能性があります。今すぐ再起動します"
-"か?"
+msgid "In order to complete the installation of [2], you must restart the computer. Other users are currently logged on to this computer, and restarting may cause them to lose their work. Do you want to restart now?"
+msgstr "[2] のインストールを完了するためには、コンピュータを再起動する必要があります。ほかのユーザーが現在このコンピュータにログオンしています。再起動するとそのユーザーが保存していない作業が失われる可能性があります。今すぐ再起動しますか?"
 
 #: En.Win32.Debug.Error-2.idtx:8 En.Win32.Release.Error-2.idtx:8
 #: En.x64.Debug.Error-2.idtx:8 En.x64.Release.Error-2.idtx:8
@@ -1016,7 +750,7 @@ msgstr "ライブラリ ID: [1]"
 #: En.Win32.Debug.Error-2.idtx:15 En.Win32.Release.Error-2.idtx:15
 #: En.x64.Debug.Error-2.idtx:15 En.x64.Release.Error-2.idtx:15
 msgid "Message type: [1], Argument: [2]{, [3]}"
-msgstr "メッセージの種類: [1], 引数: [2]"
+msgstr "メッセージの種類: [1], 引数: [2]{, [3]}"
 
 #: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
 #: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
@@ -1032,20 +766,13 @@ msgstr "MIME コンテント タイプ: [1]、エクステンション: [2]"
 
 #: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
 #: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
-msgid ""
-"Module [2] failed to register.  HRESULT [3].  Contact your support personnel."
-msgstr ""
-"モジュール [2] で登録に失敗しました。HRESULT [3]。サポート担当者に問い合わせ"
-"てください。"
+msgid "Module [2] failed to register.  HRESULT [3].  Contact your support personnel."
+msgstr "モジュール [2] で登録に失敗しました。HRESULT [3]。サポート担当者に問い合わせてください。"
 
 #: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
 #: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
-msgid ""
-"Module [2] failed to unregister.  HRESULT [3].  Contact your support "
-"personnel."
-msgstr ""
-"モジュール [2] で登録の解除に失敗しました。HRESULT [3]。サポート担当者に問い"
-"合わせてください。"
+msgid "Module [2] failed to unregister.  HRESULT [3].  Contact your support personnel."
+msgstr "モジュール [2] で登録の解除に失敗しました。HRESULT [3]。サポート担当者に問い合わせてください。"
 
 #: En.Win32.Debug.ActionText-2.idtx:26 En.Win32.Release.ActionText-2.idtx:26
 #: En.x64.Debug.ActionText-2.idtx:26 En.x64.Release.ActionText-2.idtx:26
@@ -1061,29 +788,20 @@ msgstr "名前: [1]、値: [2]、操作 [3]"
 
 #: En.Win32.Debug.Error-2.idtx:104 En.Win32.Release.Error-2.idtx:104
 #: En.x64.Debug.Error-2.idtx:104 En.x64.Release.Error-2.idtx:104
-msgid ""
-"One or more of the files required to restore your computer to its previous "
-"state could not be found.  Restoration will not be possible."
-msgstr ""
-"このコンピュータを直前の状態に復元するために必要なファイルの一部が見つかりま"
-"せんでした。復元することはできません。"
+msgid "One or more of the files required to restore your computer to its previous state could not be found.  Restoration will not be possible."
+msgstr "このコンピュータを直前の状態に復元するために必要なファイルの一部が見つかりませんでした。復元することはできません。"
 
 #: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
 #: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
-msgid ""
-"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
-"[4] KB.  Free some disk space and retry."
-msgstr ""
-"ディスク領域が足りません -- ボリューム: '[2]'; 必要な領域: [3] KB; 利用可能な"
-"領域: [4] KB。ディスク領域を解放してから、再試行してください。"
+msgid "Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: [4] KB.  Free some disk space and retry."
+msgstr "ディスク領域が足りません -- ボリューム: '[2]'; 必要な領域: [3] KB; 利用可能な領域: [4] KB。ディスク領域を解放してから、再試行してください。"
 
 #: En.Win32.Debug.Error-2.idtx:127 En.Win32.Debug.Error-2.idtx:21
 #: En.Win32.Release.Error-2.idtx:127 En.Win32.Release.Error-2.idtx:21
 #: En.x64.Debug.Error-2.idtx:127 En.x64.Debug.Error-2.idtx:21
 #: En.x64.Release.Error-2.idtx:127 En.x64.Release.Error-2.idtx:21
 msgid "Out of memory. Shut down other applications before retrying."
-msgstr ""
-"メモリ不足です。ほかのアプリケーションを閉じてから、再試行してください。"
+msgstr "メモリ不足です。ほかのアプリケーションを閉じてから、再試行してください。"
 
 #: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
 #: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
@@ -1098,8 +816,7 @@ msgstr "ディスク [2] を挿入してください。"
 #: En.Win32.Debug.Error-2.idtx:24 En.Win32.Release.Error-2.idtx:24
 #: En.x64.Debug.Error-2.idtx:24 En.x64.Release.Error-2.idtx:24
 msgid "Please wait while Windows configures [SimpleProductName]"
-msgstr ""
-"Windows に [SimpleProductName] を設定しています。しばらくお待ちください。"
+msgstr "Windows に [SimpleProductName] を設定しています。しばらくお待ちください。"
 
 #: En.Win32.Debug.Error-2.idtx:27 En.Win32.Release.Error-2.idtx:27
 #: En.x64.Debug.Error-2.idtx:27 En.x64.Release.Error-2.idtx:27
@@ -1270,21 +987,13 @@ msgstr "操作を元に戻しています:"
 
 #: En.Win32.Debug.Error-2.idtx:135 En.Win32.Release.Error-2.idtx:135
 #: En.x64.Debug.Error-2.idtx:135 En.x64.Release.Error-2.idtx:135
-msgid ""
-"Scheduling reboot operation: Deleting file [2]. Must reboot to complete "
-"operation."
-msgstr ""
-"再起動操作をスケジュールしています: ファイル [2] の削除。操作を完了するには、"
-"再起動しなければなりません。"
+msgid "Scheduling reboot operation: Deleting file [2]. Must reboot to complete operation."
+msgstr "再起動操作をスケジュールしています: ファイル [2] の削除。操作を完了するには、再起動しなければなりません。"
 
 #: En.Win32.Debug.Error-2.idtx:134 En.Win32.Release.Error-2.idtx:134
 #: En.x64.Debug.Error-2.idtx:134 En.x64.Release.Error-2.idtx:134
-msgid ""
-"Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to "
-"complete operation."
-msgstr ""
-"再起動操作をスケジュールしています: ファイル [2] の名前を [3] に変更していま"
-"す。操作を完了するには、再起動しなければなりません。"
+msgid "Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to complete operation."
+msgstr "再起動操作をスケジュールしています: ファイル [2] の名前を [3] に変更しています。操作を完了するには、再起動しなければなりません。"
 
 #: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
 #: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
@@ -1305,39 +1014,23 @@ msgstr "関連のアプリケーションを検索しています"
 
 #: En.Win32.Debug.Error-2.idtx:154 En.Win32.Release.Error-2.idtx:154
 #: En.x64.Debug.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
-msgid ""
-"Service '[2]' ([3]) could not be deleted.  Verify that you have sufficient "
-"privileges to remove system services."
-msgstr ""
-"サービス '[2]' ([3]) を削除できませんでした。システム サービスを削除する特権"
-"を持っていることを確認してください。"
+msgid "Service '[2]' ([3]) could not be deleted.  Verify that you have sufficient privileges to remove system services."
+msgstr "サービス '[2]' ([3]) を削除できませんでした。システム サービスを削除する特権を持っていることを確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:155 En.Win32.Release.Error-2.idtx:155
 #: En.x64.Debug.Error-2.idtx:155 En.x64.Release.Error-2.idtx:155
-msgid ""
-"Service '[2]' ([3]) could not be installed.  Verify that you have sufficient "
-"privileges to install system services."
-msgstr ""
-"サービス '[2]' ([3]) をインストールできませんでした。システム サービスをイン"
-"ストールする特権を持っていることを確認してください。"
+msgid "Service '[2]' ([3]) could not be installed.  Verify that you have sufficient privileges to install system services."
+msgstr "サービス '[2]' ([3]) をインストールできませんでした。システム サービスをインストールする特権を持っていることを確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
 #: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
-msgid ""
-"Service '[2]' ([3]) could not be stopped.  Verify that you have sufficient "
-"privileges to stop system services."
-msgstr ""
-"サービス '[2]' ([3]) を停止できませんでした。システム サービスを停止する特権"
-"を持っていることを確認してください。"
+msgid "Service '[2]' ([3]) could not be stopped.  Verify that you have sufficient privileges to stop system services."
+msgstr "サービス '[2]' ([3]) を停止できませんでした。システム サービスを停止する特権を持っていることを確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:152 En.Win32.Release.Error-2.idtx:152
 #: En.x64.Debug.Error-2.idtx:152 En.x64.Release.Error-2.idtx:152
-msgid ""
-"Service '[2]' ([3]) failed to start.  Verify that you have sufficient "
-"privileges to start system services."
-msgstr ""
-"サービス '[2]' ([3]) を開始できませんでした。システム サービスを開始する特権"
-"を持っていることを確認してください。"
+msgid "Service '[2]' ([3]) failed to start.  Verify that you have sufficient privileges to start system services."
+msgstr "サービス '[2]' ([3]) を開始できませんでした。システム サービスを開始する特権を持っていることを確認してください。"
 
 #: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Debug.ActionText-2.idtx:58
 #: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:13
@@ -1362,21 +1055,13 @@ msgstr "ショートカット: [1]"
 
 #: En.Win32.Debug.Error-2.idtx:38 En.Win32.Release.Error-2.idtx:38
 #: En.x64.Debug.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
-msgid ""
-"Source file not found: [2].  Verify that the file exists and that you can "
-"access it."
-msgstr ""
-"ソース ファイル [2] が見つかりません。ファイルが存在し、アクセスできることを"
-"確認してください。"
+msgid "Source file not found: [2].  Verify that the file exists and that you can access it."
+msgstr "ソース ファイル [2] が見つかりません。ファイルが存在し、アクセスできることを確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:41 En.Win32.Release.Error-2.idtx:41
 #: En.x64.Debug.Error-2.idtx:41 En.x64.Release.Error-2.idtx:41
-msgid ""
-"Source file not found{{(cabinet)}}: [2].  Verify that the file exists and "
-"that you can access it."
-msgstr ""
-"ソース ファイルが見つかりません。{{(cabinet)}}: [2]。ファイルが存在し、アクセ"
-"スできることを確認してください。"
+msgid "Source file not found{{(cabinet)}}: [2].  Verify that the file exists and that you can access it."
+msgstr "ソース ファイルが見つかりません。{{(cabinet)}}: [2]。ファイルが存在し、アクセスできることを確認してください。"
 
 #: En.Win32.Debug.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:58
 #: En.x64.Debug.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:58
@@ -1390,14 +1075,8 @@ msgstr "サービスを停止しています"
 
 #: En.Win32.Debug.Error-2.idtx:65 En.Win32.Release.Error-2.idtx:65
 #: En.x64.Debug.Error-2.idtx:65 En.x64.Release.Error-2.idtx:65
-msgid ""
-"The cabinet file '[2]' required for this installation is corrupt and cannot "
-"be used. This could indicate a network error, an error reading from the CD-"
-"ROM, or a problem with this package."
-msgstr ""
-"このインストールに必要なキャビネット ファイル '[2]' は壊れているため使用でき"
-"ません。ネットワーク エラーまたは CD-ROM からの読み取りエラーが発生したか、こ"
-"のパッケージに問題がある可能性があります。"
+msgid "The cabinet file '[2]' required for this installation is corrupt and cannot be used. This could indicate a network error, an error reading from the CD-ROM, or a problem with this package."
+msgstr "このインストールに必要なキャビネット ファイル '[2]' は壊れているため使用できません。ネットワーク エラーまたは CD-ROM からの読み取りエラーが発生したか、このパッケージに問題がある可能性があります。"
 
 #: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
 #: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
@@ -1406,30 +1085,18 @@ msgstr "サービス '[2]' ([3]) の記述は変更できませんでした。"
 
 #: En.Win32.Debug.Error-2.idtx:64 En.Win32.Release.Error-2.idtx:64
 #: En.x64.Debug.Error-2.idtx:64 En.x64.Release.Error-2.idtx:64
-msgid ""
-"The file '[2]' cannot be installed because the file cannot be found in "
-"cabinet file '[3]'. This could indicate a network error, an error reading "
-"from the CD-ROM, or a problem with this package."
-msgstr ""
-"ファイル '[2]' はキャビネット ファイル '[3]' で見つからないため、インストール"
-"できません。ネットワーク エラーまたは CD-ROM からの読み取りエラーが発生した"
-"か、このパッケージに問題がある可能性があります。"
+msgid "The file '[2]' cannot be installed because the file cannot be found in cabinet file '[3]'. This could indicate a network error, an error reading from the CD-ROM, or a problem with this package."
+msgstr "ファイル '[2]' はキャビネット ファイル '[3]' で見つからないため、インストールできません。ネットワーク エラーまたは CD-ROM からの読み取りエラーが発生したか、このパッケージに問題がある可能性があります。"
 
 #: En.Win32.Debug.Error-2.idtx:83 En.Win32.Release.Error-2.idtx:83
 #: En.x64.Debug.Error-2.idtx:83 En.x64.Release.Error-2.idtx:83
-msgid ""
-"The file [2][3] is being held in use{ by the following process: Name: [4], "
-"Id: [5], Window Title: '[6]'}.  Close that application and retry."
-msgstr ""
-"ファイル [2][3] は使用中です {プロセス名: [4]、ID: [5]、ウィンドウ タイトル: "
-"'[6]'} このアプリケーションを終了してから、再試行してください。"
+msgid "The file [2][3] is being held in use{ by the following process: Name: [4], Id: [5], Window Title: '[6]'}.  Close that application and retry."
+msgstr "ファイル [2][3] は使用中です {プロセス名: [4]、ID: [5]、ウィンドウ タイトル: '[6]'} このアプリケーションを終了してから、再試行してください。"
 
 #: En.Win32.Debug.Error-2.idtx:130 En.Win32.Release.Error-2.idtx:130
 #: En.x64.Debug.Error-2.idtx:130 En.x64.Release.Error-2.idtx:130
-msgid ""
-"The folder [2] does not exist.  Please enter a path to an existing folder."
-msgstr ""
-"フォルダ [2] は存在しません。既存のフォルダへのパスを入力してください。"
+msgid "The folder [2] does not exist.  Please enter a path to an existing folder."
+msgstr "フォルダ [2] は存在しません。既存のフォルダへのパスを入力してください。"
 
 #: En.Win32.Debug.Error-2.idtx:54 En.Win32.Release.Error-2.idtx:54
 #: En.x64.Debug.Error-2.idtx:54 En.x64.Release.Error-2.idtx:54
@@ -1438,40 +1105,23 @@ msgstr "フォルダ パス '[2]' に使用できない文字が含まれてい�
 
 #: En.Win32.Debug.Error-2.idtx:53 En.Win32.Release.Error-2.idtx:53
 #: En.x64.Debug.Error-2.idtx:53 En.x64.Release.Error-2.idtx:53
-msgid ""
-"The folder path '[2]' contains words that are not valid in folder paths."
-msgstr ""
-"フォルダ パス '[2]' に使用されている単語の中に、フォルダ パスでは使用できない"
-"ものが含まれています。"
+msgid "The folder path '[2]' contains words that are not valid in folder paths."
+msgstr "フォルダ パス '[2]' に使用されている単語の中に、フォルダ パスでは使用できないものが含まれています。"
 
 #: En.Win32.Debug.Error-2.idtx:87 En.Win32.Release.Error-2.idtx:87
 #: En.x64.Debug.Error-2.idtx:87 En.x64.Release.Error-2.idtx:87
-msgid ""
-"The following applications should be closed before continuing the install:"
-msgstr ""
-"インストールを続行するには、次のアプリケーションを終了する必要があります:"
+msgid "The following applications should be closed before continuing the install:"
+msgstr "インストールを続行するには、次のアプリケーションを終了する必要があります:"
 
 #: En.Win32.Debug.Error-2.idtx:9 En.Win32.Release.Error-2.idtx:9
 #: En.x64.Debug.Error-2.idtx:9 En.x64.Release.Error-2.idtx:9
-msgid ""
-"The installer has encountered an unexpected error installing this package. "
-"This may indicate a problem with this package. The error code is [1]. {{The "
-"arguments are: [2], [3], [4]}}"
-msgstr ""
-"このパッケージをインストールするときに予期しないエラーが検出されました。この"
-"パッケージは問題がある可能性があります。エラー コードは [1] です。 {{引数: "
-"[2], [3], [4]}}"
+msgid "The installer has encountered an unexpected error installing this package. This may indicate a problem with this package. The error code is [1]. {{The arguments are: [2], [3], [4]}}"
+msgstr "このパッケージをインストールするときに予期しないエラーが検出されました。このパッケージは問題がある可能性があります。エラー コードは [1] です。 {{引数: [2], [3], [4]}}"
 
 #: En.Win32.Debug.Error-2.idtx:33 En.Win32.Release.Error-2.idtx:33
 #: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
-msgid ""
-"The installer has insufficient privileges to access this directory: [2].  "
-"The installation cannot continue.  Log on as administrator or contact your "
-"system administrator."
-msgstr ""
-"インストール プログラムにはディレクトリ [2] にアクセスするための特権が不足し"
-"ています。インストールを続行できません。Administrator としてログオンするか、"
-"またはシステム管理者に問い合わせてください。"
+msgid "The installer has insufficient privileges to access this directory: [2].  The installation cannot continue.  Log on as administrator or contact your system administrator."
+msgstr "インストール プログラムにはディレクトリ [2] にアクセスするための特権が不足しています。インストールを続行できません。Administrator としてログオンするか、またはシステム管理者に問い合わせてください。"
 
 #: En.Win32.Debug.Error-2.idtx:51 En.Win32.Release.Error-2.idtx:51
 #: En.x64.Debug.Error-2.idtx:51 En.x64.Release.Error-2.idtx:51
@@ -1480,30 +1130,18 @@ msgstr "インストール プログラムには、ファイルを修正する�
 
 #: En.Win32.Debug.Error-2.idtx:94 En.Win32.Release.Error-2.idtx:94
 #: En.x64.Debug.Error-2.idtx:94 En.x64.Release.Error-2.idtx:94
-msgid ""
-"The installer must restart your system before configuration of [2] can "
-"continue.  Click Yes to restart now or No if you plan to manually restart "
-"later."
-msgstr ""
-"[2] の構成を続行する前に、システムを再起動する必要があります。すぐに再起動す"
-"る場合は［はい］を、後で手動で再起動する場合は［いいえ］をクリックしてくださ"
-"い。"
+msgid "The installer must restart your system before configuration of [2] can continue.  Click Yes to restart now or No if you plan to manually restart later."
+msgstr "[2] の構成を続行する前に、システムを再起動する必要があります。すぐに再起動する場合は［はい］を、後で手動で再起動する場合は［いいえ］をクリックしてください。"
 
 #: En.Win32.Debug.Error-2.idtx:93 En.Win32.Release.Error-2.idtx:93
 #: En.x64.Debug.Error-2.idtx:93 En.x64.Release.Error-2.idtx:93
 msgid "The key [2] is not valid.  Verify that you entered the correct key."
-msgstr ""
-"キー [2] は正しくありません。正しいキーが入力されているかどうかを確認してくだ"
-"さい。"
+msgstr "キー [2] は正しくありません。正しいキーが入力されているかどうかを確認してください。"
 
 #: En.Win32.Debug.Error-2.idtx:106 En.Win32.Release.Error-2.idtx:106
 #: En.x64.Debug.Error-2.idtx:106 En.x64.Release.Error-2.idtx:106
-msgid ""
-"The older version of [2] cannot be removed.  Contact your technical support "
-"group.  {{System Error [3].}}"
-msgstr ""
-"[2] の古いバージョンを削除することはできません。技術的に詳しい方にお問い合わ"
-"せください。 {{システム エラー : [3]}}"
+msgid "The older version of [2] cannot be removed.  Contact your technical support group.  {{System Error [3].}}"
+msgstr "[2] の古いバージョンを削除することはできません。技術的に詳しい方にお問い合わせください。 {{システム エラー : [3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:126 En.Win32.Release.Error-2.idtx:126
 #: En.x64.Debug.Error-2.idtx:126 En.x64.Release.Error-2.idtx:126
@@ -1512,42 +1150,23 @@ msgstr "パス [2] が正しくありません。正しいパスを指定して�
 
 #: En.Win32.Debug.Error-2.idtx:84 En.Win32.Release.Error-2.idtx:84
 #: En.x64.Debug.Error-2.idtx:84 En.x64.Release.Error-2.idtx:84
-msgid ""
-"The product '[2]' is already installed, preventing the installation of this "
-"product.  The two products are incompatible."
-msgstr ""
-"'[2]' が既にインストールされているため、この製品をインストールできません。こ"
-"の 2 つの製品には互換性がありません。"
+msgid "The product '[2]' is already installed, preventing the installation of this product.  The two products are incompatible."
+msgstr "'[2]' が既にインストールされているため、この製品をインストールできません。この 2 つの製品には互換性がありません。"
 
 #: En.Win32.Debug.Error-2.idtx:90 En.Win32.Release.Error-2.idtx:90
 #: En.x64.Debug.Error-2.idtx:90 En.x64.Release.Error-2.idtx:90
-msgid ""
-"The setup must update files or services that cannot be updated while the "
-"system is running. If you choose to continue, a reboot will be required to "
-"complete the setup."
-msgstr ""
-"システムの実行中に更新できないファイルまたはサービスを、セットアップで更新す"
-"る必要があります。続行する場合は、セットアップを完了するために再起動が必要と"
-"なります。"
+msgid "The setup must update files or services that cannot be updated while the system is running. If you choose to continue, a reboot will be required to complete the setup."
+msgstr "システムの実行中に更新できないファイルまたはサービスを、セットアップで更新する必要があります。続行する場合は、セットアップを完了するために再起動が必要となります。"
 
 #: En.Win32.Debug.Error-2.idtx:91 En.Win32.Release.Error-2.idtx:91
 #: En.x64.Debug.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
-msgid ""
-"The setup was unable to automatically close all applications that are using "
-"files that need to be updated. If you choose to continue, a reboot will be "
-"required to complete the setup."
+msgid "The setup was unable to automatically close all applications that are using files that need to be updated. If you choose to continue, a reboot will be required to complete the setup."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:123 En.Win32.Release.Error-2.idtx:123
 #: En.x64.Debug.Error-2.idtx:123 En.x64.Release.Error-2.idtx:123
-msgid ""
-"The source installation package for the product [2] is out of sync with the "
-"client package. Try the installation again using a valid copy of the "
-"installation package '[3]'."
-msgstr ""
-"製品 [2] のソース インストール パッケージは、クライアント パッケージとの同期"
-"がとれていません。インストール パッケージ '[3]' の有効なコピーを使ってもう一"
-"度インストールしてみてください。"
+msgid "The source installation package for the product [2] is out of sync with the client package. Try the installation again using a valid copy of the installation package '[3]'."
+msgstr "製品 [2] のソース インストール パッケージは、クライアント パッケージとの同期がとれていません。インストール パッケージ '[3]' の有効なコピーを使ってもう一度インストールしてみてください。"
 
 #: En.Win32.Debug.Error-2.idtx:44 En.Win32.Release.Error-2.idtx:44
 #: En.x64.Debug.Error-2.idtx:44 En.x64.Release.Error-2.idtx:44
@@ -1562,187 +1181,91 @@ msgstr "指定されたパスは長すぎます: [2]"
 #: En.Win32.Debug.Error-2.idtx:43 En.Win32.Release.Error-2.idtx:43
 #: En.x64.Debug.Error-2.idtx:43 En.x64.Release.Error-2.idtx:43
 msgid "The volume [2] is currently unavailable.  Please select another."
-msgstr ""
-"ボリューム [2] は現在使用できません。別のボリュームを選択してください。"
+msgstr "ボリューム [2] は現在使用できません。別のボリュームを選択してください。"
 
 #: En.Win32.Debug.Error-2.idtx:165 En.Win32.Release.Error-2.idtx:165
 #: En.x64.Debug.Error-2.idtx:165 En.x64.Release.Error-2.idtx:165
-msgid ""
-"The Windows Installer service cannot update one or more protected Windows "
-"files. {{SFP Error: [2].  List of protected files:\\r\\n"
-"[3]}}"
-msgstr ""
-"保護された Windows ファイルを更新できません。 {{SFP エラー: [2].  保護された"
-"ファイルの一覧:\\r\\n"
-"[3]}}"
+msgid "The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2].  List of protected files:\\r\\n[3]}}"
+msgstr "保護された Windows ファイルを更新できません。 {{SFP エラー: [2].  保護されたファイルの一覧:\\r\\n[3]}}"
 
 #: En.Win32.Debug.Error-2.idtx:164 En.Win32.Release.Error-2.idtx:164
 #: En.x64.Debug.Error-2.idtx:164 En.x64.Release.Error-2.idtx:164
-msgid ""
-"The Windows Installer service cannot update the protected Windows file [2]. "
-"{{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
-msgstr ""
-"Windows インストーラ サービスでは、保護された Windows ファイル [2] をアップ"
-"デートすることはできません。 {{パッケージ バージョン : [3], OS プロテクテッ"
-"ド バージョン 1 : [4], SFP エラー : [5]}}\""
+msgid "The Windows Installer service cannot update the protected Windows file [2]. {{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
+msgstr "Windows インストーラ サービスでは、保護された Windows ファイル [2] をアップデートすることはできません。 {{パッケージ バージョン : [3], OS プロテクテッド バージョン 1 : [4], SFP エラー : [5]}}\""
 
 #: En.Win32.Debug.Error-2.idtx:163 En.Win32.Release.Error-2.idtx:163
 #: En.x64.Debug.Error-2.idtx:163 En.x64.Release.Error-2.idtx:163
-msgid ""
-"The Windows Installer service cannot update the system file [2] because the "
-"file is protected by Windows.  You may need to update your operating system "
-"for this program to work correctly. {{Package version: [3], OS Protected "
-"version: [4]}}"
-msgstr ""
-"Windows インストーラ サービスは、システム ファイル [2] をアップデートできませ"
-"ん。このファイルは Windows によって保護されています。このプログラムを正しく動"
-"作させるには、オペレーティング システムをアップデートする必要がある可能性があ"
-"ります。 {{パッケージ バージョン : [3], OS プロテクテッド バージョン  : [4]}}"
+msgid "The Windows Installer service cannot update the system file [2] because the file is protected by Windows.  You may need to update your operating system for this program to work correctly. {{Package version: [3], OS Protected version: [4]}}"
+msgstr "Windows インストーラ サービスは、システム ファイル [2] をアップデートできません。このファイルは Windows によって保護されています。このプログラムを正しく動作させるには、オペレーティング システムをアップデートする必要がある可能性があります。 {{パッケージ バージョン : [3], OS プロテクテッド バージョン  : [4]}}"
 
 #: En.Win32.Debug.Error-2.idtx:111 En.Win32.Release.Error-2.idtx:111
 #: En.x64.Debug.Error-2.idtx:111 En.x64.Release.Error-2.idtx:111
-msgid ""
-"The Windows Installer Service could not be accessed. This can occur if the "
-"Windows Installer is not correctly installed. Contact your support personnel "
-"for assistance."
-msgstr ""
-"Windows インストーラ サービスにアクセスできませんでした。セーフ モードで "
-"Windows を実行している場合、または Windows インストーラが正しくインストールさ"
-"れていない場合に発生する可能性があります。サポート担当者に問い合わせてくださ"
-"い。"
+msgid "The Windows Installer Service could not be accessed. This can occur if the Windows Installer is not correctly installed. Contact your support personnel for assistance."
+msgstr "Windows インストーラ サービスにアクセスできませんでした。セーフ モードで Windows を実行している場合、または Windows インストーラが正しくインストールされていない場合に発生する可能性があります。サポート担当者に問い合わせてください。"
 
 #: En.Win32.Debug.Error-2.idtx:125 En.Win32.Release.Error-2.idtx:125
 #: En.x64.Debug.Error-2.idtx:125 En.x64.Release.Error-2.idtx:125
-msgid ""
-"The Windows Installer service is not accessible in Safe Mode. Please try "
-"again when your computer is not in Safe Mode or you can use System Restore "
-"to return your machine to a previous good state."
-msgstr ""
-"Windows インストーラ サービスには、セーフ モードではアクセスできません。コン"
-"ピュータがセーフ モードでないときに再試行してください。または、システムの復元"
-"を使用すると、前回の正常起動時の状態にコンピュータを戻すことができます。"
+msgid "The Windows Installer service is not accessible in Safe Mode. Please try again when your computer is not in Safe Mode or you can use System Restore to return your machine to a previous good state."
+msgstr "Windows インストーラ サービスには、セーフ モードではアクセスできません。コンピュータがセーフ モードでないときに再試行してください。または、システムの復元を使用すると、前回の正常起動時の状態にコンピュータを戻すことができます。"
 
 #: En.Win32.Debug.Error-2.idtx:115 En.Win32.Release.Error-2.idtx:115
 #: En.x64.Debug.Error-2.idtx:115 En.x64.Release.Error-2.idtx:115
-msgid ""
-"There is a problem with this Windows Installer package. A DLL required for "
-"this install to complete could not be run. Contact your support personnel or "
-"package vendor.  {{Action [2], entry: [3], library: [4] }}"
-msgstr ""
-"この Windows インストーラ パッケージには問題があります。このインストールを完"
-"了するのに必要な DLL を実行できませんでした。サポート担当者またはパッケージの"
-"ベンダに問い合わせてください。  {{操作 [2], エントリ: [3], ライブラリ: [4] }}"
+msgid "There is a problem with this Windows Installer package. A DLL required for this install to complete could not be run. Contact your support personnel or package vendor.  {{Action [2], entry: [3], library: [4] }}"
+msgstr "この Windows インストーラ パッケージには問題があります。このインストールを完了するのに必要な DLL を実行できませんでした。サポート担当者またはパッケージのベンダに問い合わせてください。  {{操作 [2], エントリ: [3], ライブラリ: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:113 En.Win32.Release.Error-2.idtx:113
 #: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
-msgid ""
-"There is a problem with this Windows Installer package. A program required "
-"for this install to complete could not be run. Contact your support "
-"personnel or package vendor. {{Action: [2], location: [3], command: [4] }}"
-msgstr ""
-"この Windows インストーラ パッケージには問題があります。このインストールを完"
-"了するのに必要なプログラムを実行できませんでした。サポート担当者またはパッ"
-"ケージのベンダに問い合わせてください。 {{操作: [2], 場所: [3], コマンド: "
-"[4] }}"
+msgid "There is a problem with this Windows Installer package. A program required for this install to complete could not be run. Contact your support personnel or package vendor. {{Action: [2], location: [3], command: [4] }}"
+msgstr "この Windows インストーラ パッケージには問題があります。このインストールを完了するのに必要なプログラムを実行できませんでした。サポート担当者またはパッケージのベンダに問い合わせてください。 {{操作: [2], 場所: [3], コマンド: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:114 En.Win32.Release.Error-2.idtx:114
 #: En.x64.Debug.Error-2.idtx:114 En.x64.Release.Error-2.idtx:114
-msgid ""
-"There is a problem with this Windows Installer package. A program run as "
-"part of the setup did not finish as expected. Contact your support personnel "
-"or package vendor.  {{Action [2], location: [3], command: [4] }}"
-msgstr ""
-"この Windows インストーラ パッケージには問題があります。セットアップの一部と"
-"して実行されるプログラムは正しく完了しませんでした。サポート担当者またはパッ"
-"ケージのベンダに問い合わせてください。 {{操作 [2], 場所: [3], コマンド: "
-"[4] }}"
+msgid "There is a problem with this Windows Installer package. A program run as part of the setup did not finish as expected. Contact your support personnel or package vendor.  {{Action [2], location: [3], command: [4] }}"
+msgstr "この Windows インストーラ パッケージには問題があります。セットアップの一部として実行されるプログラムは正しく完了しませんでした。サポート担当者またはパッケージのベンダに問い合わせてください。 {{操作 [2], 場所: [3], コマンド: [4] }}"
 
 #: En.Win32.Debug.Error-2.idtx:112 En.Win32.Release.Error-2.idtx:112
 #: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
-msgid ""
-"There is a problem with this Windows Installer package. A script required "
-"for this install to complete could not be run. Contact your support "
-"personnel or package vendor.  {{Custom action [2] script error [3], [4]: [5] "
-"Line [6], Column [7], [8] }}"
-msgstr ""
-"この Windows インストーラ パッケージには問題があります。このインストールを完"
-"了するのに必要なスクリプトを実行できませんでした。サポート担当者またはパッ"
-"ケージのベンダに問い合わせてください。  {{カスタム操作 [2] スクリプト エラー "
-"[3], [4]: [5] 行 [6], 列 [7], [8] }}"
+msgid "There is a problem with this Windows Installer package. A script required for this install to complete could not be run. Contact your support personnel or package vendor.  {{Custom action [2] script error [3], [4]: [5] Line [6], Column [7], [8] }}"
+msgstr "この Windows インストーラ パッケージには問題があります。このインストールを完了するのに必要なスクリプトを実行できませんでした。サポート担当者またはパッケージのベンダに問い合わせてください。  {{カスタム操作 [2] スクリプト エラー [3], [4]: [5] 行 [6], 列 [7], [8] }}"
 
 #: En.Win32.Debug.Error-2.idtx:128 En.Win32.Release.Error-2.idtx:128
 #: En.x64.Debug.Error-2.idtx:128 En.x64.Release.Error-2.idtx:128
-msgid ""
-"There is no disk in drive [2]. Please insert one and click Retry, or click "
-"Cancel to go back to the previously selected volume."
-msgstr ""
-"ドライブ [2] にはディスクがありません。ディスクを挿入してから［再試行］をク"
-"リックしてください。既に選択されたボリュームに戻る場合は、［キャンセル］をク"
-"リックしてください。"
+msgid "There is no disk in drive [2]. Please insert one and click Retry, or click Cancel to go back to the previously selected volume."
+msgstr "ドライブ [2] にはディスクがありません。ディスクを挿入してから［再試行］をクリックしてください。既に選択されたボリュームに戻る場合は、［キャンセル］をクリックしてください。"
 
 #: En.Win32.Debug.Error-2.idtx:129 En.Win32.Release.Error-2.idtx:129
 #: En.x64.Debug.Error-2.idtx:129 En.x64.Release.Error-2.idtx:129
-msgid ""
-"There is no disk in drive [2]. Please insert one and click Retry, or click "
-"Cancel to return to the browse dialog and select a different volume."
-msgstr ""
-"ドライブ [2] にはディスクがありません。ディスクを挿入してから［再試行］をク"
-"リックしてください。［参照］ダイアログ ボックスに戻って、別のボリュームを選択"
-"する場合は、［キャンセル］をクリックしてください。"
+msgid "There is no disk in drive [2]. Please insert one and click Retry, or click Cancel to return to the browse dialog and select a different volume."
+msgstr "ドライブ [2] にはディスクがありません。ディスクを挿入してから［再試行］をクリックしてください。［参照］ダイアログ ボックスに戻って、別のボリュームを選択する場合は、［キャンセル］をクリックしてください。"
 
 #: En.Win32.Debug.Error-2.idtx:85 En.Win32.Release.Error-2.idtx:85
 #: En.x64.Debug.Error-2.idtx:85 En.x64.Release.Error-2.idtx:85
-msgid ""
-"There is not enough disk space on the volume '[2]' to continue the install "
-"with recovery enabled. [3] KB are required, but only [4] KB are available. "
-"Click Ignore to continue the install without saving recovery information, "
-"click Retry to check for available space again, or click Cancel to quit the "
-"installation."
-msgstr ""
-"ボリューム '[2]' のディスク領域が不足しているため、回復を有効にしたままインス"
-"トールを続行することはできません。[3] KB 必要ですが、[4] KB しかありません。"
-"回復情報を保存せずにインストールを続行する場合は［無視］、利用可能な領域を再"
-"確認する場合は［再試行］、インストールを終了する場合は［キャンセル］をクリッ"
-"クしてください。"
+msgid "There is not enough disk space on the volume '[2]' to continue the install with recovery enabled. [3] KB are required, but only [4] KB are available. Click Ignore to continue the install without saving recovery information, click Retry to check for available space again, or click Cancel to quit the installation."
+msgstr "ボリューム '[2]' のディスク領域が不足しているため、回復を有効にしたままインストールを続行することはできません。[3] KB 必要ですが、[4] KB しかありません。回復情報を保存せずにインストールを続行する場合は［無視］、利用可能な領域を再確認する場合は［再試行］、インストールを終了する場合は［キャンセル］をクリックしてください。"
 
 #: En.Win32.Debug.Error-2.idtx:37 En.Win32.Release.Error-2.idtx:37
 #: En.x64.Debug.Error-2.idtx:37 En.x64.Release.Error-2.idtx:37
-msgid ""
-"There is not enough disk space to install this file: [2].  Free some disk "
-"space and click Retry, or click Cancel to exit."
-msgstr ""
-"ファイル [2] をインストールするためのディスク領域が不足しています。ディスク領"
-"域を解放してから、［再試行］をクリックしてください。終了する場合は［キャンセ"
-"ル］をクリックします。"
+msgid "There is not enough disk space to install this file: [2].  Free some disk space and click Retry, or click Cancel to exit."
+msgstr "ファイル [2] をインストールするためのディスク領域が不足しています。ディスク領域を解放してから、［再試行］をクリックしてください。終了する場合は［キャンセル］をクリックします。"
 
 #: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
 #: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
-msgid ""
-"There was an error creating a temporary file that is needed to complete this "
-"installation.{{  Folder: [3]. System error code: [2]}}"
-msgstr ""
-"このインストールを完了するために必要な一時ファイルを作成するときにエラーが発"
-"生しました。{{  フォルダ: [3]. システム エラー コード: [2]}}"
+msgid "There was an error creating a temporary file that is needed to complete this installation.{{  Folder: [3]. System error code: [2]}}"
+msgstr "このインストールを完了するために必要な一時ファイルを作成するときにエラーが発生しました。{{  フォルダ: [3]. システム エラー コード: [2]}}"
 
 #: En.Win32.Debug.Error-2.idtx:92 En.Win32.Release.Error-2.idtx:92
 #: En.x64.Debug.Error-2.idtx:92 En.x64.Release.Error-2.idtx:92
-msgid ""
-"This installation package is not supported on this platform. Contact your "
-"application vendor."
+msgid "This installation package is not supported on this platform. Contact your application vendor."
 msgstr ""
 
 #: En.Win32.Debug.CustomAction-2.idtx:6 En.Win32.Release.CustomAction-2.idtx:6
 #: En.x64.Debug.CustomAction-2.idtx:5 En.x64.Release.CustomAction-2.idtx:5
-msgid ""
-"This package cannot upgrade the currently installed [SimpleProductName]. "
-"Please remove the old package first and retry."
+msgid "This package cannot upgrade the currently installed [SimpleProductName]. Please remove the old package first and retry."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:172 En.Win32.Release.Error-2.idtx:172
 #: En.x64.Debug.Error-2.idtx:172 En.x64.Release.Error-2.idtx:172
-msgid ""
-"This version of Windows does not support deploying 64-bit packages. The "
-"script [2] is for a 64-bit package."
+msgid "This version of Windows does not support deploying 64-bit packages. The script [2] is for a 64-bit package."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:20 En.Win32.Release.Error-2.idtx:20
@@ -1829,30 +1352,18 @@ msgstr "環境ストリングを更新しています"
 
 #: En.Win32.Debug.Error-2.idtx:80 En.Win32.Release.Error-2.idtx:80
 #: En.x64.Debug.Error-2.idtx:80 En.x64.Release.Error-2.idtx:80
-msgid ""
-"User '[2]' has previously initiated an install for product '[3]'.  That user "
-"will need to run that install again before they can use that product."
-msgstr ""
-"ユーザー '[2]' によって、既に製品 '[3]' のインストールが開始されています。こ"
-"の製品を使う前に、このユーザーは再度インストールを実行する必要があります。"
+msgid "User '[2]' has previously initiated an install for product '[3]'.  That user will need to run that install again before they can use that product."
+msgstr "ユーザー '[2]' によって、既に製品 '[3]' のインストールが開始されています。この製品を使う前に、このユーザーは再度インストールを実行する必要があります。"
 
 #: En.Win32.Debug.Error-2.idtx:79 En.Win32.Release.Error-2.idtx:79
 #: En.x64.Debug.Error-2.idtx:79 En.x64.Release.Error-2.idtx:79
-msgid ""
-"User '[2]' has previously initiated an install for product '[3]'.  That user "
-"will need to run that install again before they can use that product.  Your "
-"current install will now continue."
-msgstr ""
-"ユーザー '[2]' によって、既に製品 '[3]' のインストールが開始されています。こ"
-"の製品を使う前に、このユーザーは再度インストールを実行する必要があります。現"
-"在のインストールはこのまま続行されます。"
+msgid "User '[2]' has previously initiated an install for product '[3]'.  That user will need to run that install again before they can use that product.  Your current install will now continue."
+msgstr "ユーザー '[2]' によって、既に製品 '[3]' のインストールが開始されています。この製品を使う前に、このユーザーは再度インストールを実行する必要があります。現在のインストールはこのまま続行されます。"
 
 #: En.Win32.Debug.Error-2.idtx:166 En.Win32.Release.Error-2.idtx:166
 #: En.x64.Debug.Error-2.idtx:166 En.x64.Release.Error-2.idtx:166
 msgid "User installations are disabled via policy on the machine."
-msgstr ""
-"このコンピュータでは、ユーザーによるインストールはポリシーで無効になっていま"
-"す。"
+msgstr "このコンピュータでは、ユーザーによるインストールはポリシーで無効になっています。"
 
 #: En.Win32.Debug.ActionText-2.idtx:23 En.Win32.Release.ActionText-2.idtx:23
 #: En.x64.Debug.ActionText-2.idtx:23 En.x64.Release.ActionText-2.idtx:23
@@ -1875,22 +1386,13 @@ msgid "Writing system registry values"
 msgstr "システム レジストリの値を書き込んでいます"
 
 #: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
-msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a "
-"64-bit operating system. 32-bit variant will not work with your operating "
-"system. The installation of the 64-bit variant is recommended."
+msgid "You are attempting to install the 32-bit variant of [SimpleProductName] on a 64-bit operating system. 32-bit variant will not work with your operating system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
 #: En.Win32.Debug.Error-2.idtx:157 En.Win32.Release.Error-2.idtx:157
 #: En.x64.Debug.Error-2.idtx:157 En.x64.Release.Error-2.idtx:157
-msgid ""
-"You do not have sufficient privileges to complete this installation for all "
-"users of the machine.  Log on as administrator and then retry this "
-"installation."
-msgstr ""
-"特権が不十分なため、このコンピュータのすべてのユーザーが使用できるようにアプ"
-"リケーションをインストールすることはできません。管理者としてログオンし、再度"
-"インストールしてください。"
+msgid "You do not have sufficient privileges to complete this installation for all users of the machine.  Log on as administrator and then retry this installation."
+msgstr "特権が不十分なため、このコンピュータのすべてのユーザーが使用できるようにアプリケーションをインストールすることはできません。管理者としてログオンし、再度インストールしてください。"
 
 #: En.Win32.Debug.Error-2.idtx:131 En.Win32.Release.Error-2.idtx:131
 #: En.x64.Debug.Error-2.idtx:131 En.x64.Release.Error-2.idtx:131
@@ -1899,31 +1401,15 @@ msgstr "このフォルダを読み取るための十分な特権がありませ
 
 #: En.Win32.Debug.Error-2.idtx:102 En.Win32.Release.Error-2.idtx:102
 #: En.x64.Debug.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
-msgid ""
-"You may either restore your computer to its previous state or continue the "
-"install later. Would you like to restore?"
-msgstr ""
-"コンピュータを直前の状態に復元するか、後でインストールを続行することができま"
-"す。復元しますか?"
+msgid "You may either restore your computer to its previous state or continue the install later. Would you like to restore?"
+msgstr "コンピュータを直前の状態に復元するか、後でインストールを続行することができます。復元しますか?"
 
 #: En.Win32.Debug.Error-2.idtx:122 En.Win32.Release.Error-2.idtx:122
 #: En.x64.Debug.Error-2.idtx:122 En.x64.Release.Error-2.idtx:122
-msgid ""
-"You must be an Administrator to remove this application. To remove this "
-"application, you can log on as an Administrator, or contact your technical "
-"support group for assistance."
-msgstr ""
-"このアプリケーションを削除するには Administrator でなければなりません。このア"
-"プリケーションを削除するには、Administrator としてログオンするか、またはテク"
-"ニカル サポート グループに問い合わせてください。"
+msgid "You must be an Administrator to remove this application. To remove this application, you can log on as an Administrator, or contact your technical support group for assistance."
+msgstr "このアプリケーションを削除するには Administrator でなければなりません。このアプリケーションを削除するには、Administrator としてログオンするか、またはテクニカル サポート グループに問い合わせてください。"
 
 #: En.Win32.Debug.Error-2.idtx:95 En.Win32.Release.Error-2.idtx:95
 #: En.x64.Debug.Error-2.idtx:95 En.x64.Release.Error-2.idtx:95
-msgid ""
-"You must restart your system for the configuration changes made to [2] to "
-"take effect. Click Yes to restart now or No if you plan to manually restart "
-"later."
-msgstr ""
-"[2] に行った構成の変更を有効にするには、システムを再起動する必要があります。"
-"すぐに再起動する場合は［はい］を、後で手動で再起動する場合は［いいえ］をク"
-"リックしてください。"
+msgid "You must restart your system for the configuration changes made to [2] to take effect. Click Yes to restart now or No if you plan to manually restart later."
+msgstr "[2] に行った構成の変更を有効にするには、システムを再起動する必要があります。すぐに再起動する場合は［はい］を、後で手動で再起動する場合は［いいえ］をクリックしてください。"
