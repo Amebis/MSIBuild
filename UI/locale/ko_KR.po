@@ -1,19 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSMBuild UI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-04 14:37+0200\n"
+"POT-Creation-Date: 2016-09-19 11:23+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: ko_KR\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2018\n"
+"Language-Team: Korean (Korea) (https://www.transifex.com/amebis/teams/91604/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
-"X-Generator: Poedit 1.8.9\n"
+"Language: ko_KR\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: en_US.Win32.Debug.Control-2.idtx:4 en_US.Win32.Debug.Control-2.idtx:8
 #: en_US.Win32.Debug.Control-2.idtx:12 en_US.Win32.Debug.Control-2.idtx:19
@@ -83,11 +87,8 @@ msgstr ""
 #: en_US.x64.Debug.Control-2.idtx:11 en_US.x64.Debug.Control-2.idtx:18
 #: en_US.x64.Debug.Control-2.idtx:23 en_US.x64.Release.Control-2.idtx:11
 #: en_US.x64.Release.Control-2.idtx:18 en_US.x64.Release.Control-2.idtx:23
-#, fuzzy
 msgid "&Continue"
 msgstr ""
-"이 디렉터리에 액세스할 수 있는 권한이 충분하지 않습니다:[2]. 설치를 계속할 "
-"수 없습니다. 관리자 권한으로 로그온하거나 시스템 관리자에게 문의하십시오."
 
 #: en_US.Win32.Debug.Control-2.idtx:13 en_US.Win32.Release.Control-2.idtx:13
 #: en_US.x64.Debug.Control-2.idtx:13 en_US.x64.Release.Control-2.idtx:13
@@ -101,7 +102,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:14 en_US.Win32.Release.Control-2.idtx:14
 #: en_US.x64.Debug.Control-2.idtx:14 en_US.x64.Release.Control-2.idtx:14
-msgid "Installs the most common program features. Recommended for most users.|"
+msgid ""
+"Installs the most common program features. Recommended for most users.|"
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:15 en_US.Win32.Release.Control-2.idtx:15
@@ -132,13 +134,13 @@ msgstr ""
 msgid ""
 "Although, 32-bit variant should work with your operating system, this "
 "program is also available as 64-bit variant, which is more appropriate for "
-"your operating system. The installation of the 64-bit variant is recommended."
+"your operating system. The installation of the 64-bit variant is "
+"recommended."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:20 en_US.Win32.Release.Control-2.idtx:20
 #: en_US.x64.Debug.Control-2.idtx:17 en_US.x64.Release.Control-2.idtx:17
-msgid ""
-"[DlgTitleFont]Click \"Next\" to resume [SimpleProductName] installation."
+msgid "[DlgTitleFont]Click \"Next\" to resume [SimpleProductName] installation."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:23 en_US.Win32.Release.Control-2.idtx:23
@@ -211,9 +213,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:41 en_US.Win32.Release.Control-2.idtx:41
 #: en_US.x64.Debug.Control-2.idtx:38 en_US.x64.Release.Control-2.idtx:38
-#, fuzzy
 msgid "Folder:"
-msgstr "파일: [1], 폴더: [2]"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:44 en_US.Win32.Release.Control-2.idtx:44
 #: en_US.x64.Debug.Control-2.idtx:41 en_US.x64.Release.Control-2.idtx:41
@@ -278,17 +279,15 @@ msgstr ""
 #: en_US.Win32.Release.Control-2.idtx:52 en_US.Win32.Release.Control-2.idtx:63
 #: en_US.x64.Debug.Control-2.idtx:49 en_US.x64.Debug.Control-2.idtx:60
 #: en_US.x64.Release.Control-2.idtx:49 en_US.x64.Release.Control-2.idtx:60
-#, fuzzy
 msgid "Create A New Folder|"
-msgstr "폴더 만드는 중"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:54 en_US.Win32.Debug.Control-2.idtx:65
 #: en_US.Win32.Release.Control-2.idtx:54 en_US.Win32.Release.Control-2.idtx:65
 #: en_US.x64.Debug.Control-2.idtx:51 en_US.x64.Debug.Control-2.idtx:62
 #: en_US.x64.Release.Control-2.idtx:51 en_US.x64.Release.Control-2.idtx:62
-#, fuzzy
 msgid "&Folder:"
-msgstr "파일: [1], 폴더: [2]"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:56 en_US.Win32.Debug.Control-2.idtx:67
 #: en_US.Win32.Debug.Control-2.idtx:96 en_US.Win32.Release.Control-2.idtx:56
@@ -296,9 +295,8 @@ msgstr "파일: [1], 폴더: [2]"
 #: en_US.x64.Debug.Control-2.idtx:53 en_US.x64.Debug.Control-2.idtx:64
 #: en_US.x64.Debug.Control-2.idtx:93 en_US.x64.Release.Control-2.idtx:53
 #: en_US.x64.Release.Control-2.idtx:64 en_US.x64.Release.Control-2.idtx:93
-#, fuzzy
 msgid "OK"
-msgstr "V redu"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:57 en_US.Win32.Debug.Control-2.idtx:68
 #: en_US.Win32.Debug.Control-2.idtx:97 en_US.Win32.Debug.Control-2.idtx:100
@@ -311,9 +309,8 @@ msgstr "V redu"
 #: en_US.x64.Release.Control-2.idtx:54 en_US.x64.Release.Control-2.idtx:65
 #: en_US.x64.Release.Control-2.idtx:94 en_US.x64.Release.Control-2.idtx:97
 #: en_US.x64.Release.Control-2.idtx:106
-#, fuzzy
 msgid "Cancel"
-msgstr "Prekliči"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:59 en_US.Win32.Release.Control-2.idtx:59
 #: en_US.x64.Debug.Control-2.idtx:56 en_US.x64.Release.Control-2.idtx:56
@@ -322,9 +319,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:70 en_US.Win32.Release.Control-2.idtx:70
 #: en_US.x64.Debug.Control-2.idtx:67 en_US.x64.Release.Control-2.idtx:67
-#, fuzzy
 msgid "[DlgTitleFont]Disk Space Requirements"
-msgstr "필요한 공간을 확인하는 중"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:71 en_US.Win32.Debug.Control-2.idtx:76
 #: en_US.Win32.Debug.Control-2.idtx:81 en_US.Win32.Release.Control-2.idtx:71
@@ -338,7 +334,8 @@ msgstr ""
 #: en_US.Win32.Debug.Control-2.idtx:72 en_US.Win32.Debug.Control-2.idtx:77
 #: en_US.Win32.Debug.Control-2.idtx:112 en_US.Win32.Debug.Control-2.idtx:117
 #: en_US.Win32.Debug.Control-2.idtx:122 en_US.Win32.Release.Control-2.idtx:72
-#: en_US.Win32.Release.Control-2.idtx:77 en_US.Win32.Release.Control-2.idtx:112
+#: en_US.Win32.Release.Control-2.idtx:77
+#: en_US.Win32.Release.Control-2.idtx:112
 #: en_US.Win32.Release.Control-2.idtx:117
 #: en_US.Win32.Release.Control-2.idtx:122 en_US.x64.Debug.Control-2.idtx:69
 #: en_US.x64.Debug.Control-2.idtx:74 en_US.x64.Debug.Control-2.idtx:109
@@ -361,18 +358,18 @@ msgstr ""
 #: en_US.x64.Debug.Control-2.idtx:72 en_US.x64.Debug.Control-2.idtx:77
 #: en_US.x64.Release.Control-2.idtx:72 en_US.x64.Release.Control-2.idtx:77
 msgid ""
-"The highlighted volumes (if any) do not have enough disk space available for "
-"the currently selected features. You can either remove some files from the "
-"highlighted volumes, or choose to install less features onto local drive(s), "
-"or select different destination drive(s)."
+"The highlighted volumes (if any) do not have enough disk space available for"
+" the currently selected features. You can either remove some files from the "
+"highlighted volumes, or choose to install less features onto local drive(s),"
+" or select different destination drive(s)."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:82 en_US.Win32.Release.Control-2.idtx:82
 #: en_US.x64.Debug.Control-2.idtx:79 en_US.x64.Release.Control-2.idtx:79
 msgid ""
 "Alternatively, you may choose to disable the installer's rollback "
-"functionality. This allows the installer to restore your computer's original "
-"state should the installation be interrupted in any way. Click Yes if you "
+"functionality. This allows the installer to restore your computer's original"
+" state should the installation be interrupted in any way. Click Yes if you "
 "wish to take the risk to disable rollback."
 msgstr ""
 
@@ -420,9 +417,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:91 en_US.Win32.Release.Control-2.idtx:91
 #: en_US.x64.Debug.Control-2.idtx:88 en_US.x64.Release.Control-2.idtx:88
-#, fuzzy
 msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-msgstr "취소하시겠습니까?"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:95 en_US.Win32.Release.Control-2.idtx:95
 #: en_US.x64.Debug.Control-2.idtx:92 en_US.x64.Release.Control-2.idtx:92
@@ -434,9 +430,8 @@ msgstr ""
 #: en_US.Win32.Release.Control-2.idtx:107 en_US.x64.Debug.Control-2.idtx:98
 #: en_US.x64.Debug.Control-2.idtx:104 en_US.x64.Release.Control-2.idtx:98
 #: en_US.x64.Release.Control-2.idtx:104
-#, fuzzy
 msgid "&Retry"
-msgstr "Ponovi"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:102 en_US.Win32.Debug.Control-2.idtx:108
 #: en_US.Win32.Release.Control-2.idtx:102
@@ -479,8 +474,8 @@ msgstr ""
 #: en_US.Win32.Debug.Control-2.idtx:116 en_US.Win32.Release.Control-2.idtx:116
 #: en_US.x64.Debug.Control-2.idtx:113 en_US.x64.Release.Control-2.idtx:113
 msgid ""
-"If you interrupted the installation by accident, please run the installation "
-"again."
+"If you interrupted the installation by accident, please run the installation"
+" again."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:119 en_US.Win32.Release.Control-2.idtx:119
@@ -497,7 +492,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:121 en_US.Win32.Release.Control-2.idtx:121
 #: en_US.x64.Debug.Control-2.idtx:118 en_US.x64.Release.Control-2.idtx:118
-msgid "Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
+msgid ""
+"Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
 msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:4
@@ -507,9 +503,8 @@ msgstr ""
 #: en_US.x64.Debug.ControlEvent-2.idtx:4 en_US.x64.Debug.ControlEvent-2.idtx:5
 #: en_US.x64.Release.ControlEvent-2.idtx:4
 #: en_US.x64.Release.ControlEvent-2.idtx:5
-#, fuzzy
 msgid "Determining required space for installation..."
-msgstr "필요한 정보를 모으는 중..."
+msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:6
 #: en_US.Win32.Release.ControlEvent-2.idtx:6
@@ -557,17 +552,15 @@ msgstr ""
 #: en_US.Win32.Release.ControlEvent-2.idtx:12
 #: en_US.x64.Debug.ControlEvent-2.idtx:12
 #: en_US.x64.Release.ControlEvent-2.idtx:12
-#, fuzzy
 msgid "Removing"
-msgstr "INI 파일 항목을 제거하는 중"
+msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:13
 #: en_US.Win32.Release.ControlEvent-2.idtx:13
 #: en_US.x64.Debug.ControlEvent-2.idtx:13
 #: en_US.x64.Release.ControlEvent-2.idtx:13
-#, fuzzy
 msgid "Removal"
-msgstr "제거를 성공적으로 완료했습니다."
+msgstr ""
 
 #: en_US.Win32.Debug.Dialog-2.idtx:4 en_US.Win32.Release.Dialog-2.idtx:4
 #: en_US.x64.Debug.Dialog-2.idtx:4 en_US.x64.Release.Dialog-2.idtx:4
@@ -576,11 +569,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Property-2.idtx:4 en_US.Win32.Release.Property-2.idtx:4
 #: en_US.x64.Debug.Property-2.idtx:4 en_US.x64.Release.Property-2.idtx:4
-#, fuzzy
 msgid "Installing"
 msgstr ""
-"Napaka pri nameščanju profila XML (napaka: %1!ld!). Razlog, ki ga je navedel "
-"WLAN, je:%n%2!ls!%n%nObrnite se na svojega ponudnika spletnega dostopa."
 
 #: en_US.Win32.Debug.Property-2.idtx:5 en_US.Win32.Debug.Property-2.idtx:6
 #: en_US.Win32.Release.Property-2.idtx:5 en_US.Win32.Release.Property-2.idtx:6
@@ -596,24 +586,19 @@ msgstr ""
 
 #: en_US.Win32.Debug.Property-2.idtx:8 en_US.Win32.Release.Property-2.idtx:8
 #: en_US.x64.Debug.Property-2.idtx:8 en_US.x64.Release.Property-2.idtx:8
-#, fuzzy
 msgid "Custom Installation"
-msgstr "설치를 실패했습니다."
+msgstr ""
 
 #: en_US.Win32.Debug.Property-2.idtx:9 en_US.Win32.Release.Property-2.idtx:9
 #: en_US.x64.Debug.Property-2.idtx:9 en_US.x64.Release.Property-2.idtx:9
-#, fuzzy
 msgid "&Install Now"
-msgstr "설치됨 [2]"
+msgstr ""
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:4
 #: en_US.Win32.Release.RadioButton-2.idtx:4
 #: en_US.x64.Debug.RadioButton-2.idtx:4 en_US.x64.Release.RadioButton-2.idtx:4
-#, fuzzy
 msgid "&Modify"
 msgstr ""
-"환경 변수 '[2]'을(를) 업데이트하지 못했습니다. 환경 변수를 수정할 수 있는 권"
-"한이 있는지 확인하십시오."
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:4
 #: en_US.Win32.Release.RadioButton-2.idtx:4
@@ -638,9 +623,8 @@ msgstr ""
 #: en_US.Win32.Debug.RadioButton-2.idtx:6
 #: en_US.Win32.Release.RadioButton-2.idtx:6
 #: en_US.x64.Debug.RadioButton-2.idtx:6 en_US.x64.Release.RadioButton-2.idtx:6
-#, fuzzy
 msgid "&Remove"
-msgstr "Odst&rani CA"
+msgstr ""
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:6
 #: en_US.Win32.Release.RadioButton-2.idtx:6
@@ -660,11 +644,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:7 en_US.Win32.Release.UIText-2.idtx:7
 #: en_US.x64.Debug.UIText-2.idtx:7 en_US.x64.Release.UIText-2.idtx:7
-#, fuzzy
 msgid "KB"
 msgstr ""
-"사용 가능한 레지스트리 공간을 늘릴 수 없습니다. 이 응용 프로그램을 설치하는"
-"데 [2]KB의 레지스트리 공간이 필요합니다."
 
 #: en_US.Win32.Debug.UIText-2.idtx:8 en_US.Win32.Release.UIText-2.idtx:8
 #: en_US.x64.Debug.UIText-2.idtx:8 en_US.x64.Release.UIText-2.idtx:8
@@ -867,12 +848,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:52 en_US.Win32.Release.UIText-2.idtx:52
 #: en_US.x64.Debug.UIText-2.idtx:52 en_US.x64.Release.UIText-2.idtx:52
-#, fuzzy
 msgid "Required"
 msgstr ""
-"Nastavitvena datoteka XML ArnesLink vsebuje vse potrebne informacije za "
-"nastavitev vaše povezave. Glede na njo bo čarovnik ustvaril ali posodobil "
-"vaše profile WLAN."
 
 #: en_US.Win32.Debug.UIText-2.idtx:53 en_US.Win32.Release.UIText-2.idtx:53
 #: en_US.x64.Debug.UIText-2.idtx:53 en_US.x64.Release.UIText-2.idtx:53
@@ -881,8 +858,5 @@ msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:54 en_US.Win32.Release.UIText-2.idtx:54
 #: en_US.x64.Debug.UIText-2.idtx:54 en_US.x64.Release.UIText-2.idtx:54
-#, fuzzy
 msgid "Volume"
 msgstr ""
-"드라이브 [2]에 디스크가 없습니다. 디스크를 넣은 후 \"다시 시도\"를 누르거나, "
-"\"취소\"를 눌러서 이전에 선택한 볼륨으로 다시 돌아가십시오."

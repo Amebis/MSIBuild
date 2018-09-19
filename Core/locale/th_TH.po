@@ -1,1415 +1,2057 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-13 22:27+0200\n"
+"POT-Creation-Date: 2017-02-02 18:14+0100\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: \n"
-"Language: th_TH\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2018\n"
+"Language-Team: Thai (Thailand) (https://www.transifex.com/amebis/teams/91604/th_TH/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.2\n"
+"Language: th_TH\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
-#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Debug.ActionText-2.idtx:39
-#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Debug.ActionText-2.idtx:53
-#: En.Win32.Release.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:39
-#: En.Win32.Release.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:53
-#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Debug.ActionText-2.idtx:39
-#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Debug.ActionText-2.idtx:53
-#: En.x64.Release.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:39
-#: En.x64.Release.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:53
-msgid "[1]"
-msgstr "[1]"
-
-#: En.Win32.Debug.Error-2.idtx:105 En.Win32.Release.Error-2.idtx:105
-#: En.x64.Debug.Error-2.idtx:105 En.x64.Release.Error-2.idtx:105
-msgid "[2] cannot install one of its required products. Contact your technical support group.  {{System Error: [3].}}"
-msgstr "[2] ไม่สามารถติดตั้งหนึ่งในผลิตภัณฑ์ที่ต้องการ ให้ติดต่อกลุ่มสนับสนุนทางเทคนิคของคุณ  {{ระบบผิดพลาด: [3].}}"
-
-#: En.Win32.Debug.Error-2.idtx:55 En.Win32.Release.Error-2.idtx:55
-#: En.x64.Debug.Error-2.idtx:55 En.x64.Release.Error-2.idtx:55
-msgid "'[2]' is not a valid short file name."
-msgstr "'[2]' ไม่ใช่ชื่อแฟ้มแบบสั้นที่ถูกต้อง"
-
-#: En.Win32.Debug.Error-2.idtx:13 En.Win32.Release.Error-2.idtx:13
-#: En.x64.Debug.Error-2.idtx:13 En.x64.Release.Error-2.idtx:13
-msgid "[SimpleProductName]"
-msgstr "[SimpleProductName]"
-
-#: En.Win32.Debug.Error-2.idtx:14 En.Win32.Release.Error-2.idtx:14
-#: En.x64.Debug.Error-2.idtx:14 En.x64.Release.Error-2.idtx:14
-msgid "{[2]}{, [3]}{, [4]}"
-msgstr "{[2]}{, [3]}{, [4]}"
-
-#: En.Win32.Debug.Error-2.idtx:28 En.Win32.Release.Error-2.idtx:28
-#: En.x64.Debug.Error-2.idtx:28 En.x64.Release.Error-2.idtx:28
-msgid "{[SimpleProductName] }Setup completed successfully."
-msgstr "{[SimpleProductName] }ติดตั้งอย่างสมบูรณ์"
-
-#: En.Win32.Debug.Error-2.idtx:29 En.Win32.Release.Error-2.idtx:29
-#: En.x64.Debug.Error-2.idtx:29 En.x64.Release.Error-2.idtx:29
-msgid "{[SimpleProductName] }Setup failed."
-msgstr "{[SimpleProductName] }ติดตั้งล้มเหลว"
-
-#: En.Win32.Debug.Error-2.idtx:11 En.Win32.Release.Error-2.idtx:11
-#: En.x64.Debug.Error-2.idtx:11 En.x64.Release.Error-2.idtx:11
-msgid "{{Disk full: }}"
-msgstr "{{ดิสก์เต็ม: }}"
-
-#: En.Win32.Debug.Error-2.idtx:5 En.Win32.Release.Error-2.idtx:5
-#: En.x64.Debug.Error-2.idtx:5 En.x64.Release.Error-2.idtx:5
-msgid "{{Error [1]. }}"
-msgstr "{{ข้อผิดพลาด [1]. }}"
-
-#: En.Win32.Debug.Error-2.idtx:4 En.Win32.Release.Error-2.idtx:4
-#: En.x64.Debug.Error-2.idtx:4 En.x64.Release.Error-2.idtx:4
-msgid "{{Fatal error: }}"
-msgstr "{{ข้อผิดพลาดร้ายแรง: }}"
-
-#: En.Win32.Debug.Error-2.idtx:16 En.Win32.Release.Error-2.idtx:16
-#: En.x64.Debug.Error-2.idtx:16 En.x64.Release.Error-2.idtx:16
-msgid "=== Logging started: [Date]  [Time] ==="
-msgstr "=== การเก็บประวัติเริ่ม: [Date]  [Time] ==="
-
-#: En.Win32.Debug.Error-2.idtx:17 En.Win32.Release.Error-2.idtx:17
-#: En.x64.Debug.Error-2.idtx:17 En.x64.Release.Error-2.idtx:17
-msgid "=== Logging stopped: [Date]  [Time] ==="
-msgstr "=== การเก็บประวัติหยุด: [Date]  [Time] ==="
-
-#: En.Win32.Debug.ActionText-2.idtx:3 En.Win32.Debug.CustomAction-2.idtx:3
-#: En.Win32.Debug.Error-2.idtx:3 En.Win32.Release.ActionText-2.idtx:3
-#: En.Win32.Release.CustomAction-2.idtx:3 En.Win32.Release.Error-2.idtx:3
-#: En.x64.Debug.ActionText-2.idtx:3 En.x64.Debug.CustomAction-2.idtx:3
-#: En.x64.Debug.Error-2.idtx:3 En.x64.Release.ActionText-2.idtx:3
-#: En.x64.Release.CustomAction-2.idtx:3 En.x64.Release.Error-2.idtx:3
-msgid "1252"
-msgstr "874"
-
-#: En.Win32.Debug.Error-2.idtx:171 En.Win32.Release.Error-2.idtx:171
-#: En.x64.Debug.Error-2.idtx:171 En.x64.Release.Error-2.idtx:171
-msgid "64-bit registry operation attempted on 32-bit operating system for key [2]."
-msgstr ""
-
-#: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
-#: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
-msgid "A file that is required cannot be installed because the cabinet file [2] has an invalid digital signature.  This may indicate that the cabinet file is corrupt.{{  Error [3] was returned by WinVerifyTrust.}}"
-msgstr "แฟ้มที่จำเป็นไม่สามารถถูกติดตั้งได้ เพราะแฟ้ม cabinet  [2] ถูกลงชื่อแบบดิจิตัลอย่างไม่ถูกต้อง  ซึ่งอาจเป็นเพราะว่าแฟ้ม cabinet นี้เสียหาย {{  ข้อผิดพลาด [3] ถูกส่งกลับคืนโดย WinVerifyTrust.}}"
-
-#: En.Win32.Debug.Error-2.idtx:59 En.Win32.Release.Error-2.idtx:59
-#: En.x64.Debug.Error-2.idtx:59 En.x64.Release.Error-2.idtx:59
-msgid "A file that is required cannot be installed because the cabinet file [2] is not digitally signed.  This may indicate that the cabinet file is corrupt."
-msgstr "แฟ้มที่จำเป็นไม่สามารถถูกติดตั้งได้ เพราะแฟ้ม cabinet  [2] ไม่ได้ถูกลงชื่อแบบดิจิตัล  ซึ่งอาจเป็นเพราะว่าแฟ้ม cabinet นี้เสียหาย"
-
-#: En.Win32.Debug.Error-2.idtx:48 En.Win32.Release.Error-2.idtx:48
-#: En.x64.Debug.Error-2.idtx:48 En.x64.Release.Error-2.idtx:48
-msgid "A network error occurred while attempting to create the directory: [2]"
-msgstr "ข้อผิดพลาดเครือข่ายเกิดขึ้นขณะพยายามที่จะสร้างไดเรกตอรี: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:49 En.Win32.Release.Error-2.idtx:49
-#: En.x64.Debug.Error-2.idtx:49 En.x64.Release.Error-2.idtx:49
-msgid "A network error occurred while attempting to open the source file cabinet: [2]"
-msgstr "ข้อผิดพลาดเครือข่ายเกิดขึ้นขณะพยายามที่จะเปิดแหล่งแฟ้ม: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:46 En.Win32.Release.Error-2.idtx:46
-#: En.x64.Debug.Error-2.idtx:46 En.x64.Release.Error-2.idtx:46
-msgid "A network error occurred while attempting to read from the file: [2]"
-msgstr "ข้อผิดพลาดเครือข่ายเกิดขึ้นขณะพยายามที่จะอ่านจากแฟ้ม: [2]"
-
-#: En.Win32.Debug.CustomAction-2.idtx:5 En.Win32.Release.CustomAction-2.idtx:5
-#: En.x64.Debug.CustomAction-2.idtx:4 En.x64.Release.CustomAction-2.idtx:4
-msgid "A newer version of [SimpleProductName] is already installed."
-msgstr ""
-
-#: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
-#: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
-msgid "A portion of the folder path '[2]' is invalid.  It is either empty or exceeds the length allowed by the system."
-msgstr "ส่วนของเส้นทางโฟลเดอร์ '[2]' ไม่ถูกต้อง ซึ่งอาจจะว่างเปล่า หรือเกินความยาวที่อนุญาตโดยระบบ"
-
-#: En.Win32.Debug.Error-2.idtx:97 En.Win32.Release.Error-2.idtx:97
-#: En.x64.Debug.Error-2.idtx:97 En.x64.Release.Error-2.idtx:97
-msgid "A previous installation for this product is in progress.  You must undo the changes made by that installation to continue.  Do you want to undo those changes?"
-msgstr "การติดตั้งก่อนหน้าสำหรับผลิตภัณฑ์นี้อยู่ในการดำเนินการ คุณต้องเลิกทำการเปลี่ยนแปลงที่ทำเพื่อทำให้การติดตั้งดำเนินต่อไป  คุณต้องการที่จะเลิกทำการเปลี่ยนแปลงเหล่านั้นหรือไม่"
-
-#: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
-#: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
-msgid "A valid destination folder for the install could not be determined."
-msgstr "โฟลเดอร์ปลายทางที่ถูกต้องสำหรับการติดตั้งไม่สามารถถูกกำหนดได้"
-
-#: En.Win32.Debug.Error-2.idtx:12 En.Win32.Release.Error-2.idtx:12
-#: En.x64.Debug.Error-2.idtx:12 En.x64.Release.Error-2.idtx:12
-msgid "Action [Time]: [1]. [2]"
-msgstr "การกระทำ [Time]: [1]. [2]"
-
-#: En.Win32.Debug.Error-2.idtx:19 En.Win32.Release.Error-2.idtx:19
-#: En.x64.Debug.Error-2.idtx:19 En.x64.Release.Error-2.idtx:19
-msgid "Action ended [Time]: [1]. Return value [2]."
-msgstr "การกระทำสิ้นสุด [Time]: [1]. คืนค่า [2]."
-
-#: En.Win32.Debug.Error-2.idtx:18 En.Win32.Release.Error-2.idtx:18
-#: En.x64.Debug.Error-2.idtx:18 En.x64.Release.Error-2.idtx:18
-msgid "Action start [Time]: [1]."
-msgstr "การกระทำเริ่ม [Time]: [1]."
-
-#: En.Win32.Debug.Error-2.idtx:118 En.Win32.Release.Error-2.idtx:118
-#: En.x64.Debug.Error-2.idtx:118 En.x64.Release.Error-2.idtx:118
-msgid "Advertisement completed successfully."
-msgstr "การโฆษณาเสร็จสมบูรณ์"
-
-#: En.Win32.Debug.Error-2.idtx:119 En.Win32.Release.Error-2.idtx:119
-#: En.x64.Debug.Error-2.idtx:119 En.x64.Release.Error-2.idtx:119
-msgid "Advertisement failed."
-msgstr "การโฆษณาล้มเหลว"
-
-#: En.Win32.Debug.ActionText-2.idtx:4 En.Win32.Release.ActionText-2.idtx:4
-#: En.x64.Debug.ActionText-2.idtx:4 En.x64.Release.ActionText-2.idtx:4
+#: en_US.Win32.Debug.ActionText-2.idtx:4
+#: en_US.Win32.Release.ActionText-2.idtx:4 en_US.x64.Debug.ActionText-2.idtx:4
+#: en_US.x64.Release.ActionText-2.idtx:4
 msgid "Advertising application"
 msgstr "กำลังโฆษณาโปรแกรมประยุกต์"
 
-#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
-#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+#: en_US.Win32.Debug.ActionText-2.idtx:5
+#: en_US.Win32.Release.ActionText-2.idtx:5 en_US.x64.Debug.ActionText-2.idtx:5
+#: en_US.x64.Release.ActionText-2.idtx:5
 msgid "Allocating registry space"
 msgstr "กำลังจัดสรรพื้นที่ registry"
 
-#: En.Win32.Debug.Error-2.idtx:170 En.Win32.Release.Error-2.idtx:170
-#: En.x64.Debug.Error-2.idtx:170 En.x64.Release.Error-2.idtx:170
-msgid "An error occurred during the installation of assembly '[6]'. One or more modules of the assembly could not be found. {{HRESULT: [3]. assembly interface: [4], function: [5], component: [2]}}"
-msgstr "ข้อผิดพลาดเกิดขึ้นระหว่างการติดตั้งรวบรวมของ '[6]'   มีโมดูลอันใดอันหนึ่งของการรวบรวมหายไป HRESULT: [3]. {{assembly interface: [4], function: [5], component: [2]}}"
-
-#: En.Win32.Debug.Error-2.idtx:167 En.Win32.Release.Error-2.idtx:167
-#: En.x64.Debug.Error-2.idtx:167 En.x64.Release.Error-2.idtx:167
-msgid "An error occurred during the installation of assembly '[6]'. Please refer to Help and Support for more information. {{HRESULT: [3]. assembly interface: [4], function: [5], component: [2]}}"
-msgstr "ข้อผิดพลาดเกิดขึ้นระหว่างการติดตั้ง '[6]'  กรุณาอ่านข้อมูลเพิ่มเติมจาก Help and Support   HRESULT: [3]. {{assembly interface: [4], function: [5], component: [2]}}"
-
-#: En.Win32.Debug.Error-2.idtx:168 En.Win32.Release.Error-2.idtx:168
-#: En.x64.Debug.Error-2.idtx:168 En.x64.Release.Error-2.idtx:168
-msgid "An error occurred during the installation of assembly '[6]'. The assembly is not strongly named or is not signed with the minimal key length. {{HRESULT: [3]. assembly interface: [4], function: [5], component: [2]}}"
-msgstr "ข้อผิดพลาดเกิดขึ้นระหว่างการติดตั้งรวบรวมของ '[6]'   การรวบรวมไม่ใช่ชื่อที่ปลอดภัย หรือ คีย์ที่เซ็นต์ยาวไม่พอ HRESULT: [3]. {{assembly interface: [4], function: [5], component: [2]}}"
-
-#: En.Win32.Debug.Error-2.idtx:169 En.Win32.Release.Error-2.idtx:169
-#: En.x64.Debug.Error-2.idtx:169 En.x64.Release.Error-2.idtx:169
-msgid "An error occurred during the installation of assembly '[6]'. The signature or catalog could not be verified or is not valid. {{HRESULT: [3]. assembly interface: [4], function: [5], component: [2]}}"
-msgstr "ข้อผิดพลาดเกิดขึ้นระหว่างการติดตั้งรวบรวมของ '[6]'   การเซ็นต์ชื่อหรือแคตตาลอกไม่สามารถถูกเช็คได้  HRESULT: [3]. {{assembly interface: [4], function: [5], component: [2]}}"
-
-#: En.Win32.Debug.Error-2.idtx:89 En.Win32.Release.Error-2.idtx:89
-#: En.x64.Debug.Error-2.idtx:89 En.x64.Release.Error-2.idtx:89
-msgid "An error occurred while applying security settings. [2] is not a valid user or group. This could be a problem with the package, or a problem connecting to a domain controller on the network. Check your network connection and click Retry, or Cancel to end the install. {{Unable to locate the user's SID, system error [3]}}"
-msgstr "ข้อผิดพลาดเกิดขึ้นระหว่างการนำการติดตั้งความปลอดภัยไปใช้  [2] ไม่ใช่ผู้ใช้หรือกลุ่มที่ถูกต้อง สิ่งนี้อาจเกิดขึ้นเพราะข้อผิดพลาดทางเครือข่าย ข้อผิดพลาดในการอ่านจากซีดีรอม หรือโปรแกรมชุดนี้มีปัญหา ตรวจการเชื่อมต่อกับเครือข่าย แล้วคลิก ลองใหม่ หรือ ยกเลิก เพื่อหยุดการติดตั้ง  {{ไม่สามารถหา user's SID ได้   ข้อผิดพลาดระบบ [3]}}"
-
-#: En.Win32.Debug.Error-2.idtx:47 En.Win32.Release.Error-2.idtx:47
-#: En.x64.Debug.Error-2.idtx:47 En.x64.Release.Error-2.idtx:47
-msgid "An error occurred while attempting to create the directory: [2]"
-msgstr "ข้อผิดพลาดเกิดขึ้นขณะพยายามที่จะสร้างไดเรกตอรี: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
-#: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
-msgid "An error occurred while writing installation information to disk.  Check to make sure enough disk space is available, and click Retry, or Cancel to end the install."
-msgstr "เกิดข้อผิดพลาดขึ้นขณะทำการเขียนข้อมูลการติดตั้งไปยังดิสก์  ตรวจสอบให้แน่ใจว่ามีที่ว่างดิสก์เพียงพอ แล้วคลิกลองใหม่ หรือยกเลิก เพื่อจบการติดตั้ง"
-
-#: En.Win32.Debug.Error-2.idtx:96 En.Win32.Release.Error-2.idtx:96
-#: En.x64.Debug.Error-2.idtx:96 En.x64.Release.Error-2.idtx:96
-msgid "An installation for [2] is currently suspended.  You must undo the changes made by that installation to continue.  Do you want to undo those changes?"
-msgstr "การติดตั้งสำหรับ [2] ถูกหยุดไว้ชั่วขณะ คุณต้องเลิกทำการเปลี่ยนแปลงที่ทำ เพื่อทำให้การติดตั้งดำเนินต่อไป คุณต้องการที่จะเลิกทำการเปลี่ยนแปลงเหล่านั้นหรือไม่"
-
-#: En.Win32.Debug.Error-2.idtx:98 En.Win32.Release.Error-2.idtx:98
-#: En.x64.Debug.Error-2.idtx:98 En.x64.Release.Error-2.idtx:98
-msgid "An installation package for the product [2] cannot be found. Try the installation again using a valid copy of the installation package '[3]'."
-msgstr "ไม่พบชุดการติดตั้งสำหรับผลิตภัณฑ์นี้ [2]  ลองติดตั้งอีกครั้งโดยใช้สำเนาที่ถูกต้องของชุดการติดตั้ง '[3]"
-
-#: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
-#: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
-msgid "Another application has exclusive access to the file '[2]'.  Please shut down all other applications, then click Retry."
-msgstr "โปรแกรมประยุกต์อื่นมีสิทธิ์ในการเข้าถึงแฟ้ม '[2]'  กรุณาปิดโปรแกรมอื่นทั้งหมด แล้วคลิกลองใหม่"
-
-#: En.Win32.Debug.Error-2.idtx:77 En.Win32.Release.Error-2.idtx:77
-#: En.x64.Debug.Error-2.idtx:77 En.x64.Release.Error-2.idtx:77
-msgid "Another installation is in progress. You must complete that installation before continuing this one."
-msgstr "การติดตั้งอื่นยังอยู่ในการดำเนินการ คุณต้องทำการติดตั้งนั้นให้สมบูรณ์ก่อนที่จะทำการติดตั้งนี้ต่อไป"
-
-#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
-#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
-msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-msgstr "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-
-#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
-#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
-msgid "AppId: [1]{{, AppType: [2]}}"
-msgstr "AppId: [1]{{, AppType: [2]}}"
-
-#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Debug.ActionText-2.idtx:28
-#: En.Win32.Release.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:28
-#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Debug.ActionText-2.idtx:28
-#: En.x64.Release.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:28
-msgid "Application Context:[1], Assembly Name:[2]"
-msgstr "ข้อความโปรแกรมประยุกต์ [1]  ชื่อที่รวบรวม [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
-#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
-msgid "Application: [1]"
-msgstr "โปรแกรมประยุกต์: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
-#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
-msgid "Application: [1], Command line: [2]"
-msgstr "โปรแกรมประยุกต์: [1], บรรทัดคำสั่ง: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:82 En.Win32.Release.Error-2.idtx:82
-#: En.x64.Debug.Error-2.idtx:82 En.x64.Release.Error-2.idtx:82
-msgid "Are you sure you want to cancel?"
-msgstr "คุณแน่ใจหรือไม่ว่าคุณต้องการยกเลิก"
-
-#: En.Win32.Debug.ActionText-2.idtx:7 En.Win32.Release.ActionText-2.idtx:7
-#: En.x64.Debug.ActionText-2.idtx:7 En.x64.Release.ActionText-2.idtx:7
-msgid "Binding executables"
-msgstr "กำลังประกอบส่วนที่เรียกใช้ได้"
-
-#: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
-#: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
-msgid "Cannot create the directory '[2]'.  A file with this name already exists.  Please rename or remove the file and click retry, or click Cancel to exit."
-msgstr "ไม่สามารถสร้างไดเรกตอรี '[2]'  มีแฟ้มที่ใช้ชื่อนี้อยู่แล้ว  กรุณาเปลี่ยนชื่อหรือเอาแฟ้มนี้ออก แล้วคลิกลองใหม่ หรือคลิกยกเลิก เพื่อออกจากการสร้าง"
-
-#: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
-#: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
-msgid "Cannot create the file '[2]'.  A directory with this name already exists.  Cancel the install and try installing to a different location."
-msgstr "ไม่สามารถสร้างแฟ้ม '[2]'  มีไดเรกตอรีที่ใช้ชื่อนี้อยู่แล้ว  ให้ยกเลิกการติดตั้งแล้วลองติดตั้งไปยังตำแหน่งอื่น"
-
-#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Debug.ActionText-2.idtx:64
-#: En.Win32.Release.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:64
-#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Debug.ActionText-2.idtx:64
-#: En.x64.Release.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:64
-msgid "Class Id: [1]"
-msgstr "Class Id: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Debug.ActionText-2.idtx:61
-#: En.Win32.Release.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:61
-#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Debug.ActionText-2.idtx:61
-#: En.x64.Release.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:61
-msgid "Component ID: [1], Qualifier: [2]"
-msgstr "หมายเลขคอมโพเนนต์: [1], ตัวตรวจสอบเกณฑ์: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:159 En.Win32.Release.Error-2.idtx:159
-#: En.x64.Debug.Error-2.idtx:159 En.x64.Release.Error-2.idtx:159
-msgid "Component Services (COM+ 1.0) are not installed on this computer.  This installation requires Component Services in order to complete successfully.  Component Services are available on Windows 2000."
-msgstr "Component Services (COM+ 1.0) ไม่ถูกติดตั้งบนคอมพิวเตอร์นี้ การติดตั้งนี้ต้องการ Component Services เพื่อที่จะทำให้เสร็จสิ้นอย่างสมบูรณ์  Component Services มีอยู่บน Windows 2000"
-
-#: En.Win32.Debug.ActionText-2.idtx:10 En.Win32.Debug.ActionText-2.idtx:15
-#: En.Win32.Debug.ActionText-2.idtx:9 En.Win32.Release.ActionText-2.idtx:10
-#: En.Win32.Release.ActionText-2.idtx:15 En.Win32.Release.ActionText-2.idtx:9
-#: En.x64.Debug.ActionText-2.idtx:10 En.x64.Debug.ActionText-2.idtx:15
-#: En.x64.Debug.ActionText-2.idtx:9 En.x64.Release.ActionText-2.idtx:10
-#: En.x64.Release.ActionText-2.idtx:15 En.x64.Release.ActionText-2.idtx:9
-msgid "Computing space requirements"
-msgstr "กำลังคำนวณพื้นที่ที่จำเป็น"
-
-#: En.Win32.Debug.Error-2.idtx:120 En.Win32.Release.Error-2.idtx:120
-#: En.x64.Debug.Error-2.idtx:120 En.x64.Release.Error-2.idtx:120
-msgid "Configuration completed successfully."
-msgstr "การกำหนดค่าเสร็จสมบูรณ์"
-
-#: En.Win32.Debug.Error-2.idtx:121 En.Win32.Release.Error-2.idtx:121
-#: En.x64.Debug.Error-2.idtx:121 En.x64.Release.Error-2.idtx:121
-msgid "Configuration failed."
-msgstr "การกำหนดค่าล้มเหลว"
-
-#: En.Win32.Debug.Error-2.idtx:108 En.Win32.Release.Error-2.idtx:108
-#: En.x64.Debug.Error-2.idtx:108 En.x64.Release.Error-2.idtx:108
-msgid "Configured [2]"
-msgstr "กำหนดค่าแล้ว [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:18 En.Win32.Release.ActionText-2.idtx:18
-#: En.x64.Debug.ActionText-2.idtx:18 En.x64.Release.ActionText-2.idtx:18
-msgid "Copying network install files"
-msgstr "กำลังคัดลอกแฟ้มติดตั้งทางเครือข่าย"
-
-#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:19
-#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:19
-msgid "Copying new files"
-msgstr "กำลังคัดลอกแฟ้มใหม่"
-
-#: En.Win32.Debug.Error-2.idtx:86 En.Win32.Release.Error-2.idtx:86
-#: En.x64.Debug.Error-2.idtx:86 En.x64.Release.Error-2.idtx:86
-msgid "Could not access network location [2]."
-msgstr "ไม่สามารถเข้าถึงตำแหน่งเครือข่าย [2]"
-
-#: En.Win32.Debug.Error-2.idtx:67 En.Win32.Release.Error-2.idtx:67
-#: En.x64.Debug.Error-2.idtx:67 En.x64.Release.Error-2.idtx:67
-msgid "Could not create key: [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
-msgstr "ไม่สามารถสร้าง key: [2]. {{ ระบบผิดพลาด [3].}}  ยืนยันให้แน่ใจว่าคุณมีสิทธิ์ในการเข้าถึงไปยัง key นั้น หรือติดต่อฝ่ายสนับสนุนของคุณ"
-
-#: En.Win32.Debug.Error-2.idtx:141 En.Win32.Release.Error-2.idtx:141
-#: En.x64.Debug.Error-2.idtx:141 En.x64.Release.Error-2.idtx:141
-msgid "Could not create Shortcut [2]. Verify that the destination folder exists and that you can access it."
-msgstr "ไม่สามารถสร้างทางลัด [2] ยืนยันให้แน่ใจว่าโฟลเดอร์ปลายทางมีอยู่ และคุณสามารถเข้าถึง"
-
-#: En.Win32.Debug.Error-2.idtx:70 En.Win32.Release.Error-2.idtx:70
-#: En.x64.Debug.Error-2.idtx:70 En.x64.Release.Error-2.idtx:70
-msgid "Could not delete key [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
-msgstr "ไม่สามารถลบ key [2]. {{ ระบบผิดพลาด [3].}}  ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอในการเข้าถึง key นั้น หรือให้ติดต่อฝ่ายสนับสนุนของคุณ "
-
-#: En.Win32.Debug.Error-2.idtx:69 En.Win32.Release.Error-2.idtx:69
-#: En.x64.Debug.Error-2.idtx:69 En.x64.Release.Error-2.idtx:69
-msgid "Could not delete value [2] from key [3]. {{ System error [4].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
-msgstr "ไม่สามารถลบค่า [2] จาก key [3]. {{ ระบบผิดพลาด [4].}}  ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอในการเข้าถึง key นั้น หรือติดต่อฝ่ายสนับสนุนของคุณ"
-
-#: En.Win32.Debug.Error-2.idtx:88 En.Win32.Release.Error-2.idtx:88
-#: En.x64.Debug.Error-2.idtx:88 En.x64.Release.Error-2.idtx:88
-msgid "Could not find any previously installed compliant products on the machine for installing this product."
-msgstr "ไม่สามารถพบผลิตภัณฑ์ที่จำเป็นสำหรับการติดตั้งผลิตภัณฑ์นี้ถูกติดตั้งไว้ก่อนหน้าบนเครื่องนี้"
-
-#: En.Win32.Debug.Error-2.idtx:74 En.Win32.Release.Error-2.idtx:74
-#: En.x64.Debug.Error-2.idtx:74 En.x64.Release.Error-2.idtx:74
-msgid "Could not get sub key names for key [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel."
-msgstr "ไม่สามารถได้รับชื่อ key ย่อยสำหรับ key [2]. {{ ระบบผิดพลาด [3].}}  ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอในการเข้าถึง key นั้น หรือให้ติดต่อฝ่ายสนับสนุนของคุณ"
-
-#: En.Win32.Debug.Error-2.idtx:73 En.Win32.Release.Error-2.idtx:73
-#: En.x64.Debug.Error-2.idtx:73 En.x64.Release.Error-2.idtx:73
-msgid "Could not get value names for key [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel."
-msgstr "ไม่สามารถได้รับชื่อสำหรับ key [2]. {{ ระบบผิดพลาด [3].}}  ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอในการเข้าถึง key นั้น หรือให้ติดต่อฝ่ายสนับสนุนของคุณ"
-
-#: En.Win32.Debug.Error-2.idtx:76 En.Win32.Release.Error-2.idtx:76
-#: En.x64.Debug.Error-2.idtx:76 En.x64.Release.Error-2.idtx:76
-msgid "Could not increase the available registry space. [2] KB of free registry space is required for the installation of this application."
-msgstr "ไม่สามารถเพิ่มที่ว่าง registry ที่มีอยู่ [2] KB ของที่ว่าง registry ที่ถูกต้องการสำหรับการติดตั้งของโปรแกรมประยุกต์"
-
-#: En.Win32.Debug.Error-2.idtx:68 En.Win32.Release.Error-2.idtx:68
-#: En.x64.Debug.Error-2.idtx:68 En.x64.Release.Error-2.idtx:68
-msgid "Could not open key: [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
-msgstr "ไม่สามารถเปิด key: [2]. {{ ระบบผิดพลาด [3].}}  ยืนยันให้แน่ใจว่าคุณมีสิทธิ์การเข้าถึงไปยัง key นั้น หรือติดต่อฝ่ายสนับสนุนของคุณ "
-
-#: En.Win32.Debug.Error-2.idtx:75 En.Win32.Release.Error-2.idtx:75
-#: En.x64.Debug.Error-2.idtx:75 En.x64.Release.Error-2.idtx:75
-msgid "Could not read security information for key [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel."
-msgstr "ไม่สามารถอ่านข้อมูลความปลอดภัยสำหรับ key [2]. {{ ระบบผิดพลาด [3].}}  ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอในการเข้าถึง key นั้น หรือให้ติดต่อฝ่ายสนับสนุนของคุณ"
-
-#: En.Win32.Debug.Error-2.idtx:71 En.Win32.Release.Error-2.idtx:71
-#: En.x64.Debug.Error-2.idtx:71 En.x64.Release.Error-2.idtx:71
-msgid "Could not read value [2] from key [3]. {{ System error [4].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
-msgstr "ไม่สามารถอ่านค่า [2] จาก key [3]. {{ ระบบผิดพลาด [4].}}  ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอในการเข้าถึง key นั้น หรือให้ติดต่อฝ่ายสนับสนุนของคุณ"
-
-#: En.Win32.Debug.Error-2.idtx:139 En.Win32.Release.Error-2.idtx:139
-#: En.x64.Debug.Error-2.idtx:139 En.x64.Release.Error-2.idtx:139
-msgid "Could not register font [2].  Verify that you have sufficient permissions to install fonts, and that the system supports this font."
-msgstr "ไม่สามารถลงทะเบียนแบบอักษร [2]  ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอที่จะติดตั้งแบบอักษร และระบบสนับสนุนแบบอักษรนี้"
-
-#: En.Win32.Debug.Error-2.idtx:143 En.Win32.Release.Error-2.idtx:143
-#: En.x64.Debug.Error-2.idtx:143 En.x64.Release.Error-2.idtx:143
-msgid "Could not register type library for file [2].  Contact your support personnel."
-msgstr "ไม่สามารถลงทะเบียนชนิดของแฟ้ม library [2]  ให้ติดต่อฝ่ายสนับสนุนของคุณ"
-
-#: En.Win32.Debug.Error-2.idtx:142 En.Win32.Release.Error-2.idtx:142
-#: En.x64.Debug.Error-2.idtx:142 En.x64.Release.Error-2.idtx:142
-msgid "Could not remove Shortcut [2]. Verify that the shortcut file exists and that you can access it."
-msgstr "ไม่สามารถเอาทางลัด [2] ออก ยืนยันให้แน่ใจว่าแฟ้มทางลัดมีอยู่และคุณสามารถเข้าถึง"
-
-#: En.Win32.Debug.Error-2.idtx:146 En.Win32.Release.Error-2.idtx:146
-#: En.x64.Debug.Error-2.idtx:146 En.x64.Release.Error-2.idtx:146
-msgid "Could not schedule file [2] to replace file [3] on reboot.  Verify that you have write permissions to file [3]."
-msgstr "ไม่สามารถจัดตารางเวลาแฟ้ม [2] ให้แทนที่แฟ้ม [3] เมื่อเริ่มระบบใหม่  ยืนยันให้แน่ใจว่าคุณมีสิทธิ์ในการเขียนไปยังแฟ้ม [3]"
-
-#: En.Win32.Debug.Error-2.idtx:158 En.Win32.Release.Error-2.idtx:158
-#: En.x64.Debug.Error-2.idtx:158 En.x64.Release.Error-2.idtx:158
-msgid "Could not set file security for file '[3]'. Error: [2].  Verify that you have sufficient privileges to modify the security permissions for this file."
-msgstr "ไม่สามารถตั้งค่าความปลอดภัยสำหรับแฟ้ม '[3]' ข้อผิดพลาด: [2]  ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอที่จะปรับเปลี่ยนสิทธิ์ความปลอดภัยของแฟ้มนี้"
-
-#: En.Win32.Debug.Error-2.idtx:140 En.Win32.Release.Error-2.idtx:140
-#: En.x64.Debug.Error-2.idtx:140 En.x64.Release.Error-2.idtx:140
-msgid "Could not unregister font [2]. Verify that you that you have sufficient permissions to remove fonts."
-msgstr "ไม่สามารถยกเลิกการลงทะเบียนแบบอักษร [2] ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอที่จะเอาแบบอักษรออก"
-
-#: En.Win32.Debug.Error-2.idtx:144 En.Win32.Release.Error-2.idtx:144
-#: En.x64.Debug.Error-2.idtx:144 En.x64.Release.Error-2.idtx:144
-msgid "Could not unregister type library for file [2].  Contact your support personnel."
-msgstr "ไม่สามารถยกเลิกการลงทะเบียนชนิดของแฟ้ม library [2]  ให้ติดต่อฝ่ายสนับสนุนของคุณ"
-
-#: En.Win32.Debug.Error-2.idtx:156 En.Win32.Release.Error-2.idtx:156
-#: En.x64.Debug.Error-2.idtx:156 En.x64.Release.Error-2.idtx:156
-msgid "Could not update environment variable '[2]'.  Verify that you have sufficient privileges to modify environment variables."
-msgstr "ไม่สามารถปรับปรุง environment variable '[2]'  ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอที่จะปรับเปลี่ยน environment variables"
-
-#: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
-#: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
-msgid "Could not update the ini file [2][3].  Verify that the file exists and that you can access it."
-msgstr "ไม่สามารถปรับปรุงแฟ้ม ini  [2][3]  ยืนยันให้แน่ใจว่าแฟ้มมีอยู่ และคุณสามารถเข้าถึง"
-
-#: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
-#: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
-msgid "Could not write value [2] to key [3]. {{ System error [4].}}  Verify that you have sufficient access to that key, or contact your support personnel."
-msgstr "ไม่สามารถเขียนค่า [2] ไปยัง key [3]. {{ ระบบผิดพลาด [4].}}  ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอในการเข้าถึง key นั้น หรือให้ติดต่อฝ่ายสนับสนุนของคุณ"
-
-#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:14
-#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:14
-msgid "Creating duplicate files"
-msgstr "กำลังสร้างแฟ้มสำรอง"
-
-#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:11
-#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:11
-msgid "Creating folders"
-msgstr "กำลังสร้างโฟลเดอร์"
-
-#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:12
-#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:12
-msgid "Creating shortcuts"
-msgstr "กำลังสร้างทางลัด"
-
-#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Release.ActionText-2.idtx:13
-#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Release.ActionText-2.idtx:13
-msgid "Deleting services"
-msgstr "กำลังลบบริการ"
-
-#: En.Win32.Debug.Error-2.idtx:78 En.Win32.Release.Error-2.idtx:78
-#: En.x64.Debug.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
-msgid "Error accessing secured data. Please make sure the Windows Installer is configured properly and try the install again."
-msgstr "เกิดข้อผิดพลาดในการเข้าถึงข้อมูลที่ปลอดภัย กรุณาทำให้แน่ใจว่า Windows Installer ถูกกำหนดค่าอย่างถูกต้องแล้วลองติดตั้งอีกครั้ง"
-
-#: En.Win32.Debug.Error-2.idtx:58 En.Win32.Release.Error-2.idtx:58
-#: En.x64.Debug.Error-2.idtx:58 En.x64.Release.Error-2.idtx:58
-msgid "Error applying patch to file [2].  It has probably been updated by other means, and can no longer be modified by this patch.  For more information contact your patch vendor.  {{System Error: [3]}}"
-msgstr "ผิดพลาดในการใช้โปรแกรมซ่อมแซม (patch) กับแฟ้ม [2]  ซึ่งอาจจะถูกปรับปรุงโดยวิธีอื่น และไม่สามารถถูกปรับเปลี่ยนโดยโปรแกรมซ่อมแซม (patch) นี้อีกต่อไป สำหรับข้อมูลเพิ่มเติมให้ติดต่อผู้ขายโปรแกรมซ่อมแซม (patch) ของคุณ {{ระบบผิดพลาด: [3]}}"
-
-#: En.Win32.Debug.Error-2.idtx:133 En.Win32.Release.Error-2.idtx:133
-#: En.x64.Debug.Error-2.idtx:133 En.x64.Release.Error-2.idtx:133
-msgid "Error attempting to read from the source install database: [2]."
-msgstr "เกิดข้อผิดพลาดขณะพยายามอ่านจากแหล่งฐานข้อมูลการติดตั้ง: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
-#: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
-msgid "Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that the file [4] exists and that you can access it."
-msgstr "เกิดข้อผิดพลาดในการกำหนดค่าแหล่งข้อมูล ODBC: [4], ODBC ผิดพลาด [2]: [3]. ยืนยันให้แน่ใจว่าแฟ้ม [4] มีอยู่และคุณสามารถเข้าถึง"
-
-#: En.Win32.Debug.Error-2.idtx:56 En.Win32.Release.Error-2.idtx:56
-#: En.x64.Debug.Error-2.idtx:56 En.x64.Release.Error-2.idtx:56
-msgid "Error getting file security: [3] GetLastError: [2]"
-msgstr "เกิดข้อผิดพลาดในการได้รับความปลอดภัยของแฟ้ม: [3] GetLastError: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:148 En.Win32.Release.Error-2.idtx:148
-#: En.x64.Debug.Error-2.idtx:148 En.x64.Release.Error-2.idtx:148
-msgid "Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your support personnel."
-msgstr "เกิดข้อผิดพลาดในการติดตั้งตัวจัดการโปรแกรมควบคุม ODBC,  ODBC ผิดพลาด [2]: [3]. ให้ติดต่อฝ่ายสนับสนุนของคุณ"
-
-#: En.Win32.Debug.Error-2.idtx:150 En.Win32.Release.Error-2.idtx:150
-#: En.x64.Debug.Error-2.idtx:150 En.x64.Release.Error-2.idtx:150
-msgid "Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file [4] exists and that you can access it."
-msgstr "เกิดข้อผิดพลาดในการติดตั้งโปรแกรมควบคุม ODBC : [4], ODBC ผิดพลาด [2]: [3]. ยืนยันให้แน่ใจว่าแฟ้ม [4] มีอยู่และคุณสามารถเข้าถึง"
-
-#: En.Win32.Debug.Error-2.idtx:35 En.Win32.Release.Error-2.idtx:35
-#: En.x64.Debug.Error-2.idtx:35 En.x64.Release.Error-2.idtx:35
-msgid "Error reading from file [2]. {{ System error [3].}} Verify that the file exists and that you can access it."
-msgstr "เกิดข้อผิดพลาดในการอ่านแฟ้ม: [2]  {{ ระบบผิดพลาด [3].}} ยืนยันให้แน่ใจว่าแฟ้มมีอยู่ และคุณสามารถเข้าถึง"
-
-#: En.Win32.Debug.Error-2.idtx:30 En.Win32.Release.Error-2.idtx:30
-#: En.x64.Debug.Error-2.idtx:30 En.x64.Release.Error-2.idtx:30
-msgid "Error reading from file: [2]. {{ System error [3].}}  Verify that the file exists and that you can access it."
-msgstr "เกิดข้อผิดพลาดในการอ่านจากแฟ้ม: [2]. {{ ระบบผิดพลาด [3].}}  ยืนยันให้แน่ใจว่าแฟ้มมีอยู่และคุณสามารถเข้าถึง"
-
-#: En.Win32.Debug.Error-2.idtx:39 En.Win32.Release.Error-2.idtx:39
-#: En.x64.Debug.Error-2.idtx:39 En.x64.Release.Error-2.idtx:39
-msgid "Error reading from file: [3]. {{ System error [2].}}  Verify that the file exists and that you can access it."
-msgstr "เกิดข้อผิดพลาดในการอ่านแฟ้ม: [3]. {{ ระบบผิดพลาด [2].}}  ยืนยันให้แน่ใจว่าแฟ้มยังมีอยู่ และคุณสามารถเข้าถึงแฟ้มนั้นได้"
-
-#: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
-#: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
-msgid "Error registering COM+ Application.  Contact your support personnel for more information."
-msgstr "ผิดพลาดในการลงทะเบียน COM+ Application.  ให้ติดต่อฝ่ายสนับสนุนของคุณเพื่อรับข้อมูลเพิ่มเติม"
-
-#: En.Win32.Debug.Error-2.idtx:147 En.Win32.Release.Error-2.idtx:147
-#: En.x64.Debug.Error-2.idtx:147 En.x64.Release.Error-2.idtx:147
-msgid "Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your support personnel."
-msgstr "เกิดข้อผิดพลาดในการเอาตัวจัดการโปรแกรมควบคุม ODBC ออก ODBC ผิดพลาด [2]: [3]. ให้ติดต่อฝ่ายสนับสนุนของคุณ"
-
-#: En.Win32.Debug.Error-2.idtx:149 En.Win32.Release.Error-2.idtx:149
-#: En.x64.Debug.Error-2.idtx:149 En.x64.Release.Error-2.idtx:149
-msgid "Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you have sufficient privileges to remove ODBC drivers."
-msgstr "เกิดข้อผิดพลาดในการเอาโปรแกรมควบคุม ODBC ออก: [4], ODBC ผิดพลาด [2]: [3]. ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอที่จะเอาโปรแกรมควบคุม ODBC ออก"
-
-#: En.Win32.Debug.Error-2.idtx:161 En.Win32.Release.Error-2.idtx:161
-#: En.x64.Debug.Error-2.idtx:161 En.x64.Release.Error-2.idtx:161
-msgid "Error unregistering COM+ Application.  Contact your support personnel for more information."
-msgstr "ผิดพลาดในการเอา COM+ Application ออกจากการลงทะเบียน ให้ติดต่อฝ่ายสนับสนุนของคุณเพื่อรับข้อมูลเพิ่มเติม"
-
-#: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
-#: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
-msgid "Error writing to file: [2].  Verify that you have access to that directory."
-msgstr "เกิดข้อผิดพลาดขณะเขียนไปยังแฟ้ม: [2]  ยืนยันให้แน่ใจว่าคุณสามารถเข้าถึงไดเรกตอรีนั้น"
-
-#: En.Win32.Debug.Error-2.idtx:40 En.Win32.Release.Error-2.idtx:40
-#: En.x64.Debug.Error-2.idtx:40 En.x64.Release.Error-2.idtx:40
-msgid "Error writing to file: [3]. {{ System error [2].}}  Verify that you have access to that directory."
-msgstr "เกิดข้อผิดพลาดในการเขียนไปยังแฟ้ม: [3]. {{ ระบบผิดพลาด [2].}}  ยืนยันให้แน่ใจว่าคุณสามารถเข้าถึงไดเรกตอรีนั้น"
-
-#: En.Win32.Debug.ActionText-2.idtx:24 En.Win32.Release.ActionText-2.idtx:24
-#: En.x64.Debug.ActionText-2.idtx:24 En.x64.Release.ActionText-2.idtx:24
-msgid "Evaluating launch conditions"
-msgstr "กำลังประเมินผลเงื่อนไขในการเริ่มใช้งาน"
-
-#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Debug.ActionText-2.idtx:66
-#: En.Win32.Release.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:66
-#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Debug.ActionText-2.idtx:66
-#: En.x64.Release.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:66
-msgid "Extension: [1]"
-msgstr "ส่วนขยาย: [1]"
-
-#: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
-#: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
-msgid "Failed to cache package [2]. Error: [3]. Contact your support personnel."
-msgstr "ล้มเหลวที่จะ cache package [2]. ข้อผิดพลาด: [3]. ให้ติดต่อฝ่ายสนับสนุนของคุณ"
-
-#: En.Win32.Debug.Error-2.idtx:61 En.Win32.Release.Error-2.idtx:61
-#: En.x64.Debug.Error-2.idtx:61 En.x64.Release.Error-2.idtx:61
-msgid "Failed to correctly copy [2] file: CRC error."
-msgstr "ไม่สามารถทำสำเนาแฟ้ม [2] ได้ : ข้อผิดพลาด CRC "
-
-#: En.Win32.Debug.Error-2.idtx:62 En.Win32.Release.Error-2.idtx:62
-#: En.x64.Debug.Error-2.idtx:62 En.x64.Release.Error-2.idtx:62
-msgid "Failed to correctly move [2] file: CRC error."
-msgstr "ไม่สามารถย้ายแฟ้ม [2] ได้ : ข้อผิดพลาด CRC "
-
-#: En.Win32.Debug.Error-2.idtx:63 En.Win32.Release.Error-2.idtx:63
-#: En.x64.Debug.Error-2.idtx:63 En.x64.Release.Error-2.idtx:63
-msgid "Failed to correctly patch [2] file: CRC error."
-msgstr "ไม่สามารถแก้ไขแฟ้ม [2] ได้ : ข้อผิดพลาด CRC "
-
-#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Debug.ActionText-2.idtx:62
-#: En.Win32.Release.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:62
-#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Debug.ActionText-2.idtx:62
-#: En.x64.Release.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:62
-msgid "Feature: [1]"
-msgstr "คุณลักษณะ: [1]"
-
-#: En.Win32.Debug.Error-2.idtx:110 En.Win32.Release.Error-2.idtx:110
-#: En.x64.Debug.Error-2.idtx:110 En.x64.Release.Error-2.idtx:110
-msgid "File [2] was rejected by digital signature policy."
-msgstr "แฟ้ม [2] ถูกปฏิเสธจากนโยบายการลงชื่อแบบดิจิตัล"
-
-#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Debug.ActionText-2.idtx:7
-#: En.Win32.Release.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:7
-#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Debug.ActionText-2.idtx:7
-#: En.x64.Release.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:7
-msgid "File: [1]"
-msgstr "แฟ้ม: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
-#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
-msgid "File: [1],  Dependencies: [2]"
-msgstr "แฟ้ม [1]  มีส่วนเกี่ยวข้องกับ [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
-#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
-msgid "File: [1],  Directory: [2],  Size: [3]"
-msgstr "แฟ้ม: [1],  ไดเรกตอรี: [2],  ขนาด: [3]"
-
-#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Debug.ActionText-2.idtx:19
-#: En.Win32.Debug.ActionText-2.idtx:26 En.Win32.Release.ActionText-2.idtx:14
-#: En.Win32.Release.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:26
-#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Debug.ActionText-2.idtx:19
-#: En.x64.Debug.ActionText-2.idtx:26 En.x64.Release.ActionText-2.idtx:14
-#: En.x64.Release.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:26
-msgid "File: [1],  Directory: [9],  Size: [6]"
-msgstr "แฟ้ม: [1],  ไดเรกตอรี: [9],  ขนาด: [6]"
-
-#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Debug.ActionText-2.idtx:72
-#: En.Win32.Release.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:72
-#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Debug.ActionText-2.idtx:72
-#: En.x64.Release.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:72
-msgid "File: [1],  Section: [2],  Key: [3], Value: [4]"
-msgstr "แฟ้ม: [1],  ส่วน: [2],  คีย์: [3], ค่า: [4]"
-
-#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Debug.ActionText-2.idtx:46
-#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:43
-#: En.Win32.Release.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:60
-#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Debug.ActionText-2.idtx:46
-#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:43
-#: En.x64.Release.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:60
-msgid "File: [1], Directory: [9]"
-msgstr "แฟ้ม: [1], ไดเรกตอรี: [9]"
-
-#: En.Win32.Debug.ActionText-2.idtx:18 En.Win32.Release.ActionText-2.idtx:18
-#: En.x64.Debug.ActionText-2.idtx:18 En.x64.Release.ActionText-2.idtx:18
-msgid "File: [1], Directory: [9], Size: [6]"
-msgstr "แฟ้ม: [1], ไดเรกตอรี: [9], ขนาด: [6]"
-
-#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Debug.ActionText-2.idtx:56
-#: En.Win32.Release.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:56
-#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Debug.ActionText-2.idtx:56
-#: En.x64.Release.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:56
-msgid "File: [1], Folder: [2]"
-msgstr "แฟ้ม: [1], โฟลเดอร์: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Debug.ActionText-2.idtx:47
-#: En.Win32.Release.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:47
-#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Debug.ActionText-2.idtx:47
-#: En.x64.Release.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:47
-msgid "Folder: [1]"
-msgstr "โฟลเดอร์: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Debug.ActionText-2.idtx:67
-#: En.Win32.Release.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:67
-#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Debug.ActionText-2.idtx:67
-#: En.x64.Release.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:67
-msgid "Font: [1]"
-msgstr "แบบอักษร: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
-#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
-msgid "Found application: [1]"
-msgstr "พบโปรแกรมประยุกต์: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
-#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+#: en_US.Win32.Debug.ActionText-2.idtx:5
+#: en_US.Win32.Release.ActionText-2.idtx:5 en_US.x64.Debug.ActionText-2.idtx:5
+#: en_US.x64.Release.ActionText-2.idtx:5
 msgid "Free space: [1]"
 msgstr "พื้นที่ว่าง: [1]"
 
-#: En.Win32.Debug.Error-2.idtx:25 En.Win32.Release.Error-2.idtx:25
-#: En.x64.Debug.Error-2.idtx:25 En.x64.Release.Error-2.idtx:25
-msgid "Gathering required information..."
-msgstr "กำลังรวบรวมข้อมูลที่ต้องการ..."
-
-#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:17
-#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:17
-msgid "Generating script operations for action:"
-msgstr "กำลังสร้างสคริปต์การปฏิบัติการสำหรับการกระทำ:"
-
-#: En.Win32.Debug.Error-2.idtx:124 En.Win32.Release.Error-2.idtx:124
-#: En.x64.Debug.Error-2.idtx:124 En.x64.Release.Error-2.idtx:124
-msgid "In order to complete the installation of [2], you must restart the computer. Other users are currently logged on to this computer, and restarting may cause them to lose their work. Do you want to restart now?"
-msgstr "การติดตั้งของ [2] จะสมบูรณ์ได้ คุณต้องปิดและเปิดเครื่องคอมพิวเตอร์ของคุณ  ผู้ใช้อื่นๆ ที่ทำงานบนเครื่องนี้จะถูกหยุด  คุณจะปิดและเปิดเครื่องคอมพิวเตอร์เดี๋ยวนี้หรือไม่"
-
-#: En.Win32.Debug.Error-2.idtx:8 En.Win32.Release.Error-2.idtx:8
-#: En.x64.Debug.Error-2.idtx:8 En.x64.Release.Error-2.idtx:8
-msgid "Info [1]. "
-msgstr "ข้อมูล [1]. "
-
-#: En.Win32.Debug.ActionText-2.idtx:57 En.Win32.Release.ActionText-2.idtx:57
-#: En.x64.Debug.ActionText-2.idtx:57 En.x64.Release.ActionText-2.idtx:57
-msgid "Initializing ODBC directories"
-msgstr "กำลังเริ่มต้นไดเรกตอรี ODBC"
-
-#: En.Win32.Debug.Error-2.idtx:99 En.Win32.Release.Error-2.idtx:99
-#: En.x64.Debug.Error-2.idtx:99 En.x64.Release.Error-2.idtx:99
-msgid "Installation completed successfully."
-msgstr "การติดตั้งเสร็จสมบูรณ์"
-
-#: En.Win32.Debug.Error-2.idtx:100 En.Win32.Release.Error-2.idtx:100
-#: En.x64.Debug.Error-2.idtx:100 En.x64.Release.Error-2.idtx:100
-msgid "Installation failed."
-msgstr "การติดตั้งล้มเหลว"
-
-#: En.Win32.Debug.Error-2.idtx:107 En.Win32.Release.Error-2.idtx:107
-#: En.x64.Debug.Error-2.idtx:107 En.x64.Release.Error-2.idtx:107
-msgid "Installed [2]"
-msgstr "ติดตั้งแล้ว [2]"
-
-#: En.Win32.Debug.Error-2.idtx:22 En.Win32.Release.Error-2.idtx:22
-#: En.x64.Debug.Error-2.idtx:22 En.x64.Release.Error-2.idtx:22
-msgid "Installer is no longer responding."
-msgstr "ตัวติดตั้งไม่มีการตอบสนองอีกต่อไป"
-
-#: En.Win32.Debug.Error-2.idtx:23 En.Win32.Release.Error-2.idtx:23
-#: En.x64.Debug.Error-2.idtx:23 En.x64.Release.Error-2.idtx:23
-msgid "Installer stopped prematurely."
-msgstr "ตัวติดตั้งถูกปิดอย่างไม่สมบูรณ์"
-
-#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
-#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
-msgid "Installing new services"
-msgstr "กำลังติดตั้งบริการใหม่"
-
-#: En.Win32.Debug.ActionText-2.idtx:20 En.Win32.Release.ActionText-2.idtx:20
-#: En.x64.Debug.ActionText-2.idtx:20 En.x64.Release.ActionText-2.idtx:20
-msgid "Installing ODBC components"
-msgstr "กำลังติดตั้งคอมโพเนนต์ ODBC"
-
-#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
-#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
-msgid "Installing system catalog"
-msgstr "กำลังติดตั้งแคตาล็อกระบบ"
-
-#: En.Win32.Debug.Error-2.idtx:57 En.Win32.Release.Error-2.idtx:57
-#: En.x64.Debug.Error-2.idtx:57 En.x64.Release.Error-2.idtx:57
-msgid "Invalid Drive: [2]"
-msgstr "ไดรฟ์ไม่ถูกต้อง: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
-#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
-msgid "Key: [1], Name: [2]"
-msgstr "คีย์: [1], ชื่อ: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
-#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
-msgid "Key: [1], Name: [2], Value: [3]"
-msgstr "คีย์: [1], ชื่อ: [2], ค่า: [3]"
-
-#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Debug.ActionText-2.idtx:70
-#: En.Win32.Release.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:70
-#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Debug.ActionText-2.idtx:70
-#: En.x64.Release.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:70
-msgid "LibID: [1]"
-msgstr "LibID: [1]"
-
-#: En.Win32.Debug.Error-2.idtx:15 En.Win32.Release.Error-2.idtx:15
-#: En.x64.Debug.Error-2.idtx:15 En.x64.Release.Error-2.idtx:15
-msgid "Message type: [1], Argument: [2]{, [3]}"
-msgstr "ชนิดข้อความ: [1], อาร์กิวเมนต์: [2]{, [3]}"
-
-#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
-#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
-msgid "Migrating feature states from related applications"
-msgstr "กำลังโอนย้ายสถานะของคุณลักษณะจากโปรแกรมประยุกต์ที่เกี่ยวข้อง"
-
-#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Debug.ActionText-2.idtx:68
-#: En.Win32.Release.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:68
-#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Debug.ActionText-2.idtx:68
-#: En.x64.Release.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:68
-msgid "MIME Content Type: [1], Extension: [2]"
-msgstr "ชนิดเนื้อหา MIME: [1], ส่วนขยาย: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
-#: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
-msgid "Module [2] failed to register.  HRESULT [3].  Contact your support personnel."
-msgstr "โมดูล [2] ล้มเหลวที่จะลงทะเบียน  HRESULT [3]  ให้ติดต่อฝ่ายสนับสนุนของคุณ"
-
-#: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
-#: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
-msgid "Module [2] failed to unregister.  HRESULT [3].  Contact your support personnel."
-msgstr "โมดูล [2] ล้มเหลวที่จะยกเลิกการลงทะเบียน  HRESULT [3]  ให้ติดต่อฝ่ายสนับสนุนของคุณ"
-
-#: En.Win32.Debug.ActionText-2.idtx:26 En.Win32.Release.ActionText-2.idtx:26
-#: En.x64.Debug.ActionText-2.idtx:26 En.x64.Release.ActionText-2.idtx:26
-msgid "Moving files"
-msgstr "กำลังย้ายแฟ้ม"
-
-#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
-#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
-#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
-#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
-msgid "Name: [1], Value: [2], Action [3]"
-msgstr "ชื่อ: [1], ค่า: [2], การกระทำ [3]"
-
-#: En.Win32.Debug.Error-2.idtx:104 En.Win32.Release.Error-2.idtx:104
-#: En.x64.Debug.Error-2.idtx:104 En.x64.Release.Error-2.idtx:104
-msgid "One or more of the files required to restore your computer to its previous state could not be found.  Restoration will not be possible."
-msgstr "ไม่พบอย่างน้อยหนึ่งแฟ้มที่ใช้ในการกู้คืนคอมพิวเตอร์ของคุณให้เป็นสถานะก่อนหน้า การกู้คืนจะไม่สามารถทำได้"
-
-#: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
-#: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
-msgid "Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: [4] KB.  Free some disk space and retry."
-msgstr "ที่ว่างดิสก์ไม่เพียงพอ -- ดิสก์: '[2]'; ต้องการที่ว่าง: [3] KB; มีที่ว่างอยู่: [4] KB.  ทำให้มีที่ว่างดิสก์เพิ่มมากขึ้นแล้วพยายามอีกครั้ง"
-
-#: En.Win32.Debug.Error-2.idtx:127 En.Win32.Debug.Error-2.idtx:21
-#: En.Win32.Release.Error-2.idtx:127 En.Win32.Release.Error-2.idtx:21
-#: En.x64.Debug.Error-2.idtx:127 En.x64.Debug.Error-2.idtx:21
-#: En.x64.Release.Error-2.idtx:127 En.x64.Release.Error-2.idtx:21
-msgid "Out of memory. Shut down other applications before retrying."
-msgstr "หน่วยความจำไม่เพียงพอ ให้ปิดโปรแกรมประยุกต์อื่นก่อนที่จะพยายามอีกครั้ง"
-
-#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
-#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
-msgid "Patching files"
-msgstr "กำลังประกอบแฟ้ม"
-
-#: En.Win32.Debug.Error-2.idtx:32 En.Win32.Release.Error-2.idtx:32
-#: En.x64.Debug.Error-2.idtx:32 En.x64.Release.Error-2.idtx:32
-msgid "Please insert the disk: [2]"
-msgstr "กรุณาใส่ดิสก์: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:24 En.Win32.Release.Error-2.idtx:24
-#: En.x64.Debug.Error-2.idtx:24 En.x64.Release.Error-2.idtx:24
-msgid "Please wait while Windows configures [SimpleProductName]"
-msgstr "กรุณารอสักครู่ขณะที่ Windows กำหนดค่า [SimpleProductName]"
-
-#: En.Win32.Debug.Error-2.idtx:27 En.Win32.Release.Error-2.idtx:27
-#: En.x64.Debug.Error-2.idtx:27 En.x64.Release.Error-2.idtx:27
-msgid "Preparing to remove older versions of this application..."
-msgstr "กำลังเตรียมที่จะเอาโปรแกรมประยุกต์รุ่นเก่าออก..."
-
-#: En.Win32.Debug.Error-2.idtx:101 En.Win32.Release.Error-2.idtx:101
-#: En.x64.Debug.Error-2.idtx:101 En.x64.Release.Error-2.idtx:101
-msgid "Product: [2] -- [3]"
-msgstr "ผลิตภัณฑ์: [2] -- [3]"
-
-#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Debug.ActionText-2.idtx:69
-#: En.Win32.Release.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:69
-#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Debug.ActionText-2.idtx:69
-#: En.x64.Release.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:69
-msgid "ProgId: [1]"
-msgstr "ProgId: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
-#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
-msgid "Property: [1], Signature: [2]"
-msgstr "คุณสมบัติ: [1], ลายเซ็น: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:27
-#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:27
-msgid "Publishing assembly information"
-msgstr "ข้อมูลที่รวบรวมการจัดพิมพ์"
-
-#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:32
-#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:32
-msgid "Publishing Product Features"
-msgstr "กำลังจัดพิมพ์คุณลักษณะของผลิตภัณฑ์"
-
-#: En.Win32.Debug.ActionText-2.idtx:33 En.Win32.Release.ActionText-2.idtx:33
-#: En.x64.Debug.ActionText-2.idtx:33 En.x64.Release.ActionText-2.idtx:33
-msgid "Publishing product information"
-msgstr "กำลังจัดพิมพ์ข้อมูลผลิตภัณฑ์"
-
-#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:31
-#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:31
-msgid "Publishing Qualified Components"
-msgstr "กำลังจัดพิมพ์คอมโพเนนต์ที่ผ่านเกณฑ์ตรวจสอบ"
-
-#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:34
-#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:34
-msgid "Registering Class servers"
-msgstr "กำลังลงทะเบียนเซิร์ฟเวอร์ Class"
-
-#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
-#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
-msgid "Registering COM+ Applications and Components"
-msgstr "กำลังลงทะเบียน COM+ Applications and Components"
-
-#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:36
-#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:36
-msgid "Registering extension servers"
-msgstr "กำลังลงทะเบียนเซิร์ฟเวอร์ส่วนขยาย"
-
-#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:37
-#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:37
-msgid "Registering fonts"
-msgstr "กำลังลงทะเบียนแบบอักษร"
-
-#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:38
-#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:38
-msgid "Registering MIME info"
-msgstr "กำลังลงทะเบียนข้อมูล MIME"
-
-#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:55
-#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:55
-msgid "Registering modules"
-msgstr "กำลังลงทะเบียนโมดูล"
-
-#: En.Win32.Debug.ActionText-2.idtx:39 En.Win32.Release.ActionText-2.idtx:39
-#: En.x64.Debug.ActionText-2.idtx:39 En.x64.Release.ActionText-2.idtx:39
-msgid "Registering product"
-msgstr "กำลังลงทะเบียนผลิตภัณฑ์"
-
-#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:40
-#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:40
-msgid "Registering program identifiers"
-msgstr "ตัวระบุโปรแกรมการลงทะเบียน"
-
-#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:41
-#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:41
-msgid "Registering type libraries"
-msgstr "กำลังลงทะเบียนคลังของชนิด"
-
-#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:42
-#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:42
-msgid "Registering user"
-msgstr "กำลังลงทะเบียนผู้ใช้"
-
-#: En.Win32.Debug.Error-2.idtx:116 En.Win32.Release.Error-2.idtx:116
-#: En.x64.Debug.Error-2.idtx:116 En.x64.Release.Error-2.idtx:116
-msgid "Removal completed successfully."
-msgstr "การเอาออกเสร็จสมบูรณ์"
-
-#: En.Win32.Debug.Error-2.idtx:117 En.Win32.Release.Error-2.idtx:117
-#: En.x64.Debug.Error-2.idtx:117 En.x64.Release.Error-2.idtx:117
-msgid "Removal failed."
-msgstr "การเอาออกล้มเหลว"
-
-#: En.Win32.Debug.Error-2.idtx:109 En.Win32.Release.Error-2.idtx:109
-#: En.x64.Debug.Error-2.idtx:109 En.x64.Release.Error-2.idtx:109
-msgid "Removed [2]"
-msgstr "เอาออกแล้ว [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
-#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
-msgid "Removing applications"
-msgstr "กำลังเอาโปรแกรมประยุกต์ออก"
-
-#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:54
-#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:54
-msgid "Removing backup files"
-msgstr "กำลังเอาแฟ้มสำรองออก"
-
-#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Release.ActionText-2.idtx:43
-#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Release.ActionText-2.idtx:43
-msgid "Removing duplicated files"
-msgstr "กำลังเอาแฟ้มที่ซ้ำกันออก"
-
-#: En.Win32.Debug.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:46
-#: En.x64.Debug.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:46
-msgid "Removing files"
-msgstr "กำลังเอาแฟ้มออก"
-
-#: En.Win32.Debug.ActionText-2.idtx:47 En.Win32.Release.ActionText-2.idtx:47
-#: En.x64.Debug.ActionText-2.idtx:47 En.x64.Release.ActionText-2.idtx:47
-msgid "Removing folders"
-msgstr "กำลังเอาโฟลเดอร์ออก"
-
-#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:48
-#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:48
-msgid "Removing INI files entries"
-msgstr "กำลังเอาเนื้อหารในแฟ้ม INI ออก"
-
-#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:60
-#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:60
-msgid "Removing moved files"
-msgstr "กำลังเอาแฟ้มที่ถูกย้ายออก"
-
-#: En.Win32.Debug.ActionText-2.idtx:49 En.Win32.Release.ActionText-2.idtx:49
-#: En.x64.Debug.ActionText-2.idtx:49 En.x64.Release.ActionText-2.idtx:49
-msgid "Removing ODBC components"
-msgstr "กำลังเอาคอมโพเนนต์ ODBC ออก"
-
-#: En.Win32.Debug.Error-2.idtx:26 En.Win32.Release.Error-2.idtx:26
-#: En.x64.Debug.Error-2.idtx:26 En.x64.Release.Error-2.idtx:26
-msgid "Removing older versions of this application..."
-msgstr "กำลังเอาโปรแกรมประยุกต์รุ่นเก่าออก..."
-
-#: En.Win32.Debug.ActionText-2.idtx:51 En.Win32.Release.ActionText-2.idtx:51
-#: En.x64.Debug.ActionText-2.idtx:51 En.x64.Release.ActionText-2.idtx:51
-msgid "Removing shortcuts"
-msgstr "กำลังเอาทางลัดออก"
-
-#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
-#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
-msgid "Removing system registry values"
-msgstr "กำลังเอาค่า registry ของระบบออก"
-
-#: En.Win32.Debug.ActionText-2.idtx:53 En.Win32.Release.ActionText-2.idtx:53
-#: En.x64.Debug.ActionText-2.idtx:53 En.x64.Release.ActionText-2.idtx:53
-msgid "Rolling back action:"
-msgstr "การกระทำย้อนกลับสถานะ:"
-
-#: En.Win32.Debug.Error-2.idtx:135 En.Win32.Release.Error-2.idtx:135
-#: En.x64.Debug.Error-2.idtx:135 En.x64.Release.Error-2.idtx:135
-msgid "Scheduling reboot operation: Deleting file [2]. Must reboot to complete operation."
-msgstr "การปฏิบัติการเริ่มระบบใหม่ที่จัดตารางเวลาไว้: กำลังแฟ้ม [2] ต้องเริ่มระบบใหม่เพื่อที่จะทำให้การปฏิบัติการสมบูรณ์"
-
-#: En.Win32.Debug.Error-2.idtx:134 En.Win32.Release.Error-2.idtx:134
-#: En.x64.Debug.Error-2.idtx:134 En.x64.Release.Error-2.idtx:134
-msgid "Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to complete operation."
-msgstr "การปฏิบัติการเริ่มระบบใหม่ที่จัดตารางเวลาไว้: กำลังเปลี่ยนชื่อแฟ้ม [2] เป็น [3] ต้องเริ่มระบบใหม่เพื่อที่จะทำให้การปฏิบัติการสมบูรณ์"
-
-#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
-#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
+#: en_US.Win32.Debug.ActionText-2.idtx:6
+#: en_US.Win32.Release.ActionText-2.idtx:6 en_US.x64.Debug.ActionText-2.idtx:6
+#: en_US.x64.Release.ActionText-2.idtx:6
 msgid "Searching for installed applications"
 msgstr "กำลังค้นหาโปรแกรมประยุกต์ที่ถูกติดตั้ง"
 
-#: En.Win32.Debug.ActionText-2.idtx:52 En.Win32.Debug.ActionText-2.idtx:8
-#: En.Win32.Release.ActionText-2.idtx:52 En.Win32.Release.ActionText-2.idtx:8
-#: En.x64.Debug.ActionText-2.idtx:52 En.x64.Debug.ActionText-2.idtx:8
-#: En.x64.Release.ActionText-2.idtx:52 En.x64.Release.ActionText-2.idtx:8
+#: en_US.Win32.Debug.ActionText-2.idtx:6
+#: en_US.Win32.Release.ActionText-2.idtx:6 en_US.x64.Debug.ActionText-2.idtx:6
+#: en_US.x64.Release.ActionText-2.idtx:6
+msgid "Property: [1], Signature: [2]"
+msgstr "คุณสมบัติ: [1], ลายเซ็น: [2]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:7
+#: en_US.Win32.Release.ActionText-2.idtx:7 en_US.x64.Debug.ActionText-2.idtx:7
+#: en_US.x64.Release.ActionText-2.idtx:7
+msgid "Binding executables"
+msgstr "กำลังประกอบส่วนที่เรียกใช้ได้"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:7
+#: en_US.Win32.Debug.ActionText-2.idtx:54
+#: en_US.Win32.Release.ActionText-2.idtx:7
+#: en_US.Win32.Release.ActionText-2.idtx:54
+#: en_US.x64.Debug.ActionText-2.idtx:7 en_US.x64.Debug.ActionText-2.idtx:54
+#: en_US.x64.Release.ActionText-2.idtx:7
+#: en_US.x64.Release.ActionText-2.idtx:54
+msgid "File: [1]"
+msgstr "แฟ้ม: [1]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:8
+#: en_US.Win32.Debug.ActionText-2.idtx:52
+#: en_US.Win32.Release.ActionText-2.idtx:8
+#: en_US.Win32.Release.ActionText-2.idtx:52
+#: en_US.x64.Debug.ActionText-2.idtx:8 en_US.x64.Debug.ActionText-2.idtx:52
+#: en_US.x64.Release.ActionText-2.idtx:8
+#: en_US.x64.Release.ActionText-2.idtx:52
 msgid "Searching for qualifying products"
 msgstr "กำลังค้นหาผลิตภัณฑ์ที่ผ่านเกณฑ์ตรวจสอบ"
 
-#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
-#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
-msgid "Searching for related applications"
-msgstr "กำลังค้นหาโปรแกรมประยุกต์ที่เกี่ยวข้อง"
+#: en_US.Win32.Debug.ActionText-2.idtx:9
+#: en_US.Win32.Debug.ActionText-2.idtx:10
+#: en_US.Win32.Debug.ActionText-2.idtx:15
+#: en_US.Win32.Release.ActionText-2.idtx:9
+#: en_US.Win32.Release.ActionText-2.idtx:10
+#: en_US.Win32.Release.ActionText-2.idtx:15
+#: en_US.x64.Debug.ActionText-2.idtx:9 en_US.x64.Debug.ActionText-2.idtx:10
+#: en_US.x64.Debug.ActionText-2.idtx:15 en_US.x64.Release.ActionText-2.idtx:9
+#: en_US.x64.Release.ActionText-2.idtx:10
+#: en_US.x64.Release.ActionText-2.idtx:15
+msgid "Computing space requirements"
+msgstr "กำลังคำนวณพื้นที่ที่จำเป็น"
 
-#: En.Win32.Debug.Error-2.idtx:154 En.Win32.Release.Error-2.idtx:154
-#: En.x64.Debug.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
-msgid "Service '[2]' ([3]) could not be deleted.  Verify that you have sufficient privileges to remove system services."
-msgstr "บริการ '[2]' ([3]) ไม่สามารถถูกลบ ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอที่จะเอาบริการระบบออก"
+#: en_US.Win32.Debug.ActionText-2.idtx:11
+#: en_US.Win32.Release.ActionText-2.idtx:11
+#: en_US.x64.Debug.ActionText-2.idtx:11 en_US.x64.Release.ActionText-2.idtx:11
+msgid "Creating folders"
+msgstr "กำลังสร้างโฟลเดอร์"
 
-#: En.Win32.Debug.Error-2.idtx:155 En.Win32.Release.Error-2.idtx:155
-#: En.x64.Debug.Error-2.idtx:155 En.x64.Release.Error-2.idtx:155
-msgid "Service '[2]' ([3]) could not be installed.  Verify that you have sufficient privileges to install system services."
-msgstr "บริการ '[2]' ([3]) ไม่สามารถถูกติดตั้ง ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอที่จะติดตั้งบริการระบบ"
+#: en_US.Win32.Debug.ActionText-2.idtx:11
+#: en_US.Win32.Debug.ActionText-2.idtx:47
+#: en_US.Win32.Release.ActionText-2.idtx:11
+#: en_US.Win32.Release.ActionText-2.idtx:47
+#: en_US.x64.Debug.ActionText-2.idtx:11 en_US.x64.Debug.ActionText-2.idtx:47
+#: en_US.x64.Release.ActionText-2.idtx:11
+#: en_US.x64.Release.ActionText-2.idtx:47
+msgid "Folder: [1]"
+msgstr "โฟลเดอร์: [1]"
 
-#: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
-#: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
-msgid "Service '[2]' ([3]) could not be stopped.  Verify that you have sufficient privileges to stop system services."
-msgstr "บริการ '[2]' ([3]) ไม่สามารถถูกหยุด ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอที่จะหยุดบริการระบบ"
+#: en_US.Win32.Debug.ActionText-2.idtx:12
+#: en_US.Win32.Release.ActionText-2.idtx:12
+#: en_US.x64.Debug.ActionText-2.idtx:12 en_US.x64.Release.ActionText-2.idtx:12
+msgid "Creating shortcuts"
+msgstr "กำลังสร้างทางลัด"
 
-#: En.Win32.Debug.Error-2.idtx:152 En.Win32.Release.Error-2.idtx:152
-#: En.x64.Debug.Error-2.idtx:152 En.x64.Release.Error-2.idtx:152
-msgid "Service '[2]' ([3]) failed to start.  Verify that you have sufficient privileges to start system services."
-msgstr "บริการ '[2]' ([3]) ล้มเหลวที่จะเริ่มต้น  ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอที่จะเริ่มบริการระบบ"
-
-#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Debug.ActionText-2.idtx:58
-#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:13
-#: En.Win32.Release.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:59
-#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Debug.ActionText-2.idtx:58
-#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:13
-#: En.x64.Release.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:59
-msgid "Service: [1]"
-msgstr "บริการ: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
-#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
-msgid "Service: [2]"
-msgstr "บริการ: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Debug.ActionText-2.idtx:51
-#: En.Win32.Release.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:51
-#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Debug.ActionText-2.idtx:51
-#: En.x64.Release.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:51
+#: en_US.Win32.Debug.ActionText-2.idtx:12
+#: en_US.Win32.Debug.ActionText-2.idtx:51
+#: en_US.Win32.Release.ActionText-2.idtx:12
+#: en_US.Win32.Release.ActionText-2.idtx:51
+#: en_US.x64.Debug.ActionText-2.idtx:12 en_US.x64.Debug.ActionText-2.idtx:51
+#: en_US.x64.Release.ActionText-2.idtx:12
+#: en_US.x64.Release.ActionText-2.idtx:51
 msgid "Shortcut: [1]"
 msgstr "ทางลัด: [1]"
 
-#: En.Win32.Debug.Error-2.idtx:38 En.Win32.Release.Error-2.idtx:38
-#: En.x64.Debug.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
-msgid "Source file not found: [2].  Verify that the file exists and that you can access it."
-msgstr "ไม่พบแหล่งแฟ้ม: [2]  ยืนยันให้แน่ใจว่ายังมีแฟ้มนี้อยู่ และคุณสามารถเข้าถึงได้"
+#: en_US.Win32.Debug.ActionText-2.idtx:13
+#: en_US.Win32.Release.ActionText-2.idtx:13
+#: en_US.x64.Debug.ActionText-2.idtx:13 en_US.x64.Release.ActionText-2.idtx:13
+msgid "Deleting services"
+msgstr "กำลังลบบริการ"
 
-#: En.Win32.Debug.Error-2.idtx:41 En.Win32.Release.Error-2.idtx:41
-#: En.x64.Debug.Error-2.idtx:41 En.x64.Release.Error-2.idtx:41
-msgid "Source file not found{{(cabinet)}}: [2].  Verify that the file exists and that you can access it."
-msgstr "ไม่พบแหล่งแฟ้ม{{(cabinet)}}: [2]  ยืนยันให้แน่ใจว่าแฟ้มมีอยู่ และคุณสามารถเข้าถึง"
+#: en_US.Win32.Debug.ActionText-2.idtx:13
+#: en_US.Win32.Debug.ActionText-2.idtx:58
+#: en_US.Win32.Debug.ActionText-2.idtx:59
+#: en_US.Win32.Release.ActionText-2.idtx:13
+#: en_US.Win32.Release.ActionText-2.idtx:58
+#: en_US.Win32.Release.ActionText-2.idtx:59
+#: en_US.x64.Debug.ActionText-2.idtx:13 en_US.x64.Debug.ActionText-2.idtx:58
+#: en_US.x64.Debug.ActionText-2.idtx:59 en_US.x64.Release.ActionText-2.idtx:13
+#: en_US.x64.Release.ActionText-2.idtx:58
+#: en_US.x64.Release.ActionText-2.idtx:59
+msgid "Service: [1]"
+msgstr "บริการ: [1]"
 
-#: En.Win32.Debug.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:58
-#: En.x64.Debug.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:58
-msgid "Starting services"
-msgstr "กำลังเริ่มต้นบริการ"
+#: en_US.Win32.Debug.ActionText-2.idtx:14
+#: en_US.Win32.Release.ActionText-2.idtx:14
+#: en_US.x64.Debug.ActionText-2.idtx:14 en_US.x64.Release.ActionText-2.idtx:14
+msgid "Creating duplicate files"
+msgstr "กำลังสร้างแฟ้มสำรอง"
 
-#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:59
-#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:59
-msgid "Stopping services"
-msgstr "กำลังหยุดการบริการ"
+#: en_US.Win32.Debug.ActionText-2.idtx:14
+#: en_US.Win32.Debug.ActionText-2.idtx:19
+#: en_US.Win32.Debug.ActionText-2.idtx:26
+#: en_US.Win32.Release.ActionText-2.idtx:14
+#: en_US.Win32.Release.ActionText-2.idtx:19
+#: en_US.Win32.Release.ActionText-2.idtx:26
+#: en_US.x64.Debug.ActionText-2.idtx:14 en_US.x64.Debug.ActionText-2.idtx:19
+#: en_US.x64.Debug.ActionText-2.idtx:26 en_US.x64.Release.ActionText-2.idtx:14
+#: en_US.x64.Release.ActionText-2.idtx:19
+#: en_US.x64.Release.ActionText-2.idtx:26
+msgid "File: [1],  Directory: [9],  Size: [6]"
+msgstr "แฟ้ม: [1],  ไดเรกตอรี: [9],  ขนาด: [6]"
 
-#: En.Win32.Debug.Error-2.idtx:65 En.Win32.Release.Error-2.idtx:65
-#: En.x64.Debug.Error-2.idtx:65 En.x64.Release.Error-2.idtx:65
-msgid "The cabinet file '[2]' required for this installation is corrupt and cannot be used. This could indicate a network error, an error reading from the CD-ROM, or a problem with this package."
-msgstr "แฟ้ม cabinet  '[2]' ที่จำเป็นในการติดตั้งนี้เสียหาย หรือไม่สามารถใช้ได้ ซึ่งอาจเป็นเพราะข้อผิดพลาดทางเครือข่าย ข้อผิดพลาดในการอ่านจากซีดีรอม หรือโปรแกรมชุดนี้มีปัญหา"
+#: en_US.Win32.Debug.ActionText-2.idtx:16
+#: en_US.Win32.Release.ActionText-2.idtx:16
+#: en_US.x64.Debug.ActionText-2.idtx:16 en_US.x64.Release.ActionText-2.idtx:16
+msgid "Searching for related applications"
+msgstr "กำลังค้นหาโปรแกรมประยุกต์ที่เกี่ยวข้อง"
 
-#: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
-#: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
-msgid "The description for service '[2]' ([3]) could not be changed."
-msgstr "คำอธิบายสำหรับบริการ '[2]' ([3]) ไม่สามารถถูกเปลี่ยนแปลง"
+#: en_US.Win32.Debug.ActionText-2.idtx:16
+#: en_US.Win32.Release.ActionText-2.idtx:16
+#: en_US.x64.Debug.ActionText-2.idtx:16 en_US.x64.Release.ActionText-2.idtx:16
+msgid "Found application: [1]"
+msgstr "พบโปรแกรมประยุกต์: [1]"
 
-#: En.Win32.Debug.Error-2.idtx:64 En.Win32.Release.Error-2.idtx:64
-#: En.x64.Debug.Error-2.idtx:64 En.x64.Release.Error-2.idtx:64
-msgid "The file '[2]' cannot be installed because the file cannot be found in cabinet file '[3]'. This could indicate a network error, an error reading from the CD-ROM, or a problem with this package."
-msgstr "แฟ้ม '[2]' ไม่สามารถถูกติดตั้งได้เพราะแฟ้มนี้ไม่ได้อยู่ใน cabinet  '[3]'  ซึ่งอาจเป็นเพราะข้อผิดพลาดทางเครือข่าย ข้อผิดพลาดในการอ่านจากซีดีรอม หรือโปรแกรมชุดนี้มีปัญหา"
+#: en_US.Win32.Debug.ActionText-2.idtx:17
+#: en_US.Win32.Release.ActionText-2.idtx:17
+#: en_US.x64.Debug.ActionText-2.idtx:17 en_US.x64.Release.ActionText-2.idtx:17
+msgid "Generating script operations for action:"
+msgstr "กำลังสร้างสคริปต์การปฏิบัติการสำหรับการกระทำ:"
 
-#: En.Win32.Debug.Error-2.idtx:83 En.Win32.Release.Error-2.idtx:83
-#: En.x64.Debug.Error-2.idtx:83 En.x64.Release.Error-2.idtx:83
-msgid "The file [2][3] is being held in use{ by the following process: Name: [4], Id: [5], Window Title: '[6]'}.  Close that application and retry."
-msgstr "แฟ้ม [2][3] ถูกใช้อยู่{ โดยการดำเนินการ: ชื่อ: [4], Id: [5], Window Title: '[6]'}.  ให้ปิดโปรแกรมประยุกต์นั้นแล้วลองอีกครั้ง"
+#: en_US.Win32.Debug.ActionText-2.idtx:17
+#: en_US.Win32.Debug.ActionText-2.idtx:39
+#: en_US.Win32.Debug.ActionText-2.idtx:42
+#: en_US.Win32.Debug.ActionText-2.idtx:53
+#: en_US.Win32.Release.ActionText-2.idtx:17
+#: en_US.Win32.Release.ActionText-2.idtx:39
+#: en_US.Win32.Release.ActionText-2.idtx:42
+#: en_US.Win32.Release.ActionText-2.idtx:53
+#: en_US.x64.Debug.ActionText-2.idtx:17 en_US.x64.Debug.ActionText-2.idtx:39
+#: en_US.x64.Debug.ActionText-2.idtx:42 en_US.x64.Debug.ActionText-2.idtx:53
+#: en_US.x64.Release.ActionText-2.idtx:17
+#: en_US.x64.Release.ActionText-2.idtx:39
+#: en_US.x64.Release.ActionText-2.idtx:42
+#: en_US.x64.Release.ActionText-2.idtx:53
+msgid "[1]"
+msgstr "[1]"
 
-#: En.Win32.Debug.Error-2.idtx:130 En.Win32.Release.Error-2.idtx:130
-#: En.x64.Debug.Error-2.idtx:130 En.x64.Release.Error-2.idtx:130
-msgid "The folder [2] does not exist.  Please enter a path to an existing folder."
-msgstr "โฟลเดอร์ [2] ไม่มี  กรุณาใส่เส้นทางไปยังโฟลเดอร์ที่มีอยู่"
+#: en_US.Win32.Debug.ActionText-2.idtx:18
+#: en_US.Win32.Release.ActionText-2.idtx:18
+#: en_US.x64.Debug.ActionText-2.idtx:18 en_US.x64.Release.ActionText-2.idtx:18
+msgid "Copying network install files"
+msgstr "กำลังคัดลอกแฟ้มติดตั้งทางเครือข่าย"
 
-#: En.Win32.Debug.Error-2.idtx:54 En.Win32.Release.Error-2.idtx:54
-#: En.x64.Debug.Error-2.idtx:54 En.x64.Release.Error-2.idtx:54
-msgid "The folder path '[2]' contains an invalid character."
-msgstr "เส้นทางโฟลเดอร์ '[2]' มีอักขระที่ไม่ถูกต้อง"
+#: en_US.Win32.Debug.ActionText-2.idtx:18
+#: en_US.Win32.Release.ActionText-2.idtx:18
+#: en_US.x64.Debug.ActionText-2.idtx:18 en_US.x64.Release.ActionText-2.idtx:18
+msgid "File: [1], Directory: [9], Size: [6]"
+msgstr "แฟ้ม: [1], ไดเรกตอรี: [9], ขนาด: [6]"
 
-#: En.Win32.Debug.Error-2.idtx:53 En.Win32.Release.Error-2.idtx:53
-#: En.x64.Debug.Error-2.idtx:53 En.x64.Release.Error-2.idtx:53
-msgid "The folder path '[2]' contains words that are not valid in folder paths."
-msgstr "เส้นทางโฟลเดอร์ '[2]' มีคำที่ไม่ถูกต้องในเส้นทางโฟลเดอร์"
+#: en_US.Win32.Debug.ActionText-2.idtx:19
+#: en_US.Win32.Release.ActionText-2.idtx:19
+#: en_US.x64.Debug.ActionText-2.idtx:19 en_US.x64.Release.ActionText-2.idtx:19
+msgid "Copying new files"
+msgstr "กำลังคัดลอกแฟ้มใหม่"
 
-#: En.Win32.Debug.Error-2.idtx:87 En.Win32.Release.Error-2.idtx:87
-#: En.x64.Debug.Error-2.idtx:87 En.x64.Release.Error-2.idtx:87
-msgid "The following applications should be closed before continuing the install:"
-msgstr "โปรแกรมประยุกต์ต่อไปนี้ควรจะถูกปิดก่อนที่จะทำการติดตั้งต่อไป:"
+#: en_US.Win32.Debug.ActionText-2.idtx:20
+#: en_US.Win32.Release.ActionText-2.idtx:20
+#: en_US.x64.Debug.ActionText-2.idtx:20 en_US.x64.Release.ActionText-2.idtx:20
+msgid "Installing ODBC components"
+msgstr "กำลังติดตั้งคอมโพเนนต์ ODBC"
 
-#: En.Win32.Debug.Error-2.idtx:9 En.Win32.Release.Error-2.idtx:9
-#: En.x64.Debug.Error-2.idtx:9 En.x64.Release.Error-2.idtx:9
-msgid "The installer has encountered an unexpected error installing this package. This may indicate a problem with this package. The error code is [1]. {{The arguments are: [2], [3], [4]}}"
-msgstr "installer พบข้อผิดพลาดที่ไม่ได้คาดหมายไว้ในโปรแกรมชุดนี้  ซึ่งอาจเป็นปัญหาเฉพาะในโปรแกรมชุดนี้เท่านั้น  รหัสข้อผิดพลาดคือ [1]   {{อาร์กิวเมนต์มีดังนี้: [2], [3], [4]}}"
+#: en_US.Win32.Debug.ActionText-2.idtx:21
+#: en_US.Win32.Release.ActionText-2.idtx:21
+#: en_US.x64.Debug.ActionText-2.idtx:21 en_US.x64.Release.ActionText-2.idtx:21
+msgid "Installing new services"
+msgstr "กำลังติดตั้งบริการใหม่"
 
-#: En.Win32.Debug.Error-2.idtx:33 En.Win32.Release.Error-2.idtx:33
-#: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
-msgid "The installer has insufficient privileges to access this directory: [2].  The installation cannot continue.  Log on as administrator or contact your system administrator."
-msgstr "ตัวติดตั้งมีสิทธ์ไม่เพียงพอที่จะเข้าถึงไดเรกตอรี: [2]  การติดตั้งไม่สามารถทำต่อไป ให้เข้าสู่ระบบเป็น administrator หรือติดต่อผู้ดูแลระบบของคุณ"
+#: en_US.Win32.Debug.ActionText-2.idtx:21
+#: en_US.Win32.Release.ActionText-2.idtx:21
+#: en_US.x64.Debug.ActionText-2.idtx:21 en_US.x64.Release.ActionText-2.idtx:21
+msgid "Service: [2]"
+msgstr "บริการ: [2]"
 
-#: En.Win32.Debug.Error-2.idtx:51 En.Win32.Release.Error-2.idtx:51
-#: En.x64.Debug.Error-2.idtx:51 En.x64.Release.Error-2.idtx:51
-msgid "The Installer has insufficient privileges to modify this file: [2]."
-msgstr "ตัวติดตั้งมีสิทธิ์ไม่เพียงพอที่จะปรับเปลี่ยนแฟ้ม: [2]"
+#: en_US.Win32.Debug.ActionText-2.idtx:22
+#: en_US.Win32.Release.ActionText-2.idtx:22
+#: en_US.x64.Debug.ActionText-2.idtx:22 en_US.x64.Release.ActionText-2.idtx:22
+msgid "Installing system catalog"
+msgstr "กำลังติดตั้งแคตาล็อกระบบ"
 
-#: En.Win32.Debug.Error-2.idtx:94 En.Win32.Release.Error-2.idtx:94
-#: En.x64.Debug.Error-2.idtx:94 En.x64.Release.Error-2.idtx:94
-msgid "The installer must restart your system before configuration of [2] can continue.  Click Yes to restart now or No if you plan to manually restart later."
-msgstr "ตัวติดตั้งนี้ต้องทำการเริ่มระบบของคุณใหม่ก่อนที่จะทำการกำหนดค่าของ [2] จะสามารถทำต่อไป ให้คลิกใช่ เพื่อที่จะเริ่มใหม่เดี๋ยวนี้ หรือไม่ใช่ ถ้าคุณต้องการเริ่มระบบใหม่ด้วยตนเองภายหลัง"
+#: en_US.Win32.Debug.ActionText-2.idtx:22
+#: en_US.Win32.Release.ActionText-2.idtx:22
+#: en_US.x64.Debug.ActionText-2.idtx:22 en_US.x64.Release.ActionText-2.idtx:22
+msgid "File: [1],  Dependencies: [2]"
+msgstr "แฟ้ม [1]  มีส่วนเกี่ยวข้องกับ [2]"
 
-#: En.Win32.Debug.Error-2.idtx:93 En.Win32.Release.Error-2.idtx:93
-#: En.x64.Debug.Error-2.idtx:93 En.x64.Release.Error-2.idtx:93
-msgid "The key [2] is not valid.  Verify that you entered the correct key."
-msgstr "Key [2] ไม่ถูกต้อง  ยืนยันให้แน่ใจว่าคุณใส่ key ที่ถูกต้อง"
-
-#: En.Win32.Debug.Error-2.idtx:106 En.Win32.Release.Error-2.idtx:106
-#: En.x64.Debug.Error-2.idtx:106 En.x64.Release.Error-2.idtx:106
-msgid "The older version of [2] cannot be removed.  Contact your technical support group.  {{System Error [3].}}"
-msgstr "[2] รุ่นเก่ากว่าไม่สามารถถูกเอาออก  ให้ติดต่อกลุ่มสนับสนุนทางเทคนิคของคุณ  {{ระบบผิดพลาด [3].}}"
-
-#: En.Win32.Debug.Error-2.idtx:126 En.Win32.Release.Error-2.idtx:126
-#: En.x64.Debug.Error-2.idtx:126 En.x64.Release.Error-2.idtx:126
-msgid "The path [2] is not valid.  Please specify a valid path."
-msgstr "เส้นทาง [2] ไม่ถูกต้อง กรุณาระบุเส้นทางที่ถูกต้อง"
-
-#: En.Win32.Debug.Error-2.idtx:84 En.Win32.Release.Error-2.idtx:84
-#: En.x64.Debug.Error-2.idtx:84 En.x64.Release.Error-2.idtx:84
-msgid "The product '[2]' is already installed, preventing the installation of this product.  The two products are incompatible."
-msgstr "ผลิตภัณฑ์ '[2]' ถูกติดตั้งอยู่แล้ว ทำให้ไม่สามารถติดตั้งผลิตภัณฑ์นี้  สองผลิตภัณฑ์นี้ไม่เข้ากัน"
-
-#: En.Win32.Debug.Error-2.idtx:90 En.Win32.Release.Error-2.idtx:90
-#: En.x64.Debug.Error-2.idtx:90 En.x64.Release.Error-2.idtx:90
-msgid "The setup must update files or services that cannot be updated while the system is running. If you choose to continue, a reboot will be required to complete the setup."
-msgstr "การติดตั้งต้องปรับปรุงแฟ้มหรือบริการที่ไม่สามารถปรับปรุงได้ในขณะที่ระบบทำงานอยู่ หากคุณเลือกที่จะทำต่อไป จะต้องทำการเริ่มระบบของคอมพิวเตอร์ใหม่เพื่อให้การติดตั้งนี้เสร็จสมบูรณ์"
-
-#: En.Win32.Debug.Error-2.idtx:91 En.Win32.Release.Error-2.idtx:91
-#: En.x64.Debug.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
-msgid "The setup was unable to automatically close all applications that are using files that need to be updated. If you choose to continue, a reboot will be required to complete the setup."
-msgstr "การติดตั้งไม่สามารถปิดแอพพลิเคชันทั้งหมดที่กำลังใช้แฟ้มซึ่งจำเป็นต้องได้รับการปรับปรุงโดยอัตโนมัติ หากคุณเลือก ดำเนินการต่อ จะต้องเริ่มต้นระบบใหม่เพื่อให้การติดตั้งเสร็จสมบูรณ์"
-
-#: En.Win32.Debug.Error-2.idtx:123 En.Win32.Release.Error-2.idtx:123
-#: En.x64.Debug.Error-2.idtx:123 En.x64.Release.Error-2.idtx:123
-msgid "The source installation package for the product [2] is out of sync with the client package. Try the installation again using a valid copy of the installation package '[3]'."
-msgstr "แหล่งที่มาของชุดการติดตั้งของผลิตภัณฑ์ [2] ไม่เข้ากันกับชุดบนเครื่องของคุณ  กรุณาลองติดตั้งอีกครั้งโดยใช้สำเนาที่มีถูกต้อง '[3]'."
-
-#: En.Win32.Debug.Error-2.idtx:44 En.Win32.Release.Error-2.idtx:44
-#: En.x64.Debug.Error-2.idtx:44 En.x64.Release.Error-2.idtx:44
-msgid "The specified path '[2]' is unavailable."
-msgstr "เส้นทาง '[2]' ที่ระบุไม่มีอยู่"
-
-#: En.Win32.Debug.Error-2.idtx:50 En.Win32.Release.Error-2.idtx:50
-#: En.x64.Debug.Error-2.idtx:50 En.x64.Release.Error-2.idtx:50
-msgid "The specified path is too long: [2]"
-msgstr "เส้นทางที่ระบุยาวเกินไป: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:43 En.Win32.Release.Error-2.idtx:43
-#: En.x64.Debug.Error-2.idtx:43 En.x64.Release.Error-2.idtx:43
-msgid "The volume [2] is currently unavailable.  Please select another."
-msgstr "ดิสก์ [2] ไม่มีอยู่ในขณะนี้  กรุณาเลือกที่อื่น"
-
-#: En.Win32.Debug.Error-2.idtx:165 En.Win32.Release.Error-2.idtx:165
-#: En.x64.Debug.Error-2.idtx:165 En.x64.Release.Error-2.idtx:165
-msgid "The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2].  List of protected files:\\r\\n[3]}}"
-msgstr "บริการ Windows Installer ไม่สามารถปรับปรุงแฟ้ม Windows ที่ถูกต้องปกป้องได้  {{ข้อผิดพลาด SFP [2]   แฟ้มที่ถูกต้องปกป้องมีดังนี้\\r\\n[3]}}"
-
-#: En.Win32.Debug.Error-2.idtx:164 En.Win32.Release.Error-2.idtx:164
-#: En.x64.Debug.Error-2.idtx:164 En.x64.Release.Error-2.idtx:164
-msgid "The Windows Installer service cannot update the protected Windows file [2]. {{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
-msgstr "บริการ Windows Installer ไม่สามารถถูกปรับปรุงแฟ้มที่ Windows ป้องกัน [2] {{ชุดรุ่น: [3] รุ่น OS Protected [4], SFP Error: [5]}}"
-
-#: En.Win32.Debug.Error-2.idtx:163 En.Win32.Release.Error-2.idtx:163
-#: En.x64.Debug.Error-2.idtx:163 En.x64.Release.Error-2.idtx:163
-msgid "The Windows Installer service cannot update the system file [2] because the file is protected by Windows.  You may need to update your operating system for this program to work correctly. {{Package version: [3], OS Protected version: [4]}}"
-msgstr "บริการ Windows Installer ไม่สามารถปรับปรุงแฟ้มระบบ [2] เนื่องจากแฟ้มถูกป้องกันโดย Windows  คุณอาจจำเป็นต้องปรับปรุงระบบปฏิบัติการของคุณเพื่อทำให้โปรแกรมนี้ใช้งานได้อย่างถูกต้อง {{ชุดรุ่น: [3] รุ่น OS Protected  [4]}}"
-
-#: En.Win32.Debug.Error-2.idtx:111 En.Win32.Release.Error-2.idtx:111
-#: En.x64.Debug.Error-2.idtx:111 En.x64.Release.Error-2.idtx:111
-msgid "The Windows Installer Service could not be accessed. This can occur if the Windows Installer is not correctly installed. Contact your support personnel for assistance."
-msgstr "บริการ Windows Installer ไม่สามารถถูกเข้าถึงได้  ซึ่งอาจเป็นเพราะคุณกำลังใช้ Windows แบบเซฟโหมด หรือถ้า Windows Installer ไม่ได้ถูกติดตั้งอย่างถูกต้อง กรุณาติดต่อฝ่ายการสนับสนุนเพื่อขอความช่วยเหลือ"
-
-#: En.Win32.Debug.Error-2.idtx:125 En.Win32.Release.Error-2.idtx:125
-#: En.x64.Debug.Error-2.idtx:125 En.x64.Release.Error-2.idtx:125
-msgid "The Windows Installer service is not accessible in Safe Mode. Please try again when your computer is not in Safe Mode or you can use System Restore to return your machine to a previous good state."
-msgstr "ไม่สามารถใช้บริการ Windows Installer ในเซฟโหมดได้ กรุณาลองอีกครั้งเมื่อคอมพิวเตอร์ของคุณไม่ได้ทำงานอยู่ในเซฟโหมด หรือคุณสามารถใช้ 'การคืนค่าระบบ' เพื่อทำให้เครื่องกลับสู่สภาวะการทำงานที่เป็นปกติก่อนหน้านี้"
-
-#: En.Win32.Debug.Error-2.idtx:115 En.Win32.Release.Error-2.idtx:115
-#: En.x64.Debug.Error-2.idtx:115 En.x64.Release.Error-2.idtx:115
-msgid "There is a problem with this Windows Installer package. A DLL required for this install to complete could not be run. Contact your support personnel or package vendor.  {{Action [2], entry: [3], library: [4] }}"
-msgstr "มีปัญหากับ Windows Installer ชุดนี้   แฟ้ม DLL ที่จำเป็นในการติดตั้งนี้ไม่สามารถถูกเรียกใช้ได้  กรุณาติดต่อฝ่ายสนับสนุน หรือผู้ที่ขายโปรแกรมชุดนี้ให้คุณ  {{การกระทำ [2] รายการ [3] ไลบรารี [4] }}"
-
-#: En.Win32.Debug.Error-2.idtx:113 En.Win32.Release.Error-2.idtx:113
-#: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
-msgid "There is a problem with this Windows Installer package. A program required for this install to complete could not be run. Contact your support personnel or package vendor. {{Action: [2], location: [3], command: [4] }}"
-msgstr "มีปัญหากับ Windows Installer ชุดนี้  โปรแกรมที่จำเป็นไม่สามารถถูกเรียกใช้ได้  กรุณาติดต่อฝ่ายสนับสนุน หรือผู้ที่ขายโปรแกรมชุดนี้ให้คุณ {{การกระทำ [2] ตำแหน่ง [3] คำสั่ง [4] }}"
-
-#: En.Win32.Debug.Error-2.idtx:114 En.Win32.Release.Error-2.idtx:114
-#: En.x64.Debug.Error-2.idtx:114 En.x64.Release.Error-2.idtx:114
-msgid "There is a problem with this Windows Installer package. A program run as part of the setup did not finish as expected. Contact your support personnel or package vendor.  {{Action [2], location: [3], command: [4] }}"
-msgstr "มีปัญหากับ Windows Installer ชุดนี้  โปรแกรมส่วนหนึ่งในโปรแกรมติดตั้งทำงานไม่เสร็จสมบูรณ์  กรุณาติดต่อฝ่ายสนับสนุน หรือผู้ที่ขายโปรแกรมชุดนี้ให้คุณ  {{การกระทำ [2] ตำแหน่ง [3] คำสั่ง [4] }}"
-
-#: En.Win32.Debug.Error-2.idtx:112 En.Win32.Release.Error-2.idtx:112
-#: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
-msgid "There is a problem with this Windows Installer package. A script required for this install to complete could not be run. Contact your support personnel or package vendor.  {{Custom action [2] script error [3], [4]: [5] Line [6], Column [7], [8] }}"
-msgstr "มีปัญหากับ Windows Installer ชุดนี้  สคริปต์ที่จำเป็นไม่สามารถถูกเรียกใช้ได้  กรุณาติดต่อฝ่ายสนับสนุน หรือผู้ที่ขายโปรแกรมชุดนี้ให้คุณ   {{การกระทำกำหนดเอง [2] ข้อผิดพลาดสคริปต์ [3], [4]: [5] บรรทัด [6] คอลัมน์ [7], [8] }}"
-
-#: En.Win32.Debug.Error-2.idtx:128 En.Win32.Release.Error-2.idtx:128
-#: En.x64.Debug.Error-2.idtx:128 En.x64.Release.Error-2.idtx:128
-msgid "There is no disk in drive [2]. Please insert one and click Retry, or click Cancel to go back to the previously selected volume."
-msgstr "ไม่มีดิสก์ในไดรฟ์ [2] กรุณาใส่ดิสก์แล้วคลิกลองใหม่ หรือคลิกยกเลิก เพื่อกลับไปยังดิสก์ที่เลือกไว้ก่อนหน้า"
-
-#: En.Win32.Debug.Error-2.idtx:129 En.Win32.Release.Error-2.idtx:129
-#: En.x64.Debug.Error-2.idtx:129 En.x64.Release.Error-2.idtx:129
-msgid "There is no disk in drive [2]. Please insert one and click Retry, or click Cancel to return to the browse dialog and select a different volume."
-msgstr "ไม่มีดิสก์ในไดรฟ์ [2] กรุณาใส่ดิสก์แล้วคลิกลองใหม่ หรือคลิกยกเลิก เพื่อกลับไปยังกล่องโต้ตอบการเรียกดูและเลือกดิสก์อื่น"
-
-#: En.Win32.Debug.Error-2.idtx:85 En.Win32.Release.Error-2.idtx:85
-#: En.x64.Debug.Error-2.idtx:85 En.x64.Release.Error-2.idtx:85
-msgid "There is not enough disk space on the volume '[2]' to continue the install with recovery enabled. [3] KB are required, but only [4] KB are available. Click Ignore to continue the install without saving recovery information, click Retry to check for available space again, or click Cancel to quit the installation."
-msgstr "ที่ว่างดิสก์ไม่เพียงพอใน '[2]' ถ้าต้องการติดตั้งแบบให้มีการกู้คืน   ต้องการที่ว่าง [3] KB แต่มีที่ว่างอยู่แค่ [4] KB   คลิก ละเว้น  ถ้าต้องการติดตั้งแบบไม่มีการกู้คืน ให้คลิก ลองใหม่ เพื่อดูที่ว่างอีกครั้ง หรือคลิก ยกเลิก เพื่อหยุดการติดตั้ง"
-
-#: En.Win32.Debug.Error-2.idtx:37 En.Win32.Release.Error-2.idtx:37
-#: En.x64.Debug.Error-2.idtx:37 En.x64.Release.Error-2.idtx:37
-msgid "There is not enough disk space to install this file: [2].  Free some disk space and click Retry, or click Cancel to exit."
-msgstr "มีที่ว่างดิสก์ไม่เพียงพอที่จะติดตั้งแฟ้ม: [2]  ทำให้มีที่ว่างดิสก์เพิ่มขึ้นแล้วคลิกลองใหม่ หรือคลิกยกเลิก เพื่อที่จะออกจากการติดตั้ง"
-
-#: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
-#: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
-msgid "There was an error creating a temporary file that is needed to complete this installation.{{  Folder: [3]. System error code: [2]}}"
-msgstr "มีข้อผิดพลาดในการสร้างแฟ้มชั่วคราวซึ่งจำเป็นในการทำให้การติดตั้งเสร็จสมบูรณ์ {{  โฟลเดอร์ [3] รหัสข้อผิดพลาดของระบบ [2]}}"
-
-#: En.Win32.Debug.Error-2.idtx:92 En.Win32.Release.Error-2.idtx:92
-#: En.x64.Debug.Error-2.idtx:92 En.x64.Release.Error-2.idtx:92
-msgid "This installation package is not supported on this platform. Contact your application vendor."
-msgstr ""
-
-#: En.Win32.Debug.CustomAction-2.idtx:6 En.Win32.Release.CustomAction-2.idtx:6
-#: En.x64.Debug.CustomAction-2.idtx:5 En.x64.Release.CustomAction-2.idtx:5
-msgid "This package cannot upgrade the currently installed [SimpleProductName]. Please remove the old package first and retry."
-msgstr ""
-
-#: En.Win32.Debug.Error-2.idtx:172 En.Win32.Release.Error-2.idtx:172
-#: En.x64.Debug.Error-2.idtx:172 En.x64.Release.Error-2.idtx:172
-msgid "This version of Windows does not support deploying 64-bit packages. The script [2] is for a 64-bit package."
-msgstr ""
-
-#: En.Win32.Debug.Error-2.idtx:20 En.Win32.Release.Error-2.idtx:20
-#: En.x64.Debug.Error-2.idtx:20 En.x64.Release.Error-2.idtx:20
-msgid "Time remaining: {[1] minutes }{[2] seconds}"
-msgstr "เวลาที่เหลือ: {[1] นาที }{[2] วินาที}"
-
-#: En.Win32.Debug.Error-2.idtx:45 En.Win32.Release.Error-2.idtx:45
-#: En.x64.Debug.Error-2.idtx:45 En.x64.Release.Error-2.idtx:45
-msgid "Unable to write to the specified folder: [2]."
-msgstr "ไม่สามารถเขียนไปยังโฟลเดอร์: [2]."
-
-#: En.Win32.Debug.ActionText-2.idtx:28 En.Win32.Release.ActionText-2.idtx:28
-#: En.x64.Debug.ActionText-2.idtx:28 En.x64.Release.ActionText-2.idtx:28
-msgid "Unpublishing assembly information"
-msgstr "ข้อมูลที่รวบรวมการไม่จัดพิมพ์"
-
-#: En.Win32.Debug.ActionText-2.idtx:62 En.Win32.Release.ActionText-2.idtx:62
-#: En.x64.Debug.ActionText-2.idtx:62 En.x64.Release.ActionText-2.idtx:62
-msgid "Unpublishing Product Features"
-msgstr "กำลังยกเลิกการจัดพิมพ์คุณลักษณะของผลิตภัณฑ์"
-
-#: En.Win32.Debug.ActionText-2.idtx:63 En.Win32.Release.ActionText-2.idtx:63
-#: En.x64.Debug.ActionText-2.idtx:63 En.x64.Release.ActionText-2.idtx:63
-msgid "Unpublishing product information"
-msgstr "กำลังยกเลิกการจัดพิมพ์ข้อมูลผลิตภัณฑ์"
-
-#: En.Win32.Debug.ActionText-2.idtx:61 En.Win32.Release.ActionText-2.idtx:61
-#: En.x64.Debug.ActionText-2.idtx:61 En.x64.Release.ActionText-2.idtx:61
-msgid "Unpublishing Qualified Components"
-msgstr "กำลังยกเลิกการจัดพิมพ์คอมโพเนนต์ที่ผ่านเกณฑ์ตรวจสอบ"
-
-#: En.Win32.Debug.ActionText-2.idtx:64 En.Win32.Release.ActionText-2.idtx:64
-#: En.x64.Debug.ActionText-2.idtx:64 En.x64.Release.ActionText-2.idtx:64
-msgid "Unregister Class servers"
-msgstr "กำลังเอาเซิร์ฟเวอร์ Class ออกจากการลงทะเบียน"
-
-#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
-#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
-msgid "Unregistering COM+ Applications and Components"
-msgstr "กำลังเอา COM+ Applications and Components ออกจากการลงทะเบียน"
-
-#: En.Win32.Debug.ActionText-2.idtx:66 En.Win32.Release.ActionText-2.idtx:66
-#: En.x64.Debug.ActionText-2.idtx:66 En.x64.Release.ActionText-2.idtx:66
-msgid "Unregistering extension servers"
-msgstr "กำลังเอาเซิร์ฟเวอร์ส่วนขยายออกจากการลงทะเบียน"
-
-#: En.Win32.Debug.ActionText-2.idtx:67 En.Win32.Release.ActionText-2.idtx:67
-#: En.x64.Debug.ActionText-2.idtx:67 En.x64.Release.ActionText-2.idtx:67
-msgid "Unregistering fonts"
-msgstr "กำลังเอาแบบอักษรออกจากการลงทะเบียน"
-
-#: En.Win32.Debug.ActionText-2.idtx:68 En.Win32.Release.ActionText-2.idtx:68
-#: En.x64.Debug.ActionText-2.idtx:68 En.x64.Release.ActionText-2.idtx:68
-msgid "Unregistering MIME info"
-msgstr "กำลังเอาข้อมูล MIME ออกจากการลงทะเบียน"
-
-#: En.Win32.Debug.ActionText-2.idtx:56 En.Win32.Release.ActionText-2.idtx:56
-#: En.x64.Debug.ActionText-2.idtx:56 En.x64.Release.ActionText-2.idtx:56
-msgid "Unregistering modules"
-msgstr "กำลังเอาโมดูลออกจากการลงทะเบียน"
-
-#: En.Win32.Debug.ActionText-2.idtx:69 En.Win32.Release.ActionText-2.idtx:69
-#: En.x64.Debug.ActionText-2.idtx:69 En.x64.Release.ActionText-2.idtx:69
-msgid "Unregistering program identifiers"
-msgstr "กำลังเอาตัวระบุโปรแกรมออกจากการลงทะเบียน"
-
-#: En.Win32.Debug.ActionText-2.idtx:70 En.Win32.Release.ActionText-2.idtx:70
-#: En.x64.Debug.ActionText-2.idtx:70 En.x64.Release.ActionText-2.idtx:70
-msgid "Unregistering type libraries"
-msgstr "กำลังเอาคลังของชนิดออกจากการลงทะเบียน"
-
-#: En.Win32.Debug.ActionText-2.idtx:30 En.Win32.Release.ActionText-2.idtx:30
-#: En.x64.Debug.ActionText-2.idtx:30 En.x64.Release.ActionText-2.idtx:30
-msgid "Updating component registration"
-msgstr "กำลังปรับปรุงการลงทะเบียนคอมโพเนนต์"
-
-#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
-#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
-#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
-#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
-msgid "Updating environment strings"
-msgstr "กำลังปรับปรุงสายอักขระสภาพแวดล้อม"
-
-#: En.Win32.Debug.Error-2.idtx:80 En.Win32.Release.Error-2.idtx:80
-#: En.x64.Debug.Error-2.idtx:80 En.x64.Release.Error-2.idtx:80
-msgid "User '[2]' has previously initiated an install for product '[3]'.  That user will need to run that install again before they can use that product."
-msgstr "ผู้ใช้ '[2]' ได้เริ่มการติดตั้งผลิตภัณฑ์ '[3]' ไว้  ผู้ใช้นั้นจำเป็นต้องเรียกใช้ตัวติดตั้งอีกครั้งก่อนที่ผู้อื่นจะสามารถใช้ผลิตภัณฑ์นั้น"
-
-#: En.Win32.Debug.Error-2.idtx:79 En.Win32.Release.Error-2.idtx:79
-#: En.x64.Debug.Error-2.idtx:79 En.x64.Release.Error-2.idtx:79
-msgid "User '[2]' has previously initiated an install for product '[3]'.  That user will need to run that install again before they can use that product.  Your current install will now continue."
-msgstr "ผู้ใช้ '[2]' ได้เริ่มการติดตั้งผลิตภัณฑ์ '[3]' ไว้  ผู้ใช้นั้นจำเป็นต้องเรียกใช้ตัวติดตั้งอีกครั้งก่อนที่ผู้อื่นจะสามารถใช้ผลิตภัณฑ์นั้น การติดตั้งปัจจุบันของคุณจะถูกทำต่อไปเดี๋ยวนี้"
-
-#: En.Win32.Debug.Error-2.idtx:166 En.Win32.Release.Error-2.idtx:166
-#: En.x64.Debug.Error-2.idtx:166 En.x64.Release.Error-2.idtx:166
-msgid "User installations are disabled via policy on the machine."
-msgstr "การติดตั้งของผู้ใช้ถูกห้ามไว้โดยนโยบายของเครื่อง"
-
-#: En.Win32.Debug.ActionText-2.idtx:23 En.Win32.Release.ActionText-2.idtx:23
-#: En.x64.Debug.ActionText-2.idtx:23 En.x64.Release.ActionText-2.idtx:23
+#: en_US.Win32.Debug.ActionText-2.idtx:23
+#: en_US.Win32.Release.ActionText-2.idtx:23
+#: en_US.x64.Debug.ActionText-2.idtx:23 en_US.x64.Release.ActionText-2.idtx:23
 msgid "Validating install"
 msgstr "กำลังตรวจสอบความถูกต้องการติดตั้ง"
 
-#: En.Win32.Debug.Error-2.idtx:6 En.Win32.Release.Error-2.idtx:6
-#: En.x64.Debug.Error-2.idtx:6 En.x64.Release.Error-2.idtx:6
-msgid "Warning [1]. "
-msgstr "คำเตือน [1]. "
+#: en_US.Win32.Debug.ActionText-2.idtx:24
+#: en_US.Win32.Release.ActionText-2.idtx:24
+#: en_US.x64.Debug.ActionText-2.idtx:24 en_US.x64.Release.ActionText-2.idtx:24
+msgid "Evaluating launch conditions"
+msgstr "กำลังประเมินผลเงื่อนไขในการเริ่มใช้งาน"
 
-#: En.Win32.Debug.ActionText-2.idtx:72 En.Win32.Release.ActionText-2.idtx:72
-#: En.x64.Debug.ActionText-2.idtx:72 En.x64.Release.ActionText-2.idtx:72
+#: en_US.Win32.Debug.ActionText-2.idtx:25
+#: en_US.Win32.Release.ActionText-2.idtx:25
+#: en_US.x64.Debug.ActionText-2.idtx:25 en_US.x64.Release.ActionText-2.idtx:25
+msgid "Migrating feature states from related applications"
+msgstr "กำลังโอนย้ายสถานะของคุณลักษณะจากโปรแกรมประยุกต์ที่เกี่ยวข้อง"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:25
+#: en_US.Win32.Release.ActionText-2.idtx:25
+#: en_US.x64.Debug.ActionText-2.idtx:25 en_US.x64.Release.ActionText-2.idtx:25
+msgid "Application: [1]"
+msgstr "โปรแกรมประยุกต์: [1]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:26
+#: en_US.Win32.Release.ActionText-2.idtx:26
+#: en_US.x64.Debug.ActionText-2.idtx:26 en_US.x64.Release.ActionText-2.idtx:26
+msgid "Moving files"
+msgstr "กำลังย้ายแฟ้ม"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:27
+#: en_US.Win32.Release.ActionText-2.idtx:27
+#: en_US.x64.Debug.ActionText-2.idtx:27 en_US.x64.Release.ActionText-2.idtx:27
+msgid "Publishing assembly information"
+msgstr "ข้อมูลที่รวบรวมการจัดพิมพ์"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:27
+#: en_US.Win32.Debug.ActionText-2.idtx:28
+#: en_US.Win32.Release.ActionText-2.idtx:27
+#: en_US.Win32.Release.ActionText-2.idtx:28
+#: en_US.x64.Debug.ActionText-2.idtx:27 en_US.x64.Debug.ActionText-2.idtx:28
+#: en_US.x64.Release.ActionText-2.idtx:27
+#: en_US.x64.Release.ActionText-2.idtx:28
+msgid "Application Context:[1], Assembly Name:[2]"
+msgstr "ข้อความโปรแกรมประยุกต์ [1]  ชื่อที่รวบรวม [2]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:28
+#: en_US.Win32.Release.ActionText-2.idtx:28
+#: en_US.x64.Debug.ActionText-2.idtx:28 en_US.x64.Release.ActionText-2.idtx:28
+msgid "Unpublishing assembly information"
+msgstr "ข้อมูลที่รวบรวมการไม่จัดพิมพ์"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:29
+#: en_US.Win32.Release.ActionText-2.idtx:29
+#: en_US.x64.Debug.ActionText-2.idtx:29 en_US.x64.Release.ActionText-2.idtx:29
+msgid "Patching files"
+msgstr "กำลังประกอบแฟ้ม"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:29
+#: en_US.Win32.Release.ActionText-2.idtx:29
+#: en_US.x64.Debug.ActionText-2.idtx:29 en_US.x64.Release.ActionText-2.idtx:29
+msgid "File: [1],  Directory: [2],  Size: [3]"
+msgstr "แฟ้ม: [1],  ไดเรกตอรี: [2],  ขนาด: [3]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:30
+#: en_US.Win32.Release.ActionText-2.idtx:30
+#: en_US.x64.Debug.ActionText-2.idtx:30 en_US.x64.Release.ActionText-2.idtx:30
+msgid "Updating component registration"
+msgstr "กำลังปรับปรุงการลงทะเบียนคอมโพเนนต์"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:31
+#: en_US.Win32.Release.ActionText-2.idtx:31
+#: en_US.x64.Debug.ActionText-2.idtx:31 en_US.x64.Release.ActionText-2.idtx:31
+msgid "Publishing Qualified Components"
+msgstr "กำลังจัดพิมพ์คอมโพเนนต์ที่ผ่านเกณฑ์ตรวจสอบ"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:31
+#: en_US.Win32.Debug.ActionText-2.idtx:61
+#: en_US.Win32.Release.ActionText-2.idtx:31
+#: en_US.Win32.Release.ActionText-2.idtx:61
+#: en_US.x64.Debug.ActionText-2.idtx:31 en_US.x64.Debug.ActionText-2.idtx:61
+#: en_US.x64.Release.ActionText-2.idtx:31
+#: en_US.x64.Release.ActionText-2.idtx:61
+msgid "Component ID: [1], Qualifier: [2]"
+msgstr "หมายเลขคอมโพเนนต์: [1], ตัวตรวจสอบเกณฑ์: [2]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:32
+#: en_US.Win32.Release.ActionText-2.idtx:32
+#: en_US.x64.Debug.ActionText-2.idtx:32 en_US.x64.Release.ActionText-2.idtx:32
+msgid "Publishing Product Features"
+msgstr "กำลังจัดพิมพ์คุณลักษณะของผลิตภัณฑ์"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:32
+#: en_US.Win32.Debug.ActionText-2.idtx:62
+#: en_US.Win32.Release.ActionText-2.idtx:32
+#: en_US.Win32.Release.ActionText-2.idtx:62
+#: en_US.x64.Debug.ActionText-2.idtx:32 en_US.x64.Debug.ActionText-2.idtx:62
+#: en_US.x64.Release.ActionText-2.idtx:32
+#: en_US.x64.Release.ActionText-2.idtx:62
+msgid "Feature: [1]"
+msgstr "คุณลักษณะ: [1]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:33
+#: en_US.Win32.Release.ActionText-2.idtx:33
+#: en_US.x64.Debug.ActionText-2.idtx:33 en_US.x64.Release.ActionText-2.idtx:33
+msgid "Publishing product information"
+msgstr "กำลังจัดพิมพ์ข้อมูลผลิตภัณฑ์"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:34
+#: en_US.Win32.Release.ActionText-2.idtx:34
+#: en_US.x64.Debug.ActionText-2.idtx:34 en_US.x64.Release.ActionText-2.idtx:34
+msgid "Registering Class servers"
+msgstr "กำลังลงทะเบียนเซิร์ฟเวอร์ Class"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:34
+#: en_US.Win32.Debug.ActionText-2.idtx:64
+#: en_US.Win32.Release.ActionText-2.idtx:34
+#: en_US.Win32.Release.ActionText-2.idtx:64
+#: en_US.x64.Debug.ActionText-2.idtx:34 en_US.x64.Debug.ActionText-2.idtx:64
+#: en_US.x64.Release.ActionText-2.idtx:34
+#: en_US.x64.Release.ActionText-2.idtx:64
+msgid "Class Id: [1]"
+msgstr "Class Id: [1]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:35
+#: en_US.Win32.Release.ActionText-2.idtx:35
+#: en_US.x64.Debug.ActionText-2.idtx:35 en_US.x64.Release.ActionText-2.idtx:35
+msgid "Registering COM+ Applications and Components"
+msgstr "กำลังลงทะเบียน COM+ Applications and Components"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:35
+#: en_US.Win32.Release.ActionText-2.idtx:35
+#: en_US.x64.Debug.ActionText-2.idtx:35 en_US.x64.Release.ActionText-2.idtx:35
+msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
+msgstr "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:36
+#: en_US.Win32.Release.ActionText-2.idtx:36
+#: en_US.x64.Debug.ActionText-2.idtx:36 en_US.x64.Release.ActionText-2.idtx:36
+msgid "Registering extension servers"
+msgstr "กำลังลงทะเบียนเซิร์ฟเวอร์ส่วนขยาย"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:36
+#: en_US.Win32.Debug.ActionText-2.idtx:66
+#: en_US.Win32.Release.ActionText-2.idtx:36
+#: en_US.Win32.Release.ActionText-2.idtx:66
+#: en_US.x64.Debug.ActionText-2.idtx:36 en_US.x64.Debug.ActionText-2.idtx:66
+#: en_US.x64.Release.ActionText-2.idtx:36
+#: en_US.x64.Release.ActionText-2.idtx:66
+msgid "Extension: [1]"
+msgstr "ส่วนขยาย: [1]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:37
+#: en_US.Win32.Release.ActionText-2.idtx:37
+#: en_US.x64.Debug.ActionText-2.idtx:37 en_US.x64.Release.ActionText-2.idtx:37
+msgid "Registering fonts"
+msgstr "กำลังลงทะเบียนแบบอักษร"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:37
+#: en_US.Win32.Debug.ActionText-2.idtx:67
+#: en_US.Win32.Release.ActionText-2.idtx:37
+#: en_US.Win32.Release.ActionText-2.idtx:67
+#: en_US.x64.Debug.ActionText-2.idtx:37 en_US.x64.Debug.ActionText-2.idtx:67
+#: en_US.x64.Release.ActionText-2.idtx:37
+#: en_US.x64.Release.ActionText-2.idtx:67
+msgid "Font: [1]"
+msgstr "แบบอักษร: [1]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:38
+#: en_US.Win32.Release.ActionText-2.idtx:38
+#: en_US.x64.Debug.ActionText-2.idtx:38 en_US.x64.Release.ActionText-2.idtx:38
+msgid "Registering MIME info"
+msgstr "กำลังลงทะเบียนข้อมูล MIME"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:38
+#: en_US.Win32.Debug.ActionText-2.idtx:68
+#: en_US.Win32.Release.ActionText-2.idtx:38
+#: en_US.Win32.Release.ActionText-2.idtx:68
+#: en_US.x64.Debug.ActionText-2.idtx:38 en_US.x64.Debug.ActionText-2.idtx:68
+#: en_US.x64.Release.ActionText-2.idtx:38
+#: en_US.x64.Release.ActionText-2.idtx:68
+msgid "MIME Content Type: [1], Extension: [2]"
+msgstr "ชนิดเนื้อหา MIME: [1], ส่วนขยาย: [2]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:39
+#: en_US.Win32.Release.ActionText-2.idtx:39
+#: en_US.x64.Debug.ActionText-2.idtx:39 en_US.x64.Release.ActionText-2.idtx:39
+msgid "Registering product"
+msgstr "กำลังลงทะเบียนผลิตภัณฑ์"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:40
+#: en_US.Win32.Release.ActionText-2.idtx:40
+#: en_US.x64.Debug.ActionText-2.idtx:40 en_US.x64.Release.ActionText-2.idtx:40
+msgid "Registering program identifiers"
+msgstr "ตัวระบุโปรแกรมการลงทะเบียน"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:40
+#: en_US.Win32.Debug.ActionText-2.idtx:69
+#: en_US.Win32.Release.ActionText-2.idtx:40
+#: en_US.Win32.Release.ActionText-2.idtx:69
+#: en_US.x64.Debug.ActionText-2.idtx:40 en_US.x64.Debug.ActionText-2.idtx:69
+#: en_US.x64.Release.ActionText-2.idtx:40
+#: en_US.x64.Release.ActionText-2.idtx:69
+msgid "ProgId: [1]"
+msgstr "ProgId: [1]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:41
+#: en_US.Win32.Release.ActionText-2.idtx:41
+#: en_US.x64.Debug.ActionText-2.idtx:41 en_US.x64.Release.ActionText-2.idtx:41
+msgid "Registering type libraries"
+msgstr "กำลังลงทะเบียนคลังของชนิด"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:41
+#: en_US.Win32.Debug.ActionText-2.idtx:70
+#: en_US.Win32.Release.ActionText-2.idtx:41
+#: en_US.Win32.Release.ActionText-2.idtx:70
+#: en_US.x64.Debug.ActionText-2.idtx:41 en_US.x64.Debug.ActionText-2.idtx:70
+#: en_US.x64.Release.ActionText-2.idtx:41
+#: en_US.x64.Release.ActionText-2.idtx:70
+msgid "LibID: [1]"
+msgstr "LibID: [1]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:42
+#: en_US.Win32.Release.ActionText-2.idtx:42
+#: en_US.x64.Debug.ActionText-2.idtx:42 en_US.x64.Release.ActionText-2.idtx:42
+msgid "Registering user"
+msgstr "กำลังลงทะเบียนผู้ใช้"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:43
+#: en_US.Win32.Release.ActionText-2.idtx:43
+#: en_US.x64.Debug.ActionText-2.idtx:43 en_US.x64.Release.ActionText-2.idtx:43
+msgid "Removing duplicated files"
+msgstr "กำลังเอาแฟ้มที่ซ้ำกันออก"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:43
+#: en_US.Win32.Debug.ActionText-2.idtx:46
+#: en_US.Win32.Debug.ActionText-2.idtx:60
+#: en_US.Win32.Release.ActionText-2.idtx:43
+#: en_US.Win32.Release.ActionText-2.idtx:46
+#: en_US.Win32.Release.ActionText-2.idtx:60
+#: en_US.x64.Debug.ActionText-2.idtx:43 en_US.x64.Debug.ActionText-2.idtx:46
+#: en_US.x64.Debug.ActionText-2.idtx:60 en_US.x64.Release.ActionText-2.idtx:43
+#: en_US.x64.Release.ActionText-2.idtx:46
+#: en_US.x64.Release.ActionText-2.idtx:60
+msgid "File: [1], Directory: [9]"
+msgstr "แฟ้ม: [1], ไดเรกตอรี: [9]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:44
+#: en_US.Win32.Debug.ActionText-2.idtx:71
+#: en_US.Win32.Release.ActionText-2.idtx:44
+#: en_US.Win32.Release.ActionText-2.idtx:71
+#: en_US.x64.Debug.ActionText-2.idtx:44 en_US.x64.Debug.ActionText-2.idtx:71
+#: en_US.x64.Release.ActionText-2.idtx:44
+#: en_US.x64.Release.ActionText-2.idtx:71
+msgid "Updating environment strings"
+msgstr "กำลังปรับปรุงสายอักขระสภาพแวดล้อม"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:44
+#: en_US.Win32.Debug.ActionText-2.idtx:71
+#: en_US.Win32.Release.ActionText-2.idtx:44
+#: en_US.Win32.Release.ActionText-2.idtx:71
+#: en_US.x64.Debug.ActionText-2.idtx:44 en_US.x64.Debug.ActionText-2.idtx:71
+#: en_US.x64.Release.ActionText-2.idtx:44
+#: en_US.x64.Release.ActionText-2.idtx:71
+msgid "Name: [1], Value: [2], Action [3]"
+msgstr "ชื่อ: [1], ค่า: [2], การกระทำ [3]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:45
+#: en_US.Win32.Release.ActionText-2.idtx:45
+#: en_US.x64.Debug.ActionText-2.idtx:45 en_US.x64.Release.ActionText-2.idtx:45
+msgid "Removing applications"
+msgstr "กำลังเอาโปรแกรมประยุกต์ออก"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:45
+#: en_US.Win32.Release.ActionText-2.idtx:45
+#: en_US.x64.Debug.ActionText-2.idtx:45 en_US.x64.Release.ActionText-2.idtx:45
+msgid "Application: [1], Command line: [2]"
+msgstr "โปรแกรมประยุกต์: [1], บรรทัดคำสั่ง: [2]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:46
+#: en_US.Win32.Release.ActionText-2.idtx:46
+#: en_US.x64.Debug.ActionText-2.idtx:46 en_US.x64.Release.ActionText-2.idtx:46
+msgid "Removing files"
+msgstr "กำลังเอาแฟ้มออก"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:47
+#: en_US.Win32.Release.ActionText-2.idtx:47
+#: en_US.x64.Debug.ActionText-2.idtx:47 en_US.x64.Release.ActionText-2.idtx:47
+msgid "Removing folders"
+msgstr "กำลังเอาโฟลเดอร์ออก"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:48
+#: en_US.Win32.Release.ActionText-2.idtx:48
+#: en_US.x64.Debug.ActionText-2.idtx:48 en_US.x64.Release.ActionText-2.idtx:48
+msgid "Removing INI files entries"
+msgstr "กำลังเอาเนื้อหารในแฟ้ม INI ออก"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:48
+#: en_US.Win32.Debug.ActionText-2.idtx:72
+#: en_US.Win32.Release.ActionText-2.idtx:48
+#: en_US.Win32.Release.ActionText-2.idtx:72
+#: en_US.x64.Debug.ActionText-2.idtx:48 en_US.x64.Debug.ActionText-2.idtx:72
+#: en_US.x64.Release.ActionText-2.idtx:48
+#: en_US.x64.Release.ActionText-2.idtx:72
+msgid "File: [1],  Section: [2],  Key: [3], Value: [4]"
+msgstr "แฟ้ม: [1],  ส่วน: [2],  คีย์: [3], ค่า: [4]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:49
+#: en_US.Win32.Release.ActionText-2.idtx:49
+#: en_US.x64.Debug.ActionText-2.idtx:49 en_US.x64.Release.ActionText-2.idtx:49
+msgid "Removing ODBC components"
+msgstr "กำลังเอาคอมโพเนนต์ ODBC ออก"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:50
+#: en_US.Win32.Release.ActionText-2.idtx:50
+#: en_US.x64.Debug.ActionText-2.idtx:50 en_US.x64.Release.ActionText-2.idtx:50
+msgid "Removing system registry values"
+msgstr "กำลังเอาค่า registry ของระบบออก"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:50
+#: en_US.Win32.Release.ActionText-2.idtx:50
+#: en_US.x64.Debug.ActionText-2.idtx:50 en_US.x64.Release.ActionText-2.idtx:50
+msgid "Key: [1], Name: [2]"
+msgstr "คีย์: [1], ชื่อ: [2]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:51
+#: en_US.Win32.Release.ActionText-2.idtx:51
+#: en_US.x64.Debug.ActionText-2.idtx:51 en_US.x64.Release.ActionText-2.idtx:51
+msgid "Removing shortcuts"
+msgstr "กำลังเอาทางลัดออก"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:53
+#: en_US.Win32.Release.ActionText-2.idtx:53
+#: en_US.x64.Debug.ActionText-2.idtx:53 en_US.x64.Release.ActionText-2.idtx:53
+msgid "Rolling back action:"
+msgstr "การกระทำย้อนกลับสถานะ:"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:54
+#: en_US.Win32.Release.ActionText-2.idtx:54
+#: en_US.x64.Debug.ActionText-2.idtx:54 en_US.x64.Release.ActionText-2.idtx:54
+msgid "Removing backup files"
+msgstr "กำลังเอาแฟ้มสำรองออก"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:55
+#: en_US.Win32.Release.ActionText-2.idtx:55
+#: en_US.x64.Debug.ActionText-2.idtx:55 en_US.x64.Release.ActionText-2.idtx:55
+msgid "Registering modules"
+msgstr "กำลังลงทะเบียนโมดูล"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:55
+#: en_US.Win32.Debug.ActionText-2.idtx:56
+#: en_US.Win32.Release.ActionText-2.idtx:55
+#: en_US.Win32.Release.ActionText-2.idtx:56
+#: en_US.x64.Debug.ActionText-2.idtx:55 en_US.x64.Debug.ActionText-2.idtx:56
+#: en_US.x64.Release.ActionText-2.idtx:55
+#: en_US.x64.Release.ActionText-2.idtx:56
+msgid "File: [1], Folder: [2]"
+msgstr "แฟ้ม: [1], โฟลเดอร์: [2]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:56
+#: en_US.Win32.Release.ActionText-2.idtx:56
+#: en_US.x64.Debug.ActionText-2.idtx:56 en_US.x64.Release.ActionText-2.idtx:56
+msgid "Unregistering modules"
+msgstr "กำลังเอาโมดูลออกจากการลงทะเบียน"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:57
+#: en_US.Win32.Release.ActionText-2.idtx:57
+#: en_US.x64.Debug.ActionText-2.idtx:57 en_US.x64.Release.ActionText-2.idtx:57
+msgid "Initializing ODBC directories"
+msgstr "กำลังเริ่มต้นไดเรกตอรี ODBC"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:58
+#: en_US.Win32.Release.ActionText-2.idtx:58
+#: en_US.x64.Debug.ActionText-2.idtx:58 en_US.x64.Release.ActionText-2.idtx:58
+msgid "Starting services"
+msgstr "กำลังเริ่มต้นบริการ"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:59
+#: en_US.Win32.Release.ActionText-2.idtx:59
+#: en_US.x64.Debug.ActionText-2.idtx:59 en_US.x64.Release.ActionText-2.idtx:59
+msgid "Stopping services"
+msgstr "กำลังหยุดการบริการ"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:60
+#: en_US.Win32.Release.ActionText-2.idtx:60
+#: en_US.x64.Debug.ActionText-2.idtx:60 en_US.x64.Release.ActionText-2.idtx:60
+msgid "Removing moved files"
+msgstr "กำลังเอาแฟ้มที่ถูกย้ายออก"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:61
+#: en_US.Win32.Release.ActionText-2.idtx:61
+#: en_US.x64.Debug.ActionText-2.idtx:61 en_US.x64.Release.ActionText-2.idtx:61
+msgid "Unpublishing Qualified Components"
+msgstr "กำลังยกเลิกการจัดพิมพ์คอมโพเนนต์ที่ผ่านเกณฑ์ตรวจสอบ"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:62
+#: en_US.Win32.Release.ActionText-2.idtx:62
+#: en_US.x64.Debug.ActionText-2.idtx:62 en_US.x64.Release.ActionText-2.idtx:62
+msgid "Unpublishing Product Features"
+msgstr "กำลังยกเลิกการจัดพิมพ์คุณลักษณะของผลิตภัณฑ์"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:63
+#: en_US.Win32.Release.ActionText-2.idtx:63
+#: en_US.x64.Debug.ActionText-2.idtx:63 en_US.x64.Release.ActionText-2.idtx:63
+msgid "Unpublishing product information"
+msgstr "กำลังยกเลิกการจัดพิมพ์ข้อมูลผลิตภัณฑ์"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:64
+#: en_US.Win32.Release.ActionText-2.idtx:64
+#: en_US.x64.Debug.ActionText-2.idtx:64 en_US.x64.Release.ActionText-2.idtx:64
+msgid "Unregister Class servers"
+msgstr "กำลังเอาเซิร์ฟเวอร์ Class ออกจากการลงทะเบียน"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:65
+#: en_US.Win32.Release.ActionText-2.idtx:65
+#: en_US.x64.Debug.ActionText-2.idtx:65 en_US.x64.Release.ActionText-2.idtx:65
+msgid "Unregistering COM+ Applications and Components"
+msgstr "กำลังเอา COM+ Applications and Components ออกจากการลงทะเบียน"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:65
+#: en_US.Win32.Release.ActionText-2.idtx:65
+#: en_US.x64.Debug.ActionText-2.idtx:65 en_US.x64.Release.ActionText-2.idtx:65
+msgid "AppId: [1]{{, AppType: [2]}}"
+msgstr "AppId: [1]{{, AppType: [2]}}"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:66
+#: en_US.Win32.Release.ActionText-2.idtx:66
+#: en_US.x64.Debug.ActionText-2.idtx:66 en_US.x64.Release.ActionText-2.idtx:66
+msgid "Unregistering extension servers"
+msgstr "กำลังเอาเซิร์ฟเวอร์ส่วนขยายออกจากการลงทะเบียน"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:67
+#: en_US.Win32.Release.ActionText-2.idtx:67
+#: en_US.x64.Debug.ActionText-2.idtx:67 en_US.x64.Release.ActionText-2.idtx:67
+msgid "Unregistering fonts"
+msgstr "กำลังเอาแบบอักษรออกจากการลงทะเบียน"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:68
+#: en_US.Win32.Release.ActionText-2.idtx:68
+#: en_US.x64.Debug.ActionText-2.idtx:68 en_US.x64.Release.ActionText-2.idtx:68
+msgid "Unregistering MIME info"
+msgstr "กำลังเอาข้อมูล MIME ออกจากการลงทะเบียน"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:69
+#: en_US.Win32.Release.ActionText-2.idtx:69
+#: en_US.x64.Debug.ActionText-2.idtx:69 en_US.x64.Release.ActionText-2.idtx:69
+msgid "Unregistering program identifiers"
+msgstr "กำลังเอาตัวระบุโปรแกรมออกจากการลงทะเบียน"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:70
+#: en_US.Win32.Release.ActionText-2.idtx:70
+#: en_US.x64.Debug.ActionText-2.idtx:70 en_US.x64.Release.ActionText-2.idtx:70
+msgid "Unregistering type libraries"
+msgstr "กำลังเอาคลังของชนิดออกจากการลงทะเบียน"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:72
+#: en_US.Win32.Release.ActionText-2.idtx:72
+#: en_US.x64.Debug.ActionText-2.idtx:72 en_US.x64.Release.ActionText-2.idtx:72
 msgid "Writing INI files values"
 msgstr "กำลังเขียนค่าแฟ้ม INI"
 
-#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
-#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
+#: en_US.Win32.Debug.ActionText-2.idtx:73
+#: en_US.Win32.Release.ActionText-2.idtx:73
+#: en_US.x64.Debug.ActionText-2.idtx:73 en_US.x64.Release.ActionText-2.idtx:73
 msgid "Writing system registry values"
 msgstr "กำลังเขียนค่า registry ของระบบ"
 
-#: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
-msgid "You are attempting to install the 32-bit variant of [SimpleProductName] on a 64-bit operating system. 32-bit variant will not work with your operating system. The installation of the 64-bit variant is recommended."
+#: en_US.Win32.Debug.ActionText-2.idtx:73
+#: en_US.Win32.Release.ActionText-2.idtx:73
+#: en_US.x64.Debug.ActionText-2.idtx:73 en_US.x64.Release.ActionText-2.idtx:73
+msgid "Key: [1], Name: [2], Value: [3]"
+msgstr "คีย์: [1], ชื่อ: [2], ค่า: [3]"
+
+#: en_US.Win32.Debug.CustomAction-2.idtx:4
+#: en_US.Win32.Release.CustomAction-2.idtx:4
+msgid ""
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
+"system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
-#: En.Win32.Debug.Error-2.idtx:157 En.Win32.Release.Error-2.idtx:157
-#: En.x64.Debug.Error-2.idtx:157 En.x64.Release.Error-2.idtx:157
-msgid "You do not have sufficient privileges to complete this installation for all users of the machine.  Log on as administrator and then retry this installation."
-msgstr "คุณมีสิทธิ์ไม่เพียงพอที่จะทำการติดตั้งนี้ให้สมบูรณ์สำหรับผู้ใช้ทั้งหมดของเครื่องนี้ ให้เข้าสู่ระบบเป็น administrator แล้วพยายามติดตั้งอีกครั้ง"
+#: en_US.Win32.Debug.CustomAction-2.idtx:5
+#: en_US.Win32.Release.CustomAction-2.idtx:5
+#: en_US.x64.Debug.CustomAction-2.idtx:4
+#: en_US.x64.Release.CustomAction-2.idtx:4
+msgid "A newer version of [SimpleProductName] is already installed."
+msgstr ""
 
-#: En.Win32.Debug.Error-2.idtx:131 En.Win32.Release.Error-2.idtx:131
-#: En.x64.Debug.Error-2.idtx:131 En.x64.Release.Error-2.idtx:131
+#: en_US.Win32.Debug.CustomAction-2.idtx:6
+#: en_US.Win32.Release.CustomAction-2.idtx:6
+#: en_US.x64.Debug.CustomAction-2.idtx:5
+#: en_US.x64.Release.CustomAction-2.idtx:5
+msgid ""
+"This package cannot upgrade the currently installed [SimpleProductName]. "
+"Please remove the old package first and retry."
+msgstr ""
+
+#: en_US.Win32.Debug.Error-2.idtx:4 en_US.Win32.Release.Error-2.idtx:4
+#: en_US.x64.Debug.Error-2.idtx:4 en_US.x64.Release.Error-2.idtx:4
+msgid "{{Fatal error: }}"
+msgstr "{{ข้อผิดพลาดร้ายแรง: }}"
+
+#: en_US.Win32.Debug.Error-2.idtx:5 en_US.Win32.Release.Error-2.idtx:5
+#: en_US.x64.Debug.Error-2.idtx:5 en_US.x64.Release.Error-2.idtx:5
+msgid "{{Error [1]. }}"
+msgstr "{{ข้อผิดพลาด [1]. }}"
+
+#: en_US.Win32.Debug.Error-2.idtx:6 en_US.Win32.Release.Error-2.idtx:6
+#: en_US.x64.Debug.Error-2.idtx:6 en_US.x64.Release.Error-2.idtx:6
+msgid "Warning [1]. "
+msgstr "คำเตือน [1]. "
+
+#: en_US.Win32.Debug.Error-2.idtx:8 en_US.Win32.Release.Error-2.idtx:8
+#: en_US.x64.Debug.Error-2.idtx:8 en_US.x64.Release.Error-2.idtx:8
+msgid "Info [1]. "
+msgstr "ข้อมูล [1]. "
+
+#: en_US.Win32.Debug.Error-2.idtx:9 en_US.Win32.Release.Error-2.idtx:9
+#: en_US.x64.Debug.Error-2.idtx:9 en_US.x64.Release.Error-2.idtx:9
+msgid ""
+"The installer has encountered an unexpected error installing this package. "
+"This may indicate a problem with this package. The error code is [1]. {{The "
+"arguments are: [2], [3], [4]}}"
+msgstr ""
+"installer พบข้อผิดพลาดที่ไม่ได้คาดหมายไว้ในโปรแกรมชุดนี้  "
+"ซึ่งอาจเป็นปัญหาเฉพาะในโปรแกรมชุดนี้เท่านั้น  รหัสข้อผิดพลาดคือ [1]   "
+"{{อาร์กิวเมนต์มีดังนี้: [2], [3], [4]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:11 en_US.Win32.Release.Error-2.idtx:11
+#: en_US.x64.Debug.Error-2.idtx:11 en_US.x64.Release.Error-2.idtx:11
+msgid "{{Disk full: }}"
+msgstr "{{ดิสก์เต็ม: }}"
+
+#: en_US.Win32.Debug.Error-2.idtx:12 en_US.Win32.Release.Error-2.idtx:12
+#: en_US.x64.Debug.Error-2.idtx:12 en_US.x64.Release.Error-2.idtx:12
+msgid "Action [Time]: [1]. [2]"
+msgstr "การกระทำ [Time]: [1]. [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:13 en_US.Win32.Release.Error-2.idtx:13
+#: en_US.x64.Debug.Error-2.idtx:13 en_US.x64.Release.Error-2.idtx:13
+msgid "[SimpleProductName]"
+msgstr "[SimpleProductName]"
+
+#: en_US.Win32.Debug.Error-2.idtx:14 en_US.Win32.Release.Error-2.idtx:14
+#: en_US.x64.Debug.Error-2.idtx:14 en_US.x64.Release.Error-2.idtx:14
+msgid "{[2]}{, [3]}{, [4]}"
+msgstr "{[2]}{, [3]}{, [4]}"
+
+#: en_US.Win32.Debug.Error-2.idtx:15 en_US.Win32.Release.Error-2.idtx:15
+#: en_US.x64.Debug.Error-2.idtx:15 en_US.x64.Release.Error-2.idtx:15
+msgid "Message type: [1], Argument: [2]{, [3]}"
+msgstr "ชนิดข้อความ: [1], อาร์กิวเมนต์: [2]{, [3]}"
+
+#: en_US.Win32.Debug.Error-2.idtx:16 en_US.Win32.Release.Error-2.idtx:16
+#: en_US.x64.Debug.Error-2.idtx:16 en_US.x64.Release.Error-2.idtx:16
+msgid "=== Logging started: [Date]  [Time] ==="
+msgstr "=== การเก็บประวัติเริ่ม: [Date]  [Time] ==="
+
+#: en_US.Win32.Debug.Error-2.idtx:17 en_US.Win32.Release.Error-2.idtx:17
+#: en_US.x64.Debug.Error-2.idtx:17 en_US.x64.Release.Error-2.idtx:17
+msgid "=== Logging stopped: [Date]  [Time] ==="
+msgstr "=== การเก็บประวัติหยุด: [Date]  [Time] ==="
+
+#: en_US.Win32.Debug.Error-2.idtx:18 en_US.Win32.Release.Error-2.idtx:18
+#: en_US.x64.Debug.Error-2.idtx:18 en_US.x64.Release.Error-2.idtx:18
+msgid "Action start [Time]: [1]."
+msgstr "การกระทำเริ่ม [Time]: [1]."
+
+#: en_US.Win32.Debug.Error-2.idtx:19 en_US.Win32.Release.Error-2.idtx:19
+#: en_US.x64.Debug.Error-2.idtx:19 en_US.x64.Release.Error-2.idtx:19
+msgid "Action ended [Time]: [1]. Return value [2]."
+msgstr "การกระทำสิ้นสุด [Time]: [1]. คืนค่า [2]."
+
+#: en_US.Win32.Debug.Error-2.idtx:20 en_US.Win32.Release.Error-2.idtx:20
+#: en_US.x64.Debug.Error-2.idtx:20 en_US.x64.Release.Error-2.idtx:20
+msgid "Time remaining: {[1] minutes }{[2] seconds}"
+msgstr "เวลาที่เหลือ: {[1] นาที }{[2] วินาที}"
+
+#: en_US.Win32.Debug.Error-2.idtx:21 en_US.Win32.Debug.Error-2.idtx:127
+#: en_US.Win32.Release.Error-2.idtx:21 en_US.Win32.Release.Error-2.idtx:127
+#: en_US.x64.Debug.Error-2.idtx:21 en_US.x64.Debug.Error-2.idtx:127
+#: en_US.x64.Release.Error-2.idtx:21 en_US.x64.Release.Error-2.idtx:127
+msgid "Out of memory. Shut down other applications before retrying."
+msgstr ""
+"หน่วยความจำไม่เพียงพอ ให้ปิดโปรแกรมประยุกต์อื่นก่อนที่จะพยายามอีกครั้ง"
+
+#: en_US.Win32.Debug.Error-2.idtx:22 en_US.Win32.Release.Error-2.idtx:22
+#: en_US.x64.Debug.Error-2.idtx:22 en_US.x64.Release.Error-2.idtx:22
+msgid "Installer is no longer responding."
+msgstr "ตัวติดตั้งไม่มีการตอบสนองอีกต่อไป"
+
+#: en_US.Win32.Debug.Error-2.idtx:23 en_US.Win32.Release.Error-2.idtx:23
+#: en_US.x64.Debug.Error-2.idtx:23 en_US.x64.Release.Error-2.idtx:23
+msgid "Installer stopped prematurely."
+msgstr "ตัวติดตั้งถูกปิดอย่างไม่สมบูรณ์"
+
+#: en_US.Win32.Debug.Error-2.idtx:24 en_US.Win32.Release.Error-2.idtx:24
+#: en_US.x64.Debug.Error-2.idtx:24 en_US.x64.Release.Error-2.idtx:24
+msgid "Please wait while Windows configures [SimpleProductName]"
+msgstr "กรุณารอสักครู่ขณะที่ Windows กำหนดค่า [SimpleProductName]"
+
+#: en_US.Win32.Debug.Error-2.idtx:25 en_US.Win32.Release.Error-2.idtx:25
+#: en_US.x64.Debug.Error-2.idtx:25 en_US.x64.Release.Error-2.idtx:25
+msgid "Gathering required information..."
+msgstr "กำลังรวบรวมข้อมูลที่ต้องการ..."
+
+#: en_US.Win32.Debug.Error-2.idtx:26 en_US.Win32.Release.Error-2.idtx:26
+#: en_US.x64.Debug.Error-2.idtx:26 en_US.x64.Release.Error-2.idtx:26
+msgid "Removing older versions of this application..."
+msgstr "กำลังเอาโปรแกรมประยุกต์รุ่นเก่าออก..."
+
+#: en_US.Win32.Debug.Error-2.idtx:27 en_US.Win32.Release.Error-2.idtx:27
+#: en_US.x64.Debug.Error-2.idtx:27 en_US.x64.Release.Error-2.idtx:27
+msgid "Preparing to remove older versions of this application..."
+msgstr "กำลังเตรียมที่จะเอาโปรแกรมประยุกต์รุ่นเก่าออก..."
+
+#: en_US.Win32.Debug.Error-2.idtx:28 en_US.Win32.Release.Error-2.idtx:28
+#: en_US.x64.Debug.Error-2.idtx:28 en_US.x64.Release.Error-2.idtx:28
+msgid "{[SimpleProductName] }Setup completed successfully."
+msgstr "{[SimpleProductName] }ติดตั้งอย่างสมบูรณ์"
+
+#: en_US.Win32.Debug.Error-2.idtx:29 en_US.Win32.Release.Error-2.idtx:29
+#: en_US.x64.Debug.Error-2.idtx:29 en_US.x64.Release.Error-2.idtx:29
+msgid "{[SimpleProductName] }Setup failed."
+msgstr "{[SimpleProductName] }ติดตั้งล้มเหลว"
+
+#: en_US.Win32.Debug.Error-2.idtx:30 en_US.Win32.Release.Error-2.idtx:30
+#: en_US.x64.Debug.Error-2.idtx:30 en_US.x64.Release.Error-2.idtx:30
+msgid ""
+"Error reading from file: [2]. {{ System error [3].}}  Verify that the file "
+"exists and that you can access it."
+msgstr ""
+"เกิดข้อผิดพลาดในการอ่านจากแฟ้ม: [2]. {{ ระบบผิดพลาด [3].}}  "
+"ยืนยันให้แน่ใจว่าแฟ้มมีอยู่และคุณสามารถเข้าถึง"
+
+#: en_US.Win32.Debug.Error-2.idtx:31 en_US.Win32.Release.Error-2.idtx:31
+#: en_US.x64.Debug.Error-2.idtx:31 en_US.x64.Release.Error-2.idtx:31
+msgid ""
+"Cannot create the file '[2]'.  A directory with this name already exists.  "
+"Cancel the install and try installing to a different location."
+msgstr ""
+"ไม่สามารถสร้างแฟ้ม '[2]'  มีไดเรกตอรีที่ใช้ชื่อนี้อยู่แล้ว  "
+"ให้ยกเลิกการติดตั้งแล้วลองติดตั้งไปยังตำแหน่งอื่น"
+
+#: en_US.Win32.Debug.Error-2.idtx:32 en_US.Win32.Release.Error-2.idtx:32
+#: en_US.x64.Debug.Error-2.idtx:32 en_US.x64.Release.Error-2.idtx:32
+msgid "Please insert the disk: [2]"
+msgstr "กรุณาใส่ดิสก์: [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:33 en_US.Win32.Release.Error-2.idtx:33
+#: en_US.x64.Debug.Error-2.idtx:33 en_US.x64.Release.Error-2.idtx:33
+msgid ""
+"The installer has insufficient privileges to access this directory: [2].  "
+"The installation cannot continue.  Log on as administrator or contact your "
+"system administrator."
+msgstr ""
+"ตัวติดตั้งมีสิทธ์ไม่เพียงพอที่จะเข้าถึงไดเรกตอรี: [2]  "
+"การติดตั้งไม่สามารถทำต่อไป ให้เข้าสู่ระบบเป็น administrator "
+"หรือติดต่อผู้ดูแลระบบของคุณ"
+
+#: en_US.Win32.Debug.Error-2.idtx:34 en_US.Win32.Release.Error-2.idtx:34
+#: en_US.x64.Debug.Error-2.idtx:34 en_US.x64.Release.Error-2.idtx:34
+msgid ""
+"Error writing to file: [2].  Verify that you have access to that directory."
+msgstr ""
+"เกิดข้อผิดพลาดขณะเขียนไปยังแฟ้ม: [2]  "
+"ยืนยันให้แน่ใจว่าคุณสามารถเข้าถึงไดเรกตอรีนั้น"
+
+#: en_US.Win32.Debug.Error-2.idtx:35 en_US.Win32.Release.Error-2.idtx:35
+#: en_US.x64.Debug.Error-2.idtx:35 en_US.x64.Release.Error-2.idtx:35
+msgid ""
+"Error reading from file [2]. {{ System error [3].}} Verify that the file "
+"exists and that you can access it."
+msgstr ""
+"เกิดข้อผิดพลาดในการอ่านแฟ้ม: [2]  {{ ระบบผิดพลาด [3].}} "
+"ยืนยันให้แน่ใจว่าแฟ้มมีอยู่ และคุณสามารถเข้าถึง"
+
+#: en_US.Win32.Debug.Error-2.idtx:36 en_US.Win32.Release.Error-2.idtx:36
+#: en_US.x64.Debug.Error-2.idtx:36 en_US.x64.Release.Error-2.idtx:36
+msgid ""
+"Another application has exclusive access to the file '[2]'.  Please shut "
+"down all other applications, then click Retry."
+msgstr ""
+"โปรแกรมประยุกต์อื่นมีสิทธิ์ในการเข้าถึงแฟ้ม '[2]'  "
+"กรุณาปิดโปรแกรมอื่นทั้งหมด แล้วคลิกลองใหม่"
+
+#: en_US.Win32.Debug.Error-2.idtx:37 en_US.Win32.Release.Error-2.idtx:37
+#: en_US.x64.Debug.Error-2.idtx:37 en_US.x64.Release.Error-2.idtx:37
+msgid ""
+"There is not enough disk space to install this file: [2].  Free some disk "
+"space and click Retry, or click Cancel to exit."
+msgstr ""
+"มีที่ว่างดิสก์ไม่เพียงพอที่จะติดตั้งแฟ้ม: [2]  "
+"ทำให้มีที่ว่างดิสก์เพิ่มขึ้นแล้วคลิกลองใหม่ หรือคลิกยกเลิก "
+"เพื่อที่จะออกจากการติดตั้ง"
+
+#: en_US.Win32.Debug.Error-2.idtx:38 en_US.Win32.Release.Error-2.idtx:38
+#: en_US.x64.Debug.Error-2.idtx:38 en_US.x64.Release.Error-2.idtx:38
+msgid ""
+"Source file not found: [2].  Verify that the file exists and that you can "
+"access it."
+msgstr ""
+"ไม่พบแหล่งแฟ้ม: [2]  ยืนยันให้แน่ใจว่ายังมีแฟ้มนี้อยู่ "
+"และคุณสามารถเข้าถึงได้"
+
+#: en_US.Win32.Debug.Error-2.idtx:39 en_US.Win32.Release.Error-2.idtx:39
+#: en_US.x64.Debug.Error-2.idtx:39 en_US.x64.Release.Error-2.idtx:39
+msgid ""
+"Error reading from file: [3]. {{ System error [2].}}  Verify that the file "
+"exists and that you can access it."
+msgstr ""
+"เกิดข้อผิดพลาดในการอ่านแฟ้ม: [3]. {{ ระบบผิดพลาด [2].}}  "
+"ยืนยันให้แน่ใจว่าแฟ้มยังมีอยู่ และคุณสามารถเข้าถึงแฟ้มนั้นได้"
+
+#: en_US.Win32.Debug.Error-2.idtx:40 en_US.Win32.Release.Error-2.idtx:40
+#: en_US.x64.Debug.Error-2.idtx:40 en_US.x64.Release.Error-2.idtx:40
+msgid ""
+"Error writing to file: [3]. {{ System error [2].}}  Verify that you have "
+"access to that directory."
+msgstr ""
+"เกิดข้อผิดพลาดในการเขียนไปยังแฟ้ม: [3]. {{ ระบบผิดพลาด [2].}}  "
+"ยืนยันให้แน่ใจว่าคุณสามารถเข้าถึงไดเรกตอรีนั้น"
+
+#: en_US.Win32.Debug.Error-2.idtx:41 en_US.Win32.Release.Error-2.idtx:41
+#: en_US.x64.Debug.Error-2.idtx:41 en_US.x64.Release.Error-2.idtx:41
+msgid ""
+"Source file not found{{(cabinet)}}: [2].  Verify that the file exists and "
+"that you can access it."
+msgstr ""
+"ไม่พบแหล่งแฟ้ม{{(cabinet)}}: [2]  ยืนยันให้แน่ใจว่าแฟ้มมีอยู่ "
+"และคุณสามารถเข้าถึง"
+
+#: en_US.Win32.Debug.Error-2.idtx:42 en_US.Win32.Release.Error-2.idtx:42
+#: en_US.x64.Debug.Error-2.idtx:42 en_US.x64.Release.Error-2.idtx:42
+msgid ""
+"Cannot create the directory '[2]'.  A file with this name already exists.  "
+"Please rename or remove the file and click retry, or click Cancel to exit."
+msgstr ""
+"ไม่สามารถสร้างไดเรกตอรี '[2]'  มีแฟ้มที่ใช้ชื่อนี้อยู่แล้ว  "
+"กรุณาเปลี่ยนชื่อหรือเอาแฟ้มนี้ออก แล้วคลิกลองใหม่ หรือคลิกยกเลิก "
+"เพื่อออกจากการสร้าง"
+
+#: en_US.Win32.Debug.Error-2.idtx:43 en_US.Win32.Release.Error-2.idtx:43
+#: en_US.x64.Debug.Error-2.idtx:43 en_US.x64.Release.Error-2.idtx:43
+msgid "The volume [2] is currently unavailable.  Please select another."
+msgstr "ดิสก์ [2] ไม่มีอยู่ในขณะนี้  กรุณาเลือกที่อื่น"
+
+#: en_US.Win32.Debug.Error-2.idtx:44 en_US.Win32.Release.Error-2.idtx:44
+#: en_US.x64.Debug.Error-2.idtx:44 en_US.x64.Release.Error-2.idtx:44
+msgid "The specified path '[2]' is unavailable."
+msgstr "เส้นทาง '[2]' ที่ระบุไม่มีอยู่"
+
+#: en_US.Win32.Debug.Error-2.idtx:45 en_US.Win32.Release.Error-2.idtx:45
+#: en_US.x64.Debug.Error-2.idtx:45 en_US.x64.Release.Error-2.idtx:45
+msgid "Unable to write to the specified folder: [2]."
+msgstr "ไม่สามารถเขียนไปยังโฟลเดอร์: [2]."
+
+#: en_US.Win32.Debug.Error-2.idtx:46 en_US.Win32.Release.Error-2.idtx:46
+#: en_US.x64.Debug.Error-2.idtx:46 en_US.x64.Release.Error-2.idtx:46
+msgid "A network error occurred while attempting to read from the file: [2]"
+msgstr "ข้อผิดพลาดเครือข่ายเกิดขึ้นขณะพยายามที่จะอ่านจากแฟ้ม: [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:47 en_US.Win32.Release.Error-2.idtx:47
+#: en_US.x64.Debug.Error-2.idtx:47 en_US.x64.Release.Error-2.idtx:47
+msgid "An error occurred while attempting to create the directory: [2]"
+msgstr "ข้อผิดพลาดเกิดขึ้นขณะพยายามที่จะสร้างไดเรกตอรี: [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:48 en_US.Win32.Release.Error-2.idtx:48
+#: en_US.x64.Debug.Error-2.idtx:48 en_US.x64.Release.Error-2.idtx:48
+msgid "A network error occurred while attempting to create the directory: [2]"
+msgstr "ข้อผิดพลาดเครือข่ายเกิดขึ้นขณะพยายามที่จะสร้างไดเรกตอรี: [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:49 en_US.Win32.Release.Error-2.idtx:49
+#: en_US.x64.Debug.Error-2.idtx:49 en_US.x64.Release.Error-2.idtx:49
+msgid ""
+"A network error occurred while attempting to open the source file cabinet: "
+"[2]"
+msgstr "ข้อผิดพลาดเครือข่ายเกิดขึ้นขณะพยายามที่จะเปิดแหล่งแฟ้ม: [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:50 en_US.Win32.Release.Error-2.idtx:50
+#: en_US.x64.Debug.Error-2.idtx:50 en_US.x64.Release.Error-2.idtx:50
+msgid "The specified path is too long: [2]"
+msgstr "เส้นทางที่ระบุยาวเกินไป: [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:51 en_US.Win32.Release.Error-2.idtx:51
+#: en_US.x64.Debug.Error-2.idtx:51 en_US.x64.Release.Error-2.idtx:51
+msgid "The Installer has insufficient privileges to modify this file: [2]."
+msgstr "ตัวติดตั้งมีสิทธิ์ไม่เพียงพอที่จะปรับเปลี่ยนแฟ้ม: [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:52 en_US.Win32.Release.Error-2.idtx:52
+#: en_US.x64.Debug.Error-2.idtx:52 en_US.x64.Release.Error-2.idtx:52
+msgid ""
+"A portion of the folder path '[2]' is invalid.  It is either empty or "
+"exceeds the length allowed by the system."
+msgstr ""
+"ส่วนของเส้นทางโฟลเดอร์ '[2]' ไม่ถูกต้อง ซึ่งอาจจะว่างเปล่า "
+"หรือเกินความยาวที่อนุญาตโดยระบบ"
+
+#: en_US.Win32.Debug.Error-2.idtx:53 en_US.Win32.Release.Error-2.idtx:53
+#: en_US.x64.Debug.Error-2.idtx:53 en_US.x64.Release.Error-2.idtx:53
+msgid ""
+"The folder path '[2]' contains words that are not valid in folder paths."
+msgstr "เส้นทางโฟลเดอร์ '[2]' มีคำที่ไม่ถูกต้องในเส้นทางโฟลเดอร์"
+
+#: en_US.Win32.Debug.Error-2.idtx:54 en_US.Win32.Release.Error-2.idtx:54
+#: en_US.x64.Debug.Error-2.idtx:54 en_US.x64.Release.Error-2.idtx:54
+msgid "The folder path '[2]' contains an invalid character."
+msgstr "เส้นทางโฟลเดอร์ '[2]' มีอักขระที่ไม่ถูกต้อง"
+
+#: en_US.Win32.Debug.Error-2.idtx:55 en_US.Win32.Release.Error-2.idtx:55
+#: en_US.x64.Debug.Error-2.idtx:55 en_US.x64.Release.Error-2.idtx:55
+msgid "'[2]' is not a valid short file name."
+msgstr "'[2]' ไม่ใช่ชื่อแฟ้มแบบสั้นที่ถูกต้อง"
+
+#: en_US.Win32.Debug.Error-2.idtx:56 en_US.Win32.Release.Error-2.idtx:56
+#: en_US.x64.Debug.Error-2.idtx:56 en_US.x64.Release.Error-2.idtx:56
+msgid "Error getting file security: [3] GetLastError: [2]"
+msgstr "เกิดข้อผิดพลาดในการได้รับความปลอดภัยของแฟ้ม: [3] GetLastError: [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:57 en_US.Win32.Release.Error-2.idtx:57
+#: en_US.x64.Debug.Error-2.idtx:57 en_US.x64.Release.Error-2.idtx:57
+msgid "Invalid Drive: [2]"
+msgstr "ไดรฟ์ไม่ถูกต้อง: [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:58 en_US.Win32.Release.Error-2.idtx:58
+#: en_US.x64.Debug.Error-2.idtx:58 en_US.x64.Release.Error-2.idtx:58
+msgid ""
+"Error applying patch to file [2].  It has probably been updated by other "
+"means, and can no longer be modified by this patch.  For more information "
+"contact your patch vendor.  {{System Error: [3]}}"
+msgstr ""
+"ผิดพลาดในการใช้โปรแกรมซ่อมแซม (patch) กับแฟ้ม [2]  "
+"ซึ่งอาจจะถูกปรับปรุงโดยวิธีอื่น และไม่สามารถถูกปรับเปลี่ยนโดยโปรแกรมซ่อมแซม "
+"(patch) นี้อีกต่อไป สำหรับข้อมูลเพิ่มเติมให้ติดต่อผู้ขายโปรแกรมซ่อมแซม "
+"(patch) ของคุณ {{ระบบผิดพลาด: [3]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:59 en_US.Win32.Release.Error-2.idtx:59
+#: en_US.x64.Debug.Error-2.idtx:59 en_US.x64.Release.Error-2.idtx:59
+msgid ""
+"A file that is required cannot be installed because the cabinet file [2] is "
+"not digitally signed.  This may indicate that the cabinet file is corrupt."
+msgstr ""
+"แฟ้มที่จำเป็นไม่สามารถถูกติดตั้งได้ เพราะแฟ้ม cabinet  [2] "
+"ไม่ได้ถูกลงชื่อแบบดิจิตัล  ซึ่งอาจเป็นเพราะว่าแฟ้ม cabinet นี้เสียหาย"
+
+#: en_US.Win32.Debug.Error-2.idtx:60 en_US.Win32.Release.Error-2.idtx:60
+#: en_US.x64.Debug.Error-2.idtx:60 en_US.x64.Release.Error-2.idtx:60
+msgid ""
+"A file that is required cannot be installed because the cabinet file [2] has"
+" an invalid digital signature.  This may indicate that the cabinet file is "
+"corrupt.{{  Error [3] was returned by WinVerifyTrust.}}"
+msgstr ""
+"แฟ้มที่จำเป็นไม่สามารถถูกติดตั้งได้ เพราะแฟ้ม cabinet  [2] "
+"ถูกลงชื่อแบบดิจิตัลอย่างไม่ถูกต้อง  ซึ่งอาจเป็นเพราะว่าแฟ้ม cabinet "
+"นี้เสียหาย {{  ข้อผิดพลาด [3] ถูกส่งกลับคืนโดย WinVerifyTrust.}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:61 en_US.Win32.Release.Error-2.idtx:61
+#: en_US.x64.Debug.Error-2.idtx:61 en_US.x64.Release.Error-2.idtx:61
+msgid "Failed to correctly copy [2] file: CRC error."
+msgstr "ไม่สามารถทำสำเนาแฟ้ม [2] ได้ : ข้อผิดพลาด CRC "
+
+#: en_US.Win32.Debug.Error-2.idtx:62 en_US.Win32.Release.Error-2.idtx:62
+#: en_US.x64.Debug.Error-2.idtx:62 en_US.x64.Release.Error-2.idtx:62
+msgid "Failed to correctly move [2] file: CRC error."
+msgstr "ไม่สามารถย้ายแฟ้ม [2] ได้ : ข้อผิดพลาด CRC "
+
+#: en_US.Win32.Debug.Error-2.idtx:63 en_US.Win32.Release.Error-2.idtx:63
+#: en_US.x64.Debug.Error-2.idtx:63 en_US.x64.Release.Error-2.idtx:63
+msgid "Failed to correctly patch [2] file: CRC error."
+msgstr "ไม่สามารถแก้ไขแฟ้ม [2] ได้ : ข้อผิดพลาด CRC "
+
+#: en_US.Win32.Debug.Error-2.idtx:64 en_US.Win32.Release.Error-2.idtx:64
+#: en_US.x64.Debug.Error-2.idtx:64 en_US.x64.Release.Error-2.idtx:64
+msgid ""
+"The file '[2]' cannot be installed because the file cannot be found in "
+"cabinet file '[3]'. This could indicate a network error, an error reading "
+"from the CD-ROM, or a problem with this package."
+msgstr ""
+"แฟ้ม '[2]' ไม่สามารถถูกติดตั้งได้เพราะแฟ้มนี้ไม่ได้อยู่ใน cabinet  '[3]'  "
+"ซึ่งอาจเป็นเพราะข้อผิดพลาดทางเครือข่าย ข้อผิดพลาดในการอ่านจากซีดีรอม "
+"หรือโปรแกรมชุดนี้มีปัญหา"
+
+#: en_US.Win32.Debug.Error-2.idtx:65 en_US.Win32.Release.Error-2.idtx:65
+#: en_US.x64.Debug.Error-2.idtx:65 en_US.x64.Release.Error-2.idtx:65
+msgid ""
+"The cabinet file '[2]' required for this installation is corrupt and cannot "
+"be used. This could indicate a network error, an error reading from the CD-"
+"ROM, or a problem with this package."
+msgstr ""
+"แฟ้ม cabinet  '[2]' ที่จำเป็นในการติดตั้งนี้เสียหาย หรือไม่สามารถใช้ได้ "
+"ซึ่งอาจเป็นเพราะข้อผิดพลาดทางเครือข่าย ข้อผิดพลาดในการอ่านจากซีดีรอม "
+"หรือโปรแกรมชุดนี้มีปัญหา"
+
+#: en_US.Win32.Debug.Error-2.idtx:66 en_US.Win32.Release.Error-2.idtx:66
+#: en_US.x64.Debug.Error-2.idtx:66 en_US.x64.Release.Error-2.idtx:66
+msgid ""
+"There was an error creating a temporary file that is needed to complete this"
+" installation.{{  Folder: [3]. System error code: [2]}}"
+msgstr ""
+"มีข้อผิดพลาดในการสร้างแฟ้มชั่วคราวซึ่งจำเป็นในการทำให้การติดตั้งเสร็จสมบูรณ์"
+" {{  โฟลเดอร์ [3] รหัสข้อผิดพลาดของระบบ [2]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:67 en_US.Win32.Release.Error-2.idtx:67
+#: en_US.x64.Debug.Error-2.idtx:67 en_US.x64.Release.Error-2.idtx:67
+msgid ""
+"Could not create key: [2]. {{ System error [3].}}  Verify that you have "
+"sufficient access to that key, or contact your support personnel. "
+msgstr ""
+"ไม่สามารถสร้าง key: [2]. {{ ระบบผิดพลาด [3].}}  "
+"ยืนยันให้แน่ใจว่าคุณมีสิทธิ์ในการเข้าถึงไปยัง key นั้น "
+"หรือติดต่อฝ่ายสนับสนุนของคุณ"
+
+#: en_US.Win32.Debug.Error-2.idtx:68 en_US.Win32.Release.Error-2.idtx:68
+#: en_US.x64.Debug.Error-2.idtx:68 en_US.x64.Release.Error-2.idtx:68
+msgid ""
+"Could not open key: [2]. {{ System error [3].}}  Verify that you have "
+"sufficient access to that key, or contact your support personnel. "
+msgstr ""
+"ไม่สามารถเปิด key: [2]. {{ ระบบผิดพลาด [3].}}  "
+"ยืนยันให้แน่ใจว่าคุณมีสิทธิ์การเข้าถึงไปยัง key นั้น "
+"หรือติดต่อฝ่ายสนับสนุนของคุณ "
+
+#: en_US.Win32.Debug.Error-2.idtx:69 en_US.Win32.Release.Error-2.idtx:69
+#: en_US.x64.Debug.Error-2.idtx:69 en_US.x64.Release.Error-2.idtx:69
+msgid ""
+"Could not delete value [2] from key [3]. {{ System error [4].}}  Verify that"
+" you have sufficient access to that key, or contact your support personnel. "
+msgstr ""
+"ไม่สามารถลบค่า [2] จาก key [3]. {{ ระบบผิดพลาด [4].}}  "
+"ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอในการเข้าถึง key นั้น "
+"หรือติดต่อฝ่ายสนับสนุนของคุณ"
+
+#: en_US.Win32.Debug.Error-2.idtx:70 en_US.Win32.Release.Error-2.idtx:70
+#: en_US.x64.Debug.Error-2.idtx:70 en_US.x64.Release.Error-2.idtx:70
+msgid ""
+"Could not delete key [2]. {{ System error [3].}}  Verify that you have "
+"sufficient access to that key, or contact your support personnel. "
+msgstr ""
+"ไม่สามารถลบ key [2]. {{ ระบบผิดพลาด [3].}}  "
+"ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอในการเข้าถึง key นั้น "
+"หรือให้ติดต่อฝ่ายสนับสนุนของคุณ "
+
+#: en_US.Win32.Debug.Error-2.idtx:71 en_US.Win32.Release.Error-2.idtx:71
+#: en_US.x64.Debug.Error-2.idtx:71 en_US.x64.Release.Error-2.idtx:71
+msgid ""
+"Could not read value [2] from key [3]. {{ System error [4].}}  Verify that "
+"you have sufficient access to that key, or contact your support personnel. "
+msgstr ""
+"ไม่สามารถอ่านค่า [2] จาก key [3]. {{ ระบบผิดพลาด [4].}}  "
+"ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอในการเข้าถึง key นั้น "
+"หรือให้ติดต่อฝ่ายสนับสนุนของคุณ"
+
+#: en_US.Win32.Debug.Error-2.idtx:72 en_US.Win32.Release.Error-2.idtx:72
+#: en_US.x64.Debug.Error-2.idtx:72 en_US.x64.Release.Error-2.idtx:72
+msgid ""
+"Could not write value [2] to key [3]. {{ System error [4].}}  Verify that "
+"you have sufficient access to that key, or contact your support personnel."
+msgstr ""
+"ไม่สามารถเขียนค่า [2] ไปยัง key [3]. {{ ระบบผิดพลาด [4].}}  "
+"ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอในการเข้าถึง key นั้น "
+"หรือให้ติดต่อฝ่ายสนับสนุนของคุณ"
+
+#: en_US.Win32.Debug.Error-2.idtx:73 en_US.Win32.Release.Error-2.idtx:73
+#: en_US.x64.Debug.Error-2.idtx:73 en_US.x64.Release.Error-2.idtx:73
+msgid ""
+"Could not get value names for key [2]. {{ System error [3].}}  Verify that "
+"you have sufficient access to that key, or contact your support personnel."
+msgstr ""
+"ไม่สามารถได้รับชื่อสำหรับ key [2]. {{ ระบบผิดพลาด [3].}}  "
+"ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอในการเข้าถึง key นั้น "
+"หรือให้ติดต่อฝ่ายสนับสนุนของคุณ"
+
+#: en_US.Win32.Debug.Error-2.idtx:74 en_US.Win32.Release.Error-2.idtx:74
+#: en_US.x64.Debug.Error-2.idtx:74 en_US.x64.Release.Error-2.idtx:74
+msgid ""
+"Could not get sub key names for key [2]. {{ System error [3].}}  Verify that"
+" you have sufficient access to that key, or contact your support personnel."
+msgstr ""
+"ไม่สามารถได้รับชื่อ key ย่อยสำหรับ key [2]. {{ ระบบผิดพลาด [3].}}  "
+"ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอในการเข้าถึง key นั้น "
+"หรือให้ติดต่อฝ่ายสนับสนุนของคุณ"
+
+#: en_US.Win32.Debug.Error-2.idtx:75 en_US.Win32.Release.Error-2.idtx:75
+#: en_US.x64.Debug.Error-2.idtx:75 en_US.x64.Release.Error-2.idtx:75
+msgid ""
+"Could not read security information for key [2]. {{ System error [3].}}  "
+"Verify that you have sufficient access to that key, or contact your support "
+"personnel."
+msgstr ""
+"ไม่สามารถอ่านข้อมูลความปลอดภัยสำหรับ key [2]. {{ ระบบผิดพลาด [3].}}  "
+"ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอในการเข้าถึง key นั้น "
+"หรือให้ติดต่อฝ่ายสนับสนุนของคุณ"
+
+#: en_US.Win32.Debug.Error-2.idtx:76 en_US.Win32.Release.Error-2.idtx:76
+#: en_US.x64.Debug.Error-2.idtx:76 en_US.x64.Release.Error-2.idtx:76
+msgid ""
+"Could not increase the available registry space. [2] KB of free registry "
+"space is required for the installation of this application."
+msgstr ""
+"ไม่สามารถเพิ่มที่ว่าง registry ที่มีอยู่ [2] KB ของที่ว่าง registry "
+"ที่ถูกต้องการสำหรับการติดตั้งของโปรแกรมประยุกต์"
+
+#: en_US.Win32.Debug.Error-2.idtx:77 en_US.Win32.Release.Error-2.idtx:77
+#: en_US.x64.Debug.Error-2.idtx:77 en_US.x64.Release.Error-2.idtx:77
+msgid ""
+"Another installation is in progress. You must complete that installation "
+"before continuing this one."
+msgstr ""
+"การติดตั้งอื่นยังอยู่ในการดำเนินการ "
+"คุณต้องทำการติดตั้งนั้นให้สมบูรณ์ก่อนที่จะทำการติดตั้งนี้ต่อไป"
+
+#: en_US.Win32.Debug.Error-2.idtx:78 en_US.Win32.Release.Error-2.idtx:78
+#: en_US.x64.Debug.Error-2.idtx:78 en_US.x64.Release.Error-2.idtx:78
+msgid ""
+"Error accessing secured data. Please make sure the Windows Installer is "
+"configured properly and try the install again."
+msgstr ""
+"เกิดข้อผิดพลาดในการเข้าถึงข้อมูลที่ปลอดภัย กรุณาทำให้แน่ใจว่า Windows "
+"Installer ถูกกำหนดค่าอย่างถูกต้องแล้วลองติดตั้งอีกครั้ง"
+
+#: en_US.Win32.Debug.Error-2.idtx:79 en_US.Win32.Release.Error-2.idtx:79
+#: en_US.x64.Debug.Error-2.idtx:79 en_US.x64.Release.Error-2.idtx:79
+msgid ""
+"User '[2]' has previously initiated an install for product '[3]'.  That user"
+" will need to run that install again before they can use that product.  Your"
+" current install will now continue."
+msgstr ""
+"ผู้ใช้ '[2]' ได้เริ่มการติดตั้งผลิตภัณฑ์ '[3]' ไว้  "
+"ผู้ใช้นั้นจำเป็นต้องเรียกใช้ตัวติดตั้งอีกครั้งก่อนที่ผู้อื่นจะสามารถใช้ผลิตภัณฑ์นั้น"
+" การติดตั้งปัจจุบันของคุณจะถูกทำต่อไปเดี๋ยวนี้"
+
+#: en_US.Win32.Debug.Error-2.idtx:80 en_US.Win32.Release.Error-2.idtx:80
+#: en_US.x64.Debug.Error-2.idtx:80 en_US.x64.Release.Error-2.idtx:80
+msgid ""
+"User '[2]' has previously initiated an install for product '[3]'.  That user"
+" will need to run that install again before they can use that product."
+msgstr ""
+"ผู้ใช้ '[2]' ได้เริ่มการติดตั้งผลิตภัณฑ์ '[3]' ไว้  "
+"ผู้ใช้นั้นจำเป็นต้องเรียกใช้ตัวติดตั้งอีกครั้งก่อนที่ผู้อื่นจะสามารถใช้ผลิตภัณฑ์นั้น"
+
+#: en_US.Win32.Debug.Error-2.idtx:81 en_US.Win32.Release.Error-2.idtx:81
+#: en_US.x64.Debug.Error-2.idtx:81 en_US.x64.Release.Error-2.idtx:81
+msgid ""
+"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
+" [4] KB.  Free some disk space and retry."
+msgstr ""
+"ที่ว่างดิสก์ไม่เพียงพอ -- ดิสก์: '[2]'; ต้องการที่ว่าง: [3] KB; "
+"มีที่ว่างอยู่: [4] KB.  ทำให้มีที่ว่างดิสก์เพิ่มมากขึ้นแล้วพยายามอีกครั้ง"
+
+#: en_US.Win32.Debug.Error-2.idtx:82 en_US.Win32.Release.Error-2.idtx:82
+#: en_US.x64.Debug.Error-2.idtx:82 en_US.x64.Release.Error-2.idtx:82
+msgid "Are you sure you want to cancel?"
+msgstr "คุณแน่ใจหรือไม่ว่าคุณต้องการยกเลิก"
+
+#: en_US.Win32.Debug.Error-2.idtx:83 en_US.Win32.Release.Error-2.idtx:83
+#: en_US.x64.Debug.Error-2.idtx:83 en_US.x64.Release.Error-2.idtx:83
+msgid ""
+"The file [2][3] is being held in use{ by the following process: Name: [4], "
+"Id: [5], Window Title: '[6]'}.  Close that application and retry."
+msgstr ""
+"แฟ้ม [2][3] ถูกใช้อยู่{ โดยการดำเนินการ: ชื่อ: [4], Id: [5], Window Title: "
+"'[6]'}.  ให้ปิดโปรแกรมประยุกต์นั้นแล้วลองอีกครั้ง"
+
+#: en_US.Win32.Debug.Error-2.idtx:84 en_US.Win32.Release.Error-2.idtx:84
+#: en_US.x64.Debug.Error-2.idtx:84 en_US.x64.Release.Error-2.idtx:84
+msgid ""
+"The product '[2]' is already installed, preventing the installation of this "
+"product.  The two products are incompatible."
+msgstr ""
+"ผลิตภัณฑ์ '[2]' ถูกติดตั้งอยู่แล้ว ทำให้ไม่สามารถติดตั้งผลิตภัณฑ์นี้  "
+"สองผลิตภัณฑ์นี้ไม่เข้ากัน"
+
+#: en_US.Win32.Debug.Error-2.idtx:85 en_US.Win32.Release.Error-2.idtx:85
+#: en_US.x64.Debug.Error-2.idtx:85 en_US.x64.Release.Error-2.idtx:85
+msgid ""
+"There is not enough disk space on the volume '[2]' to continue the install "
+"with recovery enabled. [3] KB are required, but only [4] KB are available. "
+"Click Ignore to continue the install without saving recovery information, "
+"click Retry to check for available space again, or click Cancel to quit the "
+"installation."
+msgstr ""
+"ที่ว่างดิสก์ไม่เพียงพอใน '[2]' ถ้าต้องการติดตั้งแบบให้มีการกู้คืน   "
+"ต้องการที่ว่าง [3] KB แต่มีที่ว่างอยู่แค่ [4] KB   คลิก ละเว้น  "
+"ถ้าต้องการติดตั้งแบบไม่มีการกู้คืน ให้คลิก ลองใหม่ เพื่อดูที่ว่างอีกครั้ง "
+"หรือคลิก ยกเลิก เพื่อหยุดการติดตั้ง"
+
+#: en_US.Win32.Debug.Error-2.idtx:86 en_US.Win32.Release.Error-2.idtx:86
+#: en_US.x64.Debug.Error-2.idtx:86 en_US.x64.Release.Error-2.idtx:86
+msgid "Could not access network location [2]."
+msgstr "ไม่สามารถเข้าถึงตำแหน่งเครือข่าย [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:87 en_US.Win32.Release.Error-2.idtx:87
+#: en_US.x64.Debug.Error-2.idtx:87 en_US.x64.Release.Error-2.idtx:87
+msgid ""
+"The following applications should be closed before continuing the install:"
+msgstr "โปรแกรมประยุกต์ต่อไปนี้ควรจะถูกปิดก่อนที่จะทำการติดตั้งต่อไป:"
+
+#: en_US.Win32.Debug.Error-2.idtx:88 en_US.Win32.Release.Error-2.idtx:88
+#: en_US.x64.Debug.Error-2.idtx:88 en_US.x64.Release.Error-2.idtx:88
+msgid ""
+"Could not find any previously installed compliant products on the machine "
+"for installing this product."
+msgstr ""
+"ไม่สามารถพบผลิตภัณฑ์ที่จำเป็นสำหรับการติดตั้งผลิตภัณฑ์นี้ถูกติดตั้งไว้ก่อนหน้าบนเครื่องนี้"
+
+#: en_US.Win32.Debug.Error-2.idtx:89 en_US.Win32.Release.Error-2.idtx:89
+#: en_US.x64.Debug.Error-2.idtx:89 en_US.x64.Release.Error-2.idtx:89
+msgid ""
+"An error occurred while applying security settings. [2] is not a valid user "
+"or group. This could be a problem with the package, or a problem connecting "
+"to a domain controller on the network. Check your network connection and "
+"click Retry, or Cancel to end the install. {{Unable to locate the user's "
+"SID, system error [3]}}"
+msgstr ""
+"ข้อผิดพลาดเกิดขึ้นระหว่างการนำการติดตั้งความปลอดภัยไปใช้  [2] "
+"ไม่ใช่ผู้ใช้หรือกลุ่มที่ถูกต้อง "
+"สิ่งนี้อาจเกิดขึ้นเพราะข้อผิดพลาดทางเครือข่าย ข้อผิดพลาดในการอ่านจากซีดีรอม "
+"หรือโปรแกรมชุดนี้มีปัญหา ตรวจการเชื่อมต่อกับเครือข่าย แล้วคลิก ลองใหม่ หรือ "
+"ยกเลิก เพื่อหยุดการติดตั้ง  {{ไม่สามารถหา user's SID ได้   ข้อผิดพลาดระบบ "
+"[3]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:90 en_US.Win32.Release.Error-2.idtx:90
+#: en_US.x64.Debug.Error-2.idtx:90 en_US.x64.Release.Error-2.idtx:90
+msgid ""
+"The setup must update files or services that cannot be updated while the "
+"system is running. If you choose to continue, a reboot will be required to "
+"complete the setup."
+msgstr ""
+"การติดตั้งต้องปรับปรุงแฟ้มหรือบริการที่ไม่สามารถปรับปรุงได้ในขณะที่ระบบทำงานอยู่"
+" หากคุณเลือกที่จะทำต่อไป "
+"จะต้องทำการเริ่มระบบของคอมพิวเตอร์ใหม่เพื่อให้การติดตั้งนี้เสร็จสมบูรณ์"
+
+#: en_US.Win32.Debug.Error-2.idtx:91 en_US.Win32.Release.Error-2.idtx:91
+#: en_US.x64.Debug.Error-2.idtx:91 en_US.x64.Release.Error-2.idtx:91
+msgid ""
+"The setup was unable to automatically close all applications that are using "
+"files that need to be updated. If you choose to continue, a reboot will be "
+"required to complete the setup."
+msgstr ""
+"การติดตั้งไม่สามารถปิดแอพพลิเคชันทั้งหมดที่กำลังใช้แฟ้มซึ่งจำเป็นต้องได้รับการปรับปรุงโดยอัตโนมัติ"
+" หากคุณเลือก ดำเนินการต่อ "
+"จะต้องเริ่มต้นระบบใหม่เพื่อให้การติดตั้งเสร็จสมบูรณ์"
+
+#: en_US.Win32.Debug.Error-2.idtx:92 en_US.Win32.Release.Error-2.idtx:92
+#: en_US.x64.Debug.Error-2.idtx:92 en_US.x64.Release.Error-2.idtx:92
+msgid ""
+"This installation package is not supported on this platform. Contact your "
+"application vendor."
+msgstr ""
+
+#: en_US.Win32.Debug.Error-2.idtx:93 en_US.Win32.Release.Error-2.idtx:93
+#: en_US.x64.Debug.Error-2.idtx:93 en_US.x64.Release.Error-2.idtx:93
+msgid "The key [2] is not valid.  Verify that you entered the correct key."
+msgstr "Key [2] ไม่ถูกต้อง  ยืนยันให้แน่ใจว่าคุณใส่ key ที่ถูกต้อง"
+
+#: en_US.Win32.Debug.Error-2.idtx:94 en_US.Win32.Release.Error-2.idtx:94
+#: en_US.x64.Debug.Error-2.idtx:94 en_US.x64.Release.Error-2.idtx:94
+msgid ""
+"The installer must restart your system before configuration of [2] can "
+"continue.  Click Yes to restart now or No if you plan to manually restart "
+"later."
+msgstr ""
+"ตัวติดตั้งนี้ต้องทำการเริ่มระบบของคุณใหม่ก่อนที่จะทำการกำหนดค่าของ [2] "
+"จะสามารถทำต่อไป ให้คลิกใช่ เพื่อที่จะเริ่มใหม่เดี๋ยวนี้ หรือไม่ใช่ "
+"ถ้าคุณต้องการเริ่มระบบใหม่ด้วยตนเองภายหลัง"
+
+#: en_US.Win32.Debug.Error-2.idtx:95 en_US.Win32.Release.Error-2.idtx:95
+#: en_US.x64.Debug.Error-2.idtx:95 en_US.x64.Release.Error-2.idtx:95
+msgid ""
+"You must restart your system for the configuration changes made to [2] to "
+"take effect. Click Yes to restart now or No if you plan to manually restart "
+"later."
+msgstr ""
+"คุณต้องเริ่มต้นระบบของคุณใหม่ เพื่อทำให้การเปลี่ยนแปลงการกำหนดค่าที่คุณทำกับ"
+" [2] มีผล ให้คลิกใช่ เพื่อเริ่มใหม่เดี๋ยวนี้ หรือไม่ใช่ "
+"ถ้าคุณต้องการเริ่มใหม่ด้วยตนเองภายหลัง"
+
+#: en_US.Win32.Debug.Error-2.idtx:96 en_US.Win32.Release.Error-2.idtx:96
+#: en_US.x64.Debug.Error-2.idtx:96 en_US.x64.Release.Error-2.idtx:96
+msgid ""
+"An installation for [2] is currently suspended.  You must undo the changes "
+"made by that installation to continue.  Do you want to undo those changes?"
+msgstr ""
+"การติดตั้งสำหรับ [2] ถูกหยุดไว้ชั่วขณะ คุณต้องเลิกทำการเปลี่ยนแปลงที่ทำ "
+"เพื่อทำให้การติดตั้งดำเนินต่อไป "
+"คุณต้องการที่จะเลิกทำการเปลี่ยนแปลงเหล่านั้นหรือไม่"
+
+#: en_US.Win32.Debug.Error-2.idtx:97 en_US.Win32.Release.Error-2.idtx:97
+#: en_US.x64.Debug.Error-2.idtx:97 en_US.x64.Release.Error-2.idtx:97
+msgid ""
+"A previous installation for this product is in progress.  You must undo the "
+"changes made by that installation to continue.  Do you want to undo those "
+"changes?"
+msgstr ""
+"การติดตั้งก่อนหน้าสำหรับผลิตภัณฑ์นี้อยู่ในการดำเนินการ "
+"คุณต้องเลิกทำการเปลี่ยนแปลงที่ทำเพื่อทำให้การติดตั้งดำเนินต่อไป  "
+"คุณต้องการที่จะเลิกทำการเปลี่ยนแปลงเหล่านั้นหรือไม่"
+
+#: en_US.Win32.Debug.Error-2.idtx:98 en_US.Win32.Release.Error-2.idtx:98
+#: en_US.x64.Debug.Error-2.idtx:98 en_US.x64.Release.Error-2.idtx:98
+msgid ""
+"An installation package for the product [2] cannot be found. Try the "
+"installation again using a valid copy of the installation package '[3]'."
+msgstr ""
+"ไม่พบชุดการติดตั้งสำหรับผลิตภัณฑ์นี้ [2]  "
+"ลองติดตั้งอีกครั้งโดยใช้สำเนาที่ถูกต้องของชุดการติดตั้ง '[3]"
+
+#: en_US.Win32.Debug.Error-2.idtx:99 en_US.Win32.Release.Error-2.idtx:99
+#: en_US.x64.Debug.Error-2.idtx:99 en_US.x64.Release.Error-2.idtx:99
+msgid "Installation completed successfully."
+msgstr "การติดตั้งเสร็จสมบูรณ์"
+
+#: en_US.Win32.Debug.Error-2.idtx:100 en_US.Win32.Release.Error-2.idtx:100
+#: en_US.x64.Debug.Error-2.idtx:100 en_US.x64.Release.Error-2.idtx:100
+msgid "Installation failed."
+msgstr "การติดตั้งล้มเหลว"
+
+#: en_US.Win32.Debug.Error-2.idtx:101 en_US.Win32.Release.Error-2.idtx:101
+#: en_US.x64.Debug.Error-2.idtx:101 en_US.x64.Release.Error-2.idtx:101
+msgid "Product: [2] -- [3]"
+msgstr "ผลิตภัณฑ์: [2] -- [3]"
+
+#: en_US.Win32.Debug.Error-2.idtx:102 en_US.Win32.Release.Error-2.idtx:102
+#: en_US.x64.Debug.Error-2.idtx:102 en_US.x64.Release.Error-2.idtx:102
+msgid ""
+"You may either restore your computer to its previous state or continue the "
+"install later. Would you like to restore?"
+msgstr ""
+"คุณอาจจะกู้คืนคอมพิวเตอร์ของคุณไปยังสถานะก่อนหน้าหรือทำการติดตั้งต่อไปภายหลัง"
+" คุณต้องการกู้คืนหรือไม่"
+
+#: en_US.Win32.Debug.Error-2.idtx:103 en_US.Win32.Release.Error-2.idtx:103
+#: en_US.x64.Debug.Error-2.idtx:103 en_US.x64.Release.Error-2.idtx:103
+msgid ""
+"An error occurred while writing installation information to disk.  Check to "
+"make sure enough disk space is available, and click Retry, or Cancel to end "
+"the install."
+msgstr ""
+"เกิดข้อผิดพลาดขึ้นขณะทำการเขียนข้อมูลการติดตั้งไปยังดิสก์  "
+"ตรวจสอบให้แน่ใจว่ามีที่ว่างดิสก์เพียงพอ แล้วคลิกลองใหม่ หรือยกเลิก "
+"เพื่อจบการติดตั้ง"
+
+#: en_US.Win32.Debug.Error-2.idtx:104 en_US.Win32.Release.Error-2.idtx:104
+#: en_US.x64.Debug.Error-2.idtx:104 en_US.x64.Release.Error-2.idtx:104
+msgid ""
+"One or more of the files required to restore your computer to its previous "
+"state could not be found.  Restoration will not be possible."
+msgstr ""
+"ไม่พบอย่างน้อยหนึ่งแฟ้มที่ใช้ในการกู้คืนคอมพิวเตอร์ของคุณให้เป็นสถานะก่อนหน้า"
+" การกู้คืนจะไม่สามารถทำได้"
+
+#: en_US.Win32.Debug.Error-2.idtx:105 en_US.Win32.Release.Error-2.idtx:105
+#: en_US.x64.Debug.Error-2.idtx:105 en_US.x64.Release.Error-2.idtx:105
+msgid ""
+"[2] cannot install one of its required products. Contact your technical "
+"support group.  {{System Error: [3].}}"
+msgstr ""
+"[2] ไม่สามารถติดตั้งหนึ่งในผลิตภัณฑ์ที่ต้องการ "
+"ให้ติดต่อกลุ่มสนับสนุนทางเทคนิคของคุณ  {{ระบบผิดพลาด: [3].}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:106 en_US.Win32.Release.Error-2.idtx:106
+#: en_US.x64.Debug.Error-2.idtx:106 en_US.x64.Release.Error-2.idtx:106
+msgid ""
+"The older version of [2] cannot be removed.  Contact your technical support "
+"group.  {{System Error [3].}}"
+msgstr ""
+"[2] รุ่นเก่ากว่าไม่สามารถถูกเอาออก  ให้ติดต่อกลุ่มสนับสนุนทางเทคนิคของคุณ  "
+"{{ระบบผิดพลาด [3].}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:107 en_US.Win32.Release.Error-2.idtx:107
+#: en_US.x64.Debug.Error-2.idtx:107 en_US.x64.Release.Error-2.idtx:107
+msgid "Installed [2]"
+msgstr "ติดตั้งแล้ว [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:108 en_US.Win32.Release.Error-2.idtx:108
+#: en_US.x64.Debug.Error-2.idtx:108 en_US.x64.Release.Error-2.idtx:108
+msgid "Configured [2]"
+msgstr "กำหนดค่าแล้ว [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:109 en_US.Win32.Release.Error-2.idtx:109
+#: en_US.x64.Debug.Error-2.idtx:109 en_US.x64.Release.Error-2.idtx:109
+msgid "Removed [2]"
+msgstr "เอาออกแล้ว [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:110 en_US.Win32.Release.Error-2.idtx:110
+#: en_US.x64.Debug.Error-2.idtx:110 en_US.x64.Release.Error-2.idtx:110
+msgid "File [2] was rejected by digital signature policy."
+msgstr "แฟ้ม [2] ถูกปฏิเสธจากนโยบายการลงชื่อแบบดิจิตัล"
+
+#: en_US.Win32.Debug.Error-2.idtx:111 en_US.Win32.Release.Error-2.idtx:111
+#: en_US.x64.Debug.Error-2.idtx:111 en_US.x64.Release.Error-2.idtx:111
+msgid ""
+"The Windows Installer Service could not be accessed. This can occur if the "
+"Windows Installer is not correctly installed. Contact your support personnel"
+" for assistance."
+msgstr ""
+"บริการ Windows Installer ไม่สามารถถูกเข้าถึงได้  ซึ่งอาจเป็นเพราะคุณกำลังใช้"
+" Windows แบบเซฟโหมด หรือถ้า Windows Installer ไม่ได้ถูกติดตั้งอย่างถูกต้อง "
+"กรุณาติดต่อฝ่ายการสนับสนุนเพื่อขอความช่วยเหลือ"
+
+#: en_US.Win32.Debug.Error-2.idtx:112 en_US.Win32.Release.Error-2.idtx:112
+#: en_US.x64.Debug.Error-2.idtx:112 en_US.x64.Release.Error-2.idtx:112
+msgid ""
+"There is a problem with this Windows Installer package. A script required "
+"for this install to complete could not be run. Contact your support "
+"personnel or package vendor.  {{Custom action [2] script error [3], [4]: [5]"
+" Line [6], Column [7], [8] }}"
+msgstr ""
+"มีปัญหากับ Windows Installer ชุดนี้  สคริปต์ที่จำเป็นไม่สามารถถูกเรียกใช้ได้"
+"  กรุณาติดต่อฝ่ายสนับสนุน หรือผู้ที่ขายโปรแกรมชุดนี้ให้คุณ   "
+"{{การกระทำกำหนดเอง [2] ข้อผิดพลาดสคริปต์ [3], [4]: [5] บรรทัด [6] คอลัมน์ "
+"[7], [8] }}"
+
+#: en_US.Win32.Debug.Error-2.idtx:113 en_US.Win32.Release.Error-2.idtx:113
+#: en_US.x64.Debug.Error-2.idtx:113 en_US.x64.Release.Error-2.idtx:113
+msgid ""
+"There is a problem with this Windows Installer package. A program required "
+"for this install to complete could not be run. Contact your support "
+"personnel or package vendor. {{Action: [2], location: [3], command: [4] }}"
+msgstr ""
+"มีปัญหากับ Windows Installer ชุดนี้  โปรแกรมที่จำเป็นไม่สามารถถูกเรียกใช้ได้"
+"  กรุณาติดต่อฝ่ายสนับสนุน หรือผู้ที่ขายโปรแกรมชุดนี้ให้คุณ {{การกระทำ [2] "
+"ตำแหน่ง [3] คำสั่ง [4] }}"
+
+#: en_US.Win32.Debug.Error-2.idtx:114 en_US.Win32.Release.Error-2.idtx:114
+#: en_US.x64.Debug.Error-2.idtx:114 en_US.x64.Release.Error-2.idtx:114
+msgid ""
+"There is a problem with this Windows Installer package. A program run as "
+"part of the setup did not finish as expected. Contact your support personnel"
+" or package vendor.  {{Action [2], location: [3], command: [4] }}"
+msgstr ""
+"มีปัญหากับ Windows Installer ชุดนี้  "
+"โปรแกรมส่วนหนึ่งในโปรแกรมติดตั้งทำงานไม่เสร็จสมบูรณ์  "
+"กรุณาติดต่อฝ่ายสนับสนุน หรือผู้ที่ขายโปรแกรมชุดนี้ให้คุณ  {{การกระทำ [2] "
+"ตำแหน่ง [3] คำสั่ง [4] }}"
+
+#: en_US.Win32.Debug.Error-2.idtx:115 en_US.Win32.Release.Error-2.idtx:115
+#: en_US.x64.Debug.Error-2.idtx:115 en_US.x64.Release.Error-2.idtx:115
+msgid ""
+"There is a problem with this Windows Installer package. A DLL required for "
+"this install to complete could not be run. Contact your support personnel or"
+" package vendor.  {{Action [2], entry: [3], library: [4] }}"
+msgstr ""
+"มีปัญหากับ Windows Installer ชุดนี้   แฟ้ม DLL "
+"ที่จำเป็นในการติดตั้งนี้ไม่สามารถถูกเรียกใช้ได้  กรุณาติดต่อฝ่ายสนับสนุน "
+"หรือผู้ที่ขายโปรแกรมชุดนี้ให้คุณ  {{การกระทำ [2] รายการ [3] ไลบรารี [4] }}"
+
+#: en_US.Win32.Debug.Error-2.idtx:116 en_US.Win32.Release.Error-2.idtx:116
+#: en_US.x64.Debug.Error-2.idtx:116 en_US.x64.Release.Error-2.idtx:116
+msgid "Removal completed successfully."
+msgstr "การเอาออกเสร็จสมบูรณ์"
+
+#: en_US.Win32.Debug.Error-2.idtx:117 en_US.Win32.Release.Error-2.idtx:117
+#: en_US.x64.Debug.Error-2.idtx:117 en_US.x64.Release.Error-2.idtx:117
+msgid "Removal failed."
+msgstr "การเอาออกล้มเหลว"
+
+#: en_US.Win32.Debug.Error-2.idtx:118 en_US.Win32.Release.Error-2.idtx:118
+#: en_US.x64.Debug.Error-2.idtx:118 en_US.x64.Release.Error-2.idtx:118
+msgid "Advertisement completed successfully."
+msgstr "การโฆษณาเสร็จสมบูรณ์"
+
+#: en_US.Win32.Debug.Error-2.idtx:119 en_US.Win32.Release.Error-2.idtx:119
+#: en_US.x64.Debug.Error-2.idtx:119 en_US.x64.Release.Error-2.idtx:119
+msgid "Advertisement failed."
+msgstr "การโฆษณาล้มเหลว"
+
+#: en_US.Win32.Debug.Error-2.idtx:120 en_US.Win32.Release.Error-2.idtx:120
+#: en_US.x64.Debug.Error-2.idtx:120 en_US.x64.Release.Error-2.idtx:120
+msgid "Configuration completed successfully."
+msgstr "การกำหนดค่าเสร็จสมบูรณ์"
+
+#: en_US.Win32.Debug.Error-2.idtx:121 en_US.Win32.Release.Error-2.idtx:121
+#: en_US.x64.Debug.Error-2.idtx:121 en_US.x64.Release.Error-2.idtx:121
+msgid "Configuration failed."
+msgstr "การกำหนดค่าล้มเหลว"
+
+#: en_US.Win32.Debug.Error-2.idtx:122 en_US.Win32.Release.Error-2.idtx:122
+#: en_US.x64.Debug.Error-2.idtx:122 en_US.x64.Release.Error-2.idtx:122
+msgid ""
+"You must be an Administrator to remove this application. To remove this "
+"application, you can log on as an Administrator, or contact your technical "
+"support group for assistance."
+msgstr ""
+"คุณต้องเป็นผู้ดูแลระบบถึงจะมีสิทธิ์เอาโปรแกรมประยุกต์นี้ออกได้  "
+"เมื่อต้องการเอาโปรแกรมประยุกต์นี้ออก ให้คุณเข้าระบบแบบผู้ดูแลระบบ "
+"หรือติดต่อฝ่ายสนับสนุนทางเทคนิคเพื่อความช่วยเหลือ"
+
+#: en_US.Win32.Debug.Error-2.idtx:123 en_US.Win32.Release.Error-2.idtx:123
+#: en_US.x64.Debug.Error-2.idtx:123 en_US.x64.Release.Error-2.idtx:123
+msgid ""
+"The source installation package for the product [2] is out of sync with the "
+"client package. Try the installation again using a valid copy of the "
+"installation package '[3]'."
+msgstr ""
+"แหล่งที่มาของชุดการติดตั้งของผลิตภัณฑ์ [2] ไม่เข้ากันกับชุดบนเครื่องของคุณ  "
+"กรุณาลองติดตั้งอีกครั้งโดยใช้สำเนาที่มีถูกต้อง '[3]'."
+
+#: en_US.Win32.Debug.Error-2.idtx:124 en_US.Win32.Release.Error-2.idtx:124
+#: en_US.x64.Debug.Error-2.idtx:124 en_US.x64.Release.Error-2.idtx:124
+msgid ""
+"In order to complete the installation of [2], you must restart the computer."
+" Other users are currently logged on to this computer, and restarting may "
+"cause them to lose their work. Do you want to restart now?"
+msgstr ""
+"การติดตั้งของ [2] จะสมบูรณ์ได้ คุณต้องปิดและเปิดเครื่องคอมพิวเตอร์ของคุณ  "
+"ผู้ใช้อื่นๆ ที่ทำงานบนเครื่องนี้จะถูกหยุด  "
+"คุณจะปิดและเปิดเครื่องคอมพิวเตอร์เดี๋ยวนี้หรือไม่"
+
+#: en_US.Win32.Debug.Error-2.idtx:125 en_US.Win32.Release.Error-2.idtx:125
+#: en_US.x64.Debug.Error-2.idtx:125 en_US.x64.Release.Error-2.idtx:125
+msgid ""
+"The Windows Installer service is not accessible in Safe Mode. Please try "
+"again when your computer is not in Safe Mode or you can use System Restore "
+"to return your machine to a previous good state."
+msgstr ""
+"ไม่สามารถใช้บริการ Windows Installer ในเซฟโหมดได้ "
+"กรุณาลองอีกครั้งเมื่อคอมพิวเตอร์ของคุณไม่ได้ทำงานอยู่ในเซฟโหมด "
+"หรือคุณสามารถใช้ 'การคืนค่าระบบ' "
+"เพื่อทำให้เครื่องกลับสู่สภาวะการทำงานที่เป็นปกติก่อนหน้านี้"
+
+#: en_US.Win32.Debug.Error-2.idtx:126 en_US.Win32.Release.Error-2.idtx:126
+#: en_US.x64.Debug.Error-2.idtx:126 en_US.x64.Release.Error-2.idtx:126
+msgid "The path [2] is not valid.  Please specify a valid path."
+msgstr "เส้นทาง [2] ไม่ถูกต้อง กรุณาระบุเส้นทางที่ถูกต้อง"
+
+#: en_US.Win32.Debug.Error-2.idtx:128 en_US.Win32.Release.Error-2.idtx:128
+#: en_US.x64.Debug.Error-2.idtx:128 en_US.x64.Release.Error-2.idtx:128
+msgid ""
+"There is no disk in drive [2]. Please insert one and click Retry, or click "
+"Cancel to go back to the previously selected volume."
+msgstr ""
+"ไม่มีดิสก์ในไดรฟ์ [2] กรุณาใส่ดิสก์แล้วคลิกลองใหม่ หรือคลิกยกเลิก "
+"เพื่อกลับไปยังดิสก์ที่เลือกไว้ก่อนหน้า"
+
+#: en_US.Win32.Debug.Error-2.idtx:129 en_US.Win32.Release.Error-2.idtx:129
+#: en_US.x64.Debug.Error-2.idtx:129 en_US.x64.Release.Error-2.idtx:129
+msgid ""
+"There is no disk in drive [2]. Please insert one and click Retry, or click "
+"Cancel to return to the browse dialog and select a different volume."
+msgstr ""
+"ไม่มีดิสก์ในไดรฟ์ [2] กรุณาใส่ดิสก์แล้วคลิกลองใหม่ หรือคลิกยกเลิก "
+"เพื่อกลับไปยังกล่องโต้ตอบการเรียกดูและเลือกดิสก์อื่น"
+
+#: en_US.Win32.Debug.Error-2.idtx:130 en_US.Win32.Release.Error-2.idtx:130
+#: en_US.x64.Debug.Error-2.idtx:130 en_US.x64.Release.Error-2.idtx:130
+msgid ""
+"The folder [2] does not exist.  Please enter a path to an existing folder."
+msgstr "โฟลเดอร์ [2] ไม่มี  กรุณาใส่เส้นทางไปยังโฟลเดอร์ที่มีอยู่"
+
+#: en_US.Win32.Debug.Error-2.idtx:131 en_US.Win32.Release.Error-2.idtx:131
+#: en_US.x64.Debug.Error-2.idtx:131 en_US.x64.Release.Error-2.idtx:131
 msgid "You have insufficient privileges to read this folder."
 msgstr "คุณมีสิทธิ์ไม่เพียงพอที่จะอ่านโฟลเดอร์นี้"
 
-#: En.Win32.Debug.Error-2.idtx:102 En.Win32.Release.Error-2.idtx:102
-#: En.x64.Debug.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
-msgid "You may either restore your computer to its previous state or continue the install later. Would you like to restore?"
-msgstr "คุณอาจจะกู้คืนคอมพิวเตอร์ของคุณไปยังสถานะก่อนหน้าหรือทำการติดตั้งต่อไปภายหลัง คุณต้องการกู้คืนหรือไม่"
+#: en_US.Win32.Debug.Error-2.idtx:132 en_US.Win32.Release.Error-2.idtx:132
+#: en_US.x64.Debug.Error-2.idtx:132 en_US.x64.Release.Error-2.idtx:132
+msgid "A valid destination folder for the install could not be determined."
+msgstr "โฟลเดอร์ปลายทางที่ถูกต้องสำหรับการติดตั้งไม่สามารถถูกกำหนดได้"
 
-#: En.Win32.Debug.Error-2.idtx:122 En.Win32.Release.Error-2.idtx:122
-#: En.x64.Debug.Error-2.idtx:122 En.x64.Release.Error-2.idtx:122
-msgid "You must be an Administrator to remove this application. To remove this application, you can log on as an Administrator, or contact your technical support group for assistance."
-msgstr "คุณต้องเป็นผู้ดูแลระบบถึงจะมีสิทธิ์เอาโปรแกรมประยุกต์นี้ออกได้  เมื่อต้องการเอาโปรแกรมประยุกต์นี้ออก ให้คุณเข้าระบบแบบผู้ดูแลระบบ หรือติดต่อฝ่ายสนับสนุนทางเทคนิคเพื่อความช่วยเหลือ"
+#: en_US.Win32.Debug.Error-2.idtx:133 en_US.Win32.Release.Error-2.idtx:133
+#: en_US.x64.Debug.Error-2.idtx:133 en_US.x64.Release.Error-2.idtx:133
+msgid "Error attempting to read from the source install database: [2]."
+msgstr "เกิดข้อผิดพลาดขณะพยายามอ่านจากแหล่งฐานข้อมูลการติดตั้ง: [2]"
 
-#: En.Win32.Debug.Error-2.idtx:95 En.Win32.Release.Error-2.idtx:95
-#: En.x64.Debug.Error-2.idtx:95 En.x64.Release.Error-2.idtx:95
-msgid "You must restart your system for the configuration changes made to [2] to take effect. Click Yes to restart now or No if you plan to manually restart later."
-msgstr "คุณต้องเริ่มต้นระบบของคุณใหม่ เพื่อทำให้การเปลี่ยนแปลงการกำหนดค่าที่คุณทำกับ [2] มีผล ให้คลิกใช่ เพื่อเริ่มใหม่เดี๋ยวนี้ หรือไม่ใช่ ถ้าคุณต้องการเริ่มใหม่ด้วยตนเองภายหลัง"
+#: en_US.Win32.Debug.Error-2.idtx:134 en_US.Win32.Release.Error-2.idtx:134
+#: en_US.x64.Debug.Error-2.idtx:134 en_US.x64.Release.Error-2.idtx:134
+msgid ""
+"Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to "
+"complete operation."
+msgstr ""
+"การปฏิบัติการเริ่มระบบใหม่ที่จัดตารางเวลาไว้: กำลังเปลี่ยนชื่อแฟ้ม [2] เป็น "
+"[3] ต้องเริ่มระบบใหม่เพื่อที่จะทำให้การปฏิบัติการสมบูรณ์"
+
+#: en_US.Win32.Debug.Error-2.idtx:135 en_US.Win32.Release.Error-2.idtx:135
+#: en_US.x64.Debug.Error-2.idtx:135 en_US.x64.Release.Error-2.idtx:135
+msgid ""
+"Scheduling reboot operation: Deleting file [2]. Must reboot to complete "
+"operation."
+msgstr ""
+"การปฏิบัติการเริ่มระบบใหม่ที่จัดตารางเวลาไว้: กำลังแฟ้ม [2] "
+"ต้องเริ่มระบบใหม่เพื่อที่จะทำให้การปฏิบัติการสมบูรณ์"
+
+#: en_US.Win32.Debug.Error-2.idtx:136 en_US.Win32.Release.Error-2.idtx:136
+#: en_US.x64.Debug.Error-2.idtx:136 en_US.x64.Release.Error-2.idtx:136
+msgid ""
+"Module [2] failed to register.  HRESULT [3].  Contact your support "
+"personnel."
+msgstr ""
+"โมดูล [2] ล้มเหลวที่จะลงทะเบียน  HRESULT [3]  ให้ติดต่อฝ่ายสนับสนุนของคุณ"
+
+#: en_US.Win32.Debug.Error-2.idtx:137 en_US.Win32.Release.Error-2.idtx:137
+#: en_US.x64.Debug.Error-2.idtx:137 en_US.x64.Release.Error-2.idtx:137
+msgid ""
+"Module [2] failed to unregister.  HRESULT [3].  Contact your support "
+"personnel."
+msgstr ""
+"โมดูล [2] ล้มเหลวที่จะยกเลิกการลงทะเบียน  HRESULT [3]  "
+"ให้ติดต่อฝ่ายสนับสนุนของคุณ"
+
+#: en_US.Win32.Debug.Error-2.idtx:138 en_US.Win32.Release.Error-2.idtx:138
+#: en_US.x64.Debug.Error-2.idtx:138 en_US.x64.Release.Error-2.idtx:138
+msgid ""
+"Failed to cache package [2]. Error: [3]. Contact your support personnel."
+msgstr ""
+"ล้มเหลวที่จะ cache package [2]. ข้อผิดพลาด: [3]. ให้ติดต่อฝ่ายสนับสนุนของคุณ"
+
+#: en_US.Win32.Debug.Error-2.idtx:139 en_US.Win32.Release.Error-2.idtx:139
+#: en_US.x64.Debug.Error-2.idtx:139 en_US.x64.Release.Error-2.idtx:139
+msgid ""
+"Could not register font [2].  Verify that you have sufficient permissions to"
+" install fonts, and that the system supports this font."
+msgstr ""
+"ไม่สามารถลงทะเบียนแบบอักษร [2]  "
+"ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอที่จะติดตั้งแบบอักษร "
+"และระบบสนับสนุนแบบอักษรนี้"
+
+#: en_US.Win32.Debug.Error-2.idtx:140 en_US.Win32.Release.Error-2.idtx:140
+#: en_US.x64.Debug.Error-2.idtx:140 en_US.x64.Release.Error-2.idtx:140
+msgid ""
+"Could not unregister font [2]. Verify that you that you have sufficient "
+"permissions to remove fonts."
+msgstr ""
+"ไม่สามารถยกเลิกการลงทะเบียนแบบอักษร [2] "
+"ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอที่จะเอาแบบอักษรออก"
+
+#: en_US.Win32.Debug.Error-2.idtx:141 en_US.Win32.Release.Error-2.idtx:141
+#: en_US.x64.Debug.Error-2.idtx:141 en_US.x64.Release.Error-2.idtx:141
+msgid ""
+"Could not create Shortcut [2]. Verify that the destination folder exists and"
+" that you can access it."
+msgstr ""
+"ไม่สามารถสร้างทางลัด [2] ยืนยันให้แน่ใจว่าโฟลเดอร์ปลายทางมีอยู่ "
+"และคุณสามารถเข้าถึง"
+
+#: en_US.Win32.Debug.Error-2.idtx:142 en_US.Win32.Release.Error-2.idtx:142
+#: en_US.x64.Debug.Error-2.idtx:142 en_US.x64.Release.Error-2.idtx:142
+msgid ""
+"Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
+" you can access it."
+msgstr ""
+"ไม่สามารถเอาทางลัด [2] ออก "
+"ยืนยันให้แน่ใจว่าแฟ้มทางลัดมีอยู่และคุณสามารถเข้าถึง"
+
+#: en_US.Win32.Debug.Error-2.idtx:143 en_US.Win32.Release.Error-2.idtx:143
+#: en_US.x64.Debug.Error-2.idtx:143 en_US.x64.Release.Error-2.idtx:143
+msgid ""
+"Could not register type library for file [2].  Contact your support "
+"personnel."
+msgstr ""
+"ไม่สามารถลงทะเบียนชนิดของแฟ้ม library [2]  ให้ติดต่อฝ่ายสนับสนุนของคุณ"
+
+#: en_US.Win32.Debug.Error-2.idtx:144 en_US.Win32.Release.Error-2.idtx:144
+#: en_US.x64.Debug.Error-2.idtx:144 en_US.x64.Release.Error-2.idtx:144
+msgid ""
+"Could not unregister type library for file [2].  Contact your support "
+"personnel."
+msgstr ""
+"ไม่สามารถยกเลิกการลงทะเบียนชนิดของแฟ้ม library [2]  "
+"ให้ติดต่อฝ่ายสนับสนุนของคุณ"
+
+#: en_US.Win32.Debug.Error-2.idtx:145 en_US.Win32.Release.Error-2.idtx:145
+#: en_US.x64.Debug.Error-2.idtx:145 en_US.x64.Release.Error-2.idtx:145
+msgid ""
+"Could not update the ini file [2][3].  Verify that the file exists and that "
+"you can access it."
+msgstr ""
+"ไม่สามารถปรับปรุงแฟ้ม ini  [2][3]  ยืนยันให้แน่ใจว่าแฟ้มมีอยู่ "
+"และคุณสามารถเข้าถึง"
+
+#: en_US.Win32.Debug.Error-2.idtx:146 en_US.Win32.Release.Error-2.idtx:146
+#: en_US.x64.Debug.Error-2.idtx:146 en_US.x64.Release.Error-2.idtx:146
+msgid ""
+"Could not schedule file [2] to replace file [3] on reboot.  Verify that you "
+"have write permissions to file [3]."
+msgstr ""
+"ไม่สามารถจัดตารางเวลาแฟ้ม [2] ให้แทนที่แฟ้ม [3] เมื่อเริ่มระบบใหม่  "
+"ยืนยันให้แน่ใจว่าคุณมีสิทธิ์ในการเขียนไปยังแฟ้ม [3]"
+
+#: en_US.Win32.Debug.Error-2.idtx:147 en_US.Win32.Release.Error-2.idtx:147
+#: en_US.x64.Debug.Error-2.idtx:147 en_US.x64.Release.Error-2.idtx:147
+msgid ""
+"Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your "
+"support personnel."
+msgstr ""
+"เกิดข้อผิดพลาดในการเอาตัวจัดการโปรแกรมควบคุม ODBC ออก ODBC ผิดพลาด [2]: [3]."
+" ให้ติดต่อฝ่ายสนับสนุนของคุณ"
+
+#: en_US.Win32.Debug.Error-2.idtx:148 en_US.Win32.Release.Error-2.idtx:148
+#: en_US.x64.Debug.Error-2.idtx:148 en_US.x64.Release.Error-2.idtx:148
+msgid ""
+"Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your "
+"support personnel."
+msgstr ""
+"เกิดข้อผิดพลาดในการติดตั้งตัวจัดการโปรแกรมควบคุม ODBC,  ODBC ผิดพลาด [2]: "
+"[3]. ให้ติดต่อฝ่ายสนับสนุนของคุณ"
+
+#: en_US.Win32.Debug.Error-2.idtx:149 en_US.Win32.Release.Error-2.idtx:149
+#: en_US.x64.Debug.Error-2.idtx:149 en_US.x64.Release.Error-2.idtx:149
+msgid ""
+"Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you have "
+"sufficient privileges to remove ODBC drivers."
+msgstr ""
+"เกิดข้อผิดพลาดในการเอาโปรแกรมควบคุม ODBC ออก: [4], ODBC ผิดพลาด [2]: [3]. "
+"ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอที่จะเอาโปรแกรมควบคุม ODBC ออก"
+
+#: en_US.Win32.Debug.Error-2.idtx:150 en_US.Win32.Release.Error-2.idtx:150
+#: en_US.x64.Debug.Error-2.idtx:150 en_US.x64.Release.Error-2.idtx:150
+msgid ""
+"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
+" [4] exists and that you can access it."
+msgstr ""
+"เกิดข้อผิดพลาดในการติดตั้งโปรแกรมควบคุม ODBC : [4], ODBC ผิดพลาด [2]: [3]. "
+"ยืนยันให้แน่ใจว่าแฟ้ม [4] มีอยู่และคุณสามารถเข้าถึง"
+
+#: en_US.Win32.Debug.Error-2.idtx:151 en_US.Win32.Release.Error-2.idtx:151
+#: en_US.x64.Debug.Error-2.idtx:151 en_US.x64.Release.Error-2.idtx:151
+msgid ""
+"Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that "
+"the file [4] exists and that you can access it."
+msgstr ""
+"เกิดข้อผิดพลาดในการกำหนดค่าแหล่งข้อมูล ODBC: [4], ODBC ผิดพลาด [2]: [3]. "
+"ยืนยันให้แน่ใจว่าแฟ้ม [4] มีอยู่และคุณสามารถเข้าถึง"
+
+#: en_US.Win32.Debug.Error-2.idtx:152 en_US.Win32.Release.Error-2.idtx:152
+#: en_US.x64.Debug.Error-2.idtx:152 en_US.x64.Release.Error-2.idtx:152
+msgid ""
+"Service '[2]' ([3]) failed to start.  Verify that you have sufficient "
+"privileges to start system services."
+msgstr ""
+"บริการ '[2]' ([3]) ล้มเหลวที่จะเริ่มต้น  "
+"ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอที่จะเริ่มบริการระบบ"
+
+#: en_US.Win32.Debug.Error-2.idtx:153 en_US.Win32.Release.Error-2.idtx:153
+#: en_US.x64.Debug.Error-2.idtx:153 en_US.x64.Release.Error-2.idtx:153
+msgid ""
+"Service '[2]' ([3]) could not be stopped.  Verify that you have sufficient "
+"privileges to stop system services."
+msgstr ""
+"บริการ '[2]' ([3]) ไม่สามารถถูกหยุด "
+"ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอที่จะหยุดบริการระบบ"
+
+#: en_US.Win32.Debug.Error-2.idtx:154 en_US.Win32.Release.Error-2.idtx:154
+#: en_US.x64.Debug.Error-2.idtx:154 en_US.x64.Release.Error-2.idtx:154
+msgid ""
+"Service '[2]' ([3]) could not be deleted.  Verify that you have sufficient "
+"privileges to remove system services."
+msgstr ""
+"บริการ '[2]' ([3]) ไม่สามารถถูกลบ "
+"ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอที่จะเอาบริการระบบออก"
+
+#: en_US.Win32.Debug.Error-2.idtx:155 en_US.Win32.Release.Error-2.idtx:155
+#: en_US.x64.Debug.Error-2.idtx:155 en_US.x64.Release.Error-2.idtx:155
+msgid ""
+"Service '[2]' ([3]) could not be installed.  Verify that you have sufficient"
+" privileges to install system services."
+msgstr ""
+"บริการ '[2]' ([3]) ไม่สามารถถูกติดตั้ง "
+"ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอที่จะติดตั้งบริการระบบ"
+
+#: en_US.Win32.Debug.Error-2.idtx:156 en_US.Win32.Release.Error-2.idtx:156
+#: en_US.x64.Debug.Error-2.idtx:156 en_US.x64.Release.Error-2.idtx:156
+msgid ""
+"Could not update environment variable '[2]'.  Verify that you have "
+"sufficient privileges to modify environment variables."
+msgstr ""
+"ไม่สามารถปรับปรุง environment variable '[2]'  "
+"ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอที่จะปรับเปลี่ยน environment variables"
+
+#: en_US.Win32.Debug.Error-2.idtx:157 en_US.Win32.Release.Error-2.idtx:157
+#: en_US.x64.Debug.Error-2.idtx:157 en_US.x64.Release.Error-2.idtx:157
+msgid ""
+"You do not have sufficient privileges to complete this installation for all "
+"users of the machine.  Log on as administrator and then retry this "
+"installation."
+msgstr ""
+"คุณมีสิทธิ์ไม่เพียงพอที่จะทำการติดตั้งนี้ให้สมบูรณ์สำหรับผู้ใช้ทั้งหมดของเครื่องนี้"
+" ให้เข้าสู่ระบบเป็น administrator แล้วพยายามติดตั้งอีกครั้ง"
+
+#: en_US.Win32.Debug.Error-2.idtx:158 en_US.Win32.Release.Error-2.idtx:158
+#: en_US.x64.Debug.Error-2.idtx:158 en_US.x64.Release.Error-2.idtx:158
+msgid ""
+"Could not set file security for file '[3]'. Error: [2].  Verify that you "
+"have sufficient privileges to modify the security permissions for this file."
+msgstr ""
+"ไม่สามารถตั้งค่าความปลอดภัยสำหรับแฟ้ม '[3]' ข้อผิดพลาด: [2]  "
+"ยืนยันให้แน่ใจว่าคุณมีสิทธิ์เพียงพอที่จะปรับเปลี่ยนสิทธิ์ความปลอดภัยของแฟ้มนี้"
+
+#: en_US.Win32.Debug.Error-2.idtx:159 en_US.Win32.Release.Error-2.idtx:159
+#: en_US.x64.Debug.Error-2.idtx:159 en_US.x64.Release.Error-2.idtx:159
+msgid ""
+"Component Services (COM+ 1.0) are not installed on this computer.  This "
+"installation requires Component Services in order to complete successfully."
+"  Component Services are available on Windows 2000."
+msgstr ""
+"Component Services (COM+ 1.0) ไม่ถูกติดตั้งบนคอมพิวเตอร์นี้ "
+"การติดตั้งนี้ต้องการ Component Services เพื่อที่จะทำให้เสร็จสิ้นอย่างสมบูรณ์"
+"  Component Services มีอยู่บน Windows 2000"
+
+#: en_US.Win32.Debug.Error-2.idtx:160 en_US.Win32.Release.Error-2.idtx:160
+#: en_US.x64.Debug.Error-2.idtx:160 en_US.x64.Release.Error-2.idtx:160
+msgid ""
+"Error registering COM+ Application.  Contact your support personnel for more"
+" information."
+msgstr ""
+"ผิดพลาดในการลงทะเบียน COM+ Application.  "
+"ให้ติดต่อฝ่ายสนับสนุนของคุณเพื่อรับข้อมูลเพิ่มเติม"
+
+#: en_US.Win32.Debug.Error-2.idtx:161 en_US.Win32.Release.Error-2.idtx:161
+#: en_US.x64.Debug.Error-2.idtx:161 en_US.x64.Release.Error-2.idtx:161
+msgid ""
+"Error unregistering COM+ Application.  Contact your support personnel for "
+"more information."
+msgstr ""
+"ผิดพลาดในการเอา COM+ Application ออกจากการลงทะเบียน "
+"ให้ติดต่อฝ่ายสนับสนุนของคุณเพื่อรับข้อมูลเพิ่มเติม"
+
+#: en_US.Win32.Debug.Error-2.idtx:162 en_US.Win32.Release.Error-2.idtx:162
+#: en_US.x64.Debug.Error-2.idtx:162 en_US.x64.Release.Error-2.idtx:162
+msgid "The description for service '[2]' ([3]) could not be changed."
+msgstr "คำอธิบายสำหรับบริการ '[2]' ([3]) ไม่สามารถถูกเปลี่ยนแปลง"
+
+#: en_US.Win32.Debug.Error-2.idtx:163 en_US.Win32.Release.Error-2.idtx:163
+#: en_US.x64.Debug.Error-2.idtx:163 en_US.x64.Release.Error-2.idtx:163
+msgid ""
+"The Windows Installer service cannot update the system file [2] because the "
+"file is protected by Windows.  You may need to update your operating system "
+"for this program to work correctly. {{Package version: [3], OS Protected "
+"version: [4]}}"
+msgstr ""
+"บริการ Windows Installer ไม่สามารถปรับปรุงแฟ้มระบบ [2] "
+"เนื่องจากแฟ้มถูกป้องกันโดย Windows  "
+"คุณอาจจำเป็นต้องปรับปรุงระบบปฏิบัติการของคุณเพื่อทำให้โปรแกรมนี้ใช้งานได้อย่างถูกต้อง"
+" {{ชุดรุ่น: [3] รุ่น OS Protected  [4]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:164 en_US.Win32.Release.Error-2.idtx:164
+#: en_US.x64.Debug.Error-2.idtx:164 en_US.x64.Release.Error-2.idtx:164
+msgid ""
+"The Windows Installer service cannot update the protected Windows file [2]. "
+"{{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
+msgstr ""
+"บริการ Windows Installer ไม่สามารถถูกปรับปรุงแฟ้มที่ Windows ป้องกัน [2] "
+"{{ชุดรุ่น: [3] รุ่น OS Protected [4], SFP Error: [5]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:165 en_US.Win32.Release.Error-2.idtx:165
+#: en_US.x64.Debug.Error-2.idtx:165 en_US.x64.Release.Error-2.idtx:165
+msgid ""
+"The Windows Installer service cannot update one or more protected Windows "
+"files. {{SFP Error: [2].  List of protected files:\\r\\n[3]}}"
+msgstr ""
+"บริการ Windows Installer ไม่สามารถปรับปรุงแฟ้ม Windows ที่ถูกต้องปกป้องได้  "
+"{{ข้อผิดพลาด SFP [2]   แฟ้มที่ถูกต้องปกป้องมีดังนี้\\r\\n[3]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:166 en_US.Win32.Release.Error-2.idtx:166
+#: en_US.x64.Debug.Error-2.idtx:166 en_US.x64.Release.Error-2.idtx:166
+msgid "User installations are disabled via policy on the machine."
+msgstr "การติดตั้งของผู้ใช้ถูกห้ามไว้โดยนโยบายของเครื่อง"
+
+#: en_US.Win32.Debug.Error-2.idtx:167 en_US.Win32.Release.Error-2.idtx:167
+#: en_US.x64.Debug.Error-2.idtx:167 en_US.x64.Release.Error-2.idtx:167
+msgid ""
+"An error occurred during the installation of assembly '[6]'. Please refer to"
+" Help and Support for more information. {{HRESULT: [3]. assembly interface: "
+"[4], function: [5], component: [2]}}"
+msgstr ""
+"ข้อผิดพลาดเกิดขึ้นระหว่างการติดตั้ง '[6]'  กรุณาอ่านข้อมูลเพิ่มเติมจาก Help "
+"and Support   HRESULT: [3]. {{assembly interface: [4], function: [5], "
+"component: [2]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:168 en_US.Win32.Release.Error-2.idtx:168
+#: en_US.x64.Debug.Error-2.idtx:168 en_US.x64.Release.Error-2.idtx:168
+msgid ""
+"An error occurred during the installation of assembly '[6]'. The assembly is"
+" not strongly named or is not signed with the minimal key length. {{HRESULT:"
+" [3]. assembly interface: [4], function: [5], component: [2]}}"
+msgstr ""
+"ข้อผิดพลาดเกิดขึ้นระหว่างการติดตั้งรวบรวมของ '[6]'   "
+"การรวบรวมไม่ใช่ชื่อที่ปลอดภัย หรือ คีย์ที่เซ็นต์ยาวไม่พอ HRESULT: [3]. "
+"{{assembly interface: [4], function: [5], component: [2]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:169 en_US.Win32.Release.Error-2.idtx:169
+#: en_US.x64.Debug.Error-2.idtx:169 en_US.x64.Release.Error-2.idtx:169
+msgid ""
+"An error occurred during the installation of assembly '[6]'. The signature "
+"or catalog could not be verified or is not valid. {{HRESULT: [3]. assembly "
+"interface: [4], function: [5], component: [2]}}"
+msgstr ""
+"ข้อผิดพลาดเกิดขึ้นระหว่างการติดตั้งรวบรวมของ '[6]'   "
+"การเซ็นต์ชื่อหรือแคตตาลอกไม่สามารถถูกเช็คได้  HRESULT: [3]. {{assembly "
+"interface: [4], function: [5], component: [2]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:170 en_US.Win32.Release.Error-2.idtx:170
+#: en_US.x64.Debug.Error-2.idtx:170 en_US.x64.Release.Error-2.idtx:170
+msgid ""
+"An error occurred during the installation of assembly '[6]'. One or more "
+"modules of the assembly could not be found. {{HRESULT: [3]. assembly "
+"interface: [4], function: [5], component: [2]}}"
+msgstr ""
+"ข้อผิดพลาดเกิดขึ้นระหว่างการติดตั้งรวบรวมของ '[6]'   "
+"มีโมดูลอันใดอันหนึ่งของการรวบรวมหายไป HRESULT: [3]. {{assembly interface: "
+"[4], function: [5], component: [2]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:171 en_US.Win32.Release.Error-2.idtx:171
+#: en_US.x64.Debug.Error-2.idtx:171 en_US.x64.Release.Error-2.idtx:171
+msgid ""
+"64-bit registry operation attempted on 32-bit operating system for key [2]."
+msgstr ""
+
+#: en_US.Win32.Debug.Error-2.idtx:172 en_US.Win32.Release.Error-2.idtx:172
+#: en_US.x64.Debug.Error-2.idtx:172 en_US.x64.Release.Error-2.idtx:172
+msgid ""
+"This version of Windows does not support deploying 64-bit packages. The "
+"script [2] is for a 64-bit package."
+msgstr ""

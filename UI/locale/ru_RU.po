@@ -1,20 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSMBuild UI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-04 14:33+0200\n"
+"POT-Creation-Date: 2016-09-19 11:23+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: ru_RU\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2018\n"
+"Language-Team: Russian (Russia) (https://www.transifex.com/amebis/teams/91604/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Poedit 1.8.9\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: en_US.Win32.Debug.Control-2.idtx:4 en_US.Win32.Debug.Control-2.idtx:8
 #: en_US.Win32.Debug.Control-2.idtx:12 en_US.Win32.Debug.Control-2.idtx:19
@@ -99,7 +102,8 @@ msgstr "[DlgTitleFont][ButtonTextInstall]"
 
 #: en_US.Win32.Debug.Control-2.idtx:14 en_US.Win32.Release.Control-2.idtx:14
 #: en_US.x64.Debug.Control-2.idtx:14 en_US.x64.Release.Control-2.idtx:14
-msgid "Installs the most common program features. Recommended for most users.|"
+msgid ""
+"Installs the most common program features. Recommended for most users.|"
 msgstr ""
 "Устанавливает чаще всего используемые компоненты программы. Рекомендуется "
 "для большинства пользователей.|"
@@ -134,16 +138,16 @@ msgstr ""
 msgid ""
 "Although, 32-bit variant should work with your operating system, this "
 "program is also available as 64-bit variant, which is more appropriate for "
-"your operating system. The installation of the 64-bit variant is recommended."
+"your operating system. The installation of the 64-bit variant is "
+"recommended."
 msgstr ""
-"32-битный вариант программы в вашей операционной системе должен работать, но "
-"доступен также 64-битный вариант, более соответствующий вашей операционной "
+"32-битный вариант программы в вашей операционной системе должен работать, но"
+" доступен также 64-битный вариант, более соответствующий вашей операционной "
 "системе. Рекомендуется установить 64-битный вариант."
 
 #: en_US.Win32.Debug.Control-2.idtx:20 en_US.Win32.Release.Control-2.idtx:20
 #: en_US.x64.Debug.Control-2.idtx:17 en_US.x64.Release.Control-2.idtx:17
-msgid ""
-"[DlgTitleFont]Click \"Next\" to resume [SimpleProductName] installation."
+msgid "[DlgTitleFont]Click \"Next\" to resume [SimpleProductName] installation."
 msgstr ""
 "[DlgTitleFont]Нажат \"Далее\" для продолжения установки [SimpleProductName]."
 
@@ -347,7 +351,8 @@ msgstr "{60}{60}{60}{60}{60}"
 #: en_US.Win32.Debug.Control-2.idtx:72 en_US.Win32.Debug.Control-2.idtx:77
 #: en_US.Win32.Debug.Control-2.idtx:112 en_US.Win32.Debug.Control-2.idtx:117
 #: en_US.Win32.Debug.Control-2.idtx:122 en_US.Win32.Release.Control-2.idtx:72
-#: en_US.Win32.Release.Control-2.idtx:77 en_US.Win32.Release.Control-2.idtx:112
+#: en_US.Win32.Release.Control-2.idtx:77
+#: en_US.Win32.Release.Control-2.idtx:112
 #: en_US.Win32.Release.Control-2.idtx:117
 #: en_US.Win32.Release.Control-2.idtx:122 en_US.x64.Debug.Control-2.idtx:69
 #: en_US.x64.Debug.Control-2.idtx:74 en_US.x64.Debug.Control-2.idtx:109
@@ -370,10 +375,10 @@ msgstr "[DlgTitleFont]Недостаточно места на диске"
 #: en_US.x64.Debug.Control-2.idtx:72 en_US.x64.Debug.Control-2.idtx:77
 #: en_US.x64.Release.Control-2.idtx:72 en_US.x64.Release.Control-2.idtx:77
 msgid ""
-"The highlighted volumes (if any) do not have enough disk space available for "
-"the currently selected features. You can either remove some files from the "
-"highlighted volumes, or choose to install less features onto local drive(s), "
-"or select different destination drive(s)."
+"The highlighted volumes (if any) do not have enough disk space available for"
+" the currently selected features. You can either remove some files from the "
+"highlighted volumes, or choose to install less features onto local drive(s),"
+" or select different destination drive(s)."
 msgstr ""
 "Hа указанных томах недостаточно места для выбранных компонентов. Вы можете "
 "освободить место на указанных томах, установить меньше компонентов или "
@@ -383,14 +388,14 @@ msgstr ""
 #: en_US.x64.Debug.Control-2.idtx:79 en_US.x64.Release.Control-2.idtx:79
 msgid ""
 "Alternatively, you may choose to disable the installer's rollback "
-"functionality. This allows the installer to restore your computer's original "
-"state should the installation be interrupted in any way. Click Yes if you "
+"functionality. This allows the installer to restore your computer's original"
+" state should the installation be interrupted in any way. Click Yes if you "
 "wish to take the risk to disable rollback."
 msgstr ""
 "Можно также отключить функцию отката установщика. Отключение отката не "
 "позволит установщику восстановить исходное состояние компьютера при любом "
-"прерывании установки. Если вы готовы принять риск отключения отката, нажмите "
-"кнопку «Да»."
+"прерывании установки. Если вы готовы принять риск отключения отката, нажмите"
+" кнопку «Да»."
 
 #: en_US.Win32.Debug.Control-2.idtx:83 en_US.Win32.Debug.Control-2.idtx:92
 #: en_US.Win32.Debug.Control-2.idtx:98 en_US.Win32.Release.Control-2.idtx:83
@@ -500,14 +505,15 @@ msgstr ""
 #: en_US.Win32.Debug.Control-2.idtx:116 en_US.Win32.Release.Control-2.idtx:116
 #: en_US.x64.Debug.Control-2.idtx:113 en_US.x64.Release.Control-2.idtx:113
 msgid ""
-"If you interrupted the installation by accident, please run the installation "
-"again."
+"If you interrupted the installation by accident, please run the installation"
+" again."
 msgstr "Если вы случайно прервали установку, повторите ее."
 
 #: en_US.Win32.Debug.Control-2.idtx:119 en_US.Win32.Release.Control-2.idtx:119
 #: en_US.x64.Debug.Control-2.idtx:116 en_US.x64.Release.Control-2.idtx:116
 msgid "[DlgTitleFont][SimpleProductName] [Progress2] Ended Prematurely"
-msgstr "[DlgTitleFont][SimpleProductName] [Progress2] завершено преждевременно"
+msgstr ""
+"[DlgTitleFont][SimpleProductName] [Progress2] завершено преждевременно"
 
 #: en_US.Win32.Debug.Control-2.idtx:120 en_US.Win32.Release.Control-2.idtx:120
 #: en_US.x64.Debug.Control-2.idtx:117 en_US.x64.Release.Control-2.idtx:117
@@ -520,7 +526,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:121 en_US.Win32.Release.Control-2.idtx:121
 #: en_US.x64.Debug.Control-2.idtx:118 en_US.x64.Release.Control-2.idtx:118
-msgid "Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
+msgid ""
+"Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
 msgstr ""
 "Пожалуйста, попробуйте еще раз, или обратитесь к [Manufacturer] (телефон "
 "[ARPHELPTELEPHONE])."
@@ -871,8 +878,8 @@ msgid ""
 "This feature requires [1] on your hard drive. It has [2] of [3] subfeatures "
 "selected. The subfeatures require [4] on your hard drive."
 msgstr ""
-"Этот компонент высвободит [1] на жестком диске. Выбрано [2] из [3] вложенных "
-"компонентов. Вложенные компоненты высвободят [4] на жестком диске."
+"Этот компонент высвободит [1] на жестком диске. Выбрано [2] из [3] вложенных"
+" компонентов. Вложенные компоненты высвободят [4] на жестком диске."
 
 #: en_US.Win32.Debug.UIText-2.idtx:49 en_US.Win32.Release.UIText-2.idtx:49
 #: en_US.x64.Debug.UIText-2.idtx:49 en_US.x64.Release.UIText-2.idtx:49

@@ -1,19 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSMBuild UI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-04 14:37+0200\n"
+"POT-Creation-Date: 2016-09-19 11:23+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: he_IL\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2018\n"
+"Language-Team: Hebrew (Israel) (https://www.transifex.com/amebis/teams/91604/he_IL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 "X-Generator: Poedit 1.8.9\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: en_US.Win32.Debug.Control-2.idtx:4 en_US.Win32.Debug.Control-2.idtx:8
 #: en_US.Win32.Debug.Control-2.idtx:12 en_US.Win32.Debug.Control-2.idtx:19
@@ -83,13 +87,8 @@ msgstr ""
 #: en_US.x64.Debug.Control-2.idtx:11 en_US.x64.Debug.Control-2.idtx:18
 #: en_US.x64.Debug.Control-2.idtx:23 en_US.x64.Release.Control-2.idtx:11
 #: en_US.x64.Release.Control-2.idtx:18 en_US.x64.Release.Control-2.idtx:23
-#, fuzzy
 msgid "&Continue"
 msgstr ""
-"אין מספיק שטח דיסק פנוי באמצעי האחסון '[2]' על מנת להתקין עם אפשרות החזרה "
-"למצב קודם. שטח דרוש: ‎[3] KB, אך פנוי רק: ‎[4] KB. לחץ על 'התעלם' כדי להמשיך "
-"ללא אפשרות שמירת מידע על חזרה למצב קודם. לחץ 'נסה שנית' כדי לבדוק שוב את שטח "
-"הדיסק הפנוי, או לחץ על 'ביטול' כדי לצאת מההתקנה."
 
 #: en_US.Win32.Debug.Control-2.idtx:13 en_US.Win32.Release.Control-2.idtx:13
 #: en_US.x64.Debug.Control-2.idtx:13 en_US.x64.Release.Control-2.idtx:13
@@ -103,7 +102,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:14 en_US.Win32.Release.Control-2.idtx:14
 #: en_US.x64.Debug.Control-2.idtx:14 en_US.x64.Release.Control-2.idtx:14
-msgid "Installs the most common program features. Recommended for most users.|"
+msgid ""
+"Installs the most common program features. Recommended for most users.|"
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:15 en_US.Win32.Release.Control-2.idtx:15
@@ -134,13 +134,13 @@ msgstr ""
 msgid ""
 "Although, 32-bit variant should work with your operating system, this "
 "program is also available as 64-bit variant, which is more appropriate for "
-"your operating system. The installation of the 64-bit variant is recommended."
+"your operating system. The installation of the 64-bit variant is "
+"recommended."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:20 en_US.Win32.Release.Control-2.idtx:20
 #: en_US.x64.Debug.Control-2.idtx:17 en_US.x64.Release.Control-2.idtx:17
-msgid ""
-"[DlgTitleFont]Click \"Next\" to resume [SimpleProductName] installation."
+msgid "[DlgTitleFont]Click \"Next\" to resume [SimpleProductName] installation."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:23 en_US.Win32.Release.Control-2.idtx:23
@@ -213,9 +213,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:41 en_US.Win32.Release.Control-2.idtx:41
 #: en_US.x64.Debug.Control-2.idtx:38 en_US.x64.Release.Control-2.idtx:38
-#, fuzzy
 msgid "Folder:"
-msgstr "קובץ: [1], תיקיה: [2]"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:44 en_US.Win32.Release.Control-2.idtx:44
 #: en_US.x64.Debug.Control-2.idtx:41 en_US.x64.Release.Control-2.idtx:41
@@ -280,17 +279,15 @@ msgstr ""
 #: en_US.Win32.Release.Control-2.idtx:52 en_US.Win32.Release.Control-2.idtx:63
 #: en_US.x64.Debug.Control-2.idtx:49 en_US.x64.Debug.Control-2.idtx:60
 #: en_US.x64.Release.Control-2.idtx:49 en_US.x64.Release.Control-2.idtx:60
-#, fuzzy
 msgid "Create A New Folder|"
-msgstr "יוצר תיקיות"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:54 en_US.Win32.Debug.Control-2.idtx:65
 #: en_US.Win32.Release.Control-2.idtx:54 en_US.Win32.Release.Control-2.idtx:65
 #: en_US.x64.Debug.Control-2.idtx:51 en_US.x64.Debug.Control-2.idtx:62
 #: en_US.x64.Release.Control-2.idtx:51 en_US.x64.Release.Control-2.idtx:62
-#, fuzzy
 msgid "&Folder:"
-msgstr "קובץ: [1], תיקיה: [2]"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:56 en_US.Win32.Debug.Control-2.idtx:67
 #: en_US.Win32.Debug.Control-2.idtx:96 en_US.Win32.Release.Control-2.idtx:56
@@ -312,11 +309,8 @@ msgstr ""
 #: en_US.x64.Release.Control-2.idtx:54 en_US.x64.Release.Control-2.idtx:65
 #: en_US.x64.Release.Control-2.idtx:94 en_US.x64.Release.Control-2.idtx:97
 #: en_US.x64.Release.Control-2.idtx:106
-#, fuzzy
 msgid "Cancel"
 msgstr ""
-"אין אפשרות ליצור את הקובץ '[2]'. ספריה בשם זה קיימת כבר. בטל את ההתקנה ונסה "
-"להתקין למיקום אחר."
 
 #: en_US.Win32.Debug.Control-2.idtx:59 en_US.Win32.Release.Control-2.idtx:59
 #: en_US.x64.Debug.Control-2.idtx:56 en_US.x64.Release.Control-2.idtx:56
@@ -325,9 +319,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:70 en_US.Win32.Release.Control-2.idtx:70
 #: en_US.x64.Debug.Control-2.idtx:67 en_US.x64.Release.Control-2.idtx:67
-#, fuzzy
 msgid "[DlgTitleFont]Disk Space Requirements"
-msgstr "מחשב דרישות שטח"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:71 en_US.Win32.Debug.Control-2.idtx:76
 #: en_US.Win32.Debug.Control-2.idtx:81 en_US.Win32.Release.Control-2.idtx:71
@@ -341,7 +334,8 @@ msgstr ""
 #: en_US.Win32.Debug.Control-2.idtx:72 en_US.Win32.Debug.Control-2.idtx:77
 #: en_US.Win32.Debug.Control-2.idtx:112 en_US.Win32.Debug.Control-2.idtx:117
 #: en_US.Win32.Debug.Control-2.idtx:122 en_US.Win32.Release.Control-2.idtx:72
-#: en_US.Win32.Release.Control-2.idtx:77 en_US.Win32.Release.Control-2.idtx:112
+#: en_US.Win32.Release.Control-2.idtx:77
+#: en_US.Win32.Release.Control-2.idtx:112
 #: en_US.Win32.Release.Control-2.idtx:117
 #: en_US.Win32.Release.Control-2.idtx:122 en_US.x64.Debug.Control-2.idtx:69
 #: en_US.x64.Debug.Control-2.idtx:74 en_US.x64.Debug.Control-2.idtx:109
@@ -364,18 +358,18 @@ msgstr ""
 #: en_US.x64.Debug.Control-2.idtx:72 en_US.x64.Debug.Control-2.idtx:77
 #: en_US.x64.Release.Control-2.idtx:72 en_US.x64.Release.Control-2.idtx:77
 msgid ""
-"The highlighted volumes (if any) do not have enough disk space available for "
-"the currently selected features. You can either remove some files from the "
-"highlighted volumes, or choose to install less features onto local drive(s), "
-"or select different destination drive(s)."
+"The highlighted volumes (if any) do not have enough disk space available for"
+" the currently selected features. You can either remove some files from the "
+"highlighted volumes, or choose to install less features onto local drive(s),"
+" or select different destination drive(s)."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:82 en_US.Win32.Release.Control-2.idtx:82
 #: en_US.x64.Debug.Control-2.idtx:79 en_US.x64.Release.Control-2.idtx:79
 msgid ""
 "Alternatively, you may choose to disable the installer's rollback "
-"functionality. This allows the installer to restore your computer's original "
-"state should the installation be interrupted in any way. Click Yes if you "
+"functionality. This allows the installer to restore your computer's original"
+" state should the installation be interrupted in any way. Click Yes if you "
 "wish to take the risk to disable rollback."
 msgstr ""
 
@@ -423,9 +417,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:91 en_US.Win32.Release.Control-2.idtx:91
 #: en_US.x64.Debug.Control-2.idtx:88 en_US.x64.Release.Control-2.idtx:88
-#, fuzzy
 msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-msgstr "האם אתה בטוח כי ברצונך לבטל?"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:95 en_US.Win32.Release.Control-2.idtx:95
 #: en_US.x64.Debug.Control-2.idtx:92 en_US.x64.Release.Control-2.idtx:92
@@ -437,11 +430,8 @@ msgstr ""
 #: en_US.Win32.Release.Control-2.idtx:107 en_US.x64.Debug.Control-2.idtx:98
 #: en_US.x64.Debug.Control-2.idtx:104 en_US.x64.Release.Control-2.idtx:98
 #: en_US.x64.Release.Control-2.idtx:104
-#, fuzzy
 msgid "&Retry"
 msgstr ""
-"אירעה שגיאה בעת כתיבת מידע התקנה לדיסק. ודא כי יש די שטח דיסק זמין ולחץ על "
-"נסה שנית, או לחץ על ביטול כדי לסיים את ההתקנה."
 
 #: en_US.Win32.Debug.Control-2.idtx:102 en_US.Win32.Debug.Control-2.idtx:108
 #: en_US.Win32.Release.Control-2.idtx:102
@@ -484,8 +474,8 @@ msgstr ""
 #: en_US.Win32.Debug.Control-2.idtx:116 en_US.Win32.Release.Control-2.idtx:116
 #: en_US.x64.Debug.Control-2.idtx:113 en_US.x64.Release.Control-2.idtx:113
 msgid ""
-"If you interrupted the installation by accident, please run the installation "
-"again."
+"If you interrupted the installation by accident, please run the installation"
+" again."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:119 en_US.Win32.Release.Control-2.idtx:119
@@ -502,7 +492,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:121 en_US.Win32.Release.Control-2.idtx:121
 #: en_US.x64.Debug.Control-2.idtx:118 en_US.x64.Release.Control-2.idtx:118
-msgid "Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
+msgid ""
+"Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
 msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:4
@@ -512,9 +503,8 @@ msgstr ""
 #: en_US.x64.Debug.ControlEvent-2.idtx:4 en_US.x64.Debug.ControlEvent-2.idtx:5
 #: en_US.x64.Release.ControlEvent-2.idtx:4
 #: en_US.x64.Release.ControlEvent-2.idtx:5
-#, fuzzy
 msgid "Determining required space for installation..."
-msgstr "אוסף מידע דרוש..."
+msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:6
 #: en_US.Win32.Release.ControlEvent-2.idtx:6
@@ -562,17 +552,15 @@ msgstr ""
 #: en_US.Win32.Release.ControlEvent-2.idtx:12
 #: en_US.x64.Debug.ControlEvent-2.idtx:12
 #: en_US.x64.Release.ControlEvent-2.idtx:12
-#, fuzzy
 msgid "Removing"
-msgstr "מסיר ערכים מקבצי INI"
+msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:13
 #: en_US.Win32.Release.ControlEvent-2.idtx:13
 #: en_US.x64.Debug.ControlEvent-2.idtx:13
 #: en_US.x64.Release.ControlEvent-2.idtx:13
-#, fuzzy
 msgid "Removal"
-msgstr "ההסרה הושלמה בהצלחה."
+msgstr ""
 
 #: en_US.Win32.Debug.Dialog-2.idtx:4 en_US.Win32.Release.Dialog-2.idtx:4
 #: en_US.x64.Debug.Dialog-2.idtx:4 en_US.x64.Release.Dialog-2.idtx:4
@@ -581,9 +569,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Property-2.idtx:4 en_US.Win32.Release.Property-2.idtx:4
 #: en_US.x64.Debug.Property-2.idtx:4 en_US.x64.Release.Property-2.idtx:4
-#, fuzzy
 msgid "Installing"
-msgstr "לא נמצאו מוצרים מותקנים תואמים במחשב המיועד להתקנת מוצר זה."
+msgstr ""
 
 #: en_US.Win32.Debug.Property-2.idtx:5 en_US.Win32.Debug.Property-2.idtx:6
 #: en_US.Win32.Release.Property-2.idtx:5 en_US.Win32.Release.Property-2.idtx:6
@@ -599,24 +586,19 @@ msgstr ""
 
 #: en_US.Win32.Debug.Property-2.idtx:8 en_US.Win32.Release.Property-2.idtx:8
 #: en_US.x64.Debug.Property-2.idtx:8 en_US.x64.Release.Property-2.idtx:8
-#, fuzzy
 msgid "Custom Installation"
-msgstr "ההתקנה נכשלה."
+msgstr ""
 
 #: en_US.Win32.Debug.Property-2.idtx:9 en_US.Win32.Release.Property-2.idtx:9
 #: en_US.x64.Debug.Property-2.idtx:9 en_US.x64.Release.Property-2.idtx:9
-#, fuzzy
 msgid "&Install Now"
-msgstr "הותקן [2]"
+msgstr ""
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:4
 #: en_US.Win32.Release.RadioButton-2.idtx:4
 #: en_US.x64.Debug.RadioButton-2.idtx:4 en_US.x64.Release.RadioButton-2.idtx:4
-#, fuzzy
 msgid "&Modify"
 msgstr ""
-"עדכון משתנה הסביבה '[2]' לא הצליח. ודא כי יש לך הרשאות מתאימות לשינוי משתני "
-"סביבה."
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:4
 #: en_US.Win32.Release.RadioButton-2.idtx:4
@@ -641,11 +623,8 @@ msgstr ""
 #: en_US.Win32.Debug.RadioButton-2.idtx:6
 #: en_US.Win32.Release.RadioButton-2.idtx:6
 #: en_US.x64.Debug.RadioButton-2.idtx:6 en_US.x64.Release.RadioButton-2.idtx:6
-#, fuzzy
 msgid "&Remove"
 msgstr ""
-"עליך להיות מנהל על מנת להסיר ישום זה. להסרת ישום זה, הכנס לרשת כמנהל, או פנה "
-"אל צוות התמיכה הטכנית שלך לעזרה."
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:6
 #: en_US.Win32.Release.RadioButton-2.idtx:6
@@ -665,11 +644,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:7 en_US.Win32.Release.UIText-2.idtx:7
 #: en_US.x64.Debug.UIText-2.idtx:7 en_US.x64.Release.UIText-2.idtx:7
-#, fuzzy
 msgid "KB"
 msgstr ""
-"לא היתה אפשרות להגדיל את שטח הרישום הזמין. ‎[2] KB של שטח רישום פנוי דרושים "
-"להתקנת יישום זה."
 
 #: en_US.Win32.Debug.UIText-2.idtx:8 en_US.Win32.Release.UIText-2.idtx:8
 #: en_US.x64.Debug.UIText-2.idtx:8 en_US.x64.Release.UIText-2.idtx:8
@@ -862,13 +838,8 @@ msgstr "זמן נותר: {[1] דקות }{[2] שניות}"
 
 #: en_US.Win32.Debug.UIText-2.idtx:50 en_US.Win32.Release.UIText-2.idtx:50
 #: en_US.x64.Debug.UIText-2.idtx:50 en_US.x64.Release.UIText-2.idtx:50
-#, fuzzy
 msgid "Available"
 msgstr ""
-"אין מספיק שטח דיסק פנוי באמצעי האחסון '[2]' על מנת להתקין עם אפשרות החזרה "
-"למצב קודם. שטח דרוש: ‎[3] KB, אך פנוי רק: ‎[4] KB. לחץ על 'התעלם' כדי להמשיך "
-"ללא אפשרות שמירת מידע על חזרה למצב קודם. לחץ 'נסה שנית' כדי לבדוק שוב את שטח "
-"הדיסק הפנוי, או לחץ על 'ביטול' כדי לצאת מההתקנה."
 
 #: en_US.Win32.Debug.UIText-2.idtx:51 en_US.Win32.Release.UIText-2.idtx:51
 #: en_US.x64.Debug.UIText-2.idtx:51 en_US.x64.Release.UIText-2.idtx:51
@@ -877,11 +848,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:52 en_US.Win32.Release.UIText-2.idtx:52
 #: en_US.x64.Debug.UIText-2.idtx:52 en_US.x64.Release.UIText-2.idtx:52
-#, fuzzy
 msgid "Required"
 msgstr ""
-"קובץ נדרש לא ניתן להתקנה מכיוון שקובץ cabinet [2] אינו חתום בחתימה דיגיטלית. "
-"זה יכול להצביע על כך שקובץ ה-cabinet פגום."
 
 #: en_US.Win32.Debug.UIText-2.idtx:53 en_US.Win32.Release.UIText-2.idtx:53
 #: en_US.x64.Debug.UIText-2.idtx:53 en_US.x64.Release.UIText-2.idtx:53
@@ -890,8 +858,5 @@ msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:54 en_US.Win32.Release.UIText-2.idtx:54
 #: en_US.x64.Debug.UIText-2.idtx:54 en_US.x64.Release.UIText-2.idtx:54
-#, fuzzy
 msgid "Volume"
 msgstr ""
-"אין דיסק בכונן [2]. נא הכנס דיסק ולחץ על נסה שנית, או לחץ על ביטול כדי לחזור "
-"אל אמצעי האחסון הקודם שנבחר."

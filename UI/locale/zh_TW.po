@@ -1,19 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSMBuild UI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-04 14:39+0200\n"
+"POT-Creation-Date: 2016-09-19 11:23+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: zh_TW\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2018\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/amebis/teams/91604/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
-"X-Generator: Poedit 1.8.9\n"
+"Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: en_US.Win32.Debug.Control-2.idtx:4 en_US.Win32.Debug.Control-2.idtx:8
 #: en_US.Win32.Debug.Control-2.idtx:12 en_US.Win32.Debug.Control-2.idtx:19
@@ -83,12 +87,8 @@ msgstr ""
 #: en_US.x64.Debug.Control-2.idtx:11 en_US.x64.Debug.Control-2.idtx:18
 #: en_US.x64.Debug.Control-2.idtx:23 en_US.x64.Release.Control-2.idtx:11
 #: en_US.x64.Release.Control-2.idtx:18 en_US.x64.Release.Control-2.idtx:23
-#, fuzzy
 msgid "&Continue"
 msgstr ""
-"磁碟區 '[2]' 的空間不足，無法繼續執行復原。還需要 [3] KB，但磁碟上只有 [4] "
-"KB。請按 \"略過\" 來跳過儲存復原資訊並繼續執行安裝。或按 \"重試\" 重新檢查可"
-"用的磁碟空間。或按 \"取消\" 來結束安裝。"
 
 #: en_US.Win32.Debug.Control-2.idtx:13 en_US.Win32.Release.Control-2.idtx:13
 #: en_US.x64.Debug.Control-2.idtx:13 en_US.x64.Release.Control-2.idtx:13
@@ -102,7 +102,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:14 en_US.Win32.Release.Control-2.idtx:14
 #: en_US.x64.Debug.Control-2.idtx:14 en_US.x64.Release.Control-2.idtx:14
-msgid "Installs the most common program features. Recommended for most users.|"
+msgid ""
+"Installs the most common program features. Recommended for most users.|"
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:15 en_US.Win32.Release.Control-2.idtx:15
@@ -133,13 +134,13 @@ msgstr ""
 msgid ""
 "Although, 32-bit variant should work with your operating system, this "
 "program is also available as 64-bit variant, which is more appropriate for "
-"your operating system. The installation of the 64-bit variant is recommended."
+"your operating system. The installation of the 64-bit variant is "
+"recommended."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:20 en_US.Win32.Release.Control-2.idtx:20
 #: en_US.x64.Debug.Control-2.idtx:17 en_US.x64.Release.Control-2.idtx:17
-msgid ""
-"[DlgTitleFont]Click \"Next\" to resume [SimpleProductName] installation."
+msgid "[DlgTitleFont]Click \"Next\" to resume [SimpleProductName] installation."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:23 en_US.Win32.Release.Control-2.idtx:23
@@ -212,9 +213,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:41 en_US.Win32.Release.Control-2.idtx:41
 #: en_US.x64.Debug.Control-2.idtx:38 en_US.x64.Release.Control-2.idtx:38
-#, fuzzy
 msgid "Folder:"
-msgstr "檔案: [1], 資料夾: [2]"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:44 en_US.Win32.Release.Control-2.idtx:44
 #: en_US.x64.Debug.Control-2.idtx:41 en_US.x64.Release.Control-2.idtx:41
@@ -279,17 +279,15 @@ msgstr ""
 #: en_US.Win32.Release.Control-2.idtx:52 en_US.Win32.Release.Control-2.idtx:63
 #: en_US.x64.Debug.Control-2.idtx:49 en_US.x64.Debug.Control-2.idtx:60
 #: en_US.x64.Release.Control-2.idtx:49 en_US.x64.Release.Control-2.idtx:60
-#, fuzzy
 msgid "Create A New Folder|"
-msgstr "正在建立資料夾"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:54 en_US.Win32.Debug.Control-2.idtx:65
 #: en_US.Win32.Release.Control-2.idtx:54 en_US.Win32.Release.Control-2.idtx:65
 #: en_US.x64.Debug.Control-2.idtx:51 en_US.x64.Debug.Control-2.idtx:62
 #: en_US.x64.Release.Control-2.idtx:51 en_US.x64.Release.Control-2.idtx:62
-#, fuzzy
 msgid "&Folder:"
-msgstr "檔案: [1], 資料夾: [2]"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:56 en_US.Win32.Debug.Control-2.idtx:67
 #: en_US.Win32.Debug.Control-2.idtx:96 en_US.Win32.Release.Control-2.idtx:56
@@ -311,10 +309,8 @@ msgstr ""
 #: en_US.x64.Release.Control-2.idtx:54 en_US.x64.Release.Control-2.idtx:65
 #: en_US.x64.Release.Control-2.idtx:94 en_US.x64.Release.Control-2.idtx:97
 #: en_US.x64.Release.Control-2.idtx:106
-#, fuzzy
 msgid "Cancel"
 msgstr ""
-"無法建立檔案 '[2]'。同名的目錄已經存在，取消安裝然後嘗試安裝至別的位置。"
 
 #: en_US.Win32.Debug.Control-2.idtx:59 en_US.Win32.Release.Control-2.idtx:59
 #: en_US.x64.Debug.Control-2.idtx:56 en_US.x64.Release.Control-2.idtx:56
@@ -323,9 +319,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:70 en_US.Win32.Release.Control-2.idtx:70
 #: en_US.x64.Debug.Control-2.idtx:67 en_US.x64.Release.Control-2.idtx:67
-#, fuzzy
 msgid "[DlgTitleFont]Disk Space Requirements"
-msgstr "計算所需空間"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:71 en_US.Win32.Debug.Control-2.idtx:76
 #: en_US.Win32.Debug.Control-2.idtx:81 en_US.Win32.Release.Control-2.idtx:71
@@ -339,7 +334,8 @@ msgstr ""
 #: en_US.Win32.Debug.Control-2.idtx:72 en_US.Win32.Debug.Control-2.idtx:77
 #: en_US.Win32.Debug.Control-2.idtx:112 en_US.Win32.Debug.Control-2.idtx:117
 #: en_US.Win32.Debug.Control-2.idtx:122 en_US.Win32.Release.Control-2.idtx:72
-#: en_US.Win32.Release.Control-2.idtx:77 en_US.Win32.Release.Control-2.idtx:112
+#: en_US.Win32.Release.Control-2.idtx:77
+#: en_US.Win32.Release.Control-2.idtx:112
 #: en_US.Win32.Release.Control-2.idtx:117
 #: en_US.Win32.Release.Control-2.idtx:122 en_US.x64.Debug.Control-2.idtx:69
 #: en_US.x64.Debug.Control-2.idtx:74 en_US.x64.Debug.Control-2.idtx:109
@@ -362,18 +358,18 @@ msgstr ""
 #: en_US.x64.Debug.Control-2.idtx:72 en_US.x64.Debug.Control-2.idtx:77
 #: en_US.x64.Release.Control-2.idtx:72 en_US.x64.Release.Control-2.idtx:77
 msgid ""
-"The highlighted volumes (if any) do not have enough disk space available for "
-"the currently selected features. You can either remove some files from the "
-"highlighted volumes, or choose to install less features onto local drive(s), "
-"or select different destination drive(s)."
+"The highlighted volumes (if any) do not have enough disk space available for"
+" the currently selected features. You can either remove some files from the "
+"highlighted volumes, or choose to install less features onto local drive(s),"
+" or select different destination drive(s)."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:82 en_US.Win32.Release.Control-2.idtx:82
 #: en_US.x64.Debug.Control-2.idtx:79 en_US.x64.Release.Control-2.idtx:79
 msgid ""
 "Alternatively, you may choose to disable the installer's rollback "
-"functionality. This allows the installer to restore your computer's original "
-"state should the installation be interrupted in any way. Click Yes if you "
+"functionality. This allows the installer to restore your computer's original"
+" state should the installation be interrupted in any way. Click Yes if you "
 "wish to take the risk to disable rollback."
 msgstr ""
 
@@ -421,9 +417,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:91 en_US.Win32.Release.Control-2.idtx:91
 #: en_US.x64.Debug.Control-2.idtx:88 en_US.x64.Release.Control-2.idtx:88
-#, fuzzy
 msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-msgstr "您確定要取消嗎 ?"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:95 en_US.Win32.Release.Control-2.idtx:95
 #: en_US.x64.Debug.Control-2.idtx:92 en_US.x64.Release.Control-2.idtx:92
@@ -435,11 +430,8 @@ msgstr ""
 #: en_US.Win32.Release.Control-2.idtx:107 en_US.x64.Debug.Control-2.idtx:98
 #: en_US.x64.Debug.Control-2.idtx:104 en_US.x64.Release.Control-2.idtx:98
 #: en_US.x64.Release.Control-2.idtx:104
-#, fuzzy
 msgid "&Retry"
 msgstr ""
-"寫入安裝資訊至磁碟時發生錯誤，確定磁碟的空間足夠，並按 \"重試\"，或按 \"取消"
-"\" 來結束安裝。"
 
 #: en_US.Win32.Debug.Control-2.idtx:102 en_US.Win32.Debug.Control-2.idtx:108
 #: en_US.Win32.Release.Control-2.idtx:102
@@ -482,8 +474,8 @@ msgstr ""
 #: en_US.Win32.Debug.Control-2.idtx:116 en_US.Win32.Release.Control-2.idtx:116
 #: en_US.x64.Debug.Control-2.idtx:113 en_US.x64.Release.Control-2.idtx:113
 msgid ""
-"If you interrupted the installation by accident, please run the installation "
-"again."
+"If you interrupted the installation by accident, please run the installation"
+" again."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:119 en_US.Win32.Release.Control-2.idtx:119
@@ -500,7 +492,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:121 en_US.Win32.Release.Control-2.idtx:121
 #: en_US.x64.Debug.Control-2.idtx:118 en_US.x64.Release.Control-2.idtx:118
-msgid "Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
+msgid ""
+"Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
 msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:4
@@ -510,9 +503,8 @@ msgstr ""
 #: en_US.x64.Debug.ControlEvent-2.idtx:4 en_US.x64.Debug.ControlEvent-2.idtx:5
 #: en_US.x64.Release.ControlEvent-2.idtx:4
 #: en_US.x64.Release.ControlEvent-2.idtx:5
-#, fuzzy
 msgid "Determining required space for installation..."
-msgstr "正在蒐集必要的資訊..."
+msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:6
 #: en_US.Win32.Release.ControlEvent-2.idtx:6
@@ -560,17 +552,15 @@ msgstr ""
 #: en_US.Win32.Release.ControlEvent-2.idtx:12
 #: en_US.x64.Debug.ControlEvent-2.idtx:12
 #: en_US.x64.Release.ControlEvent-2.idtx:12
-#, fuzzy
 msgid "Removing"
-msgstr "正在移除 INI 檔案"
+msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:13
 #: en_US.Win32.Release.ControlEvent-2.idtx:13
 #: en_US.x64.Debug.ControlEvent-2.idtx:13
 #: en_US.x64.Release.ControlEvent-2.idtx:13
-#, fuzzy
 msgid "Removal"
-msgstr "已成功移除。"
+msgstr ""
 
 #: en_US.Win32.Debug.Dialog-2.idtx:4 en_US.Win32.Release.Dialog-2.idtx:4
 #: en_US.x64.Debug.Dialog-2.idtx:4 en_US.x64.Release.Dialog-2.idtx:4
@@ -579,9 +569,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Property-2.idtx:4 en_US.Win32.Release.Property-2.idtx:4
 #: en_US.x64.Debug.Property-2.idtx:4 en_US.x64.Release.Property-2.idtx:4
-#, fuzzy
 msgid "Installing"
-msgstr "無法找到先前安裝在這台機器上的產品。"
+msgstr ""
 
 #: en_US.Win32.Debug.Property-2.idtx:5 en_US.Win32.Debug.Property-2.idtx:6
 #: en_US.Win32.Release.Property-2.idtx:5 en_US.Win32.Release.Property-2.idtx:6
@@ -597,22 +586,19 @@ msgstr ""
 
 #: en_US.Win32.Debug.Property-2.idtx:8 en_US.Win32.Release.Property-2.idtx:8
 #: en_US.x64.Debug.Property-2.idtx:8 en_US.x64.Release.Property-2.idtx:8
-#, fuzzy
 msgid "Custom Installation"
-msgstr "安裝失敗。"
+msgstr ""
 
 #: en_US.Win32.Debug.Property-2.idtx:9 en_US.Win32.Release.Property-2.idtx:9
 #: en_US.x64.Debug.Property-2.idtx:9 en_US.x64.Release.Property-2.idtx:9
-#, fuzzy
 msgid "&Install Now"
-msgstr "已安裝 [2]"
+msgstr ""
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:4
 #: en_US.Win32.Release.RadioButton-2.idtx:4
 #: en_US.x64.Debug.RadioButton-2.idtx:4 en_US.x64.Release.RadioButton-2.idtx:4
-#, fuzzy
 msgid "&Modify"
-msgstr "無法更新環境變數 '[2]'。請確認您是否有足夠權限。"
+msgstr ""
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:4
 #: en_US.Win32.Release.RadioButton-2.idtx:4
@@ -637,11 +623,8 @@ msgstr ""
 #: en_US.Win32.Debug.RadioButton-2.idtx:6
 #: en_US.Win32.Release.RadioButton-2.idtx:6
 #: en_US.x64.Debug.RadioButton-2.idtx:6 en_US.x64.Release.RadioButton-2.idtx:6
-#, fuzzy
 msgid "&Remove"
 msgstr ""
-"您必須是系統管理員才能移除這個應用程式。您可以用系統管理員身分登入來移除程"
-"式，或連絡您的技術支援人員來協助您。"
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:6
 #: en_US.Win32.Release.RadioButton-2.idtx:6
@@ -661,9 +644,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:7 en_US.Win32.Release.UIText-2.idtx:7
 #: en_US.x64.Debug.UIText-2.idtx:7 en_US.x64.Release.UIText-2.idtx:7
-#, fuzzy
 msgid "KB"
-msgstr "無法增加可用的登錄空間。此應用程式須要 [2] KB 以上的空間。"
+msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:8 en_US.Win32.Release.UIText-2.idtx:8
 #: en_US.x64.Debug.UIText-2.idtx:8 en_US.x64.Release.UIText-2.idtx:8
@@ -856,12 +838,8 @@ msgstr "剩餘時間: {[1] 分 }{[2] 秒}"
 
 #: en_US.Win32.Debug.UIText-2.idtx:50 en_US.Win32.Release.UIText-2.idtx:50
 #: en_US.x64.Debug.UIText-2.idtx:50 en_US.x64.Release.UIText-2.idtx:50
-#, fuzzy
 msgid "Available"
 msgstr ""
-"磁碟區 '[2]' 的空間不足，無法繼續執行復原。還需要 [3] KB，但磁碟上只有 [4] "
-"KB。請按 \"略過\" 來跳過儲存復原資訊並繼續執行安裝。或按 \"重試\" 重新檢查可"
-"用的磁碟空間。或按 \"取消\" 來結束安裝。"
 
 #: en_US.Win32.Debug.UIText-2.idtx:51 en_US.Win32.Release.UIText-2.idtx:51
 #: en_US.x64.Debug.UIText-2.idtx:51 en_US.x64.Release.UIText-2.idtx:51
@@ -870,11 +848,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:52 en_US.Win32.Release.UIText-2.idtx:52
 #: en_US.x64.Debug.UIText-2.idtx:52 en_US.x64.Release.UIText-2.idtx:52
-#, fuzzy
 msgid "Required"
 msgstr ""
-"有一個必需的檔案無法安裝，因為壓縮檔 [2] 並未經過數位簽署。可能是壓縮檔已經損"
-"毀。"
 
 #: en_US.Win32.Debug.UIText-2.idtx:53 en_US.Win32.Release.UIText-2.idtx:53
 #: en_US.x64.Debug.UIText-2.idtx:53 en_US.x64.Release.UIText-2.idtx:53
@@ -883,8 +858,5 @@ msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:54 en_US.Win32.Release.UIText-2.idtx:54
 #: en_US.x64.Debug.UIText-2.idtx:54 en_US.x64.Release.UIText-2.idtx:54
-#, fuzzy
 msgid "Volume"
 msgstr ""
-"磁碟機 [2] 中沒有磁片，請插入磁片然後重試，或按 \"取消\" 回到上次選取的磁碟機"
-"代號。"

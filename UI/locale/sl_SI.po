@@ -1,20 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSMBuild UI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-04 14:39+0200\n"
+"POT-Creation-Date: 2016-09-19 11:23+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: sl_SI\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2018\n"
+"Language-Team: Slovenian (Slovenia) (https://www.transifex.com/amebis/teams/91604/sl_SI/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
+"Language: sl_SI\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Poedit 1.8.9\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: en_US.Win32.Debug.Control-2.idtx:4 en_US.Win32.Debug.Control-2.idtx:8
 #: en_US.Win32.Debug.Control-2.idtx:12 en_US.Win32.Debug.Control-2.idtx:19
@@ -101,7 +104,8 @@ msgstr "[DlgTitleFont][ButtonTextInstall] "
 
 #: en_US.Win32.Debug.Control-2.idtx:14 en_US.Win32.Release.Control-2.idtx:14
 #: en_US.x64.Debug.Control-2.idtx:14 en_US.x64.Release.Control-2.idtx:14
-msgid "Installs the most common program features. Recommended for most users.|"
+msgid ""
+"Installs the most common program features. Recommended for most users.|"
 msgstr ""
 "Namesti najbolj običajne dele programa. Primerno za večino uporabnikov.|"
 
@@ -135,17 +139,17 @@ msgstr ""
 msgid ""
 "Although, 32-bit variant should work with your operating system, this "
 "program is also available as 64-bit variant, which is more appropriate for "
-"your operating system. The installation of the 64-bit variant is recommended."
+"your operating system. The installation of the 64-bit variant is "
+"recommended."
 msgstr ""
-"32-bitna različica programa bo sicer delovala na vašem operacijskem sistemu, "
-"toda ta program je na voljo tudi v 64-bitni različici, ki je primernejša za "
-"vaš operacijski sistem. Priporočamo, da namestite raje 64-bitno različico "
+"32-bitna različica programa bo sicer delovala na vašem operacijskem sistemu,"
+" toda ta program je na voljo tudi v 64-bitni različici, ki je primernejša za"
+" vaš operacijski sistem. Priporočamo, da namestite raje 64-bitno različico "
 "tega programa."
 
 #: en_US.Win32.Debug.Control-2.idtx:20 en_US.Win32.Release.Control-2.idtx:20
 #: en_US.x64.Debug.Control-2.idtx:17 en_US.x64.Release.Control-2.idtx:17
-msgid ""
-"[DlgTitleFont]Click \"Next\" to resume [SimpleProductName] installation."
+msgid "[DlgTitleFont]Click \"Next\" to resume [SimpleProductName] installation."
 msgstr ""
 "[DlgTitleFont]Kliknite »Nadaljuj« za nadaljevanje namestitve programa "
 "[SimpleProductName]."
@@ -348,7 +352,8 @@ msgstr "{60}{60}{60}{60}{60}"
 #: en_US.Win32.Debug.Control-2.idtx:72 en_US.Win32.Debug.Control-2.idtx:77
 #: en_US.Win32.Debug.Control-2.idtx:112 en_US.Win32.Debug.Control-2.idtx:117
 #: en_US.Win32.Debug.Control-2.idtx:122 en_US.Win32.Release.Control-2.idtx:72
-#: en_US.Win32.Release.Control-2.idtx:77 en_US.Win32.Release.Control-2.idtx:112
+#: en_US.Win32.Release.Control-2.idtx:77
+#: en_US.Win32.Release.Control-2.idtx:112
 #: en_US.Win32.Release.Control-2.idtx:117
 #: en_US.Win32.Release.Control-2.idtx:122 en_US.x64.Debug.Control-2.idtx:69
 #: en_US.x64.Debug.Control-2.idtx:74 en_US.x64.Debug.Control-2.idtx:109
@@ -371,10 +376,10 @@ msgstr "[DlgTitleFont]Premalo prostora"
 #: en_US.x64.Debug.Control-2.idtx:72 en_US.x64.Debug.Control-2.idtx:77
 #: en_US.x64.Release.Control-2.idtx:72 en_US.x64.Release.Control-2.idtx:77
 msgid ""
-"The highlighted volumes (if any) do not have enough disk space available for "
-"the currently selected features. You can either remove some files from the "
-"highlighted volumes, or choose to install less features onto local drive(s), "
-"or select different destination drive(s)."
+"The highlighted volumes (if any) do not have enough disk space available for"
+" the currently selected features. You can either remove some files from the "
+"highlighted volumes, or choose to install less features onto local drive(s),"
+" or select different destination drive(s)."
 msgstr ""
 "Označeni pogoni (če obstajajo) nimajo dovolj prostora za trenutno izbrane "
 "dele. Lahko sprostite nekaj prostora na izbranih pogonih, izberete manj "
@@ -384,8 +389,8 @@ msgstr ""
 #: en_US.x64.Debug.Control-2.idtx:79 en_US.x64.Release.Control-2.idtx:79
 msgid ""
 "Alternatively, you may choose to disable the installer's rollback "
-"functionality. This allows the installer to restore your computer's original "
-"state should the installation be interrupted in any way. Click Yes if you "
+"functionality. This allows the installer to restore your computer's original"
+" state should the installation be interrupted in any way. Click Yes if you "
 "wish to take the risk to disable rollback."
 msgstr ""
 "Lahko se odločite, da onemogočite možnost obnovitve prvotnega stanja. "
@@ -503,8 +508,8 @@ msgstr ""
 #: en_US.Win32.Debug.Control-2.idtx:116 en_US.Win32.Release.Control-2.idtx:116
 #: en_US.x64.Debug.Control-2.idtx:113 en_US.x64.Release.Control-2.idtx:113
 msgid ""
-"If you interrupted the installation by accident, please run the installation "
-"again."
+"If you interrupted the installation by accident, please run the installation"
+" again."
 msgstr "Če ste namestitev prekinili pomotoma, jo ponovno poženite."
 
 #: en_US.Win32.Debug.Control-2.idtx:119 en_US.Win32.Release.Control-2.idtx:119
@@ -526,7 +531,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:121 en_US.Win32.Release.Control-2.idtx:121
 #: en_US.x64.Debug.Control-2.idtx:118 en_US.x64.Release.Control-2.idtx:118
-msgid "Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
+msgid ""
+"Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
 msgstr ""
 "Prosimo, poskusite ponovno ali se obrnite na [Manufacturer] (tel. "
 "[ARPHELPTELEPHONE])."
@@ -569,7 +575,6 @@ msgstr "Spreminjam"
 msgid "Modification"
 msgstr "Sprememba"
 
-# This text will be a replacement for [Progress1].
 #: en_US.Win32.Debug.ControlEvent-2.idtx:10
 #: en_US.Win32.Release.ControlEvent-2.idtx:10
 #: en_US.x64.Debug.ControlEvent-2.idtx:10
@@ -584,7 +589,6 @@ msgstr "Obnavljam"
 msgid "Repair"
 msgstr "Obnova"
 
-# This text will be a replacement for [Progress1].
 #: en_US.Win32.Debug.ControlEvent-2.idtx:12
 #: en_US.Win32.Release.ControlEvent-2.idtx:12
 #: en_US.x64.Debug.ControlEvent-2.idtx:12
@@ -604,7 +608,6 @@ msgstr "Odstranitev"
 msgid "Installer Information"
 msgstr "Obvestilo namestitvenega programa"
 
-# This text will be a replacement for [Progress1].
 #: en_US.Win32.Debug.Property-2.idtx:4 en_US.Win32.Release.Property-2.idtx:4
 #: en_US.x64.Debug.Property-2.idtx:4 en_US.x64.Release.Property-2.idtx:4
 msgid "Installing"
@@ -617,7 +620,6 @@ msgstr "Nameščam"
 msgid "Setup"
 msgstr "Namestitev"
 
-# This text will be a replacement for [Wizard].
 #: en_US.Win32.Debug.Property-2.idtx:7 en_US.Win32.Release.Property-2.idtx:7
 #: en_US.x64.Debug.Property-2.idtx:7 en_US.x64.Release.Property-2.idtx:7
 msgid "Setup Wizard"

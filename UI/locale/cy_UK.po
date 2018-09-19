@@ -6,13 +6,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-19 11:23+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon@rozman.si>, 2018\n"
-"Language-Team: Romanian (Romania) (https://www.transifex.com/amebis/teams/91604/ro_RO/)\n"
+"Language-Team: Welsh (https://www.transifex.com/amebis/teams/91604/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ro_RO\n"
-"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"Language: cy\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
 "X-Generator: Poedit 1.8.9\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __\n"
@@ -700,7 +699,7 @@ msgstr ""
 #: en_US.Win32.Debug.UIText-2.idtx:18 en_US.Win32.Release.UIText-2.idtx:18
 #: en_US.x64.Debug.UIText-2.idtx:18 en_US.x64.Release.UIText-2.idtx:18
 msgid "Gathering required information..."
-msgstr "Colectare informaþii solicitate..."
+msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:19 en_US.Win32.Release.UIText-2.idtx:19
 #: en_US.x64.Debug.UIText-2.idtx:19 en_US.x64.Release.UIText-2.idtx:19
@@ -834,7 +833,7 @@ msgstr ""
 #: en_US.Win32.Debug.UIText-2.idtx:49 en_US.Win32.Release.UIText-2.idtx:49
 #: en_US.x64.Debug.UIText-2.idtx:49 en_US.x64.Release.UIText-2.idtx:49
 msgid "Time remaining: {[1] minutes }{[2] seconds}"
-msgstr "Timp rãmas: {[1] minute }{[2] secunde}"
+msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:50 en_US.Win32.Release.UIText-2.idtx:50
 #: en_US.x64.Debug.UIText-2.idtx:50 en_US.x64.Release.UIText-2.idtx:50

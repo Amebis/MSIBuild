@@ -1,1415 +1,2051 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-13 22:27+0200\n"
+"POT-Creation-Date: 2017-02-02 18:14+0100\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: \n"
-"Language: uk_UA\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2018\n"
+"Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/amebis/teams/91604/uk_UA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.2\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
-#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Debug.ActionText-2.idtx:39
-#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Debug.ActionText-2.idtx:53
-#: En.Win32.Release.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:39
-#: En.Win32.Release.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:53
-#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Debug.ActionText-2.idtx:39
-#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Debug.ActionText-2.idtx:53
-#: En.x64.Release.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:39
-#: En.x64.Release.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:53
-msgid "[1]"
-msgstr "[1]"
-
-#: En.Win32.Debug.Error-2.idtx:105 En.Win32.Release.Error-2.idtx:105
-#: En.x64.Debug.Error-2.idtx:105 En.x64.Release.Error-2.idtx:105
-msgid "[2] cannot install one of its required products. Contact your technical support group.  {{System Error: [3].}}"
-msgstr "Не вдається установити один із потрібних для [2] продуктів. Зверніться до групи технічної підтримки.  {{Системна помилка: [3].}}"
-
-#: En.Win32.Debug.Error-2.idtx:55 En.Win32.Release.Error-2.idtx:55
-#: En.x64.Debug.Error-2.idtx:55 En.x64.Release.Error-2.idtx:55
-msgid "'[2]' is not a valid short file name."
-msgstr "''[2]'' не є припустимим коротким ім'ям файлу."
-
-#: En.Win32.Debug.Error-2.idtx:13 En.Win32.Release.Error-2.idtx:13
-#: En.x64.Debug.Error-2.idtx:13 En.x64.Release.Error-2.idtx:13
-msgid "[SimpleProductName]"
-msgstr "[SimpleProductName]"
-
-#: En.Win32.Debug.Error-2.idtx:14 En.Win32.Release.Error-2.idtx:14
-#: En.x64.Debug.Error-2.idtx:14 En.x64.Release.Error-2.idtx:14
-msgid "{[2]}{, [3]}{, [4]}"
-msgstr "{[2]}{, [3]}{, [4]}"
-
-#: En.Win32.Debug.Error-2.idtx:28 En.Win32.Release.Error-2.idtx:28
-#: En.x64.Debug.Error-2.idtx:28 En.x64.Release.Error-2.idtx:28
-msgid "{[SimpleProductName] }Setup completed successfully."
-msgstr "{[SimpleProductName] }Установку завершено успішно."
-
-#: En.Win32.Debug.Error-2.idtx:29 En.Win32.Release.Error-2.idtx:29
-#: En.x64.Debug.Error-2.idtx:29 En.x64.Release.Error-2.idtx:29
-msgid "{[SimpleProductName] }Setup failed."
-msgstr "{[SimpleProductName] }Установку не виконано."
-
-#: En.Win32.Debug.Error-2.idtx:11 En.Win32.Release.Error-2.idtx:11
-#: En.x64.Debug.Error-2.idtx:11 En.x64.Release.Error-2.idtx:11
-msgid "{{Disk full: }}"
-msgstr "{{На диску немає місця: }}"
-
-#: En.Win32.Debug.Error-2.idtx:5 En.Win32.Release.Error-2.idtx:5
-#: En.x64.Debug.Error-2.idtx:5 En.x64.Release.Error-2.idtx:5
-msgid "{{Error [1]. }}"
-msgstr "{{Помилка [1]. }}"
-
-#: En.Win32.Debug.Error-2.idtx:4 En.Win32.Release.Error-2.idtx:4
-#: En.x64.Debug.Error-2.idtx:4 En.x64.Release.Error-2.idtx:4
-msgid "{{Fatal error: }}"
-msgstr "{{Критична помилка: }}"
-
-#: En.Win32.Debug.Error-2.idtx:16 En.Win32.Release.Error-2.idtx:16
-#: En.x64.Debug.Error-2.idtx:16 En.x64.Release.Error-2.idtx:16
-msgid "=== Logging started: [Date]  [Time] ==="
-msgstr "=== Запис до журналу розпочато: [Date] о [Time] ==="
-
-#: En.Win32.Debug.Error-2.idtx:17 En.Win32.Release.Error-2.idtx:17
-#: En.x64.Debug.Error-2.idtx:17 En.x64.Release.Error-2.idtx:17
-msgid "=== Logging stopped: [Date]  [Time] ==="
-msgstr "=== Запис до журналу зупинено: [Date] о [Time] ==="
-
-#: En.Win32.Debug.ActionText-2.idtx:3 En.Win32.Debug.CustomAction-2.idtx:3
-#: En.Win32.Debug.Error-2.idtx:3 En.Win32.Release.ActionText-2.idtx:3
-#: En.Win32.Release.CustomAction-2.idtx:3 En.Win32.Release.Error-2.idtx:3
-#: En.x64.Debug.ActionText-2.idtx:3 En.x64.Debug.CustomAction-2.idtx:3
-#: En.x64.Debug.Error-2.idtx:3 En.x64.Release.ActionText-2.idtx:3
-#: En.x64.Release.CustomAction-2.idtx:3 En.x64.Release.Error-2.idtx:3
-msgid "1252"
-msgstr "1251"
-
-#: En.Win32.Debug.Error-2.idtx:171 En.Win32.Release.Error-2.idtx:171
-#: En.x64.Debug.Error-2.idtx:171 En.x64.Release.Error-2.idtx:171
-msgid "64-bit registry operation attempted on 32-bit operating system for key [2]."
-msgstr ""
-
-#: En.Win32.Debug.Error-2.idtx:60 En.Win32.Release.Error-2.idtx:60
-#: En.x64.Debug.Error-2.idtx:60 En.x64.Release.Error-2.idtx:60
-msgid "A file that is required cannot be installed because the cabinet file [2] has an invalid digital signature.  This may indicate that the cabinet file is corrupt.{{  Error [3] was returned by WinVerifyTrust.}}"
-msgstr "Не вдається установити потрібний файл, оскільки CAB-файл [2]  має неправильний цифровий підпис. Можливо, CAB-файл пошкоджено.{{  Помилку [3] повернув WinVerifyTrust.}}"
-
-#: En.Win32.Debug.Error-2.idtx:59 En.Win32.Release.Error-2.idtx:59
-#: En.x64.Debug.Error-2.idtx:59 En.x64.Release.Error-2.idtx:59
-msgid "A file that is required cannot be installed because the cabinet file [2] is not digitally signed.  This may indicate that the cabinet file is corrupt."
-msgstr "Не вдається установити потрібний файл, оскільки CAB-файл [2] не має цифрового підпису. Можливо, CAB-файл пошкоджено."
-
-#: En.Win32.Debug.Error-2.idtx:48 En.Win32.Release.Error-2.idtx:48
-#: En.x64.Debug.Error-2.idtx:48 En.x64.Release.Error-2.idtx:48
-msgid "A network error occurred while attempting to create the directory: [2]"
-msgstr "Сталася мережна помилка при спробі створити каталог: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:49 En.Win32.Release.Error-2.idtx:49
-#: En.x64.Debug.Error-2.idtx:49 En.x64.Release.Error-2.idtx:49
-msgid "A network error occurred while attempting to open the source file cabinet: [2]"
-msgstr "Сталася мережна помилка при спробі відкрити CAB-файл із вихідними файлами: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:46 En.Win32.Release.Error-2.idtx:46
-#: En.x64.Debug.Error-2.idtx:46 En.x64.Release.Error-2.idtx:46
-msgid "A network error occurred while attempting to read from the file: [2]"
-msgstr "Сталася мережна помилка при спробі прочитати з файлу: [2]"
-
-#: En.Win32.Debug.CustomAction-2.idtx:5 En.Win32.Release.CustomAction-2.idtx:5
-#: En.x64.Debug.CustomAction-2.idtx:4 En.x64.Release.CustomAction-2.idtx:4
-msgid "A newer version of [SimpleProductName] is already installed."
-msgstr ""
-
-#: En.Win32.Debug.Error-2.idtx:52 En.Win32.Release.Error-2.idtx:52
-#: En.x64.Debug.Error-2.idtx:52 En.x64.Release.Error-2.idtx:52
-msgid "A portion of the folder path '[2]' is invalid.  It is either empty or exceeds the length allowed by the system."
-msgstr "Частина шляху до папки ''[2]'' неправильна - або пуста, або перевищує граничну довжину, дозволену системою."
-
-#: En.Win32.Debug.Error-2.idtx:97 En.Win32.Release.Error-2.idtx:97
-#: En.x64.Debug.Error-2.idtx:97 En.x64.Release.Error-2.idtx:97
-msgid "A previous installation for this product is in progress.  You must undo the changes made by that installation to continue.  Do you want to undo those changes?"
-msgstr "Не завершено попередню установку програми. Щоб продовжити, необхідно скасувати зміни, зроблені програмою установки. Скасувати їх?"
-
-#: En.Win32.Debug.Error-2.idtx:132 En.Win32.Release.Error-2.idtx:132
-#: En.x64.Debug.Error-2.idtx:132 En.x64.Release.Error-2.idtx:132
-msgid "A valid destination folder for the install could not be determined."
-msgstr "Не вдається визначити кінцеву папку для установки."
-
-#: En.Win32.Debug.Error-2.idtx:12 En.Win32.Release.Error-2.idtx:12
-#: En.x64.Debug.Error-2.idtx:12 En.x64.Release.Error-2.idtx:12
-msgid "Action [Time]: [1]. [2]"
-msgstr "Дія [Time]: [1]. [2]"
-
-#: En.Win32.Debug.Error-2.idtx:19 En.Win32.Release.Error-2.idtx:19
-#: En.x64.Debug.Error-2.idtx:19 En.x64.Release.Error-2.idtx:19
-msgid "Action ended [Time]: [1]. Return value [2]."
-msgstr "Дію завершено о [Time]: [1]. Повернуто значення [2]."
-
-#: En.Win32.Debug.Error-2.idtx:18 En.Win32.Release.Error-2.idtx:18
-#: En.x64.Debug.Error-2.idtx:18 En.x64.Release.Error-2.idtx:18
-msgid "Action start [Time]: [1]."
-msgstr "Дію почато [Time]: [1]."
-
-#: En.Win32.Debug.Error-2.idtx:118 En.Win32.Release.Error-2.idtx:118
-#: En.x64.Debug.Error-2.idtx:118 En.x64.Release.Error-2.idtx:118
-msgid "Advertisement completed successfully."
-msgstr "Оголошення успішно завершено."
-
-#: En.Win32.Debug.Error-2.idtx:119 En.Win32.Release.Error-2.idtx:119
-#: En.x64.Debug.Error-2.idtx:119 En.x64.Release.Error-2.idtx:119
-msgid "Advertisement failed."
-msgstr "Оголошення не виконано."
-
-#: En.Win32.Debug.ActionText-2.idtx:4 En.Win32.Release.ActionText-2.idtx:4
-#: En.x64.Debug.ActionText-2.idtx:4 En.x64.Release.ActionText-2.idtx:4
+#: en_US.Win32.Debug.ActionText-2.idtx:4
+#: en_US.Win32.Release.ActionText-2.idtx:4 en_US.x64.Debug.ActionText-2.idtx:4
+#: en_US.x64.Release.ActionText-2.idtx:4
 msgid "Advertising application"
 msgstr "Поширення відомостей про додаток"
 
-#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
-#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+#: en_US.Win32.Debug.ActionText-2.idtx:5
+#: en_US.Win32.Release.ActionText-2.idtx:5 en_US.x64.Debug.ActionText-2.idtx:5
+#: en_US.x64.Release.ActionText-2.idtx:5
 msgid "Allocating registry space"
 msgstr "Виділення місця в реєстрі"
 
-#: En.Win32.Debug.Error-2.idtx:170 En.Win32.Release.Error-2.idtx:170
-#: En.x64.Debug.Error-2.idtx:170 En.x64.Release.Error-2.idtx:170
-msgid "An error occurred during the installation of assembly '[6]'. One or more modules of the assembly could not be found. {{HRESULT: [3]. assembly interface: [4], function: [5], component: [2]}}"
-msgstr "Сталася помилка під час установки зібрання ''[6]''. Не вдалося знайти один або декілька модулів у цьому зібранні. HRESULT: [3]. {{інтерфейс зібрання: [4], функція: [5], компонент: [2]}}"
-
-#: En.Win32.Debug.Error-2.idtx:167 En.Win32.Release.Error-2.idtx:167
-#: En.x64.Debug.Error-2.idtx:167 En.x64.Release.Error-2.idtx:167
-msgid "An error occurred during the installation of assembly '[6]'. Please refer to Help and Support for more information. {{HRESULT: [3]. assembly interface: [4], function: [5], component: [2]}}"
-msgstr "Сталася помилка під час установки зібрання ''[6]''. Додаткові відомості можна знайти в центрі довідки та підтримки. HRESULT: [3]. {{інтерфейс зібрання: [4], функція: [5], компонент: [2]}}"
-
-#: En.Win32.Debug.Error-2.idtx:168 En.Win32.Release.Error-2.idtx:168
-#: En.x64.Debug.Error-2.idtx:168 En.x64.Release.Error-2.idtx:168
-msgid "An error occurred during the installation of assembly '[6]'. The assembly is not strongly named or is not signed with the minimal key length. {{HRESULT: [3]. assembly interface: [4], function: [5], component: [2]}}"
-msgstr "Сталася помилка під час установки зібрання ''[6]''. Зібрання має неправильне ім'я або не підписане ключем мінімальної довжини. HRESULT: [3]. {{інтерфейс зібрання: [4], функція: [5], компонент: [2]}}"
-
-#: En.Win32.Debug.Error-2.idtx:169 En.Win32.Release.Error-2.idtx:169
-#: En.x64.Debug.Error-2.idtx:169 En.x64.Release.Error-2.idtx:169
-msgid "An error occurred during the installation of assembly '[6]'. The signature or catalog could not be verified or is not valid. {{HRESULT: [3]. assembly interface: [4], function: [5], component: [2]}}"
-msgstr "Сталася помилка під час установки зібрання ''[6]''. Підпис або каталог непридатний для перевірки або недійсний. HRESULT: [3]. {{інтерфейс зібрання: [4], функція: [5], компонент: [2]}}"
-
-#: En.Win32.Debug.Error-2.idtx:89 En.Win32.Release.Error-2.idtx:89
-#: En.x64.Debug.Error-2.idtx:89 En.x64.Release.Error-2.idtx:89
-msgid "An error occurred while applying security settings. [2] is not a valid user or group. This could be a problem with the package, or a problem connecting to a domain controller on the network. Check your network connection and click Retry, or Cancel to end the install. {{Unable to locate the user's SID, system error [3]}}"
-msgstr "Сталася помилка під час застосування параметрів безпеки. [2] не є чинним користувачем або групою. Можливо, є неполадка в пакеті або помилка зв'язку з контролером домену в мережі. Перевірте мережне підключення та натисніть кнопку ''Повторити'', або кнопку ''Скасувати'', щоб припинити установку. {{Неможливо знайти ідентифікатор безпеки користувача, системна помилка [3]}}"
-
-#: En.Win32.Debug.Error-2.idtx:47 En.Win32.Release.Error-2.idtx:47
-#: En.x64.Debug.Error-2.idtx:47 En.x64.Release.Error-2.idtx:47
-msgid "An error occurred while attempting to create the directory: [2]"
-msgstr "Сталася помилка при спробі створити каталог: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:103 En.Win32.Release.Error-2.idtx:103
-#: En.x64.Debug.Error-2.idtx:103 En.x64.Release.Error-2.idtx:103
-msgid "An error occurred while writing installation information to disk.  Check to make sure enough disk space is available, and click Retry, or Cancel to end the install."
-msgstr "Помилка під час запису відомостей про установку на диск. Перевірте наявність вільного місця на диску та натисніть кнопку ''Повторити'' або натисніть кнопку ''Скасувати'', щоб перервати установку."
-
-#: En.Win32.Debug.Error-2.idtx:96 En.Win32.Release.Error-2.idtx:96
-#: En.x64.Debug.Error-2.idtx:96 En.x64.Release.Error-2.idtx:96
-msgid "An installation for [2] is currently suspended.  You must undo the changes made by that installation to continue.  Do you want to undo those changes?"
-msgstr "Установку програми [2] призупинено. Щоб продовжити, необхідно скасувати зміни, зроблені програмою установки. Скасувати їх?"
-
-#: En.Win32.Debug.Error-2.idtx:98 En.Win32.Release.Error-2.idtx:98
-#: En.x64.Debug.Error-2.idtx:98 En.x64.Release.Error-2.idtx:98
-msgid "An installation package for the product [2] cannot be found. Try the installation again using a valid copy of the installation package '[3]'."
-msgstr "Не вдається знайти установчий пакет для продукту [2]. Повторіть спробу установки з чинною копією установчого пакета '[3]'."
-
-#: En.Win32.Debug.Error-2.idtx:36 En.Win32.Release.Error-2.idtx:36
-#: En.x64.Debug.Error-2.idtx:36 En.x64.Release.Error-2.idtx:36
-msgid "Another application has exclusive access to the file '[2]'.  Please shut down all other applications, then click Retry."
-msgstr "Інший додаток відкрив файл ''[2]'' у режимі монопольного доступу. Закрийте всі інші додатки та натисніть кнопку ''Повторити''."
-
-#: En.Win32.Debug.Error-2.idtx:77 En.Win32.Release.Error-2.idtx:77
-#: En.x64.Debug.Error-2.idtx:77 En.x64.Release.Error-2.idtx:77
-msgid "Another installation is in progress. You must complete that installation before continuing this one."
-msgstr "Одночасно триває інший процес установки. Необхідно закінчити його перед тим, як продовжити установку."
-
-#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
-#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
-msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
-msgstr "AppId: [1]{{, AppType: [2], Користувачі: [3], RSN: [4]}}"
-
-#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
-#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
-msgid "AppId: [1]{{, AppType: [2]}}"
-msgstr "AppId: [1]{{, AppType: [2]}}"
-
-#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Debug.ActionText-2.idtx:28
-#: En.Win32.Release.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:28
-#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Debug.ActionText-2.idtx:28
-#: En.x64.Release.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:28
-msgid "Application Context:[1], Assembly Name:[2]"
-msgstr "Контекст додатка:[1], ім'я зібрання:[2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
-#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
-msgid "Application: [1]"
-msgstr "Додаток: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
-#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
-msgid "Application: [1], Command line: [2]"
-msgstr "Додаток: [1], Командний рядок: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:82 En.Win32.Release.Error-2.idtx:82
-#: En.x64.Debug.Error-2.idtx:82 En.x64.Release.Error-2.idtx:82
-msgid "Are you sure you want to cancel?"
-msgstr "Ви дійсно бажаєте скасувати установку?"
-
-#: En.Win32.Debug.ActionText-2.idtx:7 En.Win32.Release.ActionText-2.idtx:7
-#: En.x64.Debug.ActionText-2.idtx:7 En.x64.Release.ActionText-2.idtx:7
-msgid "Binding executables"
-msgstr "Прив'язка виконуваних файлів"
-
-#: En.Win32.Debug.Error-2.idtx:42 En.Win32.Release.Error-2.idtx:42
-#: En.x64.Debug.Error-2.idtx:42 En.x64.Release.Error-2.idtx:42
-msgid "Cannot create the directory '[2]'.  A file with this name already exists.  Please rename or remove the file and click retry, or click Cancel to exit."
-msgstr "Не вдається створити каталог ''[2]''. Файл із таким ім'ям уже існує. Перейменуйте або видаліть цей файл і натисніть кнопку ''Повторити'' або натисніть кнопку ''Скасувати'', щоб перервати установку."
-
-#: En.Win32.Debug.Error-2.idtx:31 En.Win32.Release.Error-2.idtx:31
-#: En.x64.Debug.Error-2.idtx:31 En.x64.Release.Error-2.idtx:31
-msgid "Cannot create the file '[2]'.  A directory with this name already exists.  Cancel the install and try installing to a different location."
-msgstr "Не вдається створити файл ''[2]''.  Каталог із цим файлом уже існує. Скасуйте установку та спробуйте виконати її в іншому місці."
-
-#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Debug.ActionText-2.idtx:64
-#: En.Win32.Release.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:64
-#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Debug.ActionText-2.idtx:64
-#: En.x64.Release.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:64
-msgid "Class Id: [1]"
-msgstr "Код класу: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Debug.ActionText-2.idtx:61
-#: En.Win32.Release.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:61
-#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Debug.ActionText-2.idtx:61
-#: En.x64.Release.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:61
-msgid "Component ID: [1], Qualifier: [2]"
-msgstr "Код компонента: [1], описувач: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:159 En.Win32.Release.Error-2.idtx:159
-#: En.x64.Debug.Error-2.idtx:159 En.x64.Release.Error-2.idtx:159
-msgid "Component Services (COM+ 1.0) are not installed on this computer.  This installation requires Component Services in order to complete successfully.  Component Services are available on Windows 2000."
-msgstr "На цьому комп'ютері не установлено служби компонентів (COM+ 1.0).  Наявність служб компонентів необхідна для виконання установки.  Служби компонентів є у складі Windows 2000."
-
-#: En.Win32.Debug.ActionText-2.idtx:10 En.Win32.Debug.ActionText-2.idtx:15
-#: En.Win32.Debug.ActionText-2.idtx:9 En.Win32.Release.ActionText-2.idtx:10
-#: En.Win32.Release.ActionText-2.idtx:15 En.Win32.Release.ActionText-2.idtx:9
-#: En.x64.Debug.ActionText-2.idtx:10 En.x64.Debug.ActionText-2.idtx:15
-#: En.x64.Debug.ActionText-2.idtx:9 En.x64.Release.ActionText-2.idtx:10
-#: En.x64.Release.ActionText-2.idtx:15 En.x64.Release.ActionText-2.idtx:9
-msgid "Computing space requirements"
-msgstr "Обчислення потрібного дискового простору"
-
-#: En.Win32.Debug.Error-2.idtx:120 En.Win32.Release.Error-2.idtx:120
-#: En.x64.Debug.Error-2.idtx:120 En.x64.Release.Error-2.idtx:120
-msgid "Configuration completed successfully."
-msgstr "Настройку успішно завершено."
-
-#: En.Win32.Debug.Error-2.idtx:121 En.Win32.Release.Error-2.idtx:121
-#: En.x64.Debug.Error-2.idtx:121 En.x64.Release.Error-2.idtx:121
-msgid "Configuration failed."
-msgstr "Настройку не виконано."
-
-#: En.Win32.Debug.Error-2.idtx:108 En.Win32.Release.Error-2.idtx:108
-#: En.x64.Debug.Error-2.idtx:108 En.x64.Release.Error-2.idtx:108
-msgid "Configured [2]"
-msgstr "Налаштовано [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:18 En.Win32.Release.ActionText-2.idtx:18
-#: En.x64.Debug.ActionText-2.idtx:18 En.x64.Release.ActionText-2.idtx:18
-msgid "Copying network install files"
-msgstr "Копіювання файлів мережної установки"
-
-#: En.Win32.Debug.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:19
-#: En.x64.Debug.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:19
-msgid "Copying new files"
-msgstr "Копіювання нових файлів"
-
-#: En.Win32.Debug.Error-2.idtx:86 En.Win32.Release.Error-2.idtx:86
-#: En.x64.Debug.Error-2.idtx:86 En.x64.Release.Error-2.idtx:86
-msgid "Could not access network location [2]."
-msgstr "Недоступна мережна папка ''[2]''."
-
-#: En.Win32.Debug.Error-2.idtx:67 En.Win32.Release.Error-2.idtx:67
-#: En.x64.Debug.Error-2.idtx:67 En.x64.Release.Error-2.idtx:67
-msgid "Could not create key: [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
-msgstr "Не вдалося створити розділ: [2]. {{ Системна помилка [3].}}  Переконайтеся, що є доступ до цього розділу, або зверніться до адміністратора. "
-
-#: En.Win32.Debug.Error-2.idtx:141 En.Win32.Release.Error-2.idtx:141
-#: En.x64.Debug.Error-2.idtx:141 En.x64.Release.Error-2.idtx:141
-msgid "Could not create Shortcut [2]. Verify that the destination folder exists and that you can access it."
-msgstr "Не вдалося створити ярлик [2]. Переконайтеся, що кінцева папка існує та доступна."
-
-#: En.Win32.Debug.Error-2.idtx:70 En.Win32.Release.Error-2.idtx:70
-#: En.x64.Debug.Error-2.idtx:70 En.x64.Release.Error-2.idtx:70
-msgid "Could not delete key [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
-msgstr "Не вдалося видалити розділ [2]. {{ Системна помилка [3].}}  Переконайтеся, що є доступ до цього розділу, або зверніться до адміністратора. "
-
-#: En.Win32.Debug.Error-2.idtx:69 En.Win32.Release.Error-2.idtx:69
-#: En.x64.Debug.Error-2.idtx:69 En.x64.Release.Error-2.idtx:69
-msgid "Could not delete value [2] from key [3]. {{ System error [4].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
-msgstr "Не вдалося видалити значення [2] з розділу [3]. {{ Системна помилка [4].}}  Переконайтеся, що є доступ до цього розділу, або зверніться до адміністратора. "
-
-#: En.Win32.Debug.Error-2.idtx:88 En.Win32.Release.Error-2.idtx:88
-#: En.x64.Debug.Error-2.idtx:88 En.x64.Release.Error-2.idtx:88
-msgid "Could not find any previously installed compliant products on the machine for installing this product."
-msgstr "Не вдалося знайти установлені сумісні продукти для установки цього продукту."
-
-#: En.Win32.Debug.Error-2.idtx:74 En.Win32.Release.Error-2.idtx:74
-#: En.x64.Debug.Error-2.idtx:74 En.x64.Release.Error-2.idtx:74
-msgid "Could not get sub key names for key [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel."
-msgstr "Не вдалося отримати імена підрозділів із розділу [2]. {{ Системна помилка [3].}} Переконайтеся в наявності доступу до цього розділу або зверніться до служби підтримки."
-
-#: En.Win32.Debug.Error-2.idtx:73 En.Win32.Release.Error-2.idtx:73
-#: En.x64.Debug.Error-2.idtx:73 En.x64.Release.Error-2.idtx:73
-msgid "Could not get value names for key [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel."
-msgstr "Не вдалося отримати імена значень із розділу [2]. {{ Системна помилка [3].}} Переконайтеся в наявності доступу до цього розділу або зверніться до служби підтримки."
-
-#: En.Win32.Debug.Error-2.idtx:76 En.Win32.Release.Error-2.idtx:76
-#: En.x64.Debug.Error-2.idtx:76 En.x64.Release.Error-2.idtx:76
-msgid "Could not increase the available registry space. [2] KB of free registry space is required for the installation of this application."
-msgstr "Не вдається збільшити об'єм місця, відведеного для реєстру. Щоб установити додаток, потрібно [2] КБ вільного місця в реєстрі."
-
-#: En.Win32.Debug.Error-2.idtx:68 En.Win32.Release.Error-2.idtx:68
-#: En.x64.Debug.Error-2.idtx:68 En.x64.Release.Error-2.idtx:68
-msgid "Could not open key: [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
-msgstr "Не вдалося відкрити розділ: [2]. {{ Системна помилка [3].}}  Переконайтеся, що є доступ до цього розділу, або зверніться до адміністратора. "
-
-#: En.Win32.Debug.Error-2.idtx:75 En.Win32.Release.Error-2.idtx:75
-#: En.x64.Debug.Error-2.idtx:75 En.x64.Release.Error-2.idtx:75
-msgid "Could not read security information for key [2]. {{ System error [3].}}  Verify that you have sufficient access to that key, or contact your support personnel."
-msgstr "Не вдалося прочитати відомості про безпеку з розділу [2]. {{ Системна помилка [3].}} Переконайтеся в наявності доступу до цього розділу або зверніться до служби підтримки."
-
-#: En.Win32.Debug.Error-2.idtx:71 En.Win32.Release.Error-2.idtx:71
-#: En.x64.Debug.Error-2.idtx:71 En.x64.Release.Error-2.idtx:71
-msgid "Could not read value [2] from key [3]. {{ System error [4].}}  Verify that you have sufficient access to that key, or contact your support personnel. "
-msgstr "Не вдалося прочитати значення [2] з розділу [3]. {{ Системна помилка [4].}}  Переконайтеся, що є доступ до цього розділу, або зверніться до адміністратора. "
-
-#: En.Win32.Debug.Error-2.idtx:139 En.Win32.Release.Error-2.idtx:139
-#: En.x64.Debug.Error-2.idtx:139 En.x64.Release.Error-2.idtx:139
-msgid "Could not register font [2].  Verify that you have sufficient permissions to install fonts, and that the system supports this font."
-msgstr "Не вдалося зареєструвати шрифт [2].  Переконайтеся, що ви маєте належні права на установку шрифтів, і що система підтримує цей шрифт."
-
-#: En.Win32.Debug.Error-2.idtx:143 En.Win32.Release.Error-2.idtx:143
-#: En.x64.Debug.Error-2.idtx:143 En.x64.Release.Error-2.idtx:143
-msgid "Could not register type library for file [2].  Contact your support personnel."
-msgstr "Не вдалося зареєструвати бібліотеку типів для файлу [2]. Зверніться до служби підтримки."
-
-#: En.Win32.Debug.Error-2.idtx:142 En.Win32.Release.Error-2.idtx:142
-#: En.x64.Debug.Error-2.idtx:142 En.x64.Release.Error-2.idtx:142
-msgid "Could not remove Shortcut [2]. Verify that the shortcut file exists and that you can access it."
-msgstr "Не вдалося видалити ярлик [2]. Переконайтеся, що файл ярлика існує та доступний."
-
-#: En.Win32.Debug.Error-2.idtx:146 En.Win32.Release.Error-2.idtx:146
-#: En.x64.Debug.Error-2.idtx:146 En.x64.Release.Error-2.idtx:146
-msgid "Could not schedule file [2] to replace file [3] on reboot.  Verify that you have write permissions to file [3]."
-msgstr "Не вдалося забезпечити заміну файлу ''[3]'' на файл ''[2]'' під час перезавантаження. Переконайтеся в наявності дозволу на запис до файлу [3]."
-
-#: En.Win32.Debug.Error-2.idtx:158 En.Win32.Release.Error-2.idtx:158
-#: En.x64.Debug.Error-2.idtx:158 En.x64.Release.Error-2.idtx:158
-msgid "Could not set file security for file '[3]'. Error: [2].  Verify that you have sufficient privileges to modify the security permissions for this file."
-msgstr "Не вдається установити захист для файлу ''[3]''. Помилка: [2].  Переконайтеся, що ви маєте належні права на зміну дозволів на цей файл."
-
-#: En.Win32.Debug.Error-2.idtx:140 En.Win32.Release.Error-2.idtx:140
-#: En.x64.Debug.Error-2.idtx:140 En.x64.Release.Error-2.idtx:140
-msgid "Could not unregister font [2]. Verify that you that you have sufficient permissions to remove fonts."
-msgstr "Не вдалося скасувати реєстрацію шрифту [2]. Переконайтеся, що ви маєте належні права на видалення шрифтів."
-
-#: En.Win32.Debug.Error-2.idtx:144 En.Win32.Release.Error-2.idtx:144
-#: En.x64.Debug.Error-2.idtx:144 En.x64.Release.Error-2.idtx:144
-msgid "Could not unregister type library for file [2].  Contact your support personnel."
-msgstr "Не вдалося скасувати реєстрацію бібліотеки типів для файлу [2]. Зверніться до служби підтримки."
-
-#: En.Win32.Debug.Error-2.idtx:156 En.Win32.Release.Error-2.idtx:156
-#: En.x64.Debug.Error-2.idtx:156 En.x64.Release.Error-2.idtx:156
-msgid "Could not update environment variable '[2]'.  Verify that you have sufficient privileges to modify environment variables."
-msgstr "Не вдалося оновити змінну оточення ''[2]''. Переконайтеся в наявності належних прав для модифікації змінних оточення."
-
-#: En.Win32.Debug.Error-2.idtx:145 En.Win32.Release.Error-2.idtx:145
-#: En.x64.Debug.Error-2.idtx:145 En.x64.Release.Error-2.idtx:145
-msgid "Could not update the ini file [2][3].  Verify that the file exists and that you can access it."
-msgstr "Не вдалося оновити ini-файл [2][3]. Переконайтеся, що файл існує та доступний."
-
-#: En.Win32.Debug.Error-2.idtx:72 En.Win32.Release.Error-2.idtx:72
-#: En.x64.Debug.Error-2.idtx:72 En.x64.Release.Error-2.idtx:72
-msgid "Could not write value [2] to key [3]. {{ System error [4].}}  Verify that you have sufficient access to that key, or contact your support personnel."
-msgstr "Не вдалося записати значення [2] до розділу [3]. {{ Системна помилка [4].}} Переконайтеся в наявності доступу до цього розділу або зверніться до служби підтримки."
-
-#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Release.ActionText-2.idtx:14
-#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Release.ActionText-2.idtx:14
-msgid "Creating duplicate files"
-msgstr "Створення дублікатів файлів"
-
-#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:11
-#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:11
-msgid "Creating folders"
-msgstr "Створення папок"
-
-#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:12
-#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:12
-msgid "Creating shortcuts"
-msgstr "Створення ярликів"
-
-#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Release.ActionText-2.idtx:13
-#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Release.ActionText-2.idtx:13
-msgid "Deleting services"
-msgstr "Видалення служб"
-
-#: En.Win32.Debug.Error-2.idtx:78 En.Win32.Release.Error-2.idtx:78
-#: En.x64.Debug.Error-2.idtx:78 En.x64.Release.Error-2.idtx:78
-msgid "Error accessing secured data. Please make sure the Windows Installer is configured properly and try the install again."
-msgstr "Помилка при доступі до захищених даних. Переконайтеся, що Windows Installer правильно налаштовано, і повторіть спробу установки."
-
-#: En.Win32.Debug.Error-2.idtx:58 En.Win32.Release.Error-2.idtx:58
-#: En.x64.Debug.Error-2.idtx:58 En.x64.Release.Error-2.idtx:58
-msgid "Error applying patch to file [2].  It has probably been updated by other means, and can no longer be modified by this patch.  For more information contact your patch vendor.  {{System Error: [3]}}"
-msgstr "Помилка під час застосування латки до файлу [2].  Можливо, файл уже оновлено іншим чином, і ця латка не може змінити його. За відомостями зверніться до постачальника латки.  {{Системна помилка: [3]}}"
-
-#: En.Win32.Debug.Error-2.idtx:133 En.Win32.Release.Error-2.idtx:133
-#: En.x64.Debug.Error-2.idtx:133 En.x64.Release.Error-2.idtx:133
-msgid "Error attempting to read from the source install database: [2]."
-msgstr "Сталася помилка при спробі прочитати з вихідної бази даних установки: [2]."
-
-#: En.Win32.Debug.Error-2.idtx:151 En.Win32.Release.Error-2.idtx:151
-#: En.x64.Debug.Error-2.idtx:151 En.x64.Release.Error-2.idtx:151
-msgid "Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that the file [4] exists and that you can access it."
-msgstr "Не вдається налаштувати джерело даних ODBC: [4], помилка ODBC [2]: [3]. Переконайтеся, що файл ''[4]'' існує та доступний."
-
-#: En.Win32.Debug.Error-2.idtx:56 En.Win32.Release.Error-2.idtx:56
-#: En.x64.Debug.Error-2.idtx:56 En.x64.Release.Error-2.idtx:56
-msgid "Error getting file security: [3] GetLastError: [2]"
-msgstr "Помилка під час отримання атрибутів безпеки файлу: [3] GetLastError: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:148 En.Win32.Release.Error-2.idtx:148
-#: En.x64.Debug.Error-2.idtx:148 En.x64.Release.Error-2.idtx:148
-msgid "Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your support personnel."
-msgstr "Помилка при установці диспетчера драйверів ODBC, помилка ODBC [2]: [3]. Зверніться до служби підтримки."
-
-#: En.Win32.Debug.Error-2.idtx:150 En.Win32.Release.Error-2.idtx:150
-#: En.x64.Debug.Error-2.idtx:150 En.x64.Release.Error-2.idtx:150
-msgid "Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file [4] exists and that you can access it."
-msgstr "Помилка під час установки драйвера ODBC: [4], помилка ODBC [2]: [3]. Переконайтеся, що файл ''[4]'' існує та доступний."
-
-#: En.Win32.Debug.Error-2.idtx:35 En.Win32.Release.Error-2.idtx:35
-#: En.x64.Debug.Error-2.idtx:35 En.x64.Release.Error-2.idtx:35
-msgid "Error reading from file [2]. {{ System error [3].}} Verify that the file exists and that you can access it."
-msgstr "Помилка під час читання з файлу [2]. {{ Системна помилка [3].}} Переконайтеся, що файл існує та доступний."
-
-#: En.Win32.Debug.Error-2.idtx:30 En.Win32.Release.Error-2.idtx:30
-#: En.x64.Debug.Error-2.idtx:30 En.x64.Release.Error-2.idtx:30
-msgid "Error reading from file: [2]. {{ System error [3].}}  Verify that the file exists and that you can access it."
-msgstr "Помилка під час читання з файлу: [2]. {{ Системна помилка [3].}}  Переконайтеся, що файл існує та доступний."
-
-#: En.Win32.Debug.Error-2.idtx:39 En.Win32.Release.Error-2.idtx:39
-#: En.x64.Debug.Error-2.idtx:39 En.x64.Release.Error-2.idtx:39
-msgid "Error reading from file: [3]. {{ System error [2].}}  Verify that the file exists and that you can access it."
-msgstr "Помилка під час читання з файлу: [3]. {{ Системна помилка [2].}} Переконайтеся, що файл існує та доступний."
-
-#: En.Win32.Debug.Error-2.idtx:160 En.Win32.Release.Error-2.idtx:160
-#: En.x64.Debug.Error-2.idtx:160 En.x64.Release.Error-2.idtx:160
-msgid "Error registering COM+ Application.  Contact your support personnel for more information."
-msgstr "Помилка реєстрації додатка COM+.  Зверніться до служби підтримки за додатковими відомостями."
-
-#: En.Win32.Debug.Error-2.idtx:147 En.Win32.Release.Error-2.idtx:147
-#: En.x64.Debug.Error-2.idtx:147 En.x64.Release.Error-2.idtx:147
-msgid "Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your support personnel."
-msgstr "Не вдається видалити диспетчер драйверів ODBC, помилка ODBC [2]: [3]. Зверніться до служби підтримки."
-
-#: En.Win32.Debug.Error-2.idtx:149 En.Win32.Release.Error-2.idtx:149
-#: En.x64.Debug.Error-2.idtx:149 En.x64.Release.Error-2.idtx:149
-msgid "Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you have sufficient privileges to remove ODBC drivers."
-msgstr "Не вдається видалити драйвер ODBC: [4], помилка ODBC [2]: [3]. Переконайтеся в наявності належних прав для видалення драйверів ODBC."
-
-#: En.Win32.Debug.Error-2.idtx:161 En.Win32.Release.Error-2.idtx:161
-#: En.x64.Debug.Error-2.idtx:161 En.x64.Release.Error-2.idtx:161
-msgid "Error unregistering COM+ Application.  Contact your support personnel for more information."
-msgstr "Помилка скасування реєстрації додатка COM+.  Зверніться до служби підтримки за додатковими відомостями."
-
-#: En.Win32.Debug.Error-2.idtx:34 En.Win32.Release.Error-2.idtx:34
-#: En.x64.Debug.Error-2.idtx:34 En.x64.Release.Error-2.idtx:34
-msgid "Error writing to file: [2].  Verify that you have access to that directory."
-msgstr "Помилка під час запису до файлу: [2]. Переконайтеся в наявності доступу до цього каталогу."
-
-#: En.Win32.Debug.Error-2.idtx:40 En.Win32.Release.Error-2.idtx:40
-#: En.x64.Debug.Error-2.idtx:40 En.x64.Release.Error-2.idtx:40
-msgid "Error writing to file: [3]. {{ System error [2].}}  Verify that you have access to that directory."
-msgstr "Помилка під час запису до файлу: [3]. {{ Системна помилка [2].}} Переконайтеся в наявності доступу до цього каталогу."
-
-#: En.Win32.Debug.ActionText-2.idtx:24 En.Win32.Release.ActionText-2.idtx:24
-#: En.x64.Debug.ActionText-2.idtx:24 En.x64.Release.ActionText-2.idtx:24
-msgid "Evaluating launch conditions"
-msgstr "Перевірка умов запуску"
-
-#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Debug.ActionText-2.idtx:66
-#: En.Win32.Release.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:66
-#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Debug.ActionText-2.idtx:66
-#: En.x64.Release.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:66
-msgid "Extension: [1]"
-msgstr "Розширення: [1]"
-
-#: En.Win32.Debug.Error-2.idtx:138 En.Win32.Release.Error-2.idtx:138
-#: En.x64.Debug.Error-2.idtx:138 En.x64.Release.Error-2.idtx:138
-msgid "Failed to cache package [2]. Error: [3]. Contact your support personnel."
-msgstr "Помилка кешування пакета [2]. Помилка: [3]. Зверніться до служби підтримки."
-
-#: En.Win32.Debug.Error-2.idtx:61 En.Win32.Release.Error-2.idtx:61
-#: En.x64.Debug.Error-2.idtx:61 En.x64.Release.Error-2.idtx:61
-msgid "Failed to correctly copy [2] file: CRC error."
-msgstr "Не вдалося скопіювати файл [2]: помилка контрольної суми."
-
-#: En.Win32.Debug.Error-2.idtx:62 En.Win32.Release.Error-2.idtx:62
-#: En.x64.Debug.Error-2.idtx:62 En.x64.Release.Error-2.idtx:62
-msgid "Failed to correctly move [2] file: CRC error."
-msgstr "Не вдалося перемістити файл [2]: помилка контрольної суми."
-
-#: En.Win32.Debug.Error-2.idtx:63 En.Win32.Release.Error-2.idtx:63
-#: En.x64.Debug.Error-2.idtx:63 En.x64.Release.Error-2.idtx:63
-msgid "Failed to correctly patch [2] file: CRC error."
-msgstr "Не вдалося оновити файл [2]: помилка контрольної суми."
-
-#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Debug.ActionText-2.idtx:62
-#: En.Win32.Release.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:62
-#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Debug.ActionText-2.idtx:62
-#: En.x64.Release.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:62
-msgid "Feature: [1]"
-msgstr "Компонент: [1]"
-
-#: En.Win32.Debug.Error-2.idtx:110 En.Win32.Release.Error-2.idtx:110
-#: En.x64.Debug.Error-2.idtx:110 En.x64.Release.Error-2.idtx:110
-msgid "File [2] was rejected by digital signature policy."
-msgstr "Файл [2] відхилено політикою цифрових підписів."
-
-#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Debug.ActionText-2.idtx:7
-#: En.Win32.Release.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:7
-#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Debug.ActionText-2.idtx:7
-#: En.x64.Release.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:7
-msgid "File: [1]"
-msgstr "Файл: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
-#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
-msgid "File: [1],  Dependencies: [2]"
-msgstr "Файл: [1],  залежності: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
-#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
-msgid "File: [1],  Directory: [2],  Size: [3]"
-msgstr "Файл: [1],  каталог: [2],  розмір: [3]"
-
-#: En.Win32.Debug.ActionText-2.idtx:14 En.Win32.Debug.ActionText-2.idtx:19
-#: En.Win32.Debug.ActionText-2.idtx:26 En.Win32.Release.ActionText-2.idtx:14
-#: En.Win32.Release.ActionText-2.idtx:19 En.Win32.Release.ActionText-2.idtx:26
-#: En.x64.Debug.ActionText-2.idtx:14 En.x64.Debug.ActionText-2.idtx:19
-#: En.x64.Debug.ActionText-2.idtx:26 En.x64.Release.ActionText-2.idtx:14
-#: En.x64.Release.ActionText-2.idtx:19 En.x64.Release.ActionText-2.idtx:26
-msgid "File: [1],  Directory: [9],  Size: [6]"
-msgstr "Файл: [1], каталог: [9], розмір: [6]"
-
-#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Debug.ActionText-2.idtx:72
-#: En.Win32.Release.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:72
-#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Debug.ActionText-2.idtx:72
-#: En.x64.Release.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:72
-msgid "File: [1],  Section: [2],  Key: [3], Value: [4]"
-msgstr "Файл: [1],  розділ: [2],  запис: [3], значення: [4]"
-
-#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Debug.ActionText-2.idtx:46
-#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:43
-#: En.Win32.Release.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:60
-#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Debug.ActionText-2.idtx:46
-#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:43
-#: En.x64.Release.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:60
-msgid "File: [1], Directory: [9]"
-msgstr "Файл: [1], каталог: [9]"
-
-#: En.Win32.Debug.ActionText-2.idtx:18 En.Win32.Release.ActionText-2.idtx:18
-#: En.x64.Debug.ActionText-2.idtx:18 En.x64.Release.ActionText-2.idtx:18
-msgid "File: [1], Directory: [9], Size: [6]"
-msgstr "Файл: [1], каталог: [9], розмір: [6]"
-
-#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Debug.ActionText-2.idtx:56
-#: En.Win32.Release.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:56
-#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Debug.ActionText-2.idtx:56
-#: En.x64.Release.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:56
-msgid "File: [1], Folder: [2]"
-msgstr "Файл: [1], папка: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:11 En.Win32.Debug.ActionText-2.idtx:47
-#: En.Win32.Release.ActionText-2.idtx:11 En.Win32.Release.ActionText-2.idtx:47
-#: En.x64.Debug.ActionText-2.idtx:11 En.x64.Debug.ActionText-2.idtx:47
-#: En.x64.Release.ActionText-2.idtx:11 En.x64.Release.ActionText-2.idtx:47
-msgid "Folder: [1]"
-msgstr "Папка: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Debug.ActionText-2.idtx:67
-#: En.Win32.Release.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:67
-#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Debug.ActionText-2.idtx:67
-#: En.x64.Release.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:67
-msgid "Font: [1]"
-msgstr "Шрифт: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
-#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
-msgid "Found application: [1]"
-msgstr "Знайдено додаток: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:5 En.Win32.Release.ActionText-2.idtx:5
-#: En.x64.Debug.ActionText-2.idtx:5 En.x64.Release.ActionText-2.idtx:5
+#: en_US.Win32.Debug.ActionText-2.idtx:5
+#: en_US.Win32.Release.ActionText-2.idtx:5 en_US.x64.Debug.ActionText-2.idtx:5
+#: en_US.x64.Release.ActionText-2.idtx:5
 msgid "Free space: [1]"
 msgstr "Вільно: [1]"
 
-#: En.Win32.Debug.Error-2.idtx:25 En.Win32.Release.Error-2.idtx:25
-#: En.x64.Debug.Error-2.idtx:25 En.x64.Release.Error-2.idtx:25
-msgid "Gathering required information..."
-msgstr "Триває збір даних..."
-
-#: En.Win32.Debug.ActionText-2.idtx:17 En.Win32.Release.ActionText-2.idtx:17
-#: En.x64.Debug.ActionText-2.idtx:17 En.x64.Release.ActionText-2.idtx:17
-msgid "Generating script operations for action:"
-msgstr "Створення операцій сценарію для макрокоманди:"
-
-#: En.Win32.Debug.Error-2.idtx:124 En.Win32.Release.Error-2.idtx:124
-#: En.x64.Debug.Error-2.idtx:124 En.x64.Release.Error-2.idtx:124
-msgid "In order to complete the installation of [2], you must restart the computer. Other users are currently logged on to this computer, and restarting may cause them to lose their work. Do you want to restart now?"
-msgstr "Для завершення установки [2] необхідно перезавантажити комп'ютер. Можливо, на комп'ютері працюють інші користувачі, і перезавантаження призведе до втрати їх даних. Перезавантажити комп'ютер зараз?"
-
-#: En.Win32.Debug.Error-2.idtx:8 En.Win32.Release.Error-2.idtx:8
-#: En.x64.Debug.Error-2.idtx:8 En.x64.Release.Error-2.idtx:8
-msgid "Info [1]. "
-msgstr "Відомості [1]. "
-
-#: En.Win32.Debug.ActionText-2.idtx:57 En.Win32.Release.ActionText-2.idtx:57
-#: En.x64.Debug.ActionText-2.idtx:57 En.x64.Release.ActionText-2.idtx:57
-msgid "Initializing ODBC directories"
-msgstr "Ініціалізація каталогів ODBC"
-
-#: En.Win32.Debug.Error-2.idtx:99 En.Win32.Release.Error-2.idtx:99
-#: En.x64.Debug.Error-2.idtx:99 En.x64.Release.Error-2.idtx:99
-msgid "Installation completed successfully."
-msgstr "Установку успішно завершено."
-
-#: En.Win32.Debug.Error-2.idtx:100 En.Win32.Release.Error-2.idtx:100
-#: En.x64.Debug.Error-2.idtx:100 En.x64.Release.Error-2.idtx:100
-msgid "Installation failed."
-msgstr "Установку не виконано."
-
-#: En.Win32.Debug.Error-2.idtx:107 En.Win32.Release.Error-2.idtx:107
-#: En.x64.Debug.Error-2.idtx:107 En.x64.Release.Error-2.idtx:107
-msgid "Installed [2]"
-msgstr "Установлено [2]"
-
-#: En.Win32.Debug.Error-2.idtx:22 En.Win32.Release.Error-2.idtx:22
-#: En.x64.Debug.Error-2.idtx:22 En.x64.Release.Error-2.idtx:22
-msgid "Installer is no longer responding."
-msgstr "Програма установки не відповідає."
-
-#: En.Win32.Debug.Error-2.idtx:23 En.Win32.Release.Error-2.idtx:23
-#: En.x64.Debug.Error-2.idtx:23 En.x64.Release.Error-2.idtx:23
-msgid "Installer stopped prematurely."
-msgstr "Установник передчасно припинив роботу."
-
-#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
-#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
-msgid "Installing new services"
-msgstr "Установка нових служб"
-
-#: En.Win32.Debug.ActionText-2.idtx:20 En.Win32.Release.ActionText-2.idtx:20
-#: En.x64.Debug.ActionText-2.idtx:20 En.x64.Release.ActionText-2.idtx:20
-msgid "Installing ODBC components"
-msgstr "Установка компонентів ODBC"
-
-#: En.Win32.Debug.ActionText-2.idtx:22 En.Win32.Release.ActionText-2.idtx:22
-#: En.x64.Debug.ActionText-2.idtx:22 En.x64.Release.ActionText-2.idtx:22
-msgid "Installing system catalog"
-msgstr "Установка системного каталога"
-
-#: En.Win32.Debug.Error-2.idtx:57 En.Win32.Release.Error-2.idtx:57
-#: En.x64.Debug.Error-2.idtx:57 En.x64.Release.Error-2.idtx:57
-msgid "Invalid Drive: [2]"
-msgstr "Неприпустимий диск: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
-#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
-msgid "Key: [1], Name: [2]"
-msgstr "Розділ: [1], ім'я: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
-#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
-msgid "Key: [1], Name: [2], Value: [3]"
-msgstr "Розділ: [1], ім'я: [2], значення: [3]"
-
-#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Debug.ActionText-2.idtx:70
-#: En.Win32.Release.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:70
-#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Debug.ActionText-2.idtx:70
-#: En.x64.Release.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:70
-msgid "LibID: [1]"
-msgstr "LibID: [1]"
-
-#: En.Win32.Debug.Error-2.idtx:15 En.Win32.Release.Error-2.idtx:15
-#: En.x64.Debug.Error-2.idtx:15 En.x64.Release.Error-2.idtx:15
-msgid "Message type: [1], Argument: [2]{, [3]}"
-msgstr "Тип повідомлення: [1], аргумент: [2]{, [3]}"
-
-#: En.Win32.Debug.ActionText-2.idtx:25 En.Win32.Release.ActionText-2.idtx:25
-#: En.x64.Debug.ActionText-2.idtx:25 En.x64.Release.ActionText-2.idtx:25
-msgid "Migrating feature states from related applications"
-msgstr "Перенесення стану компонентів із доречних додатків"
-
-#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Debug.ActionText-2.idtx:68
-#: En.Win32.Release.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:68
-#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Debug.ActionText-2.idtx:68
-#: En.x64.Release.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:68
-msgid "MIME Content Type: [1], Extension: [2]"
-msgstr "Тип вмісту MIME: [1], розширення: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:136 En.Win32.Release.Error-2.idtx:136
-#: En.x64.Debug.Error-2.idtx:136 En.x64.Release.Error-2.idtx:136
-msgid "Module [2] failed to register.  HRESULT [3].  Contact your support personnel."
-msgstr "Не вдалося зареєструвати модуль [2]. HRESULT [3]. Зверніться до служби підтримки."
-
-#: En.Win32.Debug.Error-2.idtx:137 En.Win32.Release.Error-2.idtx:137
-#: En.x64.Debug.Error-2.idtx:137 En.x64.Release.Error-2.idtx:137
-msgid "Module [2] failed to unregister.  HRESULT [3].  Contact your support personnel."
-msgstr "Не вдалося скасувати реєстрацію модуля [2]. HRESULT [3]. Зверніться до служби підтримки."
-
-#: En.Win32.Debug.ActionText-2.idtx:26 En.Win32.Release.ActionText-2.idtx:26
-#: En.x64.Debug.ActionText-2.idtx:26 En.x64.Release.ActionText-2.idtx:26
-msgid "Moving files"
-msgstr "Переміщення файлів"
-
-#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
-#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
-#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
-#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
-msgid "Name: [1], Value: [2], Action [3]"
-msgstr "Ім'я: [1], значення: [2], дія [3]"
-
-#: En.Win32.Debug.Error-2.idtx:104 En.Win32.Release.Error-2.idtx:104
-#: En.x64.Debug.Error-2.idtx:104 En.x64.Release.Error-2.idtx:104
-msgid "One or more of the files required to restore your computer to its previous state could not be found.  Restoration will not be possible."
-msgstr "Не знайдено одного або декількох файлів, потрібних для відновлення вихідного стану комп'ютера. Відновлення неможливе."
-
-#: En.Win32.Debug.Error-2.idtx:81 En.Win32.Release.Error-2.idtx:81
-#: En.x64.Debug.Error-2.idtx:81 En.x64.Release.Error-2.idtx:81
-msgid "Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: [4] KB.  Free some disk space and retry."
-msgstr "Недостатньо місця на диску -- том: ''[2]''; потрібно: [3] КБ; доступно: [4] КБ.  Звільніть місце та повторіть спробу."
-
-#: En.Win32.Debug.Error-2.idtx:127 En.Win32.Debug.Error-2.idtx:21
-#: En.Win32.Release.Error-2.idtx:127 En.Win32.Release.Error-2.idtx:21
-#: En.x64.Debug.Error-2.idtx:127 En.x64.Debug.Error-2.idtx:21
-#: En.x64.Release.Error-2.idtx:127 En.x64.Release.Error-2.idtx:21
-msgid "Out of memory. Shut down other applications before retrying."
-msgstr "Недостатньо пам'яті. Закрийте інші додатки та повторіть спробу."
-
-#: En.Win32.Debug.ActionText-2.idtx:29 En.Win32.Release.ActionText-2.idtx:29
-#: En.x64.Debug.ActionText-2.idtx:29 En.x64.Release.ActionText-2.idtx:29
-msgid "Patching files"
-msgstr "Оновлення файлів"
-
-#: En.Win32.Debug.Error-2.idtx:32 En.Win32.Release.Error-2.idtx:32
-#: En.x64.Debug.Error-2.idtx:32 En.x64.Release.Error-2.idtx:32
-msgid "Please insert the disk: [2]"
-msgstr "Вставте диск: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:24 En.Win32.Release.Error-2.idtx:24
-#: En.x64.Debug.Error-2.idtx:24 En.x64.Release.Error-2.idtx:24
-msgid "Please wait while Windows configures [SimpleProductName]"
-msgstr "Зачекайте, поки Windows налаштує [SimpleProductName]"
-
-#: En.Win32.Debug.Error-2.idtx:27 En.Win32.Release.Error-2.idtx:27
-#: En.x64.Debug.Error-2.idtx:27 En.x64.Release.Error-2.idtx:27
-msgid "Preparing to remove older versions of this application..."
-msgstr "Підготовка до видалення старих версій цього додатка..."
-
-#: En.Win32.Debug.Error-2.idtx:101 En.Win32.Release.Error-2.idtx:101
-#: En.x64.Debug.Error-2.idtx:101 En.x64.Release.Error-2.idtx:101
-msgid "Product: [2] -- [3]"
-msgstr "Продукт: [2] -- [3]"
-
-#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Debug.ActionText-2.idtx:69
-#: En.Win32.Release.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:69
-#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Debug.ActionText-2.idtx:69
-#: En.x64.Release.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:69
-msgid "ProgId: [1]"
-msgstr "ProgId: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
-#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
-msgid "Property: [1], Signature: [2]"
-msgstr "Властивість: [1], підпис: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:27 En.Win32.Release.ActionText-2.idtx:27
-#: En.x64.Debug.ActionText-2.idtx:27 En.x64.Release.ActionText-2.idtx:27
-msgid "Publishing assembly information"
-msgstr "Публікація відомостей зібрання"
-
-#: En.Win32.Debug.ActionText-2.idtx:32 En.Win32.Release.ActionText-2.idtx:32
-#: En.x64.Debug.ActionText-2.idtx:32 En.x64.Release.ActionText-2.idtx:32
-msgid "Publishing Product Features"
-msgstr "Публікація компонентів продукту"
-
-#: En.Win32.Debug.ActionText-2.idtx:33 En.Win32.Release.ActionText-2.idtx:33
-#: En.x64.Debug.ActionText-2.idtx:33 En.x64.Release.ActionText-2.idtx:33
-msgid "Publishing product information"
-msgstr "Публікація відомостей про продукт"
-
-#: En.Win32.Debug.ActionText-2.idtx:31 En.Win32.Release.ActionText-2.idtx:31
-#: En.x64.Debug.ActionText-2.idtx:31 En.x64.Release.ActionText-2.idtx:31
-msgid "Publishing Qualified Components"
-msgstr "Публікація придатних компонентів"
-
-#: En.Win32.Debug.ActionText-2.idtx:34 En.Win32.Release.ActionText-2.idtx:34
-#: En.x64.Debug.ActionText-2.idtx:34 En.x64.Release.ActionText-2.idtx:34
-msgid "Registering Class servers"
-msgstr "Реєстрація серверів класів"
-
-#: En.Win32.Debug.ActionText-2.idtx:35 En.Win32.Release.ActionText-2.idtx:35
-#: En.x64.Debug.ActionText-2.idtx:35 En.x64.Release.ActionText-2.idtx:35
-msgid "Registering COM+ Applications and Components"
-msgstr "Реєстрація додатків і компонентів COM+"
-
-#: En.Win32.Debug.ActionText-2.idtx:36 En.Win32.Release.ActionText-2.idtx:36
-#: En.x64.Debug.ActionText-2.idtx:36 En.x64.Release.ActionText-2.idtx:36
-msgid "Registering extension servers"
-msgstr "Реєстрація серверів розширень"
-
-#: En.Win32.Debug.ActionText-2.idtx:37 En.Win32.Release.ActionText-2.idtx:37
-#: En.x64.Debug.ActionText-2.idtx:37 En.x64.Release.ActionText-2.idtx:37
-msgid "Registering fonts"
-msgstr "Реєстрація шрифтів"
-
-#: En.Win32.Debug.ActionText-2.idtx:38 En.Win32.Release.ActionText-2.idtx:38
-#: En.x64.Debug.ActionText-2.idtx:38 En.x64.Release.ActionText-2.idtx:38
-msgid "Registering MIME info"
-msgstr "Реєстрація даних MIME"
-
-#: En.Win32.Debug.ActionText-2.idtx:55 En.Win32.Release.ActionText-2.idtx:55
-#: En.x64.Debug.ActionText-2.idtx:55 En.x64.Release.ActionText-2.idtx:55
-msgid "Registering modules"
-msgstr "Реєстрація модулів"
-
-#: En.Win32.Debug.ActionText-2.idtx:39 En.Win32.Release.ActionText-2.idtx:39
-#: En.x64.Debug.ActionText-2.idtx:39 En.x64.Release.ActionText-2.idtx:39
-msgid "Registering product"
-msgstr "Реєстрація продукту"
-
-#: En.Win32.Debug.ActionText-2.idtx:40 En.Win32.Release.ActionText-2.idtx:40
-#: En.x64.Debug.ActionText-2.idtx:40 En.x64.Release.ActionText-2.idtx:40
-msgid "Registering program identifiers"
-msgstr "Реєстрація кодів програм"
-
-#: En.Win32.Debug.ActionText-2.idtx:41 En.Win32.Release.ActionText-2.idtx:41
-#: En.x64.Debug.ActionText-2.idtx:41 En.x64.Release.ActionText-2.idtx:41
-msgid "Registering type libraries"
-msgstr "Реєстрація бібліотек типів"
-
-#: En.Win32.Debug.ActionText-2.idtx:42 En.Win32.Release.ActionText-2.idtx:42
-#: En.x64.Debug.ActionText-2.idtx:42 En.x64.Release.ActionText-2.idtx:42
-msgid "Registering user"
-msgstr "Реєстрація користувача"
-
-#: En.Win32.Debug.Error-2.idtx:116 En.Win32.Release.Error-2.idtx:116
-#: En.x64.Debug.Error-2.idtx:116 En.x64.Release.Error-2.idtx:116
-msgid "Removal completed successfully."
-msgstr "Видалення успішно завершено."
-
-#: En.Win32.Debug.Error-2.idtx:117 En.Win32.Release.Error-2.idtx:117
-#: En.x64.Debug.Error-2.idtx:117 En.x64.Release.Error-2.idtx:117
-msgid "Removal failed."
-msgstr "Видалення не виконано."
-
-#: En.Win32.Debug.Error-2.idtx:109 En.Win32.Release.Error-2.idtx:109
-#: En.x64.Debug.Error-2.idtx:109 En.x64.Release.Error-2.idtx:109
-msgid "Removed [2]"
-msgstr "Видалено [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:45 En.Win32.Release.ActionText-2.idtx:45
-#: En.x64.Debug.ActionText-2.idtx:45 En.x64.Release.ActionText-2.idtx:45
-msgid "Removing applications"
-msgstr "Видалення додатків"
-
-#: En.Win32.Debug.ActionText-2.idtx:54 En.Win32.Release.ActionText-2.idtx:54
-#: En.x64.Debug.ActionText-2.idtx:54 En.x64.Release.ActionText-2.idtx:54
-msgid "Removing backup files"
-msgstr "Видалення тимчасових файлів"
-
-#: En.Win32.Debug.ActionText-2.idtx:43 En.Win32.Release.ActionText-2.idtx:43
-#: En.x64.Debug.ActionText-2.idtx:43 En.x64.Release.ActionText-2.idtx:43
-msgid "Removing duplicated files"
-msgstr "Видалення дублікатів файлів"
-
-#: En.Win32.Debug.ActionText-2.idtx:46 En.Win32.Release.ActionText-2.idtx:46
-#: En.x64.Debug.ActionText-2.idtx:46 En.x64.Release.ActionText-2.idtx:46
-msgid "Removing files"
-msgstr "Видалення файлів"
-
-#: En.Win32.Debug.ActionText-2.idtx:47 En.Win32.Release.ActionText-2.idtx:47
-#: En.x64.Debug.ActionText-2.idtx:47 En.x64.Release.ActionText-2.idtx:47
-msgid "Removing folders"
-msgstr "Видалення папок"
-
-#: En.Win32.Debug.ActionText-2.idtx:48 En.Win32.Release.ActionText-2.idtx:48
-#: En.x64.Debug.ActionText-2.idtx:48 En.x64.Release.ActionText-2.idtx:48
-msgid "Removing INI files entries"
-msgstr "Видалення записів INI-файлів"
-
-#: En.Win32.Debug.ActionText-2.idtx:60 En.Win32.Release.ActionText-2.idtx:60
-#: En.x64.Debug.ActionText-2.idtx:60 En.x64.Release.ActionText-2.idtx:60
-msgid "Removing moved files"
-msgstr "Видалення переміщених файлів"
-
-#: En.Win32.Debug.ActionText-2.idtx:49 En.Win32.Release.ActionText-2.idtx:49
-#: En.x64.Debug.ActionText-2.idtx:49 En.x64.Release.ActionText-2.idtx:49
-msgid "Removing ODBC components"
-msgstr "Видалення компонентів ODBC"
-
-#: En.Win32.Debug.Error-2.idtx:26 En.Win32.Release.Error-2.idtx:26
-#: En.x64.Debug.Error-2.idtx:26 En.x64.Release.Error-2.idtx:26
-msgid "Removing older versions of this application..."
-msgstr "Видалення старих версій цього додатка..."
-
-#: En.Win32.Debug.ActionText-2.idtx:51 En.Win32.Release.ActionText-2.idtx:51
-#: En.x64.Debug.ActionText-2.idtx:51 En.x64.Release.ActionText-2.idtx:51
-msgid "Removing shortcuts"
-msgstr "Видалення ярликів"
-
-#: En.Win32.Debug.ActionText-2.idtx:50 En.Win32.Release.ActionText-2.idtx:50
-#: En.x64.Debug.ActionText-2.idtx:50 En.x64.Release.ActionText-2.idtx:50
-msgid "Removing system registry values"
-msgstr "Видалення параметрів системного реєстру"
-
-#: En.Win32.Debug.ActionText-2.idtx:53 En.Win32.Release.ActionText-2.idtx:53
-#: En.x64.Debug.ActionText-2.idtx:53 En.x64.Release.ActionText-2.idtx:53
-msgid "Rolling back action:"
-msgstr "Скасування дії:"
-
-#: En.Win32.Debug.Error-2.idtx:135 En.Win32.Release.Error-2.idtx:135
-#: En.x64.Debug.Error-2.idtx:135 En.x64.Release.Error-2.idtx:135
-msgid "Scheduling reboot operation: Deleting file [2]. Must reboot to complete operation."
-msgstr "Планування операції, яка потребує перезавантаження: видалення файлу ''[2]''.  Операція завершиться лише після перезавантаження."
-
-#: En.Win32.Debug.Error-2.idtx:134 En.Win32.Release.Error-2.idtx:134
-#: En.x64.Debug.Error-2.idtx:134 En.x64.Release.Error-2.idtx:134
-msgid "Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to complete operation."
-msgstr "Планування операції, яка  потребує перезавантаження: перейменування файлу ''[2]'' на ''[3]''.  Операція завершиться лише після перезавантаження."
-
-#: En.Win32.Debug.ActionText-2.idtx:6 En.Win32.Release.ActionText-2.idtx:6
-#: En.x64.Debug.ActionText-2.idtx:6 En.x64.Release.ActionText-2.idtx:6
+#: en_US.Win32.Debug.ActionText-2.idtx:6
+#: en_US.Win32.Release.ActionText-2.idtx:6 en_US.x64.Debug.ActionText-2.idtx:6
+#: en_US.x64.Release.ActionText-2.idtx:6
 msgid "Searching for installed applications"
 msgstr "Пошук установлених додатків"
 
-#: En.Win32.Debug.ActionText-2.idtx:52 En.Win32.Debug.ActionText-2.idtx:8
-#: En.Win32.Release.ActionText-2.idtx:52 En.Win32.Release.ActionText-2.idtx:8
-#: En.x64.Debug.ActionText-2.idtx:52 En.x64.Debug.ActionText-2.idtx:8
-#: En.x64.Release.ActionText-2.idtx:52 En.x64.Release.ActionText-2.idtx:8
+#: en_US.Win32.Debug.ActionText-2.idtx:6
+#: en_US.Win32.Release.ActionText-2.idtx:6 en_US.x64.Debug.ActionText-2.idtx:6
+#: en_US.x64.Release.ActionText-2.idtx:6
+msgid "Property: [1], Signature: [2]"
+msgstr "Властивість: [1], підпис: [2]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:7
+#: en_US.Win32.Release.ActionText-2.idtx:7 en_US.x64.Debug.ActionText-2.idtx:7
+#: en_US.x64.Release.ActionText-2.idtx:7
+msgid "Binding executables"
+msgstr "Прив'язка виконуваних файлів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:7
+#: en_US.Win32.Debug.ActionText-2.idtx:54
+#: en_US.Win32.Release.ActionText-2.idtx:7
+#: en_US.Win32.Release.ActionText-2.idtx:54
+#: en_US.x64.Debug.ActionText-2.idtx:7 en_US.x64.Debug.ActionText-2.idtx:54
+#: en_US.x64.Release.ActionText-2.idtx:7
+#: en_US.x64.Release.ActionText-2.idtx:54
+msgid "File: [1]"
+msgstr "Файл: [1]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:8
+#: en_US.Win32.Debug.ActionText-2.idtx:52
+#: en_US.Win32.Release.ActionText-2.idtx:8
+#: en_US.Win32.Release.ActionText-2.idtx:52
+#: en_US.x64.Debug.ActionText-2.idtx:8 en_US.x64.Debug.ActionText-2.idtx:52
+#: en_US.x64.Release.ActionText-2.idtx:8
+#: en_US.x64.Release.ActionText-2.idtx:52
 msgid "Searching for qualifying products"
 msgstr "Пошук підхожих продуктів"
 
-#: En.Win32.Debug.ActionText-2.idtx:16 En.Win32.Release.ActionText-2.idtx:16
-#: En.x64.Debug.ActionText-2.idtx:16 En.x64.Release.ActionText-2.idtx:16
-msgid "Searching for related applications"
-msgstr "Пошук доречних додатків"
+#: en_US.Win32.Debug.ActionText-2.idtx:9
+#: en_US.Win32.Debug.ActionText-2.idtx:10
+#: en_US.Win32.Debug.ActionText-2.idtx:15
+#: en_US.Win32.Release.ActionText-2.idtx:9
+#: en_US.Win32.Release.ActionText-2.idtx:10
+#: en_US.Win32.Release.ActionText-2.idtx:15
+#: en_US.x64.Debug.ActionText-2.idtx:9 en_US.x64.Debug.ActionText-2.idtx:10
+#: en_US.x64.Debug.ActionText-2.idtx:15 en_US.x64.Release.ActionText-2.idtx:9
+#: en_US.x64.Release.ActionText-2.idtx:10
+#: en_US.x64.Release.ActionText-2.idtx:15
+msgid "Computing space requirements"
+msgstr "Обчислення потрібного дискового простору"
 
-#: En.Win32.Debug.Error-2.idtx:154 En.Win32.Release.Error-2.idtx:154
-#: En.x64.Debug.Error-2.idtx:154 En.x64.Release.Error-2.idtx:154
-msgid "Service '[2]' ([3]) could not be deleted.  Verify that you have sufficient privileges to remove system services."
-msgstr "Не вдалося видалити службу ''[2]'' ([3]). Переконайтеся в наявності належних прав для видалення системних служб."
+#: en_US.Win32.Debug.ActionText-2.idtx:11
+#: en_US.Win32.Release.ActionText-2.idtx:11
+#: en_US.x64.Debug.ActionText-2.idtx:11 en_US.x64.Release.ActionText-2.idtx:11
+msgid "Creating folders"
+msgstr "Створення папок"
 
-#: En.Win32.Debug.Error-2.idtx:155 En.Win32.Release.Error-2.idtx:155
-#: En.x64.Debug.Error-2.idtx:155 En.x64.Release.Error-2.idtx:155
-msgid "Service '[2]' ([3]) could not be installed.  Verify that you have sufficient privileges to install system services."
-msgstr "Не вдалося установити службу ''[2]'' ([3]). Переконайтеся в наявності належних прав для установки системних служб."
+#: en_US.Win32.Debug.ActionText-2.idtx:11
+#: en_US.Win32.Debug.ActionText-2.idtx:47
+#: en_US.Win32.Release.ActionText-2.idtx:11
+#: en_US.Win32.Release.ActionText-2.idtx:47
+#: en_US.x64.Debug.ActionText-2.idtx:11 en_US.x64.Debug.ActionText-2.idtx:47
+#: en_US.x64.Release.ActionText-2.idtx:11
+#: en_US.x64.Release.ActionText-2.idtx:47
+msgid "Folder: [1]"
+msgstr "Папка: [1]"
 
-#: En.Win32.Debug.Error-2.idtx:153 En.Win32.Release.Error-2.idtx:153
-#: En.x64.Debug.Error-2.idtx:153 En.x64.Release.Error-2.idtx:153
-msgid "Service '[2]' ([3]) could not be stopped.  Verify that you have sufficient privileges to stop system services."
-msgstr "Не вдалося зупинити службу ''[2]'' ([3]). Переконайтеся, що ви маєте належні права на зупинення системних служб."
+#: en_US.Win32.Debug.ActionText-2.idtx:12
+#: en_US.Win32.Release.ActionText-2.idtx:12
+#: en_US.x64.Debug.ActionText-2.idtx:12 en_US.x64.Release.ActionText-2.idtx:12
+msgid "Creating shortcuts"
+msgstr "Створення ярликів"
 
-#: En.Win32.Debug.Error-2.idtx:152 En.Win32.Release.Error-2.idtx:152
-#: En.x64.Debug.Error-2.idtx:152 En.x64.Release.Error-2.idtx:152
-msgid "Service '[2]' ([3]) failed to start.  Verify that you have sufficient privileges to start system services."
-msgstr "Не вдалося запустити службу ''[2]'' ([3]). Переконайтес, що ви маєте належні права на запуск системних служб."
-
-#: En.Win32.Debug.ActionText-2.idtx:13 En.Win32.Debug.ActionText-2.idtx:58
-#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:13
-#: En.Win32.Release.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:59
-#: En.x64.Debug.ActionText-2.idtx:13 En.x64.Debug.ActionText-2.idtx:58
-#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:13
-#: En.x64.Release.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:59
-msgid "Service: [1]"
-msgstr "Служба: [1]"
-
-#: En.Win32.Debug.ActionText-2.idtx:21 En.Win32.Release.ActionText-2.idtx:21
-#: En.x64.Debug.ActionText-2.idtx:21 En.x64.Release.ActionText-2.idtx:21
-msgid "Service: [2]"
-msgstr "Служба: [2]"
-
-#: En.Win32.Debug.ActionText-2.idtx:12 En.Win32.Debug.ActionText-2.idtx:51
-#: En.Win32.Release.ActionText-2.idtx:12 En.Win32.Release.ActionText-2.idtx:51
-#: En.x64.Debug.ActionText-2.idtx:12 En.x64.Debug.ActionText-2.idtx:51
-#: En.x64.Release.ActionText-2.idtx:12 En.x64.Release.ActionText-2.idtx:51
+#: en_US.Win32.Debug.ActionText-2.idtx:12
+#: en_US.Win32.Debug.ActionText-2.idtx:51
+#: en_US.Win32.Release.ActionText-2.idtx:12
+#: en_US.Win32.Release.ActionText-2.idtx:51
+#: en_US.x64.Debug.ActionText-2.idtx:12 en_US.x64.Debug.ActionText-2.idtx:51
+#: en_US.x64.Release.ActionText-2.idtx:12
+#: en_US.x64.Release.ActionText-2.idtx:51
 msgid "Shortcut: [1]"
 msgstr "Ярлик: [1]"
 
-#: En.Win32.Debug.Error-2.idtx:38 En.Win32.Release.Error-2.idtx:38
-#: En.x64.Debug.Error-2.idtx:38 En.x64.Release.Error-2.idtx:38
-msgid "Source file not found: [2].  Verify that the file exists and that you can access it."
-msgstr "Вихідний файл не знайдено: [2]. Переконайтеся, що файл існує та доступний."
+#: en_US.Win32.Debug.ActionText-2.idtx:13
+#: en_US.Win32.Release.ActionText-2.idtx:13
+#: en_US.x64.Debug.ActionText-2.idtx:13 en_US.x64.Release.ActionText-2.idtx:13
+msgid "Deleting services"
+msgstr "Видалення служб"
 
-#: En.Win32.Debug.Error-2.idtx:41 En.Win32.Release.Error-2.idtx:41
-#: En.x64.Debug.Error-2.idtx:41 En.x64.Release.Error-2.idtx:41
-msgid "Source file not found{{(cabinet)}}: [2].  Verify that the file exists and that you can access it."
-msgstr "Вихідний файл не знайдено{{(cabinet)}}: [2]. Переконайтеся, що файл існує та доступний."
+#: en_US.Win32.Debug.ActionText-2.idtx:13
+#: en_US.Win32.Debug.ActionText-2.idtx:58
+#: en_US.Win32.Debug.ActionText-2.idtx:59
+#: en_US.Win32.Release.ActionText-2.idtx:13
+#: en_US.Win32.Release.ActionText-2.idtx:58
+#: en_US.Win32.Release.ActionText-2.idtx:59
+#: en_US.x64.Debug.ActionText-2.idtx:13 en_US.x64.Debug.ActionText-2.idtx:58
+#: en_US.x64.Debug.ActionText-2.idtx:59 en_US.x64.Release.ActionText-2.idtx:13
+#: en_US.x64.Release.ActionText-2.idtx:58
+#: en_US.x64.Release.ActionText-2.idtx:59
+msgid "Service: [1]"
+msgstr "Служба: [1]"
 
-#: En.Win32.Debug.ActionText-2.idtx:58 En.Win32.Release.ActionText-2.idtx:58
-#: En.x64.Debug.ActionText-2.idtx:58 En.x64.Release.ActionText-2.idtx:58
-msgid "Starting services"
-msgstr "Запуск служб"
+#: en_US.Win32.Debug.ActionText-2.idtx:14
+#: en_US.Win32.Release.ActionText-2.idtx:14
+#: en_US.x64.Debug.ActionText-2.idtx:14 en_US.x64.Release.ActionText-2.idtx:14
+msgid "Creating duplicate files"
+msgstr "Створення дублікатів файлів"
 
-#: En.Win32.Debug.ActionText-2.idtx:59 En.Win32.Release.ActionText-2.idtx:59
-#: En.x64.Debug.ActionText-2.idtx:59 En.x64.Release.ActionText-2.idtx:59
-msgid "Stopping services"
-msgstr "Зупин служб"
+#: en_US.Win32.Debug.ActionText-2.idtx:14
+#: en_US.Win32.Debug.ActionText-2.idtx:19
+#: en_US.Win32.Debug.ActionText-2.idtx:26
+#: en_US.Win32.Release.ActionText-2.idtx:14
+#: en_US.Win32.Release.ActionText-2.idtx:19
+#: en_US.Win32.Release.ActionText-2.idtx:26
+#: en_US.x64.Debug.ActionText-2.idtx:14 en_US.x64.Debug.ActionText-2.idtx:19
+#: en_US.x64.Debug.ActionText-2.idtx:26 en_US.x64.Release.ActionText-2.idtx:14
+#: en_US.x64.Release.ActionText-2.idtx:19
+#: en_US.x64.Release.ActionText-2.idtx:26
+msgid "File: [1],  Directory: [9],  Size: [6]"
+msgstr "Файл: [1], каталог: [9], розмір: [6]"
 
-#: En.Win32.Debug.Error-2.idtx:65 En.Win32.Release.Error-2.idtx:65
-#: En.x64.Debug.Error-2.idtx:65 En.x64.Release.Error-2.idtx:65
-msgid "The cabinet file '[2]' required for this installation is corrupt and cannot be used. This could indicate a network error, an error reading from the CD-ROM, or a problem with this package."
-msgstr "CAB-файл ''[2]'', потрібний для установки, пошкоджений і непридатний для використання. Можливо, сталася помилка в мережі, під час читання з компакт-диску, або неполадка в пакеті."
+#: en_US.Win32.Debug.ActionText-2.idtx:16
+#: en_US.Win32.Release.ActionText-2.idtx:16
+#: en_US.x64.Debug.ActionText-2.idtx:16 en_US.x64.Release.ActionText-2.idtx:16
+msgid "Searching for related applications"
+msgstr "Пошук доречних додатків"
 
-#: En.Win32.Debug.Error-2.idtx:162 En.Win32.Release.Error-2.idtx:162
-#: En.x64.Debug.Error-2.idtx:162 En.x64.Release.Error-2.idtx:162
-msgid "The description for service '[2]' ([3]) could not be changed."
-msgstr "Опис служби ''[2]'' ([3]) неможливо змінити."
+#: en_US.Win32.Debug.ActionText-2.idtx:16
+#: en_US.Win32.Release.ActionText-2.idtx:16
+#: en_US.x64.Debug.ActionText-2.idtx:16 en_US.x64.Release.ActionText-2.idtx:16
+msgid "Found application: [1]"
+msgstr "Знайдено додаток: [1]"
 
-#: En.Win32.Debug.Error-2.idtx:64 En.Win32.Release.Error-2.idtx:64
-#: En.x64.Debug.Error-2.idtx:64 En.x64.Release.Error-2.idtx:64
-msgid "The file '[2]' cannot be installed because the file cannot be found in cabinet file '[3]'. This could indicate a network error, an error reading from the CD-ROM, or a problem with this package."
-msgstr "Не вдається установити файл ''[2]'', оскільки його немає в CAB-файлі ''[3]''. Можливо, сталася помилка в мережі, під час читання з компакт-диску, або неполадка в пакеті."
+#: en_US.Win32.Debug.ActionText-2.idtx:17
+#: en_US.Win32.Release.ActionText-2.idtx:17
+#: en_US.x64.Debug.ActionText-2.idtx:17 en_US.x64.Release.ActionText-2.idtx:17
+msgid "Generating script operations for action:"
+msgstr "Створення операцій сценарію для макрокоманди:"
 
-#: En.Win32.Debug.Error-2.idtx:83 En.Win32.Release.Error-2.idtx:83
-#: En.x64.Debug.Error-2.idtx:83 En.x64.Release.Error-2.idtx:83
-msgid "The file [2][3] is being held in use{ by the following process: Name: [4], Id: [5], Window Title: '[6]'}.  Close that application and retry."
-msgstr "Файл [2][3] зайнятий{ процесом: ім'я: [4], код: [5], вікно: ''[6]''}.  Закрийте цей додаток і повторіть спробу."
+#: en_US.Win32.Debug.ActionText-2.idtx:17
+#: en_US.Win32.Debug.ActionText-2.idtx:39
+#: en_US.Win32.Debug.ActionText-2.idtx:42
+#: en_US.Win32.Debug.ActionText-2.idtx:53
+#: en_US.Win32.Release.ActionText-2.idtx:17
+#: en_US.Win32.Release.ActionText-2.idtx:39
+#: en_US.Win32.Release.ActionText-2.idtx:42
+#: en_US.Win32.Release.ActionText-2.idtx:53
+#: en_US.x64.Debug.ActionText-2.idtx:17 en_US.x64.Debug.ActionText-2.idtx:39
+#: en_US.x64.Debug.ActionText-2.idtx:42 en_US.x64.Debug.ActionText-2.idtx:53
+#: en_US.x64.Release.ActionText-2.idtx:17
+#: en_US.x64.Release.ActionText-2.idtx:39
+#: en_US.x64.Release.ActionText-2.idtx:42
+#: en_US.x64.Release.ActionText-2.idtx:53
+msgid "[1]"
+msgstr "[1]"
 
-#: En.Win32.Debug.Error-2.idtx:130 En.Win32.Release.Error-2.idtx:130
-#: En.x64.Debug.Error-2.idtx:130 En.x64.Release.Error-2.idtx:130
-msgid "The folder [2] does not exist.  Please enter a path to an existing folder."
-msgstr "Папка ''[2]'' не існує. Введіть шлях до існуючої папки."
+#: en_US.Win32.Debug.ActionText-2.idtx:18
+#: en_US.Win32.Release.ActionText-2.idtx:18
+#: en_US.x64.Debug.ActionText-2.idtx:18 en_US.x64.Release.ActionText-2.idtx:18
+msgid "Copying network install files"
+msgstr "Копіювання файлів мережної установки"
 
-#: En.Win32.Debug.Error-2.idtx:54 En.Win32.Release.Error-2.idtx:54
-#: En.x64.Debug.Error-2.idtx:54 En.x64.Release.Error-2.idtx:54
-msgid "The folder path '[2]' contains an invalid character."
-msgstr "Шлях до папки ''[2]'' містить неприпустимий символ."
+#: en_US.Win32.Debug.ActionText-2.idtx:18
+#: en_US.Win32.Release.ActionText-2.idtx:18
+#: en_US.x64.Debug.ActionText-2.idtx:18 en_US.x64.Release.ActionText-2.idtx:18
+msgid "File: [1], Directory: [9], Size: [6]"
+msgstr "Файл: [1], каталог: [9], розмір: [6]"
 
-#: En.Win32.Debug.Error-2.idtx:53 En.Win32.Release.Error-2.idtx:53
-#: En.x64.Debug.Error-2.idtx:53 En.x64.Release.Error-2.idtx:53
-msgid "The folder path '[2]' contains words that are not valid in folder paths."
-msgstr "Шлях до папки ''[2]'' містить неприпустимі слова."
+#: en_US.Win32.Debug.ActionText-2.idtx:19
+#: en_US.Win32.Release.ActionText-2.idtx:19
+#: en_US.x64.Debug.ActionText-2.idtx:19 en_US.x64.Release.ActionText-2.idtx:19
+msgid "Copying new files"
+msgstr "Копіювання нових файлів"
 
-#: En.Win32.Debug.Error-2.idtx:87 En.Win32.Release.Error-2.idtx:87
-#: En.x64.Debug.Error-2.idtx:87 En.x64.Release.Error-2.idtx:87
-msgid "The following applications should be closed before continuing the install:"
-msgstr "Перш ніж продовжити установку, закрийте такі додатки:"
+#: en_US.Win32.Debug.ActionText-2.idtx:20
+#: en_US.Win32.Release.ActionText-2.idtx:20
+#: en_US.x64.Debug.ActionText-2.idtx:20 en_US.x64.Release.ActionText-2.idtx:20
+msgid "Installing ODBC components"
+msgstr "Установка компонентів ODBC"
 
-#: En.Win32.Debug.Error-2.idtx:9 En.Win32.Release.Error-2.idtx:9
-#: En.x64.Debug.Error-2.idtx:9 En.x64.Release.Error-2.idtx:9
-msgid "The installer has encountered an unexpected error installing this package. This may indicate a problem with this package. The error code is [1]. {{The arguments are: [2], [3], [4]}}"
-msgstr "Під час установки цього пакета сталася неочікувана помилка установника. Можливо, в пакеті є неполадка. Код помилки: [1]. {{Аргументи: [2], [3], [4]}}"
+#: en_US.Win32.Debug.ActionText-2.idtx:21
+#: en_US.Win32.Release.ActionText-2.idtx:21
+#: en_US.x64.Debug.ActionText-2.idtx:21 en_US.x64.Release.ActionText-2.idtx:21
+msgid "Installing new services"
+msgstr "Установка нових служб"
 
-#: En.Win32.Debug.Error-2.idtx:33 En.Win32.Release.Error-2.idtx:33
-#: En.x64.Debug.Error-2.idtx:33 En.x64.Release.Error-2.idtx:33
-msgid "The installer has insufficient privileges to access this directory: [2].  The installation cannot continue.  Log on as administrator or contact your system administrator."
-msgstr "Установник не має належних прав на доступ до цього каталогу: [2]. Продовження установки неможливе. Ввійдіть до системи як адміністратор або зверніться до системного адміністратора."
+#: en_US.Win32.Debug.ActionText-2.idtx:21
+#: en_US.Win32.Release.ActionText-2.idtx:21
+#: en_US.x64.Debug.ActionText-2.idtx:21 en_US.x64.Release.ActionText-2.idtx:21
+msgid "Service: [2]"
+msgstr "Служба: [2]"
 
-#: En.Win32.Debug.Error-2.idtx:51 En.Win32.Release.Error-2.idtx:51
-#: En.x64.Debug.Error-2.idtx:51 En.x64.Release.Error-2.idtx:51
-msgid "The Installer has insufficient privileges to modify this file: [2]."
-msgstr "Установник не має належних прав на зміну цього файлу: [2]."
+#: en_US.Win32.Debug.ActionText-2.idtx:22
+#: en_US.Win32.Release.ActionText-2.idtx:22
+#: en_US.x64.Debug.ActionText-2.idtx:22 en_US.x64.Release.ActionText-2.idtx:22
+msgid "Installing system catalog"
+msgstr "Установка системного каталога"
 
-#: En.Win32.Debug.Error-2.idtx:94 En.Win32.Release.Error-2.idtx:94
-#: En.x64.Debug.Error-2.idtx:94 En.x64.Release.Error-2.idtx:94
-msgid "The installer must restart your system before configuration of [2] can continue.  Click Yes to restart now or No if you plan to manually restart later."
-msgstr "Перед продовженням настройки [2] установник повинен перезавантажити систему. Натисніть кнопку \"Так\", щоб зробити це зараз, або кнопку \"Ні\", щоб виконати перезавантаження пізніше вручну."
+#: en_US.Win32.Debug.ActionText-2.idtx:22
+#: en_US.Win32.Release.ActionText-2.idtx:22
+#: en_US.x64.Debug.ActionText-2.idtx:22 en_US.x64.Release.ActionText-2.idtx:22
+msgid "File: [1],  Dependencies: [2]"
+msgstr "Файл: [1],  залежності: [2]"
 
-#: En.Win32.Debug.Error-2.idtx:93 En.Win32.Release.Error-2.idtx:93
-#: En.x64.Debug.Error-2.idtx:93 En.x64.Release.Error-2.idtx:93
-msgid "The key [2] is not valid.  Verify that you entered the correct key."
-msgstr "Неприпустимий ключ [2]. Перевірте правильність ключа."
-
-#: En.Win32.Debug.Error-2.idtx:106 En.Win32.Release.Error-2.idtx:106
-#: En.x64.Debug.Error-2.idtx:106 En.x64.Release.Error-2.idtx:106
-msgid "The older version of [2] cannot be removed.  Contact your technical support group.  {{System Error [3].}}"
-msgstr "Не вдається видалити стару версію [2].  Зверніться до групи технічної підтримки.  {{Системна помилка [3].}}"
-
-#: En.Win32.Debug.Error-2.idtx:126 En.Win32.Release.Error-2.idtx:126
-#: En.x64.Debug.Error-2.idtx:126 En.x64.Release.Error-2.idtx:126
-msgid "The path [2] is not valid.  Please specify a valid path."
-msgstr "Неприпустимий шлях ''[2]''. Укажіть правильний шлях."
-
-#: En.Win32.Debug.Error-2.idtx:84 En.Win32.Release.Error-2.idtx:84
-#: En.x64.Debug.Error-2.idtx:84 En.x64.Release.Error-2.idtx:84
-msgid "The product '[2]' is already installed, preventing the installation of this product.  The two products are incompatible."
-msgstr "Уже установлено продукт ''[2]'', несумісний із цим продуктом."
-
-#: En.Win32.Debug.Error-2.idtx:90 En.Win32.Release.Error-2.idtx:90
-#: En.x64.Debug.Error-2.idtx:90 En.x64.Release.Error-2.idtx:90
-msgid "The setup must update files or services that cannot be updated while the system is running. If you choose to continue, a reboot will be required to complete the setup."
-msgstr "Програмі інсталяції слід оновити файли або служби, які не можна оновити під час роботи системи. В разі продовження слід перезавантажити комп’ютер, щоб завершити інсталяцію."
-
-#: En.Win32.Debug.Error-2.idtx:91 En.Win32.Release.Error-2.idtx:91
-#: En.x64.Debug.Error-2.idtx:91 En.x64.Release.Error-2.idtx:91
-msgid "The setup was unable to automatically close all applications that are using files that need to be updated. If you choose to continue, a reboot will be required to complete the setup."
-msgstr ""
-
-#: En.Win32.Debug.Error-2.idtx:123 En.Win32.Release.Error-2.idtx:123
-#: En.x64.Debug.Error-2.idtx:123 En.x64.Release.Error-2.idtx:123
-msgid "The source installation package for the product [2] is out of sync with the client package. Try the installation again using a valid copy of the installation package '[3]'."
-msgstr "Вихідний установчий пакет продукту [2] не синхронізовано з клієнтським пакетом. Повторіть спробу установки з чинною копією установчого пакета '[3]'."
-
-#: En.Win32.Debug.Error-2.idtx:44 En.Win32.Release.Error-2.idtx:44
-#: En.x64.Debug.Error-2.idtx:44 En.x64.Release.Error-2.idtx:44
-msgid "The specified path '[2]' is unavailable."
-msgstr "Указаний шлях ''[2]'' недоступний."
-
-#: En.Win32.Debug.Error-2.idtx:50 En.Win32.Release.Error-2.idtx:50
-#: En.x64.Debug.Error-2.idtx:50 En.x64.Release.Error-2.idtx:50
-msgid "The specified path is too long: [2]"
-msgstr "Указано занадто довгий шлях: [2]"
-
-#: En.Win32.Debug.Error-2.idtx:43 En.Win32.Release.Error-2.idtx:43
-#: En.x64.Debug.Error-2.idtx:43 En.x64.Release.Error-2.idtx:43
-msgid "The volume [2] is currently unavailable.  Please select another."
-msgstr "Том [2] зараз недоступний. Виберіть інший том."
-
-#: En.Win32.Debug.Error-2.idtx:165 En.Win32.Release.Error-2.idtx:165
-#: En.x64.Debug.Error-2.idtx:165 En.x64.Release.Error-2.idtx:165
-msgid "The Windows Installer service cannot update one or more protected Windows files. {{SFP Error: [2].  List of protected files:\\r\\n[3]}}"
-msgstr "Служба Windows Installer не може оновити захищені файли Windows. {{Помилка SFP: [2].  Список захищених файлів:\\r\\n[3]}}"
-
-#: En.Win32.Debug.Error-2.idtx:164 En.Win32.Release.Error-2.idtx:164
-#: En.x64.Debug.Error-2.idtx:164 En.x64.Release.Error-2.idtx:164
-msgid "The Windows Installer service cannot update the protected Windows file [2]. {{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
-msgstr "Служба Windows Installer не може оновити захищений файл Windows [2]. {{Версія пакета: [3], версія захищеного файлу: [4], помилка SFP: [5]}}"
-
-#: En.Win32.Debug.Error-2.idtx:163 En.Win32.Release.Error-2.idtx:163
-#: En.x64.Debug.Error-2.idtx:163 En.x64.Release.Error-2.idtx:163
-msgid "The Windows Installer service cannot update the system file [2] because the file is protected by Windows.  You may need to update your operating system for this program to work correctly. {{Package version: [3], OS Protected version: [4]}}"
-msgstr "Служба Windows Installer не може оновити системний файл [2], оскільки цей файл захищено операційною системою.  Можливо, для належної роботи цієї програми буде потрібно оновити Windows. {{Версія пакета: [3], версія захищеного файлу: [4]}}"
-
-#: En.Win32.Debug.Error-2.idtx:111 En.Win32.Release.Error-2.idtx:111
-#: En.x64.Debug.Error-2.idtx:111 En.x64.Release.Error-2.idtx:111
-msgid "The Windows Installer Service could not be accessed. This can occur if the Windows Installer is not correctly installed. Contact your support personnel for assistance."
-msgstr "Немає доступу до служби Windows Installer. Можливо, Windows працює в безпечному режимі, або Windows Installer установлено неправильно. Зверніться до служби технічної підтримки."
-
-#: En.Win32.Debug.Error-2.idtx:125 En.Win32.Release.Error-2.idtx:125
-#: En.x64.Debug.Error-2.idtx:125 En.x64.Release.Error-2.idtx:125
-msgid "The Windows Installer service is not accessible in Safe Mode. Please try again when your computer is not in Safe Mode or you can use System Restore to return your machine to a previous good state."
-msgstr "Служба інсталятора Windows недоступна у безпечному режимі. Повторіть спробу в режимі, відмінному від безпечного, або скористайтеся службою відновлення системи, щоб повернути комп’ютер до попереднього справного стану."
-
-#: En.Win32.Debug.Error-2.idtx:115 En.Win32.Release.Error-2.idtx:115
-#: En.x64.Debug.Error-2.idtx:115 En.x64.Release.Error-2.idtx:115
-msgid "There is a problem with this Windows Installer package. A DLL required for this install to complete could not be run. Contact your support personnel or package vendor.  {{Action [2], entry: [3], library: [4] }}"
-msgstr "Неполадка в цьому пакеті Windows Installer. Не вдається запустити бібліотеку DLL, потрібну для виконання установки. Зверніться до служби технічної підтримки або до постачальника пакета.  {{Дія [2], запис: [3], бібліотека: [4] }}"
-
-#: En.Win32.Debug.Error-2.idtx:113 En.Win32.Release.Error-2.idtx:113
-#: En.x64.Debug.Error-2.idtx:113 En.x64.Release.Error-2.idtx:113
-msgid "There is a problem with this Windows Installer package. A program required for this install to complete could not be run. Contact your support personnel or package vendor. {{Action: [2], location: [3], command: [4] }}"
-msgstr "Неполадка в цьому пакеті Windows Installer. Не вдається запустити програму, потрібну для виконання установки. Зверніться до служби технічної підтримки або до постачальника пакета. {{Дія: [2], розташування: [3], команда: [4] }}"
-
-#: En.Win32.Debug.Error-2.idtx:114 En.Win32.Release.Error-2.idtx:114
-#: En.x64.Debug.Error-2.idtx:114 En.x64.Release.Error-2.idtx:114
-msgid "There is a problem with this Windows Installer package. A program run as part of the setup did not finish as expected. Contact your support personnel or package vendor.  {{Action [2], location: [3], command: [4] }}"
-msgstr "Неполадка в цьому пакеті Windows Installer. Програма, запущена у процесі установки, не припинила роботу, як очікувалося. Зверніться до служби технічної підтримки або до постачальника пакета.  {{Дія: [2], розташування: [3], команда: [4] }}"
-
-#: En.Win32.Debug.Error-2.idtx:112 En.Win32.Release.Error-2.idtx:112
-#: En.x64.Debug.Error-2.idtx:112 En.x64.Release.Error-2.idtx:112
-msgid "There is a problem with this Windows Installer package. A script required for this install to complete could not be run. Contact your support personnel or package vendor.  {{Custom action [2] script error [3], [4]: [5] Line [6], Column [7], [8] }}"
-msgstr "Неполадка в цьому пакеті Windows Installer. Не вдається запустити сценарій, потрібний для виконання установки. Зверніться до служби технічної підтримки або до постачальника пакета.  {{Користувацька дія [2], помилка сценарію [3], [4]: [5] рядок [6], стовпець [7], [8] }}"
-
-#: En.Win32.Debug.Error-2.idtx:128 En.Win32.Release.Error-2.idtx:128
-#: En.x64.Debug.Error-2.idtx:128 En.x64.Release.Error-2.idtx:128
-msgid "There is no disk in drive [2]. Please insert one and click Retry, or click Cancel to go back to the previously selected volume."
-msgstr "У пристрої [2] немає диска. Вставте диск і натисніть кнопку ''Повторити'' або натисніть кнопку ''Скасувати'', щоб повернутися до вибраного раніше тому."
-
-#: En.Win32.Debug.Error-2.idtx:129 En.Win32.Release.Error-2.idtx:129
-#: En.x64.Debug.Error-2.idtx:129 En.x64.Release.Error-2.idtx:129
-msgid "There is no disk in drive [2]. Please insert one and click Retry, or click Cancel to return to the browse dialog and select a different volume."
-msgstr "У пристрої [2] немає диска. Вставте диск і натисніть кнопку ''Повторити'' або натисніть кнопку ''Скасувати'', щоб повернутися до вікна перегляду папок, і виберіть інший том."
-
-#: En.Win32.Debug.Error-2.idtx:85 En.Win32.Release.Error-2.idtx:85
-#: En.x64.Debug.Error-2.idtx:85 En.x64.Release.Error-2.idtx:85
-msgid "There is not enough disk space on the volume '[2]' to continue the install with recovery enabled. [3] KB are required, but only [4] KB are available. Click Ignore to continue the install without saving recovery information, click Retry to check for available space again, or click Cancel to quit the installation."
-msgstr "На диску ''[2]'' недостатньо місця для установки з можливістю відновлення. Потрібно [3] КБ, але доступно лише [4] КБ. Щоб продовжити установку без збереження даних для відновлення, натисніть кнопку ''Пропустити''; щоб знову перевірити обсяг наявного місця, натисніть кнопку ''Повторити'', а щоб припинити установку, натисніть кнопку ''Скасувати'' ."
-
-#: En.Win32.Debug.Error-2.idtx:37 En.Win32.Release.Error-2.idtx:37
-#: En.x64.Debug.Error-2.idtx:37 En.x64.Release.Error-2.idtx:37
-msgid "There is not enough disk space to install this file: [2].  Free some disk space and click Retry, or click Cancel to exit."
-msgstr "Недостатньо місця на диску для установки файлу: [2]. Звільніть місце та натисніть кнопку ''Повторити'' або натисніть кнопку ''Скасувати'', щоб перервати установку."
-
-#: En.Win32.Debug.Error-2.idtx:66 En.Win32.Release.Error-2.idtx:66
-#: En.x64.Debug.Error-2.idtx:66 En.x64.Release.Error-2.idtx:66
-msgid "There was an error creating a temporary file that is needed to complete this installation.{{  Folder: [3]. System error code: [2]}}"
-msgstr "Сталася помилка під час створення тимчасового файлу, потрібного для виконання установки.{{  Папка: [3]. Код системної помилки: [2]}}"
-
-#: En.Win32.Debug.Error-2.idtx:92 En.Win32.Release.Error-2.idtx:92
-#: En.x64.Debug.Error-2.idtx:92 En.x64.Release.Error-2.idtx:92
-msgid "This installation package is not supported on this platform. Contact your application vendor."
-msgstr ""
-
-#: En.Win32.Debug.CustomAction-2.idtx:6 En.Win32.Release.CustomAction-2.idtx:6
-#: En.x64.Debug.CustomAction-2.idtx:5 En.x64.Release.CustomAction-2.idtx:5
-msgid "This package cannot upgrade the currently installed [SimpleProductName]. Please remove the old package first and retry."
-msgstr ""
-
-#: En.Win32.Debug.Error-2.idtx:172 En.Win32.Release.Error-2.idtx:172
-#: En.x64.Debug.Error-2.idtx:172 En.x64.Release.Error-2.idtx:172
-msgid "This version of Windows does not support deploying 64-bit packages. The script [2] is for a 64-bit package."
-msgstr ""
-
-#: En.Win32.Debug.Error-2.idtx:20 En.Win32.Release.Error-2.idtx:20
-#: En.x64.Debug.Error-2.idtx:20 En.x64.Release.Error-2.idtx:20
-msgid "Time remaining: {[1] minutes }{[2] seconds}"
-msgstr "Залишилося часу: {[1] хв }{[2] сек}"
-
-#: En.Win32.Debug.Error-2.idtx:45 En.Win32.Release.Error-2.idtx:45
-#: En.x64.Debug.Error-2.idtx:45 En.x64.Release.Error-2.idtx:45
-msgid "Unable to write to the specified folder: [2]."
-msgstr "Не вдалося записати до вказаного каталогу: [2]."
-
-#: En.Win32.Debug.ActionText-2.idtx:28 En.Win32.Release.ActionText-2.idtx:28
-#: En.x64.Debug.ActionText-2.idtx:28 En.x64.Release.ActionText-2.idtx:28
-msgid "Unpublishing assembly information"
-msgstr "Скасування публікації відомостей зібрання"
-
-#: En.Win32.Debug.ActionText-2.idtx:62 En.Win32.Release.ActionText-2.idtx:62
-#: En.x64.Debug.ActionText-2.idtx:62 En.x64.Release.ActionText-2.idtx:62
-msgid "Unpublishing Product Features"
-msgstr "Скасування публікації компонентів продукту"
-
-#: En.Win32.Debug.ActionText-2.idtx:63 En.Win32.Release.ActionText-2.idtx:63
-#: En.x64.Debug.ActionText-2.idtx:63 En.x64.Release.ActionText-2.idtx:63
-msgid "Unpublishing product information"
-msgstr "Скасування публікації відомостей про продукт"
-
-#: En.Win32.Debug.ActionText-2.idtx:61 En.Win32.Release.ActionText-2.idtx:61
-#: En.x64.Debug.ActionText-2.idtx:61 En.x64.Release.ActionText-2.idtx:61
-msgid "Unpublishing Qualified Components"
-msgstr "Скасування публікації придатних компонентів"
-
-#: En.Win32.Debug.ActionText-2.idtx:64 En.Win32.Release.ActionText-2.idtx:64
-#: En.x64.Debug.ActionText-2.idtx:64 En.x64.Release.ActionText-2.idtx:64
-msgid "Unregister Class servers"
-msgstr "Скасування реєстрації серверів класів"
-
-#: En.Win32.Debug.ActionText-2.idtx:65 En.Win32.Release.ActionText-2.idtx:65
-#: En.x64.Debug.ActionText-2.idtx:65 En.x64.Release.ActionText-2.idtx:65
-msgid "Unregistering COM+ Applications and Components"
-msgstr "Скасування реєстрації додатків і компонентів COM+"
-
-#: En.Win32.Debug.ActionText-2.idtx:66 En.Win32.Release.ActionText-2.idtx:66
-#: En.x64.Debug.ActionText-2.idtx:66 En.x64.Release.ActionText-2.idtx:66
-msgid "Unregistering extension servers"
-msgstr "Скасування реєстрації серверів розширень"
-
-#: En.Win32.Debug.ActionText-2.idtx:67 En.Win32.Release.ActionText-2.idtx:67
-#: En.x64.Debug.ActionText-2.idtx:67 En.x64.Release.ActionText-2.idtx:67
-msgid "Unregistering fonts"
-msgstr "Скасування реєстрації шрифтів"
-
-#: En.Win32.Debug.ActionText-2.idtx:68 En.Win32.Release.ActionText-2.idtx:68
-#: En.x64.Debug.ActionText-2.idtx:68 En.x64.Release.ActionText-2.idtx:68
-msgid "Unregistering MIME info"
-msgstr "Скасування реєстрації даних MIME"
-
-#: En.Win32.Debug.ActionText-2.idtx:56 En.Win32.Release.ActionText-2.idtx:56
-#: En.x64.Debug.ActionText-2.idtx:56 En.x64.Release.ActionText-2.idtx:56
-msgid "Unregistering modules"
-msgstr "Скасування реєстрації модулів"
-
-#: En.Win32.Debug.ActionText-2.idtx:69 En.Win32.Release.ActionText-2.idtx:69
-#: En.x64.Debug.ActionText-2.idtx:69 En.x64.Release.ActionText-2.idtx:69
-msgid "Unregistering program identifiers"
-msgstr "Скасування реєстрації кодів програм"
-
-#: En.Win32.Debug.ActionText-2.idtx:70 En.Win32.Release.ActionText-2.idtx:70
-#: En.x64.Debug.ActionText-2.idtx:70 En.x64.Release.ActionText-2.idtx:70
-msgid "Unregistering type libraries"
-msgstr "Скасування реєстрації бібліотек типів"
-
-#: En.Win32.Debug.ActionText-2.idtx:30 En.Win32.Release.ActionText-2.idtx:30
-#: En.x64.Debug.ActionText-2.idtx:30 En.x64.Release.ActionText-2.idtx:30
-msgid "Updating component registration"
-msgstr "Оновлення реєстрації компонентів"
-
-#: En.Win32.Debug.ActionText-2.idtx:44 En.Win32.Debug.ActionText-2.idtx:71
-#: En.Win32.Release.ActionText-2.idtx:44 En.Win32.Release.ActionText-2.idtx:71
-#: En.x64.Debug.ActionText-2.idtx:44 En.x64.Debug.ActionText-2.idtx:71
-#: En.x64.Release.ActionText-2.idtx:44 En.x64.Release.ActionText-2.idtx:71
-msgid "Updating environment strings"
-msgstr "Оновлення змінних оточення"
-
-#: En.Win32.Debug.Error-2.idtx:80 En.Win32.Release.Error-2.idtx:80
-#: En.x64.Debug.Error-2.idtx:80 En.x64.Release.Error-2.idtx:80
-msgid "User '[2]' has previously initiated an install for product '[3]'.  That user will need to run that install again before they can use that product."
-msgstr "Користувач ''[2]'' вже один раз починав установку програми ''[3]''. Для продовження роботи йому необхідно буде повторити установку."
-
-#: En.Win32.Debug.Error-2.idtx:79 En.Win32.Release.Error-2.idtx:79
-#: En.x64.Debug.Error-2.idtx:79 En.x64.Release.Error-2.idtx:79
-msgid "User '[2]' has previously initiated an install for product '[3]'.  That user will need to run that install again before they can use that product.  Your current install will now continue."
-msgstr "Користувач ''[2]'' вже один раз починав установку програми ''[3]''. Для продовження роботи йому необхідно буде повторити установку. Поточний процес установки буде продовжено."
-
-#: En.Win32.Debug.Error-2.idtx:166 En.Win32.Release.Error-2.idtx:166
-#: En.x64.Debug.Error-2.idtx:166 En.x64.Release.Error-2.idtx:166
-msgid "User installations are disabled via policy on the machine."
-msgstr "Політика цього комп'ютера забороняє установку користувачем."
-
-#: En.Win32.Debug.ActionText-2.idtx:23 En.Win32.Release.ActionText-2.idtx:23
-#: En.x64.Debug.ActionText-2.idtx:23 En.x64.Release.ActionText-2.idtx:23
+#: en_US.Win32.Debug.ActionText-2.idtx:23
+#: en_US.Win32.Release.ActionText-2.idtx:23
+#: en_US.x64.Debug.ActionText-2.idtx:23 en_US.x64.Release.ActionText-2.idtx:23
 msgid "Validating install"
 msgstr "Перевірка установки"
 
-#: En.Win32.Debug.Error-2.idtx:6 En.Win32.Release.Error-2.idtx:6
-#: En.x64.Debug.Error-2.idtx:6 En.x64.Release.Error-2.idtx:6
-msgid "Warning [1]. "
-msgstr "Попередження [1]. "
+#: en_US.Win32.Debug.ActionText-2.idtx:24
+#: en_US.Win32.Release.ActionText-2.idtx:24
+#: en_US.x64.Debug.ActionText-2.idtx:24 en_US.x64.Release.ActionText-2.idtx:24
+msgid "Evaluating launch conditions"
+msgstr "Перевірка умов запуску"
 
-#: En.Win32.Debug.ActionText-2.idtx:72 En.Win32.Release.ActionText-2.idtx:72
-#: En.x64.Debug.ActionText-2.idtx:72 En.x64.Release.ActionText-2.idtx:72
+#: en_US.Win32.Debug.ActionText-2.idtx:25
+#: en_US.Win32.Release.ActionText-2.idtx:25
+#: en_US.x64.Debug.ActionText-2.idtx:25 en_US.x64.Release.ActionText-2.idtx:25
+msgid "Migrating feature states from related applications"
+msgstr "Перенесення стану компонентів із доречних додатків"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:25
+#: en_US.Win32.Release.ActionText-2.idtx:25
+#: en_US.x64.Debug.ActionText-2.idtx:25 en_US.x64.Release.ActionText-2.idtx:25
+msgid "Application: [1]"
+msgstr "Додаток: [1]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:26
+#: en_US.Win32.Release.ActionText-2.idtx:26
+#: en_US.x64.Debug.ActionText-2.idtx:26 en_US.x64.Release.ActionText-2.idtx:26
+msgid "Moving files"
+msgstr "Переміщення файлів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:27
+#: en_US.Win32.Release.ActionText-2.idtx:27
+#: en_US.x64.Debug.ActionText-2.idtx:27 en_US.x64.Release.ActionText-2.idtx:27
+msgid "Publishing assembly information"
+msgstr "Публікація відомостей зібрання"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:27
+#: en_US.Win32.Debug.ActionText-2.idtx:28
+#: en_US.Win32.Release.ActionText-2.idtx:27
+#: en_US.Win32.Release.ActionText-2.idtx:28
+#: en_US.x64.Debug.ActionText-2.idtx:27 en_US.x64.Debug.ActionText-2.idtx:28
+#: en_US.x64.Release.ActionText-2.idtx:27
+#: en_US.x64.Release.ActionText-2.idtx:28
+msgid "Application Context:[1], Assembly Name:[2]"
+msgstr "Контекст додатка:[1], ім'я зібрання:[2]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:28
+#: en_US.Win32.Release.ActionText-2.idtx:28
+#: en_US.x64.Debug.ActionText-2.idtx:28 en_US.x64.Release.ActionText-2.idtx:28
+msgid "Unpublishing assembly information"
+msgstr "Скасування публікації відомостей зібрання"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:29
+#: en_US.Win32.Release.ActionText-2.idtx:29
+#: en_US.x64.Debug.ActionText-2.idtx:29 en_US.x64.Release.ActionText-2.idtx:29
+msgid "Patching files"
+msgstr "Оновлення файлів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:29
+#: en_US.Win32.Release.ActionText-2.idtx:29
+#: en_US.x64.Debug.ActionText-2.idtx:29 en_US.x64.Release.ActionText-2.idtx:29
+msgid "File: [1],  Directory: [2],  Size: [3]"
+msgstr "Файл: [1],  каталог: [2],  розмір: [3]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:30
+#: en_US.Win32.Release.ActionText-2.idtx:30
+#: en_US.x64.Debug.ActionText-2.idtx:30 en_US.x64.Release.ActionText-2.idtx:30
+msgid "Updating component registration"
+msgstr "Оновлення реєстрації компонентів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:31
+#: en_US.Win32.Release.ActionText-2.idtx:31
+#: en_US.x64.Debug.ActionText-2.idtx:31 en_US.x64.Release.ActionText-2.idtx:31
+msgid "Publishing Qualified Components"
+msgstr "Публікація придатних компонентів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:31
+#: en_US.Win32.Debug.ActionText-2.idtx:61
+#: en_US.Win32.Release.ActionText-2.idtx:31
+#: en_US.Win32.Release.ActionText-2.idtx:61
+#: en_US.x64.Debug.ActionText-2.idtx:31 en_US.x64.Debug.ActionText-2.idtx:61
+#: en_US.x64.Release.ActionText-2.idtx:31
+#: en_US.x64.Release.ActionText-2.idtx:61
+msgid "Component ID: [1], Qualifier: [2]"
+msgstr "Код компонента: [1], описувач: [2]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:32
+#: en_US.Win32.Release.ActionText-2.idtx:32
+#: en_US.x64.Debug.ActionText-2.idtx:32 en_US.x64.Release.ActionText-2.idtx:32
+msgid "Publishing Product Features"
+msgstr "Публікація компонентів продукту"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:32
+#: en_US.Win32.Debug.ActionText-2.idtx:62
+#: en_US.Win32.Release.ActionText-2.idtx:32
+#: en_US.Win32.Release.ActionText-2.idtx:62
+#: en_US.x64.Debug.ActionText-2.idtx:32 en_US.x64.Debug.ActionText-2.idtx:62
+#: en_US.x64.Release.ActionText-2.idtx:32
+#: en_US.x64.Release.ActionText-2.idtx:62
+msgid "Feature: [1]"
+msgstr "Компонент: [1]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:33
+#: en_US.Win32.Release.ActionText-2.idtx:33
+#: en_US.x64.Debug.ActionText-2.idtx:33 en_US.x64.Release.ActionText-2.idtx:33
+msgid "Publishing product information"
+msgstr "Публікація відомостей про продукт"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:34
+#: en_US.Win32.Release.ActionText-2.idtx:34
+#: en_US.x64.Debug.ActionText-2.idtx:34 en_US.x64.Release.ActionText-2.idtx:34
+msgid "Registering Class servers"
+msgstr "Реєстрація серверів класів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:34
+#: en_US.Win32.Debug.ActionText-2.idtx:64
+#: en_US.Win32.Release.ActionText-2.idtx:34
+#: en_US.Win32.Release.ActionText-2.idtx:64
+#: en_US.x64.Debug.ActionText-2.idtx:34 en_US.x64.Debug.ActionText-2.idtx:64
+#: en_US.x64.Release.ActionText-2.idtx:34
+#: en_US.x64.Release.ActionText-2.idtx:64
+msgid "Class Id: [1]"
+msgstr "Код класу: [1]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:35
+#: en_US.Win32.Release.ActionText-2.idtx:35
+#: en_US.x64.Debug.ActionText-2.idtx:35 en_US.x64.Release.ActionText-2.idtx:35
+msgid "Registering COM+ Applications and Components"
+msgstr "Реєстрація додатків і компонентів COM+"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:35
+#: en_US.Win32.Release.ActionText-2.idtx:35
+#: en_US.x64.Debug.ActionText-2.idtx:35 en_US.x64.Release.ActionText-2.idtx:35
+msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
+msgstr "AppId: [1]{{, AppType: [2], Користувачі: [3], RSN: [4]}}"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:36
+#: en_US.Win32.Release.ActionText-2.idtx:36
+#: en_US.x64.Debug.ActionText-2.idtx:36 en_US.x64.Release.ActionText-2.idtx:36
+msgid "Registering extension servers"
+msgstr "Реєстрація серверів розширень"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:36
+#: en_US.Win32.Debug.ActionText-2.idtx:66
+#: en_US.Win32.Release.ActionText-2.idtx:36
+#: en_US.Win32.Release.ActionText-2.idtx:66
+#: en_US.x64.Debug.ActionText-2.idtx:36 en_US.x64.Debug.ActionText-2.idtx:66
+#: en_US.x64.Release.ActionText-2.idtx:36
+#: en_US.x64.Release.ActionText-2.idtx:66
+msgid "Extension: [1]"
+msgstr "Розширення: [1]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:37
+#: en_US.Win32.Release.ActionText-2.idtx:37
+#: en_US.x64.Debug.ActionText-2.idtx:37 en_US.x64.Release.ActionText-2.idtx:37
+msgid "Registering fonts"
+msgstr "Реєстрація шрифтів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:37
+#: en_US.Win32.Debug.ActionText-2.idtx:67
+#: en_US.Win32.Release.ActionText-2.idtx:37
+#: en_US.Win32.Release.ActionText-2.idtx:67
+#: en_US.x64.Debug.ActionText-2.idtx:37 en_US.x64.Debug.ActionText-2.idtx:67
+#: en_US.x64.Release.ActionText-2.idtx:37
+#: en_US.x64.Release.ActionText-2.idtx:67
+msgid "Font: [1]"
+msgstr "Шрифт: [1]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:38
+#: en_US.Win32.Release.ActionText-2.idtx:38
+#: en_US.x64.Debug.ActionText-2.idtx:38 en_US.x64.Release.ActionText-2.idtx:38
+msgid "Registering MIME info"
+msgstr "Реєстрація даних MIME"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:38
+#: en_US.Win32.Debug.ActionText-2.idtx:68
+#: en_US.Win32.Release.ActionText-2.idtx:38
+#: en_US.Win32.Release.ActionText-2.idtx:68
+#: en_US.x64.Debug.ActionText-2.idtx:38 en_US.x64.Debug.ActionText-2.idtx:68
+#: en_US.x64.Release.ActionText-2.idtx:38
+#: en_US.x64.Release.ActionText-2.idtx:68
+msgid "MIME Content Type: [1], Extension: [2]"
+msgstr "Тип вмісту MIME: [1], розширення: [2]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:39
+#: en_US.Win32.Release.ActionText-2.idtx:39
+#: en_US.x64.Debug.ActionText-2.idtx:39 en_US.x64.Release.ActionText-2.idtx:39
+msgid "Registering product"
+msgstr "Реєстрація продукту"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:40
+#: en_US.Win32.Release.ActionText-2.idtx:40
+#: en_US.x64.Debug.ActionText-2.idtx:40 en_US.x64.Release.ActionText-2.idtx:40
+msgid "Registering program identifiers"
+msgstr "Реєстрація кодів програм"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:40
+#: en_US.Win32.Debug.ActionText-2.idtx:69
+#: en_US.Win32.Release.ActionText-2.idtx:40
+#: en_US.Win32.Release.ActionText-2.idtx:69
+#: en_US.x64.Debug.ActionText-2.idtx:40 en_US.x64.Debug.ActionText-2.idtx:69
+#: en_US.x64.Release.ActionText-2.idtx:40
+#: en_US.x64.Release.ActionText-2.idtx:69
+msgid "ProgId: [1]"
+msgstr "ProgId: [1]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:41
+#: en_US.Win32.Release.ActionText-2.idtx:41
+#: en_US.x64.Debug.ActionText-2.idtx:41 en_US.x64.Release.ActionText-2.idtx:41
+msgid "Registering type libraries"
+msgstr "Реєстрація бібліотек типів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:41
+#: en_US.Win32.Debug.ActionText-2.idtx:70
+#: en_US.Win32.Release.ActionText-2.idtx:41
+#: en_US.Win32.Release.ActionText-2.idtx:70
+#: en_US.x64.Debug.ActionText-2.idtx:41 en_US.x64.Debug.ActionText-2.idtx:70
+#: en_US.x64.Release.ActionText-2.idtx:41
+#: en_US.x64.Release.ActionText-2.idtx:70
+msgid "LibID: [1]"
+msgstr "LibID: [1]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:42
+#: en_US.Win32.Release.ActionText-2.idtx:42
+#: en_US.x64.Debug.ActionText-2.idtx:42 en_US.x64.Release.ActionText-2.idtx:42
+msgid "Registering user"
+msgstr "Реєстрація користувача"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:43
+#: en_US.Win32.Release.ActionText-2.idtx:43
+#: en_US.x64.Debug.ActionText-2.idtx:43 en_US.x64.Release.ActionText-2.idtx:43
+msgid "Removing duplicated files"
+msgstr "Видалення дублікатів файлів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:43
+#: en_US.Win32.Debug.ActionText-2.idtx:46
+#: en_US.Win32.Debug.ActionText-2.idtx:60
+#: en_US.Win32.Release.ActionText-2.idtx:43
+#: en_US.Win32.Release.ActionText-2.idtx:46
+#: en_US.Win32.Release.ActionText-2.idtx:60
+#: en_US.x64.Debug.ActionText-2.idtx:43 en_US.x64.Debug.ActionText-2.idtx:46
+#: en_US.x64.Debug.ActionText-2.idtx:60 en_US.x64.Release.ActionText-2.idtx:43
+#: en_US.x64.Release.ActionText-2.idtx:46
+#: en_US.x64.Release.ActionText-2.idtx:60
+msgid "File: [1], Directory: [9]"
+msgstr "Файл: [1], каталог: [9]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:44
+#: en_US.Win32.Debug.ActionText-2.idtx:71
+#: en_US.Win32.Release.ActionText-2.idtx:44
+#: en_US.Win32.Release.ActionText-2.idtx:71
+#: en_US.x64.Debug.ActionText-2.idtx:44 en_US.x64.Debug.ActionText-2.idtx:71
+#: en_US.x64.Release.ActionText-2.idtx:44
+#: en_US.x64.Release.ActionText-2.idtx:71
+msgid "Updating environment strings"
+msgstr "Оновлення змінних оточення"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:44
+#: en_US.Win32.Debug.ActionText-2.idtx:71
+#: en_US.Win32.Release.ActionText-2.idtx:44
+#: en_US.Win32.Release.ActionText-2.idtx:71
+#: en_US.x64.Debug.ActionText-2.idtx:44 en_US.x64.Debug.ActionText-2.idtx:71
+#: en_US.x64.Release.ActionText-2.idtx:44
+#: en_US.x64.Release.ActionText-2.idtx:71
+msgid "Name: [1], Value: [2], Action [3]"
+msgstr "Ім'я: [1], значення: [2], дія [3]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:45
+#: en_US.Win32.Release.ActionText-2.idtx:45
+#: en_US.x64.Debug.ActionText-2.idtx:45 en_US.x64.Release.ActionText-2.idtx:45
+msgid "Removing applications"
+msgstr "Видалення додатків"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:45
+#: en_US.Win32.Release.ActionText-2.idtx:45
+#: en_US.x64.Debug.ActionText-2.idtx:45 en_US.x64.Release.ActionText-2.idtx:45
+msgid "Application: [1], Command line: [2]"
+msgstr "Додаток: [1], Командний рядок: [2]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:46
+#: en_US.Win32.Release.ActionText-2.idtx:46
+#: en_US.x64.Debug.ActionText-2.idtx:46 en_US.x64.Release.ActionText-2.idtx:46
+msgid "Removing files"
+msgstr "Видалення файлів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:47
+#: en_US.Win32.Release.ActionText-2.idtx:47
+#: en_US.x64.Debug.ActionText-2.idtx:47 en_US.x64.Release.ActionText-2.idtx:47
+msgid "Removing folders"
+msgstr "Видалення папок"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:48
+#: en_US.Win32.Release.ActionText-2.idtx:48
+#: en_US.x64.Debug.ActionText-2.idtx:48 en_US.x64.Release.ActionText-2.idtx:48
+msgid "Removing INI files entries"
+msgstr "Видалення записів INI-файлів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:48
+#: en_US.Win32.Debug.ActionText-2.idtx:72
+#: en_US.Win32.Release.ActionText-2.idtx:48
+#: en_US.Win32.Release.ActionText-2.idtx:72
+#: en_US.x64.Debug.ActionText-2.idtx:48 en_US.x64.Debug.ActionText-2.idtx:72
+#: en_US.x64.Release.ActionText-2.idtx:48
+#: en_US.x64.Release.ActionText-2.idtx:72
+msgid "File: [1],  Section: [2],  Key: [3], Value: [4]"
+msgstr "Файл: [1],  розділ: [2],  запис: [3], значення: [4]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:49
+#: en_US.Win32.Release.ActionText-2.idtx:49
+#: en_US.x64.Debug.ActionText-2.idtx:49 en_US.x64.Release.ActionText-2.idtx:49
+msgid "Removing ODBC components"
+msgstr "Видалення компонентів ODBC"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:50
+#: en_US.Win32.Release.ActionText-2.idtx:50
+#: en_US.x64.Debug.ActionText-2.idtx:50 en_US.x64.Release.ActionText-2.idtx:50
+msgid "Removing system registry values"
+msgstr "Видалення параметрів системного реєстру"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:50
+#: en_US.Win32.Release.ActionText-2.idtx:50
+#: en_US.x64.Debug.ActionText-2.idtx:50 en_US.x64.Release.ActionText-2.idtx:50
+msgid "Key: [1], Name: [2]"
+msgstr "Розділ: [1], ім'я: [2]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:51
+#: en_US.Win32.Release.ActionText-2.idtx:51
+#: en_US.x64.Debug.ActionText-2.idtx:51 en_US.x64.Release.ActionText-2.idtx:51
+msgid "Removing shortcuts"
+msgstr "Видалення ярликів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:53
+#: en_US.Win32.Release.ActionText-2.idtx:53
+#: en_US.x64.Debug.ActionText-2.idtx:53 en_US.x64.Release.ActionText-2.idtx:53
+msgid "Rolling back action:"
+msgstr "Скасування дії:"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:54
+#: en_US.Win32.Release.ActionText-2.idtx:54
+#: en_US.x64.Debug.ActionText-2.idtx:54 en_US.x64.Release.ActionText-2.idtx:54
+msgid "Removing backup files"
+msgstr "Видалення тимчасових файлів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:55
+#: en_US.Win32.Release.ActionText-2.idtx:55
+#: en_US.x64.Debug.ActionText-2.idtx:55 en_US.x64.Release.ActionText-2.idtx:55
+msgid "Registering modules"
+msgstr "Реєстрація модулів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:55
+#: en_US.Win32.Debug.ActionText-2.idtx:56
+#: en_US.Win32.Release.ActionText-2.idtx:55
+#: en_US.Win32.Release.ActionText-2.idtx:56
+#: en_US.x64.Debug.ActionText-2.idtx:55 en_US.x64.Debug.ActionText-2.idtx:56
+#: en_US.x64.Release.ActionText-2.idtx:55
+#: en_US.x64.Release.ActionText-2.idtx:56
+msgid "File: [1], Folder: [2]"
+msgstr "Файл: [1], папка: [2]"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:56
+#: en_US.Win32.Release.ActionText-2.idtx:56
+#: en_US.x64.Debug.ActionText-2.idtx:56 en_US.x64.Release.ActionText-2.idtx:56
+msgid "Unregistering modules"
+msgstr "Скасування реєстрації модулів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:57
+#: en_US.Win32.Release.ActionText-2.idtx:57
+#: en_US.x64.Debug.ActionText-2.idtx:57 en_US.x64.Release.ActionText-2.idtx:57
+msgid "Initializing ODBC directories"
+msgstr "Ініціалізація каталогів ODBC"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:58
+#: en_US.Win32.Release.ActionText-2.idtx:58
+#: en_US.x64.Debug.ActionText-2.idtx:58 en_US.x64.Release.ActionText-2.idtx:58
+msgid "Starting services"
+msgstr "Запуск служб"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:59
+#: en_US.Win32.Release.ActionText-2.idtx:59
+#: en_US.x64.Debug.ActionText-2.idtx:59 en_US.x64.Release.ActionText-2.idtx:59
+msgid "Stopping services"
+msgstr "Зупин служб"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:60
+#: en_US.Win32.Release.ActionText-2.idtx:60
+#: en_US.x64.Debug.ActionText-2.idtx:60 en_US.x64.Release.ActionText-2.idtx:60
+msgid "Removing moved files"
+msgstr "Видалення переміщених файлів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:61
+#: en_US.Win32.Release.ActionText-2.idtx:61
+#: en_US.x64.Debug.ActionText-2.idtx:61 en_US.x64.Release.ActionText-2.idtx:61
+msgid "Unpublishing Qualified Components"
+msgstr "Скасування публікації придатних компонентів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:62
+#: en_US.Win32.Release.ActionText-2.idtx:62
+#: en_US.x64.Debug.ActionText-2.idtx:62 en_US.x64.Release.ActionText-2.idtx:62
+msgid "Unpublishing Product Features"
+msgstr "Скасування публікації компонентів продукту"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:63
+#: en_US.Win32.Release.ActionText-2.idtx:63
+#: en_US.x64.Debug.ActionText-2.idtx:63 en_US.x64.Release.ActionText-2.idtx:63
+msgid "Unpublishing product information"
+msgstr "Скасування публікації відомостей про продукт"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:64
+#: en_US.Win32.Release.ActionText-2.idtx:64
+#: en_US.x64.Debug.ActionText-2.idtx:64 en_US.x64.Release.ActionText-2.idtx:64
+msgid "Unregister Class servers"
+msgstr "Скасування реєстрації серверів класів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:65
+#: en_US.Win32.Release.ActionText-2.idtx:65
+#: en_US.x64.Debug.ActionText-2.idtx:65 en_US.x64.Release.ActionText-2.idtx:65
+msgid "Unregistering COM+ Applications and Components"
+msgstr "Скасування реєстрації додатків і компонентів COM+"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:65
+#: en_US.Win32.Release.ActionText-2.idtx:65
+#: en_US.x64.Debug.ActionText-2.idtx:65 en_US.x64.Release.ActionText-2.idtx:65
+msgid "AppId: [1]{{, AppType: [2]}}"
+msgstr "AppId: [1]{{, AppType: [2]}}"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:66
+#: en_US.Win32.Release.ActionText-2.idtx:66
+#: en_US.x64.Debug.ActionText-2.idtx:66 en_US.x64.Release.ActionText-2.idtx:66
+msgid "Unregistering extension servers"
+msgstr "Скасування реєстрації серверів розширень"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:67
+#: en_US.Win32.Release.ActionText-2.idtx:67
+#: en_US.x64.Debug.ActionText-2.idtx:67 en_US.x64.Release.ActionText-2.idtx:67
+msgid "Unregistering fonts"
+msgstr "Скасування реєстрації шрифтів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:68
+#: en_US.Win32.Release.ActionText-2.idtx:68
+#: en_US.x64.Debug.ActionText-2.idtx:68 en_US.x64.Release.ActionText-2.idtx:68
+msgid "Unregistering MIME info"
+msgstr "Скасування реєстрації даних MIME"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:69
+#: en_US.Win32.Release.ActionText-2.idtx:69
+#: en_US.x64.Debug.ActionText-2.idtx:69 en_US.x64.Release.ActionText-2.idtx:69
+msgid "Unregistering program identifiers"
+msgstr "Скасування реєстрації кодів програм"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:70
+#: en_US.Win32.Release.ActionText-2.idtx:70
+#: en_US.x64.Debug.ActionText-2.idtx:70 en_US.x64.Release.ActionText-2.idtx:70
+msgid "Unregistering type libraries"
+msgstr "Скасування реєстрації бібліотек типів"
+
+#: en_US.Win32.Debug.ActionText-2.idtx:72
+#: en_US.Win32.Release.ActionText-2.idtx:72
+#: en_US.x64.Debug.ActionText-2.idtx:72 en_US.x64.Release.ActionText-2.idtx:72
 msgid "Writing INI files values"
 msgstr "Записування значень INI-файлів"
 
-#: En.Win32.Debug.ActionText-2.idtx:73 En.Win32.Release.ActionText-2.idtx:73
-#: En.x64.Debug.ActionText-2.idtx:73 En.x64.Release.ActionText-2.idtx:73
+#: en_US.Win32.Debug.ActionText-2.idtx:73
+#: en_US.Win32.Release.ActionText-2.idtx:73
+#: en_US.x64.Debug.ActionText-2.idtx:73 en_US.x64.Release.ActionText-2.idtx:73
 msgid "Writing system registry values"
 msgstr "Записування параметрів системного реєстру"
 
-#: En.Win32.Debug.CustomAction-2.idtx:4 En.Win32.Release.CustomAction-2.idtx:4
-msgid "You are attempting to install the 32-bit variant of [SimpleProductName] on a 64-bit operating system. 32-bit variant will not work with your operating system. The installation of the 64-bit variant is recommended."
+#: en_US.Win32.Debug.ActionText-2.idtx:73
+#: en_US.Win32.Release.ActionText-2.idtx:73
+#: en_US.x64.Debug.ActionText-2.idtx:73 en_US.x64.Release.ActionText-2.idtx:73
+msgid "Key: [1], Name: [2], Value: [3]"
+msgstr "Розділ: [1], ім'я: [2], значення: [3]"
+
+#: en_US.Win32.Debug.CustomAction-2.idtx:4
+#: en_US.Win32.Release.CustomAction-2.idtx:4
+msgid ""
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
+"system. The installation of the 64-bit variant is recommended."
 msgstr ""
 
-#: En.Win32.Debug.Error-2.idtx:157 En.Win32.Release.Error-2.idtx:157
-#: En.x64.Debug.Error-2.idtx:157 En.x64.Release.Error-2.idtx:157
-msgid "You do not have sufficient privileges to complete this installation for all users of the machine.  Log on as administrator and then retry this installation."
-msgstr "Ви не маєте належних прав на завершення цієї установки для всіх користувачів комп'ютера. Ввійдіть до системи як адміністратор і повторіть спробу."
+#: en_US.Win32.Debug.CustomAction-2.idtx:5
+#: en_US.Win32.Release.CustomAction-2.idtx:5
+#: en_US.x64.Debug.CustomAction-2.idtx:4
+#: en_US.x64.Release.CustomAction-2.idtx:4
+msgid "A newer version of [SimpleProductName] is already installed."
+msgstr ""
 
-#: En.Win32.Debug.Error-2.idtx:131 En.Win32.Release.Error-2.idtx:131
-#: En.x64.Debug.Error-2.idtx:131 En.x64.Release.Error-2.idtx:131
+#: en_US.Win32.Debug.CustomAction-2.idtx:6
+#: en_US.Win32.Release.CustomAction-2.idtx:6
+#: en_US.x64.Debug.CustomAction-2.idtx:5
+#: en_US.x64.Release.CustomAction-2.idtx:5
+msgid ""
+"This package cannot upgrade the currently installed [SimpleProductName]. "
+"Please remove the old package first and retry."
+msgstr ""
+
+#: en_US.Win32.Debug.Error-2.idtx:4 en_US.Win32.Release.Error-2.idtx:4
+#: en_US.x64.Debug.Error-2.idtx:4 en_US.x64.Release.Error-2.idtx:4
+msgid "{{Fatal error: }}"
+msgstr "{{Критична помилка: }}"
+
+#: en_US.Win32.Debug.Error-2.idtx:5 en_US.Win32.Release.Error-2.idtx:5
+#: en_US.x64.Debug.Error-2.idtx:5 en_US.x64.Release.Error-2.idtx:5
+msgid "{{Error [1]. }}"
+msgstr "{{Помилка [1]. }}"
+
+#: en_US.Win32.Debug.Error-2.idtx:6 en_US.Win32.Release.Error-2.idtx:6
+#: en_US.x64.Debug.Error-2.idtx:6 en_US.x64.Release.Error-2.idtx:6
+msgid "Warning [1]. "
+msgstr "Попередження [1]. "
+
+#: en_US.Win32.Debug.Error-2.idtx:8 en_US.Win32.Release.Error-2.idtx:8
+#: en_US.x64.Debug.Error-2.idtx:8 en_US.x64.Release.Error-2.idtx:8
+msgid "Info [1]. "
+msgstr "Відомості [1]. "
+
+#: en_US.Win32.Debug.Error-2.idtx:9 en_US.Win32.Release.Error-2.idtx:9
+#: en_US.x64.Debug.Error-2.idtx:9 en_US.x64.Release.Error-2.idtx:9
+msgid ""
+"The installer has encountered an unexpected error installing this package. "
+"This may indicate a problem with this package. The error code is [1]. {{The "
+"arguments are: [2], [3], [4]}}"
+msgstr ""
+"Під час установки цього пакета сталася неочікувана помилка установника. "
+"Можливо, в пакеті є неполадка. Код помилки: [1]. {{Аргументи: [2], [3], "
+"[4]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:11 en_US.Win32.Release.Error-2.idtx:11
+#: en_US.x64.Debug.Error-2.idtx:11 en_US.x64.Release.Error-2.idtx:11
+msgid "{{Disk full: }}"
+msgstr "{{На диску немає місця: }}"
+
+#: en_US.Win32.Debug.Error-2.idtx:12 en_US.Win32.Release.Error-2.idtx:12
+#: en_US.x64.Debug.Error-2.idtx:12 en_US.x64.Release.Error-2.idtx:12
+msgid "Action [Time]: [1]. [2]"
+msgstr "Дія [Time]: [1]. [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:13 en_US.Win32.Release.Error-2.idtx:13
+#: en_US.x64.Debug.Error-2.idtx:13 en_US.x64.Release.Error-2.idtx:13
+msgid "[SimpleProductName]"
+msgstr "[SimpleProductName]"
+
+#: en_US.Win32.Debug.Error-2.idtx:14 en_US.Win32.Release.Error-2.idtx:14
+#: en_US.x64.Debug.Error-2.idtx:14 en_US.x64.Release.Error-2.idtx:14
+msgid "{[2]}{, [3]}{, [4]}"
+msgstr "{[2]}{, [3]}{, [4]}"
+
+#: en_US.Win32.Debug.Error-2.idtx:15 en_US.Win32.Release.Error-2.idtx:15
+#: en_US.x64.Debug.Error-2.idtx:15 en_US.x64.Release.Error-2.idtx:15
+msgid "Message type: [1], Argument: [2]{, [3]}"
+msgstr "Тип повідомлення: [1], аргумент: [2]{, [3]}"
+
+#: en_US.Win32.Debug.Error-2.idtx:16 en_US.Win32.Release.Error-2.idtx:16
+#: en_US.x64.Debug.Error-2.idtx:16 en_US.x64.Release.Error-2.idtx:16
+msgid "=== Logging started: [Date]  [Time] ==="
+msgstr "=== Запис до журналу розпочато: [Date] о [Time] ==="
+
+#: en_US.Win32.Debug.Error-2.idtx:17 en_US.Win32.Release.Error-2.idtx:17
+#: en_US.x64.Debug.Error-2.idtx:17 en_US.x64.Release.Error-2.idtx:17
+msgid "=== Logging stopped: [Date]  [Time] ==="
+msgstr "=== Запис до журналу зупинено: [Date] о [Time] ==="
+
+#: en_US.Win32.Debug.Error-2.idtx:18 en_US.Win32.Release.Error-2.idtx:18
+#: en_US.x64.Debug.Error-2.idtx:18 en_US.x64.Release.Error-2.idtx:18
+msgid "Action start [Time]: [1]."
+msgstr "Дію почато [Time]: [1]."
+
+#: en_US.Win32.Debug.Error-2.idtx:19 en_US.Win32.Release.Error-2.idtx:19
+#: en_US.x64.Debug.Error-2.idtx:19 en_US.x64.Release.Error-2.idtx:19
+msgid "Action ended [Time]: [1]. Return value [2]."
+msgstr "Дію завершено о [Time]: [1]. Повернуто значення [2]."
+
+#: en_US.Win32.Debug.Error-2.idtx:20 en_US.Win32.Release.Error-2.idtx:20
+#: en_US.x64.Debug.Error-2.idtx:20 en_US.x64.Release.Error-2.idtx:20
+msgid "Time remaining: {[1] minutes }{[2] seconds}"
+msgstr "Залишилося часу: {[1] хв }{[2] сек}"
+
+#: en_US.Win32.Debug.Error-2.idtx:21 en_US.Win32.Debug.Error-2.idtx:127
+#: en_US.Win32.Release.Error-2.idtx:21 en_US.Win32.Release.Error-2.idtx:127
+#: en_US.x64.Debug.Error-2.idtx:21 en_US.x64.Debug.Error-2.idtx:127
+#: en_US.x64.Release.Error-2.idtx:21 en_US.x64.Release.Error-2.idtx:127
+msgid "Out of memory. Shut down other applications before retrying."
+msgstr "Недостатньо пам'яті. Закрийте інші додатки та повторіть спробу."
+
+#: en_US.Win32.Debug.Error-2.idtx:22 en_US.Win32.Release.Error-2.idtx:22
+#: en_US.x64.Debug.Error-2.idtx:22 en_US.x64.Release.Error-2.idtx:22
+msgid "Installer is no longer responding."
+msgstr "Програма установки не відповідає."
+
+#: en_US.Win32.Debug.Error-2.idtx:23 en_US.Win32.Release.Error-2.idtx:23
+#: en_US.x64.Debug.Error-2.idtx:23 en_US.x64.Release.Error-2.idtx:23
+msgid "Installer stopped prematurely."
+msgstr "Установник передчасно припинив роботу."
+
+#: en_US.Win32.Debug.Error-2.idtx:24 en_US.Win32.Release.Error-2.idtx:24
+#: en_US.x64.Debug.Error-2.idtx:24 en_US.x64.Release.Error-2.idtx:24
+msgid "Please wait while Windows configures [SimpleProductName]"
+msgstr "Зачекайте, поки Windows налаштує [SimpleProductName]"
+
+#: en_US.Win32.Debug.Error-2.idtx:25 en_US.Win32.Release.Error-2.idtx:25
+#: en_US.x64.Debug.Error-2.idtx:25 en_US.x64.Release.Error-2.idtx:25
+msgid "Gathering required information..."
+msgstr "Триває збір даних..."
+
+#: en_US.Win32.Debug.Error-2.idtx:26 en_US.Win32.Release.Error-2.idtx:26
+#: en_US.x64.Debug.Error-2.idtx:26 en_US.x64.Release.Error-2.idtx:26
+msgid "Removing older versions of this application..."
+msgstr "Видалення старих версій цього додатка..."
+
+#: en_US.Win32.Debug.Error-2.idtx:27 en_US.Win32.Release.Error-2.idtx:27
+#: en_US.x64.Debug.Error-2.idtx:27 en_US.x64.Release.Error-2.idtx:27
+msgid "Preparing to remove older versions of this application..."
+msgstr "Підготовка до видалення старих версій цього додатка..."
+
+#: en_US.Win32.Debug.Error-2.idtx:28 en_US.Win32.Release.Error-2.idtx:28
+#: en_US.x64.Debug.Error-2.idtx:28 en_US.x64.Release.Error-2.idtx:28
+msgid "{[SimpleProductName] }Setup completed successfully."
+msgstr "{[SimpleProductName] }Установку завершено успішно."
+
+#: en_US.Win32.Debug.Error-2.idtx:29 en_US.Win32.Release.Error-2.idtx:29
+#: en_US.x64.Debug.Error-2.idtx:29 en_US.x64.Release.Error-2.idtx:29
+msgid "{[SimpleProductName] }Setup failed."
+msgstr "{[SimpleProductName] }Установку не виконано."
+
+#: en_US.Win32.Debug.Error-2.idtx:30 en_US.Win32.Release.Error-2.idtx:30
+#: en_US.x64.Debug.Error-2.idtx:30 en_US.x64.Release.Error-2.idtx:30
+msgid ""
+"Error reading from file: [2]. {{ System error [3].}}  Verify that the file "
+"exists and that you can access it."
+msgstr ""
+"Помилка під час читання з файлу: [2]. {{ Системна помилка [3].}}  "
+"Переконайтеся, що файл існує та доступний."
+
+#: en_US.Win32.Debug.Error-2.idtx:31 en_US.Win32.Release.Error-2.idtx:31
+#: en_US.x64.Debug.Error-2.idtx:31 en_US.x64.Release.Error-2.idtx:31
+msgid ""
+"Cannot create the file '[2]'.  A directory with this name already exists.  "
+"Cancel the install and try installing to a different location."
+msgstr ""
+"Не вдається створити файл ''[2]''.  Каталог із цим файлом уже існує. "
+"Скасуйте установку та спробуйте виконати її в іншому місці."
+
+#: en_US.Win32.Debug.Error-2.idtx:32 en_US.Win32.Release.Error-2.idtx:32
+#: en_US.x64.Debug.Error-2.idtx:32 en_US.x64.Release.Error-2.idtx:32
+msgid "Please insert the disk: [2]"
+msgstr "Вставте диск: [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:33 en_US.Win32.Release.Error-2.idtx:33
+#: en_US.x64.Debug.Error-2.idtx:33 en_US.x64.Release.Error-2.idtx:33
+msgid ""
+"The installer has insufficient privileges to access this directory: [2].  "
+"The installation cannot continue.  Log on as administrator or contact your "
+"system administrator."
+msgstr ""
+"Установник не має належних прав на доступ до цього каталогу: [2]. "
+"Продовження установки неможливе. Ввійдіть до системи як адміністратор або "
+"зверніться до системного адміністратора."
+
+#: en_US.Win32.Debug.Error-2.idtx:34 en_US.Win32.Release.Error-2.idtx:34
+#: en_US.x64.Debug.Error-2.idtx:34 en_US.x64.Release.Error-2.idtx:34
+msgid ""
+"Error writing to file: [2].  Verify that you have access to that directory."
+msgstr ""
+"Помилка під час запису до файлу: [2]. Переконайтеся в наявності доступу до "
+"цього каталогу."
+
+#: en_US.Win32.Debug.Error-2.idtx:35 en_US.Win32.Release.Error-2.idtx:35
+#: en_US.x64.Debug.Error-2.idtx:35 en_US.x64.Release.Error-2.idtx:35
+msgid ""
+"Error reading from file [2]. {{ System error [3].}} Verify that the file "
+"exists and that you can access it."
+msgstr ""
+"Помилка під час читання з файлу [2]. {{ Системна помилка [3].}} "
+"Переконайтеся, що файл існує та доступний."
+
+#: en_US.Win32.Debug.Error-2.idtx:36 en_US.Win32.Release.Error-2.idtx:36
+#: en_US.x64.Debug.Error-2.idtx:36 en_US.x64.Release.Error-2.idtx:36
+msgid ""
+"Another application has exclusive access to the file '[2]'.  Please shut "
+"down all other applications, then click Retry."
+msgstr ""
+"Інший додаток відкрив файл ''[2]'' у режимі монопольного доступу. Закрийте "
+"всі інші додатки та натисніть кнопку ''Повторити''."
+
+#: en_US.Win32.Debug.Error-2.idtx:37 en_US.Win32.Release.Error-2.idtx:37
+#: en_US.x64.Debug.Error-2.idtx:37 en_US.x64.Release.Error-2.idtx:37
+msgid ""
+"There is not enough disk space to install this file: [2].  Free some disk "
+"space and click Retry, or click Cancel to exit."
+msgstr ""
+"Недостатньо місця на диску для установки файлу: [2]. Звільніть місце та "
+"натисніть кнопку ''Повторити'' або натисніть кнопку ''Скасувати'', щоб "
+"перервати установку."
+
+#: en_US.Win32.Debug.Error-2.idtx:38 en_US.Win32.Release.Error-2.idtx:38
+#: en_US.x64.Debug.Error-2.idtx:38 en_US.x64.Release.Error-2.idtx:38
+msgid ""
+"Source file not found: [2].  Verify that the file exists and that you can "
+"access it."
+msgstr ""
+"Вихідний файл не знайдено: [2]. Переконайтеся, що файл існує та доступний."
+
+#: en_US.Win32.Debug.Error-2.idtx:39 en_US.Win32.Release.Error-2.idtx:39
+#: en_US.x64.Debug.Error-2.idtx:39 en_US.x64.Release.Error-2.idtx:39
+msgid ""
+"Error reading from file: [3]. {{ System error [2].}}  Verify that the file "
+"exists and that you can access it."
+msgstr ""
+"Помилка під час читання з файлу: [3]. {{ Системна помилка [2].}} "
+"Переконайтеся, що файл існує та доступний."
+
+#: en_US.Win32.Debug.Error-2.idtx:40 en_US.Win32.Release.Error-2.idtx:40
+#: en_US.x64.Debug.Error-2.idtx:40 en_US.x64.Release.Error-2.idtx:40
+msgid ""
+"Error writing to file: [3]. {{ System error [2].}}  Verify that you have "
+"access to that directory."
+msgstr ""
+"Помилка під час запису до файлу: [3]. {{ Системна помилка [2].}} "
+"Переконайтеся в наявності доступу до цього каталогу."
+
+#: en_US.Win32.Debug.Error-2.idtx:41 en_US.Win32.Release.Error-2.idtx:41
+#: en_US.x64.Debug.Error-2.idtx:41 en_US.x64.Release.Error-2.idtx:41
+msgid ""
+"Source file not found{{(cabinet)}}: [2].  Verify that the file exists and "
+"that you can access it."
+msgstr ""
+"Вихідний файл не знайдено{{(cabinet)}}: [2]. Переконайтеся, що файл існує та"
+" доступний."
+
+#: en_US.Win32.Debug.Error-2.idtx:42 en_US.Win32.Release.Error-2.idtx:42
+#: en_US.x64.Debug.Error-2.idtx:42 en_US.x64.Release.Error-2.idtx:42
+msgid ""
+"Cannot create the directory '[2]'.  A file with this name already exists.  "
+"Please rename or remove the file and click retry, or click Cancel to exit."
+msgstr ""
+"Не вдається створити каталог ''[2]''. Файл із таким ім'ям уже існує. "
+"Перейменуйте або видаліть цей файл і натисніть кнопку ''Повторити'' або "
+"натисніть кнопку ''Скасувати'', щоб перервати установку."
+
+#: en_US.Win32.Debug.Error-2.idtx:43 en_US.Win32.Release.Error-2.idtx:43
+#: en_US.x64.Debug.Error-2.idtx:43 en_US.x64.Release.Error-2.idtx:43
+msgid "The volume [2] is currently unavailable.  Please select another."
+msgstr "Том [2] зараз недоступний. Виберіть інший том."
+
+#: en_US.Win32.Debug.Error-2.idtx:44 en_US.Win32.Release.Error-2.idtx:44
+#: en_US.x64.Debug.Error-2.idtx:44 en_US.x64.Release.Error-2.idtx:44
+msgid "The specified path '[2]' is unavailable."
+msgstr "Указаний шлях ''[2]'' недоступний."
+
+#: en_US.Win32.Debug.Error-2.idtx:45 en_US.Win32.Release.Error-2.idtx:45
+#: en_US.x64.Debug.Error-2.idtx:45 en_US.x64.Release.Error-2.idtx:45
+msgid "Unable to write to the specified folder: [2]."
+msgstr "Не вдалося записати до вказаного каталогу: [2]."
+
+#: en_US.Win32.Debug.Error-2.idtx:46 en_US.Win32.Release.Error-2.idtx:46
+#: en_US.x64.Debug.Error-2.idtx:46 en_US.x64.Release.Error-2.idtx:46
+msgid "A network error occurred while attempting to read from the file: [2]"
+msgstr "Сталася мережна помилка при спробі прочитати з файлу: [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:47 en_US.Win32.Release.Error-2.idtx:47
+#: en_US.x64.Debug.Error-2.idtx:47 en_US.x64.Release.Error-2.idtx:47
+msgid "An error occurred while attempting to create the directory: [2]"
+msgstr "Сталася помилка при спробі створити каталог: [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:48 en_US.Win32.Release.Error-2.idtx:48
+#: en_US.x64.Debug.Error-2.idtx:48 en_US.x64.Release.Error-2.idtx:48
+msgid "A network error occurred while attempting to create the directory: [2]"
+msgstr "Сталася мережна помилка при спробі створити каталог: [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:49 en_US.Win32.Release.Error-2.idtx:49
+#: en_US.x64.Debug.Error-2.idtx:49 en_US.x64.Release.Error-2.idtx:49
+msgid ""
+"A network error occurred while attempting to open the source file cabinet: "
+"[2]"
+msgstr ""
+"Сталася мережна помилка при спробі відкрити CAB-файл із вихідними файлами: "
+"[2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:50 en_US.Win32.Release.Error-2.idtx:50
+#: en_US.x64.Debug.Error-2.idtx:50 en_US.x64.Release.Error-2.idtx:50
+msgid "The specified path is too long: [2]"
+msgstr "Указано занадто довгий шлях: [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:51 en_US.Win32.Release.Error-2.idtx:51
+#: en_US.x64.Debug.Error-2.idtx:51 en_US.x64.Release.Error-2.idtx:51
+msgid "The Installer has insufficient privileges to modify this file: [2]."
+msgstr "Установник не має належних прав на зміну цього файлу: [2]."
+
+#: en_US.Win32.Debug.Error-2.idtx:52 en_US.Win32.Release.Error-2.idtx:52
+#: en_US.x64.Debug.Error-2.idtx:52 en_US.x64.Release.Error-2.idtx:52
+msgid ""
+"A portion of the folder path '[2]' is invalid.  It is either empty or "
+"exceeds the length allowed by the system."
+msgstr ""
+"Частина шляху до папки ''[2]'' неправильна - або пуста, або перевищує "
+"граничну довжину, дозволену системою."
+
+#: en_US.Win32.Debug.Error-2.idtx:53 en_US.Win32.Release.Error-2.idtx:53
+#: en_US.x64.Debug.Error-2.idtx:53 en_US.x64.Release.Error-2.idtx:53
+msgid ""
+"The folder path '[2]' contains words that are not valid in folder paths."
+msgstr "Шлях до папки ''[2]'' містить неприпустимі слова."
+
+#: en_US.Win32.Debug.Error-2.idtx:54 en_US.Win32.Release.Error-2.idtx:54
+#: en_US.x64.Debug.Error-2.idtx:54 en_US.x64.Release.Error-2.idtx:54
+msgid "The folder path '[2]' contains an invalid character."
+msgstr "Шлях до папки ''[2]'' містить неприпустимий символ."
+
+#: en_US.Win32.Debug.Error-2.idtx:55 en_US.Win32.Release.Error-2.idtx:55
+#: en_US.x64.Debug.Error-2.idtx:55 en_US.x64.Release.Error-2.idtx:55
+msgid "'[2]' is not a valid short file name."
+msgstr "''[2]'' не є припустимим коротким ім'ям файлу."
+
+#: en_US.Win32.Debug.Error-2.idtx:56 en_US.Win32.Release.Error-2.idtx:56
+#: en_US.x64.Debug.Error-2.idtx:56 en_US.x64.Release.Error-2.idtx:56
+msgid "Error getting file security: [3] GetLastError: [2]"
+msgstr ""
+"Помилка під час отримання атрибутів безпеки файлу: [3] GetLastError: [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:57 en_US.Win32.Release.Error-2.idtx:57
+#: en_US.x64.Debug.Error-2.idtx:57 en_US.x64.Release.Error-2.idtx:57
+msgid "Invalid Drive: [2]"
+msgstr "Неприпустимий диск: [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:58 en_US.Win32.Release.Error-2.idtx:58
+#: en_US.x64.Debug.Error-2.idtx:58 en_US.x64.Release.Error-2.idtx:58
+msgid ""
+"Error applying patch to file [2].  It has probably been updated by other "
+"means, and can no longer be modified by this patch.  For more information "
+"contact your patch vendor.  {{System Error: [3]}}"
+msgstr ""
+"Помилка під час застосування латки до файлу [2].  Можливо, файл уже оновлено"
+" іншим чином, і ця латка не може змінити його. За відомостями зверніться до "
+"постачальника латки.  {{Системна помилка: [3]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:59 en_US.Win32.Release.Error-2.idtx:59
+#: en_US.x64.Debug.Error-2.idtx:59 en_US.x64.Release.Error-2.idtx:59
+msgid ""
+"A file that is required cannot be installed because the cabinet file [2] is "
+"not digitally signed.  This may indicate that the cabinet file is corrupt."
+msgstr ""
+"Не вдається установити потрібний файл, оскільки CAB-файл [2] не має "
+"цифрового підпису. Можливо, CAB-файл пошкоджено."
+
+#: en_US.Win32.Debug.Error-2.idtx:60 en_US.Win32.Release.Error-2.idtx:60
+#: en_US.x64.Debug.Error-2.idtx:60 en_US.x64.Release.Error-2.idtx:60
+msgid ""
+"A file that is required cannot be installed because the cabinet file [2] has"
+" an invalid digital signature.  This may indicate that the cabinet file is "
+"corrupt.{{  Error [3] was returned by WinVerifyTrust.}}"
+msgstr ""
+"Не вдається установити потрібний файл, оскільки CAB-файл [2]  має "
+"неправильний цифровий підпис. Можливо, CAB-файл пошкоджено.{{  Помилку [3] "
+"повернув WinVerifyTrust.}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:61 en_US.Win32.Release.Error-2.idtx:61
+#: en_US.x64.Debug.Error-2.idtx:61 en_US.x64.Release.Error-2.idtx:61
+msgid "Failed to correctly copy [2] file: CRC error."
+msgstr "Не вдалося скопіювати файл [2]: помилка контрольної суми."
+
+#: en_US.Win32.Debug.Error-2.idtx:62 en_US.Win32.Release.Error-2.idtx:62
+#: en_US.x64.Debug.Error-2.idtx:62 en_US.x64.Release.Error-2.idtx:62
+msgid "Failed to correctly move [2] file: CRC error."
+msgstr "Не вдалося перемістити файл [2]: помилка контрольної суми."
+
+#: en_US.Win32.Debug.Error-2.idtx:63 en_US.Win32.Release.Error-2.idtx:63
+#: en_US.x64.Debug.Error-2.idtx:63 en_US.x64.Release.Error-2.idtx:63
+msgid "Failed to correctly patch [2] file: CRC error."
+msgstr "Не вдалося оновити файл [2]: помилка контрольної суми."
+
+#: en_US.Win32.Debug.Error-2.idtx:64 en_US.Win32.Release.Error-2.idtx:64
+#: en_US.x64.Debug.Error-2.idtx:64 en_US.x64.Release.Error-2.idtx:64
+msgid ""
+"The file '[2]' cannot be installed because the file cannot be found in "
+"cabinet file '[3]'. This could indicate a network error, an error reading "
+"from the CD-ROM, or a problem with this package."
+msgstr ""
+"Не вдається установити файл ''[2]'', оскільки його немає в CAB-файлі "
+"''[3]''. Можливо, сталася помилка в мережі, під час читання з компакт-диску,"
+" або неполадка в пакеті."
+
+#: en_US.Win32.Debug.Error-2.idtx:65 en_US.Win32.Release.Error-2.idtx:65
+#: en_US.x64.Debug.Error-2.idtx:65 en_US.x64.Release.Error-2.idtx:65
+msgid ""
+"The cabinet file '[2]' required for this installation is corrupt and cannot "
+"be used. This could indicate a network error, an error reading from the CD-"
+"ROM, or a problem with this package."
+msgstr ""
+"CAB-файл ''[2]'', потрібний для установки, пошкоджений і непридатний для "
+"використання. Можливо, сталася помилка в мережі, під час читання з компакт-"
+"диску, або неполадка в пакеті."
+
+#: en_US.Win32.Debug.Error-2.idtx:66 en_US.Win32.Release.Error-2.idtx:66
+#: en_US.x64.Debug.Error-2.idtx:66 en_US.x64.Release.Error-2.idtx:66
+msgid ""
+"There was an error creating a temporary file that is needed to complete this"
+" installation.{{  Folder: [3]. System error code: [2]}}"
+msgstr ""
+"Сталася помилка під час створення тимчасового файлу, потрібного для "
+"виконання установки.{{  Папка: [3]. Код системної помилки: [2]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:67 en_US.Win32.Release.Error-2.idtx:67
+#: en_US.x64.Debug.Error-2.idtx:67 en_US.x64.Release.Error-2.idtx:67
+msgid ""
+"Could not create key: [2]. {{ System error [3].}}  Verify that you have "
+"sufficient access to that key, or contact your support personnel. "
+msgstr ""
+"Не вдалося створити розділ: [2]. {{ Системна помилка [3].}}  Переконайтеся, "
+"що є доступ до цього розділу, або зверніться до адміністратора. "
+
+#: en_US.Win32.Debug.Error-2.idtx:68 en_US.Win32.Release.Error-2.idtx:68
+#: en_US.x64.Debug.Error-2.idtx:68 en_US.x64.Release.Error-2.idtx:68
+msgid ""
+"Could not open key: [2]. {{ System error [3].}}  Verify that you have "
+"sufficient access to that key, or contact your support personnel. "
+msgstr ""
+"Не вдалося відкрити розділ: [2]. {{ Системна помилка [3].}}  Переконайтеся, "
+"що є доступ до цього розділу, або зверніться до адміністратора. "
+
+#: en_US.Win32.Debug.Error-2.idtx:69 en_US.Win32.Release.Error-2.idtx:69
+#: en_US.x64.Debug.Error-2.idtx:69 en_US.x64.Release.Error-2.idtx:69
+msgid ""
+"Could not delete value [2] from key [3]. {{ System error [4].}}  Verify that"
+" you have sufficient access to that key, or contact your support personnel. "
+msgstr ""
+"Не вдалося видалити значення [2] з розділу [3]. {{ Системна помилка [4].}}  "
+"Переконайтеся, що є доступ до цього розділу, або зверніться до "
+"адміністратора. "
+
+#: en_US.Win32.Debug.Error-2.idtx:70 en_US.Win32.Release.Error-2.idtx:70
+#: en_US.x64.Debug.Error-2.idtx:70 en_US.x64.Release.Error-2.idtx:70
+msgid ""
+"Could not delete key [2]. {{ System error [3].}}  Verify that you have "
+"sufficient access to that key, or contact your support personnel. "
+msgstr ""
+"Не вдалося видалити розділ [2]. {{ Системна помилка [3].}}  Переконайтеся, "
+"що є доступ до цього розділу, або зверніться до адміністратора. "
+
+#: en_US.Win32.Debug.Error-2.idtx:71 en_US.Win32.Release.Error-2.idtx:71
+#: en_US.x64.Debug.Error-2.idtx:71 en_US.x64.Release.Error-2.idtx:71
+msgid ""
+"Could not read value [2] from key [3]. {{ System error [4].}}  Verify that "
+"you have sufficient access to that key, or contact your support personnel. "
+msgstr ""
+"Не вдалося прочитати значення [2] з розділу [3]. {{ Системна помилка [4].}}"
+"  Переконайтеся, що є доступ до цього розділу, або зверніться до "
+"адміністратора. "
+
+#: en_US.Win32.Debug.Error-2.idtx:72 en_US.Win32.Release.Error-2.idtx:72
+#: en_US.x64.Debug.Error-2.idtx:72 en_US.x64.Release.Error-2.idtx:72
+msgid ""
+"Could not write value [2] to key [3]. {{ System error [4].}}  Verify that "
+"you have sufficient access to that key, or contact your support personnel."
+msgstr ""
+"Не вдалося записати значення [2] до розділу [3]. {{ Системна помилка [4].}} "
+"Переконайтеся в наявності доступу до цього розділу або зверніться до служби "
+"підтримки."
+
+#: en_US.Win32.Debug.Error-2.idtx:73 en_US.Win32.Release.Error-2.idtx:73
+#: en_US.x64.Debug.Error-2.idtx:73 en_US.x64.Release.Error-2.idtx:73
+msgid ""
+"Could not get value names for key [2]. {{ System error [3].}}  Verify that "
+"you have sufficient access to that key, or contact your support personnel."
+msgstr ""
+"Не вдалося отримати імена значень із розділу [2]. {{ Системна помилка [3].}}"
+" Переконайтеся в наявності доступу до цього розділу або зверніться до служби"
+" підтримки."
+
+#: en_US.Win32.Debug.Error-2.idtx:74 en_US.Win32.Release.Error-2.idtx:74
+#: en_US.x64.Debug.Error-2.idtx:74 en_US.x64.Release.Error-2.idtx:74
+msgid ""
+"Could not get sub key names for key [2]. {{ System error [3].}}  Verify that"
+" you have sufficient access to that key, or contact your support personnel."
+msgstr ""
+"Не вдалося отримати імена підрозділів із розділу [2]. {{ Системна помилка "
+"[3].}} Переконайтеся в наявності доступу до цього розділу або зверніться до "
+"служби підтримки."
+
+#: en_US.Win32.Debug.Error-2.idtx:75 en_US.Win32.Release.Error-2.idtx:75
+#: en_US.x64.Debug.Error-2.idtx:75 en_US.x64.Release.Error-2.idtx:75
+msgid ""
+"Could not read security information for key [2]. {{ System error [3].}}  "
+"Verify that you have sufficient access to that key, or contact your support "
+"personnel."
+msgstr ""
+"Не вдалося прочитати відомості про безпеку з розділу [2]. {{ Системна "
+"помилка [3].}} Переконайтеся в наявності доступу до цього розділу або "
+"зверніться до служби підтримки."
+
+#: en_US.Win32.Debug.Error-2.idtx:76 en_US.Win32.Release.Error-2.idtx:76
+#: en_US.x64.Debug.Error-2.idtx:76 en_US.x64.Release.Error-2.idtx:76
+msgid ""
+"Could not increase the available registry space. [2] KB of free registry "
+"space is required for the installation of this application."
+msgstr ""
+"Не вдається збільшити об'єм місця, відведеного для реєстру. Щоб установити "
+"додаток, потрібно [2] КБ вільного місця в реєстрі."
+
+#: en_US.Win32.Debug.Error-2.idtx:77 en_US.Win32.Release.Error-2.idtx:77
+#: en_US.x64.Debug.Error-2.idtx:77 en_US.x64.Release.Error-2.idtx:77
+msgid ""
+"Another installation is in progress. You must complete that installation "
+"before continuing this one."
+msgstr ""
+"Одночасно триває інший процес установки. Необхідно закінчити його перед тим,"
+" як продовжити установку."
+
+#: en_US.Win32.Debug.Error-2.idtx:78 en_US.Win32.Release.Error-2.idtx:78
+#: en_US.x64.Debug.Error-2.idtx:78 en_US.x64.Release.Error-2.idtx:78
+msgid ""
+"Error accessing secured data. Please make sure the Windows Installer is "
+"configured properly and try the install again."
+msgstr ""
+"Помилка при доступі до захищених даних. Переконайтеся, що Windows Installer "
+"правильно налаштовано, і повторіть спробу установки."
+
+#: en_US.Win32.Debug.Error-2.idtx:79 en_US.Win32.Release.Error-2.idtx:79
+#: en_US.x64.Debug.Error-2.idtx:79 en_US.x64.Release.Error-2.idtx:79
+msgid ""
+"User '[2]' has previously initiated an install for product '[3]'.  That user"
+" will need to run that install again before they can use that product.  Your"
+" current install will now continue."
+msgstr ""
+"Користувач ''[2]'' вже один раз починав установку програми ''[3]''. Для "
+"продовження роботи йому необхідно буде повторити установку. Поточний процес "
+"установки буде продовжено."
+
+#: en_US.Win32.Debug.Error-2.idtx:80 en_US.Win32.Release.Error-2.idtx:80
+#: en_US.x64.Debug.Error-2.idtx:80 en_US.x64.Release.Error-2.idtx:80
+msgid ""
+"User '[2]' has previously initiated an install for product '[3]'.  That user"
+" will need to run that install again before they can use that product."
+msgstr ""
+"Користувач ''[2]'' вже один раз починав установку програми ''[3]''. Для "
+"продовження роботи йому необхідно буде повторити установку."
+
+#: en_US.Win32.Debug.Error-2.idtx:81 en_US.Win32.Release.Error-2.idtx:81
+#: en_US.x64.Debug.Error-2.idtx:81 en_US.x64.Release.Error-2.idtx:81
+msgid ""
+"Out of disk space -- Volume: '[2]'; required space: [3] KB; available space:"
+" [4] KB.  Free some disk space and retry."
+msgstr ""
+"Недостатньо місця на диску -- том: ''[2]''; потрібно: [3] КБ; доступно: [4] "
+"КБ.  Звільніть місце та повторіть спробу."
+
+#: en_US.Win32.Debug.Error-2.idtx:82 en_US.Win32.Release.Error-2.idtx:82
+#: en_US.x64.Debug.Error-2.idtx:82 en_US.x64.Release.Error-2.idtx:82
+msgid "Are you sure you want to cancel?"
+msgstr "Ви дійсно бажаєте скасувати установку?"
+
+#: en_US.Win32.Debug.Error-2.idtx:83 en_US.Win32.Release.Error-2.idtx:83
+#: en_US.x64.Debug.Error-2.idtx:83 en_US.x64.Release.Error-2.idtx:83
+msgid ""
+"The file [2][3] is being held in use{ by the following process: Name: [4], "
+"Id: [5], Window Title: '[6]'}.  Close that application and retry."
+msgstr ""
+"Файл [2][3] зайнятий{ процесом: ім'я: [4], код: [5], вікно: ''[6]''}.  "
+"Закрийте цей додаток і повторіть спробу."
+
+#: en_US.Win32.Debug.Error-2.idtx:84 en_US.Win32.Release.Error-2.idtx:84
+#: en_US.x64.Debug.Error-2.idtx:84 en_US.x64.Release.Error-2.idtx:84
+msgid ""
+"The product '[2]' is already installed, preventing the installation of this "
+"product.  The two products are incompatible."
+msgstr "Уже установлено продукт ''[2]'', несумісний із цим продуктом."
+
+#: en_US.Win32.Debug.Error-2.idtx:85 en_US.Win32.Release.Error-2.idtx:85
+#: en_US.x64.Debug.Error-2.idtx:85 en_US.x64.Release.Error-2.idtx:85
+msgid ""
+"There is not enough disk space on the volume '[2]' to continue the install "
+"with recovery enabled. [3] KB are required, but only [4] KB are available. "
+"Click Ignore to continue the install without saving recovery information, "
+"click Retry to check for available space again, or click Cancel to quit the "
+"installation."
+msgstr ""
+"На диску ''[2]'' недостатньо місця для установки з можливістю відновлення. "
+"Потрібно [3] КБ, але доступно лише [4] КБ. Щоб продовжити установку без "
+"збереження даних для відновлення, натисніть кнопку ''Пропустити''; щоб знову"
+" перевірити обсяг наявного місця, натисніть кнопку ''Повторити'', а щоб "
+"припинити установку, натисніть кнопку ''Скасувати'' ."
+
+#: en_US.Win32.Debug.Error-2.idtx:86 en_US.Win32.Release.Error-2.idtx:86
+#: en_US.x64.Debug.Error-2.idtx:86 en_US.x64.Release.Error-2.idtx:86
+msgid "Could not access network location [2]."
+msgstr "Недоступна мережна папка ''[2]''."
+
+#: en_US.Win32.Debug.Error-2.idtx:87 en_US.Win32.Release.Error-2.idtx:87
+#: en_US.x64.Debug.Error-2.idtx:87 en_US.x64.Release.Error-2.idtx:87
+msgid ""
+"The following applications should be closed before continuing the install:"
+msgstr "Перш ніж продовжити установку, закрийте такі додатки:"
+
+#: en_US.Win32.Debug.Error-2.idtx:88 en_US.Win32.Release.Error-2.idtx:88
+#: en_US.x64.Debug.Error-2.idtx:88 en_US.x64.Release.Error-2.idtx:88
+msgid ""
+"Could not find any previously installed compliant products on the machine "
+"for installing this product."
+msgstr ""
+"Не вдалося знайти установлені сумісні продукти для установки цього продукту."
+
+#: en_US.Win32.Debug.Error-2.idtx:89 en_US.Win32.Release.Error-2.idtx:89
+#: en_US.x64.Debug.Error-2.idtx:89 en_US.x64.Release.Error-2.idtx:89
+msgid ""
+"An error occurred while applying security settings. [2] is not a valid user "
+"or group. This could be a problem with the package, or a problem connecting "
+"to a domain controller on the network. Check your network connection and "
+"click Retry, or Cancel to end the install. {{Unable to locate the user's "
+"SID, system error [3]}}"
+msgstr ""
+"Сталася помилка під час застосування параметрів безпеки. [2] не є чинним "
+"користувачем або групою. Можливо, є неполадка в пакеті або помилка зв'язку з"
+" контролером домену в мережі. Перевірте мережне підключення та натисніть "
+"кнопку ''Повторити'', або кнопку ''Скасувати'', щоб припинити установку. "
+"{{Неможливо знайти ідентифікатор безпеки користувача, системна помилка [3]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:90 en_US.Win32.Release.Error-2.idtx:90
+#: en_US.x64.Debug.Error-2.idtx:90 en_US.x64.Release.Error-2.idtx:90
+msgid ""
+"The setup must update files or services that cannot be updated while the "
+"system is running. If you choose to continue, a reboot will be required to "
+"complete the setup."
+msgstr ""
+"Програмі інсталяції слід оновити файли або служби, які не можна оновити під "
+"час роботи системи. В разі продовження слід перезавантажити комп’ютер, щоб "
+"завершити інсталяцію."
+
+#: en_US.Win32.Debug.Error-2.idtx:91 en_US.Win32.Release.Error-2.idtx:91
+#: en_US.x64.Debug.Error-2.idtx:91 en_US.x64.Release.Error-2.idtx:91
+msgid ""
+"The setup was unable to automatically close all applications that are using "
+"files that need to be updated. If you choose to continue, a reboot will be "
+"required to complete the setup."
+msgstr ""
+
+#: en_US.Win32.Debug.Error-2.idtx:92 en_US.Win32.Release.Error-2.idtx:92
+#: en_US.x64.Debug.Error-2.idtx:92 en_US.x64.Release.Error-2.idtx:92
+msgid ""
+"This installation package is not supported on this platform. Contact your "
+"application vendor."
+msgstr ""
+
+#: en_US.Win32.Debug.Error-2.idtx:93 en_US.Win32.Release.Error-2.idtx:93
+#: en_US.x64.Debug.Error-2.idtx:93 en_US.x64.Release.Error-2.idtx:93
+msgid "The key [2] is not valid.  Verify that you entered the correct key."
+msgstr "Неприпустимий ключ [2]. Перевірте правильність ключа."
+
+#: en_US.Win32.Debug.Error-2.idtx:94 en_US.Win32.Release.Error-2.idtx:94
+#: en_US.x64.Debug.Error-2.idtx:94 en_US.x64.Release.Error-2.idtx:94
+msgid ""
+"The installer must restart your system before configuration of [2] can "
+"continue.  Click Yes to restart now or No if you plan to manually restart "
+"later."
+msgstr ""
+"Перед продовженням настройки [2] установник повинен перезавантажити систему."
+" Натисніть кнопку \"Так\", щоб зробити це зараз, або кнопку \"Ні\", щоб "
+"виконати перезавантаження пізніше вручну."
+
+#: en_US.Win32.Debug.Error-2.idtx:95 en_US.Win32.Release.Error-2.idtx:95
+#: en_US.x64.Debug.Error-2.idtx:95 en_US.x64.Release.Error-2.idtx:95
+msgid ""
+"You must restart your system for the configuration changes made to [2] to "
+"take effect. Click Yes to restart now or No if you plan to manually restart "
+"later."
+msgstr ""
+"Щоб зміни в настройках [2] набрали сили, необхідно перезавантажити систему. "
+"Натисніть кнопку \"Так\", щоб зробити це зараз, або кнопку \"Ні\", щоб "
+"виконати перезавантаження пізніше вручну."
+
+#: en_US.Win32.Debug.Error-2.idtx:96 en_US.Win32.Release.Error-2.idtx:96
+#: en_US.x64.Debug.Error-2.idtx:96 en_US.x64.Release.Error-2.idtx:96
+msgid ""
+"An installation for [2] is currently suspended.  You must undo the changes "
+"made by that installation to continue.  Do you want to undo those changes?"
+msgstr ""
+"Установку програми [2] призупинено. Щоб продовжити, необхідно скасувати "
+"зміни, зроблені програмою установки. Скасувати їх?"
+
+#: en_US.Win32.Debug.Error-2.idtx:97 en_US.Win32.Release.Error-2.idtx:97
+#: en_US.x64.Debug.Error-2.idtx:97 en_US.x64.Release.Error-2.idtx:97
+msgid ""
+"A previous installation for this product is in progress.  You must undo the "
+"changes made by that installation to continue.  Do you want to undo those "
+"changes?"
+msgstr ""
+"Не завершено попередню установку програми. Щоб продовжити, необхідно "
+"скасувати зміни, зроблені програмою установки. Скасувати їх?"
+
+#: en_US.Win32.Debug.Error-2.idtx:98 en_US.Win32.Release.Error-2.idtx:98
+#: en_US.x64.Debug.Error-2.idtx:98 en_US.x64.Release.Error-2.idtx:98
+msgid ""
+"An installation package for the product [2] cannot be found. Try the "
+"installation again using a valid copy of the installation package '[3]'."
+msgstr ""
+"Не вдається знайти установчий пакет для продукту [2]. Повторіть спробу "
+"установки з чинною копією установчого пакета '[3]'."
+
+#: en_US.Win32.Debug.Error-2.idtx:99 en_US.Win32.Release.Error-2.idtx:99
+#: en_US.x64.Debug.Error-2.idtx:99 en_US.x64.Release.Error-2.idtx:99
+msgid "Installation completed successfully."
+msgstr "Установку успішно завершено."
+
+#: en_US.Win32.Debug.Error-2.idtx:100 en_US.Win32.Release.Error-2.idtx:100
+#: en_US.x64.Debug.Error-2.idtx:100 en_US.x64.Release.Error-2.idtx:100
+msgid "Installation failed."
+msgstr "Установку не виконано."
+
+#: en_US.Win32.Debug.Error-2.idtx:101 en_US.Win32.Release.Error-2.idtx:101
+#: en_US.x64.Debug.Error-2.idtx:101 en_US.x64.Release.Error-2.idtx:101
+msgid "Product: [2] -- [3]"
+msgstr "Продукт: [2] -- [3]"
+
+#: en_US.Win32.Debug.Error-2.idtx:102 en_US.Win32.Release.Error-2.idtx:102
+#: en_US.x64.Debug.Error-2.idtx:102 en_US.x64.Release.Error-2.idtx:102
+msgid ""
+"You may either restore your computer to its previous state or continue the "
+"install later. Would you like to restore?"
+msgstr ""
+"Можна повернути комп'ютер до попереднього стану або продовжити установку "
+"пізніше. Відновити попередній стан?"
+
+#: en_US.Win32.Debug.Error-2.idtx:103 en_US.Win32.Release.Error-2.idtx:103
+#: en_US.x64.Debug.Error-2.idtx:103 en_US.x64.Release.Error-2.idtx:103
+msgid ""
+"An error occurred while writing installation information to disk.  Check to "
+"make sure enough disk space is available, and click Retry, or Cancel to end "
+"the install."
+msgstr ""
+"Помилка під час запису відомостей про установку на диск. Перевірте наявність"
+" вільного місця на диску та натисніть кнопку ''Повторити'' або натисніть "
+"кнопку ''Скасувати'', щоб перервати установку."
+
+#: en_US.Win32.Debug.Error-2.idtx:104 en_US.Win32.Release.Error-2.idtx:104
+#: en_US.x64.Debug.Error-2.idtx:104 en_US.x64.Release.Error-2.idtx:104
+msgid ""
+"One or more of the files required to restore your computer to its previous "
+"state could not be found.  Restoration will not be possible."
+msgstr ""
+"Не знайдено одного або декількох файлів, потрібних для відновлення вихідного"
+" стану комп'ютера. Відновлення неможливе."
+
+#: en_US.Win32.Debug.Error-2.idtx:105 en_US.Win32.Release.Error-2.idtx:105
+#: en_US.x64.Debug.Error-2.idtx:105 en_US.x64.Release.Error-2.idtx:105
+msgid ""
+"[2] cannot install one of its required products. Contact your technical "
+"support group.  {{System Error: [3].}}"
+msgstr ""
+"Не вдається установити один із потрібних для [2] продуктів. Зверніться до "
+"групи технічної підтримки.  {{Системна помилка: [3].}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:106 en_US.Win32.Release.Error-2.idtx:106
+#: en_US.x64.Debug.Error-2.idtx:106 en_US.x64.Release.Error-2.idtx:106
+msgid ""
+"The older version of [2] cannot be removed.  Contact your technical support "
+"group.  {{System Error [3].}}"
+msgstr ""
+"Не вдається видалити стару версію [2].  Зверніться до групи технічної "
+"підтримки.  {{Системна помилка [3].}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:107 en_US.Win32.Release.Error-2.idtx:107
+#: en_US.x64.Debug.Error-2.idtx:107 en_US.x64.Release.Error-2.idtx:107
+msgid "Installed [2]"
+msgstr "Установлено [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:108 en_US.Win32.Release.Error-2.idtx:108
+#: en_US.x64.Debug.Error-2.idtx:108 en_US.x64.Release.Error-2.idtx:108
+msgid "Configured [2]"
+msgstr "Налаштовано [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:109 en_US.Win32.Release.Error-2.idtx:109
+#: en_US.x64.Debug.Error-2.idtx:109 en_US.x64.Release.Error-2.idtx:109
+msgid "Removed [2]"
+msgstr "Видалено [2]"
+
+#: en_US.Win32.Debug.Error-2.idtx:110 en_US.Win32.Release.Error-2.idtx:110
+#: en_US.x64.Debug.Error-2.idtx:110 en_US.x64.Release.Error-2.idtx:110
+msgid "File [2] was rejected by digital signature policy."
+msgstr "Файл [2] відхилено політикою цифрових підписів."
+
+#: en_US.Win32.Debug.Error-2.idtx:111 en_US.Win32.Release.Error-2.idtx:111
+#: en_US.x64.Debug.Error-2.idtx:111 en_US.x64.Release.Error-2.idtx:111
+msgid ""
+"The Windows Installer Service could not be accessed. This can occur if the "
+"Windows Installer is not correctly installed. Contact your support personnel"
+" for assistance."
+msgstr ""
+"Немає доступу до служби Windows Installer. Можливо, Windows працює в "
+"безпечному режимі, або Windows Installer установлено неправильно. Зверніться"
+" до служби технічної підтримки."
+
+#: en_US.Win32.Debug.Error-2.idtx:112 en_US.Win32.Release.Error-2.idtx:112
+#: en_US.x64.Debug.Error-2.idtx:112 en_US.x64.Release.Error-2.idtx:112
+msgid ""
+"There is a problem with this Windows Installer package. A script required "
+"for this install to complete could not be run. Contact your support "
+"personnel or package vendor.  {{Custom action [2] script error [3], [4]: [5]"
+" Line [6], Column [7], [8] }}"
+msgstr ""
+"Неполадка в цьому пакеті Windows Installer. Не вдається запустити сценарій, "
+"потрібний для виконання установки. Зверніться до служби технічної підтримки "
+"або до постачальника пакета.  {{Користувацька дія [2], помилка сценарію [3],"
+" [4]: [5] рядок [6], стовпець [7], [8] }}"
+
+#: en_US.Win32.Debug.Error-2.idtx:113 en_US.Win32.Release.Error-2.idtx:113
+#: en_US.x64.Debug.Error-2.idtx:113 en_US.x64.Release.Error-2.idtx:113
+msgid ""
+"There is a problem with this Windows Installer package. A program required "
+"for this install to complete could not be run. Contact your support "
+"personnel or package vendor. {{Action: [2], location: [3], command: [4] }}"
+msgstr ""
+"Неполадка в цьому пакеті Windows Installer. Не вдається запустити програму, "
+"потрібну для виконання установки. Зверніться до служби технічної підтримки "
+"або до постачальника пакета. {{Дія: [2], розташування: [3], команда: [4] }}"
+
+#: en_US.Win32.Debug.Error-2.idtx:114 en_US.Win32.Release.Error-2.idtx:114
+#: en_US.x64.Debug.Error-2.idtx:114 en_US.x64.Release.Error-2.idtx:114
+msgid ""
+"There is a problem with this Windows Installer package. A program run as "
+"part of the setup did not finish as expected. Contact your support personnel"
+" or package vendor.  {{Action [2], location: [3], command: [4] }}"
+msgstr ""
+"Неполадка в цьому пакеті Windows Installer. Програма, запущена у процесі "
+"установки, не припинила роботу, як очікувалося. Зверніться до служби "
+"технічної підтримки або до постачальника пакета.  {{Дія: [2], розташування: "
+"[3], команда: [4] }}"
+
+#: en_US.Win32.Debug.Error-2.idtx:115 en_US.Win32.Release.Error-2.idtx:115
+#: en_US.x64.Debug.Error-2.idtx:115 en_US.x64.Release.Error-2.idtx:115
+msgid ""
+"There is a problem with this Windows Installer package. A DLL required for "
+"this install to complete could not be run. Contact your support personnel or"
+" package vendor.  {{Action [2], entry: [3], library: [4] }}"
+msgstr ""
+"Неполадка в цьому пакеті Windows Installer. Не вдається запустити бібліотеку"
+" DLL, потрібну для виконання установки. Зверніться до служби технічної "
+"підтримки або до постачальника пакета.  {{Дія [2], запис: [3], бібліотека: "
+"[4] }}"
+
+#: en_US.Win32.Debug.Error-2.idtx:116 en_US.Win32.Release.Error-2.idtx:116
+#: en_US.x64.Debug.Error-2.idtx:116 en_US.x64.Release.Error-2.idtx:116
+msgid "Removal completed successfully."
+msgstr "Видалення успішно завершено."
+
+#: en_US.Win32.Debug.Error-2.idtx:117 en_US.Win32.Release.Error-2.idtx:117
+#: en_US.x64.Debug.Error-2.idtx:117 en_US.x64.Release.Error-2.idtx:117
+msgid "Removal failed."
+msgstr "Видалення не виконано."
+
+#: en_US.Win32.Debug.Error-2.idtx:118 en_US.Win32.Release.Error-2.idtx:118
+#: en_US.x64.Debug.Error-2.idtx:118 en_US.x64.Release.Error-2.idtx:118
+msgid "Advertisement completed successfully."
+msgstr "Оголошення успішно завершено."
+
+#: en_US.Win32.Debug.Error-2.idtx:119 en_US.Win32.Release.Error-2.idtx:119
+#: en_US.x64.Debug.Error-2.idtx:119 en_US.x64.Release.Error-2.idtx:119
+msgid "Advertisement failed."
+msgstr "Оголошення не виконано."
+
+#: en_US.Win32.Debug.Error-2.idtx:120 en_US.Win32.Release.Error-2.idtx:120
+#: en_US.x64.Debug.Error-2.idtx:120 en_US.x64.Release.Error-2.idtx:120
+msgid "Configuration completed successfully."
+msgstr "Настройку успішно завершено."
+
+#: en_US.Win32.Debug.Error-2.idtx:121 en_US.Win32.Release.Error-2.idtx:121
+#: en_US.x64.Debug.Error-2.idtx:121 en_US.x64.Release.Error-2.idtx:121
+msgid "Configuration failed."
+msgstr "Настройку не виконано."
+
+#: en_US.Win32.Debug.Error-2.idtx:122 en_US.Win32.Release.Error-2.idtx:122
+#: en_US.x64.Debug.Error-2.idtx:122 en_US.x64.Release.Error-2.idtx:122
+msgid ""
+"You must be an Administrator to remove this application. To remove this "
+"application, you can log on as an Administrator, or contact your technical "
+"support group for assistance."
+msgstr ""
+"Видалити цей додаток може лише адміністратор. Щоб видалити додаток, ввійдіть"
+" до системи як адміністратор або зверніться до служби технічної підтримки."
+
+#: en_US.Win32.Debug.Error-2.idtx:123 en_US.Win32.Release.Error-2.idtx:123
+#: en_US.x64.Debug.Error-2.idtx:123 en_US.x64.Release.Error-2.idtx:123
+msgid ""
+"The source installation package for the product [2] is out of sync with the "
+"client package. Try the installation again using a valid copy of the "
+"installation package '[3]'."
+msgstr ""
+"Вихідний установчий пакет продукту [2] не синхронізовано з клієнтським "
+"пакетом. Повторіть спробу установки з чинною копією установчого пакета "
+"'[3]'."
+
+#: en_US.Win32.Debug.Error-2.idtx:124 en_US.Win32.Release.Error-2.idtx:124
+#: en_US.x64.Debug.Error-2.idtx:124 en_US.x64.Release.Error-2.idtx:124
+msgid ""
+"In order to complete the installation of [2], you must restart the computer."
+" Other users are currently logged on to this computer, and restarting may "
+"cause them to lose their work. Do you want to restart now?"
+msgstr ""
+"Для завершення установки [2] необхідно перезавантажити комп'ютер. Можливо, "
+"на комп'ютері працюють інші користувачі, і перезавантаження призведе до "
+"втрати їх даних. Перезавантажити комп'ютер зараз?"
+
+#: en_US.Win32.Debug.Error-2.idtx:125 en_US.Win32.Release.Error-2.idtx:125
+#: en_US.x64.Debug.Error-2.idtx:125 en_US.x64.Release.Error-2.idtx:125
+msgid ""
+"The Windows Installer service is not accessible in Safe Mode. Please try "
+"again when your computer is not in Safe Mode or you can use System Restore "
+"to return your machine to a previous good state."
+msgstr ""
+"Служба інсталятора Windows недоступна у безпечному режимі. Повторіть спробу "
+"в режимі, відмінному від безпечного, або скористайтеся службою відновлення "
+"системи, щоб повернути комп’ютер до попереднього справного стану."
+
+#: en_US.Win32.Debug.Error-2.idtx:126 en_US.Win32.Release.Error-2.idtx:126
+#: en_US.x64.Debug.Error-2.idtx:126 en_US.x64.Release.Error-2.idtx:126
+msgid "The path [2] is not valid.  Please specify a valid path."
+msgstr "Неприпустимий шлях ''[2]''. Укажіть правильний шлях."
+
+#: en_US.Win32.Debug.Error-2.idtx:128 en_US.Win32.Release.Error-2.idtx:128
+#: en_US.x64.Debug.Error-2.idtx:128 en_US.x64.Release.Error-2.idtx:128
+msgid ""
+"There is no disk in drive [2]. Please insert one and click Retry, or click "
+"Cancel to go back to the previously selected volume."
+msgstr ""
+"У пристрої [2] немає диска. Вставте диск і натисніть кнопку ''Повторити'' "
+"або натисніть кнопку ''Скасувати'', щоб повернутися до вибраного раніше "
+"тому."
+
+#: en_US.Win32.Debug.Error-2.idtx:129 en_US.Win32.Release.Error-2.idtx:129
+#: en_US.x64.Debug.Error-2.idtx:129 en_US.x64.Release.Error-2.idtx:129
+msgid ""
+"There is no disk in drive [2]. Please insert one and click Retry, or click "
+"Cancel to return to the browse dialog and select a different volume."
+msgstr ""
+"У пристрої [2] немає диска. Вставте диск і натисніть кнопку ''Повторити'' "
+"або натисніть кнопку ''Скасувати'', щоб повернутися до вікна перегляду "
+"папок, і виберіть інший том."
+
+#: en_US.Win32.Debug.Error-2.idtx:130 en_US.Win32.Release.Error-2.idtx:130
+#: en_US.x64.Debug.Error-2.idtx:130 en_US.x64.Release.Error-2.idtx:130
+msgid ""
+"The folder [2] does not exist.  Please enter a path to an existing folder."
+msgstr "Папка ''[2]'' не існує. Введіть шлях до існуючої папки."
+
+#: en_US.Win32.Debug.Error-2.idtx:131 en_US.Win32.Release.Error-2.idtx:131
+#: en_US.x64.Debug.Error-2.idtx:131 en_US.x64.Release.Error-2.idtx:131
 msgid "You have insufficient privileges to read this folder."
 msgstr "Ви не маєте належних прав на читання цієї папки."
 
-#: En.Win32.Debug.Error-2.idtx:102 En.Win32.Release.Error-2.idtx:102
-#: En.x64.Debug.Error-2.idtx:102 En.x64.Release.Error-2.idtx:102
-msgid "You may either restore your computer to its previous state or continue the install later. Would you like to restore?"
-msgstr "Можна повернути комп'ютер до попереднього стану або продовжити установку пізніше. Відновити попередній стан?"
+#: en_US.Win32.Debug.Error-2.idtx:132 en_US.Win32.Release.Error-2.idtx:132
+#: en_US.x64.Debug.Error-2.idtx:132 en_US.x64.Release.Error-2.idtx:132
+msgid "A valid destination folder for the install could not be determined."
+msgstr "Не вдається визначити кінцеву папку для установки."
 
-#: En.Win32.Debug.Error-2.idtx:122 En.Win32.Release.Error-2.idtx:122
-#: En.x64.Debug.Error-2.idtx:122 En.x64.Release.Error-2.idtx:122
-msgid "You must be an Administrator to remove this application. To remove this application, you can log on as an Administrator, or contact your technical support group for assistance."
-msgstr "Видалити цей додаток може лише адміністратор. Щоб видалити додаток, ввійдіть до системи як адміністратор або зверніться до служби технічної підтримки."
+#: en_US.Win32.Debug.Error-2.idtx:133 en_US.Win32.Release.Error-2.idtx:133
+#: en_US.x64.Debug.Error-2.idtx:133 en_US.x64.Release.Error-2.idtx:133
+msgid "Error attempting to read from the source install database: [2]."
+msgstr ""
+"Сталася помилка при спробі прочитати з вихідної бази даних установки: [2]."
 
-#: En.Win32.Debug.Error-2.idtx:95 En.Win32.Release.Error-2.idtx:95
-#: En.x64.Debug.Error-2.idtx:95 En.x64.Release.Error-2.idtx:95
-msgid "You must restart your system for the configuration changes made to [2] to take effect. Click Yes to restart now or No if you plan to manually restart later."
-msgstr "Щоб зміни в настройках [2] набрали сили, необхідно перезавантажити систему. Натисніть кнопку \"Так\", щоб зробити це зараз, або кнопку \"Ні\", щоб виконати перезавантаження пізніше вручну."
+#: en_US.Win32.Debug.Error-2.idtx:134 en_US.Win32.Release.Error-2.idtx:134
+#: en_US.x64.Debug.Error-2.idtx:134 en_US.x64.Release.Error-2.idtx:134
+msgid ""
+"Scheduling reboot operation: Renaming file [2] to [3]. Must reboot to "
+"complete operation."
+msgstr ""
+"Планування операції, яка  потребує перезавантаження: перейменування файлу "
+"''[2]'' на ''[3]''.  Операція завершиться лише після перезавантаження."
+
+#: en_US.Win32.Debug.Error-2.idtx:135 en_US.Win32.Release.Error-2.idtx:135
+#: en_US.x64.Debug.Error-2.idtx:135 en_US.x64.Release.Error-2.idtx:135
+msgid ""
+"Scheduling reboot operation: Deleting file [2]. Must reboot to complete "
+"operation."
+msgstr ""
+"Планування операції, яка потребує перезавантаження: видалення файлу ''[2]''."
+"  Операція завершиться лише після перезавантаження."
+
+#: en_US.Win32.Debug.Error-2.idtx:136 en_US.Win32.Release.Error-2.idtx:136
+#: en_US.x64.Debug.Error-2.idtx:136 en_US.x64.Release.Error-2.idtx:136
+msgid ""
+"Module [2] failed to register.  HRESULT [3].  Contact your support "
+"personnel."
+msgstr ""
+"Не вдалося зареєструвати модуль [2]. HRESULT [3]. Зверніться до служби "
+"підтримки."
+
+#: en_US.Win32.Debug.Error-2.idtx:137 en_US.Win32.Release.Error-2.idtx:137
+#: en_US.x64.Debug.Error-2.idtx:137 en_US.x64.Release.Error-2.idtx:137
+msgid ""
+"Module [2] failed to unregister.  HRESULT [3].  Contact your support "
+"personnel."
+msgstr ""
+"Не вдалося скасувати реєстрацію модуля [2]. HRESULT [3]. Зверніться до "
+"служби підтримки."
+
+#: en_US.Win32.Debug.Error-2.idtx:138 en_US.Win32.Release.Error-2.idtx:138
+#: en_US.x64.Debug.Error-2.idtx:138 en_US.x64.Release.Error-2.idtx:138
+msgid ""
+"Failed to cache package [2]. Error: [3]. Contact your support personnel."
+msgstr ""
+"Помилка кешування пакета [2]. Помилка: [3]. Зверніться до служби підтримки."
+
+#: en_US.Win32.Debug.Error-2.idtx:139 en_US.Win32.Release.Error-2.idtx:139
+#: en_US.x64.Debug.Error-2.idtx:139 en_US.x64.Release.Error-2.idtx:139
+msgid ""
+"Could not register font [2].  Verify that you have sufficient permissions to"
+" install fonts, and that the system supports this font."
+msgstr ""
+"Не вдалося зареєструвати шрифт [2].  Переконайтеся, що ви маєте належні "
+"права на установку шрифтів, і що система підтримує цей шрифт."
+
+#: en_US.Win32.Debug.Error-2.idtx:140 en_US.Win32.Release.Error-2.idtx:140
+#: en_US.x64.Debug.Error-2.idtx:140 en_US.x64.Release.Error-2.idtx:140
+msgid ""
+"Could not unregister font [2]. Verify that you that you have sufficient "
+"permissions to remove fonts."
+msgstr ""
+"Не вдалося скасувати реєстрацію шрифту [2]. Переконайтеся, що ви маєте "
+"належні права на видалення шрифтів."
+
+#: en_US.Win32.Debug.Error-2.idtx:141 en_US.Win32.Release.Error-2.idtx:141
+#: en_US.x64.Debug.Error-2.idtx:141 en_US.x64.Release.Error-2.idtx:141
+msgid ""
+"Could not create Shortcut [2]. Verify that the destination folder exists and"
+" that you can access it."
+msgstr ""
+"Не вдалося створити ярлик [2]. Переконайтеся, що кінцева папка існує та "
+"доступна."
+
+#: en_US.Win32.Debug.Error-2.idtx:142 en_US.Win32.Release.Error-2.idtx:142
+#: en_US.x64.Debug.Error-2.idtx:142 en_US.x64.Release.Error-2.idtx:142
+msgid ""
+"Could not remove Shortcut [2]. Verify that the shortcut file exists and that"
+" you can access it."
+msgstr ""
+"Не вдалося видалити ярлик [2]. Переконайтеся, що файл ярлика існує та "
+"доступний."
+
+#: en_US.Win32.Debug.Error-2.idtx:143 en_US.Win32.Release.Error-2.idtx:143
+#: en_US.x64.Debug.Error-2.idtx:143 en_US.x64.Release.Error-2.idtx:143
+msgid ""
+"Could not register type library for file [2].  Contact your support "
+"personnel."
+msgstr ""
+"Не вдалося зареєструвати бібліотеку типів для файлу [2]. Зверніться до "
+"служби підтримки."
+
+#: en_US.Win32.Debug.Error-2.idtx:144 en_US.Win32.Release.Error-2.idtx:144
+#: en_US.x64.Debug.Error-2.idtx:144 en_US.x64.Release.Error-2.idtx:144
+msgid ""
+"Could not unregister type library for file [2].  Contact your support "
+"personnel."
+msgstr ""
+"Не вдалося скасувати реєстрацію бібліотеки типів для файлу [2]. Зверніться "
+"до служби підтримки."
+
+#: en_US.Win32.Debug.Error-2.idtx:145 en_US.Win32.Release.Error-2.idtx:145
+#: en_US.x64.Debug.Error-2.idtx:145 en_US.x64.Release.Error-2.idtx:145
+msgid ""
+"Could not update the ini file [2][3].  Verify that the file exists and that "
+"you can access it."
+msgstr ""
+"Не вдалося оновити ini-файл [2][3]. Переконайтеся, що файл існує та "
+"доступний."
+
+#: en_US.Win32.Debug.Error-2.idtx:146 en_US.Win32.Release.Error-2.idtx:146
+#: en_US.x64.Debug.Error-2.idtx:146 en_US.x64.Release.Error-2.idtx:146
+msgid ""
+"Could not schedule file [2] to replace file [3] on reboot.  Verify that you "
+"have write permissions to file [3]."
+msgstr ""
+"Не вдалося забезпечити заміну файлу ''[3]'' на файл ''[2]'' під час "
+"перезавантаження. Переконайтеся в наявності дозволу на запис до файлу [3]."
+
+#: en_US.Win32.Debug.Error-2.idtx:147 en_US.Win32.Release.Error-2.idtx:147
+#: en_US.x64.Debug.Error-2.idtx:147 en_US.x64.Release.Error-2.idtx:147
+msgid ""
+"Error removing ODBC driver manager, ODBC error [2]: [3]. Contact your "
+"support personnel."
+msgstr ""
+"Не вдається видалити диспетчер драйверів ODBC, помилка ODBC [2]: [3]. "
+"Зверніться до служби підтримки."
+
+#: en_US.Win32.Debug.Error-2.idtx:148 en_US.Win32.Release.Error-2.idtx:148
+#: en_US.x64.Debug.Error-2.idtx:148 en_US.x64.Release.Error-2.idtx:148
+msgid ""
+"Error installing ODBC driver manager, ODBC error [2]: [3]. Contact your "
+"support personnel."
+msgstr ""
+"Помилка при установці диспетчера драйверів ODBC, помилка ODBC [2]: [3]. "
+"Зверніться до служби підтримки."
+
+#: en_US.Win32.Debug.Error-2.idtx:149 en_US.Win32.Release.Error-2.idtx:149
+#: en_US.x64.Debug.Error-2.idtx:149 en_US.x64.Release.Error-2.idtx:149
+msgid ""
+"Error removing ODBC driver: [4], ODBC error [2]: [3]. Verify that you have "
+"sufficient privileges to remove ODBC drivers."
+msgstr ""
+"Не вдається видалити драйвер ODBC: [4], помилка ODBC [2]: [3]. Переконайтеся"
+" в наявності належних прав для видалення драйверів ODBC."
+
+#: en_US.Win32.Debug.Error-2.idtx:150 en_US.Win32.Release.Error-2.idtx:150
+#: en_US.x64.Debug.Error-2.idtx:150 en_US.x64.Release.Error-2.idtx:150
+msgid ""
+"Error installing ODBC driver: [4], ODBC error [2]: [3]. Verify that the file"
+" [4] exists and that you can access it."
+msgstr ""
+"Помилка під час установки драйвера ODBC: [4], помилка ODBC [2]: [3]. "
+"Переконайтеся, що файл ''[4]'' існує та доступний."
+
+#: en_US.Win32.Debug.Error-2.idtx:151 en_US.Win32.Release.Error-2.idtx:151
+#: en_US.x64.Debug.Error-2.idtx:151 en_US.x64.Release.Error-2.idtx:151
+msgid ""
+"Error configuring ODBC data source: [4], ODBC error [2]: [3]. Verify that "
+"the file [4] exists and that you can access it."
+msgstr ""
+"Не вдається налаштувати джерело даних ODBC: [4], помилка ODBC [2]: [3]. "
+"Переконайтеся, що файл ''[4]'' існує та доступний."
+
+#: en_US.Win32.Debug.Error-2.idtx:152 en_US.Win32.Release.Error-2.idtx:152
+#: en_US.x64.Debug.Error-2.idtx:152 en_US.x64.Release.Error-2.idtx:152
+msgid ""
+"Service '[2]' ([3]) failed to start.  Verify that you have sufficient "
+"privileges to start system services."
+msgstr ""
+"Не вдалося запустити службу ''[2]'' ([3]). Переконайтес, що ви маєте належні"
+" права на запуск системних служб."
+
+#: en_US.Win32.Debug.Error-2.idtx:153 en_US.Win32.Release.Error-2.idtx:153
+#: en_US.x64.Debug.Error-2.idtx:153 en_US.x64.Release.Error-2.idtx:153
+msgid ""
+"Service '[2]' ([3]) could not be stopped.  Verify that you have sufficient "
+"privileges to stop system services."
+msgstr ""
+"Не вдалося зупинити службу ''[2]'' ([3]). Переконайтеся, що ви маєте належні"
+" права на зупинення системних служб."
+
+#: en_US.Win32.Debug.Error-2.idtx:154 en_US.Win32.Release.Error-2.idtx:154
+#: en_US.x64.Debug.Error-2.idtx:154 en_US.x64.Release.Error-2.idtx:154
+msgid ""
+"Service '[2]' ([3]) could not be deleted.  Verify that you have sufficient "
+"privileges to remove system services."
+msgstr ""
+"Не вдалося видалити службу ''[2]'' ([3]). Переконайтеся в наявності належних"
+" прав для видалення системних служб."
+
+#: en_US.Win32.Debug.Error-2.idtx:155 en_US.Win32.Release.Error-2.idtx:155
+#: en_US.x64.Debug.Error-2.idtx:155 en_US.x64.Release.Error-2.idtx:155
+msgid ""
+"Service '[2]' ([3]) could not be installed.  Verify that you have sufficient"
+" privileges to install system services."
+msgstr ""
+"Не вдалося установити службу ''[2]'' ([3]). Переконайтеся в наявності "
+"належних прав для установки системних служб."
+
+#: en_US.Win32.Debug.Error-2.idtx:156 en_US.Win32.Release.Error-2.idtx:156
+#: en_US.x64.Debug.Error-2.idtx:156 en_US.x64.Release.Error-2.idtx:156
+msgid ""
+"Could not update environment variable '[2]'.  Verify that you have "
+"sufficient privileges to modify environment variables."
+msgstr ""
+"Не вдалося оновити змінну оточення ''[2]''. Переконайтеся в наявності "
+"належних прав для модифікації змінних оточення."
+
+#: en_US.Win32.Debug.Error-2.idtx:157 en_US.Win32.Release.Error-2.idtx:157
+#: en_US.x64.Debug.Error-2.idtx:157 en_US.x64.Release.Error-2.idtx:157
+msgid ""
+"You do not have sufficient privileges to complete this installation for all "
+"users of the machine.  Log on as administrator and then retry this "
+"installation."
+msgstr ""
+"Ви не маєте належних прав на завершення цієї установки для всіх користувачів"
+" комп'ютера. Ввійдіть до системи як адміністратор і повторіть спробу."
+
+#: en_US.Win32.Debug.Error-2.idtx:158 en_US.Win32.Release.Error-2.idtx:158
+#: en_US.x64.Debug.Error-2.idtx:158 en_US.x64.Release.Error-2.idtx:158
+msgid ""
+"Could not set file security for file '[3]'. Error: [2].  Verify that you "
+"have sufficient privileges to modify the security permissions for this file."
+msgstr ""
+"Не вдається установити захист для файлу ''[3]''. Помилка: [2].  "
+"Переконайтеся, що ви маєте належні права на зміну дозволів на цей файл."
+
+#: en_US.Win32.Debug.Error-2.idtx:159 en_US.Win32.Release.Error-2.idtx:159
+#: en_US.x64.Debug.Error-2.idtx:159 en_US.x64.Release.Error-2.idtx:159
+msgid ""
+"Component Services (COM+ 1.0) are not installed on this computer.  This "
+"installation requires Component Services in order to complete successfully."
+"  Component Services are available on Windows 2000."
+msgstr ""
+"На цьому комп'ютері не установлено служби компонентів (COM+ 1.0).  Наявність"
+" служб компонентів необхідна для виконання установки.  Служби компонентів є "
+"у складі Windows 2000."
+
+#: en_US.Win32.Debug.Error-2.idtx:160 en_US.Win32.Release.Error-2.idtx:160
+#: en_US.x64.Debug.Error-2.idtx:160 en_US.x64.Release.Error-2.idtx:160
+msgid ""
+"Error registering COM+ Application.  Contact your support personnel for more"
+" information."
+msgstr ""
+"Помилка реєстрації додатка COM+.  Зверніться до служби підтримки за "
+"додатковими відомостями."
+
+#: en_US.Win32.Debug.Error-2.idtx:161 en_US.Win32.Release.Error-2.idtx:161
+#: en_US.x64.Debug.Error-2.idtx:161 en_US.x64.Release.Error-2.idtx:161
+msgid ""
+"Error unregistering COM+ Application.  Contact your support personnel for "
+"more information."
+msgstr ""
+"Помилка скасування реєстрації додатка COM+.  Зверніться до служби підтримки "
+"за додатковими відомостями."
+
+#: en_US.Win32.Debug.Error-2.idtx:162 en_US.Win32.Release.Error-2.idtx:162
+#: en_US.x64.Debug.Error-2.idtx:162 en_US.x64.Release.Error-2.idtx:162
+msgid "The description for service '[2]' ([3]) could not be changed."
+msgstr "Опис служби ''[2]'' ([3]) неможливо змінити."
+
+#: en_US.Win32.Debug.Error-2.idtx:163 en_US.Win32.Release.Error-2.idtx:163
+#: en_US.x64.Debug.Error-2.idtx:163 en_US.x64.Release.Error-2.idtx:163
+msgid ""
+"The Windows Installer service cannot update the system file [2] because the "
+"file is protected by Windows.  You may need to update your operating system "
+"for this program to work correctly. {{Package version: [3], OS Protected "
+"version: [4]}}"
+msgstr ""
+"Служба Windows Installer не може оновити системний файл [2], оскільки цей "
+"файл захищено операційною системою.  Можливо, для належної роботи цієї "
+"програми буде потрібно оновити Windows. {{Версія пакета: [3], версія "
+"захищеного файлу: [4]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:164 en_US.Win32.Release.Error-2.idtx:164
+#: en_US.x64.Debug.Error-2.idtx:164 en_US.x64.Release.Error-2.idtx:164
+msgid ""
+"The Windows Installer service cannot update the protected Windows file [2]. "
+"{{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
+msgstr ""
+"Служба Windows Installer не може оновити захищений файл Windows [2]. "
+"{{Версія пакета: [3], версія захищеного файлу: [4], помилка SFP: [5]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:165 en_US.Win32.Release.Error-2.idtx:165
+#: en_US.x64.Debug.Error-2.idtx:165 en_US.x64.Release.Error-2.idtx:165
+msgid ""
+"The Windows Installer service cannot update one or more protected Windows "
+"files. {{SFP Error: [2].  List of protected files:\\r\\n[3]}}"
+msgstr ""
+"Служба Windows Installer не може оновити захищені файли Windows. {{Помилка "
+"SFP: [2].  Список захищених файлів:\\r\\n[3]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:166 en_US.Win32.Release.Error-2.idtx:166
+#: en_US.x64.Debug.Error-2.idtx:166 en_US.x64.Release.Error-2.idtx:166
+msgid "User installations are disabled via policy on the machine."
+msgstr "Політика цього комп'ютера забороняє установку користувачем."
+
+#: en_US.Win32.Debug.Error-2.idtx:167 en_US.Win32.Release.Error-2.idtx:167
+#: en_US.x64.Debug.Error-2.idtx:167 en_US.x64.Release.Error-2.idtx:167
+msgid ""
+"An error occurred during the installation of assembly '[6]'. Please refer to"
+" Help and Support for more information. {{HRESULT: [3]. assembly interface: "
+"[4], function: [5], component: [2]}}"
+msgstr ""
+"Сталася помилка під час установки зібрання ''[6]''. Додаткові відомості "
+"можна знайти в центрі довідки та підтримки. HRESULT: [3]. {{інтерфейс "
+"зібрання: [4], функція: [5], компонент: [2]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:168 en_US.Win32.Release.Error-2.idtx:168
+#: en_US.x64.Debug.Error-2.idtx:168 en_US.x64.Release.Error-2.idtx:168
+msgid ""
+"An error occurred during the installation of assembly '[6]'. The assembly is"
+" not strongly named or is not signed with the minimal key length. {{HRESULT:"
+" [3]. assembly interface: [4], function: [5], component: [2]}}"
+msgstr ""
+"Сталася помилка під час установки зібрання ''[6]''. Зібрання має неправильне"
+" ім'я або не підписане ключем мінімальної довжини. HRESULT: [3]. {{інтерфейс"
+" зібрання: [4], функція: [5], компонент: [2]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:169 en_US.Win32.Release.Error-2.idtx:169
+#: en_US.x64.Debug.Error-2.idtx:169 en_US.x64.Release.Error-2.idtx:169
+msgid ""
+"An error occurred during the installation of assembly '[6]'. The signature "
+"or catalog could not be verified or is not valid. {{HRESULT: [3]. assembly "
+"interface: [4], function: [5], component: [2]}}"
+msgstr ""
+"Сталася помилка під час установки зібрання ''[6]''. Підпис або каталог "
+"непридатний для перевірки або недійсний. HRESULT: [3]. {{інтерфейс зібрання:"
+" [4], функція: [5], компонент: [2]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:170 en_US.Win32.Release.Error-2.idtx:170
+#: en_US.x64.Debug.Error-2.idtx:170 en_US.x64.Release.Error-2.idtx:170
+msgid ""
+"An error occurred during the installation of assembly '[6]'. One or more "
+"modules of the assembly could not be found. {{HRESULT: [3]. assembly "
+"interface: [4], function: [5], component: [2]}}"
+msgstr ""
+"Сталася помилка під час установки зібрання ''[6]''. Не вдалося знайти один "
+"або декілька модулів у цьому зібранні. HRESULT: [3]. {{інтерфейс зібрання: "
+"[4], функція: [5], компонент: [2]}}"
+
+#: en_US.Win32.Debug.Error-2.idtx:171 en_US.Win32.Release.Error-2.idtx:171
+#: en_US.x64.Debug.Error-2.idtx:171 en_US.x64.Release.Error-2.idtx:171
+msgid ""
+"64-bit registry operation attempted on 32-bit operating system for key [2]."
+msgstr ""
+
+#: en_US.Win32.Debug.Error-2.idtx:172 en_US.Win32.Release.Error-2.idtx:172
+#: en_US.x64.Debug.Error-2.idtx:172 en_US.x64.Release.Error-2.idtx:172
+msgid ""
+"This version of Windows does not support deploying 64-bit packages. The "
+"script [2] is for a 64-bit package."
+msgstr ""

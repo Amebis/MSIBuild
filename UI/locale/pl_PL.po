@@ -1,20 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSMBuild UI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-04 14:38+0200\n"
+"POT-Creation-Date: 2016-09-19 11:23+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: pl_PL\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2018\n"
+"Language-Team: Polish (Poland) (https://www.transifex.com/amebis/teams/91604/pl_PL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Poedit 1.8.9\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: en_US.Win32.Debug.Control-2.idtx:4 en_US.Win32.Debug.Control-2.idtx:8
 #: en_US.Win32.Debug.Control-2.idtx:12 en_US.Win32.Debug.Control-2.idtx:19
@@ -31,31 +34,34 @@ msgstr ""
 #: en_US.Win32.Release.Control-2.idtx:47 en_US.Win32.Release.Control-2.idtx:58
 #: en_US.Win32.Release.Control-2.idtx:69 en_US.Win32.Release.Control-2.idtx:73
 #: en_US.Win32.Release.Control-2.idtx:78 en_US.Win32.Release.Control-2.idtx:85
-#: en_US.Win32.Release.Control-2.idtx:103 en_US.Win32.Release.Control-2.idtx:110
-#: en_US.Win32.Release.Control-2.idtx:113 en_US.Win32.Release.Control-2.idtx:118
-#: en_US.x64.Debug.Control-2.idtx:4 en_US.x64.Debug.Control-2.idtx:8
-#: en_US.x64.Debug.Control-2.idtx:12 en_US.x64.Debug.Control-2.idtx:16
-#: en_US.x64.Debug.Control-2.idtx:19 en_US.x64.Debug.Control-2.idtx:24
-#: en_US.x64.Debug.Control-2.idtx:31 en_US.x64.Debug.Control-2.idtx:44
-#: en_US.x64.Debug.Control-2.idtx:55 en_US.x64.Debug.Control-2.idtx:66
-#: en_US.x64.Debug.Control-2.idtx:70 en_US.x64.Debug.Control-2.idtx:75
-#: en_US.x64.Debug.Control-2.idtx:82 en_US.x64.Debug.Control-2.idtx:100
-#: en_US.x64.Debug.Control-2.idtx:107 en_US.x64.Debug.Control-2.idtx:110
-#: en_US.x64.Debug.Control-2.idtx:115 en_US.x64.Release.Control-2.idtx:4
-#: en_US.x64.Release.Control-2.idtx:8 en_US.x64.Release.Control-2.idtx:12
-#: en_US.x64.Release.Control-2.idtx:16 en_US.x64.Release.Control-2.idtx:19
-#: en_US.x64.Release.Control-2.idtx:24 en_US.x64.Release.Control-2.idtx:31
-#: en_US.x64.Release.Control-2.idtx:44 en_US.x64.Release.Control-2.idtx:55
-#: en_US.x64.Release.Control-2.idtx:66 en_US.x64.Release.Control-2.idtx:70
-#: en_US.x64.Release.Control-2.idtx:75 en_US.x64.Release.Control-2.idtx:82
-#: en_US.x64.Release.Control-2.idtx:100 en_US.x64.Release.Control-2.idtx:107
-#: en_US.x64.Release.Control-2.idtx:110 en_US.x64.Release.Control-2.idtx:115
+#: en_US.Win32.Release.Control-2.idtx:103
+#: en_US.Win32.Release.Control-2.idtx:110
+#: en_US.Win32.Release.Control-2.idtx:113
+#: en_US.Win32.Release.Control-2.idtx:118 en_US.x64.Debug.Control-2.idtx:4
+#: en_US.x64.Debug.Control-2.idtx:8 en_US.x64.Debug.Control-2.idtx:12
+#: en_US.x64.Debug.Control-2.idtx:16 en_US.x64.Debug.Control-2.idtx:19
+#: en_US.x64.Debug.Control-2.idtx:24 en_US.x64.Debug.Control-2.idtx:31
+#: en_US.x64.Debug.Control-2.idtx:44 en_US.x64.Debug.Control-2.idtx:55
+#: en_US.x64.Debug.Control-2.idtx:66 en_US.x64.Debug.Control-2.idtx:70
+#: en_US.x64.Debug.Control-2.idtx:75 en_US.x64.Debug.Control-2.idtx:82
+#: en_US.x64.Debug.Control-2.idtx:100 en_US.x64.Debug.Control-2.idtx:107
+#: en_US.x64.Debug.Control-2.idtx:110 en_US.x64.Debug.Control-2.idtx:115
+#: en_US.x64.Release.Control-2.idtx:4 en_US.x64.Release.Control-2.idtx:8
+#: en_US.x64.Release.Control-2.idtx:12 en_US.x64.Release.Control-2.idtx:16
+#: en_US.x64.Release.Control-2.idtx:19 en_US.x64.Release.Control-2.idtx:24
+#: en_US.x64.Release.Control-2.idtx:31 en_US.x64.Release.Control-2.idtx:44
+#: en_US.x64.Release.Control-2.idtx:55 en_US.x64.Release.Control-2.idtx:66
+#: en_US.x64.Release.Control-2.idtx:70 en_US.x64.Release.Control-2.idtx:75
+#: en_US.x64.Release.Control-2.idtx:82 en_US.x64.Release.Control-2.idtx:100
+#: en_US.x64.Release.Control-2.idtx:107 en_US.x64.Release.Control-2.idtx:110
+#: en_US.x64.Release.Control-2.idtx:115
 msgid "binUIHeader.bmp"
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:5 en_US.Win32.Release.Control-2.idtx:5
 #: en_US.x64.Debug.Control-2.idtx:5 en_US.x64.Release.Control-2.idtx:5
-msgid "[DlgTitleFont]Preparing [SimpleProductName] installation. Please wait..."
+msgid ""
+"[DlgTitleFont]Preparing [SimpleProductName] installation. Please wait..."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:6 en_US.Win32.Debug.Control-2.idtx:87
@@ -81,15 +87,8 @@ msgstr ""
 #: en_US.x64.Debug.Control-2.idtx:11 en_US.x64.Debug.Control-2.idtx:18
 #: en_US.x64.Debug.Control-2.idtx:23 en_US.x64.Release.Control-2.idtx:11
 #: en_US.x64.Release.Control-2.idtx:18 en_US.x64.Release.Control-2.idtx:23
-#, fuzzy
 msgid "&Continue"
 msgstr ""
-"Na woluminie [2] jest za mało miejsca na dysku do kontynuowania instalacji z "
-"włączoną opcją odzyskiwania. Wymagane jest [3] KB, ale dostępnych jest tylko "
-"[4] KB. Kliknij przycisk Ignoruj, aby kontynuowaś instalację bez zapisywania "
-"informacji potrzebnych do odzyskania, przycisk Ponów próbę, aby ponownie "
-"sprawdziś iloś wolnego miejsca na dysku, lub przycisk Anuluj, aby zakończyś "
-"instalację."
 
 #: en_US.Win32.Debug.Control-2.idtx:13 en_US.Win32.Release.Control-2.idtx:13
 #: en_US.x64.Debug.Control-2.idtx:13 en_US.x64.Release.Control-2.idtx:13
@@ -103,7 +102,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:14 en_US.Win32.Release.Control-2.idtx:14
 #: en_US.x64.Debug.Control-2.idtx:14 en_US.x64.Release.Control-2.idtx:14
-msgid "Installs the most common program features. Recommended for most users.|"
+msgid ""
+"Installs the most common program features. Recommended for most users.|"
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:15 en_US.Win32.Release.Control-2.idtx:15
@@ -132,9 +132,10 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:18 en_US.Win32.Release.Control-2.idtx:18
 msgid ""
-"Although, 32-bit variant should work with your operating system, this program "
-"is also available as 64-bit variant, which is more appropriate for your "
-"operating system. The installation of the 64-bit variant is recommended."
+"Although, 32-bit variant should work with your operating system, this "
+"program is also available as 64-bit variant, which is more appropriate for "
+"your operating system. The installation of the 64-bit variant is "
+"recommended."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:20 en_US.Win32.Release.Control-2.idtx:20
@@ -163,8 +164,8 @@ msgstr ""
 #: en_US.Win32.Debug.Control-2.idtx:29 en_US.Win32.Release.Control-2.idtx:29
 #: en_US.x64.Debug.Control-2.idtx:26 en_US.x64.Release.Control-2.idtx:26
 msgid ""
-"You are about to prepare installation image for [SimpleProductName], to allow "
-"easier group deployment."
+"You are about to prepare installation image for [SimpleProductName], to "
+"allow easier group deployment."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:30 en_US.Win32.Release.Control-2.idtx:30
@@ -212,9 +213,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:41 en_US.Win32.Release.Control-2.idtx:41
 #: en_US.x64.Debug.Control-2.idtx:38 en_US.x64.Release.Control-2.idtx:38
-#, fuzzy
 msgid "Folder:"
-msgstr "Plik: [1], Folder: [2]"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:44 en_US.Win32.Release.Control-2.idtx:44
 #: en_US.x64.Debug.Control-2.idtx:41 en_US.x64.Release.Control-2.idtx:41
@@ -279,17 +279,15 @@ msgstr ""
 #: en_US.Win32.Release.Control-2.idtx:52 en_US.Win32.Release.Control-2.idtx:63
 #: en_US.x64.Debug.Control-2.idtx:49 en_US.x64.Debug.Control-2.idtx:60
 #: en_US.x64.Release.Control-2.idtx:49 en_US.x64.Release.Control-2.idtx:60
-#, fuzzy
 msgid "Create A New Folder|"
-msgstr "Tworzenie folderów"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:54 en_US.Win32.Debug.Control-2.idtx:65
 #: en_US.Win32.Release.Control-2.idtx:54 en_US.Win32.Release.Control-2.idtx:65
 #: en_US.x64.Debug.Control-2.idtx:51 en_US.x64.Debug.Control-2.idtx:62
 #: en_US.x64.Release.Control-2.idtx:51 en_US.x64.Release.Control-2.idtx:62
-#, fuzzy
 msgid "&Folder:"
-msgstr "Plik: [1], Folder: [2]"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:56 en_US.Win32.Debug.Control-2.idtx:67
 #: en_US.Win32.Debug.Control-2.idtx:96 en_US.Win32.Release.Control-2.idtx:56
@@ -304,17 +302,15 @@ msgstr ""
 #: en_US.Win32.Debug.Control-2.idtx:97 en_US.Win32.Debug.Control-2.idtx:100
 #: en_US.Win32.Debug.Control-2.idtx:109 en_US.Win32.Release.Control-2.idtx:57
 #: en_US.Win32.Release.Control-2.idtx:68 en_US.Win32.Release.Control-2.idtx:97
-#: en_US.Win32.Release.Control-2.idtx:100 en_US.Win32.Release.Control-2.idtx:109
-#: en_US.x64.Debug.Control-2.idtx:54 en_US.x64.Debug.Control-2.idtx:65
-#: en_US.x64.Debug.Control-2.idtx:94 en_US.x64.Debug.Control-2.idtx:97
-#: en_US.x64.Debug.Control-2.idtx:106 en_US.x64.Release.Control-2.idtx:54
-#: en_US.x64.Release.Control-2.idtx:65 en_US.x64.Release.Control-2.idtx:94
-#: en_US.x64.Release.Control-2.idtx:97 en_US.x64.Release.Control-2.idtx:106
-#, fuzzy
+#: en_US.Win32.Release.Control-2.idtx:100
+#: en_US.Win32.Release.Control-2.idtx:109 en_US.x64.Debug.Control-2.idtx:54
+#: en_US.x64.Debug.Control-2.idtx:65 en_US.x64.Debug.Control-2.idtx:94
+#: en_US.x64.Debug.Control-2.idtx:97 en_US.x64.Debug.Control-2.idtx:106
+#: en_US.x64.Release.Control-2.idtx:54 en_US.x64.Release.Control-2.idtx:65
+#: en_US.x64.Release.Control-2.idtx:94 en_US.x64.Release.Control-2.idtx:97
+#: en_US.x64.Release.Control-2.idtx:106
 msgid "Cancel"
 msgstr ""
-"Nie można utworzyś pliku [2]. Istnieje już katalog o tej nazwie. Anuluj "
-"instalację i spróbuj zainstalowaś w innej lokalizacji."
 
 #: en_US.Win32.Debug.Control-2.idtx:59 en_US.Win32.Release.Control-2.idtx:59
 #: en_US.x64.Debug.Control-2.idtx:56 en_US.x64.Release.Control-2.idtx:56
@@ -323,9 +319,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:70 en_US.Win32.Release.Control-2.idtx:70
 #: en_US.x64.Debug.Control-2.idtx:67 en_US.x64.Release.Control-2.idtx:67
-#, fuzzy
 msgid "[DlgTitleFont]Disk Space Requirements"
-msgstr "Obliczanie wymaganego miejsca"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:71 en_US.Win32.Debug.Control-2.idtx:76
 #: en_US.Win32.Debug.Control-2.idtx:81 en_US.Win32.Release.Control-2.idtx:71
@@ -339,13 +334,15 @@ msgstr ""
 #: en_US.Win32.Debug.Control-2.idtx:72 en_US.Win32.Debug.Control-2.idtx:77
 #: en_US.Win32.Debug.Control-2.idtx:112 en_US.Win32.Debug.Control-2.idtx:117
 #: en_US.Win32.Debug.Control-2.idtx:122 en_US.Win32.Release.Control-2.idtx:72
-#: en_US.Win32.Release.Control-2.idtx:77 en_US.Win32.Release.Control-2.idtx:112
-#: en_US.Win32.Release.Control-2.idtx:117 en_US.Win32.Release.Control-2.idtx:122
-#: en_US.x64.Debug.Control-2.idtx:69 en_US.x64.Debug.Control-2.idtx:74
-#: en_US.x64.Debug.Control-2.idtx:109 en_US.x64.Debug.Control-2.idtx:114
-#: en_US.x64.Debug.Control-2.idtx:119 en_US.x64.Release.Control-2.idtx:69
-#: en_US.x64.Release.Control-2.idtx:74 en_US.x64.Release.Control-2.idtx:109
-#: en_US.x64.Release.Control-2.idtx:114 en_US.x64.Release.Control-2.idtx:119
+#: en_US.Win32.Release.Control-2.idtx:77
+#: en_US.Win32.Release.Control-2.idtx:112
+#: en_US.Win32.Release.Control-2.idtx:117
+#: en_US.Win32.Release.Control-2.idtx:122 en_US.x64.Debug.Control-2.idtx:69
+#: en_US.x64.Debug.Control-2.idtx:74 en_US.x64.Debug.Control-2.idtx:109
+#: en_US.x64.Debug.Control-2.idtx:114 en_US.x64.Debug.Control-2.idtx:119
+#: en_US.x64.Release.Control-2.idtx:69 en_US.x64.Release.Control-2.idtx:74
+#: en_US.x64.Release.Control-2.idtx:109 en_US.x64.Release.Control-2.idtx:114
+#: en_US.x64.Release.Control-2.idtx:119
 msgid "&Close"
 msgstr ""
 
@@ -361,19 +358,19 @@ msgstr ""
 #: en_US.x64.Debug.Control-2.idtx:72 en_US.x64.Debug.Control-2.idtx:77
 #: en_US.x64.Release.Control-2.idtx:72 en_US.x64.Release.Control-2.idtx:77
 msgid ""
-"The highlighted volumes (if any) do not have enough disk space available for "
-"the currently selected features. You can either remove some files from the "
-"highlighted volumes, or choose to install less features onto local drive(s), "
-"or select different destination drive(s)."
+"The highlighted volumes (if any) do not have enough disk space available for"
+" the currently selected features. You can either remove some files from the "
+"highlighted volumes, or choose to install less features onto local drive(s),"
+" or select different destination drive(s)."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:82 en_US.Win32.Release.Control-2.idtx:82
 #: en_US.x64.Debug.Control-2.idtx:79 en_US.x64.Release.Control-2.idtx:79
 msgid ""
 "Alternatively, you may choose to disable the installer's rollback "
-"functionality. This allows the installer to restore your computer's original "
-"state should the installation be interrupted in any way. Click Yes if you wish "
-"to take the risk to disable rollback."
+"functionality. This allows the installer to restore your computer's original"
+" state should the installation be interrupted in any way. Click Yes if you "
+"wish to take the risk to disable rollback."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:83 en_US.Win32.Debug.Control-2.idtx:92
@@ -420,9 +417,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:91 en_US.Win32.Release.Control-2.idtx:91
 #: en_US.x64.Debug.Control-2.idtx:88 en_US.x64.Release.Control-2.idtx:88
-#, fuzzy
 msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-msgstr "Czy na pewno chcesz anulowaś?"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:95 en_US.Win32.Release.Control-2.idtx:95
 #: en_US.x64.Debug.Control-2.idtx:92 en_US.x64.Release.Control-2.idtx:92
@@ -430,20 +426,18 @@ msgid "Information text"
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:101 en_US.Win32.Debug.Control-2.idtx:107
-#: en_US.Win32.Release.Control-2.idtx:101 en_US.Win32.Release.Control-2.idtx:107
-#: en_US.x64.Debug.Control-2.idtx:98 en_US.x64.Debug.Control-2.idtx:104
-#: en_US.x64.Release.Control-2.idtx:98 en_US.x64.Release.Control-2.idtx:104
-#, fuzzy
+#: en_US.Win32.Release.Control-2.idtx:101
+#: en_US.Win32.Release.Control-2.idtx:107 en_US.x64.Debug.Control-2.idtx:98
+#: en_US.x64.Debug.Control-2.idtx:104 en_US.x64.Release.Control-2.idtx:98
+#: en_US.x64.Release.Control-2.idtx:104
 msgid "&Retry"
 msgstr ""
-"Podczas zapisywania informacji o instalacji na dysk, wystąpił błąd. Upewnij "
-"się, czy jest wystarczająca iloś miejsca na dysku i kliknij przycisk Ponów "
-"próbę lub przycisk Anuluj, aby zakończyś instalację."
 
 #: en_US.Win32.Debug.Control-2.idtx:102 en_US.Win32.Debug.Control-2.idtx:108
-#: en_US.Win32.Release.Control-2.idtx:102 en_US.Win32.Release.Control-2.idtx:108
-#: en_US.x64.Debug.Control-2.idtx:99 en_US.x64.Debug.Control-2.idtx:105
-#: en_US.x64.Release.Control-2.idtx:99 en_US.x64.Release.Control-2.idtx:105
+#: en_US.Win32.Release.Control-2.idtx:102
+#: en_US.Win32.Release.Control-2.idtx:108 en_US.x64.Debug.Control-2.idtx:99
+#: en_US.x64.Debug.Control-2.idtx:105 en_US.x64.Release.Control-2.idtx:99
+#: en_US.x64.Release.Control-2.idtx:105
 msgid "&Ignore"
 msgstr ""
 
@@ -480,8 +474,8 @@ msgstr ""
 #: en_US.Win32.Debug.Control-2.idtx:116 en_US.Win32.Release.Control-2.idtx:116
 #: en_US.x64.Debug.Control-2.idtx:113 en_US.x64.Release.Control-2.idtx:113
 msgid ""
-"If you interrupted the installation by accident, please run the installation "
-"again."
+"If you interrupted the installation by accident, please run the installation"
+" again."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:119 en_US.Win32.Release.Control-2.idtx:119
@@ -498,7 +492,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:121 en_US.Win32.Release.Control-2.idtx:121
 #: en_US.x64.Debug.Control-2.idtx:118 en_US.x64.Release.Control-2.idtx:118
-msgid "Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
+msgid ""
+"Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
 msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:4
@@ -508,31 +503,34 @@ msgstr ""
 #: en_US.x64.Debug.ControlEvent-2.idtx:4 en_US.x64.Debug.ControlEvent-2.idtx:5
 #: en_US.x64.Release.ControlEvent-2.idtx:4
 #: en_US.x64.Release.ControlEvent-2.idtx:5
-#, fuzzy
 msgid "Determining required space for installation..."
-msgstr "Pobieranie wymaganych informacji..."
+msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:6
 #: en_US.Win32.Release.ControlEvent-2.idtx:6
-#: en_US.x64.Debug.ControlEvent-2.idtx:6 en_US.x64.Release.ControlEvent-2.idtx:6
+#: en_US.x64.Debug.ControlEvent-2.idtx:6
+#: en_US.x64.Release.ControlEvent-2.idtx:6
 msgid "&Modify now"
 msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:7
 #: en_US.Win32.Release.ControlEvent-2.idtx:7
-#: en_US.x64.Debug.ControlEvent-2.idtx:7 en_US.x64.Release.ControlEvent-2.idtx:7
+#: en_US.x64.Debug.ControlEvent-2.idtx:7
+#: en_US.x64.Release.ControlEvent-2.idtx:7
 msgid "Installed Features Selection"
 msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:8
 #: en_US.Win32.Release.ControlEvent-2.idtx:8
-#: en_US.x64.Debug.ControlEvent-2.idtx:8 en_US.x64.Release.ControlEvent-2.idtx:8
+#: en_US.x64.Debug.ControlEvent-2.idtx:8
+#: en_US.x64.Release.ControlEvent-2.idtx:8
 msgid "Modifying"
 msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:9
 #: en_US.Win32.Release.ControlEvent-2.idtx:9
-#: en_US.x64.Debug.ControlEvent-2.idtx:9 en_US.x64.Release.ControlEvent-2.idtx:9
+#: en_US.x64.Debug.ControlEvent-2.idtx:9
+#: en_US.x64.Release.ControlEvent-2.idtx:9
 msgid "Modification"
 msgstr ""
 
@@ -554,17 +552,15 @@ msgstr ""
 #: en_US.Win32.Release.ControlEvent-2.idtx:12
 #: en_US.x64.Debug.ControlEvent-2.idtx:12
 #: en_US.x64.Release.ControlEvent-2.idtx:12
-#, fuzzy
 msgid "Removing"
-msgstr "Usuwanie pozycji plików INI"
+msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:13
 #: en_US.Win32.Release.ControlEvent-2.idtx:13
 #: en_US.x64.Debug.ControlEvent-2.idtx:13
 #: en_US.x64.Release.ControlEvent-2.idtx:13
-#, fuzzy
 msgid "Removal"
-msgstr "Usunięcie zakończyło się pomylnie."
+msgstr ""
 
 #: en_US.Win32.Debug.Dialog-2.idtx:4 en_US.Win32.Release.Dialog-2.idtx:4
 #: en_US.x64.Debug.Dialog-2.idtx:4 en_US.x64.Release.Dialog-2.idtx:4
@@ -573,11 +569,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Property-2.idtx:4 en_US.Win32.Release.Property-2.idtx:4
 #: en_US.x64.Debug.Property-2.idtx:4 en_US.x64.Release.Property-2.idtx:4
-#, fuzzy
 msgid "Installing"
 msgstr ""
-"Nie można odnaleś wczeniej zainstalowanych produktów zależnych od instalacji "
-"tego produktu."
 
 #: en_US.Win32.Debug.Property-2.idtx:5 en_US.Win32.Debug.Property-2.idtx:6
 #: en_US.Win32.Release.Property-2.idtx:5 en_US.Win32.Release.Property-2.idtx:6
@@ -593,58 +586,49 @@ msgstr ""
 
 #: en_US.Win32.Debug.Property-2.idtx:8 en_US.Win32.Release.Property-2.idtx:8
 #: en_US.x64.Debug.Property-2.idtx:8 en_US.x64.Release.Property-2.idtx:8
-#, fuzzy
 msgid "Custom Installation"
-msgstr "Instalacja nie powiodła się."
+msgstr ""
 
 #: en_US.Win32.Debug.Property-2.idtx:9 en_US.Win32.Release.Property-2.idtx:9
 #: en_US.x64.Debug.Property-2.idtx:9 en_US.x64.Release.Property-2.idtx:9
-#, fuzzy
 msgid "&Install Now"
-msgstr "Zainstalowano: [2]"
+msgstr ""
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:4
-#: en_US.Win32.Release.RadioButton-2.idtx:4 en_US.x64.Debug.RadioButton-2.idtx:4
-#: en_US.x64.Release.RadioButton-2.idtx:4
-#, fuzzy
+#: en_US.Win32.Release.RadioButton-2.idtx:4
+#: en_US.x64.Debug.RadioButton-2.idtx:4 en_US.x64.Release.RadioButton-2.idtx:4
 msgid "&Modify"
 msgstr ""
-"Nie można zaktualizowaś zmiennej rodowiskowej [2]. Zweryfikuj, czy masz "
-"odpowiednie uprawnienia do modyfikacji zmiennych rodowiskowych."
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:4
-#: en_US.Win32.Release.RadioButton-2.idtx:4 en_US.x64.Debug.RadioButton-2.idtx:4
-#: en_US.x64.Release.RadioButton-2.idtx:4
+#: en_US.Win32.Release.RadioButton-2.idtx:4
+#: en_US.x64.Debug.RadioButton-2.idtx:4 en_US.x64.Release.RadioButton-2.idtx:4
 msgid "Allows you to change the which features are installed.|"
 msgstr ""
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:5
-#: en_US.Win32.Release.RadioButton-2.idtx:5 en_US.x64.Debug.RadioButton-2.idtx:5
-#: en_US.x64.Release.RadioButton-2.idtx:5
+#: en_US.Win32.Release.RadioButton-2.idtx:5
+#: en_US.x64.Debug.RadioButton-2.idtx:5 en_US.x64.Release.RadioButton-2.idtx:5
 msgid "&Repair"
 msgstr ""
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:5
-#: en_US.Win32.Release.RadioButton-2.idtx:5 en_US.x64.Debug.RadioButton-2.idtx:5
-#: en_US.x64.Release.RadioButton-2.idtx:5
+#: en_US.Win32.Release.RadioButton-2.idtx:5
+#: en_US.x64.Debug.RadioButton-2.idtx:5 en_US.x64.Release.RadioButton-2.idtx:5
 msgid ""
 "Repairs errors in the most recent installation state - fixes missing or "
 "corrupt files, shortcuts and registry entries.|"
 msgstr ""
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:6
-#: en_US.Win32.Release.RadioButton-2.idtx:6 en_US.x64.Debug.RadioButton-2.idtx:6
-#: en_US.x64.Release.RadioButton-2.idtx:6
-#, fuzzy
+#: en_US.Win32.Release.RadioButton-2.idtx:6
+#: en_US.x64.Debug.RadioButton-2.idtx:6 en_US.x64.Release.RadioButton-2.idtx:6
 msgid "&Remove"
 msgstr ""
-"Aby usunąś tę aplikację, musisz byś administratorem. W celu usunięcia tej "
-"aplikacji zaloguj się jako administrator lub skontaktuj się z grupą pomocy "
-"technicznej w celu uzyskania pomocy."
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:6
-#: en_US.Win32.Release.RadioButton-2.idtx:6 en_US.x64.Debug.RadioButton-2.idtx:6
-#: en_US.x64.Release.RadioButton-2.idtx:6
+#: en_US.Win32.Release.RadioButton-2.idtx:6
+#: en_US.x64.Debug.RadioButton-2.idtx:6 en_US.x64.Release.RadioButton-2.idtx:6
 msgid "Removes the program from your computer.|"
 msgstr ""
 
@@ -660,11 +644,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:7 en_US.Win32.Release.UIText-2.idtx:7
 #: en_US.x64.Debug.UIText-2.idtx:7 en_US.x64.Release.UIText-2.idtx:7
-#, fuzzy
 msgid "KB"
 msgstr ""
-"Nie można zwiększyś dostępnej przestrzeni rejestru. Do instalacji tej "
-"aplikacji wymagane jest [2] KB wolnego miejsca dla rejestru."
 
 #: en_US.Win32.Debug.UIText-2.idtx:8 en_US.Win32.Release.UIText-2.idtx:8
 #: en_US.x64.Debug.UIText-2.idtx:8 en_US.x64.Release.UIText-2.idtx:8
@@ -775,8 +756,8 @@ msgstr ""
 #: en_US.Win32.Debug.UIText-2.idtx:29 en_US.Win32.Release.UIText-2.idtx:29
 #: en_US.x64.Debug.UIText-2.idtx:29 en_US.x64.Release.UIText-2.idtx:29
 msgid ""
-"This feature will be uninstalled completely, you won't be able to run it from "
-"CD"
+"This feature will be uninstalled completely, you won't be able to run it "
+"from CD"
 msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:31 en_US.Win32.Release.UIText-2.idtx:31
@@ -802,8 +783,8 @@ msgstr ""
 #: en_US.Win32.Debug.UIText-2.idtx:37 en_US.Win32.Release.UIText-2.idtx:37
 #: en_US.x64.Debug.UIText-2.idtx:37 en_US.x64.Release.UIText-2.idtx:37
 msgid ""
-"This feature will be removed from your local hard drive, but will be set to be "
-"installed when required"
+"This feature will be removed from your local hard drive, but will be set to "
+"be installed when required"
 msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:38 en_US.Win32.Release.UIText-2.idtx:38
@@ -828,8 +809,8 @@ msgstr ""
 #: en_US.Win32.Debug.UIText-2.idtx:41 en_US.Win32.Release.UIText-2.idtx:41
 #: en_US.x64.Debug.UIText-2.idtx:41 en_US.x64.Release.UIText-2.idtx:41
 msgid ""
-"This feature will be uninstalled completely, you won't be able to run it from "
-"the network"
+"This feature will be uninstalled completely, you won't be able to run it "
+"from the network"
 msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:44 en_US.Win32.Release.UIText-2.idtx:44
@@ -857,15 +838,8 @@ msgstr "Pozostały czas: {[1] min }{[2] s}"
 
 #: en_US.Win32.Debug.UIText-2.idtx:50 en_US.Win32.Release.UIText-2.idtx:50
 #: en_US.x64.Debug.UIText-2.idtx:50 en_US.x64.Release.UIText-2.idtx:50
-#, fuzzy
 msgid "Available"
 msgstr ""
-"Na woluminie [2] jest za mało miejsca na dysku do kontynuowania instalacji z "
-"włączoną opcją odzyskiwania. Wymagane jest [3] KB, ale dostępnych jest tylko "
-"[4] KB. Kliknij przycisk Ignoruj, aby kontynuowaś instalację bez zapisywania "
-"informacji potrzebnych do odzyskania, przycisk Ponów próbę, aby ponownie "
-"sprawdziś iloś wolnego miejsca na dysku, lub przycisk Anuluj, aby zakończyś "
-"instalację."
 
 #: en_US.Win32.Debug.UIText-2.idtx:51 en_US.Win32.Release.UIText-2.idtx:51
 #: en_US.x64.Debug.UIText-2.idtx:51 en_US.x64.Release.UIText-2.idtx:51
@@ -874,11 +848,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:52 en_US.Win32.Release.UIText-2.idtx:52
 #: en_US.x64.Debug.UIText-2.idtx:52 en_US.x64.Release.UIText-2.idtx:52
-#, fuzzy
 msgid "Required"
 msgstr ""
-"Nie można zainstalowaś wymaganego pliku, ponieważ plik cabinet [2] nie jest "
-"podpisany cyfrowo. Może to wskazywaś, że plik cabinet jest uszkodzony."
 
 #: en_US.Win32.Debug.UIText-2.idtx:53 en_US.Win32.Release.UIText-2.idtx:53
 #: en_US.x64.Debug.UIText-2.idtx:53 en_US.x64.Release.UIText-2.idtx:53
@@ -887,8 +858,5 @@ msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:54 en_US.Win32.Release.UIText-2.idtx:54
 #: en_US.x64.Debug.UIText-2.idtx:54 en_US.x64.Release.UIText-2.idtx:54
-#, fuzzy
 msgid "Volume"
 msgstr ""
-"W stacji [2] nie ma dysku. Włóż dysk i kliknij przycisk Ponów próbę lub "
-"kliknij przycisk Anuluj aby zmieniś na poprzednio wybrany wolumin."

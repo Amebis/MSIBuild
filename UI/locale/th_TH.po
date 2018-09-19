@@ -1,19 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSMBuild UI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-04 14:39+0200\n"
+"POT-Creation-Date: 2016-09-19 11:23+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: th_TH\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2018\n"
+"Language-Team: Thai (Thailand) (https://www.transifex.com/amebis/teams/91604/th_TH/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
-"X-Generator: Poedit 1.8.9\n"
+"Language: th_TH\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: en_US.Win32.Debug.Control-2.idtx:4 en_US.Win32.Debug.Control-2.idtx:8
 #: en_US.Win32.Debug.Control-2.idtx:12 en_US.Win32.Debug.Control-2.idtx:19
@@ -83,13 +87,8 @@ msgstr ""
 #: en_US.x64.Debug.Control-2.idtx:11 en_US.x64.Debug.Control-2.idtx:18
 #: en_US.x64.Debug.Control-2.idtx:23 en_US.x64.Release.Control-2.idtx:11
 #: en_US.x64.Release.Control-2.idtx:18 en_US.x64.Release.Control-2.idtx:23
-#, fuzzy
 msgid "&Continue"
 msgstr ""
-"ｷﾕ霽靨ｧｴﾔﾊ｡・ﾁ鞨ｾﾕﾂｧｾﾍ羯 '[2]' ｶ鰓ｵ鯱ｧ｡ﾒﾃｵﾔｴｵﾑ鬧蘯ｺ耆鮹ﾕ｡ﾒﾃ｡ﾙ鬢ﾗｹ ｵ鯱ｧ｡ﾒﾃｷﾕ霽"
-"靨ｧ [3] KB 盞霖ﾕｷﾕ霽靨ｧﾍﾂﾙ鞦､・[4] KB ､ﾅﾔ｡ ﾅﾐ猊鮖 ｶ鰓ｵ鯱ｧ｡ﾒﾃｵﾔｴｵﾑ鬧蘯ｺ菽霖ﾕ｡"
-"ﾒﾃ｡ﾙ鬢ﾗｹ 耆鬢ﾅﾔ｡ ﾅﾍｧ耆ﾁ・狎ﾗ靉ｴﾙｷﾕ霽靨ｧﾍﾕ｡､ﾃﾑ鬧 ﾋﾃﾗﾍ､ﾅﾔ｡ ﾂ｡倏ﾔ｡ 狎ﾗ靉ﾋﾂﾘｴ｡"
-"ﾒﾃｵﾔｴｵﾑ鬧"
 
 #: en_US.Win32.Debug.Control-2.idtx:13 en_US.Win32.Release.Control-2.idtx:13
 #: en_US.x64.Debug.Control-2.idtx:13 en_US.x64.Release.Control-2.idtx:13
@@ -103,7 +102,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:14 en_US.Win32.Release.Control-2.idtx:14
 #: en_US.x64.Debug.Control-2.idtx:14 en_US.x64.Release.Control-2.idtx:14
-msgid "Installs the most common program features. Recommended for most users.|"
+msgid ""
+"Installs the most common program features. Recommended for most users.|"
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:15 en_US.Win32.Release.Control-2.idtx:15
@@ -134,13 +134,13 @@ msgstr ""
 msgid ""
 "Although, 32-bit variant should work with your operating system, this "
 "program is also available as 64-bit variant, which is more appropriate for "
-"your operating system. The installation of the 64-bit variant is recommended."
+"your operating system. The installation of the 64-bit variant is "
+"recommended."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:20 en_US.Win32.Release.Control-2.idtx:20
 #: en_US.x64.Debug.Control-2.idtx:17 en_US.x64.Release.Control-2.idtx:17
-msgid ""
-"[DlgTitleFont]Click \"Next\" to resume [SimpleProductName] installation."
+msgid "[DlgTitleFont]Click \"Next\" to resume [SimpleProductName] installation."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:23 en_US.Win32.Release.Control-2.idtx:23
@@ -213,9 +213,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:41 en_US.Win32.Release.Control-2.idtx:41
 #: en_US.x64.Debug.Control-2.idtx:38 en_US.x64.Release.Control-2.idtx:38
-#, fuzzy
 msgid "Folder:"
-msgstr "แฟ้ม: [1], โฟลเดอร์: [2]"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:44 en_US.Win32.Release.Control-2.idtx:44
 #: en_US.x64.Debug.Control-2.idtx:41 en_US.x64.Release.Control-2.idtx:41
@@ -280,17 +279,15 @@ msgstr ""
 #: en_US.Win32.Release.Control-2.idtx:52 en_US.Win32.Release.Control-2.idtx:63
 #: en_US.x64.Debug.Control-2.idtx:49 en_US.x64.Debug.Control-2.idtx:60
 #: en_US.x64.Release.Control-2.idtx:49 en_US.x64.Release.Control-2.idtx:60
-#, fuzzy
 msgid "Create A New Folder|"
-msgstr "กำลังสร้างโฟลเดอร์"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:54 en_US.Win32.Debug.Control-2.idtx:65
 #: en_US.Win32.Release.Control-2.idtx:54 en_US.Win32.Release.Control-2.idtx:65
 #: en_US.x64.Debug.Control-2.idtx:51 en_US.x64.Debug.Control-2.idtx:62
 #: en_US.x64.Release.Control-2.idtx:51 en_US.x64.Release.Control-2.idtx:62
-#, fuzzy
 msgid "&Folder:"
-msgstr "แฟ้ม: [1], โฟลเดอร์: [2]"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:56 en_US.Win32.Debug.Control-2.idtx:67
 #: en_US.Win32.Debug.Control-2.idtx:96 en_US.Win32.Release.Control-2.idtx:56
@@ -312,11 +309,8 @@ msgstr ""
 #: en_US.x64.Release.Control-2.idtx:54 en_US.x64.Release.Control-2.idtx:65
 #: en_US.x64.Release.Control-2.idtx:94 en_US.x64.Release.Control-2.idtx:97
 #: en_US.x64.Release.Control-2.idtx:106
-#, fuzzy
 msgid "Cancel"
 msgstr ""
-"菽靆ﾒﾁﾒﾃｶﾊﾃ鰓ｧ眩鮹 '[2]' ﾁﾕ莇狹｡ｵﾍﾃﾕｷﾕ鞳ｪ鬪ﾗ靉ｹﾕ鯱ﾂﾙ鞦ﾅ鯢 耆鯆｡倏ﾔ｡｡ﾒﾃｵﾔｴｵﾑ鬧"
-"眷鯢ﾅﾍｧｵﾔｴｵﾑ鬧莉ﾂﾑｧｵﾓ睛ｹ隗ﾍﾗ雹"
 
 #: en_US.Win32.Debug.Control-2.idtx:59 en_US.Win32.Release.Control-2.idtx:59
 #: en_US.x64.Debug.Control-2.idtx:56 en_US.x64.Release.Control-2.idtx:56
@@ -325,9 +319,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:70 en_US.Win32.Release.Control-2.idtx:70
 #: en_US.x64.Debug.Control-2.idtx:67 en_US.x64.Release.Control-2.idtx:67
-#, fuzzy
 msgid "[DlgTitleFont]Disk Space Requirements"
-msgstr "กำลังคำนวณพื้นที่ที่จำเป็น"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:71 en_US.Win32.Debug.Control-2.idtx:76
 #: en_US.Win32.Debug.Control-2.idtx:81 en_US.Win32.Release.Control-2.idtx:71
@@ -341,7 +334,8 @@ msgstr ""
 #: en_US.Win32.Debug.Control-2.idtx:72 en_US.Win32.Debug.Control-2.idtx:77
 #: en_US.Win32.Debug.Control-2.idtx:112 en_US.Win32.Debug.Control-2.idtx:117
 #: en_US.Win32.Debug.Control-2.idtx:122 en_US.Win32.Release.Control-2.idtx:72
-#: en_US.Win32.Release.Control-2.idtx:77 en_US.Win32.Release.Control-2.idtx:112
+#: en_US.Win32.Release.Control-2.idtx:77
+#: en_US.Win32.Release.Control-2.idtx:112
 #: en_US.Win32.Release.Control-2.idtx:117
 #: en_US.Win32.Release.Control-2.idtx:122 en_US.x64.Debug.Control-2.idtx:69
 #: en_US.x64.Debug.Control-2.idtx:74 en_US.x64.Debug.Control-2.idtx:109
@@ -364,18 +358,18 @@ msgstr ""
 #: en_US.x64.Debug.Control-2.idtx:72 en_US.x64.Debug.Control-2.idtx:77
 #: en_US.x64.Release.Control-2.idtx:72 en_US.x64.Release.Control-2.idtx:77
 msgid ""
-"The highlighted volumes (if any) do not have enough disk space available for "
-"the currently selected features. You can either remove some files from the "
-"highlighted volumes, or choose to install less features onto local drive(s), "
-"or select different destination drive(s)."
+"The highlighted volumes (if any) do not have enough disk space available for"
+" the currently selected features. You can either remove some files from the "
+"highlighted volumes, or choose to install less features onto local drive(s),"
+" or select different destination drive(s)."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:82 en_US.Win32.Release.Control-2.idtx:82
 #: en_US.x64.Debug.Control-2.idtx:79 en_US.x64.Release.Control-2.idtx:79
 msgid ""
 "Alternatively, you may choose to disable the installer's rollback "
-"functionality. This allows the installer to restore your computer's original "
-"state should the installation be interrupted in any way. Click Yes if you "
+"functionality. This allows the installer to restore your computer's original"
+" state should the installation be interrupted in any way. Click Yes if you "
 "wish to take the risk to disable rollback."
 msgstr ""
 
@@ -423,9 +417,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:91 en_US.Win32.Release.Control-2.idtx:91
 #: en_US.x64.Debug.Control-2.idtx:88 en_US.x64.Release.Control-2.idtx:88
-#, fuzzy
 msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-msgstr "､ﾘｳ盪鞳ｨﾋﾃﾗﾍ菽霽靨､ﾘｳｵ鯱ｧ｡ﾒﾃﾂ｡倏ﾔ｡"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:95 en_US.Win32.Release.Control-2.idtx:95
 #: en_US.x64.Debug.Control-2.idtx:92 en_US.x64.Release.Control-2.idtx:92
@@ -437,11 +430,8 @@ msgstr ""
 #: en_US.Win32.Release.Control-2.idtx:107 en_US.x64.Debug.Control-2.idtx:98
 #: en_US.x64.Debug.Control-2.idtx:104 en_US.x64.Release.Control-2.idtx:98
 #: en_US.x64.Release.Control-2.idtx:104
-#, fuzzy
 msgid "&Retry"
 msgstr ""
-"爍ﾔｴ｢鯱ｼﾔｴｾﾅﾒｴ｢ﾖ鮖｢ｳﾐｷﾓ｡ﾒﾃ爐ﾕﾂｹ｢鯱ﾁﾙﾅ｡ﾒﾃｵﾔｴｵﾑ鬧莉ﾂﾑｧｴﾔﾊ｡・ ｵﾃﾇｨﾊﾍｺ耆鱆ｹ鞳ｨﾇ靨"
-"ﾁﾕｷﾕ霽靨ｧｴﾔﾊ｡・ｾﾕﾂｧｾﾍ 眷鯢､ﾅﾔ｡ﾅﾍｧ耆ﾁ・ﾋﾃﾗﾍﾂ｡倏ﾔ｡ 狎ﾗ靉ｨｺ｡ﾒﾃｵﾔｴｵﾑ鬧"
 
 #: en_US.Win32.Debug.Control-2.idtx:102 en_US.Win32.Debug.Control-2.idtx:108
 #: en_US.Win32.Release.Control-2.idtx:102
@@ -484,8 +474,8 @@ msgstr ""
 #: en_US.Win32.Debug.Control-2.idtx:116 en_US.Win32.Release.Control-2.idtx:116
 #: en_US.x64.Debug.Control-2.idtx:113 en_US.x64.Release.Control-2.idtx:113
 msgid ""
-"If you interrupted the installation by accident, please run the installation "
-"again."
+"If you interrupted the installation by accident, please run the installation"
+" again."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:119 en_US.Win32.Release.Control-2.idtx:119
@@ -502,7 +492,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:121 en_US.Win32.Release.Control-2.idtx:121
 #: en_US.x64.Debug.Control-2.idtx:118 en_US.x64.Release.Control-2.idtx:118
-msgid "Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
+msgid ""
+"Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
 msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:4
@@ -512,9 +503,8 @@ msgstr ""
 #: en_US.x64.Debug.ControlEvent-2.idtx:4 en_US.x64.Debug.ControlEvent-2.idtx:5
 #: en_US.x64.Release.ControlEvent-2.idtx:4
 #: en_US.x64.Release.ControlEvent-2.idtx:5
-#, fuzzy
 msgid "Determining required space for installation..."
-msgstr "｡ﾓﾅﾑｧﾃﾇｺﾃﾇﾁ｢鯱ﾁﾙﾅｷﾕ襍鯱ｧ｡ﾒﾃ..."
+msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:6
 #: en_US.Win32.Release.ControlEvent-2.idtx:6
@@ -562,17 +552,15 @@ msgstr ""
 #: en_US.Win32.Release.ControlEvent-2.idtx:12
 #: en_US.x64.Debug.ControlEvent-2.idtx:12
 #: en_US.x64.Release.ControlEvent-2.idtx:12
-#, fuzzy
 msgid "Removing"
-msgstr "กำลังเอาเนื้อหารในแฟ้ม INI ออก"
+msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:13
 #: en_US.Win32.Release.ControlEvent-2.idtx:13
 #: en_US.x64.Debug.ControlEvent-2.idtx:13
 #: en_US.x64.Release.ControlEvent-2.idtx:13
-#, fuzzy
 msgid "Removal"
-msgstr "｡ﾒﾃ猩ﾒﾍﾍ｡猝ﾃ遞ﾊﾁｺﾙﾃｳ・"
+msgstr ""
 
 #: en_US.Win32.Debug.Dialog-2.idtx:4 en_US.Win32.Release.Dialog-2.idtx:4
 #: en_US.x64.Debug.Dialog-2.idtx:4 en_US.x64.Release.Dialog-2.idtx:4
@@ -581,11 +569,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Property-2.idtx:4 en_US.Win32.Release.Property-2.idtx:4
 #: en_US.x64.Debug.Property-2.idtx:4 en_US.x64.Release.Property-2.idtx:4
-#, fuzzy
 msgid "Installing"
 msgstr ""
-"菽靆ﾒﾁﾒﾃｶｾｺｼﾅﾔｵﾀﾑｳｱ・ﾕ險ﾓ狃郢ﾊﾓﾋﾃﾑｺ｡ﾒﾃｵﾔｴｵﾑ鬧ｼﾅﾔｵﾀﾑｳｱ・ﾕ鮓ﾙ｡ｵﾔｴｵﾑ鬧萇鬘靉ｹﾋｹ"
-"鰓ｺｹ爨ﾃﾗ靉ｧｹﾕ・"
 
 #: en_US.Win32.Debug.Property-2.idtx:5 en_US.Win32.Debug.Property-2.idtx:6
 #: en_US.Win32.Release.Property-2.idtx:5 en_US.Win32.Release.Property-2.idtx:6
@@ -601,24 +586,19 @@ msgstr ""
 
 #: en_US.Win32.Debug.Property-2.idtx:8 en_US.Win32.Release.Property-2.idtx:8
 #: en_US.x64.Debug.Property-2.idtx:8 en_US.x64.Release.Property-2.idtx:8
-#, fuzzy
 msgid "Custom Installation"
-msgstr "｡ﾒﾃｵﾔｴｵﾑ鬧ﾅ鮹猴ﾅﾇ"
+msgstr ""
 
 #: en_US.Win32.Debug.Property-2.idtx:9 en_US.Win32.Release.Property-2.idtx:9
 #: en_US.x64.Debug.Property-2.idtx:9 en_US.x64.Release.Property-2.idtx:9
-#, fuzzy
 msgid "&Install Now"
-msgstr "ｵﾔｴｵﾑ鬧眷鯢 [2]"
+msgstr ""
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:4
 #: en_US.Win32.Release.RadioButton-2.idtx:4
 #: en_US.x64.Debug.RadioButton-2.idtx:4 en_US.x64.Release.RadioButton-2.idtx:4
-#, fuzzy
 msgid "&Modify"
 msgstr ""
-"菽靆ﾒﾁﾒﾃｶｻﾃﾑｺｻﾃﾘｧ environment variable '[2]' ﾂﾗｹﾂﾑｹ耆鱆ｹ鞳ｨﾇ靨､ﾘｳﾁﾕﾊﾔｷｸﾔ・"
-"ｾﾕﾂｧｾﾍｷﾕ險ﾐｻﾃﾑｺ狃ﾅﾕ霙ｹ environment variables"
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:4
 #: en_US.Win32.Release.RadioButton-2.idtx:4
@@ -643,12 +623,8 @@ msgstr ""
 #: en_US.Win32.Debug.RadioButton-2.idtx:6
 #: en_US.Win32.Release.RadioButton-2.idtx:6
 #: en_US.x64.Debug.RadioButton-2.idtx:6 en_US.x64.Release.RadioButton-2.idtx:6
-#, fuzzy
 msgid "&Remove"
 msgstr ""
-"､ﾘｳｵ鯱ｧ狃郢ｼﾙ魘ﾙ眷ﾃﾐｺｺｶﾖｧｨﾐﾁﾕﾊﾔｷｸﾔ・ﾍﾒ篏ﾃ癸ﾃﾁｻﾃﾐﾂﾘ｡ｵ・ﾕ鯱ﾍ｡莇・ 狠ﾗ靉ｵ鯱ｧ｡ﾒﾃ"
-"猩ﾒ篏ﾃ癸ﾃﾁｻﾃﾐﾂﾘ｡ｵ・ﾕ鯱ﾍ｡ 耆鬢ﾘｳ爐鰓ﾃﾐｺｺ蘯ｺｼﾙ魘ﾙ眷ﾃﾐｺｺ ﾋﾃﾗﾍｵﾔｴｵ靉ｽ靨"
-"ﾂﾊｹﾑｺﾊｹﾘｹｷﾒｧ犢､ｹﾔ､狎ﾗ靉､ﾇﾒﾁｪ霽ﾂ猴ﾅﾗﾍ"
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:6
 #: en_US.Win32.Release.RadioButton-2.idtx:6
@@ -668,11 +644,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:7 en_US.Win32.Release.UIText-2.idtx:7
 #: en_US.x64.Debug.UIText-2.idtx:7 en_US.x64.Release.UIText-2.idtx:7
-#, fuzzy
 msgid "KB"
 msgstr ""
-"菽靆ﾒﾁﾒﾃｶ狎ﾔ霖ｷﾕ霽靨ｧ registry ｷﾕ霖ﾕﾍﾂﾙ・[2] KB ｢ﾍｧｷﾕ霽靨ｧ registry ｷﾕ雜ﾙ｡ｵ"
-"鯱ｧ｡ﾒﾃﾊﾓﾋﾃﾑｺ｡ﾒﾃｵﾔｴｵﾑ鬧｢ﾍｧ篏ﾃ癸ﾃﾁｻﾃﾐﾂﾘ｡ｵ・"
 
 #: en_US.Win32.Debug.UIText-2.idtx:8 en_US.Win32.Release.UIText-2.idtx:8
 #: en_US.x64.Debug.UIText-2.idtx:8 en_US.x64.Release.UIText-2.idtx:8
@@ -865,13 +838,8 @@ msgstr "猊ﾅﾒｷﾕ鞨ﾋﾅﾗﾍ: {[1] ｹﾒｷﾕ }{[2] ﾇﾔｹﾒｷ�
 
 #: en_US.Win32.Debug.UIText-2.idtx:50 en_US.Win32.Release.UIText-2.idtx:50
 #: en_US.x64.Debug.UIText-2.idtx:50 en_US.x64.Release.UIText-2.idtx:50
-#, fuzzy
 msgid "Available"
 msgstr ""
-"ｷﾕ霽靨ｧｴﾔﾊ｡・ﾁ鞨ｾﾕﾂｧｾﾍ羯 '[2]' ｶ鰓ｵ鯱ｧ｡ﾒﾃｵﾔｴｵﾑ鬧蘯ｺ耆鮹ﾕ｡ﾒﾃ｡ﾙ鬢ﾗｹ ｵ鯱ｧ｡ﾒﾃｷﾕ霽"
-"靨ｧ [3] KB 盞霖ﾕｷﾕ霽靨ｧﾍﾂﾙ鞦､・[4] KB ､ﾅﾔ｡ ﾅﾐ猊鮖 ｶ鰓ｵ鯱ｧ｡ﾒﾃｵﾔｴｵﾑ鬧蘯ｺ菽霖ﾕ｡"
-"ﾒﾃ｡ﾙ鬢ﾗｹ 耆鬢ﾅﾔ｡ ﾅﾍｧ耆ﾁ・狎ﾗ靉ｴﾙｷﾕ霽靨ｧﾍﾕ｡､ﾃﾑ鬧 ﾋﾃﾗﾍ､ﾅﾔ｡ ﾂ｡倏ﾔ｡ 狎ﾗ靉ﾋﾂﾘｴ｡"
-"ﾒﾃｵﾔｴｵﾑ鬧"
 
 #: en_US.Win32.Debug.UIText-2.idtx:51 en_US.Win32.Release.UIText-2.idtx:51
 #: en_US.x64.Debug.UIText-2.idtx:51 en_US.x64.Release.UIText-2.idtx:51
@@ -880,11 +848,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:52 en_US.Win32.Release.UIText-2.idtx:52
 #: en_US.x64.Debug.UIText-2.idtx:52 en_US.x64.Release.UIText-2.idtx:52
-#, fuzzy
 msgid "Required"
 msgstr ""
-"眩鮹ｷﾕ險ﾓ狃郢菽靆ﾒﾁﾒﾃｶｶﾙ｡ｵﾔｴｵﾑ鬧莇・狎ﾃﾒﾐ眩鮹 cabinet [2] 菽鞴ｴ鮓ﾙ｡ﾅｧｪﾗ靉蘯"
-"ｺｴﾔｨﾔｵﾑﾅ ｫﾖ隗ﾍﾒｨ狃郢狎ﾃﾒﾐﾇ靨眩鮹 cabinet ｹﾕ鰲ﾊﾕﾂﾋﾒﾂ"
 
 #: en_US.Win32.Debug.UIText-2.idtx:53 en_US.Win32.Release.UIText-2.idtx:53
 #: en_US.x64.Debug.UIText-2.idtx:53 en_US.x64.Release.UIText-2.idtx:53
@@ -893,8 +858,5 @@ msgstr ""
 
 #: en_US.Win32.Debug.UIText-2.idtx:54 en_US.Win32.Release.UIText-2.idtx:54
 #: en_US.x64.Debug.UIText-2.idtx:54 en_US.x64.Release.UIText-2.idtx:54
-#, fuzzy
 msgid "Volume"
 msgstr ""
-"菽霖ﾕｴﾔﾊ｡・ｹ莇ﾃｿ・[2] ｡ﾃﾘｳﾒ飜雍ﾔﾊ｡・ﾅ鯢､ﾅﾔ｡ﾅﾍｧ耆ﾁ・ﾋﾃﾗﾍ､ﾅﾔ｡ﾂ｡倏ﾔ｡ 狎ﾗ靉｡ﾅﾑｺ莉"
-"ﾂﾑｧｴﾔﾊ｡・ﾕ鞨ﾅﾗﾍ｡萇鬘靉ｹﾋｹ鰓"

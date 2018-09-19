@@ -1,19 +1,23 @@
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MSMBuild\n"
+"Project-Id-Version: MSMBuild UI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-04 14:37+0200\n"
+"POT-Creation-Date: 2016-09-19 11:23+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Simon Rozman <simon.rozman@amebis.si>\n"
-"Language-Team: Amebis, d. o. o., Kamnik <simon.rozman@amebis.si>\n"
-"Language: it_IT\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2018\n"
+"Language-Team: Italian (Italy) (https://www.transifex.com/amebis/teams/91604/it_IT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __\n"
-"X-Generator: Poedit 1.8.9\n"
+"Language: it_IT\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: en_US.Win32.Debug.Control-2.idtx:4 en_US.Win32.Debug.Control-2.idtx:8
 #: en_US.Win32.Debug.Control-2.idtx:12 en_US.Win32.Debug.Control-2.idtx:19
@@ -88,19 +92,18 @@ msgstr "&Riprendi"
 
 #: en_US.Win32.Debug.Control-2.idtx:13 en_US.Win32.Release.Control-2.idtx:13
 #: en_US.x64.Debug.Control-2.idtx:13 en_US.x64.Release.Control-2.idtx:13
-#, fuzzy
 msgid "[DlgTitleFont]Choose setup type."
-msgstr "[DlgTitleFont]Spazio insufficiente"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:14 en_US.Win32.Release.Control-2.idtx:14
 #: en_US.x64.Debug.Control-2.idtx:14 en_US.x64.Release.Control-2.idtx:14
-#, fuzzy
 msgid "[DlgTitleFont][ButtonTextInstall] "
-msgstr "[DlgTitleFont]Spazio richiesto"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:14 en_US.Win32.Release.Control-2.idtx:14
 #: en_US.x64.Debug.Control-2.idtx:14 en_US.x64.Release.Control-2.idtx:14
-msgid "Installs the most common program features. Recommended for most users.|"
+msgid ""
+"Installs the most common program features. Recommended for most users.|"
 msgstr ""
 "Installa solo le funzionalità più semplici. Adatto per la maggior parte di "
 "utenti.|"
@@ -135,25 +138,23 @@ msgstr ""
 msgid ""
 "Although, 32-bit variant should work with your operating system, this "
 "program is also available as 64-bit variant, which is more appropriate for "
-"your operating system. The installation of the 64-bit variant is recommended."
+"your operating system. The installation of the 64-bit variant is "
+"recommended."
 msgstr ""
 "È possibile utilizzare una versione a 32 bit sul computer; tuttavia, il "
-"programma è disponibile anche in una versione a 64 bit più adatta al sistema "
-"operativo in uso. Si consiglia di installare la versione a 64 bit del "
+"programma è disponibile anche in una versione a 64 bit più adatta al sistema"
+" operativo in uso. Si consiglia di installare la versione a 64 bit del "
 "programma."
 
 #: en_US.Win32.Debug.Control-2.idtx:20 en_US.Win32.Release.Control-2.idtx:20
 #: en_US.x64.Debug.Control-2.idtx:17 en_US.x64.Release.Control-2.idtx:17
-#, fuzzy
-msgid ""
-"[DlgTitleFont]Click \"Next\" to resume [SimpleProductName] installation."
-msgstr "Interrompere l'installazione del programma [SimpleProductName]?"
+msgid "[DlgTitleFont]Click \"Next\" to resume [SimpleProductName] installation."
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:23 en_US.Win32.Release.Control-2.idtx:23
 #: en_US.x64.Debug.Control-2.idtx:20 en_US.x64.Release.Control-2.idtx:20
-#, fuzzy
 msgid "[DlgTitleFont][SimpleProductName] Maintenance"
-msgstr "[SimpleProductName]"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:24 en_US.Win32.Release.Control-2.idtx:24
 #: en_US.x64.Debug.Control-2.idtx:21 en_US.x64.Release.Control-2.idtx:21
@@ -194,16 +195,14 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:35 en_US.Win32.Release.Control-2.idtx:35
 #: en_US.x64.Debug.Control-2.idtx:32 en_US.x64.Release.Control-2.idtx:32
-#, fuzzy
 msgid "[DlgTitleFont][TitleCustomize] "
-msgstr "[DlgTitleFont]Spazio insufficiente"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:36 en_US.Win32.Release.Control-2.idtx:36
 #: en_US.x64.Debug.Control-2.idtx:33 en_US.x64.Release.Control-2.idtx:33
-#, fuzzy
 msgid ""
 "Click on the icons in the tree below to change the features to be installed:"
-msgstr "Consente di selezionare le funzionalità da installare.|"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:37 en_US.Win32.Release.Control-2.idtx:37
 #: en_US.x64.Debug.Control-2.idtx:34 en_US.x64.Release.Control-2.idtx:34
@@ -343,7 +342,8 @@ msgstr "{60}{60}{60}{60}{60}"
 #: en_US.Win32.Debug.Control-2.idtx:72 en_US.Win32.Debug.Control-2.idtx:77
 #: en_US.Win32.Debug.Control-2.idtx:112 en_US.Win32.Debug.Control-2.idtx:117
 #: en_US.Win32.Debug.Control-2.idtx:122 en_US.Win32.Release.Control-2.idtx:72
-#: en_US.Win32.Release.Control-2.idtx:77 en_US.Win32.Release.Control-2.idtx:112
+#: en_US.Win32.Release.Control-2.idtx:77
+#: en_US.Win32.Release.Control-2.idtx:112
 #: en_US.Win32.Release.Control-2.idtx:117
 #: en_US.Win32.Release.Control-2.idtx:122 en_US.x64.Debug.Control-2.idtx:69
 #: en_US.x64.Debug.Control-2.idtx:74 en_US.x64.Debug.Control-2.idtx:109
@@ -351,11 +351,8 @@ msgstr "{60}{60}{60}{60}{60}"
 #: en_US.x64.Release.Control-2.idtx:69 en_US.x64.Release.Control-2.idtx:74
 #: en_US.x64.Release.Control-2.idtx:109 en_US.x64.Release.Control-2.idtx:114
 #: en_US.x64.Release.Control-2.idtx:119
-#, fuzzy
 msgid "&Close"
 msgstr ""
-"Il file [2][3] è in uso{ dal processo con nome: [4], ID: [5] e titolo "
-"finestra: \"[6]\"}. Chiudere tale applicazione e riprovare."
 
 #: en_US.Win32.Debug.Control-2.idtx:74 en_US.Win32.Debug.Control-2.idtx:79
 #: en_US.Win32.Release.Control-2.idtx:74 en_US.Win32.Release.Control-2.idtx:79
@@ -369,10 +366,10 @@ msgstr "[DlgTitleFont]Spazio insufficiente"
 #: en_US.x64.Debug.Control-2.idtx:72 en_US.x64.Debug.Control-2.idtx:77
 #: en_US.x64.Release.Control-2.idtx:72 en_US.x64.Release.Control-2.idtx:77
 msgid ""
-"The highlighted volumes (if any) do not have enough disk space available for "
-"the currently selected features. You can either remove some files from the "
-"highlighted volumes, or choose to install less features onto local drive(s), "
-"or select different destination drive(s)."
+"The highlighted volumes (if any) do not have enough disk space available for"
+" the currently selected features. You can either remove some files from the "
+"highlighted volumes, or choose to install less features onto local drive(s),"
+" or select different destination drive(s)."
 msgstr ""
 "I drive selezionati (se esistono) non dispongono di spazio sufficiente per "
 "l'installazione delle funzionalità. Liberare spazio su drive scelti, "
@@ -383,8 +380,8 @@ msgstr ""
 #: en_US.x64.Debug.Control-2.idtx:79 en_US.x64.Release.Control-2.idtx:79
 msgid ""
 "Alternatively, you may choose to disable the installer's rollback "
-"functionality. This allows the installer to restore your computer's original "
-"state should the installation be interrupted in any way. Click Yes if you "
+"functionality. This allows the installer to restore your computer's original"
+" state should the installation be interrupted in any way. Click Yes if you "
 "wish to take the risk to disable rollback."
 msgstr ""
 "È possibile scegliere di disabilitare la funzionalità di ripristino dello "
@@ -413,9 +410,8 @@ msgstr "&No"
 
 #: en_US.Win32.Debug.Control-2.idtx:86 en_US.Win32.Release.Control-2.idtx:86
 #: en_US.x64.Debug.Control-2.idtx:83 en_US.x64.Release.Control-2.idtx:83
-#, fuzzy
 msgid "[DlgTitleFont][Progress1] [SimpleProductName]..."
-msgstr "[SimpleProductName]"
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:89 en_US.Win32.Release.Control-2.idtx:89
 #: en_US.x64.Debug.Control-2.idtx:86 en_US.x64.Release.Control-2.idtx:86
@@ -480,9 +476,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:111 en_US.Win32.Release.Control-2.idtx:111
 #: en_US.x64.Debug.Control-2.idtx:108 en_US.x64.Release.Control-2.idtx:108
-#, fuzzy
 msgid "[DlgTitleFont][SimpleProductName] [Progress1] Completed"
-msgstr "Installazione di [SimpleProductName] completata."
+msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:114 en_US.Win32.Release.Control-2.idtx:114
 #: en_US.x64.Debug.Control-2.idtx:111 en_US.x64.Release.Control-2.idtx:111
@@ -499,8 +494,8 @@ msgstr ""
 #: en_US.Win32.Debug.Control-2.idtx:116 en_US.Win32.Release.Control-2.idtx:116
 #: en_US.x64.Debug.Control-2.idtx:113 en_US.x64.Release.Control-2.idtx:113
 msgid ""
-"If you interrupted the installation by accident, please run the installation "
-"again."
+"If you interrupted the installation by accident, please run the installation"
+" again."
 msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:119 en_US.Win32.Release.Control-2.idtx:119
@@ -517,7 +512,8 @@ msgstr ""
 
 #: en_US.Win32.Debug.Control-2.idtx:121 en_US.Win32.Release.Control-2.idtx:121
 #: en_US.x64.Debug.Control-2.idtx:118 en_US.x64.Release.Control-2.idtx:118
-msgid "Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
+msgid ""
+"Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
 msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:4
@@ -527,17 +523,15 @@ msgstr ""
 #: en_US.x64.Debug.ControlEvent-2.idtx:4 en_US.x64.Debug.ControlEvent-2.idtx:5
 #: en_US.x64.Release.ControlEvent-2.idtx:4
 #: en_US.x64.Release.ControlEvent-2.idtx:5
-#, fuzzy
 msgid "Determining required space for installation..."
-msgstr "Acquisizione dati necessari…"
+msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:6
 #: en_US.Win32.Release.ControlEvent-2.idtx:6
 #: en_US.x64.Debug.ControlEvent-2.idtx:6
 #: en_US.x64.Release.ControlEvent-2.idtx:6
-#, fuzzy
 msgid "&Modify now"
-msgstr "&Modifica"
+msgstr ""
 
 #: en_US.Win32.Debug.ControlEvent-2.idtx:7
 #: en_US.Win32.Release.ControlEvent-2.idtx:7
@@ -557,11 +551,9 @@ msgstr "Modifica"
 #: en_US.Win32.Release.ControlEvent-2.idtx:9
 #: en_US.x64.Debug.ControlEvent-2.idtx:9
 #: en_US.x64.Release.ControlEvent-2.idtx:9
-#, fuzzy
 msgid "Modification"
-msgstr "Modifica"
+msgstr ""
 
-# This text will be a replacement for [Progress1].
 #: en_US.Win32.Debug.ControlEvent-2.idtx:10
 #: en_US.Win32.Release.ControlEvent-2.idtx:10
 #: en_US.x64.Debug.ControlEvent-2.idtx:10
@@ -573,11 +565,9 @@ msgstr "Ripristino di"
 #: en_US.Win32.Release.ControlEvent-2.idtx:11
 #: en_US.x64.Debug.ControlEvent-2.idtx:11
 #: en_US.x64.Release.ControlEvent-2.idtx:11
-#, fuzzy
 msgid "Repair"
-msgstr "R&ipristina"
+msgstr ""
 
-# This text will be a replacement for [Progress1].
 #: en_US.Win32.Debug.ControlEvent-2.idtx:12
 #: en_US.Win32.Release.ControlEvent-2.idtx:12
 #: en_US.x64.Debug.ControlEvent-2.idtx:12
@@ -589,17 +579,14 @@ msgstr "Rimozione di"
 #: en_US.Win32.Release.ControlEvent-2.idtx:13
 #: en_US.x64.Debug.ControlEvent-2.idtx:13
 #: en_US.x64.Release.ControlEvent-2.idtx:13
-#, fuzzy
 msgid "Removal"
-msgstr "Rimozione completata."
+msgstr ""
 
 #: en_US.Win32.Debug.Dialog-2.idtx:4 en_US.Win32.Release.Dialog-2.idtx:4
 #: en_US.x64.Debug.Dialog-2.idtx:4 en_US.x64.Release.Dialog-2.idtx:4
-#, fuzzy
 msgid "Installer Information"
-msgstr "Icona Informazioni|"
+msgstr ""
 
-# This text will be a replacement for [Progress1].
 #: en_US.Win32.Debug.Property-2.idtx:4 en_US.Win32.Release.Property-2.idtx:4
 #: en_US.x64.Debug.Property-2.idtx:4 en_US.x64.Release.Property-2.idtx:4
 msgid "Installing"
@@ -612,7 +599,6 @@ msgstr "Installazione di"
 msgid "Setup"
 msgstr "Installazione"
 
-# This text will be a replacement for [Wizard].
 #: en_US.Win32.Debug.Property-2.idtx:7 en_US.Win32.Release.Property-2.idtx:7
 #: en_US.x64.Debug.Property-2.idtx:7 en_US.x64.Release.Property-2.idtx:7
 msgid "Setup Wizard"
@@ -620,18 +606,13 @@ msgstr "Installazione guidata"
 
 #: en_US.Win32.Debug.Property-2.idtx:8 en_US.Win32.Release.Property-2.idtx:8
 #: en_US.x64.Debug.Property-2.idtx:8 en_US.x64.Release.Property-2.idtx:8
-#, fuzzy
 msgid "Custom Installation"
-msgstr "Impossibile completare l'installazione."
+msgstr ""
 
 #: en_US.Win32.Debug.Property-2.idtx:9 en_US.Win32.Release.Property-2.idtx:9
 #: en_US.x64.Debug.Property-2.idtx:9 en_US.x64.Release.Property-2.idtx:9
-#, fuzzy
 msgid "&Install Now"
 msgstr ""
-"Questo tipo di installazione richiede il pacchetto di programmi '%1'. Vuoi "
-"installare questo pacchetto di programmi subito?\n"
-"Se il pacchetto di programmi '%1' è già installato, puoi scegliere 'No'."
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:4
 #: en_US.Win32.Release.RadioButton-2.idtx:4
@@ -642,9 +623,8 @@ msgstr "&Modifica"
 #: en_US.Win32.Debug.RadioButton-2.idtx:4
 #: en_US.Win32.Release.RadioButton-2.idtx:4
 #: en_US.x64.Debug.RadioButton-2.idtx:4 en_US.x64.Release.RadioButton-2.idtx:4
-#, fuzzy
 msgid "Allows you to change the which features are installed.|"
-msgstr "Consente di selezionare le funzionalità da installare.|"
+msgstr ""
 
 #: en_US.Win32.Debug.RadioButton-2.idtx:5
 #: en_US.Win32.Release.RadioButton-2.idtx:5
@@ -830,8 +810,8 @@ msgid ""
 "This feature will be removed from your local hard drive, but will be set to "
 "be installed when required"
 msgstr ""
-"La funzionalità verrà rimossa dal disco rigido locale ma verrà impostata per "
-"l'avvio al primo uso"
+"La funzionalità verrà rimossa dal disco rigido locale ma verrà impostata per"
+" l'avvio al primo uso"
 
 #: en_US.Win32.Debug.UIText-2.idtx:38 en_US.Win32.Release.UIText-2.idtx:38
 #: en_US.x64.Debug.UIText-2.idtx:38 en_US.x64.Release.UIText-2.idtx:38
@@ -839,8 +819,8 @@ msgid ""
 "This feature will be removed from your local hard drive, but will be still "
 "available to run from CD"
 msgstr ""
-"La funzionalità verrà rimossa dal disco rigido locale ma verrà impostata per "
-"l'avvio da CD"
+"La funzionalità verrà rimossa dal disco rigido locale ma verrà impostata per"
+" l'avvio da CD"
 
 #: en_US.Win32.Debug.UIText-2.idtx:39 en_US.Win32.Release.UIText-2.idtx:39
 #: en_US.x64.Debug.UIText-2.idtx:39 en_US.x64.Release.UIText-2.idtx:39
@@ -862,8 +842,8 @@ msgid ""
 "This feature will be uninstalled completely, you won't be able to run it "
 "from the network"
 msgstr ""
-"La funzionalità verrà rimossa completamente e non potrà essere avviata dalla "
-"rete"
+"La funzionalità verrà rimossa completamente e non potrà essere avviata dalla"
+" rete"
 
 #: en_US.Win32.Debug.UIText-2.idtx:44 en_US.Win32.Release.UIText-2.idtx:44
 #: en_US.x64.Debug.UIText-2.idtx:44 en_US.x64.Release.UIText-2.idtx:44
