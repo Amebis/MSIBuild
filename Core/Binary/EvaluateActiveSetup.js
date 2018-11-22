@@ -17,60 +17,44 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
- 
+
 /**
- * Publishes Active Setup component
- * 
- * This is a deffered execution action. CustomActionData property should be
- * one of:
- * 
- * "install\t<product code>\t<product name>\t<Action Setup component version>"
- *    Installs Active Setup component
- * 
- * "uninstall\t<product code>"
- *    Marks Active Setup component as uninstalled
+ * Evaluates Active Setup component state and prepares instructions for
+ * PublishActiveSetup deferred action.
  */
 
-var data = Session.Property("CustomActionData").split("\t");
-if (data && data.length >= 2) {
-	var
-		wsh = new ActiveXObject("WScript.Shell"),
-		regPath = "HKLM\\Software\\Microsoft\\Active Setup\\Installed Components\\" + data[1] + "\\";
+var
+	productCode = Session.Property("ProductCode"),
+	version;
 
-	switch (data[0].toLowerCase()) {
-		case "install":
-			if (data.length >= 4) {
-				// Register component.
-				wsh.RegWrite(regPath,             data[2], "REG_SZ");
-				wsh.RegWrite(regPath + "Version", data[3], "REG_SZ");
-
-				// Mark component as installed.
-				wsh.RegWrite(regPath + "IsInstalled", 1, "REG_DWORD");
-				wsh.RegWrite(regPath + "DontAsk"    , 2, "REG_DWORD");
-
-				// Set action to execute on user logon.
-				wsh.RegWrite(regPath + "StubPath", "\"%SystemRoot%\\system32\\msiexec.exe\" /fu \"" + data[1] + "\" /qn", "REG_EXPAND_SZ");
-			}
-			break;
-
-		case "uninstall":
-			// Mark component as uninstalled.
-			wsh.RegWrite(regPath + "IsInstalled", 0, "REG_DWORD");
-
-			// We should have set the StubPath to execute cleanup. Unfortunately, when
-			// the StubPath gets executed, the MSI package is gone already. So, a
-			// `msiexec /x [ProductCode] /qn` is not possible any more.
-			wsh.RegDelete(regPath + "StubPath");
-			break;
-	}
+// Read the current component version from registry. Default to "0".
+try {
+	var wsh = new ActiveXObject("WScript.Shell");
+	version = new String(wsh.RegRead("HKLM\\Software\\Microsoft\\Active Setup\\Installed Components\\" + productCode + "\\" + "Version"));
+	if (!version || version.length == 0)
+		throw new Error("Active Setup component version not found.");
+} catch (err) {
+	version = "0";
 }
+
+// Increment the last version component.
+var v = version.split(",").slice(0, 4);
+v[v.length - 1] = (parseInt(v[v.length - 1], 10) + 1).toString();
+version = v.join(",");
+
+// Save the data for deferred action.
+Session.Property("PublishActiveSetup") =
+	(Session.EvaluateCondition("REMOVE=\"ALL\"") == 1/*msiEvaluateConditionTrue*/ ?
+		["uninstall", productCode] :
+		["install", productCode, Session.Property("ProductName"), version]
+	).join("\t");
 
 // SIG // Begin signature block
 // SIG // MIIWvAYJKoZIhvcNAQcCoIIWrTCCFqkCAQExDzANBglg
 // SIG // hkgBZQMEAgEFADB3BgorBgEEAYI3AgEEoGkwZzAyBgor
 // SIG // BgEEAYI3AgEeMCQCAQEEEBDgyQbOONQRoqMAEEvTUJAC
 // SIG // AQACAQACAQACAQACAQAwMTANBglghkgBZQMEAgEFAAQg
-// SIG // Qi9+9yJcVsC2G6qWqsJZUNPauR9SC1GK5YnxOzqhq/ug
+// SIG // SWSLF8o2K03U8TaA037RPgFhLQkNjuHVIcHTrIoDM/qg
 // SIG // ggtpMIIFgTCCBGmgAwIBAgIRAIJkBWOYIGrN1XByRZuP
 // SIG // G5IwDQYJKoZIhvcNAQELBQAwfTELMAkGA1UEBhMCR0Ix
 // SIG // GzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4G
@@ -167,23 +151,23 @@ if (data && data.length >= 2) {
 // SIG // ZAVjmCBqzdVwckWbjxuSMA0GCWCGSAFlAwQCAQUAoHww
 // SIG // EAYKKwYBBAGCNwIBDDECMAAwGQYJKoZIhvcNAQkDMQwG
 // SIG // CisGAQQBgjcCAQQwHAYKKwYBBAGCNwIBCzEOMAwGCisG
-// SIG // AQQBgjcCARUwLwYJKoZIhvcNAQkEMSIEIAjNaloaL/xM
-// SIG // B0UyKoXYq0egvakd4tV5PYbfbxxFOMcXMA0GCSqGSIb3
-// SIG // DQEBAQUABIIBAA9IQVEMX8G91PwyenSfXE3Ib4N/sGGJ
-// SIG // zJ3H6oAwPLXBnZeOKtagG5OZtZ2LMeAtU5E62HEgtWQQ
-// SIG // YdHVH+lITGbsS73KRp24k5MzC2TfNzGobGX33X4p4zot
-// SIG // W4n2AJ/yjS3dVrpRiJjwfsrNl3fM3CvH/TawgTopqdWp
-// SIG // 4rRfPcMguzimYwseoXO9P2lg4lQvImvO1XR6HCXXbbuF
-// SIG // xuLcfKhgdLnsb2WicwDnDSCA4JxdIPfwGKUkb71LxmQ/
-// SIG // uYEHnWk54kdiWCnriQKUIMgaAhBUlktlZOJPl6LhFhZi
-// SIG // kx4Ve37WQXC7CqPBnnHcRKK0s+fXhCgvvdkcj1X049Ut
-// SIG // 69KhgghrMIIIZwYKKwYBBAGCNwMDATGCCFcwgghTBgkq
+// SIG // AQQBgjcCARUwLwYJKoZIhvcNAQkEMSIEIAGEfbPfd2yc
+// SIG // q3KoaecnqjhrsowXUEfnN+cl+I7EsAaNMA0GCSqGSIb3
+// SIG // DQEBAQUABIIBAJ11ijk6V39NHEwz2/OqbpyVJSmHZptq
+// SIG // W8bnRMxEpumdNxcuvi8fSjRXHYhC3OBJdyqM0YoQjoYU
+// SIG // X7iMyJwMvk5F9on+J0wtL1fnQwHvQG95E/e4VEsKv0Sq
+// SIG // aow0QeXY+mm/5MH209cCH0XjnanKVa87eSWIY/eLV7KD
+// SIG // g7HE66e9rZiX/oCyPrUte1DA6c0/+acQzV/2+ag/zolc
+// SIG // S9gKVI1ar3nd/nRrhVUxyCwKAkMCFhi1KLV1MoojIISN
+// SIG // ABHDpxcJnMklp+5CxklfdawvX0gp0C4Xw8jPs1v/RoEh
+// SIG // fTt/w08eraaWoNeW9Ir9cTbnySI6sxOM4IVT1AcZDvYN
+// SIG // L/KhgghrMIIIZwYKKwYBBAGCNwMDATGCCFcwgghTBgkq
 // SIG // hkiG9w0BBwKggghEMIIIQAIBAzEPMA0GCWCGSAFlAwQC
 // SIG // AQUAMIIBDwYLKoZIhvcNAQkQAQSggf8EgfwwgfkCAQEG
-// SIG // CisGAQQBsjECAQEwMTANBglghkgBZQMEAgEFAAQgSqjE
-// SIG // oaABn8z8cBD1ly5UDN5KXb2gJpBNzNMg0ur0PJYCFQD7
-// SIG // DGbnRGSjao94Kd4SSbl9ocX3ChgPMjAxODExMjIwOTE3
-// SIG // MjZaoIGMpIGJMIGGMQswCQYDVQQGEwJHQjEbMBkGA1UE
+// SIG // CisGAQQBsjECAQEwMTANBglghkgBZQMEAgEFAAQgW5U2
+// SIG // mdsb1u5q2cHxPwFhkAx4uboqBfTFJgBfzAbPTCgCFQCU
+// SIG // 8P2BcdBMZS1Bqft8ZCMqgIX36hgPMjAxODExMjIxMDA1
+// SIG // NTJaoIGMpIGJMIGGMQswCQYDVQQGEwJHQjEbMBkGA1UE
 // SIG // CBMSR3JlYXRlciBNYW5jaGVzdGVyMRAwDgYDVQQHEwdT
 // SIG // YWxmb3JkMRowGAYDVQQKExFDT01PRE8gQ0EgTGltaXRl
 // SIG // ZDEsMCoGA1UEAxMjQ09NT0RPIFNIQS0yNTYgVGltZSBT
@@ -231,16 +215,16 @@ if (data && data.length >= 2) {
 // SIG // U0VSRmlyc3QtT2JqZWN0AhBOsIePzCQ1NrLYyfe/OVV3
 // SIG // MA0GCWCGSAFlAwQCAQUAoIGYMBoGCSqGSIb3DQEJAzEN
 // SIG // BgsqhkiG9w0BCRABBDAcBgkqhkiG9w0BCQUxDxcNMTgx
-// SIG // MTIyMDkxNzI2WjArBgsqhkiG9w0BCRACDDEcMBowGDAW
+// SIG // MTIyMTAwNTUyWjArBgsqhkiG9w0BCRACDDEcMBowGDAW
 // SIG // BBQ2Un1Pompo+etFlvHZmrssDqdt+jAvBgkqhkiG9w0B
-// SIG // CQQxIgQgc9ROfOXHnwYMTogXYqZ2HmJTAZAMdS1YfFck
-// SIG // SNYjwFUwDQYJKoZIhvcNAQEBBQAEggEAEJ7SnnXSLupt
-// SIG // pDgy+6tgNvGsgbWR8Vnwtvjdam0a2FJCh8XvMOEnLpdp
-// SIG // RzvNospGYa4kLlDfxI54OkPEo98u68V4d96z+4fCME/O
-// SIG // kfRlSe0Y1uut7GHi0mdzTUjKbjDTeRq8OUknj/Rj3uRe
-// SIG // yObso2iLS4FjBi8YUtSTdKKTqwOHlhMHMUHUZ5Kyem1l
-// SIG // nTa2SbHNOvhSKOXkCL/DB8CHdUkYZid4xTq39+2Glum0
-// SIG // E8JbeM1dJIFONIYaIKONCL/FCD5IZsSjyom36O0VrubG
-// SIG // eI1PUr0+bvlD/iDP0X9T1gJGk9CbMPBlFF7ZZhcQP7mE
-// SIG // VmmmG6JNOE6eJ5EHi9GNwA==
+// SIG // CQQxIgQgoGqHEqN/motOUgOkwPZQlfWe2oj8nQmpXQxW
+// SIG // IYWsXa4wDQYJKoZIhvcNAQEBBQAEggEAEmHw6kbuV6E3
+// SIG // d0TRW9eKaIH013Skne/SK4e4dprOkGsDgEdjnW9xof18
+// SIG // 978puHM6vkr54jkMTMC5RfYXgvwmvKAjFd6zMTrmhp0n
+// SIG // 52lTWov7xGFCR/3aXfStCrRFKYW6INc5laLIs1IK+8G6
+// SIG // VBN4tTjh1bCAuZeMD9xuhzbCZ7NtacJn5gBEY51T+6T4
+// SIG // 5dMsw2U4iFQ9RoeOg+T0KfmeJtfIQrJ93/dPSEZDkkq2
+// SIG // BU7PiUi17WT4u2YU7EJZzjTGjRn+bRz7oTdMaM1mkUzZ
+// SIG // o8WpXRZz9m6yRxOgG7aCVQZl4MH/eaowQs7ninN0B5TE
+// SIG // zxoXoQdxQCCuwVKExwo1BQ==
 // SIG // End signature block
