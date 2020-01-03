@@ -37,10 +37,12 @@ try {
 	version = "0";
 }
 
-// Increment the last version component.
-var v = version.split(",").slice(0, 4);
-v[v.length - 1] = (parseInt(v[v.length - 1], 10) + 1).toString();
-version = v.join(",");
+if (Session.EvaluateCondition("NOT Installed") == 1/*msiEvaluateConditionTrue*/) {
+	// Increment the last version component.
+	var v = version.split(",").slice(0, 4);
+	v[v.length - 1] = (parseInt(v[v.length - 1], 10) + 1).toString();
+	version = v.join(",");
+}
 
 // Save the data for deferred action.
 Session.Property("PublishActiveSetup") =
