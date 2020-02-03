@@ -1,11 +1,12 @@
+# Translators:
+# Simon Rozman <simon@rozman.si>, 2018
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MSMBuild UI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-19 11:23+0200\n"
-"PO-Revision-Date: \n"
+"POT-Creation-Date: 2018-11-22 10:25+0100\n"
+"PO-Revision-Date: 2018-09-19 09:29+0000\n"
 "Last-Translator: Simon Rozman <simon@rozman.si>, 2018\n"
 "Language-Team: Russian (Russia) (https://www.transifex.com/amebis/teams/91604/ru_RU/)\n"
 "MIME-Version: 1.0\n"
@@ -13,27 +14,46 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru_RU\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: en_US.Win32.Debug.Control-2.idtx:4 en_US.Win32.Debug.Control-2.idtx:8
-#: en_US.Win32.Debug.Control-2.idtx:12 en_US.Win32.Debug.Control-2.idtx:19
-#: en_US.Win32.Debug.Control-2.idtx:22 en_US.Win32.Debug.Control-2.idtx:27
-#: en_US.Win32.Debug.Control-2.idtx:34 en_US.Win32.Debug.Control-2.idtx:47
-#: en_US.Win32.Debug.Control-2.idtx:58 en_US.Win32.Debug.Control-2.idtx:69
-#: en_US.Win32.Debug.Control-2.idtx:73 en_US.Win32.Debug.Control-2.idtx:78
-#: en_US.Win32.Debug.Control-2.idtx:85 en_US.Win32.Debug.Control-2.idtx:103
-#: en_US.Win32.Debug.Control-2.idtx:110 en_US.Win32.Debug.Control-2.idtx:113
-#: en_US.Win32.Debug.Control-2.idtx:118 en_US.Win32.Release.Control-2.idtx:4
-#: en_US.Win32.Release.Control-2.idtx:8 en_US.Win32.Release.Control-2.idtx:12
-#: en_US.Win32.Release.Control-2.idtx:19 en_US.Win32.Release.Control-2.idtx:22
-#: en_US.Win32.Release.Control-2.idtx:27 en_US.Win32.Release.Control-2.idtx:34
-#: en_US.Win32.Release.Control-2.idtx:47 en_US.Win32.Release.Control-2.idtx:58
-#: en_US.Win32.Release.Control-2.idtx:69 en_US.Win32.Release.Control-2.idtx:73
-#: en_US.Win32.Release.Control-2.idtx:78 en_US.Win32.Release.Control-2.idtx:85
+#: en_US.ARM64.Debug.Control-2.idtx:4 en_US.ARM64.Debug.Control-2.idtx:8
+#: en_US.ARM64.Debug.Control-2.idtx:12 en_US.ARM64.Debug.Control-2.idtx:16
+#: en_US.ARM64.Debug.Control-2.idtx:19 en_US.ARM64.Debug.Control-2.idtx:24
+#: en_US.ARM64.Debug.Control-2.idtx:31 en_US.ARM64.Debug.Control-2.idtx:44
+#: en_US.ARM64.Debug.Control-2.idtx:55 en_US.ARM64.Debug.Control-2.idtx:66
+#: en_US.ARM64.Debug.Control-2.idtx:70 en_US.ARM64.Debug.Control-2.idtx:75
+#: en_US.ARM64.Debug.Control-2.idtx:82 en_US.ARM64.Debug.Control-2.idtx:100
+#: en_US.ARM64.Debug.Control-2.idtx:107 en_US.ARM64.Debug.Control-2.idtx:110
+#: en_US.ARM64.Debug.Control-2.idtx:115 en_US.ARM64.Release.Control-2.idtx:4
+#: en_US.ARM64.Release.Control-2.idtx:8 en_US.ARM64.Release.Control-2.idtx:12
+#: en_US.ARM64.Release.Control-2.idtx:16 en_US.ARM64.Release.Control-2.idtx:19
+#: en_US.ARM64.Release.Control-2.idtx:24 en_US.ARM64.Release.Control-2.idtx:31
+#: en_US.ARM64.Release.Control-2.idtx:44 en_US.ARM64.Release.Control-2.idtx:55
+#: en_US.ARM64.Release.Control-2.idtx:66 en_US.ARM64.Release.Control-2.idtx:70
+#: en_US.ARM64.Release.Control-2.idtx:75 en_US.ARM64.Release.Control-2.idtx:82
+#: en_US.ARM64.Release.Control-2.idtx:100
+#: en_US.ARM64.Release.Control-2.idtx:107
+#: en_US.ARM64.Release.Control-2.idtx:110
+#: en_US.ARM64.Release.Control-2.idtx:115 en_US.Win32.Debug.Control-2.idtx:4
+#: en_US.Win32.Debug.Control-2.idtx:8 en_US.Win32.Debug.Control-2.idtx:12
+#: en_US.Win32.Debug.Control-2.idtx:19 en_US.Win32.Debug.Control-2.idtx:22
+#: en_US.Win32.Debug.Control-2.idtx:27 en_US.Win32.Debug.Control-2.idtx:34
+#: en_US.Win32.Debug.Control-2.idtx:47 en_US.Win32.Debug.Control-2.idtx:58
+#: en_US.Win32.Debug.Control-2.idtx:69 en_US.Win32.Debug.Control-2.idtx:73
+#: en_US.Win32.Debug.Control-2.idtx:78 en_US.Win32.Debug.Control-2.idtx:85
+#: en_US.Win32.Debug.Control-2.idtx:103 en_US.Win32.Debug.Control-2.idtx:110
+#: en_US.Win32.Debug.Control-2.idtx:113 en_US.Win32.Debug.Control-2.idtx:118
+#: en_US.Win32.Release.Control-2.idtx:4 en_US.Win32.Release.Control-2.idtx:8
+#: en_US.Win32.Release.Control-2.idtx:12 en_US.Win32.Release.Control-2.idtx:19
+#: en_US.Win32.Release.Control-2.idtx:22 en_US.Win32.Release.Control-2.idtx:27
+#: en_US.Win32.Release.Control-2.idtx:34 en_US.Win32.Release.Control-2.idtx:47
+#: en_US.Win32.Release.Control-2.idtx:58 en_US.Win32.Release.Control-2.idtx:69
+#: en_US.Win32.Release.Control-2.idtx:73 en_US.Win32.Release.Control-2.idtx:78
+#: en_US.Win32.Release.Control-2.idtx:85
 #: en_US.Win32.Release.Control-2.idtx:103
 #: en_US.Win32.Release.Control-2.idtx:110
 #: en_US.Win32.Release.Control-2.idtx:113
@@ -58,12 +78,15 @@ msgstr ""
 msgid "binUIHeader.bmp"
 msgstr "binUIHeader.bmp"
 
+#: en_US.ARM64.Debug.Control-2.idtx:5 en_US.ARM64.Release.Control-2.idtx:5
 #: en_US.Win32.Debug.Control-2.idtx:5 en_US.Win32.Release.Control-2.idtx:5
 #: en_US.x64.Debug.Control-2.idtx:5 en_US.x64.Release.Control-2.idtx:5
 msgid ""
 "[DlgTitleFont]Preparing [SimpleProductName] installation. Please wait..."
 msgstr "[DlgTitleFont]Подготовка установки. Пожалуйста, подождите ..."
 
+#: en_US.ARM64.Debug.Control-2.idtx:6 en_US.ARM64.Debug.Control-2.idtx:84
+#: en_US.ARM64.Release.Control-2.idtx:6 en_US.ARM64.Release.Control-2.idtx:84
 #: en_US.Win32.Debug.Control-2.idtx:6 en_US.Win32.Debug.Control-2.idtx:87
 #: en_US.Win32.Release.Control-2.idtx:6 en_US.Win32.Release.Control-2.idtx:87
 #: en_US.x64.Debug.Control-2.idtx:6 en_US.x64.Debug.Control-2.idtx:84
@@ -71,16 +94,21 @@ msgstr "[DlgTitleFont]Подготовка установки. Пожалуйс�
 msgid "Progress done"
 msgstr "Выполнено"
 
+#: en_US.ARM64.Debug.Control-2.idtx:9 en_US.ARM64.Release.Control-2.idtx:9
 #: en_US.Win32.Debug.Control-2.idtx:9 en_US.Win32.Release.Control-2.idtx:9
 #: en_US.x64.Debug.Control-2.idtx:9 en_US.x64.Release.Control-2.idtx:9
 msgid "[DlgTitleFont]Please read the following general terms carefully."
 msgstr "[DlgTitleFont]Внимательно прочитайте общие условия."
 
+#: en_US.ARM64.Debug.Control-2.idtx:10 en_US.ARM64.Release.Control-2.idtx:10
 #: en_US.Win32.Debug.Control-2.idtx:10 en_US.Win32.Release.Control-2.idtx:10
 #: en_US.x64.Debug.Control-2.idtx:10 en_US.x64.Release.Control-2.idtx:10
 msgid "I &accept the General Terms."
 msgstr "Я принимаю Обще условия."
 
+#: en_US.ARM64.Debug.Control-2.idtx:11 en_US.ARM64.Debug.Control-2.idtx:18
+#: en_US.ARM64.Debug.Control-2.idtx:23 en_US.ARM64.Release.Control-2.idtx:11
+#: en_US.ARM64.Release.Control-2.idtx:18 en_US.ARM64.Release.Control-2.idtx:23
 #: en_US.Win32.Debug.Control-2.idtx:11 en_US.Win32.Debug.Control-2.idtx:21
 #: en_US.Win32.Debug.Control-2.idtx:26 en_US.Win32.Release.Control-2.idtx:11
 #: en_US.Win32.Release.Control-2.idtx:21 en_US.Win32.Release.Control-2.idtx:26
@@ -90,16 +118,19 @@ msgstr "Я принимаю Обще условия."
 msgid "&Continue"
 msgstr "Продолжить"
 
+#: en_US.ARM64.Debug.Control-2.idtx:13 en_US.ARM64.Release.Control-2.idtx:13
 #: en_US.Win32.Debug.Control-2.idtx:13 en_US.Win32.Release.Control-2.idtx:13
 #: en_US.x64.Debug.Control-2.idtx:13 en_US.x64.Release.Control-2.idtx:13
 msgid "[DlgTitleFont]Choose setup type."
 msgstr "[DlgTitleFont]Изменить тип настройки."
 
+#: en_US.ARM64.Debug.Control-2.idtx:14 en_US.ARM64.Release.Control-2.idtx:14
 #: en_US.Win32.Debug.Control-2.idtx:14 en_US.Win32.Release.Control-2.idtx:14
 #: en_US.x64.Debug.Control-2.idtx:14 en_US.x64.Release.Control-2.idtx:14
 msgid "[DlgTitleFont][ButtonTextInstall] "
 msgstr "[DlgTitleFont][ButtonTextInstall]"
 
+#: en_US.ARM64.Debug.Control-2.idtx:14 en_US.ARM64.Release.Control-2.idtx:14
 #: en_US.Win32.Debug.Control-2.idtx:14 en_US.Win32.Release.Control-2.idtx:14
 #: en_US.x64.Debug.Control-2.idtx:14 en_US.x64.Release.Control-2.idtx:14
 msgid ""
@@ -108,15 +139,957 @@ msgstr ""
 "Устанавливает чаще всего используемые компоненты программы. Рекомендуется "
 "для большинства пользователей.|"
 
+#: en_US.ARM64.Debug.Control-2.idtx:15 en_US.ARM64.Release.Control-2.idtx:15
 #: en_US.Win32.Debug.Control-2.idtx:15 en_US.Win32.Release.Control-2.idtx:15
 #: en_US.x64.Debug.Control-2.idtx:15 en_US.x64.Release.Control-2.idtx:15
 msgid "C&ustomize"
 msgstr "Настроить"
 
+#: en_US.ARM64.Debug.Control-2.idtx:15 en_US.ARM64.Release.Control-2.idtx:15
 #: en_US.Win32.Debug.Control-2.idtx:15 en_US.Win32.Release.Control-2.idtx:15
 #: en_US.x64.Debug.Control-2.idtx:15 en_US.x64.Release.Control-2.idtx:15
 msgid "Allows users to change the way features are installed.|"
 msgstr "Позволяет пользователю изменить способ установки компонентов.|"
+
+#: en_US.ARM64.Debug.Control-2.idtx:17 en_US.ARM64.Release.Control-2.idtx:17
+#: en_US.Win32.Debug.Control-2.idtx:20 en_US.Win32.Release.Control-2.idtx:20
+#: en_US.x64.Debug.Control-2.idtx:17 en_US.x64.Release.Control-2.idtx:17
+msgid "[DlgTitleFont]Click \"Next\" to resume [SimpleProductName] installation."
+msgstr ""
+"[DlgTitleFont]Нажат \"Далее\" для продолжения установки [SimpleProductName]."
+
+#: en_US.ARM64.Debug.Control-2.idtx:20 en_US.ARM64.Release.Control-2.idtx:20
+#: en_US.Win32.Debug.Control-2.idtx:23 en_US.Win32.Release.Control-2.idtx:23
+#: en_US.x64.Debug.Control-2.idtx:20 en_US.x64.Release.Control-2.idtx:20
+msgid "[DlgTitleFont][SimpleProductName] Maintenance"
+msgstr "[DlgTitleFont][SimpleProductName] обслуживание"
+
+#: en_US.ARM64.Debug.Control-2.idtx:21 en_US.ARM64.Release.Control-2.idtx:21
+#: en_US.Win32.Debug.Control-2.idtx:24 en_US.Win32.Release.Control-2.idtx:24
+#: en_US.x64.Debug.Control-2.idtx:21 en_US.x64.Release.Control-2.idtx:21
+msgid ""
+"Maintenance allows you to change the way features are installed on your "
+"computer or even to remove [SimpleProductName] from your computer."
+msgstr ""
+"Oбслуживание позволяет изменить способ установки выбранных компонентов, а "
+"также удалить [SimpleProductName] с вашего компьютера."
+
+#: en_US.ARM64.Debug.Control-2.idtx:25 en_US.ARM64.Release.Control-2.idtx:25
+#: en_US.Win32.Debug.Control-2.idtx:28 en_US.Win32.Release.Control-2.idtx:28
+#: en_US.x64.Debug.Control-2.idtx:25 en_US.x64.Release.Control-2.idtx:25
+msgid ""
+"[DlgTitleFont][SimpleProductName] Administrative Install Image Preparation"
+msgstr ""
+"[DlgTitleFont][SimpleProductName] подготовка образа административной "
+"установки"
+
+#: en_US.ARM64.Debug.Control-2.idtx:26 en_US.ARM64.Release.Control-2.idtx:26
+#: en_US.Win32.Debug.Control-2.idtx:29 en_US.Win32.Release.Control-2.idtx:29
+#: en_US.x64.Debug.Control-2.idtx:26 en_US.x64.Release.Control-2.idtx:26
+msgid ""
+"You are about to prepare installation image for [SimpleProductName], to "
+"allow easier group deployment."
+msgstr ""
+"Вы собираетесь подготовить картину установки для [SimpleProductName], чтобы "
+"облегчить размещение группы."
+
+#: en_US.ARM64.Debug.Control-2.idtx:27 en_US.ARM64.Release.Control-2.idtx:27
+#: en_US.Win32.Debug.Control-2.idtx:30 en_US.Win32.Release.Control-2.idtx:30
+#: en_US.x64.Debug.Control-2.idtx:27 en_US.x64.Release.Control-2.idtx:27
+msgid "&Enter desired folder or click \"Browse\":"
+msgstr "Ввести желаемую папку или нажать на кнопку \"Обзор\":"
+
+#: en_US.ARM64.Debug.Control-2.idtx:29 en_US.ARM64.Debug.Control-2.idtx:40
+#: en_US.ARM64.Release.Control-2.idtx:29 en_US.ARM64.Release.Control-2.idtx:40
+#: en_US.Win32.Debug.Control-2.idtx:32 en_US.Win32.Debug.Control-2.idtx:43
+#: en_US.Win32.Release.Control-2.idtx:32 en_US.Win32.Release.Control-2.idtx:43
+#: en_US.x64.Debug.Control-2.idtx:29 en_US.x64.Debug.Control-2.idtx:40
+#: en_US.x64.Release.Control-2.idtx:29 en_US.x64.Release.Control-2.idtx:40
+msgid "Br&owse"
+msgstr "Обзор"
+
+#: en_US.ARM64.Debug.Control-2.idtx:30 en_US.ARM64.Release.Control-2.idtx:30
+#: en_US.Win32.Debug.Control-2.idtx:33 en_US.Win32.Release.Control-2.idtx:33
+#: en_US.x64.Debug.Control-2.idtx:30 en_US.x64.Release.Control-2.idtx:30
+msgid "[DlgStrongFont]&Prepare Now"
+msgstr "[DlgStrongFont]Подготовить сейчас"
+
+#: en_US.ARM64.Debug.Control-2.idtx:32 en_US.ARM64.Release.Control-2.idtx:32
+#: en_US.Win32.Debug.Control-2.idtx:35 en_US.Win32.Release.Control-2.idtx:35
+#: en_US.x64.Debug.Control-2.idtx:32 en_US.x64.Release.Control-2.idtx:32
+msgid "[DlgTitleFont][TitleCustomize] "
+msgstr "[DlgTitleFont][TitleCustomize] "
+
+#: en_US.ARM64.Debug.Control-2.idtx:33 en_US.ARM64.Release.Control-2.idtx:33
+#: en_US.Win32.Debug.Control-2.idtx:36 en_US.Win32.Release.Control-2.idtx:36
+#: en_US.x64.Debug.Control-2.idtx:33 en_US.x64.Release.Control-2.idtx:33
+msgid ""
+"Click on the icons in the tree below to change the features to be installed:"
+msgstr ""
+"Для изменения набора компонентов для установки щелкните соответствующий "
+"значок в расположенном ниже дереве:"
+
+#: en_US.ARM64.Debug.Control-2.idtx:34 en_US.ARM64.Release.Control-2.idtx:34
+#: en_US.Win32.Debug.Control-2.idtx:37 en_US.Win32.Release.Control-2.idtx:37
+#: en_US.x64.Debug.Control-2.idtx:34 en_US.x64.Release.Control-2.idtx:34
+msgid "Tree of selections"
+msgstr "Дерево выбора"
+
+#: en_US.ARM64.Debug.Control-2.idtx:36 en_US.ARM64.Release.Control-2.idtx:36
+#: en_US.Win32.Debug.Control-2.idtx:39 en_US.Win32.Release.Control-2.idtx:39
+#: en_US.x64.Debug.Control-2.idtx:36 en_US.x64.Release.Control-2.idtx:36
+msgid "Multiline description of the currently selected item."
+msgstr "Подробное описание выбранного компонента."
+
+#: en_US.ARM64.Debug.Control-2.idtx:37 en_US.ARM64.Release.Control-2.idtx:37
+#: en_US.Win32.Debug.Control-2.idtx:40 en_US.Win32.Release.Control-2.idtx:40
+#: en_US.x64.Debug.Control-2.idtx:37 en_US.x64.Release.Control-2.idtx:37
+msgid "The size of the currently selected item."
+msgstr "Размер выбранного компонента."
+
+#: en_US.ARM64.Debug.Control-2.idtx:38 en_US.ARM64.Release.Control-2.idtx:38
+#: en_US.Win32.Debug.Control-2.idtx:41 en_US.Win32.Release.Control-2.idtx:41
+#: en_US.x64.Debug.Control-2.idtx:38 en_US.x64.Release.Control-2.idtx:38
+msgid "Folder:"
+msgstr "Папка:"
+
+#: en_US.ARM64.Debug.Control-2.idtx:41 en_US.ARM64.Release.Control-2.idtx:41
+#: en_US.Win32.Debug.Control-2.idtx:44 en_US.Win32.Release.Control-2.idtx:44
+#: en_US.x64.Debug.Control-2.idtx:41 en_US.x64.Release.Control-2.idtx:41
+msgid "&Reset"
+msgstr "Сбросить"
+
+#: en_US.ARM64.Debug.Control-2.idtx:41 en_US.ARM64.Release.Control-2.idtx:41
+#: en_US.Win32.Debug.Control-2.idtx:44 en_US.Win32.Release.Control-2.idtx:44
+#: en_US.x64.Debug.Control-2.idtx:41 en_US.x64.Release.Control-2.idtx:41
+msgid "Resets feature selection to initial state.|"
+msgstr "Возвращает выбор компонентов в исходное состояние.|"
+
+#: en_US.ARM64.Debug.Control-2.idtx:42 en_US.ARM64.Release.Control-2.idtx:42
+#: en_US.Win32.Debug.Control-2.idtx:45 en_US.Win32.Release.Control-2.idtx:45
+#: en_US.x64.Debug.Control-2.idtx:42 en_US.x64.Release.Control-2.idtx:42
+msgid "Disk &Usage"
+msgstr "Использование диска"
+
+#: en_US.ARM64.Debug.Control-2.idtx:42 en_US.ARM64.Release.Control-2.idtx:42
+#: en_US.Win32.Debug.Control-2.idtx:45 en_US.Win32.Release.Control-2.idtx:45
+#: en_US.x64.Debug.Control-2.idtx:42 en_US.x64.Release.Control-2.idtx:42
+msgid ""
+"Shows space requirement by volumes, according to current feature selection.|"
+msgstr ""
+"Показывает дисковое пространство по томам согласно c выбором компонентов.|"
+
+#: en_US.ARM64.Debug.Control-2.idtx:43 en_US.ARM64.Release.Control-2.idtx:43
+#: en_US.Win32.Debug.Control-2.idtx:46 en_US.Win32.Release.Control-2.idtx:46
+#: en_US.x64.Debug.Control-2.idtx:43 en_US.x64.Release.Control-2.idtx:43
+msgid "[ButtonTextInstall] "
+msgstr "[ButtonTextInstall] "
+
+#: en_US.ARM64.Debug.Control-2.idtx:45 en_US.ARM64.Release.Control-2.idtx:45
+#: en_US.Win32.Debug.Control-2.idtx:48 en_US.Win32.Release.Control-2.idtx:48
+#: en_US.x64.Debug.Control-2.idtx:45 en_US.x64.Release.Control-2.idtx:45
+msgid "[DlgTitleFont]Change current destination folder."
+msgstr "[DlgTitleFont]Изменить текущаю папку назначения."
+
+#: en_US.ARM64.Debug.Control-2.idtx:46 en_US.ARM64.Debug.Control-2.idtx:57
+#: en_US.ARM64.Release.Control-2.idtx:46 en_US.ARM64.Release.Control-2.idtx:57
+#: en_US.Win32.Debug.Control-2.idtx:49 en_US.Win32.Debug.Control-2.idtx:60
+#: en_US.Win32.Release.Control-2.idtx:49 en_US.Win32.Release.Control-2.idtx:60
+#: en_US.x64.Debug.Control-2.idtx:46 en_US.x64.Debug.Control-2.idtx:57
+#: en_US.x64.Release.Control-2.idtx:46 en_US.x64.Release.Control-2.idtx:57
+msgid "&Look in:"
+msgstr "Смотреть в:"
+
+#: en_US.ARM64.Debug.Control-2.idtx:48 en_US.ARM64.Debug.Control-2.idtx:59
+#: en_US.ARM64.Release.Control-2.idtx:48 en_US.ARM64.Release.Control-2.idtx:59
+#: en_US.Win32.Debug.Control-2.idtx:51 en_US.Win32.Debug.Control-2.idtx:62
+#: en_US.Win32.Release.Control-2.idtx:51 en_US.Win32.Release.Control-2.idtx:62
+#: en_US.x64.Debug.Control-2.idtx:48 en_US.x64.Debug.Control-2.idtx:59
+#: en_US.x64.Release.Control-2.idtx:48 en_US.x64.Release.Control-2.idtx:59
+msgid "binUIFolderUp.ico"
+msgstr "binUIFolderUp.ico"
+
+#: en_US.ARM64.Debug.Control-2.idtx:48 en_US.ARM64.Debug.Control-2.idtx:59
+#: en_US.ARM64.Release.Control-2.idtx:48 en_US.ARM64.Release.Control-2.idtx:59
+#: en_US.Win32.Debug.Control-2.idtx:51 en_US.Win32.Debug.Control-2.idtx:62
+#: en_US.Win32.Release.Control-2.idtx:51 en_US.Win32.Release.Control-2.idtx:62
+#: en_US.x64.Debug.Control-2.idtx:48 en_US.x64.Debug.Control-2.idtx:59
+#: en_US.x64.Release.Control-2.idtx:48 en_US.x64.Release.Control-2.idtx:59
+msgid "Up One Level|"
+msgstr "На один уровень вверх|"
+
+#: en_US.ARM64.Debug.Control-2.idtx:49 en_US.ARM64.Debug.Control-2.idtx:60
+#: en_US.ARM64.Release.Control-2.idtx:49 en_US.ARM64.Release.Control-2.idtx:60
+#: en_US.Win32.Debug.Control-2.idtx:52 en_US.Win32.Debug.Control-2.idtx:63
+#: en_US.Win32.Release.Control-2.idtx:52 en_US.Win32.Release.Control-2.idtx:63
+#: en_US.x64.Debug.Control-2.idtx:49 en_US.x64.Debug.Control-2.idtx:60
+#: en_US.x64.Release.Control-2.idtx:49 en_US.x64.Release.Control-2.idtx:60
+msgid "binUIFolderNew.ico"
+msgstr "binUIFolderNew.ico"
+
+#: en_US.ARM64.Debug.Control-2.idtx:49 en_US.ARM64.Debug.Control-2.idtx:60
+#: en_US.ARM64.Release.Control-2.idtx:49 en_US.ARM64.Release.Control-2.idtx:60
+#: en_US.Win32.Debug.Control-2.idtx:52 en_US.Win32.Debug.Control-2.idtx:63
+#: en_US.Win32.Release.Control-2.idtx:52 en_US.Win32.Release.Control-2.idtx:63
+#: en_US.x64.Debug.Control-2.idtx:49 en_US.x64.Debug.Control-2.idtx:60
+#: en_US.x64.Release.Control-2.idtx:49 en_US.x64.Release.Control-2.idtx:60
+msgid "Create A New Folder|"
+msgstr "Создать новую папку|"
+
+#: en_US.ARM64.Debug.Control-2.idtx:51 en_US.ARM64.Debug.Control-2.idtx:62
+#: en_US.ARM64.Release.Control-2.idtx:51 en_US.ARM64.Release.Control-2.idtx:62
+#: en_US.Win32.Debug.Control-2.idtx:54 en_US.Win32.Debug.Control-2.idtx:65
+#: en_US.Win32.Release.Control-2.idtx:54 en_US.Win32.Release.Control-2.idtx:65
+#: en_US.x64.Debug.Control-2.idtx:51 en_US.x64.Debug.Control-2.idtx:62
+#: en_US.x64.Release.Control-2.idtx:51 en_US.x64.Release.Control-2.idtx:62
+msgid "&Folder:"
+msgstr "Папка:"
+
+#: en_US.ARM64.Debug.Control-2.idtx:53 en_US.ARM64.Debug.Control-2.idtx:64
+#: en_US.ARM64.Debug.Control-2.idtx:93 en_US.ARM64.Release.Control-2.idtx:53
+#: en_US.ARM64.Release.Control-2.idtx:64 en_US.ARM64.Release.Control-2.idtx:93
+#: en_US.Win32.Debug.Control-2.idtx:56 en_US.Win32.Debug.Control-2.idtx:67
+#: en_US.Win32.Debug.Control-2.idtx:96 en_US.Win32.Release.Control-2.idtx:56
+#: en_US.Win32.Release.Control-2.idtx:67 en_US.Win32.Release.Control-2.idtx:96
+#: en_US.x64.Debug.Control-2.idtx:53 en_US.x64.Debug.Control-2.idtx:64
+#: en_US.x64.Debug.Control-2.idtx:93 en_US.x64.Release.Control-2.idtx:53
+#: en_US.x64.Release.Control-2.idtx:64 en_US.x64.Release.Control-2.idtx:93
+msgid "OK"
+msgstr "ОК"
+
+#: en_US.ARM64.Debug.Control-2.idtx:54 en_US.ARM64.Debug.Control-2.idtx:65
+#: en_US.ARM64.Debug.Control-2.idtx:94 en_US.ARM64.Debug.Control-2.idtx:97
+#: en_US.ARM64.Debug.Control-2.idtx:106 en_US.ARM64.Release.Control-2.idtx:54
+#: en_US.ARM64.Release.Control-2.idtx:65 en_US.ARM64.Release.Control-2.idtx:94
+#: en_US.ARM64.Release.Control-2.idtx:97
+#: en_US.ARM64.Release.Control-2.idtx:106 en_US.Win32.Debug.Control-2.idtx:57
+#: en_US.Win32.Debug.Control-2.idtx:68 en_US.Win32.Debug.Control-2.idtx:97
+#: en_US.Win32.Debug.Control-2.idtx:100 en_US.Win32.Debug.Control-2.idtx:109
+#: en_US.Win32.Release.Control-2.idtx:57 en_US.Win32.Release.Control-2.idtx:68
+#: en_US.Win32.Release.Control-2.idtx:97
+#: en_US.Win32.Release.Control-2.idtx:100
+#: en_US.Win32.Release.Control-2.idtx:109 en_US.x64.Debug.Control-2.idtx:54
+#: en_US.x64.Debug.Control-2.idtx:65 en_US.x64.Debug.Control-2.idtx:94
+#: en_US.x64.Debug.Control-2.idtx:97 en_US.x64.Debug.Control-2.idtx:106
+#: en_US.x64.Release.Control-2.idtx:54 en_US.x64.Release.Control-2.idtx:65
+#: en_US.x64.Release.Control-2.idtx:94 en_US.x64.Release.Control-2.idtx:97
+#: en_US.x64.Release.Control-2.idtx:106
+msgid "Cancel"
+msgstr "Отмена"
+
+#: en_US.ARM64.Debug.Control-2.idtx:56 en_US.ARM64.Release.Control-2.idtx:56
+#: en_US.Win32.Debug.Control-2.idtx:59 en_US.Win32.Release.Control-2.idtx:59
+#: en_US.x64.Debug.Control-2.idtx:56 en_US.x64.Release.Control-2.idtx:56
+msgid "[DlgTitleFont]Change current administrative installation folder."
+msgstr "[DlgTitleFont]Изменить текущаю папку административной установки."
+
+#: en_US.ARM64.Debug.Control-2.idtx:67 en_US.ARM64.Release.Control-2.idtx:67
+#: en_US.Win32.Debug.Control-2.idtx:70 en_US.Win32.Release.Control-2.idtx:70
+#: en_US.x64.Debug.Control-2.idtx:67 en_US.x64.Release.Control-2.idtx:67
+msgid "[DlgTitleFont]Disk Space Requirements"
+msgstr "[DlgTitleFont]Вычисление необходимого свободного места"
+
+#: en_US.ARM64.Debug.Control-2.idtx:68 en_US.ARM64.Debug.Control-2.idtx:73
+#: en_US.ARM64.Debug.Control-2.idtx:78 en_US.ARM64.Release.Control-2.idtx:68
+#: en_US.ARM64.Release.Control-2.idtx:73 en_US.ARM64.Release.Control-2.idtx:78
+#: en_US.Win32.Debug.Control-2.idtx:71 en_US.Win32.Debug.Control-2.idtx:76
+#: en_US.Win32.Debug.Control-2.idtx:81 en_US.Win32.Release.Control-2.idtx:71
+#: en_US.Win32.Release.Control-2.idtx:76 en_US.Win32.Release.Control-2.idtx:81
+#: en_US.x64.Debug.Control-2.idtx:68 en_US.x64.Debug.Control-2.idtx:73
+#: en_US.x64.Debug.Control-2.idtx:78 en_US.x64.Release.Control-2.idtx:68
+#: en_US.x64.Release.Control-2.idtx:73 en_US.x64.Release.Control-2.idtx:78
+msgid "{60}{60}{60}{60}{60}"
+msgstr "{60}{60}{60}{60}{60}"
+
+#: en_US.ARM64.Debug.Control-2.idtx:69 en_US.ARM64.Debug.Control-2.idtx:74
+#: en_US.ARM64.Debug.Control-2.idtx:109 en_US.ARM64.Debug.Control-2.idtx:114
+#: en_US.ARM64.Debug.Control-2.idtx:119 en_US.ARM64.Release.Control-2.idtx:69
+#: en_US.ARM64.Release.Control-2.idtx:74
+#: en_US.ARM64.Release.Control-2.idtx:109
+#: en_US.ARM64.Release.Control-2.idtx:114
+#: en_US.ARM64.Release.Control-2.idtx:119 en_US.Win32.Debug.Control-2.idtx:72
+#: en_US.Win32.Debug.Control-2.idtx:77 en_US.Win32.Debug.Control-2.idtx:112
+#: en_US.Win32.Debug.Control-2.idtx:117 en_US.Win32.Debug.Control-2.idtx:122
+#: en_US.Win32.Release.Control-2.idtx:72 en_US.Win32.Release.Control-2.idtx:77
+#: en_US.Win32.Release.Control-2.idtx:112
+#: en_US.Win32.Release.Control-2.idtx:117
+#: en_US.Win32.Release.Control-2.idtx:122 en_US.x64.Debug.Control-2.idtx:69
+#: en_US.x64.Debug.Control-2.idtx:74 en_US.x64.Debug.Control-2.idtx:109
+#: en_US.x64.Debug.Control-2.idtx:114 en_US.x64.Debug.Control-2.idtx:119
+#: en_US.x64.Release.Control-2.idtx:69 en_US.x64.Release.Control-2.idtx:74
+#: en_US.x64.Release.Control-2.idtx:109 en_US.x64.Release.Control-2.idtx:114
+#: en_US.x64.Release.Control-2.idtx:119
+msgid "&Close"
+msgstr "Закрыть"
+
+#: en_US.ARM64.Debug.Control-2.idtx:71 en_US.ARM64.Debug.Control-2.idtx:76
+#: en_US.ARM64.Release.Control-2.idtx:71 en_US.ARM64.Release.Control-2.idtx:76
+#: en_US.Win32.Debug.Control-2.idtx:74 en_US.Win32.Debug.Control-2.idtx:79
+#: en_US.Win32.Release.Control-2.idtx:74 en_US.Win32.Release.Control-2.idtx:79
+#: en_US.x64.Debug.Control-2.idtx:71 en_US.x64.Debug.Control-2.idtx:76
+#: en_US.x64.Release.Control-2.idtx:71 en_US.x64.Release.Control-2.idtx:76
+msgid "[DlgTitleFont]Out of Disk Space"
+msgstr "[DlgTitleFont]Недостаточно места на диске"
+
+#: en_US.ARM64.Debug.Control-2.idtx:72 en_US.ARM64.Debug.Control-2.idtx:77
+#: en_US.ARM64.Release.Control-2.idtx:72 en_US.ARM64.Release.Control-2.idtx:77
+#: en_US.Win32.Debug.Control-2.idtx:75 en_US.Win32.Debug.Control-2.idtx:80
+#: en_US.Win32.Release.Control-2.idtx:75 en_US.Win32.Release.Control-2.idtx:80
+#: en_US.x64.Debug.Control-2.idtx:72 en_US.x64.Debug.Control-2.idtx:77
+#: en_US.x64.Release.Control-2.idtx:72 en_US.x64.Release.Control-2.idtx:77
+msgid ""
+"The highlighted volumes (if any) do not have enough disk space available for"
+" the currently selected features. You can either remove some files from the "
+"highlighted volumes, or choose to install less features onto local drive(s),"
+" or select different destination drive(s)."
+msgstr ""
+"Hа указанных томах недостаточно места для выбранных компонентов. Вы можете "
+"освободить место на указанных томах, установить меньше компонентов или "
+"выбрать другой целевой диск."
+
+#: en_US.ARM64.Debug.Control-2.idtx:79 en_US.ARM64.Release.Control-2.idtx:79
+#: en_US.Win32.Debug.Control-2.idtx:82 en_US.Win32.Release.Control-2.idtx:82
+#: en_US.x64.Debug.Control-2.idtx:79 en_US.x64.Release.Control-2.idtx:79
+msgid ""
+"Alternatively, you may choose to disable the installer's rollback "
+"functionality. This allows the installer to restore your computer's original"
+" state should the installation be interrupted in any way. Click Yes if you "
+"wish to take the risk to disable rollback."
+msgstr ""
+"Можно также отключить функцию отката установщика. Отключение отката не "
+"позволит установщику восстановить исходное состояние компьютера при любом "
+"прерывании установки. Если вы готовы принять риск отключения отката, нажмите"
+" кнопку «Да»."
+
+#: en_US.ARM64.Debug.Control-2.idtx:80 en_US.ARM64.Debug.Control-2.idtx:89
+#: en_US.ARM64.Debug.Control-2.idtx:95 en_US.ARM64.Release.Control-2.idtx:80
+#: en_US.ARM64.Release.Control-2.idtx:89 en_US.ARM64.Release.Control-2.idtx:95
+#: en_US.Win32.Debug.Control-2.idtx:83 en_US.Win32.Debug.Control-2.idtx:92
+#: en_US.Win32.Debug.Control-2.idtx:98 en_US.Win32.Release.Control-2.idtx:83
+#: en_US.Win32.Release.Control-2.idtx:92 en_US.Win32.Release.Control-2.idtx:98
+#: en_US.x64.Debug.Control-2.idtx:80 en_US.x64.Debug.Control-2.idtx:89
+#: en_US.x64.Debug.Control-2.idtx:95 en_US.x64.Release.Control-2.idtx:80
+#: en_US.x64.Release.Control-2.idtx:89 en_US.x64.Release.Control-2.idtx:95
+msgid "&Yes"
+msgstr "Да"
+
+#: en_US.ARM64.Debug.Control-2.idtx:81 en_US.ARM64.Debug.Control-2.idtx:90
+#: en_US.ARM64.Debug.Control-2.idtx:96 en_US.ARM64.Release.Control-2.idtx:81
+#: en_US.ARM64.Release.Control-2.idtx:90 en_US.ARM64.Release.Control-2.idtx:96
+#: en_US.Win32.Debug.Control-2.idtx:84 en_US.Win32.Debug.Control-2.idtx:93
+#: en_US.Win32.Debug.Control-2.idtx:99 en_US.Win32.Release.Control-2.idtx:84
+#: en_US.Win32.Release.Control-2.idtx:93 en_US.Win32.Release.Control-2.idtx:99
+#: en_US.x64.Debug.Control-2.idtx:81 en_US.x64.Debug.Control-2.idtx:90
+#: en_US.x64.Debug.Control-2.idtx:96 en_US.x64.Release.Control-2.idtx:81
+#: en_US.x64.Release.Control-2.idtx:90 en_US.x64.Release.Control-2.idtx:96
+msgid "&No"
+msgstr "Нет"
+
+#: en_US.ARM64.Debug.Control-2.idtx:83 en_US.ARM64.Release.Control-2.idtx:83
+#: en_US.Win32.Debug.Control-2.idtx:86 en_US.Win32.Release.Control-2.idtx:86
+#: en_US.x64.Debug.Control-2.idtx:83 en_US.x64.Release.Control-2.idtx:83
+msgid "[DlgTitleFont][Progress1] [SimpleProductName]..."
+msgstr "[DlgTitleFont][Progress1] [SimpleProductName]..."
+
+#: en_US.ARM64.Debug.Control-2.idtx:86 en_US.ARM64.Release.Control-2.idtx:86
+#: en_US.Win32.Debug.Control-2.idtx:89 en_US.Win32.Release.Control-2.idtx:89
+#: en_US.x64.Debug.Control-2.idtx:86 en_US.x64.Release.Control-2.idtx:86
+msgid "[WaitMessage] "
+msgstr "[WaitMessage] "
+
+#: en_US.ARM64.Debug.Control-2.idtx:87 en_US.ARM64.Debug.Control-2.idtx:91
+#: en_US.ARM64.Release.Control-2.idtx:87 en_US.ARM64.Release.Control-2.idtx:91
+#: en_US.Win32.Debug.Control-2.idtx:90 en_US.Win32.Debug.Control-2.idtx:94
+#: en_US.Win32.Release.Control-2.idtx:90 en_US.Win32.Release.Control-2.idtx:94
+#: en_US.x64.Debug.Control-2.idtx:87 en_US.x64.Debug.Control-2.idtx:91
+#: en_US.x64.Release.Control-2.idtx:87 en_US.x64.Release.Control-2.idtx:91
+msgid "binUIInfo.ico"
+msgstr "binUIInfo.ico"
+
+#: en_US.ARM64.Debug.Control-2.idtx:87 en_US.ARM64.Debug.Control-2.idtx:91
+#: en_US.ARM64.Release.Control-2.idtx:87 en_US.ARM64.Release.Control-2.idtx:91
+#: en_US.Win32.Debug.Control-2.idtx:90 en_US.Win32.Debug.Control-2.idtx:94
+#: en_US.Win32.Release.Control-2.idtx:90 en_US.Win32.Release.Control-2.idtx:94
+#: en_US.x64.Debug.Control-2.idtx:87 en_US.x64.Debug.Control-2.idtx:91
+#: en_US.x64.Release.Control-2.idtx:87 en_US.x64.Release.Control-2.idtx:91
+msgid "Information icon|"
+msgstr "Значок сведений|"
+
+#: en_US.ARM64.Debug.Control-2.idtx:88 en_US.ARM64.Release.Control-2.idtx:88
+#: en_US.Win32.Debug.Control-2.idtx:91 en_US.Win32.Release.Control-2.idtx:91
+#: en_US.x64.Debug.Control-2.idtx:88 en_US.x64.Release.Control-2.idtx:88
+msgid "Are you sure you want to cancel [SimpleProductName] installation?"
+msgstr ""
+"Вы действительно хотите отменить установку программы [SimpleProductName]?"
+
+#: en_US.ARM64.Debug.Control-2.idtx:92 en_US.ARM64.Release.Control-2.idtx:92
+#: en_US.Win32.Debug.Control-2.idtx:95 en_US.Win32.Release.Control-2.idtx:95
+#: en_US.x64.Debug.Control-2.idtx:92 en_US.x64.Release.Control-2.idtx:92
+msgid "Information text"
+msgstr "Информационный текст"
+
+#: en_US.ARM64.Debug.Control-2.idtx:98 en_US.ARM64.Debug.Control-2.idtx:104
+#: en_US.ARM64.Release.Control-2.idtx:98
+#: en_US.ARM64.Release.Control-2.idtx:104 en_US.Win32.Debug.Control-2.idtx:101
+#: en_US.Win32.Debug.Control-2.idtx:107 en_US.Win32.Release.Control-2.idtx:101
+#: en_US.Win32.Release.Control-2.idtx:107 en_US.x64.Debug.Control-2.idtx:98
+#: en_US.x64.Debug.Control-2.idtx:104 en_US.x64.Release.Control-2.idtx:98
+#: en_US.x64.Release.Control-2.idtx:104
+msgid "&Retry"
+msgstr "Повторить"
+
+#: en_US.ARM64.Debug.Control-2.idtx:99 en_US.ARM64.Debug.Control-2.idtx:105
+#: en_US.ARM64.Release.Control-2.idtx:99
+#: en_US.ARM64.Release.Control-2.idtx:105 en_US.Win32.Debug.Control-2.idtx:102
+#: en_US.Win32.Debug.Control-2.idtx:108 en_US.Win32.Release.Control-2.idtx:102
+#: en_US.Win32.Release.Control-2.idtx:108 en_US.x64.Debug.Control-2.idtx:99
+#: en_US.x64.Debug.Control-2.idtx:105 en_US.x64.Release.Control-2.idtx:99
+#: en_US.x64.Release.Control-2.idtx:105
+msgid "&Ignore"
+msgstr "Пропустить"
+
+#: en_US.ARM64.Debug.Control-2.idtx:101 en_US.ARM64.Release.Control-2.idtx:101
+#: en_US.Win32.Debug.Control-2.idtx:104 en_US.Win32.Release.Control-2.idtx:104
+#: en_US.x64.Debug.Control-2.idtx:101 en_US.x64.Release.Control-2.idtx:101
+msgid "[DlgTitleFont]Files in Use"
+msgstr "[DlgTitleFont]Файлы исползовается."
+
+#: en_US.ARM64.Debug.Control-2.idtx:102 en_US.ARM64.Release.Control-2.idtx:102
+#: en_US.Win32.Debug.Control-2.idtx:105 en_US.Win32.Release.Control-2.idtx:105
+#: en_US.x64.Debug.Control-2.idtx:102 en_US.x64.Release.Control-2.idtx:102
+msgid ""
+"The following applications are using files that need to be updated by this "
+"setup. Close these applications and then click Retry to continue the "
+"installation or Cancel to exit it."
+msgstr ""
+"Следующие приложения используют файлы, которые должны быть обновлены этой "
+"программой установки. Закройте эти приложения и нажмите кнопку «Повторить», "
+"чтобы продолжить установку, или нажмите кнопку «Отмена», чтобы прекратить "
+"установку."
+
+#: en_US.ARM64.Debug.Control-2.idtx:108 en_US.ARM64.Release.Control-2.idtx:108
+#: en_US.Win32.Debug.Control-2.idtx:111 en_US.Win32.Release.Control-2.idtx:111
+#: en_US.x64.Debug.Control-2.idtx:108 en_US.x64.Release.Control-2.idtx:108
+msgid "[DlgTitleFont][SimpleProductName] [Progress1] Completed"
+msgstr "[DlgTitleFont][SimpleProductName] [Progress1] завершено"
+
+#: en_US.ARM64.Debug.Control-2.idtx:111 en_US.ARM64.Release.Control-2.idtx:111
+#: en_US.Win32.Debug.Control-2.idtx:114 en_US.Win32.Release.Control-2.idtx:114
+#: en_US.x64.Debug.Control-2.idtx:111 en_US.x64.Release.Control-2.idtx:111
+msgid "[DlgTitleFont][SimpleProductName] [Progress2] Interrupted"
+msgstr "[DlgTitleFont][SimpleProductName] [Progress2] прервано"
+
+#: en_US.ARM64.Debug.Control-2.idtx:112 en_US.ARM64.Release.Control-2.idtx:112
+#: en_US.Win32.Debug.Control-2.idtx:115 en_US.Win32.Release.Control-2.idtx:115
+#: en_US.x64.Debug.Control-2.idtx:112 en_US.x64.Release.Control-2.idtx:112
+msgid ""
+"[SimpleProductName] setup was interrupted on your request. Therefore, the "
+"program was not installed. Your system has not been modified."
+msgstr ""
+"Вы решили прервать установку программы [SimpleProductName]. Поэтому "
+"программа не была установлена. Ваша система не изменилась."
+
+#: en_US.ARM64.Debug.Control-2.idtx:113 en_US.ARM64.Release.Control-2.idtx:113
+#: en_US.Win32.Debug.Control-2.idtx:116 en_US.Win32.Release.Control-2.idtx:116
+#: en_US.x64.Debug.Control-2.idtx:113 en_US.x64.Release.Control-2.idtx:113
+msgid ""
+"If you interrupted the installation by accident, please run the installation"
+" again."
+msgstr "Если вы случайно прервали установку, повторите ее."
+
+#: en_US.ARM64.Debug.Control-2.idtx:116 en_US.ARM64.Release.Control-2.idtx:116
+#: en_US.Win32.Debug.Control-2.idtx:119 en_US.Win32.Release.Control-2.idtx:119
+#: en_US.x64.Debug.Control-2.idtx:116 en_US.x64.Release.Control-2.idtx:116
+msgid "[DlgTitleFont][SimpleProductName] [Progress2] Ended Prematurely"
+msgstr ""
+"[DlgTitleFont][SimpleProductName] [Progress2] завершено преждевременно"
+
+#: en_US.ARM64.Debug.Control-2.idtx:117 en_US.ARM64.Release.Control-2.idtx:117
+#: en_US.Win32.Debug.Control-2.idtx:120 en_US.Win32.Release.Control-2.idtx:120
+#: en_US.x64.Debug.Control-2.idtx:117 en_US.x64.Release.Control-2.idtx:117
+msgid ""
+"[SimpleProductName] setup ended prematurely because of an error. Therefore, "
+"the program was not installed. Your system has not been modified."
+msgstr ""
+"Установка программы [SimpleProductName] завершена преждевременно из-за "
+"ошибки. Поэтому программа не была установлена. Ваша система не изменилась."
+
+#: en_US.ARM64.Debug.Control-2.idtx:118 en_US.ARM64.Release.Control-2.idtx:118
+#: en_US.Win32.Debug.Control-2.idtx:121 en_US.Win32.Release.Control-2.idtx:121
+#: en_US.x64.Debug.Control-2.idtx:118 en_US.x64.Release.Control-2.idtx:118
+msgid ""
+"Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
+msgstr ""
+"Пожалуйста, попробуйте еще раз, или обратитесь к [Manufacturer] (телефон "
+"[ARPHELPTELEPHONE])."
+
+#: en_US.ARM64.Debug.ControlEvent-2.idtx:4
+#: en_US.ARM64.Debug.ControlEvent-2.idtx:5
+#: en_US.ARM64.Release.ControlEvent-2.idtx:4
+#: en_US.ARM64.Release.ControlEvent-2.idtx:5
+#: en_US.Win32.Debug.ControlEvent-2.idtx:4
+#: en_US.Win32.Debug.ControlEvent-2.idtx:5
+#: en_US.Win32.Release.ControlEvent-2.idtx:4
+#: en_US.Win32.Release.ControlEvent-2.idtx:5
+#: en_US.x64.Debug.ControlEvent-2.idtx:4 en_US.x64.Debug.ControlEvent-2.idtx:5
+#: en_US.x64.Release.ControlEvent-2.idtx:4
+#: en_US.x64.Release.ControlEvent-2.idtx:5
+msgid "Determining required space for installation..."
+msgstr "Вычисляется необходимый объем места для установки..."
+
+#: en_US.ARM64.Debug.ControlEvent-2.idtx:6
+#: en_US.ARM64.Release.ControlEvent-2.idtx:6
+#: en_US.Win32.Debug.ControlEvent-2.idtx:6
+#: en_US.Win32.Release.ControlEvent-2.idtx:6
+#: en_US.x64.Debug.ControlEvent-2.idtx:6
+#: en_US.x64.Release.ControlEvent-2.idtx:6
+msgid "&Modify now"
+msgstr "Изменить сейчас"
+
+#: en_US.ARM64.Debug.ControlEvent-2.idtx:7
+#: en_US.ARM64.Release.ControlEvent-2.idtx:7
+#: en_US.Win32.Debug.ControlEvent-2.idtx:7
+#: en_US.Win32.Release.ControlEvent-2.idtx:7
+#: en_US.x64.Debug.ControlEvent-2.idtx:7
+#: en_US.x64.Release.ControlEvent-2.idtx:7
+msgid "Installed Features Selection"
+msgstr "Выбор установленных компонентов"
+
+#: en_US.ARM64.Debug.ControlEvent-2.idtx:8
+#: en_US.ARM64.Release.ControlEvent-2.idtx:8
+#: en_US.Win32.Debug.ControlEvent-2.idtx:8
+#: en_US.Win32.Release.ControlEvent-2.idtx:8
+#: en_US.x64.Debug.ControlEvent-2.idtx:8
+#: en_US.x64.Release.ControlEvent-2.idtx:8
+msgid "Modifying"
+msgstr "Изменяет"
+
+#: en_US.ARM64.Debug.ControlEvent-2.idtx:9
+#: en_US.ARM64.Release.ControlEvent-2.idtx:9
+#: en_US.Win32.Debug.ControlEvent-2.idtx:9
+#: en_US.Win32.Release.ControlEvent-2.idtx:9
+#: en_US.x64.Debug.ControlEvent-2.idtx:9
+#: en_US.x64.Release.ControlEvent-2.idtx:9
+msgid "Modification"
+msgstr "Изменение"
+
+#: en_US.ARM64.Debug.ControlEvent-2.idtx:10
+#: en_US.ARM64.Release.ControlEvent-2.idtx:10
+#: en_US.Win32.Debug.ControlEvent-2.idtx:10
+#: en_US.Win32.Release.ControlEvent-2.idtx:10
+#: en_US.x64.Debug.ControlEvent-2.idtx:10
+#: en_US.x64.Release.ControlEvent-2.idtx:10
+msgid "Repairing"
+msgstr "Восстанавливает"
+
+#: en_US.ARM64.Debug.ControlEvent-2.idtx:11
+#: en_US.ARM64.Release.ControlEvent-2.idtx:11
+#: en_US.Win32.Debug.ControlEvent-2.idtx:11
+#: en_US.Win32.Release.ControlEvent-2.idtx:11
+#: en_US.x64.Debug.ControlEvent-2.idtx:11
+#: en_US.x64.Release.ControlEvent-2.idtx:11
+msgid "Repair"
+msgstr "Восстановление"
+
+#: en_US.ARM64.Debug.ControlEvent-2.idtx:12
+#: en_US.ARM64.Release.ControlEvent-2.idtx:12
+#: en_US.Win32.Debug.ControlEvent-2.idtx:12
+#: en_US.Win32.Release.ControlEvent-2.idtx:12
+#: en_US.x64.Debug.ControlEvent-2.idtx:12
+#: en_US.x64.Release.ControlEvent-2.idtx:12
+msgid "Removing"
+msgstr "Удаляет"
+
+#: en_US.ARM64.Debug.ControlEvent-2.idtx:13
+#: en_US.ARM64.Release.ControlEvent-2.idtx:13
+#: en_US.Win32.Debug.ControlEvent-2.idtx:13
+#: en_US.Win32.Release.ControlEvent-2.idtx:13
+#: en_US.x64.Debug.ControlEvent-2.idtx:13
+#: en_US.x64.Release.ControlEvent-2.idtx:13
+msgid "Removal"
+msgstr "Удаление"
+
+#: en_US.ARM64.Debug.Dialog-2.idtx:4 en_US.ARM64.Release.Dialog-2.idtx:4
+#: en_US.Win32.Debug.Dialog-2.idtx:4 en_US.Win32.Release.Dialog-2.idtx:4
+#: en_US.x64.Debug.Dialog-2.idtx:4 en_US.x64.Release.Dialog-2.idtx:4
+msgid "Installer Information"
+msgstr "Сведения установщика"
+
+#: en_US.ARM64.Debug.Property-2.idtx:4 en_US.ARM64.Release.Property-2.idtx:4
+#: en_US.Win32.Debug.Property-2.idtx:4 en_US.Win32.Release.Property-2.idtx:4
+#: en_US.x64.Debug.Property-2.idtx:4 en_US.x64.Release.Property-2.idtx:4
+msgid "Installing"
+msgstr "Устанавливает"
+
+#: en_US.ARM64.Debug.Property-2.idtx:5 en_US.ARM64.Debug.Property-2.idtx:6
+#: en_US.ARM64.Release.Property-2.idtx:5 en_US.ARM64.Release.Property-2.idtx:6
+#: en_US.Win32.Debug.Property-2.idtx:5 en_US.Win32.Debug.Property-2.idtx:6
+#: en_US.Win32.Release.Property-2.idtx:5 en_US.Win32.Release.Property-2.idtx:6
+#: en_US.x64.Debug.Property-2.idtx:5 en_US.x64.Debug.Property-2.idtx:6
+#: en_US.x64.Release.Property-2.idtx:5 en_US.x64.Release.Property-2.idtx:6
+msgid "Setup"
+msgstr "Установка"
+
+#: en_US.ARM64.Debug.Property-2.idtx:7 en_US.ARM64.Release.Property-2.idtx:7
+#: en_US.Win32.Debug.Property-2.idtx:7 en_US.Win32.Release.Property-2.idtx:7
+#: en_US.x64.Debug.Property-2.idtx:7 en_US.x64.Release.Property-2.idtx:7
+msgid "Setup Wizard"
+msgstr "Мастер установки"
+
+#: en_US.ARM64.Debug.Property-2.idtx:8 en_US.ARM64.Release.Property-2.idtx:8
+#: en_US.Win32.Debug.Property-2.idtx:8 en_US.Win32.Release.Property-2.idtx:8
+#: en_US.x64.Debug.Property-2.idtx:8 en_US.x64.Release.Property-2.idtx:8
+msgid "Custom Installation"
+msgstr "Выборочная установка"
+
+#: en_US.ARM64.Debug.Property-2.idtx:9 en_US.ARM64.Release.Property-2.idtx:9
+#: en_US.Win32.Debug.Property-2.idtx:9 en_US.Win32.Release.Property-2.idtx:9
+#: en_US.x64.Debug.Property-2.idtx:9 en_US.x64.Release.Property-2.idtx:9
+msgid "&Install Now"
+msgstr "Установить сейчас"
+
+#: en_US.ARM64.Debug.RadioButton-2.idtx:4
+#: en_US.ARM64.Release.RadioButton-2.idtx:4
+#: en_US.Win32.Debug.RadioButton-2.idtx:4
+#: en_US.Win32.Release.RadioButton-2.idtx:4
+#: en_US.x64.Debug.RadioButton-2.idtx:4 en_US.x64.Release.RadioButton-2.idtx:4
+msgid "&Modify"
+msgstr "Изменить"
+
+#: en_US.ARM64.Debug.RadioButton-2.idtx:4
+#: en_US.ARM64.Release.RadioButton-2.idtx:4
+#: en_US.Win32.Debug.RadioButton-2.idtx:4
+#: en_US.Win32.Release.RadioButton-2.idtx:4
+#: en_US.x64.Debug.RadioButton-2.idtx:4 en_US.x64.Release.RadioButton-2.idtx:4
+msgid "Allows you to change the which features are installed.|"
+msgstr "Позволяет изменить выбор компонентов для установки.|"
+
+#: en_US.ARM64.Debug.RadioButton-2.idtx:5
+#: en_US.ARM64.Release.RadioButton-2.idtx:5
+#: en_US.Win32.Debug.RadioButton-2.idtx:5
+#: en_US.Win32.Release.RadioButton-2.idtx:5
+#: en_US.x64.Debug.RadioButton-2.idtx:5 en_US.x64.Release.RadioButton-2.idtx:5
+msgid "&Repair"
+msgstr "Восстановить"
+
+#: en_US.ARM64.Debug.RadioButton-2.idtx:5
+#: en_US.ARM64.Release.RadioButton-2.idtx:5
+#: en_US.Win32.Debug.RadioButton-2.idtx:5
+#: en_US.Win32.Release.RadioButton-2.idtx:5
+#: en_US.x64.Debug.RadioButton-2.idtx:5 en_US.x64.Release.RadioButton-2.idtx:5
+msgid ""
+"Repairs errors in the most recent installation state - fixes missing or "
+"corrupt files, shortcuts and registry entries.|"
+msgstr ""
+"Устранение ошибок последней установки путем добавления недостающих и "
+"исправления поврежденных файлов, ярлыков и записей реестра.|"
+
+#: en_US.ARM64.Debug.RadioButton-2.idtx:6
+#: en_US.ARM64.Release.RadioButton-2.idtx:6
+#: en_US.Win32.Debug.RadioButton-2.idtx:6
+#: en_US.Win32.Release.RadioButton-2.idtx:6
+#: en_US.x64.Debug.RadioButton-2.idtx:6 en_US.x64.Release.RadioButton-2.idtx:6
+msgid "&Remove"
+msgstr "Удалить"
+
+#: en_US.ARM64.Debug.RadioButton-2.idtx:6
+#: en_US.ARM64.Release.RadioButton-2.idtx:6
+#: en_US.Win32.Debug.RadioButton-2.idtx:6
+#: en_US.Win32.Release.RadioButton-2.idtx:6
+#: en_US.x64.Debug.RadioButton-2.idtx:6 en_US.x64.Release.RadioButton-2.idtx:6
+msgid "Removes the program from your computer.|"
+msgstr "Удалит программу с вашего компьютера.|"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:5 en_US.ARM64.Release.UIText-2.idtx:5
+#: en_US.Win32.Debug.UIText-2.idtx:5 en_US.Win32.Release.UIText-2.idtx:5
+#: en_US.x64.Debug.UIText-2.idtx:5 en_US.x64.Release.UIText-2.idtx:5
+msgid "bytes"
+msgstr "B"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:6 en_US.ARM64.Release.UIText-2.idtx:6
+#: en_US.Win32.Debug.UIText-2.idtx:6 en_US.Win32.Release.UIText-2.idtx:6
+#: en_US.x64.Debug.UIText-2.idtx:6 en_US.x64.Release.UIText-2.idtx:6
+msgid "GB"
+msgstr "GB"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:7 en_US.ARM64.Release.UIText-2.idtx:7
+#: en_US.Win32.Debug.UIText-2.idtx:7 en_US.Win32.Release.UIText-2.idtx:7
+#: en_US.x64.Debug.UIText-2.idtx:7 en_US.x64.Release.UIText-2.idtx:7
+msgid "KB"
+msgstr "KB"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:8 en_US.ARM64.Release.UIText-2.idtx:8
+#: en_US.Win32.Debug.UIText-2.idtx:8 en_US.Win32.Release.UIText-2.idtx:8
+#: en_US.x64.Debug.UIText-2.idtx:8 en_US.x64.Release.UIText-2.idtx:8
+msgid "MB"
+msgstr "MB"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:9 en_US.ARM64.Release.UIText-2.idtx:9
+#: en_US.Win32.Debug.UIText-2.idtx:9 en_US.Win32.Release.UIText-2.idtx:9
+#: en_US.x64.Debug.UIText-2.idtx:9 en_US.x64.Release.UIText-2.idtx:9
+msgid "Entire feature will be unavailable"
+msgstr "Весь компонент будет полностью недоступен"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:10 en_US.ARM64.Release.UIText-2.idtx:10
+#: en_US.Win32.Debug.UIText-2.idtx:10 en_US.Win32.Release.UIText-2.idtx:10
+#: en_US.x64.Debug.UIText-2.idtx:10 en_US.x64.Release.UIText-2.idtx:10
+msgid "Feature will be installed when required"
+msgstr "Компонент будет установлен при необходимости"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:11 en_US.ARM64.Release.UIText-2.idtx:11
+#: en_US.Win32.Debug.UIText-2.idtx:11 en_US.Win32.Release.UIText-2.idtx:11
+#: en_US.x64.Debug.UIText-2.idtx:11 en_US.x64.Release.UIText-2.idtx:11
+msgid "Entire feature will be installed to run from CD"
+msgstr "Весь компонент будет установлен для выполнения с компакт-диска"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:12 en_US.ARM64.Release.UIText-2.idtx:12
+#: en_US.Win32.Debug.UIText-2.idtx:12 en_US.Win32.Release.UIText-2.idtx:12
+#: en_US.x64.Debug.UIText-2.idtx:12 en_US.x64.Release.UIText-2.idtx:12
+msgid "Entire feature will be installed on local hard drive"
+msgstr "Весь компонент будет установлен на локальном жестком диске"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:13 en_US.ARM64.Release.UIText-2.idtx:13
+#: en_US.Win32.Debug.UIText-2.idtx:13 en_US.Win32.Release.UIText-2.idtx:13
+#: en_US.x64.Debug.UIText-2.idtx:13 en_US.x64.Release.UIText-2.idtx:13
+msgid "Entire feature will be installed to run from network"
+msgstr "Весь компонент будет установлен для выполнения через сеть"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:14 en_US.ARM64.Release.UIText-2.idtx:14
+#: en_US.Win32.Debug.UIText-2.idtx:14 en_US.Win32.Release.UIText-2.idtx:14
+#: en_US.x64.Debug.UIText-2.idtx:14 en_US.x64.Release.UIText-2.idtx:14
+msgid "Will be installed to run from CD"
+msgstr "Будет установлен для выполнения с компакт-диска"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:15 en_US.ARM64.Release.UIText-2.idtx:15
+#: en_US.Win32.Debug.UIText-2.idtx:15 en_US.Win32.Release.UIText-2.idtx:15
+#: en_US.x64.Debug.UIText-2.idtx:15 en_US.x64.Release.UIText-2.idtx:15
+msgid "Will be installed on local hard drive"
+msgstr "Будет установлен на локальном жестком диске"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:16 en_US.ARM64.Release.UIText-2.idtx:16
+#: en_US.Win32.Debug.UIText-2.idtx:16 en_US.Win32.Release.UIText-2.idtx:16
+#: en_US.x64.Debug.UIText-2.idtx:16 en_US.x64.Release.UIText-2.idtx:16
+msgid "Will be installed to run from network"
+msgstr "Будет установлен для выполнения через сеть"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:17 en_US.ARM64.Release.UIText-2.idtx:17
+#: en_US.Win32.Debug.UIText-2.idtx:17 en_US.Win32.Release.UIText-2.idtx:17
+#: en_US.x64.Debug.UIText-2.idtx:17 en_US.x64.Release.UIText-2.idtx:17
+msgid "Folder|New Folder"
+msgstr "Папка|Новая Папка"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:18 en_US.ARM64.Release.UIText-2.idtx:18
+#: en_US.Win32.Debug.UIText-2.idtx:18 en_US.Win32.Release.UIText-2.idtx:18
+#: en_US.x64.Debug.UIText-2.idtx:18 en_US.x64.Release.UIText-2.idtx:18
+msgid "Gathering required information..."
+msgstr "Сбор сведений..."
+
+#: en_US.ARM64.Debug.UIText-2.idtx:19 en_US.ARM64.Release.UIText-2.idtx:19
+#: en_US.Win32.Debug.UIText-2.idtx:19 en_US.Win32.Release.UIText-2.idtx:19
+#: en_US.x64.Debug.UIText-2.idtx:19 en_US.x64.Release.UIText-2.idtx:19
+msgid "This feature will remain uninstalled"
+msgstr "Этот компонент не будет установлен"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:20 en_US.ARM64.Debug.UIText-2.idtx:30
+#: en_US.ARM64.Debug.UIText-2.idtx:42 en_US.ARM64.Release.UIText-2.idtx:20
+#: en_US.ARM64.Release.UIText-2.idtx:30 en_US.ARM64.Release.UIText-2.idtx:42
+#: en_US.Win32.Debug.UIText-2.idtx:20 en_US.Win32.Debug.UIText-2.idtx:30
+#: en_US.Win32.Debug.UIText-2.idtx:42 en_US.Win32.Release.UIText-2.idtx:20
+#: en_US.Win32.Release.UIText-2.idtx:30 en_US.Win32.Release.UIText-2.idtx:42
+#: en_US.x64.Debug.UIText-2.idtx:20 en_US.x64.Debug.UIText-2.idtx:30
+#: en_US.x64.Debug.UIText-2.idtx:42 en_US.x64.Release.UIText-2.idtx:20
+#: en_US.x64.Release.UIText-2.idtx:30 en_US.x64.Release.UIText-2.idtx:42
+msgid "This feature will be set to be installed when required"
+msgstr "Этот компонент будет настроен для установки при необходимости"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:21 en_US.ARM64.Debug.UIText-2.idtx:26
+#: en_US.ARM64.Release.UIText-2.idtx:21 en_US.ARM64.Release.UIText-2.idtx:26
+#: en_US.Win32.Debug.UIText-2.idtx:21 en_US.Win32.Debug.UIText-2.idtx:26
+#: en_US.Win32.Release.UIText-2.idtx:21 en_US.Win32.Release.UIText-2.idtx:26
+#: en_US.x64.Debug.UIText-2.idtx:21 en_US.x64.Debug.UIText-2.idtx:26
+#: en_US.x64.Release.UIText-2.idtx:21 en_US.x64.Release.UIText-2.idtx:26
+msgid "This feature will be installed to run from CD"
+msgstr "Этот компонент будет установлен для выполнения с компакт-диска"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:22 en_US.ARM64.Debug.UIText-2.idtx:27
+#: en_US.ARM64.Debug.UIText-2.idtx:32 en_US.ARM64.Debug.UIText-2.idtx:43
+#: en_US.ARM64.Release.UIText-2.idtx:22 en_US.ARM64.Release.UIText-2.idtx:27
+#: en_US.ARM64.Release.UIText-2.idtx:32 en_US.ARM64.Release.UIText-2.idtx:43
+#: en_US.Win32.Debug.UIText-2.idtx:22 en_US.Win32.Debug.UIText-2.idtx:27
+#: en_US.Win32.Debug.UIText-2.idtx:32 en_US.Win32.Debug.UIText-2.idtx:43
+#: en_US.Win32.Release.UIText-2.idtx:22 en_US.Win32.Release.UIText-2.idtx:27
+#: en_US.Win32.Release.UIText-2.idtx:32 en_US.Win32.Release.UIText-2.idtx:43
+#: en_US.x64.Debug.UIText-2.idtx:22 en_US.x64.Debug.UIText-2.idtx:27
+#: en_US.x64.Debug.UIText-2.idtx:32 en_US.x64.Debug.UIText-2.idtx:43
+#: en_US.x64.Release.UIText-2.idtx:22 en_US.x64.Release.UIText-2.idtx:27
+#: en_US.x64.Release.UIText-2.idtx:32 en_US.x64.Release.UIText-2.idtx:43
+msgid "This feature will be installed on the local hard drive"
+msgstr "Этот компонент будет установлен на локальном жестком диске"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:23 en_US.ARM64.Debug.UIText-2.idtx:28
+#: en_US.ARM64.Release.UIText-2.idtx:23 en_US.ARM64.Release.UIText-2.idtx:28
+#: en_US.Win32.Debug.UIText-2.idtx:23 en_US.Win32.Debug.UIText-2.idtx:28
+#: en_US.Win32.Release.UIText-2.idtx:23 en_US.Win32.Release.UIText-2.idtx:28
+#: en_US.x64.Debug.UIText-2.idtx:23 en_US.x64.Debug.UIText-2.idtx:28
+#: en_US.x64.Release.UIText-2.idtx:23 en_US.x64.Release.UIText-2.idtx:28
+msgid "This feature will be installed to run from the network"
+msgstr "Этот компонент будет установлен для выполнения через сеть"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:24 en_US.ARM64.Debug.UIText-2.idtx:36
+#: en_US.ARM64.Release.UIText-2.idtx:24 en_US.ARM64.Release.UIText-2.idtx:36
+#: en_US.Win32.Debug.UIText-2.idtx:24 en_US.Win32.Debug.UIText-2.idtx:36
+#: en_US.Win32.Release.UIText-2.idtx:24 en_US.Win32.Release.UIText-2.idtx:36
+#: en_US.x64.Debug.UIText-2.idtx:24 en_US.x64.Debug.UIText-2.idtx:36
+#: en_US.x64.Release.UIText-2.idtx:24 en_US.x64.Release.UIText-2.idtx:36
+msgid "This feature will become unavailable"
+msgstr "Этот компонент будет полностью недоступен"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:25 en_US.ARM64.Release.UIText-2.idtx:25
+#: en_US.Win32.Debug.UIText-2.idtx:25 en_US.Win32.Release.UIText-2.idtx:25
+#: en_US.x64.Debug.UIText-2.idtx:25 en_US.x64.Release.UIText-2.idtx:25
+msgid "Will be installed when required"
+msgstr "Будет установлен при необходимости"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:29 en_US.ARM64.Release.UIText-2.idtx:29
+#: en_US.Win32.Debug.UIText-2.idtx:29 en_US.Win32.Release.UIText-2.idtx:29
+#: en_US.x64.Debug.UIText-2.idtx:29 en_US.x64.Release.UIText-2.idtx:29
+msgid ""
+"This feature will be uninstalled completely, you won't be able to run it "
+"from CD"
+msgstr ""
+"Этот компонент будет полностью удален, и его выполнение с компакт-диска "
+"станет невозможно"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:31 en_US.ARM64.Release.UIText-2.idtx:31
+#: en_US.Win32.Debug.UIText-2.idtx:31 en_US.Win32.Release.UIText-2.idtx:31
+#: en_US.x64.Debug.UIText-2.idtx:31 en_US.x64.Release.UIText-2.idtx:31
+msgid "This feature will remain to be run from CD"
+msgstr "Этот компонент будет оставлен для выполнения с компакт-диска"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:33 en_US.ARM64.Release.UIText-2.idtx:33
+#: en_US.Win32.Debug.UIText-2.idtx:33 en_US.Win32.Release.UIText-2.idtx:33
+#: en_US.x64.Debug.UIText-2.idtx:33 en_US.x64.Release.UIText-2.idtx:33
+msgid "This feature frees up [1] on your hard drive."
+msgstr "Этот компонент высвободит [1] на жестком диске."
+
+#: en_US.ARM64.Debug.UIText-2.idtx:34 en_US.ARM64.Release.UIText-2.idtx:34
+#: en_US.Win32.Debug.UIText-2.idtx:34 en_US.Win32.Release.UIText-2.idtx:34
+#: en_US.x64.Debug.UIText-2.idtx:34 en_US.x64.Release.UIText-2.idtx:34
+msgid "This feature requires [1] on your hard drive."
+msgstr "Для установки этого компонента необходимо [1] на жестком диске."
+
+#: en_US.ARM64.Debug.UIText-2.idtx:35 en_US.ARM64.Release.UIText-2.idtx:35
+#: en_US.Win32.Debug.UIText-2.idtx:35 en_US.Win32.Release.UIText-2.idtx:35
+#: en_US.x64.Debug.UIText-2.idtx:35 en_US.x64.Release.UIText-2.idtx:35
+msgid "Compiling cost for this feature..."
+msgstr "Вычисление необходимого объема для этого компонента..."
+
+#: en_US.ARM64.Debug.UIText-2.idtx:37 en_US.ARM64.Release.UIText-2.idtx:37
+#: en_US.Win32.Debug.UIText-2.idtx:37 en_US.Win32.Release.UIText-2.idtx:37
+#: en_US.x64.Debug.UIText-2.idtx:37 en_US.x64.Release.UIText-2.idtx:37
+msgid ""
+"This feature will be removed from your local hard drive, but will be set to "
+"be installed when required"
+msgstr ""
+"Этот компонент будет удален с локального жесткого диска, но его можно будет "
+"установить при необходимости"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:38 en_US.ARM64.Release.UIText-2.idtx:38
+#: en_US.Win32.Debug.UIText-2.idtx:38 en_US.Win32.Release.UIText-2.idtx:38
+#: en_US.x64.Debug.UIText-2.idtx:38 en_US.x64.Release.UIText-2.idtx:38
+msgid ""
+"This feature will be removed from your local hard drive, but will be still "
+"available to run from CD"
+msgstr ""
+"Этот компонент будет удален с локального жесткого диска, но будет доступен "
+"для выполнения с компакт-диска"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:39 en_US.ARM64.Release.UIText-2.idtx:39
+#: en_US.Win32.Debug.UIText-2.idtx:39 en_US.Win32.Release.UIText-2.idtx:39
+#: en_US.x64.Debug.UIText-2.idtx:39 en_US.x64.Release.UIText-2.idtx:39
+msgid "This feature will remain on you local hard drive"
+msgstr "Этот компонент по-прежнему останется на локальном жестком диске"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:40 en_US.ARM64.Release.UIText-2.idtx:40
+#: en_US.Win32.Debug.UIText-2.idtx:40 en_US.Win32.Release.UIText-2.idtx:40
+#: en_US.x64.Debug.UIText-2.idtx:40 en_US.x64.Release.UIText-2.idtx:40
+msgid ""
+"This feature will be removed from your local hard drive, but will be still "
+"available to run from the network"
+msgstr ""
+"Этот компонент будет удален с локального жесткого диска, но будет доступен "
+"для выполнения через сеть"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:41 en_US.ARM64.Release.UIText-2.idtx:41
+#: en_US.Win32.Debug.UIText-2.idtx:41 en_US.Win32.Release.UIText-2.idtx:41
+#: en_US.x64.Debug.UIText-2.idtx:41 en_US.x64.Release.UIText-2.idtx:41
+msgid ""
+"This feature will be uninstalled completely, you won't be able to run it "
+"from the network"
+msgstr ""
+"Этот компонент будет полностью удален, и его выполнение через сеть станет "
+"невозможно."
+
+#: en_US.ARM64.Debug.UIText-2.idtx:44 en_US.ARM64.Release.UIText-2.idtx:44
+#: en_US.Win32.Debug.UIText-2.idtx:44 en_US.Win32.Release.UIText-2.idtx:44
+#: en_US.x64.Debug.UIText-2.idtx:44 en_US.x64.Release.UIText-2.idtx:44
+msgid "This feature will remain to be run from the network"
+msgstr "Этот компонент будет оставлен для выполнения через сеть"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:45 en_US.ARM64.Debug.UIText-2.idtx:46
+#: en_US.ARM64.Debug.UIText-2.idtx:47 en_US.ARM64.Debug.UIText-2.idtx:48
+#: en_US.ARM64.Release.UIText-2.idtx:45 en_US.ARM64.Release.UIText-2.idtx:46
+#: en_US.ARM64.Release.UIText-2.idtx:47 en_US.ARM64.Release.UIText-2.idtx:48
+#: en_US.Win32.Debug.UIText-2.idtx:45 en_US.Win32.Debug.UIText-2.idtx:46
+#: en_US.Win32.Debug.UIText-2.idtx:47 en_US.Win32.Debug.UIText-2.idtx:48
+#: en_US.Win32.Release.UIText-2.idtx:45 en_US.Win32.Release.UIText-2.idtx:46
+#: en_US.Win32.Release.UIText-2.idtx:47 en_US.Win32.Release.UIText-2.idtx:48
+#: en_US.x64.Debug.UIText-2.idtx:45 en_US.x64.Debug.UIText-2.idtx:46
+#: en_US.x64.Debug.UIText-2.idtx:47 en_US.x64.Debug.UIText-2.idtx:48
+#: en_US.x64.Release.UIText-2.idtx:45 en_US.x64.Release.UIText-2.idtx:46
+#: en_US.x64.Release.UIText-2.idtx:47 en_US.x64.Release.UIText-2.idtx:48
+msgid ""
+"This feature requires [1] on your hard drive. It has [2] of [3] subfeatures "
+"selected. The subfeatures require [4] on your hard drive."
+msgstr ""
+"Этот компонент высвободит [1] на жестком диске. Выбрано [2] из [3] вложенных"
+" компонентов. Вложенные компоненты высвободят [4] на жестком диске."
+
+#: en_US.ARM64.Debug.UIText-2.idtx:49 en_US.ARM64.Release.UIText-2.idtx:49
+#: en_US.Win32.Debug.UIText-2.idtx:49 en_US.Win32.Release.UIText-2.idtx:49
+#: en_US.x64.Debug.UIText-2.idtx:49 en_US.x64.Release.UIText-2.idtx:49
+msgid "Time remaining: {[1] minutes }{[2] seconds}"
+msgstr "Оставшееся время: {[1] мин }{[2] сек}"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:50 en_US.ARM64.Release.UIText-2.idtx:50
+#: en_US.Win32.Debug.UIText-2.idtx:50 en_US.Win32.Release.UIText-2.idtx:50
+#: en_US.x64.Debug.UIText-2.idtx:50 en_US.x64.Release.UIText-2.idtx:50
+msgid "Available"
+msgstr "Доступно"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:51 en_US.ARM64.Release.UIText-2.idtx:51
+#: en_US.Win32.Debug.UIText-2.idtx:51 en_US.Win32.Release.UIText-2.idtx:51
+#: en_US.x64.Debug.UIText-2.idtx:51 en_US.x64.Release.UIText-2.idtx:51
+msgid "Difference"
+msgstr "Разница"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:52 en_US.ARM64.Release.UIText-2.idtx:52
+#: en_US.Win32.Debug.UIText-2.idtx:52 en_US.Win32.Release.UIText-2.idtx:52
+#: en_US.x64.Debug.UIText-2.idtx:52 en_US.x64.Release.UIText-2.idtx:52
+msgid "Required"
+msgstr "Требуется"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:53 en_US.ARM64.Release.UIText-2.idtx:53
+#: en_US.Win32.Debug.UIText-2.idtx:53 en_US.Win32.Release.UIText-2.idtx:53
+#: en_US.x64.Debug.UIText-2.idtx:53 en_US.x64.Release.UIText-2.idtx:53
+msgid "Disk Size"
+msgstr "Размер диска"
+
+#: en_US.ARM64.Debug.UIText-2.idtx:54 en_US.ARM64.Release.UIText-2.idtx:54
+#: en_US.Win32.Debug.UIText-2.idtx:54 en_US.Win32.Release.UIText-2.idtx:54
+#: en_US.x64.Debug.UIText-2.idtx:54 en_US.x64.Release.UIText-2.idtx:54
+msgid "Volume"
+msgstr "Том"
 
 #: en_US.Win32.Debug.Control-2.idtx:16 en_US.Win32.Release.Control-2.idtx:16
 msgid "binUIWarning.ico"
@@ -144,769 +1117,3 @@ msgstr ""
 "32-битный вариант программы в вашей операционной системе должен работать, но"
 " доступен также 64-битный вариант, более соответствующий вашей операционной "
 "системе. Рекомендуется установить 64-битный вариант."
-
-#: en_US.Win32.Debug.Control-2.idtx:20 en_US.Win32.Release.Control-2.idtx:20
-#: en_US.x64.Debug.Control-2.idtx:17 en_US.x64.Release.Control-2.idtx:17
-msgid "[DlgTitleFont]Click \"Next\" to resume [SimpleProductName] installation."
-msgstr ""
-"[DlgTitleFont]Нажат \"Далее\" для продолжения установки [SimpleProductName]."
-
-#: en_US.Win32.Debug.Control-2.idtx:23 en_US.Win32.Release.Control-2.idtx:23
-#: en_US.x64.Debug.Control-2.idtx:20 en_US.x64.Release.Control-2.idtx:20
-msgid "[DlgTitleFont][SimpleProductName] Maintenance"
-msgstr "[DlgTitleFont][SimpleProductName] обслуживание"
-
-#: en_US.Win32.Debug.Control-2.idtx:24 en_US.Win32.Release.Control-2.idtx:24
-#: en_US.x64.Debug.Control-2.idtx:21 en_US.x64.Release.Control-2.idtx:21
-msgid ""
-"Maintenance allows you to change the way features are installed on your "
-"computer or even to remove [SimpleProductName] from your computer."
-msgstr ""
-"Oбслуживание позволяет изменить способ установки выбранных компонентов, а "
-"также удалить [SimpleProductName] с вашего компьютера."
-
-#: en_US.Win32.Debug.Control-2.idtx:28 en_US.Win32.Release.Control-2.idtx:28
-#: en_US.x64.Debug.Control-2.idtx:25 en_US.x64.Release.Control-2.idtx:25
-msgid ""
-"[DlgTitleFont][SimpleProductName] Administrative Install Image Preparation"
-msgstr ""
-"[DlgTitleFont][SimpleProductName] подготовка образа административной "
-"установки"
-
-#: en_US.Win32.Debug.Control-2.idtx:29 en_US.Win32.Release.Control-2.idtx:29
-#: en_US.x64.Debug.Control-2.idtx:26 en_US.x64.Release.Control-2.idtx:26
-msgid ""
-"You are about to prepare installation image for [SimpleProductName], to "
-"allow easier group deployment."
-msgstr ""
-"Вы собираетесь подготовить картину установки для [SimpleProductName], чтобы "
-"облегчить размещение группы."
-
-#: en_US.Win32.Debug.Control-2.idtx:30 en_US.Win32.Release.Control-2.idtx:30
-#: en_US.x64.Debug.Control-2.idtx:27 en_US.x64.Release.Control-2.idtx:27
-msgid "&Enter desired folder or click \"Browse\":"
-msgstr "Ввести желаемую папку или нажать на кнопку \"Обзор\":"
-
-#: en_US.Win32.Debug.Control-2.idtx:32 en_US.Win32.Debug.Control-2.idtx:43
-#: en_US.Win32.Release.Control-2.idtx:32 en_US.Win32.Release.Control-2.idtx:43
-#: en_US.x64.Debug.Control-2.idtx:29 en_US.x64.Debug.Control-2.idtx:40
-#: en_US.x64.Release.Control-2.idtx:29 en_US.x64.Release.Control-2.idtx:40
-msgid "Br&owse"
-msgstr "Обзор"
-
-#: en_US.Win32.Debug.Control-2.idtx:33 en_US.Win32.Release.Control-2.idtx:33
-#: en_US.x64.Debug.Control-2.idtx:30 en_US.x64.Release.Control-2.idtx:30
-msgid "[DlgStrongFont]&Prepare Now"
-msgstr "[DlgStrongFont]Подготовить сейчас"
-
-#: en_US.Win32.Debug.Control-2.idtx:35 en_US.Win32.Release.Control-2.idtx:35
-#: en_US.x64.Debug.Control-2.idtx:32 en_US.x64.Release.Control-2.idtx:32
-msgid "[DlgTitleFont][TitleCustomize] "
-msgstr "[DlgTitleFont][TitleCustomize] "
-
-#: en_US.Win32.Debug.Control-2.idtx:36 en_US.Win32.Release.Control-2.idtx:36
-#: en_US.x64.Debug.Control-2.idtx:33 en_US.x64.Release.Control-2.idtx:33
-msgid ""
-"Click on the icons in the tree below to change the features to be installed:"
-msgstr ""
-"Для изменения набора компонентов для установки щелкните соответствующий "
-"значок в расположенном ниже дереве:"
-
-#: en_US.Win32.Debug.Control-2.idtx:37 en_US.Win32.Release.Control-2.idtx:37
-#: en_US.x64.Debug.Control-2.idtx:34 en_US.x64.Release.Control-2.idtx:34
-msgid "Tree of selections"
-msgstr "Дерево выбора"
-
-#: en_US.Win32.Debug.Control-2.idtx:39 en_US.Win32.Release.Control-2.idtx:39
-#: en_US.x64.Debug.Control-2.idtx:36 en_US.x64.Release.Control-2.idtx:36
-msgid "Multiline description of the currently selected item."
-msgstr "Подробное описание выбранного компонента."
-
-#: en_US.Win32.Debug.Control-2.idtx:40 en_US.Win32.Release.Control-2.idtx:40
-#: en_US.x64.Debug.Control-2.idtx:37 en_US.x64.Release.Control-2.idtx:37
-msgid "The size of the currently selected item."
-msgstr "Размер выбранного компонента."
-
-#: en_US.Win32.Debug.Control-2.idtx:41 en_US.Win32.Release.Control-2.idtx:41
-#: en_US.x64.Debug.Control-2.idtx:38 en_US.x64.Release.Control-2.idtx:38
-msgid "Folder:"
-msgstr "Папка:"
-
-#: en_US.Win32.Debug.Control-2.idtx:44 en_US.Win32.Release.Control-2.idtx:44
-#: en_US.x64.Debug.Control-2.idtx:41 en_US.x64.Release.Control-2.idtx:41
-msgid "&Reset"
-msgstr "Сбросить"
-
-#: en_US.Win32.Debug.Control-2.idtx:44 en_US.Win32.Release.Control-2.idtx:44
-#: en_US.x64.Debug.Control-2.idtx:41 en_US.x64.Release.Control-2.idtx:41
-msgid "Resets feature selection to initial state.|"
-msgstr "Возвращает выбор компонентов в исходное состояние.|"
-
-#: en_US.Win32.Debug.Control-2.idtx:45 en_US.Win32.Release.Control-2.idtx:45
-#: en_US.x64.Debug.Control-2.idtx:42 en_US.x64.Release.Control-2.idtx:42
-msgid "Disk &Usage"
-msgstr "Использование диска"
-
-#: en_US.Win32.Debug.Control-2.idtx:45 en_US.Win32.Release.Control-2.idtx:45
-#: en_US.x64.Debug.Control-2.idtx:42 en_US.x64.Release.Control-2.idtx:42
-msgid ""
-"Shows space requirement by volumes, according to current feature selection.|"
-msgstr ""
-"Показывает дисковое пространство по томам согласно c выбором компонентов.|"
-
-#: en_US.Win32.Debug.Control-2.idtx:46 en_US.Win32.Release.Control-2.idtx:46
-#: en_US.x64.Debug.Control-2.idtx:43 en_US.x64.Release.Control-2.idtx:43
-msgid "[ButtonTextInstall] "
-msgstr "[ButtonTextInstall] "
-
-#: en_US.Win32.Debug.Control-2.idtx:48 en_US.Win32.Release.Control-2.idtx:48
-#: en_US.x64.Debug.Control-2.idtx:45 en_US.x64.Release.Control-2.idtx:45
-msgid "[DlgTitleFont]Change current destination folder."
-msgstr "[DlgTitleFont]Изменить текущаю папку назначения."
-
-#: en_US.Win32.Debug.Control-2.idtx:49 en_US.Win32.Debug.Control-2.idtx:60
-#: en_US.Win32.Release.Control-2.idtx:49 en_US.Win32.Release.Control-2.idtx:60
-#: en_US.x64.Debug.Control-2.idtx:46 en_US.x64.Debug.Control-2.idtx:57
-#: en_US.x64.Release.Control-2.idtx:46 en_US.x64.Release.Control-2.idtx:57
-msgid "&Look in:"
-msgstr "Смотреть в:"
-
-#: en_US.Win32.Debug.Control-2.idtx:51 en_US.Win32.Debug.Control-2.idtx:62
-#: en_US.Win32.Release.Control-2.idtx:51 en_US.Win32.Release.Control-2.idtx:62
-#: en_US.x64.Debug.Control-2.idtx:48 en_US.x64.Debug.Control-2.idtx:59
-#: en_US.x64.Release.Control-2.idtx:48 en_US.x64.Release.Control-2.idtx:59
-msgid "binUIFolderUp.ico"
-msgstr "binUIFolderUp.ico"
-
-#: en_US.Win32.Debug.Control-2.idtx:51 en_US.Win32.Debug.Control-2.idtx:62
-#: en_US.Win32.Release.Control-2.idtx:51 en_US.Win32.Release.Control-2.idtx:62
-#: en_US.x64.Debug.Control-2.idtx:48 en_US.x64.Debug.Control-2.idtx:59
-#: en_US.x64.Release.Control-2.idtx:48 en_US.x64.Release.Control-2.idtx:59
-msgid "Up One Level|"
-msgstr "На один уровень вверх|"
-
-#: en_US.Win32.Debug.Control-2.idtx:52 en_US.Win32.Debug.Control-2.idtx:63
-#: en_US.Win32.Release.Control-2.idtx:52 en_US.Win32.Release.Control-2.idtx:63
-#: en_US.x64.Debug.Control-2.idtx:49 en_US.x64.Debug.Control-2.idtx:60
-#: en_US.x64.Release.Control-2.idtx:49 en_US.x64.Release.Control-2.idtx:60
-msgid "binUIFolderNew.ico"
-msgstr "binUIFolderNew.ico"
-
-#: en_US.Win32.Debug.Control-2.idtx:52 en_US.Win32.Debug.Control-2.idtx:63
-#: en_US.Win32.Release.Control-2.idtx:52 en_US.Win32.Release.Control-2.idtx:63
-#: en_US.x64.Debug.Control-2.idtx:49 en_US.x64.Debug.Control-2.idtx:60
-#: en_US.x64.Release.Control-2.idtx:49 en_US.x64.Release.Control-2.idtx:60
-msgid "Create A New Folder|"
-msgstr "Создать новую папку|"
-
-#: en_US.Win32.Debug.Control-2.idtx:54 en_US.Win32.Debug.Control-2.idtx:65
-#: en_US.Win32.Release.Control-2.idtx:54 en_US.Win32.Release.Control-2.idtx:65
-#: en_US.x64.Debug.Control-2.idtx:51 en_US.x64.Debug.Control-2.idtx:62
-#: en_US.x64.Release.Control-2.idtx:51 en_US.x64.Release.Control-2.idtx:62
-msgid "&Folder:"
-msgstr "Папка:"
-
-#: en_US.Win32.Debug.Control-2.idtx:56 en_US.Win32.Debug.Control-2.idtx:67
-#: en_US.Win32.Debug.Control-2.idtx:96 en_US.Win32.Release.Control-2.idtx:56
-#: en_US.Win32.Release.Control-2.idtx:67 en_US.Win32.Release.Control-2.idtx:96
-#: en_US.x64.Debug.Control-2.idtx:53 en_US.x64.Debug.Control-2.idtx:64
-#: en_US.x64.Debug.Control-2.idtx:93 en_US.x64.Release.Control-2.idtx:53
-#: en_US.x64.Release.Control-2.idtx:64 en_US.x64.Release.Control-2.idtx:93
-msgid "OK"
-msgstr "ОК"
-
-#: en_US.Win32.Debug.Control-2.idtx:57 en_US.Win32.Debug.Control-2.idtx:68
-#: en_US.Win32.Debug.Control-2.idtx:97 en_US.Win32.Debug.Control-2.idtx:100
-#: en_US.Win32.Debug.Control-2.idtx:109 en_US.Win32.Release.Control-2.idtx:57
-#: en_US.Win32.Release.Control-2.idtx:68 en_US.Win32.Release.Control-2.idtx:97
-#: en_US.Win32.Release.Control-2.idtx:100
-#: en_US.Win32.Release.Control-2.idtx:109 en_US.x64.Debug.Control-2.idtx:54
-#: en_US.x64.Debug.Control-2.idtx:65 en_US.x64.Debug.Control-2.idtx:94
-#: en_US.x64.Debug.Control-2.idtx:97 en_US.x64.Debug.Control-2.idtx:106
-#: en_US.x64.Release.Control-2.idtx:54 en_US.x64.Release.Control-2.idtx:65
-#: en_US.x64.Release.Control-2.idtx:94 en_US.x64.Release.Control-2.idtx:97
-#: en_US.x64.Release.Control-2.idtx:106
-msgid "Cancel"
-msgstr "Отмена"
-
-#: en_US.Win32.Debug.Control-2.idtx:59 en_US.Win32.Release.Control-2.idtx:59
-#: en_US.x64.Debug.Control-2.idtx:56 en_US.x64.Release.Control-2.idtx:56
-msgid "[DlgTitleFont]Change current administrative installation folder."
-msgstr "[DlgTitleFont]Изменить текущаю папку административной установки."
-
-#: en_US.Win32.Debug.Control-2.idtx:70 en_US.Win32.Release.Control-2.idtx:70
-#: en_US.x64.Debug.Control-2.idtx:67 en_US.x64.Release.Control-2.idtx:67
-msgid "[DlgTitleFont]Disk Space Requirements"
-msgstr "[DlgTitleFont]Вычисление необходимого свободного места"
-
-#: en_US.Win32.Debug.Control-2.idtx:71 en_US.Win32.Debug.Control-2.idtx:76
-#: en_US.Win32.Debug.Control-2.idtx:81 en_US.Win32.Release.Control-2.idtx:71
-#: en_US.Win32.Release.Control-2.idtx:76 en_US.Win32.Release.Control-2.idtx:81
-#: en_US.x64.Debug.Control-2.idtx:68 en_US.x64.Debug.Control-2.idtx:73
-#: en_US.x64.Debug.Control-2.idtx:78 en_US.x64.Release.Control-2.idtx:68
-#: en_US.x64.Release.Control-2.idtx:73 en_US.x64.Release.Control-2.idtx:78
-msgid "{60}{60}{60}{60}{60}"
-msgstr "{60}{60}{60}{60}{60}"
-
-#: en_US.Win32.Debug.Control-2.idtx:72 en_US.Win32.Debug.Control-2.idtx:77
-#: en_US.Win32.Debug.Control-2.idtx:112 en_US.Win32.Debug.Control-2.idtx:117
-#: en_US.Win32.Debug.Control-2.idtx:122 en_US.Win32.Release.Control-2.idtx:72
-#: en_US.Win32.Release.Control-2.idtx:77
-#: en_US.Win32.Release.Control-2.idtx:112
-#: en_US.Win32.Release.Control-2.idtx:117
-#: en_US.Win32.Release.Control-2.idtx:122 en_US.x64.Debug.Control-2.idtx:69
-#: en_US.x64.Debug.Control-2.idtx:74 en_US.x64.Debug.Control-2.idtx:109
-#: en_US.x64.Debug.Control-2.idtx:114 en_US.x64.Debug.Control-2.idtx:119
-#: en_US.x64.Release.Control-2.idtx:69 en_US.x64.Release.Control-2.idtx:74
-#: en_US.x64.Release.Control-2.idtx:109 en_US.x64.Release.Control-2.idtx:114
-#: en_US.x64.Release.Control-2.idtx:119
-msgid "&Close"
-msgstr "Закрыть"
-
-#: en_US.Win32.Debug.Control-2.idtx:74 en_US.Win32.Debug.Control-2.idtx:79
-#: en_US.Win32.Release.Control-2.idtx:74 en_US.Win32.Release.Control-2.idtx:79
-#: en_US.x64.Debug.Control-2.idtx:71 en_US.x64.Debug.Control-2.idtx:76
-#: en_US.x64.Release.Control-2.idtx:71 en_US.x64.Release.Control-2.idtx:76
-msgid "[DlgTitleFont]Out of Disk Space"
-msgstr "[DlgTitleFont]Недостаточно места на диске"
-
-#: en_US.Win32.Debug.Control-2.idtx:75 en_US.Win32.Debug.Control-2.idtx:80
-#: en_US.Win32.Release.Control-2.idtx:75 en_US.Win32.Release.Control-2.idtx:80
-#: en_US.x64.Debug.Control-2.idtx:72 en_US.x64.Debug.Control-2.idtx:77
-#: en_US.x64.Release.Control-2.idtx:72 en_US.x64.Release.Control-2.idtx:77
-msgid ""
-"The highlighted volumes (if any) do not have enough disk space available for"
-" the currently selected features. You can either remove some files from the "
-"highlighted volumes, or choose to install less features onto local drive(s),"
-" or select different destination drive(s)."
-msgstr ""
-"Hа указанных томах недостаточно места для выбранных компонентов. Вы можете "
-"освободить место на указанных томах, установить меньше компонентов или "
-"выбрать другой целевой диск."
-
-#: en_US.Win32.Debug.Control-2.idtx:82 en_US.Win32.Release.Control-2.idtx:82
-#: en_US.x64.Debug.Control-2.idtx:79 en_US.x64.Release.Control-2.idtx:79
-msgid ""
-"Alternatively, you may choose to disable the installer's rollback "
-"functionality. This allows the installer to restore your computer's original"
-" state should the installation be interrupted in any way. Click Yes if you "
-"wish to take the risk to disable rollback."
-msgstr ""
-"Можно также отключить функцию отката установщика. Отключение отката не "
-"позволит установщику восстановить исходное состояние компьютера при любом "
-"прерывании установки. Если вы готовы принять риск отключения отката, нажмите"
-" кнопку «Да»."
-
-#: en_US.Win32.Debug.Control-2.idtx:83 en_US.Win32.Debug.Control-2.idtx:92
-#: en_US.Win32.Debug.Control-2.idtx:98 en_US.Win32.Release.Control-2.idtx:83
-#: en_US.Win32.Release.Control-2.idtx:92 en_US.Win32.Release.Control-2.idtx:98
-#: en_US.x64.Debug.Control-2.idtx:80 en_US.x64.Debug.Control-2.idtx:89
-#: en_US.x64.Debug.Control-2.idtx:95 en_US.x64.Release.Control-2.idtx:80
-#: en_US.x64.Release.Control-2.idtx:89 en_US.x64.Release.Control-2.idtx:95
-msgid "&Yes"
-msgstr "Да"
-
-#: en_US.Win32.Debug.Control-2.idtx:84 en_US.Win32.Debug.Control-2.idtx:93
-#: en_US.Win32.Debug.Control-2.idtx:99 en_US.Win32.Release.Control-2.idtx:84
-#: en_US.Win32.Release.Control-2.idtx:93 en_US.Win32.Release.Control-2.idtx:99
-#: en_US.x64.Debug.Control-2.idtx:81 en_US.x64.Debug.Control-2.idtx:90
-#: en_US.x64.Debug.Control-2.idtx:96 en_US.x64.Release.Control-2.idtx:81
-#: en_US.x64.Release.Control-2.idtx:90 en_US.x64.Release.Control-2.idtx:96
-msgid "&No"
-msgstr "Нет"
-
-#: en_US.Win32.Debug.Control-2.idtx:86 en_US.Win32.Release.Control-2.idtx:86
-#: en_US.x64.Debug.Control-2.idtx:83 en_US.x64.Release.Control-2.idtx:83
-msgid "[DlgTitleFont][Progress1] [SimpleProductName]..."
-msgstr "[DlgTitleFont][Progress1] [SimpleProductName]..."
-
-#: en_US.Win32.Debug.Control-2.idtx:89 en_US.Win32.Release.Control-2.idtx:89
-#: en_US.x64.Debug.Control-2.idtx:86 en_US.x64.Release.Control-2.idtx:86
-msgid "[WaitMessage] "
-msgstr "[WaitMessage] "
-
-#: en_US.Win32.Debug.Control-2.idtx:90 en_US.Win32.Debug.Control-2.idtx:94
-#: en_US.Win32.Release.Control-2.idtx:90 en_US.Win32.Release.Control-2.idtx:94
-#: en_US.x64.Debug.Control-2.idtx:87 en_US.x64.Debug.Control-2.idtx:91
-#: en_US.x64.Release.Control-2.idtx:87 en_US.x64.Release.Control-2.idtx:91
-msgid "binUIInfo.ico"
-msgstr "binUIInfo.ico"
-
-#: en_US.Win32.Debug.Control-2.idtx:90 en_US.Win32.Debug.Control-2.idtx:94
-#: en_US.Win32.Release.Control-2.idtx:90 en_US.Win32.Release.Control-2.idtx:94
-#: en_US.x64.Debug.Control-2.idtx:87 en_US.x64.Debug.Control-2.idtx:91
-#: en_US.x64.Release.Control-2.idtx:87 en_US.x64.Release.Control-2.idtx:91
-msgid "Information icon|"
-msgstr "Значок сведений|"
-
-#: en_US.Win32.Debug.Control-2.idtx:91 en_US.Win32.Release.Control-2.idtx:91
-#: en_US.x64.Debug.Control-2.idtx:88 en_US.x64.Release.Control-2.idtx:88
-msgid "Are you sure you want to cancel [SimpleProductName] installation?"
-msgstr ""
-"Вы действительно хотите отменить установку программы [SimpleProductName]?"
-
-#: en_US.Win32.Debug.Control-2.idtx:95 en_US.Win32.Release.Control-2.idtx:95
-#: en_US.x64.Debug.Control-2.idtx:92 en_US.x64.Release.Control-2.idtx:92
-msgid "Information text"
-msgstr "Информационный текст"
-
-#: en_US.Win32.Debug.Control-2.idtx:101 en_US.Win32.Debug.Control-2.idtx:107
-#: en_US.Win32.Release.Control-2.idtx:101
-#: en_US.Win32.Release.Control-2.idtx:107 en_US.x64.Debug.Control-2.idtx:98
-#: en_US.x64.Debug.Control-2.idtx:104 en_US.x64.Release.Control-2.idtx:98
-#: en_US.x64.Release.Control-2.idtx:104
-msgid "&Retry"
-msgstr "Повторить"
-
-#: en_US.Win32.Debug.Control-2.idtx:102 en_US.Win32.Debug.Control-2.idtx:108
-#: en_US.Win32.Release.Control-2.idtx:102
-#: en_US.Win32.Release.Control-2.idtx:108 en_US.x64.Debug.Control-2.idtx:99
-#: en_US.x64.Debug.Control-2.idtx:105 en_US.x64.Release.Control-2.idtx:99
-#: en_US.x64.Release.Control-2.idtx:105
-msgid "&Ignore"
-msgstr "Пропустить"
-
-#: en_US.Win32.Debug.Control-2.idtx:104 en_US.Win32.Release.Control-2.idtx:104
-#: en_US.x64.Debug.Control-2.idtx:101 en_US.x64.Release.Control-2.idtx:101
-msgid "[DlgTitleFont]Files in Use"
-msgstr "[DlgTitleFont]Файлы исползовается."
-
-#: en_US.Win32.Debug.Control-2.idtx:105 en_US.Win32.Release.Control-2.idtx:105
-#: en_US.x64.Debug.Control-2.idtx:102 en_US.x64.Release.Control-2.idtx:102
-msgid ""
-"The following applications are using files that need to be updated by this "
-"setup. Close these applications and then click Retry to continue the "
-"installation or Cancel to exit it."
-msgstr ""
-"Следующие приложения используют файлы, которые должны быть обновлены этой "
-"программой установки. Закройте эти приложения и нажмите кнопку «Повторить», "
-"чтобы продолжить установку, или нажмите кнопку «Отмена», чтобы прекратить "
-"установку."
-
-#: en_US.Win32.Debug.Control-2.idtx:111 en_US.Win32.Release.Control-2.idtx:111
-#: en_US.x64.Debug.Control-2.idtx:108 en_US.x64.Release.Control-2.idtx:108
-msgid "[DlgTitleFont][SimpleProductName] [Progress1] Completed"
-msgstr "[DlgTitleFont][SimpleProductName] [Progress1] завершено"
-
-#: en_US.Win32.Debug.Control-2.idtx:114 en_US.Win32.Release.Control-2.idtx:114
-#: en_US.x64.Debug.Control-2.idtx:111 en_US.x64.Release.Control-2.idtx:111
-msgid "[DlgTitleFont][SimpleProductName] [Progress2] Interrupted"
-msgstr "[DlgTitleFont][SimpleProductName] [Progress2] прервано"
-
-#: en_US.Win32.Debug.Control-2.idtx:115 en_US.Win32.Release.Control-2.idtx:115
-#: en_US.x64.Debug.Control-2.idtx:112 en_US.x64.Release.Control-2.idtx:112
-msgid ""
-"[SimpleProductName] setup was interrupted on your request. Therefore, the "
-"program was not installed. Your system has not been modified."
-msgstr ""
-"Вы решили прервать установку программы [SimpleProductName]. Поэтому "
-"программа не была установлена. Ваша система не изменилась."
-
-#: en_US.Win32.Debug.Control-2.idtx:116 en_US.Win32.Release.Control-2.idtx:116
-#: en_US.x64.Debug.Control-2.idtx:113 en_US.x64.Release.Control-2.idtx:113
-msgid ""
-"If you interrupted the installation by accident, please run the installation"
-" again."
-msgstr "Если вы случайно прервали установку, повторите ее."
-
-#: en_US.Win32.Debug.Control-2.idtx:119 en_US.Win32.Release.Control-2.idtx:119
-#: en_US.x64.Debug.Control-2.idtx:116 en_US.x64.Release.Control-2.idtx:116
-msgid "[DlgTitleFont][SimpleProductName] [Progress2] Ended Prematurely"
-msgstr ""
-"[DlgTitleFont][SimpleProductName] [Progress2] завершено преждевременно"
-
-#: en_US.Win32.Debug.Control-2.idtx:120 en_US.Win32.Release.Control-2.idtx:120
-#: en_US.x64.Debug.Control-2.idtx:117 en_US.x64.Release.Control-2.idtx:117
-msgid ""
-"[SimpleProductName] setup ended prematurely because of an error. Therefore, "
-"the program was not installed. Your system has not been modified."
-msgstr ""
-"Установка программы [SimpleProductName] завершена преждевременно из-за "
-"ошибки. Поэтому программа не была установлена. Ваша система не изменилась."
-
-#: en_US.Win32.Debug.Control-2.idtx:121 en_US.Win32.Release.Control-2.idtx:121
-#: en_US.x64.Debug.Control-2.idtx:118 en_US.x64.Release.Control-2.idtx:118
-msgid ""
-"Please try again, or contact [Manufacturer] (phone [ARPHELPTELEPHONE])."
-msgstr ""
-"Пожалуйста, попробуйте еще раз, или обратитесь к [Manufacturer] (телефон "
-"[ARPHELPTELEPHONE])."
-
-#: en_US.Win32.Debug.ControlEvent-2.idtx:4
-#: en_US.Win32.Debug.ControlEvent-2.idtx:5
-#: en_US.Win32.Release.ControlEvent-2.idtx:4
-#: en_US.Win32.Release.ControlEvent-2.idtx:5
-#: en_US.x64.Debug.ControlEvent-2.idtx:4 en_US.x64.Debug.ControlEvent-2.idtx:5
-#: en_US.x64.Release.ControlEvent-2.idtx:4
-#: en_US.x64.Release.ControlEvent-2.idtx:5
-msgid "Determining required space for installation..."
-msgstr "Вычисляется необходимый объем места для установки..."
-
-#: en_US.Win32.Debug.ControlEvent-2.idtx:6
-#: en_US.Win32.Release.ControlEvent-2.idtx:6
-#: en_US.x64.Debug.ControlEvent-2.idtx:6
-#: en_US.x64.Release.ControlEvent-2.idtx:6
-msgid "&Modify now"
-msgstr "Изменить сейчас"
-
-#: en_US.Win32.Debug.ControlEvent-2.idtx:7
-#: en_US.Win32.Release.ControlEvent-2.idtx:7
-#: en_US.x64.Debug.ControlEvent-2.idtx:7
-#: en_US.x64.Release.ControlEvent-2.idtx:7
-msgid "Installed Features Selection"
-msgstr "Выбор установленных компонентов"
-
-#: en_US.Win32.Debug.ControlEvent-2.idtx:8
-#: en_US.Win32.Release.ControlEvent-2.idtx:8
-#: en_US.x64.Debug.ControlEvent-2.idtx:8
-#: en_US.x64.Release.ControlEvent-2.idtx:8
-msgid "Modifying"
-msgstr "Изменяет"
-
-#: en_US.Win32.Debug.ControlEvent-2.idtx:9
-#: en_US.Win32.Release.ControlEvent-2.idtx:9
-#: en_US.x64.Debug.ControlEvent-2.idtx:9
-#: en_US.x64.Release.ControlEvent-2.idtx:9
-msgid "Modification"
-msgstr "Изменение"
-
-#: en_US.Win32.Debug.ControlEvent-2.idtx:10
-#: en_US.Win32.Release.ControlEvent-2.idtx:10
-#: en_US.x64.Debug.ControlEvent-2.idtx:10
-#: en_US.x64.Release.ControlEvent-2.idtx:10
-msgid "Repairing"
-msgstr "Восстанавливает"
-
-#: en_US.Win32.Debug.ControlEvent-2.idtx:11
-#: en_US.Win32.Release.ControlEvent-2.idtx:11
-#: en_US.x64.Debug.ControlEvent-2.idtx:11
-#: en_US.x64.Release.ControlEvent-2.idtx:11
-msgid "Repair"
-msgstr "Восстановление"
-
-#: en_US.Win32.Debug.ControlEvent-2.idtx:12
-#: en_US.Win32.Release.ControlEvent-2.idtx:12
-#: en_US.x64.Debug.ControlEvent-2.idtx:12
-#: en_US.x64.Release.ControlEvent-2.idtx:12
-msgid "Removing"
-msgstr "Удаляет"
-
-#: en_US.Win32.Debug.ControlEvent-2.idtx:13
-#: en_US.Win32.Release.ControlEvent-2.idtx:13
-#: en_US.x64.Debug.ControlEvent-2.idtx:13
-#: en_US.x64.Release.ControlEvent-2.idtx:13
-msgid "Removal"
-msgstr "Удаление"
-
-#: en_US.Win32.Debug.Dialog-2.idtx:4 en_US.Win32.Release.Dialog-2.idtx:4
-#: en_US.x64.Debug.Dialog-2.idtx:4 en_US.x64.Release.Dialog-2.idtx:4
-msgid "Installer Information"
-msgstr "Сведения установщика"
-
-#: en_US.Win32.Debug.Property-2.idtx:4 en_US.Win32.Release.Property-2.idtx:4
-#: en_US.x64.Debug.Property-2.idtx:4 en_US.x64.Release.Property-2.idtx:4
-msgid "Installing"
-msgstr "Устанавливает"
-
-#: en_US.Win32.Debug.Property-2.idtx:5 en_US.Win32.Debug.Property-2.idtx:6
-#: en_US.Win32.Release.Property-2.idtx:5 en_US.Win32.Release.Property-2.idtx:6
-#: en_US.x64.Debug.Property-2.idtx:5 en_US.x64.Debug.Property-2.idtx:6
-#: en_US.x64.Release.Property-2.idtx:5 en_US.x64.Release.Property-2.idtx:6
-msgid "Setup"
-msgstr "Установка"
-
-#: en_US.Win32.Debug.Property-2.idtx:7 en_US.Win32.Release.Property-2.idtx:7
-#: en_US.x64.Debug.Property-2.idtx:7 en_US.x64.Release.Property-2.idtx:7
-msgid "Setup Wizard"
-msgstr "Мастер установки"
-
-#: en_US.Win32.Debug.Property-2.idtx:8 en_US.Win32.Release.Property-2.idtx:8
-#: en_US.x64.Debug.Property-2.idtx:8 en_US.x64.Release.Property-2.idtx:8
-msgid "Custom Installation"
-msgstr "Выборочная установка"
-
-#: en_US.Win32.Debug.Property-2.idtx:9 en_US.Win32.Release.Property-2.idtx:9
-#: en_US.x64.Debug.Property-2.idtx:9 en_US.x64.Release.Property-2.idtx:9
-msgid "&Install Now"
-msgstr "Установить сейчас"
-
-#: en_US.Win32.Debug.RadioButton-2.idtx:4
-#: en_US.Win32.Release.RadioButton-2.idtx:4
-#: en_US.x64.Debug.RadioButton-2.idtx:4 en_US.x64.Release.RadioButton-2.idtx:4
-msgid "&Modify"
-msgstr "Изменить"
-
-#: en_US.Win32.Debug.RadioButton-2.idtx:4
-#: en_US.Win32.Release.RadioButton-2.idtx:4
-#: en_US.x64.Debug.RadioButton-2.idtx:4 en_US.x64.Release.RadioButton-2.idtx:4
-msgid "Allows you to change the which features are installed.|"
-msgstr "Позволяет изменить выбор компонентов для установки.|"
-
-#: en_US.Win32.Debug.RadioButton-2.idtx:5
-#: en_US.Win32.Release.RadioButton-2.idtx:5
-#: en_US.x64.Debug.RadioButton-2.idtx:5 en_US.x64.Release.RadioButton-2.idtx:5
-msgid "&Repair"
-msgstr "Восстановить"
-
-#: en_US.Win32.Debug.RadioButton-2.idtx:5
-#: en_US.Win32.Release.RadioButton-2.idtx:5
-#: en_US.x64.Debug.RadioButton-2.idtx:5 en_US.x64.Release.RadioButton-2.idtx:5
-msgid ""
-"Repairs errors in the most recent installation state - fixes missing or "
-"corrupt files, shortcuts and registry entries.|"
-msgstr ""
-"Устранение ошибок последней установки путем добавления недостающих и "
-"исправления поврежденных файлов, ярлыков и записей реестра.|"
-
-#: en_US.Win32.Debug.RadioButton-2.idtx:6
-#: en_US.Win32.Release.RadioButton-2.idtx:6
-#: en_US.x64.Debug.RadioButton-2.idtx:6 en_US.x64.Release.RadioButton-2.idtx:6
-msgid "&Remove"
-msgstr "Удалить"
-
-#: en_US.Win32.Debug.RadioButton-2.idtx:6
-#: en_US.Win32.Release.RadioButton-2.idtx:6
-#: en_US.x64.Debug.RadioButton-2.idtx:6 en_US.x64.Release.RadioButton-2.idtx:6
-msgid "Removes the program from your computer.|"
-msgstr "Удалит программу с вашего компьютера.|"
-
-#: en_US.Win32.Debug.UIText-2.idtx:5 en_US.Win32.Release.UIText-2.idtx:5
-#: en_US.x64.Debug.UIText-2.idtx:5 en_US.x64.Release.UIText-2.idtx:5
-msgid "bytes"
-msgstr "B"
-
-#: en_US.Win32.Debug.UIText-2.idtx:6 en_US.Win32.Release.UIText-2.idtx:6
-#: en_US.x64.Debug.UIText-2.idtx:6 en_US.x64.Release.UIText-2.idtx:6
-msgid "GB"
-msgstr "GB"
-
-#: en_US.Win32.Debug.UIText-2.idtx:7 en_US.Win32.Release.UIText-2.idtx:7
-#: en_US.x64.Debug.UIText-2.idtx:7 en_US.x64.Release.UIText-2.idtx:7
-msgid "KB"
-msgstr "KB"
-
-#: en_US.Win32.Debug.UIText-2.idtx:8 en_US.Win32.Release.UIText-2.idtx:8
-#: en_US.x64.Debug.UIText-2.idtx:8 en_US.x64.Release.UIText-2.idtx:8
-msgid "MB"
-msgstr "MB"
-
-#: en_US.Win32.Debug.UIText-2.idtx:9 en_US.Win32.Release.UIText-2.idtx:9
-#: en_US.x64.Debug.UIText-2.idtx:9 en_US.x64.Release.UIText-2.idtx:9
-msgid "Entire feature will be unavailable"
-msgstr "Весь компонент будет полностью недоступен"
-
-#: en_US.Win32.Debug.UIText-2.idtx:10 en_US.Win32.Release.UIText-2.idtx:10
-#: en_US.x64.Debug.UIText-2.idtx:10 en_US.x64.Release.UIText-2.idtx:10
-msgid "Feature will be installed when required"
-msgstr "Компонент будет установлен при необходимости"
-
-#: en_US.Win32.Debug.UIText-2.idtx:11 en_US.Win32.Release.UIText-2.idtx:11
-#: en_US.x64.Debug.UIText-2.idtx:11 en_US.x64.Release.UIText-2.idtx:11
-msgid "Entire feature will be installed to run from CD"
-msgstr "Весь компонент будет установлен для выполнения с компакт-диска"
-
-#: en_US.Win32.Debug.UIText-2.idtx:12 en_US.Win32.Release.UIText-2.idtx:12
-#: en_US.x64.Debug.UIText-2.idtx:12 en_US.x64.Release.UIText-2.idtx:12
-msgid "Entire feature will be installed on local hard drive"
-msgstr "Весь компонент будет установлен на локальном жестком диске"
-
-#: en_US.Win32.Debug.UIText-2.idtx:13 en_US.Win32.Release.UIText-2.idtx:13
-#: en_US.x64.Debug.UIText-2.idtx:13 en_US.x64.Release.UIText-2.idtx:13
-msgid "Entire feature will be installed to run from network"
-msgstr "Весь компонент будет установлен для выполнения через сеть"
-
-#: en_US.Win32.Debug.UIText-2.idtx:14 en_US.Win32.Release.UIText-2.idtx:14
-#: en_US.x64.Debug.UIText-2.idtx:14 en_US.x64.Release.UIText-2.idtx:14
-msgid "Will be installed to run from CD"
-msgstr "Будет установлен для выполнения с компакт-диска"
-
-#: en_US.Win32.Debug.UIText-2.idtx:15 en_US.Win32.Release.UIText-2.idtx:15
-#: en_US.x64.Debug.UIText-2.idtx:15 en_US.x64.Release.UIText-2.idtx:15
-msgid "Will be installed on local hard drive"
-msgstr "Будет установлен на локальном жестком диске"
-
-#: en_US.Win32.Debug.UIText-2.idtx:16 en_US.Win32.Release.UIText-2.idtx:16
-#: en_US.x64.Debug.UIText-2.idtx:16 en_US.x64.Release.UIText-2.idtx:16
-msgid "Will be installed to run from network"
-msgstr "Будет установлен для выполнения через сеть"
-
-#: en_US.Win32.Debug.UIText-2.idtx:17 en_US.Win32.Release.UIText-2.idtx:17
-#: en_US.x64.Debug.UIText-2.idtx:17 en_US.x64.Release.UIText-2.idtx:17
-msgid "Folder|New Folder"
-msgstr "Папка|Новая Папка"
-
-#: en_US.Win32.Debug.UIText-2.idtx:18 en_US.Win32.Release.UIText-2.idtx:18
-#: en_US.x64.Debug.UIText-2.idtx:18 en_US.x64.Release.UIText-2.idtx:18
-msgid "Gathering required information..."
-msgstr "Сбор сведений..."
-
-#: en_US.Win32.Debug.UIText-2.idtx:19 en_US.Win32.Release.UIText-2.idtx:19
-#: en_US.x64.Debug.UIText-2.idtx:19 en_US.x64.Release.UIText-2.idtx:19
-msgid "This feature will remain uninstalled"
-msgstr "Этот компонент не будет установлен"
-
-#: en_US.Win32.Debug.UIText-2.idtx:20 en_US.Win32.Debug.UIText-2.idtx:30
-#: en_US.Win32.Debug.UIText-2.idtx:42 en_US.Win32.Release.UIText-2.idtx:20
-#: en_US.Win32.Release.UIText-2.idtx:30 en_US.Win32.Release.UIText-2.idtx:42
-#: en_US.x64.Debug.UIText-2.idtx:20 en_US.x64.Debug.UIText-2.idtx:30
-#: en_US.x64.Debug.UIText-2.idtx:42 en_US.x64.Release.UIText-2.idtx:20
-#: en_US.x64.Release.UIText-2.idtx:30 en_US.x64.Release.UIText-2.idtx:42
-msgid "This feature will be set to be installed when required"
-msgstr "Этот компонент будет настроен для установки при необходимости"
-
-#: en_US.Win32.Debug.UIText-2.idtx:21 en_US.Win32.Debug.UIText-2.idtx:26
-#: en_US.Win32.Release.UIText-2.idtx:21 en_US.Win32.Release.UIText-2.idtx:26
-#: en_US.x64.Debug.UIText-2.idtx:21 en_US.x64.Debug.UIText-2.idtx:26
-#: en_US.x64.Release.UIText-2.idtx:21 en_US.x64.Release.UIText-2.idtx:26
-msgid "This feature will be installed to run from CD"
-msgstr "Этот компонент будет установлен для выполнения с компакт-диска"
-
-#: en_US.Win32.Debug.UIText-2.idtx:22 en_US.Win32.Debug.UIText-2.idtx:27
-#: en_US.Win32.Debug.UIText-2.idtx:32 en_US.Win32.Debug.UIText-2.idtx:43
-#: en_US.Win32.Release.UIText-2.idtx:22 en_US.Win32.Release.UIText-2.idtx:27
-#: en_US.Win32.Release.UIText-2.idtx:32 en_US.Win32.Release.UIText-2.idtx:43
-#: en_US.x64.Debug.UIText-2.idtx:22 en_US.x64.Debug.UIText-2.idtx:27
-#: en_US.x64.Debug.UIText-2.idtx:32 en_US.x64.Debug.UIText-2.idtx:43
-#: en_US.x64.Release.UIText-2.idtx:22 en_US.x64.Release.UIText-2.idtx:27
-#: en_US.x64.Release.UIText-2.idtx:32 en_US.x64.Release.UIText-2.idtx:43
-msgid "This feature will be installed on the local hard drive"
-msgstr "Этот компонент будет установлен на локальном жестком диске"
-
-#: en_US.Win32.Debug.UIText-2.idtx:23 en_US.Win32.Debug.UIText-2.idtx:28
-#: en_US.Win32.Release.UIText-2.idtx:23 en_US.Win32.Release.UIText-2.idtx:28
-#: en_US.x64.Debug.UIText-2.idtx:23 en_US.x64.Debug.UIText-2.idtx:28
-#: en_US.x64.Release.UIText-2.idtx:23 en_US.x64.Release.UIText-2.idtx:28
-msgid "This feature will be installed to run from the network"
-msgstr "Этот компонент будет установлен для выполнения через сеть"
-
-#: en_US.Win32.Debug.UIText-2.idtx:24 en_US.Win32.Debug.UIText-2.idtx:36
-#: en_US.Win32.Release.UIText-2.idtx:24 en_US.Win32.Release.UIText-2.idtx:36
-#: en_US.x64.Debug.UIText-2.idtx:24 en_US.x64.Debug.UIText-2.idtx:36
-#: en_US.x64.Release.UIText-2.idtx:24 en_US.x64.Release.UIText-2.idtx:36
-msgid "This feature will become unavailable"
-msgstr "Этот компонент будет полностью недоступен"
-
-#: en_US.Win32.Debug.UIText-2.idtx:25 en_US.Win32.Release.UIText-2.idtx:25
-#: en_US.x64.Debug.UIText-2.idtx:25 en_US.x64.Release.UIText-2.idtx:25
-msgid "Will be installed when required"
-msgstr "Будет установлен при необходимости"
-
-#: en_US.Win32.Debug.UIText-2.idtx:29 en_US.Win32.Release.UIText-2.idtx:29
-#: en_US.x64.Debug.UIText-2.idtx:29 en_US.x64.Release.UIText-2.idtx:29
-msgid ""
-"This feature will be uninstalled completely, you won't be able to run it "
-"from CD"
-msgstr ""
-"Этот компонент будет полностью удален, и его выполнение с компакт-диска "
-"станет невозможно"
-
-#: en_US.Win32.Debug.UIText-2.idtx:31 en_US.Win32.Release.UIText-2.idtx:31
-#: en_US.x64.Debug.UIText-2.idtx:31 en_US.x64.Release.UIText-2.idtx:31
-msgid "This feature will remain to be run from CD"
-msgstr "Этот компонент будет оставлен для выполнения с компакт-диска"
-
-#: en_US.Win32.Debug.UIText-2.idtx:33 en_US.Win32.Release.UIText-2.idtx:33
-#: en_US.x64.Debug.UIText-2.idtx:33 en_US.x64.Release.UIText-2.idtx:33
-msgid "This feature frees up [1] on your hard drive."
-msgstr "Этот компонент высвободит [1] на жестком диске."
-
-#: en_US.Win32.Debug.UIText-2.idtx:34 en_US.Win32.Release.UIText-2.idtx:34
-#: en_US.x64.Debug.UIText-2.idtx:34 en_US.x64.Release.UIText-2.idtx:34
-msgid "This feature requires [1] on your hard drive."
-msgstr "Для установки этого компонента необходимо [1] на жестком диске."
-
-#: en_US.Win32.Debug.UIText-2.idtx:35 en_US.Win32.Release.UIText-2.idtx:35
-#: en_US.x64.Debug.UIText-2.idtx:35 en_US.x64.Release.UIText-2.idtx:35
-msgid "Compiling cost for this feature..."
-msgstr "Вычисление необходимого объема для этого компонента..."
-
-#: en_US.Win32.Debug.UIText-2.idtx:37 en_US.Win32.Release.UIText-2.idtx:37
-#: en_US.x64.Debug.UIText-2.idtx:37 en_US.x64.Release.UIText-2.idtx:37
-msgid ""
-"This feature will be removed from your local hard drive, but will be set to "
-"be installed when required"
-msgstr ""
-"Этот компонент будет удален с локального жесткого диска, но его можно будет "
-"установить при необходимости"
-
-#: en_US.Win32.Debug.UIText-2.idtx:38 en_US.Win32.Release.UIText-2.idtx:38
-#: en_US.x64.Debug.UIText-2.idtx:38 en_US.x64.Release.UIText-2.idtx:38
-msgid ""
-"This feature will be removed from your local hard drive, but will be still "
-"available to run from CD"
-msgstr ""
-"Этот компонент будет удален с локального жесткого диска, но будет доступен "
-"для выполнения с компакт-диска"
-
-#: en_US.Win32.Debug.UIText-2.idtx:39 en_US.Win32.Release.UIText-2.idtx:39
-#: en_US.x64.Debug.UIText-2.idtx:39 en_US.x64.Release.UIText-2.idtx:39
-msgid "This feature will remain on you local hard drive"
-msgstr "Этот компонент по-прежнему останется на локальном жестком диске"
-
-#: en_US.Win32.Debug.UIText-2.idtx:40 en_US.Win32.Release.UIText-2.idtx:40
-#: en_US.x64.Debug.UIText-2.idtx:40 en_US.x64.Release.UIText-2.idtx:40
-msgid ""
-"This feature will be removed from your local hard drive, but will be still "
-"available to run from the network"
-msgstr ""
-"Этот компонент будет удален с локального жесткого диска, но будет доступен "
-"для выполнения через сеть"
-
-#: en_US.Win32.Debug.UIText-2.idtx:41 en_US.Win32.Release.UIText-2.idtx:41
-#: en_US.x64.Debug.UIText-2.idtx:41 en_US.x64.Release.UIText-2.idtx:41
-msgid ""
-"This feature will be uninstalled completely, you won't be able to run it "
-"from the network"
-msgstr ""
-"Этот компонент будет полностью удален, и его выполнение через сеть станет "
-"невозможно."
-
-#: en_US.Win32.Debug.UIText-2.idtx:44 en_US.Win32.Release.UIText-2.idtx:44
-#: en_US.x64.Debug.UIText-2.idtx:44 en_US.x64.Release.UIText-2.idtx:44
-msgid "This feature will remain to be run from the network"
-msgstr "Этот компонент будет оставлен для выполнения через сеть"
-
-#: en_US.Win32.Debug.UIText-2.idtx:45 en_US.Win32.Debug.UIText-2.idtx:46
-#: en_US.Win32.Debug.UIText-2.idtx:47 en_US.Win32.Debug.UIText-2.idtx:48
-#: en_US.Win32.Release.UIText-2.idtx:45 en_US.Win32.Release.UIText-2.idtx:46
-#: en_US.Win32.Release.UIText-2.idtx:47 en_US.Win32.Release.UIText-2.idtx:48
-#: en_US.x64.Debug.UIText-2.idtx:45 en_US.x64.Debug.UIText-2.idtx:46
-#: en_US.x64.Debug.UIText-2.idtx:47 en_US.x64.Debug.UIText-2.idtx:48
-#: en_US.x64.Release.UIText-2.idtx:45 en_US.x64.Release.UIText-2.idtx:46
-#: en_US.x64.Release.UIText-2.idtx:47 en_US.x64.Release.UIText-2.idtx:48
-msgid ""
-"This feature requires [1] on your hard drive. It has [2] of [3] subfeatures "
-"selected. The subfeatures require [4] on your hard drive."
-msgstr ""
-"Этот компонент высвободит [1] на жестком диске. Выбрано [2] из [3] вложенных"
-" компонентов. Вложенные компоненты высвободят [4] на жестком диске."
-
-#: en_US.Win32.Debug.UIText-2.idtx:49 en_US.Win32.Release.UIText-2.idtx:49
-#: en_US.x64.Debug.UIText-2.idtx:49 en_US.x64.Release.UIText-2.idtx:49
-msgid "Time remaining: {[1] minutes }{[2] seconds}"
-msgstr "Оставшееся время: {[1] мин }{[2] сек}"
-
-#: en_US.Win32.Debug.UIText-2.idtx:50 en_US.Win32.Release.UIText-2.idtx:50
-#: en_US.x64.Debug.UIText-2.idtx:50 en_US.x64.Release.UIText-2.idtx:50
-msgid "Available"
-msgstr "Доступно"
-
-#: en_US.Win32.Debug.UIText-2.idtx:51 en_US.Win32.Release.UIText-2.idtx:51
-#: en_US.x64.Debug.UIText-2.idtx:51 en_US.x64.Release.UIText-2.idtx:51
-msgid "Difference"
-msgstr "Разница"
-
-#: en_US.Win32.Debug.UIText-2.idtx:52 en_US.Win32.Release.UIText-2.idtx:52
-#: en_US.x64.Debug.UIText-2.idtx:52 en_US.x64.Release.UIText-2.idtx:52
-msgid "Required"
-msgstr "Требуется"
-
-#: en_US.Win32.Debug.UIText-2.idtx:53 en_US.Win32.Release.UIText-2.idtx:53
-#: en_US.x64.Debug.UIText-2.idtx:53 en_US.x64.Release.UIText-2.idtx:53
-msgid "Disk Size"
-msgstr "Размер диска"
-
-#: en_US.Win32.Debug.UIText-2.idtx:54 en_US.Win32.Release.UIText-2.idtx:54
-#: en_US.x64.Debug.UIText-2.idtx:54 en_US.x64.Release.UIText-2.idtx:54
-msgid "Volume"
-msgstr "Том"

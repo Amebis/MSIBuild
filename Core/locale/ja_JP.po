@@ -1,11 +1,12 @@
+# Translators:
+# Simon Rozman <simon@rozman.si>, 2018
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-02 18:14+0100\n"
-"PO-Revision-Date: \n"
+"POT-Creation-Date: 2018-11-22 10:26+0100\n"
+"PO-Revision-Date: 2018-09-19 09:17+0000\n"
 "Last-Translator: Simon Rozman <simon@rozman.si>, 2018\n"
 "Language-Team: Japanese (Japan) (https://www.transifex.com/amebis/teams/91604/ja_JP/)\n"
 "MIME-Version: 1.0\n"
@@ -13,48 +14,64 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ja_JP\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:4
+#: en_US.ARM64.Release.ActionText-2.idtx:4
 #: en_US.Win32.Debug.ActionText-2.idtx:4
 #: en_US.Win32.Release.ActionText-2.idtx:4 en_US.x64.Debug.ActionText-2.idtx:4
 #: en_US.x64.Release.ActionText-2.idtx:4
 msgid "Advertising application"
 msgstr "後で使用するためにアプリケーションを設定しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:5
+#: en_US.ARM64.Release.ActionText-2.idtx:5
 #: en_US.Win32.Debug.ActionText-2.idtx:5
 #: en_US.Win32.Release.ActionText-2.idtx:5 en_US.x64.Debug.ActionText-2.idtx:5
 #: en_US.x64.Release.ActionText-2.idtx:5
 msgid "Allocating registry space"
 msgstr "レジストリ領域を割り当てています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:5
+#: en_US.ARM64.Release.ActionText-2.idtx:5
 #: en_US.Win32.Debug.ActionText-2.idtx:5
 #: en_US.Win32.Release.ActionText-2.idtx:5 en_US.x64.Debug.ActionText-2.idtx:5
 #: en_US.x64.Release.ActionText-2.idtx:5
 msgid "Free space: [1]"
 msgstr "空き領域: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:6
+#: en_US.ARM64.Release.ActionText-2.idtx:6
 #: en_US.Win32.Debug.ActionText-2.idtx:6
 #: en_US.Win32.Release.ActionText-2.idtx:6 en_US.x64.Debug.ActionText-2.idtx:6
 #: en_US.x64.Release.ActionText-2.idtx:6
 msgid "Searching for installed applications"
 msgstr "インストールされているアプリケーションを検索しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:6
+#: en_US.ARM64.Release.ActionText-2.idtx:6
 #: en_US.Win32.Debug.ActionText-2.idtx:6
 #: en_US.Win32.Release.ActionText-2.idtx:6 en_US.x64.Debug.ActionText-2.idtx:6
 #: en_US.x64.Release.ActionText-2.idtx:6
 msgid "Property: [1], Signature: [2]"
 msgstr "プロパティ: [1]、 署名: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:7
+#: en_US.ARM64.Release.ActionText-2.idtx:7
 #: en_US.Win32.Debug.ActionText-2.idtx:7
 #: en_US.Win32.Release.ActionText-2.idtx:7 en_US.x64.Debug.ActionText-2.idtx:7
 #: en_US.x64.Release.ActionText-2.idtx:7
 msgid "Binding executables"
 msgstr "実行ファイルをバインドしています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:7
+#: en_US.ARM64.Debug.ActionText-2.idtx:54
+#: en_US.ARM64.Release.ActionText-2.idtx:7
+#: en_US.ARM64.Release.ActionText-2.idtx:54
 #: en_US.Win32.Debug.ActionText-2.idtx:7
 #: en_US.Win32.Debug.ActionText-2.idtx:54
 #: en_US.Win32.Release.ActionText-2.idtx:7
@@ -65,6 +82,10 @@ msgstr "実行ファイルをバインドしています"
 msgid "File: [1]"
 msgstr "ファイル: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:8
+#: en_US.ARM64.Debug.ActionText-2.idtx:52
+#: en_US.ARM64.Release.ActionText-2.idtx:8
+#: en_US.ARM64.Release.ActionText-2.idtx:52
 #: en_US.Win32.Debug.ActionText-2.idtx:8
 #: en_US.Win32.Debug.ActionText-2.idtx:52
 #: en_US.Win32.Release.ActionText-2.idtx:8
@@ -75,6 +96,12 @@ msgstr "ファイル: [1]"
 msgid "Searching for qualifying products"
 msgstr "条件に合う製品を検索しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:9
+#: en_US.ARM64.Debug.ActionText-2.idtx:10
+#: en_US.ARM64.Debug.ActionText-2.idtx:15
+#: en_US.ARM64.Release.ActionText-2.idtx:9
+#: en_US.ARM64.Release.ActionText-2.idtx:10
+#: en_US.ARM64.Release.ActionText-2.idtx:15
 #: en_US.Win32.Debug.ActionText-2.idtx:9
 #: en_US.Win32.Debug.ActionText-2.idtx:10
 #: en_US.Win32.Debug.ActionText-2.idtx:15
@@ -88,12 +115,18 @@ msgstr "条件に合う製品を検索しています"
 msgid "Computing space requirements"
 msgstr "必要な領域を計算しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:11
+#: en_US.ARM64.Release.ActionText-2.idtx:11
 #: en_US.Win32.Debug.ActionText-2.idtx:11
 #: en_US.Win32.Release.ActionText-2.idtx:11
 #: en_US.x64.Debug.ActionText-2.idtx:11 en_US.x64.Release.ActionText-2.idtx:11
 msgid "Creating folders"
 msgstr "フォルダを作成しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:11
+#: en_US.ARM64.Debug.ActionText-2.idtx:47
+#: en_US.ARM64.Release.ActionText-2.idtx:11
+#: en_US.ARM64.Release.ActionText-2.idtx:47
 #: en_US.Win32.Debug.ActionText-2.idtx:11
 #: en_US.Win32.Debug.ActionText-2.idtx:47
 #: en_US.Win32.Release.ActionText-2.idtx:11
@@ -104,12 +137,18 @@ msgstr "フォルダを作成しています"
 msgid "Folder: [1]"
 msgstr "フォルダ: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:12
+#: en_US.ARM64.Release.ActionText-2.idtx:12
 #: en_US.Win32.Debug.ActionText-2.idtx:12
 #: en_US.Win32.Release.ActionText-2.idtx:12
 #: en_US.x64.Debug.ActionText-2.idtx:12 en_US.x64.Release.ActionText-2.idtx:12
 msgid "Creating shortcuts"
 msgstr "ショートカットを作成しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:12
+#: en_US.ARM64.Debug.ActionText-2.idtx:51
+#: en_US.ARM64.Release.ActionText-2.idtx:12
+#: en_US.ARM64.Release.ActionText-2.idtx:51
 #: en_US.Win32.Debug.ActionText-2.idtx:12
 #: en_US.Win32.Debug.ActionText-2.idtx:51
 #: en_US.Win32.Release.ActionText-2.idtx:12
@@ -120,12 +159,20 @@ msgstr "ショートカットを作成しています"
 msgid "Shortcut: [1]"
 msgstr "ショートカット: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:13
+#: en_US.ARM64.Release.ActionText-2.idtx:13
 #: en_US.Win32.Debug.ActionText-2.idtx:13
 #: en_US.Win32.Release.ActionText-2.idtx:13
 #: en_US.x64.Debug.ActionText-2.idtx:13 en_US.x64.Release.ActionText-2.idtx:13
 msgid "Deleting services"
 msgstr "サービスを削除しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:13
+#: en_US.ARM64.Debug.ActionText-2.idtx:58
+#: en_US.ARM64.Debug.ActionText-2.idtx:59
+#: en_US.ARM64.Release.ActionText-2.idtx:13
+#: en_US.ARM64.Release.ActionText-2.idtx:58
+#: en_US.ARM64.Release.ActionText-2.idtx:59
 #: en_US.Win32.Debug.ActionText-2.idtx:13
 #: en_US.Win32.Debug.ActionText-2.idtx:58
 #: en_US.Win32.Debug.ActionText-2.idtx:59
@@ -139,12 +186,20 @@ msgstr "サービスを削除しています"
 msgid "Service: [1]"
 msgstr "サービス: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:14
+#: en_US.ARM64.Release.ActionText-2.idtx:14
 #: en_US.Win32.Debug.ActionText-2.idtx:14
 #: en_US.Win32.Release.ActionText-2.idtx:14
 #: en_US.x64.Debug.ActionText-2.idtx:14 en_US.x64.Release.ActionText-2.idtx:14
 msgid "Creating duplicate files"
 msgstr "重複しているファイルを作成しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:14
+#: en_US.ARM64.Debug.ActionText-2.idtx:19
+#: en_US.ARM64.Debug.ActionText-2.idtx:26
+#: en_US.ARM64.Release.ActionText-2.idtx:14
+#: en_US.ARM64.Release.ActionText-2.idtx:19
+#: en_US.ARM64.Release.ActionText-2.idtx:26
 #: en_US.Win32.Debug.ActionText-2.idtx:14
 #: en_US.Win32.Debug.ActionText-2.idtx:19
 #: en_US.Win32.Debug.ActionText-2.idtx:26
@@ -158,24 +213,38 @@ msgstr "重複しているファイルを作成しています"
 msgid "File: [1],  Directory: [9],  Size: [6]"
 msgstr "ファイル: [1]、  ディレクトリ: [9]、  サイズ: [6]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:16
+#: en_US.ARM64.Release.ActionText-2.idtx:16
 #: en_US.Win32.Debug.ActionText-2.idtx:16
 #: en_US.Win32.Release.ActionText-2.idtx:16
 #: en_US.x64.Debug.ActionText-2.idtx:16 en_US.x64.Release.ActionText-2.idtx:16
 msgid "Searching for related applications"
 msgstr "関連のアプリケーションを検索しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:16
+#: en_US.ARM64.Release.ActionText-2.idtx:16
 #: en_US.Win32.Debug.ActionText-2.idtx:16
 #: en_US.Win32.Release.ActionText-2.idtx:16
 #: en_US.x64.Debug.ActionText-2.idtx:16 en_US.x64.Release.ActionText-2.idtx:16
 msgid "Found application: [1]"
 msgstr "見つかったアプリケーション : [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:17
+#: en_US.ARM64.Release.ActionText-2.idtx:17
 #: en_US.Win32.Debug.ActionText-2.idtx:17
 #: en_US.Win32.Release.ActionText-2.idtx:17
 #: en_US.x64.Debug.ActionText-2.idtx:17 en_US.x64.Release.ActionText-2.idtx:17
 msgid "Generating script operations for action:"
 msgstr "操作のためのスクリプト操作を作成しています:"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:17
+#: en_US.ARM64.Debug.ActionText-2.idtx:39
+#: en_US.ARM64.Debug.ActionText-2.idtx:42
+#: en_US.ARM64.Debug.ActionText-2.idtx:53
+#: en_US.ARM64.Release.ActionText-2.idtx:17
+#: en_US.ARM64.Release.ActionText-2.idtx:39
+#: en_US.ARM64.Release.ActionText-2.idtx:42
+#: en_US.ARM64.Release.ActionText-2.idtx:53
 #: en_US.Win32.Debug.ActionText-2.idtx:17
 #: en_US.Win32.Debug.ActionText-2.idtx:39
 #: en_US.Win32.Debug.ActionText-2.idtx:42
@@ -193,90 +262,122 @@ msgstr "操作のためのスクリプト操作を作成しています:"
 msgid "[1]"
 msgstr "[1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:18
+#: en_US.ARM64.Release.ActionText-2.idtx:18
 #: en_US.Win32.Debug.ActionText-2.idtx:18
 #: en_US.Win32.Release.ActionText-2.idtx:18
 #: en_US.x64.Debug.ActionText-2.idtx:18 en_US.x64.Release.ActionText-2.idtx:18
 msgid "Copying network install files"
 msgstr "ネットワーク インストール ファイルをコピーしています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:18
+#: en_US.ARM64.Release.ActionText-2.idtx:18
 #: en_US.Win32.Debug.ActionText-2.idtx:18
 #: en_US.Win32.Release.ActionText-2.idtx:18
 #: en_US.x64.Debug.ActionText-2.idtx:18 en_US.x64.Release.ActionText-2.idtx:18
 msgid "File: [1], Directory: [9], Size: [6]"
 msgstr "ファイル: [1]、 ディレクトリ: [9]、 サイズ: [6]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:19
+#: en_US.ARM64.Release.ActionText-2.idtx:19
 #: en_US.Win32.Debug.ActionText-2.idtx:19
 #: en_US.Win32.Release.ActionText-2.idtx:19
 #: en_US.x64.Debug.ActionText-2.idtx:19 en_US.x64.Release.ActionText-2.idtx:19
 msgid "Copying new files"
 msgstr "新しいファイルをコピーしています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:20
+#: en_US.ARM64.Release.ActionText-2.idtx:20
 #: en_US.Win32.Debug.ActionText-2.idtx:20
 #: en_US.Win32.Release.ActionText-2.idtx:20
 #: en_US.x64.Debug.ActionText-2.idtx:20 en_US.x64.Release.ActionText-2.idtx:20
 msgid "Installing ODBC components"
 msgstr "ODBC コンポーネントをインストールしています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:21
+#: en_US.ARM64.Release.ActionText-2.idtx:21
 #: en_US.Win32.Debug.ActionText-2.idtx:21
 #: en_US.Win32.Release.ActionText-2.idtx:21
 #: en_US.x64.Debug.ActionText-2.idtx:21 en_US.x64.Release.ActionText-2.idtx:21
 msgid "Installing new services"
 msgstr "新しいサービスをインストールしています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:21
+#: en_US.ARM64.Release.ActionText-2.idtx:21
 #: en_US.Win32.Debug.ActionText-2.idtx:21
 #: en_US.Win32.Release.ActionText-2.idtx:21
 #: en_US.x64.Debug.ActionText-2.idtx:21 en_US.x64.Release.ActionText-2.idtx:21
 msgid "Service: [2]"
 msgstr "サービス: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:22
+#: en_US.ARM64.Release.ActionText-2.idtx:22
 #: en_US.Win32.Debug.ActionText-2.idtx:22
 #: en_US.Win32.Release.ActionText-2.idtx:22
 #: en_US.x64.Debug.ActionText-2.idtx:22 en_US.x64.Release.ActionText-2.idtx:22
 msgid "Installing system catalog"
 msgstr "システム カタログをインストールしています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:22
+#: en_US.ARM64.Release.ActionText-2.idtx:22
 #: en_US.Win32.Debug.ActionText-2.idtx:22
 #: en_US.Win32.Release.ActionText-2.idtx:22
 #: en_US.x64.Debug.ActionText-2.idtx:22 en_US.x64.Release.ActionText-2.idtx:22
 msgid "File: [1],  Dependencies: [2]"
 msgstr "ファイル: [1],  依存関係: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:23
+#: en_US.ARM64.Release.ActionText-2.idtx:23
 #: en_US.Win32.Debug.ActionText-2.idtx:23
 #: en_US.Win32.Release.ActionText-2.idtx:23
 #: en_US.x64.Debug.ActionText-2.idtx:23 en_US.x64.Release.ActionText-2.idtx:23
 msgid "Validating install"
 msgstr "インストールを検証しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:24
+#: en_US.ARM64.Release.ActionText-2.idtx:24
 #: en_US.Win32.Debug.ActionText-2.idtx:24
 #: en_US.Win32.Release.ActionText-2.idtx:24
 #: en_US.x64.Debug.ActionText-2.idtx:24 en_US.x64.Release.ActionText-2.idtx:24
 msgid "Evaluating launch conditions"
 msgstr "起動状態を検証しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:25
+#: en_US.ARM64.Release.ActionText-2.idtx:25
 #: en_US.Win32.Debug.ActionText-2.idtx:25
 #: en_US.Win32.Release.ActionText-2.idtx:25
 #: en_US.x64.Debug.ActionText-2.idtx:25 en_US.x64.Release.ActionText-2.idtx:25
 msgid "Migrating feature states from related applications"
 msgstr "関連のアプリケーションから機能の状態を移行しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:25
+#: en_US.ARM64.Release.ActionText-2.idtx:25
 #: en_US.Win32.Debug.ActionText-2.idtx:25
 #: en_US.Win32.Release.ActionText-2.idtx:25
 #: en_US.x64.Debug.ActionText-2.idtx:25 en_US.x64.Release.ActionText-2.idtx:25
 msgid "Application: [1]"
 msgstr "アプリケーション : [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:26
+#: en_US.ARM64.Release.ActionText-2.idtx:26
 #: en_US.Win32.Debug.ActionText-2.idtx:26
 #: en_US.Win32.Release.ActionText-2.idtx:26
 #: en_US.x64.Debug.ActionText-2.idtx:26 en_US.x64.Release.ActionText-2.idtx:26
 msgid "Moving files"
 msgstr "ファイルを移動しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:27
+#: en_US.ARM64.Release.ActionText-2.idtx:27
 #: en_US.Win32.Debug.ActionText-2.idtx:27
 #: en_US.Win32.Release.ActionText-2.idtx:27
 #: en_US.x64.Debug.ActionText-2.idtx:27 en_US.x64.Release.ActionText-2.idtx:27
 msgid "Publishing assembly information"
 msgstr "アセンブリ情報を公開しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:27
+#: en_US.ARM64.Debug.ActionText-2.idtx:28
+#: en_US.ARM64.Release.ActionText-2.idtx:27
+#: en_US.ARM64.Release.ActionText-2.idtx:28
 #: en_US.Win32.Debug.ActionText-2.idtx:27
 #: en_US.Win32.Debug.ActionText-2.idtx:28
 #: en_US.Win32.Release.ActionText-2.idtx:27
@@ -287,36 +388,50 @@ msgstr "アセンブリ情報を公開しています"
 msgid "Application Context:[1], Assembly Name:[2]"
 msgstr "アプリケーション コンテキスト:[1], アセンブリ名:[2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:28
+#: en_US.ARM64.Release.ActionText-2.idtx:28
 #: en_US.Win32.Debug.ActionText-2.idtx:28
 #: en_US.Win32.Release.ActionText-2.idtx:28
 #: en_US.x64.Debug.ActionText-2.idtx:28 en_US.x64.Release.ActionText-2.idtx:28
 msgid "Unpublishing assembly information"
 msgstr "アセンブリ情報を非公開にしています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:29
+#: en_US.ARM64.Release.ActionText-2.idtx:29
 #: en_US.Win32.Debug.ActionText-2.idtx:29
 #: en_US.Win32.Release.ActionText-2.idtx:29
 #: en_US.x64.Debug.ActionText-2.idtx:29 en_US.x64.Release.ActionText-2.idtx:29
 msgid "Patching files"
 msgstr "ファイルを修正しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:29
+#: en_US.ARM64.Release.ActionText-2.idtx:29
 #: en_US.Win32.Debug.ActionText-2.idtx:29
 #: en_US.Win32.Release.ActionText-2.idtx:29
 #: en_US.x64.Debug.ActionText-2.idtx:29 en_US.x64.Release.ActionText-2.idtx:29
 msgid "File: [1],  Directory: [2],  Size: [3]"
 msgstr "ファイル: [1]、  ディレクトリ: [2]、  サイズ: [3]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:30
+#: en_US.ARM64.Release.ActionText-2.idtx:30
 #: en_US.Win32.Debug.ActionText-2.idtx:30
 #: en_US.Win32.Release.ActionText-2.idtx:30
 #: en_US.x64.Debug.ActionText-2.idtx:30 en_US.x64.Release.ActionText-2.idtx:30
 msgid "Updating component registration"
 msgstr "コンポーネントの登録を更新しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:31
+#: en_US.ARM64.Release.ActionText-2.idtx:31
 #: en_US.Win32.Debug.ActionText-2.idtx:31
 #: en_US.Win32.Release.ActionText-2.idtx:31
 #: en_US.x64.Debug.ActionText-2.idtx:31 en_US.x64.Release.ActionText-2.idtx:31
 msgid "Publishing Qualified Components"
 msgstr "条件に合うコンポーネントを公開しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:31
+#: en_US.ARM64.Debug.ActionText-2.idtx:61
+#: en_US.ARM64.Release.ActionText-2.idtx:31
+#: en_US.ARM64.Release.ActionText-2.idtx:61
 #: en_US.Win32.Debug.ActionText-2.idtx:31
 #: en_US.Win32.Debug.ActionText-2.idtx:61
 #: en_US.Win32.Release.ActionText-2.idtx:31
@@ -327,12 +442,18 @@ msgstr "条件に合うコンポーネントを公開しています"
 msgid "Component ID: [1], Qualifier: [2]"
 msgstr "コンポーネント ID: [1]、修飾子: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:32
+#: en_US.ARM64.Release.ActionText-2.idtx:32
 #: en_US.Win32.Debug.ActionText-2.idtx:32
 #: en_US.Win32.Release.ActionText-2.idtx:32
 #: en_US.x64.Debug.ActionText-2.idtx:32 en_US.x64.Release.ActionText-2.idtx:32
 msgid "Publishing Product Features"
 msgstr "製品機能を公開しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:32
+#: en_US.ARM64.Debug.ActionText-2.idtx:62
+#: en_US.ARM64.Release.ActionText-2.idtx:32
+#: en_US.ARM64.Release.ActionText-2.idtx:62
 #: en_US.Win32.Debug.ActionText-2.idtx:32
 #: en_US.Win32.Debug.ActionText-2.idtx:62
 #: en_US.Win32.Release.ActionText-2.idtx:32
@@ -343,18 +464,26 @@ msgstr "製品機能を公開しています"
 msgid "Feature: [1]"
 msgstr "機能: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:33
+#: en_US.ARM64.Release.ActionText-2.idtx:33
 #: en_US.Win32.Debug.ActionText-2.idtx:33
 #: en_US.Win32.Release.ActionText-2.idtx:33
 #: en_US.x64.Debug.ActionText-2.idtx:33 en_US.x64.Release.ActionText-2.idtx:33
 msgid "Publishing product information"
 msgstr "製品情報を公開しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:34
+#: en_US.ARM64.Release.ActionText-2.idtx:34
 #: en_US.Win32.Debug.ActionText-2.idtx:34
 #: en_US.Win32.Release.ActionText-2.idtx:34
 #: en_US.x64.Debug.ActionText-2.idtx:34 en_US.x64.Release.ActionText-2.idtx:34
 msgid "Registering Class servers"
 msgstr "クラス サーバーを登録しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:34
+#: en_US.ARM64.Debug.ActionText-2.idtx:64
+#: en_US.ARM64.Release.ActionText-2.idtx:34
+#: en_US.ARM64.Release.ActionText-2.idtx:64
 #: en_US.Win32.Debug.ActionText-2.idtx:34
 #: en_US.Win32.Debug.ActionText-2.idtx:64
 #: en_US.Win32.Release.ActionText-2.idtx:34
@@ -365,24 +494,34 @@ msgstr "クラス サーバーを登録しています"
 msgid "Class Id: [1]"
 msgstr "クラス ID: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:35
+#: en_US.ARM64.Release.ActionText-2.idtx:35
 #: en_US.Win32.Debug.ActionText-2.idtx:35
 #: en_US.Win32.Release.ActionText-2.idtx:35
 #: en_US.x64.Debug.ActionText-2.idtx:35 en_US.x64.Release.ActionText-2.idtx:35
 msgid "Registering COM+ Applications and Components"
 msgstr "COM+ アプリケーションとコンポーネントを登録しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:35
+#: en_US.ARM64.Release.ActionText-2.idtx:35
 #: en_US.Win32.Debug.ActionText-2.idtx:35
 #: en_US.Win32.Release.ActionText-2.idtx:35
 #: en_US.x64.Debug.ActionText-2.idtx:35 en_US.x64.Release.ActionText-2.idtx:35
 msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
 msgstr "AppId : [1]{{, AppType : [2], Users : [3], RSN : [4]}}"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:36
+#: en_US.ARM64.Release.ActionText-2.idtx:36
 #: en_US.Win32.Debug.ActionText-2.idtx:36
 #: en_US.Win32.Release.ActionText-2.idtx:36
 #: en_US.x64.Debug.ActionText-2.idtx:36 en_US.x64.Release.ActionText-2.idtx:36
 msgid "Registering extension servers"
 msgstr "エクステンション サーバーを登録しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:36
+#: en_US.ARM64.Debug.ActionText-2.idtx:66
+#: en_US.ARM64.Release.ActionText-2.idtx:36
+#: en_US.ARM64.Release.ActionText-2.idtx:66
 #: en_US.Win32.Debug.ActionText-2.idtx:36
 #: en_US.Win32.Debug.ActionText-2.idtx:66
 #: en_US.Win32.Release.ActionText-2.idtx:36
@@ -393,12 +532,18 @@ msgstr "エクステンション サーバーを登録しています"
 msgid "Extension: [1]"
 msgstr "エクステンション: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:37
+#: en_US.ARM64.Release.ActionText-2.idtx:37
 #: en_US.Win32.Debug.ActionText-2.idtx:37
 #: en_US.Win32.Release.ActionText-2.idtx:37
 #: en_US.x64.Debug.ActionText-2.idtx:37 en_US.x64.Release.ActionText-2.idtx:37
 msgid "Registering fonts"
 msgstr "フォントを登録しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:37
+#: en_US.ARM64.Debug.ActionText-2.idtx:67
+#: en_US.ARM64.Release.ActionText-2.idtx:37
+#: en_US.ARM64.Release.ActionText-2.idtx:67
 #: en_US.Win32.Debug.ActionText-2.idtx:37
 #: en_US.Win32.Debug.ActionText-2.idtx:67
 #: en_US.Win32.Release.ActionText-2.idtx:37
@@ -409,12 +554,18 @@ msgstr "フォントを登録しています"
 msgid "Font: [1]"
 msgstr "フォント: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:38
+#: en_US.ARM64.Release.ActionText-2.idtx:38
 #: en_US.Win32.Debug.ActionText-2.idtx:38
 #: en_US.Win32.Release.ActionText-2.idtx:38
 #: en_US.x64.Debug.ActionText-2.idtx:38 en_US.x64.Release.ActionText-2.idtx:38
 msgid "Registering MIME info"
 msgstr "MIME 情報を登録しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:38
+#: en_US.ARM64.Debug.ActionText-2.idtx:68
+#: en_US.ARM64.Release.ActionText-2.idtx:38
+#: en_US.ARM64.Release.ActionText-2.idtx:68
 #: en_US.Win32.Debug.ActionText-2.idtx:38
 #: en_US.Win32.Debug.ActionText-2.idtx:68
 #: en_US.Win32.Release.ActionText-2.idtx:38
@@ -425,18 +576,26 @@ msgstr "MIME 情報を登録しています"
 msgid "MIME Content Type: [1], Extension: [2]"
 msgstr "MIME コンテント タイプ: [1]、エクステンション: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:39
+#: en_US.ARM64.Release.ActionText-2.idtx:39
 #: en_US.Win32.Debug.ActionText-2.idtx:39
 #: en_US.Win32.Release.ActionText-2.idtx:39
 #: en_US.x64.Debug.ActionText-2.idtx:39 en_US.x64.Release.ActionText-2.idtx:39
 msgid "Registering product"
 msgstr "製品を登録しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:40
+#: en_US.ARM64.Release.ActionText-2.idtx:40
 #: en_US.Win32.Debug.ActionText-2.idtx:40
 #: en_US.Win32.Release.ActionText-2.idtx:40
 #: en_US.x64.Debug.ActionText-2.idtx:40 en_US.x64.Release.ActionText-2.idtx:40
 msgid "Registering program identifiers"
 msgstr "プログラム識別子を登録しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:40
+#: en_US.ARM64.Debug.ActionText-2.idtx:69
+#: en_US.ARM64.Release.ActionText-2.idtx:40
+#: en_US.ARM64.Release.ActionText-2.idtx:69
 #: en_US.Win32.Debug.ActionText-2.idtx:40
 #: en_US.Win32.Debug.ActionText-2.idtx:69
 #: en_US.Win32.Release.ActionText-2.idtx:40
@@ -447,12 +606,18 @@ msgstr "プログラム識別子を登録しています"
 msgid "ProgId: [1]"
 msgstr "プログラム ID: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:41
+#: en_US.ARM64.Release.ActionText-2.idtx:41
 #: en_US.Win32.Debug.ActionText-2.idtx:41
 #: en_US.Win32.Release.ActionText-2.idtx:41
 #: en_US.x64.Debug.ActionText-2.idtx:41 en_US.x64.Release.ActionText-2.idtx:41
 msgid "Registering type libraries"
 msgstr "種類のライブラリを登録しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:41
+#: en_US.ARM64.Debug.ActionText-2.idtx:70
+#: en_US.ARM64.Release.ActionText-2.idtx:41
+#: en_US.ARM64.Release.ActionText-2.idtx:70
 #: en_US.Win32.Debug.ActionText-2.idtx:41
 #: en_US.Win32.Debug.ActionText-2.idtx:70
 #: en_US.Win32.Release.ActionText-2.idtx:41
@@ -463,18 +628,28 @@ msgstr "種類のライブラリを登録しています"
 msgid "LibID: [1]"
 msgstr "ライブラリ ID: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:42
+#: en_US.ARM64.Release.ActionText-2.idtx:42
 #: en_US.Win32.Debug.ActionText-2.idtx:42
 #: en_US.Win32.Release.ActionText-2.idtx:42
 #: en_US.x64.Debug.ActionText-2.idtx:42 en_US.x64.Release.ActionText-2.idtx:42
 msgid "Registering user"
 msgstr "ユーザーを登録しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:43
+#: en_US.ARM64.Release.ActionText-2.idtx:43
 #: en_US.Win32.Debug.ActionText-2.idtx:43
 #: en_US.Win32.Release.ActionText-2.idtx:43
 #: en_US.x64.Debug.ActionText-2.idtx:43 en_US.x64.Release.ActionText-2.idtx:43
 msgid "Removing duplicated files"
 msgstr "重複しているファイルを削除しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:43
+#: en_US.ARM64.Debug.ActionText-2.idtx:46
+#: en_US.ARM64.Debug.ActionText-2.idtx:60
+#: en_US.ARM64.Release.ActionText-2.idtx:43
+#: en_US.ARM64.Release.ActionText-2.idtx:46
+#: en_US.ARM64.Release.ActionText-2.idtx:60
 #: en_US.Win32.Debug.ActionText-2.idtx:43
 #: en_US.Win32.Debug.ActionText-2.idtx:46
 #: en_US.Win32.Debug.ActionText-2.idtx:60
@@ -488,6 +663,10 @@ msgstr "重複しているファイルを削除しています"
 msgid "File: [1], Directory: [9]"
 msgstr "ファイル: [1]、 ディレクトリ: [9]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:44
+#: en_US.ARM64.Debug.ActionText-2.idtx:71
+#: en_US.ARM64.Release.ActionText-2.idtx:44
+#: en_US.ARM64.Release.ActionText-2.idtx:71
 #: en_US.Win32.Debug.ActionText-2.idtx:44
 #: en_US.Win32.Debug.ActionText-2.idtx:71
 #: en_US.Win32.Release.ActionText-2.idtx:44
@@ -498,6 +677,10 @@ msgstr "ファイル: [1]、 ディレクトリ: [9]"
 msgid "Updating environment strings"
 msgstr "環境ストリングを更新しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:44
+#: en_US.ARM64.Debug.ActionText-2.idtx:71
+#: en_US.ARM64.Release.ActionText-2.idtx:44
+#: en_US.ARM64.Release.ActionText-2.idtx:71
 #: en_US.Win32.Debug.ActionText-2.idtx:44
 #: en_US.Win32.Debug.ActionText-2.idtx:71
 #: en_US.Win32.Release.ActionText-2.idtx:44
@@ -508,36 +691,50 @@ msgstr "環境ストリングを更新しています"
 msgid "Name: [1], Value: [2], Action [3]"
 msgstr "名前: [1]、値: [2]、操作 [3]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:45
+#: en_US.ARM64.Release.ActionText-2.idtx:45
 #: en_US.Win32.Debug.ActionText-2.idtx:45
 #: en_US.Win32.Release.ActionText-2.idtx:45
 #: en_US.x64.Debug.ActionText-2.idtx:45 en_US.x64.Release.ActionText-2.idtx:45
 msgid "Removing applications"
 msgstr "アプリケーションを削除しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:45
+#: en_US.ARM64.Release.ActionText-2.idtx:45
 #: en_US.Win32.Debug.ActionText-2.idtx:45
 #: en_US.Win32.Release.ActionText-2.idtx:45
 #: en_US.x64.Debug.ActionText-2.idtx:45 en_US.x64.Release.ActionText-2.idtx:45
 msgid "Application: [1], Command line: [2]"
 msgstr "アプリケーション : [1], コマンド ライン : [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:46
+#: en_US.ARM64.Release.ActionText-2.idtx:46
 #: en_US.Win32.Debug.ActionText-2.idtx:46
 #: en_US.Win32.Release.ActionText-2.idtx:46
 #: en_US.x64.Debug.ActionText-2.idtx:46 en_US.x64.Release.ActionText-2.idtx:46
 msgid "Removing files"
 msgstr "ファイルを削除しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:47
+#: en_US.ARM64.Release.ActionText-2.idtx:47
 #: en_US.Win32.Debug.ActionText-2.idtx:47
 #: en_US.Win32.Release.ActionText-2.idtx:47
 #: en_US.x64.Debug.ActionText-2.idtx:47 en_US.x64.Release.ActionText-2.idtx:47
 msgid "Removing folders"
 msgstr "フォルダを削除しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:48
+#: en_US.ARM64.Release.ActionText-2.idtx:48
 #: en_US.Win32.Debug.ActionText-2.idtx:48
 #: en_US.Win32.Release.ActionText-2.idtx:48
 #: en_US.x64.Debug.ActionText-2.idtx:48 en_US.x64.Release.ActionText-2.idtx:48
 msgid "Removing INI files entries"
 msgstr "INI ファイルのエントリを削除しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:48
+#: en_US.ARM64.Debug.ActionText-2.idtx:72
+#: en_US.ARM64.Release.ActionText-2.idtx:48
+#: en_US.ARM64.Release.ActionText-2.idtx:72
 #: en_US.Win32.Debug.ActionText-2.idtx:48
 #: en_US.Win32.Debug.ActionText-2.idtx:72
 #: en_US.Win32.Release.ActionText-2.idtx:48
@@ -548,48 +745,66 @@ msgstr "INI ファイルのエントリを削除しています"
 msgid "File: [1],  Section: [2],  Key: [3], Value: [4]"
 msgstr "ファイル: [1]、セクション: [2]、キー: [3]、値: [4]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:49
+#: en_US.ARM64.Release.ActionText-2.idtx:49
 #: en_US.Win32.Debug.ActionText-2.idtx:49
 #: en_US.Win32.Release.ActionText-2.idtx:49
 #: en_US.x64.Debug.ActionText-2.idtx:49 en_US.x64.Release.ActionText-2.idtx:49
 msgid "Removing ODBC components"
 msgstr "ODBC コンポーネントを削除しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:50
+#: en_US.ARM64.Release.ActionText-2.idtx:50
 #: en_US.Win32.Debug.ActionText-2.idtx:50
 #: en_US.Win32.Release.ActionText-2.idtx:50
 #: en_US.x64.Debug.ActionText-2.idtx:50 en_US.x64.Release.ActionText-2.idtx:50
 msgid "Removing system registry values"
 msgstr "システム レジストリの値を削除しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:50
+#: en_US.ARM64.Release.ActionText-2.idtx:50
 #: en_US.Win32.Debug.ActionText-2.idtx:50
 #: en_US.Win32.Release.ActionText-2.idtx:50
 #: en_US.x64.Debug.ActionText-2.idtx:50 en_US.x64.Release.ActionText-2.idtx:50
 msgid "Key: [1], Name: [2]"
 msgstr "キー: [1]、名前: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:51
+#: en_US.ARM64.Release.ActionText-2.idtx:51
 #: en_US.Win32.Debug.ActionText-2.idtx:51
 #: en_US.Win32.Release.ActionText-2.idtx:51
 #: en_US.x64.Debug.ActionText-2.idtx:51 en_US.x64.Release.ActionText-2.idtx:51
 msgid "Removing shortcuts"
 msgstr "ショートカットを削除しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:53
+#: en_US.ARM64.Release.ActionText-2.idtx:53
 #: en_US.Win32.Debug.ActionText-2.idtx:53
 #: en_US.Win32.Release.ActionText-2.idtx:53
 #: en_US.x64.Debug.ActionText-2.idtx:53 en_US.x64.Release.ActionText-2.idtx:53
 msgid "Rolling back action:"
 msgstr "操作を元に戻しています:"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:54
+#: en_US.ARM64.Release.ActionText-2.idtx:54
 #: en_US.Win32.Debug.ActionText-2.idtx:54
 #: en_US.Win32.Release.ActionText-2.idtx:54
 #: en_US.x64.Debug.ActionText-2.idtx:54 en_US.x64.Release.ActionText-2.idtx:54
 msgid "Removing backup files"
 msgstr "バックアップ ファイルを削除しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:55
+#: en_US.ARM64.Release.ActionText-2.idtx:55
 #: en_US.Win32.Debug.ActionText-2.idtx:55
 #: en_US.Win32.Release.ActionText-2.idtx:55
 #: en_US.x64.Debug.ActionText-2.idtx:55 en_US.x64.Release.ActionText-2.idtx:55
 msgid "Registering modules"
 msgstr "モジュールを登録しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:55
+#: en_US.ARM64.Debug.ActionText-2.idtx:56
+#: en_US.ARM64.Release.ActionText-2.idtx:55
+#: en_US.ARM64.Release.ActionText-2.idtx:56
 #: en_US.Win32.Debug.ActionText-2.idtx:55
 #: en_US.Win32.Debug.ActionText-2.idtx:56
 #: en_US.Win32.Release.ActionText-2.idtx:55
@@ -600,128 +815,176 @@ msgstr "モジュールを登録しています"
 msgid "File: [1], Folder: [2]"
 msgstr "ファイル: [1]、フォルダ: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:56
+#: en_US.ARM64.Release.ActionText-2.idtx:56
 #: en_US.Win32.Debug.ActionText-2.idtx:56
 #: en_US.Win32.Release.ActionText-2.idtx:56
 #: en_US.x64.Debug.ActionText-2.idtx:56 en_US.x64.Release.ActionText-2.idtx:56
 msgid "Unregistering modules"
 msgstr "モジュールの登録を解除しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:57
+#: en_US.ARM64.Release.ActionText-2.idtx:57
 #: en_US.Win32.Debug.ActionText-2.idtx:57
 #: en_US.Win32.Release.ActionText-2.idtx:57
 #: en_US.x64.Debug.ActionText-2.idtx:57 en_US.x64.Release.ActionText-2.idtx:57
 msgid "Initializing ODBC directories"
 msgstr "ODBC ディレクトリを初期化しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:58
+#: en_US.ARM64.Release.ActionText-2.idtx:58
 #: en_US.Win32.Debug.ActionText-2.idtx:58
 #: en_US.Win32.Release.ActionText-2.idtx:58
 #: en_US.x64.Debug.ActionText-2.idtx:58 en_US.x64.Release.ActionText-2.idtx:58
 msgid "Starting services"
 msgstr "サービスを開始しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:59
+#: en_US.ARM64.Release.ActionText-2.idtx:59
 #: en_US.Win32.Debug.ActionText-2.idtx:59
 #: en_US.Win32.Release.ActionText-2.idtx:59
 #: en_US.x64.Debug.ActionText-2.idtx:59 en_US.x64.Release.ActionText-2.idtx:59
 msgid "Stopping services"
 msgstr "サービスを停止しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:60
+#: en_US.ARM64.Release.ActionText-2.idtx:60
 #: en_US.Win32.Debug.ActionText-2.idtx:60
 #: en_US.Win32.Release.ActionText-2.idtx:60
 #: en_US.x64.Debug.ActionText-2.idtx:60 en_US.x64.Release.ActionText-2.idtx:60
 msgid "Removing moved files"
 msgstr "移動したファイルを削除しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:61
+#: en_US.ARM64.Release.ActionText-2.idtx:61
 #: en_US.Win32.Debug.ActionText-2.idtx:61
 #: en_US.Win32.Release.ActionText-2.idtx:61
 #: en_US.x64.Debug.ActionText-2.idtx:61 en_US.x64.Release.ActionText-2.idtx:61
 msgid "Unpublishing Qualified Components"
 msgstr "条件に合うコンポーネントを非公開にしています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:62
+#: en_US.ARM64.Release.ActionText-2.idtx:62
 #: en_US.Win32.Debug.ActionText-2.idtx:62
 #: en_US.Win32.Release.ActionText-2.idtx:62
 #: en_US.x64.Debug.ActionText-2.idtx:62 en_US.x64.Release.ActionText-2.idtx:62
 msgid "Unpublishing Product Features"
 msgstr "製品機能を非公開にしています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:63
+#: en_US.ARM64.Release.ActionText-2.idtx:63
 #: en_US.Win32.Debug.ActionText-2.idtx:63
 #: en_US.Win32.Release.ActionText-2.idtx:63
 #: en_US.x64.Debug.ActionText-2.idtx:63 en_US.x64.Release.ActionText-2.idtx:63
 msgid "Unpublishing product information"
 msgstr "製品情報を非公開にしています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:64
+#: en_US.ARM64.Release.ActionText-2.idtx:64
 #: en_US.Win32.Debug.ActionText-2.idtx:64
 #: en_US.Win32.Release.ActionText-2.idtx:64
 #: en_US.x64.Debug.ActionText-2.idtx:64 en_US.x64.Release.ActionText-2.idtx:64
 msgid "Unregister Class servers"
 msgstr "クラス サーバーの登録を解除しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:65
+#: en_US.ARM64.Release.ActionText-2.idtx:65
 #: en_US.Win32.Debug.ActionText-2.idtx:65
 #: en_US.Win32.Release.ActionText-2.idtx:65
 #: en_US.x64.Debug.ActionText-2.idtx:65 en_US.x64.Release.ActionText-2.idtx:65
 msgid "Unregistering COM+ Applications and Components"
 msgstr "COM+ アプリケーションとコンポーネントの登録を解除しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:65
+#: en_US.ARM64.Release.ActionText-2.idtx:65
 #: en_US.Win32.Debug.ActionText-2.idtx:65
 #: en_US.Win32.Release.ActionText-2.idtx:65
 #: en_US.x64.Debug.ActionText-2.idtx:65 en_US.x64.Release.ActionText-2.idtx:65
 msgid "AppId: [1]{{, AppType: [2]}}"
 msgstr "AppId : [1]{{, AppType : [2]}}"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:66
+#: en_US.ARM64.Release.ActionText-2.idtx:66
 #: en_US.Win32.Debug.ActionText-2.idtx:66
 #: en_US.Win32.Release.ActionText-2.idtx:66
 #: en_US.x64.Debug.ActionText-2.idtx:66 en_US.x64.Release.ActionText-2.idtx:66
 msgid "Unregistering extension servers"
 msgstr "エクステンション サーバーの登録を解除しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:67
+#: en_US.ARM64.Release.ActionText-2.idtx:67
 #: en_US.Win32.Debug.ActionText-2.idtx:67
 #: en_US.Win32.Release.ActionText-2.idtx:67
 #: en_US.x64.Debug.ActionText-2.idtx:67 en_US.x64.Release.ActionText-2.idtx:67
 msgid "Unregistering fonts"
 msgstr "フォントの登録を解除しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:68
+#: en_US.ARM64.Release.ActionText-2.idtx:68
 #: en_US.Win32.Debug.ActionText-2.idtx:68
 #: en_US.Win32.Release.ActionText-2.idtx:68
 #: en_US.x64.Debug.ActionText-2.idtx:68 en_US.x64.Release.ActionText-2.idtx:68
 msgid "Unregistering MIME info"
 msgstr "MIME 情報の登録を解除しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:69
+#: en_US.ARM64.Release.ActionText-2.idtx:69
 #: en_US.Win32.Debug.ActionText-2.idtx:69
 #: en_US.Win32.Release.ActionText-2.idtx:69
 #: en_US.x64.Debug.ActionText-2.idtx:69 en_US.x64.Release.ActionText-2.idtx:69
 msgid "Unregistering program identifiers"
 msgstr "プログラム識別子の登録を解除しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:70
+#: en_US.ARM64.Release.ActionText-2.idtx:70
 #: en_US.Win32.Debug.ActionText-2.idtx:70
 #: en_US.Win32.Release.ActionText-2.idtx:70
 #: en_US.x64.Debug.ActionText-2.idtx:70 en_US.x64.Release.ActionText-2.idtx:70
 msgid "Unregistering type libraries"
 msgstr "種類のライブラリの登録を解除しています"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:72
+#: en_US.ARM64.Release.ActionText-2.idtx:72
 #: en_US.Win32.Debug.ActionText-2.idtx:72
 #: en_US.Win32.Release.ActionText-2.idtx:72
 #: en_US.x64.Debug.ActionText-2.idtx:72 en_US.x64.Release.ActionText-2.idtx:72
 msgid "Writing INI files values"
 msgstr "INI ファイルに値を書き込んでいます"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:73
+#: en_US.ARM64.Release.ActionText-2.idtx:73
 #: en_US.Win32.Debug.ActionText-2.idtx:73
 #: en_US.Win32.Release.ActionText-2.idtx:73
 #: en_US.x64.Debug.ActionText-2.idtx:73 en_US.x64.Release.ActionText-2.idtx:73
 msgid "Writing system registry values"
 msgstr "システム レジストリの値を書き込んでいます"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:73
+#: en_US.ARM64.Release.ActionText-2.idtx:73
 #: en_US.Win32.Debug.ActionText-2.idtx:73
 #: en_US.Win32.Release.ActionText-2.idtx:73
 #: en_US.x64.Debug.ActionText-2.idtx:73 en_US.x64.Release.ActionText-2.idtx:73
 msgid "Key: [1], Name: [2], Value: [3]"
 msgstr "キー: [1]、 名前: [2]、 値: [3]"
 
-#: en_US.Win32.Debug.CustomAction-2.idtx:4
-#: en_US.Win32.Release.CustomAction-2.idtx:4
-msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
-" 64-bit operating system. 32-bit variant will not work with your operating "
-"system. The installation of the 64-bit variant is recommended."
+#: en_US.ARM64.Debug.ActionText-2.idtx:74
+#: en_US.ARM64.Release.ActionText-2.idtx:74
+#: en_US.Win32.Debug.ActionText-2.idtx:74
+#: en_US.Win32.Release.ActionText-2.idtx:74
+#: en_US.x64.Debug.ActionText-2.idtx:74 en_US.x64.Release.ActionText-2.idtx:74
+msgid "Evaluating Active Setup components"
 msgstr ""
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:75
+#: en_US.ARM64.Release.ActionText-2.idtx:75
+#: en_US.Win32.Debug.ActionText-2.idtx:75
+#: en_US.Win32.Release.ActionText-2.idtx:75
+#: en_US.x64.Debug.ActionText-2.idtx:75 en_US.x64.Release.ActionText-2.idtx:75
+msgid "Publishing Active Setup components"
+msgstr ""
+
+#: en_US.ARM64.Debug.CustomAction-2.idtx:4
+#: en_US.ARM64.Release.CustomAction-2.idtx:4
 #: en_US.Win32.Debug.CustomAction-2.idtx:5
 #: en_US.Win32.Release.CustomAction-2.idtx:5
 #: en_US.x64.Debug.CustomAction-2.idtx:4
@@ -729,6 +992,8 @@ msgstr ""
 msgid "A newer version of [SimpleProductName] is already installed."
 msgstr ""
 
+#: en_US.ARM64.Debug.CustomAction-2.idtx:5
+#: en_US.ARM64.Release.CustomAction-2.idtx:5
 #: en_US.Win32.Debug.CustomAction-2.idtx:6
 #: en_US.Win32.Release.CustomAction-2.idtx:6
 #: en_US.x64.Debug.CustomAction-2.idtx:5
@@ -738,26 +1003,31 @@ msgid ""
 "Please remove the old package first and retry."
 msgstr ""
 
+#: en_US.ARM64.Debug.Error-2.idtx:4 en_US.ARM64.Release.Error-2.idtx:4
 #: en_US.Win32.Debug.Error-2.idtx:4 en_US.Win32.Release.Error-2.idtx:4
 #: en_US.x64.Debug.Error-2.idtx:4 en_US.x64.Release.Error-2.idtx:4
 msgid "{{Fatal error: }}"
 msgstr "{{致命的なエラー: }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:5 en_US.ARM64.Release.Error-2.idtx:5
 #: en_US.Win32.Debug.Error-2.idtx:5 en_US.Win32.Release.Error-2.idtx:5
 #: en_US.x64.Debug.Error-2.idtx:5 en_US.x64.Release.Error-2.idtx:5
 msgid "{{Error [1]. }}"
 msgstr "{{エラー [1]。  }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:6 en_US.ARM64.Release.Error-2.idtx:6
 #: en_US.Win32.Debug.Error-2.idtx:6 en_US.Win32.Release.Error-2.idtx:6
 #: en_US.x64.Debug.Error-2.idtx:6 en_US.x64.Release.Error-2.idtx:6
 msgid "Warning [1]. "
 msgstr "警告 [1]。 "
 
+#: en_US.ARM64.Debug.Error-2.idtx:8 en_US.ARM64.Release.Error-2.idtx:8
 #: en_US.Win32.Debug.Error-2.idtx:8 en_US.Win32.Release.Error-2.idtx:8
 #: en_US.x64.Debug.Error-2.idtx:8 en_US.x64.Release.Error-2.idtx:8
 msgid "Info [1]. "
 msgstr "情報 [1]。 "
 
+#: en_US.ARM64.Debug.Error-2.idtx:9 en_US.ARM64.Release.Error-2.idtx:9
 #: en_US.Win32.Debug.Error-2.idtx:9 en_US.Win32.Release.Error-2.idtx:9
 #: en_US.x64.Debug.Error-2.idtx:9 en_US.x64.Release.Error-2.idtx:9
 msgid ""
@@ -768,56 +1038,68 @@ msgstr ""
 "このパッケージをインストールするときに予期しないエラーが検出されました。このパッケージは問題がある可能性があります。エラー コードは [1] です。 "
 "{{引数: [2], [3], [4]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:11 en_US.ARM64.Release.Error-2.idtx:11
 #: en_US.Win32.Debug.Error-2.idtx:11 en_US.Win32.Release.Error-2.idtx:11
 #: en_US.x64.Debug.Error-2.idtx:11 en_US.x64.Release.Error-2.idtx:11
 msgid "{{Disk full: }}"
 msgstr "{{ディスクがいっぱいです: }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:12 en_US.ARM64.Release.Error-2.idtx:12
 #: en_US.Win32.Debug.Error-2.idtx:12 en_US.Win32.Release.Error-2.idtx:12
 #: en_US.x64.Debug.Error-2.idtx:12 en_US.x64.Release.Error-2.idtx:12
 msgid "Action [Time]: [1]. [2]"
 msgstr "操作 [Time]: [1]。 [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:13 en_US.ARM64.Release.Error-2.idtx:13
 #: en_US.Win32.Debug.Error-2.idtx:13 en_US.Win32.Release.Error-2.idtx:13
 #: en_US.x64.Debug.Error-2.idtx:13 en_US.x64.Release.Error-2.idtx:13
 msgid "[SimpleProductName]"
 msgstr "[SimpleProductName]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:14 en_US.ARM64.Release.Error-2.idtx:14
 #: en_US.Win32.Debug.Error-2.idtx:14 en_US.Win32.Release.Error-2.idtx:14
 #: en_US.x64.Debug.Error-2.idtx:14 en_US.x64.Release.Error-2.idtx:14
 msgid "{[2]}{, [3]}{, [4]}"
 msgstr "{[2]}{, [3]}{, [4]}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:15 en_US.ARM64.Release.Error-2.idtx:15
 #: en_US.Win32.Debug.Error-2.idtx:15 en_US.Win32.Release.Error-2.idtx:15
 #: en_US.x64.Debug.Error-2.idtx:15 en_US.x64.Release.Error-2.idtx:15
 msgid "Message type: [1], Argument: [2]{, [3]}"
 msgstr "メッセージの種類: [1], 引数: [2]{, [3]}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:16 en_US.ARM64.Release.Error-2.idtx:16
 #: en_US.Win32.Debug.Error-2.idtx:16 en_US.Win32.Release.Error-2.idtx:16
 #: en_US.x64.Debug.Error-2.idtx:16 en_US.x64.Release.Error-2.idtx:16
 msgid "=== Logging started: [Date]  [Time] ==="
 msgstr "=== ログ開始: [Date]  [Time] ==="
 
+#: en_US.ARM64.Debug.Error-2.idtx:17 en_US.ARM64.Release.Error-2.idtx:17
 #: en_US.Win32.Debug.Error-2.idtx:17 en_US.Win32.Release.Error-2.idtx:17
 #: en_US.x64.Debug.Error-2.idtx:17 en_US.x64.Release.Error-2.idtx:17
 msgid "=== Logging stopped: [Date]  [Time] ==="
 msgstr "=== ログ終了: [Date]  [Time] ==="
 
+#: en_US.ARM64.Debug.Error-2.idtx:18 en_US.ARM64.Release.Error-2.idtx:18
 #: en_US.Win32.Debug.Error-2.idtx:18 en_US.Win32.Release.Error-2.idtx:18
 #: en_US.x64.Debug.Error-2.idtx:18 en_US.x64.Release.Error-2.idtx:18
 msgid "Action start [Time]: [1]."
 msgstr "操作開始 [Time]: [1]。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:19 en_US.ARM64.Release.Error-2.idtx:19
 #: en_US.Win32.Debug.Error-2.idtx:19 en_US.Win32.Release.Error-2.idtx:19
 #: en_US.x64.Debug.Error-2.idtx:19 en_US.x64.Release.Error-2.idtx:19
 msgid "Action ended [Time]: [1]. Return value [2]."
 msgstr "操作終了 [Time]: [1]。 戻り値 [2]。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:20 en_US.ARM64.Release.Error-2.idtx:20
 #: en_US.Win32.Debug.Error-2.idtx:20 en_US.Win32.Release.Error-2.idtx:20
 #: en_US.x64.Debug.Error-2.idtx:20 en_US.x64.Release.Error-2.idtx:20
 msgid "Time remaining: {[1] minutes }{[2] seconds}"
 msgstr "残り時間: {[1] 分 }{[2] 秒}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:21 en_US.ARM64.Debug.Error-2.idtx:127
+#: en_US.ARM64.Release.Error-2.idtx:21 en_US.ARM64.Release.Error-2.idtx:127
 #: en_US.Win32.Debug.Error-2.idtx:21 en_US.Win32.Debug.Error-2.idtx:127
 #: en_US.Win32.Release.Error-2.idtx:21 en_US.Win32.Release.Error-2.idtx:127
 #: en_US.x64.Debug.Error-2.idtx:21 en_US.x64.Debug.Error-2.idtx:127
@@ -825,46 +1107,55 @@ msgstr "残り時間: {[1] 分 }{[2] 秒}"
 msgid "Out of memory. Shut down other applications before retrying."
 msgstr "メモリ不足です。ほかのアプリケーションを閉じてから、再試行してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:22 en_US.ARM64.Release.Error-2.idtx:22
 #: en_US.Win32.Debug.Error-2.idtx:22 en_US.Win32.Release.Error-2.idtx:22
 #: en_US.x64.Debug.Error-2.idtx:22 en_US.x64.Release.Error-2.idtx:22
 msgid "Installer is no longer responding."
 msgstr "インストール プログラムから応答がありません。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:23 en_US.ARM64.Release.Error-2.idtx:23
 #: en_US.Win32.Debug.Error-2.idtx:23 en_US.Win32.Release.Error-2.idtx:23
 #: en_US.x64.Debug.Error-2.idtx:23 en_US.x64.Release.Error-2.idtx:23
 msgid "Installer stopped prematurely."
 msgstr "インストール プログラムは完了前に中断されました。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:24 en_US.ARM64.Release.Error-2.idtx:24
 #: en_US.Win32.Debug.Error-2.idtx:24 en_US.Win32.Release.Error-2.idtx:24
 #: en_US.x64.Debug.Error-2.idtx:24 en_US.x64.Release.Error-2.idtx:24
 msgid "Please wait while Windows configures [SimpleProductName]"
 msgstr "Windows に [SimpleProductName] を設定しています。しばらくお待ちください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:25 en_US.ARM64.Release.Error-2.idtx:25
 #: en_US.Win32.Debug.Error-2.idtx:25 en_US.Win32.Release.Error-2.idtx:25
 #: en_US.x64.Debug.Error-2.idtx:25 en_US.x64.Release.Error-2.idtx:25
 msgid "Gathering required information..."
 msgstr "必要な情報を集めています..."
 
+#: en_US.ARM64.Debug.Error-2.idtx:26 en_US.ARM64.Release.Error-2.idtx:26
 #: en_US.Win32.Debug.Error-2.idtx:26 en_US.Win32.Release.Error-2.idtx:26
 #: en_US.x64.Debug.Error-2.idtx:26 en_US.x64.Release.Error-2.idtx:26
 msgid "Removing older versions of this application..."
 msgstr "このアプリケーションの古いバージョンを削除しています..."
 
+#: en_US.ARM64.Debug.Error-2.idtx:27 en_US.ARM64.Release.Error-2.idtx:27
 #: en_US.Win32.Debug.Error-2.idtx:27 en_US.Win32.Release.Error-2.idtx:27
 #: en_US.x64.Debug.Error-2.idtx:27 en_US.x64.Release.Error-2.idtx:27
 msgid "Preparing to remove older versions of this application..."
 msgstr "このアプリケーションの古いバージョンを削除する準備をしています..."
 
+#: en_US.ARM64.Debug.Error-2.idtx:28 en_US.ARM64.Release.Error-2.idtx:28
 #: en_US.Win32.Debug.Error-2.idtx:28 en_US.Win32.Release.Error-2.idtx:28
 #: en_US.x64.Debug.Error-2.idtx:28 en_US.x64.Release.Error-2.idtx:28
 msgid "{[SimpleProductName] }Setup completed successfully."
 msgstr "{[SimpleProductName] }のセットアップを正しく完了しました。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:29 en_US.ARM64.Release.Error-2.idtx:29
 #: en_US.Win32.Debug.Error-2.idtx:29 en_US.Win32.Release.Error-2.idtx:29
 #: en_US.x64.Debug.Error-2.idtx:29 en_US.x64.Release.Error-2.idtx:29
 msgid "{[SimpleProductName] }Setup failed."
 msgstr "{[SimpleProductName] }のセットアップに失敗しました。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:30 en_US.ARM64.Release.Error-2.idtx:30
 #: en_US.Win32.Debug.Error-2.idtx:30 en_US.Win32.Release.Error-2.idtx:30
 #: en_US.x64.Debug.Error-2.idtx:30 en_US.x64.Release.Error-2.idtx:30
 msgid ""
@@ -873,6 +1164,7 @@ msgid ""
 msgstr ""
 "ファイルを読み取るときにエラーが発生しました: [2]。{{ システム エラー [3]。}} ファイルが存在し、アクセスできることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:31 en_US.ARM64.Release.Error-2.idtx:31
 #: en_US.Win32.Debug.Error-2.idtx:31 en_US.Win32.Release.Error-2.idtx:31
 #: en_US.x64.Debug.Error-2.idtx:31 en_US.x64.Release.Error-2.idtx:31
 msgid ""
@@ -880,11 +1172,13 @@ msgid ""
 "Cancel the install and try installing to a different location."
 msgstr "ファイル '[2]' を作成できません。この名前のディレクトリが既にあります。インストールを取り消し、別の場所にインストールしてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:32 en_US.ARM64.Release.Error-2.idtx:32
 #: en_US.Win32.Debug.Error-2.idtx:32 en_US.Win32.Release.Error-2.idtx:32
 #: en_US.x64.Debug.Error-2.idtx:32 en_US.x64.Release.Error-2.idtx:32
 msgid "Please insert the disk: [2]"
 msgstr "ディスク [2] を挿入してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:33 en_US.ARM64.Release.Error-2.idtx:33
 #: en_US.Win32.Debug.Error-2.idtx:33 en_US.Win32.Release.Error-2.idtx:33
 #: en_US.x64.Debug.Error-2.idtx:33 en_US.x64.Release.Error-2.idtx:33
 msgid ""
@@ -895,12 +1189,14 @@ msgstr ""
 "インストール プログラムにはディレクトリ [2] にアクセスするための特権が不足しています。インストールを続行できません。Administrator "
 "としてログオンするか、またはシステム管理者に問い合わせてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:34 en_US.ARM64.Release.Error-2.idtx:34
 #: en_US.Win32.Debug.Error-2.idtx:34 en_US.Win32.Release.Error-2.idtx:34
 #: en_US.x64.Debug.Error-2.idtx:34 en_US.x64.Release.Error-2.idtx:34
 msgid ""
 "Error writing to file: [2].  Verify that you have access to that directory."
 msgstr "ファイルに書き込むときにエラーが発生しました: [2]。このディレクトリにアクセスできることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:35 en_US.ARM64.Release.Error-2.idtx:35
 #: en_US.Win32.Debug.Error-2.idtx:35 en_US.Win32.Release.Error-2.idtx:35
 #: en_US.x64.Debug.Error-2.idtx:35 en_US.x64.Release.Error-2.idtx:35
 msgid ""
@@ -908,6 +1204,7 @@ msgid ""
 "exists and that you can access it."
 msgstr "ファイル [2] の読み込みに失敗しました。{{ システム エラー [3]。}} ファイルが存在しアクセス権があることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:36 en_US.ARM64.Release.Error-2.idtx:36
 #: en_US.Win32.Debug.Error-2.idtx:36 en_US.Win32.Release.Error-2.idtx:36
 #: en_US.x64.Debug.Error-2.idtx:36 en_US.x64.Release.Error-2.idtx:36
 msgid ""
@@ -916,6 +1213,7 @@ msgid ""
 msgstr ""
 "ファイル '[2]' は別のアプリケーションで使用されています。開いているアプリケーションをすべて終了してから、［再試行］をクリックしてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:37 en_US.ARM64.Release.Error-2.idtx:37
 #: en_US.Win32.Debug.Error-2.idtx:37 en_US.Win32.Release.Error-2.idtx:37
 #: en_US.x64.Debug.Error-2.idtx:37 en_US.x64.Release.Error-2.idtx:37
 msgid ""
@@ -925,6 +1223,7 @@ msgstr ""
 "ファイル [2] "
 "をインストールするためのディスク領域が不足しています。ディスク領域を解放してから、［再試行］をクリックしてください。終了する場合は［キャンセル］をクリックします。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:38 en_US.ARM64.Release.Error-2.idtx:38
 #: en_US.Win32.Debug.Error-2.idtx:38 en_US.Win32.Release.Error-2.idtx:38
 #: en_US.x64.Debug.Error-2.idtx:38 en_US.x64.Release.Error-2.idtx:38
 msgid ""
@@ -932,6 +1231,7 @@ msgid ""
 "access it."
 msgstr "ソース ファイル [2] が見つかりません。ファイルが存在し、アクセスできることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:39 en_US.ARM64.Release.Error-2.idtx:39
 #: en_US.Win32.Debug.Error-2.idtx:39 en_US.Win32.Release.Error-2.idtx:39
 #: en_US.x64.Debug.Error-2.idtx:39 en_US.x64.Release.Error-2.idtx:39
 msgid ""
@@ -940,6 +1240,7 @@ msgid ""
 msgstr ""
 "ファイルを読み取るときにエラーが発生しました: [3]。{{ システム エラー [2]。}} ファイルが存在し、アクセスできることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:40 en_US.ARM64.Release.Error-2.idtx:40
 #: en_US.Win32.Debug.Error-2.idtx:40 en_US.Win32.Release.Error-2.idtx:40
 #: en_US.x64.Debug.Error-2.idtx:40 en_US.x64.Release.Error-2.idtx:40
 msgid ""
@@ -948,6 +1249,7 @@ msgid ""
 msgstr ""
 "ファイルに書き込むときにエラーが発生しました: [3]。{{ システム エラー[2]。}} このディレクトリにアクセスできることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:41 en_US.ARM64.Release.Error-2.idtx:41
 #: en_US.Win32.Debug.Error-2.idtx:41 en_US.Win32.Release.Error-2.idtx:41
 #: en_US.x64.Debug.Error-2.idtx:41 en_US.x64.Release.Error-2.idtx:41
 msgid ""
@@ -955,6 +1257,7 @@ msgid ""
 "that you can access it."
 msgstr "ソース ファイルが見つかりません。{{(cabinet)}}: [2]。ファイルが存在し、アクセスできることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:42 en_US.ARM64.Release.Error-2.idtx:42
 #: en_US.Win32.Debug.Error-2.idtx:42 en_US.Win32.Release.Error-2.idtx:42
 #: en_US.x64.Debug.Error-2.idtx:42 en_US.x64.Release.Error-2.idtx:42
 msgid ""
@@ -964,36 +1267,43 @@ msgstr ""
 "ディレクトリ '[2]' "
 "を作成できません。この名前のファイルが既にあります。ファイルの名前を変更するか、ファイルを削除してから、［再試行］をクリックしてください。または、［キャンセル］をクリックして、終了してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:43 en_US.ARM64.Release.Error-2.idtx:43
 #: en_US.Win32.Debug.Error-2.idtx:43 en_US.Win32.Release.Error-2.idtx:43
 #: en_US.x64.Debug.Error-2.idtx:43 en_US.x64.Release.Error-2.idtx:43
 msgid "The volume [2] is currently unavailable.  Please select another."
 msgstr "ボリューム [2] は現在使用できません。別のボリュームを選択してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:44 en_US.ARM64.Release.Error-2.idtx:44
 #: en_US.Win32.Debug.Error-2.idtx:44 en_US.Win32.Release.Error-2.idtx:44
 #: en_US.x64.Debug.Error-2.idtx:44 en_US.x64.Release.Error-2.idtx:44
 msgid "The specified path '[2]' is unavailable."
 msgstr "指定されたパス '[2]' は使用できません。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:45 en_US.ARM64.Release.Error-2.idtx:45
 #: en_US.Win32.Debug.Error-2.idtx:45 en_US.Win32.Release.Error-2.idtx:45
 #: en_US.x64.Debug.Error-2.idtx:45 en_US.x64.Release.Error-2.idtx:45
 msgid "Unable to write to the specified folder: [2]."
 msgstr "指定されたフォルダに書き込めません: [2]。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:46 en_US.ARM64.Release.Error-2.idtx:46
 #: en_US.Win32.Debug.Error-2.idtx:46 en_US.Win32.Release.Error-2.idtx:46
 #: en_US.x64.Debug.Error-2.idtx:46 en_US.x64.Release.Error-2.idtx:46
 msgid "A network error occurred while attempting to read from the file: [2]"
 msgstr "次のファイルを読み取り中に、ネットワーク エラーが発生しました: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:47 en_US.ARM64.Release.Error-2.idtx:47
 #: en_US.Win32.Debug.Error-2.idtx:47 en_US.Win32.Release.Error-2.idtx:47
 #: en_US.x64.Debug.Error-2.idtx:47 en_US.x64.Release.Error-2.idtx:47
 msgid "An error occurred while attempting to create the directory: [2]"
 msgstr "ディレクトリ [2] を作成中に、エラーが発生しました。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:48 en_US.ARM64.Release.Error-2.idtx:48
 #: en_US.Win32.Debug.Error-2.idtx:48 en_US.Win32.Release.Error-2.idtx:48
 #: en_US.x64.Debug.Error-2.idtx:48 en_US.x64.Release.Error-2.idtx:48
 msgid "A network error occurred while attempting to create the directory: [2]"
 msgstr "ディレクトリ [2] を作成中に、ネットワーク エラーが発生しました。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:49 en_US.ARM64.Release.Error-2.idtx:49
 #: en_US.Win32.Debug.Error-2.idtx:49 en_US.Win32.Release.Error-2.idtx:49
 #: en_US.x64.Debug.Error-2.idtx:49 en_US.x64.Release.Error-2.idtx:49
 msgid ""
@@ -1001,16 +1311,19 @@ msgid ""
 "[2]"
 msgstr "ソース ファイル キャビネットを開いている途中で、ネットワーク エラーが発生しました: [2]。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:50 en_US.ARM64.Release.Error-2.idtx:50
 #: en_US.Win32.Debug.Error-2.idtx:50 en_US.Win32.Release.Error-2.idtx:50
 #: en_US.x64.Debug.Error-2.idtx:50 en_US.x64.Release.Error-2.idtx:50
 msgid "The specified path is too long: [2]"
 msgstr "指定されたパスは長すぎます: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:51 en_US.ARM64.Release.Error-2.idtx:51
 #: en_US.Win32.Debug.Error-2.idtx:51 en_US.Win32.Release.Error-2.idtx:51
 #: en_US.x64.Debug.Error-2.idtx:51 en_US.x64.Release.Error-2.idtx:51
 msgid "The Installer has insufficient privileges to modify this file: [2]."
 msgstr "インストール プログラムには、ファイルを修正する特権がありません: [2]。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:52 en_US.ARM64.Release.Error-2.idtx:52
 #: en_US.Win32.Debug.Error-2.idtx:52 en_US.Win32.Release.Error-2.idtx:52
 #: en_US.x64.Debug.Error-2.idtx:52 en_US.x64.Release.Error-2.idtx:52
 msgid ""
@@ -1018,32 +1331,38 @@ msgid ""
 "exceeds the length allowed by the system."
 msgstr "フォルダ パス '[2]' の一部は無効です。フォルダ パスが空であるか、またはシステムで許可された長さを超えています。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:53 en_US.ARM64.Release.Error-2.idtx:53
 #: en_US.Win32.Debug.Error-2.idtx:53 en_US.Win32.Release.Error-2.idtx:53
 #: en_US.x64.Debug.Error-2.idtx:53 en_US.x64.Release.Error-2.idtx:53
 msgid ""
 "The folder path '[2]' contains words that are not valid in folder paths."
 msgstr "フォルダ パス '[2]' に使用されている単語の中に、フォルダ パスでは使用できないものが含まれています。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:54 en_US.ARM64.Release.Error-2.idtx:54
 #: en_US.Win32.Debug.Error-2.idtx:54 en_US.Win32.Release.Error-2.idtx:54
 #: en_US.x64.Debug.Error-2.idtx:54 en_US.x64.Release.Error-2.idtx:54
 msgid "The folder path '[2]' contains an invalid character."
 msgstr "フォルダ パス '[2]' に使用できない文字が含まれています。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:55 en_US.ARM64.Release.Error-2.idtx:55
 #: en_US.Win32.Debug.Error-2.idtx:55 en_US.Win32.Release.Error-2.idtx:55
 #: en_US.x64.Debug.Error-2.idtx:55 en_US.x64.Release.Error-2.idtx:55
 msgid "'[2]' is not a valid short file name."
 msgstr "[2]' はショート ファイル名としては正しくありません。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:56 en_US.ARM64.Release.Error-2.idtx:56
 #: en_US.Win32.Debug.Error-2.idtx:56 en_US.Win32.Release.Error-2.idtx:56
 #: en_US.x64.Debug.Error-2.idtx:56 en_US.x64.Release.Error-2.idtx:56
 msgid "Error getting file security: [3] GetLastError: [2]"
 msgstr "ファイル セキュリティを取得するときにエラーが発生しました: [3] GetLastError: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:57 en_US.ARM64.Release.Error-2.idtx:57
 #: en_US.Win32.Debug.Error-2.idtx:57 en_US.Win32.Release.Error-2.idtx:57
 #: en_US.x64.Debug.Error-2.idtx:57 en_US.x64.Release.Error-2.idtx:57
 msgid "Invalid Drive: [2]"
 msgstr "ドライブが正しくありません: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:58 en_US.ARM64.Release.Error-2.idtx:58
 #: en_US.Win32.Debug.Error-2.idtx:58 en_US.Win32.Release.Error-2.idtx:58
 #: en_US.x64.Debug.Error-2.idtx:58 en_US.x64.Release.Error-2.idtx:58
 msgid ""
@@ -1055,6 +1374,7 @@ msgstr ""
 "にパッチを適用する時にエラーが発生しました。おそらく別の方法によってアップデートされたためです。このパッチで変更することはできません。詳細は、このパッチのベンダーにお問い合わせください。"
 " {{システム エラー : [3]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:59 en_US.ARM64.Release.Error-2.idtx:59
 #: en_US.Win32.Debug.Error-2.idtx:59 en_US.Win32.Release.Error-2.idtx:59
 #: en_US.x64.Debug.Error-2.idtx:59 en_US.x64.Release.Error-2.idtx:59
 msgid ""
@@ -1064,6 +1384,7 @@ msgstr ""
 "キャビネット ファイル [2] にデジタル署名が付いていないため、必要なファイルをインストールできません。キャビネット "
 "ファイルが壊れている可能性があります。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:60 en_US.ARM64.Release.Error-2.idtx:60
 #: en_US.Win32.Debug.Error-2.idtx:60 en_US.Win32.Release.Error-2.idtx:60
 #: en_US.x64.Debug.Error-2.idtx:60 en_US.x64.Release.Error-2.idtx:60
 msgid ""
@@ -1074,21 +1395,25 @@ msgstr ""
 "キャビネット ファイル [2] に無効なデジタル署名が付いているため、必要なファイルをインストールできません。キャビネット "
 "ファイルが壊れている可能性があります。{{  エラー [3] が WinVerifyTrust によって返されました。}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:61 en_US.ARM64.Release.Error-2.idtx:61
 #: en_US.Win32.Debug.Error-2.idtx:61 en_US.Win32.Release.Error-2.idtx:61
 #: en_US.x64.Debug.Error-2.idtx:61 en_US.x64.Release.Error-2.idtx:61
 msgid "Failed to correctly copy [2] file: CRC error."
 msgstr "[2] ファイルを正しくコピーできませんでした: CRC エラー。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:62 en_US.ARM64.Release.Error-2.idtx:62
 #: en_US.Win32.Debug.Error-2.idtx:62 en_US.Win32.Release.Error-2.idtx:62
 #: en_US.x64.Debug.Error-2.idtx:62 en_US.x64.Release.Error-2.idtx:62
 msgid "Failed to correctly move [2] file: CRC error."
 msgstr "[2] ファイルを正しく移動できませんでした: CRC エラー。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:63 en_US.ARM64.Release.Error-2.idtx:63
 #: en_US.Win32.Debug.Error-2.idtx:63 en_US.Win32.Release.Error-2.idtx:63
 #: en_US.x64.Debug.Error-2.idtx:63 en_US.x64.Release.Error-2.idtx:63
 msgid "Failed to correctly patch [2] file: CRC error."
 msgstr "修正プログラムをファイル [2] に正しく適用できませんでした: CRC エラー。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:64 en_US.ARM64.Release.Error-2.idtx:64
 #: en_US.Win32.Debug.Error-2.idtx:64 en_US.Win32.Release.Error-2.idtx:64
 #: en_US.x64.Debug.Error-2.idtx:64 en_US.x64.Release.Error-2.idtx:64
 msgid ""
@@ -1099,6 +1424,7 @@ msgstr ""
 "ファイル '[2]' はキャビネット ファイル '[3]' で見つからないため、インストールできません。ネットワーク エラーまたは CD-ROM "
 "からの読み取りエラーが発生したか、このパッケージに問題がある可能性があります。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:65 en_US.ARM64.Release.Error-2.idtx:65
 #: en_US.Win32.Debug.Error-2.idtx:65 en_US.Win32.Release.Error-2.idtx:65
 #: en_US.x64.Debug.Error-2.idtx:65 en_US.x64.Release.Error-2.idtx:65
 msgid ""
@@ -1109,6 +1435,7 @@ msgstr ""
 "このインストールに必要なキャビネット ファイル '[2]' は壊れているため使用できません。ネットワーク エラーまたは CD-ROM "
 "からの読み取りエラーが発生したか、このパッケージに問題がある可能性があります。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:66 en_US.ARM64.Release.Error-2.idtx:66
 #: en_US.Win32.Debug.Error-2.idtx:66 en_US.Win32.Release.Error-2.idtx:66
 #: en_US.x64.Debug.Error-2.idtx:66 en_US.x64.Release.Error-2.idtx:66
 msgid ""
@@ -1118,6 +1445,7 @@ msgstr ""
 "このインストールを完了するために必要な一時ファイルを作成するときにエラーが発生しました。{{  フォルダ: [3]. システム エラー コード: "
 "[2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:67 en_US.ARM64.Release.Error-2.idtx:67
 #: en_US.Win32.Debug.Error-2.idtx:67 en_US.Win32.Release.Error-2.idtx:67
 #: en_US.x64.Debug.Error-2.idtx:67 en_US.x64.Release.Error-2.idtx:67
 msgid ""
@@ -1127,6 +1455,7 @@ msgstr ""
 "キーを作成できませんでした: [2]。{{ システム エラー [3]。}} "
 "そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。 "
 
+#: en_US.ARM64.Debug.Error-2.idtx:68 en_US.ARM64.Release.Error-2.idtx:68
 #: en_US.Win32.Debug.Error-2.idtx:68 en_US.Win32.Release.Error-2.idtx:68
 #: en_US.x64.Debug.Error-2.idtx:68 en_US.x64.Release.Error-2.idtx:68
 msgid ""
@@ -1136,6 +1465,7 @@ msgstr ""
 "キーを開くことができませんでした: [2]。{{ システム エラー [3]。}} "
 "そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。 "
 
+#: en_US.ARM64.Debug.Error-2.idtx:69 en_US.ARM64.Release.Error-2.idtx:69
 #: en_US.Win32.Debug.Error-2.idtx:69 en_US.Win32.Release.Error-2.idtx:69
 #: en_US.x64.Debug.Error-2.idtx:69 en_US.x64.Release.Error-2.idtx:69
 msgid ""
@@ -1145,6 +1475,7 @@ msgstr ""
 "キー [3] から値 [2] を削除できませんでした。{{ システム エラー [4]。}} "
 "そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。 "
 
+#: en_US.ARM64.Debug.Error-2.idtx:70 en_US.ARM64.Release.Error-2.idtx:70
 #: en_US.Win32.Debug.Error-2.idtx:70 en_US.Win32.Release.Error-2.idtx:70
 #: en_US.x64.Debug.Error-2.idtx:70 en_US.x64.Release.Error-2.idtx:70
 msgid ""
@@ -1154,6 +1485,7 @@ msgstr ""
 "キー [2] を削除できませんでした。{{ システム エラー [3]。}} "
 "そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。 "
 
+#: en_US.ARM64.Debug.Error-2.idtx:71 en_US.ARM64.Release.Error-2.idtx:71
 #: en_US.Win32.Debug.Error-2.idtx:71 en_US.Win32.Release.Error-2.idtx:71
 #: en_US.x64.Debug.Error-2.idtx:71 en_US.x64.Release.Error-2.idtx:71
 msgid ""
@@ -1163,6 +1495,7 @@ msgstr ""
 "キー [3] から値 [2] を読み取れませんでした。{{ システム エラー [4]。}} "
 "そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。 "
 
+#: en_US.ARM64.Debug.Error-2.idtx:72 en_US.ARM64.Release.Error-2.idtx:72
 #: en_US.Win32.Debug.Error-2.idtx:72 en_US.Win32.Release.Error-2.idtx:72
 #: en_US.x64.Debug.Error-2.idtx:72 en_US.x64.Release.Error-2.idtx:72
 msgid ""
@@ -1172,6 +1505,7 @@ msgstr ""
 "値 [2] をキー [3] に書き込めません。{{ システム エラー [4]。}} "
 "そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:73 en_US.ARM64.Release.Error-2.idtx:73
 #: en_US.Win32.Debug.Error-2.idtx:73 en_US.Win32.Release.Error-2.idtx:73
 #: en_US.x64.Debug.Error-2.idtx:73 en_US.x64.Release.Error-2.idtx:73
 msgid ""
@@ -1181,6 +1515,7 @@ msgstr ""
 "キー [2] に対する値の名前を取得できませんでした。{{ システム エラー [3]。}} "
 "そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:74 en_US.ARM64.Release.Error-2.idtx:74
 #: en_US.Win32.Debug.Error-2.idtx:74 en_US.Win32.Release.Error-2.idtx:74
 #: en_US.x64.Debug.Error-2.idtx:74 en_US.x64.Release.Error-2.idtx:74
 msgid ""
@@ -1190,6 +1525,7 @@ msgstr ""
 "キー [2] に対するサブ キー名を取得できませんでした。{{ システム エラー [3]。}} "
 "そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:75 en_US.ARM64.Release.Error-2.idtx:75
 #: en_US.Win32.Debug.Error-2.idtx:75 en_US.Win32.Release.Error-2.idtx:75
 #: en_US.x64.Debug.Error-2.idtx:75 en_US.x64.Release.Error-2.idtx:75
 msgid ""
@@ -1200,6 +1536,7 @@ msgstr ""
 "キー [2] に対するセキュリティ情報を読み取れませんでした。{{ システム エラー [3]。}} "
 "そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:76 en_US.ARM64.Release.Error-2.idtx:76
 #: en_US.Win32.Debug.Error-2.idtx:76 en_US.Win32.Release.Error-2.idtx:76
 #: en_US.x64.Debug.Error-2.idtx:76 en_US.x64.Release.Error-2.idtx:76
 msgid ""
@@ -1208,6 +1545,7 @@ msgid ""
 msgstr ""
 "使用可能なレジストリ領域を増やすことができませんでした。このアプリケーションをインストールするには、[2] KB のレジストリ領域が必要です。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:77 en_US.ARM64.Release.Error-2.idtx:77
 #: en_US.Win32.Debug.Error-2.idtx:77 en_US.Win32.Release.Error-2.idtx:77
 #: en_US.x64.Debug.Error-2.idtx:77 en_US.x64.Release.Error-2.idtx:77
 msgid ""
@@ -1215,6 +1553,7 @@ msgid ""
 "before continuing this one."
 msgstr "別のインストールが現在行われています。新たにインストールを行うには、既に実行中のインストールを完了しなければなりません。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:78 en_US.ARM64.Release.Error-2.idtx:78
 #: en_US.Win32.Debug.Error-2.idtx:78 en_US.Win32.Release.Error-2.idtx:78
 #: en_US.x64.Debug.Error-2.idtx:78 en_US.x64.Release.Error-2.idtx:78
 msgid ""
@@ -1224,6 +1563,7 @@ msgstr ""
 "保護されているデータへのアクセスでエラーが発生しました。Windows "
 "インストーラが正しく設定されていることを確認してから、再度インストールを実行してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:79 en_US.ARM64.Release.Error-2.idtx:79
 #: en_US.Win32.Debug.Error-2.idtx:79 en_US.Win32.Release.Error-2.idtx:79
 #: en_US.x64.Debug.Error-2.idtx:79 en_US.x64.Release.Error-2.idtx:79
 msgid ""
@@ -1234,6 +1574,7 @@ msgstr ""
 "ユーザー '[2]' によって、既に製品 '[3]' "
 "のインストールが開始されています。この製品を使う前に、このユーザーは再度インストールを実行する必要があります。現在のインストールはこのまま続行されます。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:80 en_US.ARM64.Release.Error-2.idtx:80
 #: en_US.Win32.Debug.Error-2.idtx:80 en_US.Win32.Release.Error-2.idtx:80
 #: en_US.x64.Debug.Error-2.idtx:80 en_US.x64.Release.Error-2.idtx:80
 msgid ""
@@ -1243,6 +1584,7 @@ msgstr ""
 "ユーザー '[2]' によって、既に製品 '[3]' "
 "のインストールが開始されています。この製品を使う前に、このユーザーは再度インストールを実行する必要があります。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:81 en_US.ARM64.Release.Error-2.idtx:81
 #: en_US.Win32.Debug.Error-2.idtx:81 en_US.Win32.Release.Error-2.idtx:81
 #: en_US.x64.Debug.Error-2.idtx:81 en_US.x64.Release.Error-2.idtx:81
 msgid ""
@@ -1252,11 +1594,13 @@ msgstr ""
 "ディスク領域が足りません -- ボリューム: '[2]'; 必要な領域: [3] KB; 利用可能な領域: [4] "
 "KB。ディスク領域を解放してから、再試行してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:82 en_US.ARM64.Release.Error-2.idtx:82
 #: en_US.Win32.Debug.Error-2.idtx:82 en_US.Win32.Release.Error-2.idtx:82
 #: en_US.x64.Debug.Error-2.idtx:82 en_US.x64.Release.Error-2.idtx:82
 msgid "Are you sure you want to cancel?"
 msgstr "取り消しますか?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:83 en_US.ARM64.Release.Error-2.idtx:83
 #: en_US.Win32.Debug.Error-2.idtx:83 en_US.Win32.Release.Error-2.idtx:83
 #: en_US.x64.Debug.Error-2.idtx:83 en_US.x64.Release.Error-2.idtx:83
 msgid ""
@@ -1266,6 +1610,7 @@ msgstr ""
 "ファイル [2][3] は使用中です {プロセス名: [4]、ID: [5]、ウィンドウ タイトル: '[6]'} "
 "このアプリケーションを終了してから、再試行してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:84 en_US.ARM64.Release.Error-2.idtx:84
 #: en_US.Win32.Debug.Error-2.idtx:84 en_US.Win32.Release.Error-2.idtx:84
 #: en_US.x64.Debug.Error-2.idtx:84 en_US.x64.Release.Error-2.idtx:84
 msgid ""
@@ -1273,6 +1618,7 @@ msgid ""
 "product.  The two products are incompatible."
 msgstr "'[2]' が既にインストールされているため、この製品をインストールできません。この 2 つの製品には互換性がありません。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:85 en_US.ARM64.Release.Error-2.idtx:85
 #: en_US.Win32.Debug.Error-2.idtx:85 en_US.Win32.Release.Error-2.idtx:85
 #: en_US.x64.Debug.Error-2.idtx:85 en_US.x64.Release.Error-2.idtx:85
 msgid ""
@@ -1286,17 +1632,20 @@ msgstr ""
 "KB "
 "しかありません。回復情報を保存せずにインストールを続行する場合は［無視］、利用可能な領域を再確認する場合は［再試行］、インストールを終了する場合は［キャンセル］をクリックしてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:86 en_US.ARM64.Release.Error-2.idtx:86
 #: en_US.Win32.Debug.Error-2.idtx:86 en_US.Win32.Release.Error-2.idtx:86
 #: en_US.x64.Debug.Error-2.idtx:86 en_US.x64.Release.Error-2.idtx:86
 msgid "Could not access network location [2]."
 msgstr "ネットワーク上の場所 [2] へアクセスできません。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:87 en_US.ARM64.Release.Error-2.idtx:87
 #: en_US.Win32.Debug.Error-2.idtx:87 en_US.Win32.Release.Error-2.idtx:87
 #: en_US.x64.Debug.Error-2.idtx:87 en_US.x64.Release.Error-2.idtx:87
 msgid ""
 "The following applications should be closed before continuing the install:"
 msgstr "インストールを続行するには、次のアプリケーションを終了する必要があります:"
 
+#: en_US.ARM64.Debug.Error-2.idtx:88 en_US.ARM64.Release.Error-2.idtx:88
 #: en_US.Win32.Debug.Error-2.idtx:88 en_US.Win32.Release.Error-2.idtx:88
 #: en_US.x64.Debug.Error-2.idtx:88 en_US.x64.Release.Error-2.idtx:88
 msgid ""
@@ -1304,6 +1653,7 @@ msgid ""
 "for installing this product."
 msgstr "このコンピュータにこの製品をインストールするのに、前もってインストールされていなければならない製品が見つかりませんでした。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:89 en_US.ARM64.Release.Error-2.idtx:89
 #: en_US.Win32.Debug.Error-2.idtx:89 en_US.Win32.Release.Error-2.idtx:89
 #: en_US.x64.Debug.Error-2.idtx:89 en_US.x64.Release.Error-2.idtx:89
 msgid ""
@@ -1318,6 +1668,7 @@ msgstr ""
 "コントローラに接続するときの問題の可能性があります。ネットワークの接続を確認し［再試行］をクリックするか、インストールを終了するには［キャンセル］をクリックしてください。"
 " {{ユーザーの SID を検出できません, システム エラー [3]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:90 en_US.ARM64.Release.Error-2.idtx:90
 #: en_US.Win32.Debug.Error-2.idtx:90 en_US.Win32.Release.Error-2.idtx:90
 #: en_US.x64.Debug.Error-2.idtx:90 en_US.x64.Release.Error-2.idtx:90
 msgid ""
@@ -1327,6 +1678,7 @@ msgid ""
 msgstr ""
 "システムの実行中に更新できないファイルまたはサービスを、セットアップで更新する必要があります。続行する場合は、セットアップを完了するために再起動が必要となります。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:91 en_US.ARM64.Release.Error-2.idtx:91
 #: en_US.Win32.Debug.Error-2.idtx:91 en_US.Win32.Release.Error-2.idtx:91
 #: en_US.x64.Debug.Error-2.idtx:91 en_US.x64.Release.Error-2.idtx:91
 msgid ""
@@ -1335,6 +1687,7 @@ msgid ""
 "required to complete the setup."
 msgstr ""
 
+#: en_US.ARM64.Debug.Error-2.idtx:92 en_US.ARM64.Release.Error-2.idtx:92
 #: en_US.Win32.Debug.Error-2.idtx:92 en_US.Win32.Release.Error-2.idtx:92
 #: en_US.x64.Debug.Error-2.idtx:92 en_US.x64.Release.Error-2.idtx:92
 msgid ""
@@ -1342,11 +1695,13 @@ msgid ""
 "application vendor."
 msgstr ""
 
+#: en_US.ARM64.Debug.Error-2.idtx:93 en_US.ARM64.Release.Error-2.idtx:93
 #: en_US.Win32.Debug.Error-2.idtx:93 en_US.Win32.Release.Error-2.idtx:93
 #: en_US.x64.Debug.Error-2.idtx:93 en_US.x64.Release.Error-2.idtx:93
 msgid "The key [2] is not valid.  Verify that you entered the correct key."
 msgstr "キー [2] は正しくありません。正しいキーが入力されているかどうかを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:94 en_US.ARM64.Release.Error-2.idtx:94
 #: en_US.Win32.Debug.Error-2.idtx:94 en_US.Win32.Release.Error-2.idtx:94
 #: en_US.x64.Debug.Error-2.idtx:94 en_US.x64.Release.Error-2.idtx:94
 msgid ""
@@ -1357,6 +1712,7 @@ msgstr ""
 "[2] "
 "の構成を続行する前に、システムを再起動する必要があります。すぐに再起動する場合は［はい］を、後で手動で再起動する場合は［いいえ］をクリックしてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:95 en_US.ARM64.Release.Error-2.idtx:95
 #: en_US.Win32.Debug.Error-2.idtx:95 en_US.Win32.Release.Error-2.idtx:95
 #: en_US.x64.Debug.Error-2.idtx:95 en_US.x64.Release.Error-2.idtx:95
 msgid ""
@@ -1367,6 +1723,7 @@ msgstr ""
 "[2] "
 "に行った構成の変更を有効にするには、システムを再起動する必要があります。すぐに再起動する場合は［はい］を、後で手動で再起動する場合は［いいえ］をクリックしてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:96 en_US.ARM64.Release.Error-2.idtx:96
 #: en_US.Win32.Debug.Error-2.idtx:96 en_US.Win32.Release.Error-2.idtx:96
 #: en_US.x64.Debug.Error-2.idtx:96 en_US.x64.Release.Error-2.idtx:96
 msgid ""
@@ -1375,6 +1732,7 @@ msgid ""
 msgstr ""
 "[2] のインストールは現在中断されています。続行するには、インストールによって行われた変更を取り消す必要があります。これらの変更を取り消しますか?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:97 en_US.ARM64.Release.Error-2.idtx:97
 #: en_US.Win32.Debug.Error-2.idtx:97 en_US.Win32.Release.Error-2.idtx:97
 #: en_US.x64.Debug.Error-2.idtx:97 en_US.x64.Release.Error-2.idtx:97
 msgid ""
@@ -1384,6 +1742,7 @@ msgid ""
 msgstr ""
 "この製品のインストールは現在進行中です。続行するには、インストールによって行われた変更を取り消す必要があります。これらの変更を取り消しますか?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:98 en_US.ARM64.Release.Error-2.idtx:98
 #: en_US.Win32.Debug.Error-2.idtx:98 en_US.Win32.Release.Error-2.idtx:98
 #: en_US.x64.Debug.Error-2.idtx:98 en_US.x64.Release.Error-2.idtx:98
 msgid ""
@@ -1393,21 +1752,25 @@ msgstr ""
 "製品 [2] のインストール パッケージが見つかりませんでした。有効なコピーのインストール パッケージ '[3]' "
 "を使ってもう一度インストールしてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:99 en_US.ARM64.Release.Error-2.idtx:99
 #: en_US.Win32.Debug.Error-2.idtx:99 en_US.Win32.Release.Error-2.idtx:99
 #: en_US.x64.Debug.Error-2.idtx:99 en_US.x64.Release.Error-2.idtx:99
 msgid "Installation completed successfully."
 msgstr "インストールを正しく完了しました。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:100 en_US.ARM64.Release.Error-2.idtx:100
 #: en_US.Win32.Debug.Error-2.idtx:100 en_US.Win32.Release.Error-2.idtx:100
 #: en_US.x64.Debug.Error-2.idtx:100 en_US.x64.Release.Error-2.idtx:100
 msgid "Installation failed."
 msgstr "インストールに失敗しました。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:101 en_US.ARM64.Release.Error-2.idtx:101
 #: en_US.Win32.Debug.Error-2.idtx:101 en_US.Win32.Release.Error-2.idtx:101
 #: en_US.x64.Debug.Error-2.idtx:101 en_US.x64.Release.Error-2.idtx:101
 msgid "Product: [2] -- [3]"
 msgstr "製品: [2] -- [3]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:102 en_US.ARM64.Release.Error-2.idtx:102
 #: en_US.Win32.Debug.Error-2.idtx:102 en_US.Win32.Release.Error-2.idtx:102
 #: en_US.x64.Debug.Error-2.idtx:102 en_US.x64.Release.Error-2.idtx:102
 msgid ""
@@ -1415,6 +1778,7 @@ msgid ""
 "install later. Would you like to restore?"
 msgstr "コンピュータを直前の状態に復元するか、後でインストールを続行することができます。復元しますか?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:103 en_US.ARM64.Release.Error-2.idtx:103
 #: en_US.Win32.Debug.Error-2.idtx:103 en_US.Win32.Release.Error-2.idtx:103
 #: en_US.x64.Debug.Error-2.idtx:103 en_US.x64.Release.Error-2.idtx:103
 msgid ""
@@ -1424,6 +1788,7 @@ msgid ""
 msgstr ""
 "インストール情報をディスクに書き込み中にエラーが発生しました。十分なディスク領域があることを確認してから、［再試行］をクリックして続行するか、または［キャンセル］をクリックしてインストールを中止してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:104 en_US.ARM64.Release.Error-2.idtx:104
 #: en_US.Win32.Debug.Error-2.idtx:104 en_US.Win32.Release.Error-2.idtx:104
 #: en_US.x64.Debug.Error-2.idtx:104 en_US.x64.Release.Error-2.idtx:104
 msgid ""
@@ -1431,6 +1796,7 @@ msgid ""
 "state could not be found.  Restoration will not be possible."
 msgstr "このコンピュータを直前の状態に復元するために必要なファイルの一部が見つかりませんでした。復元することはできません。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:105 en_US.ARM64.Release.Error-2.idtx:105
 #: en_US.Win32.Debug.Error-2.idtx:105 en_US.Win32.Release.Error-2.idtx:105
 #: en_US.x64.Debug.Error-2.idtx:105 en_US.x64.Release.Error-2.idtx:105
 msgid ""
@@ -1438,6 +1804,7 @@ msgid ""
 "support group.  {{System Error: [3].}}"
 msgstr "[2] は要求された製品の 1 つをインストールできません。技術的に詳しい方にお問い合わせください。 {{システム エラー : [3]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:106 en_US.ARM64.Release.Error-2.idtx:106
 #: en_US.Win32.Debug.Error-2.idtx:106 en_US.Win32.Release.Error-2.idtx:106
 #: en_US.x64.Debug.Error-2.idtx:106 en_US.x64.Release.Error-2.idtx:106
 msgid ""
@@ -1445,26 +1812,31 @@ msgid ""
 "group.  {{System Error [3].}}"
 msgstr "[2] の古いバージョンを削除することはできません。技術的に詳しい方にお問い合わせください。 {{システム エラー : [3]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:107 en_US.ARM64.Release.Error-2.idtx:107
 #: en_US.Win32.Debug.Error-2.idtx:107 en_US.Win32.Release.Error-2.idtx:107
 #: en_US.x64.Debug.Error-2.idtx:107 en_US.x64.Release.Error-2.idtx:107
 msgid "Installed [2]"
 msgstr "[2] をインストールしました"
 
+#: en_US.ARM64.Debug.Error-2.idtx:108 en_US.ARM64.Release.Error-2.idtx:108
 #: en_US.Win32.Debug.Error-2.idtx:108 en_US.Win32.Release.Error-2.idtx:108
 #: en_US.x64.Debug.Error-2.idtx:108 en_US.x64.Release.Error-2.idtx:108
 msgid "Configured [2]"
 msgstr "[2] を構成しました"
 
+#: en_US.ARM64.Debug.Error-2.idtx:109 en_US.ARM64.Release.Error-2.idtx:109
 #: en_US.Win32.Debug.Error-2.idtx:109 en_US.Win32.Release.Error-2.idtx:109
 #: en_US.x64.Debug.Error-2.idtx:109 en_US.x64.Release.Error-2.idtx:109
 msgid "Removed [2]"
 msgstr "[2] を削除しました"
 
+#: en_US.ARM64.Debug.Error-2.idtx:110 en_US.ARM64.Release.Error-2.idtx:110
 #: en_US.Win32.Debug.Error-2.idtx:110 en_US.Win32.Release.Error-2.idtx:110
 #: en_US.x64.Debug.Error-2.idtx:110 en_US.x64.Release.Error-2.idtx:110
 msgid "File [2] was rejected by digital signature policy."
 msgstr "ファイル [2] はデジタル署名ポリシーによって拒否されました。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:111 en_US.ARM64.Release.Error-2.idtx:111
 #: en_US.Win32.Debug.Error-2.idtx:111 en_US.Win32.Release.Error-2.idtx:111
 #: en_US.x64.Debug.Error-2.idtx:111 en_US.x64.Release.Error-2.idtx:111
 msgid ""
@@ -1475,6 +1847,7 @@ msgstr ""
 "Windows インストーラ サービスにアクセスできませんでした。セーフ モードで Windows を実行している場合、または Windows "
 "インストーラが正しくインストールされていない場合に発生する可能性があります。サポート担当者に問い合わせてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:112 en_US.ARM64.Release.Error-2.idtx:112
 #: en_US.Win32.Debug.Error-2.idtx:112 en_US.Win32.Release.Error-2.idtx:112
 #: en_US.x64.Debug.Error-2.idtx:112 en_US.x64.Release.Error-2.idtx:112
 msgid ""
@@ -1487,6 +1860,7 @@ msgstr ""
 "パッケージには問題があります。このインストールを完了するのに必要なスクリプトを実行できませんでした。サポート担当者またはパッケージのベンダに問い合わせてください。"
 "  {{カスタム操作 [2] スクリプト エラー [3], [4]: [5] 行 [6], 列 [7], [8] }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:113 en_US.ARM64.Release.Error-2.idtx:113
 #: en_US.Win32.Debug.Error-2.idtx:113 en_US.Win32.Release.Error-2.idtx:113
 #: en_US.x64.Debug.Error-2.idtx:113 en_US.x64.Release.Error-2.idtx:113
 msgid ""
@@ -1498,6 +1872,7 @@ msgstr ""
 "パッケージには問題があります。このインストールを完了するのに必要なプログラムを実行できませんでした。サポート担当者またはパッケージのベンダに問い合わせてください。"
 " {{操作: [2], 場所: [3], コマンド: [4] }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:114 en_US.ARM64.Release.Error-2.idtx:114
 #: en_US.Win32.Debug.Error-2.idtx:114 en_US.Win32.Release.Error-2.idtx:114
 #: en_US.x64.Debug.Error-2.idtx:114 en_US.x64.Release.Error-2.idtx:114
 msgid ""
@@ -1509,6 +1884,7 @@ msgstr ""
 "パッケージには問題があります。セットアップの一部として実行されるプログラムは正しく完了しませんでした。サポート担当者またはパッケージのベンダに問い合わせてください。"
 " {{操作 [2], 場所: [3], コマンド: [4] }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:115 en_US.ARM64.Release.Error-2.idtx:115
 #: en_US.Win32.Debug.Error-2.idtx:115 en_US.Win32.Release.Error-2.idtx:115
 #: en_US.x64.Debug.Error-2.idtx:115 en_US.x64.Release.Error-2.idtx:115
 msgid ""
@@ -1520,36 +1896,43 @@ msgstr ""
 "を実行できませんでした。サポート担当者またはパッケージのベンダに問い合わせてください。  {{操作 [2], エントリ: [3], ライブラリ: [4]"
 " }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:116 en_US.ARM64.Release.Error-2.idtx:116
 #: en_US.Win32.Debug.Error-2.idtx:116 en_US.Win32.Release.Error-2.idtx:116
 #: en_US.x64.Debug.Error-2.idtx:116 en_US.x64.Release.Error-2.idtx:116
 msgid "Removal completed successfully."
 msgstr "削除を正しく完了しました。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:117 en_US.ARM64.Release.Error-2.idtx:117
 #: en_US.Win32.Debug.Error-2.idtx:117 en_US.Win32.Release.Error-2.idtx:117
 #: en_US.x64.Debug.Error-2.idtx:117 en_US.x64.Release.Error-2.idtx:117
 msgid "Removal failed."
 msgstr "削除に失敗しました。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:118 en_US.ARM64.Release.Error-2.idtx:118
 #: en_US.Win32.Debug.Error-2.idtx:118 en_US.Win32.Release.Error-2.idtx:118
 #: en_US.x64.Debug.Error-2.idtx:118 en_US.x64.Release.Error-2.idtx:118
 msgid "Advertisement completed successfully."
 msgstr "アドバタイズを正しく完了しました。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:119 en_US.ARM64.Release.Error-2.idtx:119
 #: en_US.Win32.Debug.Error-2.idtx:119 en_US.Win32.Release.Error-2.idtx:119
 #: en_US.x64.Debug.Error-2.idtx:119 en_US.x64.Release.Error-2.idtx:119
 msgid "Advertisement failed."
 msgstr "アドバタイズに失敗しました。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:120 en_US.ARM64.Release.Error-2.idtx:120
 #: en_US.Win32.Debug.Error-2.idtx:120 en_US.Win32.Release.Error-2.idtx:120
 #: en_US.x64.Debug.Error-2.idtx:120 en_US.x64.Release.Error-2.idtx:120
 msgid "Configuration completed successfully."
 msgstr "構成を正しく完了しました。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:121 en_US.ARM64.Release.Error-2.idtx:121
 #: en_US.Win32.Debug.Error-2.idtx:121 en_US.Win32.Release.Error-2.idtx:121
 #: en_US.x64.Debug.Error-2.idtx:121 en_US.x64.Release.Error-2.idtx:121
 msgid "Configuration failed."
 msgstr "構成に失敗しました。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:122 en_US.ARM64.Release.Error-2.idtx:122
 #: en_US.Win32.Debug.Error-2.idtx:122 en_US.Win32.Release.Error-2.idtx:122
 #: en_US.x64.Debug.Error-2.idtx:122 en_US.x64.Release.Error-2.idtx:122
 msgid ""
@@ -1560,6 +1943,7 @@ msgstr ""
 "このアプリケーションを削除するには Administrator でなければなりません。このアプリケーションを削除するには、Administrator "
 "としてログオンするか、またはテクニカル サポート グループに問い合わせてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:123 en_US.ARM64.Release.Error-2.idtx:123
 #: en_US.Win32.Debug.Error-2.idtx:123 en_US.Win32.Release.Error-2.idtx:123
 #: en_US.x64.Debug.Error-2.idtx:123 en_US.x64.Release.Error-2.idtx:123
 msgid ""
@@ -1570,6 +1954,7 @@ msgstr ""
 "製品 [2] のソース インストール パッケージは、クライアント パッケージとの同期がとれていません。インストール パッケージ '[3]' "
 "の有効なコピーを使ってもう一度インストールしてみてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:124 en_US.ARM64.Release.Error-2.idtx:124
 #: en_US.Win32.Debug.Error-2.idtx:124 en_US.Win32.Release.Error-2.idtx:124
 #: en_US.x64.Debug.Error-2.idtx:124 en_US.x64.Release.Error-2.idtx:124
 msgid ""
@@ -1580,6 +1965,7 @@ msgstr ""
 "[2] "
 "のインストールを完了するためには、コンピュータを再起動する必要があります。ほかのユーザーが現在このコンピュータにログオンしています。再起動するとそのユーザーが保存していない作業が失われる可能性があります。今すぐ再起動しますか?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:125 en_US.ARM64.Release.Error-2.idtx:125
 #: en_US.Win32.Debug.Error-2.idtx:125 en_US.Win32.Release.Error-2.idtx:125
 #: en_US.x64.Debug.Error-2.idtx:125 en_US.x64.Release.Error-2.idtx:125
 msgid ""
@@ -1590,11 +1976,13 @@ msgstr ""
 "Windows インストーラ サービスには、セーフ モードではアクセスできません。コンピュータがセーフ "
 "モードでないときに再試行してください。または、システムの復元を使用すると、前回の正常起動時の状態にコンピュータを戻すことができます。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:126 en_US.ARM64.Release.Error-2.idtx:126
 #: en_US.Win32.Debug.Error-2.idtx:126 en_US.Win32.Release.Error-2.idtx:126
 #: en_US.x64.Debug.Error-2.idtx:126 en_US.x64.Release.Error-2.idtx:126
 msgid "The path [2] is not valid.  Please specify a valid path."
 msgstr "パス [2] が正しくありません。正しいパスを指定してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:128 en_US.ARM64.Release.Error-2.idtx:128
 #: en_US.Win32.Debug.Error-2.idtx:128 en_US.Win32.Release.Error-2.idtx:128
 #: en_US.x64.Debug.Error-2.idtx:128 en_US.x64.Release.Error-2.idtx:128
 msgid ""
@@ -1604,6 +1992,7 @@ msgstr ""
 "ドライブ [2] "
 "にはディスクがありません。ディスクを挿入してから［再試行］をクリックしてください。既に選択されたボリュームに戻る場合は、［キャンセル］をクリックしてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:129 en_US.ARM64.Release.Error-2.idtx:129
 #: en_US.Win32.Debug.Error-2.idtx:129 en_US.Win32.Release.Error-2.idtx:129
 #: en_US.x64.Debug.Error-2.idtx:129 en_US.x64.Release.Error-2.idtx:129
 msgid ""
@@ -1613,27 +2002,32 @@ msgstr ""
 "ドライブ [2] にはディスクがありません。ディスクを挿入してから［再試行］をクリックしてください。［参照］ダイアログ "
 "ボックスに戻って、別のボリュームを選択する場合は、［キャンセル］をクリックしてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:130 en_US.ARM64.Release.Error-2.idtx:130
 #: en_US.Win32.Debug.Error-2.idtx:130 en_US.Win32.Release.Error-2.idtx:130
 #: en_US.x64.Debug.Error-2.idtx:130 en_US.x64.Release.Error-2.idtx:130
 msgid ""
 "The folder [2] does not exist.  Please enter a path to an existing folder."
 msgstr "フォルダ [2] は存在しません。既存のフォルダへのパスを入力してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:131 en_US.ARM64.Release.Error-2.idtx:131
 #: en_US.Win32.Debug.Error-2.idtx:131 en_US.Win32.Release.Error-2.idtx:131
 #: en_US.x64.Debug.Error-2.idtx:131 en_US.x64.Release.Error-2.idtx:131
 msgid "You have insufficient privileges to read this folder."
 msgstr "このフォルダを読み取るための十分な特権がありません。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:132 en_US.ARM64.Release.Error-2.idtx:132
 #: en_US.Win32.Debug.Error-2.idtx:132 en_US.Win32.Release.Error-2.idtx:132
 #: en_US.x64.Debug.Error-2.idtx:132 en_US.x64.Release.Error-2.idtx:132
 msgid "A valid destination folder for the install could not be determined."
 msgstr "インストールのための正しいコピー先を確定できませんでした。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:133 en_US.ARM64.Release.Error-2.idtx:133
 #: en_US.Win32.Debug.Error-2.idtx:133 en_US.Win32.Release.Error-2.idtx:133
 #: en_US.x64.Debug.Error-2.idtx:133 en_US.x64.Release.Error-2.idtx:133
 msgid "Error attempting to read from the source install database: [2]."
 msgstr "ソース インストール データベースから読み取るときにエラーが発生しました: [2]。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:134 en_US.ARM64.Release.Error-2.idtx:134
 #: en_US.Win32.Debug.Error-2.idtx:134 en_US.Win32.Release.Error-2.idtx:134
 #: en_US.x64.Debug.Error-2.idtx:134 en_US.x64.Release.Error-2.idtx:134
 msgid ""
@@ -1642,6 +2036,7 @@ msgid ""
 msgstr ""
 "再起動操作をスケジュールしています: ファイル [2] の名前を [3] に変更しています。操作を完了するには、再起動しなければなりません。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:135 en_US.ARM64.Release.Error-2.idtx:135
 #: en_US.Win32.Debug.Error-2.idtx:135 en_US.Win32.Release.Error-2.idtx:135
 #: en_US.x64.Debug.Error-2.idtx:135 en_US.x64.Release.Error-2.idtx:135
 msgid ""
@@ -1649,6 +2044,7 @@ msgid ""
 "operation."
 msgstr "再起動操作をスケジュールしています: ファイル [2] の削除。操作を完了するには、再起動しなければなりません。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:136 en_US.ARM64.Release.Error-2.idtx:136
 #: en_US.Win32.Debug.Error-2.idtx:136 en_US.Win32.Release.Error-2.idtx:136
 #: en_US.x64.Debug.Error-2.idtx:136 en_US.x64.Release.Error-2.idtx:136
 msgid ""
@@ -1656,6 +2052,7 @@ msgid ""
 "personnel."
 msgstr "モジュール [2] で登録に失敗しました。HRESULT [3]。サポート担当者に問い合わせてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:137 en_US.ARM64.Release.Error-2.idtx:137
 #: en_US.Win32.Debug.Error-2.idtx:137 en_US.Win32.Release.Error-2.idtx:137
 #: en_US.x64.Debug.Error-2.idtx:137 en_US.x64.Release.Error-2.idtx:137
 msgid ""
@@ -1663,12 +2060,14 @@ msgid ""
 "personnel."
 msgstr "モジュール [2] で登録の解除に失敗しました。HRESULT [3]。サポート担当者に問い合わせてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:138 en_US.ARM64.Release.Error-2.idtx:138
 #: en_US.Win32.Debug.Error-2.idtx:138 en_US.Win32.Release.Error-2.idtx:138
 #: en_US.x64.Debug.Error-2.idtx:138 en_US.x64.Release.Error-2.idtx:138
 msgid ""
 "Failed to cache package [2]. Error: [3]. Contact your support personnel."
 msgstr "パッケージ [2] のキャッシュに失敗しました。エラー: [3]。サポート担当者に問い合わせてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:139 en_US.ARM64.Release.Error-2.idtx:139
 #: en_US.Win32.Debug.Error-2.idtx:139 en_US.Win32.Release.Error-2.idtx:139
 #: en_US.x64.Debug.Error-2.idtx:139 en_US.x64.Release.Error-2.idtx:139
 msgid ""
@@ -1678,6 +2077,7 @@ msgstr ""
 "フォント [2] "
 "を登録できません。このフォントをインストールする権利があるかどうか、またシステムがこのフォントをサポートしているかどうかを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:140 en_US.ARM64.Release.Error-2.idtx:140
 #: en_US.Win32.Debug.Error-2.idtx:140 en_US.Win32.Release.Error-2.idtx:140
 #: en_US.x64.Debug.Error-2.idtx:140 en_US.x64.Release.Error-2.idtx:140
 msgid ""
@@ -1685,6 +2085,7 @@ msgid ""
 "permissions to remove fonts."
 msgstr "フォント [2] の登録を解除できませんでした。フォントを削除するのに十分なアクセス許可があることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:141 en_US.ARM64.Release.Error-2.idtx:141
 #: en_US.Win32.Debug.Error-2.idtx:141 en_US.Win32.Release.Error-2.idtx:141
 #: en_US.x64.Debug.Error-2.idtx:141 en_US.x64.Release.Error-2.idtx:141
 msgid ""
@@ -1692,6 +2093,7 @@ msgid ""
 " that you can access it."
 msgstr "ショートカット [2] を作成できません。目的のフォルダが存在し、アクセスできることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:142 en_US.ARM64.Release.Error-2.idtx:142
 #: en_US.Win32.Debug.Error-2.idtx:142 en_US.Win32.Release.Error-2.idtx:142
 #: en_US.x64.Debug.Error-2.idtx:142 en_US.x64.Release.Error-2.idtx:142
 msgid ""
@@ -1699,6 +2101,7 @@ msgid ""
 " you can access it."
 msgstr "ショートカット [2] を削除できません。ショートカット ファイルが存在し、アクセスできることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:143 en_US.ARM64.Release.Error-2.idtx:143
 #: en_US.Win32.Debug.Error-2.idtx:143 en_US.Win32.Release.Error-2.idtx:143
 #: en_US.x64.Debug.Error-2.idtx:143 en_US.x64.Release.Error-2.idtx:143
 msgid ""
@@ -1706,6 +2109,7 @@ msgid ""
 "personnel."
 msgstr "ファイル [2] のための種類のライブラリを登録できませんでした。サポート担当者に問い合わせてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:144 en_US.ARM64.Release.Error-2.idtx:144
 #: en_US.Win32.Debug.Error-2.idtx:144 en_US.Win32.Release.Error-2.idtx:144
 #: en_US.x64.Debug.Error-2.idtx:144 en_US.x64.Release.Error-2.idtx:144
 msgid ""
@@ -1713,6 +2117,7 @@ msgid ""
 "personnel."
 msgstr "ファイル [2] のための種類のライブラリの登録を解除できませんでした。サポート担当者に問い合わせてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:145 en_US.ARM64.Release.Error-2.idtx:145
 #: en_US.Win32.Debug.Error-2.idtx:145 en_US.Win32.Release.Error-2.idtx:145
 #: en_US.x64.Debug.Error-2.idtx:145 en_US.x64.Release.Error-2.idtx:145
 msgid ""
@@ -1720,6 +2125,7 @@ msgid ""
 "you can access it."
 msgstr "INI ファイル [2][3] を更新できませんでした。ファイルが存在し、アクセスできることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:146 en_US.ARM64.Release.Error-2.idtx:146
 #: en_US.Win32.Debug.Error-2.idtx:146 en_US.Win32.Release.Error-2.idtx:146
 #: en_US.x64.Debug.Error-2.idtx:146 en_US.x64.Release.Error-2.idtx:146
 msgid ""
@@ -1729,6 +2135,7 @@ msgstr ""
 "再起動するときに、ファイル [3] を [2] で置き換えるようにスケジュールすることができません。ファイル [3] "
 "への書き込みのアクセス許可を持っていることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:147 en_US.ARM64.Release.Error-2.idtx:147
 #: en_US.Win32.Debug.Error-2.idtx:147 en_US.Win32.Release.Error-2.idtx:147
 #: en_US.x64.Debug.Error-2.idtx:147 en_US.x64.Release.Error-2.idtx:147
 msgid ""
@@ -1736,6 +2143,7 @@ msgid ""
 "support personnel."
 msgstr "ODBC ドライバ マネージャの削除でエラーが発生しました。ODBC エラー [2]: [3]。サポート担当者に問い合わせてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:148 en_US.ARM64.Release.Error-2.idtx:148
 #: en_US.Win32.Debug.Error-2.idtx:148 en_US.Win32.Release.Error-2.idtx:148
 #: en_US.x64.Debug.Error-2.idtx:148 en_US.x64.Release.Error-2.idtx:148
 msgid ""
@@ -1744,6 +2152,7 @@ msgid ""
 msgstr ""
 "ODBC ドライバ マネージャのインストールでエラーが発生しました。ODBC エラー [2]: [3]。サポート担当者に問い合わせてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:149 en_US.ARM64.Release.Error-2.idtx:149
 #: en_US.Win32.Debug.Error-2.idtx:149 en_US.Win32.Release.Error-2.idtx:149
 #: en_US.x64.Debug.Error-2.idtx:149 en_US.x64.Release.Error-2.idtx:149
 msgid ""
@@ -1753,6 +2162,7 @@ msgstr ""
 "ODBC ドライバ [4] の削除でエラーが発生しました。ODBC エラー [2]: [3]。ODBC "
 "ドライバを削除する特権を持っていることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:150 en_US.ARM64.Release.Error-2.idtx:150
 #: en_US.Win32.Debug.Error-2.idtx:150 en_US.Win32.Release.Error-2.idtx:150
 #: en_US.x64.Debug.Error-2.idtx:150 en_US.x64.Release.Error-2.idtx:150
 msgid ""
@@ -1762,6 +2172,7 @@ msgstr ""
 "ODBC ドライバ [4] のインストールでエラーが発生しました。ODBC エラー [2]: [3]。ファイル [4] "
 "が存在し、アクセスできることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:151 en_US.ARM64.Release.Error-2.idtx:151
 #: en_US.Win32.Debug.Error-2.idtx:151 en_US.Win32.Release.Error-2.idtx:151
 #: en_US.x64.Debug.Error-2.idtx:151 en_US.x64.Release.Error-2.idtx:151
 msgid ""
@@ -1771,6 +2182,7 @@ msgstr ""
 "ODBC データ ソースの構成でエラーが発生しました: [4]。ODBC エラー [2]: [3]。ファイル [4] "
 "が存在し、アクセスできることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:152 en_US.ARM64.Release.Error-2.idtx:152
 #: en_US.Win32.Debug.Error-2.idtx:152 en_US.Win32.Release.Error-2.idtx:152
 #: en_US.x64.Debug.Error-2.idtx:152 en_US.x64.Release.Error-2.idtx:152
 msgid ""
@@ -1778,6 +2190,7 @@ msgid ""
 "privileges to start system services."
 msgstr "サービス '[2]' ([3]) を開始できませんでした。システム サービスを開始する特権を持っていることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:153 en_US.ARM64.Release.Error-2.idtx:153
 #: en_US.Win32.Debug.Error-2.idtx:153 en_US.Win32.Release.Error-2.idtx:153
 #: en_US.x64.Debug.Error-2.idtx:153 en_US.x64.Release.Error-2.idtx:153
 msgid ""
@@ -1785,6 +2198,7 @@ msgid ""
 "privileges to stop system services."
 msgstr "サービス '[2]' ([3]) を停止できませんでした。システム サービスを停止する特権を持っていることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:154 en_US.ARM64.Release.Error-2.idtx:154
 #: en_US.Win32.Debug.Error-2.idtx:154 en_US.Win32.Release.Error-2.idtx:154
 #: en_US.x64.Debug.Error-2.idtx:154 en_US.x64.Release.Error-2.idtx:154
 msgid ""
@@ -1792,6 +2206,7 @@ msgid ""
 "privileges to remove system services."
 msgstr "サービス '[2]' ([3]) を削除できませんでした。システム サービスを削除する特権を持っていることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:155 en_US.ARM64.Release.Error-2.idtx:155
 #: en_US.Win32.Debug.Error-2.idtx:155 en_US.Win32.Release.Error-2.idtx:155
 #: en_US.x64.Debug.Error-2.idtx:155 en_US.x64.Release.Error-2.idtx:155
 msgid ""
@@ -1800,6 +2215,7 @@ msgid ""
 msgstr ""
 "サービス '[2]' ([3]) をインストールできませんでした。システム サービスをインストールする特権を持っていることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:156 en_US.ARM64.Release.Error-2.idtx:156
 #: en_US.Win32.Debug.Error-2.idtx:156 en_US.Win32.Release.Error-2.idtx:156
 #: en_US.x64.Debug.Error-2.idtx:156 en_US.x64.Release.Error-2.idtx:156
 msgid ""
@@ -1807,6 +2223,7 @@ msgid ""
 "sufficient privileges to modify environment variables."
 msgstr "環境変数 '[2]' を更新できませんでした。環境変数を修正する特権を持っていることを確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:157 en_US.ARM64.Release.Error-2.idtx:157
 #: en_US.Win32.Debug.Error-2.idtx:157 en_US.Win32.Release.Error-2.idtx:157
 #: en_US.x64.Debug.Error-2.idtx:157 en_US.x64.Release.Error-2.idtx:157
 msgid ""
@@ -1816,6 +2233,7 @@ msgid ""
 msgstr ""
 "特権が不十分なため、このコンピュータのすべてのユーザーが使用できるようにアプリケーションをインストールすることはできません。管理者としてログオンし、再度インストールしてください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:158 en_US.ARM64.Release.Error-2.idtx:158
 #: en_US.Win32.Debug.Error-2.idtx:158 en_US.Win32.Release.Error-2.idtx:158
 #: en_US.x64.Debug.Error-2.idtx:158 en_US.x64.Release.Error-2.idtx:158
 msgid ""
@@ -1825,6 +2243,7 @@ msgstr ""
 "ファイル '[3]' に対するセキュリティを設定できません。エラー : [2]。 "
 "このファイルに対してセキュリティを変更する権限を持っているかどうか確認してください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:159 en_US.ARM64.Release.Error-2.idtx:159
 #: en_US.Win32.Debug.Error-2.idtx:159 en_US.Win32.Release.Error-2.idtx:159
 #: en_US.x64.Debug.Error-2.idtx:159 en_US.x64.Release.Error-2.idtx:159
 msgid ""
@@ -1835,6 +2254,7 @@ msgstr ""
 "コンポーネント サービス (COM+ 1.0) は、このコンピュータに正しくインストールされていません。インストールを完了するには コンポーネント "
 "サービスが必要です。コンポーネント サービスは、Windows 2000 で利用できます。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:160 en_US.ARM64.Release.Error-2.idtx:160
 #: en_US.Win32.Debug.Error-2.idtx:160 en_US.Win32.Release.Error-2.idtx:160
 #: en_US.x64.Debug.Error-2.idtx:160 en_US.x64.Release.Error-2.idtx:160
 msgid ""
@@ -1842,6 +2262,7 @@ msgid ""
 " information."
 msgstr "COM+ アプリケーションの登録エラーです。詳しくはサポート担当者へお問い合わせください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:161 en_US.ARM64.Release.Error-2.idtx:161
 #: en_US.Win32.Debug.Error-2.idtx:161 en_US.Win32.Release.Error-2.idtx:161
 #: en_US.x64.Debug.Error-2.idtx:161 en_US.x64.Release.Error-2.idtx:161
 msgid ""
@@ -1849,11 +2270,13 @@ msgid ""
 "more information."
 msgstr "COM+ アプリケーションの登録解除のエラーです。詳しくはサポート担当者へお問い合わせください。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:162 en_US.ARM64.Release.Error-2.idtx:162
 #: en_US.Win32.Debug.Error-2.idtx:162 en_US.Win32.Release.Error-2.idtx:162
 #: en_US.x64.Debug.Error-2.idtx:162 en_US.x64.Release.Error-2.idtx:162
 msgid "The description for service '[2]' ([3]) could not be changed."
 msgstr "サービス '[2]' ([3]) の記述は変更できませんでした。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:163 en_US.ARM64.Release.Error-2.idtx:163
 #: en_US.Win32.Debug.Error-2.idtx:163 en_US.Win32.Release.Error-2.idtx:163
 #: en_US.x64.Debug.Error-2.idtx:163 en_US.x64.Release.Error-2.idtx:163
 msgid ""
@@ -1866,6 +2289,7 @@ msgstr ""
 "によって保護されています。このプログラムを正しく動作させるには、オペレーティング システムをアップデートする必要がある可能性があります。 {{パッケージ"
 " バージョン : [3], OS プロテクテッド バージョン  : [4]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:164 en_US.ARM64.Release.Error-2.idtx:164
 #: en_US.Win32.Debug.Error-2.idtx:164 en_US.Win32.Release.Error-2.idtx:164
 #: en_US.x64.Debug.Error-2.idtx:164 en_US.x64.Release.Error-2.idtx:164
 msgid ""
@@ -1875,6 +2299,7 @@ msgstr ""
 "Windows インストーラ サービスでは、保護された Windows ファイル [2] をアップデートすることはできません。 {{パッケージ "
 "バージョン : [3], OS プロテクテッド バージョン 1 : [4], SFP エラー : [5]}}\""
 
+#: en_US.ARM64.Debug.Error-2.idtx:165 en_US.ARM64.Release.Error-2.idtx:165
 #: en_US.Win32.Debug.Error-2.idtx:165 en_US.Win32.Release.Error-2.idtx:165
 #: en_US.x64.Debug.Error-2.idtx:165 en_US.x64.Release.Error-2.idtx:165
 msgid ""
@@ -1882,11 +2307,13 @@ msgid ""
 "files. {{SFP Error: [2].  List of protected files:\\r\\n[3]}}"
 msgstr "保護された Windows ファイルを更新できません。 {{SFP エラー: [2].  保護されたファイルの一覧:\\r\\n[3]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:166 en_US.ARM64.Release.Error-2.idtx:166
 #: en_US.Win32.Debug.Error-2.idtx:166 en_US.Win32.Release.Error-2.idtx:166
 #: en_US.x64.Debug.Error-2.idtx:166 en_US.x64.Release.Error-2.idtx:166
 msgid "User installations are disabled via policy on the machine."
 msgstr "このコンピュータでは、ユーザーによるインストールはポリシーで無効になっています。"
 
+#: en_US.ARM64.Debug.Error-2.idtx:167 en_US.ARM64.Release.Error-2.idtx:167
 #: en_US.Win32.Debug.Error-2.idtx:167 en_US.Win32.Release.Error-2.idtx:167
 #: en_US.x64.Debug.Error-2.idtx:167 en_US.x64.Release.Error-2.idtx:167
 msgid ""
@@ -1897,6 +2324,7 @@ msgstr ""
 "アセンブリ '[6]' のインストール中にエラーが発生しました。詳しくはヘルプとサポートを参照してください。HRESULT: [3]. {{アセンブリ "
 "インターフェイス: [4], 関数: [5], コンポーネント: [2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:168 en_US.ARM64.Release.Error-2.idtx:168
 #: en_US.Win32.Debug.Error-2.idtx:168 en_US.Win32.Release.Error-2.idtx:168
 #: en_US.x64.Debug.Error-2.idtx:168 en_US.x64.Release.Error-2.idtx:168
 msgid ""
@@ -1908,6 +2336,7 @@ msgstr ""
 "のインストール中にエラーが発生しました。アセンブリ名の強さが十分でないか、長さの基準を満たしたキーを使って署名されていません。HRESULT: [3]."
 " {{アセンブリ インターフェイス: [4], 関数: [5], コンポーネント: [2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:169 en_US.ARM64.Release.Error-2.idtx:169
 #: en_US.Win32.Debug.Error-2.idtx:169 en_US.Win32.Release.Error-2.idtx:169
 #: en_US.x64.Debug.Error-2.idtx:169 en_US.x64.Release.Error-2.idtx:169
 msgid ""
@@ -1918,6 +2347,7 @@ msgstr ""
 "アセンブリ '[6]' のインストール中にエラーが発生しました。署名またはカタログを検証できないか、またはそれらが無効です。 HRESULT: [3]."
 " {{アセンブリ インターフェイス: [4], 関数: [5], コンポーネント: [2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:170 en_US.ARM64.Release.Error-2.idtx:170
 #: en_US.Win32.Debug.Error-2.idtx:170 en_US.Win32.Release.Error-2.idtx:170
 #: en_US.x64.Debug.Error-2.idtx:170 en_US.x64.Release.Error-2.idtx:170
 msgid ""
@@ -1928,15 +2358,25 @@ msgstr ""
 "アセンブリ '[6]' のインストール中にエラーが発生しました。アセンブリのモジュールの 1 つまたはそれ以上が見つかりません。HRESULT: "
 "[3]. {{アセンブリ インターフェイス: [4], 関数: [5], コンポーネント: [2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:171 en_US.ARM64.Release.Error-2.idtx:171
 #: en_US.Win32.Debug.Error-2.idtx:171 en_US.Win32.Release.Error-2.idtx:171
 #: en_US.x64.Debug.Error-2.idtx:171 en_US.x64.Release.Error-2.idtx:171
 msgid ""
 "64-bit registry operation attempted on 32-bit operating system for key [2]."
 msgstr ""
 
+#: en_US.ARM64.Debug.Error-2.idtx:172 en_US.ARM64.Release.Error-2.idtx:172
 #: en_US.Win32.Debug.Error-2.idtx:172 en_US.Win32.Release.Error-2.idtx:172
 #: en_US.x64.Debug.Error-2.idtx:172 en_US.x64.Release.Error-2.idtx:172
 msgid ""
 "This version of Windows does not support deploying 64-bit packages. The "
 "script [2] is for a 64-bit package."
+msgstr ""
+
+#: en_US.Win32.Debug.CustomAction-2.idtx:4
+#: en_US.Win32.Release.CustomAction-2.idtx:4
+msgid ""
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
+"system. The installation of the 64-bit variant is recommended."
 msgstr ""

@@ -1,12 +1,11 @@
 # Translators:
 # Simon Rozman <simon@rozman.si>, 2018
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-02 18:14+0100\n"
+"POT-Creation-Date: 2018-11-22 10:26+0100\n"
 "PO-Revision-Date: 2018-09-19 09:17+0000\n"
 "Last-Translator: Simon Rozman <simon@rozman.si>, 2018\n"
 "Language-Team: Bulgarian (Bulgaria) (https://www.transifex.com/amebis/teams/91604/bg_BG/)\n"
@@ -15,48 +14,64 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: bg_BG\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:4
+#: en_US.ARM64.Release.ActionText-2.idtx:4
 #: en_US.Win32.Debug.ActionText-2.idtx:4
 #: en_US.Win32.Release.ActionText-2.idtx:4 en_US.x64.Debug.ActionText-2.idtx:4
 #: en_US.x64.Release.ActionText-2.idtx:4
 msgid "Advertising application"
 msgstr "Съобщаване на приложението"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:5
+#: en_US.ARM64.Release.ActionText-2.idtx:5
 #: en_US.Win32.Debug.ActionText-2.idtx:5
 #: en_US.Win32.Release.ActionText-2.idtx:5 en_US.x64.Debug.ActionText-2.idtx:5
 #: en_US.x64.Release.ActionText-2.idtx:5
 msgid "Allocating registry space"
 msgstr "Заделяне на място за системния регистър"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:5
+#: en_US.ARM64.Release.ActionText-2.idtx:5
 #: en_US.Win32.Debug.ActionText-2.idtx:5
 #: en_US.Win32.Release.ActionText-2.idtx:5 en_US.x64.Debug.ActionText-2.idtx:5
 #: en_US.x64.Release.ActionText-2.idtx:5
 msgid "Free space: [1]"
 msgstr "Свободно място: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:6
+#: en_US.ARM64.Release.ActionText-2.idtx:6
 #: en_US.Win32.Debug.ActionText-2.idtx:6
 #: en_US.Win32.Release.ActionText-2.idtx:6 en_US.x64.Debug.ActionText-2.idtx:6
 #: en_US.x64.Release.ActionText-2.idtx:6
 msgid "Searching for installed applications"
 msgstr "Търсене на инсталирани приложения"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:6
+#: en_US.ARM64.Release.ActionText-2.idtx:6
 #: en_US.Win32.Debug.ActionText-2.idtx:6
 #: en_US.Win32.Release.ActionText-2.idtx:6 en_US.x64.Debug.ActionText-2.idtx:6
 #: en_US.x64.Release.ActionText-2.idtx:6
 msgid "Property: [1], Signature: [2]"
 msgstr "Свойство: [1], Подпис: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:7
+#: en_US.ARM64.Release.ActionText-2.idtx:7
 #: en_US.Win32.Debug.ActionText-2.idtx:7
 #: en_US.Win32.Release.ActionText-2.idtx:7 en_US.x64.Debug.ActionText-2.idtx:7
 #: en_US.x64.Release.ActionText-2.idtx:7
 msgid "Binding executables"
 msgstr "Свързване на изпълнимите файлове"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:7
+#: en_US.ARM64.Debug.ActionText-2.idtx:54
+#: en_US.ARM64.Release.ActionText-2.idtx:7
+#: en_US.ARM64.Release.ActionText-2.idtx:54
 #: en_US.Win32.Debug.ActionText-2.idtx:7
 #: en_US.Win32.Debug.ActionText-2.idtx:54
 #: en_US.Win32.Release.ActionText-2.idtx:7
@@ -67,6 +82,10 @@ msgstr "Свързване на изпълнимите файлове"
 msgid "File: [1]"
 msgstr "Файл: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:8
+#: en_US.ARM64.Debug.ActionText-2.idtx:52
+#: en_US.ARM64.Release.ActionText-2.idtx:8
+#: en_US.ARM64.Release.ActionText-2.idtx:52
 #: en_US.Win32.Debug.ActionText-2.idtx:8
 #: en_US.Win32.Debug.ActionText-2.idtx:52
 #: en_US.Win32.Release.ActionText-2.idtx:8
@@ -77,6 +96,12 @@ msgstr "Файл: [1]"
 msgid "Searching for qualifying products"
 msgstr "Търсене на подходящи продукти"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:9
+#: en_US.ARM64.Debug.ActionText-2.idtx:10
+#: en_US.ARM64.Debug.ActionText-2.idtx:15
+#: en_US.ARM64.Release.ActionText-2.idtx:9
+#: en_US.ARM64.Release.ActionText-2.idtx:10
+#: en_US.ARM64.Release.ActionText-2.idtx:15
 #: en_US.Win32.Debug.ActionText-2.idtx:9
 #: en_US.Win32.Debug.ActionText-2.idtx:10
 #: en_US.Win32.Debug.ActionText-2.idtx:15
@@ -90,12 +115,18 @@ msgstr "Търсене на подходящи продукти"
 msgid "Computing space requirements"
 msgstr "Изчисляване на нужното пространство"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:11
+#: en_US.ARM64.Release.ActionText-2.idtx:11
 #: en_US.Win32.Debug.ActionText-2.idtx:11
 #: en_US.Win32.Release.ActionText-2.idtx:11
 #: en_US.x64.Debug.ActionText-2.idtx:11 en_US.x64.Release.ActionText-2.idtx:11
 msgid "Creating folders"
 msgstr "Създаване на папки"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:11
+#: en_US.ARM64.Debug.ActionText-2.idtx:47
+#: en_US.ARM64.Release.ActionText-2.idtx:11
+#: en_US.ARM64.Release.ActionText-2.idtx:47
 #: en_US.Win32.Debug.ActionText-2.idtx:11
 #: en_US.Win32.Debug.ActionText-2.idtx:47
 #: en_US.Win32.Release.ActionText-2.idtx:11
@@ -106,12 +137,18 @@ msgstr "Създаване на папки"
 msgid "Folder: [1]"
 msgstr "Папка: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:12
+#: en_US.ARM64.Release.ActionText-2.idtx:12
 #: en_US.Win32.Debug.ActionText-2.idtx:12
 #: en_US.Win32.Release.ActionText-2.idtx:12
 #: en_US.x64.Debug.ActionText-2.idtx:12 en_US.x64.Release.ActionText-2.idtx:12
 msgid "Creating shortcuts"
 msgstr "Създаването на преки пътища"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:12
+#: en_US.ARM64.Debug.ActionText-2.idtx:51
+#: en_US.ARM64.Release.ActionText-2.idtx:12
+#: en_US.ARM64.Release.ActionText-2.idtx:51
 #: en_US.Win32.Debug.ActionText-2.idtx:12
 #: en_US.Win32.Debug.ActionText-2.idtx:51
 #: en_US.Win32.Release.ActionText-2.idtx:12
@@ -122,12 +159,20 @@ msgstr "Създаването на преки пътища"
 msgid "Shortcut: [1]"
 msgstr "Пряк път: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:13
+#: en_US.ARM64.Release.ActionText-2.idtx:13
 #: en_US.Win32.Debug.ActionText-2.idtx:13
 #: en_US.Win32.Release.ActionText-2.idtx:13
 #: en_US.x64.Debug.ActionText-2.idtx:13 en_US.x64.Release.ActionText-2.idtx:13
 msgid "Deleting services"
 msgstr "Изтриване на услугите"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:13
+#: en_US.ARM64.Debug.ActionText-2.idtx:58
+#: en_US.ARM64.Debug.ActionText-2.idtx:59
+#: en_US.ARM64.Release.ActionText-2.idtx:13
+#: en_US.ARM64.Release.ActionText-2.idtx:58
+#: en_US.ARM64.Release.ActionText-2.idtx:59
 #: en_US.Win32.Debug.ActionText-2.idtx:13
 #: en_US.Win32.Debug.ActionText-2.idtx:58
 #: en_US.Win32.Debug.ActionText-2.idtx:59
@@ -141,12 +186,20 @@ msgstr "Изтриване на услугите"
 msgid "Service: [1]"
 msgstr "Услуга: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:14
+#: en_US.ARM64.Release.ActionText-2.idtx:14
 #: en_US.Win32.Debug.ActionText-2.idtx:14
 #: en_US.Win32.Release.ActionText-2.idtx:14
 #: en_US.x64.Debug.ActionText-2.idtx:14 en_US.x64.Release.ActionText-2.idtx:14
 msgid "Creating duplicate files"
 msgstr "Създаване на еднакви файлове"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:14
+#: en_US.ARM64.Debug.ActionText-2.idtx:19
+#: en_US.ARM64.Debug.ActionText-2.idtx:26
+#: en_US.ARM64.Release.ActionText-2.idtx:14
+#: en_US.ARM64.Release.ActionText-2.idtx:19
+#: en_US.ARM64.Release.ActionText-2.idtx:26
 #: en_US.Win32.Debug.ActionText-2.idtx:14
 #: en_US.Win32.Debug.ActionText-2.idtx:19
 #: en_US.Win32.Debug.ActionText-2.idtx:26
@@ -160,24 +213,38 @@ msgstr "Създаване на еднакви файлове"
 msgid "File: [1],  Directory: [9],  Size: [6]"
 msgstr "Файл: [1],  Директория: [9],  Размер: [6]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:16
+#: en_US.ARM64.Release.ActionText-2.idtx:16
 #: en_US.Win32.Debug.ActionText-2.idtx:16
 #: en_US.Win32.Release.ActionText-2.idtx:16
 #: en_US.x64.Debug.ActionText-2.idtx:16 en_US.x64.Release.ActionText-2.idtx:16
 msgid "Searching for related applications"
 msgstr "Търсене на сродни приложения"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:16
+#: en_US.ARM64.Release.ActionText-2.idtx:16
 #: en_US.Win32.Debug.ActionText-2.idtx:16
 #: en_US.Win32.Release.ActionText-2.idtx:16
 #: en_US.x64.Debug.ActionText-2.idtx:16 en_US.x64.Release.ActionText-2.idtx:16
 msgid "Found application: [1]"
 msgstr "Открито приложение: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:17
+#: en_US.ARM64.Release.ActionText-2.idtx:17
 #: en_US.Win32.Debug.ActionText-2.idtx:17
 #: en_US.Win32.Release.ActionText-2.idtx:17
 #: en_US.x64.Debug.ActionText-2.idtx:17 en_US.x64.Release.ActionText-2.idtx:17
 msgid "Generating script operations for action:"
 msgstr "Генериране на скриптови операции за действие:"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:17
+#: en_US.ARM64.Debug.ActionText-2.idtx:39
+#: en_US.ARM64.Debug.ActionText-2.idtx:42
+#: en_US.ARM64.Debug.ActionText-2.idtx:53
+#: en_US.ARM64.Release.ActionText-2.idtx:17
+#: en_US.ARM64.Release.ActionText-2.idtx:39
+#: en_US.ARM64.Release.ActionText-2.idtx:42
+#: en_US.ARM64.Release.ActionText-2.idtx:53
 #: en_US.Win32.Debug.ActionText-2.idtx:17
 #: en_US.Win32.Debug.ActionText-2.idtx:39
 #: en_US.Win32.Debug.ActionText-2.idtx:42
@@ -195,90 +262,122 @@ msgstr "Генериране на скриптови операции за де�
 msgid "[1]"
 msgstr "[1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:18
+#: en_US.ARM64.Release.ActionText-2.idtx:18
 #: en_US.Win32.Debug.ActionText-2.idtx:18
 #: en_US.Win32.Release.ActionText-2.idtx:18
 #: en_US.x64.Debug.ActionText-2.idtx:18 en_US.x64.Release.ActionText-2.idtx:18
 msgid "Copying network install files"
 msgstr "Копиране на инсталационните файлове за мрежата"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:18
+#: en_US.ARM64.Release.ActionText-2.idtx:18
 #: en_US.Win32.Debug.ActionText-2.idtx:18
 #: en_US.Win32.Release.ActionText-2.idtx:18
 #: en_US.x64.Debug.ActionText-2.idtx:18 en_US.x64.Release.ActionText-2.idtx:18
 msgid "File: [1], Directory: [9], Size: [6]"
 msgstr "Файл: [1], Директория: [9], Размер: [6]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:19
+#: en_US.ARM64.Release.ActionText-2.idtx:19
 #: en_US.Win32.Debug.ActionText-2.idtx:19
 #: en_US.Win32.Release.ActionText-2.idtx:19
 #: en_US.x64.Debug.ActionText-2.idtx:19 en_US.x64.Release.ActionText-2.idtx:19
 msgid "Copying new files"
 msgstr "Копиране на новите файлове"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:20
+#: en_US.ARM64.Release.ActionText-2.idtx:20
 #: en_US.Win32.Debug.ActionText-2.idtx:20
 #: en_US.Win32.Release.ActionText-2.idtx:20
 #: en_US.x64.Debug.ActionText-2.idtx:20 en_US.x64.Release.ActionText-2.idtx:20
 msgid "Installing ODBC components"
 msgstr "Инсталиране на ODBC компоненти"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:21
+#: en_US.ARM64.Release.ActionText-2.idtx:21
 #: en_US.Win32.Debug.ActionText-2.idtx:21
 #: en_US.Win32.Release.ActionText-2.idtx:21
 #: en_US.x64.Debug.ActionText-2.idtx:21 en_US.x64.Release.ActionText-2.idtx:21
 msgid "Installing new services"
 msgstr "Инсталиране на нови услуги"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:21
+#: en_US.ARM64.Release.ActionText-2.idtx:21
 #: en_US.Win32.Debug.ActionText-2.idtx:21
 #: en_US.Win32.Release.ActionText-2.idtx:21
 #: en_US.x64.Debug.ActionText-2.idtx:21 en_US.x64.Release.ActionText-2.idtx:21
 msgid "Service: [2]"
 msgstr "Услуга: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:22
+#: en_US.ARM64.Release.ActionText-2.idtx:22
 #: en_US.Win32.Debug.ActionText-2.idtx:22
 #: en_US.Win32.Release.ActionText-2.idtx:22
 #: en_US.x64.Debug.ActionText-2.idtx:22 en_US.x64.Release.ActionText-2.idtx:22
 msgid "Installing system catalog"
 msgstr "Инсталиране на системния каталог"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:22
+#: en_US.ARM64.Release.ActionText-2.idtx:22
 #: en_US.Win32.Debug.ActionText-2.idtx:22
 #: en_US.Win32.Release.ActionText-2.idtx:22
 #: en_US.x64.Debug.ActionText-2.idtx:22 en_US.x64.Release.ActionText-2.idtx:22
 msgid "File: [1],  Dependencies: [2]"
 msgstr "Файл: [1],  Зависими елементи: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:23
+#: en_US.ARM64.Release.ActionText-2.idtx:23
 #: en_US.Win32.Debug.ActionText-2.idtx:23
 #: en_US.Win32.Release.ActionText-2.idtx:23
 #: en_US.x64.Debug.ActionText-2.idtx:23 en_US.x64.Release.ActionText-2.idtx:23
 msgid "Validating install"
 msgstr "Проверка на инсталацията"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:24
+#: en_US.ARM64.Release.ActionText-2.idtx:24
 #: en_US.Win32.Debug.ActionText-2.idtx:24
 #: en_US.Win32.Release.ActionText-2.idtx:24
 #: en_US.x64.Debug.ActionText-2.idtx:24 en_US.x64.Release.ActionText-2.idtx:24
 msgid "Evaluating launch conditions"
 msgstr "Оценка на условията за стартиране"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:25
+#: en_US.ARM64.Release.ActionText-2.idtx:25
 #: en_US.Win32.Debug.ActionText-2.idtx:25
 #: en_US.Win32.Release.ActionText-2.idtx:25
 #: en_US.x64.Debug.ActionText-2.idtx:25 en_US.x64.Release.ActionText-2.idtx:25
 msgid "Migrating feature states from related applications"
 msgstr "Преместване на състоянията на функциите от сродните приложения"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:25
+#: en_US.ARM64.Release.ActionText-2.idtx:25
 #: en_US.Win32.Debug.ActionText-2.idtx:25
 #: en_US.Win32.Release.ActionText-2.idtx:25
 #: en_US.x64.Debug.ActionText-2.idtx:25 en_US.x64.Release.ActionText-2.idtx:25
 msgid "Application: [1]"
 msgstr "Приложение: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:26
+#: en_US.ARM64.Release.ActionText-2.idtx:26
 #: en_US.Win32.Debug.ActionText-2.idtx:26
 #: en_US.Win32.Release.ActionText-2.idtx:26
 #: en_US.x64.Debug.ActionText-2.idtx:26 en_US.x64.Release.ActionText-2.idtx:26
 msgid "Moving files"
 msgstr "Преместване на файловете"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:27
+#: en_US.ARM64.Release.ActionText-2.idtx:27
 #: en_US.Win32.Debug.ActionText-2.idtx:27
 #: en_US.Win32.Release.ActionText-2.idtx:27
 #: en_US.x64.Debug.ActionText-2.idtx:27 en_US.x64.Release.ActionText-2.idtx:27
 msgid "Publishing assembly information"
 msgstr "Публикуване на информация за комплекта"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:27
+#: en_US.ARM64.Debug.ActionText-2.idtx:28
+#: en_US.ARM64.Release.ActionText-2.idtx:27
+#: en_US.ARM64.Release.ActionText-2.idtx:28
 #: en_US.Win32.Debug.ActionText-2.idtx:27
 #: en_US.Win32.Debug.ActionText-2.idtx:28
 #: en_US.Win32.Release.ActionText-2.idtx:27
@@ -289,36 +388,50 @@ msgstr "Публикуване на информация за комплекта
 msgid "Application Context:[1], Assembly Name:[2]"
 msgstr "Контекст на приложението:[1], Име на комплекта:[2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:28
+#: en_US.ARM64.Release.ActionText-2.idtx:28
 #: en_US.Win32.Debug.ActionText-2.idtx:28
 #: en_US.Win32.Release.ActionText-2.idtx:28
 #: en_US.x64.Debug.ActionText-2.idtx:28 en_US.x64.Release.ActionText-2.idtx:28
 msgid "Unpublishing assembly information"
 msgstr "Отпубликуване на информацията за комплекта"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:29
+#: en_US.ARM64.Release.ActionText-2.idtx:29
 #: en_US.Win32.Debug.ActionText-2.idtx:29
 #: en_US.Win32.Release.ActionText-2.idtx:29
 #: en_US.x64.Debug.ActionText-2.idtx:29 en_US.x64.Release.ActionText-2.idtx:29
 msgid "Patching files"
 msgstr "Поправка на файловете"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:29
+#: en_US.ARM64.Release.ActionText-2.idtx:29
 #: en_US.Win32.Debug.ActionText-2.idtx:29
 #: en_US.Win32.Release.ActionText-2.idtx:29
 #: en_US.x64.Debug.ActionText-2.idtx:29 en_US.x64.Release.ActionText-2.idtx:29
 msgid "File: [1],  Directory: [2],  Size: [3]"
 msgstr "Файл: [1],  Указател: [2],  Размер: [3]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:30
+#: en_US.ARM64.Release.ActionText-2.idtx:30
 #: en_US.Win32.Debug.ActionText-2.idtx:30
 #: en_US.Win32.Release.ActionText-2.idtx:30
 #: en_US.x64.Debug.ActionText-2.idtx:30 en_US.x64.Release.ActionText-2.idtx:30
 msgid "Updating component registration"
 msgstr "Актуализиране на регистрирането на компоненти"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:31
+#: en_US.ARM64.Release.ActionText-2.idtx:31
 #: en_US.Win32.Debug.ActionText-2.idtx:31
 #: en_US.Win32.Release.ActionText-2.idtx:31
 #: en_US.x64.Debug.ActionText-2.idtx:31 en_US.x64.Release.ActionText-2.idtx:31
 msgid "Publishing Qualified Components"
 msgstr "Публикуване на подходящите компоненти"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:31
+#: en_US.ARM64.Debug.ActionText-2.idtx:61
+#: en_US.ARM64.Release.ActionText-2.idtx:31
+#: en_US.ARM64.Release.ActionText-2.idtx:61
 #: en_US.Win32.Debug.ActionText-2.idtx:31
 #: en_US.Win32.Debug.ActionText-2.idtx:61
 #: en_US.Win32.Release.ActionText-2.idtx:31
@@ -329,12 +442,18 @@ msgstr "Публикуване на подходящите компоненти"
 msgid "Component ID: [1], Qualifier: [2]"
 msgstr "Идентификатор на компонента: [1], Квалификатор: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:32
+#: en_US.ARM64.Release.ActionText-2.idtx:32
 #: en_US.Win32.Debug.ActionText-2.idtx:32
 #: en_US.Win32.Release.ActionText-2.idtx:32
 #: en_US.x64.Debug.ActionText-2.idtx:32 en_US.x64.Release.ActionText-2.idtx:32
 msgid "Publishing Product Features"
 msgstr "Публикуване на компонентите на продукта"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:32
+#: en_US.ARM64.Debug.ActionText-2.idtx:62
+#: en_US.ARM64.Release.ActionText-2.idtx:32
+#: en_US.ARM64.Release.ActionText-2.idtx:62
 #: en_US.Win32.Debug.ActionText-2.idtx:32
 #: en_US.Win32.Debug.ActionText-2.idtx:62
 #: en_US.Win32.Release.ActionText-2.idtx:32
@@ -345,18 +464,26 @@ msgstr "Публикуване на компонентите на продукт
 msgid "Feature: [1]"
 msgstr "Компонент: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:33
+#: en_US.ARM64.Release.ActionText-2.idtx:33
 #: en_US.Win32.Debug.ActionText-2.idtx:33
 #: en_US.Win32.Release.ActionText-2.idtx:33
 #: en_US.x64.Debug.ActionText-2.idtx:33 en_US.x64.Release.ActionText-2.idtx:33
 msgid "Publishing product information"
 msgstr "Публикуване на информация за продукта"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:34
+#: en_US.ARM64.Release.ActionText-2.idtx:34
 #: en_US.Win32.Debug.ActionText-2.idtx:34
 #: en_US.Win32.Release.ActionText-2.idtx:34
 #: en_US.x64.Debug.ActionText-2.idtx:34 en_US.x64.Release.ActionText-2.idtx:34
 msgid "Registering Class servers"
 msgstr "Регистриране на Class сървърите"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:34
+#: en_US.ARM64.Debug.ActionText-2.idtx:64
+#: en_US.ARM64.Release.ActionText-2.idtx:34
+#: en_US.ARM64.Release.ActionText-2.idtx:64
 #: en_US.Win32.Debug.ActionText-2.idtx:34
 #: en_US.Win32.Debug.ActionText-2.idtx:64
 #: en_US.Win32.Release.ActionText-2.idtx:34
@@ -367,12 +494,16 @@ msgstr "Регистриране на Class сървърите"
 msgid "Class Id: [1]"
 msgstr "ИД на клас: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:35
+#: en_US.ARM64.Release.ActionText-2.idtx:35
 #: en_US.Win32.Debug.ActionText-2.idtx:35
 #: en_US.Win32.Release.ActionText-2.idtx:35
 #: en_US.x64.Debug.ActionText-2.idtx:35 en_US.x64.Release.ActionText-2.idtx:35
 msgid "Registering COM+ Applications and Components"
 msgstr "Регистриране на COM+ приложения и компоненти"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:35
+#: en_US.ARM64.Release.ActionText-2.idtx:35
 #: en_US.Win32.Debug.ActionText-2.idtx:35
 #: en_US.Win32.Release.ActionText-2.idtx:35
 #: en_US.x64.Debug.ActionText-2.idtx:35 en_US.x64.Release.ActionText-2.idtx:35
@@ -380,12 +511,18 @@ msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
 msgstr ""
 "ИД на приложение [1]{{, Тип приложение: [2], Потребители: [3], RSN: [4]}}"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:36
+#: en_US.ARM64.Release.ActionText-2.idtx:36
 #: en_US.Win32.Debug.ActionText-2.idtx:36
 #: en_US.Win32.Release.ActionText-2.idtx:36
 #: en_US.x64.Debug.ActionText-2.idtx:36 en_US.x64.Release.ActionText-2.idtx:36
 msgid "Registering extension servers"
 msgstr "Регистриране на сървъри за разширение"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:36
+#: en_US.ARM64.Debug.ActionText-2.idtx:66
+#: en_US.ARM64.Release.ActionText-2.idtx:36
+#: en_US.ARM64.Release.ActionText-2.idtx:66
 #: en_US.Win32.Debug.ActionText-2.idtx:36
 #: en_US.Win32.Debug.ActionText-2.idtx:66
 #: en_US.Win32.Release.ActionText-2.idtx:36
@@ -396,12 +533,18 @@ msgstr "Регистриране на сървъри за разширение"
 msgid "Extension: [1]"
 msgstr "Разширение: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:37
+#: en_US.ARM64.Release.ActionText-2.idtx:37
 #: en_US.Win32.Debug.ActionText-2.idtx:37
 #: en_US.Win32.Release.ActionText-2.idtx:37
 #: en_US.x64.Debug.ActionText-2.idtx:37 en_US.x64.Release.ActionText-2.idtx:37
 msgid "Registering fonts"
 msgstr "Регистриране на шрифтове"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:37
+#: en_US.ARM64.Debug.ActionText-2.idtx:67
+#: en_US.ARM64.Release.ActionText-2.idtx:37
+#: en_US.ARM64.Release.ActionText-2.idtx:67
 #: en_US.Win32.Debug.ActionText-2.idtx:37
 #: en_US.Win32.Debug.ActionText-2.idtx:67
 #: en_US.Win32.Release.ActionText-2.idtx:37
@@ -412,12 +555,18 @@ msgstr "Регистриране на шрифтове"
 msgid "Font: [1]"
 msgstr "Шрифт: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:38
+#: en_US.ARM64.Release.ActionText-2.idtx:38
 #: en_US.Win32.Debug.ActionText-2.idtx:38
 #: en_US.Win32.Release.ActionText-2.idtx:38
 #: en_US.x64.Debug.ActionText-2.idtx:38 en_US.x64.Release.ActionText-2.idtx:38
 msgid "Registering MIME info"
 msgstr "Регистриране на MIME информация"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:38
+#: en_US.ARM64.Debug.ActionText-2.idtx:68
+#: en_US.ARM64.Release.ActionText-2.idtx:38
+#: en_US.ARM64.Release.ActionText-2.idtx:68
 #: en_US.Win32.Debug.ActionText-2.idtx:38
 #: en_US.Win32.Debug.ActionText-2.idtx:68
 #: en_US.Win32.Release.ActionText-2.idtx:38
@@ -428,18 +577,26 @@ msgstr "Регистриране на MIME информация"
 msgid "MIME Content Type: [1], Extension: [2]"
 msgstr "Тип MIME съдържание: [1], Разширение: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:39
+#: en_US.ARM64.Release.ActionText-2.idtx:39
 #: en_US.Win32.Debug.ActionText-2.idtx:39
 #: en_US.Win32.Release.ActionText-2.idtx:39
 #: en_US.x64.Debug.ActionText-2.idtx:39 en_US.x64.Release.ActionText-2.idtx:39
 msgid "Registering product"
 msgstr "Регистриране на продукта"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:40
+#: en_US.ARM64.Release.ActionText-2.idtx:40
 #: en_US.Win32.Debug.ActionText-2.idtx:40
 #: en_US.Win32.Release.ActionText-2.idtx:40
 #: en_US.x64.Debug.ActionText-2.idtx:40 en_US.x64.Release.ActionText-2.idtx:40
 msgid "Registering program identifiers"
 msgstr "Регистриране на идентификаторите на програми"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:40
+#: en_US.ARM64.Debug.ActionText-2.idtx:69
+#: en_US.ARM64.Release.ActionText-2.idtx:40
+#: en_US.ARM64.Release.ActionText-2.idtx:69
 #: en_US.Win32.Debug.ActionText-2.idtx:40
 #: en_US.Win32.Debug.ActionText-2.idtx:69
 #: en_US.Win32.Release.ActionText-2.idtx:40
@@ -450,12 +607,18 @@ msgstr "Регистриране на идентификаторите на пр
 msgid "ProgId: [1]"
 msgstr "ИД на програма: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:41
+#: en_US.ARM64.Release.ActionText-2.idtx:41
 #: en_US.Win32.Debug.ActionText-2.idtx:41
 #: en_US.Win32.Release.ActionText-2.idtx:41
 #: en_US.x64.Debug.ActionText-2.idtx:41 en_US.x64.Release.ActionText-2.idtx:41
 msgid "Registering type libraries"
 msgstr "Регистриране на библиотеките с типове"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:41
+#: en_US.ARM64.Debug.ActionText-2.idtx:70
+#: en_US.ARM64.Release.ActionText-2.idtx:41
+#: en_US.ARM64.Release.ActionText-2.idtx:70
 #: en_US.Win32.Debug.ActionText-2.idtx:41
 #: en_US.Win32.Debug.ActionText-2.idtx:70
 #: en_US.Win32.Release.ActionText-2.idtx:41
@@ -466,18 +629,28 @@ msgstr "Регистриране на библиотеките с типове"
 msgid "LibID: [1]"
 msgstr "ИД на библиотека: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:42
+#: en_US.ARM64.Release.ActionText-2.idtx:42
 #: en_US.Win32.Debug.ActionText-2.idtx:42
 #: en_US.Win32.Release.ActionText-2.idtx:42
 #: en_US.x64.Debug.ActionText-2.idtx:42 en_US.x64.Release.ActionText-2.idtx:42
 msgid "Registering user"
 msgstr "Регистриране на потребителя"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:43
+#: en_US.ARM64.Release.ActionText-2.idtx:43
 #: en_US.Win32.Debug.ActionText-2.idtx:43
 #: en_US.Win32.Release.ActionText-2.idtx:43
 #: en_US.x64.Debug.ActionText-2.idtx:43 en_US.x64.Release.ActionText-2.idtx:43
 msgid "Removing duplicated files"
 msgstr "Премахване на еднаквите файлове"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:43
+#: en_US.ARM64.Debug.ActionText-2.idtx:46
+#: en_US.ARM64.Debug.ActionText-2.idtx:60
+#: en_US.ARM64.Release.ActionText-2.idtx:43
+#: en_US.ARM64.Release.ActionText-2.idtx:46
+#: en_US.ARM64.Release.ActionText-2.idtx:60
 #: en_US.Win32.Debug.ActionText-2.idtx:43
 #: en_US.Win32.Debug.ActionText-2.idtx:46
 #: en_US.Win32.Debug.ActionText-2.idtx:60
@@ -491,6 +664,10 @@ msgstr "Премахване на еднаквите файлове"
 msgid "File: [1], Directory: [9]"
 msgstr "Файл: [1], Директория: [9]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:44
+#: en_US.ARM64.Debug.ActionText-2.idtx:71
+#: en_US.ARM64.Release.ActionText-2.idtx:44
+#: en_US.ARM64.Release.ActionText-2.idtx:71
 #: en_US.Win32.Debug.ActionText-2.idtx:44
 #: en_US.Win32.Debug.ActionText-2.idtx:71
 #: en_US.Win32.Release.ActionText-2.idtx:44
@@ -501,6 +678,10 @@ msgstr "Файл: [1], Директория: [9]"
 msgid "Updating environment strings"
 msgstr "Актуализиране на низове за средата"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:44
+#: en_US.ARM64.Debug.ActionText-2.idtx:71
+#: en_US.ARM64.Release.ActionText-2.idtx:44
+#: en_US.ARM64.Release.ActionText-2.idtx:71
 #: en_US.Win32.Debug.ActionText-2.idtx:44
 #: en_US.Win32.Debug.ActionText-2.idtx:71
 #: en_US.Win32.Release.ActionText-2.idtx:44
@@ -511,36 +692,50 @@ msgstr "Актуализиране на низове за средата"
 msgid "Name: [1], Value: [2], Action [3]"
 msgstr "Име: [1], Стойност: [2], Действие [3]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:45
+#: en_US.ARM64.Release.ActionText-2.idtx:45
 #: en_US.Win32.Debug.ActionText-2.idtx:45
 #: en_US.Win32.Release.ActionText-2.idtx:45
 #: en_US.x64.Debug.ActionText-2.idtx:45 en_US.x64.Release.ActionText-2.idtx:45
 msgid "Removing applications"
 msgstr "Премахване на приложенията"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:45
+#: en_US.ARM64.Release.ActionText-2.idtx:45
 #: en_US.Win32.Debug.ActionText-2.idtx:45
 #: en_US.Win32.Release.ActionText-2.idtx:45
 #: en_US.x64.Debug.ActionText-2.idtx:45 en_US.x64.Release.ActionText-2.idtx:45
 msgid "Application: [1], Command line: [2]"
 msgstr "Приложение: [1], Команден ред: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:46
+#: en_US.ARM64.Release.ActionText-2.idtx:46
 #: en_US.Win32.Debug.ActionText-2.idtx:46
 #: en_US.Win32.Release.ActionText-2.idtx:46
 #: en_US.x64.Debug.ActionText-2.idtx:46 en_US.x64.Release.ActionText-2.idtx:46
 msgid "Removing files"
 msgstr "Премахване на файловете"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:47
+#: en_US.ARM64.Release.ActionText-2.idtx:47
 #: en_US.Win32.Debug.ActionText-2.idtx:47
 #: en_US.Win32.Release.ActionText-2.idtx:47
 #: en_US.x64.Debug.ActionText-2.idtx:47 en_US.x64.Release.ActionText-2.idtx:47
 msgid "Removing folders"
 msgstr "Премахване на папките"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:48
+#: en_US.ARM64.Release.ActionText-2.idtx:48
 #: en_US.Win32.Debug.ActionText-2.idtx:48
 #: en_US.Win32.Release.ActionText-2.idtx:48
 #: en_US.x64.Debug.ActionText-2.idtx:48 en_US.x64.Release.ActionText-2.idtx:48
 msgid "Removing INI files entries"
 msgstr "Премахване на записи на INI файлове"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:48
+#: en_US.ARM64.Debug.ActionText-2.idtx:72
+#: en_US.ARM64.Release.ActionText-2.idtx:48
+#: en_US.ARM64.Release.ActionText-2.idtx:72
 #: en_US.Win32.Debug.ActionText-2.idtx:48
 #: en_US.Win32.Debug.ActionText-2.idtx:72
 #: en_US.Win32.Release.ActionText-2.idtx:48
@@ -551,48 +746,66 @@ msgstr "Премахване на записи на INI файлове"
 msgid "File: [1],  Section: [2],  Key: [3], Value: [4]"
 msgstr "Файл: [1],  Раздел: [2],  Ключ: [3], Стойност: [4]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:49
+#: en_US.ARM64.Release.ActionText-2.idtx:49
 #: en_US.Win32.Debug.ActionText-2.idtx:49
 #: en_US.Win32.Release.ActionText-2.idtx:49
 #: en_US.x64.Debug.ActionText-2.idtx:49 en_US.x64.Release.ActionText-2.idtx:49
 msgid "Removing ODBC components"
 msgstr "Премахване на ODBC компонентите"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:50
+#: en_US.ARM64.Release.ActionText-2.idtx:50
 #: en_US.Win32.Debug.ActionText-2.idtx:50
 #: en_US.Win32.Release.ActionText-2.idtx:50
 #: en_US.x64.Debug.ActionText-2.idtx:50 en_US.x64.Release.ActionText-2.idtx:50
 msgid "Removing system registry values"
 msgstr "Премахване на стойностите на системния регистър"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:50
+#: en_US.ARM64.Release.ActionText-2.idtx:50
 #: en_US.Win32.Debug.ActionText-2.idtx:50
 #: en_US.Win32.Release.ActionText-2.idtx:50
 #: en_US.x64.Debug.ActionText-2.idtx:50 en_US.x64.Release.ActionText-2.idtx:50
 msgid "Key: [1], Name: [2]"
 msgstr "Ключ: [1], Име: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:51
+#: en_US.ARM64.Release.ActionText-2.idtx:51
 #: en_US.Win32.Debug.ActionText-2.idtx:51
 #: en_US.Win32.Release.ActionText-2.idtx:51
 #: en_US.x64.Debug.ActionText-2.idtx:51 en_US.x64.Release.ActionText-2.idtx:51
 msgid "Removing shortcuts"
 msgstr "Премахване на преките пътища"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:53
+#: en_US.ARM64.Release.ActionText-2.idtx:53
 #: en_US.Win32.Debug.ActionText-2.idtx:53
 #: en_US.Win32.Release.ActionText-2.idtx:53
 #: en_US.x64.Debug.ActionText-2.idtx:53 en_US.x64.Release.ActionText-2.idtx:53
 msgid "Rolling back action:"
 msgstr "Връщане на действието:"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:54
+#: en_US.ARM64.Release.ActionText-2.idtx:54
 #: en_US.Win32.Debug.ActionText-2.idtx:54
 #: en_US.Win32.Release.ActionText-2.idtx:54
 #: en_US.x64.Debug.ActionText-2.idtx:54 en_US.x64.Release.ActionText-2.idtx:54
 msgid "Removing backup files"
 msgstr "Премахване на архивните файлове"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:55
+#: en_US.ARM64.Release.ActionText-2.idtx:55
 #: en_US.Win32.Debug.ActionText-2.idtx:55
 #: en_US.Win32.Release.ActionText-2.idtx:55
 #: en_US.x64.Debug.ActionText-2.idtx:55 en_US.x64.Release.ActionText-2.idtx:55
 msgid "Registering modules"
 msgstr "Регистриране на модулите"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:55
+#: en_US.ARM64.Debug.ActionText-2.idtx:56
+#: en_US.ARM64.Release.ActionText-2.idtx:55
+#: en_US.ARM64.Release.ActionText-2.idtx:56
 #: en_US.Win32.Debug.ActionText-2.idtx:55
 #: en_US.Win32.Debug.ActionText-2.idtx:56
 #: en_US.Win32.Release.ActionText-2.idtx:55
@@ -603,131 +816,176 @@ msgstr "Регистриране на модулите"
 msgid "File: [1], Folder: [2]"
 msgstr "Файл: [1], Папка: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:56
+#: en_US.ARM64.Release.ActionText-2.idtx:56
 #: en_US.Win32.Debug.ActionText-2.idtx:56
 #: en_US.Win32.Release.ActionText-2.idtx:56
 #: en_US.x64.Debug.ActionText-2.idtx:56 en_US.x64.Release.ActionText-2.idtx:56
 msgid "Unregistering modules"
 msgstr "Дерегистриране на модулите"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:57
+#: en_US.ARM64.Release.ActionText-2.idtx:57
 #: en_US.Win32.Debug.ActionText-2.idtx:57
 #: en_US.Win32.Release.ActionText-2.idtx:57
 #: en_US.x64.Debug.ActionText-2.idtx:57 en_US.x64.Release.ActionText-2.idtx:57
 msgid "Initializing ODBC directories"
 msgstr "Инициализиране на ODBC указатели"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:58
+#: en_US.ARM64.Release.ActionText-2.idtx:58
 #: en_US.Win32.Debug.ActionText-2.idtx:58
 #: en_US.Win32.Release.ActionText-2.idtx:58
 #: en_US.x64.Debug.ActionText-2.idtx:58 en_US.x64.Release.ActionText-2.idtx:58
 msgid "Starting services"
 msgstr "Стартиране на услугите"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:59
+#: en_US.ARM64.Release.ActionText-2.idtx:59
 #: en_US.Win32.Debug.ActionText-2.idtx:59
 #: en_US.Win32.Release.ActionText-2.idtx:59
 #: en_US.x64.Debug.ActionText-2.idtx:59 en_US.x64.Release.ActionText-2.idtx:59
 msgid "Stopping services"
 msgstr "Спиране на услугите"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:60
+#: en_US.ARM64.Release.ActionText-2.idtx:60
 #: en_US.Win32.Debug.ActionText-2.idtx:60
 #: en_US.Win32.Release.ActionText-2.idtx:60
 #: en_US.x64.Debug.ActionText-2.idtx:60 en_US.x64.Release.ActionText-2.idtx:60
 msgid "Removing moved files"
 msgstr "Премахване на преместени файлове"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:61
+#: en_US.ARM64.Release.ActionText-2.idtx:61
 #: en_US.Win32.Debug.ActionText-2.idtx:61
 #: en_US.Win32.Release.ActionText-2.idtx:61
 #: en_US.x64.Debug.ActionText-2.idtx:61 en_US.x64.Release.ActionText-2.idtx:61
 msgid "Unpublishing Qualified Components"
 msgstr "Отменяне на публикуването на подходящите компоненти"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:62
+#: en_US.ARM64.Release.ActionText-2.idtx:62
 #: en_US.Win32.Debug.ActionText-2.idtx:62
 #: en_US.Win32.Release.ActionText-2.idtx:62
 #: en_US.x64.Debug.ActionText-2.idtx:62 en_US.x64.Release.ActionText-2.idtx:62
 msgid "Unpublishing Product Features"
 msgstr "Отменяне на публикуването на компонентите на продукта"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:63
+#: en_US.ARM64.Release.ActionText-2.idtx:63
 #: en_US.Win32.Debug.ActionText-2.idtx:63
 #: en_US.Win32.Release.ActionText-2.idtx:63
 #: en_US.x64.Debug.ActionText-2.idtx:63 en_US.x64.Release.ActionText-2.idtx:63
 msgid "Unpublishing product information"
 msgstr "Отменяне на публикуваната информация за продукта"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:64
+#: en_US.ARM64.Release.ActionText-2.idtx:64
 #: en_US.Win32.Debug.ActionText-2.idtx:64
 #: en_US.Win32.Release.ActionText-2.idtx:64
 #: en_US.x64.Debug.ActionText-2.idtx:64 en_US.x64.Release.ActionText-2.idtx:64
 msgid "Unregister Class servers"
 msgstr "Дерегистриране на сървъри за класове"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:65
+#: en_US.ARM64.Release.ActionText-2.idtx:65
 #: en_US.Win32.Debug.ActionText-2.idtx:65
 #: en_US.Win32.Release.ActionText-2.idtx:65
 #: en_US.x64.Debug.ActionText-2.idtx:65 en_US.x64.Release.ActionText-2.idtx:65
 msgid "Unregistering COM+ Applications and Components"
 msgstr "Дерегистриране на COM+ приложения и компоненти"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:65
+#: en_US.ARM64.Release.ActionText-2.idtx:65
 #: en_US.Win32.Debug.ActionText-2.idtx:65
 #: en_US.Win32.Release.ActionText-2.idtx:65
 #: en_US.x64.Debug.ActionText-2.idtx:65 en_US.x64.Release.ActionText-2.idtx:65
 msgid "AppId: [1]{{, AppType: [2]}}"
 msgstr "ИД на приложение: [1]{{, Тип приложение: [2]}}"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:66
+#: en_US.ARM64.Release.ActionText-2.idtx:66
 #: en_US.Win32.Debug.ActionText-2.idtx:66
 #: en_US.Win32.Release.ActionText-2.idtx:66
 #: en_US.x64.Debug.ActionText-2.idtx:66 en_US.x64.Release.ActionText-2.idtx:66
 msgid "Unregistering extension servers"
 msgstr "Дерегистриране на сървъри за разширения"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:67
+#: en_US.ARM64.Release.ActionText-2.idtx:67
 #: en_US.Win32.Debug.ActionText-2.idtx:67
 #: en_US.Win32.Release.ActionText-2.idtx:67
 #: en_US.x64.Debug.ActionText-2.idtx:67 en_US.x64.Release.ActionText-2.idtx:67
 msgid "Unregistering fonts"
 msgstr "Дерегистриране на шрифтове"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:68
+#: en_US.ARM64.Release.ActionText-2.idtx:68
 #: en_US.Win32.Debug.ActionText-2.idtx:68
 #: en_US.Win32.Release.ActionText-2.idtx:68
 #: en_US.x64.Debug.ActionText-2.idtx:68 en_US.x64.Release.ActionText-2.idtx:68
 msgid "Unregistering MIME info"
 msgstr "Дерегистриране на MIME информация"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:69
+#: en_US.ARM64.Release.ActionText-2.idtx:69
 #: en_US.Win32.Debug.ActionText-2.idtx:69
 #: en_US.Win32.Release.ActionText-2.idtx:69
 #: en_US.x64.Debug.ActionText-2.idtx:69 en_US.x64.Release.ActionText-2.idtx:69
 msgid "Unregistering program identifiers"
 msgstr "Дерегистриране на идентификатори за програми"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:70
+#: en_US.ARM64.Release.ActionText-2.idtx:70
 #: en_US.Win32.Debug.ActionText-2.idtx:70
 #: en_US.Win32.Release.ActionText-2.idtx:70
 #: en_US.x64.Debug.ActionText-2.idtx:70 en_US.x64.Release.ActionText-2.idtx:70
 msgid "Unregistering type libraries"
 msgstr "Дерегистриране на библиотеки с типове"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:72
+#: en_US.ARM64.Release.ActionText-2.idtx:72
 #: en_US.Win32.Debug.ActionText-2.idtx:72
 #: en_US.Win32.Release.ActionText-2.idtx:72
 #: en_US.x64.Debug.ActionText-2.idtx:72 en_US.x64.Release.ActionText-2.idtx:72
 msgid "Writing INI files values"
 msgstr "Запис на стойностите на INI файлове"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:73
+#: en_US.ARM64.Release.ActionText-2.idtx:73
 #: en_US.Win32.Debug.ActionText-2.idtx:73
 #: en_US.Win32.Release.ActionText-2.idtx:73
 #: en_US.x64.Debug.ActionText-2.idtx:73 en_US.x64.Release.ActionText-2.idtx:73
 msgid "Writing system registry values"
 msgstr "Запис на стойностите на системния регистър"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:73
+#: en_US.ARM64.Release.ActionText-2.idtx:73
 #: en_US.Win32.Debug.ActionText-2.idtx:73
 #: en_US.Win32.Release.ActionText-2.idtx:73
 #: en_US.x64.Debug.ActionText-2.idtx:73 en_US.x64.Release.ActionText-2.idtx:73
 msgid "Key: [1], Name: [2], Value: [3]"
 msgstr "Ключ: [1], Име: [2], Стойност: [3]"
 
-#: en_US.Win32.Debug.CustomAction-2.idtx:4
-#: en_US.Win32.Release.CustomAction-2.idtx:4
-msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
-" 64-bit operating system. 32-bit variant will not work with your operating "
-"system. The installation of the 64-bit variant is recommended."
+#: en_US.ARM64.Debug.ActionText-2.idtx:74
+#: en_US.ARM64.Release.ActionText-2.idtx:74
+#: en_US.Win32.Debug.ActionText-2.idtx:74
+#: en_US.Win32.Release.ActionText-2.idtx:74
+#: en_US.x64.Debug.ActionText-2.idtx:74 en_US.x64.Release.ActionText-2.idtx:74
+msgid "Evaluating Active Setup components"
 msgstr ""
-"Опитвате се да инсталирате 32-битов вариант на [SimpleProductName] върху "
-"64-битова операционна система. 32-битовият вариант няма да работи с Вашата "
-"операционна система. Препоръчителна е инсталация на 64-битов вариант."
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:75
+#: en_US.ARM64.Release.ActionText-2.idtx:75
+#: en_US.Win32.Debug.ActionText-2.idtx:75
+#: en_US.Win32.Release.ActionText-2.idtx:75
+#: en_US.x64.Debug.ActionText-2.idtx:75 en_US.x64.Release.ActionText-2.idtx:75
+msgid "Publishing Active Setup components"
+msgstr ""
+
+#: en_US.ARM64.Debug.CustomAction-2.idtx:4
+#: en_US.ARM64.Release.CustomAction-2.idtx:4
 #: en_US.Win32.Debug.CustomAction-2.idtx:5
 #: en_US.Win32.Release.CustomAction-2.idtx:5
 #: en_US.x64.Debug.CustomAction-2.idtx:4
@@ -735,6 +993,8 @@ msgstr ""
 msgid "A newer version of [SimpleProductName] is already installed."
 msgstr "Вече е инсталирана по-нова версия на [SimpleProductName]."
 
+#: en_US.ARM64.Debug.CustomAction-2.idtx:5
+#: en_US.ARM64.Release.CustomAction-2.idtx:5
 #: en_US.Win32.Debug.CustomAction-2.idtx:6
 #: en_US.Win32.Release.CustomAction-2.idtx:6
 #: en_US.x64.Debug.CustomAction-2.idtx:5
@@ -746,26 +1006,31 @@ msgstr ""
 "Този пакет не може да надстрои текущо инсталирания [SimpleProductName]. Моля"
 " първо премахнете стария пакет и опитайте отново."
 
+#: en_US.ARM64.Debug.Error-2.idtx:4 en_US.ARM64.Release.Error-2.idtx:4
 #: en_US.Win32.Debug.Error-2.idtx:4 en_US.Win32.Release.Error-2.idtx:4
 #: en_US.x64.Debug.Error-2.idtx:4 en_US.x64.Release.Error-2.idtx:4
 msgid "{{Fatal error: }}"
 msgstr "{{Фатална грешка: }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:5 en_US.ARM64.Release.Error-2.idtx:5
 #: en_US.Win32.Debug.Error-2.idtx:5 en_US.Win32.Release.Error-2.idtx:5
 #: en_US.x64.Debug.Error-2.idtx:5 en_US.x64.Release.Error-2.idtx:5
 msgid "{{Error [1]. }}"
 msgstr "{{Грешка [1]. }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:6 en_US.ARM64.Release.Error-2.idtx:6
 #: en_US.Win32.Debug.Error-2.idtx:6 en_US.Win32.Release.Error-2.idtx:6
 #: en_US.x64.Debug.Error-2.idtx:6 en_US.x64.Release.Error-2.idtx:6
 msgid "Warning [1]. "
 msgstr "Предупреждение [1]. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:8 en_US.ARM64.Release.Error-2.idtx:8
 #: en_US.Win32.Debug.Error-2.idtx:8 en_US.Win32.Release.Error-2.idtx:8
 #: en_US.x64.Debug.Error-2.idtx:8 en_US.x64.Release.Error-2.idtx:8
 msgid "Info [1]. "
 msgstr "Информация [1]. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:9 en_US.ARM64.Release.Error-2.idtx:9
 #: en_US.Win32.Debug.Error-2.idtx:9 en_US.Win32.Release.Error-2.idtx:9
 #: en_US.x64.Debug.Error-2.idtx:9 en_US.x64.Release.Error-2.idtx:9
 msgid ""
@@ -777,56 +1042,68 @@ msgstr ""
 "пакет, което може да означава, че в него има грешка. Кодът не грешката е "
 "[1]. {{Аргументите са: [2], [3], [4]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:11 en_US.ARM64.Release.Error-2.idtx:11
 #: en_US.Win32.Debug.Error-2.idtx:11 en_US.Win32.Release.Error-2.idtx:11
 #: en_US.x64.Debug.Error-2.idtx:11 en_US.x64.Release.Error-2.idtx:11
 msgid "{{Disk full: }}"
 msgstr "{{Препълване на диска: }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:12 en_US.ARM64.Release.Error-2.idtx:12
 #: en_US.Win32.Debug.Error-2.idtx:12 en_US.Win32.Release.Error-2.idtx:12
 #: en_US.x64.Debug.Error-2.idtx:12 en_US.x64.Release.Error-2.idtx:12
 msgid "Action [Time]: [1]. [2]"
 msgstr "Действие [Time]: [1]. [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:13 en_US.ARM64.Release.Error-2.idtx:13
 #: en_US.Win32.Debug.Error-2.idtx:13 en_US.Win32.Release.Error-2.idtx:13
 #: en_US.x64.Debug.Error-2.idtx:13 en_US.x64.Release.Error-2.idtx:13
 msgid "[SimpleProductName]"
 msgstr "[SimpleProductName]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:14 en_US.ARM64.Release.Error-2.idtx:14
 #: en_US.Win32.Debug.Error-2.idtx:14 en_US.Win32.Release.Error-2.idtx:14
 #: en_US.x64.Debug.Error-2.idtx:14 en_US.x64.Release.Error-2.idtx:14
 msgid "{[2]}{, [3]}{, [4]}"
 msgstr "{[2]}{, [3]}{, [4]}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:15 en_US.ARM64.Release.Error-2.idtx:15
 #: en_US.Win32.Debug.Error-2.idtx:15 en_US.Win32.Release.Error-2.idtx:15
 #: en_US.x64.Debug.Error-2.idtx:15 en_US.x64.Release.Error-2.idtx:15
 msgid "Message type: [1], Argument: [2]{, [3]}"
 msgstr "Тип на съобщението: [1], Аргумент: [2]{, [3]}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:16 en_US.ARM64.Release.Error-2.idtx:16
 #: en_US.Win32.Debug.Error-2.idtx:16 en_US.Win32.Release.Error-2.idtx:16
 #: en_US.x64.Debug.Error-2.idtx:16 en_US.x64.Release.Error-2.idtx:16
 msgid "=== Logging started: [Date]  [Time] ==="
 msgstr "=== Начало на регистрирането: [Date]  [Time] ==="
 
+#: en_US.ARM64.Debug.Error-2.idtx:17 en_US.ARM64.Release.Error-2.idtx:17
 #: en_US.Win32.Debug.Error-2.idtx:17 en_US.Win32.Release.Error-2.idtx:17
 #: en_US.x64.Debug.Error-2.idtx:17 en_US.x64.Release.Error-2.idtx:17
 msgid "=== Logging stopped: [Date]  [Time] ==="
 msgstr "=== Край на регистрирането: [Date]  [Time] ==="
 
+#: en_US.ARM64.Debug.Error-2.idtx:18 en_US.ARM64.Release.Error-2.idtx:18
 #: en_US.Win32.Debug.Error-2.idtx:18 en_US.Win32.Release.Error-2.idtx:18
 #: en_US.x64.Debug.Error-2.idtx:18 en_US.x64.Release.Error-2.idtx:18
 msgid "Action start [Time]: [1]."
 msgstr "Начало на действието [Time]: [1]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:19 en_US.ARM64.Release.Error-2.idtx:19
 #: en_US.Win32.Debug.Error-2.idtx:19 en_US.Win32.Release.Error-2.idtx:19
 #: en_US.x64.Debug.Error-2.idtx:19 en_US.x64.Release.Error-2.idtx:19
 msgid "Action ended [Time]: [1]. Return value [2]."
 msgstr "Край на действието [Time]: [1]. Върната стойност [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:20 en_US.ARM64.Release.Error-2.idtx:20
 #: en_US.Win32.Debug.Error-2.idtx:20 en_US.Win32.Release.Error-2.idtx:20
 #: en_US.x64.Debug.Error-2.idtx:20 en_US.x64.Release.Error-2.idtx:20
 msgid "Time remaining: {[1] minutes }{[2] seconds}"
 msgstr "Оставащо време: {[1] минути }{[2] секунди}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:21 en_US.ARM64.Debug.Error-2.idtx:127
+#: en_US.ARM64.Release.Error-2.idtx:21 en_US.ARM64.Release.Error-2.idtx:127
 #: en_US.Win32.Debug.Error-2.idtx:21 en_US.Win32.Debug.Error-2.idtx:127
 #: en_US.Win32.Release.Error-2.idtx:21 en_US.Win32.Release.Error-2.idtx:127
 #: en_US.x64.Debug.Error-2.idtx:21 en_US.x64.Debug.Error-2.idtx:127
@@ -835,46 +1112,55 @@ msgid "Out of memory. Shut down other applications before retrying."
 msgstr ""
 "Недостиг на памет. Изключете другите приложения, преди да опитате пак."
 
+#: en_US.ARM64.Debug.Error-2.idtx:22 en_US.ARM64.Release.Error-2.idtx:22
 #: en_US.Win32.Debug.Error-2.idtx:22 en_US.Win32.Release.Error-2.idtx:22
 #: en_US.x64.Debug.Error-2.idtx:22 en_US.x64.Release.Error-2.idtx:22
 msgid "Installer is no longer responding."
 msgstr "Инсталиращата програма престана да отговаря."
 
+#: en_US.ARM64.Debug.Error-2.idtx:23 en_US.ARM64.Release.Error-2.idtx:23
 #: en_US.Win32.Debug.Error-2.idtx:23 en_US.Win32.Release.Error-2.idtx:23
 #: en_US.x64.Debug.Error-2.idtx:23 en_US.x64.Release.Error-2.idtx:23
 msgid "Installer stopped prematurely."
 msgstr "Инсталиращата програма спря преждевременно."
 
+#: en_US.ARM64.Debug.Error-2.idtx:24 en_US.ARM64.Release.Error-2.idtx:24
 #: en_US.Win32.Debug.Error-2.idtx:24 en_US.Win32.Release.Error-2.idtx:24
 #: en_US.x64.Debug.Error-2.idtx:24 en_US.x64.Release.Error-2.idtx:24
 msgid "Please wait while Windows configures [SimpleProductName]"
 msgstr "Изчакайте, докато Windows конфигурира [SimpleProductName]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:25 en_US.ARM64.Release.Error-2.idtx:25
 #: en_US.Win32.Debug.Error-2.idtx:25 en_US.Win32.Release.Error-2.idtx:25
 #: en_US.x64.Debug.Error-2.idtx:25 en_US.x64.Release.Error-2.idtx:25
 msgid "Gathering required information..."
 msgstr "Събиране на необходимата информация..."
 
+#: en_US.ARM64.Debug.Error-2.idtx:26 en_US.ARM64.Release.Error-2.idtx:26
 #: en_US.Win32.Debug.Error-2.idtx:26 en_US.Win32.Release.Error-2.idtx:26
 #: en_US.x64.Debug.Error-2.idtx:26 en_US.x64.Release.Error-2.idtx:26
 msgid "Removing older versions of this application..."
 msgstr "Премахване на старите версии на приложението..."
 
+#: en_US.ARM64.Debug.Error-2.idtx:27 en_US.ARM64.Release.Error-2.idtx:27
 #: en_US.Win32.Debug.Error-2.idtx:27 en_US.Win32.Release.Error-2.idtx:27
 #: en_US.x64.Debug.Error-2.idtx:27 en_US.x64.Release.Error-2.idtx:27
 msgid "Preparing to remove older versions of this application..."
 msgstr "Подготовка за премахване на по-старите версии на приложението..."
 
+#: en_US.ARM64.Debug.Error-2.idtx:28 en_US.ARM64.Release.Error-2.idtx:28
 #: en_US.Win32.Debug.Error-2.idtx:28 en_US.Win32.Release.Error-2.idtx:28
 #: en_US.x64.Debug.Error-2.idtx:28 en_US.x64.Release.Error-2.idtx:28
 msgid "{[SimpleProductName] }Setup completed successfully."
 msgstr "Инсталирането на {[SimpleProductName] } завърши успешно."
 
+#: en_US.ARM64.Debug.Error-2.idtx:29 en_US.ARM64.Release.Error-2.idtx:29
 #: en_US.Win32.Debug.Error-2.idtx:29 en_US.Win32.Release.Error-2.idtx:29
 #: en_US.x64.Debug.Error-2.idtx:29 en_US.x64.Release.Error-2.idtx:29
 msgid "{[SimpleProductName] }Setup failed."
 msgstr "Неуспешно инсталиране на {[SimpleProductName] }."
 
+#: en_US.ARM64.Debug.Error-2.idtx:30 en_US.ARM64.Release.Error-2.idtx:30
 #: en_US.Win32.Debug.Error-2.idtx:30 en_US.Win32.Release.Error-2.idtx:30
 #: en_US.x64.Debug.Error-2.idtx:30 en_US.x64.Release.Error-2.idtx:30
 msgid ""
@@ -884,6 +1170,7 @@ msgstr ""
 "Грешка при четене на файл: [2]. {{ Системна грешка [3].}}  Проверете дали "
 "този файл съществува и дали имате достъп до него."
 
+#: en_US.ARM64.Debug.Error-2.idtx:31 en_US.ARM64.Release.Error-2.idtx:31
 #: en_US.Win32.Debug.Error-2.idtx:31 en_US.Win32.Release.Error-2.idtx:31
 #: en_US.x64.Debug.Error-2.idtx:31 en_US.x64.Release.Error-2.idtx:31
 msgid ""
@@ -894,11 +1181,13 @@ msgstr ""
 "име.  Прекратете инсталирането и се опитайте да извършите инсталирането на "
 "друго място."
 
+#: en_US.ARM64.Debug.Error-2.idtx:32 en_US.ARM64.Release.Error-2.idtx:32
 #: en_US.Win32.Debug.Error-2.idtx:32 en_US.Win32.Release.Error-2.idtx:32
 #: en_US.x64.Debug.Error-2.idtx:32 en_US.x64.Release.Error-2.idtx:32
 msgid "Please insert the disk: [2]"
 msgstr "Поставете диска: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:33 en_US.ARM64.Release.Error-2.idtx:33
 #: en_US.Win32.Debug.Error-2.idtx:33 en_US.Win32.Release.Error-2.idtx:33
 #: en_US.x64.Debug.Error-2.idtx:33 en_US.x64.Release.Error-2.idtx:33
 msgid ""
@@ -911,6 +1200,7 @@ msgstr ""
 "продължи.  Влезте като администратор или се свържете с вашия системен "
 "администратор."
 
+#: en_US.ARM64.Debug.Error-2.idtx:34 en_US.ARM64.Release.Error-2.idtx:34
 #: en_US.Win32.Debug.Error-2.idtx:34 en_US.Win32.Release.Error-2.idtx:34
 #: en_US.x64.Debug.Error-2.idtx:34 en_US.x64.Release.Error-2.idtx:34
 msgid ""
@@ -919,6 +1209,7 @@ msgstr ""
 "Грешка при запис във файла : [2].  Проверете дали имате достъп до тази "
 "директория."
 
+#: en_US.ARM64.Debug.Error-2.idtx:35 en_US.ARM64.Release.Error-2.idtx:35
 #: en_US.Win32.Debug.Error-2.idtx:35 en_US.Win32.Release.Error-2.idtx:35
 #: en_US.x64.Debug.Error-2.idtx:35 en_US.x64.Release.Error-2.idtx:35
 msgid ""
@@ -928,6 +1219,7 @@ msgstr ""
 "Грешка при четене от файл [2]. {{ Системна грешка [3].}} Проверете дали "
 "файлът съществува и дали имате достъп до него."
 
+#: en_US.ARM64.Debug.Error-2.idtx:36 en_US.ARM64.Release.Error-2.idtx:36
 #: en_US.Win32.Debug.Error-2.idtx:36 en_US.Win32.Release.Error-2.idtx:36
 #: en_US.x64.Debug.Error-2.idtx:36 en_US.x64.Release.Error-2.idtx:36
 msgid ""
@@ -937,6 +1229,7 @@ msgstr ""
 "Друго приложение има изключителен достъп до файла '[2]'.  Изключете всички "
 "други приложения и после щракнете върху \"Опитай пак\"."
 
+#: en_US.ARM64.Debug.Error-2.idtx:37 en_US.ARM64.Release.Error-2.idtx:37
 #: en_US.Win32.Debug.Error-2.idtx:37 en_US.Win32.Release.Error-2.idtx:37
 #: en_US.x64.Debug.Error-2.idtx:37 en_US.x64.Release.Error-2.idtx:37
 msgid ""
@@ -947,6 +1240,7 @@ msgstr ""
 "Освободете известно дисково пространство и щракнете върху \"Опитай пак\" или"
 " щракнете върху \"Отказ\", за да излезете."
 
+#: en_US.ARM64.Debug.Error-2.idtx:38 en_US.ARM64.Release.Error-2.idtx:38
 #: en_US.Win32.Debug.Error-2.idtx:38 en_US.Win32.Release.Error-2.idtx:38
 #: en_US.x64.Debug.Error-2.idtx:38 en_US.x64.Release.Error-2.idtx:38
 msgid ""
@@ -956,6 +1250,7 @@ msgstr ""
 "Не е намерен файлът-източник: [2].  Проверете дали този файл съществува и "
 "дали имате достъп до него."
 
+#: en_US.ARM64.Debug.Error-2.idtx:39 en_US.ARM64.Release.Error-2.idtx:39
 #: en_US.Win32.Debug.Error-2.idtx:39 en_US.Win32.Release.Error-2.idtx:39
 #: en_US.x64.Debug.Error-2.idtx:39 en_US.x64.Release.Error-2.idtx:39
 msgid ""
@@ -965,6 +1260,7 @@ msgstr ""
 "Грешка при четене от файла: [3]. {{ Системна грешка [2].}}  Проверете дали "
 "този файл съществува и дали имате достъп до него."
 
+#: en_US.ARM64.Debug.Error-2.idtx:40 en_US.ARM64.Release.Error-2.idtx:40
 #: en_US.Win32.Debug.Error-2.idtx:40 en_US.Win32.Release.Error-2.idtx:40
 #: en_US.x64.Debug.Error-2.idtx:40 en_US.x64.Release.Error-2.idtx:40
 msgid ""
@@ -974,6 +1270,7 @@ msgstr ""
 "Грешка при запис във файла: [3]. {{ Системна грешка [2].}}  Проверете дали "
 "имате достъп до тази директория"
 
+#: en_US.ARM64.Debug.Error-2.idtx:41 en_US.ARM64.Release.Error-2.idtx:41
 #: en_US.Win32.Debug.Error-2.idtx:41 en_US.Win32.Release.Error-2.idtx:41
 #: en_US.x64.Debug.Error-2.idtx:41 en_US.x64.Release.Error-2.idtx:41
 msgid ""
@@ -983,6 +1280,7 @@ msgstr ""
 "Не е намерен файлът-източник{{(архивен файл)}}: [2].  Проверете дали този "
 "файл съществува и дали имате достъп до него."
 
+#: en_US.ARM64.Debug.Error-2.idtx:42 en_US.ARM64.Release.Error-2.idtx:42
 #: en_US.Win32.Debug.Error-2.idtx:42 en_US.Win32.Release.Error-2.idtx:42
 #: en_US.x64.Debug.Error-2.idtx:42 en_US.x64.Release.Error-2.idtx:42
 msgid ""
@@ -993,36 +1291,43 @@ msgstr ""
 " име.  Преименувайте или премахнете този файл, или щракнете върху \"Отказ\","
 " за да излезете."
 
+#: en_US.ARM64.Debug.Error-2.idtx:43 en_US.ARM64.Release.Error-2.idtx:43
 #: en_US.Win32.Debug.Error-2.idtx:43 en_US.Win32.Release.Error-2.idtx:43
 #: en_US.x64.Debug.Error-2.idtx:43 en_US.x64.Release.Error-2.idtx:43
 msgid "The volume [2] is currently unavailable.  Please select another."
 msgstr "Томът [2] в момента е недостъпен. Изберете друг."
 
+#: en_US.ARM64.Debug.Error-2.idtx:44 en_US.ARM64.Release.Error-2.idtx:44
 #: en_US.Win32.Debug.Error-2.idtx:44 en_US.Win32.Release.Error-2.idtx:44
 #: en_US.x64.Debug.Error-2.idtx:44 en_US.x64.Release.Error-2.idtx:44
 msgid "The specified path '[2]' is unavailable."
 msgstr "Зададеният път '[2]' е недостъпен."
 
+#: en_US.ARM64.Debug.Error-2.idtx:45 en_US.ARM64.Release.Error-2.idtx:45
 #: en_US.Win32.Debug.Error-2.idtx:45 en_US.Win32.Release.Error-2.idtx:45
 #: en_US.x64.Debug.Error-2.idtx:45 en_US.x64.Release.Error-2.idtx:45
 msgid "Unable to write to the specified folder: [2]."
 msgstr "Не може да бъде извършен запис в зададената папка: [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:46 en_US.ARM64.Release.Error-2.idtx:46
 #: en_US.Win32.Debug.Error-2.idtx:46 en_US.Win32.Release.Error-2.idtx:46
 #: en_US.x64.Debug.Error-2.idtx:46 en_US.x64.Release.Error-2.idtx:46
 msgid "A network error occurred while attempting to read from the file: [2]"
 msgstr "Възникна мрежова грешка при опит за четене от файла: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:47 en_US.ARM64.Release.Error-2.idtx:47
 #: en_US.Win32.Debug.Error-2.idtx:47 en_US.Win32.Release.Error-2.idtx:47
 #: en_US.x64.Debug.Error-2.idtx:47 en_US.x64.Release.Error-2.idtx:47
 msgid "An error occurred while attempting to create the directory: [2]"
 msgstr "Възникна грешка при опит да бъде създадена директорията: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:48 en_US.ARM64.Release.Error-2.idtx:48
 #: en_US.Win32.Debug.Error-2.idtx:48 en_US.Win32.Release.Error-2.idtx:48
 #: en_US.x64.Debug.Error-2.idtx:48 en_US.x64.Release.Error-2.idtx:48
 msgid "A network error occurred while attempting to create the directory: [2]"
 msgstr "Възникна мрежова грешка при опит да бъде създадена директорията: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:49 en_US.ARM64.Release.Error-2.idtx:49
 #: en_US.Win32.Debug.Error-2.idtx:49 en_US.Win32.Release.Error-2.idtx:49
 #: en_US.x64.Debug.Error-2.idtx:49 en_US.x64.Release.Error-2.idtx:49
 msgid ""
@@ -1032,11 +1337,13 @@ msgstr ""
 "Възникна мрежова грешка при опит да бъде отворен архивният файл източник: "
 "[2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:50 en_US.ARM64.Release.Error-2.idtx:50
 #: en_US.Win32.Debug.Error-2.idtx:50 en_US.Win32.Release.Error-2.idtx:50
 #: en_US.x64.Debug.Error-2.idtx:50 en_US.x64.Release.Error-2.idtx:50
 msgid "The specified path is too long: [2]"
 msgstr "Зададеният път е прекалено дълъг: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:51 en_US.ARM64.Release.Error-2.idtx:51
 #: en_US.Win32.Debug.Error-2.idtx:51 en_US.Win32.Release.Error-2.idtx:51
 #: en_US.x64.Debug.Error-2.idtx:51 en_US.x64.Release.Error-2.idtx:51
 msgid "The Installer has insufficient privileges to modify this file: [2]."
@@ -1044,6 +1351,7 @@ msgstr ""
 "Привилегиите на инсталиращата програма не са достатъчни, за да бъде "
 "модифициран следният файл: [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:52 en_US.ARM64.Release.Error-2.idtx:52
 #: en_US.Win32.Debug.Error-2.idtx:52 en_US.Win32.Release.Error-2.idtx:52
 #: en_US.x64.Debug.Error-2.idtx:52 en_US.x64.Release.Error-2.idtx:52
 msgid ""
@@ -1053,6 +1361,7 @@ msgstr ""
 "Част от пътя до папката \"[2]\" не е валидна. Тя е празна или надхвърля "
 "допустимата за тази система дължина."
 
+#: en_US.ARM64.Debug.Error-2.idtx:53 en_US.ARM64.Release.Error-2.idtx:53
 #: en_US.Win32.Debug.Error-2.idtx:53 en_US.Win32.Release.Error-2.idtx:53
 #: en_US.x64.Debug.Error-2.idtx:53 en_US.x64.Release.Error-2.idtx:53
 msgid ""
@@ -1060,26 +1369,31 @@ msgid ""
 msgstr ""
 "Пътят до папката '[2]' съдържа думи, които не са валидни за пътища до папки."
 
+#: en_US.ARM64.Debug.Error-2.idtx:54 en_US.ARM64.Release.Error-2.idtx:54
 #: en_US.Win32.Debug.Error-2.idtx:54 en_US.Win32.Release.Error-2.idtx:54
 #: en_US.x64.Debug.Error-2.idtx:54 en_US.x64.Release.Error-2.idtx:54
 msgid "The folder path '[2]' contains an invalid character."
 msgstr "Пътят до папката '[2]' съдържа невалиден знак."
 
+#: en_US.ARM64.Debug.Error-2.idtx:55 en_US.ARM64.Release.Error-2.idtx:55
 #: en_US.Win32.Debug.Error-2.idtx:55 en_US.Win32.Release.Error-2.idtx:55
 #: en_US.x64.Debug.Error-2.idtx:55 en_US.x64.Release.Error-2.idtx:55
 msgid "'[2]' is not a valid short file name."
 msgstr "'[2]' не е валидно късо име на файл."
 
+#: en_US.ARM64.Debug.Error-2.idtx:56 en_US.ARM64.Release.Error-2.idtx:56
 #: en_US.Win32.Debug.Error-2.idtx:56 en_US.Win32.Release.Error-2.idtx:56
 #: en_US.x64.Debug.Error-2.idtx:56 en_US.x64.Release.Error-2.idtx:56
 msgid "Error getting file security: [3] GetLastError: [2]"
 msgstr "Грешка при получаване на защитата на файла: [3] GetLastError: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:57 en_US.ARM64.Release.Error-2.idtx:57
 #: en_US.Win32.Debug.Error-2.idtx:57 en_US.Win32.Release.Error-2.idtx:57
 #: en_US.x64.Debug.Error-2.idtx:57 en_US.x64.Release.Error-2.idtx:57
 msgid "Invalid Drive: [2]"
 msgstr "Невалидно устройство: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:58 en_US.ARM64.Release.Error-2.idtx:58
 #: en_US.Win32.Debug.Error-2.idtx:58 en_US.Win32.Release.Error-2.idtx:58
 #: en_US.x64.Debug.Error-2.idtx:58 en_US.x64.Release.Error-2.idtx:58
 msgid ""
@@ -1092,6 +1406,7 @@ msgstr ""
 "повече информация се обърнете към доставчика на корекцията.  {{Системна "
 "грешка: [3]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:59 en_US.ARM64.Release.Error-2.idtx:59
 #: en_US.Win32.Debug.Error-2.idtx:59 en_US.Win32.Release.Error-2.idtx:59
 #: en_US.x64.Debug.Error-2.idtx:59 en_US.x64.Release.Error-2.idtx:59
 msgid ""
@@ -1101,6 +1416,7 @@ msgstr ""
 "Нужен файл не може да се инсталира, защото архивният файл  [2] не е цифрово "
 "подписан.  Това може да означава, че архивният файл е повреден."
 
+#: en_US.ARM64.Debug.Error-2.idtx:60 en_US.ARM64.Release.Error-2.idtx:60
 #: en_US.Win32.Debug.Error-2.idtx:60 en_US.Win32.Release.Error-2.idtx:60
 #: en_US.x64.Debug.Error-2.idtx:60 en_US.x64.Release.Error-2.idtx:60
 msgid ""
@@ -1112,21 +1428,25 @@ msgstr ""
 "цифров подпис. Това може да означава, че архивният файл е повреден.{{  "
 "Грешка [3] е върната от WinVerifyTrust.}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:61 en_US.ARM64.Release.Error-2.idtx:61
 #: en_US.Win32.Debug.Error-2.idtx:61 en_US.Win32.Release.Error-2.idtx:61
 #: en_US.x64.Debug.Error-2.idtx:61 en_US.x64.Release.Error-2.idtx:61
 msgid "Failed to correctly copy [2] file: CRC error."
 msgstr "Копирането на файла [2] е неуспешно: CRC грешка."
 
+#: en_US.ARM64.Debug.Error-2.idtx:62 en_US.ARM64.Release.Error-2.idtx:62
 #: en_US.Win32.Debug.Error-2.idtx:62 en_US.Win32.Release.Error-2.idtx:62
 #: en_US.x64.Debug.Error-2.idtx:62 en_US.x64.Release.Error-2.idtx:62
 msgid "Failed to correctly move [2] file: CRC error."
 msgstr "Преместването на файла [2] е неуспешно: CRC грешка."
 
+#: en_US.ARM64.Debug.Error-2.idtx:63 en_US.ARM64.Release.Error-2.idtx:63
 #: en_US.Win32.Debug.Error-2.idtx:63 en_US.Win32.Release.Error-2.idtx:63
 #: en_US.x64.Debug.Error-2.idtx:63 en_US.x64.Release.Error-2.idtx:63
 msgid "Failed to correctly patch [2] file: CRC error."
 msgstr "Поправката на файла [2] не е успешна. CRC грешка."
 
+#: en_US.ARM64.Debug.Error-2.idtx:64 en_US.ARM64.Release.Error-2.idtx:64
 #: en_US.Win32.Debug.Error-2.idtx:64 en_US.Win32.Release.Error-2.idtx:64
 #: en_US.x64.Debug.Error-2.idtx:64 en_US.x64.Release.Error-2.idtx:64
 msgid ""
@@ -1138,6 +1458,7 @@ msgstr ""
 "архивния файл \"[3]\". Това може да означава грешка в мрежата, грешка при "
 "четене от CD-ROM устройството или проблем в този пакет."
 
+#: en_US.ARM64.Debug.Error-2.idtx:65 en_US.ARM64.Release.Error-2.idtx:65
 #: en_US.Win32.Debug.Error-2.idtx:65 en_US.Win32.Release.Error-2.idtx:65
 #: en_US.x64.Debug.Error-2.idtx:65 en_US.x64.Release.Error-2.idtx:65
 msgid ""
@@ -1149,6 +1470,7 @@ msgstr ""
 "използва. Това може да означава грешка в мрежата, грешка при четене от CD-"
 "ROM устройството или проблем в този пакет."
 
+#: en_US.ARM64.Debug.Error-2.idtx:66 en_US.ARM64.Release.Error-2.idtx:66
 #: en_US.Win32.Debug.Error-2.idtx:66 en_US.Win32.Release.Error-2.idtx:66
 #: en_US.x64.Debug.Error-2.idtx:66 en_US.x64.Release.Error-2.idtx:66
 msgid ""
@@ -1158,6 +1480,7 @@ msgstr ""
 "Възникна грешка при създаването на временен файл, нужен за завършването на "
 "инсталирането.{{  Папка: [3]. Код на системна грешка: [2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:67 en_US.ARM64.Release.Error-2.idtx:67
 #: en_US.Win32.Debug.Error-2.idtx:67 en_US.Win32.Release.Error-2.idtx:67
 #: en_US.x64.Debug.Error-2.idtx:67 en_US.x64.Release.Error-2.idtx:67
 msgid ""
@@ -1168,6 +1491,7 @@ msgstr ""
 "дали имате достатъчен достъп до този ключ или се свържете с вашия екип по "
 "поддръжката. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:68 en_US.ARM64.Release.Error-2.idtx:68
 #: en_US.Win32.Debug.Error-2.idtx:68 en_US.Win32.Release.Error-2.idtx:68
 #: en_US.x64.Debug.Error-2.idtx:68 en_US.x64.Release.Error-2.idtx:68
 msgid ""
@@ -1178,6 +1502,7 @@ msgstr ""
 "дали имате достатъчен достъп до този ключ или се свържете с вашия екип по "
 "поддръжката. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:69 en_US.ARM64.Release.Error-2.idtx:69
 #: en_US.Win32.Debug.Error-2.idtx:69 en_US.Win32.Release.Error-2.idtx:69
 #: en_US.x64.Debug.Error-2.idtx:69 en_US.x64.Release.Error-2.idtx:69
 msgid ""
@@ -1188,6 +1513,7 @@ msgstr ""
 "[4].}}  Проверете дали имате достатъчен достъп до този ключ или се свържете "
 "с вашия екип по поддръжката. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:70 en_US.ARM64.Release.Error-2.idtx:70
 #: en_US.Win32.Debug.Error-2.idtx:70 en_US.Win32.Release.Error-2.idtx:70
 #: en_US.x64.Debug.Error-2.idtx:70 en_US.x64.Release.Error-2.idtx:70
 msgid ""
@@ -1198,6 +1524,7 @@ msgstr ""
 "дали имате достатъчен достъп до този ключ или се свържете с вашия екип по "
 "поддръжката. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:71 en_US.ARM64.Release.Error-2.idtx:71
 #: en_US.Win32.Debug.Error-2.idtx:71 en_US.Win32.Release.Error-2.idtx:71
 #: en_US.x64.Debug.Error-2.idtx:71 en_US.x64.Release.Error-2.idtx:71
 msgid ""
@@ -1208,6 +1535,7 @@ msgstr ""
 "[4].}}  Проверете дали имате достатъчен достъп до този ключ или се свържете "
 "с вашия екип по поддръжката. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:72 en_US.ARM64.Release.Error-2.idtx:72
 #: en_US.Win32.Debug.Error-2.idtx:72 en_US.Win32.Release.Error-2.idtx:72
 #: en_US.x64.Debug.Error-2.idtx:72 en_US.x64.Release.Error-2.idtx:72
 msgid ""
@@ -1218,6 +1546,7 @@ msgstr ""
 "[4].}}  Проверете дали имате достатъчен достъп до този ключ или се свържете "
 "с вашия екип по поддръжката."
 
+#: en_US.ARM64.Debug.Error-2.idtx:73 en_US.ARM64.Release.Error-2.idtx:73
 #: en_US.Win32.Debug.Error-2.idtx:73 en_US.Win32.Release.Error-2.idtx:73
 #: en_US.x64.Debug.Error-2.idtx:73 en_US.x64.Release.Error-2.idtx:73
 msgid ""
@@ -1228,6 +1557,7 @@ msgstr ""
 "Системна грешка [3].}}  Проверете дали имате достатъчен достъп до този ключ "
 "или се свържете с вашия екип по поддръжката."
 
+#: en_US.ARM64.Debug.Error-2.idtx:74 en_US.ARM64.Release.Error-2.idtx:74
 #: en_US.Win32.Debug.Error-2.idtx:74 en_US.Win32.Release.Error-2.idtx:74
 #: en_US.x64.Debug.Error-2.idtx:74 en_US.x64.Release.Error-2.idtx:74
 msgid ""
@@ -1238,6 +1568,7 @@ msgstr ""
 "Системна грешка [3].}}  Проверете дали имате достатъчен достъп до този ключ "
 "или се свържете с вашия екип по поддръжката."
 
+#: en_US.ARM64.Debug.Error-2.idtx:75 en_US.ARM64.Release.Error-2.idtx:75
 #: en_US.Win32.Debug.Error-2.idtx:75 en_US.Win32.Release.Error-2.idtx:75
 #: en_US.x64.Debug.Error-2.idtx:75 en_US.x64.Release.Error-2.idtx:75
 msgid ""
@@ -1249,6 +1580,7 @@ msgstr ""
 "Системна грешка [3].}}  Проверете дали имате достатъчен достъп до този ключ "
 "или се свържете с вашия екип по поддръжката."
 
+#: en_US.ARM64.Debug.Error-2.idtx:76 en_US.ARM64.Release.Error-2.idtx:76
 #: en_US.Win32.Debug.Error-2.idtx:76 en_US.Win32.Release.Error-2.idtx:76
 #: en_US.x64.Debug.Error-2.idtx:76 en_US.x64.Release.Error-2.idtx:76
 msgid ""
@@ -1259,6 +1591,7 @@ msgstr ""
 "да бъде инсталирано това приложение, са необходими [2] KБ свободно "
 "пространство за системния регистър."
 
+#: en_US.ARM64.Debug.Error-2.idtx:77 en_US.ARM64.Release.Error-2.idtx:77
 #: en_US.Win32.Debug.Error-2.idtx:77 en_US.Win32.Release.Error-2.idtx:77
 #: en_US.x64.Debug.Error-2.idtx:77 en_US.x64.Release.Error-2.idtx:77
 msgid ""
@@ -1268,6 +1601,7 @@ msgstr ""
 "В момента се извършва друго инсталиране. То трябва да завърши, преди да "
 "продължите с това."
 
+#: en_US.ARM64.Debug.Error-2.idtx:78 en_US.ARM64.Release.Error-2.idtx:78
 #: en_US.Win32.Debug.Error-2.idtx:78 en_US.Win32.Release.Error-2.idtx:78
 #: en_US.x64.Debug.Error-2.idtx:78 en_US.x64.Release.Error-2.idtx:78
 msgid ""
@@ -1278,6 +1612,7 @@ msgstr ""
 "на Windows е правилно конфигурирана и се опитайте да извършите инсталирането"
 " отново."
 
+#: en_US.ARM64.Debug.Error-2.idtx:79 en_US.ARM64.Release.Error-2.idtx:79
 #: en_US.Win32.Debug.Error-2.idtx:79 en_US.Win32.Release.Error-2.idtx:79
 #: en_US.x64.Debug.Error-2.idtx:79 en_US.x64.Release.Error-2.idtx:79
 msgid ""
@@ -1289,6 +1624,7 @@ msgstr ""
 "потребител трябва да изпълни това инсталиране отново, преди този продукт да "
 "може да се използва.  Сега ще продължи вашето текущо инсталиране."
 
+#: en_US.ARM64.Debug.Error-2.idtx:80 en_US.ARM64.Release.Error-2.idtx:80
 #: en_US.Win32.Debug.Error-2.idtx:80 en_US.Win32.Release.Error-2.idtx:80
 #: en_US.x64.Debug.Error-2.idtx:80 en_US.x64.Release.Error-2.idtx:80
 msgid ""
@@ -1299,6 +1635,7 @@ msgstr ""
 "потребител трябва да изпълни това инсталиране относно, преди този продукт да"
 " може да се използва."
 
+#: en_US.ARM64.Debug.Error-2.idtx:81 en_US.ARM64.Release.Error-2.idtx:81
 #: en_US.Win32.Debug.Error-2.idtx:81 en_US.Win32.Release.Error-2.idtx:81
 #: en_US.x64.Debug.Error-2.idtx:81 en_US.x64.Release.Error-2.idtx:81
 msgid ""
@@ -1309,11 +1646,13 @@ msgstr ""
 "[3] KБ; налично пространство: [4] KБ.  Освободете известно дисково "
 "пространство и опитайте пак."
 
+#: en_US.ARM64.Debug.Error-2.idtx:82 en_US.ARM64.Release.Error-2.idtx:82
 #: en_US.Win32.Debug.Error-2.idtx:82 en_US.Win32.Release.Error-2.idtx:82
 #: en_US.x64.Debug.Error-2.idtx:82 en_US.x64.Release.Error-2.idtx:82
 msgid "Are you sure you want to cancel?"
 msgstr "Наистина ли искате да прекратите?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:83 en_US.ARM64.Release.Error-2.idtx:83
 #: en_US.Win32.Debug.Error-2.idtx:83 en_US.Win32.Release.Error-2.idtx:83
 #: en_US.x64.Debug.Error-2.idtx:83 en_US.x64.Release.Error-2.idtx:83
 msgid ""
@@ -1323,6 +1662,7 @@ msgstr ""
 "Файлът [2][3] се използва { от следния процес: Име: [4], ИД: [5], Заглавие "
 "на прозореца: '[6]'}.  Затворете това приложение и опитайте пак."
 
+#: en_US.ARM64.Debug.Error-2.idtx:84 en_US.ARM64.Release.Error-2.idtx:84
 #: en_US.Win32.Debug.Error-2.idtx:84 en_US.Win32.Release.Error-2.idtx:84
 #: en_US.x64.Debug.Error-2.idtx:84 en_US.x64.Release.Error-2.idtx:84
 msgid ""
@@ -1332,6 +1672,7 @@ msgstr ""
 "Вече е инсталиран продуктът '[2]' , което пречи на инсталирането на този "
 "продукт.  Тези два продукта са несъвместими."
 
+#: en_US.ARM64.Debug.Error-2.idtx:85 en_US.ARM64.Release.Error-2.idtx:85
 #: en_US.Win32.Debug.Error-2.idtx:85 en_US.Win32.Release.Error-2.idtx:85
 #: en_US.x64.Debug.Error-2.idtx:85 en_US.x64.Release.Error-2.idtx:85
 msgid ""
@@ -1348,11 +1689,13 @@ msgstr ""
 " проверите отново за свободно място или върху \"Отказ\", за да прекратите "
 "инсталирането."
 
+#: en_US.ARM64.Debug.Error-2.idtx:86 en_US.ARM64.Release.Error-2.idtx:86
 #: en_US.Win32.Debug.Error-2.idtx:86 en_US.Win32.Release.Error-2.idtx:86
 #: en_US.x64.Debug.Error-2.idtx:86 en_US.x64.Release.Error-2.idtx:86
 msgid "Could not access network location [2]."
 msgstr "Не може да бъде осъществен достъп до следното място в мрежата [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:87 en_US.ARM64.Release.Error-2.idtx:87
 #: en_US.Win32.Debug.Error-2.idtx:87 en_US.Win32.Release.Error-2.idtx:87
 #: en_US.x64.Debug.Error-2.idtx:87 en_US.x64.Release.Error-2.idtx:87
 msgid ""
@@ -1361,6 +1704,7 @@ msgstr ""
 "Преди инсталирането да продължи, трябва да бъдат затворени следните "
 "приложения:"
 
+#: en_US.ARM64.Debug.Error-2.idtx:88 en_US.ARM64.Release.Error-2.idtx:88
 #: en_US.Win32.Debug.Error-2.idtx:88 en_US.Win32.Release.Error-2.idtx:88
 #: en_US.x64.Debug.Error-2.idtx:88 en_US.x64.Release.Error-2.idtx:88
 msgid ""
@@ -1370,6 +1714,7 @@ msgstr ""
 "На този компютър не можаха да бъдат намерени никакви инсталирани преди това "
 "съвместими продукти за инсталирането на този продукт."
 
+#: en_US.ARM64.Debug.Error-2.idtx:89 en_US.ARM64.Release.Error-2.idtx:89
 #: en_US.Win32.Debug.Error-2.idtx:89 en_US.Win32.Release.Error-2.idtx:89
 #: en_US.x64.Debug.Error-2.idtx:89 en_US.x64.Release.Error-2.idtx:89
 msgid ""
@@ -1386,6 +1731,7 @@ msgstr ""
 "инсталирането. {{SID номерът на потребителя не може да се намери, системна "
 "грешка [3]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:90 en_US.ARM64.Release.Error-2.idtx:90
 #: en_US.Win32.Debug.Error-2.idtx:90 en_US.Win32.Release.Error-2.idtx:90
 #: en_US.x64.Debug.Error-2.idtx:90 en_US.x64.Release.Error-2.idtx:90
 msgid ""
@@ -1397,6 +1743,7 @@ msgstr ""
 "да бъдат актуализирани, докато системата работи. Ако решите да продължите, "
 "ще бъде необходимо рестартиране, за да завърши това инсталиране."
 
+#: en_US.ARM64.Debug.Error-2.idtx:91 en_US.ARM64.Release.Error-2.idtx:91
 #: en_US.Win32.Debug.Error-2.idtx:91 en_US.Win32.Release.Error-2.idtx:91
 #: en_US.x64.Debug.Error-2.idtx:91 en_US.x64.Release.Error-2.idtx:91
 msgid ""
@@ -1408,6 +1755,7 @@ msgstr ""
 "използващи файловете, които трябва да се актуализират. Ако продължите, ще "
 "трябва да рестартирате компютъра."
 
+#: en_US.ARM64.Debug.Error-2.idtx:92 en_US.ARM64.Release.Error-2.idtx:92
 #: en_US.Win32.Debug.Error-2.idtx:92 en_US.Win32.Release.Error-2.idtx:92
 #: en_US.x64.Debug.Error-2.idtx:92 en_US.x64.Release.Error-2.idtx:92
 msgid ""
@@ -1417,11 +1765,13 @@ msgstr ""
 "Инсталационният пакет не се поддържа от тази платформа. Свържете се с Вашия "
 "доставчик на приложения."
 
+#: en_US.ARM64.Debug.Error-2.idtx:93 en_US.ARM64.Release.Error-2.idtx:93
 #: en_US.Win32.Debug.Error-2.idtx:93 en_US.Win32.Release.Error-2.idtx:93
 #: en_US.x64.Debug.Error-2.idtx:93 en_US.x64.Release.Error-2.idtx:93
 msgid "The key [2] is not valid.  Verify that you entered the correct key."
 msgstr "Ключът [2] не е валиден.  Проверете дали сте въвели правилния ключ."
 
+#: en_US.ARM64.Debug.Error-2.idtx:94 en_US.ARM64.Release.Error-2.idtx:94
 #: en_US.Win32.Debug.Error-2.idtx:94 en_US.Win32.Release.Error-2.idtx:94
 #: en_US.x64.Debug.Error-2.idtx:94 en_US.x64.Release.Error-2.idtx:94
 msgid ""
@@ -1434,6 +1784,7 @@ msgstr ""
 "рестартирана системата сега, или \"Не\", ако имате намерение да извършите "
 "рестартирането по-късно ръчно."
 
+#: en_US.ARM64.Debug.Error-2.idtx:95 en_US.ARM64.Release.Error-2.idtx:95
 #: en_US.Win32.Debug.Error-2.idtx:95 en_US.Win32.Release.Error-2.idtx:95
 #: en_US.x64.Debug.Error-2.idtx:95 en_US.x64.Release.Error-2.idtx:95
 msgid ""
@@ -1446,6 +1797,7 @@ msgstr ""
 "рестартирана системата сега, или \"Не\", ако имате намерение да извършите "
 "рестартирането по-късно ръчно."
 
+#: en_US.ARM64.Debug.Error-2.idtx:96 en_US.ARM64.Release.Error-2.idtx:96
 #: en_US.Win32.Debug.Error-2.idtx:96 en_US.Win32.Release.Error-2.idtx:96
 #: en_US.x64.Debug.Error-2.idtx:96 en_US.x64.Release.Error-2.idtx:96
 msgid ""
@@ -1456,6 +1808,7 @@ msgstr ""
 " отмените промените, направени от това инсталиране.  Искате ли да отмените "
 "тези промени?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:97 en_US.ARM64.Release.Error-2.idtx:97
 #: en_US.Win32.Debug.Error-2.idtx:97 en_US.Win32.Release.Error-2.idtx:97
 #: en_US.x64.Debug.Error-2.idtx:97 en_US.x64.Release.Error-2.idtx:97
 msgid ""
@@ -1467,6 +1820,7 @@ msgstr ""
 "продължите, трябва да отмените промените, направени от това инсталиране. "
 "Искате ли да отмените тези промени?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:98 en_US.ARM64.Release.Error-2.idtx:98
 #: en_US.Win32.Debug.Error-2.idtx:98 en_US.Win32.Release.Error-2.idtx:98
 #: en_US.x64.Debug.Error-2.idtx:98 en_US.x64.Release.Error-2.idtx:98
 msgid ""
@@ -1476,21 +1830,25 @@ msgstr ""
 "Не може да се намери инсталационен пакет за продукта [2]. Опитайте пак да "
 "инсталирате с валидно копие на инсталационния пакет \"[3]\"."
 
+#: en_US.ARM64.Debug.Error-2.idtx:99 en_US.ARM64.Release.Error-2.idtx:99
 #: en_US.Win32.Debug.Error-2.idtx:99 en_US.Win32.Release.Error-2.idtx:99
 #: en_US.x64.Debug.Error-2.idtx:99 en_US.x64.Release.Error-2.idtx:99
 msgid "Installation completed successfully."
 msgstr "Инсталирането завърши успешно."
 
+#: en_US.ARM64.Debug.Error-2.idtx:100 en_US.ARM64.Release.Error-2.idtx:100
 #: en_US.Win32.Debug.Error-2.idtx:100 en_US.Win32.Release.Error-2.idtx:100
 #: en_US.x64.Debug.Error-2.idtx:100 en_US.x64.Release.Error-2.idtx:100
 msgid "Installation failed."
 msgstr "Инсталирането не е успешно."
 
+#: en_US.ARM64.Debug.Error-2.idtx:101 en_US.ARM64.Release.Error-2.idtx:101
 #: en_US.Win32.Debug.Error-2.idtx:101 en_US.Win32.Release.Error-2.idtx:101
 #: en_US.x64.Debug.Error-2.idtx:101 en_US.x64.Release.Error-2.idtx:101
 msgid "Product: [2] -- [3]"
 msgstr "Продукт: [2] -- [3]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:102 en_US.ARM64.Release.Error-2.idtx:102
 #: en_US.Win32.Debug.Error-2.idtx:102 en_US.Win32.Release.Error-2.idtx:102
 #: en_US.x64.Debug.Error-2.idtx:102 en_US.x64.Release.Error-2.idtx:102
 msgid ""
@@ -1501,6 +1859,7 @@ msgstr ""
 "продължите инсталирането по-късно. Искате ли да възстановите предишното "
 "състояние?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:103 en_US.ARM64.Release.Error-2.idtx:103
 #: en_US.Win32.Debug.Error-2.idtx:103 en_US.Win32.Release.Error-2.idtx:103
 #: en_US.x64.Debug.Error-2.idtx:103 en_US.x64.Release.Error-2.idtx:103
 msgid ""
@@ -1513,6 +1872,7 @@ msgstr ""
 " \"Опитай пак\", или щракнете върху \"Отказ\", за да прекратите "
 "инсталирането."
 
+#: en_US.ARM64.Debug.Error-2.idtx:104 en_US.ARM64.Release.Error-2.idtx:104
 #: en_US.Win32.Debug.Error-2.idtx:104 en_US.Win32.Release.Error-2.idtx:104
 #: en_US.x64.Debug.Error-2.idtx:104 en_US.x64.Release.Error-2.idtx:104
 msgid ""
@@ -1523,6 +1883,7 @@ msgstr ""
 " състояние на вашия компютър, не можаха да бъдат намерени. Възстановяването "
 "не е възможно."
 
+#: en_US.ARM64.Debug.Error-2.idtx:105 en_US.ARM64.Release.Error-2.idtx:105
 #: en_US.Win32.Debug.Error-2.idtx:105 en_US.Win32.Release.Error-2.idtx:105
 #: en_US.x64.Debug.Error-2.idtx:105 en_US.x64.Release.Error-2.idtx:105
 msgid ""
@@ -1532,6 +1893,7 @@ msgstr ""
 "[2] не може да инсталира един от нужните продукти. Обърнете се към персонала"
 " за техническа поддръжка.  {{Системна грешка: [3].}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:106 en_US.ARM64.Release.Error-2.idtx:106
 #: en_US.Win32.Debug.Error-2.idtx:106 en_US.Win32.Release.Error-2.idtx:106
 #: en_US.x64.Debug.Error-2.idtx:106 en_US.x64.Release.Error-2.idtx:106
 msgid ""
@@ -1541,26 +1903,31 @@ msgstr ""
 "Старата версия на [2] не може да се премахне.  Обърнете се към персонала за "
 "техническа поддръжка.  {{Системна грешка [3].}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:107 en_US.ARM64.Release.Error-2.idtx:107
 #: en_US.Win32.Debug.Error-2.idtx:107 en_US.Win32.Release.Error-2.idtx:107
 #: en_US.x64.Debug.Error-2.idtx:107 en_US.x64.Release.Error-2.idtx:107
 msgid "Installed [2]"
 msgstr "[2] е инсталиран"
 
+#: en_US.ARM64.Debug.Error-2.idtx:108 en_US.ARM64.Release.Error-2.idtx:108
 #: en_US.Win32.Debug.Error-2.idtx:108 en_US.Win32.Release.Error-2.idtx:108
 #: en_US.x64.Debug.Error-2.idtx:108 en_US.x64.Release.Error-2.idtx:108
 msgid "Configured [2]"
 msgstr "[2] е конфигуриран"
 
+#: en_US.ARM64.Debug.Error-2.idtx:109 en_US.ARM64.Release.Error-2.idtx:109
 #: en_US.Win32.Debug.Error-2.idtx:109 en_US.Win32.Release.Error-2.idtx:109
 #: en_US.x64.Debug.Error-2.idtx:109 en_US.x64.Release.Error-2.idtx:109
 msgid "Removed [2]"
 msgstr "[2] е премахнат"
 
+#: en_US.ARM64.Debug.Error-2.idtx:110 en_US.ARM64.Release.Error-2.idtx:110
 #: en_US.Win32.Debug.Error-2.idtx:110 en_US.Win32.Release.Error-2.idtx:110
 #: en_US.x64.Debug.Error-2.idtx:110 en_US.x64.Release.Error-2.idtx:110
 msgid "File [2] was rejected by digital signature policy."
 msgstr "Файлът [2] е отхвърлен от правилата за цифрови подписи."
 
+#: en_US.ARM64.Debug.Error-2.idtx:111 en_US.ARM64.Release.Error-2.idtx:111
 #: en_US.Win32.Debug.Error-2.idtx:111 en_US.Win32.Release.Error-2.idtx:111
 #: en_US.x64.Debug.Error-2.idtx:111 en_US.x64.Release.Error-2.idtx:111
 msgid ""
@@ -1573,6 +1940,7 @@ msgstr ""
 "програма не е правилно инсталирана. Обърнете се към персонала за техническа "
 "поддръжка за помощ."
 
+#: en_US.ARM64.Debug.Error-2.idtx:112 en_US.ARM64.Release.Error-2.idtx:112
 #: en_US.Win32.Debug.Error-2.idtx:112 en_US.Win32.Release.Error-2.idtx:112
 #: en_US.x64.Debug.Error-2.idtx:112 en_US.x64.Release.Error-2.idtx:112
 msgid ""
@@ -1586,6 +1954,7 @@ msgstr ""
 "поддръжка или доставчика на пакета.  {{Действие по избор [2] грешка на "
 "скрипт [3], [4]: [5] Ред [6], Колона [7], [8] }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:113 en_US.ARM64.Release.Error-2.idtx:113
 #: en_US.Win32.Debug.Error-2.idtx:113 en_US.Win32.Release.Error-2.idtx:113
 #: en_US.x64.Debug.Error-2.idtx:113 en_US.x64.Release.Error-2.idtx:113
 msgid ""
@@ -1598,6 +1967,7 @@ msgstr ""
 "поддръжка или доставчика на пакета. {{Действие: [2], местоположение: [3], "
 "команда: [4] }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:114 en_US.ARM64.Release.Error-2.idtx:114
 #: en_US.Win32.Debug.Error-2.idtx:114 en_US.Win32.Release.Error-2.idtx:114
 #: en_US.x64.Debug.Error-2.idtx:114 en_US.x64.Release.Error-2.idtx:114
 msgid ""
@@ -1610,6 +1980,7 @@ msgstr ""
 "се към персонала за поддръжка или доставчика на пакета.  {{Действие [2], "
 "местоположение: [3], команда: [4] }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:115 en_US.ARM64.Release.Error-2.idtx:115
 #: en_US.Win32.Debug.Error-2.idtx:115 en_US.Win32.Release.Error-2.idtx:115
 #: en_US.x64.Debug.Error-2.idtx:115 en_US.x64.Release.Error-2.idtx:115
 msgid ""
@@ -1622,36 +1993,43 @@ msgstr ""
 "поддръжка или доставчика на пакета.  {{Действие [2], запис: [3], библиотека:"
 " [4] }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:116 en_US.ARM64.Release.Error-2.idtx:116
 #: en_US.Win32.Debug.Error-2.idtx:116 en_US.Win32.Release.Error-2.idtx:116
 #: en_US.x64.Debug.Error-2.idtx:116 en_US.x64.Release.Error-2.idtx:116
 msgid "Removal completed successfully."
 msgstr "Премахването завърши успешно."
 
+#: en_US.ARM64.Debug.Error-2.idtx:117 en_US.ARM64.Release.Error-2.idtx:117
 #: en_US.Win32.Debug.Error-2.idtx:117 en_US.Win32.Release.Error-2.idtx:117
 #: en_US.x64.Debug.Error-2.idtx:117 en_US.x64.Release.Error-2.idtx:117
 msgid "Removal failed."
 msgstr "Премахването не е успешно."
 
+#: en_US.ARM64.Debug.Error-2.idtx:118 en_US.ARM64.Release.Error-2.idtx:118
 #: en_US.Win32.Debug.Error-2.idtx:118 en_US.Win32.Release.Error-2.idtx:118
 #: en_US.x64.Debug.Error-2.idtx:118 en_US.x64.Release.Error-2.idtx:118
 msgid "Advertisement completed successfully."
 msgstr "Регистрирането завърши успешно."
 
+#: en_US.ARM64.Debug.Error-2.idtx:119 en_US.ARM64.Release.Error-2.idtx:119
 #: en_US.Win32.Debug.Error-2.idtx:119 en_US.Win32.Release.Error-2.idtx:119
 #: en_US.x64.Debug.Error-2.idtx:119 en_US.x64.Release.Error-2.idtx:119
 msgid "Advertisement failed."
 msgstr "Регистрирането не завърши успешно."
 
+#: en_US.ARM64.Debug.Error-2.idtx:120 en_US.ARM64.Release.Error-2.idtx:120
 #: en_US.Win32.Debug.Error-2.idtx:120 en_US.Win32.Release.Error-2.idtx:120
 #: en_US.x64.Debug.Error-2.idtx:120 en_US.x64.Release.Error-2.idtx:120
 msgid "Configuration completed successfully."
 msgstr "Конфигурирането завърши успешно."
 
+#: en_US.ARM64.Debug.Error-2.idtx:121 en_US.ARM64.Release.Error-2.idtx:121
 #: en_US.Win32.Debug.Error-2.idtx:121 en_US.Win32.Release.Error-2.idtx:121
 #: en_US.x64.Debug.Error-2.idtx:121 en_US.x64.Release.Error-2.idtx:121
 msgid "Configuration failed."
 msgstr "Конфигурирането не завърши успешно."
 
+#: en_US.ARM64.Debug.Error-2.idtx:122 en_US.ARM64.Release.Error-2.idtx:122
 #: en_US.Win32.Debug.Error-2.idtx:122 en_US.Win32.Release.Error-2.idtx:122
 #: en_US.x64.Debug.Error-2.idtx:122 en_US.x64.Release.Error-2.idtx:122
 msgid ""
@@ -1663,6 +2041,7 @@ msgstr ""
 "премахнете, можете да влезете като администратор или да се обърнете към "
 "персонала за поддръжка."
 
+#: en_US.ARM64.Debug.Error-2.idtx:123 en_US.ARM64.Release.Error-2.idtx:123
 #: en_US.Win32.Debug.Error-2.idtx:123 en_US.Win32.Release.Error-2.idtx:123
 #: en_US.x64.Debug.Error-2.idtx:123 en_US.x64.Release.Error-2.idtx:123
 msgid ""
@@ -1674,6 +2053,7 @@ msgstr ""
 "клиентския пакет. Опитайте пак да инсталирате, като използвате валидно копие"
 " на инсталационния пакет \"[3]\"."
 
+#: en_US.ARM64.Debug.Error-2.idtx:124 en_US.ARM64.Release.Error-2.idtx:124
 #: en_US.Win32.Debug.Error-2.idtx:124 en_US.Win32.Release.Error-2.idtx:124
 #: en_US.x64.Debug.Error-2.idtx:124 en_US.x64.Release.Error-2.idtx:124
 msgid ""
@@ -1685,6 +2065,7 @@ msgstr ""
 "момента в компютъра са влезли и други потребители и при рестартиране могат "
 "да загубят данните си. Искате ли да рестартирате сега?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:125 en_US.ARM64.Release.Error-2.idtx:125
 #: en_US.Win32.Debug.Error-2.idtx:125 en_US.Win32.Release.Error-2.idtx:125
 #: en_US.x64.Debug.Error-2.idtx:125 en_US.x64.Release.Error-2.idtx:125
 msgid ""
@@ -1697,11 +2078,13 @@ msgstr ""
 "използвате възстановяване на системата, за да върнете компютъра в предишно "
 "добро състояние."
 
+#: en_US.ARM64.Debug.Error-2.idtx:126 en_US.ARM64.Release.Error-2.idtx:126
 #: en_US.Win32.Debug.Error-2.idtx:126 en_US.Win32.Release.Error-2.idtx:126
 #: en_US.x64.Debug.Error-2.idtx:126 en_US.x64.Release.Error-2.idtx:126
 msgid "The path [2] is not valid.  Please specify a valid path."
 msgstr "Пътят [2] е невалиден.  Задайте валиден път."
 
+#: en_US.ARM64.Debug.Error-2.idtx:128 en_US.ARM64.Release.Error-2.idtx:128
 #: en_US.Win32.Debug.Error-2.idtx:128 en_US.Win32.Release.Error-2.idtx:128
 #: en_US.x64.Debug.Error-2.idtx:128 en_US.x64.Release.Error-2.idtx:128
 msgid ""
@@ -1711,6 +2094,7 @@ msgstr ""
 "В устройство [2] липсва диск. Поставете диск и натиснете бутона \"Опитай "
 "пак\" или натиснете \"Отказ\", за да се върнете към предишния избран том."
 
+#: en_US.ARM64.Debug.Error-2.idtx:129 en_US.ARM64.Release.Error-2.idtx:129
 #: en_US.Win32.Debug.Error-2.idtx:129 en_US.Win32.Release.Error-2.idtx:129
 #: en_US.x64.Debug.Error-2.idtx:129 en_US.x64.Release.Error-2.idtx:129
 msgid ""
@@ -1721,28 +2105,33 @@ msgstr ""
 "пак\" или натиснете \"Отказ\", за да се върнете към диалоговия прозорец за "
 "преглед и да изберете друг том."
 
+#: en_US.ARM64.Debug.Error-2.idtx:130 en_US.ARM64.Release.Error-2.idtx:130
 #: en_US.Win32.Debug.Error-2.idtx:130 en_US.Win32.Release.Error-2.idtx:130
 #: en_US.x64.Debug.Error-2.idtx:130 en_US.x64.Release.Error-2.idtx:130
 msgid ""
 "The folder [2] does not exist.  Please enter a path to an existing folder."
 msgstr "Папката [2] не съществува.  Въведете път до съществуваща папка."
 
+#: en_US.ARM64.Debug.Error-2.idtx:131 en_US.ARM64.Release.Error-2.idtx:131
 #: en_US.Win32.Debug.Error-2.idtx:131 en_US.Win32.Release.Error-2.idtx:131
 #: en_US.x64.Debug.Error-2.idtx:131 en_US.x64.Release.Error-2.idtx:131
 msgid "You have insufficient privileges to read this folder."
 msgstr "Липсват ви достатъчно привилегии, за да прочетете тази папка."
 
+#: en_US.ARM64.Debug.Error-2.idtx:132 en_US.ARM64.Release.Error-2.idtx:132
 #: en_US.Win32.Debug.Error-2.idtx:132 en_US.Win32.Release.Error-2.idtx:132
 #: en_US.x64.Debug.Error-2.idtx:132 en_US.x64.Release.Error-2.idtx:132
 msgid "A valid destination folder for the install could not be determined."
 msgstr "Не може да бъде определена валидна целева папка за това инсталиране."
 
+#: en_US.ARM64.Debug.Error-2.idtx:133 en_US.ARM64.Release.Error-2.idtx:133
 #: en_US.Win32.Debug.Error-2.idtx:133 en_US.Win32.Release.Error-2.idtx:133
 #: en_US.x64.Debug.Error-2.idtx:133 en_US.x64.Release.Error-2.idtx:133
 msgid "Error attempting to read from the source install database: [2]."
 msgstr ""
 "Грешка при опит за четене от базата данни - източник на инсталирането: [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:134 en_US.ARM64.Release.Error-2.idtx:134
 #: en_US.Win32.Debug.Error-2.idtx:134 en_US.Win32.Release.Error-2.idtx:134
 #: en_US.x64.Debug.Error-2.idtx:134 en_US.x64.Release.Error-2.idtx:134
 msgid ""
@@ -1752,6 +2141,7 @@ msgstr ""
 "Планиране на операцията за рестартиране: Преименуване на файла [2] на [3]. "
 "За да бъде завършена операцията, рестартирането е задължително."
 
+#: en_US.ARM64.Debug.Error-2.idtx:135 en_US.ARM64.Release.Error-2.idtx:135
 #: en_US.Win32.Debug.Error-2.idtx:135 en_US.Win32.Release.Error-2.idtx:135
 #: en_US.x64.Debug.Error-2.idtx:135 en_US.x64.Release.Error-2.idtx:135
 msgid ""
@@ -1761,6 +2151,7 @@ msgstr ""
 "Планиране на операцията за рестартиране: Изтриване на файла [2]. За да бъде "
 "завършена операцията, рестартирането е задължително."
 
+#: en_US.ARM64.Debug.Error-2.idtx:136 en_US.ARM64.Release.Error-2.idtx:136
 #: en_US.Win32.Debug.Error-2.idtx:136 en_US.Win32.Release.Error-2.idtx:136
 #: en_US.x64.Debug.Error-2.idtx:136 en_US.x64.Release.Error-2.idtx:136
 msgid ""
@@ -1770,6 +2161,7 @@ msgstr ""
 "Модулът [2] не можа да бъде регистриран.  HRESULT [3].  Свържете се с вашия "
 "екип по поддръжката."
 
+#: en_US.ARM64.Debug.Error-2.idtx:137 en_US.ARM64.Release.Error-2.idtx:137
 #: en_US.Win32.Debug.Error-2.idtx:137 en_US.Win32.Release.Error-2.idtx:137
 #: en_US.x64.Debug.Error-2.idtx:137 en_US.x64.Release.Error-2.idtx:137
 msgid ""
@@ -1779,6 +2171,7 @@ msgstr ""
 "Не можа да бъде отменено регистрирането на модула [2].  HRESULT [3].  "
 "Свържете се с вашия екип по поддръжката."
 
+#: en_US.ARM64.Debug.Error-2.idtx:138 en_US.ARM64.Release.Error-2.idtx:138
 #: en_US.Win32.Debug.Error-2.idtx:138 en_US.Win32.Release.Error-2.idtx:138
 #: en_US.x64.Debug.Error-2.idtx:138 en_US.x64.Release.Error-2.idtx:138
 msgid ""
@@ -1787,6 +2180,7 @@ msgstr ""
 "Пакетът [2] не можа да бъде кеширан. Грешка: [3]. Свържете се с вашия екип "
 "по поддръжката."
 
+#: en_US.ARM64.Debug.Error-2.idtx:139 en_US.ARM64.Release.Error-2.idtx:139
 #: en_US.Win32.Debug.Error-2.idtx:139 en_US.Win32.Release.Error-2.idtx:139
 #: en_US.x64.Debug.Error-2.idtx:139 en_US.x64.Release.Error-2.idtx:139
 msgid ""
@@ -1796,6 +2190,7 @@ msgstr ""
 "Шрифтът [2] не можа да се регистрира.  Проверете дали имате достатъчно "
 "разрешения да инсталирате шрифтове и дали системата поддържа този шрифт."
 
+#: en_US.ARM64.Debug.Error-2.idtx:140 en_US.ARM64.Release.Error-2.idtx:140
 #: en_US.Win32.Debug.Error-2.idtx:140 en_US.Win32.Release.Error-2.idtx:140
 #: en_US.x64.Debug.Error-2.idtx:140 en_US.x64.Release.Error-2.idtx:140
 msgid ""
@@ -1805,6 +2200,7 @@ msgstr ""
 "Не може да бъде отменено регистрирането на шрифта [2]. Проверете дали имате "
 "достатъчно разрешения за премахване на шрифтове."
 
+#: en_US.ARM64.Debug.Error-2.idtx:141 en_US.ARM64.Release.Error-2.idtx:141
 #: en_US.Win32.Debug.Error-2.idtx:141 en_US.Win32.Release.Error-2.idtx:141
 #: en_US.x64.Debug.Error-2.idtx:141 en_US.x64.Release.Error-2.idtx:141
 msgid ""
@@ -1814,6 +2210,7 @@ msgstr ""
 "Не можа да бъде създаден прекият път [2]. Проверете дали целевата папка "
 "съществува и дали имате достъп до нея."
 
+#: en_US.ARM64.Debug.Error-2.idtx:142 en_US.ARM64.Release.Error-2.idtx:142
 #: en_US.Win32.Debug.Error-2.idtx:142 en_US.Win32.Release.Error-2.idtx:142
 #: en_US.x64.Debug.Error-2.idtx:142 en_US.x64.Release.Error-2.idtx:142
 msgid ""
@@ -1823,6 +2220,7 @@ msgstr ""
 "Не можа да бъде премахнат прекият път [2]. Проверете дали съществува файлът "
 "с този пряк път и дали имате достъп до него."
 
+#: en_US.ARM64.Debug.Error-2.idtx:143 en_US.ARM64.Release.Error-2.idtx:143
 #: en_US.Win32.Debug.Error-2.idtx:143 en_US.Win32.Release.Error-2.idtx:143
 #: en_US.x64.Debug.Error-2.idtx:143 en_US.x64.Release.Error-2.idtx:143
 msgid ""
@@ -1832,6 +2230,7 @@ msgstr ""
 "Не можа да бъде регистрирана библиотеката с типове за файла [2].  Свържете "
 "се с вашия екип по поддръжката."
 
+#: en_US.ARM64.Debug.Error-2.idtx:144 en_US.ARM64.Release.Error-2.idtx:144
 #: en_US.Win32.Debug.Error-2.idtx:144 en_US.Win32.Release.Error-2.idtx:144
 #: en_US.x64.Debug.Error-2.idtx:144 en_US.x64.Release.Error-2.idtx:144
 msgid ""
@@ -1841,6 +2240,7 @@ msgstr ""
 "Не можа да бъде отменено регистрирането на библиотеката с типове за файла "
 "[2].  Свържете се с вашия екип по поддръжката."
 
+#: en_US.ARM64.Debug.Error-2.idtx:145 en_US.ARM64.Release.Error-2.idtx:145
 #: en_US.Win32.Debug.Error-2.idtx:145 en_US.Win32.Release.Error-2.idtx:145
 #: en_US.x64.Debug.Error-2.idtx:145 en_US.x64.Release.Error-2.idtx:145
 msgid ""
@@ -1850,6 +2250,7 @@ msgstr ""
 "Не можа да бъде актуализиран ini файлът [2][3].  Проверете дали този файл "
 "съществува и дали имате достъп до него."
 
+#: en_US.ARM64.Debug.Error-2.idtx:146 en_US.ARM64.Release.Error-2.idtx:146
 #: en_US.Win32.Debug.Error-2.idtx:146 en_US.Win32.Release.Error-2.idtx:146
 #: en_US.x64.Debug.Error-2.idtx:146 en_US.x64.Release.Error-2.idtx:146
 msgid ""
@@ -1859,6 +2260,7 @@ msgstr ""
 "Не можа да бъде извършено планиране файлът [2] да замени [3] при "
 "рестартиране.  Проверете дали имате разрешения за запис във файла [3]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:147 en_US.ARM64.Release.Error-2.idtx:147
 #: en_US.Win32.Debug.Error-2.idtx:147 en_US.Win32.Release.Error-2.idtx:147
 #: en_US.x64.Debug.Error-2.idtx:147 en_US.x64.Release.Error-2.idtx:147
 msgid ""
@@ -1868,6 +2270,7 @@ msgstr ""
 "Грешка при премахване на диспечера на ODBC драйвери, ODBC грешка [2]: [3]. "
 "Свържете се с вашия екип по поддръжката."
 
+#: en_US.ARM64.Debug.Error-2.idtx:148 en_US.ARM64.Release.Error-2.idtx:148
 #: en_US.Win32.Debug.Error-2.idtx:148 en_US.Win32.Release.Error-2.idtx:148
 #: en_US.x64.Debug.Error-2.idtx:148 en_US.x64.Release.Error-2.idtx:148
 msgid ""
@@ -1877,6 +2280,7 @@ msgstr ""
 "Грешка при инсталиране на диспечера на ODBC драйвери, ODBC грешка [2]: [3]. "
 "Свържете се с вашия екип по поддръжката."
 
+#: en_US.ARM64.Debug.Error-2.idtx:149 en_US.ARM64.Release.Error-2.idtx:149
 #: en_US.Win32.Debug.Error-2.idtx:149 en_US.Win32.Release.Error-2.idtx:149
 #: en_US.x64.Debug.Error-2.idtx:149 en_US.x64.Release.Error-2.idtx:149
 msgid ""
@@ -1886,6 +2290,7 @@ msgstr ""
 "Грешка при премахване на ODBC драйвера: [4], ODBC грешка [2]: [3]. Проверете"
 " дали имате достатъчно привилегии за премахване на ODBC драйвери."
 
+#: en_US.ARM64.Debug.Error-2.idtx:150 en_US.ARM64.Release.Error-2.idtx:150
 #: en_US.Win32.Debug.Error-2.idtx:150 en_US.Win32.Release.Error-2.idtx:150
 #: en_US.x64.Debug.Error-2.idtx:150 en_US.x64.Release.Error-2.idtx:150
 msgid ""
@@ -1895,6 +2300,7 @@ msgstr ""
 "Грешка при инсталиране на ODBC драйвера: [4], ODBC грешка [2]: [3]. "
 "Проверете дали файлът [4] съществува и дали имате достъп до него."
 
+#: en_US.ARM64.Debug.Error-2.idtx:151 en_US.ARM64.Release.Error-2.idtx:151
 #: en_US.Win32.Debug.Error-2.idtx:151 en_US.Win32.Release.Error-2.idtx:151
 #: en_US.x64.Debug.Error-2.idtx:151 en_US.x64.Release.Error-2.idtx:151
 msgid ""
@@ -1904,6 +2310,7 @@ msgstr ""
 "Грешка при конфигуриране на ODBC източника на данни: [4], ODBC грешка [2]: "
 "[3]. Проверете дали файлът [4] съществува и дали имате достъп до него."
 
+#: en_US.ARM64.Debug.Error-2.idtx:152 en_US.ARM64.Release.Error-2.idtx:152
 #: en_US.Win32.Debug.Error-2.idtx:152 en_US.Win32.Release.Error-2.idtx:152
 #: en_US.x64.Debug.Error-2.idtx:152 en_US.x64.Release.Error-2.idtx:152
 msgid ""
@@ -1913,6 +2320,7 @@ msgstr ""
 "Услугата '[2]' ([3]) не можа да стартира. Проверете дали имате достатъчно "
 "привилегии, за да стартирате системни услуги."
 
+#: en_US.ARM64.Debug.Error-2.idtx:153 en_US.ARM64.Release.Error-2.idtx:153
 #: en_US.Win32.Debug.Error-2.idtx:153 en_US.Win32.Release.Error-2.idtx:153
 #: en_US.x64.Debug.Error-2.idtx:153 en_US.x64.Release.Error-2.idtx:153
 msgid ""
@@ -1922,6 +2330,7 @@ msgstr ""
 "Услугата '[2]' ([3]) не можа да бъде спряна.  Проверете дали имате "
 "достатъчно привилегии, за да спирате системни услуги."
 
+#: en_US.ARM64.Debug.Error-2.idtx:154 en_US.ARM64.Release.Error-2.idtx:154
 #: en_US.Win32.Debug.Error-2.idtx:154 en_US.Win32.Release.Error-2.idtx:154
 #: en_US.x64.Debug.Error-2.idtx:154 en_US.x64.Release.Error-2.idtx:154
 msgid ""
@@ -1931,6 +2340,7 @@ msgstr ""
 "Услугата '[2]' ([3]) не можа да бъде изтрита.  Проверете дали имате "
 "достатъчно привилегии, за да изтривате системни услуги."
 
+#: en_US.ARM64.Debug.Error-2.idtx:155 en_US.ARM64.Release.Error-2.idtx:155
 #: en_US.Win32.Debug.Error-2.idtx:155 en_US.Win32.Release.Error-2.idtx:155
 #: en_US.x64.Debug.Error-2.idtx:155 en_US.x64.Release.Error-2.idtx:155
 msgid ""
@@ -1940,6 +2350,7 @@ msgstr ""
 "Услугата '[2]' ([3]) не можа да бъде инсталирана.  Проверете дали имате "
 "достатъчно привилегии, за да инсталирате системни услуги."
 
+#: en_US.ARM64.Debug.Error-2.idtx:156 en_US.ARM64.Release.Error-2.idtx:156
 #: en_US.Win32.Debug.Error-2.idtx:156 en_US.Win32.Release.Error-2.idtx:156
 #: en_US.x64.Debug.Error-2.idtx:156 en_US.x64.Release.Error-2.idtx:156
 msgid ""
@@ -1949,6 +2360,7 @@ msgstr ""
 "Променливата на средата '[2]' не можа да бъде актуализирана.  Проверете дали"
 " имате достатъчно привилегии, за да модифицирате променливи на средата."
 
+#: en_US.ARM64.Debug.Error-2.idtx:157 en_US.ARM64.Release.Error-2.idtx:157
 #: en_US.Win32.Debug.Error-2.idtx:157 en_US.Win32.Release.Error-2.idtx:157
 #: en_US.x64.Debug.Error-2.idtx:157 en_US.x64.Release.Error-2.idtx:157
 msgid ""
@@ -1960,6 +2372,7 @@ msgstr ""
 "потребители на този компютър. Влезте като администратор и опитайте да "
 "повторите това инсталиране."
 
+#: en_US.ARM64.Debug.Error-2.idtx:158 en_US.ARM64.Release.Error-2.idtx:158
 #: en_US.Win32.Debug.Error-2.idtx:158 en_US.Win32.Release.Error-2.idtx:158
 #: en_US.x64.Debug.Error-2.idtx:158 en_US.x64.Release.Error-2.idtx:158
 msgid ""
@@ -1970,6 +2383,7 @@ msgstr ""
 "дали имате достатъчно привилегии, за да модифицирате разрешенията за защита "
 "на този файл."
 
+#: en_US.ARM64.Debug.Error-2.idtx:159 en_US.ARM64.Release.Error-2.idtx:159
 #: en_US.Win32.Debug.Error-2.idtx:159 en_US.Win32.Release.Error-2.idtx:159
 #: en_US.x64.Debug.Error-2.idtx:159 en_US.x64.Release.Error-2.idtx:159
 msgid ""
@@ -1981,6 +2395,7 @@ msgstr ""
 "инсталиране изисква услугите за компоненти, за да завърши успешно.  Услугите"
 " за компоненти са налични в Windows 2000."
 
+#: en_US.ARM64.Debug.Error-2.idtx:160 en_US.ARM64.Release.Error-2.idtx:160
 #: en_US.Win32.Debug.Error-2.idtx:160 en_US.Win32.Release.Error-2.idtx:160
 #: en_US.x64.Debug.Error-2.idtx:160 en_US.x64.Release.Error-2.idtx:160
 msgid ""
@@ -1990,6 +2405,7 @@ msgstr ""
 "Грешка при регистрирането на COM+ приложението. Обърнете се към персонала за"
 " поддръжка за повече информация."
 
+#: en_US.ARM64.Debug.Error-2.idtx:161 en_US.ARM64.Release.Error-2.idtx:161
 #: en_US.Win32.Debug.Error-2.idtx:161 en_US.Win32.Release.Error-2.idtx:161
 #: en_US.x64.Debug.Error-2.idtx:161 en_US.x64.Release.Error-2.idtx:161
 msgid ""
@@ -1999,11 +2415,13 @@ msgstr ""
 "Грешка при дерегистрирането на COM+ приложението. Обърнете се към персонала "
 "за поддръжка за повече информация."
 
+#: en_US.ARM64.Debug.Error-2.idtx:162 en_US.ARM64.Release.Error-2.idtx:162
 #: en_US.Win32.Debug.Error-2.idtx:162 en_US.Win32.Release.Error-2.idtx:162
 #: en_US.x64.Debug.Error-2.idtx:162 en_US.x64.Release.Error-2.idtx:162
 msgid "The description for service '[2]' ([3]) could not be changed."
 msgstr "Описанието на услугата \"[2]\" ([3]) не може да се промени."
 
+#: en_US.ARM64.Debug.Error-2.idtx:163 en_US.ARM64.Release.Error-2.idtx:163
 #: en_US.Win32.Debug.Error-2.idtx:163 en_US.Win32.Release.Error-2.idtx:163
 #: en_US.x64.Debug.Error-2.idtx:163 en_US.x64.Release.Error-2.idtx:163
 msgid ""
@@ -2017,6 +2435,7 @@ msgstr ""
 "актуализирате операционната си система, за да работи правилно тази програма."
 " {{Версия на пакета: [3], Защитена версия на ОС: [4]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:164 en_US.ARM64.Release.Error-2.idtx:164
 #: en_US.Win32.Debug.Error-2.idtx:164 en_US.Win32.Release.Error-2.idtx:164
 #: en_US.x64.Debug.Error-2.idtx:164 en_US.x64.Release.Error-2.idtx:164
 msgid ""
@@ -2027,6 +2446,7 @@ msgstr ""
 "защитения от Windows файл [2]. {{Версия на пакета: [3], Защитена версия на "
 "ОС: [4], SFP грешка: [5]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:165 en_US.ARM64.Release.Error-2.idtx:165
 #: en_US.Win32.Debug.Error-2.idtx:165 en_US.Win32.Release.Error-2.idtx:165
 #: en_US.x64.Debug.Error-2.idtx:165 en_US.x64.Release.Error-2.idtx:165
 msgid ""
@@ -2037,11 +2457,13 @@ msgstr ""
 "или повече защитени от Windows файлове. {{SFP грешка: [2].  Списък на "
 "защитените файлове:\\r\\n[3]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:166 en_US.ARM64.Release.Error-2.idtx:166
 #: en_US.Win32.Debug.Error-2.idtx:166 en_US.Win32.Release.Error-2.idtx:166
 #: en_US.x64.Debug.Error-2.idtx:166 en_US.x64.Release.Error-2.idtx:166
 msgid "User installations are disabled via policy on the machine."
 msgstr "Потребителско инсталиране е забранено от правилата на този компютър."
 
+#: en_US.ARM64.Debug.Error-2.idtx:167 en_US.ARM64.Release.Error-2.idtx:167
 #: en_US.Win32.Debug.Error-2.idtx:167 en_US.Win32.Release.Error-2.idtx:167
 #: en_US.x64.Debug.Error-2.idtx:167 en_US.x64.Release.Error-2.idtx:167
 msgid ""
@@ -2053,6 +2475,7 @@ msgstr ""
 "поддръжка\" за повече информация. HRESULT: [3]. {{интерфейс на комплекта: "
 "[4], функция: [5], компонент: [2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:168 en_US.ARM64.Release.Error-2.idtx:168
 #: en_US.Win32.Debug.Error-2.idtx:168 en_US.Win32.Release.Error-2.idtx:168
 #: en_US.x64.Debug.Error-2.idtx:168 en_US.x64.Release.Error-2.idtx:168
 msgid ""
@@ -2064,6 +2487,7 @@ msgstr ""
 "наименуван или не е подписан с минималната дължина на ключа. HRESULT: [3]. "
 "{{интерфейс на сбора: [4], функция: [5], компонент: [2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:169 en_US.ARM64.Release.Error-2.idtx:169
 #: en_US.Win32.Debug.Error-2.idtx:169 en_US.Win32.Release.Error-2.idtx:169
 #: en_US.x64.Debug.Error-2.idtx:169 en_US.x64.Release.Error-2.idtx:169
 msgid ""
@@ -2075,6 +2499,7 @@ msgstr ""
 "каталогът не могат да се проверят или не са валидни. HRESULT: [3]. "
 "{{интерфейс на комплекта: [4], функция: [5], компонент: [2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:170 en_US.ARM64.Release.Error-2.idtx:170
 #: en_US.Win32.Debug.Error-2.idtx:170 en_US.Win32.Release.Error-2.idtx:170
 #: en_US.x64.Debug.Error-2.idtx:170 en_US.x64.Release.Error-2.idtx:170
 msgid ""
@@ -2086,6 +2511,7 @@ msgstr ""
 "модули на комплекта не могат да се намерят. HRESULT: [3]. {{интерфейс на "
 "комплекта: [4], функция: [5], компонент: [2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:171 en_US.ARM64.Release.Error-2.idtx:171
 #: en_US.Win32.Debug.Error-2.idtx:171 en_US.Win32.Release.Error-2.idtx:171
 #: en_US.x64.Debug.Error-2.idtx:171 en_US.x64.Release.Error-2.idtx:171
 msgid ""
@@ -2094,6 +2520,7 @@ msgstr ""
 "64-битова registry операция се опитва върху 32-битова операциионна система "
 "за ключ [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:172 en_US.ARM64.Release.Error-2.idtx:172
 #: en_US.Win32.Debug.Error-2.idtx:172 en_US.Win32.Release.Error-2.idtx:172
 #: en_US.x64.Debug.Error-2.idtx:172 en_US.x64.Release.Error-2.idtx:172
 msgid ""
@@ -2102,3 +2529,14 @@ msgid ""
 msgstr ""
 "Тази версия на Windows неподдържа инсталиране на 64-битови пакети. Скриптът "
 "[2] е за 64-битов пакет."
+
+#: en_US.Win32.Debug.CustomAction-2.idtx:4
+#: en_US.Win32.Release.CustomAction-2.idtx:4
+msgid ""
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
+"system. The installation of the 64-bit variant is recommended."
+msgstr ""
+"Опитвате се да инсталирате 32-битов вариант на [SimpleProductName] върху "
+"64-битова операционна система. 32-битовият вариант няма да работи с Вашата "
+"операционна система. Препоръчителна е инсталация на 64-битов вариант."

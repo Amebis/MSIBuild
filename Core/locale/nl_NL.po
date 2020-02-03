@@ -1,12 +1,11 @@
 # Translators:
 # Simon Rozman <simon@rozman.si>, 2018
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-02 18:14+0100\n"
+"POT-Creation-Date: 2018-11-22 10:26+0100\n"
 "PO-Revision-Date: 2018-09-19 09:17+0000\n"
 "Last-Translator: Simon Rozman <simon@rozman.si>, 2018\n"
 "Language-Team: Dutch (Netherlands) (https://www.transifex.com/amebis/teams/91604/nl_NL/)\n"
@@ -15,48 +14,64 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: nl_NL\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:4
+#: en_US.ARM64.Release.ActionText-2.idtx:4
 #: en_US.Win32.Debug.ActionText-2.idtx:4
 #: en_US.Win32.Release.ActionText-2.idtx:4 en_US.x64.Debug.ActionText-2.idtx:4
 #: en_US.x64.Release.ActionText-2.idtx:4
 msgid "Advertising application"
 msgstr "Bezig met het aankondigen van de toepassing"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:5
+#: en_US.ARM64.Release.ActionText-2.idtx:5
 #: en_US.Win32.Debug.ActionText-2.idtx:5
 #: en_US.Win32.Release.ActionText-2.idtx:5 en_US.x64.Debug.ActionText-2.idtx:5
 #: en_US.x64.Release.ActionText-2.idtx:5
 msgid "Allocating registry space"
 msgstr "Bezig met het toewijzen van register-ruimte"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:5
+#: en_US.ARM64.Release.ActionText-2.idtx:5
 #: en_US.Win32.Debug.ActionText-2.idtx:5
 #: en_US.Win32.Release.ActionText-2.idtx:5 en_US.x64.Debug.ActionText-2.idtx:5
 #: en_US.x64.Release.ActionText-2.idtx:5
 msgid "Free space: [1]"
 msgstr "Vrije schijfruimte: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:6
+#: en_US.ARM64.Release.ActionText-2.idtx:6
 #: en_US.Win32.Debug.ActionText-2.idtx:6
 #: en_US.Win32.Release.ActionText-2.idtx:6 en_US.x64.Debug.ActionText-2.idtx:6
 #: en_US.x64.Release.ActionText-2.idtx:6
 msgid "Searching for installed applications"
 msgstr "Bezig met het zoeken naar geïnstalleerde toepassingen"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:6
+#: en_US.ARM64.Release.ActionText-2.idtx:6
 #: en_US.Win32.Debug.ActionText-2.idtx:6
 #: en_US.Win32.Release.ActionText-2.idtx:6 en_US.x64.Debug.ActionText-2.idtx:6
 #: en_US.x64.Release.ActionText-2.idtx:6
 msgid "Property: [1], Signature: [2]"
 msgstr "Eigenschap: [1], Handtekening: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:7
+#: en_US.ARM64.Release.ActionText-2.idtx:7
 #: en_US.Win32.Debug.ActionText-2.idtx:7
 #: en_US.Win32.Release.ActionText-2.idtx:7 en_US.x64.Debug.ActionText-2.idtx:7
 #: en_US.x64.Release.ActionText-2.idtx:7
 msgid "Binding executables"
 msgstr "Bezig met het koppelen van uitvoerbare bestanden"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:7
+#: en_US.ARM64.Debug.ActionText-2.idtx:54
+#: en_US.ARM64.Release.ActionText-2.idtx:7
+#: en_US.ARM64.Release.ActionText-2.idtx:54
 #: en_US.Win32.Debug.ActionText-2.idtx:7
 #: en_US.Win32.Debug.ActionText-2.idtx:54
 #: en_US.Win32.Release.ActionText-2.idtx:7
@@ -67,6 +82,10 @@ msgstr "Bezig met het koppelen van uitvoerbare bestanden"
 msgid "File: [1]"
 msgstr "Bestand: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:8
+#: en_US.ARM64.Debug.ActionText-2.idtx:52
+#: en_US.ARM64.Release.ActionText-2.idtx:8
+#: en_US.ARM64.Release.ActionText-2.idtx:52
 #: en_US.Win32.Debug.ActionText-2.idtx:8
 #: en_US.Win32.Debug.ActionText-2.idtx:52
 #: en_US.Win32.Release.ActionText-2.idtx:8
@@ -77,6 +96,12 @@ msgstr "Bestand: [1]"
 msgid "Searching for qualifying products"
 msgstr "Bezig met het zoeken naar in aanmerking komende producten"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:9
+#: en_US.ARM64.Debug.ActionText-2.idtx:10
+#: en_US.ARM64.Debug.ActionText-2.idtx:15
+#: en_US.ARM64.Release.ActionText-2.idtx:9
+#: en_US.ARM64.Release.ActionText-2.idtx:10
+#: en_US.ARM64.Release.ActionText-2.idtx:15
 #: en_US.Win32.Debug.ActionText-2.idtx:9
 #: en_US.Win32.Debug.ActionText-2.idtx:10
 #: en_US.Win32.Debug.ActionText-2.idtx:15
@@ -90,12 +115,18 @@ msgstr "Bezig met het zoeken naar in aanmerking komende producten"
 msgid "Computing space requirements"
 msgstr "Bezig met het berekenen van de benodigde schijfruimte"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:11
+#: en_US.ARM64.Release.ActionText-2.idtx:11
 #: en_US.Win32.Debug.ActionText-2.idtx:11
 #: en_US.Win32.Release.ActionText-2.idtx:11
 #: en_US.x64.Debug.ActionText-2.idtx:11 en_US.x64.Release.ActionText-2.idtx:11
 msgid "Creating folders"
 msgstr "Bezig met het maken van mappen"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:11
+#: en_US.ARM64.Debug.ActionText-2.idtx:47
+#: en_US.ARM64.Release.ActionText-2.idtx:11
+#: en_US.ARM64.Release.ActionText-2.idtx:47
 #: en_US.Win32.Debug.ActionText-2.idtx:11
 #: en_US.Win32.Debug.ActionText-2.idtx:47
 #: en_US.Win32.Release.ActionText-2.idtx:11
@@ -106,12 +137,18 @@ msgstr "Bezig met het maken van mappen"
 msgid "Folder: [1]"
 msgstr "Map: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:12
+#: en_US.ARM64.Release.ActionText-2.idtx:12
 #: en_US.Win32.Debug.ActionText-2.idtx:12
 #: en_US.Win32.Release.ActionText-2.idtx:12
 #: en_US.x64.Debug.ActionText-2.idtx:12 en_US.x64.Release.ActionText-2.idtx:12
 msgid "Creating shortcuts"
 msgstr "Bezig met het maken van snelkoppelingen"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:12
+#: en_US.ARM64.Debug.ActionText-2.idtx:51
+#: en_US.ARM64.Release.ActionText-2.idtx:12
+#: en_US.ARM64.Release.ActionText-2.idtx:51
 #: en_US.Win32.Debug.ActionText-2.idtx:12
 #: en_US.Win32.Debug.ActionText-2.idtx:51
 #: en_US.Win32.Release.ActionText-2.idtx:12
@@ -122,12 +159,20 @@ msgstr "Bezig met het maken van snelkoppelingen"
 msgid "Shortcut: [1]"
 msgstr "Snelkoppeling: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:13
+#: en_US.ARM64.Release.ActionText-2.idtx:13
 #: en_US.Win32.Debug.ActionText-2.idtx:13
 #: en_US.Win32.Release.ActionText-2.idtx:13
 #: en_US.x64.Debug.ActionText-2.idtx:13 en_US.x64.Release.ActionText-2.idtx:13
 msgid "Deleting services"
 msgstr "Bezig met het verwijderen van services"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:13
+#: en_US.ARM64.Debug.ActionText-2.idtx:58
+#: en_US.ARM64.Debug.ActionText-2.idtx:59
+#: en_US.ARM64.Release.ActionText-2.idtx:13
+#: en_US.ARM64.Release.ActionText-2.idtx:58
+#: en_US.ARM64.Release.ActionText-2.idtx:59
 #: en_US.Win32.Debug.ActionText-2.idtx:13
 #: en_US.Win32.Debug.ActionText-2.idtx:58
 #: en_US.Win32.Debug.ActionText-2.idtx:59
@@ -141,12 +186,20 @@ msgstr "Bezig met het verwijderen van services"
 msgid "Service: [1]"
 msgstr "Service: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:14
+#: en_US.ARM64.Release.ActionText-2.idtx:14
 #: en_US.Win32.Debug.ActionText-2.idtx:14
 #: en_US.Win32.Release.ActionText-2.idtx:14
 #: en_US.x64.Debug.ActionText-2.idtx:14 en_US.x64.Release.ActionText-2.idtx:14
 msgid "Creating duplicate files"
 msgstr "Bezig met het maken van dubbele bestanden"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:14
+#: en_US.ARM64.Debug.ActionText-2.idtx:19
+#: en_US.ARM64.Debug.ActionText-2.idtx:26
+#: en_US.ARM64.Release.ActionText-2.idtx:14
+#: en_US.ARM64.Release.ActionText-2.idtx:19
+#: en_US.ARM64.Release.ActionText-2.idtx:26
 #: en_US.Win32.Debug.ActionText-2.idtx:14
 #: en_US.Win32.Debug.ActionText-2.idtx:19
 #: en_US.Win32.Debug.ActionText-2.idtx:26
@@ -160,24 +213,38 @@ msgstr "Bezig met het maken van dubbele bestanden"
 msgid "File: [1],  Directory: [9],  Size: [6]"
 msgstr "Bestand: [1], map: [9], grootte: [6]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:16
+#: en_US.ARM64.Release.ActionText-2.idtx:16
 #: en_US.Win32.Debug.ActionText-2.idtx:16
 #: en_US.Win32.Release.ActionText-2.idtx:16
 #: en_US.x64.Debug.ActionText-2.idtx:16 en_US.x64.Release.ActionText-2.idtx:16
 msgid "Searching for related applications"
 msgstr "Bezig met het zoeken naar verwante toepassingen"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:16
+#: en_US.ARM64.Release.ActionText-2.idtx:16
 #: en_US.Win32.Debug.ActionText-2.idtx:16
 #: en_US.Win32.Release.ActionText-2.idtx:16
 #: en_US.x64.Debug.ActionText-2.idtx:16 en_US.x64.Release.ActionText-2.idtx:16
 msgid "Found application: [1]"
 msgstr "Gevonden toepassing: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:17
+#: en_US.ARM64.Release.ActionText-2.idtx:17
 #: en_US.Win32.Debug.ActionText-2.idtx:17
 #: en_US.Win32.Release.ActionText-2.idtx:17
 #: en_US.x64.Debug.ActionText-2.idtx:17 en_US.x64.Release.ActionText-2.idtx:17
 msgid "Generating script operations for action:"
 msgstr "Bezig met het genereren van scriptbewerkingen voor actie:"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:17
+#: en_US.ARM64.Debug.ActionText-2.idtx:39
+#: en_US.ARM64.Debug.ActionText-2.idtx:42
+#: en_US.ARM64.Debug.ActionText-2.idtx:53
+#: en_US.ARM64.Release.ActionText-2.idtx:17
+#: en_US.ARM64.Release.ActionText-2.idtx:39
+#: en_US.ARM64.Release.ActionText-2.idtx:42
+#: en_US.ARM64.Release.ActionText-2.idtx:53
 #: en_US.Win32.Debug.ActionText-2.idtx:17
 #: en_US.Win32.Debug.ActionText-2.idtx:39
 #: en_US.Win32.Debug.ActionText-2.idtx:42
@@ -195,90 +262,122 @@ msgstr "Bezig met het genereren van scriptbewerkingen voor actie:"
 msgid "[1]"
 msgstr "[1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:18
+#: en_US.ARM64.Release.ActionText-2.idtx:18
 #: en_US.Win32.Debug.ActionText-2.idtx:18
 #: en_US.Win32.Release.ActionText-2.idtx:18
 #: en_US.x64.Debug.ActionText-2.idtx:18 en_US.x64.Release.ActionText-2.idtx:18
 msgid "Copying network install files"
 msgstr "Bezig met het kopiëren van netwerkinstallatiebestanden"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:18
+#: en_US.ARM64.Release.ActionText-2.idtx:18
 #: en_US.Win32.Debug.ActionText-2.idtx:18
 #: en_US.Win32.Release.ActionText-2.idtx:18
 #: en_US.x64.Debug.ActionText-2.idtx:18 en_US.x64.Release.ActionText-2.idtx:18
 msgid "File: [1], Directory: [9], Size: [6]"
 msgstr "Bestand: [1], Map: [9], Grootte: [6]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:19
+#: en_US.ARM64.Release.ActionText-2.idtx:19
 #: en_US.Win32.Debug.ActionText-2.idtx:19
 #: en_US.Win32.Release.ActionText-2.idtx:19
 #: en_US.x64.Debug.ActionText-2.idtx:19 en_US.x64.Release.ActionText-2.idtx:19
 msgid "Copying new files"
 msgstr "Bezig met het kopiëren van nieuwe bestanden"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:20
+#: en_US.ARM64.Release.ActionText-2.idtx:20
 #: en_US.Win32.Debug.ActionText-2.idtx:20
 #: en_US.Win32.Release.ActionText-2.idtx:20
 #: en_US.x64.Debug.ActionText-2.idtx:20 en_US.x64.Release.ActionText-2.idtx:20
 msgid "Installing ODBC components"
 msgstr "Bezig met het installeren van ODBC-onderdelen"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:21
+#: en_US.ARM64.Release.ActionText-2.idtx:21
 #: en_US.Win32.Debug.ActionText-2.idtx:21
 #: en_US.Win32.Release.ActionText-2.idtx:21
 #: en_US.x64.Debug.ActionText-2.idtx:21 en_US.x64.Release.ActionText-2.idtx:21
 msgid "Installing new services"
 msgstr "Bezig met het installeren van nieuwe services"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:21
+#: en_US.ARM64.Release.ActionText-2.idtx:21
 #: en_US.Win32.Debug.ActionText-2.idtx:21
 #: en_US.Win32.Release.ActionText-2.idtx:21
 #: en_US.x64.Debug.ActionText-2.idtx:21 en_US.x64.Release.ActionText-2.idtx:21
 msgid "Service: [2]"
 msgstr "Service: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:22
+#: en_US.ARM64.Release.ActionText-2.idtx:22
 #: en_US.Win32.Debug.ActionText-2.idtx:22
 #: en_US.Win32.Release.ActionText-2.idtx:22
 #: en_US.x64.Debug.ActionText-2.idtx:22 en_US.x64.Release.ActionText-2.idtx:22
 msgid "Installing system catalog"
 msgstr "Bezig met het installeren van systeemcatalogus"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:22
+#: en_US.ARM64.Release.ActionText-2.idtx:22
 #: en_US.Win32.Debug.ActionText-2.idtx:22
 #: en_US.Win32.Release.ActionText-2.idtx:22
 #: en_US.x64.Debug.ActionText-2.idtx:22 en_US.x64.Release.ActionText-2.idtx:22
 msgid "File: [1],  Dependencies: [2]"
 msgstr "Bestand: [1],  Afhankelijkheden: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:23
+#: en_US.ARM64.Release.ActionText-2.idtx:23
 #: en_US.Win32.Debug.ActionText-2.idtx:23
 #: en_US.Win32.Release.ActionText-2.idtx:23
 #: en_US.x64.Debug.ActionText-2.idtx:23 en_US.x64.Release.ActionText-2.idtx:23
 msgid "Validating install"
 msgstr "Bezig met het valideren van de installatie"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:24
+#: en_US.ARM64.Release.ActionText-2.idtx:24
 #: en_US.Win32.Debug.ActionText-2.idtx:24
 #: en_US.Win32.Release.ActionText-2.idtx:24
 #: en_US.x64.Debug.ActionText-2.idtx:24 en_US.x64.Release.ActionText-2.idtx:24
 msgid "Evaluating launch conditions"
 msgstr "Bezig met het evalueren van de voorwaarden voor het starten"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:25
+#: en_US.ARM64.Release.ActionText-2.idtx:25
 #: en_US.Win32.Debug.ActionText-2.idtx:25
 #: en_US.Win32.Release.ActionText-2.idtx:25
 #: en_US.x64.Debug.ActionText-2.idtx:25 en_US.x64.Release.ActionText-2.idtx:25
 msgid "Migrating feature states from related applications"
 msgstr "Bezig met het migreren van functiestatussen van verwante toepassingen"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:25
+#: en_US.ARM64.Release.ActionText-2.idtx:25
 #: en_US.Win32.Debug.ActionText-2.idtx:25
 #: en_US.Win32.Release.ActionText-2.idtx:25
 #: en_US.x64.Debug.ActionText-2.idtx:25 en_US.x64.Release.ActionText-2.idtx:25
 msgid "Application: [1]"
 msgstr "Toepassing: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:26
+#: en_US.ARM64.Release.ActionText-2.idtx:26
 #: en_US.Win32.Debug.ActionText-2.idtx:26
 #: en_US.Win32.Release.ActionText-2.idtx:26
 #: en_US.x64.Debug.ActionText-2.idtx:26 en_US.x64.Release.ActionText-2.idtx:26
 msgid "Moving files"
 msgstr "Bezig met het verplaatsen van bestanden"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:27
+#: en_US.ARM64.Release.ActionText-2.idtx:27
 #: en_US.Win32.Debug.ActionText-2.idtx:27
 #: en_US.Win32.Release.ActionText-2.idtx:27
 #: en_US.x64.Debug.ActionText-2.idtx:27 en_US.x64.Release.ActionText-2.idtx:27
 msgid "Publishing assembly information"
 msgstr "Gegevens van onderdeel uitgeven"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:27
+#: en_US.ARM64.Debug.ActionText-2.idtx:28
+#: en_US.ARM64.Release.ActionText-2.idtx:27
+#: en_US.ARM64.Release.ActionText-2.idtx:28
 #: en_US.Win32.Debug.ActionText-2.idtx:27
 #: en_US.Win32.Debug.ActionText-2.idtx:28
 #: en_US.Win32.Release.ActionText-2.idtx:27
@@ -289,36 +388,50 @@ msgstr "Gegevens van onderdeel uitgeven"
 msgid "Application Context:[1], Assembly Name:[2]"
 msgstr "Context van toepassing:[1], naam van onderdeel:[2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:28
+#: en_US.ARM64.Release.ActionText-2.idtx:28
 #: en_US.Win32.Debug.ActionText-2.idtx:28
 #: en_US.Win32.Release.ActionText-2.idtx:28
 #: en_US.x64.Debug.ActionText-2.idtx:28 en_US.x64.Release.ActionText-2.idtx:28
 msgid "Unpublishing assembly information"
 msgstr "Gegevens van onderdeel innemen"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:29
+#: en_US.ARM64.Release.ActionText-2.idtx:29
 #: en_US.Win32.Debug.ActionText-2.idtx:29
 #: en_US.Win32.Release.ActionText-2.idtx:29
 #: en_US.x64.Debug.ActionText-2.idtx:29 en_US.x64.Release.ActionText-2.idtx:29
 msgid "Patching files"
 msgstr "Bezig met het herstellen van bestanden"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:29
+#: en_US.ARM64.Release.ActionText-2.idtx:29
 #: en_US.Win32.Debug.ActionText-2.idtx:29
 #: en_US.Win32.Release.ActionText-2.idtx:29
 #: en_US.x64.Debug.ActionText-2.idtx:29 en_US.x64.Release.ActionText-2.idtx:29
 msgid "File: [1],  Directory: [2],  Size: [3]"
 msgstr "Bestand: [1], Map: [2], Grootte: [3]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:30
+#: en_US.ARM64.Release.ActionText-2.idtx:30
 #: en_US.Win32.Debug.ActionText-2.idtx:30
 #: en_US.Win32.Release.ActionText-2.idtx:30
 #: en_US.x64.Debug.ActionText-2.idtx:30 en_US.x64.Release.ActionText-2.idtx:30
 msgid "Updating component registration"
 msgstr "Bezig met het bijwerken van de registratie van de onderdelen"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:31
+#: en_US.ARM64.Release.ActionText-2.idtx:31
 #: en_US.Win32.Debug.ActionText-2.idtx:31
 #: en_US.Win32.Release.ActionText-2.idtx:31
 #: en_US.x64.Debug.ActionText-2.idtx:31 en_US.x64.Release.ActionText-2.idtx:31
 msgid "Publishing Qualified Components"
 msgstr "Bezig met het publiceren van gekwalificeerde onderdelen"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:31
+#: en_US.ARM64.Debug.ActionText-2.idtx:61
+#: en_US.ARM64.Release.ActionText-2.idtx:31
+#: en_US.ARM64.Release.ActionText-2.idtx:61
 #: en_US.Win32.Debug.ActionText-2.idtx:31
 #: en_US.Win32.Debug.ActionText-2.idtx:61
 #: en_US.Win32.Release.ActionText-2.idtx:31
@@ -329,12 +442,18 @@ msgstr "Bezig met het publiceren van gekwalificeerde onderdelen"
 msgid "Component ID: [1], Qualifier: [2]"
 msgstr "Onderdeel-id: [1], kwalificatie: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:32
+#: en_US.ARM64.Release.ActionText-2.idtx:32
 #: en_US.Win32.Debug.ActionText-2.idtx:32
 #: en_US.Win32.Release.ActionText-2.idtx:32
 #: en_US.x64.Debug.ActionText-2.idtx:32 en_US.x64.Release.ActionText-2.idtx:32
 msgid "Publishing Product Features"
 msgstr "Bezig met het publiceren van productfuncties"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:32
+#: en_US.ARM64.Debug.ActionText-2.idtx:62
+#: en_US.ARM64.Release.ActionText-2.idtx:32
+#: en_US.ARM64.Release.ActionText-2.idtx:62
 #: en_US.Win32.Debug.ActionText-2.idtx:32
 #: en_US.Win32.Debug.ActionText-2.idtx:62
 #: en_US.Win32.Release.ActionText-2.idtx:32
@@ -345,18 +464,26 @@ msgstr "Bezig met het publiceren van productfuncties"
 msgid "Feature: [1]"
 msgstr "Functie: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:33
+#: en_US.ARM64.Release.ActionText-2.idtx:33
 #: en_US.Win32.Debug.ActionText-2.idtx:33
 #: en_US.Win32.Release.ActionText-2.idtx:33
 #: en_US.x64.Debug.ActionText-2.idtx:33 en_US.x64.Release.ActionText-2.idtx:33
 msgid "Publishing product information"
 msgstr "Bezig met het publiceren van de productgegevens"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:34
+#: en_US.ARM64.Release.ActionText-2.idtx:34
 #: en_US.Win32.Debug.ActionText-2.idtx:34
 #: en_US.Win32.Release.ActionText-2.idtx:34
 #: en_US.x64.Debug.ActionText-2.idtx:34 en_US.x64.Release.ActionText-2.idtx:34
 msgid "Registering Class servers"
 msgstr "Bezig met het registreren van categorieservers"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:34
+#: en_US.ARM64.Debug.ActionText-2.idtx:64
+#: en_US.ARM64.Release.ActionText-2.idtx:34
+#: en_US.ARM64.Release.ActionText-2.idtx:64
 #: en_US.Win32.Debug.ActionText-2.idtx:34
 #: en_US.Win32.Debug.ActionText-2.idtx:64
 #: en_US.Win32.Release.ActionText-2.idtx:34
@@ -367,12 +494,16 @@ msgstr "Bezig met het registreren van categorieservers"
 msgid "Class Id: [1]"
 msgstr "Categorie-id: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:35
+#: en_US.ARM64.Release.ActionText-2.idtx:35
 #: en_US.Win32.Debug.ActionText-2.idtx:35
 #: en_US.Win32.Release.ActionText-2.idtx:35
 #: en_US.x64.Debug.ActionText-2.idtx:35 en_US.x64.Release.ActionText-2.idtx:35
 msgid "Registering COM+ Applications and Components"
 msgstr "Bezig met het registreren van COM+-toepassingen en -onderdelen"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:35
+#: en_US.ARM64.Release.ActionText-2.idtx:35
 #: en_US.Win32.Debug.ActionText-2.idtx:35
 #: en_US.Win32.Release.ActionText-2.idtx:35
 #: en_US.x64.Debug.ActionText-2.idtx:35 en_US.x64.Release.ActionText-2.idtx:35
@@ -380,12 +511,18 @@ msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
 msgstr ""
 "Toepassings-id: [1]{{, toepassingstype: [2], gebruikers: [3], RSN: [4]}}"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:36
+#: en_US.ARM64.Release.ActionText-2.idtx:36
 #: en_US.Win32.Debug.ActionText-2.idtx:36
 #: en_US.Win32.Release.ActionText-2.idtx:36
 #: en_US.x64.Debug.ActionText-2.idtx:36 en_US.x64.Release.ActionText-2.idtx:36
 msgid "Registering extension servers"
 msgstr "Bezig met het registreren van extensieservers"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:36
+#: en_US.ARM64.Debug.ActionText-2.idtx:66
+#: en_US.ARM64.Release.ActionText-2.idtx:36
+#: en_US.ARM64.Release.ActionText-2.idtx:66
 #: en_US.Win32.Debug.ActionText-2.idtx:36
 #: en_US.Win32.Debug.ActionText-2.idtx:66
 #: en_US.Win32.Release.ActionText-2.idtx:36
@@ -396,12 +533,18 @@ msgstr "Bezig met het registreren van extensieservers"
 msgid "Extension: [1]"
 msgstr "Extensie: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:37
+#: en_US.ARM64.Release.ActionText-2.idtx:37
 #: en_US.Win32.Debug.ActionText-2.idtx:37
 #: en_US.Win32.Release.ActionText-2.idtx:37
 #: en_US.x64.Debug.ActionText-2.idtx:37 en_US.x64.Release.ActionText-2.idtx:37
 msgid "Registering fonts"
 msgstr "Bezig met het registreren van lettertypen"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:37
+#: en_US.ARM64.Debug.ActionText-2.idtx:67
+#: en_US.ARM64.Release.ActionText-2.idtx:37
+#: en_US.ARM64.Release.ActionText-2.idtx:67
 #: en_US.Win32.Debug.ActionText-2.idtx:37
 #: en_US.Win32.Debug.ActionText-2.idtx:67
 #: en_US.Win32.Release.ActionText-2.idtx:37
@@ -412,12 +555,18 @@ msgstr "Bezig met het registreren van lettertypen"
 msgid "Font: [1]"
 msgstr "Lettertype: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:38
+#: en_US.ARM64.Release.ActionText-2.idtx:38
 #: en_US.Win32.Debug.ActionText-2.idtx:38
 #: en_US.Win32.Release.ActionText-2.idtx:38
 #: en_US.x64.Debug.ActionText-2.idtx:38 en_US.x64.Release.ActionText-2.idtx:38
 msgid "Registering MIME info"
 msgstr "Bezig met het registreren van MIME-gegevens"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:38
+#: en_US.ARM64.Debug.ActionText-2.idtx:68
+#: en_US.ARM64.Release.ActionText-2.idtx:38
+#: en_US.ARM64.Release.ActionText-2.idtx:68
 #: en_US.Win32.Debug.ActionText-2.idtx:38
 #: en_US.Win32.Debug.ActionText-2.idtx:68
 #: en_US.Win32.Release.ActionText-2.idtx:38
@@ -428,18 +577,26 @@ msgstr "Bezig met het registreren van MIME-gegevens"
 msgid "MIME Content Type: [1], Extension: [2]"
 msgstr "MIME-inhoudstype: [1], extensie: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:39
+#: en_US.ARM64.Release.ActionText-2.idtx:39
 #: en_US.Win32.Debug.ActionText-2.idtx:39
 #: en_US.Win32.Release.ActionText-2.idtx:39
 #: en_US.x64.Debug.ActionText-2.idtx:39 en_US.x64.Release.ActionText-2.idtx:39
 msgid "Registering product"
 msgstr "Bezig met het registreren van het product"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:40
+#: en_US.ARM64.Release.ActionText-2.idtx:40
 #: en_US.Win32.Debug.ActionText-2.idtx:40
 #: en_US.Win32.Release.ActionText-2.idtx:40
 #: en_US.x64.Debug.ActionText-2.idtx:40 en_US.x64.Release.ActionText-2.idtx:40
 msgid "Registering program identifiers"
 msgstr "Bezig met het registreren van programma-id's"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:40
+#: en_US.ARM64.Debug.ActionText-2.idtx:69
+#: en_US.ARM64.Release.ActionText-2.idtx:40
+#: en_US.ARM64.Release.ActionText-2.idtx:69
 #: en_US.Win32.Debug.ActionText-2.idtx:40
 #: en_US.Win32.Debug.ActionText-2.idtx:69
 #: en_US.Win32.Release.ActionText-2.idtx:40
@@ -450,12 +607,18 @@ msgstr "Bezig met het registreren van programma-id's"
 msgid "ProgId: [1]"
 msgstr "Programma-id: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:41
+#: en_US.ARM64.Release.ActionText-2.idtx:41
 #: en_US.Win32.Debug.ActionText-2.idtx:41
 #: en_US.Win32.Release.ActionText-2.idtx:41
 #: en_US.x64.Debug.ActionText-2.idtx:41 en_US.x64.Release.ActionText-2.idtx:41
 msgid "Registering type libraries"
 msgstr "Bezig met het registreren van typebibliotheken"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:41
+#: en_US.ARM64.Debug.ActionText-2.idtx:70
+#: en_US.ARM64.Release.ActionText-2.idtx:41
+#: en_US.ARM64.Release.ActionText-2.idtx:70
 #: en_US.Win32.Debug.ActionText-2.idtx:41
 #: en_US.Win32.Debug.ActionText-2.idtx:70
 #: en_US.Win32.Release.ActionText-2.idtx:41
@@ -466,18 +629,28 @@ msgstr "Bezig met het registreren van typebibliotheken"
 msgid "LibID: [1]"
 msgstr "LibID: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:42
+#: en_US.ARM64.Release.ActionText-2.idtx:42
 #: en_US.Win32.Debug.ActionText-2.idtx:42
 #: en_US.Win32.Release.ActionText-2.idtx:42
 #: en_US.x64.Debug.ActionText-2.idtx:42 en_US.x64.Release.ActionText-2.idtx:42
 msgid "Registering user"
 msgstr "Bezig met het registreren van de gebruiker"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:43
+#: en_US.ARM64.Release.ActionText-2.idtx:43
 #: en_US.Win32.Debug.ActionText-2.idtx:43
 #: en_US.Win32.Release.ActionText-2.idtx:43
 #: en_US.x64.Debug.ActionText-2.idtx:43 en_US.x64.Release.ActionText-2.idtx:43
 msgid "Removing duplicated files"
 msgstr "Bezig met het verwijderen van gekopieerde bestanden"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:43
+#: en_US.ARM64.Debug.ActionText-2.idtx:46
+#: en_US.ARM64.Debug.ActionText-2.idtx:60
+#: en_US.ARM64.Release.ActionText-2.idtx:43
+#: en_US.ARM64.Release.ActionText-2.idtx:46
+#: en_US.ARM64.Release.ActionText-2.idtx:60
 #: en_US.Win32.Debug.ActionText-2.idtx:43
 #: en_US.Win32.Debug.ActionText-2.idtx:46
 #: en_US.Win32.Debug.ActionText-2.idtx:60
@@ -491,6 +664,10 @@ msgstr "Bezig met het verwijderen van gekopieerde bestanden"
 msgid "File: [1], Directory: [9]"
 msgstr "Bestand: [1], map: [9]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:44
+#: en_US.ARM64.Debug.ActionText-2.idtx:71
+#: en_US.ARM64.Release.ActionText-2.idtx:44
+#: en_US.ARM64.Release.ActionText-2.idtx:71
 #: en_US.Win32.Debug.ActionText-2.idtx:44
 #: en_US.Win32.Debug.ActionText-2.idtx:71
 #: en_US.Win32.Release.ActionText-2.idtx:44
@@ -501,6 +678,10 @@ msgstr "Bestand: [1], map: [9]"
 msgid "Updating environment strings"
 msgstr "Bezig met het bijwerken van omgevingsstrings"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:44
+#: en_US.ARM64.Debug.ActionText-2.idtx:71
+#: en_US.ARM64.Release.ActionText-2.idtx:44
+#: en_US.ARM64.Release.ActionText-2.idtx:71
 #: en_US.Win32.Debug.ActionText-2.idtx:44
 #: en_US.Win32.Debug.ActionText-2.idtx:71
 #: en_US.Win32.Release.ActionText-2.idtx:44
@@ -511,36 +692,50 @@ msgstr "Bezig met het bijwerken van omgevingsstrings"
 msgid "Name: [1], Value: [2], Action [3]"
 msgstr "Naam: [1], waarde: [2], actie [3]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:45
+#: en_US.ARM64.Release.ActionText-2.idtx:45
 #: en_US.Win32.Debug.ActionText-2.idtx:45
 #: en_US.Win32.Release.ActionText-2.idtx:45
 #: en_US.x64.Debug.ActionText-2.idtx:45 en_US.x64.Release.ActionText-2.idtx:45
 msgid "Removing applications"
 msgstr "Bezig met het verwijderen van toepassingen"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:45
+#: en_US.ARM64.Release.ActionText-2.idtx:45
 #: en_US.Win32.Debug.ActionText-2.idtx:45
 #: en_US.Win32.Release.ActionText-2.idtx:45
 #: en_US.x64.Debug.ActionText-2.idtx:45 en_US.x64.Release.ActionText-2.idtx:45
 msgid "Application: [1], Command line: [2]"
 msgstr "Toepassing: [1], opdrachtregel: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:46
+#: en_US.ARM64.Release.ActionText-2.idtx:46
 #: en_US.Win32.Debug.ActionText-2.idtx:46
 #: en_US.Win32.Release.ActionText-2.idtx:46
 #: en_US.x64.Debug.ActionText-2.idtx:46 en_US.x64.Release.ActionText-2.idtx:46
 msgid "Removing files"
 msgstr "Bezig met het verwijderen van bestanden"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:47
+#: en_US.ARM64.Release.ActionText-2.idtx:47
 #: en_US.Win32.Debug.ActionText-2.idtx:47
 #: en_US.Win32.Release.ActionText-2.idtx:47
 #: en_US.x64.Debug.ActionText-2.idtx:47 en_US.x64.Release.ActionText-2.idtx:47
 msgid "Removing folders"
 msgstr "Bezig met het verwijderen van mappen"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:48
+#: en_US.ARM64.Release.ActionText-2.idtx:48
 #: en_US.Win32.Debug.ActionText-2.idtx:48
 #: en_US.Win32.Release.ActionText-2.idtx:48
 #: en_US.x64.Debug.ActionText-2.idtx:48 en_US.x64.Release.ActionText-2.idtx:48
 msgid "Removing INI files entries"
 msgstr "Bezig met het verwijderen van ingangen van INI-bestanden"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:48
+#: en_US.ARM64.Debug.ActionText-2.idtx:72
+#: en_US.ARM64.Release.ActionText-2.idtx:48
+#: en_US.ARM64.Release.ActionText-2.idtx:72
 #: en_US.Win32.Debug.ActionText-2.idtx:48
 #: en_US.Win32.Debug.ActionText-2.idtx:72
 #: en_US.Win32.Release.ActionText-2.idtx:48
@@ -551,48 +746,66 @@ msgstr "Bezig met het verwijderen van ingangen van INI-bestanden"
 msgid "File: [1],  Section: [2],  Key: [3], Value: [4]"
 msgstr "Bestand: [1], sectie: [2], sleutel: [3], waarde: [4]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:49
+#: en_US.ARM64.Release.ActionText-2.idtx:49
 #: en_US.Win32.Debug.ActionText-2.idtx:49
 #: en_US.Win32.Release.ActionText-2.idtx:49
 #: en_US.x64.Debug.ActionText-2.idtx:49 en_US.x64.Release.ActionText-2.idtx:49
 msgid "Removing ODBC components"
 msgstr "Bezig met het verwijderen van ODBC-onderdelen"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:50
+#: en_US.ARM64.Release.ActionText-2.idtx:50
 #: en_US.Win32.Debug.ActionText-2.idtx:50
 #: en_US.Win32.Release.ActionText-2.idtx:50
 #: en_US.x64.Debug.ActionText-2.idtx:50 en_US.x64.Release.ActionText-2.idtx:50
 msgid "Removing system registry values"
 msgstr "Bezig met het verwijderen van systeemregisterwaarden"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:50
+#: en_US.ARM64.Release.ActionText-2.idtx:50
 #: en_US.Win32.Debug.ActionText-2.idtx:50
 #: en_US.Win32.Release.ActionText-2.idtx:50
 #: en_US.x64.Debug.ActionText-2.idtx:50 en_US.x64.Release.ActionText-2.idtx:50
 msgid "Key: [1], Name: [2]"
 msgstr "Sleutel: [1], Naam: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:51
+#: en_US.ARM64.Release.ActionText-2.idtx:51
 #: en_US.Win32.Debug.ActionText-2.idtx:51
 #: en_US.Win32.Release.ActionText-2.idtx:51
 #: en_US.x64.Debug.ActionText-2.idtx:51 en_US.x64.Release.ActionText-2.idtx:51
 msgid "Removing shortcuts"
 msgstr "Bezig met het verwijderen van snelkoppelingen"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:53
+#: en_US.ARM64.Release.ActionText-2.idtx:53
 #: en_US.Win32.Debug.ActionText-2.idtx:53
 #: en_US.Win32.Release.ActionText-2.idtx:53
 #: en_US.x64.Debug.ActionText-2.idtx:53 en_US.x64.Release.ActionText-2.idtx:53
 msgid "Rolling back action:"
 msgstr "Terugdraai-actie:"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:54
+#: en_US.ARM64.Release.ActionText-2.idtx:54
 #: en_US.Win32.Debug.ActionText-2.idtx:54
 #: en_US.Win32.Release.ActionText-2.idtx:54
 #: en_US.x64.Debug.ActionText-2.idtx:54 en_US.x64.Release.ActionText-2.idtx:54
 msgid "Removing backup files"
 msgstr "Bezig met het verwijderen van reservekopiebestanden"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:55
+#: en_US.ARM64.Release.ActionText-2.idtx:55
 #: en_US.Win32.Debug.ActionText-2.idtx:55
 #: en_US.Win32.Release.ActionText-2.idtx:55
 #: en_US.x64.Debug.ActionText-2.idtx:55 en_US.x64.Release.ActionText-2.idtx:55
 msgid "Registering modules"
 msgstr "Bezig met het registreren van modules"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:55
+#: en_US.ARM64.Debug.ActionText-2.idtx:56
+#: en_US.ARM64.Release.ActionText-2.idtx:55
+#: en_US.ARM64.Release.ActionText-2.idtx:56
 #: en_US.Win32.Debug.ActionText-2.idtx:55
 #: en_US.Win32.Debug.ActionText-2.idtx:56
 #: en_US.Win32.Release.ActionText-2.idtx:55
@@ -603,36 +816,48 @@ msgstr "Bezig met het registreren van modules"
 msgid "File: [1], Folder: [2]"
 msgstr "Bestand: [1], map: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:56
+#: en_US.ARM64.Release.ActionText-2.idtx:56
 #: en_US.Win32.Debug.ActionText-2.idtx:56
 #: en_US.Win32.Release.ActionText-2.idtx:56
 #: en_US.x64.Debug.ActionText-2.idtx:56 en_US.x64.Release.ActionText-2.idtx:56
 msgid "Unregistering modules"
 msgstr "Bezig met het ongedaan maken van de registratie van modules"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:57
+#: en_US.ARM64.Release.ActionText-2.idtx:57
 #: en_US.Win32.Debug.ActionText-2.idtx:57
 #: en_US.Win32.Release.ActionText-2.idtx:57
 #: en_US.x64.Debug.ActionText-2.idtx:57 en_US.x64.Release.ActionText-2.idtx:57
 msgid "Initializing ODBC directories"
 msgstr "Bezig met het initialiseren van ODBC-mappen"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:58
+#: en_US.ARM64.Release.ActionText-2.idtx:58
 #: en_US.Win32.Debug.ActionText-2.idtx:58
 #: en_US.Win32.Release.ActionText-2.idtx:58
 #: en_US.x64.Debug.ActionText-2.idtx:58 en_US.x64.Release.ActionText-2.idtx:58
 msgid "Starting services"
 msgstr "Bezig met het starten van services"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:59
+#: en_US.ARM64.Release.ActionText-2.idtx:59
 #: en_US.Win32.Debug.ActionText-2.idtx:59
 #: en_US.Win32.Release.ActionText-2.idtx:59
 #: en_US.x64.Debug.ActionText-2.idtx:59 en_US.x64.Release.ActionText-2.idtx:59
 msgid "Stopping services"
 msgstr "Bezig met het beëindigen van services"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:60
+#: en_US.ARM64.Release.ActionText-2.idtx:60
 #: en_US.Win32.Debug.ActionText-2.idtx:60
 #: en_US.Win32.Release.ActionText-2.idtx:60
 #: en_US.x64.Debug.ActionText-2.idtx:60 en_US.x64.Release.ActionText-2.idtx:60
 msgid "Removing moved files"
 msgstr "Bezig met het verwijderen van verplaatste bestanden"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:61
+#: en_US.ARM64.Release.ActionText-2.idtx:61
 #: en_US.Win32.Debug.ActionText-2.idtx:61
 #: en_US.Win32.Release.ActionText-2.idtx:61
 #: en_US.x64.Debug.ActionText-2.idtx:61 en_US.x64.Release.ActionText-2.idtx:61
@@ -641,24 +866,32 @@ msgstr ""
 "Bezig met het ongedaan maken van de publicatie van gekwalificeerde "
 "onderdelen"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:62
+#: en_US.ARM64.Release.ActionText-2.idtx:62
 #: en_US.Win32.Debug.ActionText-2.idtx:62
 #: en_US.Win32.Release.ActionText-2.idtx:62
 #: en_US.x64.Debug.ActionText-2.idtx:62 en_US.x64.Release.ActionText-2.idtx:62
 msgid "Unpublishing Product Features"
 msgstr "Bezig met het ongedaan maken van de publicatie van productfuncties"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:63
+#: en_US.ARM64.Release.ActionText-2.idtx:63
 #: en_US.Win32.Debug.ActionText-2.idtx:63
 #: en_US.Win32.Release.ActionText-2.idtx:63
 #: en_US.x64.Debug.ActionText-2.idtx:63 en_US.x64.Release.ActionText-2.idtx:63
 msgid "Unpublishing product information"
 msgstr "Bezig met het ongedaan maken van de publicatie van productgegevens"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:64
+#: en_US.ARM64.Release.ActionText-2.idtx:64
 #: en_US.Win32.Debug.ActionText-2.idtx:64
 #: en_US.Win32.Release.ActionText-2.idtx:64
 #: en_US.x64.Debug.ActionText-2.idtx:64 en_US.x64.Release.ActionText-2.idtx:64
 msgid "Unregister Class servers"
 msgstr "Bezig met het ongedaan maken van de registratie van categorieservers"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:65
+#: en_US.ARM64.Release.ActionText-2.idtx:65
 #: en_US.Win32.Debug.ActionText-2.idtx:65
 #: en_US.Win32.Release.ActionText-2.idtx:65
 #: en_US.x64.Debug.ActionText-2.idtx:65 en_US.x64.Release.ActionText-2.idtx:65
@@ -667,68 +900,96 @@ msgstr ""
 "Bezig met het ongedaan maken van de registratie van COM+-toepassingen en "
 "-onderdelen"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:65
+#: en_US.ARM64.Release.ActionText-2.idtx:65
 #: en_US.Win32.Debug.ActionText-2.idtx:65
 #: en_US.Win32.Release.ActionText-2.idtx:65
 #: en_US.x64.Debug.ActionText-2.idtx:65 en_US.x64.Release.ActionText-2.idtx:65
 msgid "AppId: [1]{{, AppType: [2]}}"
 msgstr "Toepassings-id: [1]{{, toepassingstype: [2]}}"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:66
+#: en_US.ARM64.Release.ActionText-2.idtx:66
 #: en_US.Win32.Debug.ActionText-2.idtx:66
 #: en_US.Win32.Release.ActionText-2.idtx:66
 #: en_US.x64.Debug.ActionText-2.idtx:66 en_US.x64.Release.ActionText-2.idtx:66
 msgid "Unregistering extension servers"
 msgstr "Bezig met het ongedaan maken van de registratie van extensieservers"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:67
+#: en_US.ARM64.Release.ActionText-2.idtx:67
 #: en_US.Win32.Debug.ActionText-2.idtx:67
 #: en_US.Win32.Release.ActionText-2.idtx:67
 #: en_US.x64.Debug.ActionText-2.idtx:67 en_US.x64.Release.ActionText-2.idtx:67
 msgid "Unregistering fonts"
 msgstr "Bezig met het ongedaan maken van de registratie van lettertypen"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:68
+#: en_US.ARM64.Release.ActionText-2.idtx:68
 #: en_US.Win32.Debug.ActionText-2.idtx:68
 #: en_US.Win32.Release.ActionText-2.idtx:68
 #: en_US.x64.Debug.ActionText-2.idtx:68 en_US.x64.Release.ActionText-2.idtx:68
 msgid "Unregistering MIME info"
 msgstr "Bezig met het ongedaan maken van de registratie van MIME-gegevens"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:69
+#: en_US.ARM64.Release.ActionText-2.idtx:69
 #: en_US.Win32.Debug.ActionText-2.idtx:69
 #: en_US.Win32.Release.ActionText-2.idtx:69
 #: en_US.x64.Debug.ActionText-2.idtx:69 en_US.x64.Release.ActionText-2.idtx:69
 msgid "Unregistering program identifiers"
 msgstr "Bezig met het ongedaan maken van de registratie van programma-id's"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:70
+#: en_US.ARM64.Release.ActionText-2.idtx:70
 #: en_US.Win32.Debug.ActionText-2.idtx:70
 #: en_US.Win32.Release.ActionText-2.idtx:70
 #: en_US.x64.Debug.ActionText-2.idtx:70 en_US.x64.Release.ActionText-2.idtx:70
 msgid "Unregistering type libraries"
 msgstr "Bezig met het ongedaan maken van de registratie van typebibliotheken"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:72
+#: en_US.ARM64.Release.ActionText-2.idtx:72
 #: en_US.Win32.Debug.ActionText-2.idtx:72
 #: en_US.Win32.Release.ActionText-2.idtx:72
 #: en_US.x64.Debug.ActionText-2.idtx:72 en_US.x64.Release.ActionText-2.idtx:72
 msgid "Writing INI files values"
 msgstr "Bezig met het schrijven van waarden voor INI-bestanden"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:73
+#: en_US.ARM64.Release.ActionText-2.idtx:73
 #: en_US.Win32.Debug.ActionText-2.idtx:73
 #: en_US.Win32.Release.ActionText-2.idtx:73
 #: en_US.x64.Debug.ActionText-2.idtx:73 en_US.x64.Release.ActionText-2.idtx:73
 msgid "Writing system registry values"
 msgstr "Bezig met het schrijven van systeemregisterwaarden"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:73
+#: en_US.ARM64.Release.ActionText-2.idtx:73
 #: en_US.Win32.Debug.ActionText-2.idtx:73
 #: en_US.Win32.Release.ActionText-2.idtx:73
 #: en_US.x64.Debug.ActionText-2.idtx:73 en_US.x64.Release.ActionText-2.idtx:73
 msgid "Key: [1], Name: [2], Value: [3]"
 msgstr "Sleutel: [1], Naam: [2], Waarde: [3]"
 
-#: en_US.Win32.Debug.CustomAction-2.idtx:4
-#: en_US.Win32.Release.CustomAction-2.idtx:4
-msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
-" 64-bit operating system. 32-bit variant will not work with your operating "
-"system. The installation of the 64-bit variant is recommended."
+#: en_US.ARM64.Debug.ActionText-2.idtx:74
+#: en_US.ARM64.Release.ActionText-2.idtx:74
+#: en_US.Win32.Debug.ActionText-2.idtx:74
+#: en_US.Win32.Release.ActionText-2.idtx:74
+#: en_US.x64.Debug.ActionText-2.idtx:74 en_US.x64.Release.ActionText-2.idtx:74
+msgid "Evaluating Active Setup components"
 msgstr ""
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:75
+#: en_US.ARM64.Release.ActionText-2.idtx:75
+#: en_US.Win32.Debug.ActionText-2.idtx:75
+#: en_US.Win32.Release.ActionText-2.idtx:75
+#: en_US.x64.Debug.ActionText-2.idtx:75 en_US.x64.Release.ActionText-2.idtx:75
+msgid "Publishing Active Setup components"
+msgstr ""
+
+#: en_US.ARM64.Debug.CustomAction-2.idtx:4
+#: en_US.ARM64.Release.CustomAction-2.idtx:4
 #: en_US.Win32.Debug.CustomAction-2.idtx:5
 #: en_US.Win32.Release.CustomAction-2.idtx:5
 #: en_US.x64.Debug.CustomAction-2.idtx:4
@@ -736,6 +997,8 @@ msgstr ""
 msgid "A newer version of [SimpleProductName] is already installed."
 msgstr ""
 
+#: en_US.ARM64.Debug.CustomAction-2.idtx:5
+#: en_US.ARM64.Release.CustomAction-2.idtx:5
 #: en_US.Win32.Debug.CustomAction-2.idtx:6
 #: en_US.Win32.Release.CustomAction-2.idtx:6
 #: en_US.x64.Debug.CustomAction-2.idtx:5
@@ -745,26 +1008,31 @@ msgid ""
 "Please remove the old package first and retry."
 msgstr ""
 
+#: en_US.ARM64.Debug.Error-2.idtx:4 en_US.ARM64.Release.Error-2.idtx:4
 #: en_US.Win32.Debug.Error-2.idtx:4 en_US.Win32.Release.Error-2.idtx:4
 #: en_US.x64.Debug.Error-2.idtx:4 en_US.x64.Release.Error-2.idtx:4
 msgid "{{Fatal error: }}"
 msgstr "{{Fatale fout: }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:5 en_US.ARM64.Release.Error-2.idtx:5
 #: en_US.Win32.Debug.Error-2.idtx:5 en_US.Win32.Release.Error-2.idtx:5
 #: en_US.x64.Debug.Error-2.idtx:5 en_US.x64.Release.Error-2.idtx:5
 msgid "{{Error [1]. }}"
 msgstr "{{Fout [1]. }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:6 en_US.ARM64.Release.Error-2.idtx:6
 #: en_US.Win32.Debug.Error-2.idtx:6 en_US.Win32.Release.Error-2.idtx:6
 #: en_US.x64.Debug.Error-2.idtx:6 en_US.x64.Release.Error-2.idtx:6
 msgid "Warning [1]. "
 msgstr "Waarschuwing [1]. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:8 en_US.ARM64.Release.Error-2.idtx:8
 #: en_US.Win32.Debug.Error-2.idtx:8 en_US.Win32.Release.Error-2.idtx:8
 #: en_US.x64.Debug.Error-2.idtx:8 en_US.x64.Release.Error-2.idtx:8
 msgid "Info [1]. "
 msgstr "Info [1]. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:9 en_US.ARM64.Release.Error-2.idtx:9
 #: en_US.Win32.Debug.Error-2.idtx:9 en_US.Win32.Release.Error-2.idtx:9
 #: en_US.x64.Debug.Error-2.idtx:9 en_US.x64.Release.Error-2.idtx:9
 msgid ""
@@ -776,56 +1044,68 @@ msgstr ""
 " Er is mogelijk een probleem met dit pakket. De foutcode is: [1]. {{De "
 "schakelopties zijn: [2], [3], [4]}}."
 
+#: en_US.ARM64.Debug.Error-2.idtx:11 en_US.ARM64.Release.Error-2.idtx:11
 #: en_US.Win32.Debug.Error-2.idtx:11 en_US.Win32.Release.Error-2.idtx:11
 #: en_US.x64.Debug.Error-2.idtx:11 en_US.x64.Release.Error-2.idtx:11
 msgid "{{Disk full: }}"
 msgstr "{{Schijf vol: }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:12 en_US.ARM64.Release.Error-2.idtx:12
 #: en_US.Win32.Debug.Error-2.idtx:12 en_US.Win32.Release.Error-2.idtx:12
 #: en_US.x64.Debug.Error-2.idtx:12 en_US.x64.Release.Error-2.idtx:12
 msgid "Action [Time]: [1]. [2]"
 msgstr "Actie [Time]: [1]. [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:13 en_US.ARM64.Release.Error-2.idtx:13
 #: en_US.Win32.Debug.Error-2.idtx:13 en_US.Win32.Release.Error-2.idtx:13
 #: en_US.x64.Debug.Error-2.idtx:13 en_US.x64.Release.Error-2.idtx:13
 msgid "[SimpleProductName]"
 msgstr "[SimpleProductName]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:14 en_US.ARM64.Release.Error-2.idtx:14
 #: en_US.Win32.Debug.Error-2.idtx:14 en_US.Win32.Release.Error-2.idtx:14
 #: en_US.x64.Debug.Error-2.idtx:14 en_US.x64.Release.Error-2.idtx:14
 msgid "{[2]}{, [3]}{, [4]}"
 msgstr "{[2]}{, [3]}{, [4]}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:15 en_US.ARM64.Release.Error-2.idtx:15
 #: en_US.Win32.Debug.Error-2.idtx:15 en_US.Win32.Release.Error-2.idtx:15
 #: en_US.x64.Debug.Error-2.idtx:15 en_US.x64.Release.Error-2.idtx:15
 msgid "Message type: [1], Argument: [2]{, [3]}"
 msgstr "Berichttype: [1], argument: [2]{, [3]}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:16 en_US.ARM64.Release.Error-2.idtx:16
 #: en_US.Win32.Debug.Error-2.idtx:16 en_US.Win32.Release.Error-2.idtx:16
 #: en_US.x64.Debug.Error-2.idtx:16 en_US.x64.Release.Error-2.idtx:16
 msgid "=== Logging started: [Date]  [Time] ==="
 msgstr "=== Logboekfunctie gestart: [Date]  [Time] ==="
 
+#: en_US.ARM64.Debug.Error-2.idtx:17 en_US.ARM64.Release.Error-2.idtx:17
 #: en_US.Win32.Debug.Error-2.idtx:17 en_US.Win32.Release.Error-2.idtx:17
 #: en_US.x64.Debug.Error-2.idtx:17 en_US.x64.Release.Error-2.idtx:17
 msgid "=== Logging stopped: [Date]  [Time] ==="
 msgstr "=== Logboekfunctie beëindigd: [Date]  [Time] ==="
 
+#: en_US.ARM64.Debug.Error-2.idtx:18 en_US.ARM64.Release.Error-2.idtx:18
 #: en_US.Win32.Debug.Error-2.idtx:18 en_US.Win32.Release.Error-2.idtx:18
 #: en_US.x64.Debug.Error-2.idtx:18 en_US.x64.Release.Error-2.idtx:18
 msgid "Action start [Time]: [1]."
 msgstr "Actie gestart [Time]: [1]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:19 en_US.ARM64.Release.Error-2.idtx:19
 #: en_US.Win32.Debug.Error-2.idtx:19 en_US.Win32.Release.Error-2.idtx:19
 #: en_US.x64.Debug.Error-2.idtx:19 en_US.x64.Release.Error-2.idtx:19
 msgid "Action ended [Time]: [1]. Return value [2]."
 msgstr "Actie beëindigd [Time]: [1]. Retourwaarde [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:20 en_US.ARM64.Release.Error-2.idtx:20
 #: en_US.Win32.Debug.Error-2.idtx:20 en_US.Win32.Release.Error-2.idtx:20
 #: en_US.x64.Debug.Error-2.idtx:20 en_US.x64.Release.Error-2.idtx:20
 msgid "Time remaining: {[1] minutes }{[2] seconds}"
 msgstr "Resterende tijd: {[1] minuten }{[2] seconden}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:21 en_US.ARM64.Debug.Error-2.idtx:127
+#: en_US.ARM64.Release.Error-2.idtx:21 en_US.ARM64.Release.Error-2.idtx:127
 #: en_US.Win32.Debug.Error-2.idtx:21 en_US.Win32.Debug.Error-2.idtx:127
 #: en_US.Win32.Release.Error-2.idtx:21 en_US.Win32.Release.Error-2.idtx:127
 #: en_US.x64.Debug.Error-2.idtx:21 en_US.x64.Debug.Error-2.idtx:127
@@ -835,16 +1115,19 @@ msgstr ""
 "Onvoldoende geheugen. Sluit andere toepassingen af voordat u het opnieuw "
 "probeert."
 
+#: en_US.ARM64.Debug.Error-2.idtx:22 en_US.ARM64.Release.Error-2.idtx:22
 #: en_US.Win32.Debug.Error-2.idtx:22 en_US.Win32.Release.Error-2.idtx:22
 #: en_US.x64.Debug.Error-2.idtx:22 en_US.x64.Release.Error-2.idtx:22
 msgid "Installer is no longer responding."
 msgstr "Installer reageert niet meer."
 
+#: en_US.ARM64.Debug.Error-2.idtx:23 en_US.ARM64.Release.Error-2.idtx:23
 #: en_US.Win32.Debug.Error-2.idtx:23 en_US.Win32.Release.Error-2.idtx:23
 #: en_US.x64.Debug.Error-2.idtx:23 en_US.x64.Release.Error-2.idtx:23
 msgid "Installer stopped prematurely."
 msgstr "Installer is voortijdig beëindigd."
 
+#: en_US.ARM64.Debug.Error-2.idtx:24 en_US.ARM64.Release.Error-2.idtx:24
 #: en_US.Win32.Debug.Error-2.idtx:24 en_US.Win32.Release.Error-2.idtx:24
 #: en_US.x64.Debug.Error-2.idtx:24 en_US.x64.Release.Error-2.idtx:24
 msgid "Please wait while Windows configures [SimpleProductName]"
@@ -852,32 +1135,38 @@ msgstr ""
 "Een ogenblik geduld. Windows is bezig met het configureren van "
 "[SimpleProductName]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:25 en_US.ARM64.Release.Error-2.idtx:25
 #: en_US.Win32.Debug.Error-2.idtx:25 en_US.Win32.Release.Error-2.idtx:25
 #: en_US.x64.Debug.Error-2.idtx:25 en_US.x64.Release.Error-2.idtx:25
 msgid "Gathering required information..."
 msgstr "Bezig met het verzamelen van de benodigde gegevens..."
 
+#: en_US.ARM64.Debug.Error-2.idtx:26 en_US.ARM64.Release.Error-2.idtx:26
 #: en_US.Win32.Debug.Error-2.idtx:26 en_US.Win32.Release.Error-2.idtx:26
 #: en_US.x64.Debug.Error-2.idtx:26 en_US.x64.Release.Error-2.idtx:26
 msgid "Removing older versions of this application..."
 msgstr "Bezig met het verwijderen van oudere versies van deze toepassing..."
 
+#: en_US.ARM64.Debug.Error-2.idtx:27 en_US.ARM64.Release.Error-2.idtx:27
 #: en_US.Win32.Debug.Error-2.idtx:27 en_US.Win32.Release.Error-2.idtx:27
 #: en_US.x64.Debug.Error-2.idtx:27 en_US.x64.Release.Error-2.idtx:27
 msgid "Preparing to remove older versions of this application..."
 msgstr ""
 "Het verwijderen van oudere versies van deze toepassing wordt voorbereid..."
 
+#: en_US.ARM64.Debug.Error-2.idtx:28 en_US.ARM64.Release.Error-2.idtx:28
 #: en_US.Win32.Debug.Error-2.idtx:28 en_US.Win32.Release.Error-2.idtx:28
 #: en_US.x64.Debug.Error-2.idtx:28 en_US.x64.Release.Error-2.idtx:28
 msgid "{[SimpleProductName] }Setup completed successfully."
 msgstr "{[SimpleProductName] }Setup is voltooid."
 
+#: en_US.ARM64.Debug.Error-2.idtx:29 en_US.ARM64.Release.Error-2.idtx:29
 #: en_US.Win32.Debug.Error-2.idtx:29 en_US.Win32.Release.Error-2.idtx:29
 #: en_US.x64.Debug.Error-2.idtx:29 en_US.x64.Release.Error-2.idtx:29
 msgid "{[SimpleProductName] }Setup failed."
 msgstr "{[SimpleProductName] }Setup is mislukt."
 
+#: en_US.ARM64.Debug.Error-2.idtx:30 en_US.ARM64.Release.Error-2.idtx:30
 #: en_US.Win32.Debug.Error-2.idtx:30 en_US.Win32.Release.Error-2.idtx:30
 #: en_US.x64.Debug.Error-2.idtx:30 en_US.x64.Release.Error-2.idtx:30
 msgid ""
@@ -887,6 +1176,7 @@ msgstr ""
 "Fout bij het lezen van bestand: [2]. {{ Systeemfout [3].}} Controleer of het"
 " bestand bestaat en of u toegang tot het bestand hebt."
 
+#: en_US.ARM64.Debug.Error-2.idtx:31 en_US.ARM64.Release.Error-2.idtx:31
 #: en_US.Win32.Debug.Error-2.idtx:31 en_US.Win32.Release.Error-2.idtx:31
 #: en_US.x64.Debug.Error-2.idtx:31 en_US.x64.Release.Error-2.idtx:31
 msgid ""
@@ -896,11 +1186,13 @@ msgstr ""
 "Kan het bestand [2] niet maken. Er bestaat al een map met deze naam. "
 "Annuleer de installatie en probeer op een andere locatie te installeren."
 
+#: en_US.ARM64.Debug.Error-2.idtx:32 en_US.ARM64.Release.Error-2.idtx:32
 #: en_US.Win32.Debug.Error-2.idtx:32 en_US.Win32.Release.Error-2.idtx:32
 #: en_US.x64.Debug.Error-2.idtx:32 en_US.x64.Release.Error-2.idtx:32
 msgid "Please insert the disk: [2]"
 msgstr "Plaats de diskette: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:33 en_US.ARM64.Release.Error-2.idtx:33
 #: en_US.Win32.Debug.Error-2.idtx:33 en_US.Win32.Release.Error-2.idtx:33
 #: en_US.x64.Debug.Error-2.idtx:33 en_US.x64.Release.Error-2.idtx:33
 msgid ""
@@ -912,6 +1204,7 @@ msgstr ""
 " niet worden voortgezet. Meld u aan als systeembeheerder of neem contact op "
 "met de systeembeheerder."
 
+#: en_US.ARM64.Debug.Error-2.idtx:34 en_US.ARM64.Release.Error-2.idtx:34
 #: en_US.Win32.Debug.Error-2.idtx:34 en_US.Win32.Release.Error-2.idtx:34
 #: en_US.x64.Debug.Error-2.idtx:34 en_US.x64.Release.Error-2.idtx:34
 msgid ""
@@ -920,6 +1213,7 @@ msgstr ""
 "Fout bij het schrijven naar het bestand [2]. Controleer of u toegang tot de "
 "map hebt."
 
+#: en_US.ARM64.Debug.Error-2.idtx:35 en_US.ARM64.Release.Error-2.idtx:35
 #: en_US.Win32.Debug.Error-2.idtx:35 en_US.Win32.Release.Error-2.idtx:35
 #: en_US.x64.Debug.Error-2.idtx:35 en_US.x64.Release.Error-2.idtx:35
 msgid ""
@@ -929,6 +1223,7 @@ msgstr ""
 "Fout bij het lezen van bestand [2]. {{ Systeemfout [3].}} Controleer of het "
 "bestand bestaat en of u er toegang toe hebt."
 
+#: en_US.ARM64.Debug.Error-2.idtx:36 en_US.ARM64.Release.Error-2.idtx:36
 #: en_US.Win32.Debug.Error-2.idtx:36 en_US.Win32.Release.Error-2.idtx:36
 #: en_US.x64.Debug.Error-2.idtx:36 en_US.x64.Release.Error-2.idtx:36
 msgid ""
@@ -938,6 +1233,7 @@ msgstr ""
 "Een andere toepassing heeft momenteel exclusief toegang tot bestand [2]. "
 "Sluit alle andere toepassingen af en klik op Nogmaals."
 
+#: en_US.ARM64.Debug.Error-2.idtx:37 en_US.ARM64.Release.Error-2.idtx:37
 #: en_US.Win32.Debug.Error-2.idtx:37 en_US.Win32.Release.Error-2.idtx:37
 #: en_US.x64.Debug.Error-2.idtx:37 en_US.x64.Release.Error-2.idtx:37
 msgid ""
@@ -948,6 +1244,7 @@ msgstr ""
 "schijfruimte vrij en klik op Nogmaals, of op Annuleren om de installatie te "
 "beëindigen."
 
+#: en_US.ARM64.Debug.Error-2.idtx:38 en_US.ARM64.Release.Error-2.idtx:38
 #: en_US.Win32.Debug.Error-2.idtx:38 en_US.Win32.Release.Error-2.idtx:38
 #: en_US.x64.Debug.Error-2.idtx:38 en_US.x64.Release.Error-2.idtx:38
 msgid ""
@@ -957,6 +1254,7 @@ msgstr ""
 "Het bronbestand [2] is niet gevonden. Controleer of het bestand bestaat en "
 "of u toegang tot het bestand hebt."
 
+#: en_US.ARM64.Debug.Error-2.idtx:39 en_US.ARM64.Release.Error-2.idtx:39
 #: en_US.Win32.Debug.Error-2.idtx:39 en_US.Win32.Release.Error-2.idtx:39
 #: en_US.x64.Debug.Error-2.idtx:39 en_US.x64.Release.Error-2.idtx:39
 msgid ""
@@ -966,6 +1264,7 @@ msgstr ""
 "Fout bij het lezen van het bestand [3]. {{ Systeemfout [2].}} Controleer of "
 "het bestand bestaat en of u toegang tot het bestand hebt."
 
+#: en_US.ARM64.Debug.Error-2.idtx:40 en_US.ARM64.Release.Error-2.idtx:40
 #: en_US.Win32.Debug.Error-2.idtx:40 en_US.Win32.Release.Error-2.idtx:40
 #: en_US.x64.Debug.Error-2.idtx:40 en_US.x64.Release.Error-2.idtx:40
 msgid ""
@@ -975,6 +1274,7 @@ msgstr ""
 "Fout bij het schrijven naar het bestand [3]. {{ Systeemfout [2].}} "
 "Controleer of u toegang tot de map hebt."
 
+#: en_US.ARM64.Debug.Error-2.idtx:41 en_US.ARM64.Release.Error-2.idtx:41
 #: en_US.Win32.Debug.Error-2.idtx:41 en_US.Win32.Release.Error-2.idtx:41
 #: en_US.x64.Debug.Error-2.idtx:41 en_US.x64.Release.Error-2.idtx:41
 msgid ""
@@ -984,6 +1284,7 @@ msgstr ""
 "Bronbestand is niet gevonden{{(cabinet)}}: [2]. Controleer of het bestand "
 "bestaat en of u toegang tot het bestand hebt."
 
+#: en_US.ARM64.Debug.Error-2.idtx:42 en_US.ARM64.Release.Error-2.idtx:42
 #: en_US.Win32.Debug.Error-2.idtx:42 en_US.Win32.Release.Error-2.idtx:42
 #: en_US.x64.Debug.Error-2.idtx:42 en_US.x64.Release.Error-2.idtx:42
 msgid ""
@@ -994,37 +1295,44 @@ msgstr ""
 "naam of verwijder het bestand en klik op Nogmaals, of klik op Annuleren om "
 "af te sluiten."
 
+#: en_US.ARM64.Debug.Error-2.idtx:43 en_US.ARM64.Release.Error-2.idtx:43
 #: en_US.Win32.Debug.Error-2.idtx:43 en_US.Win32.Release.Error-2.idtx:43
 #: en_US.x64.Debug.Error-2.idtx:43 en_US.x64.Release.Error-2.idtx:43
 msgid "The volume [2] is currently unavailable.  Please select another."
 msgstr ""
 "Het volume [2] is momenteel niet beschikbaar. Selecteer een ander volume."
 
+#: en_US.ARM64.Debug.Error-2.idtx:44 en_US.ARM64.Release.Error-2.idtx:44
 #: en_US.Win32.Debug.Error-2.idtx:44 en_US.Win32.Release.Error-2.idtx:44
 #: en_US.x64.Debug.Error-2.idtx:44 en_US.x64.Release.Error-2.idtx:44
 msgid "The specified path '[2]' is unavailable."
 msgstr "Het opgegeven pad [2] is niet beschikbaar."
 
+#: en_US.ARM64.Debug.Error-2.idtx:45 en_US.ARM64.Release.Error-2.idtx:45
 #: en_US.Win32.Debug.Error-2.idtx:45 en_US.Win32.Release.Error-2.idtx:45
 #: en_US.x64.Debug.Error-2.idtx:45 en_US.x64.Release.Error-2.idtx:45
 msgid "Unable to write to the specified folder: [2]."
 msgstr "Kan niet naar de opgegeven map [2] schrijven."
 
+#: en_US.ARM64.Debug.Error-2.idtx:46 en_US.ARM64.Release.Error-2.idtx:46
 #: en_US.Win32.Debug.Error-2.idtx:46 en_US.Win32.Release.Error-2.idtx:46
 #: en_US.x64.Debug.Error-2.idtx:46 en_US.x64.Release.Error-2.idtx:46
 msgid "A network error occurred while attempting to read from the file: [2]"
 msgstr "Er is een netwerkfout opgetreden bij het lezen van bestand [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:47 en_US.ARM64.Release.Error-2.idtx:47
 #: en_US.Win32.Debug.Error-2.idtx:47 en_US.Win32.Release.Error-2.idtx:47
 #: en_US.x64.Debug.Error-2.idtx:47 en_US.x64.Release.Error-2.idtx:47
 msgid "An error occurred while attempting to create the directory: [2]"
 msgstr "Er is een fout opgetreden bij het maken van map [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:48 en_US.ARM64.Release.Error-2.idtx:48
 #: en_US.Win32.Debug.Error-2.idtx:48 en_US.Win32.Release.Error-2.idtx:48
 #: en_US.x64.Debug.Error-2.idtx:48 en_US.x64.Release.Error-2.idtx:48
 msgid "A network error occurred while attempting to create the directory: [2]"
 msgstr "Er is een netwerkfout opgetreden bij het maken van map [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:49 en_US.ARM64.Release.Error-2.idtx:49
 #: en_US.Win32.Debug.Error-2.idtx:49 en_US.Win32.Release.Error-2.idtx:49
 #: en_US.x64.Debug.Error-2.idtx:49 en_US.x64.Release.Error-2.idtx:49
 msgid ""
@@ -1034,11 +1342,13 @@ msgstr ""
 "Er is een netwerkfout opgetreden bij het openen van het broncabinetbestand "
 "[2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:50 en_US.ARM64.Release.Error-2.idtx:50
 #: en_US.Win32.Debug.Error-2.idtx:50 en_US.Win32.Release.Error-2.idtx:50
 #: en_US.x64.Debug.Error-2.idtx:50 en_US.x64.Release.Error-2.idtx:50
 msgid "The specified path is too long: [2]"
 msgstr "Het opgegeven pad is te lang: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:51 en_US.ARM64.Release.Error-2.idtx:51
 #: en_US.Win32.Debug.Error-2.idtx:51 en_US.Win32.Release.Error-2.idtx:51
 #: en_US.x64.Debug.Error-2.idtx:51 en_US.x64.Release.Error-2.idtx:51
 msgid "The Installer has insufficient privileges to modify this file: [2]."
@@ -1046,6 +1356,7 @@ msgstr ""
 "Installer heeft niet de juiste rechten om het bestand [2] te kunnen "
 "wijzigen."
 
+#: en_US.ARM64.Debug.Error-2.idtx:52 en_US.ARM64.Release.Error-2.idtx:52
 #: en_US.Win32.Debug.Error-2.idtx:52 en_US.Win32.Release.Error-2.idtx:52
 #: en_US.x64.Debug.Error-2.idtx:52 en_US.x64.Release.Error-2.idtx:52
 msgid ""
@@ -1055,6 +1366,7 @@ msgstr ""
 "Een gedeelte van het pad voor de map [2] is ongeldig. Het pad is leeg of de "
 "de toegestane maximumlengte wordt overschreden."
 
+#: en_US.ARM64.Debug.Error-2.idtx:53 en_US.ARM64.Release.Error-2.idtx:53
 #: en_US.Win32.Debug.Error-2.idtx:53 en_US.Win32.Release.Error-2.idtx:53
 #: en_US.x64.Debug.Error-2.idtx:53 en_US.x64.Release.Error-2.idtx:53
 msgid ""
@@ -1063,26 +1375,31 @@ msgstr ""
 "Het pad [2] voor de map bevat woorden die niet geldig zijn in paden voor "
 "mappen."
 
+#: en_US.ARM64.Debug.Error-2.idtx:54 en_US.ARM64.Release.Error-2.idtx:54
 #: en_US.Win32.Debug.Error-2.idtx:54 en_US.Win32.Release.Error-2.idtx:54
 #: en_US.x64.Debug.Error-2.idtx:54 en_US.x64.Release.Error-2.idtx:54
 msgid "The folder path '[2]' contains an invalid character."
 msgstr "Het pad [2] voor de map bevat een ongeldig teken."
 
+#: en_US.ARM64.Debug.Error-2.idtx:55 en_US.ARM64.Release.Error-2.idtx:55
 #: en_US.Win32.Debug.Error-2.idtx:55 en_US.Win32.Release.Error-2.idtx:55
 #: en_US.x64.Debug.Error-2.idtx:55 en_US.x64.Release.Error-2.idtx:55
 msgid "'[2]' is not a valid short file name."
 msgstr "[2] is een ongeldige korte bestandsnaam."
 
+#: en_US.ARM64.Debug.Error-2.idtx:56 en_US.ARM64.Release.Error-2.idtx:56
 #: en_US.Win32.Debug.Error-2.idtx:56 en_US.Win32.Release.Error-2.idtx:56
 #: en_US.x64.Debug.Error-2.idtx:56 en_US.x64.Release.Error-2.idtx:56
 msgid "Error getting file security: [3] GetLastError: [2]"
 msgstr "Fout bij het ophalen van bestandsbeveiliging: [3] GetLastError: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:57 en_US.ARM64.Release.Error-2.idtx:57
 #: en_US.Win32.Debug.Error-2.idtx:57 en_US.Win32.Release.Error-2.idtx:57
 #: en_US.x64.Debug.Error-2.idtx:57 en_US.x64.Release.Error-2.idtx:57
 msgid "Invalid Drive: [2]"
 msgstr "Ongeldig station: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:58 en_US.ARM64.Release.Error-2.idtx:58
 #: en_US.Win32.Debug.Error-2.idtx:58 en_US.Win32.Release.Error-2.idtx:58
 #: en_US.x64.Debug.Error-2.idtx:58 en_US.x64.Release.Error-2.idtx:58
 msgid ""
@@ -1095,6 +1412,7 @@ msgstr ""
 "patch worden gewijzigd. Neem voor meer informatie contact op met de "
 "leverancier van de patch. {{Systeemfout: [3]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:59 en_US.ARM64.Release.Error-2.idtx:59
 #: en_US.Win32.Debug.Error-2.idtx:59 en_US.Win32.Release.Error-2.idtx:59
 #: en_US.x64.Debug.Error-2.idtx:59 en_US.x64.Release.Error-2.idtx:59
 msgid ""
@@ -1105,6 +1423,7 @@ msgstr ""
 "niet digitaal is ondertekend. Dit geeft aan dat het CAB-bestand beschadigd "
 "is."
 
+#: en_US.ARM64.Debug.Error-2.idtx:60 en_US.ARM64.Release.Error-2.idtx:60
 #: en_US.Win32.Debug.Error-2.idtx:60 en_US.Win32.Release.Error-2.idtx:60
 #: en_US.x64.Debug.Error-2.idtx:60 en_US.x64.Release.Error-2.idtx:60
 msgid ""
@@ -1116,21 +1435,25 @@ msgstr ""
 "handtekening van het CAB-bestand [2] ongeldig is. Dit geeft aan dat het CAB-"
 "bestand beschadigd is.{{  Fout [3] is geretourneerd door WinVerifyTrust.}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:61 en_US.ARM64.Release.Error-2.idtx:61
 #: en_US.Win32.Debug.Error-2.idtx:61 en_US.Win32.Release.Error-2.idtx:61
 #: en_US.x64.Debug.Error-2.idtx:61 en_US.x64.Release.Error-2.idtx:61
 msgid "Failed to correctly copy [2] file: CRC error."
 msgstr "Kan het [2]-bestand niet juist kopiëren: CRC-fout."
 
+#: en_US.ARM64.Debug.Error-2.idtx:62 en_US.ARM64.Release.Error-2.idtx:62
 #: en_US.Win32.Debug.Error-2.idtx:62 en_US.Win32.Release.Error-2.idtx:62
 #: en_US.x64.Debug.Error-2.idtx:62 en_US.x64.Release.Error-2.idtx:62
 msgid "Failed to correctly move [2] file: CRC error."
 msgstr "Kan het [2]-bestand niet juist verplaatsen: CRC-fout."
 
+#: en_US.ARM64.Debug.Error-2.idtx:63 en_US.ARM64.Release.Error-2.idtx:63
 #: en_US.Win32.Debug.Error-2.idtx:63 en_US.Win32.Release.Error-2.idtx:63
 #: en_US.x64.Debug.Error-2.idtx:63 en_US.x64.Release.Error-2.idtx:63
 msgid "Failed to correctly patch [2] file: CRC error."
 msgstr "Kan het [2]-bestand niet juist aanpassen: CRC-fout."
 
+#: en_US.ARM64.Debug.Error-2.idtx:64 en_US.ARM64.Release.Error-2.idtx:64
 #: en_US.Win32.Debug.Error-2.idtx:64 en_US.Win32.Release.Error-2.idtx:64
 #: en_US.x64.Debug.Error-2.idtx:64 en_US.x64.Release.Error-2.idtx:64
 msgid ""
@@ -1142,6 +1465,7 @@ msgstr ""
 "worden gevonden in het CAB-bestand [3]. Dit kan een netwerkfout, een fout "
 "bij het lezen van de cd-rom, of een probleem met het pakket aangeven."
 
+#: en_US.ARM64.Debug.Error-2.idtx:65 en_US.ARM64.Release.Error-2.idtx:65
 #: en_US.Win32.Debug.Error-2.idtx:65 en_US.Win32.Release.Error-2.idtx:65
 #: en_US.x64.Debug.Error-2.idtx:65 en_US.x64.Release.Error-2.idtx:65
 msgid ""
@@ -1153,6 +1477,7 @@ msgstr ""
 "kan niet worden gebruikt. Dit kan een netwerkfout, een fout bij het lezen "
 "van de cd-rom, of een probleem met het pakket aangeven."
 
+#: en_US.ARM64.Debug.Error-2.idtx:66 en_US.ARM64.Release.Error-2.idtx:66
 #: en_US.Win32.Debug.Error-2.idtx:66 en_US.Win32.Release.Error-2.idtx:66
 #: en_US.x64.Debug.Error-2.idtx:66 en_US.x64.Release.Error-2.idtx:66
 msgid ""
@@ -1162,6 +1487,7 @@ msgstr ""
 "Er is een fout opgetreden bij het maken van een tijdelijk bestand dat nodig "
 "is voor het voltooien van de installatie. {{map: [3]. systeemfoutcode: [2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:67 en_US.ARM64.Release.Error-2.idtx:67
 #: en_US.Win32.Debug.Error-2.idtx:67 en_US.Win32.Release.Error-2.idtx:67
 #: en_US.x64.Debug.Error-2.idtx:67 en_US.x64.Release.Error-2.idtx:67
 msgid ""
@@ -1172,6 +1498,7 @@ msgstr ""
 "toegangsrechten hebt voor deze sleutel, of neem contact op met het "
 "ondersteuningspersoneel. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:68 en_US.ARM64.Release.Error-2.idtx:68
 #: en_US.Win32.Debug.Error-2.idtx:68 en_US.Win32.Release.Error-2.idtx:68
 #: en_US.x64.Debug.Error-2.idtx:68 en_US.x64.Release.Error-2.idtx:68
 msgid ""
@@ -1182,6 +1509,7 @@ msgstr ""
 " toegangsrechten hebt voor deze sleutel, of neem contact op met het "
 "ondersteuningspersoneel. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:69 en_US.ARM64.Release.Error-2.idtx:69
 #: en_US.Win32.Debug.Error-2.idtx:69 en_US.Win32.Release.Error-2.idtx:69
 #: en_US.x64.Debug.Error-2.idtx:69 en_US.x64.Release.Error-2.idtx:69
 msgid ""
@@ -1192,6 +1520,7 @@ msgstr ""
 "Controleer of u voldoende toegangsrechten hebt voor deze sleutel, of neem "
 "contact op met het ondersteuningspersoneel. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:70 en_US.ARM64.Release.Error-2.idtx:70
 #: en_US.Win32.Debug.Error-2.idtx:70 en_US.Win32.Release.Error-2.idtx:70
 #: en_US.x64.Debug.Error-2.idtx:70 en_US.x64.Release.Error-2.idtx:70
 msgid ""
@@ -1202,6 +1531,7 @@ msgstr ""
 "voldoende toegangsrechten hebt voor deze sleutel, of neem contact op met het"
 " ondersteuningspersoneel. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:71 en_US.ARM64.Release.Error-2.idtx:71
 #: en_US.Win32.Debug.Error-2.idtx:71 en_US.Win32.Release.Error-2.idtx:71
 #: en_US.x64.Debug.Error-2.idtx:71 en_US.x64.Release.Error-2.idtx:71
 msgid ""
@@ -1212,6 +1542,7 @@ msgstr ""
 "of u voldoende toegangsrechten hebt voor deze sleutel, of neem contact op "
 "met het ondersteuningspersoneel. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:72 en_US.ARM64.Release.Error-2.idtx:72
 #: en_US.Win32.Debug.Error-2.idtx:72 en_US.Win32.Release.Error-2.idtx:72
 #: en_US.x64.Debug.Error-2.idtx:72 en_US.x64.Release.Error-2.idtx:72
 msgid ""
@@ -1222,6 +1553,7 @@ msgstr ""
 "Controleer of u voldoende toegangsrechten hebt voor deze sleutel, of neem "
 "contact op met het ondersteuningspersoneel."
 
+#: en_US.ARM64.Debug.Error-2.idtx:73 en_US.ARM64.Release.Error-2.idtx:73
 #: en_US.Win32.Debug.Error-2.idtx:73 en_US.Win32.Release.Error-2.idtx:73
 #: en_US.x64.Debug.Error-2.idtx:73 en_US.x64.Release.Error-2.idtx:73
 msgid ""
@@ -1232,6 +1564,7 @@ msgstr ""
 "Controleer of u voldoende toegangsrechten hebt voor deze sleutel, of neem "
 "contact op met het ondersteuningspersoneel."
 
+#: en_US.ARM64.Debug.Error-2.idtx:74 en_US.ARM64.Release.Error-2.idtx:74
 #: en_US.Win32.Debug.Error-2.idtx:74 en_US.Win32.Release.Error-2.idtx:74
 #: en_US.x64.Debug.Error-2.idtx:74 en_US.x64.Release.Error-2.idtx:74
 msgid ""
@@ -1242,6 +1575,7 @@ msgstr ""
 "Controleer of u voldoende toegangsrechten hebt voor deze sleutel, of neem "
 "contact op met het ondersteuningspersoneel."
 
+#: en_US.ARM64.Debug.Error-2.idtx:75 en_US.ARM64.Release.Error-2.idtx:75
 #: en_US.Win32.Debug.Error-2.idtx:75 en_US.Win32.Release.Error-2.idtx:75
 #: en_US.x64.Debug.Error-2.idtx:75 en_US.x64.Release.Error-2.idtx:75
 msgid ""
@@ -1253,6 +1587,7 @@ msgstr ""
 "Controleer of u voldoende toegangsrechten hebt voor deze sleutel, of neem "
 "contact op met het ondersteuningspersoneel."
 
+#: en_US.ARM64.Debug.Error-2.idtx:76 en_US.ARM64.Release.Error-2.idtx:76
 #: en_US.Win32.Debug.Error-2.idtx:76 en_US.Win32.Release.Error-2.idtx:76
 #: en_US.x64.Debug.Error-2.idtx:76 en_US.x64.Release.Error-2.idtx:76
 msgid ""
@@ -1262,6 +1597,7 @@ msgstr ""
 "Kan de beschikbare register-ruimte niet vergroten. Voor de installatie van "
 "deze toepassing is [2] kB aan vrije ruimte voor het register nodig."
 
+#: en_US.ARM64.Debug.Error-2.idtx:77 en_US.ARM64.Release.Error-2.idtx:77
 #: en_US.Win32.Debug.Error-2.idtx:77 en_US.Win32.Release.Error-2.idtx:77
 #: en_US.x64.Debug.Error-2.idtx:77 en_US.x64.Release.Error-2.idtx:77
 msgid ""
@@ -1271,6 +1607,7 @@ msgstr ""
 "Er wordt al een andere installatie uitgevoerd. U moet deze installatie "
 "voltooien als u door wilt gaan."
 
+#: en_US.ARM64.Debug.Error-2.idtx:78 en_US.ARM64.Release.Error-2.idtx:78
 #: en_US.Win32.Debug.Error-2.idtx:78 en_US.Win32.Release.Error-2.idtx:78
 #: en_US.x64.Debug.Error-2.idtx:78 en_US.x64.Release.Error-2.idtx:78
 msgid ""
@@ -1281,6 +1618,7 @@ msgstr ""
 "of Windows Installer juist is geconfigureerd en probeer de installatie "
 "nogmaals uit te voeren."
 
+#: en_US.ARM64.Debug.Error-2.idtx:79 en_US.ARM64.Release.Error-2.idtx:79
 #: en_US.Win32.Debug.Error-2.idtx:79 en_US.Win32.Release.Error-2.idtx:79
 #: en_US.x64.Debug.Error-2.idtx:79 en_US.x64.Release.Error-2.idtx:79
 msgid ""
@@ -1292,6 +1630,7 @@ msgstr ""
 "gebruiker moet de installatie opnieuw uitvoeren voordat het product kan "
 "worden gebruikt. De huidige installatie wordt nu voortgezet."
 
+#: en_US.ARM64.Debug.Error-2.idtx:80 en_US.ARM64.Release.Error-2.idtx:80
 #: en_US.Win32.Debug.Error-2.idtx:80 en_US.Win32.Release.Error-2.idtx:80
 #: en_US.x64.Debug.Error-2.idtx:80 en_US.x64.Release.Error-2.idtx:80
 msgid ""
@@ -1302,6 +1641,7 @@ msgstr ""
 "gebruiker moet de installatie opnieuw uitvoeren voordat het product kan "
 "worden gebruikt."
 
+#: en_US.ARM64.Debug.Error-2.idtx:81 en_US.ARM64.Release.Error-2.idtx:81
 #: en_US.Win32.Debug.Error-2.idtx:81 en_US.Win32.Release.Error-2.idtx:81
 #: en_US.x64.Debug.Error-2.idtx:81 en_US.x64.Release.Error-2.idtx:81
 msgid ""
@@ -1312,11 +1652,13 @@ msgstr ""
 "beschikbare schijfruimte: [4] kB. Maak schijfruimte vrij en probeer het "
 "opnieuw."
 
+#: en_US.ARM64.Debug.Error-2.idtx:82 en_US.ARM64.Release.Error-2.idtx:82
 #: en_US.Win32.Debug.Error-2.idtx:82 en_US.Win32.Release.Error-2.idtx:82
 #: en_US.x64.Debug.Error-2.idtx:82 en_US.x64.Release.Error-2.idtx:82
 msgid "Are you sure you want to cancel?"
 msgstr "Weet u zeker dat u de installatie wilt annuleren?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:83 en_US.ARM64.Release.Error-2.idtx:83
 #: en_US.Win32.Debug.Error-2.idtx:83 en_US.Win32.Release.Error-2.idtx:83
 #: en_US.x64.Debug.Error-2.idtx:83 en_US.x64.Release.Error-2.idtx:83
 msgid ""
@@ -1326,6 +1668,7 @@ msgstr ""
 "Het bestand [2][3] wordt gebruikt{ door het volgende proces: naam: [4], id: "
 "[5], venstertitel: [6]}. Sluit de toepassing en probeer het opnieuw."
 
+#: en_US.ARM64.Debug.Error-2.idtx:84 en_US.ARM64.Release.Error-2.idtx:84
 #: en_US.Win32.Debug.Error-2.idtx:84 en_US.Win32.Release.Error-2.idtx:84
 #: en_US.x64.Debug.Error-2.idtx:84 en_US.x64.Release.Error-2.idtx:84
 msgid ""
@@ -1335,6 +1678,7 @@ msgstr ""
 "Het product [2] is al geïnstalleerd. Hierdoor kan dit product niet worden "
 "geïnstalleerd. De twee producten zijn niet compatibel."
 
+#: en_US.ARM64.Debug.Error-2.idtx:85 en_US.ARM64.Release.Error-2.idtx:85
 #: en_US.Win32.Debug.Error-2.idtx:85 en_US.Win32.Release.Error-2.idtx:85
 #: en_US.x64.Debug.Error-2.idtx:85 en_US.x64.Release.Error-2.idtx:85
 msgid ""
@@ -1351,11 +1695,13 @@ msgstr ""
 "opgeslagen. Klik op Opnieuw als u nogmaals de beschikbare schijfruimte wilt "
 "controleren, of klik op Annuleren als u de installatie wilt afbreken."
 
+#: en_US.ARM64.Debug.Error-2.idtx:86 en_US.ARM64.Release.Error-2.idtx:86
 #: en_US.Win32.Debug.Error-2.idtx:86 en_US.Win32.Release.Error-2.idtx:86
 #: en_US.x64.Debug.Error-2.idtx:86 en_US.x64.Release.Error-2.idtx:86
 msgid "Could not access network location [2]."
 msgstr "Kan geen toegang krijgen tot de netwerklocatie [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:87 en_US.ARM64.Release.Error-2.idtx:87
 #: en_US.Win32.Debug.Error-2.idtx:87 en_US.Win32.Release.Error-2.idtx:87
 #: en_US.x64.Debug.Error-2.idtx:87 en_US.x64.Release.Error-2.idtx:87
 msgid ""
@@ -1363,6 +1709,7 @@ msgid ""
 msgstr ""
 "Sluit de volgende toepassingen als u door wilt gaan met de installatie:"
 
+#: en_US.ARM64.Debug.Error-2.idtx:88 en_US.ARM64.Release.Error-2.idtx:88
 #: en_US.Win32.Debug.Error-2.idtx:88 en_US.Win32.Release.Error-2.idtx:88
 #: en_US.x64.Debug.Error-2.idtx:88 en_US.x64.Release.Error-2.idtx:88
 msgid ""
@@ -1372,6 +1719,7 @@ msgstr ""
 "Kan geen eerder geïnstalleerde compatibele producten op de computer vinden "
 "om dit product te installeren."
 
+#: en_US.ARM64.Debug.Error-2.idtx:89 en_US.ARM64.Release.Error-2.idtx:89
 #: en_US.Win32.Debug.Error-2.idtx:89 en_US.Win32.Release.Error-2.idtx:89
 #: en_US.x64.Debug.Error-2.idtx:89 en_US.x64.Release.Error-2.idtx:89
 msgid ""
@@ -1388,6 +1736,7 @@ msgstr ""
 "Opnieuw, of klik op Annuleren om de installatie te beëindigen. {{Kan de SID "
 "van de gebruiker niet vinden, systeemfout [3]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:90 en_US.ARM64.Release.Error-2.idtx:90
 #: en_US.Win32.Debug.Error-2.idtx:90 en_US.Win32.Release.Error-2.idtx:90
 #: en_US.x64.Debug.Error-2.idtx:90 en_US.x64.Release.Error-2.idtx:90
 msgid ""
@@ -1400,6 +1749,7 @@ msgstr ""
 "doorgaan, dient u de computer opnieuw op te starten om de installatie te "
 "voltooien."
 
+#: en_US.ARM64.Debug.Error-2.idtx:91 en_US.ARM64.Release.Error-2.idtx:91
 #: en_US.Win32.Debug.Error-2.idtx:91 en_US.Win32.Release.Error-2.idtx:91
 #: en_US.x64.Debug.Error-2.idtx:91 en_US.x64.Release.Error-2.idtx:91
 msgid ""
@@ -1411,6 +1761,7 @@ msgstr ""
 "gebruikmaken van bestanden die moeten worden bijgewerkt. Als u doorgaat, "
 "moet u opnieuw opstarten om de installatie te voltooien."
 
+#: en_US.ARM64.Debug.Error-2.idtx:92 en_US.ARM64.Release.Error-2.idtx:92
 #: en_US.Win32.Debug.Error-2.idtx:92 en_US.Win32.Release.Error-2.idtx:92
 #: en_US.x64.Debug.Error-2.idtx:92 en_US.x64.Release.Error-2.idtx:92
 msgid ""
@@ -1418,6 +1769,7 @@ msgid ""
 "application vendor."
 msgstr ""
 
+#: en_US.ARM64.Debug.Error-2.idtx:93 en_US.ARM64.Release.Error-2.idtx:93
 #: en_US.Win32.Debug.Error-2.idtx:93 en_US.Win32.Release.Error-2.idtx:93
 #: en_US.x64.Debug.Error-2.idtx:93 en_US.x64.Release.Error-2.idtx:93
 msgid "The key [2] is not valid.  Verify that you entered the correct key."
@@ -1425,6 +1777,7 @@ msgstr ""
 "De sleutel [2] is ongeldig. Controleer of u de juiste sleutel hebt "
 "opgegeven."
 
+#: en_US.ARM64.Debug.Error-2.idtx:94 en_US.ARM64.Release.Error-2.idtx:94
 #: en_US.Win32.Debug.Error-2.idtx:94 en_US.Win32.Release.Error-2.idtx:94
 #: en_US.x64.Debug.Error-2.idtx:94 en_US.x64.Release.Error-2.idtx:94
 msgid ""
@@ -1437,6 +1790,7 @@ msgstr ""
 "opnieuw wilt opstarten of op Nee als u de computer later handmatig opnieuw "
 "wilt opstarten."
 
+#: en_US.ARM64.Debug.Error-2.idtx:95 en_US.ARM64.Release.Error-2.idtx:95
 #: en_US.Win32.Debug.Error-2.idtx:95 en_US.Win32.Release.Error-2.idtx:95
 #: en_US.x64.Debug.Error-2.idtx:95 en_US.x64.Release.Error-2.idtx:95
 msgid ""
@@ -1449,6 +1803,7 @@ msgstr ""
 "opstarten of op Nee als u de computer later handmatig opnieuw wilt "
 "opstarten."
 
+#: en_US.ARM64.Debug.Error-2.idtx:96 en_US.ARM64.Release.Error-2.idtx:96
 #: en_US.Win32.Debug.Error-2.idtx:96 en_US.Win32.Release.Error-2.idtx:96
 #: en_US.x64.Debug.Error-2.idtx:96 en_US.x64.Release.Error-2.idtx:96
 msgid ""
@@ -1459,6 +1814,7 @@ msgstr ""
 "u de wijzigingen die door de installatie zijn aangebracht, ongedaan maken. "
 "Wilt u de wijzigingen ongedaan maken?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:97 en_US.ARM64.Release.Error-2.idtx:97
 #: en_US.Win32.Debug.Error-2.idtx:97 en_US.Win32.Release.Error-2.idtx:97
 #: en_US.x64.Debug.Error-2.idtx:97 en_US.x64.Release.Error-2.idtx:97
 msgid ""
@@ -1470,6 +1826,7 @@ msgstr ""
 "wilt gaan, moet u de wijzigingen die door de installatie zijn aangebracht, "
 "ongedaan maken. Wilt u de wijzigingen ongedaan maken?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:98 en_US.ARM64.Release.Error-2.idtx:98
 #: en_US.Win32.Debug.Error-2.idtx:98 en_US.Win32.Release.Error-2.idtx:98
 #: en_US.x64.Debug.Error-2.idtx:98 en_US.x64.Release.Error-2.idtx:98
 msgid ""
@@ -1479,21 +1836,25 @@ msgstr ""
 "Kan geen installatiepakket vinden voor product [2]. Voer de installatie "
 "opnieuw uit met een geldig exemplaar van het installatiepakket [3]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:99 en_US.ARM64.Release.Error-2.idtx:99
 #: en_US.Win32.Debug.Error-2.idtx:99 en_US.Win32.Release.Error-2.idtx:99
 #: en_US.x64.Debug.Error-2.idtx:99 en_US.x64.Release.Error-2.idtx:99
 msgid "Installation completed successfully."
 msgstr "De installatie is voltooid."
 
+#: en_US.ARM64.Debug.Error-2.idtx:100 en_US.ARM64.Release.Error-2.idtx:100
 #: en_US.Win32.Debug.Error-2.idtx:100 en_US.Win32.Release.Error-2.idtx:100
 #: en_US.x64.Debug.Error-2.idtx:100 en_US.x64.Release.Error-2.idtx:100
 msgid "Installation failed."
 msgstr "De installatie is mislukt."
 
+#: en_US.ARM64.Debug.Error-2.idtx:101 en_US.ARM64.Release.Error-2.idtx:101
 #: en_US.Win32.Debug.Error-2.idtx:101 en_US.Win32.Release.Error-2.idtx:101
 #: en_US.x64.Debug.Error-2.idtx:101 en_US.x64.Release.Error-2.idtx:101
 msgid "Product: [2] -- [3]"
 msgstr "Product: [2] -- [3]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:102 en_US.ARM64.Release.Error-2.idtx:102
 #: en_US.Win32.Debug.Error-2.idtx:102 en_US.Win32.Release.Error-2.idtx:102
 #: en_US.x64.Debug.Error-2.idtx:102 en_US.x64.Release.Error-2.idtx:102
 msgid ""
@@ -1503,6 +1864,7 @@ msgstr ""
 "U kunt de computer terugbrengen in de oorspronkelijke staat of de "
 "installatie later voorzetten. Wilt u de configuratie herstellen?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:103 en_US.ARM64.Release.Error-2.idtx:103
 #: en_US.Win32.Debug.Error-2.idtx:103 en_US.Win32.Release.Error-2.idtx:103
 #: en_US.x64.Debug.Error-2.idtx:103 en_US.x64.Release.Error-2.idtx:103
 msgid ""
@@ -1514,6 +1876,7 @@ msgstr ""
 "vaste schijf. Controleer of er voldoende beschikbare schijfruimte is en klik"
 " op Nogmaals, of klik op Annuleren om de installatie te beëindigen."
 
+#: en_US.ARM64.Debug.Error-2.idtx:104 en_US.ARM64.Release.Error-2.idtx:104
 #: en_US.Win32.Debug.Error-2.idtx:104 en_US.Win32.Release.Error-2.idtx:104
 #: en_US.x64.Debug.Error-2.idtx:104 en_US.x64.Release.Error-2.idtx:104
 msgid ""
@@ -1523,6 +1886,7 @@ msgstr ""
 "Kan een of meer bestanden die nodig zijn om de oorspronkelijke staat van de "
 "computer te herstellen niet vinden. Herstellen is niet mogelijk."
 
+#: en_US.ARM64.Debug.Error-2.idtx:105 en_US.ARM64.Release.Error-2.idtx:105
 #: en_US.Win32.Debug.Error-2.idtx:105 en_US.Win32.Release.Error-2.idtx:105
 #: en_US.x64.Debug.Error-2.idtx:105 en_US.x64.Release.Error-2.idtx:105
 msgid ""
@@ -1532,6 +1896,7 @@ msgstr ""
 "[2] kan een van de benodigde producten niet installeren. Neem contact op met"
 " de systeembeheerder. {{Systeemfout: [3].}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:106 en_US.ARM64.Release.Error-2.idtx:106
 #: en_US.Win32.Debug.Error-2.idtx:106 en_US.Win32.Release.Error-2.idtx:106
 #: en_US.x64.Debug.Error-2.idtx:106 en_US.x64.Release.Error-2.idtx:106
 msgid ""
@@ -1541,27 +1906,32 @@ msgstr ""
 "Kan de oudere versie van [2] niet verwijderen. Neem contact op met de "
 "systeembeheerder. {{Systeemfout [3].}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:107 en_US.ARM64.Release.Error-2.idtx:107
 #: en_US.Win32.Debug.Error-2.idtx:107 en_US.Win32.Release.Error-2.idtx:107
 #: en_US.x64.Debug.Error-2.idtx:107 en_US.x64.Release.Error-2.idtx:107
 msgid "Installed [2]"
 msgstr "Geïnstalleerd: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:108 en_US.ARM64.Release.Error-2.idtx:108
 #: en_US.Win32.Debug.Error-2.idtx:108 en_US.Win32.Release.Error-2.idtx:108
 #: en_US.x64.Debug.Error-2.idtx:108 en_US.x64.Release.Error-2.idtx:108
 msgid "Configured [2]"
 msgstr "Geconfigureerd: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:109 en_US.ARM64.Release.Error-2.idtx:109
 #: en_US.Win32.Debug.Error-2.idtx:109 en_US.Win32.Release.Error-2.idtx:109
 #: en_US.x64.Debug.Error-2.idtx:109 en_US.x64.Release.Error-2.idtx:109
 msgid "Removed [2]"
 msgstr "Verwijderd: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:110 en_US.ARM64.Release.Error-2.idtx:110
 #: en_US.Win32.Debug.Error-2.idtx:110 en_US.Win32.Release.Error-2.idtx:110
 #: en_US.x64.Debug.Error-2.idtx:110 en_US.x64.Release.Error-2.idtx:110
 msgid "File [2] was rejected by digital signature policy."
 msgstr ""
 "Het bestand [2] is geweigerd door het beleid voor digitale ondertekening."
 
+#: en_US.ARM64.Debug.Error-2.idtx:111 en_US.ARM64.Release.Error-2.idtx:111
 #: en_US.Win32.Debug.Error-2.idtx:111 en_US.Win32.Release.Error-2.idtx:111
 #: en_US.x64.Debug.Error-2.idtx:111 en_US.x64.Release.Error-2.idtx:111
 msgid ""
@@ -1574,6 +1944,7 @@ msgstr ""
 "Installer niet juist is geïnstalleerd. Neem contact op met het "
 "ondersteuningspersoneel voor assistentie."
 
+#: en_US.ARM64.Debug.Error-2.idtx:112 en_US.ARM64.Release.Error-2.idtx:112
 #: en_US.Win32.Debug.Error-2.idtx:112 en_US.Win32.Release.Error-2.idtx:112
 #: en_US.x64.Debug.Error-2.idtx:112 en_US.x64.Release.Error-2.idtx:112
 msgid ""
@@ -1587,6 +1958,7 @@ msgstr ""
 "Neem contact op met systeemondersteuning of de leverancier van het pakket. "
 "{{aangepaste actie [2] scriptfout [3], [4]: [5] regel [6], kolom [7], [8] }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:113 en_US.ARM64.Release.Error-2.idtx:113
 #: en_US.Win32.Debug.Error-2.idtx:113 en_US.Win32.Release.Error-2.idtx:113
 #: en_US.x64.Debug.Error-2.idtx:113 en_US.x64.Release.Error-2.idtx:113
 msgid ""
@@ -1599,6 +1971,7 @@ msgstr ""
 "Neem contact op met systeemondersteuning of de leverancier van het pakket. "
 "{{actie: [2], locatie: [3], opdracht: [4] }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:114 en_US.ARM64.Release.Error-2.idtx:114
 #: en_US.Win32.Debug.Error-2.idtx:114 en_US.Win32.Release.Error-2.idtx:114
 #: en_US.x64.Debug.Error-2.idtx:114 en_US.x64.Release.Error-2.idtx:114
 msgid ""
@@ -1611,6 +1984,7 @@ msgstr ""
 "contact op met systeemondersteuning of de leverancier van het pakket. "
 "{{actie: [2], locatie: [3], opdracht: [4] }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:115 en_US.ARM64.Release.Error-2.idtx:115
 #: en_US.Win32.Debug.Error-2.idtx:115 en_US.Win32.Release.Error-2.idtx:115
 #: en_US.x64.Debug.Error-2.idtx:115 en_US.x64.Release.Error-2.idtx:115
 msgid ""
@@ -1623,36 +1997,43 @@ msgstr ""
 "Neem contact op met systeemondersteuning of de leverancier van het pakket. "
 "{{actie: [2], vermelding: [3], bibliotheek: [4] }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:116 en_US.ARM64.Release.Error-2.idtx:116
 #: en_US.Win32.Debug.Error-2.idtx:116 en_US.Win32.Release.Error-2.idtx:116
 #: en_US.x64.Debug.Error-2.idtx:116 en_US.x64.Release.Error-2.idtx:116
 msgid "Removal completed successfully."
 msgstr "Het verwijderen is voltooid."
 
+#: en_US.ARM64.Debug.Error-2.idtx:117 en_US.ARM64.Release.Error-2.idtx:117
 #: en_US.Win32.Debug.Error-2.idtx:117 en_US.Win32.Release.Error-2.idtx:117
 #: en_US.x64.Debug.Error-2.idtx:117 en_US.x64.Release.Error-2.idtx:117
 msgid "Removal failed."
 msgstr "Het verwijderen is mislukt."
 
+#: en_US.ARM64.Debug.Error-2.idtx:118 en_US.ARM64.Release.Error-2.idtx:118
 #: en_US.Win32.Debug.Error-2.idtx:118 en_US.Win32.Release.Error-2.idtx:118
 #: en_US.x64.Debug.Error-2.idtx:118 en_US.x64.Release.Error-2.idtx:118
 msgid "Advertisement completed successfully."
 msgstr "De advertisement is voltooid."
 
+#: en_US.ARM64.Debug.Error-2.idtx:119 en_US.ARM64.Release.Error-2.idtx:119
 #: en_US.Win32.Debug.Error-2.idtx:119 en_US.Win32.Release.Error-2.idtx:119
 #: en_US.x64.Debug.Error-2.idtx:119 en_US.x64.Release.Error-2.idtx:119
 msgid "Advertisement failed."
 msgstr "De advertisement is mislukt."
 
+#: en_US.ARM64.Debug.Error-2.idtx:120 en_US.ARM64.Release.Error-2.idtx:120
 #: en_US.Win32.Debug.Error-2.idtx:120 en_US.Win32.Release.Error-2.idtx:120
 #: en_US.x64.Debug.Error-2.idtx:120 en_US.x64.Release.Error-2.idtx:120
 msgid "Configuration completed successfully."
 msgstr "De configuratie is voltooid."
 
+#: en_US.ARM64.Debug.Error-2.idtx:121 en_US.ARM64.Release.Error-2.idtx:121
 #: en_US.Win32.Debug.Error-2.idtx:121 en_US.Win32.Release.Error-2.idtx:121
 #: en_US.x64.Debug.Error-2.idtx:121 en_US.x64.Release.Error-2.idtx:121
 msgid "Configuration failed."
 msgstr "De configuratie is mislukt."
 
+#: en_US.ARM64.Debug.Error-2.idtx:122 en_US.ARM64.Release.Error-2.idtx:122
 #: en_US.Win32.Debug.Error-2.idtx:122 en_US.Win32.Release.Error-2.idtx:122
 #: en_US.x64.Debug.Error-2.idtx:122 en_US.x64.Release.Error-2.idtx:122
 msgid ""
@@ -1664,6 +2045,7 @@ msgstr ""
 "wilt verwijderen, dient u zich aan te melden als beheerder of kunt u voor "
 "ondersteuning contact opnemen met technische ondersteuning."
 
+#: en_US.ARM64.Debug.Error-2.idtx:123 en_US.ARM64.Release.Error-2.idtx:123
 #: en_US.Win32.Debug.Error-2.idtx:123 en_US.Win32.Release.Error-2.idtx:123
 #: en_US.x64.Debug.Error-2.idtx:123 en_US.x64.Release.Error-2.idtx:123
 msgid ""
@@ -1675,6 +2057,7 @@ msgstr ""
 "pakket voor clients. Probeer opnieuw te installeren of gebruik een geldig "
 "exemplaar van het installatiepakket [3]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:124 en_US.ARM64.Release.Error-2.idtx:124
 #: en_US.Win32.Debug.Error-2.idtx:124 en_US.Win32.Release.Error-2.idtx:124
 #: en_US.x64.Debug.Error-2.idtx:124 en_US.x64.Release.Error-2.idtx:124
 msgid ""
@@ -1687,6 +2070,7 @@ msgstr ""
 "opstarten kan tot gevolg hebben dat deze gebruikers gegevens verliezen. Wilt"
 " u de computer nu opnieuw opstarten?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:125 en_US.ARM64.Release.Error-2.idtx:125
 #: en_US.Win32.Debug.Error-2.idtx:125 en_US.Win32.Release.Error-2.idtx:125
 #: en_US.x64.Debug.Error-2.idtx:125 en_US.x64.Release.Error-2.idtx:125
 msgid ""
@@ -1699,11 +2083,13 @@ msgstr ""
 "Systeemherstel als u de computer in een vorige, goede staat wilt "
 "terugzetten."
 
+#: en_US.ARM64.Debug.Error-2.idtx:126 en_US.ARM64.Release.Error-2.idtx:126
 #: en_US.Win32.Debug.Error-2.idtx:126 en_US.Win32.Release.Error-2.idtx:126
 #: en_US.x64.Debug.Error-2.idtx:126 en_US.x64.Release.Error-2.idtx:126
 msgid "The path [2] is not valid.  Please specify a valid path."
 msgstr "Het pad [2] is ongeldig. Geef een geldig pad op."
 
+#: en_US.ARM64.Debug.Error-2.idtx:128 en_US.ARM64.Release.Error-2.idtx:128
 #: en_US.Win32.Debug.Error-2.idtx:128 en_US.Win32.Release.Error-2.idtx:128
 #: en_US.x64.Debug.Error-2.idtx:128 en_US.x64.Release.Error-2.idtx:128
 msgid ""
@@ -1714,6 +2100,7 @@ msgstr ""
 "op Nogmaals. Klik op Annuleren als u terug wilt keren naar het eerder "
 "geselecteerde volume."
 
+#: en_US.ARM64.Debug.Error-2.idtx:129 en_US.ARM64.Release.Error-2.idtx:129
 #: en_US.Win32.Debug.Error-2.idtx:129 en_US.Win32.Release.Error-2.idtx:129
 #: en_US.x64.Debug.Error-2.idtx:129 en_US.x64.Release.Error-2.idtx:129
 msgid ""
@@ -1724,27 +2111,32 @@ msgstr ""
 "op Nogmaals. Klik op Annuleren als u terug wilt keren naar het "
 "dialoogvenster Bladeren en u een ander volume wilt selecteren."
 
+#: en_US.ARM64.Debug.Error-2.idtx:130 en_US.ARM64.Release.Error-2.idtx:130
 #: en_US.Win32.Debug.Error-2.idtx:130 en_US.Win32.Release.Error-2.idtx:130
 #: en_US.x64.Debug.Error-2.idtx:130 en_US.x64.Release.Error-2.idtx:130
 msgid ""
 "The folder [2] does not exist.  Please enter a path to an existing folder."
 msgstr "De map [2] bestaat niet. Geef een pad op naar een bestaande map."
 
+#: en_US.ARM64.Debug.Error-2.idtx:131 en_US.ARM64.Release.Error-2.idtx:131
 #: en_US.Win32.Debug.Error-2.idtx:131 en_US.Win32.Release.Error-2.idtx:131
 #: en_US.x64.Debug.Error-2.idtx:131 en_US.x64.Release.Error-2.idtx:131
 msgid "You have insufficient privileges to read this folder."
 msgstr "U hebt onvoldoende rechten om deze map te kunnen lezen."
 
+#: en_US.ARM64.Debug.Error-2.idtx:132 en_US.ARM64.Release.Error-2.idtx:132
 #: en_US.Win32.Debug.Error-2.idtx:132 en_US.Win32.Release.Error-2.idtx:132
 #: en_US.x64.Debug.Error-2.idtx:132 en_US.x64.Release.Error-2.idtx:132
 msgid "A valid destination folder for the install could not be determined."
 msgstr "Kan geen geldige doelmap bepalen voor de installatie."
 
+#: en_US.ARM64.Debug.Error-2.idtx:133 en_US.ARM64.Release.Error-2.idtx:133
 #: en_US.Win32.Debug.Error-2.idtx:133 en_US.Win32.Release.Error-2.idtx:133
 #: en_US.x64.Debug.Error-2.idtx:133 en_US.x64.Release.Error-2.idtx:133
 msgid "Error attempting to read from the source install database: [2]."
 msgstr "Fout bij het lezen van de broninstallatiedatabase [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:134 en_US.ARM64.Release.Error-2.idtx:134
 #: en_US.Win32.Debug.Error-2.idtx:134 en_US.Win32.Release.Error-2.idtx:134
 #: en_US.x64.Debug.Error-2.idtx:134 en_US.x64.Release.Error-2.idtx:134
 msgid ""
@@ -1755,6 +2147,7 @@ msgstr ""
 "wordt gewijzigd in [3]. De computer moet opnieuw worden opgestart om de "
 "bewerking te voltooien."
 
+#: en_US.ARM64.Debug.Error-2.idtx:135 en_US.ARM64.Release.Error-2.idtx:135
 #: en_US.Win32.Debug.Error-2.idtx:135 en_US.Win32.Release.Error-2.idtx:135
 #: en_US.x64.Debug.Error-2.idtx:135 en_US.x64.Release.Error-2.idtx:135
 msgid ""
@@ -1765,6 +2158,7 @@ msgstr ""
 "verwijderd. De computer moet opnieuw worden opgestart om de bewerking te "
 "voltooien."
 
+#: en_US.ARM64.Debug.Error-2.idtx:136 en_US.ARM64.Release.Error-2.idtx:136
 #: en_US.Win32.Debug.Error-2.idtx:136 en_US.Win32.Release.Error-2.idtx:136
 #: en_US.x64.Debug.Error-2.idtx:136 en_US.x64.Release.Error-2.idtx:136
 msgid ""
@@ -1774,6 +2168,7 @@ msgstr ""
 "Module [2] kan niet registreren. HRESULT [3]. Neem contact op met het "
 "ondersteuningspersoneel."
 
+#: en_US.ARM64.Debug.Error-2.idtx:137 en_US.ARM64.Release.Error-2.idtx:137
 #: en_US.Win32.Debug.Error-2.idtx:137 en_US.Win32.Release.Error-2.idtx:137
 #: en_US.x64.Debug.Error-2.idtx:137 en_US.x64.Release.Error-2.idtx:137
 msgid ""
@@ -1783,6 +2178,7 @@ msgstr ""
 "Module [2] kan de registratie niet ongedaan maken. HRESULT [3]. Neem contact"
 " op met het ondersteuningspersoneel."
 
+#: en_US.ARM64.Debug.Error-2.idtx:138 en_US.ARM64.Release.Error-2.idtx:138
 #: en_US.Win32.Debug.Error-2.idtx:138 en_US.Win32.Release.Error-2.idtx:138
 #: en_US.x64.Debug.Error-2.idtx:138 en_US.x64.Release.Error-2.idtx:138
 msgid ""
@@ -1791,6 +2187,7 @@ msgstr ""
 "Kan pakket [2] niet opslaan in cache. Fout: [3]. Neem contact op met het "
 "ondersteuningspersoneel."
 
+#: en_US.ARM64.Debug.Error-2.idtx:139 en_US.ARM64.Release.Error-2.idtx:139
 #: en_US.Win32.Debug.Error-2.idtx:139 en_US.Win32.Release.Error-2.idtx:139
 #: en_US.x64.Debug.Error-2.idtx:139 en_US.x64.Release.Error-2.idtx:139
 msgid ""
@@ -1801,6 +2198,7 @@ msgstr ""
 "voor het installeren van lettertypen en of dit lettertype door het systeem "
 "wordt ondersteund."
 
+#: en_US.ARM64.Debug.Error-2.idtx:140 en_US.ARM64.Release.Error-2.idtx:140
 #: en_US.Win32.Debug.Error-2.idtx:140 en_US.Win32.Release.Error-2.idtx:140
 #: en_US.x64.Debug.Error-2.idtx:140 en_US.x64.Release.Error-2.idtx:140
 msgid ""
@@ -1810,6 +2208,7 @@ msgstr ""
 "Kan de registratie van lettertype [2] niet ongedaan maken. Controleer of u "
 "voldoende rechten hebt voor het verwijderen van lettertypen."
 
+#: en_US.ARM64.Debug.Error-2.idtx:141 en_US.ARM64.Release.Error-2.idtx:141
 #: en_US.Win32.Debug.Error-2.idtx:141 en_US.Win32.Release.Error-2.idtx:141
 #: en_US.x64.Debug.Error-2.idtx:141 en_US.x64.Release.Error-2.idtx:141
 msgid ""
@@ -1819,6 +2218,7 @@ msgstr ""
 "Kan de snelkoppeling [2] niet maken. Controleer of de doelmap bestaat en of "
 "u toegang tot deze map hebt."
 
+#: en_US.ARM64.Debug.Error-2.idtx:142 en_US.ARM64.Release.Error-2.idtx:142
 #: en_US.Win32.Debug.Error-2.idtx:142 en_US.Win32.Release.Error-2.idtx:142
 #: en_US.x64.Debug.Error-2.idtx:142 en_US.x64.Release.Error-2.idtx:142
 msgid ""
@@ -1828,6 +2228,7 @@ msgstr ""
 "Kan de snelkoppeling [2] niet verwijderen. Controleer of het "
 "snelkoppelingsbestand bestaat en of u toegang tot dit bestand hebt."
 
+#: en_US.ARM64.Debug.Error-2.idtx:143 en_US.ARM64.Release.Error-2.idtx:143
 #: en_US.Win32.Debug.Error-2.idtx:143 en_US.Win32.Release.Error-2.idtx:143
 #: en_US.x64.Debug.Error-2.idtx:143 en_US.x64.Release.Error-2.idtx:143
 msgid ""
@@ -1837,6 +2238,7 @@ msgstr ""
 "Kan geen typebibliotheek registreren voor bestand [2]. Neem contact op met "
 "het ondersteuningspersoneel.)"
 
+#: en_US.ARM64.Debug.Error-2.idtx:144 en_US.ARM64.Release.Error-2.idtx:144
 #: en_US.Win32.Debug.Error-2.idtx:144 en_US.Win32.Release.Error-2.idtx:144
 #: en_US.x64.Debug.Error-2.idtx:144 en_US.x64.Release.Error-2.idtx:144
 msgid ""
@@ -1846,6 +2248,7 @@ msgstr ""
 "Kan de registratie van de typebibliotheek voor bestand [2] niet ongedaan "
 "maken. Neem contact op met het ondersteuningspersoneel."
 
+#: en_US.ARM64.Debug.Error-2.idtx:145 en_US.ARM64.Release.Error-2.idtx:145
 #: en_US.Win32.Debug.Error-2.idtx:145 en_US.Win32.Release.Error-2.idtx:145
 #: en_US.x64.Debug.Error-2.idtx:145 en_US.x64.Release.Error-2.idtx:145
 msgid ""
@@ -1855,6 +2258,7 @@ msgstr ""
 "Kan het INI-bestand [2][3] niet bijwerken. Controleer of het bestand bestaat"
 " en of u toegang tot dit bestand hebt."
 
+#: en_US.ARM64.Debug.Error-2.idtx:146 en_US.ARM64.Release.Error-2.idtx:146
 #: en_US.Win32.Debug.Error-2.idtx:146 en_US.Win32.Release.Error-2.idtx:146
 #: en_US.x64.Debug.Error-2.idtx:146 en_US.x64.Release.Error-2.idtx:146
 msgid ""
@@ -1864,6 +2268,7 @@ msgstr ""
 "Kan het vervangen van bestand [3] door bestand [2] tijdens het opstarten "
 "niet plannen. Controleer of u schrijfmachtigingen hebt voor bestand [3]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:147 en_US.ARM64.Release.Error-2.idtx:147
 #: en_US.Win32.Debug.Error-2.idtx:147 en_US.Win32.Release.Error-2.idtx:147
 #: en_US.x64.Debug.Error-2.idtx:147 en_US.x64.Release.Error-2.idtx:147
 msgid ""
@@ -1873,6 +2278,7 @@ msgstr ""
 "Fout bij het verwijderen van het beheerprogramma voor ODBC-stuurprogramma's,"
 " ODBC-fout [2]: [3]. Neem contact op met het ondersteuningspersoneel."
 
+#: en_US.ARM64.Debug.Error-2.idtx:148 en_US.ARM64.Release.Error-2.idtx:148
 #: en_US.Win32.Debug.Error-2.idtx:148 en_US.Win32.Release.Error-2.idtx:148
 #: en_US.x64.Debug.Error-2.idtx:148 en_US.x64.Release.Error-2.idtx:148
 msgid ""
@@ -1882,6 +2288,7 @@ msgstr ""
 "Fout bij het installeren van het beheerprogramma voor ODBC-stuurprogramma's,"
 " ODBC-fout [2]: [3]. Neem contact op met het ondersteuningspersoneel."
 
+#: en_US.ARM64.Debug.Error-2.idtx:149 en_US.ARM64.Release.Error-2.idtx:149
 #: en_US.Win32.Debug.Error-2.idtx:149 en_US.Win32.Release.Error-2.idtx:149
 #: en_US.x64.Debug.Error-2.idtx:149 en_US.x64.Release.Error-2.idtx:149
 msgid ""
@@ -1892,6 +2299,7 @@ msgstr ""
 "Controleer of u voldoende rechten hebt om ODBC-stuurprogramma's te "
 "verwijderen."
 
+#: en_US.ARM64.Debug.Error-2.idtx:150 en_US.ARM64.Release.Error-2.idtx:150
 #: en_US.Win32.Debug.Error-2.idtx:150 en_US.Win32.Release.Error-2.idtx:150
 #: en_US.x64.Debug.Error-2.idtx:150 en_US.x64.Release.Error-2.idtx:150
 msgid ""
@@ -1901,6 +2309,7 @@ msgstr ""
 "Fout bij het installeren van ODBC-stuurprogramma [4], ODBC-fout [2]: [3]. "
 "Controleer of het bestand [4] bestaat en of u toegang tot dit bestand hebt."
 
+#: en_US.ARM64.Debug.Error-2.idtx:151 en_US.ARM64.Release.Error-2.idtx:151
 #: en_US.Win32.Debug.Error-2.idtx:151 en_US.Win32.Release.Error-2.idtx:151
 #: en_US.x64.Debug.Error-2.idtx:151 en_US.x64.Release.Error-2.idtx:151
 msgid ""
@@ -1910,6 +2319,7 @@ msgstr ""
 "Fout bij het configureren van ODBC-gegevensbron [4], ODBC-fout [2]: [3]. "
 "Controleer of het bestand [4] bestaat en of u toegang tot dit bestand hebt."
 
+#: en_US.ARM64.Debug.Error-2.idtx:152 en_US.ARM64.Release.Error-2.idtx:152
 #: en_US.Win32.Debug.Error-2.idtx:152 en_US.Win32.Release.Error-2.idtx:152
 #: en_US.x64.Debug.Error-2.idtx:152 en_US.x64.Release.Error-2.idtx:152
 msgid ""
@@ -1919,6 +2329,7 @@ msgstr ""
 "Kan service [2] ([3]) niet starten. Controleer of u voldoende rechten hebt "
 "om systeemservices te starten."
 
+#: en_US.ARM64.Debug.Error-2.idtx:153 en_US.ARM64.Release.Error-2.idtx:153
 #: en_US.Win32.Debug.Error-2.idtx:153 en_US.Win32.Release.Error-2.idtx:153
 #: en_US.x64.Debug.Error-2.idtx:153 en_US.x64.Release.Error-2.idtx:153
 msgid ""
@@ -1928,6 +2339,7 @@ msgstr ""
 "Kan service [2] ([3]) niet stoppen. Controleer of u voldoende rechten hebt "
 "om systeemservices te stoppen."
 
+#: en_US.ARM64.Debug.Error-2.idtx:154 en_US.ARM64.Release.Error-2.idtx:154
 #: en_US.Win32.Debug.Error-2.idtx:154 en_US.Win32.Release.Error-2.idtx:154
 #: en_US.x64.Debug.Error-2.idtx:154 en_US.x64.Release.Error-2.idtx:154
 msgid ""
@@ -1937,6 +2349,7 @@ msgstr ""
 "Kan service [2] ([3]) niet verwijderen. Controleer of u voldoende rechten "
 "hebt om systeemservices te verwijderen."
 
+#: en_US.ARM64.Debug.Error-2.idtx:155 en_US.ARM64.Release.Error-2.idtx:155
 #: en_US.Win32.Debug.Error-2.idtx:155 en_US.Win32.Release.Error-2.idtx:155
 #: en_US.x64.Debug.Error-2.idtx:155 en_US.x64.Release.Error-2.idtx:155
 msgid ""
@@ -1946,6 +2359,7 @@ msgstr ""
 "Kan service [2] ([3]) niet installeren. Controleer of u voldoende rechten "
 "hebt om systeemservices te installeren."
 
+#: en_US.ARM64.Debug.Error-2.idtx:156 en_US.ARM64.Release.Error-2.idtx:156
 #: en_US.Win32.Debug.Error-2.idtx:156 en_US.Win32.Release.Error-2.idtx:156
 #: en_US.x64.Debug.Error-2.idtx:156 en_US.x64.Release.Error-2.idtx:156
 msgid ""
@@ -1955,6 +2369,7 @@ msgstr ""
 "Kan omgevingsvariabele [2] niet bijwerken. Controleer of u voldoende rechten"
 " hebt om omgevingsvariabelen te wijzigen."
 
+#: en_US.ARM64.Debug.Error-2.idtx:157 en_US.ARM64.Release.Error-2.idtx:157
 #: en_US.Win32.Debug.Error-2.idtx:157 en_US.Win32.Release.Error-2.idtx:157
 #: en_US.x64.Debug.Error-2.idtx:157 en_US.x64.Release.Error-2.idtx:157
 msgid ""
@@ -1966,6 +2381,7 @@ msgstr ""
 "gebruikers van de computer. Meld u aan als systeembeheerder en voer de "
 "installatie opnieuw uit."
 
+#: en_US.ARM64.Debug.Error-2.idtx:158 en_US.ARM64.Release.Error-2.idtx:158
 #: en_US.Win32.Debug.Error-2.idtx:158 en_US.Win32.Release.Error-2.idtx:158
 #: en_US.x64.Debug.Error-2.idtx:158 en_US.x64.Release.Error-2.idtx:158
 msgid ""
@@ -1976,6 +2392,7 @@ msgstr ""
 "Controleer of u voldoende rechten hebt om de beveiligingsmachtigingen voor "
 "dit bestand te wijzigen."
 
+#: en_US.ARM64.Debug.Error-2.idtx:159 en_US.ARM64.Release.Error-2.idtx:159
 #: en_US.Win32.Debug.Error-2.idtx:159 en_US.Win32.Release.Error-2.idtx:159
 #: en_US.x64.Debug.Error-2.idtx:159 en_US.x64.Release.Error-2.idtx:159
 msgid ""
@@ -1987,6 +2404,7 @@ msgstr ""
 "Component Services is nodig om deze installatie te kunnen voltooien. "
 "Component Services is beschikbaar in Windows 2000."
 
+#: en_US.ARM64.Debug.Error-2.idtx:160 en_US.ARM64.Release.Error-2.idtx:160
 #: en_US.Win32.Debug.Error-2.idtx:160 en_US.Win32.Release.Error-2.idtx:160
 #: en_US.x64.Debug.Error-2.idtx:160 en_US.x64.Release.Error-2.idtx:160
 msgid ""
@@ -1996,6 +2414,7 @@ msgstr ""
 "Fout bij het registreren van de COM+-toepassing. Neem voor meer informatie "
 "contact op met de systeembeheerder."
 
+#: en_US.ARM64.Debug.Error-2.idtx:161 en_US.ARM64.Release.Error-2.idtx:161
 #: en_US.Win32.Debug.Error-2.idtx:161 en_US.Win32.Release.Error-2.idtx:161
 #: en_US.x64.Debug.Error-2.idtx:161 en_US.x64.Release.Error-2.idtx:161
 msgid ""
@@ -2005,11 +2424,13 @@ msgstr ""
 "Fout bij het ongedaan maken van de registratie van de COM+-toepassing. Neem "
 "voor meer informatie contact op met de systeembeheerder."
 
+#: en_US.ARM64.Debug.Error-2.idtx:162 en_US.ARM64.Release.Error-2.idtx:162
 #: en_US.Win32.Debug.Error-2.idtx:162 en_US.Win32.Release.Error-2.idtx:162
 #: en_US.x64.Debug.Error-2.idtx:162 en_US.x64.Release.Error-2.idtx:162
 msgid "The description for service '[2]' ([3]) could not be changed."
 msgstr "Kan de beschrijving voor de service [2] ([3]) niet wijzigen."
 
+#: en_US.ARM64.Debug.Error-2.idtx:163 en_US.ARM64.Release.Error-2.idtx:163
 #: en_US.Win32.Debug.Error-2.idtx:163 en_US.Win32.Release.Error-2.idtx:163
 #: en_US.x64.Debug.Error-2.idtx:163 en_US.x64.Release.Error-2.idtx:163
 msgid ""
@@ -2023,6 +2444,7 @@ msgstr ""
 " moet u het besturingssysteem mogelijk bijwerken. {{Pakketversie: [3], door "
 "het besturingssysteem beveiligde versie: [4]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:164 en_US.ARM64.Release.Error-2.idtx:164
 #: en_US.Win32.Debug.Error-2.idtx:164 en_US.Win32.Release.Error-2.idtx:164
 #: en_US.x64.Debug.Error-2.idtx:164 en_US.x64.Release.Error-2.idtx:164
 msgid ""
@@ -2033,6 +2455,7 @@ msgstr ""
 "{{Pakketversie: [3], door het besturingssysteem beveiligde versie: [4], SFP-"
 "fout: [5]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:165 en_US.ARM64.Release.Error-2.idtx:165
 #: en_US.Win32.Debug.Error-2.idtx:165 en_US.Win32.Release.Error-2.idtx:165
 #: en_US.x64.Debug.Error-2.idtx:165 en_US.x64.Release.Error-2.idtx:165
 msgid ""
@@ -2043,6 +2466,7 @@ msgstr ""
 "bestanden niet bijwerken. {{SFP-fout: [2].  lijst met beschermde "
 "bestanden:\\r\\n[3]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:166 en_US.ARM64.Release.Error-2.idtx:166
 #: en_US.Win32.Debug.Error-2.idtx:166 en_US.Win32.Release.Error-2.idtx:166
 #: en_US.x64.Debug.Error-2.idtx:166 en_US.x64.Release.Error-2.idtx:166
 msgid "User installations are disabled via policy on the machine."
@@ -2050,6 +2474,7 @@ msgstr ""
 "Installatie door gebruikers is uitgeschakeld via een beleidsregel op de "
 "machine."
 
+#: en_US.ARM64.Debug.Error-2.idtx:167 en_US.ARM64.Release.Error-2.idtx:167
 #: en_US.Win32.Debug.Error-2.idtx:167 en_US.Win32.Release.Error-2.idtx:167
 #: en_US.x64.Debug.Error-2.idtx:167 en_US.x64.Release.Error-2.idtx:167
 msgid ""
@@ -2061,6 +2486,7 @@ msgstr ""
 "Help en ondersteuning voor meer informatie. HRESULT: [3]. "
 "{{onderdeelinterface: [4], functie: [5], naam van onderdeel: [2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:168 en_US.ARM64.Release.Error-2.idtx:168
 #: en_US.Win32.Debug.Error-2.idtx:168 en_US.Win32.Release.Error-2.idtx:168
 #: en_US.x64.Debug.Error-2.idtx:168 en_US.x64.Release.Error-2.idtx:168
 msgid ""
@@ -2073,6 +2499,7 @@ msgstr ""
 "ondertekend. HRESULT: [3]. {{onderdeelinterface: [4], functie: [5], naam van"
 " onderdeel: [2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:169 en_US.ARM64.Release.Error-2.idtx:169
 #: en_US.Win32.Debug.Error-2.idtx:169 en_US.Win32.Release.Error-2.idtx:169
 #: en_US.x64.Debug.Error-2.idtx:169 en_US.x64.Release.Error-2.idtx:169
 msgid ""
@@ -2085,6 +2512,7 @@ msgstr ""
 "HRESULT: [3]. {{onderdeelinterface: [4], functie: [5], naam van onderdeel: "
 "[2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:170 en_US.ARM64.Release.Error-2.idtx:170
 #: en_US.Win32.Debug.Error-2.idtx:170 en_US.Win32.Release.Error-2.idtx:170
 #: en_US.x64.Debug.Error-2.idtx:170 en_US.x64.Release.Error-2.idtx:170
 msgid ""
@@ -2096,15 +2524,25 @@ msgstr ""
 "of meerdere onderdeelmodules kunnen niet worden gevonden. HRESULT: [3]. "
 "{{onderdeelinterface: [4], functie: [5], naam van onderdeel: [2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:171 en_US.ARM64.Release.Error-2.idtx:171
 #: en_US.Win32.Debug.Error-2.idtx:171 en_US.Win32.Release.Error-2.idtx:171
 #: en_US.x64.Debug.Error-2.idtx:171 en_US.x64.Release.Error-2.idtx:171
 msgid ""
 "64-bit registry operation attempted on 32-bit operating system for key [2]."
 msgstr ""
 
+#: en_US.ARM64.Debug.Error-2.idtx:172 en_US.ARM64.Release.Error-2.idtx:172
 #: en_US.Win32.Debug.Error-2.idtx:172 en_US.Win32.Release.Error-2.idtx:172
 #: en_US.x64.Debug.Error-2.idtx:172 en_US.x64.Release.Error-2.idtx:172
 msgid ""
 "This version of Windows does not support deploying 64-bit packages. The "
 "script [2] is for a 64-bit package."
+msgstr ""
+
+#: en_US.Win32.Debug.CustomAction-2.idtx:4
+#: en_US.Win32.Release.CustomAction-2.idtx:4
+msgid ""
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
+"system. The installation of the 64-bit variant is recommended."
 msgstr ""

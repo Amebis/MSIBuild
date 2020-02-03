@@ -1,11 +1,12 @@
+# Translators:
+# Simon Rozman <simon@rozman.si>, 2018
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-02 18:14+0100\n"
-"PO-Revision-Date: \n"
+"POT-Creation-Date: 2018-11-22 10:26+0100\n"
+"PO-Revision-Date: 2018-09-19 09:17+0000\n"
 "Last-Translator: Simon Rozman <simon@rozman.si>, 2018\n"
 "Language-Team: Hebrew (Israel) (https://www.transifex.com/amebis/teams/91604/he_IL/)\n"
 "MIME-Version: 1.0\n"
@@ -13,48 +14,64 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: he_IL\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:4
+#: en_US.ARM64.Release.ActionText-2.idtx:4
 #: en_US.Win32.Debug.ActionText-2.idtx:4
 #: en_US.Win32.Release.ActionText-2.idtx:4 en_US.x64.Debug.ActionText-2.idtx:4
 #: en_US.x64.Release.ActionText-2.idtx:4
 msgid "Advertising application"
 msgstr "מפרסם יישום"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:5
+#: en_US.ARM64.Release.ActionText-2.idtx:5
 #: en_US.Win32.Debug.ActionText-2.idtx:5
 #: en_US.Win32.Release.ActionText-2.idtx:5 en_US.x64.Debug.ActionText-2.idtx:5
 #: en_US.x64.Release.ActionText-2.idtx:5
 msgid "Allocating registry space"
 msgstr "מקצה שטח רישום"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:5
+#: en_US.ARM64.Release.ActionText-2.idtx:5
 #: en_US.Win32.Debug.ActionText-2.idtx:5
 #: en_US.Win32.Release.ActionText-2.idtx:5 en_US.x64.Debug.ActionText-2.idtx:5
 #: en_US.x64.Release.ActionText-2.idtx:5
 msgid "Free space: [1]"
 msgstr "שטח פנוי: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:6
+#: en_US.ARM64.Release.ActionText-2.idtx:6
 #: en_US.Win32.Debug.ActionText-2.idtx:6
 #: en_US.Win32.Release.ActionText-2.idtx:6 en_US.x64.Debug.ActionText-2.idtx:6
 #: en_US.x64.Release.ActionText-2.idtx:6
 msgid "Searching for installed applications"
 msgstr "מחפש יישומים מותקנים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:6
+#: en_US.ARM64.Release.ActionText-2.idtx:6
 #: en_US.Win32.Debug.ActionText-2.idtx:6
 #: en_US.Win32.Release.ActionText-2.idtx:6 en_US.x64.Debug.ActionText-2.idtx:6
 #: en_US.x64.Release.ActionText-2.idtx:6
 msgid "Property: [1], Signature: [2]"
 msgstr "מאפיין: [1], חתימה: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:7
+#: en_US.ARM64.Release.ActionText-2.idtx:7
 #: en_US.Win32.Debug.ActionText-2.idtx:7
 #: en_US.Win32.Release.ActionText-2.idtx:7 en_US.x64.Debug.ActionText-2.idtx:7
 #: en_US.x64.Release.ActionText-2.idtx:7
 msgid "Binding executables"
 msgstr "מאגד קבצי הפעלה"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:7
+#: en_US.ARM64.Debug.ActionText-2.idtx:54
+#: en_US.ARM64.Release.ActionText-2.idtx:7
+#: en_US.ARM64.Release.ActionText-2.idtx:54
 #: en_US.Win32.Debug.ActionText-2.idtx:7
 #: en_US.Win32.Debug.ActionText-2.idtx:54
 #: en_US.Win32.Release.ActionText-2.idtx:7
@@ -65,6 +82,10 @@ msgstr "מאגד קבצי הפעלה"
 msgid "File: [1]"
 msgstr "קובץ: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:8
+#: en_US.ARM64.Debug.ActionText-2.idtx:52
+#: en_US.ARM64.Release.ActionText-2.idtx:8
+#: en_US.ARM64.Release.ActionText-2.idtx:52
 #: en_US.Win32.Debug.ActionText-2.idtx:8
 #: en_US.Win32.Debug.ActionText-2.idtx:52
 #: en_US.Win32.Release.ActionText-2.idtx:8
@@ -75,6 +96,12 @@ msgstr "קובץ: [1]"
 msgid "Searching for qualifying products"
 msgstr "מחפש מוצרים בעלי זכאות"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:9
+#: en_US.ARM64.Debug.ActionText-2.idtx:10
+#: en_US.ARM64.Debug.ActionText-2.idtx:15
+#: en_US.ARM64.Release.ActionText-2.idtx:9
+#: en_US.ARM64.Release.ActionText-2.idtx:10
+#: en_US.ARM64.Release.ActionText-2.idtx:15
 #: en_US.Win32.Debug.ActionText-2.idtx:9
 #: en_US.Win32.Debug.ActionText-2.idtx:10
 #: en_US.Win32.Debug.ActionText-2.idtx:15
@@ -88,12 +115,18 @@ msgstr "מחפש מוצרים בעלי זכאות"
 msgid "Computing space requirements"
 msgstr "מחשב דרישות שטח"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:11
+#: en_US.ARM64.Release.ActionText-2.idtx:11
 #: en_US.Win32.Debug.ActionText-2.idtx:11
 #: en_US.Win32.Release.ActionText-2.idtx:11
 #: en_US.x64.Debug.ActionText-2.idtx:11 en_US.x64.Release.ActionText-2.idtx:11
 msgid "Creating folders"
 msgstr "יוצר תיקיות"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:11
+#: en_US.ARM64.Debug.ActionText-2.idtx:47
+#: en_US.ARM64.Release.ActionText-2.idtx:11
+#: en_US.ARM64.Release.ActionText-2.idtx:47
 #: en_US.Win32.Debug.ActionText-2.idtx:11
 #: en_US.Win32.Debug.ActionText-2.idtx:47
 #: en_US.Win32.Release.ActionText-2.idtx:11
@@ -104,12 +137,18 @@ msgstr "יוצר תיקיות"
 msgid "Folder: [1]"
 msgstr "תיקיה: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:12
+#: en_US.ARM64.Release.ActionText-2.idtx:12
 #: en_US.Win32.Debug.ActionText-2.idtx:12
 #: en_US.Win32.Release.ActionText-2.idtx:12
 #: en_US.x64.Debug.ActionText-2.idtx:12 en_US.x64.Release.ActionText-2.idtx:12
 msgid "Creating shortcuts"
 msgstr "יוצר קיצורי דרך"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:12
+#: en_US.ARM64.Debug.ActionText-2.idtx:51
+#: en_US.ARM64.Release.ActionText-2.idtx:12
+#: en_US.ARM64.Release.ActionText-2.idtx:51
 #: en_US.Win32.Debug.ActionText-2.idtx:12
 #: en_US.Win32.Debug.ActionText-2.idtx:51
 #: en_US.Win32.Release.ActionText-2.idtx:12
@@ -120,12 +159,20 @@ msgstr "יוצר קיצורי דרך"
 msgid "Shortcut: [1]"
 msgstr "קיצור דרך: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:13
+#: en_US.ARM64.Release.ActionText-2.idtx:13
 #: en_US.Win32.Debug.ActionText-2.idtx:13
 #: en_US.Win32.Release.ActionText-2.idtx:13
 #: en_US.x64.Debug.ActionText-2.idtx:13 en_US.x64.Release.ActionText-2.idtx:13
 msgid "Deleting services"
 msgstr "מוחק שירותים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:13
+#: en_US.ARM64.Debug.ActionText-2.idtx:58
+#: en_US.ARM64.Debug.ActionText-2.idtx:59
+#: en_US.ARM64.Release.ActionText-2.idtx:13
+#: en_US.ARM64.Release.ActionText-2.idtx:58
+#: en_US.ARM64.Release.ActionText-2.idtx:59
 #: en_US.Win32.Debug.ActionText-2.idtx:13
 #: en_US.Win32.Debug.ActionText-2.idtx:58
 #: en_US.Win32.Debug.ActionText-2.idtx:59
@@ -139,12 +186,20 @@ msgstr "מוחק שירותים"
 msgid "Service: [1]"
 msgstr "שירות: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:14
+#: en_US.ARM64.Release.ActionText-2.idtx:14
 #: en_US.Win32.Debug.ActionText-2.idtx:14
 #: en_US.Win32.Release.ActionText-2.idtx:14
 #: en_US.x64.Debug.ActionText-2.idtx:14 en_US.x64.Release.ActionText-2.idtx:14
 msgid "Creating duplicate files"
 msgstr "יוצר קבצים כפולים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:14
+#: en_US.ARM64.Debug.ActionText-2.idtx:19
+#: en_US.ARM64.Debug.ActionText-2.idtx:26
+#: en_US.ARM64.Release.ActionText-2.idtx:14
+#: en_US.ARM64.Release.ActionText-2.idtx:19
+#: en_US.ARM64.Release.ActionText-2.idtx:26
 #: en_US.Win32.Debug.ActionText-2.idtx:14
 #: en_US.Win32.Debug.ActionText-2.idtx:19
 #: en_US.Win32.Debug.ActionText-2.idtx:26
@@ -158,24 +213,38 @@ msgstr "יוצר קבצים כפולים"
 msgid "File: [1],  Directory: [9],  Size: [6]"
 msgstr "קובץ: [1],  ספריה: [9],  גודל: [6]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:16
+#: en_US.ARM64.Release.ActionText-2.idtx:16
 #: en_US.Win32.Debug.ActionText-2.idtx:16
 #: en_US.Win32.Release.ActionText-2.idtx:16
 #: en_US.x64.Debug.ActionText-2.idtx:16 en_US.x64.Release.ActionText-2.idtx:16
 msgid "Searching for related applications"
 msgstr "חיפוש יישומים קשורים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:16
+#: en_US.ARM64.Release.ActionText-2.idtx:16
 #: en_US.Win32.Debug.ActionText-2.idtx:16
 #: en_US.Win32.Release.ActionText-2.idtx:16
 #: en_US.x64.Debug.ActionText-2.idtx:16 en_US.x64.Release.ActionText-2.idtx:16
 msgid "Found application: [1]"
 msgstr "נמצא יישום: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:17
+#: en_US.ARM64.Release.ActionText-2.idtx:17
 #: en_US.Win32.Debug.ActionText-2.idtx:17
 #: en_US.Win32.Release.ActionText-2.idtx:17
 #: en_US.x64.Debug.ActionText-2.idtx:17 en_US.x64.Release.ActionText-2.idtx:17
 msgid "Generating script operations for action:"
 msgstr "יוצר פעולות script עבור פעולה:"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:17
+#: en_US.ARM64.Debug.ActionText-2.idtx:39
+#: en_US.ARM64.Debug.ActionText-2.idtx:42
+#: en_US.ARM64.Debug.ActionText-2.idtx:53
+#: en_US.ARM64.Release.ActionText-2.idtx:17
+#: en_US.ARM64.Release.ActionText-2.idtx:39
+#: en_US.ARM64.Release.ActionText-2.idtx:42
+#: en_US.ARM64.Release.ActionText-2.idtx:53
 #: en_US.Win32.Debug.ActionText-2.idtx:17
 #: en_US.Win32.Debug.ActionText-2.idtx:39
 #: en_US.Win32.Debug.ActionText-2.idtx:42
@@ -193,90 +262,122 @@ msgstr "יוצר פעולות script עבור פעולה:"
 msgid "[1]"
 msgstr "[1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:18
+#: en_US.ARM64.Release.ActionText-2.idtx:18
 #: en_US.Win32.Debug.ActionText-2.idtx:18
 #: en_US.Win32.Release.ActionText-2.idtx:18
 #: en_US.x64.Debug.ActionText-2.idtx:18 en_US.x64.Release.ActionText-2.idtx:18
 msgid "Copying network install files"
 msgstr "מעתיק קבצי התקנת רשת"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:18
+#: en_US.ARM64.Release.ActionText-2.idtx:18
 #: en_US.Win32.Debug.ActionText-2.idtx:18
 #: en_US.Win32.Release.ActionText-2.idtx:18
 #: en_US.x64.Debug.ActionText-2.idtx:18 en_US.x64.Release.ActionText-2.idtx:18
 msgid "File: [1], Directory: [9], Size: [6]"
 msgstr "קובץ: [1], ספריה: [9], גודל: [6]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:19
+#: en_US.ARM64.Release.ActionText-2.idtx:19
 #: en_US.Win32.Debug.ActionText-2.idtx:19
 #: en_US.Win32.Release.ActionText-2.idtx:19
 #: en_US.x64.Debug.ActionText-2.idtx:19 en_US.x64.Release.ActionText-2.idtx:19
 msgid "Copying new files"
 msgstr "מעתיק קבצים חדשים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:20
+#: en_US.ARM64.Release.ActionText-2.idtx:20
 #: en_US.Win32.Debug.ActionText-2.idtx:20
 #: en_US.Win32.Release.ActionText-2.idtx:20
 #: en_US.x64.Debug.ActionText-2.idtx:20 en_US.x64.Release.ActionText-2.idtx:20
 msgid "Installing ODBC components"
 msgstr "מתקין רכיבי ODBC"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:21
+#: en_US.ARM64.Release.ActionText-2.idtx:21
 #: en_US.Win32.Debug.ActionText-2.idtx:21
 #: en_US.Win32.Release.ActionText-2.idtx:21
 #: en_US.x64.Debug.ActionText-2.idtx:21 en_US.x64.Release.ActionText-2.idtx:21
 msgid "Installing new services"
 msgstr "מתקין שירותים חדשים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:21
+#: en_US.ARM64.Release.ActionText-2.idtx:21
 #: en_US.Win32.Debug.ActionText-2.idtx:21
 #: en_US.Win32.Release.ActionText-2.idtx:21
 #: en_US.x64.Debug.ActionText-2.idtx:21 en_US.x64.Release.ActionText-2.idtx:21
 msgid "Service: [2]"
 msgstr "שירות: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:22
+#: en_US.ARM64.Release.ActionText-2.idtx:22
 #: en_US.Win32.Debug.ActionText-2.idtx:22
 #: en_US.Win32.Release.ActionText-2.idtx:22
 #: en_US.x64.Debug.ActionText-2.idtx:22 en_US.x64.Release.ActionText-2.idtx:22
 msgid "Installing system catalog"
 msgstr "‏‏מתקין את קטלוג המערכת"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:22
+#: en_US.ARM64.Release.ActionText-2.idtx:22
 #: en_US.Win32.Debug.ActionText-2.idtx:22
 #: en_US.Win32.Release.ActionText-2.idtx:22
 #: en_US.x64.Debug.ActionText-2.idtx:22 en_US.x64.Release.ActionText-2.idtx:22
 msgid "File: [1],  Dependencies: [2]"
 msgstr "קובץ: [1],  תלויים: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:23
+#: en_US.ARM64.Release.ActionText-2.idtx:23
 #: en_US.Win32.Debug.ActionText-2.idtx:23
 #: en_US.Win32.Release.ActionText-2.idtx:23
 #: en_US.x64.Debug.ActionText-2.idtx:23 en_US.x64.Release.ActionText-2.idtx:23
 msgid "Validating install"
 msgstr "מאמת התקנה"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:24
+#: en_US.ARM64.Release.ActionText-2.idtx:24
 #: en_US.Win32.Debug.ActionText-2.idtx:24
 #: en_US.Win32.Release.ActionText-2.idtx:24
 #: en_US.x64.Debug.ActionText-2.idtx:24 en_US.x64.Release.ActionText-2.idtx:24
 msgid "Evaluating launch conditions"
 msgstr "מעריך תנאי הפעלה"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:25
+#: en_US.ARM64.Release.ActionText-2.idtx:25
 #: en_US.Win32.Debug.ActionText-2.idtx:25
 #: en_US.Win32.Release.ActionText-2.idtx:25
 #: en_US.x64.Debug.ActionText-2.idtx:25 en_US.x64.Release.ActionText-2.idtx:25
 msgid "Migrating feature states from related applications"
 msgstr "הגירת תכונות מצב מיישומים קשורים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:25
+#: en_US.ARM64.Release.ActionText-2.idtx:25
 #: en_US.Win32.Debug.ActionText-2.idtx:25
 #: en_US.Win32.Release.ActionText-2.idtx:25
 #: en_US.x64.Debug.ActionText-2.idtx:25 en_US.x64.Release.ActionText-2.idtx:25
 msgid "Application: [1]"
 msgstr "יישום: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:26
+#: en_US.ARM64.Release.ActionText-2.idtx:26
 #: en_US.Win32.Debug.ActionText-2.idtx:26
 #: en_US.Win32.Release.ActionText-2.idtx:26
 #: en_US.x64.Debug.ActionText-2.idtx:26 en_US.x64.Release.ActionText-2.idtx:26
 msgid "Moving files"
 msgstr "מעביר קבצים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:27
+#: en_US.ARM64.Release.ActionText-2.idtx:27
 #: en_US.Win32.Debug.ActionText-2.idtx:27
 #: en_US.Win32.Release.ActionText-2.idtx:27
 #: en_US.x64.Debug.ActionText-2.idtx:27 en_US.x64.Release.ActionText-2.idtx:27
 msgid "Publishing assembly information"
 msgstr "מפרסם מידע הרכבה"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:27
+#: en_US.ARM64.Debug.ActionText-2.idtx:28
+#: en_US.ARM64.Release.ActionText-2.idtx:27
+#: en_US.ARM64.Release.ActionText-2.idtx:28
 #: en_US.Win32.Debug.ActionText-2.idtx:27
 #: en_US.Win32.Debug.ActionText-2.idtx:28
 #: en_US.Win32.Release.ActionText-2.idtx:27
@@ -287,36 +388,50 @@ msgstr "מפרסם מידע הרכבה"
 msgid "Application Context:[1], Assembly Name:[2]"
 msgstr "הקשר היישום:[1], שם ההרכבה:[2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:28
+#: en_US.ARM64.Release.ActionText-2.idtx:28
 #: en_US.Win32.Debug.ActionText-2.idtx:28
 #: en_US.Win32.Release.ActionText-2.idtx:28
 #: en_US.x64.Debug.ActionText-2.idtx:28 en_US.x64.Release.ActionText-2.idtx:28
 msgid "Unpublishing assembly information"
 msgstr "מסיר פרסום מידע הרכבה"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:29
+#: en_US.ARM64.Release.ActionText-2.idtx:29
 #: en_US.Win32.Debug.ActionText-2.idtx:29
 #: en_US.Win32.Release.ActionText-2.idtx:29
 #: en_US.x64.Debug.ActionText-2.idtx:29 en_US.x64.Release.ActionText-2.idtx:29
 msgid "Patching files"
 msgstr "מתקן קבצים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:29
+#: en_US.ARM64.Release.ActionText-2.idtx:29
 #: en_US.Win32.Debug.ActionText-2.idtx:29
 #: en_US.Win32.Release.ActionText-2.idtx:29
 #: en_US.x64.Debug.ActionText-2.idtx:29 en_US.x64.Release.ActionText-2.idtx:29
 msgid "File: [1],  Directory: [2],  Size: [3]"
 msgstr "קובץ: [1],  ספריה: [2],  גודל: [3]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:30
+#: en_US.ARM64.Release.ActionText-2.idtx:30
 #: en_US.Win32.Debug.ActionText-2.idtx:30
 #: en_US.Win32.Release.ActionText-2.idtx:30
 #: en_US.x64.Debug.ActionText-2.idtx:30 en_US.x64.Release.ActionText-2.idtx:30
 msgid "Updating component registration"
 msgstr "מעדכן רישום רכיבים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:31
+#: en_US.ARM64.Release.ActionText-2.idtx:31
 #: en_US.Win32.Debug.ActionText-2.idtx:31
 #: en_US.Win32.Release.ActionText-2.idtx:31
 #: en_US.x64.Debug.ActionText-2.idtx:31 en_US.x64.Release.ActionText-2.idtx:31
 msgid "Publishing Qualified Components"
 msgstr "מפרסם רכיבים בעלי זכאות"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:31
+#: en_US.ARM64.Debug.ActionText-2.idtx:61
+#: en_US.ARM64.Release.ActionText-2.idtx:31
+#: en_US.ARM64.Release.ActionText-2.idtx:61
 #: en_US.Win32.Debug.ActionText-2.idtx:31
 #: en_US.Win32.Debug.ActionText-2.idtx:61
 #: en_US.Win32.Release.ActionText-2.idtx:31
@@ -327,12 +442,18 @@ msgstr "מפרסם רכיבים בעלי זכאות"
 msgid "Component ID: [1], Qualifier: [2]"
 msgstr "מזהה רכיב: [1], מעניק זכאות: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:32
+#: en_US.ARM64.Release.ActionText-2.idtx:32
 #: en_US.Win32.Debug.ActionText-2.idtx:32
 #: en_US.Win32.Release.ActionText-2.idtx:32
 #: en_US.x64.Debug.ActionText-2.idtx:32 en_US.x64.Release.ActionText-2.idtx:32
 msgid "Publishing Product Features"
 msgstr "מפרסם תכונות מוצר"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:32
+#: en_US.ARM64.Debug.ActionText-2.idtx:62
+#: en_US.ARM64.Release.ActionText-2.idtx:32
+#: en_US.ARM64.Release.ActionText-2.idtx:62
 #: en_US.Win32.Debug.ActionText-2.idtx:32
 #: en_US.Win32.Debug.ActionText-2.idtx:62
 #: en_US.Win32.Release.ActionText-2.idtx:32
@@ -343,18 +464,26 @@ msgstr "מפרסם תכונות מוצר"
 msgid "Feature: [1]"
 msgstr "תכונה: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:33
+#: en_US.ARM64.Release.ActionText-2.idtx:33
 #: en_US.Win32.Debug.ActionText-2.idtx:33
 #: en_US.Win32.Release.ActionText-2.idtx:33
 #: en_US.x64.Debug.ActionText-2.idtx:33 en_US.x64.Release.ActionText-2.idtx:33
 msgid "Publishing product information"
 msgstr "מפרסם מידע אודות המוצר"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:34
+#: en_US.ARM64.Release.ActionText-2.idtx:34
 #: en_US.Win32.Debug.ActionText-2.idtx:34
 #: en_US.Win32.Release.ActionText-2.idtx:34
 #: en_US.x64.Debug.ActionText-2.idtx:34 en_US.x64.Release.ActionText-2.idtx:34
 msgid "Registering Class servers"
 msgstr "מבצע רישום שרתי מחלקות"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:34
+#: en_US.ARM64.Debug.ActionText-2.idtx:64
+#: en_US.ARM64.Release.ActionText-2.idtx:34
+#: en_US.ARM64.Release.ActionText-2.idtx:64
 #: en_US.Win32.Debug.ActionText-2.idtx:34
 #: en_US.Win32.Debug.ActionText-2.idtx:64
 #: en_US.Win32.Release.ActionText-2.idtx:34
@@ -365,24 +494,34 @@ msgstr "מבצע רישום שרתי מחלקות"
 msgid "Class Id: [1]"
 msgstr "Class Id: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:35
+#: en_US.ARM64.Release.ActionText-2.idtx:35
 #: en_US.Win32.Debug.ActionText-2.idtx:35
 #: en_US.Win32.Release.ActionText-2.idtx:35
 #: en_US.x64.Debug.ActionText-2.idtx:35 en_US.x64.Release.ActionText-2.idtx:35
 msgid "Registering COM+ Applications and Components"
 msgstr "רישום יישומים ומרכיבים של COM+"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:35
+#: en_US.ARM64.Release.ActionText-2.idtx:35
 #: en_US.Win32.Debug.ActionText-2.idtx:35
 #: en_US.Win32.Release.ActionText-2.idtx:35
 #: en_US.x64.Debug.ActionText-2.idtx:35 en_US.x64.Release.ActionText-2.idtx:35
 msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
 msgstr "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:36
+#: en_US.ARM64.Release.ActionText-2.idtx:36
 #: en_US.Win32.Debug.ActionText-2.idtx:36
 #: en_US.Win32.Release.ActionText-2.idtx:36
 #: en_US.x64.Debug.ActionText-2.idtx:36 en_US.x64.Release.ActionText-2.idtx:36
 msgid "Registering extension servers"
 msgstr "מבצע רישום שרתי הרחבות"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:36
+#: en_US.ARM64.Debug.ActionText-2.idtx:66
+#: en_US.ARM64.Release.ActionText-2.idtx:36
+#: en_US.ARM64.Release.ActionText-2.idtx:66
 #: en_US.Win32.Debug.ActionText-2.idtx:36
 #: en_US.Win32.Debug.ActionText-2.idtx:66
 #: en_US.Win32.Release.ActionText-2.idtx:36
@@ -393,12 +532,18 @@ msgstr "מבצע רישום שרתי הרחבות"
 msgid "Extension: [1]"
 msgstr "הרחבה: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:37
+#: en_US.ARM64.Release.ActionText-2.idtx:37
 #: en_US.Win32.Debug.ActionText-2.idtx:37
 #: en_US.Win32.Release.ActionText-2.idtx:37
 #: en_US.x64.Debug.ActionText-2.idtx:37 en_US.x64.Release.ActionText-2.idtx:37
 msgid "Registering fonts"
 msgstr "מבצע רישום גופנים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:37
+#: en_US.ARM64.Debug.ActionText-2.idtx:67
+#: en_US.ARM64.Release.ActionText-2.idtx:37
+#: en_US.ARM64.Release.ActionText-2.idtx:67
 #: en_US.Win32.Debug.ActionText-2.idtx:37
 #: en_US.Win32.Debug.ActionText-2.idtx:67
 #: en_US.Win32.Release.ActionText-2.idtx:37
@@ -409,12 +554,18 @@ msgstr "מבצע רישום גופנים"
 msgid "Font: [1]"
 msgstr "גופן: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:38
+#: en_US.ARM64.Release.ActionText-2.idtx:38
 #: en_US.Win32.Debug.ActionText-2.idtx:38
 #: en_US.Win32.Release.ActionText-2.idtx:38
 #: en_US.x64.Debug.ActionText-2.idtx:38 en_US.x64.Release.ActionText-2.idtx:38
 msgid "Registering MIME info"
 msgstr "מבצע רישום מידע MIME"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:38
+#: en_US.ARM64.Debug.ActionText-2.idtx:68
+#: en_US.ARM64.Release.ActionText-2.idtx:38
+#: en_US.ARM64.Release.ActionText-2.idtx:68
 #: en_US.Win32.Debug.ActionText-2.idtx:38
 #: en_US.Win32.Debug.ActionText-2.idtx:68
 #: en_US.Win32.Release.ActionText-2.idtx:38
@@ -425,18 +576,26 @@ msgstr "מבצע רישום מידע MIME"
 msgid "MIME Content Type: [1], Extension: [2]"
 msgstr "סוג תוכן MIME‏: [1], הרחבה: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:39
+#: en_US.ARM64.Release.ActionText-2.idtx:39
 #: en_US.Win32.Debug.ActionText-2.idtx:39
 #: en_US.Win32.Release.ActionText-2.idtx:39
 #: en_US.x64.Debug.ActionText-2.idtx:39 en_US.x64.Release.ActionText-2.idtx:39
 msgid "Registering product"
 msgstr "מבצע רישום של המוצר"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:40
+#: en_US.ARM64.Release.ActionText-2.idtx:40
 #: en_US.Win32.Debug.ActionText-2.idtx:40
 #: en_US.Win32.Release.ActionText-2.idtx:40
 #: en_US.x64.Debug.ActionText-2.idtx:40 en_US.x64.Release.ActionText-2.idtx:40
 msgid "Registering program identifiers"
 msgstr "‏‏רושם מזהי תוכנית"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:40
+#: en_US.ARM64.Debug.ActionText-2.idtx:69
+#: en_US.ARM64.Release.ActionText-2.idtx:40
+#: en_US.ARM64.Release.ActionText-2.idtx:69
 #: en_US.Win32.Debug.ActionText-2.idtx:40
 #: en_US.Win32.Debug.ActionText-2.idtx:69
 #: en_US.Win32.Release.ActionText-2.idtx:40
@@ -447,12 +606,18 @@ msgstr "‏‏רושם מזהי תוכנית"
 msgid "ProgId: [1]"
 msgstr "ProgId: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:41
+#: en_US.ARM64.Release.ActionText-2.idtx:41
 #: en_US.Win32.Debug.ActionText-2.idtx:41
 #: en_US.Win32.Release.ActionText-2.idtx:41
 #: en_US.x64.Debug.ActionText-2.idtx:41 en_US.x64.Release.ActionText-2.idtx:41
 msgid "Registering type libraries"
 msgstr "מבצע רישום של ספריות סוגים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:41
+#: en_US.ARM64.Debug.ActionText-2.idtx:70
+#: en_US.ARM64.Release.ActionText-2.idtx:41
+#: en_US.ARM64.Release.ActionText-2.idtx:70
 #: en_US.Win32.Debug.ActionText-2.idtx:41
 #: en_US.Win32.Debug.ActionText-2.idtx:70
 #: en_US.Win32.Release.ActionText-2.idtx:41
@@ -463,18 +628,28 @@ msgstr "מבצע רישום של ספריות סוגים"
 msgid "LibID: [1]"
 msgstr "LibID: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:42
+#: en_US.ARM64.Release.ActionText-2.idtx:42
 #: en_US.Win32.Debug.ActionText-2.idtx:42
 #: en_US.Win32.Release.ActionText-2.idtx:42
 #: en_US.x64.Debug.ActionText-2.idtx:42 en_US.x64.Release.ActionText-2.idtx:42
 msgid "Registering user"
 msgstr "מבצע רישום של המשתמש"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:43
+#: en_US.ARM64.Release.ActionText-2.idtx:43
 #: en_US.Win32.Debug.ActionText-2.idtx:43
 #: en_US.Win32.Release.ActionText-2.idtx:43
 #: en_US.x64.Debug.ActionText-2.idtx:43 en_US.x64.Release.ActionText-2.idtx:43
 msgid "Removing duplicated files"
 msgstr "מסיר קבצים כפולים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:43
+#: en_US.ARM64.Debug.ActionText-2.idtx:46
+#: en_US.ARM64.Debug.ActionText-2.idtx:60
+#: en_US.ARM64.Release.ActionText-2.idtx:43
+#: en_US.ARM64.Release.ActionText-2.idtx:46
+#: en_US.ARM64.Release.ActionText-2.idtx:60
 #: en_US.Win32.Debug.ActionText-2.idtx:43
 #: en_US.Win32.Debug.ActionText-2.idtx:46
 #: en_US.Win32.Debug.ActionText-2.idtx:60
@@ -488,6 +663,10 @@ msgstr "מסיר קבצים כפולים"
 msgid "File: [1], Directory: [9]"
 msgstr "קובץ: [1], ספריה: [9]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:44
+#: en_US.ARM64.Debug.ActionText-2.idtx:71
+#: en_US.ARM64.Release.ActionText-2.idtx:44
+#: en_US.ARM64.Release.ActionText-2.idtx:71
 #: en_US.Win32.Debug.ActionText-2.idtx:44
 #: en_US.Win32.Debug.ActionText-2.idtx:71
 #: en_US.Win32.Release.ActionText-2.idtx:44
@@ -498,6 +677,10 @@ msgstr "קובץ: [1], ספריה: [9]"
 msgid "Updating environment strings"
 msgstr "מעדכן מחרוזות סביבה"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:44
+#: en_US.ARM64.Debug.ActionText-2.idtx:71
+#: en_US.ARM64.Release.ActionText-2.idtx:44
+#: en_US.ARM64.Release.ActionText-2.idtx:71
 #: en_US.Win32.Debug.ActionText-2.idtx:44
 #: en_US.Win32.Debug.ActionText-2.idtx:71
 #: en_US.Win32.Release.ActionText-2.idtx:44
@@ -508,36 +691,50 @@ msgstr "מעדכן מחרוזות סביבה"
 msgid "Name: [1], Value: [2], Action [3]"
 msgstr "שם: [1], ערך: [2], פעולה [3]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:45
+#: en_US.ARM64.Release.ActionText-2.idtx:45
 #: en_US.Win32.Debug.ActionText-2.idtx:45
 #: en_US.Win32.Release.ActionText-2.idtx:45
 #: en_US.x64.Debug.ActionText-2.idtx:45 en_US.x64.Release.ActionText-2.idtx:45
 msgid "Removing applications"
 msgstr "הסרת יישומים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:45
+#: en_US.ARM64.Release.ActionText-2.idtx:45
 #: en_US.Win32.Debug.ActionText-2.idtx:45
 #: en_US.Win32.Release.ActionText-2.idtx:45
 #: en_US.x64.Debug.ActionText-2.idtx:45 en_US.x64.Release.ActionText-2.idtx:45
 msgid "Application: [1], Command line: [2]"
 msgstr "יישום: [1], שורת פקודה: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:46
+#: en_US.ARM64.Release.ActionText-2.idtx:46
 #: en_US.Win32.Debug.ActionText-2.idtx:46
 #: en_US.Win32.Release.ActionText-2.idtx:46
 #: en_US.x64.Debug.ActionText-2.idtx:46 en_US.x64.Release.ActionText-2.idtx:46
 msgid "Removing files"
 msgstr "מסיר קבצים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:47
+#: en_US.ARM64.Release.ActionText-2.idtx:47
 #: en_US.Win32.Debug.ActionText-2.idtx:47
 #: en_US.Win32.Release.ActionText-2.idtx:47
 #: en_US.x64.Debug.ActionText-2.idtx:47 en_US.x64.Release.ActionText-2.idtx:47
 msgid "Removing folders"
 msgstr "מסיר תיקיות"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:48
+#: en_US.ARM64.Release.ActionText-2.idtx:48
 #: en_US.Win32.Debug.ActionText-2.idtx:48
 #: en_US.Win32.Release.ActionText-2.idtx:48
 #: en_US.x64.Debug.ActionText-2.idtx:48 en_US.x64.Release.ActionText-2.idtx:48
 msgid "Removing INI files entries"
 msgstr "מסיר ערכים מקבצי INI"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:48
+#: en_US.ARM64.Debug.ActionText-2.idtx:72
+#: en_US.ARM64.Release.ActionText-2.idtx:48
+#: en_US.ARM64.Release.ActionText-2.idtx:72
 #: en_US.Win32.Debug.ActionText-2.idtx:48
 #: en_US.Win32.Debug.ActionText-2.idtx:72
 #: en_US.Win32.Release.ActionText-2.idtx:48
@@ -548,48 +745,66 @@ msgstr "מסיר ערכים מקבצי INI"
 msgid "File: [1],  Section: [2],  Key: [3], Value: [4]"
 msgstr "קובץ: [1],  סעיף: [2],  מפתח: [3], ערך: [4]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:49
+#: en_US.ARM64.Release.ActionText-2.idtx:49
 #: en_US.Win32.Debug.ActionText-2.idtx:49
 #: en_US.Win32.Release.ActionText-2.idtx:49
 #: en_US.x64.Debug.ActionText-2.idtx:49 en_US.x64.Release.ActionText-2.idtx:49
 msgid "Removing ODBC components"
 msgstr "מסיר רכיבי ODBC"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:50
+#: en_US.ARM64.Release.ActionText-2.idtx:50
 #: en_US.Win32.Debug.ActionText-2.idtx:50
 #: en_US.Win32.Release.ActionText-2.idtx:50
 #: en_US.x64.Debug.ActionText-2.idtx:50 en_US.x64.Release.ActionText-2.idtx:50
 msgid "Removing system registry values"
 msgstr "מסיר ערכי רישום של המערכת"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:50
+#: en_US.ARM64.Release.ActionText-2.idtx:50
 #: en_US.Win32.Debug.ActionText-2.idtx:50
 #: en_US.Win32.Release.ActionText-2.idtx:50
 #: en_US.x64.Debug.ActionText-2.idtx:50 en_US.x64.Release.ActionText-2.idtx:50
 msgid "Key: [1], Name: [2]"
 msgstr "מפתח: [1], שם: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:51
+#: en_US.ARM64.Release.ActionText-2.idtx:51
 #: en_US.Win32.Debug.ActionText-2.idtx:51
 #: en_US.Win32.Release.ActionText-2.idtx:51
 #: en_US.x64.Debug.ActionText-2.idtx:51 en_US.x64.Release.ActionText-2.idtx:51
 msgid "Removing shortcuts"
 msgstr "מסיר קיצורי דרך"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:53
+#: en_US.ARM64.Release.ActionText-2.idtx:53
 #: en_US.Win32.Debug.ActionText-2.idtx:53
 #: en_US.Win32.Release.ActionText-2.idtx:53
 #: en_US.x64.Debug.ActionText-2.idtx:53 en_US.x64.Release.ActionText-2.idtx:53
 msgid "Rolling back action:"
 msgstr "חוזר למצב שלפני הפעולה:"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:54
+#: en_US.ARM64.Release.ActionText-2.idtx:54
 #: en_US.Win32.Debug.ActionText-2.idtx:54
 #: en_US.Win32.Release.ActionText-2.idtx:54
 #: en_US.x64.Debug.ActionText-2.idtx:54 en_US.x64.Release.ActionText-2.idtx:54
 msgid "Removing backup files"
 msgstr "מסיר קבצי גיבוי"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:55
+#: en_US.ARM64.Release.ActionText-2.idtx:55
 #: en_US.Win32.Debug.ActionText-2.idtx:55
 #: en_US.Win32.Release.ActionText-2.idtx:55
 #: en_US.x64.Debug.ActionText-2.idtx:55 en_US.x64.Release.ActionText-2.idtx:55
 msgid "Registering modules"
 msgstr "מבצע רישום מודולים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:55
+#: en_US.ARM64.Debug.ActionText-2.idtx:56
+#: en_US.ARM64.Release.ActionText-2.idtx:55
+#: en_US.ARM64.Release.ActionText-2.idtx:56
 #: en_US.Win32.Debug.ActionText-2.idtx:55
 #: en_US.Win32.Debug.ActionText-2.idtx:56
 #: en_US.Win32.Release.ActionText-2.idtx:55
@@ -600,128 +815,176 @@ msgstr "מבצע רישום מודולים"
 msgid "File: [1], Folder: [2]"
 msgstr "קובץ: [1], תיקיה: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:56
+#: en_US.ARM64.Release.ActionText-2.idtx:56
 #: en_US.Win32.Debug.ActionText-2.idtx:56
 #: en_US.Win32.Release.ActionText-2.idtx:56
 #: en_US.x64.Debug.ActionText-2.idtx:56 en_US.x64.Release.ActionText-2.idtx:56
 msgid "Unregistering modules"
 msgstr "מבטל רישום מודולים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:57
+#: en_US.ARM64.Release.ActionText-2.idtx:57
 #: en_US.Win32.Debug.ActionText-2.idtx:57
 #: en_US.Win32.Release.ActionText-2.idtx:57
 #: en_US.x64.Debug.ActionText-2.idtx:57 en_US.x64.Release.ActionText-2.idtx:57
 msgid "Initializing ODBC directories"
 msgstr "מאתחל ספריות ODBC"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:58
+#: en_US.ARM64.Release.ActionText-2.idtx:58
 #: en_US.Win32.Debug.ActionText-2.idtx:58
 #: en_US.Win32.Release.ActionText-2.idtx:58
 #: en_US.x64.Debug.ActionText-2.idtx:58 en_US.x64.Release.ActionText-2.idtx:58
 msgid "Starting services"
 msgstr "מפעיל שירותים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:59
+#: en_US.ARM64.Release.ActionText-2.idtx:59
 #: en_US.Win32.Debug.ActionText-2.idtx:59
 #: en_US.Win32.Release.ActionText-2.idtx:59
 #: en_US.x64.Debug.ActionText-2.idtx:59 en_US.x64.Release.ActionText-2.idtx:59
 msgid "Stopping services"
 msgstr "מפסיק שירותים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:60
+#: en_US.ARM64.Release.ActionText-2.idtx:60
 #: en_US.Win32.Debug.ActionText-2.idtx:60
 #: en_US.Win32.Release.ActionText-2.idtx:60
 #: en_US.x64.Debug.ActionText-2.idtx:60 en_US.x64.Release.ActionText-2.idtx:60
 msgid "Removing moved files"
 msgstr "מסיר קבצים שהועברו"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:61
+#: en_US.ARM64.Release.ActionText-2.idtx:61
 #: en_US.Win32.Debug.ActionText-2.idtx:61
 #: en_US.Win32.Release.ActionText-2.idtx:61
 #: en_US.x64.Debug.ActionText-2.idtx:61 en_US.x64.Release.ActionText-2.idtx:61
 msgid "Unpublishing Qualified Components"
 msgstr "מבטל פרסום רכיבים בעלי זכאות"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:62
+#: en_US.ARM64.Release.ActionText-2.idtx:62
 #: en_US.Win32.Debug.ActionText-2.idtx:62
 #: en_US.Win32.Release.ActionText-2.idtx:62
 #: en_US.x64.Debug.ActionText-2.idtx:62 en_US.x64.Release.ActionText-2.idtx:62
 msgid "Unpublishing Product Features"
 msgstr "מבטל פרסום תכונות מוצר"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:63
+#: en_US.ARM64.Release.ActionText-2.idtx:63
 #: en_US.Win32.Debug.ActionText-2.idtx:63
 #: en_US.Win32.Release.ActionText-2.idtx:63
 #: en_US.x64.Debug.ActionText-2.idtx:63 en_US.x64.Release.ActionText-2.idtx:63
 msgid "Unpublishing product information"
 msgstr "מבטל פרסום מידע אודות המוצר"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:64
+#: en_US.ARM64.Release.ActionText-2.idtx:64
 #: en_US.Win32.Debug.ActionText-2.idtx:64
 #: en_US.Win32.Release.ActionText-2.idtx:64
 #: en_US.x64.Debug.ActionText-2.idtx:64 en_US.x64.Release.ActionText-2.idtx:64
 msgid "Unregister Class servers"
 msgstr "מבטל רישום שרתי מחלקות"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:65
+#: en_US.ARM64.Release.ActionText-2.idtx:65
 #: en_US.Win32.Debug.ActionText-2.idtx:65
 #: en_US.Win32.Release.ActionText-2.idtx:65
 #: en_US.x64.Debug.ActionText-2.idtx:65 en_US.x64.Release.ActionText-2.idtx:65
 msgid "Unregistering COM+ Applications and Components"
 msgstr "ביטול רישום יישומים ומרכיבים של +COM"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:65
+#: en_US.ARM64.Release.ActionText-2.idtx:65
 #: en_US.Win32.Debug.ActionText-2.idtx:65
 #: en_US.Win32.Release.ActionText-2.idtx:65
 #: en_US.x64.Debug.ActionText-2.idtx:65 en_US.x64.Release.ActionText-2.idtx:65
 msgid "AppId: [1]{{, AppType: [2]}}"
 msgstr "AppId: [1]{{, AppType: [2]}}"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:66
+#: en_US.ARM64.Release.ActionText-2.idtx:66
 #: en_US.Win32.Debug.ActionText-2.idtx:66
 #: en_US.Win32.Release.ActionText-2.idtx:66
 #: en_US.x64.Debug.ActionText-2.idtx:66 en_US.x64.Release.ActionText-2.idtx:66
 msgid "Unregistering extension servers"
 msgstr "מבטל רישום שרתי הרחבות"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:67
+#: en_US.ARM64.Release.ActionText-2.idtx:67
 #: en_US.Win32.Debug.ActionText-2.idtx:67
 #: en_US.Win32.Release.ActionText-2.idtx:67
 #: en_US.x64.Debug.ActionText-2.idtx:67 en_US.x64.Release.ActionText-2.idtx:67
 msgid "Unregistering fonts"
 msgstr "מבטל רישום גופנים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:68
+#: en_US.ARM64.Release.ActionText-2.idtx:68
 #: en_US.Win32.Debug.ActionText-2.idtx:68
 #: en_US.Win32.Release.ActionText-2.idtx:68
 #: en_US.x64.Debug.ActionText-2.idtx:68 en_US.x64.Release.ActionText-2.idtx:68
 msgid "Unregistering MIME info"
 msgstr "מבטל רישום מידע MIME"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:69
+#: en_US.ARM64.Release.ActionText-2.idtx:69
 #: en_US.Win32.Debug.ActionText-2.idtx:69
 #: en_US.Win32.Release.ActionText-2.idtx:69
 #: en_US.x64.Debug.ActionText-2.idtx:69 en_US.x64.Release.ActionText-2.idtx:69
 msgid "Unregistering program identifiers"
 msgstr "מבטל רישום מזהי תוכנית"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:70
+#: en_US.ARM64.Release.ActionText-2.idtx:70
 #: en_US.Win32.Debug.ActionText-2.idtx:70
 #: en_US.Win32.Release.ActionText-2.idtx:70
 #: en_US.x64.Debug.ActionText-2.idtx:70 en_US.x64.Release.ActionText-2.idtx:70
 msgid "Unregistering type libraries"
 msgstr "מבטל רישום ספריות סוגים"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:72
+#: en_US.ARM64.Release.ActionText-2.idtx:72
 #: en_US.Win32.Debug.ActionText-2.idtx:72
 #: en_US.Win32.Release.ActionText-2.idtx:72
 #: en_US.x64.Debug.ActionText-2.idtx:72 en_US.x64.Release.ActionText-2.idtx:72
 msgid "Writing INI files values"
 msgstr "כותב ערכים בקבצי INI"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:73
+#: en_US.ARM64.Release.ActionText-2.idtx:73
 #: en_US.Win32.Debug.ActionText-2.idtx:73
 #: en_US.Win32.Release.ActionText-2.idtx:73
 #: en_US.x64.Debug.ActionText-2.idtx:73 en_US.x64.Release.ActionText-2.idtx:73
 msgid "Writing system registry values"
 msgstr "כותב ערכי רישום של המערכת"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:73
+#: en_US.ARM64.Release.ActionText-2.idtx:73
 #: en_US.Win32.Debug.ActionText-2.idtx:73
 #: en_US.Win32.Release.ActionText-2.idtx:73
 #: en_US.x64.Debug.ActionText-2.idtx:73 en_US.x64.Release.ActionText-2.idtx:73
 msgid "Key: [1], Name: [2], Value: [3]"
 msgstr "מפתח: [1], שם: [2], ערך: [3]"
 
-#: en_US.Win32.Debug.CustomAction-2.idtx:4
-#: en_US.Win32.Release.CustomAction-2.idtx:4
-msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
-" 64-bit operating system. 32-bit variant will not work with your operating "
-"system. The installation of the 64-bit variant is recommended."
+#: en_US.ARM64.Debug.ActionText-2.idtx:74
+#: en_US.ARM64.Release.ActionText-2.idtx:74
+#: en_US.Win32.Debug.ActionText-2.idtx:74
+#: en_US.Win32.Release.ActionText-2.idtx:74
+#: en_US.x64.Debug.ActionText-2.idtx:74 en_US.x64.Release.ActionText-2.idtx:74
+msgid "Evaluating Active Setup components"
 msgstr ""
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:75
+#: en_US.ARM64.Release.ActionText-2.idtx:75
+#: en_US.Win32.Debug.ActionText-2.idtx:75
+#: en_US.Win32.Release.ActionText-2.idtx:75
+#: en_US.x64.Debug.ActionText-2.idtx:75 en_US.x64.Release.ActionText-2.idtx:75
+msgid "Publishing Active Setup components"
+msgstr ""
+
+#: en_US.ARM64.Debug.CustomAction-2.idtx:4
+#: en_US.ARM64.Release.CustomAction-2.idtx:4
 #: en_US.Win32.Debug.CustomAction-2.idtx:5
 #: en_US.Win32.Release.CustomAction-2.idtx:5
 #: en_US.x64.Debug.CustomAction-2.idtx:4
@@ -729,6 +992,8 @@ msgstr ""
 msgid "A newer version of [SimpleProductName] is already installed."
 msgstr ""
 
+#: en_US.ARM64.Debug.CustomAction-2.idtx:5
+#: en_US.ARM64.Release.CustomAction-2.idtx:5
 #: en_US.Win32.Debug.CustomAction-2.idtx:6
 #: en_US.Win32.Release.CustomAction-2.idtx:6
 #: en_US.x64.Debug.CustomAction-2.idtx:5
@@ -738,26 +1003,31 @@ msgid ""
 "Please remove the old package first and retry."
 msgstr ""
 
+#: en_US.ARM64.Debug.Error-2.idtx:4 en_US.ARM64.Release.Error-2.idtx:4
 #: en_US.Win32.Debug.Error-2.idtx:4 en_US.Win32.Release.Error-2.idtx:4
 #: en_US.x64.Debug.Error-2.idtx:4 en_US.x64.Release.Error-2.idtx:4
 msgid "{{Fatal error: }}"
 msgstr "{{שגיאה מכרעת: }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:5 en_US.ARM64.Release.Error-2.idtx:5
 #: en_US.Win32.Debug.Error-2.idtx:5 en_US.Win32.Release.Error-2.idtx:5
 #: en_US.x64.Debug.Error-2.idtx:5 en_US.x64.Release.Error-2.idtx:5
 msgid "{{Error [1]. }}"
 msgstr "{{שגיאה [1]. }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:6 en_US.ARM64.Release.Error-2.idtx:6
 #: en_US.Win32.Debug.Error-2.idtx:6 en_US.Win32.Release.Error-2.idtx:6
 #: en_US.x64.Debug.Error-2.idtx:6 en_US.x64.Release.Error-2.idtx:6
 msgid "Warning [1]. "
 msgstr "אזהרה [1]. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:8 en_US.ARM64.Release.Error-2.idtx:8
 #: en_US.Win32.Debug.Error-2.idtx:8 en_US.Win32.Release.Error-2.idtx:8
 #: en_US.x64.Debug.Error-2.idtx:8 en_US.x64.Release.Error-2.idtx:8
 msgid "Info [1]. "
 msgstr "מידע [1]. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:9 en_US.ARM64.Release.Error-2.idtx:9
 #: en_US.Win32.Debug.Error-2.idtx:9 en_US.Win32.Release.Error-2.idtx:9
 #: en_US.x64.Debug.Error-2.idtx:9 en_US.x64.Release.Error-2.idtx:9
 msgid ""
@@ -768,56 +1038,68 @@ msgstr ""
 "המתקין  נתקל בשגיאה פנימית לא צפויה. מצב זה עלול למצביע על בעיה עם חבילה זו."
 " קוד השגיאה הוא[1]. {{הארגומנטים הם:[2], [3], [4]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:11 en_US.ARM64.Release.Error-2.idtx:11
 #: en_US.Win32.Debug.Error-2.idtx:11 en_US.Win32.Release.Error-2.idtx:11
 #: en_US.x64.Debug.Error-2.idtx:11 en_US.x64.Release.Error-2.idtx:11
 msgid "{{Disk full: }}"
 msgstr "{{הדיסק מלא: }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:12 en_US.ARM64.Release.Error-2.idtx:12
 #: en_US.Win32.Debug.Error-2.idtx:12 en_US.Win32.Release.Error-2.idtx:12
 #: en_US.x64.Debug.Error-2.idtx:12 en_US.x64.Release.Error-2.idtx:12
 msgid "Action [Time]: [1]. [2]"
 msgstr "פעולה [Time]: [1]. [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:13 en_US.ARM64.Release.Error-2.idtx:13
 #: en_US.Win32.Debug.Error-2.idtx:13 en_US.Win32.Release.Error-2.idtx:13
 #: en_US.x64.Debug.Error-2.idtx:13 en_US.x64.Release.Error-2.idtx:13
 msgid "[SimpleProductName]"
 msgstr "[SimpleProductName]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:14 en_US.ARM64.Release.Error-2.idtx:14
 #: en_US.Win32.Debug.Error-2.idtx:14 en_US.Win32.Release.Error-2.idtx:14
 #: en_US.x64.Debug.Error-2.idtx:14 en_US.x64.Release.Error-2.idtx:14
 msgid "{[2]}{, [3]}{, [4]}"
 msgstr "{[2]}{, [3]}{, [4]}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:15 en_US.ARM64.Release.Error-2.idtx:15
 #: en_US.Win32.Debug.Error-2.idtx:15 en_US.Win32.Release.Error-2.idtx:15
 #: en_US.x64.Debug.Error-2.idtx:15 en_US.x64.Release.Error-2.idtx:15
 msgid "Message type: [1], Argument: [2]{, [3]}"
 msgstr "סוג הודעה: [1], ארגומנט: [2]{, [3]}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:16 en_US.ARM64.Release.Error-2.idtx:16
 #: en_US.Win32.Debug.Error-2.idtx:16 en_US.Win32.Release.Error-2.idtx:16
 #: en_US.x64.Debug.Error-2.idtx:16 en_US.x64.Release.Error-2.idtx:16
 msgid "=== Logging started: [Date]  [Time] ==="
 msgstr "=== רישום התחיל: [Date]  [Time] ==="
 
+#: en_US.ARM64.Debug.Error-2.idtx:17 en_US.ARM64.Release.Error-2.idtx:17
 #: en_US.Win32.Debug.Error-2.idtx:17 en_US.Win32.Release.Error-2.idtx:17
 #: en_US.x64.Debug.Error-2.idtx:17 en_US.x64.Release.Error-2.idtx:17
 msgid "=== Logging stopped: [Date]  [Time] ==="
 msgstr "=== רישום הופסק: [Date]  [Time] ==="
 
+#: en_US.ARM64.Debug.Error-2.idtx:18 en_US.ARM64.Release.Error-2.idtx:18
 #: en_US.Win32.Debug.Error-2.idtx:18 en_US.Win32.Release.Error-2.idtx:18
 #: en_US.x64.Debug.Error-2.idtx:18 en_US.x64.Release.Error-2.idtx:18
 msgid "Action start [Time]: [1]."
 msgstr "תחילת הפעולה [Time]: [1]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:19 en_US.ARM64.Release.Error-2.idtx:19
 #: en_US.Win32.Debug.Error-2.idtx:19 en_US.Win32.Release.Error-2.idtx:19
 #: en_US.x64.Debug.Error-2.idtx:19 en_US.x64.Release.Error-2.idtx:19
 msgid "Action ended [Time]: [1]. Return value [2]."
 msgstr "הפעולה הסתיימה [Time]: [1]. הוחזר ערך [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:20 en_US.ARM64.Release.Error-2.idtx:20
 #: en_US.Win32.Debug.Error-2.idtx:20 en_US.Win32.Release.Error-2.idtx:20
 #: en_US.x64.Debug.Error-2.idtx:20 en_US.x64.Release.Error-2.idtx:20
 msgid "Time remaining: {[1] minutes }{[2] seconds}"
 msgstr "זמן נותר: {[1] דקות }{[2] שניות}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:21 en_US.ARM64.Debug.Error-2.idtx:127
+#: en_US.ARM64.Release.Error-2.idtx:21 en_US.ARM64.Release.Error-2.idtx:127
 #: en_US.Win32.Debug.Error-2.idtx:21 en_US.Win32.Debug.Error-2.idtx:127
 #: en_US.Win32.Release.Error-2.idtx:21 en_US.Win32.Release.Error-2.idtx:127
 #: en_US.x64.Debug.Error-2.idtx:21 en_US.x64.Debug.Error-2.idtx:127
@@ -825,46 +1107,55 @@ msgstr "זמן נותר: {[1] דקות }{[2] שניות}"
 msgid "Out of memory. Shut down other applications before retrying."
 msgstr "אין זיכרון פנוי. סגור יישומים אחרים לפני שתנסה שנית."
 
+#: en_US.ARM64.Debug.Error-2.idtx:22 en_US.ARM64.Release.Error-2.idtx:22
 #: en_US.Win32.Debug.Error-2.idtx:22 en_US.Win32.Release.Error-2.idtx:22
 #: en_US.x64.Debug.Error-2.idtx:22 en_US.x64.Release.Error-2.idtx:22
 msgid "Installer is no longer responding."
 msgstr "המתקין אינו מגיב עוד."
 
+#: en_US.ARM64.Debug.Error-2.idtx:23 en_US.ARM64.Release.Error-2.idtx:23
 #: en_US.Win32.Debug.Error-2.idtx:23 en_US.Win32.Release.Error-2.idtx:23
 #: en_US.x64.Debug.Error-2.idtx:23 en_US.x64.Release.Error-2.idtx:23
 msgid "Installer stopped prematurely."
 msgstr "פעולת המתקין הופסקה מוקדם מן הצפוי."
 
+#: en_US.ARM64.Debug.Error-2.idtx:24 en_US.ARM64.Release.Error-2.idtx:24
 #: en_US.Win32.Debug.Error-2.idtx:24 en_US.Win32.Release.Error-2.idtx:24
 #: en_US.x64.Debug.Error-2.idtx:24 en_US.x64.Release.Error-2.idtx:24
 msgid "Please wait while Windows configures [SimpleProductName]"
 msgstr "נא המתן בעת ש- Windows קובע את תצורת [SimpleProductName]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:25 en_US.ARM64.Release.Error-2.idtx:25
 #: en_US.Win32.Debug.Error-2.idtx:25 en_US.Win32.Release.Error-2.idtx:25
 #: en_US.x64.Debug.Error-2.idtx:25 en_US.x64.Release.Error-2.idtx:25
 msgid "Gathering required information..."
 msgstr "אוסף מידע דרוש..."
 
+#: en_US.ARM64.Debug.Error-2.idtx:26 en_US.ARM64.Release.Error-2.idtx:26
 #: en_US.Win32.Debug.Error-2.idtx:26 en_US.Win32.Release.Error-2.idtx:26
 #: en_US.x64.Debug.Error-2.idtx:26 en_US.x64.Release.Error-2.idtx:26
 msgid "Removing older versions of this application..."
 msgstr "מסיר גירסאות קודמות של יישום זה..."
 
+#: en_US.ARM64.Debug.Error-2.idtx:27 en_US.ARM64.Release.Error-2.idtx:27
 #: en_US.Win32.Debug.Error-2.idtx:27 en_US.Win32.Release.Error-2.idtx:27
 #: en_US.x64.Debug.Error-2.idtx:27 en_US.x64.Release.Error-2.idtx:27
 msgid "Preparing to remove older versions of this application..."
 msgstr "מתכונן להסרת גירסאות קודמות של יישום זה..."
 
+#: en_US.ARM64.Debug.Error-2.idtx:28 en_US.ARM64.Release.Error-2.idtx:28
 #: en_US.Win32.Debug.Error-2.idtx:28 en_US.Win32.Release.Error-2.idtx:28
 #: en_US.x64.Debug.Error-2.idtx:28 en_US.x64.Release.Error-2.idtx:28
 msgid "{[SimpleProductName] }Setup completed successfully."
 msgstr "התקנת {[SimpleProductName] }הסתיימה בהצלחה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:29 en_US.ARM64.Release.Error-2.idtx:29
 #: en_US.Win32.Debug.Error-2.idtx:29 en_US.Win32.Release.Error-2.idtx:29
 #: en_US.x64.Debug.Error-2.idtx:29 en_US.x64.Release.Error-2.idtx:29
 msgid "{[SimpleProductName] }Setup failed."
 msgstr "התקנת {[SimpleProductName] }נכשלה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:30 en_US.ARM64.Release.Error-2.idtx:30
 #: en_US.Win32.Debug.Error-2.idtx:30 en_US.Win32.Release.Error-2.idtx:30
 #: en_US.x64.Debug.Error-2.idtx:30 en_US.x64.Release.Error-2.idtx:30
 msgid ""
@@ -874,6 +1165,7 @@ msgstr ""
 "שגיאה בקריאה מקובץ: [2]. {{ שגיאת מערכת [3].}}  ודא כי הקובץ קיים וכי יש לך "
 "אפשרות גישה אליו."
 
+#: en_US.ARM64.Debug.Error-2.idtx:31 en_US.ARM64.Release.Error-2.idtx:31
 #: en_US.Win32.Debug.Error-2.idtx:31 en_US.Win32.Release.Error-2.idtx:31
 #: en_US.x64.Debug.Error-2.idtx:31 en_US.x64.Release.Error-2.idtx:31
 msgid ""
@@ -883,11 +1175,13 @@ msgstr ""
 "אין אפשרות ליצור את הקובץ '[2]'.  ספריה בשם זה קיימת כבר.  בטל את ההתקנה "
 "ונסה להתקין למיקום אחר."
 
+#: en_US.ARM64.Debug.Error-2.idtx:32 en_US.ARM64.Release.Error-2.idtx:32
 #: en_US.Win32.Debug.Error-2.idtx:32 en_US.Win32.Release.Error-2.idtx:32
 #: en_US.x64.Debug.Error-2.idtx:32 en_US.x64.Release.Error-2.idtx:32
 msgid "Please insert the disk: [2]"
 msgstr "נא הכנס את הדיסק: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:33 en_US.ARM64.Release.Error-2.idtx:33
 #: en_US.Win32.Debug.Error-2.idtx:33 en_US.Win32.Release.Error-2.idtx:33
 #: en_US.x64.Debug.Error-2.idtx:33 en_US.x64.Release.Error-2.idtx:33
 msgid ""
@@ -898,12 +1192,14 @@ msgstr ""
 "אין למתקין הרשאות מתאימות לגישה אל ספריה זו: [2].  אין אפשרות להמשיך בהתקנה."
 "  היכנס למערכת עם הרשאות מנהל או פנה אל מנהל המערכת."
 
+#: en_US.ARM64.Debug.Error-2.idtx:34 en_US.ARM64.Release.Error-2.idtx:34
 #: en_US.Win32.Debug.Error-2.idtx:34 en_US.Win32.Release.Error-2.idtx:34
 #: en_US.x64.Debug.Error-2.idtx:34 en_US.x64.Release.Error-2.idtx:34
 msgid ""
 "Error writing to file: [2].  Verify that you have access to that directory."
 msgstr "שגיאה בכתיבה לקובץ: [2].  ודא כי יש לך אפשרות גישה אל ספריה זו."
 
+#: en_US.ARM64.Debug.Error-2.idtx:35 en_US.ARM64.Release.Error-2.idtx:35
 #: en_US.Win32.Debug.Error-2.idtx:35 en_US.Win32.Release.Error-2.idtx:35
 #: en_US.x64.Debug.Error-2.idtx:35 en_US.x64.Release.Error-2.idtx:35
 msgid ""
@@ -913,6 +1209,7 @@ msgstr ""
 "שגיאה בקריאה מקובץ [2]. {{ שגיאת מערכת [3].}} ודא כי הקובץ קיים וכי יש לך "
 "אפשרות גישה אליו."
 
+#: en_US.ARM64.Debug.Error-2.idtx:36 en_US.ARM64.Release.Error-2.idtx:36
 #: en_US.Win32.Debug.Error-2.idtx:36 en_US.Win32.Release.Error-2.idtx:36
 #: en_US.x64.Debug.Error-2.idtx:36 en_US.x64.Release.Error-2.idtx:36
 msgid ""
@@ -922,6 +1219,7 @@ msgstr ""
 "ליישום אחר יש גישה בלעדית אל הקובץ '[2]'.  נא סגור את כל היישומים האחרים "
 "ולאחר מכן לחץ על נסה שנית."
 
+#: en_US.ARM64.Debug.Error-2.idtx:37 en_US.ARM64.Release.Error-2.idtx:37
 #: en_US.Win32.Debug.Error-2.idtx:37 en_US.Win32.Release.Error-2.idtx:37
 #: en_US.x64.Debug.Error-2.idtx:37 en_US.x64.Release.Error-2.idtx:37
 msgid ""
@@ -931,6 +1229,7 @@ msgstr ""
 "אין די שטח דיסק להתקנת קובץ זה: [2].  פנה שטח דיסק ולחץ על נסה שנית, או לחץ "
 "על ביטול כדי לצאת."
 
+#: en_US.ARM64.Debug.Error-2.idtx:38 en_US.ARM64.Release.Error-2.idtx:38
 #: en_US.Win32.Debug.Error-2.idtx:38 en_US.Win32.Release.Error-2.idtx:38
 #: en_US.x64.Debug.Error-2.idtx:38 en_US.x64.Release.Error-2.idtx:38
 msgid ""
@@ -939,6 +1238,7 @@ msgid ""
 msgstr ""
 "קובץ מקור לא נמצא: [2].  ודא כי הקובץ קיים וכי יש לך אפשרות גישה אליו."
 
+#: en_US.ARM64.Debug.Error-2.idtx:39 en_US.ARM64.Release.Error-2.idtx:39
 #: en_US.Win32.Debug.Error-2.idtx:39 en_US.Win32.Release.Error-2.idtx:39
 #: en_US.x64.Debug.Error-2.idtx:39 en_US.x64.Release.Error-2.idtx:39
 msgid ""
@@ -948,6 +1248,7 @@ msgstr ""
 "שגיאה בקריאה מקובץ: [3]. {{ שגיאת מערכת [2].}}  ודא כי הקובץ קיים וכי יש לך "
 "אפשרות גישה אליו."
 
+#: en_US.ARM64.Debug.Error-2.idtx:40 en_US.ARM64.Release.Error-2.idtx:40
 #: en_US.Win32.Debug.Error-2.idtx:40 en_US.Win32.Release.Error-2.idtx:40
 #: en_US.x64.Debug.Error-2.idtx:40 en_US.x64.Release.Error-2.idtx:40
 msgid ""
@@ -957,6 +1258,7 @@ msgstr ""
 "שגיאה בכתיבה לקובץ: [3]. {{ שגיאת מערכת [2].}}  ודא כי יש לך אפשרות גישה אל "
 "ספריה זו."
 
+#: en_US.ARM64.Debug.Error-2.idtx:41 en_US.ARM64.Release.Error-2.idtx:41
 #: en_US.Win32.Debug.Error-2.idtx:41 en_US.Win32.Release.Error-2.idtx:41
 #: en_US.x64.Debug.Error-2.idtx:41 en_US.x64.Release.Error-2.idtx:41
 msgid ""
@@ -966,6 +1268,7 @@ msgstr ""
 "קובץ מקור לא נמצא{{(cabinet)}}‏: [2].  ודא כי הקובץ קיים וכי יש לך אפשרות "
 "גישה אליו."
 
+#: en_US.ARM64.Debug.Error-2.idtx:42 en_US.ARM64.Release.Error-2.idtx:42
 #: en_US.Win32.Debug.Error-2.idtx:42 en_US.Win32.Release.Error-2.idtx:42
 #: en_US.x64.Debug.Error-2.idtx:42 en_US.x64.Release.Error-2.idtx:42
 msgid ""
@@ -975,36 +1278,43 @@ msgstr ""
 "אין אפשרות ליצור את הספריה '[2]'.  קובץ בשם זה קיים כבר.  נא שנה את שם הקובץ"
 " או הסר אותו ולחץ על נסה שנית, או לחץ על ביטול כדי לצאת."
 
+#: en_US.ARM64.Debug.Error-2.idtx:43 en_US.ARM64.Release.Error-2.idtx:43
 #: en_US.Win32.Debug.Error-2.idtx:43 en_US.Win32.Release.Error-2.idtx:43
 #: en_US.x64.Debug.Error-2.idtx:43 en_US.x64.Release.Error-2.idtx:43
 msgid "The volume [2] is currently unavailable.  Please select another."
 msgstr "אמצעי האחסון [2] אינו זמין כעת.  נא בחר אמצעי אחסון אחר."
 
+#: en_US.ARM64.Debug.Error-2.idtx:44 en_US.ARM64.Release.Error-2.idtx:44
 #: en_US.Win32.Debug.Error-2.idtx:44 en_US.Win32.Release.Error-2.idtx:44
 #: en_US.x64.Debug.Error-2.idtx:44 en_US.x64.Release.Error-2.idtx:44
 msgid "The specified path '[2]' is unavailable."
 msgstr "הנתיב שצויין '[2]' אינו זמין."
 
+#: en_US.ARM64.Debug.Error-2.idtx:45 en_US.ARM64.Release.Error-2.idtx:45
 #: en_US.Win32.Debug.Error-2.idtx:45 en_US.Win32.Release.Error-2.idtx:45
 #: en_US.x64.Debug.Error-2.idtx:45 en_US.x64.Release.Error-2.idtx:45
 msgid "Unable to write to the specified folder: [2]."
 msgstr "אין אפשרות לכתוב לתיקיה שצויינה: [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:46 en_US.ARM64.Release.Error-2.idtx:46
 #: en_US.Win32.Debug.Error-2.idtx:46 en_US.Win32.Release.Error-2.idtx:46
 #: en_US.x64.Debug.Error-2.idtx:46 en_US.x64.Release.Error-2.idtx:46
 msgid "A network error occurred while attempting to read from the file: [2]"
 msgstr "אירעה שגיאת רשת בעת ניסיון לקרוא מהקובץ: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:47 en_US.ARM64.Release.Error-2.idtx:47
 #: en_US.Win32.Debug.Error-2.idtx:47 en_US.Win32.Release.Error-2.idtx:47
 #: en_US.x64.Debug.Error-2.idtx:47 en_US.x64.Release.Error-2.idtx:47
 msgid "An error occurred while attempting to create the directory: [2]"
 msgstr "אירעה שגיאה בעת ניסיון ליצור את הספריה: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:48 en_US.ARM64.Release.Error-2.idtx:48
 #: en_US.Win32.Debug.Error-2.idtx:48 en_US.Win32.Release.Error-2.idtx:48
 #: en_US.x64.Debug.Error-2.idtx:48 en_US.x64.Release.Error-2.idtx:48
 msgid "A network error occurred while attempting to create the directory: [2]"
 msgstr "אירעה שגיאת רשת בעת ניסיון ליצור את הספריה: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:49 en_US.ARM64.Release.Error-2.idtx:49
 #: en_US.Win32.Debug.Error-2.idtx:49 en_US.Win32.Release.Error-2.idtx:49
 #: en_US.x64.Debug.Error-2.idtx:49 en_US.x64.Release.Error-2.idtx:49
 msgid ""
@@ -1012,16 +1322,19 @@ msgid ""
 "[2]"
 msgstr "אירעה שגיאת רשת בעת ניסיון לפתוח את רכיב cabinet של קבצי המקור: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:50 en_US.ARM64.Release.Error-2.idtx:50
 #: en_US.Win32.Debug.Error-2.idtx:50 en_US.Win32.Release.Error-2.idtx:50
 #: en_US.x64.Debug.Error-2.idtx:50 en_US.x64.Release.Error-2.idtx:50
 msgid "The specified path is too long: [2]"
 msgstr "הנתיב שצויין ארוך מדי: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:51 en_US.ARM64.Release.Error-2.idtx:51
 #: en_US.Win32.Debug.Error-2.idtx:51 en_US.Win32.Release.Error-2.idtx:51
 #: en_US.x64.Debug.Error-2.idtx:51 en_US.x64.Release.Error-2.idtx:51
 msgid "The Installer has insufficient privileges to modify this file: [2]."
 msgstr "אין למתקין הרשאות מתאימות לשינוי קובץ זה: [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:52 en_US.ARM64.Release.Error-2.idtx:52
 #: en_US.Win32.Debug.Error-2.idtx:52 en_US.Win32.Release.Error-2.idtx:52
 #: en_US.x64.Debug.Error-2.idtx:52 en_US.x64.Release.Error-2.idtx:52
 msgid ""
@@ -1031,32 +1344,38 @@ msgstr ""
 "חלק מנתיב התיקיה '[2]' אינו חוקי. הנתיב ריק או חורג מהאורך המירבי המותר "
 "במערכת."
 
+#: en_US.ARM64.Debug.Error-2.idtx:53 en_US.ARM64.Release.Error-2.idtx:53
 #: en_US.Win32.Debug.Error-2.idtx:53 en_US.Win32.Release.Error-2.idtx:53
 #: en_US.x64.Debug.Error-2.idtx:53 en_US.x64.Release.Error-2.idtx:53
 msgid ""
 "The folder path '[2]' contains words that are not valid in folder paths."
 msgstr "נתיב התיקיה '[2]' מכיל מילים שאינן חוקיות עבור נתיבי תיקיות."
 
+#: en_US.ARM64.Debug.Error-2.idtx:54 en_US.ARM64.Release.Error-2.idtx:54
 #: en_US.Win32.Debug.Error-2.idtx:54 en_US.Win32.Release.Error-2.idtx:54
 #: en_US.x64.Debug.Error-2.idtx:54 en_US.x64.Release.Error-2.idtx:54
 msgid "The folder path '[2]' contains an invalid character."
 msgstr "נתיב התיקיה '[2]' מכיל תו לא חוקי."
 
+#: en_US.ARM64.Debug.Error-2.idtx:55 en_US.ARM64.Release.Error-2.idtx:55
 #: en_US.Win32.Debug.Error-2.idtx:55 en_US.Win32.Release.Error-2.idtx:55
 #: en_US.x64.Debug.Error-2.idtx:55 en_US.x64.Release.Error-2.idtx:55
 msgid "'[2]' is not a valid short file name."
 msgstr "'[2]' אינו שם קובץ קצר חוקי."
 
+#: en_US.ARM64.Debug.Error-2.idtx:56 en_US.ARM64.Release.Error-2.idtx:56
 #: en_US.Win32.Debug.Error-2.idtx:56 en_US.Win32.Release.Error-2.idtx:56
 #: en_US.x64.Debug.Error-2.idtx:56 en_US.x64.Release.Error-2.idtx:56
 msgid "Error getting file security: [3] GetLastError: [2]"
 msgstr "שגיאה בקבלת אבטחת הקובץ: [3] GetLastError‏: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:57 en_US.ARM64.Release.Error-2.idtx:57
 #: en_US.Win32.Debug.Error-2.idtx:57 en_US.Win32.Release.Error-2.idtx:57
 #: en_US.x64.Debug.Error-2.idtx:57 en_US.x64.Release.Error-2.idtx:57
 msgid "Invalid Drive: [2]"
 msgstr "כונן לא חוקי: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:58 en_US.ARM64.Release.Error-2.idtx:58
 #: en_US.Win32.Debug.Error-2.idtx:58 en_US.Win32.Release.Error-2.idtx:58
 #: en_US.x64.Debug.Error-2.idtx:58 en_US.x64.Release.Error-2.idtx:58
 msgid ""
@@ -1068,6 +1387,7 @@ msgstr ""
 "לשינוי על-ידי התיקון. לקבלת מידע נוסף פנה לספק התיקון שלך.{{System Error: "
 "[3]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:59 en_US.ARM64.Release.Error-2.idtx:59
 #: en_US.Win32.Debug.Error-2.idtx:59 en_US.Win32.Release.Error-2.idtx:59
 #: en_US.x64.Debug.Error-2.idtx:59 en_US.x64.Release.Error-2.idtx:59
 msgid ""
@@ -1077,6 +1397,7 @@ msgstr ""
 "קובץ נדרש לא ניתן להתקנה מכיוון שקובץ cabinet [2] אינו חתום בחתימה דיגיטלית."
 " זה יכול להצביע על כך שקובץ ה-cabinet פגום."
 
+#: en_US.ARM64.Debug.Error-2.idtx:60 en_US.ARM64.Release.Error-2.idtx:60
 #: en_US.Win32.Debug.Error-2.idtx:60 en_US.Win32.Release.Error-2.idtx:60
 #: en_US.x64.Debug.Error-2.idtx:60 en_US.x64.Release.Error-2.idtx:60
 msgid ""
@@ -1088,21 +1409,25 @@ msgstr ""
 "תקיפה. זה יכול להצביע על קובץ cabinet פגום.{{ שגיאה [3]  הוחזר על ידי  "
 "WinVerifyTrust.}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:61 en_US.ARM64.Release.Error-2.idtx:61
 #: en_US.Win32.Debug.Error-2.idtx:61 en_US.Win32.Release.Error-2.idtx:61
 #: en_US.x64.Debug.Error-2.idtx:61 en_US.x64.Release.Error-2.idtx:61
 msgid "Failed to correctly copy [2] file: CRC error."
 msgstr "העתקה נכונה של הקובץ [2] נכשלה: שגיאת CRC."
 
+#: en_US.ARM64.Debug.Error-2.idtx:62 en_US.ARM64.Release.Error-2.idtx:62
 #: en_US.Win32.Debug.Error-2.idtx:62 en_US.Win32.Release.Error-2.idtx:62
 #: en_US.x64.Debug.Error-2.idtx:62 en_US.x64.Release.Error-2.idtx:62
 msgid "Failed to correctly move [2] file: CRC error."
 msgstr "העברה נכונה של הקובץ [2] נכשלה: שגיאת CRC ."
 
+#: en_US.ARM64.Debug.Error-2.idtx:63 en_US.ARM64.Release.Error-2.idtx:63
 #: en_US.Win32.Debug.Error-2.idtx:63 en_US.Win32.Release.Error-2.idtx:63
 #: en_US.x64.Debug.Error-2.idtx:63 en_US.x64.Release.Error-2.idtx:63
 msgid "Failed to correctly patch [2] file: CRC error."
 msgstr "תיקון נכון של הקובץ [2] נכשל: שגיאת CRC."
 
+#: en_US.ARM64.Debug.Error-2.idtx:64 en_US.ARM64.Release.Error-2.idtx:64
 #: en_US.Win32.Debug.Error-2.idtx:64 en_US.Win32.Release.Error-2.idtx:64
 #: en_US.x64.Debug.Error-2.idtx:64 en_US.x64.Release.Error-2.idtx:64
 msgid ""
@@ -1113,6 +1438,7 @@ msgstr ""
 "לא ניתן להתקין את הקובץ '[2]'  מכיוון שהקובץ לא נמצא בקובץ cabinet  '[3]'. "
 "זה יכול להצביע על שגיאה ברשת, שגיאה בקריאת התקליטור או בעיה בחבילה זו."
 
+#: en_US.ARM64.Debug.Error-2.idtx:65 en_US.ARM64.Release.Error-2.idtx:65
 #: en_US.Win32.Debug.Error-2.idtx:65 en_US.Win32.Release.Error-2.idtx:65
 #: en_US.x64.Debug.Error-2.idtx:65 en_US.x64.Release.Error-2.idtx:65
 msgid ""
@@ -1123,6 +1449,7 @@ msgstr ""
 "קובץ ה-cabinet '[2]' הדרוש להתקנה זו, פגום  ולא ניתן להשתמש בו. זה יכול "
 "להצביע על שגיאה ברשת, שגיאה בקריאה מהתקליטור או בעיה בחבילה זו."
 
+#: en_US.ARM64.Debug.Error-2.idtx:66 en_US.ARM64.Release.Error-2.idtx:66
 #: en_US.Win32.Debug.Error-2.idtx:66 en_US.Win32.Release.Error-2.idtx:66
 #: en_US.x64.Debug.Error-2.idtx:66 en_US.x64.Release.Error-2.idtx:66
 msgid ""
@@ -1132,6 +1459,7 @@ msgstr ""
 "אירעה שגיאה ביצירת קובץ זמני הדרוש להשלמת התקנה זו.{{  תיקיה: [3]. קוד שגיאת"
 " מערכת: [2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:67 en_US.ARM64.Release.Error-2.idtx:67
 #: en_US.Win32.Debug.Error-2.idtx:67 en_US.Win32.Release.Error-2.idtx:67
 #: en_US.x64.Debug.Error-2.idtx:67 en_US.x64.Release.Error-2.idtx:67
 msgid ""
@@ -1141,6 +1469,7 @@ msgstr ""
 "לא היתה אפשרות ליצור מפתח: [2]. {{ שגיאת מערכת [3].}}  ודא כי יש לך הרשאות "
 "גישה מתאימות למפתח זה, או פנה אל צוות התמיכה. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:68 en_US.ARM64.Release.Error-2.idtx:68
 #: en_US.Win32.Debug.Error-2.idtx:68 en_US.Win32.Release.Error-2.idtx:68
 #: en_US.x64.Debug.Error-2.idtx:68 en_US.x64.Release.Error-2.idtx:68
 msgid ""
@@ -1150,6 +1479,7 @@ msgstr ""
 "לא היתה אפשרות לפתוח מפתח: [2]. {{ שגיאת מערכת [3].}}  ודא כי יש לך הרשאות "
 "גישה מתאימות למפתח זה, או פנה אל צוות התמיכה. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:69 en_US.ARM64.Release.Error-2.idtx:69
 #: en_US.Win32.Debug.Error-2.idtx:69 en_US.Win32.Release.Error-2.idtx:69
 #: en_US.x64.Debug.Error-2.idtx:69 en_US.x64.Release.Error-2.idtx:69
 msgid ""
@@ -1159,6 +1489,7 @@ msgstr ""
 "לא היתה אפשרות למחוק ערך [2] ממפתח [3]. {{ שגיאת מערכת [4].}}  ודא כי יש לך "
 "הרשאות גישה מתאימות למפתח זה, או פנה אל צוות התמיכה. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:70 en_US.ARM64.Release.Error-2.idtx:70
 #: en_US.Win32.Debug.Error-2.idtx:70 en_US.Win32.Release.Error-2.idtx:70
 #: en_US.x64.Debug.Error-2.idtx:70 en_US.x64.Release.Error-2.idtx:70
 msgid ""
@@ -1168,6 +1499,7 @@ msgstr ""
 "לא היתה אפשרות למחוק מפתח [2]. {{ שגיאת מערכת [3].}}  ודא כי יש לך הרשאות "
 "גישה מתאימות למפתח זה, או פנה אל צוות התמיכה. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:71 en_US.ARM64.Release.Error-2.idtx:71
 #: en_US.Win32.Debug.Error-2.idtx:71 en_US.Win32.Release.Error-2.idtx:71
 #: en_US.x64.Debug.Error-2.idtx:71 en_US.x64.Release.Error-2.idtx:71
 msgid ""
@@ -1177,6 +1509,7 @@ msgstr ""
 "לא היתה אפשרות לקרוא ערך [2] ממפתח [3]. {{ שגיאת מערכת [4].}}  ודא כי יש לך "
 "הרשאות גישה מתאימות למפתח זה, או פנה אל צוות התמיכה. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:72 en_US.ARM64.Release.Error-2.idtx:72
 #: en_US.Win32.Debug.Error-2.idtx:72 en_US.Win32.Release.Error-2.idtx:72
 #: en_US.x64.Debug.Error-2.idtx:72 en_US.x64.Release.Error-2.idtx:72
 msgid ""
@@ -1186,6 +1519,7 @@ msgstr ""
 "לא היתה אפשרות לכתוב ערך [2] למפתח [3]. {{ שגיאת מערכת [4].}}  ודא כי יש לך "
 "הרשאות גישה מתאימות למפתח זה, או פנה אל צוות התמיכה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:73 en_US.ARM64.Release.Error-2.idtx:73
 #: en_US.Win32.Debug.Error-2.idtx:73 en_US.Win32.Release.Error-2.idtx:73
 #: en_US.x64.Debug.Error-2.idtx:73 en_US.x64.Release.Error-2.idtx:73
 msgid ""
@@ -1195,6 +1529,7 @@ msgstr ""
 "לא היתה אפשרות לקבל שמות ערכים עבור מפתח [2]. {{ שגיאת מערכת [3].}}  ודא כי "
 "יש לך הרשאות גישה מתאימות למפתח זה, או פנה אל צוות התמיכה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:74 en_US.ARM64.Release.Error-2.idtx:74
 #: en_US.Win32.Debug.Error-2.idtx:74 en_US.Win32.Release.Error-2.idtx:74
 #: en_US.x64.Debug.Error-2.idtx:74 en_US.x64.Release.Error-2.idtx:74
 msgid ""
@@ -1204,6 +1539,7 @@ msgstr ""
 "לא היתה אפשרות לקבל שמות מפתחות משניים עבור מפתח [2]. {{ שגיאת מערכת [3].}}"
 "  ודא כי יש לך הרשאות גישה מתאימות למפתח זה, או פנה אל צוות התמיכה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:75 en_US.ARM64.Release.Error-2.idtx:75
 #: en_US.Win32.Debug.Error-2.idtx:75 en_US.Win32.Release.Error-2.idtx:75
 #: en_US.x64.Debug.Error-2.idtx:75 en_US.x64.Release.Error-2.idtx:75
 msgid ""
@@ -1214,6 +1550,7 @@ msgstr ""
 "לא היתה אפשרות לקרוא מידע אבטחה עבור מפתח [2]. {{ שגיאת מערכת [3].}}  ודא כי"
 " יש לך הרשאות גישה מתאימות למפתח זה, או פנה אל צוות התמיכה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:76 en_US.ARM64.Release.Error-2.idtx:76
 #: en_US.Win32.Debug.Error-2.idtx:76 en_US.Win32.Release.Error-2.idtx:76
 #: en_US.x64.Debug.Error-2.idtx:76 en_US.x64.Release.Error-2.idtx:76
 msgid ""
@@ -1223,6 +1560,7 @@ msgstr ""
 "לא היתה אפשרות להגדיל את שטח הרישום הזמין. ‎[2] KB של שטח רישום פנוי דרושים "
 "להתקנת יישום זה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:77 en_US.ARM64.Release.Error-2.idtx:77
 #: en_US.Win32.Debug.Error-2.idtx:77 en_US.Win32.Release.Error-2.idtx:77
 #: en_US.x64.Debug.Error-2.idtx:77 en_US.x64.Release.Error-2.idtx:77
 msgid ""
@@ -1230,6 +1568,7 @@ msgid ""
 "before continuing this one."
 msgstr "התקנה אחרת מתבצעת כעת. עליך להשלים אותה לפני שתמשיך בהתקנה הנוכחית."
 
+#: en_US.ARM64.Debug.Error-2.idtx:78 en_US.ARM64.Release.Error-2.idtx:78
 #: en_US.Win32.Debug.Error-2.idtx:78 en_US.Win32.Release.Error-2.idtx:78
 #: en_US.x64.Debug.Error-2.idtx:78 en_US.x64.Release.Error-2.idtx:78
 msgid ""
@@ -1239,6 +1578,7 @@ msgstr ""
 "שגיאה בגישה אל נתונים מאובטחים. נא ודא כי Windows Installer מוגדר כראוי ונסה"
 " את ההתקנה שוב."
 
+#: en_US.ARM64.Debug.Error-2.idtx:79 en_US.ARM64.Release.Error-2.idtx:79
 #: en_US.Win32.Debug.Error-2.idtx:79 en_US.Win32.Release.Error-2.idtx:79
 #: en_US.x64.Debug.Error-2.idtx:79 en_US.x64.Release.Error-2.idtx:79
 msgid ""
@@ -1249,6 +1589,7 @@ msgstr ""
 "המשתמש '[2]' התחיל בעבר התקנה של המוצר '[3]'.  משתמש זה יצטרך להפעיל התקנה "
 "זו שוב לפני שיהיה באפשרותו להשתמש במוצר.  ההתקנה הנוכחית שלך תמשיך כעת."
 
+#: en_US.ARM64.Debug.Error-2.idtx:80 en_US.ARM64.Release.Error-2.idtx:80
 #: en_US.Win32.Debug.Error-2.idtx:80 en_US.Win32.Release.Error-2.idtx:80
 #: en_US.x64.Debug.Error-2.idtx:80 en_US.x64.Release.Error-2.idtx:80
 msgid ""
@@ -1258,6 +1599,7 @@ msgstr ""
 "המשתמש '[2]' התחיל בעבר התקנה של המוצר '[3]'.  משתמש זה יצטרך להפעיל התקנה "
 "זו שוב לפני שיהיה באפשרותו להשתמש במוצר."
 
+#: en_US.ARM64.Debug.Error-2.idtx:81 en_US.ARM64.Release.Error-2.idtx:81
 #: en_US.Win32.Debug.Error-2.idtx:81 en_US.Win32.Release.Error-2.idtx:81
 #: en_US.x64.Debug.Error-2.idtx:81 en_US.x64.Release.Error-2.idtx:81
 msgid ""
@@ -1267,11 +1609,13 @@ msgstr ""
 "אין שטח דיסק פנוי -- אמצעי אחסון: '[2]'; שטח דרוש: ‎[3] KB; שטח פנוי: ‎[4] "
 "KB.  פנה שטח דיסק ונסה שנית."
 
+#: en_US.ARM64.Debug.Error-2.idtx:82 en_US.ARM64.Release.Error-2.idtx:82
 #: en_US.Win32.Debug.Error-2.idtx:82 en_US.Win32.Release.Error-2.idtx:82
 #: en_US.x64.Debug.Error-2.idtx:82 en_US.x64.Release.Error-2.idtx:82
 msgid "Are you sure you want to cancel?"
 msgstr "האם אתה בטוח כי ברצונך לבטל?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:83 en_US.ARM64.Release.Error-2.idtx:83
 #: en_US.Win32.Debug.Error-2.idtx:83 en_US.Win32.Release.Error-2.idtx:83
 #: en_US.x64.Debug.Error-2.idtx:83 en_US.x64.Release.Error-2.idtx:83
 msgid ""
@@ -1281,6 +1625,7 @@ msgstr ""
 "הקובץ [2][3] נמצא בשימוש{ על-ידי התהליך הבא: שם: [4], מזהה: [5], כותרת חלון:"
 " '[6]'}.  סגור יישום זה ונסה שנית."
 
+#: en_US.ARM64.Debug.Error-2.idtx:84 en_US.ARM64.Release.Error-2.idtx:84
 #: en_US.Win32.Debug.Error-2.idtx:84 en_US.Win32.Release.Error-2.idtx:84
 #: en_US.x64.Debug.Error-2.idtx:84 en_US.x64.Release.Error-2.idtx:84
 msgid ""
@@ -1289,6 +1634,7 @@ msgid ""
 msgstr ""
 "המוצר '[2]' מותקן כבר והדבר מונע את התקנת מוצר זה.  שני המוצרים אינם תואמים."
 
+#: en_US.ARM64.Debug.Error-2.idtx:85 en_US.ARM64.Release.Error-2.idtx:85
 #: en_US.Win32.Debug.Error-2.idtx:85 en_US.Win32.Release.Error-2.idtx:85
 #: en_US.x64.Debug.Error-2.idtx:85 en_US.x64.Release.Error-2.idtx:85
 msgid ""
@@ -1303,17 +1649,20 @@ msgstr ""
 "להמשיך ללא אפשרות שמירת מידע על חזרה למצב קודם. לחץ 'נסה שנית' כדי לבדוק שוב"
 " את שטח הדיסק הפנוי, או לחץ על 'ביטול' כדי לצאת מההתקנה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:86 en_US.ARM64.Release.Error-2.idtx:86
 #: en_US.Win32.Debug.Error-2.idtx:86 en_US.Win32.Release.Error-2.idtx:86
 #: en_US.x64.Debug.Error-2.idtx:86 en_US.x64.Release.Error-2.idtx:86
 msgid "Could not access network location [2]."
 msgstr "לא היתה אפשרות גישה אל מיקום הרשת [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:87 en_US.ARM64.Release.Error-2.idtx:87
 #: en_US.Win32.Debug.Error-2.idtx:87 en_US.Win32.Release.Error-2.idtx:87
 #: en_US.x64.Debug.Error-2.idtx:87 en_US.x64.Release.Error-2.idtx:87
 msgid ""
 "The following applications should be closed before continuing the install:"
 msgstr "יש לסגור את היישומים הבאים לפני המשך ההתקנה:"
 
+#: en_US.ARM64.Debug.Error-2.idtx:88 en_US.ARM64.Release.Error-2.idtx:88
 #: en_US.Win32.Debug.Error-2.idtx:88 en_US.Win32.Release.Error-2.idtx:88
 #: en_US.x64.Debug.Error-2.idtx:88 en_US.x64.Release.Error-2.idtx:88
 msgid ""
@@ -1321,6 +1670,7 @@ msgid ""
 "for installing this product."
 msgstr "לא נמצאו מוצרים מותקנים תואמים במחשב המיועד להתקנת מוצר זה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:89 en_US.ARM64.Release.Error-2.idtx:89
 #: en_US.Win32.Debug.Error-2.idtx:89 en_US.Win32.Release.Error-2.idtx:89
 #: en_US.x64.Debug.Error-2.idtx:89 en_US.x64.Release.Error-2.idtx:89
 msgid ""
@@ -1335,6 +1685,7 @@ msgstr ""
 "את הקשר לרשת שלך ואז לחץ על נסה שוב, או ביטול על מנת לסיים את ההתקנה.{{ אינו"
 " מצליח למצוא מספר זהוי משתמש, שגחאת מערכת[3]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:90 en_US.ARM64.Release.Error-2.idtx:90
 #: en_US.Win32.Debug.Error-2.idtx:90 en_US.Win32.Release.Error-2.idtx:90
 #: en_US.x64.Debug.Error-2.idtx:90 en_US.x64.Release.Error-2.idtx:90
 msgid ""
@@ -1345,6 +1696,7 @@ msgstr ""
 "‏על ההתקנה לעדכן קבצים או שירותים שאין אפשרות לעדכנם בעת שהמערכת פועלת. אם "
 "תבחר להמשיך, יידרש אתחול מחדש כדי להשלים את ההתקנה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:91 en_US.ARM64.Release.Error-2.idtx:91
 #: en_US.Win32.Debug.Error-2.idtx:91 en_US.Win32.Release.Error-2.idtx:91
 #: en_US.x64.Debug.Error-2.idtx:91 en_US.x64.Release.Error-2.idtx:91
 msgid ""
@@ -1353,6 +1705,7 @@ msgid ""
 "required to complete the setup."
 msgstr ""
 
+#: en_US.ARM64.Debug.Error-2.idtx:92 en_US.ARM64.Release.Error-2.idtx:92
 #: en_US.Win32.Debug.Error-2.idtx:92 en_US.Win32.Release.Error-2.idtx:92
 #: en_US.x64.Debug.Error-2.idtx:92 en_US.x64.Release.Error-2.idtx:92
 msgid ""
@@ -1360,11 +1713,13 @@ msgid ""
 "application vendor."
 msgstr ""
 
+#: en_US.ARM64.Debug.Error-2.idtx:93 en_US.ARM64.Release.Error-2.idtx:93
 #: en_US.Win32.Debug.Error-2.idtx:93 en_US.Win32.Release.Error-2.idtx:93
 #: en_US.x64.Debug.Error-2.idtx:93 en_US.x64.Release.Error-2.idtx:93
 msgid "The key [2] is not valid.  Verify that you entered the correct key."
 msgstr "המפתח [2] אינו חוקי.  ודא כי הזנת את המפתח הנכון."
 
+#: en_US.ARM64.Debug.Error-2.idtx:94 en_US.ARM64.Release.Error-2.idtx:94
 #: en_US.Win32.Debug.Error-2.idtx:94 en_US.Win32.Release.Error-2.idtx:94
 #: en_US.x64.Debug.Error-2.idtx:94 en_US.x64.Release.Error-2.idtx:94
 msgid ""
@@ -1376,6 +1731,7 @@ msgstr ""
 " כן כדי להפעיל את המערכת מחדש כעת או לחץ על לא אם בכוונתך להפעיל את המערכת "
 "מחדש באופן ידני מאוחר יותר."
 
+#: en_US.ARM64.Debug.Error-2.idtx:95 en_US.ARM64.Release.Error-2.idtx:95
 #: en_US.Win32.Debug.Error-2.idtx:95 en_US.Win32.Release.Error-2.idtx:95
 #: en_US.x64.Debug.Error-2.idtx:95 en_US.x64.Release.Error-2.idtx:95
 msgid ""
@@ -1387,6 +1743,7 @@ msgstr ""
 " כדי להפעיל את המערכת מחדש כעת או לחץ על לא אם בכוונתך להפעיל את המערכת מחדש"
 " באופן ידני מאוחר יותר."
 
+#: en_US.ARM64.Debug.Error-2.idtx:96 en_US.ARM64.Release.Error-2.idtx:96
 #: en_US.Win32.Debug.Error-2.idtx:96 en_US.Win32.Release.Error-2.idtx:96
 #: en_US.x64.Debug.Error-2.idtx:96 en_US.x64.Release.Error-2.idtx:96
 msgid ""
@@ -1396,6 +1753,7 @@ msgstr ""
 "התקנה של [2] מושהית כעת.  עליך לבטל את השינויים שבוצעו על-ידי התקנה זו כדי "
 "להמשיך.  האם ברצונך לבטל שינויים אלה?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:97 en_US.ARM64.Release.Error-2.idtx:97
 #: en_US.Win32.Debug.Error-2.idtx:97 en_US.Win32.Release.Error-2.idtx:97
 #: en_US.x64.Debug.Error-2.idtx:97 en_US.x64.Release.Error-2.idtx:97
 msgid ""
@@ -1406,6 +1764,7 @@ msgstr ""
 "התקנה קודמת של מוצר זה מתבצעת כעת.  עליך לבטל את השינויים שבוצעו על-ידי "
 "התקנה זו כדי להמשיך.  האם ברצונך לבטל שינויים אלה?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:98 en_US.ARM64.Release.Error-2.idtx:98
 #: en_US.Win32.Debug.Error-2.idtx:98 en_US.Win32.Release.Error-2.idtx:98
 #: en_US.x64.Debug.Error-2.idtx:98 en_US.x64.Release.Error-2.idtx:98
 msgid ""
@@ -1415,21 +1774,25 @@ msgstr ""
 "לא נמצאה חבילת התקנה עבור המוצר [2]. נסה את ההתקנה שוב בעזרת עותק חוקי של "
 "חבילת ההתקנה '[3]'."
 
+#: en_US.ARM64.Debug.Error-2.idtx:99 en_US.ARM64.Release.Error-2.idtx:99
 #: en_US.Win32.Debug.Error-2.idtx:99 en_US.Win32.Release.Error-2.idtx:99
 #: en_US.x64.Debug.Error-2.idtx:99 en_US.x64.Release.Error-2.idtx:99
 msgid "Installation completed successfully."
 msgstr "ההתקנה הושלמה בהצלחה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:100 en_US.ARM64.Release.Error-2.idtx:100
 #: en_US.Win32.Debug.Error-2.idtx:100 en_US.Win32.Release.Error-2.idtx:100
 #: en_US.x64.Debug.Error-2.idtx:100 en_US.x64.Release.Error-2.idtx:100
 msgid "Installation failed."
 msgstr "ההתקנה נכשלה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:101 en_US.ARM64.Release.Error-2.idtx:101
 #: en_US.Win32.Debug.Error-2.idtx:101 en_US.Win32.Release.Error-2.idtx:101
 #: en_US.x64.Debug.Error-2.idtx:101 en_US.x64.Release.Error-2.idtx:101
 msgid "Product: [2] -- [3]"
 msgstr "מוצר: [2] -- [3]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:102 en_US.ARM64.Release.Error-2.idtx:102
 #: en_US.Win32.Debug.Error-2.idtx:102 en_US.Win32.Release.Error-2.idtx:102
 #: en_US.x64.Debug.Error-2.idtx:102 en_US.x64.Release.Error-2.idtx:102
 msgid ""
@@ -1439,6 +1802,7 @@ msgstr ""
 "באפשרותך לשחזר את מצבו הקודם של המחשב או להמשיך בהתקנה מאוחר יותר. האם "
 "ברצונך לשחזר?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:103 en_US.ARM64.Release.Error-2.idtx:103
 #: en_US.Win32.Debug.Error-2.idtx:103 en_US.Win32.Release.Error-2.idtx:103
 #: en_US.x64.Debug.Error-2.idtx:103 en_US.x64.Release.Error-2.idtx:103
 msgid ""
@@ -1449,6 +1813,7 @@ msgstr ""
 "אירעה שגיאה בעת כתיבת מידע התקנה לדיסק.  ודא כי יש די שטח דיסק זמין ולחץ על "
 "נסה שנית, או לחץ על ביטול כדי לסיים את ההתקנה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:104 en_US.ARM64.Release.Error-2.idtx:104
 #: en_US.Win32.Debug.Error-2.idtx:104 en_US.Win32.Release.Error-2.idtx:104
 #: en_US.x64.Debug.Error-2.idtx:104 en_US.x64.Release.Error-2.idtx:104
 msgid ""
@@ -1458,6 +1823,7 @@ msgstr ""
 "קובץ אחד או יותר מן הקבצים הדרושים לשחזור מצבו הקודם של המחשב לא נמצאו.  לא "
 "תהיה אפשרות לבצע את השחזור."
 
+#: en_US.ARM64.Debug.Error-2.idtx:105 en_US.ARM64.Release.Error-2.idtx:105
 #: en_US.Win32.Debug.Error-2.idtx:105 en_US.Win32.Release.Error-2.idtx:105
 #: en_US.x64.Debug.Error-2.idtx:105 en_US.x64.Release.Error-2.idtx:105
 msgid ""
@@ -1467,6 +1833,7 @@ msgstr ""
 "[2] אין אפשרות להתקין את אחד מהמוצרים הנדרשים. פנה אל צוות התמיכה "
 "שלך.{{System Error: [3].}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:106 en_US.ARM64.Release.Error-2.idtx:106
 #: en_US.Win32.Debug.Error-2.idtx:106 en_US.Win32.Release.Error-2.idtx:106
 #: en_US.x64.Debug.Error-2.idtx:106 en_US.x64.Release.Error-2.idtx:106
 msgid ""
@@ -1476,26 +1843,31 @@ msgstr ""
 "הגירסה הקודמת של [2] לא ניתנת להסרה. פנה אל צוות התמיכה שלך.{{System Error: "
 "[3].}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:107 en_US.ARM64.Release.Error-2.idtx:107
 #: en_US.Win32.Debug.Error-2.idtx:107 en_US.Win32.Release.Error-2.idtx:107
 #: en_US.x64.Debug.Error-2.idtx:107 en_US.x64.Release.Error-2.idtx:107
 msgid "Installed [2]"
 msgstr "הותקן [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:108 en_US.ARM64.Release.Error-2.idtx:108
 #: en_US.Win32.Debug.Error-2.idtx:108 en_US.Win32.Release.Error-2.idtx:108
 #: en_US.x64.Debug.Error-2.idtx:108 en_US.x64.Release.Error-2.idtx:108
 msgid "Configured [2]"
 msgstr "קובע תצורה [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:109 en_US.ARM64.Release.Error-2.idtx:109
 #: en_US.Win32.Debug.Error-2.idtx:109 en_US.Win32.Release.Error-2.idtx:109
 #: en_US.x64.Debug.Error-2.idtx:109 en_US.x64.Release.Error-2.idtx:109
 msgid "Removed [2]"
 msgstr "הוסר [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:110 en_US.ARM64.Release.Error-2.idtx:110
 #: en_US.Win32.Debug.Error-2.idtx:110 en_US.Win32.Release.Error-2.idtx:110
 #: en_US.x64.Debug.Error-2.idtx:110 en_US.x64.Release.Error-2.idtx:110
 msgid "File [2] was rejected by digital signature policy."
 msgstr "קובץ [2]  נדחה על ידי מדיניות החתימה הדיגיטלית."
 
+#: en_US.ARM64.Debug.Error-2.idtx:111 en_US.ARM64.Release.Error-2.idtx:111
 #: en_US.Win32.Debug.Error-2.idtx:111 en_US.Win32.Release.Error-2.idtx:111
 #: en_US.x64.Debug.Error-2.idtx:111 en_US.x64.Release.Error-2.idtx:111
 msgid ""
@@ -1507,6 +1879,7 @@ msgstr ""
 "פועל במצב בטוח או Windows Installer  אינו מותקן כראוי. פנה אל צוות התמיכה "
 "שלך לעזרה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:112 en_US.ARM64.Release.Error-2.idtx:112
 #: en_US.Win32.Debug.Error-2.idtx:112 en_US.Win32.Release.Error-2.idtx:112
 #: en_US.x64.Debug.Error-2.idtx:112 en_US.x64.Release.Error-2.idtx:112
 msgid ""
@@ -1519,6 +1892,7 @@ msgstr ""
 "להשלמת התקנה זו. פנה אל צוות התמיכה שלך או אל ספק החבילה.  {{פעולה מותאמת "
 "[2] שגיאת תסריט [3], [4]: [5] שורה [6], טור [7], [8] }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:113 en_US.ARM64.Release.Error-2.idtx:113
 #: en_US.Win32.Debug.Error-2.idtx:113 en_US.Win32.Release.Error-2.idtx:113
 #: en_US.x64.Debug.Error-2.idtx:113 en_US.x64.Release.Error-2.idtx:113
 msgid ""
@@ -1530,6 +1904,7 @@ msgstr ""
 "להשלמת התקנה זו. פנה אל צוות התמיכה שלך או אל ספק החבילה.. {{פעולה: [2], "
 "מיקום: [3], פקודה: [4] }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:114 en_US.ARM64.Release.Error-2.idtx:114
 #: en_US.Win32.Debug.Error-2.idtx:114 en_US.Win32.Release.Error-2.idtx:114
 #: en_US.x64.Debug.Error-2.idtx:114 en_US.x64.Release.Error-2.idtx:114
 msgid ""
@@ -1541,6 +1916,7 @@ msgstr ""
 "לא סיימה כצפוי. פנה אל צוות התמיכה שלך או אל ספק החבילה.{{פעולה [2], מיקום: "
 "[3], פקודה: [4] }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:115 en_US.ARM64.Release.Error-2.idtx:115
 #: en_US.Win32.Debug.Error-2.idtx:115 en_US.Win32.Release.Error-2.idtx:115
 #: en_US.x64.Debug.Error-2.idtx:115 en_US.x64.Release.Error-2.idtx:115
 msgid ""
@@ -1552,36 +1928,43 @@ msgstr ""
 "לא ניתן להרצה. פנה אל צוות התמיכה שלך או לספק החבילה. {{פעולה [2], הוספה: "
 "[3], ספריה: [4] }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:116 en_US.ARM64.Release.Error-2.idtx:116
 #: en_US.Win32.Debug.Error-2.idtx:116 en_US.Win32.Release.Error-2.idtx:116
 #: en_US.x64.Debug.Error-2.idtx:116 en_US.x64.Release.Error-2.idtx:116
 msgid "Removal completed successfully."
 msgstr "ההסרה הושלמה בהצלחה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:117 en_US.ARM64.Release.Error-2.idtx:117
 #: en_US.Win32.Debug.Error-2.idtx:117 en_US.Win32.Release.Error-2.idtx:117
 #: en_US.x64.Debug.Error-2.idtx:117 en_US.x64.Release.Error-2.idtx:117
 msgid "Removal failed."
 msgstr "ההסרה נכשלה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:118 en_US.ARM64.Release.Error-2.idtx:118
 #: en_US.Win32.Debug.Error-2.idtx:118 en_US.Win32.Release.Error-2.idtx:118
 #: en_US.x64.Debug.Error-2.idtx:118 en_US.x64.Release.Error-2.idtx:118
 msgid "Advertisement completed successfully."
 msgstr "הפרסום הושלם בהצלחה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:119 en_US.ARM64.Release.Error-2.idtx:119
 #: en_US.Win32.Debug.Error-2.idtx:119 en_US.Win32.Release.Error-2.idtx:119
 #: en_US.x64.Debug.Error-2.idtx:119 en_US.x64.Release.Error-2.idtx:119
 msgid "Advertisement failed."
 msgstr "הפרסום נכשל."
 
+#: en_US.ARM64.Debug.Error-2.idtx:120 en_US.ARM64.Release.Error-2.idtx:120
 #: en_US.Win32.Debug.Error-2.idtx:120 en_US.Win32.Release.Error-2.idtx:120
 #: en_US.x64.Debug.Error-2.idtx:120 en_US.x64.Release.Error-2.idtx:120
 msgid "Configuration completed successfully."
 msgstr "קביעת התצורה הושלמה בהצלחה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:121 en_US.ARM64.Release.Error-2.idtx:121
 #: en_US.Win32.Debug.Error-2.idtx:121 en_US.Win32.Release.Error-2.idtx:121
 #: en_US.x64.Debug.Error-2.idtx:121 en_US.x64.Release.Error-2.idtx:121
 msgid "Configuration failed."
 msgstr "קביעת התצורה נכשלה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:122 en_US.ARM64.Release.Error-2.idtx:122
 #: en_US.Win32.Debug.Error-2.idtx:122 en_US.Win32.Release.Error-2.idtx:122
 #: en_US.x64.Debug.Error-2.idtx:122 en_US.x64.Release.Error-2.idtx:122
 msgid ""
@@ -1592,6 +1975,7 @@ msgstr ""
 "עליך להיות מנהל על מנת להסיר ישום זה. להסרת ישום זה,  הכנס לרשת כמנהל, או "
 "פנה אל צוות התמיכה הטכנית שלך לעזרה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:123 en_US.ARM64.Release.Error-2.idtx:123
 #: en_US.Win32.Debug.Error-2.idtx:123 en_US.Win32.Release.Error-2.idtx:123
 #: en_US.x64.Debug.Error-2.idtx:123 en_US.x64.Release.Error-2.idtx:123
 msgid ""
@@ -1602,6 +1986,7 @@ msgstr ""
 "חבילת התקנת המקור עבור המוצר [2] אינה מסונכרנת עם חבילת הלקוח. נסה לבצע שוב "
 "את ההתקנה באמצעות עותק חוקי של חבילת ההתקנה '[3]'."
 
+#: en_US.ARM64.Debug.Error-2.idtx:124 en_US.ARM64.Release.Error-2.idtx:124
 #: en_US.Win32.Debug.Error-2.idtx:124 en_US.Win32.Release.Error-2.idtx:124
 #: en_US.x64.Debug.Error-2.idtx:124 en_US.x64.Release.Error-2.idtx:124
 msgid ""
@@ -1613,6 +1998,7 @@ msgstr ""
 "כרגע למחשב זה, וההפעלה מחדש עשויה לגרום לאובדן העבודה שמשתמשים אלה ביצעו. "
 "האם ברצונך לבצע הפעלה מחדש כעת?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:125 en_US.ARM64.Release.Error-2.idtx:125
 #: en_US.Win32.Debug.Error-2.idtx:125 en_US.Win32.Release.Error-2.idtx:125
 #: en_US.x64.Debug.Error-2.idtx:125 en_US.x64.Release.Error-2.idtx:125
 msgid ""
@@ -1624,11 +2010,13 @@ msgstr ""
 "במצב בטוח. לחלופין, באפשרותך להשתמש בשחזור המערכת כדי להחזיר את המחשב למצב "
 "תקין קודם."
 
+#: en_US.ARM64.Debug.Error-2.idtx:126 en_US.ARM64.Release.Error-2.idtx:126
 #: en_US.Win32.Debug.Error-2.idtx:126 en_US.Win32.Release.Error-2.idtx:126
 #: en_US.x64.Debug.Error-2.idtx:126 en_US.x64.Release.Error-2.idtx:126
 msgid "The path [2] is not valid.  Please specify a valid path."
 msgstr "הנתיב [2] אינו חוקי.  נא ציין נתיב חוקי."
 
+#: en_US.ARM64.Debug.Error-2.idtx:128 en_US.ARM64.Release.Error-2.idtx:128
 #: en_US.Win32.Debug.Error-2.idtx:128 en_US.Win32.Release.Error-2.idtx:128
 #: en_US.x64.Debug.Error-2.idtx:128 en_US.x64.Release.Error-2.idtx:128
 msgid ""
@@ -1638,6 +2026,7 @@ msgstr ""
 "אין דיסק בכונן [2]. נא הכנס דיסק ולחץ על נסה שנית, או לחץ על ביטול כדי לחזור"
 " אל אמצעי האחסון הקודם שנבחר."
 
+#: en_US.ARM64.Debug.Error-2.idtx:129 en_US.ARM64.Release.Error-2.idtx:129
 #: en_US.Win32.Debug.Error-2.idtx:129 en_US.Win32.Release.Error-2.idtx:129
 #: en_US.x64.Debug.Error-2.idtx:129 en_US.x64.Release.Error-2.idtx:129
 msgid ""
@@ -1647,27 +2036,32 @@ msgstr ""
 "אין דיסק בכונן [2]. נא הכנס דיסק ולחץ על נסה שנית, או לחץ על ביטול כדי לחזור"
 " אל תיבת הדו-שיח לעיון ולבחור אמצעי אחסון שונה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:130 en_US.ARM64.Release.Error-2.idtx:130
 #: en_US.Win32.Debug.Error-2.idtx:130 en_US.Win32.Release.Error-2.idtx:130
 #: en_US.x64.Debug.Error-2.idtx:130 en_US.x64.Release.Error-2.idtx:130
 msgid ""
 "The folder [2] does not exist.  Please enter a path to an existing folder."
 msgstr "התיקיה [2] אינה קיימת.  נא הזן נתיב לתיקיה קיימת."
 
+#: en_US.ARM64.Debug.Error-2.idtx:131 en_US.ARM64.Release.Error-2.idtx:131
 #: en_US.Win32.Debug.Error-2.idtx:131 en_US.Win32.Release.Error-2.idtx:131
 #: en_US.x64.Debug.Error-2.idtx:131 en_US.x64.Release.Error-2.idtx:131
 msgid "You have insufficient privileges to read this folder."
 msgstr "אין לך הרשאות מתאימות לקריאת תיקיה זו."
 
+#: en_US.ARM64.Debug.Error-2.idtx:132 en_US.ARM64.Release.Error-2.idtx:132
 #: en_US.Win32.Debug.Error-2.idtx:132 en_US.Win32.Release.Error-2.idtx:132
 #: en_US.x64.Debug.Error-2.idtx:132 en_US.x64.Release.Error-2.idtx:132
 msgid "A valid destination folder for the install could not be determined."
 msgstr "לא היתה אפשרות לקבוע תיקיית יעד חוקית עבור ההתקנה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:133 en_US.ARM64.Release.Error-2.idtx:133
 #: en_US.Win32.Debug.Error-2.idtx:133 en_US.Win32.Release.Error-2.idtx:133
 #: en_US.x64.Debug.Error-2.idtx:133 en_US.x64.Release.Error-2.idtx:133
 msgid "Error attempting to read from the source install database: [2]."
 msgstr "שגיאה בעת ניסיון לקרוא מתוך מסד נתוני המקור של ההתקנה: [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:134 en_US.ARM64.Release.Error-2.idtx:134
 #: en_US.Win32.Debug.Error-2.idtx:134 en_US.Win32.Release.Error-2.idtx:134
 #: en_US.x64.Debug.Error-2.idtx:134 en_US.x64.Release.Error-2.idtx:134
 msgid ""
@@ -1677,6 +2071,7 @@ msgstr ""
 "מתזמן פעולת הפעלה מחדש (reboot): משנה את שם הקובץ [2] ל- [3]. יש לבצע הפעלה "
 "מחדש כדי להשלים את הפעולה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:135 en_US.ARM64.Release.Error-2.idtx:135
 #: en_US.Win32.Debug.Error-2.idtx:135 en_US.Win32.Release.Error-2.idtx:135
 #: en_US.x64.Debug.Error-2.idtx:135 en_US.x64.Release.Error-2.idtx:135
 msgid ""
@@ -1686,6 +2081,7 @@ msgstr ""
 "מתזמן פעולת הפעלה מחדש (reboot): מוחק את הקובץ [2]. יש לבצע הפעלה מחדש כדי "
 "להשלים את הפעולה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:136 en_US.ARM64.Release.Error-2.idtx:136
 #: en_US.Win32.Debug.Error-2.idtx:136 en_US.Win32.Release.Error-2.idtx:136
 #: en_US.x64.Debug.Error-2.idtx:136 en_US.x64.Release.Error-2.idtx:136
 msgid ""
@@ -1693,6 +2089,7 @@ msgid ""
 "personnel."
 msgstr "רישום המודול [2] נכשל.  HRESULT [3].  פנה אל צוות התמיכה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:137 en_US.ARM64.Release.Error-2.idtx:137
 #: en_US.Win32.Debug.Error-2.idtx:137 en_US.Win32.Release.Error-2.idtx:137
 #: en_US.x64.Debug.Error-2.idtx:137 en_US.x64.Release.Error-2.idtx:137
 msgid ""
@@ -1700,12 +2097,14 @@ msgid ""
 "personnel."
 msgstr "ביטול רישום המודול [2] נכשל.  HRESULT [3].  פנה אל צוות התמיכה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:138 en_US.ARM64.Release.Error-2.idtx:138
 #: en_US.Win32.Debug.Error-2.idtx:138 en_US.Win32.Release.Error-2.idtx:138
 #: en_US.x64.Debug.Error-2.idtx:138 en_US.x64.Release.Error-2.idtx:138
 msgid ""
 "Failed to cache package [2]. Error: [3]. Contact your support personnel."
 msgstr "אחסון החבילה [2] במטמון נכשל. שגיאה: [3]. פנה אל צוות התמיכה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:139 en_US.ARM64.Release.Error-2.idtx:139
 #: en_US.Win32.Debug.Error-2.idtx:139 en_US.Win32.Release.Error-2.idtx:139
 #: en_US.x64.Debug.Error-2.idtx:139 en_US.x64.Release.Error-2.idtx:139
 msgid ""
@@ -1715,6 +2114,7 @@ msgstr ""
 "רישום הגופן [2] לא הצליח.  ודא כי יש לך הרשאות מתאימות להתקנת גופנים, וכי "
 "המערכת תומכת בגופן זה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:140 en_US.ARM64.Release.Error-2.idtx:140
 #: en_US.Win32.Debug.Error-2.idtx:140 en_US.Win32.Release.Error-2.idtx:140
 #: en_US.x64.Debug.Error-2.idtx:140 en_US.x64.Release.Error-2.idtx:140
 msgid ""
@@ -1723,6 +2123,7 @@ msgid ""
 msgstr ""
 "ביטול רישום הגופן [2] לא הצליח. ודא כי יש לך הרשאות מתאימות להסרת גופנים."
 
+#: en_US.ARM64.Debug.Error-2.idtx:141 en_US.ARM64.Release.Error-2.idtx:141
 #: en_US.Win32.Debug.Error-2.idtx:141 en_US.Win32.Release.Error-2.idtx:141
 #: en_US.x64.Debug.Error-2.idtx:141 en_US.x64.Release.Error-2.idtx:141
 msgid ""
@@ -1732,6 +2133,7 @@ msgstr ""
 "יצירת קיצור הדרך [2] לא הצליחה. ודא כי תיקיית היעד קיימת וכי יש לך אפשרות "
 "גישה אליה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:142 en_US.ARM64.Release.Error-2.idtx:142
 #: en_US.Win32.Debug.Error-2.idtx:142 en_US.Win32.Release.Error-2.idtx:142
 #: en_US.x64.Debug.Error-2.idtx:142 en_US.x64.Release.Error-2.idtx:142
 msgid ""
@@ -1741,6 +2143,7 @@ msgstr ""
 "הסרת קיצור הדרך [2] לא הצליחה. ודא כי קובץ קיצור הדרך קיים וכי יש לך אפשרות "
 "גישה אליו."
 
+#: en_US.ARM64.Debug.Error-2.idtx:143 en_US.ARM64.Release.Error-2.idtx:143
 #: en_US.Win32.Debug.Error-2.idtx:143 en_US.Win32.Release.Error-2.idtx:143
 #: en_US.x64.Debug.Error-2.idtx:143 en_US.x64.Release.Error-2.idtx:143
 msgid ""
@@ -1750,6 +2153,7 @@ msgstr ""
 "לא היתה אפשרות לבצע רישום של ספריית הסוגים עבור הקובץ [2].  פנה אל צוות "
 "התמיכה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:144 en_US.ARM64.Release.Error-2.idtx:144
 #: en_US.Win32.Debug.Error-2.idtx:144 en_US.Win32.Release.Error-2.idtx:144
 #: en_US.x64.Debug.Error-2.idtx:144 en_US.x64.Release.Error-2.idtx:144
 msgid ""
@@ -1759,6 +2163,7 @@ msgstr ""
 "לא היתה אפשרות לבטל את רישום ספריית הסוגים עבור הקובץ [2].  פנה אל צוות "
 "התמיכה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:145 en_US.ARM64.Release.Error-2.idtx:145
 #: en_US.Win32.Debug.Error-2.idtx:145 en_US.Win32.Release.Error-2.idtx:145
 #: en_US.x64.Debug.Error-2.idtx:145 en_US.x64.Release.Error-2.idtx:145
 msgid ""
@@ -1768,6 +2173,7 @@ msgstr ""
 "לא היתה אפשרות לעדכן את קובץ ini‏ [2][3].  ודא כי הקובץ קיים וכי יש לך "
 "אפשרות גישה אליו."
 
+#: en_US.ARM64.Debug.Error-2.idtx:146 en_US.ARM64.Release.Error-2.idtx:146
 #: en_US.Win32.Debug.Error-2.idtx:146 en_US.Win32.Release.Error-2.idtx:146
 #: en_US.x64.Debug.Error-2.idtx:146 en_US.x64.Release.Error-2.idtx:146
 msgid ""
@@ -1777,6 +2183,7 @@ msgstr ""
 "לא היתה אפשרות לקבוע שהקובץ [2] יחליף את הקובץ [3] בעת ההפעלה מחדש (reboot)."
 "  ודא כי יש לך הרשאות כתיבה לקובץ [3]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:147 en_US.ARM64.Release.Error-2.idtx:147
 #: en_US.Win32.Debug.Error-2.idtx:147 en_US.Win32.Release.Error-2.idtx:147
 #: en_US.x64.Debug.Error-2.idtx:147 en_US.x64.Release.Error-2.idtx:147
 msgid ""
@@ -1786,6 +2193,7 @@ msgstr ""
 "שגיאה בעת הסרת מנהל מנהלי ההתקנים של ODBC, שגיאת ODBC‏ [2]: [3]. פנה אל צוות"
 " התמיכה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:148 en_US.ARM64.Release.Error-2.idtx:148
 #: en_US.Win32.Debug.Error-2.idtx:148 en_US.Win32.Release.Error-2.idtx:148
 #: en_US.x64.Debug.Error-2.idtx:148 en_US.x64.Release.Error-2.idtx:148
 msgid ""
@@ -1795,6 +2203,7 @@ msgstr ""
 "שגיאה בעת התקנת מנהל מנהלי ההתקנים של ODBC, שגיאת ODBC‏ [2]: [3]. פנה אל "
 "צוות התמיכה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:149 en_US.ARM64.Release.Error-2.idtx:149
 #: en_US.Win32.Debug.Error-2.idtx:149 en_US.Win32.Release.Error-2.idtx:149
 #: en_US.x64.Debug.Error-2.idtx:149 en_US.x64.Release.Error-2.idtx:149
 msgid ""
@@ -1804,6 +2213,7 @@ msgstr ""
 "שגיאה בעת הסרת מנהל התקן ODBC‏: [4], שגיאת ODBC‏ [2]: [3]. ודא כי יש לך "
 "הרשאות מתאימות להסרת מנהלי התקני ODBC."
 
+#: en_US.ARM64.Debug.Error-2.idtx:150 en_US.ARM64.Release.Error-2.idtx:150
 #: en_US.Win32.Debug.Error-2.idtx:150 en_US.Win32.Release.Error-2.idtx:150
 #: en_US.x64.Debug.Error-2.idtx:150 en_US.x64.Release.Error-2.idtx:150
 msgid ""
@@ -1813,6 +2223,7 @@ msgstr ""
 "שגיאה בעת התקנת מנהל התקן ODBC‏: [4], שגיאת ODBC‏ [2]: [3]. ודא כי הקובץ [4]"
 " קיים וכי יש לך אפשרות גישה אליו."
 
+#: en_US.ARM64.Debug.Error-2.idtx:151 en_US.ARM64.Release.Error-2.idtx:151
 #: en_US.Win32.Debug.Error-2.idtx:151 en_US.Win32.Release.Error-2.idtx:151
 #: en_US.x64.Debug.Error-2.idtx:151 en_US.x64.Release.Error-2.idtx:151
 msgid ""
@@ -1822,6 +2233,7 @@ msgstr ""
 "שגיאה בעת קביעת התצורה של מקור הנתונים של ODBC‏: [4], שגיאת ODBC‏ [2]: [3]. "
 "ודא כי הקובץ [4] קיים וכי יש לך אפשרות גישה אליו."
 
+#: en_US.ARM64.Debug.Error-2.idtx:152 en_US.ARM64.Release.Error-2.idtx:152
 #: en_US.Win32.Debug.Error-2.idtx:152 en_US.Win32.Release.Error-2.idtx:152
 #: en_US.x64.Debug.Error-2.idtx:152 en_US.x64.Release.Error-2.idtx:152
 msgid ""
@@ -1831,6 +2243,7 @@ msgstr ""
 "הפעלת השירות '[2]' ([3]) לא הצליחה.  ודא כי יש לך הרשאות מתאימות להפעלת "
 "שירותי מערכת."
 
+#: en_US.ARM64.Debug.Error-2.idtx:153 en_US.ARM64.Release.Error-2.idtx:153
 #: en_US.Win32.Debug.Error-2.idtx:153 en_US.Win32.Release.Error-2.idtx:153
 #: en_US.x64.Debug.Error-2.idtx:153 en_US.x64.Release.Error-2.idtx:153
 msgid ""
@@ -1840,6 +2253,7 @@ msgstr ""
 "הפסקת השירות '[2]' ([3]) לא הצליחה.  ודא כי יש לך הרשאות מתאימות להפסקת "
 "שירותי מערכת."
 
+#: en_US.ARM64.Debug.Error-2.idtx:154 en_US.ARM64.Release.Error-2.idtx:154
 #: en_US.Win32.Debug.Error-2.idtx:154 en_US.Win32.Release.Error-2.idtx:154
 #: en_US.x64.Debug.Error-2.idtx:154 en_US.x64.Release.Error-2.idtx:154
 msgid ""
@@ -1849,6 +2263,7 @@ msgstr ""
 "מחיקת השירות '[2]' ([3]) לא הצליחה.  ודא כי יש לך הרשאות מתאימות להסרת "
 "שירותי מערכת."
 
+#: en_US.ARM64.Debug.Error-2.idtx:155 en_US.ARM64.Release.Error-2.idtx:155
 #: en_US.Win32.Debug.Error-2.idtx:155 en_US.Win32.Release.Error-2.idtx:155
 #: en_US.x64.Debug.Error-2.idtx:155 en_US.x64.Release.Error-2.idtx:155
 msgid ""
@@ -1858,6 +2273,7 @@ msgstr ""
 "התקנת השירות '[2]' ([3]) לא הצליחה.  ודא כי יש לך הרשאות מתאימות להתקנת "
 "שירותי מערכת."
 
+#: en_US.ARM64.Debug.Error-2.idtx:156 en_US.ARM64.Release.Error-2.idtx:156
 #: en_US.Win32.Debug.Error-2.idtx:156 en_US.Win32.Release.Error-2.idtx:156
 #: en_US.x64.Debug.Error-2.idtx:156 en_US.x64.Release.Error-2.idtx:156
 msgid ""
@@ -1867,6 +2283,7 @@ msgstr ""
 "עדכון משתנה הסביבה '[2]' לא הצליח.  ודא כי יש לך הרשאות מתאימות לשינוי משתני"
 " סביבה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:157 en_US.ARM64.Release.Error-2.idtx:157
 #: en_US.Win32.Debug.Error-2.idtx:157 en_US.Win32.Release.Error-2.idtx:157
 #: en_US.x64.Debug.Error-2.idtx:157 en_US.x64.Release.Error-2.idtx:157
 msgid ""
@@ -1877,6 +2294,7 @@ msgstr ""
 "אין לך הרשאות מתאימות להשלמת התקנה זו עבור כל משתמשי המחשב.  היכנס למערכת עם"
 " הרשאות מנהל ולאחר מכן נסה שנית לבצע התקנה זו."
 
+#: en_US.ARM64.Debug.Error-2.idtx:158 en_US.ARM64.Release.Error-2.idtx:158
 #: en_US.Win32.Debug.Error-2.idtx:158 en_US.Win32.Release.Error-2.idtx:158
 #: en_US.x64.Debug.Error-2.idtx:158 en_US.x64.Release.Error-2.idtx:158
 msgid ""
@@ -1886,6 +2304,7 @@ msgstr ""
 "לא היתה אפשרות להגדיר אבטחת קובץ עבור הקובץ '[3]'. שגיאה: [2].  ודא כי יש לך"
 " הרשאות מתאימות לשינוי הרשאות האבטחה עבור קובץ זה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:159 en_US.ARM64.Release.Error-2.idtx:159
 #: en_US.Win32.Debug.Error-2.idtx:159 en_US.Win32.Release.Error-2.idtx:159
 #: en_US.x64.Debug.Error-2.idtx:159 en_US.x64.Release.Error-2.idtx:159
 msgid ""
@@ -1897,6 +2316,7 @@ msgstr ""
 "Component Services כדי להשלים את ההתקנה בהצלחה. Component Services זמינים ב-"
 " Windows 2000."
 
+#: en_US.ARM64.Debug.Error-2.idtx:160 en_US.ARM64.Release.Error-2.idtx:160
 #: en_US.Win32.Debug.Error-2.idtx:160 en_US.Win32.Release.Error-2.idtx:160
 #: en_US.x64.Debug.Error-2.idtx:160 en_US.x64.Release.Error-2.idtx:160
 msgid ""
@@ -1904,6 +2324,7 @@ msgid ""
 " information."
 msgstr "שגיאה ברישום יישום +COM. פנה אל צוות התמיכה לקבלת מידע נוסף."
 
+#: en_US.ARM64.Debug.Error-2.idtx:161 en_US.ARM64.Release.Error-2.idtx:161
 #: en_US.Win32.Debug.Error-2.idtx:161 en_US.Win32.Release.Error-2.idtx:161
 #: en_US.x64.Debug.Error-2.idtx:161 en_US.x64.Release.Error-2.idtx:161
 msgid ""
@@ -1911,11 +2332,13 @@ msgid ""
 "more information."
 msgstr "שגיאה בביטול רישום יישום +COM. פנה אל צוות התמיכה לקבלת מידע נוסף."
 
+#: en_US.ARM64.Debug.Error-2.idtx:162 en_US.ARM64.Release.Error-2.idtx:162
 #: en_US.Win32.Debug.Error-2.idtx:162 en_US.Win32.Release.Error-2.idtx:162
 #: en_US.x64.Debug.Error-2.idtx:162 en_US.x64.Release.Error-2.idtx:162
 msgid "The description for service '[2]' ([3]) could not be changed."
 msgstr "תיאור השירות '[2] ([3]) אינו ניתן לשינוי."
 
+#: en_US.ARM64.Debug.Error-2.idtx:163 en_US.ARM64.Release.Error-2.idtx:163
 #: en_US.Win32.Debug.Error-2.idtx:163 en_US.Win32.Release.Error-2.idtx:163
 #: en_US.x64.Debug.Error-2.idtx:163 en_US.x64.Release.Error-2.idtx:163
 msgid ""
@@ -1928,6 +2351,7 @@ msgstr ""
 "מוגן על-ידי Windows. ייתכן שתצטרך לעדכן את מערכת ההפעלה שלך בכדי שתוכנית זו "
 "תעבוד כראוי. {{Package version: [3], OS Protected version: [4]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:164 en_US.ARM64.Release.Error-2.idtx:164
 #: en_US.Win32.Debug.Error-2.idtx:164 en_US.Win32.Release.Error-2.idtx:164
 #: en_US.x64.Debug.Error-2.idtx:164 en_US.x64.Release.Error-2.idtx:164
 msgid ""
@@ -1937,6 +2361,7 @@ msgstr ""
 "אין באפשרות שירות Windows Installer לעדכן את קובץ Windows המוגן [2]. "
 "{{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:165 en_US.ARM64.Release.Error-2.idtx:165
 #: en_US.Win32.Debug.Error-2.idtx:165 en_US.Win32.Release.Error-2.idtx:165
 #: en_US.x64.Debug.Error-2.idtx:165 en_US.x64.Release.Error-2.idtx:165
 msgid ""
@@ -1946,11 +2371,13 @@ msgstr ""
 "לשרות Windows Installer אין אפשרות לעדכן אחד או יותר מקבצי Windows. {{SFP "
 "שגיאה: [2].  רשימת קבצים מוגנים:\\r\\n[3]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:166 en_US.ARM64.Release.Error-2.idtx:166
 #: en_US.Win32.Debug.Error-2.idtx:166 en_US.Win32.Release.Error-2.idtx:166
 #: en_US.x64.Debug.Error-2.idtx:166 en_US.x64.Release.Error-2.idtx:166
 msgid "User installations are disabled via policy on the machine."
 msgstr "התקנות משתמשים אינם נתנים על פי המדיניות במחשב זה."
 
+#: en_US.ARM64.Debug.Error-2.idtx:167 en_US.ARM64.Release.Error-2.idtx:167
 #: en_US.Win32.Debug.Error-2.idtx:167 en_US.Win32.Release.Error-2.idtx:167
 #: en_US.x64.Debug.Error-2.idtx:167 en_US.x64.Release.Error-2.idtx:167
 msgid ""
@@ -1962,6 +2389,7 @@ msgstr ""
 "והתמיכה לקבלת מידע נוסף. ‎HRESULT:‏ [3]. {{ממשק Assembly: ‏[4], פונקציה:‏ "
 "‏[5], רכיב: [2]}}‎"
 
+#: en_US.ARM64.Debug.Error-2.idtx:168 en_US.ARM64.Release.Error-2.idtx:168
 #: en_US.Win32.Debug.Error-2.idtx:168 en_US.Win32.Release.Error-2.idtx:168
 #: en_US.x64.Debug.Error-2.idtx:168 en_US.x64.Release.Error-2.idtx:168
 msgid ""
@@ -1973,6 +2401,7 @@ msgstr ""
 "שם חזק או אינו חתום באמצעות אורך המפתח המינימלי. ‎HRESULT:‏ [3]. {{ממשק "
 "Assembly: ‏[4], פונקציה: [5], רכיב: [2]}}‎"
 
+#: en_US.ARM64.Debug.Error-2.idtx:169 en_US.ARM64.Release.Error-2.idtx:169
 #: en_US.Win32.Debug.Error-2.idtx:169 en_US.Win32.Release.Error-2.idtx:169
 #: en_US.x64.Debug.Error-2.idtx:169 en_US.x64.Release.Error-2.idtx:169
 msgid ""
@@ -1984,6 +2413,7 @@ msgstr ""
 "החתימה או את הקטלוג או שהם אינם חוקיים. HRESULT:‏ [3]. {{ממשק Assembly:‏ "
 "[4], פונקציה: [5], רכיב: [2]}}‎"
 
+#: en_US.ARM64.Debug.Error-2.idtx:170 en_US.ARM64.Release.Error-2.idtx:170
 #: en_US.Win32.Debug.Error-2.idtx:170 en_US.Win32.Release.Error-2.idtx:170
 #: en_US.x64.Debug.Error-2.idtx:170 en_US.x64.Release.Error-2.idtx:170
 msgid ""
@@ -1995,15 +2425,25 @@ msgstr ""
 " אחד או יותר של רכיב Assembly.‏‏ ‏‎HRESULT:‏ [3]. {{ממשק Assembly‏: [4], "
 "פונקציה: [5], רכיב: [2]}}‎"
 
+#: en_US.ARM64.Debug.Error-2.idtx:171 en_US.ARM64.Release.Error-2.idtx:171
 #: en_US.Win32.Debug.Error-2.idtx:171 en_US.Win32.Release.Error-2.idtx:171
 #: en_US.x64.Debug.Error-2.idtx:171 en_US.x64.Release.Error-2.idtx:171
 msgid ""
 "64-bit registry operation attempted on 32-bit operating system for key [2]."
 msgstr ""
 
+#: en_US.ARM64.Debug.Error-2.idtx:172 en_US.ARM64.Release.Error-2.idtx:172
 #: en_US.Win32.Debug.Error-2.idtx:172 en_US.Win32.Release.Error-2.idtx:172
 #: en_US.x64.Debug.Error-2.idtx:172 en_US.x64.Release.Error-2.idtx:172
 msgid ""
 "This version of Windows does not support deploying 64-bit packages. The "
 "script [2] is for a 64-bit package."
+msgstr ""
+
+#: en_US.Win32.Debug.CustomAction-2.idtx:4
+#: en_US.Win32.Release.CustomAction-2.idtx:4
+msgid ""
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
+"system. The installation of the 64-bit variant is recommended."
 msgstr ""

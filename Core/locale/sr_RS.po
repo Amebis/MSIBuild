@@ -1,12 +1,11 @@
 # Translators:
 # Simon Rozman <simon@rozman.si>, 2018
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-02 18:14+0100\n"
+"POT-Creation-Date: 2018-11-22 10:26+0100\n"
 "PO-Revision-Date: 2018-09-19 09:17+0000\n"
 "Last-Translator: Simon Rozman <simon@rozman.si>, 2018\n"
 "Language-Team: Serbian (Serbia) (https://www.transifex.com/amebis/teams/91604/sr_RS/)\n"
@@ -15,48 +14,64 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sr_RS\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:4
+#: en_US.ARM64.Release.ActionText-2.idtx:4
 #: en_US.Win32.Debug.ActionText-2.idtx:4
 #: en_US.Win32.Release.ActionText-2.idtx:4 en_US.x64.Debug.ActionText-2.idtx:4
 #: en_US.x64.Release.ActionText-2.idtx:4
 msgid "Advertising application"
 msgstr "Advertising application"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:5
+#: en_US.ARM64.Release.ActionText-2.idtx:5
 #: en_US.Win32.Debug.ActionText-2.idtx:5
 #: en_US.Win32.Release.ActionText-2.idtx:5 en_US.x64.Debug.ActionText-2.idtx:5
 #: en_US.x64.Release.ActionText-2.idtx:5
 msgid "Allocating registry space"
 msgstr "Allocating registry space"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:5
+#: en_US.ARM64.Release.ActionText-2.idtx:5
 #: en_US.Win32.Debug.ActionText-2.idtx:5
 #: en_US.Win32.Release.ActionText-2.idtx:5 en_US.x64.Debug.ActionText-2.idtx:5
 #: en_US.x64.Release.ActionText-2.idtx:5
 msgid "Free space: [1]"
 msgstr "Free space: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:6
+#: en_US.ARM64.Release.ActionText-2.idtx:6
 #: en_US.Win32.Debug.ActionText-2.idtx:6
 #: en_US.Win32.Release.ActionText-2.idtx:6 en_US.x64.Debug.ActionText-2.idtx:6
 #: en_US.x64.Release.ActionText-2.idtx:6
 msgid "Searching for installed applications"
 msgstr "Searching for installed applications"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:6
+#: en_US.ARM64.Release.ActionText-2.idtx:6
 #: en_US.Win32.Debug.ActionText-2.idtx:6
 #: en_US.Win32.Release.ActionText-2.idtx:6 en_US.x64.Debug.ActionText-2.idtx:6
 #: en_US.x64.Release.ActionText-2.idtx:6
 msgid "Property: [1], Signature: [2]"
 msgstr "Property: [1], Signature: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:7
+#: en_US.ARM64.Release.ActionText-2.idtx:7
 #: en_US.Win32.Debug.ActionText-2.idtx:7
 #: en_US.Win32.Release.ActionText-2.idtx:7 en_US.x64.Debug.ActionText-2.idtx:7
 #: en_US.x64.Release.ActionText-2.idtx:7
 msgid "Binding executables"
 msgstr "Binding executables"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:7
+#: en_US.ARM64.Debug.ActionText-2.idtx:54
+#: en_US.ARM64.Release.ActionText-2.idtx:7
+#: en_US.ARM64.Release.ActionText-2.idtx:54
 #: en_US.Win32.Debug.ActionText-2.idtx:7
 #: en_US.Win32.Debug.ActionText-2.idtx:54
 #: en_US.Win32.Release.ActionText-2.idtx:7
@@ -67,6 +82,10 @@ msgstr "Binding executables"
 msgid "File: [1]"
 msgstr "File: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:8
+#: en_US.ARM64.Debug.ActionText-2.idtx:52
+#: en_US.ARM64.Release.ActionText-2.idtx:8
+#: en_US.ARM64.Release.ActionText-2.idtx:52
 #: en_US.Win32.Debug.ActionText-2.idtx:8
 #: en_US.Win32.Debug.ActionText-2.idtx:52
 #: en_US.Win32.Release.ActionText-2.idtx:8
@@ -77,6 +96,12 @@ msgstr "File: [1]"
 msgid "Searching for qualifying products"
 msgstr "Searching for qualifying products"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:9
+#: en_US.ARM64.Debug.ActionText-2.idtx:10
+#: en_US.ARM64.Debug.ActionText-2.idtx:15
+#: en_US.ARM64.Release.ActionText-2.idtx:9
+#: en_US.ARM64.Release.ActionText-2.idtx:10
+#: en_US.ARM64.Release.ActionText-2.idtx:15
 #: en_US.Win32.Debug.ActionText-2.idtx:9
 #: en_US.Win32.Debug.ActionText-2.idtx:10
 #: en_US.Win32.Debug.ActionText-2.idtx:15
@@ -90,12 +115,18 @@ msgstr "Searching for qualifying products"
 msgid "Computing space requirements"
 msgstr "Computing space requirements"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:11
+#: en_US.ARM64.Release.ActionText-2.idtx:11
 #: en_US.Win32.Debug.ActionText-2.idtx:11
 #: en_US.Win32.Release.ActionText-2.idtx:11
 #: en_US.x64.Debug.ActionText-2.idtx:11 en_US.x64.Release.ActionText-2.idtx:11
 msgid "Creating folders"
 msgstr "Creating folders"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:11
+#: en_US.ARM64.Debug.ActionText-2.idtx:47
+#: en_US.ARM64.Release.ActionText-2.idtx:11
+#: en_US.ARM64.Release.ActionText-2.idtx:47
 #: en_US.Win32.Debug.ActionText-2.idtx:11
 #: en_US.Win32.Debug.ActionText-2.idtx:47
 #: en_US.Win32.Release.ActionText-2.idtx:11
@@ -106,12 +137,18 @@ msgstr "Creating folders"
 msgid "Folder: [1]"
 msgstr "Folder: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:12
+#: en_US.ARM64.Release.ActionText-2.idtx:12
 #: en_US.Win32.Debug.ActionText-2.idtx:12
 #: en_US.Win32.Release.ActionText-2.idtx:12
 #: en_US.x64.Debug.ActionText-2.idtx:12 en_US.x64.Release.ActionText-2.idtx:12
 msgid "Creating shortcuts"
 msgstr "Creating shortcuts"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:12
+#: en_US.ARM64.Debug.ActionText-2.idtx:51
+#: en_US.ARM64.Release.ActionText-2.idtx:12
+#: en_US.ARM64.Release.ActionText-2.idtx:51
 #: en_US.Win32.Debug.ActionText-2.idtx:12
 #: en_US.Win32.Debug.ActionText-2.idtx:51
 #: en_US.Win32.Release.ActionText-2.idtx:12
@@ -122,12 +159,20 @@ msgstr "Creating shortcuts"
 msgid "Shortcut: [1]"
 msgstr "Shortcut: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:13
+#: en_US.ARM64.Release.ActionText-2.idtx:13
 #: en_US.Win32.Debug.ActionText-2.idtx:13
 #: en_US.Win32.Release.ActionText-2.idtx:13
 #: en_US.x64.Debug.ActionText-2.idtx:13 en_US.x64.Release.ActionText-2.idtx:13
 msgid "Deleting services"
 msgstr "Deleting services"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:13
+#: en_US.ARM64.Debug.ActionText-2.idtx:58
+#: en_US.ARM64.Debug.ActionText-2.idtx:59
+#: en_US.ARM64.Release.ActionText-2.idtx:13
+#: en_US.ARM64.Release.ActionText-2.idtx:58
+#: en_US.ARM64.Release.ActionText-2.idtx:59
 #: en_US.Win32.Debug.ActionText-2.idtx:13
 #: en_US.Win32.Debug.ActionText-2.idtx:58
 #: en_US.Win32.Debug.ActionText-2.idtx:59
@@ -141,12 +186,20 @@ msgstr "Deleting services"
 msgid "Service: [1]"
 msgstr "Service: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:14
+#: en_US.ARM64.Release.ActionText-2.idtx:14
 #: en_US.Win32.Debug.ActionText-2.idtx:14
 #: en_US.Win32.Release.ActionText-2.idtx:14
 #: en_US.x64.Debug.ActionText-2.idtx:14 en_US.x64.Release.ActionText-2.idtx:14
 msgid "Creating duplicate files"
 msgstr "Creating duplicate files"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:14
+#: en_US.ARM64.Debug.ActionText-2.idtx:19
+#: en_US.ARM64.Debug.ActionText-2.idtx:26
+#: en_US.ARM64.Release.ActionText-2.idtx:14
+#: en_US.ARM64.Release.ActionText-2.idtx:19
+#: en_US.ARM64.Release.ActionText-2.idtx:26
 #: en_US.Win32.Debug.ActionText-2.idtx:14
 #: en_US.Win32.Debug.ActionText-2.idtx:19
 #: en_US.Win32.Debug.ActionText-2.idtx:26
@@ -160,24 +213,38 @@ msgstr "Creating duplicate files"
 msgid "File: [1],  Directory: [9],  Size: [6]"
 msgstr "File: [1],  Directory: [9],  Size: [6]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:16
+#: en_US.ARM64.Release.ActionText-2.idtx:16
 #: en_US.Win32.Debug.ActionText-2.idtx:16
 #: en_US.Win32.Release.ActionText-2.idtx:16
 #: en_US.x64.Debug.ActionText-2.idtx:16 en_US.x64.Release.ActionText-2.idtx:16
 msgid "Searching for related applications"
 msgstr "Searching for related applications"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:16
+#: en_US.ARM64.Release.ActionText-2.idtx:16
 #: en_US.Win32.Debug.ActionText-2.idtx:16
 #: en_US.Win32.Release.ActionText-2.idtx:16
 #: en_US.x64.Debug.ActionText-2.idtx:16 en_US.x64.Release.ActionText-2.idtx:16
 msgid "Found application: [1]"
 msgstr "Found application: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:17
+#: en_US.ARM64.Release.ActionText-2.idtx:17
 #: en_US.Win32.Debug.ActionText-2.idtx:17
 #: en_US.Win32.Release.ActionText-2.idtx:17
 #: en_US.x64.Debug.ActionText-2.idtx:17 en_US.x64.Release.ActionText-2.idtx:17
 msgid "Generating script operations for action:"
 msgstr "Generating script operations for action:"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:17
+#: en_US.ARM64.Debug.ActionText-2.idtx:39
+#: en_US.ARM64.Debug.ActionText-2.idtx:42
+#: en_US.ARM64.Debug.ActionText-2.idtx:53
+#: en_US.ARM64.Release.ActionText-2.idtx:17
+#: en_US.ARM64.Release.ActionText-2.idtx:39
+#: en_US.ARM64.Release.ActionText-2.idtx:42
+#: en_US.ARM64.Release.ActionText-2.idtx:53
 #: en_US.Win32.Debug.ActionText-2.idtx:17
 #: en_US.Win32.Debug.ActionText-2.idtx:39
 #: en_US.Win32.Debug.ActionText-2.idtx:42
@@ -195,90 +262,122 @@ msgstr "Generating script operations for action:"
 msgid "[1]"
 msgstr "[1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:18
+#: en_US.ARM64.Release.ActionText-2.idtx:18
 #: en_US.Win32.Debug.ActionText-2.idtx:18
 #: en_US.Win32.Release.ActionText-2.idtx:18
 #: en_US.x64.Debug.ActionText-2.idtx:18 en_US.x64.Release.ActionText-2.idtx:18
 msgid "Copying network install files"
 msgstr "Copying network install files"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:18
+#: en_US.ARM64.Release.ActionText-2.idtx:18
 #: en_US.Win32.Debug.ActionText-2.idtx:18
 #: en_US.Win32.Release.ActionText-2.idtx:18
 #: en_US.x64.Debug.ActionText-2.idtx:18 en_US.x64.Release.ActionText-2.idtx:18
 msgid "File: [1], Directory: [9], Size: [6]"
 msgstr "File: [1], Directory: [9], Size: [6]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:19
+#: en_US.ARM64.Release.ActionText-2.idtx:19
 #: en_US.Win32.Debug.ActionText-2.idtx:19
 #: en_US.Win32.Release.ActionText-2.idtx:19
 #: en_US.x64.Debug.ActionText-2.idtx:19 en_US.x64.Release.ActionText-2.idtx:19
 msgid "Copying new files"
 msgstr "Copying new files"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:20
+#: en_US.ARM64.Release.ActionText-2.idtx:20
 #: en_US.Win32.Debug.ActionText-2.idtx:20
 #: en_US.Win32.Release.ActionText-2.idtx:20
 #: en_US.x64.Debug.ActionText-2.idtx:20 en_US.x64.Release.ActionText-2.idtx:20
 msgid "Installing ODBC components"
 msgstr "Installing ODBC components"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:21
+#: en_US.ARM64.Release.ActionText-2.idtx:21
 #: en_US.Win32.Debug.ActionText-2.idtx:21
 #: en_US.Win32.Release.ActionText-2.idtx:21
 #: en_US.x64.Debug.ActionText-2.idtx:21 en_US.x64.Release.ActionText-2.idtx:21
 msgid "Installing new services"
 msgstr "Installing new services"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:21
+#: en_US.ARM64.Release.ActionText-2.idtx:21
 #: en_US.Win32.Debug.ActionText-2.idtx:21
 #: en_US.Win32.Release.ActionText-2.idtx:21
 #: en_US.x64.Debug.ActionText-2.idtx:21 en_US.x64.Release.ActionText-2.idtx:21
 msgid "Service: [2]"
 msgstr "Service: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:22
+#: en_US.ARM64.Release.ActionText-2.idtx:22
 #: en_US.Win32.Debug.ActionText-2.idtx:22
 #: en_US.Win32.Release.ActionText-2.idtx:22
 #: en_US.x64.Debug.ActionText-2.idtx:22 en_US.x64.Release.ActionText-2.idtx:22
 msgid "Installing system catalog"
 msgstr "Installing system catalog"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:22
+#: en_US.ARM64.Release.ActionText-2.idtx:22
 #: en_US.Win32.Debug.ActionText-2.idtx:22
 #: en_US.Win32.Release.ActionText-2.idtx:22
 #: en_US.x64.Debug.ActionText-2.idtx:22 en_US.x64.Release.ActionText-2.idtx:22
 msgid "File: [1],  Dependencies: [2]"
 msgstr "File: [1],  Dependencies: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:23
+#: en_US.ARM64.Release.ActionText-2.idtx:23
 #: en_US.Win32.Debug.ActionText-2.idtx:23
 #: en_US.Win32.Release.ActionText-2.idtx:23
 #: en_US.x64.Debug.ActionText-2.idtx:23 en_US.x64.Release.ActionText-2.idtx:23
 msgid "Validating install"
 msgstr "Validating install"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:24
+#: en_US.ARM64.Release.ActionText-2.idtx:24
 #: en_US.Win32.Debug.ActionText-2.idtx:24
 #: en_US.Win32.Release.ActionText-2.idtx:24
 #: en_US.x64.Debug.ActionText-2.idtx:24 en_US.x64.Release.ActionText-2.idtx:24
 msgid "Evaluating launch conditions"
 msgstr "Evaluating launch conditions"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:25
+#: en_US.ARM64.Release.ActionText-2.idtx:25
 #: en_US.Win32.Debug.ActionText-2.idtx:25
 #: en_US.Win32.Release.ActionText-2.idtx:25
 #: en_US.x64.Debug.ActionText-2.idtx:25 en_US.x64.Release.ActionText-2.idtx:25
 msgid "Migrating feature states from related applications"
 msgstr "Migrating feature states from related applications"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:25
+#: en_US.ARM64.Release.ActionText-2.idtx:25
 #: en_US.Win32.Debug.ActionText-2.idtx:25
 #: en_US.Win32.Release.ActionText-2.idtx:25
 #: en_US.x64.Debug.ActionText-2.idtx:25 en_US.x64.Release.ActionText-2.idtx:25
 msgid "Application: [1]"
 msgstr "Application: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:26
+#: en_US.ARM64.Release.ActionText-2.idtx:26
 #: en_US.Win32.Debug.ActionText-2.idtx:26
 #: en_US.Win32.Release.ActionText-2.idtx:26
 #: en_US.x64.Debug.ActionText-2.idtx:26 en_US.x64.Release.ActionText-2.idtx:26
 msgid "Moving files"
 msgstr "Moving files"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:27
+#: en_US.ARM64.Release.ActionText-2.idtx:27
 #: en_US.Win32.Debug.ActionText-2.idtx:27
 #: en_US.Win32.Release.ActionText-2.idtx:27
 #: en_US.x64.Debug.ActionText-2.idtx:27 en_US.x64.Release.ActionText-2.idtx:27
 msgid "Publishing assembly information"
 msgstr "Publishing assembly information"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:27
+#: en_US.ARM64.Debug.ActionText-2.idtx:28
+#: en_US.ARM64.Release.ActionText-2.idtx:27
+#: en_US.ARM64.Release.ActionText-2.idtx:28
 #: en_US.Win32.Debug.ActionText-2.idtx:27
 #: en_US.Win32.Debug.ActionText-2.idtx:28
 #: en_US.Win32.Release.ActionText-2.idtx:27
@@ -289,36 +388,50 @@ msgstr "Publishing assembly information"
 msgid "Application Context:[1], Assembly Name:[2]"
 msgstr "Application Context:[1], Assembly Name:[2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:28
+#: en_US.ARM64.Release.ActionText-2.idtx:28
 #: en_US.Win32.Debug.ActionText-2.idtx:28
 #: en_US.Win32.Release.ActionText-2.idtx:28
 #: en_US.x64.Debug.ActionText-2.idtx:28 en_US.x64.Release.ActionText-2.idtx:28
 msgid "Unpublishing assembly information"
 msgstr "Unpublishing assembly information"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:29
+#: en_US.ARM64.Release.ActionText-2.idtx:29
 #: en_US.Win32.Debug.ActionText-2.idtx:29
 #: en_US.Win32.Release.ActionText-2.idtx:29
 #: en_US.x64.Debug.ActionText-2.idtx:29 en_US.x64.Release.ActionText-2.idtx:29
 msgid "Patching files"
 msgstr "Patching files"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:29
+#: en_US.ARM64.Release.ActionText-2.idtx:29
 #: en_US.Win32.Debug.ActionText-2.idtx:29
 #: en_US.Win32.Release.ActionText-2.idtx:29
 #: en_US.x64.Debug.ActionText-2.idtx:29 en_US.x64.Release.ActionText-2.idtx:29
 msgid "File: [1],  Directory: [2],  Size: [3]"
 msgstr "File: [1],  Directory: [2],  Size: [3]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:30
+#: en_US.ARM64.Release.ActionText-2.idtx:30
 #: en_US.Win32.Debug.ActionText-2.idtx:30
 #: en_US.Win32.Release.ActionText-2.idtx:30
 #: en_US.x64.Debug.ActionText-2.idtx:30 en_US.x64.Release.ActionText-2.idtx:30
 msgid "Updating component registration"
 msgstr "Updating component registration"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:31
+#: en_US.ARM64.Release.ActionText-2.idtx:31
 #: en_US.Win32.Debug.ActionText-2.idtx:31
 #: en_US.Win32.Release.ActionText-2.idtx:31
 #: en_US.x64.Debug.ActionText-2.idtx:31 en_US.x64.Release.ActionText-2.idtx:31
 msgid "Publishing Qualified Components"
 msgstr "Publishing Qualified Components"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:31
+#: en_US.ARM64.Debug.ActionText-2.idtx:61
+#: en_US.ARM64.Release.ActionText-2.idtx:31
+#: en_US.ARM64.Release.ActionText-2.idtx:61
 #: en_US.Win32.Debug.ActionText-2.idtx:31
 #: en_US.Win32.Debug.ActionText-2.idtx:61
 #: en_US.Win32.Release.ActionText-2.idtx:31
@@ -329,12 +442,18 @@ msgstr "Publishing Qualified Components"
 msgid "Component ID: [1], Qualifier: [2]"
 msgstr "Component ID: [1], Qualifier: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:32
+#: en_US.ARM64.Release.ActionText-2.idtx:32
 #: en_US.Win32.Debug.ActionText-2.idtx:32
 #: en_US.Win32.Release.ActionText-2.idtx:32
 #: en_US.x64.Debug.ActionText-2.idtx:32 en_US.x64.Release.ActionText-2.idtx:32
 msgid "Publishing Product Features"
 msgstr "Publishing Product Features"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:32
+#: en_US.ARM64.Debug.ActionText-2.idtx:62
+#: en_US.ARM64.Release.ActionText-2.idtx:32
+#: en_US.ARM64.Release.ActionText-2.idtx:62
 #: en_US.Win32.Debug.ActionText-2.idtx:32
 #: en_US.Win32.Debug.ActionText-2.idtx:62
 #: en_US.Win32.Release.ActionText-2.idtx:32
@@ -345,18 +464,26 @@ msgstr "Publishing Product Features"
 msgid "Feature: [1]"
 msgstr "Feature: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:33
+#: en_US.ARM64.Release.ActionText-2.idtx:33
 #: en_US.Win32.Debug.ActionText-2.idtx:33
 #: en_US.Win32.Release.ActionText-2.idtx:33
 #: en_US.x64.Debug.ActionText-2.idtx:33 en_US.x64.Release.ActionText-2.idtx:33
 msgid "Publishing product information"
 msgstr "Publishing product information"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:34
+#: en_US.ARM64.Release.ActionText-2.idtx:34
 #: en_US.Win32.Debug.ActionText-2.idtx:34
 #: en_US.Win32.Release.ActionText-2.idtx:34
 #: en_US.x64.Debug.ActionText-2.idtx:34 en_US.x64.Release.ActionText-2.idtx:34
 msgid "Registering Class servers"
 msgstr "Registering Class servers"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:34
+#: en_US.ARM64.Debug.ActionText-2.idtx:64
+#: en_US.ARM64.Release.ActionText-2.idtx:34
+#: en_US.ARM64.Release.ActionText-2.idtx:64
 #: en_US.Win32.Debug.ActionText-2.idtx:34
 #: en_US.Win32.Debug.ActionText-2.idtx:64
 #: en_US.Win32.Release.ActionText-2.idtx:34
@@ -367,24 +494,34 @@ msgstr "Registering Class servers"
 msgid "Class Id: [1]"
 msgstr "Class Id: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:35
+#: en_US.ARM64.Release.ActionText-2.idtx:35
 #: en_US.Win32.Debug.ActionText-2.idtx:35
 #: en_US.Win32.Release.ActionText-2.idtx:35
 #: en_US.x64.Debug.ActionText-2.idtx:35 en_US.x64.Release.ActionText-2.idtx:35
 msgid "Registering COM+ Applications and Components"
 msgstr "Registering COM+ Applications and Components"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:35
+#: en_US.ARM64.Release.ActionText-2.idtx:35
 #: en_US.Win32.Debug.ActionText-2.idtx:35
 #: en_US.Win32.Release.ActionText-2.idtx:35
 #: en_US.x64.Debug.ActionText-2.idtx:35 en_US.x64.Release.ActionText-2.idtx:35
 msgid "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
 msgstr "AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:36
+#: en_US.ARM64.Release.ActionText-2.idtx:36
 #: en_US.Win32.Debug.ActionText-2.idtx:36
 #: en_US.Win32.Release.ActionText-2.idtx:36
 #: en_US.x64.Debug.ActionText-2.idtx:36 en_US.x64.Release.ActionText-2.idtx:36
 msgid "Registering extension servers"
 msgstr "Registering extension servers"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:36
+#: en_US.ARM64.Debug.ActionText-2.idtx:66
+#: en_US.ARM64.Release.ActionText-2.idtx:36
+#: en_US.ARM64.Release.ActionText-2.idtx:66
 #: en_US.Win32.Debug.ActionText-2.idtx:36
 #: en_US.Win32.Debug.ActionText-2.idtx:66
 #: en_US.Win32.Release.ActionText-2.idtx:36
@@ -395,12 +532,18 @@ msgstr "Registering extension servers"
 msgid "Extension: [1]"
 msgstr "Extension: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:37
+#: en_US.ARM64.Release.ActionText-2.idtx:37
 #: en_US.Win32.Debug.ActionText-2.idtx:37
 #: en_US.Win32.Release.ActionText-2.idtx:37
 #: en_US.x64.Debug.ActionText-2.idtx:37 en_US.x64.Release.ActionText-2.idtx:37
 msgid "Registering fonts"
 msgstr "Registering fonts"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:37
+#: en_US.ARM64.Debug.ActionText-2.idtx:67
+#: en_US.ARM64.Release.ActionText-2.idtx:37
+#: en_US.ARM64.Release.ActionText-2.idtx:67
 #: en_US.Win32.Debug.ActionText-2.idtx:37
 #: en_US.Win32.Debug.ActionText-2.idtx:67
 #: en_US.Win32.Release.ActionText-2.idtx:37
@@ -411,12 +554,18 @@ msgstr "Registering fonts"
 msgid "Font: [1]"
 msgstr "Font: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:38
+#: en_US.ARM64.Release.ActionText-2.idtx:38
 #: en_US.Win32.Debug.ActionText-2.idtx:38
 #: en_US.Win32.Release.ActionText-2.idtx:38
 #: en_US.x64.Debug.ActionText-2.idtx:38 en_US.x64.Release.ActionText-2.idtx:38
 msgid "Registering MIME info"
 msgstr "Registering MIME info"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:38
+#: en_US.ARM64.Debug.ActionText-2.idtx:68
+#: en_US.ARM64.Release.ActionText-2.idtx:38
+#: en_US.ARM64.Release.ActionText-2.idtx:68
 #: en_US.Win32.Debug.ActionText-2.idtx:38
 #: en_US.Win32.Debug.ActionText-2.idtx:68
 #: en_US.Win32.Release.ActionText-2.idtx:38
@@ -427,18 +576,26 @@ msgstr "Registering MIME info"
 msgid "MIME Content Type: [1], Extension: [2]"
 msgstr "MIME Content Type: [1], Extension: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:39
+#: en_US.ARM64.Release.ActionText-2.idtx:39
 #: en_US.Win32.Debug.ActionText-2.idtx:39
 #: en_US.Win32.Release.ActionText-2.idtx:39
 #: en_US.x64.Debug.ActionText-2.idtx:39 en_US.x64.Release.ActionText-2.idtx:39
 msgid "Registering product"
 msgstr "Registering product"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:40
+#: en_US.ARM64.Release.ActionText-2.idtx:40
 #: en_US.Win32.Debug.ActionText-2.idtx:40
 #: en_US.Win32.Release.ActionText-2.idtx:40
 #: en_US.x64.Debug.ActionText-2.idtx:40 en_US.x64.Release.ActionText-2.idtx:40
 msgid "Registering program identifiers"
 msgstr "Registering program identifiers"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:40
+#: en_US.ARM64.Debug.ActionText-2.idtx:69
+#: en_US.ARM64.Release.ActionText-2.idtx:40
+#: en_US.ARM64.Release.ActionText-2.idtx:69
 #: en_US.Win32.Debug.ActionText-2.idtx:40
 #: en_US.Win32.Debug.ActionText-2.idtx:69
 #: en_US.Win32.Release.ActionText-2.idtx:40
@@ -449,12 +606,18 @@ msgstr "Registering program identifiers"
 msgid "ProgId: [1]"
 msgstr "ProgId: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:41
+#: en_US.ARM64.Release.ActionText-2.idtx:41
 #: en_US.Win32.Debug.ActionText-2.idtx:41
 #: en_US.Win32.Release.ActionText-2.idtx:41
 #: en_US.x64.Debug.ActionText-2.idtx:41 en_US.x64.Release.ActionText-2.idtx:41
 msgid "Registering type libraries"
 msgstr "Registering type libraries"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:41
+#: en_US.ARM64.Debug.ActionText-2.idtx:70
+#: en_US.ARM64.Release.ActionText-2.idtx:41
+#: en_US.ARM64.Release.ActionText-2.idtx:70
 #: en_US.Win32.Debug.ActionText-2.idtx:41
 #: en_US.Win32.Debug.ActionText-2.idtx:70
 #: en_US.Win32.Release.ActionText-2.idtx:41
@@ -465,18 +628,28 @@ msgstr "Registering type libraries"
 msgid "LibID: [1]"
 msgstr "LibID: [1]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:42
+#: en_US.ARM64.Release.ActionText-2.idtx:42
 #: en_US.Win32.Debug.ActionText-2.idtx:42
 #: en_US.Win32.Release.ActionText-2.idtx:42
 #: en_US.x64.Debug.ActionText-2.idtx:42 en_US.x64.Release.ActionText-2.idtx:42
 msgid "Registering user"
 msgstr "Registering user"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:43
+#: en_US.ARM64.Release.ActionText-2.idtx:43
 #: en_US.Win32.Debug.ActionText-2.idtx:43
 #: en_US.Win32.Release.ActionText-2.idtx:43
 #: en_US.x64.Debug.ActionText-2.idtx:43 en_US.x64.Release.ActionText-2.idtx:43
 msgid "Removing duplicated files"
 msgstr "Removing duplicated files"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:43
+#: en_US.ARM64.Debug.ActionText-2.idtx:46
+#: en_US.ARM64.Debug.ActionText-2.idtx:60
+#: en_US.ARM64.Release.ActionText-2.idtx:43
+#: en_US.ARM64.Release.ActionText-2.idtx:46
+#: en_US.ARM64.Release.ActionText-2.idtx:60
 #: en_US.Win32.Debug.ActionText-2.idtx:43
 #: en_US.Win32.Debug.ActionText-2.idtx:46
 #: en_US.Win32.Debug.ActionText-2.idtx:60
@@ -490,6 +663,10 @@ msgstr "Removing duplicated files"
 msgid "File: [1], Directory: [9]"
 msgstr "File: [1], Directory: [9]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:44
+#: en_US.ARM64.Debug.ActionText-2.idtx:71
+#: en_US.ARM64.Release.ActionText-2.idtx:44
+#: en_US.ARM64.Release.ActionText-2.idtx:71
 #: en_US.Win32.Debug.ActionText-2.idtx:44
 #: en_US.Win32.Debug.ActionText-2.idtx:71
 #: en_US.Win32.Release.ActionText-2.idtx:44
@@ -500,6 +677,10 @@ msgstr "File: [1], Directory: [9]"
 msgid "Updating environment strings"
 msgstr "Updating environment strings"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:44
+#: en_US.ARM64.Debug.ActionText-2.idtx:71
+#: en_US.ARM64.Release.ActionText-2.idtx:44
+#: en_US.ARM64.Release.ActionText-2.idtx:71
 #: en_US.Win32.Debug.ActionText-2.idtx:44
 #: en_US.Win32.Debug.ActionText-2.idtx:71
 #: en_US.Win32.Release.ActionText-2.idtx:44
@@ -510,36 +691,50 @@ msgstr "Updating environment strings"
 msgid "Name: [1], Value: [2], Action [3]"
 msgstr "Name: [1], Value: [2], Action [3]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:45
+#: en_US.ARM64.Release.ActionText-2.idtx:45
 #: en_US.Win32.Debug.ActionText-2.idtx:45
 #: en_US.Win32.Release.ActionText-2.idtx:45
 #: en_US.x64.Debug.ActionText-2.idtx:45 en_US.x64.Release.ActionText-2.idtx:45
 msgid "Removing applications"
 msgstr "Removing applications"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:45
+#: en_US.ARM64.Release.ActionText-2.idtx:45
 #: en_US.Win32.Debug.ActionText-2.idtx:45
 #: en_US.Win32.Release.ActionText-2.idtx:45
 #: en_US.x64.Debug.ActionText-2.idtx:45 en_US.x64.Release.ActionText-2.idtx:45
 msgid "Application: [1], Command line: [2]"
 msgstr "Application: [1], Command line: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:46
+#: en_US.ARM64.Release.ActionText-2.idtx:46
 #: en_US.Win32.Debug.ActionText-2.idtx:46
 #: en_US.Win32.Release.ActionText-2.idtx:46
 #: en_US.x64.Debug.ActionText-2.idtx:46 en_US.x64.Release.ActionText-2.idtx:46
 msgid "Removing files"
 msgstr "Removing files"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:47
+#: en_US.ARM64.Release.ActionText-2.idtx:47
 #: en_US.Win32.Debug.ActionText-2.idtx:47
 #: en_US.Win32.Release.ActionText-2.idtx:47
 #: en_US.x64.Debug.ActionText-2.idtx:47 en_US.x64.Release.ActionText-2.idtx:47
 msgid "Removing folders"
 msgstr "Removing folders"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:48
+#: en_US.ARM64.Release.ActionText-2.idtx:48
 #: en_US.Win32.Debug.ActionText-2.idtx:48
 #: en_US.Win32.Release.ActionText-2.idtx:48
 #: en_US.x64.Debug.ActionText-2.idtx:48 en_US.x64.Release.ActionText-2.idtx:48
 msgid "Removing INI files entries"
 msgstr "Removing INI files entries"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:48
+#: en_US.ARM64.Debug.ActionText-2.idtx:72
+#: en_US.ARM64.Release.ActionText-2.idtx:48
+#: en_US.ARM64.Release.ActionText-2.idtx:72
 #: en_US.Win32.Debug.ActionText-2.idtx:48
 #: en_US.Win32.Debug.ActionText-2.idtx:72
 #: en_US.Win32.Release.ActionText-2.idtx:48
@@ -550,48 +745,66 @@ msgstr "Removing INI files entries"
 msgid "File: [1],  Section: [2],  Key: [3], Value: [4]"
 msgstr "File: [1],  Section: [2],  Key: [3], Value: [4]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:49
+#: en_US.ARM64.Release.ActionText-2.idtx:49
 #: en_US.Win32.Debug.ActionText-2.idtx:49
 #: en_US.Win32.Release.ActionText-2.idtx:49
 #: en_US.x64.Debug.ActionText-2.idtx:49 en_US.x64.Release.ActionText-2.idtx:49
 msgid "Removing ODBC components"
 msgstr "Removing ODBC components"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:50
+#: en_US.ARM64.Release.ActionText-2.idtx:50
 #: en_US.Win32.Debug.ActionText-2.idtx:50
 #: en_US.Win32.Release.ActionText-2.idtx:50
 #: en_US.x64.Debug.ActionText-2.idtx:50 en_US.x64.Release.ActionText-2.idtx:50
 msgid "Removing system registry values"
 msgstr "Removing system registry values"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:50
+#: en_US.ARM64.Release.ActionText-2.idtx:50
 #: en_US.Win32.Debug.ActionText-2.idtx:50
 #: en_US.Win32.Release.ActionText-2.idtx:50
 #: en_US.x64.Debug.ActionText-2.idtx:50 en_US.x64.Release.ActionText-2.idtx:50
 msgid "Key: [1], Name: [2]"
 msgstr "Key: [1], Name: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:51
+#: en_US.ARM64.Release.ActionText-2.idtx:51
 #: en_US.Win32.Debug.ActionText-2.idtx:51
 #: en_US.Win32.Release.ActionText-2.idtx:51
 #: en_US.x64.Debug.ActionText-2.idtx:51 en_US.x64.Release.ActionText-2.idtx:51
 msgid "Removing shortcuts"
 msgstr "Removing shortcuts"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:53
+#: en_US.ARM64.Release.ActionText-2.idtx:53
 #: en_US.Win32.Debug.ActionText-2.idtx:53
 #: en_US.Win32.Release.ActionText-2.idtx:53
 #: en_US.x64.Debug.ActionText-2.idtx:53 en_US.x64.Release.ActionText-2.idtx:53
 msgid "Rolling back action:"
 msgstr "Rolling back action:"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:54
+#: en_US.ARM64.Release.ActionText-2.idtx:54
 #: en_US.Win32.Debug.ActionText-2.idtx:54
 #: en_US.Win32.Release.ActionText-2.idtx:54
 #: en_US.x64.Debug.ActionText-2.idtx:54 en_US.x64.Release.ActionText-2.idtx:54
 msgid "Removing backup files"
 msgstr "Removing backup files"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:55
+#: en_US.ARM64.Release.ActionText-2.idtx:55
 #: en_US.Win32.Debug.ActionText-2.idtx:55
 #: en_US.Win32.Release.ActionText-2.idtx:55
 #: en_US.x64.Debug.ActionText-2.idtx:55 en_US.x64.Release.ActionText-2.idtx:55
 msgid "Registering modules"
 msgstr "Registering modules"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:55
+#: en_US.ARM64.Debug.ActionText-2.idtx:56
+#: en_US.ARM64.Release.ActionText-2.idtx:55
+#: en_US.ARM64.Release.ActionText-2.idtx:56
 #: en_US.Win32.Debug.ActionText-2.idtx:55
 #: en_US.Win32.Debug.ActionText-2.idtx:56
 #: en_US.Win32.Release.ActionText-2.idtx:55
@@ -602,131 +815,176 @@ msgstr "Registering modules"
 msgid "File: [1], Folder: [2]"
 msgstr "File: [1], Folder: [2]"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:56
+#: en_US.ARM64.Release.ActionText-2.idtx:56
 #: en_US.Win32.Debug.ActionText-2.idtx:56
 #: en_US.Win32.Release.ActionText-2.idtx:56
 #: en_US.x64.Debug.ActionText-2.idtx:56 en_US.x64.Release.ActionText-2.idtx:56
 msgid "Unregistering modules"
 msgstr "Unregistering modules"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:57
+#: en_US.ARM64.Release.ActionText-2.idtx:57
 #: en_US.Win32.Debug.ActionText-2.idtx:57
 #: en_US.Win32.Release.ActionText-2.idtx:57
 #: en_US.x64.Debug.ActionText-2.idtx:57 en_US.x64.Release.ActionText-2.idtx:57
 msgid "Initializing ODBC directories"
 msgstr "Initializing ODBC directories"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:58
+#: en_US.ARM64.Release.ActionText-2.idtx:58
 #: en_US.Win32.Debug.ActionText-2.idtx:58
 #: en_US.Win32.Release.ActionText-2.idtx:58
 #: en_US.x64.Debug.ActionText-2.idtx:58 en_US.x64.Release.ActionText-2.idtx:58
 msgid "Starting services"
 msgstr "Starting services"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:59
+#: en_US.ARM64.Release.ActionText-2.idtx:59
 #: en_US.Win32.Debug.ActionText-2.idtx:59
 #: en_US.Win32.Release.ActionText-2.idtx:59
 #: en_US.x64.Debug.ActionText-2.idtx:59 en_US.x64.Release.ActionText-2.idtx:59
 msgid "Stopping services"
 msgstr "Stopping services"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:60
+#: en_US.ARM64.Release.ActionText-2.idtx:60
 #: en_US.Win32.Debug.ActionText-2.idtx:60
 #: en_US.Win32.Release.ActionText-2.idtx:60
 #: en_US.x64.Debug.ActionText-2.idtx:60 en_US.x64.Release.ActionText-2.idtx:60
 msgid "Removing moved files"
 msgstr "Removing moved files"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:61
+#: en_US.ARM64.Release.ActionText-2.idtx:61
 #: en_US.Win32.Debug.ActionText-2.idtx:61
 #: en_US.Win32.Release.ActionText-2.idtx:61
 #: en_US.x64.Debug.ActionText-2.idtx:61 en_US.x64.Release.ActionText-2.idtx:61
 msgid "Unpublishing Qualified Components"
 msgstr "Unpublishing Qualified Components"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:62
+#: en_US.ARM64.Release.ActionText-2.idtx:62
 #: en_US.Win32.Debug.ActionText-2.idtx:62
 #: en_US.Win32.Release.ActionText-2.idtx:62
 #: en_US.x64.Debug.ActionText-2.idtx:62 en_US.x64.Release.ActionText-2.idtx:62
 msgid "Unpublishing Product Features"
 msgstr "Unpublishing Product Features"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:63
+#: en_US.ARM64.Release.ActionText-2.idtx:63
 #: en_US.Win32.Debug.ActionText-2.idtx:63
 #: en_US.Win32.Release.ActionText-2.idtx:63
 #: en_US.x64.Debug.ActionText-2.idtx:63 en_US.x64.Release.ActionText-2.idtx:63
 msgid "Unpublishing product information"
 msgstr "Unpublishing product information"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:64
+#: en_US.ARM64.Release.ActionText-2.idtx:64
 #: en_US.Win32.Debug.ActionText-2.idtx:64
 #: en_US.Win32.Release.ActionText-2.idtx:64
 #: en_US.x64.Debug.ActionText-2.idtx:64 en_US.x64.Release.ActionText-2.idtx:64
 msgid "Unregister Class servers"
 msgstr "Unregister Class servers"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:65
+#: en_US.ARM64.Release.ActionText-2.idtx:65
 #: en_US.Win32.Debug.ActionText-2.idtx:65
 #: en_US.Win32.Release.ActionText-2.idtx:65
 #: en_US.x64.Debug.ActionText-2.idtx:65 en_US.x64.Release.ActionText-2.idtx:65
 msgid "Unregistering COM+ Applications and Components"
 msgstr "Unregistering COM+ Applications and Components"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:65
+#: en_US.ARM64.Release.ActionText-2.idtx:65
 #: en_US.Win32.Debug.ActionText-2.idtx:65
 #: en_US.Win32.Release.ActionText-2.idtx:65
 #: en_US.x64.Debug.ActionText-2.idtx:65 en_US.x64.Release.ActionText-2.idtx:65
 msgid "AppId: [1]{{, AppType: [2]}}"
 msgstr "AppId: [1]{{, AppType: [2]}}"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:66
+#: en_US.ARM64.Release.ActionText-2.idtx:66
 #: en_US.Win32.Debug.ActionText-2.idtx:66
 #: en_US.Win32.Release.ActionText-2.idtx:66
 #: en_US.x64.Debug.ActionText-2.idtx:66 en_US.x64.Release.ActionText-2.idtx:66
 msgid "Unregistering extension servers"
 msgstr "Unregistering extension servers"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:67
+#: en_US.ARM64.Release.ActionText-2.idtx:67
 #: en_US.Win32.Debug.ActionText-2.idtx:67
 #: en_US.Win32.Release.ActionText-2.idtx:67
 #: en_US.x64.Debug.ActionText-2.idtx:67 en_US.x64.Release.ActionText-2.idtx:67
 msgid "Unregistering fonts"
 msgstr "Unregistering fonts"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:68
+#: en_US.ARM64.Release.ActionText-2.idtx:68
 #: en_US.Win32.Debug.ActionText-2.idtx:68
 #: en_US.Win32.Release.ActionText-2.idtx:68
 #: en_US.x64.Debug.ActionText-2.idtx:68 en_US.x64.Release.ActionText-2.idtx:68
 msgid "Unregistering MIME info"
 msgstr "Unregistering MIME info"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:69
+#: en_US.ARM64.Release.ActionText-2.idtx:69
 #: en_US.Win32.Debug.ActionText-2.idtx:69
 #: en_US.Win32.Release.ActionText-2.idtx:69
 #: en_US.x64.Debug.ActionText-2.idtx:69 en_US.x64.Release.ActionText-2.idtx:69
 msgid "Unregistering program identifiers"
 msgstr "Unregistering program identifiers"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:70
+#: en_US.ARM64.Release.ActionText-2.idtx:70
 #: en_US.Win32.Debug.ActionText-2.idtx:70
 #: en_US.Win32.Release.ActionText-2.idtx:70
 #: en_US.x64.Debug.ActionText-2.idtx:70 en_US.x64.Release.ActionText-2.idtx:70
 msgid "Unregistering type libraries"
 msgstr "Unregistering type libraries"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:72
+#: en_US.ARM64.Release.ActionText-2.idtx:72
 #: en_US.Win32.Debug.ActionText-2.idtx:72
 #: en_US.Win32.Release.ActionText-2.idtx:72
 #: en_US.x64.Debug.ActionText-2.idtx:72 en_US.x64.Release.ActionText-2.idtx:72
 msgid "Writing INI files values"
 msgstr "Writing INI files values"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:73
+#: en_US.ARM64.Release.ActionText-2.idtx:73
 #: en_US.Win32.Debug.ActionText-2.idtx:73
 #: en_US.Win32.Release.ActionText-2.idtx:73
 #: en_US.x64.Debug.ActionText-2.idtx:73 en_US.x64.Release.ActionText-2.idtx:73
 msgid "Writing system registry values"
 msgstr "Writing system registry values"
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:73
+#: en_US.ARM64.Release.ActionText-2.idtx:73
 #: en_US.Win32.Debug.ActionText-2.idtx:73
 #: en_US.Win32.Release.ActionText-2.idtx:73
 #: en_US.x64.Debug.ActionText-2.idtx:73 en_US.x64.Release.ActionText-2.idtx:73
 msgid "Key: [1], Name: [2], Value: [3]"
 msgstr "Key: [1], Name: [2], Value: [3]"
 
-#: en_US.Win32.Debug.CustomAction-2.idtx:4
-#: en_US.Win32.Release.CustomAction-2.idtx:4
-msgid ""
-"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
-" 64-bit operating system. 32-bit variant will not work with your operating "
-"system. The installation of the 64-bit variant is recommended."
+#: en_US.ARM64.Debug.ActionText-2.idtx:74
+#: en_US.ARM64.Release.ActionText-2.idtx:74
+#: en_US.Win32.Debug.ActionText-2.idtx:74
+#: en_US.Win32.Release.ActionText-2.idtx:74
+#: en_US.x64.Debug.ActionText-2.idtx:74 en_US.x64.Release.ActionText-2.idtx:74
+msgid "Evaluating Active Setup components"
 msgstr ""
-"Pokušavate da instalirate 32-bitnu verziju [SimpleProductName] na 65-bitnom "
-"operativnom sistemu. 32-bitna verzija neće raditi sa vašim operativnim "
-"sistemom. Preporučena ja instalacija 64-bitne verzije."
 
+#: en_US.ARM64.Debug.ActionText-2.idtx:75
+#: en_US.ARM64.Release.ActionText-2.idtx:75
+#: en_US.Win32.Debug.ActionText-2.idtx:75
+#: en_US.Win32.Release.ActionText-2.idtx:75
+#: en_US.x64.Debug.ActionText-2.idtx:75 en_US.x64.Release.ActionText-2.idtx:75
+msgid "Publishing Active Setup components"
+msgstr ""
+
+#: en_US.ARM64.Debug.CustomAction-2.idtx:4
+#: en_US.ARM64.Release.CustomAction-2.idtx:4
 #: en_US.Win32.Debug.CustomAction-2.idtx:5
 #: en_US.Win32.Release.CustomAction-2.idtx:5
 #: en_US.x64.Debug.CustomAction-2.idtx:4
@@ -734,6 +992,8 @@ msgstr ""
 msgid "A newer version of [SimpleProductName] is already installed."
 msgstr "Novija verzija [SimpleProductName] je već instalirana."
 
+#: en_US.ARM64.Debug.CustomAction-2.idtx:5
+#: en_US.ARM64.Release.CustomAction-2.idtx:5
 #: en_US.Win32.Debug.CustomAction-2.idtx:6
 #: en_US.Win32.Release.CustomAction-2.idtx:6
 #: en_US.x64.Debug.CustomAction-2.idtx:5
@@ -745,26 +1005,31 @@ msgstr ""
 "Ovaj paket ne može nadograditi trenutno instaliranu verziju "
 "[SimpleProductName]. Prvo obrišite stari paket i pokušajte ponovo."
 
+#: en_US.ARM64.Debug.Error-2.idtx:4 en_US.ARM64.Release.Error-2.idtx:4
 #: en_US.Win32.Debug.Error-2.idtx:4 en_US.Win32.Release.Error-2.idtx:4
 #: en_US.x64.Debug.Error-2.idtx:4 en_US.x64.Release.Error-2.idtx:4
 msgid "{{Fatal error: }}"
 msgstr "{{Fatal error: }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:5 en_US.ARM64.Release.Error-2.idtx:5
 #: en_US.Win32.Debug.Error-2.idtx:5 en_US.Win32.Release.Error-2.idtx:5
 #: en_US.x64.Debug.Error-2.idtx:5 en_US.x64.Release.Error-2.idtx:5
 msgid "{{Error [1]. }}"
 msgstr "{{Error [1]. }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:6 en_US.ARM64.Release.Error-2.idtx:6
 #: en_US.Win32.Debug.Error-2.idtx:6 en_US.Win32.Release.Error-2.idtx:6
 #: en_US.x64.Debug.Error-2.idtx:6 en_US.x64.Release.Error-2.idtx:6
 msgid "Warning [1]. "
 msgstr "Warning [1]. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:8 en_US.ARM64.Release.Error-2.idtx:8
 #: en_US.Win32.Debug.Error-2.idtx:8 en_US.Win32.Release.Error-2.idtx:8
 #: en_US.x64.Debug.Error-2.idtx:8 en_US.x64.Release.Error-2.idtx:8
 msgid "Info [1]. "
 msgstr "Info [1]. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:9 en_US.ARM64.Release.Error-2.idtx:9
 #: en_US.Win32.Debug.Error-2.idtx:9 en_US.Win32.Release.Error-2.idtx:9
 #: en_US.x64.Debug.Error-2.idtx:9 en_US.x64.Release.Error-2.idtx:9
 msgid ""
@@ -776,56 +1041,68 @@ msgstr ""
 "pokazatelj da postoji problem sa instalacionim paketom. Greška je [1]. {{The"
 " arguments are: [2], [3], [4]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:11 en_US.ARM64.Release.Error-2.idtx:11
 #: en_US.Win32.Debug.Error-2.idtx:11 en_US.Win32.Release.Error-2.idtx:11
 #: en_US.x64.Debug.Error-2.idtx:11 en_US.x64.Release.Error-2.idtx:11
 msgid "{{Disk full: }}"
 msgstr "{{Disk full: }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:12 en_US.ARM64.Release.Error-2.idtx:12
 #: en_US.Win32.Debug.Error-2.idtx:12 en_US.Win32.Release.Error-2.idtx:12
 #: en_US.x64.Debug.Error-2.idtx:12 en_US.x64.Release.Error-2.idtx:12
 msgid "Action [Time]: [1]. [2]"
 msgstr "Action [Time]: [1]. [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:13 en_US.ARM64.Release.Error-2.idtx:13
 #: en_US.Win32.Debug.Error-2.idtx:13 en_US.Win32.Release.Error-2.idtx:13
 #: en_US.x64.Debug.Error-2.idtx:13 en_US.x64.Release.Error-2.idtx:13
 msgid "[SimpleProductName]"
 msgstr "[SimpleProductName]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:14 en_US.ARM64.Release.Error-2.idtx:14
 #: en_US.Win32.Debug.Error-2.idtx:14 en_US.Win32.Release.Error-2.idtx:14
 #: en_US.x64.Debug.Error-2.idtx:14 en_US.x64.Release.Error-2.idtx:14
 msgid "{[2]}{, [3]}{, [4]}"
 msgstr "{[2]}{, [3]}{, [4]}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:15 en_US.ARM64.Release.Error-2.idtx:15
 #: en_US.Win32.Debug.Error-2.idtx:15 en_US.Win32.Release.Error-2.idtx:15
 #: en_US.x64.Debug.Error-2.idtx:15 en_US.x64.Release.Error-2.idtx:15
 msgid "Message type: [1], Argument: [2]{, [3]}"
 msgstr "Message type: [1], Argument: [2]{, [3]}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:16 en_US.ARM64.Release.Error-2.idtx:16
 #: en_US.Win32.Debug.Error-2.idtx:16 en_US.Win32.Release.Error-2.idtx:16
 #: en_US.x64.Debug.Error-2.idtx:16 en_US.x64.Release.Error-2.idtx:16
 msgid "=== Logging started: [Date]  [Time] ==="
 msgstr "=== Logging started: [Date]  [Time] ==="
 
+#: en_US.ARM64.Debug.Error-2.idtx:17 en_US.ARM64.Release.Error-2.idtx:17
 #: en_US.Win32.Debug.Error-2.idtx:17 en_US.Win32.Release.Error-2.idtx:17
 #: en_US.x64.Debug.Error-2.idtx:17 en_US.x64.Release.Error-2.idtx:17
 msgid "=== Logging stopped: [Date]  [Time] ==="
 msgstr "=== Logging stopped: [Date]  [Time] ==="
 
+#: en_US.ARM64.Debug.Error-2.idtx:18 en_US.ARM64.Release.Error-2.idtx:18
 #: en_US.Win32.Debug.Error-2.idtx:18 en_US.Win32.Release.Error-2.idtx:18
 #: en_US.x64.Debug.Error-2.idtx:18 en_US.x64.Release.Error-2.idtx:18
 msgid "Action start [Time]: [1]."
 msgstr "Action start [Time]: [1]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:19 en_US.ARM64.Release.Error-2.idtx:19
 #: en_US.Win32.Debug.Error-2.idtx:19 en_US.Win32.Release.Error-2.idtx:19
 #: en_US.x64.Debug.Error-2.idtx:19 en_US.x64.Release.Error-2.idtx:19
 msgid "Action ended [Time]: [1]. Return value [2]."
 msgstr "Action ended [Time]: [1]. Return value [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:20 en_US.ARM64.Release.Error-2.idtx:20
 #: en_US.Win32.Debug.Error-2.idtx:20 en_US.Win32.Release.Error-2.idtx:20
 #: en_US.x64.Debug.Error-2.idtx:20 en_US.x64.Release.Error-2.idtx:20
 msgid "Time remaining: {[1] minutes }{[2] seconds}"
 msgstr "Preostalo vreme: {[1] minuta }{[2] sekundi}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:21 en_US.ARM64.Debug.Error-2.idtx:127
+#: en_US.ARM64.Release.Error-2.idtx:21 en_US.ARM64.Release.Error-2.idtx:127
 #: en_US.Win32.Debug.Error-2.idtx:21 en_US.Win32.Debug.Error-2.idtx:127
 #: en_US.Win32.Release.Error-2.idtx:21 en_US.Win32.Release.Error-2.idtx:127
 #: en_US.x64.Debug.Error-2.idtx:21 en_US.x64.Debug.Error-2.idtx:127
@@ -835,46 +1112,55 @@ msgstr ""
 "Nedovoljno RAM memorije. Ugasite druge aplikacije pre nego što pokušate "
 "ponovo."
 
+#: en_US.ARM64.Debug.Error-2.idtx:22 en_US.ARM64.Release.Error-2.idtx:22
 #: en_US.Win32.Debug.Error-2.idtx:22 en_US.Win32.Release.Error-2.idtx:22
 #: en_US.x64.Debug.Error-2.idtx:22 en_US.x64.Release.Error-2.idtx:22
 msgid "Installer is no longer responding."
 msgstr "Instalacija više nije dostupna."
 
+#: en_US.ARM64.Debug.Error-2.idtx:23 en_US.ARM64.Release.Error-2.idtx:23
 #: en_US.Win32.Debug.Error-2.idtx:23 en_US.Win32.Release.Error-2.idtx:23
 #: en_US.x64.Debug.Error-2.idtx:23 en_US.x64.Release.Error-2.idtx:23
 msgid "Installer stopped prematurely."
 msgstr "Instalacija je zaustavljena prevremeno."
 
+#: en_US.ARM64.Debug.Error-2.idtx:24 en_US.ARM64.Release.Error-2.idtx:24
 #: en_US.Win32.Debug.Error-2.idtx:24 en_US.Win32.Release.Error-2.idtx:24
 #: en_US.x64.Debug.Error-2.idtx:24 en_US.x64.Release.Error-2.idtx:24
 msgid "Please wait while Windows configures [SimpleProductName]"
 msgstr "Molimo sačekajte dok Windows konfiguriše [SimpleProductName]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:25 en_US.ARM64.Release.Error-2.idtx:25
 #: en_US.Win32.Debug.Error-2.idtx:25 en_US.Win32.Release.Error-2.idtx:25
 #: en_US.x64.Debug.Error-2.idtx:25 en_US.x64.Release.Error-2.idtx:25
 msgid "Gathering required information..."
 msgstr "Prikupljanje potrebnih informacija..."
 
+#: en_US.ARM64.Debug.Error-2.idtx:26 en_US.ARM64.Release.Error-2.idtx:26
 #: en_US.Win32.Debug.Error-2.idtx:26 en_US.Win32.Release.Error-2.idtx:26
 #: en_US.x64.Debug.Error-2.idtx:26 en_US.x64.Release.Error-2.idtx:26
 msgid "Removing older versions of this application..."
 msgstr "Uklanjanje starijih verzija aplikacije..."
 
+#: en_US.ARM64.Debug.Error-2.idtx:27 en_US.ARM64.Release.Error-2.idtx:27
 #: en_US.Win32.Debug.Error-2.idtx:27 en_US.Win32.Release.Error-2.idtx:27
 #: en_US.x64.Debug.Error-2.idtx:27 en_US.x64.Release.Error-2.idtx:27
 msgid "Preparing to remove older versions of this application..."
 msgstr "Pripremanje za uklanjanje starijih verzija ove aplikacije..."
 
+#: en_US.ARM64.Debug.Error-2.idtx:28 en_US.ARM64.Release.Error-2.idtx:28
 #: en_US.Win32.Debug.Error-2.idtx:28 en_US.Win32.Release.Error-2.idtx:28
 #: en_US.x64.Debug.Error-2.idtx:28 en_US.x64.Release.Error-2.idtx:28
 msgid "{[SimpleProductName] }Setup completed successfully."
 msgstr "{[SimpleProductName] } Instalacija je uspešno završena."
 
+#: en_US.ARM64.Debug.Error-2.idtx:29 en_US.ARM64.Release.Error-2.idtx:29
 #: en_US.Win32.Debug.Error-2.idtx:29 en_US.Win32.Release.Error-2.idtx:29
 #: en_US.x64.Debug.Error-2.idtx:29 en_US.x64.Release.Error-2.idtx:29
 msgid "{[SimpleProductName] }Setup failed."
 msgstr "{[SimpleProductName] } Greška prilikom instalacije."
 
+#: en_US.ARM64.Debug.Error-2.idtx:30 en_US.ARM64.Release.Error-2.idtx:30
 #: en_US.Win32.Debug.Error-2.idtx:30 en_US.Win32.Release.Error-2.idtx:30
 #: en_US.x64.Debug.Error-2.idtx:30 en_US.x64.Release.Error-2.idtx:30
 msgid ""
@@ -884,6 +1170,7 @@ msgstr ""
 "Greška prilikom čitanja fajla: [2]. {{ System error [3].}}  Proverite da li "
 "fajl postoji i da li možete da mu pristupite."
 
+#: en_US.ARM64.Debug.Error-2.idtx:31 en_US.ARM64.Release.Error-2.idtx:31
 #: en_US.Win32.Debug.Error-2.idtx:31 en_US.Win32.Release.Error-2.idtx:31
 #: en_US.x64.Debug.Error-2.idtx:31 en_US.x64.Release.Error-2.idtx:31
 msgid ""
@@ -893,11 +1180,13 @@ msgstr ""
 "Fajl '[2]' se ne može kreirati. Direktorijum sa istim imenom već postoji. "
 "Otkažite instalaciju i pokušajte da promenite lokaciju za instaliranje."
 
+#: en_US.ARM64.Debug.Error-2.idtx:32 en_US.ARM64.Release.Error-2.idtx:32
 #: en_US.Win32.Debug.Error-2.idtx:32 en_US.Win32.Release.Error-2.idtx:32
 #: en_US.x64.Debug.Error-2.idtx:32 en_US.x64.Release.Error-2.idtx:32
 msgid "Please insert the disk: [2]"
 msgstr "Molimo vas ubacite disk: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:33 en_US.ARM64.Release.Error-2.idtx:33
 #: en_US.Win32.Debug.Error-2.idtx:33 en_US.Win32.Release.Error-2.idtx:33
 #: en_US.x64.Debug.Error-2.idtx:33 en_US.x64.Release.Error-2.idtx:33
 msgid ""
@@ -909,6 +1198,7 @@ msgstr ""
 "[2]. Instalacija se ne može nastaviti. Ulogujte se kao administrator ili "
 "kontaktirajte vašeg sistem administratora."
 
+#: en_US.ARM64.Debug.Error-2.idtx:34 en_US.ARM64.Release.Error-2.idtx:34
 #: en_US.Win32.Debug.Error-2.idtx:34 en_US.Win32.Release.Error-2.idtx:34
 #: en_US.x64.Debug.Error-2.idtx:34 en_US.x64.Release.Error-2.idtx:34
 msgid ""
@@ -917,6 +1207,7 @@ msgstr ""
 "Greška prilikom upisa: [2]. Proverite da li možete da pristupite tom "
 "direktorijumu."
 
+#: en_US.ARM64.Debug.Error-2.idtx:35 en_US.ARM64.Release.Error-2.idtx:35
 #: en_US.Win32.Debug.Error-2.idtx:35 en_US.Win32.Release.Error-2.idtx:35
 #: en_US.x64.Debug.Error-2.idtx:35 en_US.x64.Release.Error-2.idtx:35
 msgid ""
@@ -926,6 +1217,7 @@ msgstr ""
 "Greška prilikom čitanja iz fajla [2]. {{ System error [3].}} Proverite da li"
 " fajl postoji i da li možete da mu pristupite."
 
+#: en_US.ARM64.Debug.Error-2.idtx:36 en_US.ARM64.Release.Error-2.idtx:36
 #: en_US.Win32.Debug.Error-2.idtx:36 en_US.Win32.Release.Error-2.idtx:36
 #: en_US.x64.Debug.Error-2.idtx:36 en_US.x64.Release.Error-2.idtx:36
 msgid ""
@@ -935,6 +1227,7 @@ msgstr ""
 "Druga aplikacija ima pravo pristupa fajlu '[2]'. Zatvorite sve druge "
 "aplikacije i kliknite na Retry."
 
+#: en_US.ARM64.Debug.Error-2.idtx:37 en_US.ARM64.Release.Error-2.idtx:37
 #: en_US.Win32.Debug.Error-2.idtx:37 en_US.Win32.Release.Error-2.idtx:37
 #: en_US.x64.Debug.Error-2.idtx:37 en_US.x64.Release.Error-2.idtx:37
 msgid ""
@@ -945,6 +1238,7 @@ msgstr ""
 "deo prostora na disku i kliknite Retry, ili Cancel ako hoćete da prekinete "
 "instalaciju."
 
+#: en_US.ARM64.Debug.Error-2.idtx:38 en_US.ARM64.Release.Error-2.idtx:38
 #: en_US.Win32.Debug.Error-2.idtx:38 en_US.Win32.Release.Error-2.idtx:38
 #: en_US.x64.Debug.Error-2.idtx:38 en_US.x64.Release.Error-2.idtx:38
 msgid ""
@@ -954,6 +1248,7 @@ msgstr ""
 "Izvorni fajl nije nađen: [2]. Proverite da li fajl postoji i da li možete da"
 " mu pristupite."
 
+#: en_US.ARM64.Debug.Error-2.idtx:39 en_US.ARM64.Release.Error-2.idtx:39
 #: en_US.Win32.Debug.Error-2.idtx:39 en_US.Win32.Release.Error-2.idtx:39
 #: en_US.x64.Debug.Error-2.idtx:39 en_US.x64.Release.Error-2.idtx:39
 msgid ""
@@ -963,6 +1258,7 @@ msgstr ""
 "Greška prilikom čitanja iz fajla: [3]. {{ System error [2].}} Proverite da "
 "li fajl postoji i da li možete da mu pristupite."
 
+#: en_US.ARM64.Debug.Error-2.idtx:40 en_US.ARM64.Release.Error-2.idtx:40
 #: en_US.Win32.Debug.Error-2.idtx:40 en_US.Win32.Release.Error-2.idtx:40
 #: en_US.x64.Debug.Error-2.idtx:40 en_US.x64.Release.Error-2.idtx:40
 msgid ""
@@ -972,6 +1268,7 @@ msgstr ""
 "Greška prilikom upisa u fajl: [3]. {{ System error [2].}} Proverite da li "
 "fajl postoji i da li možete da mu pristupite."
 
+#: en_US.ARM64.Debug.Error-2.idtx:41 en_US.ARM64.Release.Error-2.idtx:41
 #: en_US.Win32.Debug.Error-2.idtx:41 en_US.Win32.Release.Error-2.idtx:41
 #: en_US.x64.Debug.Error-2.idtx:41 en_US.x64.Release.Error-2.idtx:41
 msgid ""
@@ -981,6 +1278,7 @@ msgstr ""
 "Izvorni fajl nije nađen: [2]. Proverite da li fajl postoji i da li možete da"
 " mu pristupite."
 
+#: en_US.ARM64.Debug.Error-2.idtx:42 en_US.ARM64.Release.Error-2.idtx:42
 #: en_US.Win32.Debug.Error-2.idtx:42 en_US.Win32.Release.Error-2.idtx:42
 #: en_US.x64.Debug.Error-2.idtx:42 en_US.x64.Release.Error-2.idtx:42
 msgid ""
@@ -991,37 +1289,44 @@ msgstr ""
 "Promenite ime fajla ili ga obrišite i kliknite Retry, ili kliknite Cancel "
 "ako hoćete da prekinete instalaciju."
 
+#: en_US.ARM64.Debug.Error-2.idtx:43 en_US.ARM64.Release.Error-2.idtx:43
 #: en_US.Win32.Debug.Error-2.idtx:43 en_US.Win32.Release.Error-2.idtx:43
 #: en_US.x64.Debug.Error-2.idtx:43 en_US.x64.Release.Error-2.idtx:43
 msgid "The volume [2] is currently unavailable.  Please select another."
 msgstr "Disk [2] trenutno nije dostupan. Izaberite drugi disk."
 
+#: en_US.ARM64.Debug.Error-2.idtx:44 en_US.ARM64.Release.Error-2.idtx:44
 #: en_US.Win32.Debug.Error-2.idtx:44 en_US.Win32.Release.Error-2.idtx:44
 #: en_US.x64.Debug.Error-2.idtx:44 en_US.x64.Release.Error-2.idtx:44
 msgid "The specified path '[2]' is unavailable."
 msgstr "Navedena putanja '[2]' nije dostupna."
 
+#: en_US.ARM64.Debug.Error-2.idtx:45 en_US.ARM64.Release.Error-2.idtx:45
 #: en_US.Win32.Debug.Error-2.idtx:45 en_US.Win32.Release.Error-2.idtx:45
 #: en_US.x64.Debug.Error-2.idtx:45 en_US.x64.Release.Error-2.idtx:45
 msgid "Unable to write to the specified folder: [2]."
 msgstr "Nije moguće upisati promene u navedeni direktorijum: [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:46 en_US.ARM64.Release.Error-2.idtx:46
 #: en_US.Win32.Debug.Error-2.idtx:46 en_US.Win32.Release.Error-2.idtx:46
 #: en_US.x64.Debug.Error-2.idtx:46 en_US.x64.Release.Error-2.idtx:46
 msgid "A network error occurred while attempting to read from the file: [2]"
 msgstr "Došlo je do greške na mreži prilikom pokušaja čitanja fajla: [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:47 en_US.ARM64.Release.Error-2.idtx:47
 #: en_US.Win32.Debug.Error-2.idtx:47 en_US.Win32.Release.Error-2.idtx:47
 #: en_US.x64.Debug.Error-2.idtx:47 en_US.x64.Release.Error-2.idtx:47
 msgid "An error occurred while attempting to create the directory: [2]"
 msgstr "Došlo je do greške prilikom kreiranja direktorijuma: [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:48 en_US.ARM64.Release.Error-2.idtx:48
 #: en_US.Win32.Debug.Error-2.idtx:48 en_US.Win32.Release.Error-2.idtx:48
 #: en_US.x64.Debug.Error-2.idtx:48 en_US.x64.Release.Error-2.idtx:48
 msgid "A network error occurred while attempting to create the directory: [2]"
 msgstr ""
 "Došlo je do greške na mreži prilikom pokušaja kreiranja direktorijuma: [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:49 en_US.ARM64.Release.Error-2.idtx:49
 #: en_US.Win32.Debug.Error-2.idtx:49 en_US.Win32.Release.Error-2.idtx:49
 #: en_US.x64.Debug.Error-2.idtx:49 en_US.x64.Release.Error-2.idtx:49
 msgid ""
@@ -1030,16 +1335,19 @@ msgid ""
 msgstr ""
 "Došlo je do greške na mreži prilikom pokušaja čitanja izvornih fajlova: [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:50 en_US.ARM64.Release.Error-2.idtx:50
 #: en_US.Win32.Debug.Error-2.idtx:50 en_US.Win32.Release.Error-2.idtx:50
 #: en_US.x64.Debug.Error-2.idtx:50 en_US.x64.Release.Error-2.idtx:50
 msgid "The specified path is too long: [2]"
 msgstr "Definisana putanja je preduga: [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:51 en_US.ARM64.Release.Error-2.idtx:51
 #: en_US.Win32.Debug.Error-2.idtx:51 en_US.Win32.Release.Error-2.idtx:51
 #: en_US.x64.Debug.Error-2.idtx:51 en_US.x64.Release.Error-2.idtx:51
 msgid "The Installer has insufficient privileges to modify this file: [2]."
 msgstr "Instaler nema dovoljno privilegija za modifikovanje ovog fajla: [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:52 en_US.ARM64.Release.Error-2.idtx:52
 #: en_US.Win32.Debug.Error-2.idtx:52 en_US.Win32.Release.Error-2.idtx:52
 #: en_US.x64.Debug.Error-2.idtx:52 en_US.x64.Release.Error-2.idtx:52
 msgid ""
@@ -1049,6 +1357,7 @@ msgstr ""
 "Deo putanje '[2]' je neispravan. Deo putanje je ili prazan ili premašuje "
 "dužinu koju sistem dozvoljava."
 
+#: en_US.ARM64.Debug.Error-2.idtx:53 en_US.ARM64.Release.Error-2.idtx:53
 #: en_US.Win32.Debug.Error-2.idtx:53 en_US.Win32.Release.Error-2.idtx:53
 #: en_US.x64.Debug.Error-2.idtx:53 en_US.x64.Release.Error-2.idtx:53
 msgid ""
@@ -1056,26 +1365,31 @@ msgid ""
 msgstr ""
 "Putanja '[2]' sadrži reči koje su neprihvatljive za imena direktorijuma. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:54 en_US.ARM64.Release.Error-2.idtx:54
 #: en_US.Win32.Debug.Error-2.idtx:54 en_US.Win32.Release.Error-2.idtx:54
 #: en_US.x64.Debug.Error-2.idtx:54 en_US.x64.Release.Error-2.idtx:54
 msgid "The folder path '[2]' contains an invalid character."
 msgstr "Putanja '[2]' sadrži neispravan karakter."
 
+#: en_US.ARM64.Debug.Error-2.idtx:55 en_US.ARM64.Release.Error-2.idtx:55
 #: en_US.Win32.Debug.Error-2.idtx:55 en_US.Win32.Release.Error-2.idtx:55
 #: en_US.x64.Debug.Error-2.idtx:55 en_US.x64.Release.Error-2.idtx:55
 msgid "'[2]' is not a valid short file name."
 msgstr "'[2]' nije ispravna skraćenica za fajl."
 
+#: en_US.ARM64.Debug.Error-2.idtx:56 en_US.ARM64.Release.Error-2.idtx:56
 #: en_US.Win32.Debug.Error-2.idtx:56 en_US.Win32.Release.Error-2.idtx:56
 #: en_US.x64.Debug.Error-2.idtx:56 en_US.x64.Release.Error-2.idtx:56
 msgid "Error getting file security: [3] GetLastError: [2]"
 msgstr "Error getting file security: [3] GetLastError: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:57 en_US.ARM64.Release.Error-2.idtx:57
 #: en_US.Win32.Debug.Error-2.idtx:57 en_US.Win32.Release.Error-2.idtx:57
 #: en_US.x64.Debug.Error-2.idtx:57 en_US.x64.Release.Error-2.idtx:57
 msgid "Invalid Drive: [2]"
 msgstr "Pogrešan disk: [2]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:58 en_US.ARM64.Release.Error-2.idtx:58
 #: en_US.Win32.Debug.Error-2.idtx:58 en_US.Win32.Release.Error-2.idtx:58
 #: en_US.x64.Debug.Error-2.idtx:58 en_US.x64.Release.Error-2.idtx:58
 msgid ""
@@ -1087,6 +1401,7 @@ msgstr ""
 "način i ne može se modifikovati. Za više informacija konaktirajte osobu koja"
 " je zadužena za održavanje aplikacije. {{System Error: [3]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:59 en_US.ARM64.Release.Error-2.idtx:59
 #: en_US.Win32.Debug.Error-2.idtx:59 en_US.Win32.Release.Error-2.idtx:59
 #: en_US.x64.Debug.Error-2.idtx:59 en_US.x64.Release.Error-2.idtx:59
 msgid ""
@@ -1096,6 +1411,7 @@ msgstr ""
 "Fajl koji je neophodan se ne može instalirati jer arhiva [2] nije digitalno "
 "potpisana. Ovo može značiti da je arhiva kompromitovana. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:60 en_US.ARM64.Release.Error-2.idtx:60
 #: en_US.Win32.Debug.Error-2.idtx:60 en_US.Win32.Release.Error-2.idtx:60
 #: en_US.x64.Debug.Error-2.idtx:60 en_US.x64.Release.Error-2.idtx:60
 msgid ""
@@ -1107,21 +1423,25 @@ msgstr ""
 "odgovarajući digitalni potpis. Ovo može značiti da je arhiva kompromitovana."
 " {{ Error [3] was returned by WinVerifyTrust.}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:61 en_US.ARM64.Release.Error-2.idtx:61
 #: en_US.Win32.Debug.Error-2.idtx:61 en_US.Win32.Release.Error-2.idtx:61
 #: en_US.x64.Debug.Error-2.idtx:61 en_US.x64.Release.Error-2.idtx:61
 msgid "Failed to correctly copy [2] file: CRC error."
 msgstr "Failed to correctly copy [2] file: CRC error."
 
+#: en_US.ARM64.Debug.Error-2.idtx:62 en_US.ARM64.Release.Error-2.idtx:62
 #: en_US.Win32.Debug.Error-2.idtx:62 en_US.Win32.Release.Error-2.idtx:62
 #: en_US.x64.Debug.Error-2.idtx:62 en_US.x64.Release.Error-2.idtx:62
 msgid "Failed to correctly move [2] file: CRC error."
 msgstr "Failed to correctly move [2] file: CRC error."
 
+#: en_US.ARM64.Debug.Error-2.idtx:63 en_US.ARM64.Release.Error-2.idtx:63
 #: en_US.Win32.Debug.Error-2.idtx:63 en_US.Win32.Release.Error-2.idtx:63
 #: en_US.x64.Debug.Error-2.idtx:63 en_US.x64.Release.Error-2.idtx:63
 msgid "Failed to correctly patch [2] file: CRC error."
 msgstr "Failed to correctly patch [2] file: CRC error."
 
+#: en_US.ARM64.Debug.Error-2.idtx:64 en_US.ARM64.Release.Error-2.idtx:64
 #: en_US.Win32.Debug.Error-2.idtx:64 en_US.Win32.Release.Error-2.idtx:64
 #: en_US.x64.Debug.Error-2.idtx:64 en_US.x64.Release.Error-2.idtx:64
 msgid ""
@@ -1133,6 +1453,7 @@ msgstr ""
 "biti posledica greške na mreži, prilikom čitanja sa CD-ROM-a, ili problem sa"
 " paketom."
 
+#: en_US.ARM64.Debug.Error-2.idtx:65 en_US.ARM64.Release.Error-2.idtx:65
 #: en_US.Win32.Debug.Error-2.idtx:65 en_US.Win32.Release.Error-2.idtx:65
 #: en_US.x64.Debug.Error-2.idtx:65 en_US.x64.Release.Error-2.idtx:65
 msgid ""
@@ -1144,6 +1465,7 @@ msgstr ""
 "može se koristiti. Ovo može biti posledica greške na mreži, prilikom čitanja"
 " sa CD-ROM-a, ili problem sa paketom."
 
+#: en_US.ARM64.Debug.Error-2.idtx:66 en_US.ARM64.Release.Error-2.idtx:66
 #: en_US.Win32.Debug.Error-2.idtx:66 en_US.Win32.Release.Error-2.idtx:66
 #: en_US.x64.Debug.Error-2.idtx:66 en_US.x64.Release.Error-2.idtx:66
 msgid ""
@@ -1153,6 +1475,7 @@ msgstr ""
 "Došlo je do greške prilikom kreiranja privremenog fajla koji je neophodan za"
 " instalaciju.{{ Folder: [3]. System error code: [2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:67 en_US.ARM64.Release.Error-2.idtx:67
 #: en_US.Win32.Debug.Error-2.idtx:67 en_US.Win32.Release.Error-2.idtx:67
 #: en_US.x64.Debug.Error-2.idtx:67 en_US.x64.Release.Error-2.idtx:67
 msgid ""
@@ -1163,6 +1486,7 @@ msgstr ""
 "imate dovoljne privilegije da pristupite ključu ili kontaktiraje osobu za "
 "podršku."
 
+#: en_US.ARM64.Debug.Error-2.idtx:68 en_US.ARM64.Release.Error-2.idtx:68
 #: en_US.Win32.Debug.Error-2.idtx:68 en_US.Win32.Release.Error-2.idtx:68
 #: en_US.x64.Debug.Error-2.idtx:68 en_US.x64.Release.Error-2.idtx:68
 msgid ""
@@ -1173,6 +1497,7 @@ msgstr ""
 "imate dovoljne privilegije da pristupite ključu ili kontaktiraje osobu za "
 "podršku."
 
+#: en_US.ARM64.Debug.Error-2.idtx:69 en_US.ARM64.Release.Error-2.idtx:69
 #: en_US.Win32.Debug.Error-2.idtx:69 en_US.Win32.Release.Error-2.idtx:69
 #: en_US.x64.Debug.Error-2.idtx:69 en_US.x64.Release.Error-2.idtx:69
 msgid ""
@@ -1183,6 +1508,7 @@ msgstr ""
 "Proverite da li imate dovoljne privilegije da pristupite ključu ili "
 "kontaktiraje osobu za podršku."
 
+#: en_US.ARM64.Debug.Error-2.idtx:70 en_US.ARM64.Release.Error-2.idtx:70
 #: en_US.Win32.Debug.Error-2.idtx:70 en_US.Win32.Release.Error-2.idtx:70
 #: en_US.x64.Debug.Error-2.idtx:70 en_US.x64.Release.Error-2.idtx:70
 msgid ""
@@ -1193,6 +1519,7 @@ msgstr ""
 " dovoljne privilegije da pristupite ključu ili kontaktiraje osobu za "
 "podršku."
 
+#: en_US.ARM64.Debug.Error-2.idtx:71 en_US.ARM64.Release.Error-2.idtx:71
 #: en_US.Win32.Debug.Error-2.idtx:71 en_US.Win32.Release.Error-2.idtx:71
 #: en_US.x64.Debug.Error-2.idtx:71 en_US.x64.Release.Error-2.idtx:71
 msgid ""
@@ -1203,6 +1530,7 @@ msgstr ""
 "Proverite da li imate dovoljne privilegije da pristupite ključu ili "
 "kontaktiraje osobu za podršku."
 
+#: en_US.ARM64.Debug.Error-2.idtx:72 en_US.ARM64.Release.Error-2.idtx:72
 #: en_US.Win32.Debug.Error-2.idtx:72 en_US.Win32.Release.Error-2.idtx:72
 #: en_US.x64.Debug.Error-2.idtx:72 en_US.x64.Release.Error-2.idtx:72
 msgid ""
@@ -1213,6 +1541,7 @@ msgstr ""
 "Proverite da li imate dovoljne privilegije da pristupite ključu ili "
 "kontaktiraje osobu za podršku."
 
+#: en_US.ARM64.Debug.Error-2.idtx:73 en_US.ARM64.Release.Error-2.idtx:73
 #: en_US.Win32.Debug.Error-2.idtx:73 en_US.Win32.Release.Error-2.idtx:73
 #: en_US.x64.Debug.Error-2.idtx:73 en_US.x64.Release.Error-2.idtx:73
 msgid ""
@@ -1223,6 +1552,7 @@ msgstr ""
 "Proverite da li imate dovoljne privilegije da pristupite ključu ili "
 "kontaktiraje osobu za podršku."
 
+#: en_US.ARM64.Debug.Error-2.idtx:74 en_US.ARM64.Release.Error-2.idtx:74
 #: en_US.Win32.Debug.Error-2.idtx:74 en_US.Win32.Release.Error-2.idtx:74
 #: en_US.x64.Debug.Error-2.idtx:74 en_US.x64.Release.Error-2.idtx:74
 msgid ""
@@ -1233,6 +1563,7 @@ msgstr ""
 "Proverite da li imate dovoljne privilegije da pristupite ključu ili "
 "kontaktiraje osobu za podršku."
 
+#: en_US.ARM64.Debug.Error-2.idtx:75 en_US.ARM64.Release.Error-2.idtx:75
 #: en_US.Win32.Debug.Error-2.idtx:75 en_US.Win32.Release.Error-2.idtx:75
 #: en_US.x64.Debug.Error-2.idtx:75 en_US.x64.Release.Error-2.idtx:75
 msgid ""
@@ -1244,6 +1575,7 @@ msgstr ""
 "[3].}} Proverite da li imate dovoljne privilegije da pristupite ključu ili "
 "kontaktiraje osobu za podršku."
 
+#: en_US.ARM64.Debug.Error-2.idtx:76 en_US.ARM64.Release.Error-2.idtx:76
 #: en_US.Win32.Debug.Error-2.idtx:76 en_US.Win32.Release.Error-2.idtx:76
 #: en_US.x64.Debug.Error-2.idtx:76 en_US.x64.Release.Error-2.idtx:76
 msgid ""
@@ -1253,6 +1585,7 @@ msgstr ""
 "Nije moguće povećati raspoloživ prostor u registru. Potrebno je [2] KB "
 "prostora u registru za instalaciju ove aplikacije."
 
+#: en_US.ARM64.Debug.Error-2.idtx:77 en_US.ARM64.Release.Error-2.idtx:77
 #: en_US.Win32.Debug.Error-2.idtx:77 en_US.Win32.Release.Error-2.idtx:77
 #: en_US.x64.Debug.Error-2.idtx:77 en_US.x64.Release.Error-2.idtx:77
 msgid ""
@@ -1262,6 +1595,7 @@ msgstr ""
 "Još jedna instalacija je u toku. Prvo se mora završiti ta instalacije pre "
 "nego što se nastavi sa ovom."
 
+#: en_US.ARM64.Debug.Error-2.idtx:78 en_US.ARM64.Release.Error-2.idtx:78
 #: en_US.Win32.Debug.Error-2.idtx:78 en_US.Win32.Release.Error-2.idtx:78
 #: en_US.x64.Debug.Error-2.idtx:78 en_US.x64.Release.Error-2.idtx:78
 msgid ""
@@ -1271,6 +1605,7 @@ msgstr ""
 "Greška prilikom pristupa zaštićenim podacima. Proverite da li je Windows "
 "instaler konfigurisan ispravno i pokušajte ponovo sa instalacijom."
 
+#: en_US.ARM64.Debug.Error-2.idtx:79 en_US.ARM64.Release.Error-2.idtx:79
 #: en_US.Win32.Debug.Error-2.idtx:79 en_US.Win32.Release.Error-2.idtx:79
 #: en_US.x64.Debug.Error-2.idtx:79 en_US.x64.Release.Error-2.idtx:79
 msgid ""
@@ -1282,6 +1617,7 @@ msgstr ""
 "morati da pokrene instalaciju ponovo pre nego što bude mogao da koristi "
 "prethodno instaliran program. Trenutna instalacija će se nastaviti."
 
+#: en_US.ARM64.Debug.Error-2.idtx:80 en_US.ARM64.Release.Error-2.idtx:80
 #: en_US.Win32.Debug.Error-2.idtx:80 en_US.Win32.Release.Error-2.idtx:80
 #: en_US.x64.Debug.Error-2.idtx:80 en_US.x64.Release.Error-2.idtx:80
 msgid ""
@@ -1292,6 +1628,7 @@ msgstr ""
 "morati da pokrene instalaciju ponovo pre nego što bude mogao da koristi "
 "prethodno instaliran program."
 
+#: en_US.ARM64.Debug.Error-2.idtx:81 en_US.ARM64.Release.Error-2.idtx:81
 #: en_US.Win32.Debug.Error-2.idtx:81 en_US.Win32.Release.Error-2.idtx:81
 #: en_US.x64.Debug.Error-2.idtx:81 en_US.x64.Release.Error-2.idtx:81
 msgid ""
@@ -1301,11 +1638,13 @@ msgstr ""
 "Nema dovoljno prostora na disku -- Disk: '[2]'; potreban prostor: [3] KB; "
 "raspoloživ prostor: [4] KB.  Oslobodite prostor na disku i pokušajte ponovo."
 
+#: en_US.ARM64.Debug.Error-2.idtx:82 en_US.ARM64.Release.Error-2.idtx:82
 #: en_US.Win32.Debug.Error-2.idtx:82 en_US.Win32.Release.Error-2.idtx:82
 #: en_US.x64.Debug.Error-2.idtx:82 en_US.x64.Release.Error-2.idtx:82
 msgid "Are you sure you want to cancel?"
 msgstr "Da li ste sigurni da želite da prekinete instalaciju?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:83 en_US.ARM64.Release.Error-2.idtx:83
 #: en_US.Win32.Debug.Error-2.idtx:83 en_US.Win32.Release.Error-2.idtx:83
 #: en_US.x64.Debug.Error-2.idtx:83 en_US.x64.Release.Error-2.idtx:83
 msgid ""
@@ -1315,6 +1654,7 @@ msgstr ""
 "Fal [2][3] drži u upotrebi{ sledeći proces: Ime: [4], Id: [5], Ime prozora: "
 "'[6]'}.  Zatvorite tu aplikaciju i pokušajte ponovo."
 
+#: en_US.ARM64.Debug.Error-2.idtx:84 en_US.ARM64.Release.Error-2.idtx:84
 #: en_US.Win32.Debug.Error-2.idtx:84 en_US.Win32.Release.Error-2.idtx:84
 #: en_US.x64.Debug.Error-2.idtx:84 en_US.x64.Release.Error-2.idtx:84
 msgid ""
@@ -1324,6 +1664,7 @@ msgstr ""
 "Program '[2]' je već instaliran, što sprečava instalaciju ovog programa.  "
 "Ova dva programa nisu kompatibilna."
 
+#: en_US.ARM64.Debug.Error-2.idtx:85 en_US.ARM64.Release.Error-2.idtx:85
 #: en_US.Win32.Debug.Error-2.idtx:85 en_US.Win32.Release.Error-2.idtx:85
 #: en_US.x64.Debug.Error-2.idtx:85 en_US.x64.Release.Error-2.idtx:85
 msgid ""
@@ -1339,11 +1680,13 @@ msgstr ""
 "za oporavak, kliknite Retry za ponovnu proveru raspoloživog prostora ili "
 "kliknite Cancel za prekid instalacije."
 
+#: en_US.ARM64.Debug.Error-2.idtx:86 en_US.ARM64.Release.Error-2.idtx:86
 #: en_US.Win32.Debug.Error-2.idtx:86 en_US.Win32.Release.Error-2.idtx:86
 #: en_US.x64.Debug.Error-2.idtx:86 en_US.x64.Release.Error-2.idtx:86
 msgid "Could not access network location [2]."
 msgstr "Nije moguće pristupiti mreži [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:87 en_US.ARM64.Release.Error-2.idtx:87
 #: en_US.Win32.Debug.Error-2.idtx:87 en_US.Win32.Release.Error-2.idtx:87
 #: en_US.x64.Debug.Error-2.idtx:87 en_US.x64.Release.Error-2.idtx:87
 msgid ""
@@ -1352,6 +1695,7 @@ msgstr ""
 "Potrebno je zatvoriti sledeće aplikacije pre nego što se nastavi "
 "instalacija:"
 
+#: en_US.ARM64.Debug.Error-2.idtx:88 en_US.ARM64.Release.Error-2.idtx:88
 #: en_US.Win32.Debug.Error-2.idtx:88 en_US.Win32.Release.Error-2.idtx:88
 #: en_US.x64.Debug.Error-2.idtx:88 en_US.x64.Release.Error-2.idtx:88
 msgid ""
@@ -1361,6 +1705,7 @@ msgstr ""
 "Nisu pronađeni prethodno instalirani programi kompatibilni sa ovim "
 "programom."
 
+#: en_US.ARM64.Debug.Error-2.idtx:89 en_US.ARM64.Release.Error-2.idtx:89
 #: en_US.Win32.Debug.Error-2.idtx:89 en_US.Win32.Release.Error-2.idtx:89
 #: en_US.x64.Debug.Error-2.idtx:89 en_US.x64.Release.Error-2.idtx:89
 msgid ""
@@ -1376,6 +1721,7 @@ msgstr ""
 "preko mreže i kliknite Retry ili kliknite Cancel za prekid instalacije. "
 "{{Greška prilikom provere korisničkog SID-a, sistemska greška [3]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:90 en_US.ARM64.Release.Error-2.idtx:90
 #: en_US.Win32.Debug.Error-2.idtx:90 en_US.Win32.Release.Error-2.idtx:90
 #: en_US.x64.Debug.Error-2.idtx:90 en_US.x64.Release.Error-2.idtx:90
 msgid ""
@@ -1387,6 +1733,7 @@ msgstr ""
 "dok je sistem aktivan. Ako želite da nastavite, sistem se mora restartovati "
 "kako bi se završila instalacija."
 
+#: en_US.ARM64.Debug.Error-2.idtx:91 en_US.ARM64.Release.Error-2.idtx:91
 #: en_US.Win32.Debug.Error-2.idtx:91 en_US.Win32.Release.Error-2.idtx:91
 #: en_US.x64.Debug.Error-2.idtx:91 en_US.x64.Release.Error-2.idtx:91
 msgid ""
@@ -1398,6 +1745,7 @@ msgstr ""
 " se ažuriraju. Ako želite da nastavite, sistem se mora restartovati kako bi "
 "se završila instalacija."
 
+#: en_US.ARM64.Debug.Error-2.idtx:92 en_US.ARM64.Release.Error-2.idtx:92
 #: en_US.Win32.Debug.Error-2.idtx:92 en_US.Win32.Release.Error-2.idtx:92
 #: en_US.x64.Debug.Error-2.idtx:92 en_US.x64.Release.Error-2.idtx:92
 msgid ""
@@ -1407,12 +1755,14 @@ msgstr ""
 "Ovaj instalacioni paket nije podržan na ovoj platformi. Kontaktirajte osobu "
 "zaduženu za održavanje aplikacije."
 
+#: en_US.ARM64.Debug.Error-2.idtx:93 en_US.ARM64.Release.Error-2.idtx:93
 #: en_US.Win32.Debug.Error-2.idtx:93 en_US.Win32.Release.Error-2.idtx:93
 #: en_US.x64.Debug.Error-2.idtx:93 en_US.x64.Release.Error-2.idtx:93
 msgid "The key [2] is not valid.  Verify that you entered the correct key."
 msgstr ""
 "Ključ [2] nije validan.  Proverite da li ste uneli odgovarajući ključ."
 
+#: en_US.ARM64.Debug.Error-2.idtx:94 en_US.ARM64.Release.Error-2.idtx:94
 #: en_US.Win32.Debug.Error-2.idtx:94 en_US.Win32.Release.Error-2.idtx:94
 #: en_US.x64.Debug.Error-2.idtx:94 en_US.x64.Release.Error-2.idtx:94
 msgid ""
@@ -1424,6 +1774,7 @@ msgstr ""
 "konfiguracija uređaja mogla da se nastavi. Kliknite Yes da restratujete "
 "sistem odmah ili No ako planirate da sami restartujete sistem kasnije."
 
+#: en_US.ARM64.Debug.Error-2.idtx:95 en_US.ARM64.Release.Error-2.idtx:95
 #: en_US.Win32.Debug.Error-2.idtx:95 en_US.Win32.Release.Error-2.idtx:95
 #: en_US.x64.Debug.Error-2.idtx:95 en_US.x64.Release.Error-2.idtx:95
 msgid ""
@@ -1435,6 +1786,7 @@ msgstr ""
 " snagu. Kliknite Yes da restratujete sistem odmah ili No ako planirate da "
 "sami restartujete sistem kasnije."
 
+#: en_US.ARM64.Debug.Error-2.idtx:96 en_US.ARM64.Release.Error-2.idtx:96
 #: en_US.Win32.Debug.Error-2.idtx:96 en_US.Win32.Release.Error-2.idtx:96
 #: en_US.x64.Debug.Error-2.idtx:96 en_US.x64.Release.Error-2.idtx:96
 msgid ""
@@ -1445,6 +1797,7 @@ msgstr ""
 "nastale prilikom instalacije kako biste nastavili. Da li želite da poništite"
 " sve promene?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:97 en_US.ARM64.Release.Error-2.idtx:97
 #: en_US.Win32.Debug.Error-2.idtx:97 en_US.Win32.Release.Error-2.idtx:97
 #: en_US.x64.Debug.Error-2.idtx:97 en_US.x64.Release.Error-2.idtx:97
 msgid ""
@@ -1456,6 +1809,7 @@ msgstr ""
 "nastale prilikom instalacije kako biste nastavili. Da li želite da poništite"
 " sve promene?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:98 en_US.ARM64.Release.Error-2.idtx:98
 #: en_US.Win32.Debug.Error-2.idtx:98 en_US.Win32.Release.Error-2.idtx:98
 #: en_US.x64.Debug.Error-2.idtx:98 en_US.x64.Release.Error-2.idtx:98
 msgid ""
@@ -1465,21 +1819,25 @@ msgstr ""
 "Instalacija [2] nije nađena. Pokušajte ponovo sa instalacijom korišćenjem "
 "validne kopije instalacionog paketa '[3]'."
 
+#: en_US.ARM64.Debug.Error-2.idtx:99 en_US.ARM64.Release.Error-2.idtx:99
 #: en_US.Win32.Debug.Error-2.idtx:99 en_US.Win32.Release.Error-2.idtx:99
 #: en_US.x64.Debug.Error-2.idtx:99 en_US.x64.Release.Error-2.idtx:99
 msgid "Installation completed successfully."
 msgstr "Instalacija je uspešno završena."
 
+#: en_US.ARM64.Debug.Error-2.idtx:100 en_US.ARM64.Release.Error-2.idtx:100
 #: en_US.Win32.Debug.Error-2.idtx:100 en_US.Win32.Release.Error-2.idtx:100
 #: en_US.x64.Debug.Error-2.idtx:100 en_US.x64.Release.Error-2.idtx:100
 msgid "Installation failed."
 msgstr "Instalacije nije uspešno završena."
 
+#: en_US.ARM64.Debug.Error-2.idtx:101 en_US.ARM64.Release.Error-2.idtx:101
 #: en_US.Win32.Debug.Error-2.idtx:101 en_US.Win32.Release.Error-2.idtx:101
 #: en_US.x64.Debug.Error-2.idtx:101 en_US.x64.Release.Error-2.idtx:101
 msgid "Product: [2] -- [3]"
 msgstr "Program: [2] -- [3]"
 
+#: en_US.ARM64.Debug.Error-2.idtx:102 en_US.ARM64.Release.Error-2.idtx:102
 #: en_US.Win32.Debug.Error-2.idtx:102 en_US.Win32.Release.Error-2.idtx:102
 #: en_US.x64.Debug.Error-2.idtx:102 en_US.x64.Release.Error-2.idtx:102
 msgid ""
@@ -1489,6 +1847,7 @@ msgstr ""
 "Možete vratiti računar u prethodno stanje ili nastaviti sa instalacijom "
 "kasnije. Da li želite da vratite računar u prethodno stanje?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:103 en_US.ARM64.Release.Error-2.idtx:103
 #: en_US.Win32.Debug.Error-2.idtx:103 en_US.Win32.Release.Error-2.idtx:103
 #: en_US.x64.Debug.Error-2.idtx:103 en_US.x64.Release.Error-2.idtx:103
 msgid ""
@@ -1500,6 +1859,7 @@ msgstr ""
 "Proverite da li ima dovoljno prostora na disku i kliknite Retry ili Cancel "
 "za prekid instalacije."
 
+#: en_US.ARM64.Debug.Error-2.idtx:104 en_US.ARM64.Release.Error-2.idtx:104
 #: en_US.Win32.Debug.Error-2.idtx:104 en_US.Win32.Release.Error-2.idtx:104
 #: en_US.x64.Debug.Error-2.idtx:104 en_US.x64.Release.Error-2.idtx:104
 msgid ""
@@ -1509,6 +1869,7 @@ msgstr ""
 "Jedan ili više fajlova potrebnih da bi računar mogao da se vrati u prethodno"
 " stanje nisu nađeni. Vraćanje u prethodno stanje neće biti moguće."
 
+#: en_US.ARM64.Debug.Error-2.idtx:105 en_US.ARM64.Release.Error-2.idtx:105
 #: en_US.Win32.Debug.Error-2.idtx:105 en_US.Win32.Release.Error-2.idtx:105
 #: en_US.x64.Debug.Error-2.idtx:105 en_US.x64.Release.Error-2.idtx:105
 msgid ""
@@ -1518,6 +1879,7 @@ msgstr ""
 "[2] ne može instalirati jedan od zahtevanih programa. Obratite se IT službi "
 "vaše institucije.  {{System Error: [3].}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:106 en_US.ARM64.Release.Error-2.idtx:106
 #: en_US.Win32.Debug.Error-2.idtx:106 en_US.Win32.Release.Error-2.idtx:106
 #: en_US.x64.Debug.Error-2.idtx:106 en_US.x64.Release.Error-2.idtx:106
 msgid ""
@@ -1527,26 +1889,31 @@ msgstr ""
 "Starija verzija [2] se ne može obrisati. Obratite se IT službi vaše "
 "institucije.  {{System Error: [3].}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:107 en_US.ARM64.Release.Error-2.idtx:107
 #: en_US.Win32.Debug.Error-2.idtx:107 en_US.Win32.Release.Error-2.idtx:107
 #: en_US.x64.Debug.Error-2.idtx:107 en_US.x64.Release.Error-2.idtx:107
 msgid "Installed [2]"
 msgstr "[2] je uspešno instaliran"
 
+#: en_US.ARM64.Debug.Error-2.idtx:108 en_US.ARM64.Release.Error-2.idtx:108
 #: en_US.Win32.Debug.Error-2.idtx:108 en_US.Win32.Release.Error-2.idtx:108
 #: en_US.x64.Debug.Error-2.idtx:108 en_US.x64.Release.Error-2.idtx:108
 msgid "Configured [2]"
 msgstr "[2] je uspešno konfigurisan"
 
+#: en_US.ARM64.Debug.Error-2.idtx:109 en_US.ARM64.Release.Error-2.idtx:109
 #: en_US.Win32.Debug.Error-2.idtx:109 en_US.Win32.Release.Error-2.idtx:109
 #: en_US.x64.Debug.Error-2.idtx:109 en_US.x64.Release.Error-2.idtx:109
 msgid "Removed [2]"
 msgstr "[2] je uspešno uklonjen"
 
+#: en_US.ARM64.Debug.Error-2.idtx:110 en_US.ARM64.Release.Error-2.idtx:110
 #: en_US.Win32.Debug.Error-2.idtx:110 en_US.Win32.Release.Error-2.idtx:110
 #: en_US.x64.Debug.Error-2.idtx:110 en_US.x64.Release.Error-2.idtx:110
 msgid "File [2] was rejected by digital signature policy."
 msgstr "Fajl [2] je odbijen na osnovu politike digitalnih potpisa."
 
+#: en_US.ARM64.Debug.Error-2.idtx:111 en_US.ARM64.Release.Error-2.idtx:111
 #: en_US.Win32.Debug.Error-2.idtx:111 en_US.Win32.Release.Error-2.idtx:111
 #: en_US.x64.Debug.Error-2.idtx:111 en_US.x64.Release.Error-2.idtx:111
 msgid ""
@@ -1558,6 +1925,7 @@ msgstr ""
 "Windows Installer nije ispravno instaliran. Kontaktirajte IT službu vaše "
 "institucije za pomoć."
 
+#: en_US.ARM64.Debug.Error-2.idtx:112 en_US.ARM64.Release.Error-2.idtx:112
 #: en_US.Win32.Debug.Error-2.idtx:112 en_US.Win32.Release.Error-2.idtx:112
 #: en_US.x64.Debug.Error-2.idtx:112 en_US.x64.Release.Error-2.idtx:112
 msgid ""
@@ -1571,6 +1939,7 @@ msgstr ""
 "ili osobu zaduženo za održavanje paketa.  {{Akcija [2] greška u skripti [3],"
 " [4]: [5] Linija [6], Kolona [7], [8] }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:113 en_US.ARM64.Release.Error-2.idtx:113
 #: en_US.Win32.Debug.Error-2.idtx:113 en_US.Win32.Release.Error-2.idtx:113
 #: en_US.x64.Debug.Error-2.idtx:113 en_US.x64.Release.Error-2.idtx:113
 msgid ""
@@ -1583,6 +1952,7 @@ msgstr ""
 "ili osobu zaduženo za održavanje paketa.  {{Akcija: [2], lokacija: [3], "
 "komanda: [4] }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:114 en_US.ARM64.Release.Error-2.idtx:114
 #: en_US.Win32.Debug.Error-2.idtx:114 en_US.Win32.Release.Error-2.idtx:114
 #: en_US.x64.Debug.Error-2.idtx:114 en_US.x64.Release.Error-2.idtx:114
 msgid ""
@@ -1595,6 +1965,7 @@ msgstr ""
 " službu vaše institucije ili osobu zaduženo za održavanje paketa.  {{Akcija:"
 " [2], lokacija: [3], komanda: [4] }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:115 en_US.ARM64.Release.Error-2.idtx:115
 #: en_US.Win32.Debug.Error-2.idtx:115 en_US.Win32.Release.Error-2.idtx:115
 #: en_US.x64.Debug.Error-2.idtx:115 en_US.x64.Release.Error-2.idtx:115
 msgid ""
@@ -1607,36 +1978,43 @@ msgstr ""
 "ili osobu zaduženo za održavanje paketa.  {{Akcija: [2], lokacija: [3], "
 "biblioteka: [4] }}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:116 en_US.ARM64.Release.Error-2.idtx:116
 #: en_US.Win32.Debug.Error-2.idtx:116 en_US.Win32.Release.Error-2.idtx:116
 #: en_US.x64.Debug.Error-2.idtx:116 en_US.x64.Release.Error-2.idtx:116
 msgid "Removal completed successfully."
 msgstr "Uklanjanje je uspešno završeno."
 
+#: en_US.ARM64.Debug.Error-2.idtx:117 en_US.ARM64.Release.Error-2.idtx:117
 #: en_US.Win32.Debug.Error-2.idtx:117 en_US.Win32.Release.Error-2.idtx:117
 #: en_US.x64.Debug.Error-2.idtx:117 en_US.x64.Release.Error-2.idtx:117
 msgid "Removal failed."
 msgstr "Neuspešno uklanjanje."
 
+#: en_US.ARM64.Debug.Error-2.idtx:118 en_US.ARM64.Release.Error-2.idtx:118
 #: en_US.Win32.Debug.Error-2.idtx:118 en_US.Win32.Release.Error-2.idtx:118
 #: en_US.x64.Debug.Error-2.idtx:118 en_US.x64.Release.Error-2.idtx:118
 msgid "Advertisement completed successfully."
 msgstr "Oglašavanje je uspešno završeno."
 
+#: en_US.ARM64.Debug.Error-2.idtx:119 en_US.ARM64.Release.Error-2.idtx:119
 #: en_US.Win32.Debug.Error-2.idtx:119 en_US.Win32.Release.Error-2.idtx:119
 #: en_US.x64.Debug.Error-2.idtx:119 en_US.x64.Release.Error-2.idtx:119
 msgid "Advertisement failed."
 msgstr "Neuspešno oglašavanje."
 
+#: en_US.ARM64.Debug.Error-2.idtx:120 en_US.ARM64.Release.Error-2.idtx:120
 #: en_US.Win32.Debug.Error-2.idtx:120 en_US.Win32.Release.Error-2.idtx:120
 #: en_US.x64.Debug.Error-2.idtx:120 en_US.x64.Release.Error-2.idtx:120
 msgid "Configuration completed successfully."
 msgstr " Konfigurisanje je uspešno završeno."
 
+#: en_US.ARM64.Debug.Error-2.idtx:121 en_US.ARM64.Release.Error-2.idtx:121
 #: en_US.Win32.Debug.Error-2.idtx:121 en_US.Win32.Release.Error-2.idtx:121
 #: en_US.x64.Debug.Error-2.idtx:121 en_US.x64.Release.Error-2.idtx:121
 msgid "Configuration failed."
 msgstr " Neuspešno konfigurisanje."
 
+#: en_US.ARM64.Debug.Error-2.idtx:122 en_US.ARM64.Release.Error-2.idtx:122
 #: en_US.Win32.Debug.Error-2.idtx:122 en_US.Win32.Release.Error-2.idtx:122
 #: en_US.x64.Debug.Error-2.idtx:122 en_US.x64.Release.Error-2.idtx:122
 msgid ""
@@ -1649,6 +2027,7 @@ msgstr ""
 "administratorske privilegije ili se možete obratiti IT službi vaše "
 "institucije."
 
+#: en_US.ARM64.Debug.Error-2.idtx:123 en_US.ARM64.Release.Error-2.idtx:123
 #: en_US.Win32.Debug.Error-2.idtx:123 en_US.Win32.Release.Error-2.idtx:123
 #: en_US.x64.Debug.Error-2.idtx:123 en_US.x64.Release.Error-2.idtx:123
 msgid ""
@@ -1660,6 +2039,7 @@ msgstr ""
 " Pokušajte ponovo sa instalacijom uz korišćenje validne kopije instalacionog"
 " paketa '[3]'."
 
+#: en_US.ARM64.Debug.Error-2.idtx:124 en_US.ARM64.Release.Error-2.idtx:124
 #: en_US.Win32.Debug.Error-2.idtx:124 en_US.Win32.Release.Error-2.idtx:124
 #: en_US.x64.Debug.Error-2.idtx:124 en_US.x64.Release.Error-2.idtx:124
 msgid ""
@@ -1672,6 +2052,7 @@ msgstr ""
 " do toga da izgube sve promene koje nisu sačuvane. Da li želite da "
 "restartujete računar sada?"
 
+#: en_US.ARM64.Debug.Error-2.idtx:125 en_US.ARM64.Release.Error-2.idtx:125
 #: en_US.Win32.Debug.Error-2.idtx:125 en_US.Win32.Release.Error-2.idtx:125
 #: en_US.x64.Debug.Error-2.idtx:125 en_US.x64.Release.Error-2.idtx:125
 msgid ""
@@ -1683,11 +2064,13 @@ msgstr ""
 " ne bude u Safe Mode-u ili možete iskoristiti System Restore funkcionalnost "
 "da biste vratili računar u prethodno normalno stanje."
 
+#: en_US.ARM64.Debug.Error-2.idtx:126 en_US.ARM64.Release.Error-2.idtx:126
 #: en_US.Win32.Debug.Error-2.idtx:126 en_US.Win32.Release.Error-2.idtx:126
 #: en_US.x64.Debug.Error-2.idtx:126 en_US.x64.Release.Error-2.idtx:126
 msgid "The path [2] is not valid.  Please specify a valid path."
 msgstr "Putanja [2] nije validna.  Definišite validnu putanju."
 
+#: en_US.ARM64.Debug.Error-2.idtx:128 en_US.ARM64.Release.Error-2.idtx:128
 #: en_US.Win32.Debug.Error-2.idtx:128 en_US.Win32.Release.Error-2.idtx:128
 #: en_US.x64.Debug.Error-2.idtx:128 en_US.x64.Release.Error-2.idtx:128
 msgid ""
@@ -1697,6 +2080,7 @@ msgstr ""
 "Disk nije nađen u drajvu [2]. Ubacite disk i kliknite Retry ili kliknite "
 "Cancel kako biste se vratili na prethodno odabrani drajv."
 
+#: en_US.ARM64.Debug.Error-2.idtx:129 en_US.ARM64.Release.Error-2.idtx:129
 #: en_US.Win32.Debug.Error-2.idtx:129 en_US.Win32.Release.Error-2.idtx:129
 #: en_US.x64.Debug.Error-2.idtx:129 en_US.x64.Release.Error-2.idtx:129
 msgid ""
@@ -1706,6 +2090,7 @@ msgstr ""
 "Disk nije nađen u drajvu [2]. Ubacite disk i kliknite Retry ili kliknite "
 "Cancel kako biste se vratili na prethodni dijalog i odaberali drugi drajv."
 
+#: en_US.ARM64.Debug.Error-2.idtx:130 en_US.ARM64.Release.Error-2.idtx:130
 #: en_US.Win32.Debug.Error-2.idtx:130 en_US.Win32.Release.Error-2.idtx:130
 #: en_US.x64.Debug.Error-2.idtx:130 en_US.x64.Release.Error-2.idtx:130
 msgid ""
@@ -1713,21 +2098,25 @@ msgid ""
 msgstr ""
 "Direktorijum [2] ne postoji. Unesite putanju do postojećeg direktorijuma."
 
+#: en_US.ARM64.Debug.Error-2.idtx:131 en_US.ARM64.Release.Error-2.idtx:131
 #: en_US.Win32.Debug.Error-2.idtx:131 en_US.Win32.Release.Error-2.idtx:131
 #: en_US.x64.Debug.Error-2.idtx:131 en_US.x64.Release.Error-2.idtx:131
 msgid "You have insufficient privileges to read this folder."
 msgstr "Nemate dovoljno privilegija da pročitate sadržaj ovog direktorijuma."
 
+#: en_US.ARM64.Debug.Error-2.idtx:132 en_US.ARM64.Release.Error-2.idtx:132
 #: en_US.Win32.Debug.Error-2.idtx:132 en_US.Win32.Release.Error-2.idtx:132
 #: en_US.x64.Debug.Error-2.idtx:132 en_US.x64.Release.Error-2.idtx:132
 msgid "A valid destination folder for the install could not be determined."
 msgstr "Nije moguće odrediti odgovarajući odredišni direktorijum."
 
+#: en_US.ARM64.Debug.Error-2.idtx:133 en_US.ARM64.Release.Error-2.idtx:133
 #: en_US.Win32.Debug.Error-2.idtx:133 en_US.Win32.Release.Error-2.idtx:133
 #: en_US.x64.Debug.Error-2.idtx:133 en_US.x64.Release.Error-2.idtx:133
 msgid "Error attempting to read from the source install database: [2]."
 msgstr "Greška prilikom pokušaja čitanja instalacione baze: [2]."
 
+#: en_US.ARM64.Debug.Error-2.idtx:134 en_US.ARM64.Release.Error-2.idtx:134
 #: en_US.Win32.Debug.Error-2.idtx:134 en_US.Win32.Release.Error-2.idtx:134
 #: en_US.x64.Debug.Error-2.idtx:134 en_US.x64.Release.Error-2.idtx:134
 msgid ""
@@ -1737,6 +2126,7 @@ msgstr ""
 "Planiranje restarta: Promena imena fajla [2] u [3]. Sistem se mora "
 "restartovati da bi se operacija završila."
 
+#: en_US.ARM64.Debug.Error-2.idtx:135 en_US.ARM64.Release.Error-2.idtx:135
 #: en_US.Win32.Debug.Error-2.idtx:135 en_US.Win32.Release.Error-2.idtx:135
 #: en_US.x64.Debug.Error-2.idtx:135 en_US.x64.Release.Error-2.idtx:135
 msgid ""
@@ -1746,6 +2136,7 @@ msgstr ""
 "Planiranje restarta: Brisanje fajla [2]. Sistem se mora restartovati da bi "
 "se operacija završila."
 
+#: en_US.ARM64.Debug.Error-2.idtx:136 en_US.ARM64.Release.Error-2.idtx:136
 #: en_US.Win32.Debug.Error-2.idtx:136 en_US.Win32.Release.Error-2.idtx:136
 #: en_US.x64.Debug.Error-2.idtx:136 en_US.x64.Release.Error-2.idtx:136
 msgid ""
@@ -1755,6 +2146,7 @@ msgstr ""
 "Modul [2] nije uspešno registrovan. HRESULT [3]. Kontaktirajte IT službu "
 "vaše institucije."
 
+#: en_US.ARM64.Debug.Error-2.idtx:137 en_US.ARM64.Release.Error-2.idtx:137
 #: en_US.Win32.Debug.Error-2.idtx:137 en_US.Win32.Release.Error-2.idtx:137
 #: en_US.x64.Debug.Error-2.idtx:137 en_US.x64.Release.Error-2.idtx:137
 msgid ""
@@ -1764,6 +2156,7 @@ msgstr ""
 "Modul [2] nije uspešno registrovan. HRESULT [3]. Kontaktirajte IT službu "
 "vaše institucije."
 
+#: en_US.ARM64.Debug.Error-2.idtx:138 en_US.ARM64.Release.Error-2.idtx:138
 #: en_US.Win32.Debug.Error-2.idtx:138 en_US.Win32.Release.Error-2.idtx:138
 #: en_US.x64.Debug.Error-2.idtx:138 en_US.x64.Release.Error-2.idtx:138
 msgid ""
@@ -1772,6 +2165,7 @@ msgstr ""
 "Neuspešno keširanje paketa [2]. Greška: [3]. Kontaktirajte IT službu vaše "
 "institucije."
 
+#: en_US.ARM64.Debug.Error-2.idtx:139 en_US.ARM64.Release.Error-2.idtx:139
 #: en_US.Win32.Debug.Error-2.idtx:139 en_US.Win32.Release.Error-2.idtx:139
 #: en_US.x64.Debug.Error-2.idtx:139 en_US.x64.Release.Error-2.idtx:139
 msgid ""
@@ -1781,6 +2175,7 @@ msgstr ""
 "Nije moguće registrovati font: [2]. Proverite da li imate dovoljne "
 "privilegije da instalirate fontove ili kontaktiraje osobu za podršku."
 
+#: en_US.ARM64.Debug.Error-2.idtx:140 en_US.ARM64.Release.Error-2.idtx:140
 #: en_US.Win32.Debug.Error-2.idtx:140 en_US.Win32.Release.Error-2.idtx:140
 #: en_US.x64.Debug.Error-2.idtx:140 en_US.x64.Release.Error-2.idtx:140
 msgid ""
@@ -1790,6 +2185,7 @@ msgstr ""
 "Nije moguće registrovati font: [2]. Proverite da li imate dovoljne "
 "privilegije da ukolonite fontove."
 
+#: en_US.ARM64.Debug.Error-2.idtx:141 en_US.ARM64.Release.Error-2.idtx:141
 #: en_US.Win32.Debug.Error-2.idtx:141 en_US.Win32.Release.Error-2.idtx:141
 #: en_US.x64.Debug.Error-2.idtx:141 en_US.x64.Release.Error-2.idtx:141
 msgid ""
@@ -1799,6 +2195,7 @@ msgstr ""
 "Nije moguće napraviti prečicu: [2]. Proverite da li odredišni direktorijum "
 "postoji i da možete da mu pristupate."
 
+#: en_US.ARM64.Debug.Error-2.idtx:142 en_US.ARM64.Release.Error-2.idtx:142
 #: en_US.Win32.Debug.Error-2.idtx:142 en_US.Win32.Release.Error-2.idtx:142
 #: en_US.x64.Debug.Error-2.idtx:142 en_US.x64.Release.Error-2.idtx:142
 msgid ""
@@ -1808,6 +2205,7 @@ msgstr ""
 "Nije moguće ukloniti prečicu: [2]. Proverite da li fajl sa prečicom postoji "
 "i da možete da mu pristupate."
 
+#: en_US.ARM64.Debug.Error-2.idtx:143 en_US.ARM64.Release.Error-2.idtx:143
 #: en_US.Win32.Debug.Error-2.idtx:143 en_US.Win32.Release.Error-2.idtx:143
 #: en_US.x64.Debug.Error-2.idtx:143 en_US.x64.Release.Error-2.idtx:143
 msgid ""
@@ -1817,6 +2215,7 @@ msgstr ""
 "Fajl [2] za tipsku biblioteku nije uspešno registrovan. Kontaktirajte IT "
 "službu vaše institucije."
 
+#: en_US.ARM64.Debug.Error-2.idtx:144 en_US.ARM64.Release.Error-2.idtx:144
 #: en_US.Win32.Debug.Error-2.idtx:144 en_US.Win32.Release.Error-2.idtx:144
 #: en_US.x64.Debug.Error-2.idtx:144 en_US.x64.Release.Error-2.idtx:144
 msgid ""
@@ -1826,6 +2225,7 @@ msgstr ""
 "Fajl [2] za tipsku biblioteku nije moguće ukloniti iz registra. "
 "Kontaktirajte IT službu vaše institucije."
 
+#: en_US.ARM64.Debug.Error-2.idtx:145 en_US.ARM64.Release.Error-2.idtx:145
 #: en_US.Win32.Debug.Error-2.idtx:145 en_US.Win32.Release.Error-2.idtx:145
 #: en_US.x64.Debug.Error-2.idtx:145 en_US.x64.Release.Error-2.idtx:145
 msgid ""
@@ -1835,6 +2235,7 @@ msgstr ""
 "Nije moguće ažurirati ini fajl [2][3]. Proverite da li fajl postoji i da li "
 "možete da mu pristupite."
 
+#: en_US.ARM64.Debug.Error-2.idtx:146 en_US.ARM64.Release.Error-2.idtx:146
 #: en_US.Win32.Debug.Error-2.idtx:146 en_US.Win32.Release.Error-2.idtx:146
 #: en_US.x64.Debug.Error-2.idtx:146 en_US.x64.Release.Error-2.idtx:146
 msgid ""
@@ -1844,6 +2245,7 @@ msgstr ""
 "Nije bilo moguće podesiti da fajl [2] zameni fajl [3] nakon restarta. "
 "Proverite da li imate privilegije za upis u fajl [3]. "
 
+#: en_US.ARM64.Debug.Error-2.idtx:147 en_US.ARM64.Release.Error-2.idtx:147
 #: en_US.Win32.Debug.Error-2.idtx:147 en_US.Win32.Release.Error-2.idtx:147
 #: en_US.x64.Debug.Error-2.idtx:147 en_US.x64.Release.Error-2.idtx:147
 msgid ""
@@ -1853,6 +2255,7 @@ msgstr ""
 "Greška prilikom uklanjanja ODBC drajver menadžera, ODBC greška [2]: [3]. "
 "Kontaktirajte IT službu vaše institucije."
 
+#: en_US.ARM64.Debug.Error-2.idtx:148 en_US.ARM64.Release.Error-2.idtx:148
 #: en_US.Win32.Debug.Error-2.idtx:148 en_US.Win32.Release.Error-2.idtx:148
 #: en_US.x64.Debug.Error-2.idtx:148 en_US.x64.Release.Error-2.idtx:148
 msgid ""
@@ -1862,6 +2265,7 @@ msgstr ""
 "Greška prilikom instalacije ODBC drajver menadžera, ODBC greška [2]: [3]. "
 "Kontaktirajte IT službu vaše institucije."
 
+#: en_US.ARM64.Debug.Error-2.idtx:149 en_US.ARM64.Release.Error-2.idtx:149
 #: en_US.Win32.Debug.Error-2.idtx:149 en_US.Win32.Release.Error-2.idtx:149
 #: en_US.x64.Debug.Error-2.idtx:149 en_US.x64.Release.Error-2.idtx:149
 msgid ""
@@ -1871,6 +2275,7 @@ msgstr ""
 "Greška prilikom uklanjanja ODBC drajvera: [4], ODBC greška [2]: [3]. "
 "Proverite da li imate dovoljne privilegije da ukolonite ODBC drajvere."
 
+#: en_US.ARM64.Debug.Error-2.idtx:150 en_US.ARM64.Release.Error-2.idtx:150
 #: en_US.Win32.Debug.Error-2.idtx:150 en_US.Win32.Release.Error-2.idtx:150
 #: en_US.x64.Debug.Error-2.idtx:150 en_US.x64.Release.Error-2.idtx:150
 msgid ""
@@ -1880,6 +2285,7 @@ msgstr ""
 "Greška prilikom instalacije ODBC drajvera: [4], ODBC greška [2]: [3]. "
 "Proverite da li fajl [4] postoji i da li možete da mu pristupite."
 
+#: en_US.ARM64.Debug.Error-2.idtx:151 en_US.ARM64.Release.Error-2.idtx:151
 #: en_US.Win32.Debug.Error-2.idtx:151 en_US.Win32.Release.Error-2.idtx:151
 #: en_US.x64.Debug.Error-2.idtx:151 en_US.x64.Release.Error-2.idtx:151
 msgid ""
@@ -1889,6 +2295,7 @@ msgstr ""
 "Greška prilikom konfiguracije ODBC izvora podataka: [4], ODBC greška [2]: "
 "[3]. Proverite da li fajl [4] postoji i da li možete da mu pristupite."
 
+#: en_US.ARM64.Debug.Error-2.idtx:152 en_US.ARM64.Release.Error-2.idtx:152
 #: en_US.Win32.Debug.Error-2.idtx:152 en_US.Win32.Release.Error-2.idtx:152
 #: en_US.x64.Debug.Error-2.idtx:152 en_US.x64.Release.Error-2.idtx:152
 msgid ""
@@ -1898,6 +2305,7 @@ msgstr ""
 "Servis '[2]' ([3]) nije moguće pokrenuti. Proverite da li imate dovoljne "
 "privilegije za pokretanje sistemskih servisa."
 
+#: en_US.ARM64.Debug.Error-2.idtx:153 en_US.ARM64.Release.Error-2.idtx:153
 #: en_US.Win32.Debug.Error-2.idtx:153 en_US.Win32.Release.Error-2.idtx:153
 #: en_US.x64.Debug.Error-2.idtx:153 en_US.x64.Release.Error-2.idtx:153
 msgid ""
@@ -1907,6 +2315,7 @@ msgstr ""
 "Servis '[2]' ([3]) nije moguće prekinuti. Proverite da li imate dovoljne "
 "privilegije za zaustavljanje sistemskih servisa."
 
+#: en_US.ARM64.Debug.Error-2.idtx:154 en_US.ARM64.Release.Error-2.idtx:154
 #: en_US.Win32.Debug.Error-2.idtx:154 en_US.Win32.Release.Error-2.idtx:154
 #: en_US.x64.Debug.Error-2.idtx:154 en_US.x64.Release.Error-2.idtx:154
 msgid ""
@@ -1916,6 +2325,7 @@ msgstr ""
 "Servis '[2]' ([3]) nije moguće ukloniti. Proverite da li imate dovoljne "
 "privilegije za uklanjanje sistemskih servisa."
 
+#: en_US.ARM64.Debug.Error-2.idtx:155 en_US.ARM64.Release.Error-2.idtx:155
 #: en_US.Win32.Debug.Error-2.idtx:155 en_US.Win32.Release.Error-2.idtx:155
 #: en_US.x64.Debug.Error-2.idtx:155 en_US.x64.Release.Error-2.idtx:155
 msgid ""
@@ -1925,6 +2335,7 @@ msgstr ""
 "Servis '[2]' ([3]) nije moguće instalirati. Proverite da li imate dovoljne "
 "privilegije za instaliranje sistemskih servisa."
 
+#: en_US.ARM64.Debug.Error-2.idtx:156 en_US.ARM64.Release.Error-2.idtx:156
 #: en_US.Win32.Debug.Error-2.idtx:156 en_US.Win32.Release.Error-2.idtx:156
 #: en_US.x64.Debug.Error-2.idtx:156 en_US.x64.Release.Error-2.idtx:156
 msgid ""
@@ -1934,6 +2345,7 @@ msgstr ""
 "Nije moguće ažurirati promenjlivu '[2]'. Proverite da li imate dovoljne "
 "privilegije za menjanje promenljivih."
 
+#: en_US.ARM64.Debug.Error-2.idtx:157 en_US.ARM64.Release.Error-2.idtx:157
 #: en_US.Win32.Debug.Error-2.idtx:157 en_US.Win32.Release.Error-2.idtx:157
 #: en_US.x64.Debug.Error-2.idtx:157 en_US.x64.Release.Error-2.idtx:157
 msgid ""
@@ -1945,6 +2357,7 @@ msgstr ""
 "ovog uređaja. Ulogujte se sa administratorskim privilegijama i pokušajte "
 "ponovo."
 
+#: en_US.ARM64.Debug.Error-2.idtx:158 en_US.ARM64.Release.Error-2.idtx:158
 #: en_US.Win32.Debug.Error-2.idtx:158 en_US.Win32.Release.Error-2.idtx:158
 #: en_US.x64.Debug.Error-2.idtx:158 en_US.x64.Release.Error-2.idtx:158
 msgid ""
@@ -1955,6 +2368,7 @@ msgstr ""
 "Proverite da li imate dovoljne privilegije da menjate bezbednosne permisije "
 "za ovaj fajl."
 
+#: en_US.ARM64.Debug.Error-2.idtx:159 en_US.ARM64.Release.Error-2.idtx:159
 #: en_US.Win32.Debug.Error-2.idtx:159 en_US.Win32.Release.Error-2.idtx:159
 #: en_US.x64.Debug.Error-2.idtx:159 en_US.x64.Release.Error-2.idtx:159
 msgid ""
@@ -1966,6 +2380,7 @@ msgstr ""
 "instalacija zahteva Component Services da bi se završila uspešno. Component "
 "Services se mogu naći na Windows 2000 operativnom sistemu."
 
+#: en_US.ARM64.Debug.Error-2.idtx:160 en_US.ARM64.Release.Error-2.idtx:160
 #: en_US.Win32.Debug.Error-2.idtx:160 en_US.Win32.Release.Error-2.idtx:160
 #: en_US.x64.Debug.Error-2.idtx:160 en_US.x64.Release.Error-2.idtx:160
 msgid ""
@@ -1975,6 +2390,7 @@ msgstr ""
 "Greška prilikom registrovanja COM+ aplikacije. Kontaktirajte IT službu vaše "
 "institucije za više informacija."
 
+#: en_US.ARM64.Debug.Error-2.idtx:161 en_US.ARM64.Release.Error-2.idtx:161
 #: en_US.Win32.Debug.Error-2.idtx:161 en_US.Win32.Release.Error-2.idtx:161
 #: en_US.x64.Debug.Error-2.idtx:161 en_US.x64.Release.Error-2.idtx:161
 msgid ""
@@ -1984,11 +2400,13 @@ msgstr ""
 "Greška prilikom uklanjanja COM+ aplikacije iz registra. Kontaktirajte IT "
 "službu vaše institucije za više informacija."
 
+#: en_US.ARM64.Debug.Error-2.idtx:162 en_US.ARM64.Release.Error-2.idtx:162
 #: en_US.Win32.Debug.Error-2.idtx:162 en_US.Win32.Release.Error-2.idtx:162
 #: en_US.x64.Debug.Error-2.idtx:162 en_US.x64.Release.Error-2.idtx:162
 msgid "The description for service '[2]' ([3]) could not be changed."
 msgstr "Opis za servis '[2]' ([3]) ne može biti promenjen."
 
+#: en_US.ARM64.Debug.Error-2.idtx:163 en_US.ARM64.Release.Error-2.idtx:163
 #: en_US.Win32.Debug.Error-2.idtx:163 en_US.Win32.Release.Error-2.idtx:163
 #: en_US.x64.Debug.Error-2.idtx:163 en_US.x64.Release.Error-2.idtx:163
 msgid ""
@@ -2001,6 +2419,7 @@ msgstr ""
 "zaštićen. Možda je potrebno da ažurirate operativni sistem kako bi program "
 "radio ispravno. {{Verzija paketa: [3], OS zaštićena verzija: [4]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:164 en_US.ARM64.Release.Error-2.idtx:164
 #: en_US.Win32.Debug.Error-2.idtx:164 en_US.Win32.Release.Error-2.idtx:164
 #: en_US.x64.Debug.Error-2.idtx:164 en_US.x64.Release.Error-2.idtx:164
 msgid ""
@@ -2010,6 +2429,7 @@ msgstr ""
 "Windows Installer nije mogao da ažurira zaštićeni fajl [2]. {{Verzija "
 "paketa: [3], OS zaštićena verzija: [4], SFP greška: [5]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:165 en_US.ARM64.Release.Error-2.idtx:165
 #: en_US.Win32.Debug.Error-2.idtx:165 en_US.Win32.Release.Error-2.idtx:165
 #: en_US.x64.Debug.Error-2.idtx:165 en_US.x64.Release.Error-2.idtx:165
 msgid ""
@@ -2019,6 +2439,7 @@ msgstr ""
 "Windows Installer nije mogao da ažurira jedan ili više zaštićenih fajlova.  "
 "{{SFP greška: [2]. Lista zaštićenih fajlova:\\r\\n[3]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:166 en_US.ARM64.Release.Error-2.idtx:166
 #: en_US.Win32.Debug.Error-2.idtx:166 en_US.Win32.Release.Error-2.idtx:166
 #: en_US.x64.Debug.Error-2.idtx:166 en_US.x64.Release.Error-2.idtx:166
 msgid "User installations are disabled via policy on the machine."
@@ -2026,6 +2447,7 @@ msgstr ""
 "Korisničke instalacije su zabranjene zbog pravila primenjenih na ovaj "
 "uređaj."
 
+#: en_US.ARM64.Debug.Error-2.idtx:167 en_US.ARM64.Release.Error-2.idtx:167
 #: en_US.Win32.Debug.Error-2.idtx:167 en_US.Win32.Release.Error-2.idtx:167
 #: en_US.x64.Debug.Error-2.idtx:167 en_US.x64.Release.Error-2.idtx:167
 msgid ""
@@ -2037,6 +2459,7 @@ msgstr ""
 "Pomoć i podršku za više informacija. {{HRESULT: [3]. assembly interface: "
 "[4], function: [5], component: [2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:168 en_US.ARM64.Release.Error-2.idtx:168
 #: en_US.Win32.Debug.Error-2.idtx:168 en_US.Win32.Release.Error-2.idtx:168
 #: en_US.x64.Debug.Error-2.idtx:168 en_US.x64.Release.Error-2.idtx:168
 msgid ""
@@ -2049,6 +2472,7 @@ msgstr ""
 "preporučenu dužinu. {{HRESULT: [3]. assembly interface: [4], function: [5], "
 "component: [2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:169 en_US.ARM64.Release.Error-2.idtx:169
 #: en_US.Win32.Debug.Error-2.idtx:169 en_US.Win32.Release.Error-2.idtx:169
 #: en_US.x64.Debug.Error-2.idtx:169 en_US.x64.Release.Error-2.idtx:169
 msgid ""
@@ -2060,6 +2484,7 @@ msgstr ""
 "katalog nije moguće verifikovati ili jedan od ova dva fajla nije validan. "
 "{{HRESULT: [3]. assembly interface: [4], function: [5], component: [2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:170 en_US.ARM64.Release.Error-2.idtx:170
 #: en_US.Win32.Debug.Error-2.idtx:170 en_US.Win32.Release.Error-2.idtx:170
 #: en_US.x64.Debug.Error-2.idtx:170 en_US.x64.Release.Error-2.idtx:170
 msgid ""
@@ -2071,6 +2496,7 @@ msgstr ""
 "naći jedan ili više modula koji pripadaju assembly fajlu. {{HRESULT: [3]. "
 "assembly interface: [4], function: [5], component: [2]}}"
 
+#: en_US.ARM64.Debug.Error-2.idtx:171 en_US.ARM64.Release.Error-2.idtx:171
 #: en_US.Win32.Debug.Error-2.idtx:171 en_US.Win32.Release.Error-2.idtx:171
 #: en_US.x64.Debug.Error-2.idtx:171 en_US.x64.Release.Error-2.idtx:171
 msgid ""
@@ -2079,6 +2505,7 @@ msgstr ""
 "Pokušaj izvršavanja operacije za 64bitni registar nad 32bitnim operativnim "
 "sistemom za ključ [2].  "
 
+#: en_US.ARM64.Debug.Error-2.idtx:172 en_US.ARM64.Release.Error-2.idtx:172
 #: en_US.Win32.Debug.Error-2.idtx:172 en_US.Win32.Release.Error-2.idtx:172
 #: en_US.x64.Debug.Error-2.idtx:172 en_US.x64.Release.Error-2.idtx:172
 msgid ""
@@ -2087,3 +2514,14 @@ msgid ""
 msgstr ""
 "Ova verzija Windows operativnog sistema ne podržava 64bitne pakete. Skripta "
 "[2] je namenjena za 64bitni sistem."
+
+#: en_US.Win32.Debug.CustomAction-2.idtx:4
+#: en_US.Win32.Release.CustomAction-2.idtx:4
+msgid ""
+"You are attempting to install the 32-bit variant of [SimpleProductName] on a"
+" 64-bit operating system. 32-bit variant will not work with your operating "
+"system. The installation of the 64-bit variant is recommended."
+msgstr ""
+"Pokušavate da instalirate 32-bitnu verziju [SimpleProductName] na 65-bitnom "
+"operativnom sistemu. 32-bitna verzija neće raditi sa vašim operativnim "
+"sistemom. Preporučena ja instalacija 64-bitne verzije."
