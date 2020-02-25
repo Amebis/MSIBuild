@@ -2,11 +2,12 @@
 # Simon Rozman <simon@rozman.si>, 2018
 # Denis Renzi <itis05@virgilio.it>, 2020
 # 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MSIBuild Core\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-22 10:26+0100\n"
+"POT-Creation-Date: 2020-02-24 15:49+0100\n"
 "PO-Revision-Date: 2018-09-19 09:17+0000\n"
 "Last-Translator: Denis Renzi <itis05@virgilio.it>, 2020\n"
 "Language-Team: Italian (Italy) (https://www.transifex.com/amebis/teams/91604/it_IT/)\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it_IT\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.3\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -993,6 +994,22 @@ msgstr "Valutazione dei componenti di installazione attiva"
 #: en_US.x64.Debug.ActionText-2.idtx:75 en_US.x64.Release.ActionText-2.idtx:75
 msgid "Publishing Active Setup components"
 msgstr "Pubblicazione di componenti di installazione attiva"
+
+#: en_US.ARM64.Debug.ActionText-2.idtx:76
+#: en_US.ARM64.Release.ActionText-2.idtx:76
+#: en_US.Win32.Debug.ActionText-2.idtx:76
+#: en_US.Win32.Release.ActionText-2.idtx:76
+#: en_US.x64.Debug.ActionText-2.idtx:76 en_US.x64.Release.ActionText-2.idtx:76
+msgid "Evaluating Active Setup products to fix"
+msgstr ""
+
+#: en_US.ARM64.Debug.ActionText-2.idtx:77
+#: en_US.ARM64.Release.ActionText-2.idtx:77
+#: en_US.Win32.Debug.ActionText-2.idtx:77
+#: en_US.Win32.Release.ActionText-2.idtx:77
+#: en_US.x64.Debug.ActionText-2.idtx:77 en_US.x64.Release.ActionText-2.idtx:77
+msgid "Fixing Active Setup products"
+msgstr ""
 
 #: en_US.ARM64.Debug.CustomAction-2.idtx:4
 #: en_US.ARM64.Release.CustomAction-2.idtx:4
