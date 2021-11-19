@@ -143,21 +143,26 @@ function Time2Str(date)
 function CodePageToId(codepage)
 {
 	switch (codepage) {
-		case 932 : return "shift-jis";
-		case 936 : return "gb2312";
-		case 949 : return "euc-kr";
-		case 950 : return "big5";
-		case 874 :
-		case 1250:
-		case 1251:
-		case 1252:
-		case 1253:
-		case 1254:
-		case 1255:
-		case 1256:
-		case 1257:
-		case 1258: return "windows-" + codepage;
-		default  : throw new Error("Unsupported code page.");
+		case 0: {
+			var wsh = new ActiveXObject("WScript.Shell");
+			return CodePageToId(parseInt(wsh.RegRead("HKLM\\SYSTEM\\CurrentControlSet\\Control\\Nls\\CodePage\\ACP"), 10));
+		}
+		case 932  : return "shift-jis";
+		case 936  : return "gb2312";
+		case 949  : return "euc-kr";
+		case 950  : return "big5";
+		case 874  :
+		case 1250 :
+		case 1251 :
+		case 1252 :
+		case 1253 :
+		case 1254 :
+		case 1255 :
+		case 1256 :
+		case 1257 :
+		case 1258 : return "windows-" + codepage.toString(10);
+		case 65001: return "utf-8";
+		default   : throw new Error("Unsupported code page.");
 	}
 }
 

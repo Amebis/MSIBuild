@@ -568,7 +568,7 @@
 			<description>Translate IDT file.</description>
 			<unnamed name="&lt;destination.idt&gt;" helpstring="Translated IDT file" required="true"/>
 			<unnamed name="&lt;source.idt&gt;" helpstring="Original IDT file" required="true"/>
-			<unnamed name="&lt;catalogue.po&gt;" helpstring="PO catalog file with translations" required="true"/>
+			<unnamed name="&lt;catalogue.po&gt;" helpstring="PO catalog file with translations" required="false"/>
 			<named name="CP" helpstring="Output code page" type="string" required="false"/>
 		</runtime>
 		<reference object="ADODB.Stream"/>
@@ -577,7 +577,7 @@
 		<script language="JScript" src="PO.js"/>
 		<script language="JScript" src="String.js"/>
 		<script language="JScript"><![CDATA[
-			if (WScript.Arguments.Unnamed.Length < 3) {
+			if (WScript.Arguments.Unnamed.Length < 2) {
 				WScript.Arguments.ShowUsage();
 				WScript.Quit(1);
 			}
@@ -587,16 +587,17 @@
 				idt_dst_path = WScript.Arguments.Unnamed(0);
 
 			try {
-				// Open and parse source IDT file and PO catalogue.
-				var
-					idt_src = new IDT(WScript.Arguments.Unnamed(1)),
-					po      = new POCatalog(WScript.Arguments.Unnamed(2));
+				// Open and parse source IDT file.
+				var idt_src = new IDT(WScript.Arguments.Unnamed(1));
 
-				// Translate records.
-				for (var key in idt_src.data) {
-					for (var col in idt_src.types) {
-						if (idt_src.isLocalizable(col) && idt_src.data[key][col] != "")
-							idt_src.data[key][col] = po.translate(idt_src.data[key][col]);
+				if (WScript.Arguments.Unnamed.Length >= 3) {
+					// Translate records.
+					var po = new POCatalog(WScript.Arguments.Unnamed(2));
+					for (var key in idt_src.data) {
+						for (var col in idt_src.types) {
+							if (idt_src.isLocalizable(col) && idt_src.data[key][col] != "")
+								idt_src.data[key][col] = po.translate(idt_src.data[key][col]);
+						}
 					}
 				}
 

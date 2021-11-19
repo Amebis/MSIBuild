@@ -93,7 +93,7 @@ function IDT(path)
 		// Parse meta info
 		var line = parseRow(dat.ReadText(adReadLine).split("\t")), i = 0;
 		this.codepage = parseInt(line[i], 10);
-		if (isNaN(this.codepage)) this.codepage = 1252; else i++;
+		if (isNaN(this.codepage)) this.codepage = 0; else i++;
 		this.table = line[i++];
 		this.key = line.slice(i);
 		for (var i in this.key) {
@@ -315,8 +315,8 @@ IDT.prototype.save = function(path)
 		dat.WriteText(buildRow(this.columns).join("\t"), adWriteLine);
 		dat.WriteText(buildRow(this.types  ).join("\t"), adWriteLine);
 		var meta = new Array();
-		if (WScript.Arguments.Named.Exists("CP"))
-			meta.push(WScript.Arguments.Named("CP"));
+		if ("codepage" in this)
+			meta.push(this.codepage.toString(10));
 		meta.push(this.table);
 		for (var key in this.key)
 			meta.push(this.columns[this.key[key]]);
