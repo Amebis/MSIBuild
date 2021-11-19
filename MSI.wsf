@@ -529,24 +529,28 @@
 
 				// Build translations.
 				for (var i = 1, argc = WScript.Arguments.Unnamed.Length; i < argc; i++) {
-					// Open and parse IDT file(s).
-					var
-						idt_src_path = WScript.Arguments.Unnamed(i),
-						idt_src      = new IDT(idt_src_path);
+					try {
+						// Open and parse IDT file(s).
+						var
+							idt_src_path = WScript.Arguments.Unnamed(i),
+							idt_src      = new IDT(idt_src_path);
 
-					for (var key in idt_src.data) {
-						for (var col in idt_src.types)
-							if (idt_src.isLocalizable(col) && idt_src.data[key][col] != "") {
-								var src = idt_src.data[key][col];
-								var t = po.search(src);
-								if (t) {
-									// Text-to-translate already present. Add source to the list.
-									t["#"] += " " + idt_src_path + ":" + idt_src.linenum[key];
-								} else {
-									// Add text-to-translate.
-									po.push(src, "", false, "#: " + idt_src_path + ":" + idt_src.linenum[key]);
+						for (var key in idt_src.data) {
+							for (var col in idt_src.types)
+								if (idt_src.isLocalizable(col) && idt_src.data[key][col] != "") {
+									var src = idt_src.data[key][col];
+									var t = po.search(src);
+									if (t) {
+										// Text-to-translate already present. Add source to the list.
+										t["#"] += " " + idt_src_path + ":" + idt_src.linenum[key];
+									} else {
+										// Add text-to-translate.
+										po.push(src, "", false, "#: " + idt_src_path + ":" + idt_src.linenum[key]);
+									}
 								}
-							}
+						}
+					} catch (err) {
+						throw new Error(err.number, "" + WScript.Arguments.Unnamed(i) + ": " + err.description);
 					}
 				}
 
