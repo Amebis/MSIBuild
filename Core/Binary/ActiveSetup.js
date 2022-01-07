@@ -1,7 +1,7 @@
 /*
  *  MSIBuild — MSI packaging
  *
- *  Copyright (C) 2018-2021 Amebis <info@amebis.si>
+ *  Copyright (C) 2018-2022 Amebis <info@amebis.si>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License version 2
