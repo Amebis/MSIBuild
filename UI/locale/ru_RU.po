@@ -76,8 +76,8 @@ msgstr ""
 #: en_US.x64.Release.Control-2.idtx:82 en_US.x64.Release.Control-2.idtx:100
 #: en_US.x64.Release.Control-2.idtx:107 en_US.x64.Release.Control-2.idtx:110
 #: en_US.x64.Release.Control-2.idtx:115
-msgid "binUIHeader.bmp"
-msgstr "binUIHeader.bmp"
+msgid "UIHeader.bmp"
+msgstr "UIHeader.bmp"
 
 #: en_US.ARM64.Debug.Control-2.idtx:5 en_US.ARM64.Release.Control-2.idtx:5
 #: en_US.Win32.Debug.Control-2.idtx:5 en_US.Win32.Release.Control-2.idtx:5
@@ -307,8 +307,8 @@ msgstr "Смотреть в:"
 #: en_US.Win32.Release.Control-2.idtx:51 en_US.Win32.Release.Control-2.idtx:62
 #: en_US.x64.Debug.Control-2.idtx:48 en_US.x64.Debug.Control-2.idtx:59
 #: en_US.x64.Release.Control-2.idtx:48 en_US.x64.Release.Control-2.idtx:59
-msgid "binUIFolderUp.ico"
-msgstr "binUIFolderUp.ico"
+msgid "UIFolderUp.ico"
+msgstr "UIFolderUp.ico"
 
 #: en_US.ARM64.Debug.Control-2.idtx:48 en_US.ARM64.Debug.Control-2.idtx:59
 #: en_US.ARM64.Release.Control-2.idtx:48 en_US.ARM64.Release.Control-2.idtx:59
@@ -325,8 +325,8 @@ msgstr "На один уровень вверх|"
 #: en_US.Win32.Release.Control-2.idtx:52 en_US.Win32.Release.Control-2.idtx:63
 #: en_US.x64.Debug.Control-2.idtx:49 en_US.x64.Debug.Control-2.idtx:60
 #: en_US.x64.Release.Control-2.idtx:49 en_US.x64.Release.Control-2.idtx:60
-msgid "binUIFolderNew.ico"
-msgstr "binUIFolderNew.ico"
+msgid "UIFolderNew.ico"
+msgstr "UIFolderNew.ico"
 
 #: en_US.ARM64.Debug.Control-2.idtx:49 en_US.ARM64.Debug.Control-2.idtx:60
 #: en_US.ARM64.Release.Control-2.idtx:49 en_US.ARM64.Release.Control-2.idtx:60
@@ -504,8 +504,8 @@ msgstr "[WaitMessage] "
 #: en_US.Win32.Release.Control-2.idtx:90 en_US.Win32.Release.Control-2.idtx:94
 #: en_US.x64.Debug.Control-2.idtx:87 en_US.x64.Debug.Control-2.idtx:91
 #: en_US.x64.Release.Control-2.idtx:87 en_US.x64.Release.Control-2.idtx:91
-msgid "binUIInfo.ico"
-msgstr "binUIInfo.ico"
+msgid "UIInfo.ico"
+msgstr "UIInfo.ico"
 
 #: en_US.ARM64.Debug.Control-2.idtx:87 en_US.ARM64.Debug.Control-2.idtx:91
 #: en_US.ARM64.Release.Control-2.idtx:87 en_US.ARM64.Release.Control-2.idtx:91
@@ -1093,8 +1093,8 @@ msgid "Volume"
 msgstr "Том"
 
 #: en_US.Win32.Debug.Control-2.idtx:16 en_US.Win32.Release.Control-2.idtx:16
-msgid "binUIWarning.ico"
-msgstr "binUIWarning.ico"
+msgid "UIWarning.ico"
+msgstr "UIWarning.ico"
 
 #: en_US.Win32.Debug.Control-2.idtx:16 en_US.Win32.Release.Control-2.idtx:16
 msgid "Exclamation icon|"
