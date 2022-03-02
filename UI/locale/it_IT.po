@@ -1,6 +1,7 @@
+# 
 # Translators:
-# Simon Rozman <simon@rozman.si>, 2018
 # Denis Renzi <itis05@virgilio.it>, 2020
+# Simon Rozman <simon@rozman.si>, 2022
 # 
 #, fuzzy
 msgid ""
@@ -9,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 15:49+0100\n"
 "PO-Revision-Date: 2018-09-19 09:29+0000\n"
-"Last-Translator: Denis Renzi <itis05@virgilio.it>, 2020\n"
+"Last-Translator: Simon Rozman <simon@rozman.si>, 2022\n"
 "Language-Team: Italian (Italy) (https://www.transifex.com/amebis/teams/91604/it_IT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
